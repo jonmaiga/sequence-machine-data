@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k in base 10 contains the same digits as k in some other base.",
+  "id": "A308493",
+  "mentions": [
+    "A034294",
+    "A037415",
+    "A037422",
+    "A037428",
+    "A037433",
+    "A037437",
+    "A037440",
+    "A037442",
+    "A037443",
+    "A249899",
+    "A307498"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

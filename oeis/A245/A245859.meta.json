@@ -1,0 +1,21 @@
+{
+  "description": "Number of preferential arrangements of n labeled elements such that the minimal number of elements per rank equals 6.",
+  "id": "A245859",
+  "mentions": [
+    "A245732",
+    "A245733",
+    "A245791",
+    "A245792"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 6,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

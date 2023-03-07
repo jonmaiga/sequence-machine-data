@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with 2 or more chained distinct prime factors: the last digit of every prime factor is the same as the first digit of the next prime factor. Prime factors must be in ascending order.",
+  "id": "A308099",
+  "mentions": [
+    "A307858",
+    "A308101",
+    "A308252"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

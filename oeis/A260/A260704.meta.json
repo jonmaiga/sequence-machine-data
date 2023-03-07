@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of distinct divisors of A260703(n) having the property that the reversal of one is equal to the other.",
+  "id": "A260704",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A083815",
+    "A260703",
+    "A260705"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

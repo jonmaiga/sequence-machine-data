@@ -1,0 +1,19 @@
+{
+  "description": "Square root of the determinant of the 3 X 3 matrix [prime(k), prime(k+1), prime(k+2); prime(k+3), prime(k+4), prime(k+5); prime(k+6), prime(k+7), prime(k+8)] when that determinant is a square.",
+  "id": "A340874",
+  "mentions": [
+    "A117330",
+    "A340869"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

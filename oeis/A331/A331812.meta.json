@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer solutions to x^3 + y^3 = n.",
+  "id": "A331812",
+  "mentions": [
+    "A003325",
+    "A045980",
+    "A175362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

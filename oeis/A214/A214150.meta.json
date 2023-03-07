@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p such that the factorization of p^2 - 25 contains n consecutive primes beginning with prime(4)=7.",
+  "id": "A214150",
+  "mentions": [
+    "A214089",
+    "A214149"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

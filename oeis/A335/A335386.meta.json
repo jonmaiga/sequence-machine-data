@@ -1,0 +1,27 @@
+{
+  "description": "Tri-unitary highly composite numbers: where the number of tri-unitary divisors (A335385) increases to a record.",
+  "id": "A335386",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A037992",
+    "A293185",
+    "A306736",
+    "A307845",
+    "A309141",
+    "A318278",
+    "A322484",
+    "A335385"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

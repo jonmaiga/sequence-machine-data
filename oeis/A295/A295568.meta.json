@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle, read by rows: the Catalan generating tree, read from left to right, row by row, starting at the root.",
+  "id": "A295568",
+  "mentions": [
+    "A000108",
+    "A076050",
+    "A295569"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

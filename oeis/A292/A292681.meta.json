@@ -1,0 +1,22 @@
+{
+  "description": "Rule 6: (000, ..., 111) -> (0, 1, 1, 0, 0, 0, 0, 0), without extending to the right of input bit 0.",
+  "id": "A292681",
+  "mentions": [
+    "A019590",
+    "A266178",
+    "A266179",
+    "A266180",
+    "A292680"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

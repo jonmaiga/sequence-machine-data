@@ -1,0 +1,18 @@
+{
+  "description": "Doubled Fibonacci word: the A003842 sequence replacing 1 with 1,1 and 2 with 2,2.",
+  "id": "A214211",
+  "mentions": [
+    "A003842",
+    "A095190"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 191,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "First primitive GF(2)[X] polynomials of degree n and minimal number of terms, expressed as -k for X^n+X^k+1, else with X^n suppressed.",
+  "id": "A132454",
+  "mentions": [
+    "A073726",
+    "A074744",
+    "A091250",
+    "A132448",
+    "A132450",
+    "A132452",
+    "A132453"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

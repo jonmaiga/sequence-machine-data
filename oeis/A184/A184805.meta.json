@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form floor(k*s), where s=(5+sqrt(5))/4.",
+  "id": "A184805",
+  "mentions": [
+    "A108598",
+    "A184774",
+    "A184802",
+    "A184806",
+    "A184807"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

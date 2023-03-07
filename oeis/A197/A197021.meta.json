@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the radius of the circle tangent to the curve y=cos(3x) at points (x,y) and (-x,y), where 0",
+  "id": "A197021",
+  "mentions": [
+    "A196022",
+    "A196026",
+    "A197016",
+    "A197020",
+    "A197027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

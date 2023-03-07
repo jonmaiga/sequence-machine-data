@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - 3^(k-1)*x^k).",
+  "id": "A352786",
+  "mentions": [
+    "A003056",
+    "A032308",
+    "A242587",
+    "A261582",
+    "A292128",
+    "A300579",
+    "A337299",
+    "A344062",
+    "A352762"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of \"beta\", a Kneser-Mahler polynomial constant (a constant related to the asymptotic evaluation of the supremum norm of polynomials).",
+  "id": "A242710",
+  "mentions": [
+    "A122722",
+    "A130834",
+    "A143298",
+    "A229728",
+    "A244996"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

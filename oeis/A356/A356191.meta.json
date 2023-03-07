@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is the smallest exponentially odd number that is divisible by n.",
+  "id": "A356191",
+  "mentions": [
+    "A007913",
+    "A053143",
+    "A053149",
+    "A053167",
+    "A064549",
+    "A066638",
+    "A087320",
+    "A087321",
+    "A197863",
+    "A268335",
+    "A336643",
+    "A350390",
+    "A356192",
+    "A356193",
+    "A356194"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

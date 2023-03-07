@@ -1,0 +1,22 @@
+{
+  "description": "Left-truncatable primes that contain one or more zero digits.",
+  "id": "A144714",
+  "mentions": [
+    "A020994",
+    "A024770",
+    "A024785",
+    "A033664",
+    "A132394"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

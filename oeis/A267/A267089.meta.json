@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is decimal conversion of 1's in an n X n table that lie on its principal diagonals.",
+  "id": "A267089",
+  "mentions": [
+    "A042948",
+    "A083318",
+    "A086066",
+    "A137932"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

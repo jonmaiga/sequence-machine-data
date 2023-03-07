@@ -1,0 +1,27 @@
+{
+  "description": "Number of unlabeled rooted identity trees with n nodes in which the branches of any node with more than one branch have empty intersection.",
+  "id": "A316500",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A007562",
+    "A078374",
+    "A289509",
+    "A316469",
+    "A316471",
+    "A316474",
+    "A316501",
+    "A316503"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least m such that d(n^m) > n, where d(n) is the number of divisors of n.",
+  "id": "A270443",
+  "mentions": [
+    "A000005",
+    "A270337",
+    "A270389"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "First differences of A179196, pi(R_(n+1)) - pi(R_n) where R_n is A104272(n).",
+  "id": "A190874",
+  "mentions": [
+    "A000720",
+    "A104272",
+    "A168421",
+    "A168425",
+    "A174602",
+    "A174641",
+    "A179196",
+    "A182873",
+    "A191228",
+    "A202186",
+    "A202187",
+    "A202188"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

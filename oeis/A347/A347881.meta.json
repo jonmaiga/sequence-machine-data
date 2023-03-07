@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k for which A003415(sigma(k^2)) > k^2, where A003415 is the arithmetic derivative.",
+  "id": "A347881",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A342926",
+    "A343218",
+    "A347882"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

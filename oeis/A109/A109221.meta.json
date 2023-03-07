@@ -1,0 +1,21 @@
+{
+  "description": "A number triangle related to the Fibonacci polynomials.",
+  "id": "A109221",
+  "mentions": [
+    "A011973",
+    "A109222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:19",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

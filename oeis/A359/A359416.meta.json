@@ -1,0 +1,22 @@
+{
+  "description": "Write n as 2^m - k, where 2^m is the least power of 2 >= n (0 <= k <= 2^(m-1)-1). For n a power of 2 (k = 0), a(n) = n. For numbers with k > 0, a(n) is the least p*a(k) which has not occurred previously, the count of k being taken from right to left (backwards) from k = 1 at 2^m - 1.",
+  "id": "A359416",
+  "mentions": [
+    "A000027",
+    "A005940",
+    "A122155",
+    "A356886",
+    "A357057"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

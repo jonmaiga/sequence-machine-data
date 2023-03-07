@@ -1,0 +1,20 @@
+{
+  "description": "Hypotenuses of primitive Pythagorean triangles with prime length, having the property that the sum and absolute difference of the shorter legs are both prime numbers.",
+  "id": "A307894",
+  "mentions": [
+    "A008846",
+    "A070081",
+    "A070112",
+    "A307880"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

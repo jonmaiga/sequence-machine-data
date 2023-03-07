@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 0) is the number of ways of selecting k objects from n objects arranged in a circle with no two selected objects having unit separation (i.e. having exactly one object between them).",
+  "id": "A348447",
+  "mentions": [
+    "A034807",
+    "A061896",
+    "A152060",
+    "A347553",
+    "A348445"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

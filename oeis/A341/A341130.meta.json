@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = abs(a(n-1) - a(n-2)) if a(n-1) and a(n-2) are both prime or both composite. a(n) = a(n-1) + a(n-2) otherwise, where a(1) = 1 and a(2) = 2 and n > 2.",
+  "id": "A341130",
+  "mentions": [
+    "A096062"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

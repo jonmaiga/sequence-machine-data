@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers p such that 1 = abs(final digit of p - sum of all the other digits of p).",
+  "id": "A158283",
+  "mentions": [
+    "A000040",
+    "A062337",
+    "A062339",
+    "A062341",
+    "A062343",
+    "A107579",
+    "A156979"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

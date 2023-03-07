@@ -1,0 +1,20 @@
+{
+  "description": "If n is a square, a(n) is 0. Otherwise, a(n) is the smallest number k such that n is not a quadratic residue modulo k.",
+  "id": "A139401",
+  "mentions": [
+    "A066730",
+    "A100867",
+    "A144294",
+    "A354597"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

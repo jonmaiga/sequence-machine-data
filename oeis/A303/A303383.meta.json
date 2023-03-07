@@ -1,0 +1,21 @@
+{
+  "description": "Total volume of all cubes with side length q such that n = p + q and p <= q.",
+  "id": "A303383",
+  "mentions": [
+    "A105636",
+    "A217843",
+    "A265377"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:27",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

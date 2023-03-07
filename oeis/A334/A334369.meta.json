@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. (1 - (k-1)*log(1 + x))/(1 - k*log(1 + x)).",
+  "id": "A334369",
+  "mentions": [
+    "A006252",
+    "A308878",
+    "A320080",
+    "A335529",
+    "A335530"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

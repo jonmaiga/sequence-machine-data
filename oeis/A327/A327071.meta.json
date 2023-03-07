@@ -1,0 +1,35 @@
+{
+  "description": "Number of labeled simple connected graphs with n vertices and at least one bridge, or graphs with spanning edge-connectivity 1.",
+  "id": "A327071",
+  "mentions": [
+    "A001187",
+    "A001349",
+    "A006125",
+    "A007146",
+    "A052446",
+    "A059166",
+    "A095983",
+    "A322395",
+    "A327069",
+    "A327072",
+    "A327073",
+    "A327077",
+    "A327079",
+    "A327099",
+    "A327111",
+    "A327144",
+    "A327145",
+    "A327146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

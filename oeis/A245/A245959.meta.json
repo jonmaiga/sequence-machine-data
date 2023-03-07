@@ -1,0 +1,19 @@
+{
+  "description": "Number of endofunctions f on [2n] satisfying f^3(i) = i for all i in [n].",
+  "id": "A245959",
+  "mentions": [
+    "A245958",
+    "A246070"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

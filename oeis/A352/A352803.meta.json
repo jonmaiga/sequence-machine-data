@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first prime p such that, with q the next prime, p^2+q is 10^n times a prime.",
+  "id": "A352803",
+  "mentions": [
+    "A002386",
+    "A352848",
+    "A352852"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

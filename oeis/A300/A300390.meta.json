@@ -1,0 +1,26 @@
+{
+  "description": "The number of paths of length 7*n from the origin to the line y = 3*x/4 with unit east and north steps that stay below the line or touch it.",
+  "id": "A300390",
+  "mentions": [
+    "A001764",
+    "A060941",
+    "A300386",
+    "A300387",
+    "A300388",
+    "A300389",
+    "A300391"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

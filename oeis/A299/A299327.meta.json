@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array by antidiagonals: row n gives the ranks of {2,3}-power towers in which the maximal runlength is n; see Comments.",
+  "id": "A299327",
+  "mentions": [
+    "A299229"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

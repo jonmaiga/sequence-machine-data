@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: D(x,k) = dn( i * Integral C(x,k) dx, k) such that C(x,k) = cn( i * Integral C(x,k) dx, k), where D(x,k) = Sum_{n>=0} Sum_{j=0..n} T(n,j) * x^(2*n)*k^(2*j)/(2*n)!, as a triangle of coefficients T(n,j) read by rows.",
+  "id": "A325222",
+  "mentions": [
+    "A001818",
+    "A002105",
+    "A322231",
+    "A325220",
+    "A325221"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

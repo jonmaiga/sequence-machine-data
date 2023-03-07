@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers n such that there exists a solution to lcm(r+s,t) = n-1, lcm(s,r+t) = n-2, r,s>0, t>1, r+s+t <= n.",
+  "id": "A108750",
+  "mentions": [
+    "A108157"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of output sequences from the linear feedback shift register whose feedback polynomial coefficients (excluding the constant term) correspond to the binary representation of n.",
+  "id": "A337442",
+  "mentions": [
+    "A000013",
+    "A000016",
+    "A000020",
+    "A000031",
+    "A001037",
+    "A011260",
+    "A011655",
+    "A011751",
+    "A058947",
+    "A091250",
+    "A100447"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

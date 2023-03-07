@@ -1,0 +1,17 @@
+{
+  "description": "The integer closest to n/e.",
+  "id": "A225593",
+  "mentions": [
+    "A032634"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

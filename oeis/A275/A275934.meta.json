@@ -1,0 +1,22 @@
+{
+  "description": "Shifts 4 places left under binomial transform.",
+  "id": "A275934",
+  "mentions": [
+    "A000998",
+    "A275935",
+    "A275936"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

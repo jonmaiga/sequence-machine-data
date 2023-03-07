@@ -1,0 +1,18 @@
+{
+  "description": "Orbit of 25 under repeated applications of the map m -> A280864(m).",
+  "id": "A281369",
+  "mentions": [
+    "A280864",
+    "A281370"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

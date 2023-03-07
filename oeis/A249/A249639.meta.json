@@ -1,0 +1,26 @@
+{
+  "description": "Number of strings of length n over a 6 letter alphabet that begin with a nontrivial palindrome.",
+  "id": "A249639",
+  "mentions": [
+    "A248122",
+    "A249629",
+    "A249638",
+    "A249640",
+    "A249641",
+    "A249642",
+    "A249643"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

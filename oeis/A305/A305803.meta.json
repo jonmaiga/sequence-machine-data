@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A078898.",
+  "id": "A305803",
+  "mentions": [
+    "A020639",
+    "A078898",
+    "A305798",
+    "A305804"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

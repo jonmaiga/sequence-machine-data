@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p - d is also prime, where d is the largest digit of p.",
+  "id": "A245743",
+  "mentions": [
+    "A245742",
+    "A245744",
+    "A245745"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

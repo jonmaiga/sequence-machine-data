@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 2*q+3 = p^2, where q is prime.",
+  "id": "A110589",
+  "mentions": [
+    "A098828",
+    "A109358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

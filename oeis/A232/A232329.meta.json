@@ -1,0 +1,20 @@
+{
+  "description": "Integer areas A of the integer-sided triangles such that the product of the inradius and the circumradius is a square.",
+  "id": "A232329",
+  "mentions": [
+    "A016850",
+    "A188158",
+    "A208984",
+    "A232274"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

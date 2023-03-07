@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of exponential Riordan array [1+x*arctanh(x), x], A166357.",
+  "id": "A166358",
+  "mentions": [
+    "A166356",
+    "A166357",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:29:06",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

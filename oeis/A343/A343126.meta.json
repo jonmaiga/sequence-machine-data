@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form x + y + z such that (x+y) | x*y, (y+z) | y*z, and (y+z) | x*z where x,y,z are positive integers.",
+  "id": "A343126",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

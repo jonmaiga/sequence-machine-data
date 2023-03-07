@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nondecreasing Dyck paths of semilength n and having k up steps starting at an odd level (0 <= k <= n-1).",
+  "id": "A121524",
+  "mentions": [
+    "A001519",
+    "A121522",
+    "A121525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

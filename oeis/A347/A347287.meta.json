@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k = 1..m} 2^(e_k-1) where e_k = floor(log_p_k(p_(k-1)^e_(k-1))) such that e_k > 0.",
+  "id": "A347287",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A347285"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

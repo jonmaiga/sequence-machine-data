@@ -1,0 +1,22 @@
+{
+  "description": "Odd terms of A019278: odd n such that sigma(sigma(n))/n is an integer.",
+  "id": "A205597",
+  "mentions": [
+    "A000203",
+    "A019278",
+    "A019283",
+    "A228058",
+    "A323653"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

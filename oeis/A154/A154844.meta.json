@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = S(n, k) + S(n, n-k), where S are the Stirling numbers (A048993) of the second kind, read by rows.",
+  "id": "A154844",
+  "mentions": [
+    "A000110",
+    "A048993"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Bemirp gaps: differences between consecutive bemirps.",
+  "id": "A333648",
+  "mentions": [
+    "A001223",
+    "A037010",
+    "A048895",
+    "A185439"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

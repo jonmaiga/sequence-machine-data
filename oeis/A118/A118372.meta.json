@@ -1,0 +1,22 @@
+{
+  "description": "S-perfect numbers.",
+  "id": "A118372",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A023196",
+    "A083207",
+    "A181487"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

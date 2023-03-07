@@ -1,0 +1,26 @@
+{
+  "description": "Number of round trips of length n on the cycle graph C_2 from any of the two vertices.",
+  "id": "A199572",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000302",
+    "A065143",
+    "A078008",
+    "A102518",
+    "A199571"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:14:48",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

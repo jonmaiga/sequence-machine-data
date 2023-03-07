@@ -1,0 +1,19 @@
+{
+  "description": "Run lengths of the bits in A308092, read in binary.",
+  "id": "A341406",
+  "mentions": [
+    "A308092",
+    "A342937"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

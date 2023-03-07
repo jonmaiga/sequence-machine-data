@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows in which row n lists the parts of the partitions of n into equal parts, in nonincreasing order.",
+  "id": "A244051",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000027",
+    "A000041",
+    "A000203",
+    "A000217",
+    "A001065",
+    "A001227",
+    "A002131",
+    "A027750",
+    "A032742",
+    "A038040",
+    "A048050",
+    "A056538",
+    "A126988",
+    "A160664",
+    "A237593",
+    "A245579",
+    "A299765",
+    "A309400",
+    "A328365"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

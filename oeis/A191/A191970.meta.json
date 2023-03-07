@@ -1,0 +1,28 @@
+{
+  "description": "Number of connected graphs with n edges with loops allowed.",
+  "id": "A191970",
+  "mentions": [
+    "A000664",
+    "A002905",
+    "A007718",
+    "A050535",
+    "A053419",
+    "A054923",
+    "A191646",
+    "A275421",
+    "A322114",
+    "A322133",
+    "A322151",
+    "A322152"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

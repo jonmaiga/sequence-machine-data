@@ -1,0 +1,19 @@
+{
+  "description": "Indices of primes in the 9th-order Fibonacci number sequence, A127193.",
+  "id": "A256498",
+  "mentions": [
+    "A127193",
+    "A256499"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

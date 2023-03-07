@@ -1,0 +1,25 @@
+{
+  "description": "Total number of primes which can be reached via Cunningham chains, starting with prime(n), not counting this starting prime.",
+  "id": "A214280",
+  "mentions": [
+    "A000040",
+    "A005383",
+    "A005385",
+    "A181697",
+    "A181715",
+    "A214342"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of seven cubes in exactly two ways.",
+  "id": "A345774",
+  "mentions": [
+    "A048930",
+    "A345520",
+    "A345773",
+    "A345775",
+    "A345784",
+    "A345824"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

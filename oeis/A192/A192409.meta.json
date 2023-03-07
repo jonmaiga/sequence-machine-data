@@ -1,0 +1,24 @@
+{
+  "description": "Number of letters in the English name of the n-th element in the periodic table of the elements.",
+  "id": "A192409",
+  "mentions": [
+    "A005589",
+    "A007656",
+    "A031139",
+    "A070273",
+    "A309750"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

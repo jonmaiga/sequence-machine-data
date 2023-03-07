@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of arctan(1/phi), where phi = (1+sqrt(5))/2 (the golden ratio).",
+  "id": "A195693",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A005248",
+    "A175288",
+    "A195692",
+    "A195694",
+    "A195723"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

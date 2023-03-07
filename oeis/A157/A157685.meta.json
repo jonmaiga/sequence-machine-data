@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=#{1<=k<=n : [K(k),K(k+1)]=[2,1]} where K=A000002",
+  "id": "A157685",
+  "mentions": [
+    "A000002",
+    "A157684",
+    "A157686",
+    "A157687"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

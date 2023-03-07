@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of solutions of x^2 = eulerphi(x * m) where x is A293928(n).",
+  "id": "A294618",
+  "mentions": [
+    "A000010",
+    "A006511",
+    "A032447",
+    "A055744",
+    "A068997",
+    "A151999",
+    "A293928"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

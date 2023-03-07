@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the Eisenstein integer ((1-ω)^n+1)/(2-ω) has prime norm, where ω = - 1/2 + sqrt(-3)/2.",
+  "id": "A239842",
+  "mentions": [
+    "A066408",
+    "A124112",
+    "A125743",
+    "A125744"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

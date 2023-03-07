@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the k in the range 1<=k<=n such that set of proper divisors of k is not a subset of the set of proper divisors of n.",
+  "id": "A159074",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A014284",
+    "A036234",
+    "A158662",
+    "A158976",
+    "A159072",
+    "A159073"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

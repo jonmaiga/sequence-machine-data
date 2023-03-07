@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the hexadecimal representations of two consecutive terms overlap.",
+  "id": "A262460",
+  "mentions": [
+    "A262323",
+    "A262411",
+    "A262437",
+    "A262461"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

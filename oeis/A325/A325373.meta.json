@@ -1,0 +1,29 @@
+{
+  "description": "Composite totally abnormal numbers. Heinz numbers of non-singleton totally abnormal integer partitions.",
+  "id": "A325373",
+  "mentions": [
+    "A001597",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A181819",
+    "A317089",
+    "A317090",
+    "A317246",
+    "A319152",
+    "A319810",
+    "A325332",
+    "A325370",
+    "A325372"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

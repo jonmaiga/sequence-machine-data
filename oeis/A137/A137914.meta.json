@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of arccos(1/3).",
+  "id": "A137914",
+  "mentions": [
+    "A019669",
+    "A019670",
+    "A137218",
+    "A137915",
+    "A156546",
+    "A195696",
+    "A236367",
+    "A238238"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

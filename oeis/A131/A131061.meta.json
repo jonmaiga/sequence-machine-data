@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 4*binomial(n,k) - 3 for 0 <= k <= n.",
+  "id": "A131061",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A109128",
+    "A123203",
+    "A131060",
+    "A131062",
+    "A131063",
+    "A131064",
+    "A131065",
+    "A131066",
+    "A131067",
+    "A131068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:05",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

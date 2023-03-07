@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of the eighth-order mock theta function V_1(q).",
+  "id": "A153178",
+  "mentions": [
+    "A153148",
+    "A153149",
+    "A153155",
+    "A153156",
+    "A153172",
+    "A153174",
+    "A153176"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

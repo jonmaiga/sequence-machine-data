@@ -1,0 +1,20 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A173557(k) = A173557(n), where A173557(n) = Product_{p-1 | p is prime and divisor of n}.",
+  "id": "A331179",
+  "mentions": [
+    "A081373",
+    "A173557",
+    "A331175",
+    "A331178"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the elements of the Collatz trajectory of n are exactly the same as the divisors of n.",
+  "id": "A272985",
+  "mentions": [
+    "A000079",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

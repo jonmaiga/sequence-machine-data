@@ -1,0 +1,19 @@
+{
+  "description": "Products of the first terms of the arithmetic sequence f(n) defined by f(2^k l) = l^{1 - k} (for k a nonnegative integer and l a positive odd integer).",
+  "id": "A185275",
+  "mentions": [
+    "A055634",
+    "A185021"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

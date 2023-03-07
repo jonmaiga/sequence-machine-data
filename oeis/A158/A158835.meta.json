@@ -1,0 +1,29 @@
+{
+  "description": "Triangle, read by rows, that transforms diagonals in the array A158825 of coefficients of successive iterations of x*C(x) where C(x) is the Catalan function (A000108).",
+  "id": "A158835",
+  "mentions": [
+    "A000108",
+    "A135080",
+    "A158825",
+    "A158831",
+    "A158832",
+    "A158833",
+    "A158834",
+    "A158836",
+    "A158837",
+    "A158838",
+    "A158839",
+    "A158840"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

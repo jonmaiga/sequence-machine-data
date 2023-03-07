@@ -1,0 +1,28 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) is the k-th number with n-1 even-power summands in its base 2 representation.",
+  "id": "A165274",
+  "mentions": [
+    "A002450",
+    "A062880",
+    "A139351",
+    "A139352",
+    "A158705",
+    "A163832",
+    "A165275",
+    "A165276",
+    "A165277",
+    "A165278",
+    "A165279"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

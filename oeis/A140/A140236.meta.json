@@ -1,0 +1,20 @@
+{
+  "description": "Double tetrahedral numbers (or double pyramidal numbers): a(n) = k(k+1)(k+2)/6 where k = n(n+1)(n+2)/6.",
+  "id": "A140236",
+  "mentions": [
+    "A000292",
+    "A331436"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

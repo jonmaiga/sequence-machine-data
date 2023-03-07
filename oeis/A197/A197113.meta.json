@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers n such that the greatest residue of the congruence x^n (mod n) equals n-1 where x = 0..n-1.",
+  "id": "A197113",
+  "mentions": [
+    "A196082",
+    "A196499"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

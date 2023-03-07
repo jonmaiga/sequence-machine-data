@@ -1,0 +1,18 @@
+{
+  "description": "Number of lunar divisors of the number 999...9 (with n 9's).",
+  "id": "A169983",
+  "mentions": [
+    "A169982"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2*k can be written in at least one way as p+q with p, q, p+2*q and 2*q+p all prime.",
+  "id": "A354834",
+  "mentions": [
+    "A237885"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

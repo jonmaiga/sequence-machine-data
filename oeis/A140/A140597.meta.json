@@ -1,0 +1,25 @@
+{
+  "description": "Squares nearest to and > terms in A095862.",
+  "id": "A140597",
+  "mentions": [
+    "A066525",
+    "A095862",
+    "A098561",
+    "A098562",
+    "A140250",
+    "A140251",
+    "A140596"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

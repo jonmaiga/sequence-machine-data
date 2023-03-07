@@ -1,0 +1,29 @@
+{
+  "description": "Symmetric square array A(n,k) = A005940(1+A156552(n)+A156552(k)), read by antidiagonals starting with A(1,1).",
+  "id": "A341510",
+  "mentions": [
+    "A003056",
+    "A003961",
+    "A005940",
+    "A156552",
+    "A268715",
+    "A297165",
+    "A329603",
+    "A341511",
+    "A341515",
+    "A341520",
+    "A348041"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

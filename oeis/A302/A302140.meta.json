@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with the property that for every m coprime to n, there are solutions to x^(psi(n)/ord(m,n)) == m (mod n), where psi(n) = A002322(n) and ord(m,n) is multiplicative order of m modulo n.",
+  "id": "A302140",
+  "mentions": [
+    "A002322",
+    "A033948"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

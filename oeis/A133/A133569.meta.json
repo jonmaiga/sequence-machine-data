@@ -1,0 +1,22 @@
+{
+  "description": "A133566 * A007318 as infinite lower triangular matrices.",
+  "id": "A133569",
+  "mentions": [
+    "A007318",
+    "A084938",
+    "A122756",
+    "A133566"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

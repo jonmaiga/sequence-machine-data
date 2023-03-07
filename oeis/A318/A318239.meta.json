@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest primitive root of A133433(n).",
+  "id": "A318239",
+  "mentions": [
+    "A023048",
+    "A133433"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

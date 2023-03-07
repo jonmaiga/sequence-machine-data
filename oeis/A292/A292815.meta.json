@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquarefree numbers n = p_1^s_1...p_m^s_m (m > 1) such that (p_i^s_i - 1) | n-1 for all 0 < i <= m.",
+  "id": "A292815",
+  "mentions": [
+    "A002997",
+    "A013929",
+    "A087442"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

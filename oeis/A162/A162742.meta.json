@@ -1,0 +1,23 @@
+{
+  "description": "Reverse digits in the binary representation of each prime base in the prime factorization of n.",
+  "id": "A162742",
+  "mentions": [
+    "A030101",
+    "A071786",
+    "A161955"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

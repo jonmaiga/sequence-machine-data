@@ -1,0 +1,21 @@
+{
+  "description": "Initial term of a set of consecutive primes {p1, p2, p3, p4} such that Sum_{k=p1..p2} d(k) = Sum_{k=p2..p3} d(k) = Sum_{k=p3..p4} d(k), where d(k) is the number of divisors function A000005.",
+  "id": "A353553",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A133760",
+    "A353552",
+    "A353554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

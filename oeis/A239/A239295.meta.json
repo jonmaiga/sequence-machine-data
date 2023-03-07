@@ -1,0 +1,20 @@
+{
+  "description": "Number of words of length n over the alphabet {0,...,n-1} that avoid the pattern 123.",
+  "id": "A239295",
+  "mentions": [
+    "A000108",
+    "A000312",
+    "A245667"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of occurrences of abelian squares in a binary word of length n.",
+  "id": "A268084",
+  "mentions": [
+    "A262249",
+    "A262265"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

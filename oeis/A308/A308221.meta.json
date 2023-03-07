@@ -1,0 +1,19 @@
+{
+  "description": "Number of Egyptian fractions of denominator n which are sum of 3 unit fractions.",
+  "id": "A308221",
+  "mentions": [
+    "A308219",
+    "A308220",
+    "A308415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

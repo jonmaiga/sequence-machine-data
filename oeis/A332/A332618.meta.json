@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} lcm(d, n/d) / gcd(d, n/d).",
+  "id": "A332618",
+  "mentions": [
+    "A055155",
+    "A056789",
+    "A057670",
+    "A332619",
+    "A337180"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

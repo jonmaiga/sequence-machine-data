@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions p of n such that (maximal multiplicity of the parts of p) >= maximal part of p).",
+  "id": "A240313",
+  "mentions": [
+    "A000041",
+    "A118053",
+    "A240310",
+    "A240311",
+    "A240312",
+    "A240314"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

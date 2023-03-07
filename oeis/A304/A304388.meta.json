@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 144*2^n - 20 (n>=1).",
+  "id": "A304388",
+  "mentions": [
+    "A304386",
+    "A304387",
+    "A304389"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

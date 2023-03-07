@@ -1,0 +1,21 @@
+{
+  "description": "Numbers incremented by their digit product produce a cube.",
+  "id": "A229185",
+  "mentions": [
+    "A007954",
+    "A066567",
+    "A229184"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

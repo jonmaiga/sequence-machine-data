@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k that divide 5^k + 3.",
+  "id": "A123052",
+  "mentions": [
+    "A015891",
+    "A015951",
+    "A067946",
+    "A123047",
+    "A123061",
+    "A123062",
+    "A123091",
+    "A124246",
+    "A125949",
+    "A277348",
+    "A277350"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

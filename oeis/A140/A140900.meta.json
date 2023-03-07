@@ -1,0 +1,19 @@
+{
+  "description": "A nonnegative integer n is included if the binary representation of n and the digit-reversal (with leading 0's) of the binary representation of n do not have any 1's in the same position.",
+  "id": "A140900",
+  "mentions": [
+    "A035928",
+    "A038754"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

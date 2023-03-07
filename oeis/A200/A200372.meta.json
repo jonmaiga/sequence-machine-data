@@ -1,0 +1,17 @@
+{
+  "description": "Number of 0..n arrays x(0..9) of 10 elements with zero 4th differences",
+  "id": "A200372",
+  "mentions": [
+    "A200370"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

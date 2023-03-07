@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers mapping ordinary factorization to \"Fermi-Dirac factorization\": a(1) = 1, a(2n) = 2*A300841(a(n)), a(A003961(n)) = A300841(a(n)).",
+  "id": "A302023",
+  "mentions": [
+    "A000040",
+    "A003961",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A064989",
+    "A091202",
+    "A156552",
+    "A300841",
+    "A302024",
+    "A302025"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

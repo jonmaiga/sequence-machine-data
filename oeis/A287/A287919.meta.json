@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(0,n) = prime(n) and T(m+1,n) = T(m,n) + T(m,n+1), m >= 0, n >= 1, read by falling antidiagonals.",
+  "id": "A287919",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A007443",
+    "A096277",
+    "A096278",
+    "A096279",
+    "A178167"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

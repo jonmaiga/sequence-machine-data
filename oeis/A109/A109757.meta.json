@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (10's complement factorial of n) + 1 is semiprime.",
+  "id": "A109757",
+  "mentions": [
+    "A109616",
+    "A110396"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

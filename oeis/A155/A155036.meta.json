@@ -1,0 +1,21 @@
+{
+  "description": "Primes p = prime(c) with index c a composite such that the concatenation c//p is a prime.",
+  "id": "A155036",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

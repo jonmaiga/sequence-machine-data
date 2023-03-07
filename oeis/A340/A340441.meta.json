@@ -1,0 +1,25 @@
+{
+  "description": "Square array, read by ascending antidiagonals, where row n gives all odd solutions k > 1 and n > 0 to A000120(2*n+1) = A000120((2*n+1)*k), A000120 is the Hamming weight.",
+  "id": "A340441",
+  "mentions": [
+    "A000120",
+    "A007583",
+    "A263132",
+    "A299960",
+    "A340069",
+    "A340351"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

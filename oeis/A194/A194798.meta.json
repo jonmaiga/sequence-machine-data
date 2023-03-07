@@ -1,0 +1,33 @@
+{
+  "description": "Numbers n having the same parity as the number of partitions of n.",
+  "id": "A194798",
+  "mentions": [
+    "A000041",
+    "A001477",
+    "A040051",
+    "A052001",
+    "A052003",
+    "A067567",
+    "A127219",
+    "A154795",
+    "A154798",
+    "A163096",
+    "A163097",
+    "A163998",
+    "A194807",
+    "A209658",
+    "A209659",
+    "A209920"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

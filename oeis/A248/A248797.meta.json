@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms > 1 in Fibonacci-variation of Collatz sequence starting with (1, 2n+1).",
+  "id": "A248797",
+  "mentions": [
+    "A000045",
+    "A006577",
+    "A174429"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

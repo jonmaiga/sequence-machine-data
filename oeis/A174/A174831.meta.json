@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the concatenation of the frequency of 0's, 1's, 2's etc. in the entries a(0) up to a(n-1).",
+  "id": "A174831",
+  "mentions": [
+    "A006920",
+    "A177359"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

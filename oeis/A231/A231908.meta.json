@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of nXk 0..2 arrays with no element having a strict majority of its horizontal, diagonal and antidiagonal neighbors equal to itself plus one mod 3, with upper left element zero (rock paper and scissors drawn positions)",
+  "id": "A231908",
+  "mentions": [
+    "A000244",
+    "A001906",
+    "A231779"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

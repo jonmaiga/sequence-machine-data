@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n = prime(k)*prime(2+k) for some k, otherwise 0.",
+  "id": "A302047",
+  "mentions": [
+    "A090076",
+    "A185015",
+    "A246277",
+    "A280710",
+    "A302048",
+    "A302049"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

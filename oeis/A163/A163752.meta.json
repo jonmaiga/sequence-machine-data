@@ -1,0 +1,21 @@
+{
+  "description": "Generalized factorions: numbers which are equal to the sum of the factorials of some or all of their digits in base 10.",
+  "id": "A163752",
+  "mentions": [
+    "A014080",
+    "A163576"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of the triangle in A208101.",
+  "id": "A208976",
+  "mentions": [
+    "A001405",
+    "A050168",
+    "A208101"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

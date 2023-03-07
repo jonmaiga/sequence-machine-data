@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 1 + Product_{j=1..k} b(j), where b(n) = b(n-1) + 2*A005185(n) and b(1) = 2.",
+  "id": "A108583",
+  "mentions": [
+    "A005185",
+    "A108585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The order of the one-dimensional affine group in the finite fields F_q with q >= 3.",
+  "id": "A220211",
+  "mentions": [
+    "A000961",
+    "A178498"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

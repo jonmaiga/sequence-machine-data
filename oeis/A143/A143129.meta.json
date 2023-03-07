@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) = sum {j=k..n} A000292(j) = A000012 * (A000292 * 0^(n-k)) * A000012, 1<=k<=n.",
+  "id": "A143129",
+  "mentions": [
+    "A000012",
+    "A000292",
+    "A034263"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

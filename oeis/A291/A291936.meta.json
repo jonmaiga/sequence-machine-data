@@ -1,0 +1,18 @@
+{
+  "description": "Number of independent vertex sets and vertex covers in the n-Fibonacci cube graph.",
+  "id": "A291936",
+  "mentions": [
+    "A291742"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

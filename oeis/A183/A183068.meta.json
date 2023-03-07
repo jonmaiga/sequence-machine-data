@@ -1,0 +1,20 @@
+{
+  "description": "Central terms of triangle A183065.",
+  "id": "A183068",
+  "mentions": [
+    "A183065",
+    "A183066",
+    "A183067"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

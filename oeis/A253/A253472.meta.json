@@ -1,0 +1,18 @@
+{
+  "description": "Square Pairs: Numbers n such that 1, 2, ..., 2n can be partitioned into n pairs, where each pair adds up to a perfect square.",
+  "id": "A253472",
+  "mentions": [
+    "A252897"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:52:11",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

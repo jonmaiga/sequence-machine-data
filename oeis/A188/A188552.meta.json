@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers at locations of angle turns in pentagonal spiral.",
+  "id": "A188552",
+  "mentions": [
+    "A033537",
+    "A056220",
+    "A142463",
+    "A188551"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

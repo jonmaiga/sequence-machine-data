@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^2 + n + 72491 is prime.",
+  "id": "A253239",
+  "mentions": [
+    "A028823",
+    "A048097",
+    "A050267",
+    "A056561",
+    "A116206",
+    "A128878",
+    "A141489",
+    "A160548"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:51:09",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

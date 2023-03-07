@@ -1,0 +1,43 @@
+{
+  "description": "a(n) is the least k such that the n-almost prime count is positive and equal to the (n-1)-almost prime count. a(0) = 1.",
+  "id": "A125149",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A046306",
+    "A046308",
+    "A046310",
+    "A046312",
+    "A046314",
+    "A069272",
+    "A069273",
+    "A069274",
+    "A069275",
+    "A069276",
+    "A069277",
+    "A069278",
+    "A069279",
+    "A069280",
+    "A069281",
+    "A117526",
+    "A126279",
+    "A126280",
+    "A180126"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal number of 1 X 1 squares in an arrangement of n squares, from 1 X 1 to n X n.",
+  "id": "A336660",
+  "mentions": [
+    "A336659",
+    "A337515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

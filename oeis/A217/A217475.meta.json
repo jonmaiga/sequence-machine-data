@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of polynomials in a Melham conjecture.",
+  "id": "A217475",
+  "mentions": [
+    "A000027",
+    "A000032",
+    "A000045",
+    "A163198",
+    "A217471",
+    "A217472",
+    "A217474",
+    "A217744"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

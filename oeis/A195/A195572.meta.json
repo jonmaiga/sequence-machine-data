@@ -1,0 +1,20 @@
+{
+  "description": "Numerators b(n) of Pythagorean approximations b(n)/a(n) to 1/5.",
+  "id": "A195572",
+  "mentions": [
+    "A195500",
+    "A195571",
+    "A195573"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

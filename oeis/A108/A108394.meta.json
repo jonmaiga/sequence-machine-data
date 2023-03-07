@@ -1,0 +1,20 @@
+{
+  "description": "Least k for which f(k) = (1 + f(0)^n + f(1)^n + ... + f(k-1)^n)/k, f(0) = 1, is nonintegral.",
+  "id": "A108394",
+  "mentions": [
+    "A003504",
+    "A005165",
+    "A005166",
+    "A005167"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

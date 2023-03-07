@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table: Row n is the list of positive exponents in the canonical prime factorization of A182857(n), sorted in descending order, or 0 if there are no such exponents.",
+  "id": "A182858",
+  "mentions": [
+    "A011784",
+    "A012257",
+    "A181819",
+    "A182850",
+    "A182857"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

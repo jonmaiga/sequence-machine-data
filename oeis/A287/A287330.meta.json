@@ -1,0 +1,19 @@
+{
+  "description": "7*x - 1 Collatz-type sequence starting with a(0) = 11.",
+  "id": "A287330",
+  "mentions": [
+    "A063871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

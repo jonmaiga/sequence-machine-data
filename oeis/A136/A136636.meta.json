@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n * C(2*3^(n-1), n) for n>=1.",
+  "id": "A136636",
+  "mentions": [
+    "A014070",
+    "A136393",
+    "A136635",
+    "A136637",
+    "A136638"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Random number table used by Doom.",
+  "id": "A259233",
+  "mentions": [
+    "A002205",
+    "A039925",
+    "A039926",
+    "A104183"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "dumb",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

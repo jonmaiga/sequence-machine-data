@@ -1,0 +1,29 @@
+{
+  "description": "Generalized Mancala solitaire (A002491); to get n-th term, start with n and successively round up to next 4 multiples of n-1, n-2, ..., 1, for n>=1.",
+  "id": "A112558",
+  "mentions": [
+    "A000012",
+    "A000960",
+    "A002491",
+    "A112557",
+    "A113742",
+    "A113743",
+    "A113744",
+    "A113745",
+    "A113746",
+    "A113747",
+    "A113748",
+    "A113749"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

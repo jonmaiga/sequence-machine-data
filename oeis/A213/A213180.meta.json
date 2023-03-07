@@ -1,0 +1,30 @@
+{
+  "description": "Sum over all partitions lambda of n of Sum_{p:lambda} p^m(p,lambda), where m(p,lambda) is the multiplicity of part p in lambda.",
+  "id": "A213180",
+  "mentions": [
+    "A000070",
+    "A006128",
+    "A014153",
+    "A024786",
+    "A066183",
+    "A066186",
+    "A073336",
+    "A103628",
+    "A116646",
+    "A117524",
+    "A117525",
+    "A197126",
+    "A213191"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

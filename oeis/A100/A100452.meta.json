@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, based on array described below.",
+  "id": "A100452",
+  "mentions": [
+    "A000960",
+    "A100451",
+    "A100453",
+    "A100454",
+    "A100461"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers which are not of the form p*q + 1, where p and q are distinct primes.",
+  "id": "A109289",
+  "mentions": [
+    "A109287",
+    "A109288",
+    "A109290"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

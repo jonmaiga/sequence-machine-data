@@ -1,0 +1,28 @@
+{
+  "description": "Number of free heptagonal polyforms with n cells on the heptagonal tiling of the hyperbolic plane.",
+  "id": "A333018",
+  "mentions": [
+    "A000105",
+    "A000207",
+    "A000228",
+    "A000577",
+    "A005036",
+    "A108070",
+    "A119611",
+    "A259352",
+    "A330659",
+    "A332930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

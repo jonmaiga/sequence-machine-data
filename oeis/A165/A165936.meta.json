@@ -1,0 +1,18 @@
+{
+  "description": "A sequence of triples of squarefree consecutive integers each composed of exactly three primes.",
+  "id": "A165936",
+  "mentions": [
+    "A066509"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

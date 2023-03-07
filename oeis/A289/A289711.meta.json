@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,p) read by rows: the order of the semigroup of orientation-preserving partial transformations of n elements with height p.",
+  "id": "A289711",
+  "mentions": [
+    "A066524",
+    "A289713"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

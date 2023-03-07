@@ -1,0 +1,27 @@
+{
+  "description": "Characteristic function for deficient numbers (A005100): a(n) = 1 if A001065(n) < n, 0 otherwise.",
+  "id": "A294934",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005100",
+    "A023196",
+    "A033879",
+    "A294935",
+    "A294936",
+    "A294937",
+    "A318172"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

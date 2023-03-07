@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: count in a vee.",
+  "id": "A103516",
+  "mentions": [
+    "A103517",
+    "A187012"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:17",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

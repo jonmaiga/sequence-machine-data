@@ -1,0 +1,29 @@
+{
+  "description": "Coefficients in expansion of E_4^(3/2).",
+  "id": "A299955",
+  "mentions": [
+    "A004009",
+    "A008410",
+    "A008411",
+    "A108091",
+    "A282012",
+    "A282015",
+    "A289292",
+    "A289307",
+    "A289308",
+    "A289309",
+    "A289318",
+    "A289319"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Ramanujan numbers (A000594) read mod 729.",
+  "id": "A126830",
+  "mentions": [
+    "A000594"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:34:45",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

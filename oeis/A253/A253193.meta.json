@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of a weight 2 Gamma0(23) cusp form in powers of q with a(1) = 1, a(2) = 0.",
+  "id": "A253193",
+  "mentions": [
+    "A232506"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of (positive) iterations of f to reach an integer when starting from n/1. If no integer is ever reached then a(n) = -1. f(p/q) = (p + q) / (A000120(p) + A000120(q)).",
+  "id": "A323596",
+  "mentions": [
+    "A000120",
+    "A058971",
+    "A059175",
+    "A323275",
+    "A323356",
+    "A323375"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

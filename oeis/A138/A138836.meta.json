@@ -1,0 +1,24 @@
+{
+  "description": "Non-Mersenne numbers A001348.",
+  "id": "A138836",
+  "mentions": [
+    "A001348",
+    "A001690",
+    "A062289",
+    "A133398",
+    "A138837",
+    "A138888",
+    "A138890",
+    "A138891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

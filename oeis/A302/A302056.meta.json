@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that the coefficient of x^k in the expansion of Product_{j>=1} (1 - x^j)^4 is zero.",
+  "id": "A302056",
+  "mentions": [
+    "A000727",
+    "A014132",
+    "A020757",
+    "A034020",
+    "A090864",
+    "A213250",
+    "A302057",
+    "A322043",
+    "A322430",
+    "A322431",
+    "A322432",
+    "A322433"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

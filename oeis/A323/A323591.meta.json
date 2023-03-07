@@ -1,0 +1,22 @@
+{
+  "description": "n-th digit after the radix point in the base-3 expansion of 1/n.",
+  "id": "A323591",
+  "mentions": [
+    "A061480",
+    "A322392",
+    "A323547",
+    "A323592"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

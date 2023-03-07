@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangle defined in A120853.",
+  "id": "A160965",
+  "mentions": [
+    "A120853"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

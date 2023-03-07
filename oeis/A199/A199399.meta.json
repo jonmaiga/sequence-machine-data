@@ -1,0 +1,17 @@
+{
+  "description": "Binary XOR of 5^k as k varies from 0 to n.",
+  "id": "A199399",
+  "mentions": [
+    "A199397"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

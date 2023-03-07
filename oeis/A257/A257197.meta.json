@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the decimal expansions of both k and k^2 have 1 as smallest digit and 6 as largest digit.",
+  "id": "A257197",
+  "mentions": [
+    "A256630",
+    "A256631",
+    "A256633",
+    "A256634",
+    "A256708",
+    "A256709",
+    "A256889",
+    "A257210",
+    "A257211"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

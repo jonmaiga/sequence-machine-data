@@ -1,0 +1,22 @@
+{
+  "description": "Number of bitstrings of length n which (if having two or more runs) the last two runs have different lengths.",
+  "id": "A208900",
+  "mentions": [
+    "A056453",
+    "A208901",
+    "A208902",
+    "A208903"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

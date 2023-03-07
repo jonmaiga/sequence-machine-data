@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that n^3 is the sum of two or more consecutive integer squares.",
+  "id": "A212018",
+  "mentions": [
+    "A062861",
+    "A212015",
+    "A212016",
+    "A212017"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

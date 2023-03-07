@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = a(n-1) + d1 + d2 where d1 = 4 if n is even. d1 = 1 if n is odd, d2 = 15 if n mod 4 = 0, d2 = 0 if n mod 4 != 0.",
+  "id": "A160529",
+  "mentions": [
+    "A057077"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:13",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

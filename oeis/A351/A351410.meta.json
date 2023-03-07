@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that the decimal representation of 8^m ends in m.",
+  "id": "A351410",
+  "mentions": [
+    "A003226",
+    "A033819",
+    "A064541",
+    "A133618",
+    "A183613",
+    "A288845",
+    "A289138",
+    "A290788",
+    "A306570",
+    "A306686",
+    "A321970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

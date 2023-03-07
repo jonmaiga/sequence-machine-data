@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 has an odd number of digits and the middle digit is 0.",
+  "id": "A279420",
+  "mentions": [
+    "A279421",
+    "A279429"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

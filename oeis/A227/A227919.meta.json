@@ -1,0 +1,21 @@
+{
+  "description": "Primes which remain prime when rightmost digit is removed.",
+  "id": "A227919",
+  "mentions": [
+    "A000040",
+    "A024770",
+    "A052025",
+    "A137812"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

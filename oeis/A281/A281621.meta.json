@@ -1,0 +1,20 @@
+{
+  "description": "The smallest of four consecutive odd numbers with binary representations which, read in decimal, are prime.",
+  "id": "A281621",
+  "mentions": [
+    "A000040",
+    "A007088",
+    "A036952"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

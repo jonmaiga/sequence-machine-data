@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A000587(k) is divisible by k.",
+  "id": "A325935",
+  "mentions": [
+    "A000587",
+    "A118018",
+    "A325630"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

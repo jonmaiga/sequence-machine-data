@@ -1,0 +1,19 @@
+{
+  "description": "Triangle t(n,m)= (m+1)^n*binomial(n,m) if m <= n/2, otherwise t(n,m) = t(n,n-m).",
+  "id": "A167034",
+  "mentions": [
+    "A075513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

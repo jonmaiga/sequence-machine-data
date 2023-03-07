@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of regions obtained by a straight line drawing of the complete bipartite graph K_{n,n}.",
+  "id": "A117717",
+  "mentions": [
+    "A000127"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

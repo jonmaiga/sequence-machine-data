@@ -1,0 +1,25 @@
+{
+  "description": "Number of steps to reach a fixed point (A003418(n)), when starting from partition {n} of n and continuing with the process described in A225642.",
+  "id": "A225643",
+  "mentions": [
+    "A001477",
+    "A003418",
+    "A225633",
+    "A225639",
+    "A225642",
+    "A225644",
+    "A226055",
+    "A226056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

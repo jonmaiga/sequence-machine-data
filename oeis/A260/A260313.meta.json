@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of phi(x)^2 / psi(x) in powers of x where phi(), psi() are Ramanujan theta functions.",
+  "id": "A260313",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A153172",
+    "A153174"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:37",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

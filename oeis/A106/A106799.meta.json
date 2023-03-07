@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime factors of n apart from 2 or 3, counted with multiplicity.",
+  "id": "A106799",
+  "mentions": [
+    "A001222",
+    "A007814",
+    "A007949",
+    "A027746",
+    "A065330",
+    "A087436",
+    "A101040",
+    "A169611"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

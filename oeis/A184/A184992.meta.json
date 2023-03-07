@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least positive integer not occurring earlier that shares a digit with a(n-1); a(1)=1.",
+  "id": "A184992",
+  "mentions": [
+    "A067581",
+    "A076654",
+    "A107353",
+    "A130571",
+    "A162501",
+    "A227118"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

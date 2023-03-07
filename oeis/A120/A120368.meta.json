@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of sequences (a_1, a_2, ..., a_n) in {1,2,...,n} such that the range {a_1, a_2, ..., a_n} is an interval.",
+  "id": "A120368",
+  "mentions": [
+    "A000670"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

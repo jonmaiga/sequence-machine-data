@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A(A(x)) = x*exp(A(x)), where A(x) = Sum_{n>=1} a(n)/(n!*2^(n-1)).",
+  "id": "A193341",
+  "mentions": [
+    "A193342",
+    "A276913"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

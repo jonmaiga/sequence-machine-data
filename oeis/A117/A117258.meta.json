@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T, read by rows, where matrix power T^2 has 2*4^n in the secondary diagonal: [T^2](n+1,n) = 2*4^n, with all 1's in the main diagonal and zeros elsewhere.",
+  "id": "A117258",
+  "mentions": [
+    "A117250",
+    "A117252",
+    "A117254",
+    "A117256",
+    "A117259",
+    "A117260",
+    "A117262",
+    "A117265"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

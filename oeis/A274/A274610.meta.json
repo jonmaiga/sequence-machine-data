@@ -1,0 +1,17 @@
+{
+  "description": "Values of c such that p^2-c and p^2+c are both positive primes, for the special case when p^2-c = 3, or c = p^2-3, where p is a prime.",
+  "id": "A274610",
+  "mentions": [
+    "A047222"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

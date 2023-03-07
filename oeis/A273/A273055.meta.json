@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*k, k) * binomial(2*n+1, 2*k).",
+  "id": "A273055",
+  "mentions": [
+    "A002426",
+    "A027907",
+    "A082758"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

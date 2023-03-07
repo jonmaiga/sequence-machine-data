@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sigma(n+2) - sigma(n) = n + 2.",
+  "id": "A246852",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A067816",
+    "A246851",
+    "A246853",
+    "A246854",
+    "A246855"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

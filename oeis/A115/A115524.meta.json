@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle (1,-x)+(x,x)/2+(x,-x)/2-(x^2,x^2) (expressed using the notation of stretched Riordan arrays).",
+  "id": "A115524",
+  "mentions": [
+    "A000007",
+    "A023416",
+    "A115525",
+    "A115526"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:21",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,1) to (n,k), where 0 >= k <= 2, consisting of segments given by the vectors (1,1), (2,1), (1,-1).",
+  "id": "A247302",
+  "mentions": [
+    "A061275",
+    "A247050",
+    "A247301"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:53:38",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

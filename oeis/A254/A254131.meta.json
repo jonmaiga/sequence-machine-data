@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = A254067(n,k) - A257499(n,k), n,k >= 1.",
+  "id": "A254131",
+  "mentions": [
+    "A254067",
+    "A257499"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

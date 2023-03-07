@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers producing 10 even numbers in the Collatz iteration.",
+  "id": "A199817",
+  "mentions": [
+    "A131450",
+    "A199636"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

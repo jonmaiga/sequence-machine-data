@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which rank of the elliptic curve y^2 = x^3 - 432*k^2 is 2.",
+  "id": "A309962",
+  "mentions": [
+    "A060748",
+    "A060838",
+    "A159843",
+    "A309960",
+    "A309961",
+    "A309963",
+    "A309964"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

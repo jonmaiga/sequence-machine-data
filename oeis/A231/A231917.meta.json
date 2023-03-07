@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 16*n^2 + 10*n + 1 divides 2^n - 1.",
+  "id": "A231917",
+  "mentions": [
+    "A000225",
+    "A028993",
+    "A081858",
+    "A231916",
+    "A231918"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

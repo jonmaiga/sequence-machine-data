@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers: a(0) = 1, a(1) = 2, a(2n) = 2*a(n), a(2n+1) = A305421(a(n)).",
+  "id": "A305427",
+  "mentions": [
+    "A054429",
+    "A091202",
+    "A091225",
+    "A163511",
+    "A305417",
+    "A305420",
+    "A305421",
+    "A305428"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

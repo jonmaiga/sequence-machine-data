@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n where n is a prime to the (nonzero) power of a prime, and each digit of n is also a prime to the (nonzero) power of a prime.",
+  "id": "A217700",
+  "mentions": [
+    "A053810",
+    "A083807"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

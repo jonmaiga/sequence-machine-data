@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of cos(x), where x is the least positive solution of 1 = (x^2)*cos(x).",
+  "id": "A196618",
+  "mentions": [
+    "A196617",
+    "A196619",
+    "A196620"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of closed-loop self-avoiding paths of length 4n on a 2D square lattice where no step can be in the same direction as the previous step.",
+  "id": "A337550",
+  "mentions": [
+    "A010566",
+    "A036418",
+    "A334720",
+    "A337353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

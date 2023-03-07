@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) = binomial(n,k) + 2 for 1 <= k <= n - 1, n >= 2, and T(n,0) = T(n,n) = 1 for n >= 0, read by rows.",
+  "id": "A173740",
+  "mentions": [
+    "A007318",
+    "A100314",
+    "A103451",
+    "A131520",
+    "A132044",
+    "A132735",
+    "A132823",
+    "A156050",
+    "A173741",
+    "A173742"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

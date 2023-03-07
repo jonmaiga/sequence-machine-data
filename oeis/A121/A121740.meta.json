@@ -1,0 +1,21 @@
+{
+  "description": "Solutions to the Pell equation x^2 - 17y^2 = 1 (y values).",
+  "id": "A121740",
+  "mentions": [
+    "A040012",
+    "A041025",
+    "A099370"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

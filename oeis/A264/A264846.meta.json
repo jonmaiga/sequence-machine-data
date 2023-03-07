@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the least members of the equivalence classes of the equivalence relation xRy defined by floor(n/x) = floor(n/y) with n, x and y in N*.",
+  "id": "A264846",
+  "mentions": [
+    "A000267"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

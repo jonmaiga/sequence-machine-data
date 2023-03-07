@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 1+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum.",
+  "id": "A247727",
+  "mentions": [
+    "A247726"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:43",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

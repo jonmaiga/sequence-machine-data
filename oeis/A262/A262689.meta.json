@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = largest number k <= A000196(n) for which A002828(n-(k^2)) = A002828(n)-1.",
+  "id": "A262689",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002828",
+    "A010052",
+    "A064876",
+    "A180466",
+    "A262690"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

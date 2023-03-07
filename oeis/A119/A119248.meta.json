@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the difference between denominator and numerator of the n-th alternating harmonic number Sum_{k=1..n} (-1)^(k+1)/k = A058313(n)/A058312(n).",
+  "id": "A119248",
+  "mentions": [
+    "A024168",
+    "A058312",
+    "A058313",
+    "A075829"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

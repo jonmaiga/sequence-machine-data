@@ -1,0 +1,18 @@
+{
+  "description": "This sequence O (made exclusively of odd numbers) becomes the sequence E (made exclusively of even numbers) by switching everywhere in O the two digits that are in contact with a comma. No repeated terms are allowed in O or E and we want O to be the lexicographically first such sequence.",
+  "id": "A270108",
+  "mentions": [
+    "A270119"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

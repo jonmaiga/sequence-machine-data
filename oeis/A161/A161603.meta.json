@@ -1,0 +1,21 @@
+{
+  "description": "Odd terms of sequence A161602.",
+  "id": "A161603",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A161601",
+    "A161602"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Consider the list s(1), s(2), ... of numbers that are products of exactly n primes; a(n) is the smallest s(j) whose decimal expansion ends in j.",
+  "id": "A186000",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A001358",
+    "A014612",
+    "A014613",
+    "A046883",
+    "A078840",
+    "A185999"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

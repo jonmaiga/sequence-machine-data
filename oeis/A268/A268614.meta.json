@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p + 1 and p + 2 are squarefree.",
+  "id": "A268614",
+  "mentions": [
+    "A002144",
+    "A005117",
+    "A049097",
+    "A049233"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

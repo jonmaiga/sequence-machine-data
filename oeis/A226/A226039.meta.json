@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that there exist primes p which divide k+1 and p-1 does not divide k.",
+  "id": "A226039",
+  "mentions": [
+    "A226038",
+    "A226040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

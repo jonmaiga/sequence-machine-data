@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..3 arrays with every repeated value unequal to the previous repeated value plus one mod 3+1.",
+  "id": "A269771",
+  "mentions": [
+    "A269776"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

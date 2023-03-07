@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - 22*x + 81*x^2), used in A246643.",
+  "id": "A246645",
+  "mentions": [
+    "A049310",
+    "A246643",
+    "A246646",
+    "A247512"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

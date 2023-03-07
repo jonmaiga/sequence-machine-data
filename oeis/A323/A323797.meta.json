@@ -1,0 +1,20 @@
+{
+  "description": "a(n)..a(n+1)-1 are the indices in A323796 pointing to A006960(n) in the Reverse and Add! graph with 196 seed.",
+  "id": "A323797",
+  "mentions": [
+    "A006960",
+    "A323796"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

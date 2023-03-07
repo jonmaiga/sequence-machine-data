@@ -1,0 +1,20 @@
+{
+  "description": "\"Mary had a little lamb\" played on a touch-tone telephone. Numbers represent the buttons to press.",
+  "id": "A120441",
+  "mentions": [
+    "A256427"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

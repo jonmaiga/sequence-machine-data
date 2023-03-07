@@ -1,0 +1,27 @@
+{
+  "description": "Number of powers of 9 having exactly n digits '0' (in base 10), conjectured.",
+  "id": "A305939",
+  "mentions": [
+    "A007496",
+    "A020665",
+    "A030705",
+    "A063626",
+    "A195945",
+    "A305929",
+    "A305938",
+    "A305942",
+    "A305947"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

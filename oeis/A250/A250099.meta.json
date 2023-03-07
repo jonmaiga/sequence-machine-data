@@ -1,0 +1,22 @@
+{
+  "description": "After A084937(n) has been computed, let m = largest term so far in A084937. Then a(n) = number of positive even integers < m that are missing from A084937 at this point.",
+  "id": "A250099",
+  "mentions": [
+    "A084937",
+    "A249686",
+    "A249777",
+    "A249856",
+    "A249857",
+    "A250100"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n = k^2 + m with k > 1 and m > 1 such that sigma(k^2) + prime(m) - 1 is prime, where sigma(j) denotes the sum of all positive divisors of j.",
+  "id": "A236765",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A233544",
+    "A233654",
+    "A233793",
+    "A233864",
+    "A236548"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

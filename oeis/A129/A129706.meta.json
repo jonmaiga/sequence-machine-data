@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Fibonacci binary words of length n and having k inversions (n>=0, 0<=k<=floor(n(n+1)/6)). A Fibonacci binary word is a binary word having no 00 subword.",
+  "id": "A129706",
+  "mentions": [
+    "A000045",
+    "A129707"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

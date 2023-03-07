@@ -1,0 +1,21 @@
+{
+  "description": "TITO2(n): The operation A161594 in binary, digit-reversals carried out in base 2.",
+  "id": "A161955",
+  "mentions": [
+    "A030101",
+    "A161594",
+    "A162742"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

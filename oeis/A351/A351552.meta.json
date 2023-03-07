@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A351546(k) divides k, where A351546(n) is the largest unitary divisor of sigma(n) such that none of its prime factors divide A003961(n).",
+  "id": "A351552",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A351546",
+    "A351551",
+    "A351554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

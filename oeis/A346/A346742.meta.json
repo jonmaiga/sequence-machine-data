@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that may be built from fewer ones using floor(j/k) in addition to +, -, and *.",
+  "id": "A346742",
+  "mentions": [
+    "A005245",
+    "A091333",
+    "A253177",
+    "A348069",
+    "A348089"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

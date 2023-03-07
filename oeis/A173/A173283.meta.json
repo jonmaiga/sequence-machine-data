@@ -1,0 +1,19 @@
+{
+  "description": "A(x) satisfies A005408(x) = A(x)/A(x^2), A005408 = odd numbers.",
+  "id": "A173283",
+  "mentions": [
+    "A005408",
+    "A152204"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

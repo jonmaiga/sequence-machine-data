@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of column k, C_k(x), is equal to the product: C_k(x) = Product_{k=0..n} 1/(1 - binomial(n,k)*x).",
+  "id": "A124834",
+  "mentions": [
+    "A032443",
+    "A124835",
+    "A124836"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

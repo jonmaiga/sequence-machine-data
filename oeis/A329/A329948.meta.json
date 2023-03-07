@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers m that have at least 3 prime factors p such that p+1 | m+1.",
+  "id": "A329948",
+  "mentions": [
+    "A002997",
+    "A006972"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

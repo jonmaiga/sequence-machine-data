@@ -1,0 +1,19 @@
+{
+  "description": "Labelings of n diamond-shaped posets with 4 vertices per diamond where the labels follow the poset relations whose associated reading permutation avoids 321 in the classical sense.",
+  "id": "A260579",
+  "mentions": [
+    "A260331",
+    "A260332"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

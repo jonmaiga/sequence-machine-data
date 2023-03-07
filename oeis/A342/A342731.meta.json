@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=0; for n >= 2, a(n) is the number of iterations needed for the map (x/y) -> (A000203(x)*A000005(y)) / (A000005(x)*A000203(y)) to reach a cycle, when starting from x = n. If no cycle is reachable, a(n) = -1.",
+  "id": "A342731",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A049642",
+    "A342718"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

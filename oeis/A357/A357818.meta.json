@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of the Dedekind psi function (A001615).",
+  "id": "A357818",
+  "mentions": [
+    "A001615",
+    "A001620",
+    "A028415",
+    "A065463",
+    "A104528",
+    "A173290",
+    "A212717",
+    "A335707",
+    "A357819"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of Proth primes < 2^n.",
+  "id": "A214120",
+  "mentions": [
+    "A080076"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = n!*k! / (floor(n/2)! * floor(k/2)! * floor((n+k)/2)!).",
+  "id": "A182073",
+  "mentions": [
+    "A068555",
+    "A135573",
+    "A211226"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Dual to A214094: a(0)=0, a(1)=1; a(n) = a(n-1) + a(n-2) if a(n-1) + a(n-2) is not semiprime; a(n) is minimal prime divisor of a(n-1) + a(n-2) if a(n-1) + a(n-2) is semiprime.",
+  "id": "A214156",
+  "mentions": [
+    "A214094"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:39",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

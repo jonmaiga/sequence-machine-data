@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1+4*x)/(1-8*x).",
+  "id": "A270568",
+  "mentions": [
+    "A001018",
+    "A094085",
+    "A204623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Occurrence counts of chambers with maximum number of vertices in the chamber complex of an n X m lattice polygon as described in A288177, written as triangle T(n,m), n >= 1, 1 <= m <= n.",
+  "id": "A288181",
+  "mentions": [
+    "A288177",
+    "A288187"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

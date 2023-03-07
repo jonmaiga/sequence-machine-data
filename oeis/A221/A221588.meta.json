@@ -1,0 +1,18 @@
+{
+  "description": "Equals one maps: number of n X 3 binary arrays indicating the locations of corresponding elements equal to exactly one of their king-move neighbors in a random 0..3 n X 3 array.",
+  "id": "A221588",
+  "mentions": [
+    "A221590"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

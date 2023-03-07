@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} (1+1/10^k).",
+  "id": "A132325",
+  "mentions": [
+    "A000593",
+    "A067080",
+    "A081845",
+    "A100220",
+    "A132019",
+    "A132026",
+    "A132034",
+    "A132038",
+    "A132271",
+    "A132272",
+    "A132323",
+    "A132326"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

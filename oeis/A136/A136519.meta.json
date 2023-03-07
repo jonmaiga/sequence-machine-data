@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A027907(2^n+1, n), where A027907 = triangle of trinomial coefficients.",
+  "id": "A136519",
+  "mentions": [
+    "A027907",
+    "A136518"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of rooted trees with n vertices that are not identity trees but whose non-leaf terminal subtrees are all different.",
+  "id": "A324979",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A290689",
+    "A317713",
+    "A324850",
+    "A324922",
+    "A324923",
+    "A324924",
+    "A324931",
+    "A324935",
+    "A324936",
+    "A324970",
+    "A324971",
+    "A324978"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

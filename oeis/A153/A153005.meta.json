@@ -1,0 +1,26 @@
+{
+  "description": "Primes in toothpick sequence A153003.",
+  "id": "A153005",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139253",
+    "A152998",
+    "A152999",
+    "A153000",
+    "A153002",
+    "A153003",
+    "A153006",
+    "A153009"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

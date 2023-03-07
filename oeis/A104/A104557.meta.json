@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T, read by rows, such that the unsigned columns of the matrix inverse when read downwards equals the rows of T read backwards, with T(n,n)=1 and T(n,n-1) = floor((n+1)/2)*floor((n+2)/2).",
+  "id": "A104557",
+  "mentions": [
+    "A102038",
+    "A104558",
+    "A104559"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

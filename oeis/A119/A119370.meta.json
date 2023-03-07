@@ -1,0 +1,26 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^2 + x^2*(A(x)^2 - A(x)).",
+  "id": "A119370",
+  "mentions": [
+    "A104547",
+    "A119369",
+    "A119371",
+    "A119372",
+    "A119373",
+    "A119374",
+    "A119375",
+    "A119376",
+    "A133336"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

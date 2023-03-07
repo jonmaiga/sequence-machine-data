@@ -1,0 +1,23 @@
+{
+  "description": "Diagonal of A354703.",
+  "id": "A354492",
+  "mentions": [
+    "A084068",
+    "A293330",
+    "A354702",
+    "A354703",
+    "A354707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

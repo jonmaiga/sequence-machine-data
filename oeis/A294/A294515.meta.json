@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of partial sums of the reciprocals of the decagonal numbers.",
+  "id": "A294515",
+  "mentions": [
+    "A001107",
+    "A244647",
+    "A250550",
+    "A250551",
+    "A294512"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

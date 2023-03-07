@@ -1,0 +1,20 @@
+{
+  "description": "Estimate of the sum of twin prime pairs < 10^n = 4*Pi2(10^2n).",
+  "id": "A139677",
+  "mentions": [
+    "A007508",
+    "A118552"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

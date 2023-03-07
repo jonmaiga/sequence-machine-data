@@ -1,0 +1,22 @@
+{
+  "description": "n times n+6 gives the concatenation of a number m with itself.",
+  "id": "A116290",
+  "mentions": [
+    "A116159",
+    "A116282",
+    "A116289",
+    "A116291",
+    "A116304"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

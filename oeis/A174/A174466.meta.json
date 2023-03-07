@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n} d*sigma(n/d)*tau(d).",
+  "id": "A174466",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001620",
+    "A007425",
+    "A034718",
+    "A038040",
+    "A073002",
+    "A082633",
+    "A174465",
+    "A201994"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

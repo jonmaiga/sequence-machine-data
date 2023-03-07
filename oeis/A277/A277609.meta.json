@@ -1,0 +1,19 @@
+{
+  "description": "Fourth column of Euler's difference table in A068106. It is 6 times the sequence A000261.",
+  "id": "A277609",
+  "mentions": [
+    "A000261",
+    "A068106"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

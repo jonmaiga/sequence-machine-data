@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which the g.f. for row n is (1-x)^(4*n+1) * Sum_{j>=0} binomial(n+j-1,j)^4 * x^j, read by rows of k=0..3*n terms.",
+  "id": "A262014",
+  "mentions": [
+    "A008977",
+    "A181544",
+    "A202750",
+    "A258402",
+    "A262015"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

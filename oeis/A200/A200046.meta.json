@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the equation x^n + (x+1)^n = (x+2)^n (mod n), x = 0..n-1 has no solution.",
+  "id": "A200046",
+  "mentions": [
+    "A195637",
+    "A200219"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

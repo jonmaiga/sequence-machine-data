@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the string 100n001 is prime.",
+  "id": "A103888",
+  "mentions": [
+    "A099678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of ways of writing the binary expansion of n as a product (or concatenation) of palindromes.",
+  "id": "A215244",
+  "mentions": [
+    "A030308",
+    "A050430",
+    "A063782",
+    "A206925",
+    "A215245",
+    "A215246",
+    "A215250",
+    "A215253",
+    "A215254",
+    "A220654"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

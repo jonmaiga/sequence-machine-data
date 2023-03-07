@@ -1,0 +1,39 @@
+{
+  "description": "Number of even-length compositions of n with alternating parts distinct.",
+  "id": "A342532",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000726",
+    "A001522",
+    "A003242",
+    "A008965",
+    "A032020",
+    "A059966",
+    "A062968",
+    "A064410",
+    "A064428",
+    "A065608",
+    "A070211",
+    "A106351",
+    "A114921",
+    "A175342",
+    "A224958",
+    "A325545",
+    "A325546",
+    "A342527",
+    "A342528",
+    "A342529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

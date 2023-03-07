@@ -1,0 +1,23 @@
+{
+  "description": "Nonsquare numbers k such that the denominator of the harmonic mean of the divisors of k is larger than 2*k.",
+  "id": "A348827",
+  "mentions": [
+    "A000037",
+    "A001105",
+    "A005101",
+    "A099377",
+    "A099378",
+    "A348825",
+    "A348826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

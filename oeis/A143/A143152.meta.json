@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Möbius transform of the least prime factor of n: A051731 * A020639.",
+  "id": "A143152",
+  "mentions": [
+    "A010639",
+    "A020639",
+    "A051731",
+    "A127093",
+    "A143151"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

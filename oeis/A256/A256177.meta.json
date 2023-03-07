@@ -1,0 +1,20 @@
+{
+  "description": "Primes congruent to {8, 13, 18, 23} mod 25.",
+  "id": "A256177",
+  "mentions": [
+    "A141933",
+    "A141937",
+    "A141941",
+    "A141945"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:37",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

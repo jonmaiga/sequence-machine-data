@@ -1,0 +1,30 @@
+{
+  "description": "T(n, k) = Sum_{d|n} phi(n/d)*binomial(d,k) for n>0, T(0, 0) = 1. Triangle read by rows, for 0 <= k <= n.",
+  "id": "A121775",
+  "mentions": [
+    "A000031",
+    "A001867",
+    "A001868",
+    "A001869",
+    "A053635",
+    "A054625",
+    "A054626",
+    "A054627",
+    "A054628",
+    "A054629",
+    "A054630",
+    "A121776",
+    "A327029"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

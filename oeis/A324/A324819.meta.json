@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2*A156552(n) OR A323243(n), where OR is bitwise-OR, A003986.",
+  "id": "A324819",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A003986",
+    "A156552",
+    "A323243",
+    "A324815",
+    "A324821"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

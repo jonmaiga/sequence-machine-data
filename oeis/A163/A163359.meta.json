@@ -1,0 +1,27 @@
+{
+  "description": "Hilbert curve in N x N grid, starting downwards from the top-left corner, listed by descending antidiagonals.",
+  "id": "A163359",
+  "mentions": [
+    "A061579",
+    "A062880",
+    "A163334",
+    "A163336",
+    "A163357",
+    "A163360",
+    "A163363",
+    "A163365",
+    "A163482",
+    "A163483"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

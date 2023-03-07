@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising in A062391.",
+  "id": "A240724",
+  "mentions": [
+    "A062391"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = [x^k] 2^n*(Euler(n, x/2) + Euler(n, x)), where Euler(n, x) are the Euler polynomials. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A342314",
+  "mentions": [
+    "A060096",
+    "A060097",
+    "A163982"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

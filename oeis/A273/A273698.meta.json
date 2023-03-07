@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of expansion of PolyLog(-2, x)/PolyLog(2, x), where PolyLog(m, x) is the polylogarithm function.",
+  "id": "A273698",
+  "mentions": [
+    "A000330",
+    "A007406",
+    "A007407",
+    "A232193",
+    "A232248",
+    "A266581"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 2^n + 35 is prime.",
+  "id": "A220077",
+  "mentions": [
+    "A176927"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

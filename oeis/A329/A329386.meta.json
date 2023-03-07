@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k + A055012(k) is a square.",
+  "id": "A329386",
+  "mentions": [
+    "A055012",
+    "A329179"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

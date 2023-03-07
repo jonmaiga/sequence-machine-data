@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Max( A262503(k) : k=0,1,2,3,...,n ), where A262503(k) = largest x such that A155043(x) = k.",
+  "id": "A263082",
+  "mentions": [
+    "A155043",
+    "A262503",
+    "A263077",
+    "A263079"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

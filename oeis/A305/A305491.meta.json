@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator(r(n)) where r(n) = (((1/2)*(sqrt(3) + 1))^n - ((1/2)*(sqrt(3) - 1))^n * cos(Pi*n))/sqrt(3).",
+  "id": "A305491",
+  "mentions": [
+    "A000045",
+    "A060723",
+    "A060755",
+    "A173299",
+    "A173300",
+    "A305492"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "List of pairs (a,d) of coprime integers a>0, d>=0 such that a*(a+d)*(a+2*d) is a square, ordered by the squares.",
+  "id": "A284874",
+  "mentions": [
+    "A078522",
+    "A284666",
+    "A284876"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

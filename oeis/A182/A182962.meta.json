@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( x/(1 - x*A'(x)/A(x)) ).",
+  "id": "A182962",
+  "mentions": [
+    "A088716",
+    "A156326",
+    "A238223",
+    "A300735",
+    "A300986",
+    "A300988",
+    "A300990",
+    "A300992"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

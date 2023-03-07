@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of Iccanobif numbers A001129.",
+  "id": "A172524",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001129",
+    "A004086",
+    "A014258",
+    "A014260"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

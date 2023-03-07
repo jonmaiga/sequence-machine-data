@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number of unit resistors in an electrical network with total resistance A007305(n)/A007306(n) such that all currents through the resistors are distinct and > 0.",
+  "id": "A347282",
+  "mentions": [
+    "A007305",
+    "A007306",
+    "A342558",
+    "A348020"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

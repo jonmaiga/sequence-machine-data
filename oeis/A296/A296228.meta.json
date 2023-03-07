@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the limiting ratio of terms in A296227.",
+  "id": "A296228",
+  "mentions": [
+    "A296000",
+    "A296227"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

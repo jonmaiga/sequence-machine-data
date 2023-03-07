@@ -1,0 +1,22 @@
+{
+  "description": "Consider all ways of writing the n-th composite number as the product of two divisors d1*d2 = d3*d4 = ... where each divisor is larger than 1; a(n) is the maximum of the sums {d1 + d2, d3 + d4, ...}.",
+  "id": "A273777",
+  "mentions": [
+    "A002808",
+    "A020639",
+    "A046343",
+    "A063655",
+    "A273227"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

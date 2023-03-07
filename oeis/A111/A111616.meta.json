@@ -1,0 +1,18 @@
+{
+  "description": "n divided by the third upper diagonal of the array in A111615.",
+  "id": "A111616",
+  "mentions": [
+    "A111615",
+    "A111617"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

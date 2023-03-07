@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number whose continued fraction is a run-length encoding of its own binary representation.",
+  "id": "A179559",
+  "mentions": [
+    "A179560",
+    "A179561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

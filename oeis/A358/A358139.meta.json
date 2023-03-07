@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k > 0 sorted by k/A000120(k) in increasing order. A000120 is the binary weight of k. If k/A000120(k) yields equal values, the smaller k will appear first.",
+  "id": "A358139",
+  "mentions": [
+    "A000120",
+    "A049445",
+    "A161764",
+    "A199238",
+    "A235602",
+    "A348416"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

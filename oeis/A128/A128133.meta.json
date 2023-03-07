@@ -1,0 +1,22 @@
+{
+  "description": "Binomial transform of A128132.",
+  "id": "A128133",
+  "mentions": [
+    "A005183",
+    "A007318",
+    "A128132",
+    "A128134"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

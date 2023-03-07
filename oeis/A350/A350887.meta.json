@@ -1,0 +1,29 @@
+{
+  "description": "Let X,Y,Z be positive integer solutions to X^2 = Sum_{j=0..Y-1} (1+Z*j)^2, where solutions for Y or Z < 1 are excluded. This sequence lists the values for Y sorted by X.",
+  "id": "A350887",
+  "mentions": [
+    "A000330",
+    "A000447",
+    "A001032",
+    "A024215",
+    "A024381",
+    "A076215",
+    "A106521",
+    "A134419",
+    "A186699",
+    "A350886",
+    "A350888"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Möbius transform of A000120, binary weight of n.",
+  "id": "A297115",
+  "mentions": [
+    "A000120",
+    "A008683",
+    "A083254",
+    "A297114",
+    "A297116",
+    "A297117"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Product of first A000217(n) = n(n+1)/2 primes.",
+  "id": "A113511",
+  "mentions": [
+    "A000217",
+    "A002110",
+    "A006125",
+    "A007467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

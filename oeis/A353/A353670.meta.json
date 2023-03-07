@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if the odd part of n is a prime, otherwise 0.",
+  "id": "A353670",
+  "mentions": [
+    "A000265",
+    "A001227",
+    "A010051",
+    "A038550",
+    "A329697",
+    "A331410",
+    "A353627",
+    "A353671"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

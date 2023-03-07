@@ -1,0 +1,20 @@
+{
+  "description": "Conjecturally, number of generators of degree n of the Hopf algebra of parking functions, regarded as a dendriform trialgebra.",
+  "id": "A141316",
+  "mentions": [
+    "A122705",
+    "A122708",
+    "A185281"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

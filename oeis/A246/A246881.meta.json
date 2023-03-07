@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=A246880(n) where no k exists such that A246880(n)=A002277(k)*(2*10^(A081677(k-1))+3).",
+  "id": "A246881",
+  "mentions": [
+    "A002277",
+    "A081677",
+    "A173041",
+    "A246880"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

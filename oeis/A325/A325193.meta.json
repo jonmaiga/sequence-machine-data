@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions whose sum plus co-rank is n, where co-rank is maximum of length and largest part.",
+  "id": "A325193",
+  "mentions": [
+    "A051924",
+    "A065770",
+    "A071724",
+    "A096771",
+    "A115720",
+    "A252464",
+    "A257990",
+    "A263297",
+    "A325178",
+    "A325189",
+    "A325192",
+    "A325194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

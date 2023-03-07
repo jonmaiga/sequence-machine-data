@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = number of divisors of n that have exactly three (not necessarily distinct) prime factors.",
+  "id": "A101606",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000292",
+    "A001221",
+    "A001358",
+    "A003633",
+    "A004018",
+    "A014612",
+    "A064911",
+    "A101605"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

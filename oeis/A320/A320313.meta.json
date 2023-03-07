@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as the sum of 4 positive integers a, b, c, d such that d < b and a/b - c/d = (a - c)/(b - d).",
+  "id": "A320313",
+  "mentions": [
+    "A026810",
+    "A319853",
+    "A319854",
+    "A320311",
+    "A320312"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

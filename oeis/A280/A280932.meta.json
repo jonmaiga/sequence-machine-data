@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*F(n-1) + 2*F(n-3) + 10*F(n-5) + 9*F(n-8) where n >= 8 and F = A000045.",
+  "id": "A280932",
+  "mentions": [
+    "A000045",
+    "A022130",
+    "A101156",
+    "A280931"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 8,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

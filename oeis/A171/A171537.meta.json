@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(3/7).",
+  "id": "A171537",
+  "mentions": [
+    "A002194",
+    "A010465",
+    "A010477"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

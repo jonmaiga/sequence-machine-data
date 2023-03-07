@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that prime(k+1) == 1 (mod k).",
+  "id": "A105286",
+  "mentions": [
+    "A004649",
+    "A105287",
+    "A105288",
+    "A105290",
+    "A105329",
+    "A105451"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

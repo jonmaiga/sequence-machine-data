@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that sigma_n(k) > sigma_n(k+1), where sigma_n(k) = sum of the n-th powers of the divisors of k.",
+  "id": "A158661",
+  "mentions": [
+    "A001158",
+    "A098475"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

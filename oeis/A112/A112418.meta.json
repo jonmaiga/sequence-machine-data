@@ -1,0 +1,20 @@
+{
+  "description": "Primes which have a prime number of partitions into five distinct primes.",
+  "id": "A112418",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007963",
+    "A051034"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

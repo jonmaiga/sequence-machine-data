@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest K such that the power partition function P_n(k) is log-concave for all k > K.",
+  "id": "A346160",
+  "mentions": [
+    "A000041",
+    "A001156",
+    "A003108",
+    "A046042"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

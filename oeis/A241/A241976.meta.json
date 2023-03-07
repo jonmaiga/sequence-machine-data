@@ -1,0 +1,21 @@
+{
+  "description": "Values of k such that k^2 + (k+3)^2 is a square.",
+  "id": "A241976",
+  "mentions": [
+    "A001652",
+    "A065113",
+    "A075841"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

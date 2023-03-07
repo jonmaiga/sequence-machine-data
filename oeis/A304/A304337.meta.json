@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest fractal-like sequence such that the erasure of all pairs of contiguous terms of opposite parity leaves the sequence unchanged.",
+  "id": "A304337",
+  "mentions": [
+    "A303845",
+    "A303948",
+    "A303953"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

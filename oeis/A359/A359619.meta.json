@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=1, after n iterations of constructing circles from all current vertices using only a compass, starting with one vertex. See the Comments.",
+  "id": "A359619",
+  "mentions": [
+    "A359009",
+    "A359061",
+    "A359258",
+    "A359569",
+    "A359570",
+    "A359571"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

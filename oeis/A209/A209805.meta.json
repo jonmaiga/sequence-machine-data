@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-block noncrossing partitions of n-set up to rotations.",
+  "id": "A209805",
+  "mentions": [
+    "A001246",
+    "A001263",
+    "A054357",
+    "A103371",
+    "A132812",
+    "A152175",
+    "A209612"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

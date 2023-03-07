@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle (or \"upper Wythoff tree\", or Beatty tree for r = (golden ratio)^2), T, of all nonnegative integers, each exactly once, as determined from the upper Wythoff sequence as described in Comments.",
+  "id": "A258235",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A258212",
+    "A258236"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

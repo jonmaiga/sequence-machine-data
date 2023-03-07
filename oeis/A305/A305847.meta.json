@@ -1,0 +1,22 @@
+{
+  "description": "Solution a() of the complementary equation a(n) + b(n) = 5*n, where a(1) = 1. See Comments.",
+  "id": "A305847",
+  "mentions": [
+    "A001614",
+    "A001622",
+    "A118011",
+    "A305848",
+    "A305849"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

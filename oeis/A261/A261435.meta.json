@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^5-1 is a semiprime.",
+  "id": "A261435",
+  "mentions": [
+    "A096175",
+    "A104238",
+    "A261436",
+    "A261460"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

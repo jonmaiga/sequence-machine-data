@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that A339423(k) divides k.",
+  "id": "A339424",
+  "mentions": [
+    "A001358",
+    "A002808",
+    "A339423",
+    "A339425"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

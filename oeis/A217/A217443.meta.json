@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p^2 is an arithmetic average of 4 consecutive primes.",
+  "id": "A217443",
+  "mentions": [
+    "A051395"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

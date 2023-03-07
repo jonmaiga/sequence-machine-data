@@ -1,0 +1,23 @@
+{
+  "description": "2-Ramanujan primes: the interval (x/2,x] has at least n Ramanujan primes for x >= a(n) but not for x = a(n) - 1.",
+  "id": "A192820",
+  "mentions": [
+    "A104272",
+    "A192821",
+    "A192822",
+    "A192823",
+    "A192824",
+    "A225907"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

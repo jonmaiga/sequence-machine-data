@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k up steps starting at even heights.",
+  "id": "A101919",
+  "mentions": [
+    "A006318",
+    "A027941",
+    "A034856",
+    "A085478",
+    "A090181",
+    "A101920"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

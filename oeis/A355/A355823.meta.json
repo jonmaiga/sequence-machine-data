@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if all exponents in prime factorization of n are powers of 2, otherwise 0.",
+  "id": "A355823",
+  "mentions": [
+    "A000079",
+    "A091862",
+    "A138302",
+    "A209229",
+    "A225546",
+    "A271727",
+    "A302777",
+    "A355824",
+    "A355825"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

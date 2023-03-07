@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer with exactly n semiprime divisors.",
+  "id": "A220264",
+  "mentions": [
+    "A004709",
+    "A025487",
+    "A086971",
+    "A220423"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

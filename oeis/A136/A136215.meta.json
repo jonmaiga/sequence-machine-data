@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T, read by rows, where T(n,k) = A007559(n-k)*C(n,k) where A007559 equals the triple factorials in column 0.",
+  "id": "A136215",
+  "mentions": [
+    "A001147",
+    "A007318",
+    "A007559",
+    "A008544",
+    "A027465",
+    "A038207",
+    "A094587",
+    "A105278",
+    "A112333",
+    "A132159",
+    "A132382",
+    "A133314",
+    "A133480",
+    "A135278",
+    "A136212",
+    "A136213",
+    "A136214",
+    "A136216"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

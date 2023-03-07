@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that 0 < |x^11 - y^2| < x^(9/2) for some number y.",
+  "id": "A173350",
+  "mentions": [
+    "A173348"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

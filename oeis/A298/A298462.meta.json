@@ -1,0 +1,23 @@
+{
+  "description": "The first of two consecutive triangular numbers the sum of which is equal to the sum of two consecutive prime numbers.",
+  "id": "A298462",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A061275",
+    "A298463",
+    "A298464",
+    "A298465",
+    "A298466"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

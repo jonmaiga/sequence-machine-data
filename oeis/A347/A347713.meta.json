@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 6 squares.",
+  "id": "A347713",
+  "mentions": [
+    "A000290",
+    "A002654",
+    "A006456",
+    "A337165",
+    "A340905",
+    "A347710",
+    "A347711",
+    "A347712"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

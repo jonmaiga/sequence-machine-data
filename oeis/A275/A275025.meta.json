@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of functions (f,g) on [n] such that fg is an idempotent.",
+  "id": "A275025",
+  "mentions": [
+    "A000248",
+    "A239768"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

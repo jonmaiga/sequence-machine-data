@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that Sum_{i=1..n} k^i / i is a positive integer.",
+  "id": "A333072",
+  "mentions": [
+    "A034386",
+    "A055773",
+    "A332734",
+    "A333196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

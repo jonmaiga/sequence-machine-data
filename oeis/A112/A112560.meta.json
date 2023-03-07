@@ -1,0 +1,27 @@
+{
+  "description": "Sieve performed by successive iterations of steps where step m is: keep m terms, remove the next 2 and repeat; as m = 1,2,3,.. the remaining terms form this sequence.",
+  "id": "A112560",
+  "mentions": [
+    "A073360",
+    "A112561",
+    "A112562",
+    "A112563",
+    "A112564",
+    "A112565",
+    "A112566",
+    "A112567",
+    "A112568",
+    "A112569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

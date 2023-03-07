@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 2*p+1 and (2*p)^2+(2*p+1)^2 are also prime.",
+  "id": "A347110",
+  "mentions": [
+    "A005384",
+    "A103776"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

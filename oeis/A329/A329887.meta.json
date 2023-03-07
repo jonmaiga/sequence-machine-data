@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 1, a(1) = 2; for n > 1, if n is even, then a(n) = 2*a(n/2), and if n is odd, a(n) = A283980(a((n-1)/2)).",
+  "id": "A329887",
+  "mentions": [
+    "A025487",
+    "A054429",
+    "A108951",
+    "A163511",
+    "A283980",
+    "A322827",
+    "A329886",
+    "A329900"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

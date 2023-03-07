@@ -1,0 +1,18 @@
+{
+  "description": "Decimal representation of consonants and vowels in English integers mapped to binary 0 and 1.",
+  "id": "A174879",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

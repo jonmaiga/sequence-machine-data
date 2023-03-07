@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(n+1) = 10*a(n)+2*n-1",
+  "id": "A179619",
+  "mentions": [
+    "A164851"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

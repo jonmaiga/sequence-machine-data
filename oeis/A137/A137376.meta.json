@@ -1,0 +1,20 @@
+{
+  "description": "Triangular sequence from coefficients of Meixner polynomials from expansion of: p(x)=(1 - t/c)*(1 - t)^(-x - b);c = 1/2; b = 1;.",
+  "id": "A137376",
+  "mentions": [
+    "A000587"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

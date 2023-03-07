@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (3^j + 7^k)/2, for j and k >= 0.",
+  "id": "A226791",
+  "mentions": [
+    "A226816"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

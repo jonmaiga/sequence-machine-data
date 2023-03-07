@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integer whose square is the closest square to prime(n).",
+  "id": "A248170",
+  "mentions": [
+    "A000040",
+    "A246934"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

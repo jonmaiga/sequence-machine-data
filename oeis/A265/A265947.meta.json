@@ -1,0 +1,22 @@
+{
+  "description": "Total size of all principal order ideals in the poset of integer partitions of n with the refinement order.",
+  "id": "A265947",
+  "mentions": [
+    "A001764",
+    "A002846",
+    "A063834",
+    "A213242",
+    "A213385",
+    "A213427"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

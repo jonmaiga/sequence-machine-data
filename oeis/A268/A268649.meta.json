@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: 1/(1-x) = Product_{n>=1} A( x^n/(1+x)^n ).",
+  "id": "A268649",
+  "mentions": [
+    "A117209"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Coefficients in expansion of E_2^(1/4).",
+  "id": "A289392",
+  "mentions": [
+    "A000203",
+    "A004984",
+    "A006352",
+    "A108091",
+    "A109817",
+    "A110150",
+    "A211342",
+    "A289291",
+    "A289292",
+    "A289307",
+    "A289326",
+    "A289391",
+    "A289393",
+    "A289394"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

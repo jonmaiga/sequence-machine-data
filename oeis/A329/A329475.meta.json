@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)^2*T(k)*T(n-k), where T(k) = A002426(k) is the coefficient of x^k in the expansion of (x^2+x+1)^k.",
+  "id": "A329475",
+  "mentions": [
+    "A002426",
+    "A002895"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

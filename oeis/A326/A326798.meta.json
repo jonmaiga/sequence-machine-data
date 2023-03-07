@@ -1,0 +1,23 @@
+{
+  "description": "Consider the e.g.f. B(x,y) = Sum_{n>=0} Sum_{k=0..floor(n/2)} T(n,k) * x^(2*n-2*k) * y^(2*k) / (2*n)! and related functions A(x,y) and C(x,y), as defined in the Formula section. Sequence gives the triangular array of coefficients T(n,k) (n>=0, 0<=k<=floor(n/2)) of B(x,y).",
+  "id": "A326798",
+  "mentions": [
+    "A326551",
+    "A326552",
+    "A326795",
+    "A326797",
+    "A326799"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

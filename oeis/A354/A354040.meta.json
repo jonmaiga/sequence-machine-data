@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that A353709(k) has Hamming weight n.",
+  "id": "A354040",
+  "mentions": [
+    "A000120",
+    "A353709",
+    "A354041"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

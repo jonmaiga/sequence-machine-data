@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+j, p+k, q+j, q+k are all prime, where q is the next prime after p, j = p mod A007953(q) and k = q mod A007953(p).",
+  "id": "A341326",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

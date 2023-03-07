@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = s(s(n)), where s(n) = sigma(n)-n = A001065(n).",
+  "id": "A178601",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A051027",
+    "A063990",
+    "A072869",
+    "A206708"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number T(n,k) of endofunctions on [n] with all cycles of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A243098",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000272",
+    "A057817",
+    "A060917",
+    "A060918",
+    "A241980",
+    "A241981",
+    "A246049",
+    "A246050"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

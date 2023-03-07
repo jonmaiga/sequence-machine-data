@@ -1,0 +1,20 @@
+{
+  "description": "Composites of the form smallest digit of prime(n) + prime(n).",
+  "id": "A144592",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A054054"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

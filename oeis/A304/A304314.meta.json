@@ -1,0 +1,22 @@
+{
+  "description": "Logarithmic derivative of F(x) that satisfies: [x^n] exp( n^4 * x ) / F(x) = 0 for n>0.",
+  "id": "A304314",
+  "mentions": [
+    "A304312",
+    "A304313",
+    "A304315",
+    "A304321",
+    "A304324"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

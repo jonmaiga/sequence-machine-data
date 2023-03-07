@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically first increasing sequence of positive integers such that there are exactly a(k) terms less than or equal to 3*a(k), for each k.",
+  "id": "A260107",
+  "mentions": [
+    "A037988",
+    "A094591",
+    "A130011",
+    "A260139"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

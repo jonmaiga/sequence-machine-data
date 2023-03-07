@@ -1,0 +1,28 @@
+{
+  "description": "Square array, read by antidiagonals: form the Euler-Seidel matrix for the sequence {2^k*k!} and then divide column k by 2^k*k!.",
+  "id": "A143411",
+  "mentions": [
+    "A008288",
+    "A065919",
+    "A076571",
+    "A086764",
+    "A108625",
+    "A143007",
+    "A143409",
+    "A143410"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

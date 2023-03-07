@@ -1,0 +1,28 @@
+{
+  "description": "Number of steps to reach the minimum of the final cycle under iterations of the map A001281: x->3x-1 if x odd, x/2 otherwise.",
+  "id": "A135730",
+  "mentions": [
+    "A001281",
+    "A006370",
+    "A006577",
+    "A037084",
+    "A039500",
+    "A039505",
+    "A135727",
+    "A135729",
+    "A261671",
+    "A261673",
+    "A261674"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

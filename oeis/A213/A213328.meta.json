@@ -1,0 +1,24 @@
+{
+  "description": "Analog of Fermat quotients: a(n) = ((round((phi_3)^p)-3)/p, where phi_3 = (3+sqrt(13))/2 and p = prime(n).",
+  "id": "A213328",
+  "mentions": [
+    "A007663",
+    "A064723",
+    "A096060",
+    "A146211",
+    "A164740",
+    "A180511",
+    "A213327",
+    "A222207"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - A280704(n).",
+  "id": "A280701",
+  "mentions": [
+    "A003961",
+    "A250469",
+    "A280702",
+    "A280704"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

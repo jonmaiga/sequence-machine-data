@@ -1,0 +1,28 @@
+{
+  "description": "Sum of all the parts in the partitions of n into 9 squarefree parts.",
+  "id": "A326523",
+  "mentions": [
+    "A008683",
+    "A326522",
+    "A326524",
+    "A326525",
+    "A326526",
+    "A326527",
+    "A326528",
+    "A326529",
+    "A326530",
+    "A326531",
+    "A326532"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

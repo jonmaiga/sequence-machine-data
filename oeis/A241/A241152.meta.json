@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of partitions having the same degree in the partition graph G(n) defined at A241150.",
+  "id": "A241152",
+  "mentions": [
+    "A241150",
+    "A241151",
+    "A241153"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

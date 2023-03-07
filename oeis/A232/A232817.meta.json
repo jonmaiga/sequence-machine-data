@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the open-tube surface index constant.",
+  "id": "A232817",
+  "mentions": [
+    "A232808",
+    "A232809",
+    "A232810",
+    "A232811",
+    "A232812",
+    "A232813",
+    "A232814",
+    "A232815",
+    "A232816"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Intersection of A228058 and A260021.",
+  "id": "A354362",
+  "mentions": [
+    "A228058",
+    "A260021",
+    "A353679",
+    "A354106"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

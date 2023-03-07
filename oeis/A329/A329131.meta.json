@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose prime signature is a Lyndon word.",
+  "id": "A329131",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A000961",
+    "A001037",
+    "A025487",
+    "A027375",
+    "A059966",
+    "A097318",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A133811",
+    "A304678",
+    "A318731",
+    "A328596",
+    "A329138",
+    "A329139",
+    "A329140",
+    "A329142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

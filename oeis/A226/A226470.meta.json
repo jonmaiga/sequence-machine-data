@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 XOR triangular(n), where XOR is the bitwise logical exclusive-or operator.",
+  "id": "A226470",
+  "mentions": [
+    "A000217",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

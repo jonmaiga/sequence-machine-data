@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 5n into exactly n parts.",
+  "id": "A304134",
+  "mentions": [
+    "A209816",
+    "A209818"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

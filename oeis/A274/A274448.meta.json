@@ -1,0 +1,22 @@
+{
+  "description": "Denominators in expansion of W(exp(x)) about x=1, where W is the Lambert function.",
+  "id": "A274448",
+  "mentions": [
+    "A001662",
+    "A051711",
+    "A274447"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

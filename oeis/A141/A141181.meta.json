@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 2*x^2+3*x*y-4*y^2 (as well as of the form 2*x^2+7*x*y+y^2).",
+  "id": "A141181",
+  "mentions": [
+    "A035269",
+    "A038872",
+    "A038873",
+    "A038883",
+    "A038889",
+    "A038919",
+    "A068228",
+    "A141111",
+    "A141112",
+    "A141123"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

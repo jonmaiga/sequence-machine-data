@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the smaller parts of the partitions of n into two distinct parts with larger part squarefree.",
+  "id": "A294284",
+  "mentions": [
+    "A008683",
+    "A294145",
+    "A294285"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

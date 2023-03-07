@@ -1,0 +1,23 @@
+{
+  "description": "Second inverse function (numbers of rows) for pairing function A185180.",
+  "id": "A209278",
+  "mentions": [
+    "A002260",
+    "A003056",
+    "A092542",
+    "A092543",
+    "A185180"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least prime divisor of Fr(n) which does not divide any Fr(k) with k < n, or 1 if such a primitive prime divisor of Fr(n) does not exist, where Fr(n) denotes the n-th Franel number given by A000172.",
+  "id": "A242169",
+  "mentions": [
+    "A000040",
+    "A000172",
+    "A242170",
+    "A242171",
+    "A242173"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

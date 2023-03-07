@@ -1,0 +1,21 @@
+{
+  "description": "Non-isomorphic colorings of the cube under rotations, using at most N colors on the faces and M colors on the vertices. Square array H(N,M) with N,M > 0 read by antidiagonals.",
+  "id": "A316093",
+  "mentions": [
+    "A000543",
+    "A047780"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

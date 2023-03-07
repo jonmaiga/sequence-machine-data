@@ -1,0 +1,19 @@
+{
+  "description": "Number of collections of nonempty subsets of an n-element set where each element appears in at most 3 subsets.",
+  "id": "A178171",
+  "mentions": [
+    "A000110",
+    "A178165",
+    "A330964"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

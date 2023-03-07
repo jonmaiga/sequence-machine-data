@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x satisfying x == 1 (mod 4) or x == 14, 26, 30 (mod 32).",
+  "id": "A304868",
+  "mentions": [
+    "A016777",
+    "A210380"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:49",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Largest Euler characteristic of a downset on an n-dimensional cube.",
+  "id": "A214282",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A001448",
+    "A001700",
+    "A004524",
+    "A007318",
+    "A056040",
+    "A186231",
+    "A214283",
+    "A215495"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least integer m>1 such that the product of the first k primes for k=1,...,n are pairwise distinct modulo m.",
+  "id": "A210144",
+  "mentions": [
+    "A000040",
+    "A207982",
+    "A208494",
+    "A208643"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

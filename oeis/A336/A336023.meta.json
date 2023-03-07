@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = a(1) = a(2) = 1; a(n) = (1/2) * Sum_{k=0..n-2} binomial(n-2,k) * a(k) * a(n-k-2).",
+  "id": "A336023",
+  "mentions": [
+    "A000111",
+    "A007558"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

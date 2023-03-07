@@ -1,0 +1,29 @@
+{
+  "description": "GCD of the strict integer partition with FDH number n; GCD of the indices (in A050376) of Fermi-Dirac prime factors of n.",
+  "id": "A319826",
+  "mentions": [
+    "A050376",
+    "A052331",
+    "A056239",
+    "A064547",
+    "A213925",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A299755",
+    "A299757",
+    "A319825"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

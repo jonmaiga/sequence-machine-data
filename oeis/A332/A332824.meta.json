@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{d|n} A019565(phi(d)), where phi is Euler totient function A000010.",
+  "id": "A332824",
+  "mentions": [
+    "A000010",
+    "A019565",
+    "A048675",
+    "A097248",
+    "A318834",
+    "A332825",
+    "A332826",
+    "A332827"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

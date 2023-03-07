@@ -1,0 +1,18 @@
+{
+  "description": "Distance between n-1 and n in decimal expansion of Pi A000796.",
+  "id": "A120584",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

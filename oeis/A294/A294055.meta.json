@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] such that the maximal absolute difference between consecutive elements within a block equals six.",
+  "id": "A294055",
+  "mentions": [
+    "A287213",
+    "A287277",
+    "A287278"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 7,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

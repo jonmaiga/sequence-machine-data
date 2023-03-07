@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (d(k), d(k+1)) = (0,0) in the base-2 digits d(i) of sqrt(2).",
+  "id": "A293761",
+  "mentions": [
+    "A004539",
+    "A293762",
+    "A293763",
+    "A293764"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

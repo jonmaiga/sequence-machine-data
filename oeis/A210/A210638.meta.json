@@ -1,0 +1,21 @@
+{
+  "description": "Iterated Rényi numbers. Square array A(n,k), n>=0, k>=0, read by antidiagonals, A(n,k) = exponential transform applied n times to the constant function -1, evaluated at k.",
+  "id": "A210638",
+  "mentions": [
+    "A000587",
+    "A115067",
+    "A144150",
+    "A209631"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First differences of [0, A111788], the sequence that begins with 0 and continues with the terms of A111788.",
+  "id": "A111789",
+  "mentions": [
+    "A111788",
+    "A111790"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

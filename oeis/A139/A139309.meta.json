@@ -1,0 +1,23 @@
+{
+  "description": "Array by antidiagonals, sum of non-k-gonal numbers between consecutive k-gonal numbers.",
+  "id": "A139309",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A006002",
+    "A048395"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

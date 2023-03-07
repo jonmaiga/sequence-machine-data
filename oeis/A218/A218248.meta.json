@@ -1,0 +1,22 @@
+{
+  "description": "Recurring digital invariants of order 7.",
+  "id": "A218248",
+  "mentions": [
+    "A218161",
+    "A218246",
+    "A218247"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

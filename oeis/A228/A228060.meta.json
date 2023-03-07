@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table of conjectural numbers. Let len(n) be the length (including n) of the Collatz (3x+1) iteration of n. The number n is in row n - len(n).",
+  "id": "A228060",
+  "mentions": [
+    "A008908",
+    "A070165",
+    "A082984",
+    "A220139",
+    "A220140",
+    "A228014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": -85,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

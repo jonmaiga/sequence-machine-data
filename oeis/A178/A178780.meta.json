@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the polynomial x^36*(x^12-1)*(x^9-1)*(x^8-1)*(x^6-1)*(x^5-1)*(x^2-1) in increasing powers of x.",
+  "id": "A178780",
+  "mentions": [
+    "A008871",
+    "A178779",
+    "A178781",
+    "A178795"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Products (semiprimes) of two distinct safe primes.",
+  "id": "A157352",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A005385",
+    "A006881",
+    "A007304",
+    "A111206",
+    "A157342",
+    "A157344",
+    "A157345",
+    "A157346",
+    "A157347"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

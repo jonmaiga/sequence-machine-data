@@ -1,0 +1,20 @@
+{
+  "description": "Restricted growth sequence transform of A294898.",
+  "id": "A318308",
+  "mentions": [
+    "A286449",
+    "A294898",
+    "A318309",
+    "A318310"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

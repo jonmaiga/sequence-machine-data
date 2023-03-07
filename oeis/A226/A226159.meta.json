@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = -prime(n) if prime(n) is an irregular prime else prime(n).",
+  "id": "A226159",
+  "mentions": [
+    "A000040",
+    "A000928"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f. S(x), where C(x*y) + iS(x*y) = exp( i*Integral Integral C(x*y) dx dy ) such that C(x)^2 + S(x)^2 = 1.",
+  "id": "A326552",
+  "mentions": [
+    "A325292",
+    "A326551",
+    "A326797",
+    "A326798",
+    "A326799",
+    "A326800",
+    "A326801",
+    "A326802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of trivially compound perfect squared rectangles of order n up to symmetries of the rectangle.",
+  "id": "A217375",
+  "mentions": [
+    "A002839",
+    "A217153",
+    "A217154",
+    "A217374"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

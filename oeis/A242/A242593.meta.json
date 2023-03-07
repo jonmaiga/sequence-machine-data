@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of length n words on {B,G} that contain exactly k occurrences of the contiguous substrings BGB or GBG. The substrings are allowed to overlap; n>=0, 0<=k<=max(n-2,0).",
+  "id": "A242593",
+  "mentions": [
+    "A128588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

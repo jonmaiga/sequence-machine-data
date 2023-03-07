@@ -1,0 +1,38 @@
+{
+  "description": "Four times the sum of all divisors of all positive integers <= n.",
+  "id": "A243980",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A004125",
+    "A006218",
+    "A016742",
+    "A024916",
+    "A175254",
+    "A196020",
+    "A222548",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239050",
+    "A239660",
+    "A239931",
+    "A239934",
+    "A244050",
+    "A327329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:41",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers not expressible as a*b + b*c + a*c + 1 with positive numbers a, b, c.",
+  "id": "A228062",
+  "mentions": [
+    "A025052"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

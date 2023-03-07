@@ -1,0 +1,21 @@
+{
+  "description": "Number of incomplete rectangles of area n.",
+  "id": "A270060",
+  "mentions": [
+    "A002133",
+    "A038548",
+    "A067627",
+    "A100073"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

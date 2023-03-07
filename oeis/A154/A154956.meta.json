@@ -1,0 +1,19 @@
+{
+  "description": "Pierce expansion of 2/Pi.",
+  "id": "A154956",
+  "mentions": [
+    "A006283",
+    "A060294",
+    "A061233"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

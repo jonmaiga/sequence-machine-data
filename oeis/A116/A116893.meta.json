@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that gcd(k!+1, k^k+1) > 1.",
+  "id": "A116893",
+  "mentions": [
+    "A014566",
+    "A038507",
+    "A067658",
+    "A116891",
+    "A116892",
+    "A116894"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are a divisor of the product of the digits of its divisors.",
+  "id": "A337230",
+  "mentions": [
+    "A000005",
+    "A002473",
+    "A005349",
+    "A007602",
+    "A007954",
+    "A027750",
+    "A038186",
+    "A333617"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*b(n), where b(n) is defined by the condition that Product_{d|n} (b(d) + 1) = 1, n > 1 and b(1) = 1.",
+  "id": "A262804",
+  "mentions": [
+    "A000005",
+    "A008683",
+    "A048109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

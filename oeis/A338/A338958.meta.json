@@ -1,0 +1,28 @@
+{
+  "description": "Number of chiral pairs of colorings of the 96 edges (or triangular faces) of the 4-D 24-cell using exactly n colors.",
+  "id": "A338958",
+  "mentions": [
+    "A331352",
+    "A331356",
+    "A331360",
+    "A338950",
+    "A338954",
+    "A338956",
+    "A338957",
+    "A338959",
+    "A338982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

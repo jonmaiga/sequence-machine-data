@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 2187/2048, the Pythagorean apotome.",
+  "id": "A229948",
+  "mentions": [
+    "A010774",
+    "A221363",
+    "A229943",
+    "A230437"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

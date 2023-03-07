@@ -1,0 +1,19 @@
+{
+  "description": "Approximation to the (10^n)-th prime by applying a bisection to Gram's formula for Riemann's approximation of the prime counting function.",
+  "id": "A121046",
+  "mentions": [
+    "A006988",
+    "A052434",
+    "A274767"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

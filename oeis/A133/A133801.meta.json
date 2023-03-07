@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 3^n - 1.",
+  "id": "A133801",
+  "mentions": [
+    "A001221",
+    "A024023",
+    "A113913"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

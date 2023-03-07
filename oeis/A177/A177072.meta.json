@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (9*n+2)*(9*n+7).",
+  "id": "A177072",
+  "mentions": [
+    "A002061",
+    "A017185",
+    "A017245",
+    "A177059"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:25",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

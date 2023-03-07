@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A000035(i) = A000035(j) and A003415(i) = A003415(j), for all i, j >= 1, where A000035 and A003415 compute the parity and the arithmetic derivative of their argument.",
+  "id": "A353522",
+  "mentions": [
+    "A000035",
+    "A003415",
+    "A305801",
+    "A353520",
+    "A353521"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

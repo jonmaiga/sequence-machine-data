@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) is the maximum number of points that can be chosen from a rectangle of n X k lattice points such that their mutual distances are distinct, where T(n,k) is a triangle read by rows, 1 <= k <= n.",
+  "id": "A351700",
+  "mentions": [
+    "A003022",
+    "A193838",
+    "A227590",
+    "A271490",
+    "A351699"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "First members of a list of seven pairs connected with parity of sums of partition numbers in arithmetic progressions.",
+  "id": "A328537",
+  "mentions": [
+    "A000041",
+    "A328538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

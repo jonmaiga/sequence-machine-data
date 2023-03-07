@@ -1,0 +1,22 @@
+{
+  "description": "LCM-transform of number of divisors function (A000005).",
+  "id": "A265578",
+  "mentions": [
+    "A000005",
+    "A061446",
+    "A265574",
+    "A265575",
+    "A265576",
+    "A265577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

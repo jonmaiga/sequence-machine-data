@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the coefficients of z^n/n! for the expansion of hypergeometric([1/2,1/2],[1];z).",
+  "id": "A274657",
+  "mentions": [
+    "A038534",
+    "A056982",
+    "A123854"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

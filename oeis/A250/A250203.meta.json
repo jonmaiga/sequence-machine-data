@@ -1,0 +1,31 @@
+{
+  "description": "Numbers n such that the Phi_n(2) is the product of exactly two primes and is divisible by 2n+1.",
+  "id": "A250203",
+  "mentions": [
+    "A001917",
+    "A005097",
+    "A005384",
+    "A007494",
+    "A014601",
+    "A014664",
+    "A072226",
+    "A081858",
+    "A085021",
+    "A085724",
+    "A115591",
+    "A239638",
+    "A250197"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

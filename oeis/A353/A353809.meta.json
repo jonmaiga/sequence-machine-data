@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n is of the form 4m+1 and is not the sum of two squares, otherwise 0.",
+  "id": "A353809",
+  "mentions": [
+    "A084109",
+    "A353483"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

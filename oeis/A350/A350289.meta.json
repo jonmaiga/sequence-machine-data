@@ -1,0 +1,24 @@
+{
+  "description": "Infinite binary Walsh matrix read by antidiagonals.",
+  "id": "A350289",
+  "mentions": [
+    "A004198",
+    "A010060",
+    "A197818",
+    "A219463",
+    "A228539",
+    "A228540"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

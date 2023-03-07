@@ -1,0 +1,33 @@
+{
+  "description": "Filter sequence combining the largest proper divisor of n (A032742) with n's residue modulo 4 (A010873), and a single bit (A319710) telling whether the smallest prime factor is unitary.",
+  "id": "A320004",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A010873",
+    "A020639",
+    "A024362",
+    "A032742",
+    "A067029",
+    "A071178",
+    "A077462",
+    "A101296",
+    "A283050",
+    "A286474",
+    "A319704",
+    "A319710",
+    "A319714",
+    "A319717",
+    "A319994"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

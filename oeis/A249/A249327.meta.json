@@ -1,0 +1,31 @@
+{
+  "description": "Rectangular array T(n,k) = f(n)*k^2, where f = A005117 (squarefree numbers); n, k >= 1; read by antidiagonals.",
+  "id": "A249327",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A001105",
+    "A005117",
+    "A033428",
+    "A033429",
+    "A033581",
+    "A033582",
+    "A033583",
+    "A033584",
+    "A144555",
+    "A152742"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

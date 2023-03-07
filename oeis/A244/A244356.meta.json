@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and n+1 are not divisible by any of their nonzero digits.",
+  "id": "A244356",
+  "mentions": [
+    "A038772",
+    "A237766"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

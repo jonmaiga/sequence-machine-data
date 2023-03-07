@@ -1,0 +1,19 @@
+{
+  "description": "Rank of n^3 when {i^2: i>=1} and {j^3: j>=1} are jointly ranked with i^2 after j^3 when i^2=j^3. Complement of A135674.",
+  "id": "A186147",
+  "mentions": [
+    "A135674",
+    "A186145"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:53",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

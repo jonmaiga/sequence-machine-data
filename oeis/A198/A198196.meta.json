@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that [V(4,1,k)/4] = floor(cosh(k log(sqrt(3)+2))/2) = A004526(A001075(k)) is a prime.",
+  "id": "A198196",
+  "mentions": [
+    "A001075",
+    "A004526",
+    "A117808"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

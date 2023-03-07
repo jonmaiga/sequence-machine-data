@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose binary representation is the concatenation of n 1's and 2n-1 digits 0.",
+  "id": "A147538",
+  "mentions": [
+    "A000225",
+    "A016152",
+    "A081294",
+    "A138119"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

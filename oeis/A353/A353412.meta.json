@@ -1,0 +1,24 @@
+{
+  "description": "The odd part of hybrid shift: a(n) = A000265(A252463(n)).",
+  "id": "A353412",
+  "mentions": [
+    "A000005",
+    "A000265",
+    "A064216",
+    "A064989",
+    "A252463",
+    "A320107",
+    "A353413"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

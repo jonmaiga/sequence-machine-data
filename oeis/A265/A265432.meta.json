@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = smallest k with concat(1,k) and concat(n,k) both square numbers.",
+  "id": "A265432",
+  "mentions": [
+    "A018796",
+    "A018851",
+    "A045855",
+    "A272671",
+    "A272672",
+    "A272674",
+    "A272675",
+    "A272682",
+    "A272683",
+    "A272684",
+    "A272685",
+    "A273369"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

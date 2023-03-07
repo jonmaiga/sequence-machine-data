@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of A143731 interpreted as a binary fraction.",
+  "id": "A143735",
+  "mentions": [
+    "A143731"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

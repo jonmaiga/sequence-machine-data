@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) - A057521(n), where A057521 gives the powerful part of n, and sigma gives the sum of divisors of n.",
+  "id": "A326184",
+  "mentions": [
+    "A000203",
+    "A057521",
+    "A326185",
+    "A326187"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

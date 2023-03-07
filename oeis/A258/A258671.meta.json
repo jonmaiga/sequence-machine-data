@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of (n!)^2 into parts that are at most n.",
+  "id": "A258671",
+  "mentions": [
+    "A236810",
+    "A237998",
+    "A238000",
+    "A258668",
+    "A258669",
+    "A258670"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of seven cubes in exactly seven ways.",
+  "id": "A345779",
+  "mentions": [
+    "A345525",
+    "A345769",
+    "A345778",
+    "A345780",
+    "A345789",
+    "A345829"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

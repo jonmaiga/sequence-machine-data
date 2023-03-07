@@ -1,0 +1,21 @@
+{
+  "description": "The number of orbits of triples of {1,2,...,n} under the action of the dihedral group of order 2n.",
+  "id": "A236283",
+  "mentions": [
+    "A081352",
+    "A116940",
+    "A236332"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:49",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

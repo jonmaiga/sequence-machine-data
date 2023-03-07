@@ -1,0 +1,21 @@
+{
+  "description": "Construct sequences P,Q,R by the rules: Q = first differences of P, R = second differences of P, P starts with 1,5,11, Q starts with 4,6, R starts with 2; at each stage the smallest number not yet present in P,Q,R is appended to R; every number appears exactly once in the union of P,Q,R. Sequence gives P.",
+  "id": "A225376",
+  "mentions": [
+    "A005228",
+    "A030124",
+    "A037257",
+    "A225377",
+    "A225378"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

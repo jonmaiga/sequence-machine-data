@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 1/((1+2*x)*(1-4*x-4*x^2)).",
+  "id": "A110048",
+  "mentions": [
+    "A079291",
+    "A084159",
+    "A086346",
+    "A086348",
+    "A097076",
+    "A110046",
+    "A110047",
+    "A110049",
+    "A110050"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square array of number of distinct m X n (0,1) matrices after iterated double sorting, read by antidiagonals.",
+  "id": "A171699",
+  "mentions": [
+    "A089006"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations until a fixed point or cycle is reached when repeatedly replacing a number with the sum of the cubes of its digits.",
+  "id": "A165331",
+  "mentions": [
+    "A003620",
+    "A008585",
+    "A046156",
+    "A046197",
+    "A165330",
+    "A165340"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

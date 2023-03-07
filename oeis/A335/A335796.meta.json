@@ -1,0 +1,19 @@
+{
+  "description": "Number of ON cells at n-th generation in the \"Ulam-Warburton and Friedkin Replicator\" hybrid two-dimensional cellular automaton.",
+  "id": "A335796",
+  "mentions": [
+    "A147562",
+    "A247666",
+    "A335794"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

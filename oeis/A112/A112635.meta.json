@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = rightmost term of n-th row of triangle A112592. (For n >= 2, a(n) = number of terms in the (n-1)th row of triangle A112592 which are coprime to n.)",
+  "id": "A112635",
+  "mentions": [
+    "A112592",
+    "A112631"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

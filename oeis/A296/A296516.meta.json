@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of terms in expanded form of bivariate polynomial Q_n, where (P_n, Q_n) is defined by: P_0 = x, Q_0 = y, P_(n+1) = P_n + Q_n, Q_(n+1) = P_n * Q_n.",
+  "id": "A296516",
+  "mentions": [
+    "A000045",
+    "A000058",
+    "A000217",
+    "A001622",
+    "A003686",
+    "A005207",
+    "A007018",
+    "A033192",
+    "A064847"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:56:27",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

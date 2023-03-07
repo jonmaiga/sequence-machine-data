@@ -1,0 +1,24 @@
+{
+  "description": "Table read by rows in which row n lists divisors of (p^p-1)/(p-1) where p = prime(n).",
+  "id": "A248843",
+  "mentions": [
+    "A000110",
+    "A001039",
+    "A054767",
+    "A125135",
+    "A214810",
+    "A214811",
+    "A214812"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

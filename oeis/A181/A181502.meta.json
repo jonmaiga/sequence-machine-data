@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: number of solutions of n queens problem for given n and given maximal size of a connection component in the conflict constellation",
+  "id": "A181502",
+  "mentions": [
+    "A000170",
+    "A007705",
+    "A181499",
+    "A181500",
+    "A181501"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

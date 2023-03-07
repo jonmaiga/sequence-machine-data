@@ -1,0 +1,24 @@
+{
+  "description": "Integers n such that 10^n+39 is a prime number.",
+  "id": "A135108",
+  "mentions": [
+    "A095688",
+    "A107083",
+    "A108049",
+    "A108050",
+    "A108052",
+    "A108054",
+    "A108312"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

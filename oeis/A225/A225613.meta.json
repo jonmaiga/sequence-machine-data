@@ -1,0 +1,22 @@
+{
+  "description": "The largest n-digit number whose first k digits are divisible by the k-th prime for k = 1..n.",
+  "id": "A225613",
+  "mentions": [
+    "A079206",
+    "A143867",
+    "A225614"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

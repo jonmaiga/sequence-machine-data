@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+6)X1 arrays of occupancy after each element moves up to +-6 places but not 0 and without 2-loops",
+  "id": "A222164",
+  "mentions": [
+    "A222165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

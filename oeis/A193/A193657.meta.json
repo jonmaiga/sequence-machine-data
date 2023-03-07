@@ -1,0 +1,25 @@
+{
+  "description": "First difference of A002627.",
+  "id": "A193657",
+  "mentions": [
+    "A002627",
+    "A082425",
+    "A094727",
+    "A114870",
+    "A176305",
+    "A193649",
+    "A193668",
+    "A296964"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

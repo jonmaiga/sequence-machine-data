@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4*11^n - 1 is prime.",
+  "id": "A205521",
+  "mentions": [
+    "A005540",
+    "A046865",
+    "A120378",
+    "A199020"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

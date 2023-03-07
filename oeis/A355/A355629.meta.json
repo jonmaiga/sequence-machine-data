@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of tuples (t_1, ..., t_n) with integers 2 <= t_1 <= ... <= t_n such that 3^n + 1 = Product_{i = 1..n} (3 + 1/t_i).",
+  "id": "A355629",
+  "mentions": [
+    "A034472",
+    "A355626",
+    "A355627",
+    "A355628",
+    "A355630",
+    "A355631",
+    "A356210"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

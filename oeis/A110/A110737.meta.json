@@ -1,0 +1,22 @@
+{
+  "description": "Row sums in A112668.",
+  "id": "A110737",
+  "mentions": [
+    "A060072",
+    "A110738",
+    "A110739",
+    "A112668",
+    "A125118"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

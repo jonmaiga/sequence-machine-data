@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows T(n,k): T(1,1) = 0; for n > 1, row n lists exponents of distinct prime factors of the n-th highly composite number (A002182(n)), where column k = 1, 2, 3, ..., omega(A002182(n)) = A108602(n).",
+  "id": "A212182",
+  "mentions": [
+    "A000040",
+    "A002182",
+    "A108602",
+    "A124010",
+    "A212171",
+    "A318490"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

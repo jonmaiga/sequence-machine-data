@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct integers d(pi), where pi ranges over all partitions of n into distinct parts and d(pi) = sum of squares of parts of pi.",
+  "id": "A111212",
+  "mentions": [
+    "A000009",
+    "A069999"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

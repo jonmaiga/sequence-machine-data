@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = b(n) - 2*b(b(b(n))) for n >= 3, where b(n) = A356988(n).",
+  "id": "A357563",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A356988",
+    "A357562"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

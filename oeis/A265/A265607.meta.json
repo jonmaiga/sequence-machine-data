@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, T(n,k) = n!*B(n,k) for n>=0 and 0<=k<=n, where B(n,k) is the Bell matrix with generator 1/j for j>=1.",
+  "id": "A265607",
+  "mentions": [
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:36:07",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

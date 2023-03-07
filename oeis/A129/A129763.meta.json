@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n+k-1, n)^2 / n.",
+  "id": "A129763",
+  "mentions": [
+    "A000108",
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:38:07",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

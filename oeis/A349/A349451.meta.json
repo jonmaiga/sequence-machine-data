@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of Fibonacci numbers, when started from A000045(1): 1, 1, 2, 3, 5, 8, 13, 21, ...",
+  "id": "A349451",
+  "mentions": [
+    "A000045",
+    "A349449",
+    "A349450",
+    "A349452",
+    "A349453",
+    "A349566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

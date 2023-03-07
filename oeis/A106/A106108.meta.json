@@ -1,0 +1,28 @@
+{
+  "description": "Rowland's prime-generating sequence: a(1) = 7; for n > 1, a(n) = a(n-1) + gcd(n, a(n-1)).",
+  "id": "A106108",
+  "mentions": [
+    "A000265",
+    "A084662",
+    "A084663",
+    "A132199",
+    "A134162",
+    "A134734",
+    "A134736",
+    "A134743",
+    "A134744",
+    "A137613",
+    "A221869",
+    "A230504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

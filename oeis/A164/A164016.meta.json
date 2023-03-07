@@ -1,0 +1,23 @@
+{
+  "description": "6 times centered hexagonal numbers: 18*n*(n+1) + 6.",
+  "id": "A164016",
+  "mentions": [
+    "A003215",
+    "A108099",
+    "A152746",
+    "A164013",
+    "A164015"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:11",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

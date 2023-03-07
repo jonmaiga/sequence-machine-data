@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonprimes in [30n - 30, 30n] coprime to 30.",
+  "id": "A140887",
+  "mentions": [
+    "A007775"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

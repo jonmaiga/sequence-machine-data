@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{1<=i",
+  "id": "A359045",
+  "mentions": [
+    "A020985",
+    "A190173",
+    "A213626",
+    "A213786",
+    "A213787"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

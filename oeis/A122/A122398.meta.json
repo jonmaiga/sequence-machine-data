@@ -1,0 +1,17 @@
+{
+  "description": "Sequence is inverse permutation to A122397.",
+  "id": "A122398",
+  "mentions": [
+    "A122397"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

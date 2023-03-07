@@ -1,0 +1,24 @@
+{
+  "description": "The average path sum (floored down) when iterating from n to 1 with nondeterministic map k -> k - k/p, where p is any prime factor of k.",
+  "id": "A333001",
+  "mentions": [
+    "A333000",
+    "A333002",
+    "A333003",
+    "A333123",
+    "A333785",
+    "A333790",
+    "A333794"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

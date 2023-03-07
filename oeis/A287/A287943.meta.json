@@ -1,0 +1,20 @@
+{
+  "description": "T(1, c) = prime(c). T(r + 1, c) = (T(r, c') + T(r, c'+1)) / 2 where c' is the c-th number such that T(r, c') + T(r, c'+1) is even. Table for T read downwards by antidiagonals.",
+  "id": "A287943",
+  "mentions": [
+    "A000040",
+    "A024675",
+    "A036262"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

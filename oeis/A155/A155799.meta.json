@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the product_{q=3-almost-primes} (q^2-1)/(q^2+1).",
+  "id": "A155799",
+  "mentions": [
+    "A014612",
+    "A112407"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

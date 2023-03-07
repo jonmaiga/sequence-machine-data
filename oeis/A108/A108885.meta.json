@@ -1,0 +1,22 @@
+{
+  "description": "Let T(m,p) be the value of the following game: there are m \"minus\" balls and p \"plus\" balls in an urn, for a total of n=m+p balls. You may draw balls from the urn one at a time at random and without replacement until you decide to stop drawing. Each minus ball drawn costs you $1 and each plus ball drawn gets you $1. Sequence gives triangle of numerators of T(n-p,p), 0 <= p <= n, read by rows.",
+  "id": "A108885",
+  "mentions": [
+    "A108883",
+    "A108884",
+    "A108886"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

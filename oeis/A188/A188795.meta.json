@@ -1,0 +1,19 @@
+{
+  "description": "a(n) counts all integers k in [2,floor(sqrt(n))] such that the number of divisors d>1 of n-k with k|(n-d) equals A188550(n).",
+  "id": "A188795",
+  "mentions": [
+    "A188550",
+    "A188579",
+    "A188794"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 4,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 3n into 3 parts with largest part prime.",
+  "id": "A237264",
+  "mentions": [
+    "A010051",
+    "A019298",
+    "A236364",
+    "A236370",
+    "A236758",
+    "A236762"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 - x - 4*x^2)/(1 - 2*x - 7*x^2 + 8*x^3).",
+  "id": "A100305",
+  "mentions": [
+    "A015443",
+    "A100303",
+    "A100304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

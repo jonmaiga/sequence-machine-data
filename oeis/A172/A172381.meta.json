@@ -1,0 +1,20 @@
+{
+  "description": "Triangle whose inverse has production matrix with general term (-1)^(n-k+1)*C(k+1, n-k+1).",
+  "id": "A172381",
+  "mentions": [
+    "A033184",
+    "A172380",
+    "A172382"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

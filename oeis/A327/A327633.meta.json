@@ -1,0 +1,24 @@
+{
+  "description": "Noninfinitary perfect numbers: numbers k whose sum of noninfinitary divisors equals k.",
+  "id": "A327633",
+  "mentions": [
+    "A000203",
+    "A007357",
+    "A049417",
+    "A064591",
+    "A077609",
+    "A282900",
+    "A282940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

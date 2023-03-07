@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n+9 with largest inscribed rectangle having area <= n.",
+  "id": "A218630",
+  "mentions": [
+    "A182114"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

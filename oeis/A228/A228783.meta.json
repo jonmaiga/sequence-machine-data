@@ -1,0 +1,27 @@
+{
+  "description": "Table of coefficients of the algebraic number s(2*l) = 2*sin(Pi/2*l) as a polynomial in powers of rho(2*l) = 2*cos(Pi/(2*l)) if l is even and of rho(l) = 2*cos(Pi/l) if l is odd (reduced version).",
+  "id": "A228783",
+  "mentions": [
+    "A000010",
+    "A055034",
+    "A055035",
+    "A111125",
+    "A127672",
+    "A127677",
+    "A187360",
+    "A228785",
+    "A228786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

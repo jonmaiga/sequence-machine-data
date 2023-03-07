@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of j in the range 1 <= j <= n with the same maximal exponent in prime factorization as n.",
+  "id": "A357310",
+  "mentions": [
+    "A000079",
+    "A051903",
+    "A058933",
+    "A289023"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

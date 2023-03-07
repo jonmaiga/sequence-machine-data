@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which have no two successive prime factors (when sorted into monotonic order) where the latter prime factor would be greater than the square of the former.",
+  "id": "A253784",
+  "mentions": [
+    "A000290",
+    "A251726",
+    "A251728",
+    "A253567",
+    "A253785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

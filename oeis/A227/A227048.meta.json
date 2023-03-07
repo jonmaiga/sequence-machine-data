@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: row n, for n >= 0, lists the nonnegative differences 3^n - 2^m, m >= 0, in increasing order.",
+  "id": "A227048",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A001047",
+    "A020914",
+    "A024023",
+    "A056576",
+    "A056577",
+    "A098294",
+    "A192111",
+    "A196486"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

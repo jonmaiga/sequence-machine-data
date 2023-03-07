@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (5^n/n!^2) * Product_{k=0..n-1} (10k+1)*(10k+4).",
+  "id": "A184891",
+  "mentions": [
+    "A092870",
+    "A178529",
+    "A184424",
+    "A184892",
+    "A184895",
+    "A184897"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

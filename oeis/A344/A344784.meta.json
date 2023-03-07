@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the prime factors of Fermat numbers (A023394).",
+  "id": "A344784",
+  "mentions": [
+    "A000215",
+    "A023394"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

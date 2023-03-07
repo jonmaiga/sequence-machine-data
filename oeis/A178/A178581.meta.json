@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are the average of the members of emirp pairs.",
+  "id": "A178581",
+  "mentions": [
+    "A006567",
+    "A109308",
+    "A109309",
+    "A178582"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

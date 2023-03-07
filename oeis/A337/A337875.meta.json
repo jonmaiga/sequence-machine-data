@@ -1,0 +1,23 @@
+{
+  "description": "Integers that can be written m = k*sigma(k) = q*sigma(q) where (k, q) is a primitive solution of this equation and sigma(m) is the sum of divisors of (m).",
+  "id": "A337875",
+  "mentions": [
+    "A000043",
+    "A000203",
+    "A000668",
+    "A064987",
+    "A337873",
+    "A337874",
+    "A337876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

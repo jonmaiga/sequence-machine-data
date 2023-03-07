@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 10*A007605(n) - 9*A007652(n).",
+  "id": "A301378",
+  "mentions": [
+    "A007605",
+    "A007652",
+    "A176044"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

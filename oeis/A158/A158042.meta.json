@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of power series of gamma matrix with determinant 4!.",
+  "id": "A158042",
+  "mentions": [
+    "A111490",
+    "A158040",
+    "A158041"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

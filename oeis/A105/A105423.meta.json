@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n+2 having exactly two parts equal to 1.",
+  "id": "A105423",
+  "mentions": [
+    "A105422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:06:45",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

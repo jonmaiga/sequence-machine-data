@@ -1,0 +1,19 @@
+{
+  "description": "Least prime beginning a string, of length at least n, of consecutive primes which alternate between types 6*k+1 and 6*k+5 or 6*k+5 and 6*k+1.",
+  "id": "A289119",
+  "mentions": [
+    "A057620",
+    "A057622",
+    "A289118"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

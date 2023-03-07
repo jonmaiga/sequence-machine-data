@@ -1,0 +1,19 @@
+{
+  "description": "Primes found in decimal expansion of 1/EulerGamma.",
+  "id": "A173647",
+  "mentions": [
+    "A001620",
+    "A098907"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

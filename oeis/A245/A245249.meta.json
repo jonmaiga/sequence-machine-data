@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = (1 + x*A(x))^7 with A(0)=1.",
+  "id": "A245249",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A144008",
+    "A144009",
+    "A245247",
+    "A245248"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

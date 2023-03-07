@@ -1,0 +1,22 @@
+{
+  "description": "Table, read by rows: row n contains the prime divisors of A001008 (numerator of n-th harmonic number), without repetitions.",
+  "id": "A308969",
+  "mentions": [
+    "A001008",
+    "A308967",
+    "A308968",
+    "A308970",
+    "A308971"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

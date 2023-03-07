@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = x + 3*x^2 + x*A(A(A(A(x)))).",
+  "id": "A215116",
+  "mentions": [
+    "A213010",
+    "A215114",
+    "A215117",
+    "A215118"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Base-10 representation of numbers k which, in base 2, satisfy abs(k + reverse(k) - reverse(k + reverse(k))) = abs(k - reverse(k)) + reverse(abs(k - reverse(k))) = k.",
+  "id": "A179697",
+  "mentions": [
+    "A030101"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

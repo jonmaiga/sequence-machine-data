@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest natural number such that a(n) > a(n-1), and the name of a(n) in English starts with the letter a(n-1) ends with, and a(n) makes the sequence extendable.",
+  "id": "A281067",
+  "mentions": [
+    "A277971",
+    "A277972",
+    "A281068"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

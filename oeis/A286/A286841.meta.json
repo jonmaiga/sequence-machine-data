@@ -1,0 +1,25 @@
+{
+  "description": "One of the two successive approximations up to 13^n for 13-adic integer sqrt(-1). Here the 8 (mod 13) case (except for n=0).",
+  "id": "A286841",
+  "mentions": [
+    "A048898",
+    "A048899",
+    "A114525",
+    "A286839",
+    "A286840",
+    "A286877",
+    "A286878"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

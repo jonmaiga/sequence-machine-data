@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n minus (product of run lengths in binary representation of n)",
+  "id": "A227190",
+  "mentions": [
+    "A000975",
+    "A084639",
+    "A167489",
+    "A227191"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

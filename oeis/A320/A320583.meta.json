@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected permutation graphs on n vertices with domination number k, with 1 <= k <= floor(n/2).",
+  "id": "A320583",
+  "mentions": [
+    "A320578",
+    "A320579"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

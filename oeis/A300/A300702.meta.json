@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts that do not divide n.",
+  "id": "A300702",
+  "mentions": [
+    "A011782",
+    "A098743",
+    "A100346",
+    "A200745"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

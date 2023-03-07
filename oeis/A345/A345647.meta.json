@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by downward antidiagonals: A(n, k) = number of primes in the interval [n+1, n+k], n >= 1, k > 1.",
+  "id": "A345647",
+  "mentions": [
+    "A001221",
+    "A101083"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

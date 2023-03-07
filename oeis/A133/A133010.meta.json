@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of the Riemann zeta function: If n is a nearest integer to imaginary part of zero, then a(n)=1 else a(n)=0.",
+  "id": "A133010",
+  "mentions": [
+    "A002410",
+    "A058303",
+    "A065434",
+    "A065452",
+    "A065453"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

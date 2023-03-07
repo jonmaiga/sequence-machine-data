@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in ternary representation that match nonzero polynomials with all coefficients in {0,1,2} that are irreducible modulo 3.",
+  "id": "A207671",
+  "mentions": [
+    "A206073",
+    "A207669",
+    "A207670"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: row n shows the coefficients of the polynomial v(n) = d(0) + d(1)*x + ... + d(k)*x^k which is the denominator of the n-th convergent of the continued fraction [1, 1/x, 1/x^2, ... ,1/x^n].",
+  "id": "A230001",
+  "mentions": [
+    "A230000"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

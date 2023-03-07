@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order is weakly increasing and covers an initial interval of positive integers.",
+  "id": "A333379",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A000670",
+    "A029931",
+    "A048793",
+    "A066099",
+    "A070939",
+    "A124766",
+    "A164894",
+    "A225620",
+    "A228351",
+    "A233564",
+    "A246534",
+    "A272919",
+    "A333217",
+    "A333218",
+    "A333380"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

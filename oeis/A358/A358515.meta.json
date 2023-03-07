@@ -1,0 +1,27 @@
+{
+  "description": "Number of types of generalized symmetries in diagonal Latin squares of order n in parastrophic slices.",
+  "id": "A358515",
+  "mentions": [
+    "A000041",
+    "A274171",
+    "A287649",
+    "A287650",
+    "A293777",
+    "A357473",
+    "A358394",
+    "A358891"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

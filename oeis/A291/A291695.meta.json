@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the series reversion of Sum_{i>=1} x^i/(1 - x^i) / Product_{j>=1} (1 - x^j).",
+  "id": "A291695",
+  "mentions": [
+    "A006128",
+    "A007312",
+    "A050393",
+    "A176025"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

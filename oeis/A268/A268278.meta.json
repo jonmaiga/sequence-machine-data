@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that both n and n^2 contain \"123\" as a substring.",
+  "id": "A268278",
+  "mentions": [
+    "A175464",
+    "A178314"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square array, read by antidiagonals, of the positive integers 6cd +-c +-d = (6c +- 1)d +- c. Alternate rows (or columns) are numbers that differ by c from multiples of 6c - 1 or 6c + 1.",
+  "id": "A323674",
+  "mentions": [
+    "A002822",
+    "A047209",
+    "A047336",
+    "A062717",
+    "A067611"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

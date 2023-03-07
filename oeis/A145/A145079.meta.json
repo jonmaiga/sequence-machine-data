@@ -1,0 +1,24 @@
+{
+  "description": "Length of cycle of trajectory of n described in A098282, or -1 if no cycle is ever reached.",
+  "id": "A145079",
+  "mentions": [
+    "A077960",
+    "A087712",
+    "A098282",
+    "A144914",
+    "A145077",
+    "A145078"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

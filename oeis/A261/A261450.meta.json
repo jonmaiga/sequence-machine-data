@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that A011557(n)//k//rev is prime, where rev is the string of digits of A011557(n) reversed (retaining any leading zeros) and // denotes concatenation.",
+  "id": "A261450",
+  "mentions": [
+    "A000079",
+    "A011557",
+    "A100026",
+    "A100028",
+    "A100456",
+    "A100458",
+    "A100459",
+    "A258372"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

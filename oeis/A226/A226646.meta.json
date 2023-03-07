@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to express m/n as Egyptian fractions in just three terms, that is, m/n = 1/x + 1/y + 1/z satisfying 1 <= x <= y <= z and read by antidiagonals.",
+  "id": "A226646",
+  "mentions": [
+    "A002966",
+    "A004194",
+    "A073101",
+    "A192787",
+    "A226640",
+    "A226641",
+    "A226642",
+    "A226644",
+    "A226645",
+    "A227612"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

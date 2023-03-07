@@ -1,0 +1,23 @@
+{
+  "description": "Self-inverse permutation of nonnegative integers, \"gray-blue\" code: a(n) = A193231(A003188(n)).",
+  "id": "A234613",
+  "mentions": [
+    "A003188",
+    "A006068",
+    "A193231",
+    "A234024",
+    "A234027",
+    "A234612"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

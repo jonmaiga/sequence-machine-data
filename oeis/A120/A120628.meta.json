@@ -1,0 +1,19 @@
+{
+  "description": "Primes such that their double is 1 away from a prime number.",
+  "id": "A120628",
+  "mentions": [
+    "A005382",
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

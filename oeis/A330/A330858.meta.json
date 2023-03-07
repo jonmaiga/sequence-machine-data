@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations in S_n for which all cycles have length <= k.",
+  "id": "A330858",
+  "mentions": [
+    "A000085",
+    "A024168",
+    "A057693",
+    "A068424",
+    "A070945",
+    "A070946",
+    "A070947",
+    "A126074",
+    "A333726"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

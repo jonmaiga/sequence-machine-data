@@ -1,0 +1,27 @@
+{
+  "description": "Least power of 3 having exactly n consecutive 5's in its decimal representation.",
+  "id": "A131548",
+  "mentions": [
+    "A131544",
+    "A131545",
+    "A131546",
+    "A131547",
+    "A131549",
+    "A131550",
+    "A131551",
+    "A131552",
+    "A195269"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

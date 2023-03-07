@@ -1,0 +1,21 @@
+{
+  "description": "Number of unoriented series-parallel networks with n colored elements using exactly 2 colors.",
+  "id": "A339281",
+  "mentions": [
+    "A339225",
+    "A339227",
+    "A339280",
+    "A339282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

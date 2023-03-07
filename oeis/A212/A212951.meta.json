@@ -1,0 +1,27 @@
+{
+  "description": "Amounts (in hundredths of a Euro) of coins in denominations suggested by Shallit.",
+  "id": "A212951",
+  "mentions": [
+    "A008588",
+    "A008593",
+    "A008597",
+    "A008598",
+    "A135631",
+    "A208953",
+    "A212773",
+    "A212774",
+    "A212950"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

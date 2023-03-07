@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonal sums of square array A100324, which lists the self-convolutions of SHIFT(A003169).",
+  "id": "A100325",
+  "mentions": [
+    "A003169",
+    "A100324"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

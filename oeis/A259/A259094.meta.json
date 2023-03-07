@@ -1,0 +1,26 @@
+{
+  "description": "From the Lecture Hall Theorem: array read by antidiagonals: T(n,k) = number of partitions of n into odd parts of size < 2k.",
+  "id": "A259094",
+  "mentions": [
+    "A008620",
+    "A008672",
+    "A008673",
+    "A008674",
+    "A008675",
+    "A287997",
+    "A287998",
+    "A288000",
+    "A288001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

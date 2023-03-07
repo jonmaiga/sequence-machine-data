@@ -1,0 +1,20 @@
+{
+  "description": "Number of derangements of a set of n elements where 2 specific elements cannot appear in each other's positions.",
+  "id": "A331007",
+  "mentions": [
+    "A000166",
+    "A055790",
+    "A335391"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:39:59",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

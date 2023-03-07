@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 6k-5 is a composite number of the form (6x-5)*(6y-5) when x or y is not equal to 1 except for k=1.",
+  "id": "A199859",
+  "mentions": [
+    "A016921",
+    "A091300"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

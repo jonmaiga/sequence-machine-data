@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^4 - 3*n^3 + 6*n^2 - 5*n + 2 (n >= 1).",
+  "id": "A304160",
+  "mentions": [
+    "A000583",
+    "A143943"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

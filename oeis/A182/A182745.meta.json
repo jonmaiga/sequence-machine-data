@@ -1,0 +1,24 @@
+{
+  "description": "Second column of the table A182743.",
+  "id": "A182745",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182731",
+    "A182733",
+    "A182742",
+    "A182743",
+    "A182744"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

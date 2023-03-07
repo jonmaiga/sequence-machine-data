@@ -1,0 +1,18 @@
+{
+  "description": "Primes with index k^2+k+1.",
+  "id": "A122566",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

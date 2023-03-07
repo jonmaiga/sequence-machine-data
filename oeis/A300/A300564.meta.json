@@ -1,0 +1,21 @@
+{
+  "description": "Numbers z such that there is a solution to x^2 + y^3 = z^4 with x, y, z >= 1.",
+  "id": "A300564",
+  "mentions": [
+    "A242183",
+    "A242192",
+    "A300565",
+    "A300566"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

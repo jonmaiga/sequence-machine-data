@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A035263, where A035263(n) is parity of 2-adic valuation of 2n.",
+  "id": "A359591",
+  "mentions": [
+    "A008683",
+    "A035263",
+    "A359592"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the lunar sums of two lunar squares.",
+  "id": "A171120",
+  "mentions": [
+    "A087019"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

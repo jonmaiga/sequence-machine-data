@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n = prime(d_1) * prime(d_2) * ... * prime(d_k), where n is a concatenation of d_1, d_2, ..., d_k.",
+  "id": "A329711",
+  "mentions": [
+    "A097227",
+    "A318298"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A reversed prime Fibonacci sequence: a(n+2) is the smallest odd prime such that a(n) is the smallest odd prime divisor of a(n+1)+a(n+2).",
+  "id": "A255562",
+  "mentions": [
+    "A214674",
+    "A352955"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

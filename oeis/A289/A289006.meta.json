@@ -1,0 +1,24 @@
+{
+  "description": "Conversion to octal of the binary expansion given by the first n terms of the period-3 sequence A011655 (repeat 0, 1, 1).",
+  "id": "A289006",
+  "mentions": [
+    "A002277",
+    "A002280",
+    "A011655",
+    "A033129",
+    "A099915"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:08:21",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

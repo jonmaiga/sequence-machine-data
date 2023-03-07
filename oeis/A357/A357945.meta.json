@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k which are not square but D = (b+c)^2 - k is square, where b = floor(sqrt(k)) and c = k - b^2.",
+  "id": "A357945",
+  "mentions": [
+    "A000037",
+    "A042965",
+    "A053186",
+    "A177713",
+    "A211412"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

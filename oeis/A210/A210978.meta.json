@@ -1,0 +1,29 @@
+{
+  "description": "A186029 and positive terms of A001106 interleaved.",
+  "id": "A210978",
+  "mentions": [
+    "A001106",
+    "A006578",
+    "A093005",
+    "A118277",
+    "A181995",
+    "A186029",
+    "A195020",
+    "A195024",
+    "A210977",
+    "A210981",
+    "A210982"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:19",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

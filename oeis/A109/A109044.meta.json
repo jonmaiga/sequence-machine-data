@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lcm(n,3).",
+  "id": "A109044",
+  "mentions": [
+    "A051176",
+    "A099837",
+    "A109007",
+    "A109042"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:45:51",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

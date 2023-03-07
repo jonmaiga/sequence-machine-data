@@ -1,0 +1,19 @@
+{
+  "description": "Slowest increasing sequence of primes such that two neighbor terms share at least three digits (counted with multiplicity).",
+  "id": "A131194",
+  "mentions": [
+    "A133835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

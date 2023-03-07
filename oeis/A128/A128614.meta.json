@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled plane trees with n edges in which no vertex has outdegree one.",
+  "id": "A128614",
+  "mentions": [
+    "A005043"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular matrix T, read by rows, such that the anticommutator of T and U shifts the columns of T up 1 row: {T,U}(n,k) = T(n+1,k), where U denotes the triangular matrix defined by U(n,k) = A000108(n-k) = Catalan(n-k) for n>=k and where T(n,n) = (n+1).",
+  "id": "A116077",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A116078"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

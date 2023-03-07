@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that b(n) is a prime, where b(1) = prime(1) = 2, b(n) = 10*b(n-1) + (prime(n) mod 10).",
+  "id": "A276481",
+  "mentions": [
+    "A007652",
+    "A069151"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

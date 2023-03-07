@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the largest side lengths of all integer-sided triangles with perimeter n whose sides are nonsquarefree.",
+  "id": "A308428",
+  "mentions": [
+    "A008683",
+    "A308426"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

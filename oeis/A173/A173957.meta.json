@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that x^2+y^2+prime(n)^2=3*x*y*prime(n).",
+  "id": "A173957",
+  "mentions": [
+    "A000040",
+    "A002559",
+    "A178444"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} k! * ( k * x/(1 - x) )^k.",
+  "id": "A358741",
+  "mentions": [
+    "A355494",
+    "A358738",
+    "A358740"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

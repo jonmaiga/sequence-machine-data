@@ -1,0 +1,18 @@
+{
+  "description": "Inverse binomial transform of A138909.",
+  "id": "A138910",
+  "mentions": [
+    "A138909"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:13:03",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

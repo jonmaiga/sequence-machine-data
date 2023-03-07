@@ -1,0 +1,23 @@
+{
+  "description": "Total number of parts in all partitions of n into equal parts, minus the total number of parts in all partitions of n into consecutive parts.",
+  "id": "A284475",
+  "mentions": [
+    "A000203",
+    "A000918",
+    "A082647",
+    "A082664",
+    "A204217",
+    "A285914"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

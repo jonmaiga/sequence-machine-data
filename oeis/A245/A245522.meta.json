@@ -1,0 +1,24 @@
+{
+  "description": "Index of the smallest prime where n consecutive trailing digits of the index written in binary match n consecutive trailing digits in the prime when written in binary.",
+  "id": "A245522",
+  "mentions": [
+    "A133583",
+    "A133584",
+    "A133589",
+    "A133590",
+    "A245520",
+    "A245521",
+    "A245523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

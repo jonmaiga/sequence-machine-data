@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = b(n) - Sum_{j=0..n-1} b(n) with b(n) = binomial(2*n, n).",
+  "id": "A281593",
+  "mentions": [
+    "A000984",
+    "A006134",
+    "A057552",
+    "A162551",
+    "A279557",
+    "A279561"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

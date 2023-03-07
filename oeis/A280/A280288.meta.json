@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that number of partitions of n is even and number of partitions of n into distinct parts is odd.",
+  "id": "A280288",
+  "mentions": [
+    "A000009",
+    "A000035",
+    "A000041",
+    "A001318",
+    "A001560",
+    "A280289",
+    "A280290",
+    "A280291"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:10",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

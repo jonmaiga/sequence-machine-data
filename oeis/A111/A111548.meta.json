@@ -1,0 +1,21 @@
+{
+  "description": "Matrix inverse of triangle A111544.",
+  "id": "A111548",
+  "mentions": [
+    "A111540",
+    "A111544",
+    "A111546"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

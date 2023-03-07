@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 23, a(2) = 71, a(n) = 3*a(n-1) - 2*a(n-2) for n>2.",
+  "id": "A248877",
+  "mentions": [
+    "A007283"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

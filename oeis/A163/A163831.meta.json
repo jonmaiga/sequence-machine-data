@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th composite minus the sum of the indices of the primes in its prime factorization.",
+  "id": "A163831",
+  "mentions": [
+    "A002808",
+    "A163515",
+    "A163829"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

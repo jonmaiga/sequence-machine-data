@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 = 19*m^2 + 19*m + 1.",
+  "id": "A105839",
+  "mentions": [
+    "A101180"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:55:15",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

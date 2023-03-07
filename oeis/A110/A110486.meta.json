@@ -1,0 +1,19 @@
+{
+  "description": "Indices of Fibonacci numbers in A068136(n); that is, a(n) = least k such that the digits of Fibonacci(k) begin with the concatenation 1234..n.",
+  "id": "A110486",
+  "mentions": [
+    "A068136"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

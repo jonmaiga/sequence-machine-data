@@ -1,0 +1,23 @@
+{
+  "description": "A098601(2n)+A098601(2n+1)",
+  "id": "A137495",
+  "mentions": [
+    "A005314",
+    "A098601",
+    "A135364",
+    "A137531",
+    "A137584"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:52:47",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

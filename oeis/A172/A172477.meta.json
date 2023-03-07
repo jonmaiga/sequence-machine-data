@@ -1,0 +1,20 @@
+{
+  "description": "The number of ways to dissect an n X n square into polyominoes of size n.",
+  "id": "A172477",
+  "mentions": [
+    "A167251",
+    "A167254",
+    "A167255",
+    "A167258"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

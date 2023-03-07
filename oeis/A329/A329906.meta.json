@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = 1; a(1) = 2; after which a(2n) = A329898(a(n)), a(2n+1) = A330683(a(n)).",
+  "id": "A329906",
+  "mentions": [
+    "A163511",
+    "A181815",
+    "A329897",
+    "A329898",
+    "A329901",
+    "A329905",
+    "A330683"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

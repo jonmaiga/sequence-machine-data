@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows giving numbers H(n,k), number of classes of twin-tree-rooted maps with n edges whose root bond contains k edges.",
+  "id": "A260040",
+  "mentions": [
+    "A005563",
+    "A260039",
+    "A260041"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

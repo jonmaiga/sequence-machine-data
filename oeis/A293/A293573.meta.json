@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp(x/(1 + x + x^2 + x^3 + x^4)).",
+  "id": "A293573",
+  "mentions": [
+    "A111884",
+    "A293571",
+    "A293572"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:05:18",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

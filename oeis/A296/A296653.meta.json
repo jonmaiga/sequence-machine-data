@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k > 15 such that the density of semiprimes in 1..k is 1/n.",
+  "id": "A296653",
+  "mentions": [
+    "A001358",
+    "A066265",
+    "A106130"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Square array A(row,col) read by antidiagonals: A(1,col) = A256450(col-1), and for row > 1, A(row,col) = A255411(A(row-1,col)); Dispersion of factorial base shift A255411 (array transposed).",
+  "id": "A257503",
+  "mentions": [
+    "A001563",
+    "A002260",
+    "A004736",
+    "A007623",
+    "A052571",
+    "A062119",
+    "A083412",
+    "A130744",
+    "A135764",
+    "A213167",
+    "A246278",
+    "A255411",
+    "A255565",
+    "A255566",
+    "A256450",
+    "A257504",
+    "A257505",
+    "A257679",
+    "A257681",
+    "A257692",
+    "A257693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

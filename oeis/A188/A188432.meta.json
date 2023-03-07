@@ -1,0 +1,22 @@
+{
+  "description": "Fixed point of the morphism 0->001, 1->01.",
+  "id": "A188432",
+  "mentions": [
+    "A003849",
+    "A026351",
+    "A026352",
+    "A096270",
+    "A188294"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:41",
+    "offset": 1,
+    "size": 141,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} Product_{k=1..n} tan(k*arctan(x)).",
+  "id": "A177381",
+  "mentions": [
+    "A006752",
+    "A177382",
+    "A177389"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

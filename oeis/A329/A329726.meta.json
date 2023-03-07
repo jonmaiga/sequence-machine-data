@@ -1,0 +1,23 @@
+{
+  "description": "Number of witnesses for Solovay-Strassen primality test of 2*n+1.",
+  "id": "A329726",
+  "mentions": [
+    "A006093",
+    "A007324",
+    "A007814",
+    "A047713",
+    "A063994",
+    "A071294"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

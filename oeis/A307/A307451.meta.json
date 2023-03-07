@@ -1,0 +1,22 @@
+{
+  "description": "Sum of binary weights of two consecutive Fibonacci numbers minus the binary weight of the following Fibonacci number.",
+  "id": "A307451",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A011373"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

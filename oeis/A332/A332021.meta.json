@@ -1,0 +1,20 @@
+{
+  "description": "Elements of the set {m > 0: m is a quadratic nonresidue modulo prime(m)}.",
+  "id": "A332021",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A242750",
+    "A332020"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

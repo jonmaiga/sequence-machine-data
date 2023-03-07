@@ -1,0 +1,18 @@
+{
+  "description": "Let n'= odd part of n. If n' is 1 or prime, then a(n)=1; otherwise a(n) is 1+ the number of times the map x -> (3*x+1)' must be applied to n' in order to reach 1 or a prime.",
+  "id": "A257743",
+  "mentions": [
+    "A000040",
+    "A000265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the digits of sigma(k) are a permutation of those of k, in base 10.",
+  "id": "A115920",
+  "mentions": [
+    "A000203",
+    "A114065",
+    "A115921",
+    "A175795"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

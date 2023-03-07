@@ -1,0 +1,33 @@
+{
+  "description": "Number of internal (non-leaf) nodes in the n-th standard ordered rooted tree.",
+  "id": "A358553",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A000891",
+    "A001263",
+    "A014221",
+    "A055277",
+    "A066099",
+    "A342507",
+    "A358371",
+    "A358372",
+    "A358373",
+    "A358379",
+    "A358554",
+    "A358575",
+    "A358585",
+    "A358586",
+    "A358588"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

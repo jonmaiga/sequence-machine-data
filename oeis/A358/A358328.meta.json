@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of polygons with 2*n sides, of which k run through the center of a circle, on the circumference of which the 2*n vertices of the polygon are arranged at equal spacing, up to rotation.",
+  "id": "A358328",
+  "mentions": [
+    "A094155",
+    "A330662"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

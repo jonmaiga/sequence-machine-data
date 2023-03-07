@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers of the form (i+1)*A352185(i) + A352186(i) for some i > 0.",
+  "id": "A352338",
+  "mentions": [
+    "A352185",
+    "A352186"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

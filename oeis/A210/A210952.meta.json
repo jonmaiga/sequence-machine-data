@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of all parts of the k-th column of the partitions of n but with the partitions aligned to the right margin.",
+  "id": "A210952",
+  "mentions": [
+    "A014153",
+    "A046746",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A181187",
+    "A206283",
+    "A210763",
+    "A210950",
+    "A210951",
+    "A210953",
+    "A210961",
+    "A210970"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

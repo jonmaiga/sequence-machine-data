@@ -1,0 +1,19 @@
+{
+  "description": "Largest even k such that h(-k) = 2n, where h(D) is the class number of the quadratic field with discriminant D; or 0 if no such k exists.",
+  "id": "A357573",
+  "mentions": [
+    "A038552",
+    "A344072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

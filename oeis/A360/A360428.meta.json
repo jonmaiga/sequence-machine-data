@@ -1,0 +1,25 @@
+{
+  "description": "Inverse Mobius transformation of A338164.",
+  "id": "A360428",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A008683",
+    "A018804",
+    "A034714",
+    "A338164"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

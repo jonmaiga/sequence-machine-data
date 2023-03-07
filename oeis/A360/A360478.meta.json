@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that the first n primes divide k and the next n primes divide k+1.",
+  "id": "A360478",
+  "mentions": [
+    "A069561"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

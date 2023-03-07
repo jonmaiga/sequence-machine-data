@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 210n+11.",
+  "id": "A140840",
+  "mentions": [
+    "A073102",
+    "A076355"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:27",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

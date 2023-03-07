@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number 2 written (prime(n)-1)/2 times followed by the digit 1; a(1)=2.",
+  "id": "A137287",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A031974"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = [x^k] Sum_{k=0..n} Stirling1(n, k)*FallingFactorial(x, k), triangle read by rows, for n >= 0 and 0 <= k <= n.",
+  "id": "A325872",
+  "mentions": [
+    "A039814",
+    "A129062",
+    "A325873"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

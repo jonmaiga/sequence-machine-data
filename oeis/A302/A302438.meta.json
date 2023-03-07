@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with digits in nondecreasing order and even digital sum (in base 10) whose digits can be partitioned in two multisets with equal digital sum.",
+  "id": "A302438",
+  "mentions": [
+    "A009994",
+    "A054683"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

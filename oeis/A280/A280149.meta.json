@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that 3^n - 2^n is not squarefree.",
+  "id": "A280149",
+  "mentions": [
+    "A001047",
+    "A005117",
+    "A013929",
+    "A049094",
+    "A057468",
+    "A082869",
+    "A282688",
+    "A282689"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

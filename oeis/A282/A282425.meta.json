@@ -1,0 +1,21 @@
+{
+  "description": "The maximum number of steps Langton's ant can make confined to an n X n grid.",
+  "id": "A282425",
+  "mentions": [
+    "A007764",
+    "A099733",
+    "A255938"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

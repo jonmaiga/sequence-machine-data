@@ -1,0 +1,26 @@
+{
+  "description": "Table read by ascending antidiagonals: T(n, k) is the minimum number of cubes necessary to fill a right square prism with base area n^2 and height k.",
+  "id": "A322550",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000290",
+    "A000578",
+    "A011379",
+    "A045991",
+    "A050873",
+    "A320043"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

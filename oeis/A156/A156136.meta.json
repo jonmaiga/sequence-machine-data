@@ -1,0 +1,23 @@
+{
+  "description": "A triangle of polynomial coefficients related to Mittag-Leffler polynomials: p(x,n)=Sum[Binomial[n, k]*Binomial[n - 1, n - k]*2^k*x^k, {k, 0, n}]/(2*x).",
+  "id": "A156136",
+  "mentions": [
+    "A047781",
+    "A103371",
+    "A142978",
+    "A142983"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

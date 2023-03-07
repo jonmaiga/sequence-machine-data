@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the product of two not necessarily distinct odd primes p*q with the property that (p*q+1)/2 and (p+q)/2 are primes.",
+  "id": "A340482",
+  "mentions": [
+    "A046315",
+    "A048161",
+    "A070552",
+    "A128281",
+    "A128283",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A262045",
+    "A263951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

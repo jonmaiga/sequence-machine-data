@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest positive integer m such that phi(m) <= n where phi is Euler's totient function.",
+  "id": "A253215",
+  "mentions": [
+    "A000010",
+    "A007614",
+    "A032447",
+    "A036912",
+    "A036913",
+    "A057635"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

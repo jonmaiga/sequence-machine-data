@@ -1,0 +1,28 @@
+{
+  "description": "Array T(n,k) (n >= 1, k >= 0) read by downwards antidiagonals: T(n,k) = total number of partitions of [1, 2, ..., i] into exactly k nonempty blocks, each of size at most n, for any i in the range n <= i <= k*n.",
+  "id": "A144510",
+  "mentions": [
+    "A001515",
+    "A048775",
+    "A144416",
+    "A144508",
+    "A144509",
+    "A144511",
+    "A144512",
+    "A281901",
+    "A308292",
+    "A308296"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

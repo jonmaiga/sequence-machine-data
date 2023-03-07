@@ -1,0 +1,17 @@
+{
+  "description": "Sums of two odd fourth powers.",
+  "id": "A343588",
+  "mentions": [
+    "A342832"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

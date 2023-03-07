@@ -1,0 +1,17 @@
+{
+  "description": "For the smallest k >= 1, the smallest single-digit j such that (10^k-j)*10^n-1 is prime.",
+  "id": "A213884",
+  "mentions": [
+    "A213883"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

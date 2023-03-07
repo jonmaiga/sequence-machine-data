@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3+2*sqrt(6))/5.",
+  "id": "A177705",
+  "mentions": [
+    "A010464",
+    "A010547",
+    "A177704"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:07",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

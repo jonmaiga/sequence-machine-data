@@ -1,0 +1,18 @@
+{
+  "description": "The Wiener index of the tetrathiafulvalene dendrimer defined pictorially as D[n] in the Shabani reference.",
+  "id": "A224463",
+  "mentions": [
+    "A224464"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of (n+3)X(k+3) 0..3 black square subarrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 4, and upper left element zero",
+  "id": "A231023",
+  "mentions": [
+    "A230942",
+    "A230944",
+    "A230946",
+    "A230948"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

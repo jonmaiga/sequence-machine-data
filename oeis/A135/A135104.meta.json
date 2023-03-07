@@ -1,0 +1,26 @@
+{
+  "description": "Digital sum (base the n-th prime) of n^4.",
+  "id": "A135104",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A054899",
+    "A075771",
+    "A131451",
+    "A133620",
+    "A133900",
+    "A134599"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

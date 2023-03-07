@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of distinct values of the sum of n products of three 0..k integers",
+  "id": "A225258",
+  "mentions": [
+    "A027426",
+    "A225263"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

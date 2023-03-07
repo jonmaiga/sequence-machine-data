@@ -1,0 +1,32 @@
+{
+  "description": "Multiples of 5 and odd numbers interleaved.",
+  "id": "A195140",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A008587",
+    "A022998",
+    "A026741",
+    "A047336",
+    "A080512",
+    "A118277",
+    "A165998",
+    "A195151",
+    "A195159",
+    "A195161",
+    "A195312"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squares and centered square numbers interleaved.",
+  "id": "A147685",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A109188",
+    "A120328"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:17",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

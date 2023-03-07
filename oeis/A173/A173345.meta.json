@@ -1,0 +1,21 @@
+{
+  "description": "Number of trailing zeros of the superfactorial of n (A000178).",
+  "id": "A173345",
+  "mentions": [
+    "A000178",
+    "A027868"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:45",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

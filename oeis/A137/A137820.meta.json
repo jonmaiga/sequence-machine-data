@@ -1,0 +1,19 @@
+{
+  "description": "Record indices of the ratio A002375(n) / n (Goldbach conjecture related).",
+  "id": "A137820",
+  "mentions": [
+    "A002375",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

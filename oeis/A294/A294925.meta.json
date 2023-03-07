@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k with n prime factors such that p + k/p is prime for every prime p | k.",
+  "id": "A294925",
+  "mentions": [
+    "A287352",
+    "A293756"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

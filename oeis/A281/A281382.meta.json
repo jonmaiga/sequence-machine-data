@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the decimal equivalent of the binary reflected Gray code representation of n is a palindromic prime.",
+  "id": "A281382",
+  "mentions": [
+    "A002385",
+    "A003188"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

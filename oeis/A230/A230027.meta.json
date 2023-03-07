@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that f(f(p)) is prime, where f(x) = x^3-x^2-x-1.",
+  "id": "A230027",
+  "mentions": [
+    "A000040",
+    "A162295",
+    "A237528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

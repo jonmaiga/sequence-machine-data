@@ -1,0 +1,19 @@
+{
+  "description": "(n-th isolated prime) -(-1)^(n-th isolated prime).",
+  "id": "A164534",
+  "mentions": [
+    "A007510"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

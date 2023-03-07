@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k) == 0 (mod k-5).",
+  "id": "A274556",
+  "mentions": [
+    "A067702",
+    "A101223",
+    "A223609",
+    "A274551",
+    "A274554"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A063994(k) = A063994(n), where A063994(n) = Product_{primes p dividing n} gcd(p-1, n-1).",
+  "id": "A330756",
+  "mentions": [
+    "A063994",
+    "A081373",
+    "A209211",
+    "A303756",
+    "A330747"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of different numbers that can be obtained from (the decimal expansion of) n by one step of the Choix de Bruxelles, version 1 (A323286) operation.",
+  "id": "A323287",
+  "mentions": [
+    "A323286",
+    "A323460"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

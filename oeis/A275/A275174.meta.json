@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (a(n-4) + a(n-1) * a(n-7)) / a(n-8), a(0) = a(1) = ... = a(7) = 1.",
+  "id": "A275174",
+  "mentions": [
+    "A048736",
+    "A101879",
+    "A275173"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

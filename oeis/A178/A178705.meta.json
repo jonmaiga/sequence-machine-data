@@ -1,0 +1,19 @@
+{
+  "description": "Odd composite numbers q such that there exists a, 2<=a<=q-2, such that a^d == 1 mod q where d = A000265(q-1). Thus q is a strong pseudoprime in base a.",
+  "id": "A178705",
+  "mentions": [
+    "A000010",
+    "A000265"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

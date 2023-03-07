@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (6^n + 5^n)/11.",
+  "id": "A138958",
+  "mentions": [
+    "A128336"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

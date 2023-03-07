@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: the n-th row gives the possible values of the number of prime divisors (counted with multiplicity) of numbers with n divisors.",
+  "id": "A355029",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A059975",
+    "A118914",
+    "A162247",
+    "A355026",
+    "A355030"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

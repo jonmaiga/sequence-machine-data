@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..[n/2]} C(n-k,k)^3*n/(n-k), n>=1.",
+  "id": "A166897",
+  "mentions": [
+    "A001622",
+    "A166895",
+    "A166896",
+    "A166899",
+    "A167539"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

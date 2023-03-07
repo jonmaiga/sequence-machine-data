@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with 3 or 4 divisors.",
+  "id": "A323644",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A006881",
+    "A030078",
+    "A030513",
+    "A161840",
+    "A323643"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

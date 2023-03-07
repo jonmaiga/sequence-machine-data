@@ -1,0 +1,22 @@
+{
+  "description": "Triangle related to super-Catalan numbers (or little Schroeder numbers).",
+  "id": "A130743",
+  "mentions": [
+    "A001003",
+    "A001792",
+    "A011782",
+    "A084266"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

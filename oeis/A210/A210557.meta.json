@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients of polynomials u(n,x) jointly generated with A210558; see the Formula section.",
+  "id": "A210557",
+  "mentions": [
+    "A000244",
+    "A084938",
+    "A164981",
+    "A208510",
+    "A210558"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:39",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

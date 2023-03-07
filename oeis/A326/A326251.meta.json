@@ -1,0 +1,25 @@
+{
+  "description": "Number of digraphs with vertices {1..n} whose increasing edges are not crossing.",
+  "id": "A326251",
+  "mentions": [
+    "A002416",
+    "A054726",
+    "A229865",
+    "A324170",
+    "A326209",
+    "A326237",
+    "A326250",
+    "A326252"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:59:50",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Carmichael numbers that are not of the form x^2 + y^2 + z^2 where x, y and z are integers.",
+  "id": "A267462",
+  "mentions": [
+    "A002997",
+    "A004215",
+    "A185321",
+    "A265237"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

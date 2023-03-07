@@ -1,0 +1,28 @@
+{
+  "description": "Number of Lyndon compositions of n that are not weakly increasing.",
+  "id": "A329141",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A001037",
+    "A008965",
+    "A059966",
+    "A167934",
+    "A178472",
+    "A318731",
+    "A328596",
+    "A329131",
+    "A329145"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

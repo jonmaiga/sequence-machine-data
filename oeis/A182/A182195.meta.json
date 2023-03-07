@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which no numbers w,x,y, all in {1,...,n} satisfy x^2+x^2+y^2=2n.",
+  "id": "A182195",
+  "mentions": [
+    "A211422",
+    "A211649"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

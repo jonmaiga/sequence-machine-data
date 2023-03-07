@@ -1,0 +1,20 @@
+{
+  "description": "Langton's ant with three cell colors: color of the cell the ant moves to at the end of iteration n: 0 for white, 1 for black, 2 for gray.",
+  "id": "A326695",
+  "mentions": [
+    "A261990",
+    "A326693",
+    "A326694"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that appear twice consecutively in the Van Eck Sequence, in order of appearance.",
+  "id": "A328428",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

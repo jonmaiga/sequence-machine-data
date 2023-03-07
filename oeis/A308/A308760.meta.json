@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the largest parts of the partitions of n into 4 parts.",
+  "id": "A308760",
+  "mentions": [
+    "A001318",
+    "A026810",
+    "A308265",
+    "A308733",
+    "A308758",
+    "A308759",
+    "A308775"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

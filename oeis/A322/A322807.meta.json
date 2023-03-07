@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => f(i) = f(j) for all i, j, where f(n) = -1 if n is an odd prime, and f(n) = A285330(n) for all other numbers.",
+  "id": "A322807",
+  "mentions": [
+    "A007947",
+    "A048675",
+    "A285328",
+    "A285330",
+    "A285332",
+    "A322806"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

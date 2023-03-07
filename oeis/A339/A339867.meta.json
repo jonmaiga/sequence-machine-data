@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + sigma(p-1) and p + sigma(p+1) are both prime.",
+  "id": "A339867",
+  "mentions": [
+    "A000203",
+    "A339862"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

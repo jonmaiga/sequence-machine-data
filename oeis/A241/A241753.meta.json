@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sum_(n=1..infinity) (H(n)/(n+1))^2, where H(n) is the n-th harmonic number.",
+  "id": "A241753",
+  "mentions": [
+    "A218505"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

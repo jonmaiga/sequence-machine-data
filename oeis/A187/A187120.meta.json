@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, where row n equals the coefficients of y^k in R_{n-1}(y+y^2) for k=3..n, where R_n(y) is the n-th row polynomial in y for n>=3 with R_3(y)=y^3.",
+  "id": "A187120",
+  "mentions": [
+    "A135080",
+    "A135083",
+    "A187005",
+    "A187115",
+    "A187121",
+    "A187122",
+    "A187123",
+    "A187124"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the coefficient K appearing in the asymptotic expression of the number of forests of ordered trees on n total nodes as K*4^(n-1)/sqrt(Pi*n^3).",
+  "id": "A246949",
+  "mentions": [
+    "A052854"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

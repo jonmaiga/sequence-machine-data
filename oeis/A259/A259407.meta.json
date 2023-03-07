@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers corresponding to the indices mentioned in A214852.",
+  "id": "A259407",
+  "mentions": [
+    "A000045",
+    "A031443",
+    "A214852"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

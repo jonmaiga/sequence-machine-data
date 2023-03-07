@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where column k of T = column 0 of matrix power T^{(k+1)(k+2)/2} for k>=0, with T(n,0)=1 for n>=0.",
+  "id": "A134523",
+  "mentions": [
+    "A134524",
+    "A134525",
+    "A134526"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

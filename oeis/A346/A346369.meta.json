@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of steps the Collatz trajectory of -n takes to reach a cycle, or -1 if no cycle is ever reached.",
+  "id": "A346369",
+  "mentions": [
+    "A139399",
+    "A224166",
+    "A224183",
+    "A224254"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

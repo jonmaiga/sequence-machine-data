@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1) + 1 + floor(n*(3 + sqrt(5))/2), a(0) = 1.",
+  "id": "A283968",
+  "mentions": [
+    "A104457",
+    "A283938",
+    "A283961",
+    "A283969"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

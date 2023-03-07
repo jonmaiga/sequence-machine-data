@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A064989(A064989(sigma(A003961(A003961(n))))), where A003961 shifts the prime factorization of n one step towards larger primes, and A064989 shifts it back towards smaller primes.",
+  "id": "A348750",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A064989",
+    "A326042",
+    "A348751",
+    "A348752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

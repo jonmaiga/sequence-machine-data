@@ -1,0 +1,20 @@
+{
+  "description": "Number of inversion sequences avoiding pattern 201 (or 210).",
+  "id": "A263777",
+  "mentions": [
+    "A263778",
+    "A263779",
+    "A263780"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

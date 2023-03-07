@@ -1,0 +1,20 @@
+{
+  "description": "Emirps containing only the digits 1 and 3.",
+  "id": "A335787",
+  "mentions": [
+    "A006567",
+    "A020451",
+    "A032917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least divisor u of A331220(n) such that the ternary representations of u and of A331220(n)/u have the same number of digits d for d = 0..2.",
+  "id": "A331268",
+  "mentions": [
+    "A331220",
+    "A331269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

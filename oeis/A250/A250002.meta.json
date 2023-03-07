@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of inequivalent binary linear [n,k] codes minus C(n,k).",
+  "id": "A250002",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A076766",
+    "A076831",
+    "A250003"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

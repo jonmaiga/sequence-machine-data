@@ -1,0 +1,18 @@
+{
+  "description": "Greatest k such that prime(n)*(prime(n)-k)-1 and prime(n)*(prime(n)-k)+1 are twin primes, k >= 0 and k < prime(n) or -1 if no such k exists.",
+  "id": "A187866",
+  "mentions": [
+    "A183563",
+    "A187563"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

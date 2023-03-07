@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = numerator of r(n): r(n) is such that, for every positive integer n, the continued fraction (of rational terms) [r(1);r(2),...,r(n)] equals n(n+1)/2, the n-th triangular number.",
+  "id": "A128536",
+  "mentions": [
+    "A128537"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

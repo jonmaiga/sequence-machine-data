@@ -1,0 +1,22 @@
+{
+  "description": "Least Fibonacci number not less than n.",
+  "id": "A256654",
+  "mentions": [
+    "A000045",
+    "A087172",
+    "A246104",
+    "A256655"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

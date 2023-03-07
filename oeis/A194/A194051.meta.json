@@ -1,0 +1,22 @@
+{
+  "description": "Natural interspersion of A194050, a rectangular array, by antidiagonals.",
+  "id": "A194051",
+  "mentions": [
+    "A014739",
+    "A104052",
+    "A194029",
+    "A194050",
+    "A194052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

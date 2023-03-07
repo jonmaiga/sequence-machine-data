@@ -1,0 +1,26 @@
+{
+  "description": "Inverse of number triangle A106268; triangle T(n,k), 0 <= k <= n.",
+  "id": "A106270",
+  "mentions": [
+    "A000108",
+    "A014318",
+    "A106268",
+    "A106271",
+    "A106272",
+    "A112696",
+    "A343233"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

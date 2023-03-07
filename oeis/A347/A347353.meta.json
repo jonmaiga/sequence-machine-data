@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the rightmost digit of a(n) concatenated with the leftmost digit of a(n+1) form an integer that is the sum of the digits of a(n) and a(n+1).",
+  "id": "A347353",
+  "mentions": [
+    "A121805",
+    "A139284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

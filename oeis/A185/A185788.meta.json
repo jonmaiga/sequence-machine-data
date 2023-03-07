@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the first k-1 numbers in the k-th column of the natural number array A000027, by antidiagonals.",
+  "id": "A185788",
+  "mentions": [
+    "A000027",
+    "A079824",
+    "A185787"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:43",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

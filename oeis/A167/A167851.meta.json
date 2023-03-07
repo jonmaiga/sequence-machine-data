@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which each row contains a finite triangle as shown below.",
+  "id": "A167851",
+  "mentions": [
+    "A159800",
+    "A164002",
+    "A167850",
+    "A167852"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

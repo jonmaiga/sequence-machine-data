@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the argument of infinite power tower of i.",
+  "id": "A212480",
+  "mentions": [
+    "A077589",
+    "A077590",
+    "A212479"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

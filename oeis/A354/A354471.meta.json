@@ -1,0 +1,19 @@
+{
+  "description": "Number of fusion rings of rank 3 and multiplicity n.",
+  "id": "A354471",
+  "mentions": [
+    "A348305"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

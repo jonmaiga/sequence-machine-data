@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to choose a strict factorization into squarefree factors of each factor in a strict factorization of n.",
+  "id": "A306268",
+  "mentions": [
+    "A000258",
+    "A001055",
+    "A050326",
+    "A050336",
+    "A296118",
+    "A296120"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

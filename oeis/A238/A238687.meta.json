@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions p of n such that no three points (i,p_i), (j,p_j), (k,p_k) are collinear, where p_i denotes the i-th part.",
+  "id": "A238687",
+  "mentions": [
+    "A238424",
+    "A238433",
+    "A238571",
+    "A238686"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

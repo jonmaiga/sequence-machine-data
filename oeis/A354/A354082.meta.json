@@ -1,0 +1,19 @@
+{
+  "description": "The independence polynomial of the n-hypercube graph evaluated at -1.",
+  "id": "A354082",
+  "mentions": [
+    "A027624",
+    "A354802"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

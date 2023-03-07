@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = A(x*A(x))^2 - x*A'(x).",
+  "id": "A179498",
+  "mentions": [
+    "A179421",
+    "A179497",
+    "A179499"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

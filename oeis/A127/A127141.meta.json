@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations needed before a previous value is reached in the Collatz variation: x_{i+1} = 3x_i+(2n+1) if x_i is odd or x_i/2 if x_i is even, with x_0 = 1.",
+  "id": "A127141",
+  "mentions": [
+    "A127142",
+    "A127143"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

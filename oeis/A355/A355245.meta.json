@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; for any m > 0, the position of the m-th rightmost 0 in the binary expansion of A(n, k) is the least of the positions of the m-th rightmost 0 in the binary expansions of n and k (the least significant bit having position 0).",
+  "id": "A355245",
+  "mentions": [
+    "A006519",
+    "A355246"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

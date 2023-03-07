@@ -1,0 +1,20 @@
+{
+  "description": "11^n mod 100.",
+  "id": "A216100",
+  "mentions": [
+    "A001311",
+    "A014390"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:41",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

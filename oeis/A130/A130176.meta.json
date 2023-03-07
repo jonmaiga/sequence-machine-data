@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that the largest prime factor is a Sophie Germain prime.",
+  "id": "A130176",
+  "mentions": [
+    "A005384",
+    "A006530",
+    "A156541",
+    "A156660"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

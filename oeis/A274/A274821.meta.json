@@ -1,0 +1,25 @@
+{
+  "description": "Hexagonal spiral constructed on the nodes of the infinite triangular net in which each term is the least positive integer such that no diagonal contains a repeated term.",
+  "id": "A274821",
+  "mentions": [
+    "A269526",
+    "A274640",
+    "A274651",
+    "A274820",
+    "A274920",
+    "A274921",
+    "A275606",
+    "A275610"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

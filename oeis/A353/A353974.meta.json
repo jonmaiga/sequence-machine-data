@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the n-th partial sum of A056992.",
+  "id": "A353974",
+  "mentions": [
+    "A003991",
+    "A010888",
+    "A056992",
+    "A071317",
+    "A353109",
+    "A353933"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

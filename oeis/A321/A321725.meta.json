@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows where T(n,d) is the number of d X d non-normal semi-magic squares with sum of all entries equal to n.",
+  "id": "A321725",
+  "mentions": [
+    "A006052",
+    "A007016",
+    "A120732",
+    "A319056",
+    "A319616",
+    "A321718",
+    "A321719",
+    "A321721",
+    "A321722",
+    "A321724"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

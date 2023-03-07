@@ -1,0 +1,21 @@
+{
+  "description": "Least primitive root mod A033948(n).",
+  "id": "A306252",
+  "mentions": [
+    "A033948",
+    "A046147",
+    "A081888",
+    "A081889",
+    "A306253"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

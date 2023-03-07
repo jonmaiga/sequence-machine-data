@@ -1,0 +1,26 @@
+{
+  "description": "Number of permutations on [n] whose up-down signature has nonnegative partial sums and which have exactly three descents.",
+  "id": "A321269",
+  "mentions": [
+    "A000246",
+    "A005803",
+    "A008292",
+    "A065826",
+    "A177042",
+    "A303285",
+    "A321268",
+    "A321280"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of the 2n-multiset {0,...,0,1,2,...,n} into distinct multisets.",
+  "id": "A346519",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000079",
+    "A045778",
+    "A048993",
+    "A070826",
+    "A346424",
+    "A346520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

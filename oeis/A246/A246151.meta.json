@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent n X 6 binary matrices, where equivalence means permutations of rows or columns or the symbol set.",
+  "id": "A246151",
+  "mentions": [
+    "A242093"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

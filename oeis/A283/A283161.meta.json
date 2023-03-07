@@ -1,0 +1,22 @@
+{
+  "description": "Natural numbers whose digits can be formed by typing non-adjacent keys on a 123-456-789 keypad without repeating a digit.",
+  "id": "A283161",
+  "mentions": [
+    "A006506",
+    "A215009",
+    "A280593"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

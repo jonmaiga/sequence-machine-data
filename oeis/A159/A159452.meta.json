@@ -1,0 +1,22 @@
+{
+  "description": "Numbers containing no smaller numbers when written as English number names.",
+  "id": "A159452",
+  "mentions": [
+    "A000027",
+    "A159451"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

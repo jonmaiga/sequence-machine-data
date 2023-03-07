@@ -1,0 +1,19 @@
+{
+  "description": "Express n as the sum of four squares, x^2+y^2+z^2+w^2, x>=y>=z>=w>=0, minimizing the value of x, then minimizing y for that x. a(n) is that y.",
+  "id": "A122922",
+  "mentions": [
+    "A122921",
+    "A122923",
+    "A122924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

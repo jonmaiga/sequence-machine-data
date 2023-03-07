@@ -1,0 +1,28 @@
+{
+  "description": "Size of the cycle containing element 1 in finite permutations listed in tables A060117 & A060118: a(n) = A007814(A275725(n)).",
+  "id": "A275832",
+  "mentions": [
+    "A000142",
+    "A007814",
+    "A033312",
+    "A060117",
+    "A060118",
+    "A153880",
+    "A273670",
+    "A275725",
+    "A275807",
+    "A275833",
+    "A275834"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

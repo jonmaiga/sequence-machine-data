@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} arctan(2^n*x)^n/n!.",
+  "id": "A168406",
+  "mentions": [
+    "A002019",
+    "A136632",
+    "A168402",
+    "A168403",
+    "A168404",
+    "A168405",
+    "A168407",
+    "A168408"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

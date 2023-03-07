@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of paths starting at {n}^k to a border position where one component equals 0 using steps that decrement one component by 1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A210472",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000984",
+    "A001477",
+    "A057427",
+    "A089759",
+    "A093964",
+    "A209245",
+    "A209288",
+    "A210486",
+    "A225094",
+    "A262809",
+    "A263159",
+    "A276490"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

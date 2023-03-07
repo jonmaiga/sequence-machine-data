@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..5 arrays with no repeated value equal to the previous repeated value, with new values introduced in sequential order.",
+  "id": "A268953",
+  "mentions": [
+    "A268956"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

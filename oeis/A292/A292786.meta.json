@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = psi(n) - phi(n).",
+  "id": "A292786",
+  "mentions": [
+    "A000010",
+    "A000977",
+    "A001615",
+    "A051612",
+    "A069359",
+    "A291784"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

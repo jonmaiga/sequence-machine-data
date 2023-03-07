@@ -1,0 +1,45 @@
+{
+  "description": "Number A(n,k) of sequences with k copies each of 1,2,...,n avoiding the pattern 12...n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A269129",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A033312",
+    "A047909",
+    "A057427",
+    "A089759",
+    "A187783",
+    "A267532",
+    "A268751",
+    "A269113",
+    "A269114",
+    "A269115",
+    "A269116",
+    "A269117",
+    "A269118",
+    "A269119",
+    "A269120",
+    "A269121",
+    "A269122",
+    "A269123",
+    "A269124",
+    "A269125",
+    "A269126",
+    "A269127",
+    "A269128",
+    "A331562"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "ABC conjecture: values of rad(a*b*c) in the list of \"abc-hits\".",
+  "id": "A130512",
+  "mentions": [
+    "A130510"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

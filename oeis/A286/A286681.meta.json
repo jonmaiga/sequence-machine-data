@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest positive integer not occurring earlier in the sequence such that SumXOR_{k=1..n} a(k) written in binary contains binary n as a substring, where SumXOR is the analog of summation under the binary XOR operation.",
+  "id": "A286681",
+  "mentions": [
+    "A160855",
+    "A286712"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

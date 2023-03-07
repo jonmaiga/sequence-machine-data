@@ -1,0 +1,18 @@
+{
+  "description": "Least possible sum of exactly n positive integers less than 2n such that none of the n integers divides another.",
+  "id": "A174062",
+  "mentions": [
+    "A174063",
+    "A174094"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

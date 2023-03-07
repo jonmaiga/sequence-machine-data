@@ -1,0 +1,25 @@
+{
+  "description": "Number of ON cells after n generations of three-dimensional cellular automaton related to Sierpinski's triangle and the toothpick sequences (See Comments for definition)",
+  "id": "A173530",
+  "mentions": [
+    "A000695",
+    "A047999",
+    "A139250",
+    "A161206",
+    "A172310",
+    "A173531",
+    "A173532"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0 and a(n) = (5*(-4)^n + 16*(-1)^n + 9*4^n)/240 for n >= 1.",
+  "id": "A113968",
+  "mentions": [
+    "A112627"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:51:56",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

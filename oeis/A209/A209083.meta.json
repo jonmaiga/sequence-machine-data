@@ -1,0 +1,17 @@
+{
+  "description": "Largest number of the form C(n,x) + C(n,y) + C(n,z) where x + y + z = n.",
+  "id": "A209083",
+  "mentions": [
+    "A034703"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

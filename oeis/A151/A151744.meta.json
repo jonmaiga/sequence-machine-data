@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are the sum of two, three, four and five consecutive composite numbers.",
+  "id": "A151744",
+  "mentions": [
+    "A060254",
+    "A060328",
+    "A060329",
+    "A060330"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n^2+sum-of-digits(n^2) is prime.",
+  "id": "A224966",
+  "mentions": [
+    "A048521",
+    "A062028",
+    "A171613",
+    "A171614",
+    "A171615"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

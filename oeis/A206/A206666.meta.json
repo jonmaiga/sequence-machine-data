@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X 7 0..2 arrays with every 2 X 2 subblock having the number of clockwise edge increases equal to the number of counterclockwise edge increases in its adjacent leftward and upward neighbors.",
+  "id": "A206666",
+  "mentions": [
+    "A206668"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

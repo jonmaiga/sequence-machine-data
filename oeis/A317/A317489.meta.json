@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows. For n >= 3 and 1 <= k <= floor(n/3), T(n,k) is the number of palindromic compositions of n into k parts of size at least 3.",
+  "id": "A317489",
+  "mentions": [
+    "A226916"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 135,
+    "source": "oeis-entry"
+  }
+}

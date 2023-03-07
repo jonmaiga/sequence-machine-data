@@ -1,0 +1,21 @@
+{
+  "description": "Number of circular permutations with no arithmetic progressions i, ..., i+r, ..., i+2r (mod n) of any equal spacings d.",
+  "id": "A174087",
+  "mentions": [
+    "A078628",
+    "A174084",
+    "A174085",
+    "A174086"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

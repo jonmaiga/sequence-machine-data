@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of prime numbers created when concatenating all the arrangements of the decimal integers from 0 to 3*n+4.",
+  "id": "A332265",
+  "mentions": [
+    "A000040",
+    "A006879",
+    "A050288",
+    "A088628",
+    "A099182",
+    "A176009",
+    "A185122",
+    "A295206"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

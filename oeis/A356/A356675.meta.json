@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence satisfying a(1) > -1 and a(n-1) = A075826(a(n)).",
+  "id": "A356675",
+  "mentions": [
+    "A005589",
+    "A075826"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

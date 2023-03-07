@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of cycle types of degree-n permutations having the k-th smallest possible order; triangle T(n,k), n>=0, 1<=k<=A009490(n), read by rows.",
+  "id": "A256554",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A002264",
+    "A002266",
+    "A004526",
+    "A008642",
+    "A008643",
+    "A008649",
+    "A009490",
+    "A074064",
+    "A074752",
+    "A074761",
+    "A132270",
+    "A181844",
+    "A256067",
+    "A256553"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

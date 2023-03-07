@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of concatenated palindromes needed to express first n terms of the Thue-Morse sequence (A010060).",
+  "id": "A307319",
+  "mentions": [
+    "A010060",
+    "A057148"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

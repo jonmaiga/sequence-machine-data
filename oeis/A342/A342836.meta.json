@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime factor of A342834(n).",
+  "id": "A342836",
+  "mentions": [
+    "A020639",
+    "A338968",
+    "A342834",
+    "A342835"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

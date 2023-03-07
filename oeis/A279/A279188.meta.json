@@ -1,0 +1,19 @@
+{
+  "description": "Maximal entry in row c of triangle in A279185, where c = prime(n)^2 = A001248(n).",
+  "id": "A279188",
+  "mentions": [
+    "A001248",
+    "A279185",
+    "A279186"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of right angles between the segments that are turned \"on\" when representing n on a 7-segment (calculator) display.",
+  "id": "A309721",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A063720",
+    "A277116"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

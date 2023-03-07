@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of number of kilograms (kg) in the mass equivalent of 1 electronvolt (eV/c^2).",
+  "id": "A342486",
+  "mentions": [
+    "A003678",
+    "A081823",
+    "A213611",
+    "A213612",
+    "A213613",
+    "A213614",
+    "A321218",
+    "A321984",
+    "A342484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -35,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

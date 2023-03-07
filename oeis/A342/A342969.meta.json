@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that both m^2-1 and m^2 are refactorable numbers (A033950).",
+  "id": "A342969",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036896",
+    "A036898",
+    "A114617",
+    "A342970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

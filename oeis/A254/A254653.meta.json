@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered heptagonal numbers (A069099) which are also pentagonal numbers (A000326).",
+  "id": "A254653",
+  "mentions": [
+    "A000326",
+    "A069099",
+    "A254652",
+    "A254654"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

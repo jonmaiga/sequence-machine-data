@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose arithmetic derivative is a multiple of 3, cf. A003415.",
+  "id": "A327863",
+  "mentions": [
+    "A003415",
+    "A235992",
+    "A327862",
+    "A327864",
+    "A327865",
+    "A327933"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

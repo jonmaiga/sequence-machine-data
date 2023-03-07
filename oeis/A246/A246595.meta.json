@@ -1,0 +1,29 @@
+{
+  "description": "Run Length Transform of squares.",
+  "id": "A246595",
+  "mentions": [
+    "A000290",
+    "A003714",
+    "A011782",
+    "A071053",
+    "A227349",
+    "A246588",
+    "A246596",
+    "A246660",
+    "A246661",
+    "A246674",
+    "A253082",
+    "A253909"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

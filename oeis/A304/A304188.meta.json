@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: [x^n] (1+x)^((n+1)*(n+2)) / A(x) = 0 for n>0.",
+  "id": "A304188",
+  "mentions": [
+    "A132610",
+    "A132613",
+    "A304189",
+    "A304192",
+    "A304193"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

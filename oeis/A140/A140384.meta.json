@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive triples (x=(p^2-1)/2,2*p,y=z=(p^2+1)/2), p prime, representing isosceles triangles with sides (x,y,z).",
+  "id": "A140384",
+  "mentions": [
+    "A066885",
+    "A084921",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

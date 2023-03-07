@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of r_2, the second smallest radius for which a compact packing of the plane exists, with disks of radius 1 and r_2.",
+  "id": "A246724",
+  "mentions": [
+    "A002193",
+    "A020832",
+    "A176053",
+    "A246723",
+    "A246725",
+    "A246726",
+    "A246727",
+    "A246728",
+    "A246729",
+    "A246730",
+    "A343235"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:56:55",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

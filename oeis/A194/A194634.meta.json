@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that k= n^2 + n + 41 is composite and there is no integer x such that n= x^2 + 40; n= (x^2+x)/2 + 81; or n= 3*x^2 - 2x + 122.",
+  "id": "A194634",
+  "mentions": [
+    "A007634",
+    "A055390",
+    "A194565"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

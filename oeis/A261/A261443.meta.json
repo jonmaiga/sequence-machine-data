@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary strings of length n+5 such that the smallest number whose binary representation is not visible in the string is 7.",
+  "id": "A261443",
+  "mentions": [
+    "A261019"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

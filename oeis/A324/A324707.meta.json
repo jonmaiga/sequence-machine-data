@@ -1,0 +1,24 @@
+{
+  "description": "Tri-unitary perfect numbers: numbers k such that tsigma(k) = 2k, where tsigma(k) is the sum of the tri-unitary divisors of k (A324706).",
+  "id": "A324707",
+  "mentions": [
+    "A000396",
+    "A002827",
+    "A007357",
+    "A322486",
+    "A324706",
+    "A324708",
+    "A324709"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

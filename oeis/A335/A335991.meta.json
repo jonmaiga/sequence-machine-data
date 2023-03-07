@@ -1,0 +1,33 @@
+{
+  "description": "The moment generating function of the limiting distribution of the number of comparisons in quicksort can be written in the form M(t) = m(-2*t)/(exp(2*gamma*t)*Gamma(1 + 2*t)) for |t| < 1/2, where m(z) = Sum_{n >= 0} B(n)*z^n/n! for |z| < 1. This sequence gives the denominators of the rational numbers B(n) for n >= 0.",
+  "id": "A335991",
+  "mentions": [
+    "A001620",
+    "A063090",
+    "A067699",
+    "A093418",
+    "A096620",
+    "A115107",
+    "A288964",
+    "A288965",
+    "A288970",
+    "A288971",
+    "A329001",
+    "A330852",
+    "A330860",
+    "A330876",
+    "A335990"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

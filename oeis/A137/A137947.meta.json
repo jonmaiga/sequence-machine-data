@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = k: k is smallest integer > 1 such that sign(d(1)-d(2)) = sign(d(k)-d(k+1)), sign(d(2)-d(3)) = sign(d(k+1)-d(k+2)),...,sign(d(n)-d(n+1)) = sign(d(k+n-1)-d(k+n)), where sign is (-,0,+) and d(m) = the number of positive divisors of m.",
+  "id": "A137947",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

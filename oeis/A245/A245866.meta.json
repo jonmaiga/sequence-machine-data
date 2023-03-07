@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+2 0..5 arrays with some pair in every consecutive three terms totalling exactly 5.",
+  "id": "A245866",
+  "mentions": [
+    "A245869"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

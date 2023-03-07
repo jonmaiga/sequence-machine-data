@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct bipartitions of a solid triangular array of edge n, discounting inversions, reflections, and rotations.",
+  "id": "A351299",
+  "mentions": [
+    "A061348"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

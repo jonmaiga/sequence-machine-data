@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = G(x/A(x)^2) and G(x) = A(x*G(x)^2) = Sum_{n>=0} C(2n,n)*C(2n+2,n+1)/(n+2)*x^n is the g.f. of A172392.",
+  "id": "A172393",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A172391",
+    "A172392"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

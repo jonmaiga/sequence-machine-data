@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2p < prime(k-i) + prime(k+i) for i=1..k-1, where p=prime(k).",
+  "id": "A127925",
+  "mentions": [
+    "A028388"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

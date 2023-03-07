@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to form the sum sigma(n) = x+y, so that n-x and n-y are not coprime, with x and y in range 0..sigma(n).",
+  "id": "A325816",
+  "mentions": [
+    "A000203",
+    "A324213",
+    "A325815"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

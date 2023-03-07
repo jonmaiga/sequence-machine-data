@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(-1 + Product_{k>=1} 1/(1 - x^k)^k).",
+  "id": "A318580",
+  "mentions": [
+    "A000219",
+    "A001157",
+    "A058892",
+    "A318250"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

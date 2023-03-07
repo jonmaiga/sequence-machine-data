@@ -1,0 +1,23 @@
+{
+  "description": "GCD of all sums of n consecutive Lucas numbers.",
+  "id": "A229339",
+  "mentions": [
+    "A022088",
+    "A022098",
+    "A022112",
+    "A106291",
+    "A210209"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

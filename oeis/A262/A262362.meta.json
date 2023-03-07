@@ -1,0 +1,18 @@
+{
+  "description": "Real positive integers with more than one factorization in Z[sqrt(10)].",
+  "id": "A262362",
+  "mentions": [
+    "A097955",
+    "A262828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

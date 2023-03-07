@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of partitions of n into k positive cubes; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A320841",
+  "mentions": [
+    "A000007",
+    "A000578",
+    "A003108",
+    "A010057",
+    "A025455",
+    "A025456",
+    "A025457",
+    "A025458",
+    "A025459",
+    "A025460",
+    "A025461",
+    "A025462",
+    "A025463",
+    "A243148",
+    "A319797"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

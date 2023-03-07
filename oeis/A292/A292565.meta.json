@@ -1,0 +1,22 @@
+{
+  "description": "Take 0, skip 3 * 1 + 1, take 1, skip 3 * 2 + 1, take 2, skip 3 * 3 + 1, ...",
+  "id": "A292565",
+  "mentions": [
+    "A000217",
+    "A059255",
+    "A063657",
+    "A292564"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

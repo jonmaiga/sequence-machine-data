@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-2n binary strings of the form xxyy.",
+  "id": "A347582",
+  "mentions": [
+    "A347583"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

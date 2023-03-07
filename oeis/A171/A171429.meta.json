@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table of positive integers with the property that each term on row r can be mapped to a numeric partition conjugate to the partition mapped by the corresponding value within sequence A161924.",
+  "id": "A171429",
+  "mentions": [
+    "A000041",
+    "A059894",
+    "A161924"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

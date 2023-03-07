@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = coefficients of p(x,n), where p(x,n) = ((1-x)^(2*n+1)/x^n) * Sum_{j >= n} ( (2*j+1)^n * binomial(j, n) * x^j ), read by rows.",
+  "id": "A156654",
+  "mentions": [
+    "A000108",
+    "A052714",
+    "A144828"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

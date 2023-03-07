@@ -1,0 +1,30 @@
+{
+  "description": "Numbers that have three terms in their Zeckendorf representation.",
+  "id": "A179243",
+  "mentions": [
+    "A007895",
+    "A035517",
+    "A179242",
+    "A179244",
+    "A179245",
+    "A179246",
+    "A179247",
+    "A179248",
+    "A179249",
+    "A179250",
+    "A179251",
+    "A179252",
+    "A179253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

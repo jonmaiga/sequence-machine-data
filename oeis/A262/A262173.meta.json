@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonnegative integers < 10^n that are palindromes or the sum of 2 palindromes.",
+  "id": "A262173",
+  "mentions": [
+    "A260255",
+    "A261906",
+    "A261907"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

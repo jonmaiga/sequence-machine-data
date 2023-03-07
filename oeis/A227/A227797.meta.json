@@ -1,0 +1,28 @@
+{
+  "description": "Number of composites removed in each step in the Sieve of Eratosthenes for 10^8.",
+  "id": "A227797",
+  "mentions": [
+    "A000720",
+    "A065855",
+    "A133228",
+    "A145532",
+    "A145537",
+    "A145538",
+    "A145540",
+    "A227155",
+    "A227798",
+    "A227799"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

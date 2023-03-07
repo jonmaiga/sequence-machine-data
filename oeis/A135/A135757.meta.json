@@ -1,0 +1,20 @@
+{
+  "description": "Central binomial coefficients at triangular positions: a(n) = A000984(n(n+1)/2).",
+  "id": "A135757",
+  "mentions": [
+    "A000984",
+    "A135758"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

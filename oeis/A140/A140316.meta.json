@@ -1,0 +1,21 @@
+{
+  "description": "Write n in base 3, delete 0's.",
+  "id": "A140316",
+  "mentions": [
+    "A007088",
+    "A007089",
+    "A038585"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Amicable pairs of cyclops numbers.",
+  "id": "A328256",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A134808",
+    "A259180",
+    "A262622",
+    "A262623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

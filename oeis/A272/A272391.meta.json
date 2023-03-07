@@ -1,0 +1,26 @@
+{
+  "description": "Degeneracies of entanglement witness eigenstates for 2n spin 5/2 irreducible representations.",
+  "id": "A272391",
+  "mentions": [
+    "A000108",
+    "A005043",
+    "A007043",
+    "A264607",
+    "A264608",
+    "A272392",
+    "A272393",
+    "A272394",
+    "A272395"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Smallest primes starting a complete four iterations Cunningham chain of the first or second kind.",
+  "id": "A110027",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A007700",
+    "A014937",
+    "A016093",
+    "A023272",
+    "A023302",
+    "A023330",
+    "A038397",
+    "A057326",
+    "A059452",
+    "A059455",
+    "A059759",
+    "A059760",
+    "A059761",
+    "A059762",
+    "A059763",
+    "A059764",
+    "A059765",
+    "A069362",
+    "A091314",
+    "A104349",
+    "A110022"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

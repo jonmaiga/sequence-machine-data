@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = |{0 < k < n - 2: k + phi(n-k)/2 is a square}|, where phi(.) is Euler's totient function.",
+  "id": "A236567",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A234246"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

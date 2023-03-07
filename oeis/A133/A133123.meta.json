@@ -1,0 +1,18 @@
+{
+  "description": "Double Sophie Germain semiprimes: semiprimes s such that s1=2s+1 and s2=2s1+1 are also semiprimes.",
+  "id": "A133123",
+  "mentions": [
+    "A111153"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

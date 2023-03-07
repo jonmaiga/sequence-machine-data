@@ -1,0 +1,31 @@
+{
+  "description": "Connected squarefree numbers.",
+  "id": "A328513",
+  "mentions": [
+    "A005117",
+    "A056239",
+    "A112798",
+    "A286518",
+    "A302242",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A318718",
+    "A318719",
+    "A327076",
+    "A327398",
+    "A328514"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

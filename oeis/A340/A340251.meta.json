@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the bit that was inverted in A340250(n) to get A340250(n+1).",
+  "id": "A340251",
+  "mentions": [
+    "A340250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p^8*q^2 where p and q are distinct primes.",
+  "id": "A179699",
+  "mentions": [
+    "A085548",
+    "A085968"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

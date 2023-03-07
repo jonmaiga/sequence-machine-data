@@ -1,0 +1,19 @@
+{
+  "description": "Consider the zeros of the polynomial P(m,x) whose coefficients are the divisors of a number m. The sequence lists the numbers m such that P(m,x) contains at least two zeros that are purely imaginary numbers.",
+  "id": "A291127",
+  "mentions": [
+    "A027750",
+    "A032741",
+    "A292226"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

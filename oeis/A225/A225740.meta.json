@@ -1,0 +1,20 @@
+{
+  "description": "Number of arrangements of n nonattacking Queens on an n X n board, with no Queens on both main diagonals.",
+  "id": "A225740",
+  "mentions": [
+    "A000170",
+    "A003471"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

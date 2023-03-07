@@ -1,0 +1,29 @@
+{
+  "description": "Enumeration table T(n,k) by antidiagonals. The order of the list is symmetrical movement from center to edges diagonal.",
+  "id": "A185180",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A056011",
+    "A056023",
+    "A057027",
+    "A057028",
+    "A064578",
+    "A064789",
+    "A188568",
+    "A194981",
+    "A194982"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

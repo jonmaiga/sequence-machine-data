@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(tau(n)-1, sigma(n)-1), where tau = A000005 and sigma = A000203.",
+  "id": "A296081",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A009205",
+    "A032741",
+    "A039653",
+    "A065608",
+    "A284288",
+    "A296082",
+    "A296083"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

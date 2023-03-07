@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(n^2-1, n^2+9).",
+  "id": "A283393",
+  "mentions": [
+    "A000034",
+    "A010685",
+    "A010689",
+    "A129197",
+    "A129203"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:54:39",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

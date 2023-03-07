@@ -1,0 +1,20 @@
+{
+  "description": "Ordered sequence of nonnegative differences c*f-d*f where f and g are positive Fibonacci numbers (A000045) and {c,d}={1,2}.",
+  "id": "A191841",
+  "mentions": [
+    "A000045",
+    "A191838",
+    "A191839",
+    "A191840"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

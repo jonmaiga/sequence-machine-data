@@ -1,0 +1,17 @@
+{
+  "description": "Number of arrangements of n+1 nonzero numbers x(i) in -7..7 with the sum of floor(x(i)/x(i+1)) equal to zero",
+  "id": "A189496",
+  "mentions": [
+    "A189498"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

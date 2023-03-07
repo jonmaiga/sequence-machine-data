@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows. Entries are 0 and 1. Start with 1 in the top row, add a second row of 2n-1 elements (with n=2 -> 3). Moving from left to right add 0 if the number of adjacent 1's is even or add 1 if it is odd.",
+  "id": "A141727",
+  "mentions": [
+    "A141728",
+    "A141746"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

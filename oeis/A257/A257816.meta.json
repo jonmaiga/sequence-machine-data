@@ -1,0 +1,21 @@
+{
+  "description": "Suppose A103739(n) = x^2 + y^2 with x < y. The sequence gives values of y.",
+  "id": "A257816",
+  "mentions": [
+    "A103739",
+    "A258642",
+    "A258653",
+    "A258654"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

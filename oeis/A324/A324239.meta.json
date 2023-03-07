@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with radius k, (0 <= k <= floor(n/2)).",
+  "id": "A324239",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A283826",
+    "A294522",
+    "A294525",
+    "A324061",
+    "A324244"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

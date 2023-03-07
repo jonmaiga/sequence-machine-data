@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = a(2) = 1, a(n) = A014777(a(n-1) + a(n-2)), n >= 3.",
+  "id": "A280532",
+  "mentions": [
+    "A014777",
+    "A032445",
+    "A038100",
+    "A176341",
+    "A232013"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

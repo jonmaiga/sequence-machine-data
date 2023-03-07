@@ -1,0 +1,30 @@
+{
+  "description": "Primes congruent to 11 (mod 30).",
+  "id": "A132232",
+  "mentions": [
+    "A000040",
+    "A007528",
+    "A030430",
+    "A039949",
+    "A068231",
+    "A132230",
+    "A132231",
+    "A132233",
+    "A132234",
+    "A132235",
+    "A132236",
+    "A158614"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:09",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array: T(n,k) = number of paths from (0,0) to (n,k), each segment given by a vector (1,1), (1,-1), or (2,0), not crossing the x-axis.",
+  "id": "A247629",
+  "mentions": [
+    "A006319",
+    "A026300",
+    "A247623",
+    "A247630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

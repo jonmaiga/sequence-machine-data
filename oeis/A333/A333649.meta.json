@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the second k binary digits of Pi represent a prime (leading zeros allowed).",
+  "id": "A333649",
+  "mentions": [
+    "A004601"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

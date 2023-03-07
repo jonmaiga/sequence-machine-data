@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer such that a(n)! starts with n, both written in binary.",
+  "id": "A155891",
+  "mentions": [
+    "A018799",
+    "A076219"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

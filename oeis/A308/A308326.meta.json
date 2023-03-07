@@ -1,0 +1,24 @@
+{
+  "description": "The q-analog T(q; n,k) of the triangle A163626 for 0 <= k <= n, for q = 2.",
+  "id": "A308326",
+  "mentions": [
+    "A000007",
+    "A007318",
+    "A022166",
+    "A022167",
+    "A139382",
+    "A163626"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

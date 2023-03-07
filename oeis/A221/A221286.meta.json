@@ -1,0 +1,22 @@
+{
+  "description": "Vsemirnov's sequence.",
+  "id": "A221286",
+  "mentions": [
+    "A082411",
+    "A083104",
+    "A083105",
+    "A083216"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

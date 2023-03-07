@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of raising factorial polynomials, T(n,k) = [x^k] p(x, n) where p(x, n) = (m*x + n - 1)*p(x, n - 1) with p[x, 0] = 1, p[x, -1] = 0, p[x, 1] = m*x and m = 2. Triangle read by rows, for n >= 0 and 0 <= k <= n.",
+  "id": "A137320",
+  "mentions": [
+    "A052849",
+    "A137312",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of noncrossing trees with n edges and having k branches.",
+  "id": "A101452",
+  "mentions": [
+    "A001764",
+    "A030981",
+    "A045738",
+    "A101449"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

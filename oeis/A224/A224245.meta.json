@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-permutations in which there is a unique smallest cycle.",
+  "id": "A224245",
+  "mentions": [
+    "A224219",
+    "A224244"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

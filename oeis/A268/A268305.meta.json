@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n - 37, n - 1, n + 1, n + 37 are consecutive primes.",
+  "id": "A268305",
+  "mentions": [
+    "A014574",
+    "A077800",
+    "A134117",
+    "A156104",
+    "A249674",
+    "A256753",
+    "A271347"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

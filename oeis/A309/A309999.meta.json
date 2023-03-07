@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct values of multinomial coefficients M(n;lambda) where lambda ranges over all partitions of n into distinct parts.",
+  "id": "A309999",
+  "mentions": [
+    "A000009",
+    "A070289"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

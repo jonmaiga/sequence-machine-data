@@ -1,0 +1,23 @@
+{
+  "description": "111n^2 - 3123n + 10753.",
+  "id": "A211607",
+  "mentions": [
+    "A005846",
+    "A050268",
+    "A128878",
+    "A217439",
+    "A217440"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:13",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

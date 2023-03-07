@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the exponential transform of the k-th powers.",
+  "id": "A279636",
+  "mentions": [
+    "A000012",
+    "A000051",
+    "A000110",
+    "A000248",
+    "A033462",
+    "A145460",
+    "A279358",
+    "A279637",
+    "A279638",
+    "A279639",
+    "A279640",
+    "A279641",
+    "A279642",
+    "A279643",
+    "A279644"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

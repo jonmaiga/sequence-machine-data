@@ -1,0 +1,19 @@
+{
+  "description": "Number of different n-dimensional convex regular polytopes that can tile n-dimensional space.",
+  "id": "A121273",
+  "mentions": [
+    "A053016",
+    "A060296"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

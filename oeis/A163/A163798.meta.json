@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th J_18-prime (Josephus_18 prime).",
+  "id": "A163798",
+  "mentions": [
+    "A163762",
+    "A163797",
+    "A163799",
+    "A163800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

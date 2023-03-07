@@ -1,0 +1,21 @@
+{
+  "description": "Number of Motzkin paths of length n having no consecutive (1,0) steps.",
+  "id": "A104545",
+  "mentions": [
+    "A001006",
+    "A104544",
+    "A198957",
+    "A200718"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

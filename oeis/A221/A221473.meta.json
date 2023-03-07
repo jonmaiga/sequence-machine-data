@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table of odd numbers whose n-th row has numbers taking n iterations of the Collatz (3x+1) function to reach 1.",
+  "id": "A221473",
+  "mentions": [
+    "A127824",
+    "A176866",
+    "A176867",
+    "A176868",
+    "A221474"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

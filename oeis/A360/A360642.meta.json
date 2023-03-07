@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the least number k such that A093653(k)/A000120(k) = n.",
+  "id": "A360642",
+  "mentions": [
+    "A000120",
+    "A000396",
+    "A007539",
+    "A093653",
+    "A093687",
+    "A175522",
+    "A175526",
+    "A360641"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

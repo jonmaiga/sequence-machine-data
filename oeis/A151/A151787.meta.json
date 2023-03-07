@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; for n > 1, a(n)=3*2^{wt(n-1)-1}.",
+  "id": "A151787",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A147582",
+    "A151779"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

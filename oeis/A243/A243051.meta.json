@@ -1,0 +1,32 @@
+{
+  "description": "Integer sequence induced by Bulgarian solitaire operation on partition list A241918: a(n) = A241909(A242424(A241909(n))).",
+  "id": "A243051",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A049084",
+    "A075157",
+    "A075158",
+    "A122111",
+    "A226062",
+    "A241909",
+    "A241918",
+    "A242424",
+    "A243052",
+    "A243053",
+    "A243054",
+    "A243060",
+    "A243503"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

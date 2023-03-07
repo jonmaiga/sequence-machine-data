@@ -1,0 +1,28 @@
+{
+  "description": "Signature permutation of a Catalan bijection: The inverse of A154455.",
+  "id": "A154456",
+  "mentions": [
+    "A057163",
+    "A069768",
+    "A069770",
+    "A082346",
+    "A122328",
+    "A129611",
+    "A153141",
+    "A154446",
+    "A154450",
+    "A154452",
+    "A154454",
+    "A154455"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

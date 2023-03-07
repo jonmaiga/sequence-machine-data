@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of the algebraic number 2*sin(4*Pi/n) in the power basis of Q(2*cos(Pi/q(2,n))), with q(2,n) = A232625(n), n >= 1.",
+  "id": "A232629",
+  "mentions": [
+    "A055034",
+    "A093819",
+    "A127672",
+    "A187360",
+    "A231189",
+    "A231190",
+    "A232625",
+    "A232626",
+    "A232630"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

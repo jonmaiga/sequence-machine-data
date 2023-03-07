@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in the ZZ polynomial of the hexagonal graphene flake O(3,3,n).",
+  "id": "A338158",
+  "mentions": [
+    "A047819",
+    "A338217"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd bi-unitary admirable numbers: the odd terms of A334972.",
+  "id": "A334973",
+  "mentions": [
+    "A005408",
+    "A109729",
+    "A293186",
+    "A329188",
+    "A334972",
+    "A334975"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

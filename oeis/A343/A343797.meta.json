@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k = p + q (p,q prime), where k | (p*q +- 1) for more than 1 pair, (p,q).",
+  "id": "A343797",
+  "mentions": [
+    "A335495"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

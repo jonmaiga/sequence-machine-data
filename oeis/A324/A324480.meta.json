@@ -1,0 +1,20 @@
+{
+  "description": "Consider the numbers on the x-axis in the spiral shown in A274641; a(n) is the distance from n to the origin, or -1 if n never appears on the x-axis.",
+  "id": "A324480",
+  "mentions": [
+    "A274640",
+    "A274641",
+    "A274924",
+    "A274928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

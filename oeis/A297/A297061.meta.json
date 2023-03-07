@@ -1,0 +1,17 @@
+{
+  "description": "Number of edge covers in the n X n triangular grid graph.",
+  "id": "A297061",
+  "mentions": [
+    "A269869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least number of lattice points on two adjacent sides from which every point of a square n X n lattice is visible.",
+  "id": "A157791",
+  "mentions": [
+    "A157639",
+    "A157720",
+    "A157790",
+    "A157792"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

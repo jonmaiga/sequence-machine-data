@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the period of A000930 modulo n.",
+  "id": "A271953",
+  "mentions": [
+    "A000045",
+    "A000930",
+    "A001175",
+    "A060305",
+    "A104217",
+    "A271901"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

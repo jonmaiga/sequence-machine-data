@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = index to the nearest inner neighbor in Ulam-style square-spirals using zero-based indexing.",
+  "id": "A265409",
+  "mentions": [
+    "A002620",
+    "A033951",
+    "A063826",
+    "A078510",
+    "A240025",
+    "A265359",
+    "A265408",
+    "A265410",
+    "A265411"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

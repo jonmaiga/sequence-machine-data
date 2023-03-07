@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+2*k-1,n-k) * Catalan(k).",
+  "id": "A360100",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A006319",
+    "A162475",
+    "A162481",
+    "A258973",
+    "A360101",
+    "A360102"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

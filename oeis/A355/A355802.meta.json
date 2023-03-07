@@ -1,0 +1,20 @@
+{
+  "description": "A variant of Pascal's triangle (A007318) where new rows are added cyclically below, to the right and to the left.",
+  "id": "A355802",
+  "mentions": [
+    "A007318",
+    "A355806"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

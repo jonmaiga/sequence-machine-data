@@ -1,0 +1,20 @@
+{
+  "description": "A triangular sequence from the Z/nZ matrix addition tables as in sequence A095897 as coefficients of characteristic polynomials: M(n,m)=Mod[n + m, d] for n <=m<=d.",
+  "id": "A138064",
+  "mentions": [
+    "A095897"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

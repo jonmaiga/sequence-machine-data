@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ceiling((Pi^n)*(e^n)).",
+  "id": "A121246",
+  "mentions": [
+    "A019609",
+    "A062541"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

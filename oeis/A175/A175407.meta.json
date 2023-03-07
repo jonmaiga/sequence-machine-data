@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the least integer k such that (1+1/n)^k >= 3.",
+  "id": "A175407",
+  "mentions": [
+    "A175406"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

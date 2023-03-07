@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (3+1) 0..2 arrays with every element both >= and <= some horizontal, diagonal or antidiagonal neighbor.",
+  "id": "A232409",
+  "mentions": [
+    "A232414"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

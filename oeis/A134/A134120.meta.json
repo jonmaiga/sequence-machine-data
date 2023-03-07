@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that q-p = 42, where q is the next prime after p.",
+  "id": "A134120",
+  "mentions": [
+    "A126721",
+    "A134121"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

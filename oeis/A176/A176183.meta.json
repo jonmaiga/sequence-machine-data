@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p = p(n) ending with exactly n strings \"13\".",
+  "id": "A176183",
+  "mentions": [
+    "A065580",
+    "A065585",
+    "A176096",
+    "A176119"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

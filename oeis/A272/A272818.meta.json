@@ -1,0 +1,24 @@
+{
+  "description": "Numbers such that (sum + product) of all their prime factors equals (sum + product) of all exponents in their prime factorization.",
+  "id": "A272818",
+  "mentions": [
+    "A048102",
+    "A051674",
+    "A054411",
+    "A054412",
+    "A071174",
+    "A122406",
+    "A272858",
+    "A272859"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

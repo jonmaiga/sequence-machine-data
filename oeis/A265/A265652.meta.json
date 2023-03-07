@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of the union of the divisors of n and k.",
+  "id": "A265652",
+  "mentions": [
+    "A000203",
+    "A062731",
+    "A132442",
+    "A245093"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

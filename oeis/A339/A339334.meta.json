@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, 1 <= k <= n: T(n,k) is the sum of the minimal number of coins needed for amounts 1..n with an optimal greedy k-coin system of denominations.",
+  "id": "A339334",
+  "mentions": [
+    "A014616",
+    "A339333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

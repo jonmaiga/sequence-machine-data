@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} 1/(1 - x^k)^(mu(k)^2/k), where mu = Möbius function (A008683).",
+  "id": "A318912",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A028342",
+    "A034444",
+    "A073576",
+    "A206303",
+    "A318913",
+    "A318914"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

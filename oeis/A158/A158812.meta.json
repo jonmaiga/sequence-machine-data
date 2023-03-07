@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime factor of entries in A158725(n).",
+  "id": "A158812",
+  "mentions": [
+    "A158725"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

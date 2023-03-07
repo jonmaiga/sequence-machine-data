@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k through k+4 are all deficient (in A005100).",
+  "id": "A343302",
+  "mentions": [
+    "A005100",
+    "A231626",
+    "A316099",
+    "A343301",
+    "A343303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

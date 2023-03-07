@@ -1,0 +1,36 @@
+{
+  "description": "Square array T(n,k), n>=1, k>=1, read by antidiagonals downwards in which column k lists the alternating row sums of the first k columns of the triangle A196020.",
+  "id": "A272120",
+  "mentions": [
+    "A000096",
+    "A000203",
+    "A000217",
+    "A000290",
+    "A000330",
+    "A005408",
+    "A024916",
+    "A175254",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A245093",
+    "A262626"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of length 2n k-ary words, either empty or beginning with the first letter of the alphabet and using each letter at least once, that can be built by repeatedly inserting doublets into the initially empty word; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A256116",
+  "mentions": [
+    "A000007",
+    "A010763",
+    "A028310",
+    "A057427",
+    "A065866",
+    "A183135",
+    "A256117",
+    "A294603"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

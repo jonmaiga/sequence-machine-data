@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of characteristic polynomials of Hadamard Cartan F_2 self-similar 2^n matrices:M={{2, -1}, {-2, 2}}.",
+  "id": "A173820",
+  "mentions": [
+    "A136674",
+    "A136678",
+    "A158800",
+    "A173814"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

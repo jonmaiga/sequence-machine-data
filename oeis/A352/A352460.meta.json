@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k), 2 <= k < n is the number of n-element k-ary unlabeled rooted trees where a subtree consisting of h + 1 nodes has exactly min{h,k} subtrees.",
+  "id": "A352460",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A001190",
+    "A292556",
+    "A299038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

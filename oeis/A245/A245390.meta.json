@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to build an expression using non-redundant parentheses in an expression of n variables, counted in decreasing sub-partitions of equal size.",
+  "id": "A245390",
+  "mentions": [
+    "A001003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

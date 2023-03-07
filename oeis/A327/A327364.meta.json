@@ -1,0 +1,29 @@
+{
+  "description": "Number of labeled simple graphs with n vertices, a connected edge-set, and at least one endpoint (vertex of degree 1).",
+  "id": "A327364",
+  "mentions": [
+    "A001187",
+    "A059167",
+    "A141580",
+    "A245797",
+    "A287689",
+    "A322395",
+    "A327071",
+    "A327148",
+    "A327227",
+    "A327335",
+    "A327362",
+    "A327369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

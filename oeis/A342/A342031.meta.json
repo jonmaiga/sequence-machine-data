@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 5 consecutive numbers that have mutually distinct exponents in their prime factorization (A130091).",
+  "id": "A342031",
+  "mentions": [
+    "A130091",
+    "A342028",
+    "A342029",
+    "A342030"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

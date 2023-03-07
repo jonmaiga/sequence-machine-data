@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{i=2..n} (tau(i)+1)/(tau(i)-1), where tau(.)=A000005(.).",
+  "id": "A181574",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:56:06",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The number of vertices on a 2 by 1 ellipse formed by the straight line segments mutually connecting all points formed by dividing the ellipse into 2n equal angle sectors from its origin.",
+  "id": "A341762",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A255011",
+    "A331929",
+    "A331931",
+    "A333075",
+    "A341688",
+    "A341764",
+    "A341800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of representations of n as a sum of products of pairs of positive integers, considered to be equivalent when terms or factors are reordered.",
+  "id": "A182269",
+  "mentions": [
+    "A000005",
+    "A006171",
+    "A038548",
+    "A066739",
+    "A182270",
+    "A211856",
+    "A211857"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

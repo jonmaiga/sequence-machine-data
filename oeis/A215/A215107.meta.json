@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the nodal length of the longest non-extendable (complete) non-self-adjacent simple path within a square lattice bounded by rectangles with nodal dimensions n and k, n >= k >= 2.",
+  "id": "A215107",
+  "mentions": [
+    "A213106",
+    "A213249"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

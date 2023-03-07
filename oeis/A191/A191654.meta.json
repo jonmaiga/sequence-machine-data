@@ -1,0 +1,17 @@
+{
+  "description": "First repeating AN iterates. The AN (Adjective-before-Noun) function of a finite sequence s of nonnegative integers is the finite sequence a,0,b,1,c,2,...m,z, where a=#0's in s, b=#1's in s,..., m=#z's in s, where m is the greatest term in s.",
+  "id": "A191654",
+  "mentions": [
+    "A109973"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

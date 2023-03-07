@@ -1,0 +1,23 @@
+{
+  "description": "Denominators y of resistance values R=x/y that can be obtained by a network of at most 11 one-ohm resistors such that a network of more than 11 one-ohm resistors is needed to obtain the resistance y/x. Numerators are in A338581.",
+  "id": "A338591",
+  "mentions": [
+    "A180414",
+    "A338581",
+    "A338601",
+    "A338602"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi*zeta(3)/4.",
+  "id": "A193712",
+  "mentions": [
+    "A000796",
+    "A002117",
+    "A152584",
+    "A193713",
+    "A194655"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:54",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

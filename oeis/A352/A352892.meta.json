@@ -1,0 +1,34 @@
+{
+  "description": "Next even term in the trajectory of map x -> A341515(x), when starting from x=n; a(1) = 1. Here A341515 is the Collatz or 3x+1 map (A006370) conjugated by unary-binary-encoding (A156552).",
+  "id": "A352892",
+  "mentions": [
+    "A000040",
+    "A005940",
+    "A006370",
+    "A064989",
+    "A139391",
+    "A156552",
+    "A329603",
+    "A341515",
+    "A348717",
+    "A352893",
+    "A352894",
+    "A352896",
+    "A352897",
+    "A352898",
+    "A352899",
+    "A353267",
+    "A353268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

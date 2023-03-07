@@ -1,0 +1,19 @@
+{
+  "description": "Minimal element in the primitive 3x-k cycle with the conjectured record-breaking maximal element A226683(n).",
+  "id": "A226685",
+  "mentions": [
+    "A226669",
+    "A226683",
+    "A226684"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

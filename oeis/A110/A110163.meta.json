@@ -1,0 +1,29 @@
+{
+  "description": "Exponents a(1), a(2), ... such that theta series of E_8 lattice, 1 + 240 q + 2160 q^2 + ... (A004009) is equal to (1-q)^a(1) (1-q^2)^a(2) (1-q^3)^a(3) ...",
+  "id": "A110163",
+  "mentions": [
+    "A004009",
+    "A008683",
+    "A013953",
+    "A288261",
+    "A288471",
+    "A288851",
+    "A288968",
+    "A288989",
+    "A288990",
+    "A289024",
+    "A289029",
+    "A289636"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

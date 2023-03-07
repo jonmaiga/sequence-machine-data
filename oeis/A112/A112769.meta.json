@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with more than one prime factor and, in the ordered factorization, at least one exponent is less than the previous exponent when read from left to right.",
+  "id": "A112769",
+  "mentions": [
+    "A085079",
+    "A097318",
+    "A097319",
+    "A097320",
+    "A304678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

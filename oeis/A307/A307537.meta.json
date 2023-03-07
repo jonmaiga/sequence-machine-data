@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest maximally idempotent integer with n factors, n >= 3.",
+  "id": "A307537",
+  "mentions": [
+    "A005117",
+    "A120944",
+    "A306330",
+    "A306508",
+    "A306812"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Largest eight-digit primes (in decreasing order) which use each of 0-to-7 decimal digits exactly once.",
+  "id": "A109178",
+  "mentions": [
+    "A109177"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

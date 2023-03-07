@@ -1,0 +1,23 @@
+{
+  "description": "The 3-symbol Pell word.",
+  "id": "A294180",
+  "mentions": [
+    "A001952",
+    "A171588",
+    "A188374",
+    "A188376",
+    "A263844",
+    "A270788"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

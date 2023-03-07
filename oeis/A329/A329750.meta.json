@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of compositions of n >= 1 with runs-resistance n - k, 1 <= k <= n.",
+  "id": "A329750",
+  "mentions": [
+    "A000079",
+    "A000740",
+    "A008965",
+    "A098504",
+    "A242882",
+    "A318928",
+    "A329744",
+    "A329745",
+    "A329746",
+    "A329747",
+    "A329767",
+    "A329768"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

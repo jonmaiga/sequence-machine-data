@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled 2-connected simple graphs with girth at least 6.",
+  "id": "A345324",
+  "mentions": [
+    "A140440",
+    "A345246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

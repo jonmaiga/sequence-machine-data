@@ -1,0 +1,19 @@
+{
+  "description": "Dimension of space of invariant tensors in the n-th tensor power of the adjoint representation of G2.",
+  "id": "A227292",
+  "mentions": [
+    "A002137",
+    "A179663",
+    "A179683"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit numbers with each digit odd where the digits 1 and 3 occur an even number of times.",
+  "id": "A146086",
+  "mentions": [
+    "A063376",
+    "A122983"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A325931.",
+  "id": "A325933",
+  "mentions": [
+    "A005132",
+    "A064289",
+    "A076042",
+    "A325931"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

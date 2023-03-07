@@ -1,0 +1,19 @@
+{
+  "description": "Moebius function for the floor quotient poset.",
+  "id": "A360078",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A360079"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

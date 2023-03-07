@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of the coefficients [x^k] of the linear form (x*B_{n-1}(x)-(d/dx) B_n(x)) of the polynomials defined in A137276, 0<=k<=n.",
+  "id": "A136256",
+  "mentions": [
+    "A137276",
+    "A138034"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Unitary highly composite deficient numbers: unitary deficient numbers k whose number of unitary divisors ud(k) > ud(m) for all unitary deficient numbers m < k.",
+  "id": "A302935",
+  "mentions": [
+    "A034444",
+    "A034448",
+    "A129487",
+    "A302934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

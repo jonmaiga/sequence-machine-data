@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest composite k such that n^(k-1) == 1 (mod (n^2-1)*k).",
+  "id": "A322120",
+  "mentions": [
+    "A181782",
+    "A271801",
+    "A298756",
+    "A322121"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The number of edges inside a pentagram formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A333118",
+  "mentions": [
+    "A274586",
+    "A331765",
+    "A331906",
+    "A331907",
+    "A332600",
+    "A333117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of A014217 (n=2,3,5,6,8,9,11,12,...).",
+  "id": "A182642",
+  "mentions": [
+    "A014217",
+    "A182643"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

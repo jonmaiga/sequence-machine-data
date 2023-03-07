@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A038772.",
+  "id": "A176660",
+  "mentions": [
+    "A000217",
+    "A034837",
+    "A038769",
+    "A038770",
+    "A038772",
+    "A176659"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:11",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

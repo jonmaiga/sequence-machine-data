@@ -1,0 +1,20 @@
+{
+  "description": "Positions of records in A213726.",
+  "id": "A218548",
+  "mentions": [
+    "A213726",
+    "A213730",
+    "A218549",
+    "A218550"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

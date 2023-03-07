@@ -1,0 +1,20 @@
+{
+  "description": "The primes missing from A333541.",
+  "id": "A333542",
+  "mentions": [
+    "A332558",
+    "A333537",
+    "A333538",
+    "A333541"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

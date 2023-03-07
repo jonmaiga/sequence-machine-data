@@ -1,0 +1,22 @@
+{
+  "description": "Sequence read from antidiagonals of rectangular array given by A(n,k) = 2^(2*k)*(Sum_{j=1..n-floor(n/2)-1} (cos(j*Pi/n))^(2*k)), rows n >= 3, columns k >= 0.",
+  "id": "A232441",
+  "mentions": [
+    "A185095",
+    "A186740",
+    "A198632",
+    "A198636"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

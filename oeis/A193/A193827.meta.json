@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the emergent parts of all partitions of n, or 0 if such parts do not exist.",
+  "id": "A193827",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A182699",
+    "A182709",
+    "A183152",
+    "A186114"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

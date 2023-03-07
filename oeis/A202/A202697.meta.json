@@ -1,0 +1,21 @@
+{
+  "description": "The third of a set of three triangles constructed by the same rule as A202692-A202694, but where the top entries in the three triangles are 1,0,0 respectively.",
+  "id": "A202697",
+  "mentions": [
+    "A202692",
+    "A202694",
+    "A202695"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:37:01",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

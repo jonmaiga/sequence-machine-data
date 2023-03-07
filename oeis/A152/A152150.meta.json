@@ -1,0 +1,19 @@
+{
+  "description": "Riordan array [exp(x^2/2+x^4/4),x].",
+  "id": "A152150",
+  "mentions": [
+    "A001472"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

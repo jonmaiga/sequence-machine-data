@@ -1,0 +1,21 @@
+{
+  "description": "2^2*3^3*...*a(n)^a(n) + 1 is prime, a(n) is prime, a(n)>a(n-1), and a(n) is minimal.",
+  "id": "A254380",
+  "mentions": [
+    "A000040",
+    "A051674",
+    "A191623"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

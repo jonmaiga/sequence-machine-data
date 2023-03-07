@@ -1,0 +1,19 @@
+{
+  "description": "Signature-permutation of the inverse of Deutsch's 2000 bijection on ordered trees.",
+  "id": "A125982",
+  "mentions": [
+    "A057163",
+    "A125981",
+    "A125984"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

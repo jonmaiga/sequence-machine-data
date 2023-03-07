@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that 90*k + 77 is prime.",
+  "id": "A201822",
+  "mentions": [
+    "A142329",
+    "A181732",
+    "A195993",
+    "A196000",
+    "A196007",
+    "A198382",
+    "A201734",
+    "A201739",
+    "A201804",
+    "A201816",
+    "A201817",
+    "A201818",
+    "A201820"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

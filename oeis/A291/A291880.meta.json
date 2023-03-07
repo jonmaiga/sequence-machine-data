@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that phi(n) - 1 | sigma(n).",
+  "id": "A291880",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020714",
+    "A056097",
+    "A057733",
+    "A109606"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

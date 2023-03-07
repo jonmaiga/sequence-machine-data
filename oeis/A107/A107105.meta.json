@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = C(n,k)*(C(n,k) + 1)/2, n>=k>=0.",
+  "id": "A107105",
+  "mentions": [
+    "A005317",
+    "A107597"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p^3 with the rightmost digit removed is also prime.",
+  "id": "A258032",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A024770",
+    "A052025",
+    "A137812",
+    "A227916",
+    "A227919"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

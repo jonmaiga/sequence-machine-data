@@ -1,0 +1,18 @@
+{
+  "description": "Primes p with the property that the sum of the digits of the product of the digits of p is also a prime number.",
+  "id": "A134873",
+  "mentions": [
+    "A038618"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

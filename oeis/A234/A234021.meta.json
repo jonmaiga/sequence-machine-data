@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m with digits in nondecreasing order such that sum of squares of digits is a prime.",
+  "id": "A234021",
+  "mentions": [
+    "A009994",
+    "A108662"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

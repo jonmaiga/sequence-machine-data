@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways of writing n as a sum of a proper prime power (A246547) and a nonprime squarefree number (A000469).",
+  "id": "A287299",
+  "mentions": [
+    "A000469",
+    "A098983",
+    "A246547",
+    "A282192",
+    "A282290",
+    "A282318",
+    "A282947"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

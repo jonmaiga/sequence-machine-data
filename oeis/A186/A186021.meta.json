@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Bell(n)*(2 - 0^n).",
+  "id": "A186021",
+  "mentions": [
+    "A000110",
+    "A040000",
+    "A060719",
+    "A186020",
+    "A271466"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

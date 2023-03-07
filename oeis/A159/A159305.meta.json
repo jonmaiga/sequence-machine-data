@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of happy tribonacci numbers.",
+  "id": "A159305",
+  "mentions": [
+    "A000073",
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

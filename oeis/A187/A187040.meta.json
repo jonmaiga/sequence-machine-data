@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which Midy's theorem holds.",
+  "id": "A187040",
+  "mentions": [
+    "A028416",
+    "A187041"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

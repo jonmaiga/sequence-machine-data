@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A129392.",
+  "id": "A129393",
+  "mentions": [
+    "A129392"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:27:12",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

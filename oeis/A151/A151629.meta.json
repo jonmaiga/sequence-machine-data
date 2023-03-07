@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 2 indistinguishable copies of 1..n with exactly 7 adjacent element pairs in decreasing order.",
+  "id": "A151629",
+  "mentions": [
+    "A154283"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

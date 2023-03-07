@@ -1,0 +1,22 @@
+{
+  "description": "Perimeter of integer-sided primitive triangles (a, b, c) whose angle B = 3*C.",
+  "id": "A353622",
+  "mentions": [
+    "A343067",
+    "A353618",
+    "A353619",
+    "A353620",
+    "A353621"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle defined by g.f. A(x,y) = exp( Sum_{n>=1} x^n/n * Sum_{k=0..n} binomial(n, k)^(k+1) * y^k ), as read by rows.",
+  "id": "A228899",
+  "mentions": [
+    "A060946",
+    "A181070",
+    "A184730",
+    "A209424",
+    "A219207",
+    "A228904"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

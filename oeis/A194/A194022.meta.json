@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to arrange 8 points on an n X n X n triangular grid on an isosceles triangle so that it balances at the midpoint of its central altitude.",
+  "id": "A194022",
+  "mentions": [
+    "A194024"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

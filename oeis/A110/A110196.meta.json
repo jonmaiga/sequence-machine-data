@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that k=2n is the least k such that phi(n+k)=2*phi(k).",
+  "id": "A110196",
+  "mentions": [
+    "A050473"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

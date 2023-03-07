@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 0..2 arrays with rows and columns in nondecreasing order",
+  "id": "A184133",
+  "mentions": [
+    "A184137"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

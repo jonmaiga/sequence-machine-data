@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least start of exactly n consecutive odd numbers that are cyclic numbers (A003277).",
+  "id": "A343816",
+  "mentions": [
+    "A003277",
+    "A343815"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

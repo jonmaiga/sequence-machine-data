@@ -1,0 +1,22 @@
+{
+  "description": "A skew Delannoy number triangle read by rows.",
+  "id": "A117389",
+  "mentions": [
+    "A000073",
+    "A008288",
+    "A079973"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

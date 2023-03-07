@@ -1,0 +1,28 @@
+{
+  "description": "Number of twice-factorizations of n where the latter factorizations are constant, i.e., type (P,P,R).",
+  "id": "A295935",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A052409",
+    "A052410",
+    "A089723",
+    "A279784",
+    "A281113",
+    "A284639",
+    "A295923",
+    "A295924",
+    "A295931"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

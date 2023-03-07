@@ -1,0 +1,18 @@
+{
+  "description": "Number of tetragonal regions in the exterior of a regular n-gon with all diagonals drawn.",
+  "id": "A217750",
+  "mentions": [
+    "A067151",
+    "A217746"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

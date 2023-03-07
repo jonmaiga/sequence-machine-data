@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form T(n) + S(n) + C(n) + 1 where T(n), S(n) and C(n) are the n-th triangular, square and cube numbers.",
+  "id": "A228908",
+  "mentions": [
+    "A120479",
+    "A229080"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

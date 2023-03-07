@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of 3-prime arithmetic progression prime chains surrounding the n-th prime number with 5-smooth intervals",
+  "id": "A209266",
+  "mentions": [
+    "A001031",
+    "A051037",
+    "A078611",
+    "A211376"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

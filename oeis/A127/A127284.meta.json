@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of valleys (DU-steps) in the Dyck path encoded by A014486(n).",
+  "id": "A127284",
+  "mentions": [
+    "A014486",
+    "A057163",
+    "A057514",
+    "A057516",
+    "A126306"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

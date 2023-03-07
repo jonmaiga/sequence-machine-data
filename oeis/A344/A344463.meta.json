@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p such that (p^2-2*n)/(2*n-1) and (p^2+2*n)/(2*n+1) are both prime, or 0 if such p does not exist.",
+  "id": "A344463",
+  "mentions": [
+    "A001105"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

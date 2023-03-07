@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [n*r]-[k*r]-[n*r-k*r], where r=sqrt(2), k=3, [ ]=floor.",
+  "id": "A188041",
+  "mentions": [
+    "A187969",
+    "A188014",
+    "A188042",
+    "A188043"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

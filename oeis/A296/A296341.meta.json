@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that the arithmetic derivatives of the composite numbers k-n and k+n are equal.",
+  "id": "A296341",
+  "mentions": [
+    "A003415",
+    "A087711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

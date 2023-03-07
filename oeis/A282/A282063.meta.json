@@ -1,0 +1,23 @@
+{
+  "description": "A(n, k) = k-th Wilson prime p of order n with p >= n and k running over the positive integers. Square array read by antidiagonals.",
+  "id": "A282063",
+  "mentions": [
+    "A007540",
+    "A079853",
+    "A128666",
+    "A152413"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A280246 (Product_{d|n} psi(d)).",
+  "id": "A280247",
+  "mentions": [
+    "A023896",
+    "A280246",
+    "A280248"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "7-section a(7n+k) gives k-th differences of a for k=0..6 with a(n)=0 for n",
+  "id": "A229657",
+  "mentions": [
+    "A005590",
+    "A229653",
+    "A229654",
+    "A229655",
+    "A229656",
+    "A229658",
+    "A229659",
+    "A229660"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "eigen",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

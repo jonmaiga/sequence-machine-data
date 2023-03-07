@@ -1,0 +1,20 @@
+{
+  "description": "The smallest prime that becomes 2 * prime(n), when all the bits in its binary expansion are inverted, or -1 if no such prime exists.",
+  "id": "A339268",
+  "mentions": [
+    "A035327",
+    "A339247"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

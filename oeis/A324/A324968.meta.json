@@ -1,0 +1,30 @@
+{
+  "description": "Matula-Goebel numbers of rooted identity trees whose non-leaf terminal subtrees are all different.",
+  "id": "A324968",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A007097",
+    "A196050",
+    "A276625",
+    "A317713",
+    "A324850",
+    "A324923",
+    "A324935",
+    "A324936",
+    "A324969",
+    "A324970",
+    "A324978"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

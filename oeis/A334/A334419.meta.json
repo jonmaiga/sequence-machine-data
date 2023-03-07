@@ -1,0 +1,22 @@
+{
+  "description": "Primitive abundant numbers (A071395) with a record gap to the next primitive abundant number.",
+  "id": "A334419",
+  "mentions": [
+    "A071395",
+    "A306747",
+    "A306748",
+    "A306953",
+    "A330872",
+    "A334418"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

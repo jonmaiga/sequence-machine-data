@@ -1,0 +1,28 @@
+{
+  "description": "Difference A214925(n) - A214924(n), prime count between Ramanujan primes bounding maximal gap primes.",
+  "id": "A214926",
+  "mentions": [
+    "A000101",
+    "A001223",
+    "A002386",
+    "A104272",
+    "A165959",
+    "A179196",
+    "A182873",
+    "A214756",
+    "A214757",
+    "A214924",
+    "A214925"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

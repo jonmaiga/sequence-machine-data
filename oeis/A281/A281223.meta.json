@@ -1,0 +1,19 @@
+{
+  "description": "The decimal representation of the Elias omega code for n (A281193(n)).",
+  "id": "A281223",
+  "mentions": [
+    "A171885",
+    "A281193"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

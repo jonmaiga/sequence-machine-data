@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0 by convention; for n>0, a(n) is the number of edges in the n-th figure shown in A255011 (meaning the figure with 4n points on the perimeter).",
+  "id": "A331448",
+  "mentions": [
+    "A006533",
+    "A007569",
+    "A007678",
+    "A135565",
+    "A255011",
+    "A331449"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

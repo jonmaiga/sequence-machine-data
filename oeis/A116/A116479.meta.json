@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of Fibonacci parts possible in a factorization of n.",
+  "id": "A116479",
+  "mentions": [
+    "A086436"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

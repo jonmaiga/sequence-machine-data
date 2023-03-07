@@ -1,0 +1,21 @@
+{
+  "description": "A sequence of rectangular tables with row sums A122401 related to A002865 and A122172.",
+  "id": "A122402",
+  "mentions": [
+    "A002865",
+    "A122172",
+    "A122401"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

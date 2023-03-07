@@ -1,0 +1,19 @@
+{
+  "description": "Rounded barycenter of first n primes defined as a(n) = round(sum_{i=1..n}(i*prime(i)) / sum_{i=1..n}prime(i))",
+  "id": "A272206",
+  "mentions": [
+    "A007504",
+    "A014285"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

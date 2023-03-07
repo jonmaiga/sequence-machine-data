@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Planck force: F_P = c^4/G, in SI units.",
+  "id": "A228817",
+  "mentions": [
+    "A003678",
+    "A070058",
+    "A183001",
+    "A228818"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 45,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A105658(2n-1) != 2n-1 and A105658(2n) != n.",
+  "id": "A105733",
+  "mentions": [
+    "A105658",
+    "A105731",
+    "A105732",
+    "A105769"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

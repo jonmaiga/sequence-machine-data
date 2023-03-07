@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose abundancy sigma(n)/n is a rational fourth power.",
+  "id": "A230538",
+  "mentions": [
+    "A000396",
+    "A069070",
+    "A230043"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

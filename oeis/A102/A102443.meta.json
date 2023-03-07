@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=b(n, A102442(n)), where b(n,0)=n and b(n,k+1)=A102440(b(n,k)).",
+  "id": "A102443",
+  "mentions": [
+    "A003586",
+    "A102440",
+    "A102442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 9*n^2 - 3.",
+  "id": "A157872",
+  "mentions": [
+    "A005843",
+    "A080663",
+    "A140811"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

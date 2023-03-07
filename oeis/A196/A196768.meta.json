@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the least x > 0 satisfying 1 = x*sin(x - Pi/3).",
+  "id": "A196768",
+  "mentions": [
+    "A133866",
+    "A196767",
+    "A196769",
+    "A196770",
+    "A196771",
+    "A196772"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

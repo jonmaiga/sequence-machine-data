@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest prime number between prime(n) and 2*prime(n) such that the arithmetic progression (prime(n), a(n), ...) and which contains only primes has the maximum length.",
+  "id": "A339501",
+  "mentions": [
+    "A000040",
+    "A339500"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

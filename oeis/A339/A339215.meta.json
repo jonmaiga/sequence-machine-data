@@ -1,0 +1,29 @@
+{
+  "description": "Primorial-base self numbers: numbers not of the form k + A276150(k).",
+  "id": "A339215",
+  "mentions": [
+    "A003052",
+    "A010061",
+    "A010064",
+    "A010067",
+    "A010070",
+    "A049345",
+    "A276150",
+    "A333426",
+    "A339211",
+    "A339212",
+    "A339213",
+    "A339214"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

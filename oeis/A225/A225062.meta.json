@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction for 1/frac(e^e^e^e). Also, continued fraction for e^e^e^e starting from the 2nd term.",
+  "id": "A225062",
+  "mentions": [
+    "A003417",
+    "A064107",
+    "A159825"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

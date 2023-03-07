@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows of n(n+1)+1 terms, where row n+1 is generated from row n by inserting zeros at positions [(m+2)^2/4 - 1] for m=1..2n+2 and then taking partial sums from right to left, starting with a single 1 in row 0.",
+  "id": "A135877",
+  "mentions": [
+    "A001147",
+    "A125781",
+    "A127452",
+    "A135876",
+    "A135879"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

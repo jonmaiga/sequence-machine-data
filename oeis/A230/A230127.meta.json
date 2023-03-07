@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary strings of length n avoiding \"squares\" (that is, repeated blocks of the form xx) with |x| > 1.",
+  "id": "A230127",
+  "mentions": [
+    "A022087",
+    "A229614",
+    "A230177"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

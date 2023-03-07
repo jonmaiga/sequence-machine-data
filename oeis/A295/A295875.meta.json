@@ -1,0 +1,25 @@
+{
+  "description": "Let p = A295895(n) = parity of the binary weight of A005940(1+n). If A005940(1+n) is a square or twice a square (in A028982) then a(n) = 1 - p, otherwise a(n) = p.",
+  "id": "A295875",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A005940",
+    "A028982",
+    "A295297",
+    "A295894",
+    "A295895",
+    "A295896"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

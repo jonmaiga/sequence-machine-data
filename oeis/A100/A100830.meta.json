@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number with same digital root as n but distinct from n and all earlier occurrences.",
+  "id": "A100830",
+  "mentions": [
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

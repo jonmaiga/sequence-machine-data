@@ -1,0 +1,19 @@
+{
+  "description": "2 * smallest possible area of a simple n-sided lattice polygon whose vertex coordinates x and y are both independent permutations of the integers 1 ... n, subject to the condition that none of its edges are mutually parallel.",
+  "id": "A288247",
+  "mentions": [
+    "A288248",
+    "A288249"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

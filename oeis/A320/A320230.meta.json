@@ -1,0 +1,23 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees in which the non-leaf branches directly under any given node are all equal.",
+  "id": "A320230",
+  "mentions": [
+    "A002541",
+    "A070776",
+    "A214577",
+    "A294336",
+    "A317710",
+    "A320222",
+    "A320226"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

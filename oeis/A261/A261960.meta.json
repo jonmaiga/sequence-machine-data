@@ -1,0 +1,23 @@
+{
+  "description": "Number A(n,k) of compositions of n such that no part equals any of its k immediate predecessors; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A261960",
+  "mentions": [
+    "A003242",
+    "A011782",
+    "A032020",
+    "A261959",
+    "A261962",
+    "A261981"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

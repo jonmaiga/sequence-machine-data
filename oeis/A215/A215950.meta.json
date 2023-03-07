@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n > 1 such that the sum of the distinct prime divisors of n^2 + 1 that are congruent to 1 mod 8 equals the sum of the distinct prime divisors congruent to 5 mod 8.",
+  "id": "A215950",
+  "mentions": [
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Hermite(n,1/5)*5^n/2^round(n/2)*(-1)^floor(n/2).",
+  "id": "A237987",
+  "mentions": [
+    "A158960"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

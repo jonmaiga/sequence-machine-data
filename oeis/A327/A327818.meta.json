@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by ascending diagonals: T(n,m) is the number of irreducible factors in the factorization of the m-th cyclotomic polynomial over GF(k), k = A246655(n) (counted with multiplicity).",
+  "id": "A327818",
+  "mentions": [
+    "A000010",
+    "A033949",
+    "A246655",
+    "A318622",
+    "A327812",
+    "A327813",
+    "A327814",
+    "A327815",
+    "A327816",
+    "A327817"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

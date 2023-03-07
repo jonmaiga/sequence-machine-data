@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A004187(3*m-J(m,45)) == 7*J(m,45) (mod m) and gcd(m,45)=1, where J(m,45) is the Jacobi symbol.",
+  "id": "A340241",
+  "mentions": [
+    "A004187",
+    "A071904",
+    "A340099",
+    "A340124",
+    "A340239",
+    "A340240"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

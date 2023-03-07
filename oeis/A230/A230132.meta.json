@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of order n with the length of longest run equal 9.",
+  "id": "A230132",
+  "mentions": [
+    "A010026",
+    "A211318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 9,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

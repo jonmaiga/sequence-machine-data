@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = value of the string of length k beginning at position n in the concatenation of natural numbers in decimal representation, 1<=k<=n.",
+  "id": "A162711",
+  "mentions": [
+    "A007376",
+    "A055642",
+    "A136414",
+    "A224841"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

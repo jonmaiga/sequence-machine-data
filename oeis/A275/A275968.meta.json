@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of two consecutive primes p and q such that c(p) = c(q), where c(n) = A008908(n) is the length of x, f(x), f(f(x)), ... , 1 in the Collatz conjecture.",
+  "id": "A275968",
+  "mentions": [
+    "A006577",
+    "A008908",
+    "A078417"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

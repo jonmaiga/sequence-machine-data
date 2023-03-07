@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p < n with p*n + pi(p) prime, where pi(.) is given by A000720.",
+  "id": "A237453",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A233296",
+    "A237284",
+    "A237291",
+    "A237496",
+    "A237497"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

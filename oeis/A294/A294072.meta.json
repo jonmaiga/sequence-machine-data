@@ -1,0 +1,25 @@
+{
+  "description": "Number of noncube divisors of n^3.",
+  "id": "A294072",
+  "mentions": [
+    "A000005",
+    "A000578",
+    "A001221",
+    "A007412",
+    "A048785",
+    "A055205",
+    "A061704",
+    "A291208"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

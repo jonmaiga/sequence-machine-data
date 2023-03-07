@@ -1,0 +1,24 @@
+{
+  "description": "Filter sequence combining gcd(n,sigma(n)) and gcd(n,phi(n)), (A009194 and A009195).",
+  "id": "A300242",
+  "mentions": [
+    "A000027",
+    "A009194",
+    "A009195",
+    "A286591",
+    "A300225",
+    "A300240",
+    "A300241",
+    "A300243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

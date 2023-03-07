@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers n (written in binary) such that in base-2 lunar arithmetic, the sum of the divisors of n is a number containing a 0 (in binary).",
+  "id": "A190149",
+  "mentions": [
+    "A067399",
+    "A188548",
+    "A190150",
+    "A190151"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

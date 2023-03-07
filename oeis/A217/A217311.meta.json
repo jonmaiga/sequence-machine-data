@@ -1,0 +1,19 @@
+{
+  "description": "Number of labelings of symmetric hexagonal tilings of size n with j descents.",
+  "id": "A217311",
+  "mentions": [
+    "A093937"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

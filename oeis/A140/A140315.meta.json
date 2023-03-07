@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n!/n#-1 and n!/n#+1 is a twin prime pair.",
+  "id": "A140315",
+  "mentions": [
+    "A034386",
+    "A140293",
+    "A140294"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

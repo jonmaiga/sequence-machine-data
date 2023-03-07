@@ -1,0 +1,20 @@
+{
+  "description": "Numbers missing from A025429 (number of partitions of n into 5 nonzero squares).",
+  "id": "A243077",
+  "mentions": [
+    "A025249",
+    "A025429",
+    "A080654",
+    "A080673"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

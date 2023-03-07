@@ -1,0 +1,34 @@
+{
+  "description": "Total area of the shadows of the three views of a three-dimensional version of the shell model of partitions with n shells.",
+  "id": "A207380",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A006128",
+    "A026792",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182703",
+    "A182715",
+    "A206437",
+    "A209655",
+    "A210970",
+    "A210979",
+    "A210980",
+    "A210990",
+    "A210991"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

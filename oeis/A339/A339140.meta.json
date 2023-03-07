@@ -1,0 +1,24 @@
+{
+  "description": "Number of (undirected) cycles in the graph C_n X P_n.",
+  "id": "A339140",
+  "mentions": [
+    "A140517",
+    "A222197",
+    "A296527",
+    "A339136",
+    "A339137",
+    "A339142",
+    "A339143"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

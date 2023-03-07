@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of different numbers that can be formed from n numbers using addition, subtraction, multiplication and division, when each number is used no more than once in a given expression.",
+  "id": "A131655",
+  "mentions": [
+    "A133568",
+    "A140606"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

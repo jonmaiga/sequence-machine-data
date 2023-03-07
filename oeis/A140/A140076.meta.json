@@ -1,0 +1,24 @@
+{
+  "description": "Pierce expansion of the cube root of 1/2.",
+  "id": "A140076",
+  "mentions": [
+    "A006283",
+    "A006284",
+    "A061233",
+    "A091831",
+    "A118242"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

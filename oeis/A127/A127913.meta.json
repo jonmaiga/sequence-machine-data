@@ -1,0 +1,18 @@
+{
+  "description": "Least k >= 0 such that A001597(n)+k is an even semiprime.",
+  "id": "A127913",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

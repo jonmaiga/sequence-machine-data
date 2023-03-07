@@ -1,0 +1,26 @@
+{
+  "description": "Number of length-3 integer partitions of n whose largest part is not greater than the sum of the other two.",
+  "id": "A325691",
+  "mentions": [
+    "A000035",
+    "A001399",
+    "A005044",
+    "A008642",
+    "A069905",
+    "A124278",
+    "A325688",
+    "A325690",
+    "A325694"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

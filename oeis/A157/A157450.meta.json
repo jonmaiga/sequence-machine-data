@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the n-th divisor of the smallest positive integer with exactly n^2 divisors.",
+  "id": "A157450",
+  "mentions": [
+    "A061707"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the prime numbers that are between 10*n and 10*(n+1).",
+  "id": "A179816",
+  "mentions": [
+    "A000040",
+    "A032352",
+    "A140890"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

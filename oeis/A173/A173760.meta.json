@@ -1,0 +1,23 @@
+{
+  "description": "Partials sums of A000410.",
+  "id": "A173760",
+  "mentions": [
+    "A000409",
+    "A000410",
+    "A046747",
+    "A064230",
+    "A064231"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

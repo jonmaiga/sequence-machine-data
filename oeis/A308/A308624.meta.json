@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n!/((n mod k)!*(k-(n mod k))!*(ceiling(n/k)!^(n mod k))*(floor(n/k)!^(k-(n mod k)))), n >= 1, n >= k >= 1, the number of ways of dividing n labeled items into k unlabeled boxes as evenly as possible.",
+  "id": "A308624",
+  "mentions": [
+    "A060540"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

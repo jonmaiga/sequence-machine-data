@@ -1,0 +1,19 @@
+{
+  "description": "Number of trailing zeros in sequence of factorials of Fibonacci numbers.",
+  "id": "A165753",
+  "mentions": [
+    "A000045",
+    "A027868"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

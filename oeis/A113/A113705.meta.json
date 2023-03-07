@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Moebius transform of powers of 10.",
+  "id": "A113705",
+  "mentions": [
+    "A027750",
+    "A055895",
+    "A113704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

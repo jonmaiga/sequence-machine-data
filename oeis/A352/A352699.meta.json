@@ -1,0 +1,20 @@
+{
+  "description": "Highly composite numbers that cease to be highly composite if divided by their largest prime factor.",
+  "id": "A352699",
+  "mentions": [
+    "A002182",
+    "A006530",
+    "A052126",
+    "A272605"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

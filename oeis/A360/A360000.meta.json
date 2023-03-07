@@ -1,0 +1,22 @@
+{
+  "description": "Number of directed cycles in the 2-Fibonacci digraph of order n.",
+  "id": "A360000",
+  "mentions": [
+    "A000045",
+    "A306522",
+    "A359997",
+    "A359998",
+    "A359999"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

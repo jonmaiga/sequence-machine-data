@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: Consecutive finite permutations of nonnegative integers in reverse colexicographic order.",
+  "id": "A195664",
+  "mentions": [
+    "A195663",
+    "A198380"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

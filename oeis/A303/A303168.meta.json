@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^(k^3))^k.",
+  "id": "A303168",
+  "mentions": [
+    "A000219",
+    "A000578",
+    "A003108",
+    "A023872",
+    "A285047",
+    "A291720",
+    "A298434",
+    "A300975"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

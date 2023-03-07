@@ -1,0 +1,29 @@
+{
+  "description": "Starting position of strings of seven identical digits in the decimal expansion of Pi.",
+  "id": "A284166",
+  "mentions": [
+    "A049534",
+    "A083601",
+    "A083605",
+    "A083614",
+    "A083619",
+    "A083624",
+    "A083629",
+    "A083635",
+    "A083641",
+    "A083646",
+    "A118079"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

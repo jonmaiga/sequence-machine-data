@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Product_{k>=1} (1-prime(k)*x^prime(k)).",
+  "id": "A298159",
+  "mentions": [
+    "A002098",
+    "A046675",
+    "A298160"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

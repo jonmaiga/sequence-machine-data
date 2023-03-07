@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 5k^2-k+1 is prime.",
+  "id": "A154432",
+  "mentions": [
+    "A154431"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:39:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

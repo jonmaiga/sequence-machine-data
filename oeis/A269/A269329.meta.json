@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of a positive integer n into two distinct primes such that for even n, it is of the form n = p + q and for odd n, it is of the form n = 2p' + q'.",
+  "id": "A269329",
+  "mentions": [
+    "A002375",
+    "A061357",
+    "A194830",
+    "A223893",
+    "A225522"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

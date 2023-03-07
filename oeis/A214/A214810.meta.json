@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, 0 <= k <= p where p = n-th prime) = Bell(k) mod p (cf. A000110).",
+  "id": "A214810",
+  "mentions": [
+    "A000110",
+    "A054767"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-entry"
+  }
+}

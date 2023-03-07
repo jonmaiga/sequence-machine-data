@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 4*n+9 is not prime.",
+  "id": "A153464",
+  "mentions": [
+    "A111199"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

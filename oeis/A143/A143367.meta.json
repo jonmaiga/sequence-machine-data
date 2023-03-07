@@ -1,0 +1,19 @@
+{
+  "description": "The Szeged index of third type dendrimer nanostar which has grown n stages.",
+  "id": "A143367",
+  "mentions": [
+    "A143369"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:22:10",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

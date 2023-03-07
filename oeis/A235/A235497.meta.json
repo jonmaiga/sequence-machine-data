@@ -1,0 +1,20 @@
+{
+  "description": "2n concatenated with n.",
+  "id": "A235497",
+  "mentions": [
+    "A019550"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

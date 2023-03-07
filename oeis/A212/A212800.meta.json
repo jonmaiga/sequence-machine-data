@@ -1,0 +1,20 @@
+{
+  "description": "Number of spanning trees of the (n,n)-torus grid graph.",
+  "id": "A212800",
+  "mentions": [
+    "A006752",
+    "A212796",
+    "A340562"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

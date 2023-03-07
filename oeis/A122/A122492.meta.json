@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes k such that 1 + 2k + 3k^2 is also semiprime.",
+  "id": "A122492",
+  "mentions": [
+    "A086285"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

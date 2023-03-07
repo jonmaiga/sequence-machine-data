@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A208128.",
+  "id": "A208129",
+  "mentions": [
+    "A208128",
+    "A210255"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

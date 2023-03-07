@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k): number of integers having k or more factors less than prime(n+1) in their prime factorization, within any interval of primorial(n)^k positive integers.",
+  "id": "A281891",
+  "mentions": [
+    "A002110",
+    "A014673",
+    "A027649",
+    "A027746",
+    "A053144",
+    "A079474",
+    "A096294",
+    "A281890"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Tetrahedral numbers k*(k+1)*(k+2)/6 such that exactly one of k, k+1, and k+2 is prime.",
+  "id": "A144521",
+  "mentions": [
+    "A000040",
+    "A000392",
+    "A141468",
+    "A152622",
+    "A152916"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = 1 + x*B(x), where B(x) = 1 + x^2*C(x)^2, C(x) = 1 + x^3*D(x)^3, D(x) = 1 + x^4*E(x)^4, ...",
+  "id": "A228866",
+  "mentions": [
+    "A095793",
+    "A108643"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

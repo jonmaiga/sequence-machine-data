@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array: T(n,k) = number of partitions of n for which (maximal term)-(minimal term)=k, if 0<=k",
+  "id": "A209354",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

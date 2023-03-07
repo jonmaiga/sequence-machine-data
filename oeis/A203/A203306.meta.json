@@ -1,0 +1,19 @@
+{
+  "description": "Vandermonde determinant of (1!, 2!, 3!, ..., n!).",
+  "id": "A203306",
+  "mentions": [
+    "A203308",
+    "A323720"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

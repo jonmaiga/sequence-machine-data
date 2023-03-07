@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected dominating sets in the n-Fibonacci cube graph.",
+  "id": "A298115",
+  "mentions": [
+    "A291920",
+    "A292066"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

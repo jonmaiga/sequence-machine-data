@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled directed multigraphs with n arrows and no vertex of degree 0.",
+  "id": "A104209",
+  "mentions": [
+    "A020561",
+    "A052171",
+    "A120945"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "A number n is included if (product{k|n, k<=sqrt(n)} k) (= A072499(n)) does not divide n.",
+  "id": "A139805",
+  "mentions": [
+    "A072499"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Interval between successive arrivals at the origin of an LQTL CA.",
+  "id": "A102127",
+  "mentions": [
+    "A094266",
+    "A094867",
+    "A099423",
+    "A102110",
+    "A274369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

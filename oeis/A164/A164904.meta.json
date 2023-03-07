@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of palindromic structures using a maximum of ten different symbols.",
+  "id": "A164904",
+  "mentions": [
+    "A056470",
+    "A056471",
+    "A164864",
+    "A188164"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:58:13",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "n such that tau(Fibonacci(n)) is a perfect square.",
+  "id": "A174331",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A000290",
+    "A036436",
+    "A063375"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

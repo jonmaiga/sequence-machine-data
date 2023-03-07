@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (product of divisors of 2n) mod (sum of divisors of 2n) is equal to number of divisors of 2n.",
+  "id": "A191868",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007955",
+    "A016777",
+    "A187680"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

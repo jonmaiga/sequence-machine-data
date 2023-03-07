@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for 1/log(2).",
+  "id": "A307513",
+  "mentions": [
+    "A002581",
+    "A007525",
+    "A059539",
+    "A166986"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:19",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

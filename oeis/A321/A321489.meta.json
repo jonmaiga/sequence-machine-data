@@ -1,0 +1,32 @@
+{
+  "description": "Numbers m such that both m and m+1 have at least 7 distinct prime factors.",
+  "id": "A321489",
+  "mentions": [
+    "A002110",
+    "A003059",
+    "A006049",
+    "A006549",
+    "A074851",
+    "A093548",
+    "A140077",
+    "A140078",
+    "A140079",
+    "A255346",
+    "A321493",
+    "A321497",
+    "A321502",
+    "A321503",
+    "A321506"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

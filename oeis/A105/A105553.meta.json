@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of 1's in A103528(n) written in base 2.",
+  "id": "A105553",
+  "mentions": [
+    "A034797",
+    "A103318",
+    "A103528"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

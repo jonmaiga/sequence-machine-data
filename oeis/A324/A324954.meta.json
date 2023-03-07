@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * (exp(n*x) + 1)^n / (1 + x*exp(n*x))^(n+1).",
+  "id": "A324954",
+  "mentions": [
+    "A324955",
+    "A325995",
+    "A325996"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

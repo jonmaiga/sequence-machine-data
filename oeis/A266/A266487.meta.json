@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Limit_{N->oo} [ Sum_{n>=0} (N - n)^(2*n) * (x/N)^n/n! ]^(1/N).",
+  "id": "A266487",
+  "mentions": [
+    "A266481",
+    "A266482",
+    "A266483",
+    "A266484",
+    "A266485",
+    "A266486"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

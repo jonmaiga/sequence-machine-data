@@ -1,0 +1,21 @@
+{
+  "description": "Primes formed by concatenating n and 2n-1.",
+  "id": "A309851",
+  "mentions": [
+    "A000040",
+    "A030458",
+    "A052089",
+    "A309808"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

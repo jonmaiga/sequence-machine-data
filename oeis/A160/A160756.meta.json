@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, infinite lower triangular Toeplitz matrix with A078008 in every column convolved with A001333.",
+  "id": "A160756",
+  "mentions": [
+    "A001333",
+    "A078008"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Reduced frequency counts for A004001: a(n) = A265332(n+1) - A036987(n).",
+  "id": "A265754",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000523",
+    "A004001",
+    "A036987",
+    "A054429",
+    "A070939",
+    "A265332",
+    "A266348",
+    "A266349",
+    "A266640",
+    "A293959"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

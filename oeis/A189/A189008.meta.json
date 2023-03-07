@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on cubes: a(A000578(k))=a(k); a(A007412(k))=1-a(k); a(1)=0.",
+  "id": "A189008",
+  "mentions": [
+    "A000578",
+    "A007412",
+    "A188967",
+    "A189009",
+    "A189010"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:05",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

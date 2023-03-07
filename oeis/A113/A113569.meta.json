@@ -1,0 +1,20 @@
+{
+  "description": "Least number, k which is a multiple of a primorial, such that p-n*k, p-(n-1)k, p-(n-2)k, ... p-2k, p-k, p, p+k, p+2k, ... p+(n-2)k, p+(n-1)k and p+n*k are all prime with p being the k-th prime.",
+  "id": "A113569",
+  "mentions": [
+    "A002110",
+    "A064403",
+    "A112530"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

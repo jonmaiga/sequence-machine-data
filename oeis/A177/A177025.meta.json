@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to represent n as a polygonal number.",
+  "id": "A177025",
+  "mentions": [
+    "A063778",
+    "A086270",
+    "A090428",
+    "A129654",
+    "A139601",
+    "A175873",
+    "A176744",
+    "A176747",
+    "A176774",
+    "A176775",
+    "A176874",
+    "A176948",
+    "A176949"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 3,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (eta(q^3) / eta(q))^12 in powers of q.",
+  "id": "A121590",
+  "mentions": [
+    "A000726",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A030182",
+    "A046913",
+    "A121596",
+    "A128758"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of dimer tilings of a 2*n x 6 Moebius strip.",
+  "id": "A334179",
+  "mentions": [
+    "A103997",
+    "A334178"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

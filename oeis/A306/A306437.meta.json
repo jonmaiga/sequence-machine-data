@@ -1,0 +1,32 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of non-crossing set partitions of {1, ..., n} in which all blocks have size k.",
+  "id": "A306437",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A000296",
+    "A001006",
+    "A001263",
+    "A001610",
+    "A001764",
+    "A016098",
+    "A038041",
+    "A061095",
+    "A125181",
+    "A126120",
+    "A134264",
+    "A194560"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

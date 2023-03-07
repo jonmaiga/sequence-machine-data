@@ -1,0 +1,29 @@
+{
+  "description": "Regular tetrangle where T(n,k,i) is the number of unlabeled connected multiset partitions of weight n with k vertices and i edges.",
+  "id": "A322134",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A054923",
+    "A191646",
+    "A191970",
+    "A275421",
+    "A286520",
+    "A317533",
+    "A317672",
+    "A321155",
+    "A321254",
+    "A322114"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

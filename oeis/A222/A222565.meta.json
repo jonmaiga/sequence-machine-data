@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are the largest anti-divisor of primes.",
+  "id": "A222565",
+  "mentions": [
+    "A066272",
+    "A066481"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

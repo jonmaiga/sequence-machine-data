@@ -1,0 +1,27 @@
+{
+  "description": "Partial sums of A276791.",
+  "id": "A276798",
+  "mentions": [
+    "A003146",
+    "A080843",
+    "A140101",
+    "A276791",
+    "A276793",
+    "A276794",
+    "A276796",
+    "A276797",
+    "A278039"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

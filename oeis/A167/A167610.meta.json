@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the sum of three consecutive nonprimes.",
+  "id": "A167610",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

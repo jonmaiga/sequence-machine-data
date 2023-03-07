@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent sublattices of index n in hexagonal lattice, where two sublattices are considered equivalent if they are related by any rotation or reflection.",
+  "id": "A300651",
+  "mentions": [
+    "A003050",
+    "A003051",
+    "A054346",
+    "A054384",
+    "A145394"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that remain prime through at least 3 iterations of function f(p)=p^2+4.",
+  "id": "A116887",
+  "mentions": [
+    "A062324",
+    "A116886",
+    "A116888",
+    "A116889"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

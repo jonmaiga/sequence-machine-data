@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the product of three consecutive terms are all distinct.",
+  "id": "A349227",
+  "mentions": [
+    "A088177",
+    "A349228"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

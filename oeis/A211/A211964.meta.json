@@ -1,0 +1,24 @@
+{
+  "description": "Right triangle from the snowflake (or E-toothpick) structure of A161330 (see Comments lines for definition).",
+  "id": "A211964",
+  "mentions": [
+    "A139250",
+    "A161328",
+    "A161330",
+    "A211976",
+    "A213360",
+    "A213366",
+    "A220478"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

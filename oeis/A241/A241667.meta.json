@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the iterates of A058026 up to and including either 0 or 1.",
+  "id": "A241667",
+  "mentions": [
+    "A058026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

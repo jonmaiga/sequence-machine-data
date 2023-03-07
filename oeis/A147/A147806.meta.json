@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A147809(n) = tau(n^2 + 1)/2 - 1.",
+  "id": "A147806",
+  "mentions": [
+    "A147807",
+    "A147809",
+    "A147811"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

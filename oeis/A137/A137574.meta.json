@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers and their distinct prime divisors having the same number of decimal digits.",
+  "id": "A137574",
+  "mentions": [
+    "A000045",
+    "A053409"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

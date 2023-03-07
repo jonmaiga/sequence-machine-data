@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected non-regular multigraphs with n nodes of degree up to n.",
+  "id": "A319896",
+  "mentions": [
+    "A289986",
+    "A289988",
+    "A319897"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

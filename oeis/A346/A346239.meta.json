@@ -1,0 +1,30 @@
+{
+  "description": "Möbius transform of A341512, sigma(n)*A003961(n) - n*sigma(A003961(n)).",
+  "id": "A346239",
+  "mentions": [
+    "A000203",
+    "A001359",
+    "A003961",
+    "A008683",
+    "A029710",
+    "A031924",
+    "A341512",
+    "A341528",
+    "A341529",
+    "A346240",
+    "A347096",
+    "A347124",
+    "A347125"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

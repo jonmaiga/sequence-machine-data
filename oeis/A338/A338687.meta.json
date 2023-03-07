@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as x^4 + y^2 + floor(z^2/7), where x,y,z are integers with x >= 0, y >= 1 and z >= 2.",
+  "id": "A338687",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A270566",
+    "A338686",
+    "A338696",
+    "A343387",
+    "A343391",
+    "A343397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

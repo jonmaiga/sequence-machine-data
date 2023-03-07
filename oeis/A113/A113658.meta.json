@@ -1,0 +1,18 @@
+{
+  "description": "Where n appears in A111273.",
+  "id": "A113658",
+  "mentions": [
+    "A111273",
+    "A113659"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

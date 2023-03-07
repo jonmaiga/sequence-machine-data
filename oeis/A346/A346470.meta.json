@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = psi(A276086(n)), where psi is Dedekind psi function A001615, and A276086 is the prime product form of primorial base expansion of n.",
+  "id": "A346470",
+  "mentions": [
+    "A001615",
+    "A267263",
+    "A276086",
+    "A276150",
+    "A324650",
+    "A324653",
+    "A324655",
+    "A327860",
+    "A346471",
+    "A346475"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

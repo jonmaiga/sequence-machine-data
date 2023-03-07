@@ -1,0 +1,20 @@
+{
+  "description": "Zeckendorf distance between n and floor(n/2).",
+  "id": "A226212",
+  "mentions": [
+    "A226080",
+    "A226207",
+    "A226211"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

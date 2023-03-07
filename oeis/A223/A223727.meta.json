@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are a sum of four distinct nonzero squares where the summands have no common factor > 1.",
+  "id": "A223727",
+  "mentions": [
+    "A004433",
+    "A097203",
+    "A222949",
+    "A223728",
+    "A259058"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

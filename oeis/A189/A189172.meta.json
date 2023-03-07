@@ -1,0 +1,23 @@
+{
+  "description": "Largest prime number tried when factoring n using trial division.",
+  "id": "A189172",
+  "mentions": [
+    "A000040",
+    "A000196",
+    "A006530",
+    "A007917",
+    "A059396",
+    "A087039"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

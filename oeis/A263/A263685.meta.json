@@ -1,0 +1,25 @@
+{
+  "description": "Number of inequivalent placements of n nonattacking rooks on n X n board up to rotations of the board.",
+  "id": "A263685",
+  "mentions": [
+    "A000085",
+    "A000407",
+    "A000899",
+    "A000900",
+    "A000901",
+    "A000902",
+    "A000903"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

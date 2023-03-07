@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose representation in Roman numerals is horizontally symmetrical.",
+  "id": "A242590",
+  "mentions": [
+    "A007284",
+    "A166874"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

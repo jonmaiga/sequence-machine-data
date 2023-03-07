@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=1) gives the number of n-indecomposable polyominoes with k cells (k >= 1).",
+  "id": "A125761",
+  "mentions": [
+    "A000105",
+    "A049430",
+    "A125709",
+    "A125753",
+    "A125759",
+    "A126742",
+    "A126743",
+    "A195738",
+    "A195739"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

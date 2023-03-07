@@ -1,0 +1,22 @@
+{
+  "description": "Nobly deficient numbers (A349759) that are not deficient numbers (A005100).",
+  "id": "A349869",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005100",
+    "A023196",
+    "A349759",
+    "A349868"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of weighted lattice paths B(n) having k hh's. B(n) is the set of lattice paths of weight n that start in (0,0), end on the horizontal axis and never go below this axis, whose steps are of the following four kinds: a (1,0)-step h of weight 1; a (1,0)-step H of weight 2; a (1,1)-step u of weight 2; a (1,-1)-step d of weight 1. The weight of a path is the sum of the weights of its steps.",
+  "id": "A246182",
+  "mentions": [
+    "A004148",
+    "A110320",
+    "A246177"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

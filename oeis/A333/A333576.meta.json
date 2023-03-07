@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; thereafter a(n) = n * uphi(n) / 2.",
+  "id": "A333576",
+  "mentions": [
+    "A001221",
+    "A023896",
+    "A047994",
+    "A076479",
+    "A145388"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

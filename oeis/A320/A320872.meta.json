@@ -1,0 +1,20 @@
+{
+  "description": "For all possible 3 X 3 magic squares made of primes, in order of increasing magic sum, list the lexicographically smallest representative of each equivalence class (modulo symmetries of the square), as a row of the 9 elements (3 rows of 3 elements each).",
+  "id": "A320872",
+  "mentions": [
+    "A268790",
+    "A320871",
+    "A320873"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

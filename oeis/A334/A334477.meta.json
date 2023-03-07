@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 + 1/A002476(k)^3).",
+  "id": "A334477",
+  "mentions": [
+    "A002114",
+    "A002476",
+    "A007528",
+    "A175646",
+    "A334424",
+    "A334426",
+    "A334478",
+    "A334479",
+    "A334481"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

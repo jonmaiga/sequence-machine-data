@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) = nextprime(binomial(n,m)) read by rows.",
+  "id": "A174373",
+  "mentions": [
+    "A000040",
+    "A007318",
+    "A007918"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

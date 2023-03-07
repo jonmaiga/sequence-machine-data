@@ -1,0 +1,23 @@
+{
+  "description": "Initial term of a series of exactly n consecutive non-Niven (or Harshad) numbers.",
+  "id": "A144378",
+  "mentions": [
+    "A005349",
+    "A060159",
+    "A082516",
+    "A144261",
+    "A144262"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of minimal dominating sets in the n X n bishop graph.",
+  "id": "A295899",
+  "mentions": [
+    "A182333",
+    "A286886",
+    "A287897",
+    "A290714",
+    "A295898"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

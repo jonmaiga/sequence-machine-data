@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of triangular matrix A246381 = exp(L) where L(n,k) = C(2*n, 2*k+1)/2.",
+  "id": "A246382",
+  "mentions": [
+    "A246381",
+    "A246383",
+    "A246384",
+    "A246385"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

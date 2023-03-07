@@ -1,0 +1,18 @@
+{
+  "description": "Indices n such that the sums of the squares of the digits of prime(n) are prime.",
+  "id": "A177149",
+  "mentions": [
+    "A108662"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

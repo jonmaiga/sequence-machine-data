@@ -1,0 +1,22 @@
+{
+  "description": "Minimal number of pieces of a cake such that they can be distributed equally among k guests for any k=1,2,...,n.",
+  "id": "A265286",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

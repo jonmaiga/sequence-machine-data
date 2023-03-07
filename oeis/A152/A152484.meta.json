@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers which are not the sum of an even semiprime and an odd semiprime.",
+  "id": "A152484",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A100484",
+    "A152482",
+    "A152483"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

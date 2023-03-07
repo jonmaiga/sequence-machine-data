@@ -1,0 +1,24 @@
+{
+  "description": "Nontriangular numbers that are the sum of two (positive) triangular numbers in more than one way.",
+  "id": "A185980",
+  "mentions": [
+    "A000217",
+    "A020756",
+    "A051533",
+    "A064816",
+    "A185978",
+    "A185979"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

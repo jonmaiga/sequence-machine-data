@@ -1,0 +1,27 @@
+{
+  "description": "Remove highest power of 6 from n.",
+  "id": "A244414",
+  "mentions": [
+    "A000265",
+    "A007310",
+    "A007913",
+    "A008833",
+    "A038502",
+    "A065883",
+    "A122841",
+    "A132739",
+    "A242603"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

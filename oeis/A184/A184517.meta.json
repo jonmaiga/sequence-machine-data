@@ -1,0 +1,20 @@
+{
+  "description": "Upper s-Wythoff sequence, where s=4n-2. Complement of A184516.",
+  "id": "A184517",
+  "mentions": [
+    "A001622",
+    "A184117",
+    "A184516"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

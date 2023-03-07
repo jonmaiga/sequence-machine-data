@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1) + last digit of a(n-1), starting at 1.",
+  "id": "A102039",
+  "mentions": [
+    "A001651",
+    "A002081",
+    "A007612",
+    "A047235",
+    "A047350",
+    "A235700"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:25:35",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

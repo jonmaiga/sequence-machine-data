@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (n, sigma(n), tau(n)) lies on a sphere with integral radius centered at the origin, i.e., n^2 + sigma(n)^2 + tau(n)^2 is a square.",
+  "id": "A243455",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A066764"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (p(n,k) mod 2), where p(n,k) = number of partitions of n into k parts.",
+  "id": "A309247",
+  "mentions": [
+    "A007306",
+    "A008284",
+    "A071754",
+    "A072233"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

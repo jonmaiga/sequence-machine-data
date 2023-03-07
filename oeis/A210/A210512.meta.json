@@ -1,0 +1,21 @@
+{
+  "description": "Primes formed by concatenating k, k and 3 for k >= 1.",
+  "id": "A210512",
+  "mentions": [
+    "A030458",
+    "A052089",
+    "A210511"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

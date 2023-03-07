@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k+r where k is composite(n) and r is (largest prime divisor of k) mod (smallest prime divisor of k).",
+  "id": "A161986",
+  "mentions": [
+    "A002808",
+    "A052369",
+    "A056608",
+    "A161849",
+    "A161850"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

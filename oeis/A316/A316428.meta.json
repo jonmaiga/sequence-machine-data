@@ -1,0 +1,25 @@
+{
+  "description": "Heinz numbers of integer partitions such that every part is divisible by the number of parts.",
+  "id": "A316428",
+  "mentions": [
+    "A056239",
+    "A067538",
+    "A074761",
+    "A143773",
+    "A237984",
+    "A289509",
+    "A296150",
+    "A298423",
+    "A316413"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

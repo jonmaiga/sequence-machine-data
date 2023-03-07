@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there are 12 digits in k^2 and for each factor f of 12 (1,2,3,4,6) the sum of digit groupings of size f is a square.",
+  "id": "A153749",
+  "mentions": [
+    "A061910",
+    "A153745"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

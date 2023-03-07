@@ -1,0 +1,37 @@
+{
+  "description": "Number of binary words of length n avoiding the subword given by the binary expansion of k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A209972",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000071",
+    "A000073",
+    "A000078",
+    "A001477",
+    "A001591",
+    "A001949",
+    "A005251",
+    "A008937",
+    "A049864",
+    "A107066",
+    "A118870",
+    "A152718",
+    "A209888",
+    "A210003",
+    "A210021",
+    "A210031",
+    "A233940",
+    "A234005"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

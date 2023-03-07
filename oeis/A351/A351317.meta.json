@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f.: 1/(Sum_{p odd prime} x^p)^2 (even powers only).",
+  "id": "A351317",
+  "mentions": [
+    "A000040",
+    "A002372",
+    "A087916",
+    "A101264",
+    "A352479",
+    "A352500"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -3,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

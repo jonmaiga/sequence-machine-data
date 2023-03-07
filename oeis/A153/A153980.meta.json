@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n equal to the sum of all the different integers formed by the digits of n (n itself excluded), keeping the order of the digits.",
+  "id": "A153980",
+  "mentions": [
+    "A065794",
+    "A154781"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

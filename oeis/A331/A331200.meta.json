@@ -1,0 +1,35 @@
+{
+  "description": "Least number with each record number of factorizations into distinct factors > 1.",
+  "id": "A331200",
+  "mentions": [
+    "A001055",
+    "A025487",
+    "A033833",
+    "A045778",
+    "A045779",
+    "A045780",
+    "A045782",
+    "A045783",
+    "A325238",
+    "A330972",
+    "A330973",
+    "A330974",
+    "A330975",
+    "A330976",
+    "A330997",
+    "A331023",
+    "A331024",
+    "A331201",
+    "A331232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

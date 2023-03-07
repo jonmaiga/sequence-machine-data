@@ -1,0 +1,23 @@
+{
+  "description": "Capped binary boundary codes for fusenes, only the maximal representatives of each equivalence class obtained by rotating.",
+  "id": "A258013",
+  "mentions": [
+    "A257250",
+    "A258003",
+    "A258012",
+    "A258014",
+    "A258015",
+    "A258017"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

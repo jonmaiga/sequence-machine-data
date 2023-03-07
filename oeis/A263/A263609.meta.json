@@ -1,0 +1,21 @@
+{
+  "description": "Base-4 numbers whose square is a palindrome in base 4.",
+  "id": "A263609",
+  "mentions": [
+    "A002778",
+    "A029986",
+    "A029987",
+    "A263610"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

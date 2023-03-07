@@ -1,0 +1,26 @@
+{
+  "description": "In balanced ternary notation, zerofree non-repdigit numbers that are either palindromes or sign reversed palindromes.",
+  "id": "A233580",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A057890",
+    "A061917",
+    "A134027",
+    "A233010",
+    "A233571",
+    "A233572"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

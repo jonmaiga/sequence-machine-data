@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers m such that m^k + 1 is squarefree for all 0 <= k <= (m - 1)/2.",
+  "id": "A334214",
+  "mentions": [
+    "A334212",
+    "A334213"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

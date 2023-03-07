@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n = Sum_{k=1..m} (n mod k) for some m.",
+  "id": "A283565",
+  "mentions": [
+    "A004125",
+    "A283593"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

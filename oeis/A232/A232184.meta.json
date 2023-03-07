@@ -1,0 +1,18 @@
+{
+  "description": "Let x(0)x(1)x(2)... x(q) denote the decimal expansion of n. Sequence lists the numbers n > 10 such that x(0)/x(1)x(2)... x(q) + x(0)x(1)/x(2)x(3)... x(q) + ... + x(0)x(1)... x(q-1)/x(q) is an integer.",
+  "id": "A232184",
+  "mentions": [
+    "A084906"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

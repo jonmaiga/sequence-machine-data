@@ -1,0 +1,35 @@
+{
+  "description": "Number of non-isomorphic weight-n strict multiset partitions whose dual is an antichain of (not necessarily distinct) multisets.",
+  "id": "A319643",
+  "mentions": [
+    "A006126",
+    "A007716",
+    "A059201",
+    "A245567",
+    "A283877",
+    "A293606",
+    "A293993",
+    "A316980",
+    "A316983",
+    "A318099",
+    "A319558",
+    "A319616",
+    "A319646",
+    "A319721",
+    "A326704",
+    "A326950",
+    "A326973",
+    "A326978"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

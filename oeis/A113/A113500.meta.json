@@ -1,0 +1,18 @@
+{
+  "description": "Maximum element in the continued fraction for F(5n+3)^5/F(5n+2)^5 where F=A000045 are Fibonacci numbers.",
+  "id": "A113500",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

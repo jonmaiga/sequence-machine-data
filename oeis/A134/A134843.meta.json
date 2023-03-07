@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n not divisible by 10 such that n^2 contains a 0.",
+  "id": "A134843",
+  "mentions": [
+    "A134844",
+    "A134845"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

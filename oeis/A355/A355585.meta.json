@@ -1,0 +1,28 @@
+{
+  "description": "T(j,k) are the numerators s in the representation R = s/t + (2*sqrt(3)/Pi)*u/v of the resistance between two nodes separated by the distance (j,k) in an infinite triangular lattice of one-ohm resistors, where T(j,k), j >= 0, 0 <= k <= floor(j/2) is an irregular triangle read by rows.",
+  "id": "A355585",
+  "mentions": [
+    "A084768",
+    "A211074",
+    "A307012",
+    "A355565",
+    "A355566",
+    "A355567",
+    "A355586",
+    "A355587",
+    "A355588"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

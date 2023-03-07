@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n > 0 such that a record number of composite numbers k have n as the sum of the nontrivial divisors of k.",
+  "id": "A247131",
+  "mentions": [
+    "A048050",
+    "A145899",
+    "A238895"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

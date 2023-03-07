@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest integer k > 1 such that k cannot be expressed as a sum of distinct earlier terms nor is a multiple of any earlier term.",
+  "id": "A330070",
+  "mentions": [
+    "A330071",
+    "A330126"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

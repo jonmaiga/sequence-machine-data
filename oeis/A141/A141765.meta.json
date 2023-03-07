@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, such that row n equals column 0 of matrix power M^n where M is a triangular matrix defined by M(k+m,k) = binomial(k+m,k) for m=0..2 and zeros elsewhere. Width-2-restricted finite functions.",
+  "id": "A141765",
+  "mentions": [
+    "A000680",
+    "A003011",
+    "A003692",
+    "A012244",
+    "A036774"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

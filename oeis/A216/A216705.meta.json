@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=1..n} (81 - 9/k).",
+  "id": "A216705",
+  "mentions": [
+    "A004988",
+    "A004994",
+    "A049382",
+    "A216702",
+    "A216703",
+    "A216704"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

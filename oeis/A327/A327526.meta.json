@@ -1,0 +1,25 @@
+{
+  "description": "Maximum uniform divisor of n.",
+  "id": "A327526",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A005117",
+    "A006530",
+    "A007947",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A327527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

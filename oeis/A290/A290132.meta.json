@@ -1,0 +1,20 @@
+{
+  "description": "The number of edges in a graph induced by a regular drawing of K_{n,n}.",
+  "id": "A290132",
+  "mentions": [
+    "A159065",
+    "A290131"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

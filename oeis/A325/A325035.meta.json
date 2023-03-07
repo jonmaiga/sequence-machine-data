@@ -1,0 +1,30 @@
+{
+  "description": "Product of sums of the multisets of prime indices of each prime index of 2 * n + 1.",
+  "id": "A325035",
+  "mentions": [
+    "A000720",
+    "A001055",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A318949",
+    "A324926",
+    "A325031",
+    "A325032",
+    "A325033",
+    "A325034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

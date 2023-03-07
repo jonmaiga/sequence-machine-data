@@ -1,0 +1,21 @@
+{
+  "description": "After n iterations of the \"Square Multiscale\" substitution, the largest tiles have side length 3^t / 5^f; a(n) = t (A356625 gives corresponding f's).",
+  "id": "A356624",
+  "mentions": [
+    "A022336",
+    "A329919",
+    "A354535",
+    "A356625"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

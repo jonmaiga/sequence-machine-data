@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the sum of the elements of the set A_n = {(n-k) AND k, k = 0..n} (where AND denotes the bitwise AND operator).",
+  "id": "A328564",
+  "mentions": [
+    "A002487",
+    "A006581",
+    "A326819",
+    "A328565",
+    "A328566"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": -1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

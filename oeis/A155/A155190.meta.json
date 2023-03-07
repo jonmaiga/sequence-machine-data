@@ -1,0 +1,19 @@
+{
+  "description": "Non-triangular numbers having a unique representation as p + t, where p is prime and t is a triangular number.",
+  "id": "A155190",
+  "mentions": [
+    "A065397",
+    "A132399",
+    "A154752"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

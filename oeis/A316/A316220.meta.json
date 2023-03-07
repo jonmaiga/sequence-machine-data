@@ -1,0 +1,30 @@
+{
+  "description": "Number of triangles whose weight is the n-th Fermi-Dirac prime in the multiorder of integer partitions of Fermi-Dirac primes into Fermi-Dirac primes.",
+  "id": "A316220",
+  "mentions": [
+    "A050376",
+    "A063834",
+    "A064547",
+    "A213925",
+    "A269134",
+    "A281113",
+    "A299757",
+    "A305829",
+    "A316202",
+    "A316210",
+    "A316211",
+    "A316219",
+    "A316228"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

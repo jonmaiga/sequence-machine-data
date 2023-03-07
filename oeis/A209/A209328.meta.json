@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the sum of the inverse twin prime products.",
+  "id": "A209328",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A037074",
+    "A065421"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

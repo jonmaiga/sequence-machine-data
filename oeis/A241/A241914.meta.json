@@ -1,0 +1,24 @@
+{
+  "description": "After a(1)=0, numbers 0 .. A061395(n)-1, followed by numbers 0 .. A061395(n+1)-1, etc.",
+  "id": "A241914",
+  "mentions": [
+    "A061395",
+    "A203623",
+    "A241910",
+    "A241915",
+    "A241918",
+    "A241920"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

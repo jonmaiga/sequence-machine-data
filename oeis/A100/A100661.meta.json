@@ -1,0 +1,25 @@
+{
+  "description": "Quet transform of A006519 (see A101387 for definition). Also, least k such that n+k has at most k ones in its binary representation.",
+  "id": "A100661",
+  "mentions": [
+    "A000325",
+    "A006519",
+    "A079559",
+    "A080468",
+    "A100808",
+    "A101387",
+    "A108918"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

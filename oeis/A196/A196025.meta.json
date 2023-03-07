@@ -1,0 +1,33 @@
+{
+  "description": "Total sum of parts greater than 1 in all the partitions of n except one copy of the smallest part greater than 1 of every partition.",
+  "id": "A196025",
+  "mentions": [
+    "A026905",
+    "A046746",
+    "A066186",
+    "A083751",
+    "A135010",
+    "A138121",
+    "A182699",
+    "A182707",
+    "A182709",
+    "A183152",
+    "A187219",
+    "A193827",
+    "A196039",
+    "A196930",
+    "A196931",
+    "A198381"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

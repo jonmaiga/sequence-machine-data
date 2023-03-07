@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers such that the sum of the odd divisors is a prime p and the sum of the even divisors is 2p.",
+  "id": "A273459",
+  "mentions": [
+    "A002384",
+    "A053183",
+    "A193070",
+    "A247837",
+    "A278911"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

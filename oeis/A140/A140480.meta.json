@@ -1,0 +1,41 @@
+{
+  "description": "RMS numbers: numbers n such that root mean square of divisors of n is an integer.",
+  "id": "A140480",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000129",
+    "A001157",
+    "A001333",
+    "A001599",
+    "A001653",
+    "A001834",
+    "A001835",
+    "A002315",
+    "A002878",
+    "A003601",
+    "A010052",
+    "A020486",
+    "A030221",
+    "A033890",
+    "A057080",
+    "A057081",
+    "A086386",
+    "A088165",
+    "A121534",
+    "A141812",
+    "A158294",
+    "A224988"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

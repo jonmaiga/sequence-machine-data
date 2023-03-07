@@ -1,0 +1,19 @@
+{
+  "description": "The number of permutations of {0,0,1,1,...,n-1,n-1} that begin with 0 and in which adjacent elements are adjacent mod n.",
+  "id": "A245578",
+  "mentions": [
+    "A209350"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:01",
+    "offset": 2,
+    "size": 62,
+    "source": "joeis"
+  }
+}

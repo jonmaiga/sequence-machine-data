@@ -1,0 +1,21 @@
+{
+  "description": "The number of iterations giving new primes for the bases of A217679.",
+  "id": "A217680",
+  "mentions": [
+    "A217673",
+    "A217679"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A sequence of words over an alphabet of two letters: a(0) = 1, a(1) = 2; a(n+2) = a(n+1)a(n)a(n+1).",
+  "id": "A125058",
+  "mentions": [
+    "A001333",
+    "A011557",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of regions in an equilateral triangle when n internal equilateral triangles are drawn between the 3n points that divide each side into n+1 equal parts.",
+  "id": "A356984",
+  "mentions": [
+    "A092098",
+    "A092867",
+    "A332953",
+    "A343755",
+    "A357007",
+    "A357008"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

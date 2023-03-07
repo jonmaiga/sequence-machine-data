@@ -1,0 +1,19 @@
+{
+  "description": "Write n in binary with each run (of either digit b) of the k-th longest distinct run-length replaced with a run of digit b of a length equal to that of the k-th shortest distinct run-length. Convert back to decimal for a(n). (See comment.)",
+  "id": "A166166",
+  "mentions": [
+    "A056539",
+    "A166404"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

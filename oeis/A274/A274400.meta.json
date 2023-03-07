@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 'V', the value of a 4-dimensional iterated integral studied by David Broadhurst in connection with Quantum Field Theory (negated).",
+  "id": "A274400",
+  "mentions": [
+    "A255685"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

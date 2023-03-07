@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of positive k (can be greater than n) such that A000005(n)/n = A000005(k)/k.",
+  "id": "A348172",
+  "mentions": [
+    "A000005",
+    "A005382",
+    "A005383",
+    "A090387",
+    "A090395",
+    "A348184"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

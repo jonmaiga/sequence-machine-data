@@ -1,0 +1,19 @@
+{
+  "description": "Start with the empty sequence and append in step k the consecutive numbers 2^k-1 to 2^k+k-2.",
+  "id": "A129142",
+  "mentions": [
+    "A127330",
+    "A129143"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

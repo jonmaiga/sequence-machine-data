@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 24*k + 6 is congruent to 0 (mod 49).",
+  "id": "A304205",
+  "mentions": [
+    "A016813"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

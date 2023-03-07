@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = 1 if for 1 <= i < j <= h, all sigma(p_i^e_i), sigma(p_j^e_j) are pairwise coprime, otherwise 0. Here n = p_1^e_1 * ... * p_h^e_h, where each p_i^e_i is the maximal power of prime p_i dividing n.",
+  "id": "A336546",
+  "mentions": [
+    "A000203",
+    "A051027",
+    "A062401",
+    "A065300",
+    "A324892",
+    "A336355",
+    "A336356",
+    "A336547",
+    "A336548",
+    "A336556",
+    "A336562",
+    "A353752",
+    "A353783",
+    "A353802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

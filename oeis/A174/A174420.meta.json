@@ -1,0 +1,17 @@
+{
+  "description": "Let A(n) = floor((3/2)^n), B(n)=3^n-2^n*A(n); then a(n)=2^n-A(n)-B(n)-2.",
+  "id": "A174420",
+  "mentions": [
+    "A002804"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

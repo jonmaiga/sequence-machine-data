@@ -1,0 +1,24 @@
+{
+  "description": "Least prime factor of concatenation of first n odd numbers.",
+  "id": "A138965",
+  "mentions": [
+    "A019519",
+    "A020639",
+    "A046036",
+    "A048847",
+    "A104644",
+    "A109837"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

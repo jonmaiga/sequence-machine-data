@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A160644.",
+  "id": "A160646",
+  "mentions": [
+    "A000041",
+    "A002685",
+    "A053445",
+    "A160644",
+    "A160648"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

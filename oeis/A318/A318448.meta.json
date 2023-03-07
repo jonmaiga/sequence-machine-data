@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{d|n} A294898(d), where A294898(d) = A005187(d) - sigma(d).",
+  "id": "A318448",
+  "mentions": [
+    "A000203",
+    "A005187",
+    "A007429",
+    "A093653",
+    "A294898",
+    "A296075",
+    "A297114",
+    "A317844",
+    "A318446",
+    "A318447"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

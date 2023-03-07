@@ -1,0 +1,22 @@
+{
+  "description": "Sum of proper divisors minus the number of proper divisors of the perfect number A000396(n).",
+  "id": "A154896",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A032741",
+    "A133033",
+    "A152770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

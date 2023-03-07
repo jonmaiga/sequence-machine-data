@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of semiprimes with all cumulating sums being semiprime.",
+  "id": "A254325",
+  "mentions": [
+    "A001358",
+    "A065516"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

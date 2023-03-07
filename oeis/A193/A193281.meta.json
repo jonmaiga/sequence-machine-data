@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: A(x) = 1/[(1 - x^2)^(1 + 1/x)].",
+  "id": "A193281",
+  "mentions": [
+    "A001620",
+    "A110654",
+    "A193287",
+    "A193288",
+    "A193289",
+    "A193290",
+    "A246689"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

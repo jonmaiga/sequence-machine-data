@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes between 3*A171821(2n-1) and 3*A171821(2n).",
+  "id": "A176820",
+  "mentions": [
+    "A171821"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

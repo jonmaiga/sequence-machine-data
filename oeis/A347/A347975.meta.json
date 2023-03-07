@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of k-dimensional subspaces in (F_9)^n, counted up to coordinate permutation (n >= 0, 0 <= k <= n).",
+  "id": "A347975",
+  "mentions": [
+    "A022173",
+    "A032193",
+    "A241926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary maps f : S X S X S -> S on a set S of n elements which can be represented as a superposition of binary maps * : S X S -> S (Version 2).",
+  "id": "A283841",
+  "mentions": [
+    "A283840"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

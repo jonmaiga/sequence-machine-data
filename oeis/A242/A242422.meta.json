@@ -1,0 +1,31 @@
+{
+  "description": "Numbers in whose prime factorization the indices of primes sum to a triangular number.",
+  "id": "A242422",
+  "mentions": [
+    "A000217",
+    "A002110",
+    "A002262",
+    "A010054",
+    "A037481",
+    "A056239",
+    "A066723",
+    "A112798",
+    "A215366",
+    "A226062",
+    "A242423",
+    "A242424",
+    "A321470",
+    "A321471",
+    "A321472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

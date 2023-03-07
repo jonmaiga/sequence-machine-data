@@ -1,0 +1,18 @@
+{
+  "description": "For the n in A102783, the least k such that n divides sigma_k(n).",
+  "id": "A134387",
+  "mentions": [
+    "A001122",
+    "A102783"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

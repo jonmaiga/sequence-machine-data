@@ -1,0 +1,19 @@
+{
+  "description": "The smallest number that has more copies of some digit than all previous terms of the sequence put together.",
+  "id": "A179310",
+  "mentions": [
+    "A179309"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

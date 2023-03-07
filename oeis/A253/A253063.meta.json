@@ -1,0 +1,19 @@
+{
+  "description": "Largest order of a tree that does not contain a caterpillar subtree of order n.",
+  "id": "A253063",
+  "mentions": [
+    "A253062"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

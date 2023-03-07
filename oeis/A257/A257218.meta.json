@@ -1,0 +1,38 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that gcd(a(n), a(n-1)) takes no value more than twice.",
+  "id": "A257218",
+  "mentions": [
+    "A000027",
+    "A004526",
+    "A034175",
+    "A064413",
+    "A073666",
+    "A077220",
+    "A081145",
+    "A081943",
+    "A091569",
+    "A100208",
+    "A128280",
+    "A163252",
+    "A175428",
+    "A175498",
+    "A235262",
+    "A256918",
+    "A257120",
+    "A257122",
+    "A257475",
+    "A257478",
+    "A281978"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

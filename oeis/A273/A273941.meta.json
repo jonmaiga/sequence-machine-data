@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 6^n - n.",
+  "id": "A273941",
+  "mentions": [
+    "A058829",
+    "A273940"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of the divisors d of n such that n/d is cubefree.",
+  "id": "A254981",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A001694",
+    "A212793",
+    "A254926"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

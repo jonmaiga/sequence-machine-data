@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest squarefree semiprime that belongs to a sequence of length n under repeated iteration of the map (k -> concatenation of prime divisors of k in increasing order) until a number is reached that is not a squarefree semiprime.",
+  "id": "A243843",
+  "mentions": [
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

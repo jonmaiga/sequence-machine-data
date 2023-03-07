@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer > 0 so that its remainders modulo the first n primes are at least half their respective moduli.",
+  "id": "A327409",
+  "mentions": [
+    "A002110",
+    "A306582",
+    "A306612",
+    "A327408"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

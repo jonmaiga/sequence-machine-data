@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive k, not a power of 2, such that the Hamming weight of k equals the Hamming weight of k^n, or 0 if no such k exists.",
+  "id": "A292832",
+  "mentions": [
+    "A000120",
+    "A292787",
+    "A292788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

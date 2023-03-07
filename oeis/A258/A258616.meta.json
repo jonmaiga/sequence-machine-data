@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n!!-16 is prime.",
+  "id": "A258616",
+  "mentions": [
+    "A006882",
+    "A007749",
+    "A094144",
+    "A123910"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

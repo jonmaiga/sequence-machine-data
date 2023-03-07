@@ -1,0 +1,29 @@
+{
+  "description": "Number of compositions of n whose run-lengths cover an initial interval of positive integers.",
+  "id": "A329766",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A107429",
+    "A242882",
+    "A244164",
+    "A274174",
+    "A329738",
+    "A329739",
+    "A329740",
+    "A329741",
+    "A329744",
+    "A329748",
+    "A329749"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

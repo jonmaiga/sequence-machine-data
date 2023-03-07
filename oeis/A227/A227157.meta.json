@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n whose factorial base representation A007623(n) doesn't contain any nonleading zeros.",
+  "id": "A227157",
+  "mentions": [
+    "A003422",
+    "A007489",
+    "A007623",
+    "A071156",
+    "A153880",
+    "A208575",
+    "A227130",
+    "A227132",
+    "A227187",
+    "A231716",
+    "A231720",
+    "A304036"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

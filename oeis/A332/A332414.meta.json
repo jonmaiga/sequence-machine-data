@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers r such that A(1,r) = A(2,r - 1) = ... = A(r,1) = 0, where A denotes the function mapping every pair of positive integers (m,n) into 1 if m * 2^(n + 2) + 1 is a prime number dividing F(n + 2) - 2, where F(n) denotes the n-th Fermat number (i.e., F(n) = A000215(n)); and into 0 otherwise.",
+  "id": "A332414",
+  "mentions": [
+    "A000215",
+    "A308695",
+    "A332416"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

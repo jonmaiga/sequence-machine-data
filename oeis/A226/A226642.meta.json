@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to express 3/n as Egyptian fractions in just three terms; i.e., 3/n = 1/x + 1/y + 1/z satisfying 1<=x<=y<=z.",
+  "id": "A226642",
+  "mentions": [
+    "A004194",
+    "A073101",
+    "A075785",
+    "A192787",
+    "A226641",
+    "A226644",
+    "A226645",
+    "A226646"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

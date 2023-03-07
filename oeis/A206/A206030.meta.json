@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m with at least two divisors d with the same sigma(d).",
+  "id": "A206030",
+  "mentions": [
+    "A000203",
+    "A007609",
+    "A085790"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

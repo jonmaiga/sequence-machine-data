@@ -1,0 +1,17 @@
+{
+  "description": "Greatest odd prime q < 2*n such that p < q and p prime and p = 2*n - q or 0 if no such prime exists.",
+  "id": "A159482",
+  "mentions": [
+    "A020482"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

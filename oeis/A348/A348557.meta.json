@@ -1,0 +1,18 @@
+{
+  "description": "List of indices k such that A327267(k) is less than A328666(k).",
+  "id": "A348557",
+  "mentions": [
+    "A327267",
+    "A328666"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

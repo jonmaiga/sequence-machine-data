@@ -1,0 +1,22 @@
+{
+  "description": "Least number with the same prime signature as the n-th term of EKG-sequence: a(n) = A046523(A064413(n)).",
+  "id": "A278263",
+  "mentions": [
+    "A046523",
+    "A064413",
+    "A064742",
+    "A065203",
+    "A278264"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

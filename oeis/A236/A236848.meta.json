@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that have at least one prime divisor encoding a reducible polynomial in ring GF(2)[X]; multiples of terms of A091209.",
+  "id": "A236848",
+  "mentions": [
+    "A091209",
+    "A091247",
+    "A236838",
+    "A236844",
+    "A236849",
+    "A236860"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

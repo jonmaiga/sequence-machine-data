@@ -1,0 +1,27 @@
+{
+  "description": "Square array, n >= 0, k >= 0, read by descending antidiagonals. A(n,k) = A022341(n)*2^k.",
+  "id": "A356875",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A022290",
+    "A022341",
+    "A035513",
+    "A054582",
+    "A287870",
+    "A356874"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

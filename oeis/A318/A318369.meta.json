@@ -1,0 +1,25 @@
+{
+  "description": "Number of non-isomorphic set multipartitions (multisets of sets) of the multiset of prime indices of n.",
+  "id": "A318369",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A049311",
+    "A056239",
+    "A112798",
+    "A116540",
+    "A317791",
+    "A318360",
+    "A318361"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

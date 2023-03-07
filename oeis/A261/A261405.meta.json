@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the maximal length of a nontrivial N(p)-Hensley sequence mod p is less than the value of A124882 for that prime, where N(p) is the least positive quadratic non-residue mod p.",
+  "id": "A261405",
+  "mentions": [
+    "A124882",
+    "A261404"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

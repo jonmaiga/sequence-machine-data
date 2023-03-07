@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of n addends nested as follows: floor(f(floor(f(...(n)...)))) where f(x) = x^(1/3).",
+  "id": "A219227",
+  "mentions": [
+    "A181092"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

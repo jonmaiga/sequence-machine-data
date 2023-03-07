@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{i=0..n, j=0..n, k=0..n} (i! + j! + k!).",
+  "id": "A325052",
+  "mentions": [
+    "A306594",
+    "A306729",
+    "A324425",
+    "A325053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

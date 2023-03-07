@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} (x / (1 - (2 * x)^k))^k.",
+  "id": "A360802",
+  "mentions": [
+    "A157019",
+    "A339481"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

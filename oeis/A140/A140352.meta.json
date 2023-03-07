@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of Bernoulli twin numbers polynomial coefficients.",
+  "id": "A140352",
+  "mentions": [
+    "A129378",
+    "A140334",
+    "A140351"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

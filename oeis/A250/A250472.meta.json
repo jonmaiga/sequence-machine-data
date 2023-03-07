@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A250470(2*n - 1).",
+  "id": "A250472",
+  "mentions": [
+    "A055396",
+    "A064216",
+    "A078898",
+    "A083140",
+    "A083221",
+    "A114881",
+    "A114883",
+    "A250470",
+    "A250471",
+    "A250479"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

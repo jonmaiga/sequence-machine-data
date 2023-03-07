@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+24 and p+48 are also primes.",
+  "id": "A279765",
+  "mentions": [
+    "A007529",
+    "A023241",
+    "A028334",
+    "A033560",
+    "A156109",
+    "A185022"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

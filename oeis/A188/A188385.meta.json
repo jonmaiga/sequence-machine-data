@@ -1,0 +1,20 @@
+{
+  "description": "Highest exponent in the prime factorization of n^n.",
+  "id": "A188385",
+  "mentions": [
+    "A000312",
+    "A051903"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

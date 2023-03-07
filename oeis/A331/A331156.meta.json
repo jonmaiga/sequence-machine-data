@@ -1,0 +1,23 @@
+{
+  "description": "Number of (weakly) connected gluing-parallel or GP-posets with n points.",
+  "id": "A331156",
+  "mentions": [
+    "A000112",
+    "A003430",
+    "A079566",
+    "A331157",
+    "A331158",
+    "A331159"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

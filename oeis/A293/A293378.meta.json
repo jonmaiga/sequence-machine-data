@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (eta(q^6)/(eta(q)eta(q^2)eta(q^3))^2 in powers of q.",
+  "id": "A293378",
+  "mentions": [
+    "A077285",
+    "A293377"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Engel expansion of beta = 3/(2*log(alpha/2)); alpha = A195596.",
+  "id": "A195601",
+  "mentions": [
+    "A006784",
+    "A195581",
+    "A195582",
+    "A195583",
+    "A195596",
+    "A195597",
+    "A195598",
+    "A195599",
+    "A195600"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

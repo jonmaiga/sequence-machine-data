@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: 1 = Sum_{n>=0} a(n)*x^n / Product_{k=1..n+1} (1+k*x)^3.",
+  "id": "A193333",
+  "mentions": [
+    "A118804",
+    "A215529"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k>0 such that q=p+6k, 6kp+q, 6kp-q, 6kq+p and 6kq-p are simultaneously prime, or 0 if no such k exists, where p=A000040(n) is the n-th prime.",
+  "id": "A180476",
+  "mentions": [
+    "A000040",
+    "A180481"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1}(540*k + 137)*3136^(n-1-k)*C(2*k, k)*T_k(2, 81)*T_k(14, 81))/ (2*n*C(2*n, n)), where T_k(b, c) denotes the coefficient of x^k in the expansion of (x^2 + b*x + c)^k.",
+  "id": "A336982",
+  "mentions": [
+    "A000796",
+    "A000984",
+    "A002426",
+    "A336981"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

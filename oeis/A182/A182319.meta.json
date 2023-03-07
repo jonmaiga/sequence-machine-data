@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: T(n,k) counts upper triangular matrices with entries from {0,1} having n 1's in total, with k 1's on the main diagonal and at least one nonzero entry in each row.",
+  "id": "A182319",
+  "mentions": [
+    "A179525"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

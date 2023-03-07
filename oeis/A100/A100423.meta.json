@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 30*n+{1,7,11,13,17,19,29} are all prime.",
+  "id": "A100423",
+  "mentions": [
+    "A005776",
+    "A007775",
+    "A076205",
+    "A100418",
+    "A100422"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

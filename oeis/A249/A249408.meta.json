@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in A249406 that are not of the form m*(m+1).",
+  "id": "A249408",
+  "mentions": [
+    "A002378",
+    "A005369",
+    "A078358",
+    "A249406"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

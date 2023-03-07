@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the n-th-to-last digit of A007013(n + 1).",
+  "id": "A352301",
+  "mentions": [
+    "A000225",
+    "A005054",
+    "A007013"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

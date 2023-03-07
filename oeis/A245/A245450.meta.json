@@ -1,0 +1,30 @@
+{
+  "description": "Self-inverse permutation of natural numbers, A245703-conjugate of balanced bit-reverse: a(n) = A245704(A057889(A245703(n))).",
+  "id": "A245450",
+  "mentions": [
+    "A002808",
+    "A010051",
+    "A014580",
+    "A057889",
+    "A091226",
+    "A091242",
+    "A091245",
+    "A234747",
+    "A234748",
+    "A244987",
+    "A245453",
+    "A245703",
+    "A245704"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

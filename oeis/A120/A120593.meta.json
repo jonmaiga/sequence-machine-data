@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: 5*A(x) = 4 + x + A(x)^4, starting with [1,1,6].",
+  "id": "A120593",
+  "mentions": [
+    "A120588",
+    "A120592",
+    "A120594",
+    "A120607",
+    "A244856"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

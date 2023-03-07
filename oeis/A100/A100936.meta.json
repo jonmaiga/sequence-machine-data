@@ -1,0 +1,22 @@
+{
+  "description": "Symmetric square array, read by antidiagonals, where the inverse binomial transform of row n equals: [C(n,0)*1, C(n,1)*2,..., C(n,k)*A051163(k), ..., C(n,n)*A051163(n)] and where A051162 equals the antidiagonal sums.",
+  "id": "A100936",
+  "mentions": [
+    "A051162",
+    "A051163",
+    "A086620",
+    "A100937"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

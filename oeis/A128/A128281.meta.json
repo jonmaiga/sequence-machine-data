@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the least product of n distinct odd primes m=p_1*p_2*...*p_n, such that (d+m/d)/2 are all primes for each d dividing m.",
+  "id": "A128281",
+  "mentions": [
+    "A002145",
+    "A070826",
+    "A076274",
+    "A128276",
+    "A128282",
+    "A128283",
+    "A128284",
+    "A128285",
+    "A128286",
+    "A168352"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

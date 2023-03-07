@@ -1,0 +1,22 @@
+{
+  "description": "Number of generalized fusenes with n octagons.",
+  "id": "A259353",
+  "mentions": [
+    "A108070",
+    "A259351",
+    "A259352",
+    "A259354",
+    "A259355"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

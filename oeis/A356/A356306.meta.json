@@ -1,0 +1,28 @@
+{
+  "description": "The nearest common ancestor of A000265(n) and gcd(A000265(n), sigma(n)) in the A253563-tree.",
+  "id": "A356306",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A161942",
+    "A253553",
+    "A253563",
+    "A355931",
+    "A356156",
+    "A356300",
+    "A356301",
+    "A356307",
+    "A356308"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

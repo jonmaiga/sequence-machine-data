@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 x 2 matrices M such that M*transpose(M) == 0 mod n.",
+  "id": "A209411",
+  "mentions": [
+    "A182039"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

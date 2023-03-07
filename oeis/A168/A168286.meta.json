@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (6*n + 3*(-1)^n + 1)/2.",
+  "id": "A168286",
+  "mentions": [
+    "A016933",
+    "A168233",
+    "A168301"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:29",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

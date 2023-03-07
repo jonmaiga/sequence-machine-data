@@ -1,0 +1,18 @@
+{
+  "description": "Number of free highly irregular trees with n nodes.",
+  "id": "A259864",
+  "mentions": [
+    "A259863"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = 1 iff there is no partition of n into exactly k consecutive parts, for n >= 1, 1 <= k <= A003056(n).",
+  "id": "A347579",
+  "mentions": [
+    "A000217",
+    "A001227",
+    "A003056",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237593",
+    "A238005",
+    "A280850",
+    "A286000",
+    "A286001",
+    "A296508"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

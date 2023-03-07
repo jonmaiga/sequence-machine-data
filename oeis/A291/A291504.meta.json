@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations s_1,s_2,...,s_n of 1,2,...,n such that for all j=1,2,...,n, Sum_{i=1..j} s_i is not a prime.",
+  "id": "A291504",
+  "mentions": [
+    "A067957",
+    "A291355"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

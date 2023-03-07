@@ -1,0 +1,19 @@
+{
+  "description": "Central term of nine successive primes whose average is a prime.",
+  "id": "A180457",
+  "mentions": [
+    "A000040",
+    "A096701"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that the minimum of the number of divisors among the numbers between p and NextPrime(p) is a cube.",
+  "id": "A357175",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000578",
+    "A061112",
+    "A353284",
+    "A353285",
+    "A353286",
+    "A356833",
+    "A357170"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

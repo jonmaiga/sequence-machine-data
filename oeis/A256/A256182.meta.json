@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: 1/A(x)^3 = Sum_{n>=0} (-1)^n * (1-7*n) * (-x)^(n*(n+1)/2).",
+  "id": "A256182",
+  "mentions": [
+    "A000041",
+    "A256183"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

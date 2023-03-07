@@ -1,0 +1,21 @@
+{
+  "description": "Filter combining the number of divisors (A000005) and the sum of divisors (A000203) of n.",
+  "id": "A295880",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A295300",
+    "A295888"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

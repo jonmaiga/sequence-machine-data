@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array read by antidiagonals: a(n,m) = number of divisors of m that don't divide n.",
+  "id": "A159459",
+  "mentions": [
+    "A000005",
+    "A077478"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

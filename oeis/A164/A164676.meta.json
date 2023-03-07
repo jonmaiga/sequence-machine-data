@@ -1,0 +1,18 @@
+{
+  "description": "Primes obtained from other primes by taking the corresponding powers of each digit and adding the result.",
+  "id": "A164676",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

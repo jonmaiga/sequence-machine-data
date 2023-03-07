@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that cannot be written as the sum of 5 or less squares of composite numbers, allowing repetitions (complement of A055075).",
+  "id": "A337138",
+  "mentions": [
+    "A002808",
+    "A055075"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

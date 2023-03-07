@@ -1,0 +1,27 @@
+{
+  "description": "Greatest number m such that the fractional part of (4/3)^A154132(m) >= 1-(1/m).",
+  "id": "A154136",
+  "mentions": [
+    "A002379",
+    "A064628",
+    "A153667",
+    "A153675",
+    "A153707",
+    "A153715",
+    "A154132",
+    "A154144",
+    "A154152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

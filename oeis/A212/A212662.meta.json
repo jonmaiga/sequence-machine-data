@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which k' = x' + y', where x > 0, k = x + y, and k', x', y' are the arithmetic derivatives of k, x, y.",
+  "id": "A212662",
+  "mentions": [
+    "A003415",
+    "A211223",
+    "A211224",
+    "A211225",
+    "A212663",
+    "A212664"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

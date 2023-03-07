@@ -1,0 +1,18 @@
+{
+  "description": "Every term contains a chunk of identical contiguous digits which, when erased, leave n.",
+  "id": "A352958",
+  "mentions": [
+    "A320486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

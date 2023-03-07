@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of compositions of n, where k is the difference between the number of odd parts and the number of even parts, both counted without multiplicity; triangle T(n,k), n>=0, read by rows.",
+  "id": "A242626",
+  "mentions": [
+    "A000142",
+    "A011782",
+    "A242498",
+    "A242618",
+    "A242821",
+    "A242836",
+    "A242837",
+    "A242838",
+    "A242839",
+    "A242840",
+    "A242841",
+    "A242842",
+    "A242843",
+    "A242844",
+    "A242845"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

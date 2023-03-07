@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of degree n with highest Shannon entropy.",
+  "id": "A341838",
+  "mentions": [
+    "A002618"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

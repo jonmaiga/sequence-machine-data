@@ -1,0 +1,20 @@
+{
+  "description": "A symmetrical triangle:q=3;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=A060187(n,m)-c(n,q)/(c(m,q)*c(n-m,q))+1",
+  "id": "A176468",
+  "mentions": [
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

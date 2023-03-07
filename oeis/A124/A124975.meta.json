@@ -1,0 +1,19 @@
+{
+  "description": "Table (read by antidiagonals): t(1,n) = t(m,1) = 1 for all m and n. t(m,n) = (product{k=1 to m-1} t(k,n)) + (product{k=1 to n-1} t(m,k)).",
+  "id": "A124975",
+  "mentions": [
+    "A124976"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

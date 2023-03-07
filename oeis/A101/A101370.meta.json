@@ -1,0 +1,27 @@
+{
+  "description": "Number of zero-one matrices with n ones and no zero rows or columns.",
+  "id": "A101370",
+  "mentions": [
+    "A000670",
+    "A007322",
+    "A049311",
+    "A120733",
+    "A122725",
+    "A135589",
+    "A283877",
+    "A321446",
+    "A321587"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

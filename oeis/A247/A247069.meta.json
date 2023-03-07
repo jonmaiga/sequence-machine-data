@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of distinct primes obtained when inserting 1 anywhere in A069246(n).",
+  "id": "A247069",
+  "mentions": [
+    "A069246"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

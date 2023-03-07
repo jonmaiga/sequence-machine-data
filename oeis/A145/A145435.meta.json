@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of log(1/2 + 1/sqrt(2))/sqrt(5).",
+  "id": "A145435",
+  "mentions": [
+    "A014176",
+    "A020762",
+    "A086466"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

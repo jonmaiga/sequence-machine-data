@@ -1,0 +1,37 @@
+{
+  "description": "Denominators of the Akiyama-Tanigawa algorithm applied to 2^(-n), written by antidiagonals.",
+  "id": "A209308",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000265",
+    "A006519",
+    "A027641",
+    "A027642",
+    "A060096",
+    "A061037",
+    "A061038",
+    "A069834",
+    "A075101",
+    "A075677",
+    "A097110",
+    "A164555",
+    "A176327",
+    "A177427",
+    "A191567",
+    "A198631",
+    "A272263"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

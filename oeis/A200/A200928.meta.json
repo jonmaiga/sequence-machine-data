@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the number of parts and the smallest part are coprime.",
+  "id": "A200928",
+  "mentions": [
+    "A000041",
+    "A199888",
+    "A201025"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

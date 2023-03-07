@@ -1,0 +1,29 @@
+{
+  "description": "Numerator of the third row of the inverse Akiyama-Tanigawa algorithm from 1/n.",
+  "id": "A193546",
+  "mentions": [
+    "A002206",
+    "A002208",
+    "A002209",
+    "A002657",
+    "A002689",
+    "A027642",
+    "A091137",
+    "A141417",
+    "A164555",
+    "A174727",
+    "A194506"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

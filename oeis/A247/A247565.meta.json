@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5*a(n-1) - 10*a(n-2) + 8*a(n-3) with a(0) = 2, a(1) = a(2) = 3.",
+  "id": "A247565",
+  "mentions": [
+    "A247560",
+    "A247564"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

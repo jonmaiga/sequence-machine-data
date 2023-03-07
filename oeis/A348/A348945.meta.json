@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A348944(n) - sigma(n), where A348944 is the arithmetic mean of A003959 and A034448, and sigma is the sum of divisors function.",
+  "id": "A348945",
+  "mentions": [
+    "A000203",
+    "A003959",
+    "A034448",
+    "A048146",
+    "A348029",
+    "A348944",
+    "A348946"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-sphere-homeomorphic crossing optimal 2-page book drawings of complete graph K_{2n+1}.",
+  "id": "A226917",
+  "mentions": [
+    "A000241"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

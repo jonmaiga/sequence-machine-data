@@ -1,0 +1,19 @@
+{
+  "description": "The maximal coefficient in the expansion of x_1(x_1 + x_2)...(x_1 + x_2 + ... + x_n).",
+  "id": "A349404",
+  "mentions": [
+    "A000140",
+    "A065048",
+    "A347917"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of ternary length-n words in which the longest run of consecutive 0's is exactly k; n>=0, 0<=k<=n.",
+  "id": "A209240",
+  "mentions": [
+    "A000079",
+    "A048004",
+    "A094309",
+    "A120926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

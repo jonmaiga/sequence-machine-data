@@ -1,0 +1,25 @@
+{
+  "description": "Maximum number of squares in a non-constant arithmetic progression (AP) of length n.",
+  "id": "A221671",
+  "mentions": [
+    "A001318",
+    "A080995",
+    "A193832",
+    "A216869",
+    "A216870",
+    "A221672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

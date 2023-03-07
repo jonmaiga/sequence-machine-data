@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sigma_{2n}(n^2)/sigma_n(n^2), where sigma_n(m) = Sum_{k|m} k^n.",
+  "id": "A108223",
+  "mentions": [
+    "A062755"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

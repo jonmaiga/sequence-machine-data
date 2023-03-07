@@ -1,0 +1,18 @@
+{
+  "description": "The sum of a^2 + b^2 for all nonnegative integers a,b such that b^2 - a^2 = 2*n+1.",
+  "id": "A241657",
+  "mentions": [
+    "A237626"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

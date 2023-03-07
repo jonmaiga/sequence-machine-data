@@ -1,0 +1,18 @@
+{
+  "description": "Define k(0) = 2 and k(m) = m^2-k(m-1) for m >= 1. This is a list of those m for which k(m)+1 and k(m)-1 are both prime.",
+  "id": "A154736",
+  "mentions": [
+    "A154734"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

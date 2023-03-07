@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n + 5)*(n + 7)/6 + 1.",
+  "id": "A323221",
+  "mentions": [
+    "A034856",
+    "A275874",
+    "A323224",
+    "A323233"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:11",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

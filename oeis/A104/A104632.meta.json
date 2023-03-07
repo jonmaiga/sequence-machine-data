@@ -1,0 +1,22 @@
+{
+  "description": "1/n times A104631(n), the coefficient of x^(2n+1) in the expansion of (1+x+x^2+x^3+x^4)^n.",
+  "id": "A104632",
+  "mentions": [
+    "A001006",
+    "A005717",
+    "A104184",
+    "A104631"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

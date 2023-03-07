@@ -1,0 +1,17 @@
+{
+  "description": "Leading diagonal of A123260.",
+  "id": "A123281",
+  "mentions": [
+    "A123260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "A surjective map of the positive numbers congruent to 5 modulo 8 (A004770) to the positive numbers congruent to 1, 3, or 7 modulo 8 (A047529).",
+  "id": "A347840",
+  "mentions": [
+    "A004770",
+    "A047529",
+    "A065883",
+    "A075677",
+    "A178415",
+    "A347834",
+    "A347836",
+    "A347839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

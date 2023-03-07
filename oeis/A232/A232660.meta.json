@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n and n^5 have the same set of digits.",
+  "id": "A232660",
+  "mentions": [
+    "A029793",
+    "A029795",
+    "A232659",
+    "A232661",
+    "A232662"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

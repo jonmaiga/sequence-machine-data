@@ -1,0 +1,23 @@
+{
+  "description": "n/2 analog of Keith numbers.",
+  "id": "A282766",
+  "mentions": [
+    "A282757",
+    "A282765",
+    "A282767",
+    "A282768",
+    "A282769"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

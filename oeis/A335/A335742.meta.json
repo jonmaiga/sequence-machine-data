@@ -1,0 +1,18 @@
+{
+  "description": "Pseudoperfect (or semiperfect) numbers k having more than one set of contiguous proper divisors whose sum equals k.",
+  "id": "A335742",
+  "mentions": [
+    "A005835",
+    "A236359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

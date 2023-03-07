@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that in decimal representation the lexicographically greatest divisor of m is smaller than m.",
+  "id": "A122426",
+  "mentions": [
+    "A122425",
+    "A122427"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

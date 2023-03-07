@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the absolute value of the alternating sum of the first n increasing perfect powers (A001597): 1, 1-4, 1-4+8, 1-4+8-9, ...",
+  "id": "A326119",
+  "mentions": [
+    "A001597",
+    "A076408"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

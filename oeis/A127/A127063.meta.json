@@ -1,0 +1,29 @@
+{
+  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2} is a square and denominator Sum_{k=1..p-1} 1/k^3} is a cube and denominator Sum_{k=1..p-1} 1/k^4} is a fourth power and denominator Sum_{k=1..p-1} 1/k^5} is a fifth power.",
+  "id": "A127063",
+  "mentions": [
+    "A034602",
+    "A061002",
+    "A127029",
+    "A127042",
+    "A127043",
+    "A127044",
+    "A127046",
+    "A127047",
+    "A127048",
+    "A127049",
+    "A127051",
+    "A127061",
+    "A127062"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

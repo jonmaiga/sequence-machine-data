@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of primes-only best approximates (POBAs) to the golden ratio, tau; see Comments.",
+  "id": "A265800",
+  "mentions": [
+    "A000040",
+    "A165572",
+    "A265759",
+    "A265796",
+    "A265797",
+    "A265798",
+    "A265799",
+    "A265801"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

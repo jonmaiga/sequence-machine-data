@@ -1,0 +1,18 @@
+{
+  "description": "Beatty sequence for (4+sqrt(6))/2; complement of A194145.",
+  "id": "A194146",
+  "mentions": [
+    "A194145"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

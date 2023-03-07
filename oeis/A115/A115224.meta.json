@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3 X 3 symmetric matrices over Z(n) having determinant 1.",
+  "id": "A115224",
+  "mentions": [
+    "A000056",
+    "A011785",
+    "A059376"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

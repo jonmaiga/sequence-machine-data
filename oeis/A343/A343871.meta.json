@@ -1,0 +1,23 @@
+{
+  "description": "Number of labeled 3-connected planar graphs with n edges.",
+  "id": "A343871",
+  "mentions": [
+    "A000287",
+    "A002840",
+    "A096330",
+    "A290326",
+    "A291841",
+    "A338414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 6,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

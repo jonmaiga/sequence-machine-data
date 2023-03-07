@@ -1,0 +1,19 @@
+{
+  "description": "Period 4 sequence [ 2, 2, 3, 2, ...] except a(0) = 1.",
+  "id": "A186181",
+  "mentions": [
+    "A000007"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:53",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

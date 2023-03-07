@@ -1,0 +1,18 @@
+{
+  "description": "Number of odd divisors of A101292(n).",
+  "id": "A275928",
+  "mentions": [
+    "A001277",
+    "A101292"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

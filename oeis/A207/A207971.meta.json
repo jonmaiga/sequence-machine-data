@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} 5*Fibonacci(n)^(2*n) * x^n/n ).",
+  "id": "A207971",
+  "mentions": [
+    "A054888",
+    "A207834",
+    "A207969",
+    "A207970",
+    "A207972"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of ((sqrt(2);x)_inf + (-sqrt(2);x)_inf - 2)/4, where(a;q)_inf is the q-Pochhammer symbol.",
+  "id": "A278298",
+  "mentions": [
+    "A118399",
+    "A278296"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

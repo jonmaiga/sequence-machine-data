@@ -1,0 +1,23 @@
+{
+  "description": "Squares that are not of the form x^2 + x*y + y^2, where x and y are positive integers.",
+  "id": "A300303",
+  "mentions": [
+    "A000548",
+    "A003136",
+    "A024614",
+    "A050931",
+    "A230780"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of the (n+3)-multiset {0,0,0,1,2,...,n} into distinct multisets.",
+  "id": "A346813",
+  "mentions": [
+    "A169587",
+    "A346520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

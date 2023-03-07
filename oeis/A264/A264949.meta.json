@@ -1,0 +1,17 @@
+{
+  "description": "Number of 6Xn arrays containing n copies of 0..6-1 with no equal horizontal neighbors and new values introduced sequentially from 0.",
+  "id": "A264949",
+  "mentions": [
+    "A264945"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

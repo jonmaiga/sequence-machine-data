@@ -1,0 +1,27 @@
+{
+  "description": "a(0)=0, a(1)=1, a(n) = least k>a(n-1) such that k+a(n-2) is a Jacobsthal number.",
+  "id": "A215095",
+  "mentions": [
+    "A000045",
+    "A001045",
+    "A006498",
+    "A011848",
+    "A089928",
+    "A194274",
+    "A215096",
+    "A215097",
+    "A215098",
+    "A215099"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

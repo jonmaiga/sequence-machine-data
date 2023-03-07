@@ -1,0 +1,28 @@
+{
+  "description": "Four-column table read by rows: Primitive distinct quadruples that have the same value of phi, sigma, and tau.",
+  "id": "A322690",
+  "mentions": [
+    "A134922",
+    "A322680",
+    "A322688",
+    "A322689",
+    "A322691",
+    "A322692",
+    "A322693",
+    "A322694",
+    "A322695",
+    "A322696",
+    "A322697"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

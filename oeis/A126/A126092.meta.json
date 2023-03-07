@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2, a(2)=3, a(3)=5; a(n) = largest prime < a(n-1)+a(n-2)+a(n-3).",
+  "id": "A126092",
+  "mentions": [
+    "A055501"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

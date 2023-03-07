@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((n^2)/phi).",
+  "id": "A152738",
+  "mentions": [
+    "A014217",
+    "A032616",
+    "A032635",
+    "A152737"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:25",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

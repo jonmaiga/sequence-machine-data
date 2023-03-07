@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in which each digit equals the sum (mod 10) of the other digits.",
+  "id": "A226468",
+  "mentions": [
+    "A007953",
+    "A053837"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

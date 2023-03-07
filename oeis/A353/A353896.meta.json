@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp( (x * (exp(x) - 1))^4 / 576 ).",
+  "id": "A353896",
+  "mentions": [
+    "A052506",
+    "A327505",
+    "A353885",
+    "A353893",
+    "A353894",
+    "A353895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

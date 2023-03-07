@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 123...n - (n+1) is prime.",
+  "id": "A234965",
+  "mentions": [
+    "A007908",
+    "A234964"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

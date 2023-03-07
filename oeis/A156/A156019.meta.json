@@ -1,0 +1,22 @@
+{
+  "description": "Numerators in an infinite sum for Pi.",
+  "id": "A156019",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A002486",
+    "A156020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

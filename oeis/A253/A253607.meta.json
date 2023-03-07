@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A253580, when the tree is seen as flattened list.",
+  "id": "A253607",
+  "mentions": [
+    "A005563",
+    "A028387",
+    "A061885",
+    "A064801",
+    "A253580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

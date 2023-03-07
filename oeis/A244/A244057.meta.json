@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes which are concatenation of two consecutive primes.",
+  "id": "A244057",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A030469",
+    "A045533",
+    "A244007"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

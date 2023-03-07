@@ -1,0 +1,22 @@
+{
+  "description": "Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb <--> bac where a",
+  "id": "A212581",
+  "mentions": [
+    "A210667",
+    "A210668",
+    "A210669",
+    "A210671",
+    "A212417",
+    "A212580"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

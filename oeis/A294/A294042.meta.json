@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f.: exp((1+x)^k - 1).",
+  "id": "A294042",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000384",
+    "A000898",
+    "A001477",
+    "A192989",
+    "A202824",
+    "A202825",
+    "A293991",
+    "A294045"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

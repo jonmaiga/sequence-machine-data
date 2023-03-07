@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in the continued fraction expansion of log(10).",
+  "id": "A228345",
+  "mentions": [
+    "A002392",
+    "A228346"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

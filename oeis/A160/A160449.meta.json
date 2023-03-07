@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of isomorphism classes of n-fold coverings of a connected graph with Betti number k (1 <= n, 0 <= k).",
+  "id": "A160449",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000079",
+    "A057004",
+    "A074528",
+    "A110143",
+    "A152612",
+    "A160446",
+    "A160447",
+    "A160448",
+    "A160450",
+    "A160454",
+    "A176709"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

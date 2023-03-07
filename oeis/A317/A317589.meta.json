@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of uniformly normal integer partitions.",
+  "id": "A317589",
+  "mentions": [
+    "A055932",
+    "A056239",
+    "A181819",
+    "A182850",
+    "A296150",
+    "A304687",
+    "A304818",
+    "A317089",
+    "A317090",
+    "A317245",
+    "A317246",
+    "A317492",
+    "A317588",
+    "A317590"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

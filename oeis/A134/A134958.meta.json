@@ -1,0 +1,18 @@
+{
+  "description": "Number of hypertrees with n labeled vertices: analog of A030019 when edges of size 1 are allowed (with no two equal edges).",
+  "id": "A134958",
+  "mentions": [
+    "A030019"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

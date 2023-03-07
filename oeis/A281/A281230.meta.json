@@ -1,0 +1,21 @@
+{
+  "description": "Period of the discrete Arnold cat map on an n X n array.",
+  "id": "A281230",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A001622",
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

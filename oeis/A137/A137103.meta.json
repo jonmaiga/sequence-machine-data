@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k^2 use only the digits 2, 4, 6 and 8.",
+  "id": "A137103",
+  "mentions": [
+    "A045926",
+    "A073555",
+    "A103751"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

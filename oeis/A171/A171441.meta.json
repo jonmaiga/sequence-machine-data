@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1+x)^6/(1-x).",
+  "id": "A171441",
+  "mentions": [
+    "A040000",
+    "A113311",
+    "A115291",
+    "A171418",
+    "A171440",
+    "A171442",
+    "A171443"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:11",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

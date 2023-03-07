@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered set partitions of [2n] where the maximal block size equals n.",
+  "id": "A276923",
+  "mentions": [
+    "A276922",
+    "A276961"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

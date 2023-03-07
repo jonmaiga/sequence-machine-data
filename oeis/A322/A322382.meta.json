@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = p*a(n/p) + 1, where p is the smallest prime divisor of n; a(1)=0.",
+  "id": "A322382",
+  "mentions": [
+    "A000203",
+    "A003557",
+    "A006022",
+    "A020639",
+    "A032742",
+    "A322034",
+    "A322035"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

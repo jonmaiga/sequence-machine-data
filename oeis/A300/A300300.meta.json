@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to choose a multiset of strict partitions, or odd partitions, of odd numbers, whose weights sum to n.",
+  "id": "A300300",
+  "mentions": [
+    "A000009",
+    "A063834",
+    "A078408",
+    "A089259",
+    "A270995",
+    "A271619",
+    "A279374",
+    "A279375",
+    "A279785",
+    "A279790",
+    "A294617",
+    "A300301"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

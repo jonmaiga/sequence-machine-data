@@ -1,0 +1,18 @@
+{
+  "description": "Primes with a 7 as the only prime digit.",
+  "id": "A179031",
+  "mentions": [
+    "A179030"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

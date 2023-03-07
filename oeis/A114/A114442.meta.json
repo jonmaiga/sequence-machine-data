@@ -1,0 +1,19 @@
+{
+  "description": "Least prime whose absolute difference between the sum of its even decimal digits and the sum of its odd decimal digits is n.",
+  "id": "A114442",
+  "mentions": [
+    "A067180",
+    "A111309"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

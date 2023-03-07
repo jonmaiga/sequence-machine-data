@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that floor(k*sqrt(3)) = floor(h*sqrt(2)) for some h.",
+  "id": "A347468",
+  "mentions": [
+    "A001951",
+    "A022838",
+    "A346308",
+    "A347467",
+    "A347469"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

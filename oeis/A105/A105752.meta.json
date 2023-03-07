@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. cos(i*log(1 + x)), i = sqrt(-1).",
+  "id": "A105752",
+  "mentions": [
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

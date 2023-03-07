@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows, in which row n has the pattern of conjectured dropping times in the Collatz iteration.",
+  "id": "A186008",
+  "mentions": [
+    "A006666",
+    "A014682",
+    "A020914",
+    "A122442",
+    "A126241",
+    "A177789",
+    "A186009"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

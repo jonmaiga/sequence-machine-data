@@ -1,0 +1,22 @@
+{
+  "description": "Sum of terms in level n of TRIP - Stern sequence associated with permutation triple (e,13,132).",
+  "id": "A278616",
+  "mentions": [
+    "A278612",
+    "A278613",
+    "A278614",
+    "A278615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

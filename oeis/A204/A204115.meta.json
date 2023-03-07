@@ -1,0 +1,21 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix from A204114, given by gcd(L(i+1), L(j+1)), where L=A000032 (Lucas numbers).",
+  "id": "A204115",
+  "mentions": [
+    "A000032",
+    "A202605",
+    "A204016",
+    "A204114"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (c(q)^2/(3c(q^2))-1)/2 in powers of q where c(q) is a cubic AGM function.",
+  "id": "A123331",
+  "mentions": [
+    "A113974",
+    "A123330"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

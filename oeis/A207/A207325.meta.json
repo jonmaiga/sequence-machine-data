@@ -1,0 +1,18 @@
+{
+  "description": "Primes p which divide A003499((p-1)/2)+6 and do not divide A003499(n) + 6 where n < (p-1)/2.",
+  "id": "A207325",
+  "mentions": [
+    "A001541",
+    "A003499"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

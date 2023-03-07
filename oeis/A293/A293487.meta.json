@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Product_{m>0} (1 + x^(2*m-1)).",
+  "id": "A293487",
+  "mentions": [
+    "A000700",
+    "A293300",
+    "A293486"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Moebius transform of tetranacci number (A000078).",
+  "id": "A357239",
+  "mentions": [
+    "A000078",
+    "A007435",
+    "A357238"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

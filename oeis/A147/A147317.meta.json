@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k which divide tau(k) and are not 7-smooth (where tau(k) = A000594(k) is Ramanujan's tau function).",
+  "id": "A147317",
+  "mentions": [
+    "A000594",
+    "A002473",
+    "A063938"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

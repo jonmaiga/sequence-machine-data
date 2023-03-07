@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = phi(4^n-1), where phi is Euler's totient function (A000010).",
+  "id": "A295501",
+  "mentions": [
+    "A000010",
+    "A027695",
+    "A053287",
+    "A295500",
+    "A295502",
+    "A295503"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

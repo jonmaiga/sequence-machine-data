@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in numerator polynomial of: Sum (k=1 to n) of x^k/(1-x^k).",
+  "id": "A187064",
+  "mentions": [
+    "A002088",
+    "A025529"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Diameter (i.e., largest distance between two vertices) of the rooted tree with Matula-Goebel number n.",
+  "id": "A196058",
+  "mentions": [
+    "A109082"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

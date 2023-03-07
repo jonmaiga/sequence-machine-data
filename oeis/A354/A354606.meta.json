@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is number of terms in the first n-1 terms of the sequence that have the same number of divisors as a(n-1).",
+  "id": "A354606",
+  "mentions": [
+    "A000005",
+    "A124056",
+    "A342585",
+    "A355606"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Union of 2 and powers of odd primes.",
+  "id": "A235868",
+  "mentions": [
+    "A060968",
+    "A061345",
+    "A235863"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

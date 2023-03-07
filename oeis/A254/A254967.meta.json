@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of iterated absolute differences of lucky numbers read by antidiagonals upwards.",
+  "id": "A254967",
+  "mentions": [
+    "A000959",
+    "A031883",
+    "A036262",
+    "A054978",
+    "A254969"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

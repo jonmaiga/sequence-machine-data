@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that phi(k) + k is a fourth power.",
+  "id": "A114072",
+  "mentions": [
+    "A114073",
+    "A121048"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

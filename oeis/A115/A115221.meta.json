@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X 3 matrices over Z(n) having determinant 0.",
+  "id": "A115221",
+  "mentions": [
+    "A115222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

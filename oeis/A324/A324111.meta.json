@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which A324108(n) = A324054(n-1) and which are neither prime powers nor of the form 2^i * p^j, where p is an odd prime, with either exponent i or j > 0.",
+  "id": "A324111",
+  "mentions": [
+    "A000265",
+    "A070537",
+    "A070776",
+    "A324054",
+    "A324108",
+    "A324109",
+    "A324110",
+    "A324112"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

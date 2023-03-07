@@ -1,0 +1,26 @@
+{
+  "description": "Prime numbers of the form 11^k +- 10.",
+  "id": "A144247",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A144231",
+    "A144232",
+    "A144233",
+    "A144234",
+    "A144236",
+    "A144242",
+    "A144245",
+    "A144246"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

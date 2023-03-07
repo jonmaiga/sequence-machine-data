@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the negated value of the sum_q [log(1-1/q)+1/q] over the semiprimes q.",
+  "id": "A154943",
+  "mentions": [
+    "A001358",
+    "A117543",
+    "A143524"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

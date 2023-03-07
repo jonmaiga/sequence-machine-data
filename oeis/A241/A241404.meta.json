@@ -1,0 +1,21 @@
+{
+  "description": "Sum of n and the sum of the factorials of its digits.",
+  "id": "A241404",
+  "mentions": [
+    "A061602",
+    "A108911"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

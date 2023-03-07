@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A359778, where A359778 is the number of factorizations of n into factors not divisible by p^p for any prime p (terms of A048103).",
+  "id": "A359779",
+  "mentions": [
+    "A048103",
+    "A359550",
+    "A359778"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

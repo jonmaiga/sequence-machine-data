@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Moebius transform of Pell numbers.",
+  "id": "A256281",
+  "mentions": [
+    "A000129",
+    "A028982",
+    "A256272"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

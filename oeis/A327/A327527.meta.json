@@ -1,0 +1,25 @@
+{
+  "description": "Number of uniform divisors of n.",
+  "id": "A327527",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A005117",
+    "A006530",
+    "A007947",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A327526"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

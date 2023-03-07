@@ -1,0 +1,21 @@
+{
+  "description": "Values of n at which A323454 reaches a new record.",
+  "id": "A323463",
+  "mentions": [
+    "A323286",
+    "A323454",
+    "A343460"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

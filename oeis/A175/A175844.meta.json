@@ -1,0 +1,18 @@
+{
+  "description": "Parse the base-2 expansion of 1/n using the Ziv-Lempel encoding as described in A106182; sequence gives the eventual period of the differences of the sequence of lengths of the successive phrases.",
+  "id": "A175844",
+  "mentions": [
+    "A106182",
+    "A109337"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

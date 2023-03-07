@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that have exactly 26 representations as a k-gonal number, P(n,k) = n*((k-2)*n - (k-4))/2, k and n >= 3.",
+  "id": "A320943",
+  "mentions": [
+    "A057145",
+    "A063778",
+    "A090466",
+    "A129654",
+    "A139601",
+    "A177029",
+    "A195527",
+    "A195528"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

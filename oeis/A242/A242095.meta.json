@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of inequivalent n X n matrices with entries from [k], where equivalence means permutations of rows or columns or the symbol set; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A242095",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A091057",
+    "A091058",
+    "A091059",
+    "A091060",
+    "A091061",
+    "A091062",
+    "A242093",
+    "A242106",
+    "A246106",
+    "A246122",
+    "A246123",
+    "A246124",
+    "A246125",
+    "A246126"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

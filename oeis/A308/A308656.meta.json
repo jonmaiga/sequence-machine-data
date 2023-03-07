@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to write n as (2^a*9^b)^2 + c*(2c+1) + d*(3d+1), where a and b are nonnegative integers, and c and d are integers.",
+  "id": "A308656",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A000420",
+    "A001019",
+    "A001318",
+    "A308566",
+    "A308584",
+    "A308621",
+    "A308623",
+    "A308640",
+    "A308641",
+    "A308644"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

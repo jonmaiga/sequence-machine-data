@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the sum of the divisors of n is of the form m^2+1.",
+  "id": "A289290",
+  "mentions": [
+    "A000203",
+    "A002522",
+    "A107008"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer-sided triangles with sides a,b,c, max(a,b) < c, a + c = n that are right triangles.",
+  "id": "A309395",
+  "mentions": [
+    "A004526",
+    "A024155",
+    "A046790",
+    "A082523"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

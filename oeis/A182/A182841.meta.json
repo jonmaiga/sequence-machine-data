@@ -1,0 +1,28 @@
+{
+  "description": "Number of toothpicks added at n-th stage in the toothpick structure of A182840.",
+  "id": "A182841",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A151724",
+    "A160121",
+    "A161207",
+    "A182633",
+    "A182635",
+    "A182840",
+    "A182842"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

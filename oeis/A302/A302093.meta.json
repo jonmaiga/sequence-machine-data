@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(C(n/2)*C(n/2+1)), where C = Catalan numbers (A000108).",
+  "id": "A302093",
+  "mentions": [
+    "A000108",
+    "A005568",
+    "A005817"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

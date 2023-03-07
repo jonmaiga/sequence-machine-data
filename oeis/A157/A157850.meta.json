@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that are harmonic means of divisors of harmonic (Ore) numbers (harmonic numbers is A001599) and equal to one of the divisors of this harmonic numbers.",
+  "id": "A157850",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A007340"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

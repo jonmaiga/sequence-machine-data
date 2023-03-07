@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Shepp's constant 'alpha', an optimal stopping constant associated with the case of a zero mean and unit variance distribution function.",
+  "id": "A246671",
+  "mentions": [
+    "A246664",
+    "A246665",
+    "A246667",
+    "A246668"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

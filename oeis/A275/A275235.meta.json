@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between n and n+log(n)^2.",
+  "id": "A275235",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

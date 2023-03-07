@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither multiples of 4 nor of the form 6u+3.",
+  "id": "A359375",
+  "mentions": [
+    "A000035",
+    "A064989",
+    "A252463",
+    "A359374",
+    "A359376",
+    "A359380"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

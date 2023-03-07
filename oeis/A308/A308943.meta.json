@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{d|n} binomial(n,d).",
+  "id": "A308943",
+  "mentions": [
+    "A000010",
+    "A001142",
+    "A008578",
+    "A056045",
+    "A098710",
+    "A135396"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

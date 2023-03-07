@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that sigma(m) - tau(m) = 2m.",
+  "id": "A329104",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A033880",
+    "A065608",
+    "A083874"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

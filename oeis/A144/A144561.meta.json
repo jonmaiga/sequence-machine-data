@@ -1,0 +1,18 @@
+{
+  "description": "Prime p such that p^2+13p+23 is prime.",
+  "id": "A144561",
+  "mentions": [
+    "A153781"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

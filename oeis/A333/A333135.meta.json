@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: Take a triangle with Pythagorean triple leg lengths with all diagonals drawn, as in A332978. Then T(n,k) = number of k-sided polygons in that figure for k >= 3 where the legs are divided into unit length parts.",
+  "id": "A333135",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A103605",
+    "A331452",
+    "A332978",
+    "A333136",
+    "A333137"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

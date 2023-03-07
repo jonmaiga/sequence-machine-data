@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of positive integers k such that some multiple of sqrt(k) falls strictly between n and n+1.",
+  "id": "A327952",
+  "mentions": [
+    "A261865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

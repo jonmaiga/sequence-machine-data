@@ -1,0 +1,17 @@
+{
+  "description": "Non-isomorphic colorings of the edges of a cube using at most n colors under rotational symmetries and permutations of the colors.",
+  "id": "A306194",
+  "mentions": [
+    "A060530"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

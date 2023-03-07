@@ -1,0 +1,21 @@
+{
+  "description": "Consider the aliquot parts, in ascending order, of a composite number. Take their sum and repeat the process deleting the minimum number and adding the previous sum. The sequence lists the numbers that after some iterations reach a sum equal to themselves.",
+  "id": "A246544",
+  "mentions": [
+    "A000396",
+    "A007593",
+    "A007629",
+    "A212875"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

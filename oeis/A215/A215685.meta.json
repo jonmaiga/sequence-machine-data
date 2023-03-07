@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime whose decimal expansion consists of the concatenation of a 2-digit emirp, a 3-digit emirp, a 4-digit emirp, ..., and an n-digit emirp (A006567).",
+  "id": "A215685",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A006567",
+    "A215641",
+    "A215647"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

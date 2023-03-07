@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of convex domino towers with n dominoes having widest row with k dominoes.",
+  "id": "A275662",
+  "mentions": [
+    "A000225",
+    "A117468",
+    "A275204",
+    "A275599"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Smallest positive integer k, such that s-k*n is a square where s is the smallest square >= k*n.",
+  "id": "A249298",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A068527",
+    "A145016",
+    "A145022",
+    "A145023",
+    "A145047",
+    "A145048",
+    "A145049",
+    "A145050",
+    "A145215",
+    "A145236"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

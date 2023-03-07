@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(1) = 1. For n >= 2, a(n) = a(n-1)/(n-1) if n-1 divides a(n-1); otherwise, a(n) = a(n-1) + a(n-2).",
+  "id": "A343376",
+  "mentions": [
+    "A000045",
+    "A139047",
+    "A147316",
+    "A212804",
+    "A343456",
+    "A343457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A list of primes written in order of their first appearance in a table of prime factorizations of 2^k+1, k=1,2,... .",
+  "id": "A158895",
+  "mentions": [
+    "A001269",
+    "A002587",
+    "A066845",
+    "A108974"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

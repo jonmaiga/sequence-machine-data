@@ -1,0 +1,23 @@
+{
+  "description": "Number of centrally symmetric diagonal Latin squares of order n with the first row in ascending order.",
+  "id": "A293777",
+  "mentions": [
+    "A287649",
+    "A287650",
+    "A293778",
+    "A340545"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primitive terms of A360328: terms of A360328 with no proper divisor in A360328.",
+  "id": "A360355",
+  "mentions": [
+    "A006038",
+    "A076610",
+    "A091191",
+    "A249263",
+    "A302574",
+    "A360328",
+    "A360356"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

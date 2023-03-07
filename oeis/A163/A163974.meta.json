@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as the root-mean-square (RMS) of a set of distinct primes.",
+  "id": "A163974",
+  "mentions": [
+    "A000040",
+    "A000196",
+    "A072701",
+    "A164283",
+    "A211868"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

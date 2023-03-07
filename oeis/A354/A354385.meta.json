@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest odd number that has n middle divisors.",
+  "id": "A354385",
+  "mentions": [
+    "A016754",
+    "A067742",
+    "A128605",
+    "A235791",
+    "A237048",
+    "A237593",
+    "A245092",
+    "A249223",
+    "A319529",
+    "A320137"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

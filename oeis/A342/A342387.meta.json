@@ -1,0 +1,18 @@
+{
+  "description": "Integers x such that there exists y, x>y>=1, satisfying (y+1)/(x+1) = (x||(y+1))/(y||(x+1)) where z||t is the concatenation of z and t.",
+  "id": "A342387",
+  "mentions": [
+    "A342388"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

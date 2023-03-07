@@ -1,0 +1,22 @@
+{
+  "description": "Complement of A118248.",
+  "id": "A128291",
+  "mentions": [
+    "A048991",
+    "A048992",
+    "A118247",
+    "A118248"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

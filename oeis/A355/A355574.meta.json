@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonnegative integers k with n digits such that x^2 - s*x + p has only integer roots, where s and p denote the sum and product of the digits of k respectively.",
+  "id": "A355574",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A063945",
+    "A355497",
+    "A355547"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

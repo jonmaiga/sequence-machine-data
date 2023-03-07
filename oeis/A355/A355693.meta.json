@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A330749, gcd(n, A064989(n)), where A064989 shifts the prime factorization one step towards lower primes.",
+  "id": "A355693",
+  "mentions": [
+    "A064989",
+    "A330749",
+    "A354365",
+    "A354366"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

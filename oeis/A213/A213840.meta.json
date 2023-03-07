@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(1 + n)*(3 - 4*n + 4*n^2)/6.",
+  "id": "A213840",
+  "mentions": [
+    "A000332",
+    "A002417",
+    "A213838",
+    "A271870"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:52:03",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

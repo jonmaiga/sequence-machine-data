@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that concatenation of r*k and 1 is a prime for all r = 1 to n but not prime for r = n+1, or smallest k such that 10*r*k+1 is a prime for all r = 1 to n but not prime for r = n+1.",
+  "id": "A100986",
+  "mentions": [
+    "A089323"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

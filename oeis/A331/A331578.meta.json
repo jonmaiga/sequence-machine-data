@@ -1,0 +1,33 @@
+{
+  "description": "Number of labeled series-reduced rooted trees with n vertices and more than two branches of the root.",
+  "id": "A331578",
+  "mentions": [
+    "A000014",
+    "A000169",
+    "A000669",
+    "A001678",
+    "A001679",
+    "A005512",
+    "A060313",
+    "A060356",
+    "A108919",
+    "A206429",
+    "A291636",
+    "A331233",
+    "A331488",
+    "A331489",
+    "A331490",
+    "A331577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

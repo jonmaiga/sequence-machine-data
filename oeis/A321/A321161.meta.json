@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Wilf's formula: Product_{k>=1} exp(-1/k)*(1 + 1/k + 1/(2*k^2)) = exp(-gamma)*cosh(Pi/2)/(Pi/2).",
+  "id": "A321161",
+  "mentions": [
+    "A001620",
+    "A042972",
+    "A049006",
+    "A073004",
+    "A080130"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

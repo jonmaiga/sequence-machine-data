@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into exactly two parts with no decimal carries.",
+  "id": "A335979",
+  "mentions": [
+    "A088512",
+    "A089898"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

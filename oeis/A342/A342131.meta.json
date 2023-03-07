@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n/2 + floor(n/4) if n is even, otherwise (3*n+1)/2.",
+  "id": "A342131",
+  "mentions": [
+    "A006368",
+    "A014682",
+    "A016789",
+    "A032766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:13",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

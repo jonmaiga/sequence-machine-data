@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of f(-x^29, x^31) + x * f(-x^19, x^41) - x^3 * f(-x^11, x^49) + x^7 * f(x, -x^59) in powers of x where f() is Ramanujan's two-variable theta function.",
+  "id": "A208546",
+  "mentions": [
+    "A010815",
+    "A057538",
+    "A093722"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

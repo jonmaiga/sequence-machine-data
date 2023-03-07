@@ -1,0 +1,23 @@
+{
+  "description": "Number of aperiodic necklaces (Lyndon words) with 9 black beads and n white beads.",
+  "id": "A263318",
+  "mentions": [
+    "A001840",
+    "A006918",
+    "A011795",
+    "A011796",
+    "A011797",
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:39",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

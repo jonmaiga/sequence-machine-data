@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the Wieferich primes.",
+  "id": "A277587",
+  "mentions": [
+    "A001220"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number of binary sequences of length n that contain at least one contiguous subsequence 011.",
+  "id": "A232580",
+  "mentions": [
+    "A000071",
+    "A000225",
+    "A000253",
+    "A000295",
+    "A001911",
+    "A004750",
+    "A034691",
+    "A050231",
+    "A261983",
+    "A274230",
+    "A324172",
+    "A335455",
+    "A335457",
+    "A335458",
+    "A335516"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

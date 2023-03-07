@@ -1,0 +1,29 @@
+{
+  "description": "Array T(n,k) read by antidiagonals: T(n,k) is the number of [n,k]-triangulations in the plane that have reflection symmetry, n >= 0, k >= 0.",
+  "id": "A169809",
+  "mentions": [
+    "A002712",
+    "A005028",
+    "A005500",
+    "A005505",
+    "A005506",
+    "A005507",
+    "A005508",
+    "A005509",
+    "A146305",
+    "A169808",
+    "A208355",
+    "A262586"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

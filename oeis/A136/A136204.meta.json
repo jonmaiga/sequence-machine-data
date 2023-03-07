@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 3p-2 and 3p+2 are primes (see A125272) and its decimal representation ends in 7.",
+  "id": "A136204",
+  "mentions": [
+    "A125272",
+    "A136191",
+    "A136192"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

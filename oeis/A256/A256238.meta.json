@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes in A256237 less than 10^n.",
+  "id": "A256238",
+  "mentions": [
+    "A254248",
+    "A255816",
+    "A255971",
+    "A256164",
+    "A256237"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

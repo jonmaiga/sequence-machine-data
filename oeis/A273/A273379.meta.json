@@ -1,0 +1,22 @@
+{
+  "description": "Ramanujan's largely composite numbers n (A067128) which are not divisible by all the primes < p, where p is the greatest prime divisor of n.",
+  "id": "A273379",
+  "mentions": [
+    "A002182",
+    "A067128",
+    "A080259",
+    "A244343",
+    "A244353",
+    "A273415"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

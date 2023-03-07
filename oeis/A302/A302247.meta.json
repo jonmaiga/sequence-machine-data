@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists all parts of all partitions of n, in nondecreasing order.",
+  "id": "A302247",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A026791",
+    "A027750",
+    "A066186",
+    "A066633",
+    "A080576",
+    "A138785",
+    "A176206",
+    "A181187",
+    "A206561",
+    "A210947",
+    "A210948",
+    "A221529",
+    "A302246",
+    "A336812",
+    "A338156"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

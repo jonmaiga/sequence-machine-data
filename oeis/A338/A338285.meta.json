@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k = n+1-A338283(n)..n} A338283(n).",
+  "id": "A338285",
+  "mentions": [
+    "A338283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

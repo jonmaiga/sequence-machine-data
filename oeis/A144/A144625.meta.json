@@ -1,0 +1,19 @@
+{
+  "description": "List of triples (i,j,k) (i>=0, j>=0, k>= 0) in canonical order used to convert an infinite tetrahedron of numbers to a linear sequence.",
+  "id": "A144625",
+  "mentions": [
+    "A144627",
+    "A144629"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

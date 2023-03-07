@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4^((n-1)*n) * Product_{1<=j",
+  "id": "A340293",
+  "mentions": [
+    "A006752",
+    "A340185",
+    "A340292"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1, a(1)=1; for n>1, a(n) = the sum of the two largest earlier terms which are both coprime to n.",
+  "id": "A122456",
+  "mentions": [
+    "A122457"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

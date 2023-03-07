@@ -1,0 +1,21 @@
+{
+  "description": "Denominator if the numerator and denominator of the continued fraction rational approximation of sqrt(2) are both prime.",
+  "id": "A118612",
+  "mentions": [
+    "A000129",
+    "A086383",
+    "A086397",
+    "A101411"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

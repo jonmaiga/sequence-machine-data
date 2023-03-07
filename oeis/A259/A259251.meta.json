@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + sigma(n) + sigma(n)^2 + sigma(n)^3 + sigma(n)^4 + sigma(n)^5 + sigma(n)^6.",
+  "id": "A259251",
+  "mentions": [
+    "A000203",
+    "A053716",
+    "A259252",
+    "A259253"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

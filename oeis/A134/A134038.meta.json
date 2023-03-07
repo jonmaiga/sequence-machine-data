@@ -1,0 +1,22 @@
+{
+  "description": "Mersenne indices of Mersenne prime reversals which are odd composites (associated with A134039).",
+  "id": "A134038",
+  "mentions": [
+    "A000043",
+    "A134037",
+    "A134039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

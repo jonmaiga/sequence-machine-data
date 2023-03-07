@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (7*n^3 + 6*n^2 + 5*n) / 6.",
+  "id": "A101165",
+  "mentions": [
+    "A000292",
+    "A001845",
+    "A005449",
+    "A101164",
+    "A101166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:32:41",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

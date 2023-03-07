@@ -1,0 +1,18 @@
+{
+  "description": "Primes congruent to 5 mod 64.",
+  "id": "A142927",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:07",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

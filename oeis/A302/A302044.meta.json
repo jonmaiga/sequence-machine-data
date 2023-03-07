@@ -1,0 +1,31 @@
+{
+  "description": "A028234 analog for factorization process based on the sieve of Eratosthenes (A083221).",
+  "id": "A302044",
+  "mentions": [
+    "A000265",
+    "A020639",
+    "A028234",
+    "A055396",
+    "A078898",
+    "A083221",
+    "A250245",
+    "A250246",
+    "A250469",
+    "A268674",
+    "A302034",
+    "A302040",
+    "A302042",
+    "A302045"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

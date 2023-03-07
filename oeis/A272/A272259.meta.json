@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: Row n>=32 gives the smallest square loop, i.e., lexicographically earliest circular permutation of length n such that any two adjacent numbers sum to a perfect square.",
+  "id": "A272259",
+  "mentions": [
+    "A071984",
+    "A112663"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 32,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

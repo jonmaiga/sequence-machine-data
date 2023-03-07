@@ -1,0 +1,22 @@
+{
+  "description": "First term of maximal arithmetic progression with difference n, such that each term k has tau(k) = n.",
+  "id": "A165499",
+  "mentions": [
+    "A064491",
+    "A165497",
+    "A165498",
+    "A165501"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

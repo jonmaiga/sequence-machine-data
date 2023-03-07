@@ -1,0 +1,22 @@
+{
+  "description": "Twin primes p and r such that p - 1, p + 1 and r + 1 are cubefree.",
+  "id": "A162875",
+  "mentions": [
+    "A089189",
+    "A089194",
+    "A162870",
+    "A162872",
+    "A162873",
+    "A162874"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

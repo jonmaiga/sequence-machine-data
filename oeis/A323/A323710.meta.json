@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the symmetrical of n via transport of structure from binary trees, where the binary tree of n is built as follows: create a root with value n and recursively apply the rule {write node's value as (2^c)*(2*k+1); if c>0, create a left child with value c; if k>0, create a right child with value k}.",
+  "id": "A323710",
+  "mentions": [
+    "A117303",
+    "A323665",
+    "A323752"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

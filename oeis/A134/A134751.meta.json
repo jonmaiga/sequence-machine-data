@@ -1,0 +1,22 @@
+{
+  "description": "Hankel transform of expansion of (1/(1-x^2))c(x/(1-x^2)), where c(x) is the g.f. of A000108.",
+  "id": "A134751",
+  "mentions": [
+    "A000108",
+    "A105864",
+    "A109033",
+    "A130196"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

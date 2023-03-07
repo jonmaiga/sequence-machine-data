@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which the canonical prime factorization contains only exponents which are congruent to 2 modulo 3.",
+  "id": "A182120",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

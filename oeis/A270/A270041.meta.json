@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Smallest m >= 11 containing no fives when represented in any base from 6 through n.",
+  "id": "A270041",
+  "mentions": [
+    "A216192",
+    "A270031",
+    "A270037",
+    "A270038",
+    "A270039",
+    "A270040",
+    "A270042",
+    "A270043",
+    "A270044",
+    "A270045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 6,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of all numbers n>=2 such that in their Fermi-Dirac representation every A050376-factor does not exceed A050376(n).",
+  "id": "A228868",
+  "mentions": [
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers k such that gcd(k, sigma(k)) == sigma(k) (mod k).",
+  "id": "A205525",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A009194",
+    "A054024",
+    "A205523",
+    "A205524"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

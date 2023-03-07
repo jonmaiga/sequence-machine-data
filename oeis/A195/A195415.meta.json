@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: Sum_{n>=1} tanh(n*x)^n = Sum_{n>=1} a(n)*4^(n-1)*x^n/n!.",
+  "id": "A195415",
+  "mentions": [
+    "A122399",
+    "A220181",
+    "A221077",
+    "A221078",
+    "A224899",
+    "A245322",
+    "A338040"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

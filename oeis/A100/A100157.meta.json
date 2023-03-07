@@ -1,0 +1,29 @@
+{
+  "description": "Structured rhombic dodecahedral numbers (vertex structure 9).",
+  "id": "A100157",
+  "mentions": [
+    "A000326",
+    "A000330",
+    "A005915",
+    "A006918",
+    "A008610",
+    "A053307",
+    "A100145",
+    "A100171",
+    "A100185",
+    "A213752",
+    "A234043"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:05",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

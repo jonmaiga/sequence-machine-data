@@ -1,0 +1,19 @@
+{
+  "description": "Cyclotomic polynomial value Phi(5,n!).",
+  "id": "A259264",
+  "mentions": [
+    "A053699",
+    "A200906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

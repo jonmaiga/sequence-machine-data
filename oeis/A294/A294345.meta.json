@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the products of the smaller and larger parts of the Goldbach partitions of n into two distinct parts.",
+  "id": "A294345",
+  "mentions": [
+    "A010051",
+    "A166081",
+    "A243485"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers each with exactly 1 unitary prime divisor (i.e., n is included if and only if A056169(n) = 1).",
+  "id": "A119251",
+  "mentions": [
+    "A000040",
+    "A001694",
+    "A056169",
+    "A059404"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

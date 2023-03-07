@@ -1,0 +1,21 @@
+{
+  "description": "Single bit representation of the sum of two sinusoids with periods 2 and 2*sqrt(2).",
+  "id": "A272532",
+  "mentions": [
+    "A083035",
+    "A271591",
+    "A272170"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Numbers n with the property that the number of parts in the symmetric representation of sigma(n) is odd, and that all parts have width 1.",
+  "id": "A241010",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000203",
+    "A001019",
+    "A071562",
+    "A098388",
+    "A174905",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A241008",
+    "A244579",
+    "A246955",
+    "A247687",
+    "A250068",
+    "A250070",
+    "A250071",
+    "A259417",
+    "A318843"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

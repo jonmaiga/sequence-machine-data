@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n that come from sizes of conjugacy classes of groups of order n.",
+  "id": "A241276",
+  "mentions": [
+    "A000001",
+    "A018818",
+    "A051532",
+    "A077191"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n gives the number of solutions to +-1 +- 2 +- 3 +- ... +- n == k (mod n).",
+  "id": "A300328",
+  "mentions": [
+    "A000079",
+    "A300190",
+    "A300324",
+    "A300329"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

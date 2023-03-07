@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that x^2 + x + p produces primes for x = 0..10 but not x = 11.",
+  "id": "A211239",
+  "mentions": [
+    "A067774",
+    "A164926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

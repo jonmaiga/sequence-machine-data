@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1, a(2)=1. For n > 2, start with n and iterate the map (k -> concatenation of anti-divisors of k) until we reach a prime q; then a(n) = q. If we never reach a prime, a(n) = 0.",
+  "id": "A191648",
+  "mentions": [
+    "A066272",
+    "A120716",
+    "A130846",
+    "A191647",
+    "A191859"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

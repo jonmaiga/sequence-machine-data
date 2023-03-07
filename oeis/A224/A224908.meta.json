@@ -1,0 +1,18 @@
+{
+  "description": "Given n-th prime p, a(n)=number of primes of the form p+q+1 where q is any prime < p.",
+  "id": "A224908",
+  "mentions": [
+    "A210481",
+    "A224748"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

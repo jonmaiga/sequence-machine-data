@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} [ Sum_{k>=1} (2^n + 2^k)^k*x^k/k ]^n / n!, a power series in x with integer coefficients.",
+  "id": "A156630",
+  "mentions": [
+    "A133991",
+    "A155201",
+    "A156631"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A323905(sigma(n)), where A323905(x) = A156552(x) - A048675(x).",
+  "id": "A347876",
+  "mentions": [
+    "A000203",
+    "A048675",
+    "A156552",
+    "A323905",
+    "A331750",
+    "A332221",
+    "A347875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

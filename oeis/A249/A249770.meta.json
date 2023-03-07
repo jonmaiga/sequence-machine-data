@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of Abelian groups of order n with k invariant factors (2 <= n, 1 <= k).",
+  "id": "A249770",
+  "mentions": [
+    "A000688",
+    "A008284",
+    "A026820",
+    "A046951",
+    "A051903",
+    "A101296",
+    "A249771",
+    "A249773",
+    "A264809"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

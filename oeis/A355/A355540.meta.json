@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows. Row n gives the coefficients of Product_{k=0..n} (x - k!) expanded in decreasing powers of x, with row 0 = {1}.",
+  "id": "A355540",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A000522",
+    "A003422",
+    "A008276",
+    "A039758",
+    "A136457",
+    "A203227",
+    "A217757",
+    "A349226"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

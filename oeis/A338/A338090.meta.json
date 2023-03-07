@@ -1,0 +1,37 @@
+{
+  "description": "Numbers having at least one 8 in their representation in base 9.",
+  "id": "A338090",
+  "mentions": [
+    "A002452",
+    "A005836",
+    "A007095",
+    "A011539",
+    "A020654",
+    "A020657",
+    "A023717",
+    "A037465",
+    "A037474",
+    "A037477",
+    "A043485",
+    "A074940",
+    "A095778",
+    "A171397",
+    "A333656",
+    "A337141",
+    "A337239",
+    "A337250",
+    "A337572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

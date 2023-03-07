@@ -1,0 +1,19 @@
+{
+  "description": "Decimal representation of the n-th iteration of the \"Rule 201\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A267681",
+  "mentions": [
+    "A267679",
+    "A267680"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

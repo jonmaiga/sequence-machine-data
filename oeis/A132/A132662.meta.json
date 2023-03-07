@@ -1,0 +1,18 @@
+{
+  "description": "Values of x such that x^2+y^2=n where x<=y for values of n given by A008784.",
+  "id": "A132662",
+  "mentions": [
+    "A008784",
+    "A132663"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

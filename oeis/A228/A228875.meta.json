@@ -1,0 +1,19 @@
+{
+  "description": "Pairs of Pythagorean numbers differing by 6.",
+  "id": "A228875",
+  "mentions": [
+    "A009111",
+    "A228876",
+    "A228877"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

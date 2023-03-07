@@ -1,0 +1,29 @@
+{
+  "description": "Rectangular table, read by antidiagonals, such that the g.f. of row n, R_n(y), satisfies: R_n(y) = Sum_{k>=0} y^k * R_k(y)^(n*k) for n>=0, with R_0(y) = 1/(1-y).",
+  "id": "A124530",
+  "mentions": [
+    "A124460",
+    "A124531",
+    "A124532",
+    "A124533",
+    "A124534",
+    "A124535",
+    "A124536",
+    "A124537",
+    "A124538",
+    "A124539",
+    "A124540"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

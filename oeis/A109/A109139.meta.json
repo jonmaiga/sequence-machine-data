@@ -1,0 +1,23 @@
+{
+  "description": "Numerators associated with the continued fraction of the differences of consecutive prime numbers.",
+  "id": "A109139",
+  "mentions": [
+    "A001040",
+    "A001053",
+    "A003736",
+    "A102038",
+    "A109140"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

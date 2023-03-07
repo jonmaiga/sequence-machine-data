@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients C(n,j) for a Sheffer sequence (binomial-type) with raising operator -x { 1 + W[ -exp(-2) * (2+D) ] } where W is the Lambert W multi-valued function.",
+  "id": "A135338",
+  "mentions": [
+    "A042977",
+    "A074059",
+    "A112007",
+    "A133314",
+    "A134685",
+    "A135494",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

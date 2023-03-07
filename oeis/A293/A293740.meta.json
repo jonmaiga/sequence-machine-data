@@ -1,0 +1,21 @@
+{
+  "description": "Number of multisets of nonempty words with a total of n letters over denary alphabet such that within each prefix of a word every letter of the alphabet is at least as frequent as the subsequent alphabet letter.",
+  "id": "A293740",
+  "mentions": [
+    "A212916",
+    "A293108",
+    "A293110",
+    "A293749"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

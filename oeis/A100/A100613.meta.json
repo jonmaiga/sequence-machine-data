@@ -1,0 +1,22 @@
+{
+  "description": "Number of elements in the set {(x,y): 1 <= x,y <= n, gcd(x,y) > 1}.",
+  "id": "A100613",
+  "mentions": [
+    "A000290",
+    "A018805",
+    "A063985",
+    "A185670",
+    "A242114"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

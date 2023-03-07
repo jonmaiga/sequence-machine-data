@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=2, among all distinct circles that can be constructed from an n x n square grid of points when each pair of points is connected by a circle and the points lie at the ends of a diameter of the circle.",
+  "id": "A360354",
+  "mentions": [
+    "A359935",
+    "A360350",
+    "A360351",
+    "A360352",
+    "A360353"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

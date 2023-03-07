@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled star graphs with added edges.",
+  "id": "A233387",
+  "mentions": [
+    "A013989",
+    "A171005"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

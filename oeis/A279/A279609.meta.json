@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(H(k) + exp(H(k))*log(H(k))) - sigma(k) where H(k) is the k-th harmonic number Sum_{j=1..k} 1/j and k is the n-th colossally abundant number A004490(n).",
+  "id": "A279609",
+  "mentions": [
+    "A004490",
+    "A057641"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n-1, if n <= 2, otherwise A107458(n-1) + A107458(n-2).",
+  "id": "A135851",
+  "mentions": [
+    "A000930",
+    "A013979",
+    "A077961",
+    "A078012",
+    "A107458"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, k>=n+1) is the number of integer partitions of n containing exactly k partitions.",
+  "id": "A264032",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = exponent of the highest power of A000005(n) (number of divisors of n) dividing A000203(n) (sum of divisors of n), a(1) = 1.",
+  "id": "A286628",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A049642",
+    "A051281",
+    "A054025",
+    "A286561",
+    "A286627"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

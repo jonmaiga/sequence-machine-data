@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} A(x)^n * (x^n/n) / (1 + x^n) ).",
+  "id": "A262784",
+  "mentions": [
+    "A145268"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

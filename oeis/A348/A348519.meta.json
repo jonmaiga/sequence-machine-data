@@ -1,0 +1,23 @@
+{
+  "description": "Tetraphobe or 4-phobe numbers: integers that are not tetraphile numbers.",
+  "id": "A348519",
+  "mentions": [
+    "A019532",
+    "A160811",
+    "A348517",
+    "A348518",
+    "A348520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

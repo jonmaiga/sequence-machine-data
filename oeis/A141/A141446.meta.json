@@ -1,0 +1,21 @@
+{
+  "description": "A102055(n) mod 9.",
+  "id": "A141446",
+  "mentions": [
+    "A001469",
+    "A102055",
+    "A141425",
+    "A141430"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

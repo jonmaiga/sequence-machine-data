@@ -1,0 +1,18 @@
+{
+  "description": "Let f(j) = j^2 + j + 17 and g(j) = j^2 - j + 17. Sequence gives pi(f(j)) - pi(g(j)) as j runs through those nonnegative integers for which both f(j) and g(j) are prime.",
+  "id": "A173753",
+  "mentions": [
+    "A007635"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

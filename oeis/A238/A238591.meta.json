@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions p of n such that 4*min(p) is a part of p.",
+  "id": "A238591",
+  "mentions": [
+    "A238589",
+    "A238590"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

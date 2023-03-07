@@ -1,0 +1,18 @@
+{
+  "description": "Number of n element multisets of n element multisets of an n-set.",
+  "id": "A331477",
+  "mentions": [
+    "A331436"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

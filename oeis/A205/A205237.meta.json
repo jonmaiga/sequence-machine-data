@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that, for the least prime p > 3, 2^n + p*2^k - 1 is prime with n/3 < k < n+1 and k the least if more than one solution.",
+  "id": "A205237",
+  "mentions": [
+    "A205236"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of open tours by a biased rook on a specific A070941(n) X 1 board, which ends on a black cell, where cells are colored white or black according to the binary representation of 2n.",
+  "id": "A344947",
+  "mentions": [
+    "A053645",
+    "A070941",
+    "A284005",
+    "A329369",
+    "A329718"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

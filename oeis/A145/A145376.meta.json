@@ -1,0 +1,21 @@
+{
+  "description": "If T(n)>=n is the nearest triangular number to n and p_n is the n-th prime, then a(n) is the least prime such that T(a(n)*p_n)-a(n)p_n is a triangular number",
+  "id": "A145376",
+  "mentions": [
+    "A000217",
+    "A145016",
+    "A145043",
+    "A145281",
+    "A145300"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

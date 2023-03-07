@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(n + 1)*(n^2 - n + 3)/6.",
+  "id": "A257055",
+  "mentions": [
+    "A000332",
+    "A037235",
+    "A080851",
+    "A208657",
+    "A256859"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:55",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

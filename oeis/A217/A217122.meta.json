@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (number of 1's in binary expansion of n)th positive number not among the previous terms",
+  "id": "A217122",
+  "mentions": [
+    "A000120",
+    "A075311",
+    "A225589"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

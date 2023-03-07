@@ -1,0 +1,20 @@
+{
+  "description": "Records in the number of ways to express an odd number as a sum 2*p+q, with p, q primes.",
+  "id": "A194831",
+  "mentions": [
+    "A046927",
+    "A194828",
+    "A194829",
+    "A194830"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

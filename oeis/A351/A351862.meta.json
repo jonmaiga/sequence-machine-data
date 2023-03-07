@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the coefficients in a series for the angles in the Spiral of Theodorus.",
+  "id": "A351862",
+  "mentions": [
+    "A105459",
+    "A351861"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

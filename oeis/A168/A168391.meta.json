@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = [x^k]( p(n,x) ), where p(n, x) = Sum_{k=1..n} A001263(n,k)*binomial(x+k -1, n-1), read by rows.",
+  "id": "A168391",
+  "mentions": [
+    "A001263",
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

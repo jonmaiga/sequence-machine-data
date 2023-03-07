@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = n-th powerful number that is the first integer of its prime signature, divided by its largest squarefree divisor: A003557(A181800(n)).",
+  "id": "A212638",
+  "mentions": [
+    "A003557",
+    "A007947",
+    "A025487",
+    "A036035",
+    "A059901",
+    "A063008",
+    "A077569",
+    "A085082",
+    "A085988",
+    "A086141",
+    "A087443",
+    "A108951",
+    "A181800",
+    "A181821",
+    "A181822",
+    "A212172",
+    "A212642",
+    "A212644"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

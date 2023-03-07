@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T(n, k) read by rows: T(n, k) = S2(n, k)*k! + S2(n, k-1)*(k-1)! with the Stirling2 triangle S2 = A048993.",
+  "id": "A285867",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000225",
+    "A000629",
+    "A028243",
+    "A028244",
+    "A028245",
+    "A028246",
+    "A032180",
+    "A048993",
+    "A131689",
+    "A228909",
+    "A228910",
+    "A228911",
+    "A228912",
+    "A228913",
+    "A285868"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

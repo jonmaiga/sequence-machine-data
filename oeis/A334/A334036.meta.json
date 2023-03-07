@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the difference of two heptagonal numbers in exactly n ways.",
+  "id": "A334036",
+  "mentions": [
+    "A000566",
+    "A016861",
+    "A038547",
+    "A068314",
+    "A333817",
+    "A334011",
+    "A334034",
+    "A334035",
+    "A334037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

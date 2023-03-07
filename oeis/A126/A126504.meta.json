@@ -1,0 +1,21 @@
+{
+  "description": "Number of base 9 n-digit numbers with adjacent digits differing by four or less.",
+  "id": "A126504",
+  "mentions": [
+    "A126363",
+    "A126396",
+    "A126477"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:31:27",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

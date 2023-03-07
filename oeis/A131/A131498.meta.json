@@ -1,0 +1,22 @@
+{
+  "description": "For D_2 type groups as polyhedra: {F,V,E,dimension}->{n+2,2*n,3*n,2*n*(2*n-1)/2} such that Euler's equation is true: V=E-F+2.",
+  "id": "A131498",
+  "mentions": [
+    "A000027",
+    "A000384",
+    "A005843",
+    "A008585"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:23",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

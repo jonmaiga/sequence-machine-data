@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that sigma(m)/esigma(m) > sigma(k)/esigma(k) for all k < m, where sigma(m) is the sum of divisors of m (A000203) and esigma(m) is the sum of exponential divisors of m (A051377).",
+  "id": "A335396",
+  "mentions": [
+    "A000203",
+    "A051377",
+    "A285906",
+    "A335400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

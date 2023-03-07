@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=2, among all distinct circles that can be constructed from a 2 x n square grid of points using only a compass.",
+  "id": "A359862",
+  "mentions": [
+    "A001859",
+    "A359258",
+    "A359859",
+    "A359860",
+    "A359861"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

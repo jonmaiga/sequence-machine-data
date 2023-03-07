@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (2^k-1)^4 + 2 is prime.",
+  "id": "A305836",
+  "mentions": [
+    "A128832"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

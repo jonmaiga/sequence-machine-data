@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of {1,2,...,n} (n>=2) having a single run of even entries. For example, the permutation 513284679 has a single run of even entries: 2846.",
+  "id": "A152873",
+  "mentions": [
+    "A096789",
+    "A152667",
+    "A229020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:09:07",
+    "offset": 2,
+    "size": 24,
+    "source": "joeis"
+  }
+}

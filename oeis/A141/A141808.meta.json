@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the maximal prime power divisors of k form a nontrivial run of integers.",
+  "id": "A141808",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A000961",
+    "A141807",
+    "A262723"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

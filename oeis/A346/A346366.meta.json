@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Mertens's constant multiplied by zeta(2).",
+  "id": "A346366",
+  "mentions": [
+    "A001620",
+    "A013661",
+    "A077761",
+    "A346367"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

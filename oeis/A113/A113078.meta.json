@@ -1,0 +1,29 @@
+{
+  "description": "Number of tournament sequences: a(n) gives the number of n-th generation descendents of a node labeled (4) in the tree of tournament sequences.",
+  "id": "A113078",
+  "mentions": [
+    "A008934",
+    "A093729",
+    "A097710",
+    "A113077",
+    "A113079",
+    "A113089",
+    "A113096",
+    "A113098",
+    "A113100",
+    "A113107",
+    "A113109",
+    "A113111",
+    "A113113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

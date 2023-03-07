@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place n nonattacking composite pieces bishop + semi-rook on an n X n board.",
+  "id": "A185056",
+  "mentions": [
+    "A000170",
+    "A002465",
+    "A088789",
+    "A099152",
+    "A187235"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

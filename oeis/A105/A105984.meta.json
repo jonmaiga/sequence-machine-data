@@ -1,0 +1,18 @@
+{
+  "description": "Near-repdigit semiprimes with 3 as repeated digit.",
+  "id": "A105984",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

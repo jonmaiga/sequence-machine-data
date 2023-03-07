@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] with no fixed points where the maximal displacement of an element equals seven.",
+  "id": "A321053",
+  "mentions": [
+    "A259779",
+    "A259780",
+    "A259784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 7,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

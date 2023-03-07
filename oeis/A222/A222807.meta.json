@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets A of {0,1,...,n-1} with |A+A| > |A-A|.",
+  "id": "A222807",
+  "mentions": [
+    "A118544",
+    "A140794",
+    "A222808",
+    "A224893"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows of 2n+1 terms, where T(n,k) = T(n,k-1) + T(n-1,k-2) for n>0, 10 and T(0,0)=1.",
+  "id": "A132427",
+  "mentions": [
+    "A125273",
+    "A132428"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

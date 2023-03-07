@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n, k) = Sum_{j=0..k} Stirling2(n, j) = Sum_{j=0..k} A048993(n, j).",
+  "id": "A359107",
+  "mentions": [
+    "A000110",
+    "A048993",
+    "A359109",
+    "A359355"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

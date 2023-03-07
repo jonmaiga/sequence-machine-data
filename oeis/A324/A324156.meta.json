@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n lists the numbers m such that the number of prime numbers <= m is equal to the number of base-n zerofree numbers <= m.",
+  "id": "A324156",
+  "mentions": [
+    "A324154",
+    "A324155",
+    "A324157",
+    "A324160",
+    "A324161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of all terms of triangle of absolute differences of the divisors of n.",
+  "id": "A187209",
+  "mentions": [
+    "A000203",
+    "A187203",
+    "A187205",
+    "A187207",
+    "A187208",
+    "A187215"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

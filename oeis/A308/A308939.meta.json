@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - Sum_{k>=1} (2*k - 1)!!*x^k/k!).",
+  "id": "A308939",
+  "mentions": [
+    "A001147",
+    "A002866",
+    "A295553"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:28:39",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

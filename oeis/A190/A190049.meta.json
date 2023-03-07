@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (16+24*x+2*x^2)/(x-1)^6.",
+  "id": "A190049",
+  "mentions": [
+    "A000389",
+    "A091894",
+    "A162148",
+    "A175136",
+    "A190048"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:11",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

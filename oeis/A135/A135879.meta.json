@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows of A135901(n) terms, where row n+1 is generated from row n by inserting zeros at positions [(m+3)^2/4 - 2], as m=0,1,2,3,... and then taking partial sums from right to left, starting with a single 1 in row 0.",
+  "id": "A135879",
+  "mentions": [
+    "A001147",
+    "A125781",
+    "A127452",
+    "A135877",
+    "A135878",
+    "A135880",
+    "A135881",
+    "A135901"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

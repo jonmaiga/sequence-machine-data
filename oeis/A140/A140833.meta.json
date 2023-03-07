@@ -1,0 +1,23 @@
+{
+  "description": "Sum of Fibonacci numbers between F(-n)....F(n), inclusive.",
+  "id": "A140833",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A025169",
+    "A039834",
+    "A094966"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

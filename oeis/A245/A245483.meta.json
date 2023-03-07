@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes of the form m^10 - m^9 + m^8 - m^7 + m^6 - m^5 + m^4 - m^3 + m^2 - m + 1.",
+  "id": "A245483",
+  "mentions": [
+    "A001358",
+    "A162861",
+    "A245393"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

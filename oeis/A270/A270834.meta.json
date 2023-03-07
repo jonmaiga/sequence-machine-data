@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A256832(n)/A000129(n-1) is not divisible by n.",
+  "id": "A270834",
+  "mentions": [
+    "A000129",
+    "A213891",
+    "A256832",
+    "A270617"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

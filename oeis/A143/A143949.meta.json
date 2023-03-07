@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-Dyck paths containing k odd-length descents to ground level (0<=k<=n).",
+  "id": "A143949",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A033297",
+    "A111301"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of the first evil exponents (A001969) in the prime power factorization of (2n)!.",
+  "id": "A240672",
+  "mentions": [
+    "A001969",
+    "A240537",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668",
+    "A240669",
+    "A240670"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

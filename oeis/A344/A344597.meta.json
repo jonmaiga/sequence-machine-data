@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(k) * (floor(n/k)^4 - floor((n-1)/k)^4).",
+  "id": "A344597",
+  "mentions": [
+    "A000583",
+    "A082540",
+    "A140434",
+    "A344596"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

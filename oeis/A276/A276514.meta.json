@@ -1,0 +1,20 @@
+{
+  "description": "If we call \"S\" this sequence and consider the k-digit term a(n) of S with digits abcd...k, then a(n+1) = [a(n) + the a-th digit of S + the b-th digit of S + the c-th digit of S + ... + the k-th digit of S]. This is the lexicographically first such finite sequence with no duplicate term.",
+  "id": "A276514",
+  "mentions": [
+    "A277268"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

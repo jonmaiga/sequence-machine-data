@@ -1,0 +1,18 @@
+{
+  "description": "Trisection 3n+2 of A165601.",
+  "id": "A165606",
+  "mentions": [
+    "A016789",
+    "A165601"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

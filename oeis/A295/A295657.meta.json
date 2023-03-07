@@ -1,0 +1,32 @@
+{
+  "description": "Multiplicative with a(p^e) = p^floor((e-1)/2).",
+  "id": "A295657",
+  "mentions": [
+    "A000188",
+    "A003557",
+    "A004526",
+    "A004709",
+    "A008834",
+    "A020639",
+    "A028234",
+    "A053150",
+    "A061704",
+    "A067029",
+    "A082020",
+    "A212793",
+    "A295658",
+    "A295659"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

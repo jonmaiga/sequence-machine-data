@@ -1,0 +1,32 @@
+{
+  "description": "Joint-rank array of the numbers j*r^(i-1), where r = golden ratio = (1+sqrt(5))/2, i>=1, j>=1, read by antidiagonals.",
+  "id": "A182801",
+  "mentions": [
+    "A001622",
+    "A020956",
+    "A020957",
+    "A020958",
+    "A020959",
+    "A020960",
+    "A020961",
+    "A182802",
+    "A182846",
+    "A182847",
+    "A182848",
+    "A182849",
+    "A252229"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

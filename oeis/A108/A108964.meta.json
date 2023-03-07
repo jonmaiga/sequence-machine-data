@@ -1,0 +1,19 @@
+{
+  "description": "Write n in balanced ternary notation, omit any zeros and form the left-to-right alternating sum mod 3.",
+  "id": "A108964",
+  "mentions": [
+    "A036581",
+    "A307672"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

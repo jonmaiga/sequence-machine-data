@@ -1,0 +1,19 @@
+{
+  "description": "Positions of prime numbers in A262356.",
+  "id": "A262371",
+  "mentions": [
+    "A010051",
+    "A262356",
+    "A262363"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

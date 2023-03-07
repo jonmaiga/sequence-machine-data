@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of sequence whose Dirichlet convolution with itself yields A100995 + A063524, that is, the characteristic function of A000961 (prime powers).",
+  "id": "A317936",
+  "mentions": [
+    "A000961",
+    "A046644",
+    "A063524",
+    "A100995",
+    "A317937",
+    "A317939"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

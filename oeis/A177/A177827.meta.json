@@ -1,0 +1,18 @@
+{
+  "description": "Sub-triangle of A060187 formed by taking every third-indexed term of every third row.",
+  "id": "A177827",
+  "mentions": [
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

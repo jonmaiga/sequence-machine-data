@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows in which row n (n>=3) lists those partitions of n with every part > 2.",
+  "id": "A176210",
+  "mentions": [
+    "A008483",
+    "A036036",
+    "A036037",
+    "A080577",
+    "A138136",
+    "A177739"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 3,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows in which row 2n-1 lists the widths of the symmetric representation of sigma(n), and row 2n lists a finite sequence S together with -1, with the property that the partial sums of S give the row 2n-1.",
+  "id": "A281010",
+  "mentions": [
+    "A000004",
+    "A000005",
+    "A000203",
+    "A001227",
+    "A054844",
+    "A067742",
+    "A196020",
+    "A235048",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A249351",
+    "A262626",
+    "A279387",
+    "A279388",
+    "A279391",
+    "A281011"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of squarefree numbers m <= n that have a prime divisor greater than sqrt(n) (i.e., A006530(m) > sqrt(n)).",
+  "id": "A295164",
+  "mentions": [
+    "A006530",
+    "A013928",
+    "A241419",
+    "A295101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

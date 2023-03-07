@@ -1,0 +1,38 @@
+{
+  "description": "Number of distinct differences between adjacent prime indices of n.",
+  "id": "A355523",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A066312",
+    "A112798",
+    "A238353",
+    "A238710",
+    "A252736",
+    "A279945",
+    "A286469",
+    "A286470",
+    "A287352",
+    "A320348",
+    "A325325",
+    "A325388",
+    "A325406",
+    "A351294",
+    "A352827",
+    "A355524",
+    "A355525",
+    "A355533",
+    "A355534",
+    "A355536"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

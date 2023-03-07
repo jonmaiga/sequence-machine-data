@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0; for n>0, a(n) is the smallest k in A350552 which is not yet a term and is such that k + a(n-1) is in A350552.",
+  "id": "A350554",
+  "mentions": [
+    "A000120",
+    "A003415",
+    "A350552"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

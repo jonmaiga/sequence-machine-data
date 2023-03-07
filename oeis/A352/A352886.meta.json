@@ -1,0 +1,23 @@
+{
+  "description": "Number of B-periodic numbers of bit pseudo-length n.",
+  "id": "A352886",
+  "mentions": [
+    "A008683",
+    "A027375",
+    "A242138",
+    "A242139"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

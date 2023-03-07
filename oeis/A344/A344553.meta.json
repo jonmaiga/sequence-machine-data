@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice paths from (0,0) to (2n-1,n) using steps E=(1,0), N=(0,1), and D=(1,1) which stay weakly above the line through (0,0) and (2n-1,n).",
+  "id": "A344553",
+  "mentions": [
+    "A001622",
+    "A108424"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:43:45",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

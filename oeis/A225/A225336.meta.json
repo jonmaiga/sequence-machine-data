@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction of the Golomb-Dickman constant.",
+  "id": "A225336",
+  "mentions": [
+    "A084945"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

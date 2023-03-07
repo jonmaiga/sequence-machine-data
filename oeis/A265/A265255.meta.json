@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n having k odd singletons (n, k >=0).",
+  "id": "A265255",
+  "mentions": [
+    "A000041",
+    "A265253",
+    "A265256",
+    "A265257"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/6)*n!*[x^n] (2 + sec(3*x) + tan(3*x) + 3*sec(x) + 3*tan(x)).",
+  "id": "A320957",
+  "mentions": [
+    "A000111",
+    "A000828",
+    "A320956",
+    "A321394"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

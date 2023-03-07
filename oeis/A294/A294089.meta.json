@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = b(n) if b(n) := (Sum_{k>=1}(k/5)/k^(2n))*sqrt(5)^(floor((n+1)/2)*floor((n+11)/2)-1)/(24*zeta(2n)) is an integer, and a(n) = 0 otherwise, where (k/5) is the Legendre symbol.",
+  "id": "A294089",
+  "mentions": [
+    "A000796",
+    "A027641",
+    "A027642",
+    "A080891"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

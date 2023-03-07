@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of A246275 considered as a permutation of natural numbers.",
+  "id": "A246276",
+  "mentions": [
+    "A055396",
+    "A246274",
+    "A246275",
+    "A246277",
+    "A246675"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

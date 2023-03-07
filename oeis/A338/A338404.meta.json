@@ -1,0 +1,21 @@
+{
+  "description": "Primes p in A158932 such that p = prime(k) = A158932(k) for some k.",
+  "id": "A338404",
+  "mentions": [
+    "A000040",
+    "A158923",
+    "A158932",
+    "A338396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

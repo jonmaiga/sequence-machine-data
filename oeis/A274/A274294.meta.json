@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1+(n+1)^2+n!+Sum_{k=1..n-1} binomial(n,k)*n!/(n-k)!.",
+  "id": "A274294",
+  "mentions": [
+    "A070779",
+    "A317094"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

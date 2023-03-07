@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form c(x_1)^c(x_2)^...^c(x_k) where each c(i) = A007916(i) is a non-perfect-power, k >= 2, and the exponents are nested from the right.",
+  "id": "A277562",
+  "mentions": [
+    "A001597",
+    "A003018",
+    "A007916",
+    "A106490",
+    "A164336",
+    "A164337"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

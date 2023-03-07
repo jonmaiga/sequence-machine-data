@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = v_3( (6n)! ) - v_3( (3n)! ), where v_3(N) is the 3-adic valuation A007949(N).",
+  "id": "A127427",
+  "mentions": [
+    "A004128",
+    "A007949",
+    "A053735",
+    "A054861"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

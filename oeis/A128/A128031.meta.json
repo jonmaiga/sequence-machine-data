@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that (17^n - 3^n)/14 is prime.",
+  "id": "A128031",
+  "mentions": [
+    "A028491",
+    "A057468",
+    "A059801",
+    "A121877",
+    "A128024",
+    "A128025",
+    "A128026",
+    "A128027",
+    "A128028",
+    "A128029",
+    "A128030",
+    "A128032"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

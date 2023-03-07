@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the number having (1,2,3,4,...) = A000027 as its factorial-nested interval sequence.",
+  "id": "A269979",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A269970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Product_{n>=1} 1 / (1 - x^(2*n))^(a(n)/(2*n)!) = cosh(x).",
+  "id": "A354064",
+  "mentions": [
+    "A353609",
+    "A354055",
+    "A354056",
+    "A354063",
+    "A354065",
+    "A354066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

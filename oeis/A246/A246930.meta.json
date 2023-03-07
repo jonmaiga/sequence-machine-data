@@ -1,0 +1,21 @@
+{
+  "description": "Prime(12*n).",
+  "id": "A246930",
+  "mentions": [
+    "A000040",
+    "A008594",
+    "A246929"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

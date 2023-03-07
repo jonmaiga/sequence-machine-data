@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: Sum_{n>=0} Product_{k=1..n} (1 - 1/(1+k*x)^3).",
+  "id": "A222033",
+  "mentions": [
+    "A136127"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

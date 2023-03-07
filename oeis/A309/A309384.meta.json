@@ -1,0 +1,18 @@
+{
+  "description": "Number of black squares after n moves of a variant of Langton's ant with turns of 45 degrees.",
+  "id": "A309384",
+  "mentions": [
+    "A255938"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Engel expansion of 1 to the base Pi.",
+  "id": "A232325",
+  "mentions": [
+    "A006784",
+    "A014014",
+    "A061233",
+    "A181565",
+    "A185565",
+    "A230601",
+    "A232326",
+    "A232327",
+    "A232328",
+    "A303877"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

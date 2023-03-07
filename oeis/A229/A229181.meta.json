@@ -1,0 +1,21 @@
+{
+  "description": "Number of decimal digits in the variant of A047777(n) (decimal expansion of Pi cut in \"prime chunks\") without the restriction that all primes must be different.",
+  "id": "A229181",
+  "mentions": [
+    "A047777",
+    "A053013",
+    "A121267",
+    "A229155"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

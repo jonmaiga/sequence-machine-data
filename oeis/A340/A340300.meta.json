@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of iterations for n to reach 1 under the following scheme. If k == 0 (mod 3), then k -> k/3, if k == 1 (mod 3) k -> 2k, and if k == 2 (mod 3) add the middle two divisors of k and divide the result by 3.",
+  "id": "A340300",
+  "mentions": [
+    "A338459"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

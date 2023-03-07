@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the function F(x) evaluated at the constant x that satisfies: F(x) - x*F'(x) = 0, where F(x) = Sum_{n>=0} x^(n*(n+1)/2).",
+  "id": "A106334",
+  "mentions": [
+    "A106332",
+    "A106333",
+    "A106335",
+    "A106336"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

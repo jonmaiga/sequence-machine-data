@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the convergents of the continued fraction for Pi/sqrt(3) using the classical continued fraction for arctan(x).",
+  "id": "A123625",
+  "mentions": [
+    "A093602",
+    "A123626"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

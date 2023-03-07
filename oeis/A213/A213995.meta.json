@@ -1,0 +1,19 @@
+{
+  "description": "Primes p=u^2+v^2 such that p+u or p+v is prime.",
+  "id": "A213995",
+  "mentions": [
+    "A002313",
+    "A213996"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

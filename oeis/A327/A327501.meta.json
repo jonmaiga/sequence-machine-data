@@ -1,0 +1,24 @@
+{
+  "description": "Maximum divisor of n that is 1 or not a perfect power.",
+  "id": "A327501",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001597",
+    "A007916",
+    "A052410",
+    "A175082",
+    "A303386",
+    "A327502"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

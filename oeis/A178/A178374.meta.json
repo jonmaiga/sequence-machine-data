@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A075930(n)^A178307(n)",
+  "id": "A178374",
+  "mentions": [
+    "A001969",
+    "A075930",
+    "A178307",
+    "A178373"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

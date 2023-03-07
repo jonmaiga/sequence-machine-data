@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of divisors of the n-th cubefree number.",
+  "id": "A358040",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A004709",
+    "A072048",
+    "A073002",
+    "A147533",
+    "A358039"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

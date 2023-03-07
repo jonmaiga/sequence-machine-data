@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with omega(n) < omega of 3 nearest larger and 3 nearest smaller neighbors.",
+  "id": "A101940",
+  "mentions": [
+    "A001221",
+    "A101934",
+    "A101938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

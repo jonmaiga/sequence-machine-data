@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: 1 / (1 + 6*x*G(x) - 7*x*G(x)^2), where G(x) = 1 + x*G(x)^3 is the g.f. of A001764.",
+  "id": "A226751",
+  "mentions": [
+    "A001764",
+    "A147855",
+    "A183160"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

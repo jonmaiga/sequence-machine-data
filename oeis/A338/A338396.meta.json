@@ -1,0 +1,18 @@
+{
+  "description": "The prime numbers in A158923.",
+  "id": "A338396",
+  "mentions": [
+    "A000040",
+    "A158923"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

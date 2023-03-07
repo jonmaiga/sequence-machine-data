@@ -1,0 +1,18 @@
+{
+  "description": "Primes with the property that if the digits are written digital clock style and the number is reflected across a horizontal line through the middle of the number, the result is still prime.",
+  "id": "A178317",
+  "mentions": [
+    "A018847"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of factors of Chebyshev polynomial S(2*n+1, x) (A049310) over the integers. Factorization is into the minimal integer polynomials C (A187360).",
+  "id": "A302707",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A049310",
+    "A095374",
+    "A187360"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

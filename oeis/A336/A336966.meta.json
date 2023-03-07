@@ -1,0 +1,26 @@
+{
+  "description": "Primes starting 10-tuples of consecutive primes that have symmetrical gaps about their mean and form 5 pairs of twin primes.",
+  "id": "A336966",
+  "mentions": [
+    "A055380",
+    "A055381",
+    "A055382",
+    "A081235",
+    "A266511",
+    "A266512",
+    "A274792",
+    "A335044",
+    "A335394",
+    "A336968"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

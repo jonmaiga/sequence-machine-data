@@ -1,0 +1,22 @@
+{
+  "description": "Perfect Abs. Real part of complex z such that Abs[(Total[Divisors[z]]-z)]=Abs[z].",
+  "id": "A101367",
+  "mentions": [
+    "A101366",
+    "A102506",
+    "A102507",
+    "A102527",
+    "A102531",
+    "A102532"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

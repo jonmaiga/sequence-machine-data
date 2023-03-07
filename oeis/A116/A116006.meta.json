@@ -1,0 +1,17 @@
+{
+  "description": "n*phi(n)*phi(phi(n)) is a triangular number.",
+  "id": "A116006",
+  "mentions": [
+    "A116002"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

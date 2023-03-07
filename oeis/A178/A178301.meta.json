@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) = binomial(n,k)*binomial(n+k+1,n+1) read by rows, 0 <= k <= n.",
+  "id": "A178301",
+  "mentions": [
+    "A007318",
+    "A047781",
+    "A063007",
+    "A100258",
+    "A113682",
+    "A123160",
+    "A132813",
+    "A178300",
+    "A182626"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

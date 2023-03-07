@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = a(1) = 1; a(n) = n! * [x^n] (Sum_{k=0..n-1} a(k)*x^k/k!)^n.",
+  "id": "A293864",
+  "mentions": [
+    "A000142",
+    "A001813",
+    "A177752",
+    "A293860"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Exceptional odd numbers D that do not admit a solution to the Pell equation X^2 - D Y^2 = +2.",
+  "id": "A263010",
+  "mentions": [
+    "A261246",
+    "A261247",
+    "A261248",
+    "A264352"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = number of 3-digit primes with digit sum n, where n runs through the non-multiples of 3 in the range [2..26].",
+  "id": "A178183",
+  "mentions": [
+    "A177868",
+    "A178447",
+    "A178571",
+    "A178605",
+    "A178701",
+    "A178876",
+    "A178879",
+    "A178884"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

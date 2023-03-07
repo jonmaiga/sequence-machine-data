@@ -1,0 +1,19 @@
+{
+  "description": "Smallest lesser of twin primes (A001359) with index n, or a(n)=0, if there are no such twin primes.",
+  "id": "A242807",
+  "mentions": [
+    "A001359",
+    "A242758",
+    "A242767"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of noncrossing path sets on n nodes with each path having a prime number of nodes.",
+  "id": "A303729",
+  "mentions": [
+    "A303730",
+    "A303731",
+    "A303732"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

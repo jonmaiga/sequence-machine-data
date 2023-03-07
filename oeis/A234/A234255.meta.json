@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of -B(12) = 691/2730, 13th Bernoulli number without sign.",
+  "id": "A234255",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A002882",
+    "A020793",
+    "A021046",
+    "A021277",
+    "A027641",
+    "A027642",
+    "A110551",
+    "A112828",
+    "A164555",
+    "A234355",
+    "A234356"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

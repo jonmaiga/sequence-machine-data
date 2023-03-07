@@ -1,0 +1,18 @@
+{
+  "description": "k!!-j!!, where (k!!,j!!) is the least pair of double factorials for which n divides their difference.",
+  "id": "A205103",
+  "mentions": [
+    "A204892",
+    "A204982"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:35:47",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

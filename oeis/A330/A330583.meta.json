@@ -1,0 +1,18 @@
+{
+  "description": "The orders, with repetition, of the non-cyclic finite simple groups whose orders are 23-smooth.",
+  "id": "A330583",
+  "mentions": [
+    "A080683",
+    "A109379"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

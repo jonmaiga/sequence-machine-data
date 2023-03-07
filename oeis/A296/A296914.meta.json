@@ -1,0 +1,21 @@
+{
+  "description": "List of coefficients of chromatic polynomial of the cubical graph Q_3, highest order terms first.",
+  "id": "A296914",
+  "mentions": [
+    "A140986",
+    "A334159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

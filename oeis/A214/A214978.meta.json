@@ -1,0 +1,26 @@
+{
+  "description": "Array T(m,n) = Fibonacci(m*n)/Fibonacci(m), by antidiagonals; transpose of A028412.",
+  "id": "A214978",
+  "mentions": [
+    "A000045",
+    "A028412",
+    "A051294",
+    "A213978",
+    "A214982",
+    "A214983",
+    "A214984",
+    "A214986"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

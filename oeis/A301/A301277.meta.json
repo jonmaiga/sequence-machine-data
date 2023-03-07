@@ -1,0 +1,29 @@
+{
+  "description": "Nearest integer to mean of first n primes.",
+  "id": "A301277",
+  "mentions": [
+    "A007504",
+    "A024451",
+    "A060620",
+    "A062049",
+    "A075465",
+    "A225804",
+    "A250130",
+    "A273462",
+    "A301273",
+    "A301274",
+    "A301275",
+    "A301276"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

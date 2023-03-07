@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the first n decimal digits of Euler's constant gamma contain equal numbers of even and odd decimal digits.",
+  "id": "A175815",
+  "mentions": [
+    "A175794"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

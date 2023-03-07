@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A( 2*A(x)^2 - 8*A(x)^3 ) = 2*x^2.",
+  "id": "A291314",
+  "mentions": [
+    "A271961",
+    "A291313",
+    "A291315"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

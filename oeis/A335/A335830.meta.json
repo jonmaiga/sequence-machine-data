@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the multiply-perfect numbers.",
+  "id": "A335830",
+  "mentions": [
+    "A007691",
+    "A335118"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

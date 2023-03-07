@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m with a divisor d such that tau(d) * sigma(d) = m.",
+  "id": "A331668",
+  "mentions": [
+    "A000005",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

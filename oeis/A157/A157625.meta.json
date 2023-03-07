@@ -1,0 +1,22 @@
+{
+  "description": "Product of the composite numbers between n+1 and 2n, both inclusive.",
+  "id": "A157625",
+  "mentions": [
+    "A000984",
+    "A034386",
+    "A073840",
+    "A144186",
+    "A157017"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

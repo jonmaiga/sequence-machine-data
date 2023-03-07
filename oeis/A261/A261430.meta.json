@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of permutations p of [n] without fixed points such that p^k = Id; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A261430",
+  "mentions": [
+    "A000007",
+    "A001147",
+    "A008307",
+    "A052502",
+    "A052503",
+    "A052504",
+    "A261317",
+    "A261381",
+    "A261427",
+    "A261428",
+    "A261429",
+    "A261431"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

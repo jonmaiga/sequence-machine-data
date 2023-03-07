@@ -1,0 +1,18 @@
+{
+  "description": "Emirps p such that if q is the next emirp after p, 2*q-p is also an emirp.",
+  "id": "A350852",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: coefficients of the characteristic polynomial of the n-th submatrix of A191898.",
+  "id": "A293147",
+  "mentions": [
+    "A007917",
+    "A191898"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

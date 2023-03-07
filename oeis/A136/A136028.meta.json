@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (phi(q) * phi(q^2))^3 in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A136028",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A028578",
+    "A029713",
+    "A030207",
+    "A033715",
+    "A097057",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:33",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

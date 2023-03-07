@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of k2, a Diophantine approximation constant such that the area of the \"critical parallelogram\" (in this case a square) is 4*k2.",
+  "id": "A242671",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A002163",
+    "A004798",
+    "A020762",
+    "A094214",
+    "A094874",
+    "A098317",
+    "A134945",
+    "A134972",
+    "A229780"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:14:35",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

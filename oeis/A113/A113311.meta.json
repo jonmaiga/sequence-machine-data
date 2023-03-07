@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1+x)^2/(1-x).",
+  "id": "A113311",
+  "mentions": [
+    "A040000",
+    "A113310",
+    "A115291",
+    "A171418",
+    "A171440",
+    "A171443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:12:01",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

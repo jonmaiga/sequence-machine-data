@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) giving the largest member of \"the infinite trunk of factorial beanstalk\" (A219666) whose factorial base representation contains n digits (A084558) and the most significant such digit (A099563) is k.",
+  "id": "A230429",
+  "mentions": [
+    "A000142",
+    "A002024",
+    "A002260",
+    "A007623",
+    "A033312",
+    "A084558",
+    "A099563",
+    "A219651",
+    "A219666",
+    "A230420",
+    "A230428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

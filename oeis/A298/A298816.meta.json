@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the binary XOR of all n-bit squares, with a(2)=0 indicating that no 2-bit squares exist.",
+  "id": "A298816",
+  "mentions": [
+    "A000290",
+    "A007088",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

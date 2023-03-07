@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers n with equal number of odd digits in n and n-th prime.",
+  "id": "A157139",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A155548"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

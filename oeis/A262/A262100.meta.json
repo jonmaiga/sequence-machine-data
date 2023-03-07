@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 2^p + 29 is also prime.",
+  "id": "A262100",
+  "mentions": [
+    "A156982",
+    "A262098"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

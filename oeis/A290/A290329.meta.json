@@ -1,0 +1,21 @@
+{
+  "description": "Iterate the map x -> A289667(x) starting at n; sequence gives primes reached, or -1 if no prime is ever reached.",
+  "id": "A290329",
+  "mentions": [
+    "A195264",
+    "A230627",
+    "A289667",
+    "A290328"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 2,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

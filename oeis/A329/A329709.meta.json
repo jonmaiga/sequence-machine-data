@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, where the n-th row lists the (n^2+1) coefficients of (1+2*x+...+(n+1)*x^n)^n.",
+  "id": "A329709",
+  "mentions": [
+    "A181567",
+    "A329708"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

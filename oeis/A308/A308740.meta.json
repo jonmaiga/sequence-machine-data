@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of BesselI(2/3,2/3)/BesselI(-1/3,2/3).",
+  "id": "A308740",
+  "mentions": [
+    "A016789",
+    "A073744",
+    "A298241",
+    "A308739",
+    "A308741",
+    "A308742",
+    "A308743",
+    "A308744"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

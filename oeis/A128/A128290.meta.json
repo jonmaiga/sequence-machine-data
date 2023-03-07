@@ -1,0 +1,20 @@
+{
+  "description": "If p(x) is the product of the digits of the number x and s(x) the sum of the digits then the sequence lists all the numbers n for which p[s(n)]=s[p(n)], with n>=1.",
+  "id": "A128290",
+  "mentions": [
+    "A007953",
+    "A007954"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

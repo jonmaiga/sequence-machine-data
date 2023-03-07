@@ -1,0 +1,21 @@
+{
+  "description": "Three-digit numbers abc such that the quadratic equation ax^2 + bx + c = 0 has a rational root.",
+  "id": "A348139",
+  "mentions": [
+    "A033828",
+    "A267509"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

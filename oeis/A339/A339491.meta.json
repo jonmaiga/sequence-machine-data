@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest longest simple path in the divisor graph of {1,...,n}. Irregular triangle read by rows.",
+  "id": "A339491",
+  "mentions": [
+    "A337125",
+    "A339489",
+    "A339490",
+    "A339492",
+    "A339496",
+    "A340114"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

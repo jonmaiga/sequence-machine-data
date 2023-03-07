@@ -1,0 +1,22 @@
+{
+  "description": "Number of endofunctions on [n] where all cycle lengths are equal.",
+  "id": "A241980",
+  "mentions": [
+    "A005225",
+    "A061356",
+    "A212789",
+    "A242027",
+    "A243098"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

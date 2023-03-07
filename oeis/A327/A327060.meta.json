@@ -1,0 +1,31 @@
+{
+  "description": "Number of non-isomorphic weight-n weak antichains of multisets where every two vertices appear together in some edge (cointersecting).",
+  "id": "A327060",
+  "mentions": [
+    "A000372",
+    "A006126",
+    "A007716",
+    "A051185",
+    "A305844",
+    "A326704",
+    "A326853",
+    "A326965",
+    "A327020",
+    "A327039",
+    "A327057",
+    "A327058",
+    "A327059",
+    "A327062"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

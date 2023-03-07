@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of binary digits (1's and nonleading 0's) which remain unchanged in their positions when n and (n+1) are written in binary.",
+  "id": "A119387",
+  "mentions": [
+    "A000225",
+    "A000265",
+    "A000523",
+    "A007814",
+    "A048881",
+    "A070940",
+    "A086784",
+    "A220645"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

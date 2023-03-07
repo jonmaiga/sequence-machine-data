@@ -1,0 +1,18 @@
+{
+  "description": "Positions of nonzero digits in this sequence, where the terms are written in base 3 (and concatenated).",
+  "id": "A167503",
+  "mentions": [
+    "A167500"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

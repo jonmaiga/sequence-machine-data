@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of proton g factor.",
+  "id": "A327955",
+  "mentions": [
+    "A003677",
+    "A070059",
+    "A230438",
+    "A230845",
+    "A284832",
+    "A303126",
+    "A327949",
+    "A327950",
+    "A327951"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

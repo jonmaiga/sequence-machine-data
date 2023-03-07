@@ -1,0 +1,19 @@
+{
+  "description": "Finite number of units in a commutative ring; nonnegative even numbers together with products of Mersenne numbers.",
+  "id": "A296241",
+  "mentions": [
+    "A005843",
+    "A070932",
+    "A282572"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

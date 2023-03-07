@@ -1,0 +1,18 @@
+{
+  "description": "Number of surjective compatible pairs (C,O), where O is an acyclic orientation of simple labeled graph G on n nodes and C:V(G) -> {1,2,...}.",
+  "id": "A342113",
+  "mentions": [
+    "A339934"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

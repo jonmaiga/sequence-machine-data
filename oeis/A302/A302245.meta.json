@@ -1,0 +1,20 @@
+{
+  "description": "Maximum remainder of p*q divided by p+q with 0 < p <= q <= n.",
+  "id": "A302245",
+  "mentions": [
+    "A168269",
+    "A302446"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

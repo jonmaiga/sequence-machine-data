@@ -1,0 +1,20 @@
+{
+  "description": "n+floor(ns/r)+floor(nt/r), where r=log(2), s=log(3), t=log(5).",
+  "id": "A184871",
+  "mentions": [
+    "A184812",
+    "A184872",
+    "A184873",
+    "A184874"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:01",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Recurrence: a(2n) = 3a(n)-1, a(2n+1) = 1.",
+  "id": "A236313",
+  "mentions": [
+    "A003278",
+    "A005836",
+    "A006519",
+    "A007051",
+    "A007814",
+    "A061393",
+    "A093682"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

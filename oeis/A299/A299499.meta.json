@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, T(n,k) = [x^k] Sum_{k=0..n} p_{n,k}(x) where p_{n,k}(x) = x^k*binomial(n, k)*hypergeom([-k, k-n, k-n], [1, -n], 1/x), for 0 <= k <= n.",
+  "id": "A299499",
+  "mentions": [
+    "A051286",
+    "A108625",
+    "A108626",
+    "A182883",
+    "A298611",
+    "A299443",
+    "A299500"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

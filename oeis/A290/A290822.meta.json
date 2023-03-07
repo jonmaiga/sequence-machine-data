@@ -1,0 +1,21 @@
+{
+  "description": "Transitive numbers: Matula-Goebel numbers of transitive rooted trees.",
+  "id": "A290822",
+  "mentions": [
+    "A007097",
+    "A276625",
+    "A279861",
+    "A290689",
+    "A290760"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

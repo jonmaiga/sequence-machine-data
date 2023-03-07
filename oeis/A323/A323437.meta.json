@@ -1,0 +1,33 @@
+{
+  "description": "Number of semistandard Young tableaux whose entries are the prime indices of n.",
+  "id": "A323437",
+  "mentions": [
+    "A000085",
+    "A000219",
+    "A003293",
+    "A053529",
+    "A056239",
+    "A112798",
+    "A138178",
+    "A153452",
+    "A296188",
+    "A323300",
+    "A323429",
+    "A323432",
+    "A323436",
+    "A323438",
+    "A323439",
+    "A339887"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

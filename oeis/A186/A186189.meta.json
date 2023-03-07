@@ -1,0 +1,18 @@
+{
+  "description": "least k such that A074286^(k)(n)=1 where a^(k)=a(a^(k-1)).",
+  "id": "A186189",
+  "mentions": [
+    "A074286"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

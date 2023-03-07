@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma(k) = sigma(k+19), where sigma(k) is the sum of the divisors of k.",
+  "id": "A321533",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

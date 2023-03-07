@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 if n is a Lucas number, else a(n) = 0.",
+  "id": "A102460",
+  "mentions": [
+    "A000032",
+    "A010056",
+    "A104162",
+    "A105348",
+    "A123927",
+    "A130241",
+    "A130242",
+    "A130245",
+    "A130247",
+    "A147612",
+    "A294878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

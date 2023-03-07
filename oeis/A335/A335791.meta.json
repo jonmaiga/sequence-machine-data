@@ -1,0 +1,19 @@
+{
+  "description": "For any n > 1, let x(0) = 2 and for any k >= 0, x(k+1) = (x(k)^2 + 1) mod n, d(k) = gcd(abs(x(k) - x(2*k)), n); necessarily, d(k) > 1 for some k > 0; a(n) is the first such d(k).",
+  "id": "A335791",
+  "mentions": [
+    "A002522",
+    "A335792"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

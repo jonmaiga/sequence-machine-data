@@ -1,0 +1,21 @@
+{
+  "description": "Distance from sigma(n) to nearest multiple of phi(n).",
+  "id": "A302172",
+  "mentions": [
+    "A020492",
+    "A051612",
+    "A063514"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

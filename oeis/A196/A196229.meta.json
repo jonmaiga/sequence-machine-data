@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime factor p of r = A067698(n) such that sigma(r/p)/((r/p)*log(log(r/p))) > sigma(r)/(r*log(log(r))), where sigma(k) = sum of divisors of k; or 1 if no such p.",
+  "id": "A196229",
+  "mentions": [
+    "A067698"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

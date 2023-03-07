@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k with a partition into two distinct parts (s,t) such that k | s*t.",
+  "id": "A335437",
+  "mentions": [
+    "A013929",
+    "A019554",
+    "A028983",
+    "A038838",
+    "A046101",
+    "A062312",
+    "A116451",
+    "A133466",
+    "A195085",
+    "A225546",
+    "A335234",
+    "A335438"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

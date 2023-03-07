@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A319268.",
+  "id": "A319499",
+  "mentions": [
+    "A319268"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n + 1 when n <= 3, otherwise a(n) = 2^(n-2) + 3; also iterates of A005187 starting from a(1) = 2.",
+  "id": "A256994",
+  "mentions": [
+    "A000079",
+    "A005187",
+    "A062709",
+    "A068156",
+    "A256995",
+    "A256997"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

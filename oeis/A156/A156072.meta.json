@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) = 1 + a(n) - a(k) - a(n - k), where a(n) = A078012(n+2), triangle read by rows (n >= 0, 0 <= k <= n).",
+  "id": "A156072",
+  "mentions": [
+    "A000930",
+    "A078012",
+    "A156070",
+    "A176305",
+    "A176306",
+    "A176307",
+    "A176339",
+    "A176344",
+    "A176625"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

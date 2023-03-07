@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of fractional part of average number of bit toggles to reach n as defined in A324495. The denominator is given in A324497.",
+  "id": "A324496",
+  "mentions": [
+    "A003149",
+    "A324495",
+    "A324497"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

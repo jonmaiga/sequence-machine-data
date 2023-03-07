@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: t(n,k) = size of the Ferrers matrix of p(n,k).",
+  "id": "A238943",
+  "mentions": [
+    "A000041",
+    "A237981",
+    "A238944",
+    "A238945"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

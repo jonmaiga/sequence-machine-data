@@ -1,0 +1,21 @@
+{
+  "description": "Start with (1, 2, 3, 4, 5); if the sequence has n terms, extend it by appending a(n) copies of a(1..n-1): cf. \"Look to the left\" sequence A293630.",
+  "id": "A322425",
+  "mentions": [
+    "A293630",
+    "A322423",
+    "A322424",
+    "A322426"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

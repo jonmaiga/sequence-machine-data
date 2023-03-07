@@ -1,0 +1,31 @@
+{
+  "description": "Perfect powers whose prime factors span an initial interval of prime numbers.",
+  "id": "A304250",
+  "mentions": [
+    "A000837",
+    "A000961",
+    "A001597",
+    "A007916",
+    "A018783",
+    "A052409",
+    "A052410",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A178472",
+    "A303431",
+    "A303709",
+    "A304450"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

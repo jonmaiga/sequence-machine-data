@@ -1,0 +1,19 @@
+{
+  "description": "Minimal coin changing sequence for denominations 1, 2, 5, 10, 20 and 50 cents.",
+  "id": "A245574",
+  "mentions": [
+    "A001299",
+    "A011542",
+    "A057536"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

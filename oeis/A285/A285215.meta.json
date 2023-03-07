@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^(4*k))^(4*k) / (1 - x^k)^k.",
+  "id": "A285215",
+  "mentions": [
+    "A074962",
+    "A262811",
+    "A262923",
+    "A285246",
+    "A285262",
+    "A285284"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

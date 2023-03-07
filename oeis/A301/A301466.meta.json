@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k>=0} binomial(k^3, n)/2^(k+1).",
+  "id": "A301466",
+  "mentions": [
+    "A173217",
+    "A301310",
+    "A301432",
+    "A301468"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

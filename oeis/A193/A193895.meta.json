@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: the fusion of (p(n,x)) by (q(n,x)), where p(n,x)=sum{(k+1)*x^(n-k) : 0<=k<=n} and q(n,x)=sum{(k+1)*x^k : 0<=k<=n}.",
+  "id": "A193895",
+  "mentions": [
+    "A193722",
+    "A193896"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

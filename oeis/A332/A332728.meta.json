@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n whose negated first differences (assuming the last part is zero) are unimodal.",
+  "id": "A332728",
+  "mentions": [
+    "A000041",
+    "A001523",
+    "A007052",
+    "A325325",
+    "A332280",
+    "A332283",
+    "A332284",
+    "A332285",
+    "A332286",
+    "A332287",
+    "A332577",
+    "A332578",
+    "A332638",
+    "A332639",
+    "A332642",
+    "A332669",
+    "A332670",
+    "A332726",
+    "A332741",
+    "A332744"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

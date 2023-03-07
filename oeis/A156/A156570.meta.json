@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6*a(n-1)-a(n-2) for n > 2; a(1)=17, a(2)=65.",
+  "id": "A156570",
+  "mentions": [
+    "A156035",
+    "A156567",
+    "A156568",
+    "A156569"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:20:08",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows which are rows of successive n X n matrices M(n) with entries M(n)[i,j] = i*j mod n+1.",
+  "id": "A352620",
+  "mentions": [
+    "A048153",
+    "A074930",
+    "A088922",
+    "A160255",
+    "A349099"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

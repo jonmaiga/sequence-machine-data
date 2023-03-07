@@ -1,0 +1,29 @@
+{
+  "description": "Connell (3,5)-sum sequence (partial sums of the (3,5)-Connell sequence)",
+  "id": "A122796",
+  "mentions": [
+    "A001614",
+    "A045928",
+    "A045929",
+    "A045930",
+    "A122793",
+    "A122794",
+    "A122795",
+    "A122797",
+    "A122798",
+    "A122799",
+    "A122800"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

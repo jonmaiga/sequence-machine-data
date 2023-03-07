@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest prime p congruent to 1 mod n such that the multiplicative subgroup H of (Z/pZ)* of index n contains no nontrivial mod-p arithmetic progression of length 3.",
+  "id": "A298565",
+  "mentions": [
+    "A298566"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

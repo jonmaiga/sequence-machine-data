@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*A340339(n)+b, where b = 1 if n is even or 2 if n is odd.",
+  "id": "A340340",
+  "mentions": [
+    "A000034",
+    "A340339"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

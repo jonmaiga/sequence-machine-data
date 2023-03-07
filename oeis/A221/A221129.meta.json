@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of form k*2^n + n where 1 <= k < 2^n and n > 0.",
+  "id": "A221129",
+  "mentions": [
+    "A199116",
+    "A221130"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

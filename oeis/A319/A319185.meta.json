@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are sums of consecutive hexagonal numbers (A000384).",
+  "id": "A319185",
+  "mentions": [
+    "A000384",
+    "A002412",
+    "A034705",
+    "A034706",
+    "A319184",
+    "A322636",
+    "A322637"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

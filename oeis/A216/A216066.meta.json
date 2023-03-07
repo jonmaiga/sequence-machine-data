@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = card {cos((2^k)*Pi/(2*n-1)): k in N}.",
+  "id": "A216066",
+  "mentions": [
+    "A002322",
+    "A003558",
+    "A065457",
+    "A072451"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

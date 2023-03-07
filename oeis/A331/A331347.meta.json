@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations w in S_n that form Boolean intervals [s, w] in the Bruhat order for every simple reflection s in the support of w.",
+  "id": "A331347",
+  "mentions": [
+    "A001519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

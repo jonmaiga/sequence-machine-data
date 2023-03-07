@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k the smallest solution of A023900(m) = s, m >= 1, s <> 0, such that A023900(k) is negative and k is nonprime.",
+  "id": "A300790",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A008683",
+    "A023900",
+    "A023909"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

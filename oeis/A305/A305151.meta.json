@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2n+1) - A294673(n), the amount by which A294673 is less than the maximum possible for n.",
+  "id": "A305151",
+  "mentions": [
+    "A294673"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

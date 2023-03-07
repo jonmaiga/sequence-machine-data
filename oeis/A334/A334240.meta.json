@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = exp(-n) * Sum_{k>=0} (k + 1)^n * n^k / k!.",
+  "id": "A334240",
+  "mentions": [
+    "A242817",
+    "A299824",
+    "A334162",
+    "A334241",
+    "A334242",
+    "A334243"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

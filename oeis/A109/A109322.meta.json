@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum positive integer j such that [j, j+n-1] does not contain any values of sigma(k) (i.e., sum of all positive divisors of k).",
+  "id": "A109322",
+  "mentions": [
+    "A109323",
+    "A109324",
+    "A110875"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

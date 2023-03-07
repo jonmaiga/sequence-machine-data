@@ -1,0 +1,26 @@
+{
+  "description": "Bitwise-XOR of absolute values of (n - A048250(n)) and (n - A162296(n)).",
+  "id": "A325315",
+  "mentions": [
+    "A000396",
+    "A003987",
+    "A028982",
+    "A048250",
+    "A162296",
+    "A228058",
+    "A325310",
+    "A325313",
+    "A325314"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

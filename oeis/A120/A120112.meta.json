@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of number triangle A120111.",
+  "id": "A120112",
+  "mentions": [
+    "A014963",
+    "A120111",
+    "A133232",
+    "A133233"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

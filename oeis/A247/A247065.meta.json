@@ -1,0 +1,25 @@
+{
+  "description": "Dynamic Betting Game D(n,6,1).",
+  "id": "A247065",
+  "mentions": [
+    "A247061",
+    "A247062",
+    "A247063",
+    "A247064",
+    "A247066",
+    "A247160",
+    "A247161"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:53",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

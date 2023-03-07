@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that all numbers {1...m} appear in the sequence {b(0) = m, b(n+1) = b(n)/2 if even, m-(b(n)+1)/2 otherwise}.",
+  "id": "A137606",
+  "mentions": [
+    "A001122",
+    "A096259",
+    "A105874",
+    "A137607"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 648*n^2 + 72*n + 1.",
+  "id": "A154510",
+  "mentions": [
+    "A154511"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:14:59",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

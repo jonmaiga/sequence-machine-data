@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n which are neither a prime nor a square of a prime such that there is no d, 2<=d<=n/2, which divides binomial(n-d-1,d-1) and is not coprime to n.",
+  "id": "A269135",
+  "mentions": [
+    "A001359",
+    "A178071",
+    "A178098",
+    "A178099"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

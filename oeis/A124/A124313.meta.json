@@ -1,0 +1,20 @@
+{
+  "description": "Pentanacci numbers: a(n) = a(n-1) + a(n-2) + a(n-3) + a(n-4) + a(n-5), starting 1,0,0,0,1.",
+  "id": "A124313",
+  "mentions": [
+    "A001591",
+    "A124312",
+    "A124314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:32:23",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

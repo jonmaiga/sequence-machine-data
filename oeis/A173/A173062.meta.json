@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2^r * 13^s - 1.",
+  "id": "A173062",
+  "mentions": [
+    "A000668",
+    "A005105",
+    "A077313",
+    "A077314",
+    "A077315"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

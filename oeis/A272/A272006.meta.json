@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A003617(n) - A062397(n-1).",
+  "id": "A272006",
+  "mentions": [
+    "A003617",
+    "A033873",
+    "A062397"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:09",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

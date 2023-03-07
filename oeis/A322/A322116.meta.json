@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of triangle A321600; a(n) = A321600(n,n-1) for n >= 1.",
+  "id": "A322116",
+  "mentions": [
+    "A105696",
+    "A257970",
+    "A321600"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:15:43",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

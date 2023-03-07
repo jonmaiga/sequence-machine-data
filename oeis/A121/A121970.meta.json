@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that if you subtract n from its reversal you get a positive number with the same digits as n.",
+  "id": "A121970",
+  "mentions": [
+    "A055161",
+    "A121969"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

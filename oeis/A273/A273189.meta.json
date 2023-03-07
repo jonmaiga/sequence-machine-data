@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the third number in a triple consisting of 3 numbers, which when squared are part of a right diagonal of a magic square of squares.",
+  "id": "A273189",
+  "mentions": [
+    "A178218",
+    "A273182",
+    "A273187"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

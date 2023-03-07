@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = round(F(n)^(1/2)) where F(n) is the n-th Fibonacci number (A000045).",
+  "id": "A100665",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

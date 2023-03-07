@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which A234742(n) = n: numbers n whose binary representation encodes a GF(2)[X]-polynomial such that when its irreducible factors are multiplied together as ordinary integers (with carry-bits), the result is n.",
+  "id": "A235035",
+  "mentions": [
+    "A014580",
+    "A234742",
+    "A235032",
+    "A235033",
+    "A235034",
+    "A235036",
+    "A236379"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

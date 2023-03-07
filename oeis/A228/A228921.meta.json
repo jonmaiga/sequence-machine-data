@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to Sum_{i=1..n} x_i^2 == 0 (mod 8) with x_i in 0..7.",
+  "id": "A228921",
+  "mentions": [
+    "A228920",
+    "A229136",
+    "A229138"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

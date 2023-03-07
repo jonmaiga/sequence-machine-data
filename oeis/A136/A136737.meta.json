@@ -1,0 +1,25 @@
+{
+  "description": "Square array, read by antidiagonals, where T(n,k) = T(n,k-1) + T(n-1,k+n+1) for n>0, k>0, such that T(n,0) = T(n-1,n+1) for n>0 with T(0,k)=1 for k>=0.",
+  "id": "A136737",
+  "mentions": [
+    "A101479",
+    "A121413",
+    "A121417",
+    "A121422",
+    "A121427",
+    "A136730",
+    "A136733",
+    "A136741"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

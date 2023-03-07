@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that exp(H_k)*log(H_k) <= sigma(k), where H_k is the harmonic number.",
+  "id": "A306348",
+  "mentions": [
+    "A000203",
+    "A067698",
+    "A079526",
+    "A079527"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

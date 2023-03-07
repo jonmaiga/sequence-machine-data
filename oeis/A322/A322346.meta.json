@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of vertices of a convex lattice polygon of genus n, restricted to those polygons that are interior to another polygon.",
+  "id": "A322346",
+  "mentions": [
+    "A322343",
+    "A322345"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

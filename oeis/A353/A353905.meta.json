@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = smallest positive number that has not appeared that has a common factor with a(n-1) + the smallest unseen positive number.",
+  "id": "A353905",
+  "mentions": [
+    "A064413",
+    "A085229",
+    "A089088",
+    "A093714",
+    "A337136"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

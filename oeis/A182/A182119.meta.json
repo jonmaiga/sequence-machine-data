@@ -1,0 +1,22 @@
+{
+  "description": "Table of triangular arguments such that if A002262(14*k) = \"r\" then the product A182439(k,i + 1) *A182439(k,i + 2) equals \"r\" + A000217(a(k,i)) for i3.",
+  "id": "A182119",
+  "mentions": [
+    "A000217",
+    "A002262",
+    "A182188",
+    "A182190",
+    "A182439"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

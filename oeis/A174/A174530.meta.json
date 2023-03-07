@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the second row of the Akiyama-Tanigawa table for the sequence 1/n!.",
+  "id": "A174530",
+  "mentions": [
+    "A005563",
+    "A014182",
+    "A074051",
+    "A080305",
+    "A089026",
+    "A090585"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

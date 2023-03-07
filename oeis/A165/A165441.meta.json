@@ -1,0 +1,30 @@
+{
+  "description": "Table T(k,n) read by antidiagonals: denominator of 1/min(n,k)^2 -1/max(n,k)^2.",
+  "id": "A165441",
+  "mentions": [
+    "A000290",
+    "A061038",
+    "A061040",
+    "A061042",
+    "A061044",
+    "A061046",
+    "A061048",
+    "A061050",
+    "A165727"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

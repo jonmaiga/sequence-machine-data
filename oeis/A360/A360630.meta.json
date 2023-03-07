@@ -1,0 +1,20 @@
+{
+  "description": "Number of sets of integer-sided rectangular pieces that can tile an n X n square.",
+  "id": "A360630",
+  "mentions": [
+    "A034295",
+    "A360629"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

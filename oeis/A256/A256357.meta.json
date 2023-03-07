@@ -1,0 +1,21 @@
+{
+  "description": "L.g.f.: log( 1 + Sum_{n>=1} x^(n^2) + x^(2*n^2) ).",
+  "id": "A256357",
+  "mentions": [
+    "A028982",
+    "A093709",
+    "A258328",
+    "A258655"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

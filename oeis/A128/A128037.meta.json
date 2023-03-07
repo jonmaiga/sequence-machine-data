@@ -1,0 +1,19 @@
+{
+  "description": "Maximal possible number of vectors in {0,1,2,3}^n such that the Hamming distance between every two is odd.",
+  "id": "A128037",
+  "mentions": [
+    "A128036"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

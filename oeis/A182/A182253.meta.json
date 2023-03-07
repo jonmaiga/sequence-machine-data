@@ -1,0 +1,23 @@
+{
+  "description": "Nonprime numbers n such that n^2 + n + 1 is prime.",
+  "id": "A182253",
+  "mentions": [
+    "A002383",
+    "A002384",
+    "A053182",
+    "A053183",
+    "A085104",
+    "A125134",
+    "A185632"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

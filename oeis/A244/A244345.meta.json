@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of xi_3 = 5*G, the volume of an ideal hyperbolic cube, where G is Gieseking's constant.",
+  "id": "A244345",
+  "mentions": [
+    "A143298",
+    "A242710"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

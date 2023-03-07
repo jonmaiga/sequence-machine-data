@@ -1,0 +1,24 @@
+{
+  "description": "Number of the column of the Wythoff array (A035513) that contains U(n), where U = A001950, the upper Wythoff sequence.",
+  "id": "A255671",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A035513",
+    "A035612",
+    "A225670",
+    "A255670"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the Hausdorff dimension of 4 X 2 carpets with rows of 3 and 1 sub-parts.",
+  "id": "A343620",
+  "mentions": [
+    "A090388",
+    "A346639"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Largest number with exactly n representations as a sum of five nonnegative squares.",
+  "id": "A295160",
+  "mentions": [
+    "A000174",
+    "A294159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

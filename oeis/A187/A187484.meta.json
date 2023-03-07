@@ -1,0 +1,22 @@
+{
+  "description": "Rank transform of the sequence A004526=(0,0,1,1,2,2,3,3,4,4,...); complement of A187475.",
+  "id": "A187484",
+  "mentions": [
+    "A000027",
+    "A004526",
+    "A187224",
+    "A187422",
+    "A187475",
+    "A187485"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

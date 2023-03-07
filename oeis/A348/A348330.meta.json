@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any n > 0, the sum of the indices k < n such that a(k) = a(n) is strictly less than n.",
+  "id": "A348330",
+  "mentions": [
+    "A000079",
+    "A348331",
+    "A348356",
+    "A348357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

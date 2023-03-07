@@ -1,0 +1,28 @@
+{
+  "description": "Number of labeled n-vertex 2-edge multigraphs that are neither crossing nor nesting.",
+  "id": "A326247",
+  "mentions": [
+    "A000108",
+    "A001519",
+    "A002061",
+    "A006125",
+    "A054726",
+    "A095661",
+    "A117662",
+    "A324170",
+    "A326244",
+    "A326250",
+    "A326256"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:47",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

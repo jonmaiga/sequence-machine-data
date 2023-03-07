@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of C. A. Laisant for k<=0 (see A062111 and A152920).",
+  "id": "A159755",
+  "mentions": [
+    "A001787",
+    "A045618",
+    "A062111",
+    "A152920"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

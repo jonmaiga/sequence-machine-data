@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n binary words such that maximal runs of 1's are restricted to length one or two and maximal runs of 0's are of odd length.",
+  "id": "A236340",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:04:05",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

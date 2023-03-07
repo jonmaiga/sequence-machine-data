@@ -1,0 +1,20 @@
+{
+  "description": "Where record values occur in A125717.",
+  "id": "A245395",
+  "mentions": [
+    "A064227",
+    "A125717",
+    "A245340",
+    "A245394"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of (all parts of) all partitions of prime(n).",
+  "id": "A182723",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000041",
+    "A066186",
+    "A135010"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

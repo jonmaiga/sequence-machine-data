@@ -1,0 +1,28 @@
+{
+  "description": "Multiplicative with a(p^e) = p^max(0,(floor(e/2)-1)).",
+  "id": "A295658",
+  "mentions": [
+    "A000188",
+    "A003557",
+    "A004526",
+    "A020639",
+    "A028234",
+    "A046100",
+    "A053164",
+    "A067029",
+    "A157289",
+    "A295657"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

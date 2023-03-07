@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n, k) = [x^k]( p(n, x) ), where p(n, x) = ( (1-x)^(n+1) * Sum_{k >= 0} (2*k+1)^(n-1)*x^k )^2, read by rows.",
+  "id": "A165890",
+  "mentions": [
+    "A000007",
+    "A158782",
+    "A165883",
+    "A165889",
+    "A165891"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

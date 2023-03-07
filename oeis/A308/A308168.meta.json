@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m that cannot be represented as a k-tuple factorial b!k for any b and k < m-1.",
+  "id": "A308168",
+  "mentions": [
+    "A129116",
+    "A259282"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

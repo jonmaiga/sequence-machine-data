@@ -1,0 +1,21 @@
+{
+  "description": "Array a(n,m) read by antidiagonals where a(0,m)=a(1,m)=1 and a(n,m) = m*a(n-1,m)-a(n-2,m) for n>=2.",
+  "id": "A218220",
+  "mentions": [
+    "A094954",
+    "A162997",
+    "A218219"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

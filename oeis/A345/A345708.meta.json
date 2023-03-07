@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive number starting an interval of consecutive integers whose product of elements is n.",
+  "id": "A345708",
+  "mentions": [
+    "A000142",
+    "A001710",
+    "A068424",
+    "A118235",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

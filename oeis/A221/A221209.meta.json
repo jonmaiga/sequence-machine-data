@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of two times the Catalan constant.",
+  "id": "A221209",
+  "mentions": [
+    "A006752"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

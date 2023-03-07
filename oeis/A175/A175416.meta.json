@@ -1,0 +1,18 @@
+{
+  "description": "Those positive integers n that when written in binary, each run of 0's and 1's has a length which is coprime to the number of binary digits of n.",
+  "id": "A175416",
+  "mentions": [
+    "A175415"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:25",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

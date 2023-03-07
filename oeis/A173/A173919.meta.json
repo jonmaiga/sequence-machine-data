@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are prime or one less than a prime.",
+  "id": "A173919",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A006093",
+    "A068780",
+    "A147846"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

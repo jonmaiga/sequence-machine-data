@@ -1,0 +1,19 @@
+{
+  "description": "Odd odious numbers (A000069), all divisors of which are odious.",
+  "id": "A227921",
+  "mentions": [
+    "A000069",
+    "A027697"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

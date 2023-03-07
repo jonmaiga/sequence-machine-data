@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row n gives, in increasing order, the prime divisors of all the composites of the form k^2 + 1 between the two primes A002496(n) and A002496(n+1).",
+  "id": "A211175",
+  "mentions": [
+    "A002144",
+    "A002496",
+    "A002522",
+    "A134406",
+    "A181413",
+    "A206400"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

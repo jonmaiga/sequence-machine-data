@@ -1,0 +1,19 @@
+{
+  "description": "Irregular array read by rows: row n contains the sums of each pair of consecutive positive divisors of n.",
+  "id": "A136195",
+  "mentions": [
+    "A032741",
+    "A136193"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

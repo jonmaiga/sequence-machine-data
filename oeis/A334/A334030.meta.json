@@ -1,0 +1,38 @@
+{
+  "description": "Number of combinatory separations of a multiset whose multiplicities are the parts of the n-th composition in standard order.",
+  "id": "A334030",
+  "mentions": [
+    "A000120",
+    "A034691",
+    "A065609",
+    "A066099",
+    "A070939",
+    "A095684",
+    "A233564",
+    "A269134",
+    "A272919",
+    "A275692",
+    "A292884",
+    "A318284",
+    "A318559",
+    "A318560",
+    "A318563",
+    "A326774",
+    "A329312",
+    "A333764",
+    "A333765",
+    "A333939",
+    "A333940",
+    "A333942"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

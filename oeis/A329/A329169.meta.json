@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k=(a+b)*c=a*b+c for more than one triple (a,b,c) with 1",
+  "id": "A329169",
+  "mentions": [
+    "A191676"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

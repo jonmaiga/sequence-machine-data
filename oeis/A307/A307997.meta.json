@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of A023896(k) over the totatives of n.",
+  "id": "A307997",
+  "mentions": [
+    "A023896",
+    "A143620",
+    "A213544"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

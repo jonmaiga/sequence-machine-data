@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by rows: T(n,k) = 19*n^2+10*k^2-(n-1)*(20*(k-1)+10), with 14 columns.",
+  "id": "A140340",
+  "mentions": [
+    "A140754",
+    "A140755"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

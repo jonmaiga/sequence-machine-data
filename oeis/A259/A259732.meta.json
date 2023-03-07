@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n > 1 that divide ((p-1)/2)^3 + 2 for some odd prime p.",
+  "id": "A259732",
+  "mentions": [
+    "A040028",
+    "A057760",
+    "A179871"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

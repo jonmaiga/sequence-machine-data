@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime that takes n steps to get to 1, each step reducing the prime by the largest power of 2 possible, with the resultant number a prime.",
+  "id": "A278455",
+  "mentions": [
+    "A278454"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A156595(k-1) = 0; complement of A189716.",
+  "id": "A189715",
+  "mentions": [
+    "A007913",
+    "A055040",
+    "A055047",
+    "A156595",
+    "A189716",
+    "A189717"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

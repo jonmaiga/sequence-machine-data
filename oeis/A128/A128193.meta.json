@@ -1,0 +1,20 @@
+{
+  "description": "First differences of values of n for Cullen primes in A005849.",
+  "id": "A128193",
+  "mentions": [
+    "A005849",
+    "A128194"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

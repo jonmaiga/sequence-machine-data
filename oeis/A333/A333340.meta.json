@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive number k such that n divides 4^k - k.",
+  "id": "A333340",
+  "mentions": [
+    "A072872",
+    "A333335",
+    "A333339",
+    "A333341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

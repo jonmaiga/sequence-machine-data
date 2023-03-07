@@ -1,0 +1,21 @@
+{
+  "description": "The number of tilings of an n X n rectangle using integer length rectangles with at least one side of length 1, i.e., tiles are of size (1 X i) or (i X 1) with 1<=i<=n.",
+  "id": "A254127",
+  "mentions": [
+    "A052961",
+    "A254124",
+    "A254125",
+    "A254126",
+    "A254414"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

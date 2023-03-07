@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that set a new record m where m is the largest left-truncatable prime up to the final k (stop on reaching the final k).",
+  "id": "A355458",
+  "mentions": [
+    "A024785"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of \"feasible\" partitions of the smallest natural number of length n.",
+  "id": "A254431",
+  "mentions": [
+    "A254296",
+    "A254430",
+    "A254432",
+    "A254433",
+    "A254435",
+    "A254436",
+    "A254437",
+    "A254438",
+    "A254439",
+    "A254440",
+    "A254442"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of graceful labelings for a simple graph on n nodes.",
+  "id": "A333728",
+  "mentions": [
+    "A334307",
+    "A339892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

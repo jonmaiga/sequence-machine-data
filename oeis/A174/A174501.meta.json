@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction expansion for exp( Sum_{n>=1} 1/(n*A003499(n)) ), where A003499(n) = (3+sqrt(8))^n + (3-sqrt(8))^n.",
+  "id": "A174501",
+  "mentions": [
+    "A003499",
+    "A174500",
+    "A174502"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

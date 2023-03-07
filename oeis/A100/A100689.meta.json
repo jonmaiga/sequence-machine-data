@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime(n) * 4^prime(n) - 1.",
+  "id": "A100689",
+  "mentions": [
+    "A000040",
+    "A060416"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:10:25",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes such that all pairwise sums are squarefree.",
+  "id": "A214773",
+  "mentions": [
+    "A005117",
+    "A077224",
+    "A214735"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

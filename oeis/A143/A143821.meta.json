@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the constant 1/2! + 1/5! + 1/8! + ... = 0.50835 81599 84216 ... .",
+  "id": "A143821",
+  "mentions": [
+    "A073742",
+    "A073743",
+    "A143815",
+    "A143816",
+    "A143817",
+    "A143818",
+    "A143819",
+    "A143820"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

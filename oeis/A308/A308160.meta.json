@@ -1,0 +1,19 @@
+{
+  "description": "Take all the integer-sided isosceles triangles with perimeter n and sides a, b, and c such that a <= b <= c. a(n) is the sum of all the b's.",
+  "id": "A308160",
+  "mentions": [
+    "A308158",
+    "A308159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:17",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

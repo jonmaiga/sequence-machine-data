@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that usigma(n) = usigma(2*n+1) where usigma(n) = A034448(n).",
+  "id": "A286837",
+  "mentions": [
+    "A034448",
+    "A064125",
+    "A272553"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

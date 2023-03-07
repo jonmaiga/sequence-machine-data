@@ -1,0 +1,18 @@
+{
+  "description": "Isomer numbers for the constant-isomer series: the Kekulean even carbon series (ordinary and TRS benzenoid hydrocarbons).",
+  "id": "A129012",
+  "mentions": [
+    "A129013",
+    "A129021"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

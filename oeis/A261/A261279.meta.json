@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of A065649, a permutation of nonnegative integers based on Champernowne's constant.",
+  "id": "A261279",
+  "mentions": [
+    "A065649",
+    "A065650",
+    "A261293",
+    "A261294",
+    "A261335"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

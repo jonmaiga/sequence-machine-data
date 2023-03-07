@@ -1,0 +1,17 @@
+{
+  "description": "m such that the integer part of sigma(m)/phi(m) is not attained by any integer less than m.",
+  "id": "A216920",
+  "mentions": [
+    "A185339"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

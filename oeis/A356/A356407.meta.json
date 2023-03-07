@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} Sum_{d|k} 1/(d * ((k/d)!)^d).",
+  "id": "A356407",
+  "mentions": [
+    "A182926",
+    "A356009",
+    "A356406",
+    "A356409"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

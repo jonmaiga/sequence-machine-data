@@ -1,0 +1,19 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A140263(n-1)+1.",
+  "id": "A140265",
+  "mentions": [
+    "A140263",
+    "A140266"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

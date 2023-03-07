@@ -1,0 +1,20 @@
+{
+  "description": "Array listed by rows: row n is all numbers k such that k^2 + (sum of n-th powers of the digits of k^2) is a square.",
+  "id": "A360424",
+  "mentions": [
+    "A360422"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

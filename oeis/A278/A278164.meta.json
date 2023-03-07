@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: row n (n >= 0) is obtained by listing numbers 0 .. A000123(n)-1.",
+  "id": "A278164",
+  "mentions": [
+    "A000123",
+    "A131205",
+    "A277904",
+    "A278163"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

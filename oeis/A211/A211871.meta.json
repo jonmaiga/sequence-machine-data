@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of permutations of n elements with no fixed points and largest cycle of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A211871",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000142",
+    "A000166",
+    "A055814",
+    "A123023",
+    "A211880",
+    "A348075"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

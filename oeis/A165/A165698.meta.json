@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the reversal of all six numbers n^k, k",
+  "id": "A165698",
+  "mentions": [
+    "A118212",
+    "A118213",
+    "A165696",
+    "A165697",
+    "A165699"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

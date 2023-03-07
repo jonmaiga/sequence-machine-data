@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Legendre's constant (incorrect, the true value is 1, as in A000007).",
+  "id": "A228211",
+  "mentions": [
+    "A000007"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

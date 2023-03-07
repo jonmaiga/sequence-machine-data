@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximal independent sets in the binary de Bruijn graph of order n.",
+  "id": "A333077",
+  "mentions": [
+    "A006946",
+    "A333078"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

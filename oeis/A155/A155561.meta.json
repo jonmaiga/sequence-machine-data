@@ -1,0 +1,19 @@
+{
+  "description": "Intersection of A000404 and A154777: N = a^2 + b^2 = c^2 + 2d^2 with a,b,c,d>0",
+  "id": "A155561",
+  "mentions": [
+    "A000404",
+    "A154777"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

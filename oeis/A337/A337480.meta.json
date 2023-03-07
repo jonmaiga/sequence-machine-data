@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that exactly one of 6*k + 5 and 12*k + 5 is prime.",
+  "id": "A337480",
+  "mentions": [
+    "A063913",
+    "A145487",
+    "A145490",
+    "A172287"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

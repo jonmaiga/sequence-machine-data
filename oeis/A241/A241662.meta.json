@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form m * 10^k where gcd(10, m) = 1 and k >= 0 and m > 0.",
+  "id": "A241662",
+  "mentions": [
+    "A045572",
+    "A064615"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "A(n,k) = n! * Laguerre(n,-k); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A289192",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A002720",
+    "A008865",
+    "A087912",
+    "A253286",
+    "A277373",
+    "A277382",
+    "A289147",
+    "A289211",
+    "A289212",
+    "A289213",
+    "A289214",
+    "A289215",
+    "A289216",
+    "A341014"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

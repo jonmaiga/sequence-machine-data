@@ -1,0 +1,28 @@
+{
+  "description": "Number of multiset partitions of integer partitions of n where all parts have the same product.",
+  "id": "A320886",
+  "mentions": [
+    "A001055",
+    "A001970",
+    "A045778",
+    "A050336",
+    "A279375",
+    "A294617",
+    "A294786",
+    "A294787",
+    "A294788",
+    "A320887",
+    "A320888",
+    "A320889"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

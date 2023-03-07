@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-7 0..n arrays with no repeated value greater than the previous repeated value.",
+  "id": "A269439",
+  "mentions": [
+    "A269435"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:13",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

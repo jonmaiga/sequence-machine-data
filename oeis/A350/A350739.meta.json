@@ -1,0 +1,19 @@
+{
+  "description": "Number of polykagomes with n cells, distinguishing mirror images.",
+  "id": "A350739",
+  "mentions": [
+    "A343398"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

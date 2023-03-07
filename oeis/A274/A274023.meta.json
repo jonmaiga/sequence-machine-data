@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2^(2^n) + 13.",
+  "id": "A274023",
+  "mentions": [
+    "A019434",
+    "A104067",
+    "A130730",
+    "A273547",
+    "A274022"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

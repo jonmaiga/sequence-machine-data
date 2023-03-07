@@ -1,0 +1,19 @@
+{
+  "description": "Sphenic numbers that are the product of Mersenne primes.",
+  "id": "A346138",
+  "mentions": [
+    "A007304",
+    "A046528",
+    "A144856"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

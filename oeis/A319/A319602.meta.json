@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with at least two representations as truncated triangular numbers.",
+  "id": "A319602",
+  "mentions": [
+    "A008867",
+    "A008912"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

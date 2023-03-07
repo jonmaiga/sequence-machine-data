@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form primorial(P(k))/2-2^n with minimal n, n>=0, k>=2.",
+  "id": "A103513",
+  "mentions": [
+    "A002110",
+    "A005234",
+    "A006794",
+    "A014545",
+    "A018239",
+    "A057704",
+    "A057705",
+    "A103154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

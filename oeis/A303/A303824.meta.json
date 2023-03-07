@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of writing n as a sum of powers of 6, each power being used at most six times.",
+  "id": "A303824",
+  "mentions": [
+    "A054390",
+    "A277872",
+    "A277873",
+    "A303825"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

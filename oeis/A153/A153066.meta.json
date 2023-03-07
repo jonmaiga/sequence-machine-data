@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction for L(2, chi3), where L(s, chi3) is the Dirichlet L-function for the non-principal character modulo 3.",
+  "id": "A153066",
+  "mentions": [
+    "A086724",
+    "A102283",
+    "A153067",
+    "A153068"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

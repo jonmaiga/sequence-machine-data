@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( 1/A(x)^3 * Integral A(x)^8 dx ).",
+  "id": "A232692",
+  "mentions": [
+    "A047399",
+    "A065923",
+    "A232690",
+    "A232691"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

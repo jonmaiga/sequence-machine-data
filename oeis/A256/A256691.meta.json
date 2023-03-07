@@ -1,0 +1,26 @@
+{
+  "description": "From fourth root of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose fourth power is zeta function; sequence gives denominator of b(n).",
+  "id": "A256691",
+  "mentions": [
+    "A046643",
+    "A046644",
+    "A256688",
+    "A256689",
+    "A256690",
+    "A256692",
+    "A256693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

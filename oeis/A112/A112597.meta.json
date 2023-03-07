@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of x, where x is the smallest number for which floor[x^(2^y)] is prime for every y>0.",
+  "id": "A112597",
+  "mentions": [
+    "A051021"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

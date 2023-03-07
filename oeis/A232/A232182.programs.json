@@ -1,0 +1,126 @@
+{
+  "oi": 232182,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(π/2)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "2",
+        "/",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(2/π)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "π",
+        "/",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[atan(acos(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "acos",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-02-03",
+      "ix": "limit[atan(acot(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "acot",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[atan(atan(exp(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "exp",
+        "atan",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(cos(acot(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "acot",
+        "cos",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acos(sin(acot(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "acot",
+        "sin",
+        "acos",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(cos(acot(asin(1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "acot",
+        "cos",
+        "asin",
+        "de"
+      ]
+    }
+  ]
+}

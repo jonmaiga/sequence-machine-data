@@ -1,0 +1,23 @@
+{
+  "description": "Number of 3-dimensional tilings of a 2 X 2 X 3n box using trominos (three 1 X 1 X 1 cubes).",
+  "id": "A359885",
+  "mentions": [
+    "A001045",
+    "A006253",
+    "A335559",
+    "A359884",
+    "A359886"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

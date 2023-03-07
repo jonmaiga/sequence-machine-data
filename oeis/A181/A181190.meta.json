@@ -1,0 +1,30 @@
+{
+  "description": "Maximal length of chain-addition sequence mod 10 with window of size n.",
+  "id": "A181190",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001175",
+    "A001591",
+    "A001592",
+    "A003893",
+    "A046738",
+    "A079262",
+    "A106295",
+    "A106303",
+    "A122189"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of coefficient in the interpolation polynomial for initial values of the factorial, read by rows.",
+  "id": "A103361",
+  "mentions": [
+    "A000166",
+    "A053556",
+    "A053557",
+    "A103360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

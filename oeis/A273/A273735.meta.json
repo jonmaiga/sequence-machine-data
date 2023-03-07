@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of n elements divided by the number of 7-ary heaps on n+1 elements.",
+  "id": "A273735",
+  "mentions": [
+    "A000142",
+    "A273694",
+    "A273730"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

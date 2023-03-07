@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest prime q such that Sum_{primes p <= q} 1/sqrt(p) >= n.",
+  "id": "A292775",
+  "mentions": [
+    "A019529",
+    "A054040",
+    "A292774"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

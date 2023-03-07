@@ -1,0 +1,19 @@
+{
+  "description": "Least monotonically increasing logarithmic derivative consisting of only squares.",
+  "id": "A177430",
+  "mentions": [
+    "A177431",
+    "A177432"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

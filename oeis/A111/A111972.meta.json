@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Max(omega(k): 1<=k<=n), where omega(n) = A001221(n), the number of distinct prime factors of n.",
+  "id": "A111972",
+  "mentions": [
+    "A000523",
+    "A001221",
+    "A001222",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

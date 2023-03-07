@@ -1,0 +1,23 @@
+{
+  "description": "Cousin primes, the lower of which is 7 (mod 10).",
+  "id": "A138122",
+  "mentions": [
+    "A010688",
+    "A023200",
+    "A030432",
+    "A046132",
+    "A076746",
+    "A132242",
+    "A132243"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

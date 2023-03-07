@@ -1,0 +1,19 @@
+{
+  "description": "Differentiate the g.f. underlying A032188 and evaluate it at x=1.",
+  "id": "A298013",
+  "mentions": [
+    "A002720",
+    "A032188"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

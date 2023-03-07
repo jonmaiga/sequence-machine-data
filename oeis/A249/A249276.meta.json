@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of fractions appearing in a generalization of Carleman's inequality.",
+  "id": "A249276",
+  "mentions": [
+    "A219245",
+    "A219246",
+    "A219336",
+    "A249277"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

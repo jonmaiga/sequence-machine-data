@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number x satisfying x^2 + 2x + 5 = e^x.",
+  "id": "A201894",
+  "mentions": [
+    "A201741"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:34:29",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

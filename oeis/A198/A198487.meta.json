@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nonprime positive numbers whose digital product = n, or 0 if impossible.",
+  "id": "A198487",
+  "mentions": [
+    "A068191",
+    "A107698"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

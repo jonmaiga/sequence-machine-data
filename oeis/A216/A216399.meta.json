@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that the number of times digit 'm' used for writing the decimal representation of the numbers from 1 to k is equal to k for more than one value of m in the range m = 1 to 9.",
+  "id": "A216399",
+  "mentions": [
+    "A014778",
+    "A101639",
+    "A101640",
+    "A101641",
+    "A130427",
+    "A130428",
+    "A130429",
+    "A130430",
+    "A130431",
+    "A130432",
+    "A216398"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

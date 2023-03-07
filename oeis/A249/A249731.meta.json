@@ -1,0 +1,23 @@
+{
+  "description": "Number of multiples of 4 on row n of Pascal's triangle minus the number of multiples of 9 on the same row: a(n) = A249732(n) - A249733(n).",
+  "id": "A249731",
+  "mentions": [
+    "A007318",
+    "A034931",
+    "A095143",
+    "A249723",
+    "A249732",
+    "A249733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

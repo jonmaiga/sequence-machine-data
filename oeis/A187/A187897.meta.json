@@ -1,0 +1,22 @@
+{
+  "description": "Rank transform of the sequence A159481; complement of A187898.",
+  "id": "A187897",
+  "mentions": [
+    "A000027",
+    "A010059",
+    "A159481",
+    "A187224",
+    "A187895",
+    "A187898"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

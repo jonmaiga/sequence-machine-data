@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{p in A077800} (1 - 1/p).",
+  "id": "A347359",
+  "mentions": [
+    "A001097",
+    "A005597",
+    "A065421",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

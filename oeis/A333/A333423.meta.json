@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are palindromes in primorial base.",
+  "id": "A333423",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A014190",
+    "A014192",
+    "A029803",
+    "A029952",
+    "A029953",
+    "A029954",
+    "A029955",
+    "A046807",
+    "A049345",
+    "A235168"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

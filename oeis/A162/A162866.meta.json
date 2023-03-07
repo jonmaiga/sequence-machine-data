@@ -1,0 +1,21 @@
+{
+  "description": "Initial prime of exactly nine consecutive primes congruent to 3 modulo 4.",
+  "id": "A162866",
+  "mentions": [
+    "A054678",
+    "A055624",
+    "A057619",
+    "A092661",
+    "A162865"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

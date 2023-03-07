@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p=prime(m) such that gcd (prime(m) + 2, prime(m + 1) + 2) = 2*n - 1.",
+  "id": "A268879",
+  "mentions": [
+    "A000040",
+    "A268863"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

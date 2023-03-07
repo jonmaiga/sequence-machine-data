@@ -1,0 +1,19 @@
+{
+  "description": "Triangular read by rows: T(n,m) = J(prime(n),prime(m)) where J is the Jacobi symbol. Each row starts with prime(2) = 3.",
+  "id": "A157412",
+  "mentions": [
+    "A110242"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with each 1 horizontally or vertically adjacent to 1, 2 or 3 1's.",
+  "id": "A295410",
+  "mentions": [
+    "A295416"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

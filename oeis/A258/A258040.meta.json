@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of f(x) / f(-x) in powers of x where f() is the g.f. for A007325.",
+  "id": "A258040",
+  "mentions": [
+    "A007325",
+    "A010815"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:11",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

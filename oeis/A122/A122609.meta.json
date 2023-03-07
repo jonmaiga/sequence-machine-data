@@ -1,0 +1,33 @@
+{
+  "description": "Product of the first n 5-almost primes (A014614), divided by product of the first n primes, rounded down.",
+  "id": "A122609",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A002110",
+    "A008585",
+    "A008587",
+    "A014613",
+    "A014614",
+    "A086046",
+    "A086047",
+    "A112141",
+    "A114426",
+    "A122019",
+    "A122032",
+    "A122093",
+    "A122123"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

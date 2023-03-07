@@ -1,0 +1,25 @@
+{
+  "description": "Odd bisection of A278243: a(n) = A046523(A277324(n)).",
+  "id": "A284573",
+  "mentions": [
+    "A003961",
+    "A007306",
+    "A046523",
+    "A186891",
+    "A260443",
+    "A277013",
+    "A277324",
+    "A278243"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "In binary representation of n, replace ones with n and zeros with n's binary complement (keeping leading zeros).",
+  "id": "A100241",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A007088",
+    "A023416",
+    "A035327",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p >= prime(n) such that p*prime(n)-2 is prime.",
+  "id": "A244571",
+  "mentions": [
+    "A242719",
+    "A242720",
+    "A244570",
+    "A244572"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

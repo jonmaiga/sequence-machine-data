@@ -1,0 +1,30 @@
+{
+  "description": "Positive integers n such that x^2 - 22xy + y^2 + n = 0 has integer solutions.",
+  "id": "A238245",
+  "mentions": [
+    "A031363",
+    "A077422",
+    "A084917",
+    "A133275",
+    "A137881",
+    "A157014",
+    "A236330",
+    "A236331",
+    "A237351",
+    "A237599",
+    "A237606",
+    "A237609",
+    "A237610",
+    "A238240"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Sommerville symmetrical cyclic compositions (on symmetric necklaces) of n that are Carlitz (adjacent parts on the circle are distinct).",
+  "id": "A292200",
+  "mentions": [
+    "A119963",
+    "A291941"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

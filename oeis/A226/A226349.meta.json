@@ -1,0 +1,19 @@
+{
+  "description": "Number of functions f:{1,2,...,n} -> {1,2,...,n} such that the 1 and the 2 are in the same component of the functional digraph representation of f.",
+  "id": "A226349",
+  "mentions": [
+    "A000312",
+    "A001865"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

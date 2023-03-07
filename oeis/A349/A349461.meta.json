@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form m^2 + 9*m + 81.",
+  "id": "A349461",
+  "mentions": [
+    "A005471",
+    "A014753",
+    "A227622"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

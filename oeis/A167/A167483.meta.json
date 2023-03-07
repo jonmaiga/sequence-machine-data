@@ -1,0 +1,18 @@
+{
+  "description": "Primes prime(n) such that n and prime(n) have only prime digits.",
+  "id": "A167483",
+  "mentions": [
+    "A155088"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

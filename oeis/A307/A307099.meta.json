@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k at which k/log_2(k) is at a record closeness to an integer, without actually being an integer.",
+  "id": "A307099",
+  "mentions": [
+    "A001146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

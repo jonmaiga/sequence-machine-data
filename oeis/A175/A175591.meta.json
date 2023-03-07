@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (sigma(n-th Zumkeller number)/2) - (n-th Zumkeller number).",
+  "id": "A175591",
+  "mentions": [
+    "A083207",
+    "A175582"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

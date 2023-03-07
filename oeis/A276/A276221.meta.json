@@ -1,0 +1,19 @@
+{
+  "description": "Position of n^s in the joint ranking of {h} and {k^s}, s = sqrt(3), h >= 1, k >= 2.",
+  "id": "A276221",
+  "mentions": [
+    "A276219"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

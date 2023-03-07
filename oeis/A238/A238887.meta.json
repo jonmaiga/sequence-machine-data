@@ -1,0 +1,19 @@
+{
+  "description": "Cumulated number of leaves in computations trees induced by process trees of size n.",
+  "id": "A238887",
+  "mentions": [
+    "A007852"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

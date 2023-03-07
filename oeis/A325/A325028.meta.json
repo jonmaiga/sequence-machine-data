@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k), 0 <= k < n, is the number of intervals [a,a+1) or [ma,m(a+1)) that must be XORed together to form the interval [k,n), where m = A325027(n,k).",
+  "id": "A325028",
+  "mentions": [
+    "A325027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

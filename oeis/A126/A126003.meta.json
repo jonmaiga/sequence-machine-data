@@ -1,0 +1,25 @@
+{
+  "description": "A106486-encodings of combinatorial games whose value is incomparable with zero game, i.e., fuzzy games.",
+  "id": "A126003",
+  "mentions": [
+    "A047556",
+    "A106486",
+    "A125991",
+    "A125994",
+    "A126000",
+    "A126001",
+    "A126002",
+    "A126004",
+    "A126005"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

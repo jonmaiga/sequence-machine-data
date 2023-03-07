@@ -1,0 +1,18 @@
+{
+  "description": "List the run lengths of n's binary runs of zeros, then interpret this list as lengths of runs of alternating ones and zeros in binary.",
+  "id": "A175946",
+  "mentions": [
+    "A175945"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Count of numbers smaller than and coprime to the prime A140555(n).",
+  "id": "A141426",
+  "mentions": [
+    "A140555"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

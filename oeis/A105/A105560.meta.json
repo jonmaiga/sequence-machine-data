@@ -1,0 +1,29 @@
+{
+  "description": "a(1) = 1, and for n >= 2, a(n) = prime(bigomega(n)), where prime(n) = A000040(n) and bigomega(n) = A001222(n).",
+  "id": "A105560",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A006530",
+    "A008578",
+    "A064989",
+    "A122111",
+    "A242424",
+    "A243070",
+    "A243072",
+    "A243073",
+    "A243505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

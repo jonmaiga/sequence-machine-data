@@ -1,0 +1,21 @@
+{
+  "description": "Number of endofunctions on [2n] whose smallest connected component has size n.",
+  "id": "A350135",
+  "mentions": [
+    "A001865",
+    "A065456",
+    "A088218",
+    "A347999"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

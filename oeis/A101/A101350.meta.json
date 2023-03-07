@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of k-matchings in the graph obtained by a zig-zag triangulation of a convex n-gon, T(0,0)=T(1,0)=T(2,0)=T(2,1)=1 (n > 2, 0 <= k <= floor(n/2)).",
+  "id": "A101350",
+  "mentions": [
+    "A000045",
+    "A000078",
+    "A023610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

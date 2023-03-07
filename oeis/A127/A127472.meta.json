@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = Sum_{j=k..n, j|n, k|j} phi(j) read by rows, 1<=k<=n.",
+  "id": "A127472",
+  "mentions": [
+    "A000010",
+    "A051731",
+    "A054522",
+    "A062949",
+    "A127471"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

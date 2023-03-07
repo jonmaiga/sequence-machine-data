@@ -1,0 +1,18 @@
+{
+  "description": "Primes prime(k) such that prime(k) + 2*prime(k+1) and prime(k) + 2*prime(k+1) + 4*prime(k+2) are prime.",
+  "id": "A337213",
+  "mentions": [
+    "A175914",
+    "A337214"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

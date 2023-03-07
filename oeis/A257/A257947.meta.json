@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected graphs with minimum degree at least 3 and with n vertices.",
+  "id": "A257947",
+  "mentions": [
+    "A054853",
+    "A059166"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

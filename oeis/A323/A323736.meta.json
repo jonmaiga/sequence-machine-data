@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the limit of (Sum_{j=1..k} arcsin(1/j)) - log(k) as k approaches infinity.",
+  "id": "A323736",
+  "mentions": [
+    "A001620",
+    "A323737"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

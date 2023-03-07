@@ -1,0 +1,17 @@
+{
+  "description": "G.f. (1-x) * Sum_{n>=0} x^n * (1 + x^n)^n / (1 + x^(n+1))^(n+1).",
+  "id": "A354247",
+  "mentions": [
+    "A354124"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

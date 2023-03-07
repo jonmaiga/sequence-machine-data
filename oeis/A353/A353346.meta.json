@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the elements of the continued fraction of the abundancy index of k and k+1 are anagrams of each other.",
+  "id": "A353346",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666",
+    "A069567",
+    "A349685",
+    "A353345",
+    "A353347"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

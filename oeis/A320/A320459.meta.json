@@ -1,0 +1,31 @@
+{
+  "description": "MM-numbers of labeled multigraphs spanning an initial interval of positive integers.",
+  "id": "A320459",
+  "mentions": [
+    "A003963",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A255906",
+    "A290103",
+    "A302242",
+    "A302478",
+    "A305052",
+    "A305078",
+    "A320456",
+    "A320458",
+    "A320461",
+    "A320462",
+    "A320464"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

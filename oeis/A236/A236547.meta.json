@@ -1,0 +1,17 @@
+{
+  "description": "n such that (2^(2n + 1) - 2)/3 + n - 1 is prime.",
+  "id": "A236547",
+  "mentions": [
+    "A235860"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

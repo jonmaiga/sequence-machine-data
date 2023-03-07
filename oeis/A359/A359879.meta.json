@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the index of the smallest tetranacci number (A000078) with exactly n prime factors (counted with multiplicity).",
+  "id": "A359879",
+  "mentions": [
+    "A000078",
+    "A001222",
+    "A072396",
+    "A359851",
+    "A359877",
+    "A359878"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

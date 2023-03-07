@@ -1,0 +1,34 @@
+{
+  "description": "Number of necklace compositions of n where no pair of circularly adjacent parts is relatively prime.",
+  "id": "A328602",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A008965",
+    "A032153",
+    "A178470",
+    "A318728",
+    "A318729",
+    "A318748",
+    "A328172",
+    "A328187",
+    "A328188",
+    "A328220",
+    "A328335",
+    "A328336",
+    "A328597",
+    "A328600",
+    "A328601",
+    "A328609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

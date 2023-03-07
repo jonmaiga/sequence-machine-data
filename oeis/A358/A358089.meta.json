@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A126706.",
+  "id": "A358089",
+  "mentions": [
+    "A061742",
+    "A126706",
+    "A355447",
+    "A356322"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

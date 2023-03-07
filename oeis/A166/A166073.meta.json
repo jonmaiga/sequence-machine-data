@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: a(n,k) = number of permutations in S_n which avoid the pattern 123 and have exactly k descents.",
+  "id": "A166073",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A091156",
+    "A126222"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

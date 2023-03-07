@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum number of equal resistors needed in an electrical network so that n nodes can be selected in this network such that there are n*(n-1)/2 distinct resistances 0 < R < oo between the selected nodes.",
+  "id": "A360030",
+  "mentions": [
+    "A219158",
+    "A342558",
+    "A348020"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

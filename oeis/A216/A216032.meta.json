@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that every prime factor of k^2 + 1 is congruent to 5 (mod 8).",
+  "id": "A216032",
+  "mentions": [
+    "A002522",
+    "A005574",
+    "A215950",
+    "A215963",
+    "A215965"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

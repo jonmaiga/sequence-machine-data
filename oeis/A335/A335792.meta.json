@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers k such that A335791(k) = k.",
+  "id": "A335792",
+  "mentions": [
+    "A335791"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

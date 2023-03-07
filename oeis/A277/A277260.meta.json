@@ -1,0 +1,25 @@
+{
+  "description": "Value of decimal number corresponding to the string of equal digits starting at position A277259(n) after the decimal point in the decimal expansion of the Golden ratio (phi).",
+  "id": "A277260",
+  "mentions": [
+    "A001622",
+    "A002275",
+    "A224844",
+    "A244601",
+    "A244602",
+    "A277259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n-th odd prime + n-th odd nonprime)/2 - 1.",
+  "id": "A166160",
+  "mentions": [
+    "A001477",
+    "A005097",
+    "A014076",
+    "A047845",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:17",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

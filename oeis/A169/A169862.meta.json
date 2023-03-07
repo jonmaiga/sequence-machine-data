@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of root of x^(x-1) = (x-1)^x.",
+  "id": "A169862",
+  "mentions": [
+    "A021002",
+    "A085846"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:49",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

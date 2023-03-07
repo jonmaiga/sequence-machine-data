@@ -1,0 +1,19 @@
+{
+  "description": "Exactly 10 consecutive odd integers starting with n are composite.",
+  "id": "A162023",
+  "mentions": [
+    "A014076",
+    "A071904",
+    "A162022"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

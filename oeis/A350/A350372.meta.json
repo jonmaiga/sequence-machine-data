@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with exactly 5 semiprime divisors.",
+  "id": "A350372",
+  "mentions": [
+    "A345381",
+    "A345382",
+    "A346041",
+    "A350371",
+    "A350373",
+    "A350374",
+    "A350375"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

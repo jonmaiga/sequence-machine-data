@@ -1,0 +1,21 @@
+{
+  "description": "Lesser of twin primes p,p+2 such that the absolute difference of p and the reverse of p+2 is a twin prime and the absolute difference of p+2 and the reverse of p is a twin prime.",
+  "id": "A342299",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A004086",
+    "A342216"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

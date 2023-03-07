@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes m such that reverse of m^2 is also a square.",
+  "id": "A128921",
+  "mentions": [
+    "A002113",
+    "A057135",
+    "A057136",
+    "A133901"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

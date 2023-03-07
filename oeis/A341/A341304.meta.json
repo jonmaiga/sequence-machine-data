@@ -1,0 +1,20 @@
+{
+  "description": "Fourier coefficients of a modular form studied by Koike.",
+  "id": "A341304",
+  "mentions": [
+    "A004016",
+    "A341305",
+    "A341306"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest other side of an Heronian triangle with a side of length n.",
+  "id": "A238376",
+  "mentions": [
+    "A055527"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 3,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-dimensional polytopes with vertices from {0,1}^n up to combinatorial equivalence.",
+  "id": "A105232",
+  "mentions": [
+    "A105230",
+    "A105231"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

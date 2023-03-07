@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -dilog(phi) = -polylog(2, 1-phi) with phi = (1 + sqrt(5))/2.",
+  "id": "A242600",
+  "mentions": [
+    "A076788",
+    "A152115",
+    "A242599"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

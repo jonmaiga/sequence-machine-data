@@ -1,0 +1,25 @@
+{
+  "description": "Encodes multisets of least prime signatures in reverse-lex order: replace A036035 with A080688 then calculate all possible factorizations of the resulting values, recode each factor using A064553(n) and then multiply the terms.",
+  "id": "A129305",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000110",
+    "A025487",
+    "A035310",
+    "A036035",
+    "A064553",
+    "A080688",
+    "A096443"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 2 in A325599.",
+  "id": "A325601",
+  "mentions": [
+    "A325597",
+    "A325598",
+    "A325599",
+    "A325600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

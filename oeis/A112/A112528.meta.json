@@ -1,0 +1,18 @@
+{
+  "description": "Number of representations of n-th prime of the form p1*p2+p3, where p1, p2 and p3 are primes, not necessarily all distinct.",
+  "id": "A112528",
+  "mentions": [
+    "A000040",
+    "A064911"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A composite analog of the Moebius function: Sum_{n>=1} a(n)/n^s = Product_{c=composites} (1 - 1/c^s) = zeta(s) *Product_{k>=2} (1 - 1/k^s).",
+  "id": "A114591",
+  "mentions": [
+    "A045778",
+    "A050370",
+    "A114592"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

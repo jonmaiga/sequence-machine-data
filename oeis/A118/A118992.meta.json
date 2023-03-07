@@ -1,0 +1,21 @@
+{
+  "description": "Number of real n X n invertible symmetric (+1,-1) matrices.",
+  "id": "A118992",
+  "mentions": [
+    "A056989",
+    "A056990",
+    "A086899",
+    "A118990"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

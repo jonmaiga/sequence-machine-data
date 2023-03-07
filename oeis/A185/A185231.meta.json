@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = largest prime <= 2a(n-1), with a(0)=1.",
+  "id": "A185231",
+  "mentions": [
+    "A006992",
+    "A075058"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

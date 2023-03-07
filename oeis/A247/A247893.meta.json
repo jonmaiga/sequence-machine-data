@@ -1,0 +1,20 @@
+{
+  "description": "Least integer k > 0 such that prime(k) - k*n is a square.",
+  "id": "A247893",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A247278",
+    "A247895"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangular array, read by rows: T(n,k) is the sum of the products of distinct multinomial coefficients (n_1 + n_2 + n_3 + ...)!/(n_1! * n_2! * n_3! * ...) taken k at a time, where (n_1, n_2, n_3, ...) runs over all integer partitions of n (n >= 0, 0 <= k <= A070289(n)).",
+  "id": "A325305",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A005651",
+    "A070289",
+    "A212850",
+    "A212851",
+    "A212852",
+    "A212853",
+    "A212854",
+    "A212855",
+    "A212856",
+    "A309951",
+    "A309972",
+    "A325308"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

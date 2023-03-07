@@ -1,0 +1,19 @@
+{
+  "description": "List of starts of nondecreasing runs of values of d(n) (the divisor function A000005(n)).",
+  "id": "A303578",
+  "mentions": [
+    "A000005",
+    "A284597",
+    "A303577"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

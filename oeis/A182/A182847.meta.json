@@ -1,0 +1,22 @@
+{
+  "description": "Joint-rank array of the numbers j*(i-1+r), where r=sqrt(3), i>=1, j>=1, by diagonals.",
+  "id": "A182847",
+  "mentions": [
+    "A182801",
+    "A182846",
+    "A182848",
+    "A182849"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

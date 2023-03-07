@@ -1,0 +1,23 @@
+{
+  "description": "Indices k such that A358777(k) is odd, and k is not an odd semiprime.",
+  "id": "A359597",
+  "mentions": [
+    "A046315",
+    "A065036",
+    "A353480",
+    "A358777",
+    "A359595",
+    "A359596",
+    "A359598"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

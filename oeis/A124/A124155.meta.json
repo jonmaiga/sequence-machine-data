@@ -1,0 +1,19 @@
+{
+  "description": "19^p - 18^p, where p = Prime[n].",
+  "id": "A124155",
+  "mentions": [
+    "A121091",
+    "A125713"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

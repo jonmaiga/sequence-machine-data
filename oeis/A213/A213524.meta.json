@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not representable as the sum of three octagonal numbers.",
+  "id": "A213524",
+  "mentions": [
+    "A000567",
+    "A118278",
+    "A118279"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

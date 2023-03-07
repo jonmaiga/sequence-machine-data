@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle where row n gives all terms k for which A064097(k) = n.",
+  "id": "A334111",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A058812",
+    "A060681",
+    "A064097",
+    "A067513",
+    "A105017",
+    "A175125",
+    "A333123",
+    "A334100",
+    "A334144"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

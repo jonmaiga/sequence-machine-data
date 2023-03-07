@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted plane trees of total weight n whose nodes are themselves planted plane trees whose roots are distinguished as either red or blue, the weight of each such node being equal to the size of the corresponding planted tree.",
+  "id": "A168506",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

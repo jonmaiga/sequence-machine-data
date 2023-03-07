@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = S(n,k) mod n, where S(n,k) = Stirling numbers of the first kind.",
+  "id": "A145201",
+  "mentions": [
+    "A000040",
+    "A005127",
+    "A008275",
+    "A057427",
+    "A061006"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

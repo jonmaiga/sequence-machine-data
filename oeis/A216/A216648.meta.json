@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) in which n-th row lists in increasing order all positive integers with a representation as totally balanced 2n digit binary string without totally balanced proper prefixes such that all consecutive totally balanced substrings are in nondecreasing order; n>=1, 1<=k<=A000081(n).",
+  "id": "A216648",
+  "mentions": [
+    "A000081",
+    "A020522",
+    "A057547",
+    "A061773",
+    "A080675",
+    "A081292",
+    "A216349",
+    "A216350",
+    "A216649"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

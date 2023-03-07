@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of phi(k)/psi(k), where phi(k) is Euler totient function (A000010) and psi(k) is Dedekind psi function (A001615).",
+  "id": "A307868",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A013661",
+    "A065472",
+    "A162511",
+    "A173557"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

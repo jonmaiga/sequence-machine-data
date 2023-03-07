@@ -1,0 +1,19 @@
+{
+  "description": "Increasingly ordered list without repetition of numbers k that are obtained, when, for nonnegative integers n, each nonzero digit d is replaced with prime(d).",
+  "id": "A329150",
+  "mentions": [
+    "A329147",
+    "A329149"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

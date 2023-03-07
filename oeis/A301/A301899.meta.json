@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of strict knapsack partitions. Squarefree numbers such that every divisor has a different Heinz weight A056239(d).",
+  "id": "A301899",
+  "mentions": [
+    "A000712",
+    "A005117",
+    "A056239",
+    "A108917",
+    "A112798",
+    "A122768",
+    "A275972",
+    "A276024",
+    "A284640",
+    "A296150",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301829",
+    "A301854",
+    "A301900"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

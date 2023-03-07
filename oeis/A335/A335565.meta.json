@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real part of the complex root of cos(x + i*y) = x + i*y with least x > 0 and y > 0.",
+  "id": "A335565",
+  "mentions": [
+    "A003957",
+    "A335563",
+    "A335564",
+    "A335566"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

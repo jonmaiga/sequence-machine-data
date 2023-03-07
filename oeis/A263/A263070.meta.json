@@ -1,0 +1,18 @@
+{
+  "description": "Number of lattice paths from {n}^10 to {0}^10 using steps that decrement one or more components by one.",
+  "id": "A263070",
+  "mentions": [
+    "A262809"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

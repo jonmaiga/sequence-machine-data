@@ -1,0 +1,26 @@
+{
+  "description": "Indices k where k/A109812(k) reaches a new high point.",
+  "id": "A352919",
+  "mentions": [
+    "A109812",
+    "A113233",
+    "A352203",
+    "A352204",
+    "A352336",
+    "A352359",
+    "A352917",
+    "A352920",
+    "A352923"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

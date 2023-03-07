@@ -1,0 +1,20 @@
+{
+  "description": "The integer 1358 and its infinite continuation (when iterating the rule explained in A316650 and in the Comment section here).",
+  "id": "A316680",
+  "mentions": [
+    "A052224",
+    "A316650",
+    "A316679"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

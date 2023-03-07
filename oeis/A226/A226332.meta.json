@@ -1,0 +1,20 @@
+{
+  "description": "Critical values of Wilcoxon T test at a 0.5% level of significance (one-tail test).",
+  "id": "A226332",
+  "mentions": [
+    "A226329",
+    "A226330",
+    "A226331"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 8,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

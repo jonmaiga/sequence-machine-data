@@ -1,0 +1,23 @@
+{
+  "description": "XOR BINOMIAL transform of A101119.",
+  "id": "A101122",
+  "mentions": [
+    "A003484",
+    "A006519",
+    "A099884",
+    "A101119",
+    "A101120",
+    "A101121"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

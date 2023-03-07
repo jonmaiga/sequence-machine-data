@@ -1,0 +1,23 @@
+{
+  "description": "Number of aperiodic ternary necklaces with n beads of each color and no adjacent beads of the same color.",
+  "id": "A141148",
+  "mentions": [
+    "A110706",
+    "A110707",
+    "A110710",
+    "A110711",
+    "A141146",
+    "A141147"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "k-Lehmer numbers: composite integers n such that phi(n) | (n-1)^k.",
+  "id": "A238574",
+  "mentions": [
+    "A002997",
+    "A003277",
+    "A173703",
+    "A187731",
+    "A207080",
+    "A234936",
+    "A234958",
+    "A238575"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

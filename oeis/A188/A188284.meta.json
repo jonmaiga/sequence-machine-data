@@ -1,0 +1,21 @@
+{
+  "description": "Finite sequence of numbers n such that iterations for the map r -> A061602(r) starting with n ends with the same number n.",
+  "id": "A188284",
+  "mentions": [
+    "A014080",
+    "A061602",
+    "A173447",
+    "A188283"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

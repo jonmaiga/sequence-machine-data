@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of triangle A103284, in which row n+1 is formed by sorting, in ascending order, the result of the convolution of row n with {1,1}.",
+  "id": "A103285",
+  "mentions": [
+    "A103284"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

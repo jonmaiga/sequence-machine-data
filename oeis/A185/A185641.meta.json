@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that A098591(k) = n or 0 if no such k exists.",
+  "id": "A185641",
+  "mentions": [
+    "A098591"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose bi-unitary divisors have an even sum which is larger than 2k, but they cannot be partitioned into two disjoint parts whose sums are equal.",
+  "id": "A323342",
+  "mentions": [
+    "A171641",
+    "A188999",
+    "A292982",
+    "A323341",
+    "A323343",
+    "A323344"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

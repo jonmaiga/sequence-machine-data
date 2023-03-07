@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n, p(n), raised to power p(n).",
+  "id": "A132641",
+  "mentions": [
+    "A000041",
+    "A008973",
+    "A008974",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

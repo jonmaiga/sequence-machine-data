@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number x such that the decimal representation of n appears as a substring of the decimal representations of the numbers [1...x] >= x times.",
+  "id": "A164935",
+  "mentions": [
+    "A092175",
+    "A163500",
+    "A164321"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

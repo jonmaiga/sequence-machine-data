@@ -1,0 +1,20 @@
+{
+  "description": "a(n)= m-th positive divisor of n, where phi(n) is number of positive integers which are <= n and are coprime to n, d(n) is the number of positive divisors of n and m = d(n) if d(n)|phi(n), else m = phi(n) mod d(n).",
+  "id": "A124219",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A124218",
+    "A124331"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

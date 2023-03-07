@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x + y + z with x*y + 2*y*z + 3*z*x a square, where x,y,z are positive integers with x or y a power of two (including 2^0 = 1).",
+  "id": "A344058",
+  "mentions": [
+    "A000290",
+    "A271644",
+    "A340274",
+    "A343862",
+    "A343897",
+    "A343950"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

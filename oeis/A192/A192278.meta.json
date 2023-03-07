@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n whose product of their anti-divisors divides the product of their divisors.",
+  "id": "A192278",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

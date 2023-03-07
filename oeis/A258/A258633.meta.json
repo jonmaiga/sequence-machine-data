@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 2 1..(n+1) arrays with every leading partial sum divisible by 2, 3, 5 or 7",
+  "id": "A258633",
+  "mentions": [
+    "A258631"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

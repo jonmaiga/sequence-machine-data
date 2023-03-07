@@ -1,0 +1,19 @@
+{
+  "description": "Number of oriented circulant graphs of order n up to Cayley isomorphism.",
+  "id": "A283189",
+  "mentions": [
+    "A049297",
+    "A056391",
+    "A060966"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

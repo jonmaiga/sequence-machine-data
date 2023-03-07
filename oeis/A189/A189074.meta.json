@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of compositions of n with k inversions (n >= 0, 0 <= k <= floor(n^2/8).",
+  "id": "A189074",
+  "mentions": [
+    "A000041",
+    "A001972",
+    "A011782",
+    "A058884"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

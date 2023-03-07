@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary strings of length n having a cyclic shift that is a palindrome.",
+  "id": "A245582",
+  "mentions": [
+    "A045655"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

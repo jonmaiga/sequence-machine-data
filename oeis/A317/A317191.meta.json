@@ -1,0 +1,20 @@
+{
+  "description": "Fill an n X n square array T(j,k), 1<=j<=n, 1=k<=n, by antidiagonals upwards in which each term is the least nonnegative integer satisfying the condition that no row, column, diagonal, or antidiagonal contains a repeated term; a(n) = T(n,n).",
+  "id": "A317191",
+  "mentions": [
+    "A269529",
+    "A274318",
+    "A274528",
+    "A317190"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

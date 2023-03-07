@@ -1,0 +1,27 @@
+{
+  "description": "Least number that is a multiple-digit narcissistic number in exactly n bases.",
+  "id": "A256459",
+  "mentions": [
+    "A005188",
+    "A256359",
+    "A256360",
+    "A256361",
+    "A256362",
+    "A256363",
+    "A256364",
+    "A256365"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

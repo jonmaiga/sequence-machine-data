@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form c * m^2, where m > 0 and c is composite and squarefree.",
+  "id": "A229153",
+  "mentions": [
+    "A048943",
+    "A119847",
+    "A229125",
+    "A265640"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

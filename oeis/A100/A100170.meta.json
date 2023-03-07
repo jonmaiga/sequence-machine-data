@@ -1,0 +1,20 @@
+{
+  "description": "Structured pentagonal hexacontahedral numbers (vertex structure 10).",
+  "id": "A100170",
+  "mentions": [
+    "A100145",
+    "A100169"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

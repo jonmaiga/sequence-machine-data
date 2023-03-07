@@ -1,0 +1,36 @@
+{
+  "description": "Array read by antidiagonals upwards where A(n,k) is the position of the k-th appearance of 2n in the sequence of prime gaps A001223. If A001223 does not contain 2n at least k times, set A(n,k) = -1.",
+  "id": "A356222",
+  "mentions": [
+    "A001223",
+    "A028334",
+    "A029707",
+    "A029709",
+    "A038664",
+    "A066205",
+    "A073491",
+    "A119313",
+    "A193829",
+    "A274121",
+    "A287170",
+    "A320701",
+    "A328457",
+    "A356221",
+    "A356223",
+    "A356224",
+    "A356225",
+    "A356226",
+    "A356232"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

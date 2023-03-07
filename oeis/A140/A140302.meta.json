@@ -1,0 +1,20 @@
+{
+  "description": "b(n)=A000749(n+1)-2*A000749(n)=0, 0, 1, 2, 2, 0, -4, -8, -8, = 0, A009545 and its three differences by columns on line.",
+  "id": "A140302",
+  "mentions": [
+    "A000749",
+    "A009545"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

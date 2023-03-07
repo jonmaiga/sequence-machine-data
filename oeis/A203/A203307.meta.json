@@ -1,0 +1,19 @@
+{
+  "description": "v(n+1)/(2*v(n)), where v=A203305.",
+  "id": "A203307",
+  "mentions": [
+    "A028365",
+    "A203305"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:58:34",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

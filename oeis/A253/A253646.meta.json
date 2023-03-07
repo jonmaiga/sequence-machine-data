@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p^k is zeroless for k=1,...,6.",
+  "id": "A253646",
+  "mentions": [
+    "A124648",
+    "A253645",
+    "A253647"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions p of n such that 1 + (1/2)*max(p) is a part of p.",
+  "id": "A238625",
+  "mentions": [
+    "A238479",
+    "A238624"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of sets of linear n-ads in k variables.",
+  "id": "A260340",
+  "mentions": [
+    "A000012",
+    "A002137",
+    "A008300",
+    "A133687",
+    "A257463",
+    "A333891",
+    "A333899",
+    "A333900"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

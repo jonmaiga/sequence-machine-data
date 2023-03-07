@@ -1,0 +1,19 @@
+{
+  "description": "Let p(n) denote the n-th digit of Pi, and let e(n) denote the n-th digit of e. Then define a(n) = abs(p(n)*e(n+1) - p(n+1)*e(n)).",
+  "id": "A160036",
+  "mentions": [
+    "A000796",
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

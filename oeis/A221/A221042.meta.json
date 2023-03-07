@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the Bethe cactus lattice graph D_n defined pictorially in the Hosoya - Balasubramanian reference.",
+  "id": "A221042",
+  "mentions": [
+    "A221043"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:52:27",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

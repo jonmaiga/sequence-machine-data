@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of primes in which no digit is a prime A061372.",
+  "id": "A172523",
+  "mentions": [
+    "A000040",
+    "A061372"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

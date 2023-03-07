@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of expected minimum number of yes-no questions required to determine the value of a card randomly selected from a deck consisting of one 1, two 2's, three 3's, ..., and n n's.",
+  "id": "A213602",
+  "mentions": [
+    "A213603"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

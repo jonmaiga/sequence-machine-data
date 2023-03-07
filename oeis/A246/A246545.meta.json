@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that Sum_{i=1..k}{phi(d(i))} = Sum_{i=1..k}{phi(Rev(d(i)))}, where d(i) are the k divisors of n, Rev(d(i)) the reverse of the divisors d(i) and phi(x) the Euler totient function. Numbers with all palindromic divisors are not considered.",
+  "id": "A246545",
+  "mentions": [
+    "A000010",
+    "A062687",
+    "A196677",
+    "A247826"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

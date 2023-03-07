@@ -1,0 +1,126 @@
+{
+  "oi": 322601,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sin(γ)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "sin",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(asin(cos(γ)))]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cos",
+        "asin",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acot(tan(γ)))]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "tan",
+        "acot",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(atan(cot(γ)))]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cot",
+        "atan",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acos(0)+γ)]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "γ",
+        "+",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-05-14",
+      "ix": "contfrac[cos(γ-acos(0))]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "0",
+        "acos",
+        "sub",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(γ)*tan(γ)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cos",
+        "γ",
+        "tan",
+        "*",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(γ)/cot(γ)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cos",
+        "γ",
+        "cot",
+        "/",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(1-cos(γ)²)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "γ",
+        "cos",
+        "²",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[C119807]",
+      "mt": 50,
+      "px": [
+        "C119807",
+        "contfrac"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = gcd(A(n), A(n+2))/gcd(d(n), d(n+2)) where A(n) = Sum_{k=0..n} n!/k! and d(n) = gcd(A(n), n!).",
+  "id": "A124779",
+  "mentions": [
+    "A000522",
+    "A061354",
+    "A061355",
+    "A064383",
+    "A064384",
+    "A093101",
+    "A123899",
+    "A123900",
+    "A123901",
+    "A124780",
+    "A124781",
+    "A124782",
+    "A129924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

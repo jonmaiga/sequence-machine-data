@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 8^n - 3 is prime.",
+  "id": "A217353",
+  "mentions": [
+    "A050414",
+    "A059266",
+    "A217354"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

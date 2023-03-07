@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that first digit of n divides n, last digit of n divides n, number of divisors of n divides n and phi(n) divides n, where phi(n) is the Euler totient function.",
+  "id": "A277804",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000030",
+    "A007694",
+    "A010879",
+    "A033950",
+    "A034709",
+    "A034837"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

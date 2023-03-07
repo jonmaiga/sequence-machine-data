@@ -1,0 +1,19 @@
+{
+  "description": "Let M(1)=0 and for n >= 2, let B(n)=M(ceiling(n/2))+M(floor(n/2))+2, M(n)=2^B(n)+M(floor(n/2))+1; sequence gives B(n).",
+  "id": "A230302",
+  "mentions": [
+    "A228085",
+    "A230093",
+    "A230303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

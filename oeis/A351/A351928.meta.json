@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer k such that 2^k has no '2' in the last n digits of its ternary expansion.",
+  "id": "A351928",
+  "mentions": [
+    "A004642",
+    "A117971",
+    "A351927"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

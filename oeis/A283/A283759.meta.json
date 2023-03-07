@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose Euler totient function is equal to the product of the number of divisors of their k first powers, for some k.",
+  "id": "A283759",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A270389",
+    "A270713",
+    "A275660",
+    "A283757",
+    "A283758"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

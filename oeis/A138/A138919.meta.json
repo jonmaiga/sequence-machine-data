@@ -1,0 +1,21 @@
+{
+  "description": "Indices k such that A020510(k)=Phi[k](-11) is prime, where Phi is a cyclotomic polynomial.",
+  "id": "A138919",
+  "mentions": [
+    "A020510",
+    "A070518",
+    "A070527",
+    "A138920",
+    "A138940"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled n-node graphs with no cycles of length less than 5.",
+  "id": "A337685",
+  "mentions": [
+    "A006787",
+    "A345349"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

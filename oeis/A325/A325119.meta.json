@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of binary carry-connected strict integer partitions.",
+  "id": "A325119",
+  "mentions": [
+    "A019565",
+    "A048143",
+    "A056239",
+    "A112798",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A325098",
+    "A325099",
+    "A325100",
+    "A325105",
+    "A325110",
+    "A325118"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

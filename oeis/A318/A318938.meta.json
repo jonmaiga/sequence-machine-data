@@ -1,0 +1,18 @@
+{
+  "description": "If n=0 then 1 otherwise 16*(1+22*A318935(n))*(sum of cubes of odd divisors of n).",
+  "id": "A318938",
+  "mentions": [
+    "A007814",
+    "A318935"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

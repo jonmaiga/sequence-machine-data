@@ -1,0 +1,22 @@
+{
+  "description": "Number of chambers of Hassett's decomposition of the weight domain of the moduli space of genus 0 n-pointed curves.",
+  "id": "A290946",
+  "mentions": [
+    "A000609",
+    "A000615",
+    "A109456"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

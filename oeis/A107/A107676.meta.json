@@ -1,0 +1,22 @@
+{
+  "description": "Matrix cube of triangle A107671.",
+  "id": "A107676",
+  "mentions": [
+    "A006690",
+    "A107667",
+    "A107671",
+    "A107674"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

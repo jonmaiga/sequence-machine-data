@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the negated value of the smallest real root of the quintic equation x^5 + 2*x^4 - 2*x^3 - x^2 + 2*x -1 = 0.",
+  "id": "A103546",
+  "mentions": [
+    "A006891",
+    "A103616"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:19",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

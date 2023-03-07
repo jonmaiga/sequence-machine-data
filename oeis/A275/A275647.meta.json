@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Pi^2/6 - Sum_{k>=1} 1/prime(k)^2.",
+  "id": "A275647",
+  "mentions": [
+    "A002808",
+    "A005171",
+    "A008683",
+    "A013661",
+    "A018252",
+    "A062312",
+    "A085548",
+    "A111003",
+    "A222171"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

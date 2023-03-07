@@ -1,0 +1,20 @@
+{
+  "description": "Order of appearance of twos in the tribonacci ( Rauzy type) substitution: triangular.",
+  "id": "A107640",
+  "mentions": [
+    "A000073"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

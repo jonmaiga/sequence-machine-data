@@ -1,0 +1,17 @@
+{
+  "description": "Number of colored set partitions of [n] where colors of the elements of subsets are in (weakly) increasing order and exactly two colors are used.",
+  "id": "A325890",
+  "mentions": [
+    "A321296"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

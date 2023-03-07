@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the denominator of Sum_{k=0 to 2n} 1/k! is (2n)!.",
+  "id": "A102471",
+  "mentions": [
+    "A002034",
+    "A061355",
+    "A093101",
+    "A102470"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

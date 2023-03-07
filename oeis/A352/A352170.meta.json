@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p+4, 3*p+4 and 3*p+8 are also prime.",
+  "id": "A352170",
+  "mentions": [
+    "A023200",
+    "A023209",
+    "A023210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

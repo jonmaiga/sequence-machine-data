@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs (lambda,mu) of partitions lambda of n and mu of nine with mu <= lambda (by diagram containment).",
+  "id": "A303859",
+  "mentions": [
+    "A259478"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 9,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

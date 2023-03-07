@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of solution of csch x + sech x = 1.",
+  "id": "A329937",
+  "mentions": [
+    "A329938",
+    "A329939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles on the n X 4 king graph.",
+  "id": "A339201",
+  "mentions": [
+    "A339190",
+    "A339198"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

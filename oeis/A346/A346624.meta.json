@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of distinct Wilf classes of subsets of exactly k patterns in S_n, for 0 <= k <= n!.",
+  "id": "A346624",
+  "mentions": [
+    "A099952"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

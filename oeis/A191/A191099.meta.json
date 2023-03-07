@@ -1,0 +1,22 @@
+{
+  "description": "5th differences of Bell numbers.",
+  "id": "A191099",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A011965",
+    "A011966",
+    "A011967",
+    "A106436"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

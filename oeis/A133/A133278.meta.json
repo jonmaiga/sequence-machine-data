@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, with n-th row the smallest non-constant n-term arithmetic progression of primes beginning with prime(n).",
+  "id": "A133278",
+  "mentions": [
+    "A231406"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

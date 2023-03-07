@@ -1,0 +1,22 @@
+{
+  "description": "Integers m such that d(F(m)) = d(L(m)) where d is the number of divisors function, F(n) and L(n) are respectively the n-th Fibonacci and n-th Lucas numbers.",
+  "id": "A335001",
+  "mentions": [
+    "A000005",
+    "A000032",
+    "A000045",
+    "A063375",
+    "A272377",
+    "A335002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

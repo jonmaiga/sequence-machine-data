@@ -1,0 +1,19 @@
+{
+  "description": "Members of A143610 for which both neighbors are squarefree.",
+  "id": "A166987",
+  "mentions": [
+    "A005117",
+    "A067874",
+    "A143610"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

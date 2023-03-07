@@ -1,0 +1,21 @@
+{
+  "description": "Exponential highly abundant numbers: numbers m such that esigma(m) > esigma(k) for all k < m, where esigma(m) is the sum of exponential divisors of m (A051377).",
+  "id": "A328134",
+  "mentions": [
+    "A002093",
+    "A051377",
+    "A285614",
+    "A292983",
+    "A327634"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array by antidiagonals: row n shows the numbers m for which n is the number of applications of the mapping r(k) = k - (greatest prime divisor or k) required to map m to 0.",
+  "id": "A233342",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A100484",
+    "A233341"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

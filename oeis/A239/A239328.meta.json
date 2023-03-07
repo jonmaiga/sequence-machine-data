@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p < n with pi(p*n) - pi((p-1)n) prime, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A239328",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A237578",
+    "A238277",
+    "A238278",
+    "A238281",
+    "A239330"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

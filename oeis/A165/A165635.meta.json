@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (p^2 - 3)/2 where p is also prime.",
+  "id": "A165635",
+  "mentions": [
+    "A110589",
+    "A153238"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

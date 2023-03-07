@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the \"real\" part of f(n) = Sum_{k>=0, d_k>0} (1+w)^(d_k-1) * (3+w)^k where Sum_{k>=0} d_k * 7^k is the base 7 representation of n and w = -1/2 + sqrt(-3)/2 is a primitive cube root of unity; sequence A334493 gives \"w\" parts.",
+  "id": "A334492",
+  "mentions": [
+    "A307013",
+    "A316657",
+    "A334493"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

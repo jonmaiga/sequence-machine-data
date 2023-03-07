@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = count of numbers k <= n such that all proper divisors of k are divisors of n.",
+  "id": "A158973",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000720",
+    "A004788",
+    "A036234"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

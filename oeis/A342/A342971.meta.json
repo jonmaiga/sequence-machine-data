@@ -1,0 +1,23 @@
+{
+  "description": "Non-1-tough simplicial polyhedra with n nodes.",
+  "id": "A342971",
+  "mentions": [
+    "A000109",
+    "A007030",
+    "A007031",
+    "A115340"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 11,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

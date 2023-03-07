@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5Xn 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three no more than once.",
+  "id": "A269205",
+  "mentions": [
+    "A269201"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

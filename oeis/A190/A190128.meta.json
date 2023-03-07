@@ -1,0 +1,26 @@
+{
+  "description": "Numbers 1 through 10000 sorted lexicographically in ternary representation.",
+  "id": "A190128",
+  "mentions": [
+    "A007089",
+    "A190016",
+    "A190126",
+    "A190129",
+    "A190130",
+    "A190132",
+    "A190134"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

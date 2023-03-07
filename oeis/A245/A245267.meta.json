@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp(Integral(1+x*A(x)^5) dx), where the constant of integration is zero.",
+  "id": "A245267",
+  "mentions": [
+    "A212913",
+    "A212914",
+    "A245266"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

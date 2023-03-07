@@ -1,0 +1,23 @@
+{
+  "description": "Numbers less than the maximum possible determinant A085000(6)=1865999570 not occurring as determinant of a 6 X 6 matrix with entries {1,..,36}.",
+  "id": "A325900",
+  "mentions": [
+    "A085000",
+    "A088214",
+    "A088216",
+    "A088237",
+    "A088238",
+    "A322576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

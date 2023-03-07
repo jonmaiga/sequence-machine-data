@@ -1,0 +1,21 @@
+{
+  "description": "3-smooth numbers of the form (ab+1)(ac+1), a > b > c > 0.",
+  "id": "A320883",
+  "mentions": [
+    "A003586",
+    "A180045",
+    "A320884"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

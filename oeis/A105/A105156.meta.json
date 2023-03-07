@@ -1,0 +1,18 @@
+{
+  "description": "The sum of a triangular array made from a negative 6-fold permutation product.",
+  "id": "A105156",
+  "mentions": [
+    "A105155"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

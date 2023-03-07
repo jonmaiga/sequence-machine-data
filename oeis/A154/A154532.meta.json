@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest 10-digit number whose n-th power contains each digit (0-9) n times, or -1 no such number exists.",
+  "id": "A154532",
+  "mentions": [
+    "A010784",
+    "A078255",
+    "A154566"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

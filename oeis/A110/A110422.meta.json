@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum( (-1)^(r+1)*(n-r)*r, r = 1..floor(n/2) ).",
+  "id": "A110422",
+  "mentions": [
+    "A023855"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:43",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

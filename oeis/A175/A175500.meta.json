@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1. a(n) = the smallest integer not yet occurring such that if d(a(n)) = d(a(k)), then d(a(n-1)) doesn't equal d(a(k-1)) for any k where 2<= k <= n-1, where d(m) = the number of divisors of m.",
+  "id": "A175500",
+  "mentions": [
+    "A175501",
+    "A175502"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

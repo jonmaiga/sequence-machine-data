@@ -1,0 +1,29 @@
+{
+  "description": "Number of factorizations of the highly factorable numbers A033833.",
+  "id": "A272691",
+  "mentions": [
+    "A001055",
+    "A033833",
+    "A033834",
+    "A045778",
+    "A045782",
+    "A045783",
+    "A330972",
+    "A330973",
+    "A330976",
+    "A330998",
+    "A331200",
+    "A331232"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

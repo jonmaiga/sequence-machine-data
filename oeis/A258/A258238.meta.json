@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps from n to 0, where allowable steps are x -> [x/r] if x = is in A001951 (the Beatty sequence for sqrt(2)) and x -> [r*x] otherwise, where [ ] = floor and r = sqrt(2).",
+  "id": "A258238",
+  "mentions": [
+    "A001951",
+    "A258212",
+    "A258237"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

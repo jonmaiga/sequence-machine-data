@@ -1,0 +1,22 @@
+{
+  "description": "If n is 1 or prime then a(n) = n. Otherwise, start with n and iterate the map k -> A048050(k) until we reach a prime p; then a(n) = p. If we never reach a prime, a(n) = -1. A048050 gives the sum of proper divisors of k, excluding both 1 and n from the sum.",
+  "id": "A153023",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A010051",
+    "A048050",
+    "A120716",
+    "A153024"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

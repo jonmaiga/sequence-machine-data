@@ -1,0 +1,19 @@
+{
+  "description": "The first 8 values are predefined, the remaining set to a(n) =24*prime(n).",
+  "id": "A129024",
+  "mentions": [
+    "A129025"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:11",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number n(s) in A160932.",
+  "id": "A160934",
+  "mentions": [
+    "A027886",
+    "A160932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

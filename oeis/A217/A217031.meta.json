@@ -1,0 +1,24 @@
+{
+  "description": "Minimum value of A173419(k*n!) over nonzero k.",
+  "id": "A217031",
+  "mentions": [
+    "A140361",
+    "A173419",
+    "A217032",
+    "A217490"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Lopsided (or biased) numbers: numbers n such that the largest prime factor of n is > 2*sqrt(n).",
+  "id": "A101550",
+  "mentions": [
+    "A002162",
+    "A063763",
+    "A064052",
+    "A101549",
+    "A320048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of factorizations of n whose conjugate as an integer partition has no ones.",
+  "id": "A325045",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A002865",
+    "A096276",
+    "A114324",
+    "A122111",
+    "A318950",
+    "A319005",
+    "A319916",
+    "A320322",
+    "A321648",
+    "A325039",
+    "A353645"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

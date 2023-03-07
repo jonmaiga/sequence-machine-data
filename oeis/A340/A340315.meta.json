@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sum of reciprocals of A000111(n) (where A000111(n) is the n-th Euler or up/down number).",
+  "id": "A340315",
+  "mentions": [
+    "A000111",
+    "A001250",
+    "A173253"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

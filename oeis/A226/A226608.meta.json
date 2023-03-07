@@ -1,0 +1,26 @@
+{
+  "description": "Irregular array read by rows. a(n) is the largest element in the primitive Collatz-like 3x+k cycle associated with A226607(n).",
+  "id": "A226608",
+  "mentions": [
+    "A226607",
+    "A226609",
+    "A226610",
+    "A226611",
+    "A226612",
+    "A226613",
+    "A226624",
+    "A226667",
+    "A226669"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

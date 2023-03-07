@@ -1,0 +1,21 @@
+{
+  "description": "Smallest possible largest number in a set of n integers such that the sum of any two numbers is a positive cube.",
+  "id": "A195898",
+  "mentions": [
+    "A000578",
+    "A195854",
+    "A195899"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

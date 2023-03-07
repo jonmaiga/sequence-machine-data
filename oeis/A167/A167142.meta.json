@@ -1,0 +1,21 @@
+{
+  "description": "Column 0 of the matrix square of triangle A167015.",
+  "id": "A167142",
+  "mentions": [
+    "A167015",
+    "A167016",
+    "A167143",
+    "A167144",
+    "A167145"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

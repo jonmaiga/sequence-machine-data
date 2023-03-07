@@ -1,0 +1,22 @@
+{
+  "description": "First member p(m) of the m-th twin prime pair such that d(m) > 0 and d(m-1) < 0, with d(k) = k/Integral_{x=2..p(k)} 1/log(x)^2 dx - C, C = 2*A005597 = A114907.",
+  "id": "A347278",
+  "mentions": [
+    "A001359",
+    "A005597",
+    "A114907",
+    "A152051",
+    "A210439",
+    "A347279"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

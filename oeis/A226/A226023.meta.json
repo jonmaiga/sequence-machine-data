@@ -1,0 +1,30 @@
+{
+  "description": "A142705 (numerators of 1/4-1/(4n^2)) sorted to natural order.",
+  "id": "A226023",
+  "mentions": [
+    "A000466",
+    "A002939",
+    "A002943",
+    "A004396",
+    "A008611",
+    "A042968",
+    "A043547",
+    "A130823",
+    "A133310",
+    "A142705",
+    "A146325",
+    "A198442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:37",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

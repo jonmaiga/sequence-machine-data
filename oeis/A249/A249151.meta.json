@@ -1,0 +1,38 @@
+{
+  "description": "Largest m such that m! divides the product of elements on row n of Pascal's triangle: a(n) = A055881(A001142(n)).",
+  "id": "A249151",
+  "mentions": [
+    "A000225",
+    "A001142",
+    "A006093",
+    "A007318",
+    "A007917",
+    "A055881",
+    "A187059",
+    "A249150",
+    "A249346",
+    "A249421",
+    "A249423",
+    "A249424",
+    "A249425",
+    "A249427",
+    "A249428",
+    "A249429",
+    "A249430",
+    "A249431",
+    "A249432",
+    "A249433",
+    "A249434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

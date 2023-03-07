@@ -1,0 +1,29 @@
+{
+  "description": "Array T(n,k) = k*(k-1)^(n-1) read by ascending antidiagonals; k,n >= 1.",
+  "id": "A265583",
+  "mentions": [
+    "A002378",
+    "A003946",
+    "A003947",
+    "A003992",
+    "A007283",
+    "A011379",
+    "A051129",
+    "A055897",
+    "A179824",
+    "A265584"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

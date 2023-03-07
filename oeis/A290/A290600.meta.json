@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n, k) read by rows: positive numbers non-coprime to A002808(n) and smaller than A002808(n), sorted increasingly.",
+  "id": "A290600",
+  "mentions": [
+    "A002808",
+    "A038566",
+    "A290599",
+    "A290601",
+    "A290602"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Total number of nodes summed over all lattice paths from (0,0) to (n,n) that consist of steps (h,v) with min(h,v) > 0 and gcd(h,v) = 1.",
+  "id": "A308112",
+  "mentions": [
+    "A059841",
+    "A308087",
+    "A308114"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

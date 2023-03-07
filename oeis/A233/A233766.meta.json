@@ -1,0 +1,22 @@
+{
+  "description": "Digital root of Lucas numbers (A030133) indexed by natural numbers not divisible by 2, 3 or 5 (A007775).",
+  "id": "A233766",
+  "mentions": [
+    "A000032",
+    "A007775",
+    "A030133"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:49",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

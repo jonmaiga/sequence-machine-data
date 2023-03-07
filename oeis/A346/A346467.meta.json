@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least common multiple of the divisors d of n-1 such that d+1 is prime; a(1) = 1.",
+  "id": "A346467",
+  "mentions": [
+    "A002322",
+    "A027642",
+    "A173614",
+    "A343979",
+    "A346466",
+    "A346468",
+    "A346481"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

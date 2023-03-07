@@ -1,0 +1,23 @@
+{
+  "description": "Product of prime(n) consecutive numbers starting from n.",
+  "id": "A262206",
+  "mentions": [
+    "A014688",
+    "A039716",
+    "A075068",
+    "A075069",
+    "A262204"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

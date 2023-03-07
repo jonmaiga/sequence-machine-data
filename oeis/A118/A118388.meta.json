@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that T(k) includes the consecutive digits of n, where T(k) = k*(k+1)/2.",
+  "id": "A118388",
+  "mentions": [
+    "A000217",
+    "A118389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

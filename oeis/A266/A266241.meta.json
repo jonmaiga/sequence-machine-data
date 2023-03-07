@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that average of first n Catalan numbers (A000108) is an integer.",
+  "id": "A266241",
+  "mentions": [
+    "A000108",
+    "A014137"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Floor(sum_{i=1..n} (sum_{j=1..i} sqrt(1/j))).",
+  "id": "A225154",
+  "mentions": [
+    "A022819",
+    "A025224"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

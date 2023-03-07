@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of essentially different optimal solutions with A336660(n) 1 X 1 cells to R. Kurchan's n-squares puzzle 578.",
+  "id": "A337515",
+  "mentions": [
+    "A336659",
+    "A336660",
+    "A336782"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

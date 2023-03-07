@@ -1,0 +1,22 @@
+{
+  "description": "One half of even powers of 2*x in terms of Chebyshev's T-polynomials.",
+  "id": "A127673",
+  "mentions": [
+    "A008311",
+    "A008314",
+    "A122366"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

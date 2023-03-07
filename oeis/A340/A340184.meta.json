@@ -1,0 +1,20 @@
+{
+  "description": "n with the rightmost occurrence of the smallest digit of n deleted.",
+  "id": "A340184",
+  "mentions": [
+    "A054054"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

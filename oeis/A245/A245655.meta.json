@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of eta_A, a constant associated with the asymptotics of the enumeration of labeled acyclic digraphs.",
+  "id": "A245655",
+  "mentions": [
+    "A003024",
+    "A245654"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

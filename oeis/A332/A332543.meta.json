@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + A332542(n) + 1.",
+  "id": "A332543",
+  "mentions": [
+    "A082183",
+    "A332542",
+    "A332544"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

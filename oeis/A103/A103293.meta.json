@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to color n regions arranged in a line such that consecutive regions do not have the same color.",
+  "id": "A103293",
+  "mentions": [
+    "A000110",
+    "A001998",
+    "A005418",
+    "A056323",
+    "A056324",
+    "A056325",
+    "A080107",
+    "A320750",
+    "A345207"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that q1=6*p-1 and q2=6*p+1 are also primes (twin primes) and q1 is a Sophie Germain prime (i.e., 2*q1+1 is prime).",
+  "id": "A358381",
+  "mentions": [
+    "A005384",
+    "A060212"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

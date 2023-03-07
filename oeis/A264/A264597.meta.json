@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) (n >= 2, 0 <= m <= n-1) read by rows, defined in Comments.",
+  "id": "A264597",
+  "mentions": [
+    "A257007",
+    "A264598"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 153,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} cos(k*Pi/6)/k.",
+  "id": "A329247",
+  "mentions": [
+    "A096418",
+    "A096444",
+    "A121225",
+    "A122143",
+    "A263192",
+    "A263193",
+    "A329246"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

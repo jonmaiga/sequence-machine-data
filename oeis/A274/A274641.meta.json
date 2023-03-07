@@ -1,0 +1,21 @@
+{
+  "description": "Counterclockwise square spiral constructed by greedy algorithm, so that each row, column, and diagonal contains distinct numbers. Start with 0 (so in this version a(n) = A274640(n) - 1).",
+  "id": "A274641",
+  "mentions": [
+    "A195264",
+    "A274640",
+    "A324481",
+    "A324774",
+    "A324781"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

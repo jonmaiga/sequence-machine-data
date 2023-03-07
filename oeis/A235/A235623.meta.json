@@ -1,0 +1,42 @@
+{
+  "description": "Numbers n for which in the prime power factorization of n!, the numbers of exponents 1 and >1 are equal.",
+  "id": "A235623",
+  "mentions": [
+    "A056171",
+    "A177329",
+    "A177333",
+    "A177334",
+    "A240537",
+    "A240588",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668",
+    "A240669",
+    "A240670",
+    "A240672",
+    "A240695",
+    "A240751",
+    "A240755",
+    "A240764",
+    "A240905",
+    "A240906",
+    "A241123",
+    "A241124",
+    "A241139",
+    "A241148",
+    "A241289"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

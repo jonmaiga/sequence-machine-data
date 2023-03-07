@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of expansion of f(x) = (1+x*m(x))^5*(x^2*(x*m(x))'+1) where m(x) is the generating function for A001006.",
+  "id": "A353133",
+  "mentions": [
+    "A001006",
+    "A005717",
+    "A005773",
+    "A025565",
+    "A225034"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

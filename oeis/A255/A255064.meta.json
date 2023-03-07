@@ -1,0 +1,30 @@
+{
+  "description": "Number of times an odious number is encountered when iterating from 2^(n+1)-2 to (2^n)-2 with the map x -> x - (number of runs in binary representation of x).",
+  "id": "A255064",
+  "mentions": [
+    "A000069",
+    "A005811",
+    "A010060",
+    "A218543",
+    "A236840",
+    "A254114",
+    "A255056",
+    "A255061",
+    "A255062",
+    "A255063",
+    "A255066",
+    "A255071",
+    "A255126"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

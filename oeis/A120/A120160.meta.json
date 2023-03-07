@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = ceiling(Sum_{i=1..n-1} a(i)/4) for n >= 2 starting with a(1) = 1.",
+  "id": "A120160",
+  "mentions": [
+    "A011782",
+    "A024634",
+    "A072493",
+    "A073941",
+    "A112088",
+    "A120170",
+    "A120178",
+    "A120186",
+    "A120194",
+    "A120202"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:41:08",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The number of distinct prime factors in Lucas-Lehmer numbers A003010(k-2) divisible by 2^k-1.",
+  "id": "A177876",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A003010",
+    "A177874",
+    "A177875",
+    "A177879",
+    "A177892"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

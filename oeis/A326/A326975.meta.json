@@ -1,0 +1,30 @@
+{
+  "description": "Number of factorizations of n into factors > 1 whose dual is a weak antichain.",
+  "id": "A326975",
+  "mentions": [
+    "A001055",
+    "A059523",
+    "A316978",
+    "A319639",
+    "A326965",
+    "A326966",
+    "A326968",
+    "A326969",
+    "A326970",
+    "A326971",
+    "A326976",
+    "A326977",
+    "A326978",
+    "A327012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

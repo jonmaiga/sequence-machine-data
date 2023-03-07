@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = |{0 < k < sqrt(prime(n))*log(prime(n)) : k is not only a quadratic nonresidue modulo prime(n) but also a Fibonacci number}|.",
+  "id": "A241605",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A241568",
+    "A241604"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A083221(A255128(n)).",
+  "id": "A255408",
+  "mentions": [
+    "A003309",
+    "A005843",
+    "A008578",
+    "A016945",
+    "A083140",
+    "A083221",
+    "A249817",
+    "A255127",
+    "A255128",
+    "A255129",
+    "A255407"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

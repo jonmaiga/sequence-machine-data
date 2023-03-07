@@ -1,0 +1,22 @@
+{
+  "description": "The number of overpartitions of n having an equal number of overlined and non-overlined parts.",
+  "id": "A340659",
+  "mentions": [
+    "A001524",
+    "A001622",
+    "A015128",
+    "A143184",
+    "A340658"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

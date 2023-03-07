@@ -1,0 +1,22 @@
+{
+  "description": "a(n) > n is chosen to minimize the difference between ratios a(n):n and n:(a(n) - n), so that they are matching approximations to the golden ratio.",
+  "id": "A295282",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A007067",
+    "A022342",
+    "A060645"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sign doubling substitution of the Rauzy: 1->{1,2},2->{1,3},3->1 using a digraphy symmetry to the bi-Kenyon version (not a triangular nest of nests, but a straight level 5).",
+  "id": "A105256",
+  "mentions": [
+    "A073058",
+    "A105111"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

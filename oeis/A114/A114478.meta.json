@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows; n-th row begins with n and contains n nonprimes greater than n and not already used.",
+  "id": "A114478",
+  "mentions": [
+    "A113167"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

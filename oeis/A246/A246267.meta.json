@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A048673(A246263(n))/2.",
+  "id": "A246267",
+  "mentions": [
+    "A048673",
+    "A246263",
+    "A246265",
+    "A246268"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

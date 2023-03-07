@@ -1,0 +1,20 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using n pentominoes of distinct shapes.",
+  "id": "A246902",
+  "mentions": [
+    "A174249",
+    "A233427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

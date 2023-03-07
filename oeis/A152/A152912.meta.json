@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2*p^2-1 is not prime.",
+  "id": "A152912",
+  "mentions": [
+    "A007588",
+    "A092057",
+    "A106483"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

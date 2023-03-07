@@ -1,0 +1,18 @@
+{
+  "description": "n-1+ceiling((3/4)n^2); complement of A184008.",
+  "id": "A184009",
+  "mentions": [
+    "A184008"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

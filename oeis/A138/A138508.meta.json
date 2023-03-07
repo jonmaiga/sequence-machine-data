@@ -1,0 +1,19 @@
+{
+  "description": "Semiprime analog of Riesel problem: start with n; repeatedly double and add 1 until reach a semiprime. Sequence gives number of steps to reach a semiprime or 0 if no semiprime is ever reached.",
+  "id": "A138508",
+  "mentions": [
+    "A001358",
+    "A050412"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

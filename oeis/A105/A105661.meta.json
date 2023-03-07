@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=1 if n is a prime, 2 if n is an even semiprime, otherwise 0.",
+  "id": "A105661",
+  "mentions": [
+    "A001222",
+    "A001751",
+    "A105700"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the partial sums of the number of divisions by 2 after each tripling step in the Collatz trajectory of 2n+1.",
+  "id": "A351123",
+  "mentions": [
+    "A075680",
+    "A087230",
+    "A166549",
+    "A256598",
+    "A258145",
+    "A351122"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

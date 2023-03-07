@@ -1,0 +1,21 @@
+{
+  "description": "Tiefenbruck sequence for the game of countably infinitely many hats.",
+  "id": "A345257",
+  "mentions": [
+    "A007814",
+    "A345255",
+    "A345355"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

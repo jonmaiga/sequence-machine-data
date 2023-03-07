@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A292944(A243071(n)); Base-2 expansion of a(n) encodes the steps where numbers of the form 6k+3 are encountered when map x -> A252463(x) is iterated down to 1, starting from x=n.",
+  "id": "A292943",
+  "mentions": [
+    "A005940",
+    "A163511",
+    "A243071",
+    "A252463",
+    "A292253",
+    "A292255",
+    "A292383",
+    "A292941",
+    "A292944",
+    "A292945"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is minimal number such that the set of all composite numbers <= a(n) contains complete residue system modulo n.",
+  "id": "A220533",
+  "mentions": [
+    "A002808",
+    "A038026",
+    "A210537",
+    "A211204"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

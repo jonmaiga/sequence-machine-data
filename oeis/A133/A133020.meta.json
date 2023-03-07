@@ -1,0 +1,22 @@
+{
+  "description": "Divisors of 10000.",
+  "id": "A133020",
+  "mentions": [
+    "A018283",
+    "A018433",
+    "A018653",
+    "A018767"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

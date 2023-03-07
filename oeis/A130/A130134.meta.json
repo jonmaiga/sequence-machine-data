@@ -1,0 +1,19 @@
+{
+  "description": "Even terms in A015922.",
+  "id": "A130134",
+  "mentions": [
+    "A015922",
+    "A033554",
+    "A130133"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

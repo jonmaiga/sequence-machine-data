@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps needed to reach 1 in the \"sqrt(2)*x + 1\" problem.",
+  "id": "A265287",
+  "mentions": [
+    "A006577",
+    "A264789"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

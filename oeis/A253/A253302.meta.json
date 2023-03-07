@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer m such that gcd{x | sum of proper divisors of x is m} is equal to n, when there are at least two such x's.",
+  "id": "A253302",
+  "mentions": [
+    "A001065",
+    "A048138",
+    "A152454",
+    "A253303"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

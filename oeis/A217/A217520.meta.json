@@ -1,0 +1,22 @@
+{
+  "description": "Base-3 state complexity of partitioned deterministic finite automaton (PDFA) for the periodic sequence (123...n)*.",
+  "id": "A217520",
+  "mentions": [
+    "A019334",
+    "A217519",
+    "A217521",
+    "A247566",
+    "A247581"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

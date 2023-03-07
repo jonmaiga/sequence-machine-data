@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = |E(GF(p))| = number of rational points on the elliptic curve E: y^2 + y = x^3 - x^2 mod p where the prime p is p(n) or p(n+1) according as n < 5 or n >= 5.",
+  "id": "A127310",
+  "mentions": [
+    "A000594",
+    "A127309",
+    "A127311"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

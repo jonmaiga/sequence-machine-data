@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle T(n, k), n, k >= 0, read by rows; for any number m with runs in binary expansion (r_1, ..., r_j), let R(m) = {r_1 + ... + r_j, r_2 + ... + r_j, ..., r_j}; row n corresponds to the numbers k such that R(k) is included in R(n), in ascending order.",
+  "id": "A339674",
+  "mentions": [
+    "A000120",
+    "A003188",
+    "A003817",
+    "A090079",
+    "A227736",
+    "A341840"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

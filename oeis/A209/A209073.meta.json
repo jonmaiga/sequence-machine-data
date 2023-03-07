@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) = number of n-bead necklaces labeled with numbers -k..k not allowing reversal, with sum zero and avoiding the pattern z z+1 z+2.",
+  "id": "A209073",
+  "mentions": [
+    "A002378",
+    "A208946"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 14*n^2 - 1.",
+  "id": "A158485",
+  "mentions": [
+    "A005843",
+    "A118277",
+    "A158484",
+    "A195019",
+    "A195020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

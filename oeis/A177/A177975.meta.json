@@ -1,0 +1,30 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals up. Each column is the first column in the matrix inverse of a triangular matrix that is the k-th differences of A051731 in the column direction.",
+  "id": "A177975",
+  "mentions": [
+    "A000010",
+    "A007438",
+    "A051731",
+    "A063524",
+    "A117108",
+    "A117109",
+    "A134540",
+    "A159905",
+    "A177976",
+    "A177977",
+    "A177978",
+    "A332470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

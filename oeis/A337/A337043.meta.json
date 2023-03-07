@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = exp(-1/n) * Sum_{k>=0} (n*k - 1)^n / (n^k * k!).",
+  "id": "A337043",
+  "mentions": [
+    "A000296",
+    "A301419",
+    "A330605",
+    "A334162",
+    "A337038",
+    "A337039",
+    "A337040",
+    "A337041",
+    "A337042"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

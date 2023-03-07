@@ -1,0 +1,24 @@
+{
+  "description": "Final prime adjoined in the smallest term of A019518 divisible by 31^n.",
+  "id": "A185677",
+  "mentions": [
+    "A009975",
+    "A019518",
+    "A185656",
+    "A185659",
+    "A185662",
+    "A185665",
+    "A185671"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

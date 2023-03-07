@@ -1,0 +1,22 @@
+{
+  "description": "Integers whose writing includes only the vowel \"e\" (in French).",
+  "id": "A266604",
+  "mentions": [
+    "A006933",
+    "A014254",
+    "A261159"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

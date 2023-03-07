@@ -1,0 +1,20 @@
+{
+  "description": "Non-repunit elements of A261020 in nonincreasing order.",
+  "id": "A261322",
+  "mentions": [
+    "A261020"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

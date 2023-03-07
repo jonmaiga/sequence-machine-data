@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured numbers n such that there do not exist two consecutive primes whose product + n is a square.",
+  "id": "A129816",
+  "mentions": [
+    "A075369",
+    "A129783"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

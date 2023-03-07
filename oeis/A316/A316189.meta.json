@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum(1/p + 1/q) as (p, q) runs through the twin m^2 + 1 primes.",
+  "id": "A316189",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A065421",
+    "A085548",
+    "A096012",
+    "A172168",
+    "A206328"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*4^(2*n+1).",
+  "id": "A239739",
+  "mentions": [
+    "A013709",
+    "A219931",
+    "A220002",
+    "A220422",
+    "A267796"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

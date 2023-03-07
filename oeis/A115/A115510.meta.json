@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1. a(n) is smallest positive integer not occurring earlier in the sequence such that a(n) and a(n-1) have at least one 1-bit in the same position when they are written in binary.",
+  "id": "A115510",
+  "mentions": [
+    "A064413",
+    "A109812",
+    "A115511",
+    "A226077"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

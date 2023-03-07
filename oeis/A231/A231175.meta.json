@@ -1,0 +1,20 @@
+{
+  "description": "Let A={2,4,5,8,9,11,14,...} be the sequence of numbers k>=1 such that k+1 is evil (A001969), and let B be the complement of A. The sequence lists numbers for which number of A-divisors equals number of B-divisors.",
+  "id": "A231175",
+  "mentions": [
+    "A000005",
+    "A001969",
+    "A227891"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

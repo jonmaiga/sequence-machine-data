@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = -Sum_{d|n} a(n-d).",
+  "id": "A293665",
+  "mentions": [
+    "A067951",
+    "A281487",
+    "A281488"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

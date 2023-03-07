@@ -1,0 +1,18 @@
+{
+  "description": "Array of pairs (x,y) of Markoff triples (x,y,z) with x <= y <= z, for z given in A002559.",
+  "id": "A253809",
+  "mentions": [
+    "A002559"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

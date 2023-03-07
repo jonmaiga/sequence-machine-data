@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(m, 2^m-1) where m is the n-th nonprime positive integer.",
+  "id": "A260626",
+  "mentions": [
+    "A014491",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

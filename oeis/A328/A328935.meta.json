@@ -1,0 +1,22 @@
+{
+  "description": "Imprimitive Carmichael numbers: Carmichael numbers m such that if m = p_1 * p_2 * ... *p_k is the prime factorization of m then g(m) = gcd(p_1 - 1, ..., p_k - 1) > sqrt(lambda(m)), where lambda is the Carmichael lambda function (A002322).",
+  "id": "A328935",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A087788",
+    "A258409",
+    "A335584"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=1} (-1 + Product_{j>=1} (1 + x^(k*j))/(1 - x^(k*j))).",
+  "id": "A320942",
+  "mentions": [
+    "A015128",
+    "A047966",
+    "A047968",
+    "A300274"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Group the terms of A001511 into clumps so that the sum in each clump is just larger than the sum of the previous clump; sequence gives the sums of the clumps.",
+  "id": "A100278",
+  "mentions": [
+    "A001511"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of words either empty or beginning with the first letter of the ternary alphabet, where each letter of the alphabet occurs n times.",
+  "id": "A208881",
+  "mentions": [
+    "A060542",
+    "A208879",
+    "A253283"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k, k + 1 and k + 2 are 3 consecutive Harshad numbers.",
+  "id": "A154701",
+  "mentions": [
+    "A005349",
+    "A060159",
+    "A141769",
+    "A328210",
+    "A328214",
+    "A330927",
+    "A330928",
+    "A330929",
+    "A330930",
+    "A330932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

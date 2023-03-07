@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Landau-Kolmogorov constant C(4,2) for derivatives in L_2(0, infinity).",
+  "id": "A245287",
+  "mentions": [
+    "A244091",
+    "A245286"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

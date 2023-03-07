@@ -1,0 +1,22 @@
+{
+  "description": "Triangular matrix, read by rows, that satisfies: T(n,k) = [T^2](n-1,k) when n>k>=0, with T(n,n) = (n+1).",
+  "id": "A102086",
+  "mentions": [
+    "A082161",
+    "A102087",
+    "A102088",
+    "A102316"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

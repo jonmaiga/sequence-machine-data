@@ -1,0 +1,41 @@
+{
+  "description": "Matula-Goebel numbers of semi-lone-child-avoiding achiral rooted trees.",
+  "id": "A331992",
+  "mentions": [
+    "A001678",
+    "A003238",
+    "A007097",
+    "A025475",
+    "A050381",
+    "A061775",
+    "A167865",
+    "A196050",
+    "A214577",
+    "A276625",
+    "A280996",
+    "A291441",
+    "A291636",
+    "A320230",
+    "A320269",
+    "A331912",
+    "A331933",
+    "A331935",
+    "A331936",
+    "A331963",
+    "A331965",
+    "A331967",
+    "A331991",
+    "A331994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

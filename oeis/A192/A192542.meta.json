@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the interval [2^n-n, 2^n] is prime-free.",
+  "id": "A192542",
+  "mentions": [
+    "A000043",
+    "A050414",
+    "A059608",
+    "A059610",
+    "A192064"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

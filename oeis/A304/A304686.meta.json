@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with strictly decreasing prime multiplicities.",
+  "id": "A304686",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001597",
+    "A005117",
+    "A055932",
+    "A071365",
+    "A112769",
+    "A130091",
+    "A133808",
+    "A133811",
+    "A181819",
+    "A242031",
+    "A283050",
+    "A304678",
+    "A304679"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

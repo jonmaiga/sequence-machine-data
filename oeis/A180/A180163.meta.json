@@ -1,0 +1,25 @@
+{
+  "description": "Products of pairs of amicable numbers (see A063990).",
+  "id": "A180163",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A063990",
+    "A161005",
+    "A180202",
+    "A259180"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

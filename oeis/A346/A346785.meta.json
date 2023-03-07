@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of minimal squared radii of circular disks covering a record number of lattice points of the hexagonal lattice, when the centers of the circles are chosen to maximize the number of covered lattice points.",
+  "id": "A346785",
+  "mentions": [
+    "A125852",
+    "A346126",
+    "A346784"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

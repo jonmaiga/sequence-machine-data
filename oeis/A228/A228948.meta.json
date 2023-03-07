@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that n^3 + k^2 = m^3 for some k>0, m>0.",
+  "id": "A228948",
+  "mentions": [
+    "A065733",
+    "A077116",
+    "A081120",
+    "A081121",
+    "A087285",
+    "A087286",
+    "A088017",
+    "A179419",
+    "A229618",
+    "A356709",
+    "A356713",
+    "A356720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

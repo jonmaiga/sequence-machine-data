@@ -1,0 +1,22 @@
+{
+  "description": "Class number a(n) of indefinite binary quadratic forms with discriminant 4*A000037(n) for n >= 1.",
+  "id": "A307359",
+  "mentions": [
+    "A000037",
+    "A079896",
+    "A082174",
+    "A087048",
+    "A324251"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

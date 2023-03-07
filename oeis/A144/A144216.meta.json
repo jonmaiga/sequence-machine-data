@@ -1,0 +1,21 @@
+{
+  "description": "C(m,2)+C(n,2), m>=1, n>=1: a rectangular array R read by antidiagonals.",
+  "id": "A144216",
+  "mentions": [
+    "A112742",
+    "A144112",
+    "A144217"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:09",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Column 3 of array in A322765.",
+  "id": "A322768",
+  "mentions": [
+    "A322765",
+    "A322774"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number 1 alternating with the numbers A006953/A002445 (which are integers).",
+  "id": "A193267",
+  "mentions": [
+    "A002445",
+    "A006953",
+    "A027760",
+    "A185633"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

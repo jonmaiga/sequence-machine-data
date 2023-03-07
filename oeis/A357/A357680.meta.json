@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of primes that can be written as +-1! +- 2! +- 3! +- ... +- n!.",
+  "id": "A357680",
+  "mentions": [
+    "A000142",
+    "A059590",
+    "A089359"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) is the least positive primitive root of the n-th prime p=prime(n) raised to successive powers of k (mod p) where 1<=k<=p-1 and gcd(k,p-1)=1.",
+  "id": "A254309",
+  "mentions": [
+    "A001918",
+    "A008330",
+    "A060749",
+    "A088144",
+    "A255367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

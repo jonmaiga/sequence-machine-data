@@ -1,0 +1,23 @@
+{
+  "description": "Table of exponents of prime factorizations in A055932.",
+  "id": "A124829",
+  "mentions": [
+    "A055932",
+    "A066099",
+    "A124830",
+    "A124831",
+    "A124832"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

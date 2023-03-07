@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that x^k == k (mod k + 1) has multiple solutions for 0 <= x < k.",
+  "id": "A330279",
+  "mentions": [
+    "A014117",
+    "A096008",
+    "A195637"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

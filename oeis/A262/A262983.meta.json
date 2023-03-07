@@ -1,0 +1,24 @@
+{
+  "description": "Terms of A005179 divisible by their indices in order of appearance in A005179.",
+  "id": "A262983",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A033950",
+    "A110821",
+    "A262981",
+    "A279373"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

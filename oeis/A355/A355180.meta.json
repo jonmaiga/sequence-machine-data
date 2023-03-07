@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. -LambertW(x^3 * (1 - exp(x)))/6.",
+  "id": "A355180",
+  "mentions": [
+    "A048802",
+    "A355179",
+    "A357267"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

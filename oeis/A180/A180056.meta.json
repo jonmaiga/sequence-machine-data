@@ -1,0 +1,25 @@
+{
+  "description": "The number of permutations of {1,2,...,2n} with n ascents.",
+  "id": "A180056",
+  "mentions": [
+    "A006551",
+    "A008292",
+    "A025585",
+    "A303284",
+    "A303285",
+    "A303286",
+    "A303287",
+    "A321967"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

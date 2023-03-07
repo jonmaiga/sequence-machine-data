@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the absolute abnormal number derived from A220189.",
+  "id": "A220190",
+  "mentions": [
+    "A220189"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

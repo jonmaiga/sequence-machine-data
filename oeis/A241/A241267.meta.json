@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 4*n^2 + 4*n + 653 is not prime.",
+  "id": "A241267",
+  "mentions": [
+    "A188459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

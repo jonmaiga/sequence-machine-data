@@ -1,0 +1,20 @@
+{
+  "description": "The values of the modified Syracuse algorithm, msa, in the order in which they appear in A260590.",
+  "id": "A260593",
+  "mentions": [
+    "A020914",
+    "A260590",
+    "A260594"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

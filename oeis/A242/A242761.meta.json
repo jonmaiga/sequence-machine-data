@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the escape probability for a random walk on the 3-D cubic lattice (a Polya random walk constant).",
+  "id": "A242761",
+  "mentions": [
+    "A043546",
+    "A086230",
+    "A086231",
+    "A086232",
+    "A086236",
+    "A242812",
+    "A242816",
+    "A293237",
+    "A293238"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

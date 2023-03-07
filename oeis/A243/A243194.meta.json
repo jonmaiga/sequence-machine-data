@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative integers of the form x^2+xy+10y^2.",
+  "id": "A243194",
+  "mentions": [
+    "A033227"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

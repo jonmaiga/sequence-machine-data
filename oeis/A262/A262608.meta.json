@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that floor(10*p/Pi) mod 10 = 0.",
+  "id": "A262608",
+  "mentions": [
+    "A000796",
+    "A141850",
+    "A141851",
+    "A141855",
+    "A141856",
+    "A141857"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

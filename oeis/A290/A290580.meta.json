@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. W = W(x,m) satisfies: W = E(x*W,m) where E(x,m) = cn(i*x,m) - i*sn(i*x,m), with sn(x,m) and cn(x,m) being Jacobi elliptic functions, read as an irregular triangle of coefficients T(n,k) of x^n*m^k for n>=0 and k=0..[n/2].",
+  "id": "A290580",
+  "mentions": [
+    "A000272",
+    "A290579",
+    "A290581",
+    "A291214"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

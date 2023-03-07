@@ -1,0 +1,25 @@
+{
+  "description": "Least k whose set of divisors contains exactly n quadruples (x, y, z, w) such that x^3 + y^3 + z^3 = w^3, or 0 if no such k exists.",
+  "id": "A337098",
+  "mentions": [
+    "A027750",
+    "A095867",
+    "A095868",
+    "A096545",
+    "A096546",
+    "A328149",
+    "A328204",
+    "A331365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

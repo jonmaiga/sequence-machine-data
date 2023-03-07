@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of alternately strong integer partitions.",
+  "id": "A334969",
+  "mentions": [
+    "A000041",
+    "A100883",
+    "A181819",
+    "A182850",
+    "A182857",
+    "A304660",
+    "A304678",
+    "A305563",
+    "A316496",
+    "A316529",
+    "A317256",
+    "A317257",
+    "A332275",
+    "A332292",
+    "A332338",
+    "A332339",
+    "A332340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

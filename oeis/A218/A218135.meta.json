@@ -1,0 +1,19 @@
+{
+  "description": "Norm of coefficients in the expansion of 1 / (1 - x - 2*I*x^2), where I^2=-1.",
+  "id": "A218135",
+  "mentions": [
+    "A105309",
+    "A218134"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:56:36",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

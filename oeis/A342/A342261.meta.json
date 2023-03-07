@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array T(n,k) = m read by rows. Row n lists all solutions m < 3^n, where A340407(3^n*j - m) = n is true for all j > 0, sorted in ascending order.",
+  "id": "A342261",
+  "mentions": [
+    "A340407",
+    "A342369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

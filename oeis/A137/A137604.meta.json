@@ -1,0 +1,18 @@
+{
+  "description": "Define a sequence b(n) by the following rule. If b(n-1) is divisible by 2 then b(n) = b(n-1)/2. If b(n-1) is not divisible by 2 then b(n) = b(0)-(b(n-1)+1)/2. When b(n)=1 it ends. Then a(m) = (Sum_{0<=k<=l} b(k)) - 1 where b(0)=m, b(l)=1 = A096259(m)/(m*2^p), 4<=m.",
+  "id": "A137604",
+  "mentions": [
+    "A096259",
+    "A137605"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi + sqrt(-1 + Pi^2).",
+  "id": "A189089",
+  "mentions": [
+    "A188738",
+    "A189088",
+    "A189090"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:52",
+    "offset": 1,
+    "size": 130,
+    "source": "joeis"
+  }
+}

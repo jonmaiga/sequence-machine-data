@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least semiprime having a(n-1) as a substring, a(1)=4.",
+  "id": "A254718",
+  "mentions": [
+    "A001358",
+    "A030456"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

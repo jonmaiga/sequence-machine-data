@@ -1,0 +1,20 @@
+{
+  "description": "Zeros in Cald's sequence: positions n such that A006509(n) = 0.",
+  "id": "A112877",
+  "mentions": [
+    "A006509",
+    "A112878",
+    "A117128",
+    "A117129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

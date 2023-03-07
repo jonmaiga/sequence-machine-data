@@ -1,0 +1,32 @@
+{
+  "description": "Number of not necessarily connected 8-regular simple graphs on n vertices.",
+  "id": "A180260",
+  "mentions": [
+    "A000012",
+    "A005176",
+    "A005195",
+    "A005638",
+    "A008483",
+    "A014378",
+    "A033301",
+    "A051031",
+    "A129426",
+    "A129437",
+    "A165626",
+    "A165627",
+    "A165628",
+    "A165878"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

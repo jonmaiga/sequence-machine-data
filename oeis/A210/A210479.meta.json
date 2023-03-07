@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with p-1 and p+1 both practical: \"Sandwich of the first kind\"",
+  "id": "A210479",
+  "mentions": [
+    "A005153",
+    "A208249",
+    "A209236",
+    "A210480",
+    "A258838"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

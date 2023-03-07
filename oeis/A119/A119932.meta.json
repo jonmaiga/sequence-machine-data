@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of denominators of the cube of a certain lower triangular matrix.",
+  "id": "A119932",
+  "mentions": [
+    "A002024",
+    "A027447",
+    "A119933",
+    "A119935"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the n-th cyclotomic polynomial has no root mod p for all primes p <= n.",
+  "id": "A253235",
+  "mentions": [
+    "A000079",
+    "A038754",
+    "A245478",
+    "A245479",
+    "A245480",
+    "A245481",
+    "A253236"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

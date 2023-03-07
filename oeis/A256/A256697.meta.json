@@ -1,0 +1,20 @@
+{
+  "description": "Trace of the minimal alternating triangular-number representation of n.",
+  "id": "A256697",
+  "mentions": [
+    "A255974",
+    "A256698",
+    "A256699"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

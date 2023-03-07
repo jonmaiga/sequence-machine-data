@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 - x^k)^(7^(k-1)).",
+  "id": "A343352",
+  "mentions": [
+    "A034691",
+    "A104460",
+    "A144071",
+    "A343349",
+    "A343350",
+    "A343351",
+    "A343353",
+    "A343354",
+    "A343355"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:36:10",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

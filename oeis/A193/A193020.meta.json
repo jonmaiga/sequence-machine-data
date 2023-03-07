@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct self-shuffles of the word given by the binary representation of n.",
+  "id": "A193020",
+  "mentions": [
+    "A191755",
+    "A192296"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Characteristic function for A236842 (A234742): a(n) = 1, if n is a result of \"upward\" remultiplication (GF(2)[X] -> N) of some number, 0 otherwise.",
+  "id": "A236862",
+  "mentions": [
+    "A003986",
+    "A014580",
+    "A091206",
+    "A091225",
+    "A234742",
+    "A235046",
+    "A236842",
+    "A236853",
+    "A236861"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

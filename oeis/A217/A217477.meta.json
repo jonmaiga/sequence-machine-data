@@ -1,0 +1,23 @@
+{
+  "description": "Z-sequence for the Riordan triangle A111125;",
+  "id": "A217477",
+  "mentions": [
+    "A000108",
+    "A006232",
+    "A100320",
+    "A111125",
+    "A115141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:33:40",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

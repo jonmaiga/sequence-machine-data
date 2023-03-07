@@ -1,0 +1,29 @@
+{
+  "description": "Squarefree integers m > 1 such that if prime p divides m, then s_p(m) >= p and s_p(m) == 2 (mod p-1), where s_p(m) is the sum of the base p digits of m.",
+  "id": "A324404",
+  "mentions": [
+    "A002997",
+    "A050990",
+    "A324315",
+    "A324316",
+    "A324317",
+    "A324318",
+    "A324319",
+    "A324320",
+    "A324369",
+    "A324370",
+    "A324371",
+    "A324405"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

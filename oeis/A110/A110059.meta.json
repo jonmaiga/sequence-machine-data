@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime ending a complete Cunningham chain of the second kind (2x-1) of length n.",
+  "id": "A110059",
+  "mentions": [
+    "A005382",
+    "A005384",
+    "A005603",
+    "A057326",
+    "A059761"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

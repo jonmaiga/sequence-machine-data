@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest b >= 2 such that b^(6*2^n) - b^(3*2^n) + 1 is prime.",
+  "id": "A298206",
+  "mentions": [
+    "A001620",
+    "A085398",
+    "A153438",
+    "A205506",
+    "A246119"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

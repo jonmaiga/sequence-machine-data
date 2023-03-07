@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the real part of I^(1/8), or cos(Pi/16).",
+  "id": "A232737",
+  "mentions": [
+    "A010503",
+    "A010527",
+    "A019881",
+    "A019884",
+    "A019889",
+    "A019890",
+    "A144981",
+    "A232735",
+    "A232738"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

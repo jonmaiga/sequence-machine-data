@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers with at most two distinct prime factors.",
+  "id": "A119663",
+  "mentions": [
+    "A000217",
+    "A005384",
+    "A068443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

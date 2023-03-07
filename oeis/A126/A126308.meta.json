@@ -1,0 +1,21 @@
+{
+  "description": "Delete '10'-substrings in the binary expansion of n.",
+  "id": "A126308",
+  "mentions": [
+    "A014486",
+    "A080300",
+    "A080303",
+    "A126309"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n, n+1, n+2 are all of the form p*q^2 for distinct primes p,q.",
+  "id": "A178032",
+  "mentions": [
+    "A054753",
+    "A074172",
+    "A141621",
+    "A308683"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of repdigit numbers (A010785).",
+  "id": "A277209",
+  "mentions": [
+    "A000217",
+    "A010785",
+    "A027828",
+    "A046489"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:45:07",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

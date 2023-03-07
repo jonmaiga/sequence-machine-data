@@ -1,0 +1,21 @@
+{
+  "description": "Number of meanders of length n with Motzkin-steps avoiding the consecutive steps HH and DD.",
+  "id": "A329669",
+  "mentions": [
+    "A329665",
+    "A329666",
+    "A329667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:24:37",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 48*2^n + 26 (n>=1).",
+  "id": "A304605",
+  "mentions": [
+    "A304606",
+    "A304607",
+    "A304608"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

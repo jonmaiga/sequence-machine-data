@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} (1 + x)^(n^2) / 2^(n+1).",
+  "id": "A173217",
+  "mentions": [
+    "A104209",
+    "A173218",
+    "A265936",
+    "A301466",
+    "A301468"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least prime such that whenever 2*a(n) is the sum of two primes, none of them is in the set F such that Sum_{p in F} 2^primepi(p-1) = n.",
+  "id": "A185447",
+  "mentions": [
+    "A019565",
+    "A185446"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

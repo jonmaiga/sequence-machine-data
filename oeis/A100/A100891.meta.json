@@ -1,0 +1,21 @@
+{
+  "description": "Prime Padovan numbers.",
+  "id": "A100891",
+  "mentions": [
+    "A000931",
+    "A112882",
+    "A122498",
+    "A291216",
+    "A291673"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

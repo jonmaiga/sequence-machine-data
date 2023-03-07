@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 for n <= 2; thereafter a(n) is the number of partitions of n where every part k appears at least a(k) times.",
+  "id": "A339246",
+  "mentions": [
+    "A115584",
+    "A117144",
+    "A151945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

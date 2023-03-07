@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of (at least two) consecutive primes in exactly three ways.",
+  "id": "A291921",
+  "mentions": [
+    "A054998",
+    "A067373"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

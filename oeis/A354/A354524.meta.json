@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p+1 is the concatenation of a power of 3 and a power of 2.",
+  "id": "A354524",
+  "mentions": [
+    "A068715",
+    "A068801"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

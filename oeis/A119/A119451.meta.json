@@ -1,0 +1,22 @@
+{
+  "description": "Let S_n be the infinite sequence formed by starting with n and repeatedly reversing the digits and adding 16 to get the next term. Sequence gives number of steps for S_n to reach a cycle, or -1 if no cycle is ever reached.",
+  "id": "A119451",
+  "mentions": [
+    "A118533",
+    "A119452",
+    "A119453",
+    "A119454",
+    "A119455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

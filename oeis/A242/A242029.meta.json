@@ -1,0 +1,18 @@
+{
+  "description": "Number of anti-divisors m <= n of n that are coprime to n.",
+  "id": "A242029",
+  "mentions": [
+    "A066272",
+    "A240979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

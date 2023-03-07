@@ -1,0 +1,22 @@
+{
+  "description": "Primes that remain prime when their digits are sorted into nondecreasing order.",
+  "id": "A211654",
+  "mentions": [
+    "A004185",
+    "A028864",
+    "A028867",
+    "A086042",
+    "A211655"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

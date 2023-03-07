@@ -1,0 +1,24 @@
+{
+  "description": "The number of binary pattern classes in the (2,n)-rectangular grid with 3 '1's and (2n-3) '0's: two patterns are in same class if one of them can be obtained by a reflection or 180-degree rotation of the other.",
+  "id": "A225972",
+  "mentions": [
+    "A000330",
+    "A005993",
+    "A142150",
+    "A199771",
+    "A226048",
+    "A289179"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:19",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

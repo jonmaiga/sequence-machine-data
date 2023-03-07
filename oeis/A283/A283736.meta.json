@@ -1,0 +1,25 @@
+{
+  "description": "Semisimple numbers: positive integers having exactly one reduced phi-partition.",
+  "id": "A283736",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A002210",
+    "A034386",
+    "A060735",
+    "A065091",
+    "A283320",
+    "A283528",
+    "A283530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

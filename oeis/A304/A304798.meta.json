@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of sign-alternating Egyptian fraction expansion for 1/phi (=(sqrt(5)-1)/2).",
+  "id": "A304798",
+  "mentions": [
+    "A014013",
+    "A014015",
+    "A117116"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

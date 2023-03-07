@@ -1,0 +1,28 @@
+{
+  "description": "Four interlaced 2nd order polynomials: a(4*k) = k*(1+2*k); a(1+2*k) = 2*(1+2*k)*(3+2*k); a(2+4*k) = 4*(1+k)*(1+2*k).",
+  "id": "A191567",
+  "mentions": [
+    "A000384",
+    "A000466",
+    "A014105",
+    "A060819",
+    "A061037",
+    "A061038",
+    "A064680",
+    "A145979",
+    "A177427",
+    "A181318"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:49",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

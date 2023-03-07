@@ -1,0 +1,27 @@
+{
+  "description": "Iccanobirt numbers (15 of 15): a(n) = R(R(a(n-1)) + R(a(n-2)) + R(a(n-3))), where R is the digit reversal function A004086.",
+  "id": "A102125",
+  "mentions": [
+    "A000073",
+    "A001129",
+    "A004086",
+    "A014258",
+    "A014260",
+    "A102111",
+    "A102117",
+    "A102124"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

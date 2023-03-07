@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the summatory Liouville function L(n) (A002819) is zero and L(n-1)*L(n+1) = -1.",
+  "id": "A249482",
+  "mentions": [
+    "A002819",
+    "A028488",
+    "A051470",
+    "A189229",
+    "A249487",
+    "A253174"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are larger than or equal to the sum of the cubes of their prime factors (with multiplicity).",
+  "id": "A259942",
+  "mentions": [
+    "A002804",
+    "A166319"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

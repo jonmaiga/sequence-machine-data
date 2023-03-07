@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of knights on an n X n chessboard such that every square is attacked.",
+  "id": "A261752",
+  "mentions": [
+    "A006075"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 4,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

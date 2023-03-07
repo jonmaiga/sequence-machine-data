@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies: A(x) = Sum_{n>=0} exp(A(x)^n - 1)*A(x)^n*x^n/n!.",
+  "id": "A196531",
+  "mentions": [
+    "A195895"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of all pairs of greater common divisors for (i,j) where 1 <= i < j <= n.",
+  "id": "A178881",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A006579",
+    "A018806",
+    "A074962",
+    "A272718"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

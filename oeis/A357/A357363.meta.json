@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that either p^(q-1) == 1 (mod q^2) or q^(p-1) == 1 (mod p^2), where q = A151800(A151800(p)).",
+  "id": "A357363",
+  "mentions": [
+    "A151800",
+    "A357362",
+    "A357364",
+    "A357365"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

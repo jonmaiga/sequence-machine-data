@@ -1,0 +1,20 @@
+{
+  "description": "Numbers where terms in A167153 change parity: a(n)+1 is in A167153, but a(n)-1 is not.",
+  "id": "A167154",
+  "mentions": [
+    "A167152",
+    "A167153"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

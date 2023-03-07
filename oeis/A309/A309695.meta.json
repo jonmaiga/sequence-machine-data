@@ -1,0 +1,19 @@
+{
+  "description": "Smallest members of prime 5-tuples whose sum is a prime.",
+  "id": "A309695",
+  "mentions": [
+    "A022006",
+    "A022007"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

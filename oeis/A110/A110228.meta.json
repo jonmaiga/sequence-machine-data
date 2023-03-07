@@ -1,0 +1,29 @@
+{
+  "description": "4-almost primes p * q * r * s not relatively prime to p + q + r + s.",
+  "id": "A110228",
+  "mentions": [
+    "A014613",
+    "A110187",
+    "A110188",
+    "A110227",
+    "A110229",
+    "A110230",
+    "A110231",
+    "A110232",
+    "A110289",
+    "A110290",
+    "A110296",
+    "A110297"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

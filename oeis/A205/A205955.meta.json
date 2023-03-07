@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime(n) * (prime(n+2) - prime(n+1)).",
+  "id": "A205955",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Match-making permutation: start with a(1) = 1, then always choose for a(n) the least unused number such that multiplying a(n) by a(n-1) does not produce any carries when performed in base 2.",
+  "id": "A266195",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A048720",
+    "A061858",
+    "A070939",
+    "A235034",
+    "A235035",
+    "A265748",
+    "A265749",
+    "A265917",
+    "A266186",
+    "A266187",
+    "A266191",
+    "A266194",
+    "A266196",
+    "A266197",
+    "A266351"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

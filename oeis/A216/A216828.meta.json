@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose squares can be written in all the four forms a^2 + b^2, a^2 + 2*b^2, a^2 + 3*b^2 and a^2 + 7*b^2, with a > 0 and b > 0.",
+  "id": "A216828",
+  "mentions": [
+    "A216451",
+    "A216500",
+    "A216501",
+    "A216671",
+    "A216679",
+    "A216680",
+    "A216682"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 494\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A282660",
+  "mentions": [
+    "A282661",
+    "A282662",
+    "A282663"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

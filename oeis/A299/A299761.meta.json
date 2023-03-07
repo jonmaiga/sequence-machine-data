@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n >= 1, k >= 1, in which row n lists the middle divisors of n, or 0 if there are no middle divisors of n.",
+  "id": "A299761",
+  "mentions": [
+    "A027750",
+    "A067742",
+    "A071090",
+    "A071561",
+    "A071562",
+    "A281007",
+    "A299777",
+    "A303297"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

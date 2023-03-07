@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the start of 10 successive distinct digits in the decimal expansion of Pi.",
+  "id": "A258157",
+  "mentions": [
+    "A000796",
+    "A258158",
+    "A280182",
+    "A280183"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

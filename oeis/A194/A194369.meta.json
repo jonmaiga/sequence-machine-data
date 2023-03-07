@@ -1,0 +1,18 @@
+{
+  "description": "(A194368)/2.",
+  "id": "A194369",
+  "mentions": [
+    "A194368",
+    "A194370"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:45:37",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

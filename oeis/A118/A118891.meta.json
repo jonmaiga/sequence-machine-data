@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary sequences of length n with no subsequence 01110.",
+  "id": "A118891",
+  "mentions": [
+    "A000045",
+    "A005251",
+    "A049864"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

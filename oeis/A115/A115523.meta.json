@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered quadruples (i,j,k,l) in range [0..n] satisfying i == j mod 2, j == k mod 3 and k == l mod 4.",
+  "id": "A115523",
+  "mentions": [
+    "A010881",
+    "A115520"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:21",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "First occurrence of difference n between two consecutive terms of A000404. a(n) gives the lower term. The upper term is A355238.",
+  "id": "A355237",
+  "mentions": [
+    "A000404",
+    "A104271",
+    "A355238"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

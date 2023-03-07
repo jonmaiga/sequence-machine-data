@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k+1 is the smallest prime factor of k^3 + 3^k.",
+  "id": "A109273",
+  "mentions": [
+    "A001585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

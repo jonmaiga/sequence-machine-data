@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, where row n+1 of T = row n of T^(2^n) with appended '1' for n>=0 with T(0,0)=1.",
+  "id": "A132625",
+  "mentions": [
+    "A101479",
+    "A132610",
+    "A132615",
+    "A132626",
+    "A132627",
+    "A136555"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

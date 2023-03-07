@@ -1,0 +1,22 @@
+{
+  "description": "Last term in each row of triangle referenced in A101777.",
+  "id": "A101778",
+  "mentions": [
+    "A000217",
+    "A020482",
+    "A100555",
+    "A101776",
+    "A101777"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

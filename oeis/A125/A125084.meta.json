@@ -1,0 +1,20 @@
+{
+  "description": "Cubes which have a partition as the sum of 3 squares.",
+  "id": "A125084",
+  "mentions": [
+    "A000378",
+    "A000578",
+    "A004215"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:56:31",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

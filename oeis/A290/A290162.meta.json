@@ -1,0 +1,23 @@
+{
+  "description": "Initial primes of 8 consecutive primes with 7 consecutive gaps 14, 12, 10, 8, 6, 4, 2.",
+  "id": "A290162",
+  "mentions": [
+    "A078847",
+    "A190814",
+    "A190817",
+    "A190819",
+    "A190838",
+    "A286891",
+    "A290161"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

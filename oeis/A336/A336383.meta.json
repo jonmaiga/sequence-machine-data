@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number such that, with f(x) = x - (the product of the digits of x), f(a(n)) reaches a fixed point after n iterations.",
+  "id": "A336383",
+  "mentions": [
+    "A003001",
+    "A070565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

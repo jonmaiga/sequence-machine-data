@@ -1,0 +1,18 @@
+{
+  "description": "Number of times you have to move n cards from one pile to another doing one up, one down, until you obtain the initial sequence.",
+  "id": "A145787",
+  "mentions": [
+    "A019567"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

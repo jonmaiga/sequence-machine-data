@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths d of semilength n such that sum of peakheights of d - number of peaks of d = k (n >= 0, 0 <= k <= floor(n^2/4)).",
+  "id": "A140717",
+  "mentions": [
+    "A000108",
+    "A008549",
+    "A129183"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Orbit size of n in permutation A163355.",
+  "id": "A163890",
+  "mentions": [
+    "A003586",
+    "A163355",
+    "A163891",
+    "A163892",
+    "A163894"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

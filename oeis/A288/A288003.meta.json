@@ -1,0 +1,22 @@
+{
+  "description": "R-fusc, sequence r of the mutual diatomic recurrence pair: l(1)=0, r(1)=1, l(2n) = l(n), r(2n) = r(n), l(2n+1) = l(n)+r(n), r(2n+1) = l(n+1)+r(n+1), where l(n) = A288002(n).",
+  "id": "A288003",
+  "mentions": [
+    "A002487",
+    "A070939",
+    "A287729",
+    "A287730",
+    "A288002"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

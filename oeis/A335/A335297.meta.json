@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that for all m>k, d(m)/m < d(k)/k where d(j) = Min_{p & q odd primes, 2*j = p+q, p <= q} (q-p)/2.",
+  "id": "A335297",
+  "mentions": [
+    "A002375",
+    "A066285"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

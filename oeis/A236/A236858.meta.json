@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table where row n contains numbers from 1 to the least common multiple (LCM) of {1, 2, ..., n}. Row 0 is given as a(0)=1.",
+  "id": "A236858",
+  "mentions": [
+    "A003418",
+    "A220661",
+    "A236856",
+    "A236857",
+    "A238280"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

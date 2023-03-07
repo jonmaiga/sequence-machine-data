@@ -1,0 +1,22 @@
+{
+  "description": "Maximum water retention of an associative magic square of order n.",
+  "id": "A261798",
+  "mentions": [
+    "A054247",
+    "A201126",
+    "A201127",
+    "A261347",
+    "A534020"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

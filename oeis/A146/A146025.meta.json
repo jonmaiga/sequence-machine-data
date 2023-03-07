@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that can be written in bases 2, 3, 4, and 5 using only the digits 0 and 1.",
+  "id": "A146025",
+  "mentions": [
+    "A000695",
+    "A005836",
+    "A033042",
+    "A131646",
+    "A146026",
+    "A146027",
+    "A230360",
+    "A258107",
+    "A258981",
+    "A275600"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

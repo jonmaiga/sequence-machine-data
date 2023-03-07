@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest prime whose decimal expansion consists of the concatenation of a 1-digit prime, a 2-digit prime, a 3-digit prime, ..., and an n-digit prime.",
+  "id": "A338968",
+  "mentions": [
+    "A000217",
+    "A003618",
+    "A195302",
+    "A215641",
+    "A339978",
+    "A340115"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

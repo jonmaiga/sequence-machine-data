@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form p^F(i)*q^F(j), where p and q are distinct primes; F(i) and F(j) are Fibonacci numbers.",
+  "id": "A115105",
+  "mentions": [
+    "A115063"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

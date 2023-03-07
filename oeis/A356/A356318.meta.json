@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the least j >= k for which k and A276086(j) are coprime is a nontrivial multiple of k, where A276086 is the primorial base exp-function.",
+  "id": "A356318",
+  "mentions": [
+    "A276086",
+    "A324583",
+    "A324584",
+    "A356162",
+    "A356302",
+    "A356309",
+    "A356315",
+    "A356316",
+    "A356319"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

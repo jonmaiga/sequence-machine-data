@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - x) * Product_{k>=0} 1/(1 - x^(2^k))^(2^(k+1)).",
+  "id": "A321335",
+  "mentions": [
+    "A073708",
+    "A073709",
+    "A073710",
+    "A321336"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

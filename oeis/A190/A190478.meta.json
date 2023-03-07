@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime prime(k) > a(n-1) such that the n numbers 2*prime(j)+3, j=k to k+n-1, are all prime.",
+  "id": "A190478",
+  "mentions": [
+    "A023204",
+    "A089530"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

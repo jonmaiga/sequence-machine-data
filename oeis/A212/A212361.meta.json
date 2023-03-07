@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between two consecutive prime triples (p, p+2, p+6).",
+  "id": "A212361",
+  "mentions": [
+    "A022004",
+    "A048614"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

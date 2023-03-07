@@ -1,0 +1,27 @@
+{
+  "description": "Partition number array, called M32(-2), related to A004747(n,m) = |S2(-2;n,m)| (generalized Stirling triangle).",
+  "id": "A143172",
+  "mentions": [
+    "A000041",
+    "A004747",
+    "A008544",
+    "A035342",
+    "A036040",
+    "A134278",
+    "A143171",
+    "A143173"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

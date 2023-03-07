@@ -1,0 +1,25 @@
+{
+  "description": "Filter sequence for a(primes > 3) = constant sequences.",
+  "id": "A305900",
+  "mentions": [
+    "A000720",
+    "A007949",
+    "A305800",
+    "A305801",
+    "A305893",
+    "A305901",
+    "A305902",
+    "A305903"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

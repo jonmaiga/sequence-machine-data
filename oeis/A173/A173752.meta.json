@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = m-k where (prime(k), prime(m)) is the n-th prime pair (x^2-x+11, x^2+x+11), integer x >= 0.",
+  "id": "A173752",
+  "mentions": [
+    "A048058",
+    "A048059",
+    "A048097",
+    "A175154"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

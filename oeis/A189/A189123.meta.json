@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n such that A005245(n-i) + A005245(i) < A005245(n-1) + 1 for some i, 1 < i < n.",
+  "id": "A189123",
+  "mentions": [
+    "A005245",
+    "A189124",
+    "A189125"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

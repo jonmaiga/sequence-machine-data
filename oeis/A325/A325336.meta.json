@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with adjusted frequency depth k whose parts cover an initial interval of positive integers.",
+  "id": "A325336",
+  "mentions": [
+    "A000009",
+    "A181819",
+    "A182850",
+    "A317246",
+    "A320348",
+    "A323014",
+    "A325280",
+    "A325334",
+    "A325335",
+    "A325372"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

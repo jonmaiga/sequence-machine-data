@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (largest power of a prime dividing n) * (largest power of a prime dividing (n+1)).",
+  "id": "A139082",
+  "mentions": [
+    "A000961",
+    "A034699",
+    "A139081",
+    "A139084"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

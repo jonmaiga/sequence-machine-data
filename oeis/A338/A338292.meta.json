@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any distinct m and n, (a(m+1-a(m)), ..., a(m)) <> (a(n+1-a(n)), ..., a(n)).",
+  "id": "A338292",
+  "mentions": [
+    "A338283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

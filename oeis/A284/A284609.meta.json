@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that the (sum of all odd parts) = floor(n/2).",
+  "id": "A284609",
+  "mentions": [
+    "A284608",
+    "A284611"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

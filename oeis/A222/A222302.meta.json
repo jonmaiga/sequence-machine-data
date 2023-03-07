@@ -1,0 +1,18 @@
+{
+  "description": "Value of s corresponding to norm of n-th shell of points in mcc lattice.",
+  "id": "A222302",
+  "mentions": [
+    "A222301",
+    "A222303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

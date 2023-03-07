@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + n + 2 with n>1, a(0)=1, a(1)=2.",
+  "id": "A210728",
+  "mentions": [
+    "A000126",
+    "A022112",
+    "A065220",
+    "A104161",
+    "A131269",
+    "A168043",
+    "A192969",
+    "A210729"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

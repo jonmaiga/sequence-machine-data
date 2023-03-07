@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes q derived from palindromes p such that pi(p) = q.",
+  "id": "A103358",
+  "mentions": [
+    "A046941",
+    "A046942",
+    "A103357",
+    "A103402",
+    "A103403"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

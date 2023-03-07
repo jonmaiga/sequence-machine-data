@@ -1,0 +1,19 @@
+{
+  "description": "|S(n)| where S(n) = {i : 1 <= i <= n and 4n-1 and 8n-1 are primes}.",
+  "id": "A101787",
+  "mentions": [
+    "A002515",
+    "A101788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

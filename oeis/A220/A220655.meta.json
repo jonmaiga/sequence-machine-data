@@ -1,0 +1,28 @@
+{
+  "description": "For n with a unique factorial base representation n = du*u! + ... + d2*2! + d1*1! (each di in range 0..i, cf. A007623), a(n) = (du+1)*u! + ... + (d2+1)*2! + (d1+1)*1!; a(n) = n + A007489(A084558(n)).",
+  "id": "A220655",
+  "mentions": [
+    "A000142",
+    "A003422",
+    "A007489",
+    "A007623",
+    "A084558",
+    "A107346",
+    "A153880",
+    "A212598",
+    "A220656",
+    "A220695",
+    "A231720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

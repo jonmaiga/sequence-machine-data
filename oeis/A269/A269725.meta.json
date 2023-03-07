@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = row number of extended Wythoff array (see A035513) which contains the sequence n times the Fibonacci numbers 1,2,3,5,8,13,21,... .",
+  "id": "A269725",
+  "mentions": [
+    "A000045",
+    "A022413",
+    "A022423",
+    "A035513",
+    "A173027",
+    "A269726",
+    "A269729"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

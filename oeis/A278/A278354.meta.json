@@ -1,0 +1,27 @@
+{
+  "description": "Number of neighbors of each new term in a square spiral.",
+  "id": "A278354",
+  "mentions": [
+    "A002620",
+    "A033638",
+    "A047931",
+    "A141481",
+    "A274917",
+    "A275015",
+    "A275609",
+    "A278180",
+    "A278290",
+    "A278317"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

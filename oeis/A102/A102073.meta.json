@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of e.g.f. sec(arccosh(x)) = cosec(arcsinh(x)).",
+  "id": "A102073",
+  "mentions": [
+    "A102074"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

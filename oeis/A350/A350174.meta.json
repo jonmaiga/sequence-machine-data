@@ -1,0 +1,18 @@
+{
+  "description": "For k = 0, 1, 2, 3, ... write k prime(k+1) times.",
+  "id": "A350174",
+  "mentions": [
+    "A000040",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-entry"
+  }
+}

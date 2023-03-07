@@ -1,0 +1,32 @@
+{
+  "description": "Smaller sides (a) in (a,a,a+1)-integer triangle with integer area.",
+  "id": "A103974",
+  "mentions": [
+    "A000290",
+    "A001075",
+    "A001353",
+    "A007655",
+    "A010502",
+    "A011922",
+    "A011945",
+    "A016064",
+    "A055793",
+    "A098301",
+    "A102341",
+    "A103975",
+    "A104009",
+    "A350916"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:17:27",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

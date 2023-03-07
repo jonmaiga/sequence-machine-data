@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of k X k symmetric (0,1)-matrices with exactly n entries equal to 1 and no zero rows or columns.",
+  "id": "A135589",
+  "mentions": [
+    "A000085"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes that remain prime when a single zero digit is inserted between any two adjacent digits.",
+  "id": "A215417",
+  "mentions": [
+    "A069246",
+    "A159236",
+    "A215419",
+    "A215421"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

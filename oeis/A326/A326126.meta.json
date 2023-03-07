@@ -1,0 +1,25 @@
+{
+  "description": "Sum of all other divisors of n except the squarefree part of n: a(n) = sigma(n) - A007913(n).",
+  "id": "A326126",
+  "mentions": [
+    "A000203",
+    "A007913",
+    "A326053",
+    "A326061",
+    "A326127",
+    "A326128",
+    "A326129",
+    "A326142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

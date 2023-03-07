@@ -1,0 +1,18 @@
+{
+  "description": "Write the square of 1st prime, then the 2nd prime, then the square of 3rd prime, alternately squaring or not.",
+  "id": "A350173",
+  "mentions": [
+    "A000040",
+    "A001248"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

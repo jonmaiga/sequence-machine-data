@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-step four-sided prudent self-avoiding walks.",
+  "id": "A191756",
+  "mentions": [
+    "A191757",
+    "A191758"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

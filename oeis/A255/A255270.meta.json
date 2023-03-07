@@ -1,0 +1,23 @@
+{
+  "description": "Integer part of fourth root of n.",
+  "id": "A255270",
+  "mentions": [
+    "A000196",
+    "A005917",
+    "A048766",
+    "A178487",
+    "A178489"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:10:11",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

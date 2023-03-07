@@ -1,0 +1,18 @@
+{
+  "description": "Least number of the form x^2 + y^4 in exactly n ways where x and y are nonzero integers.",
+  "id": "A274015",
+  "mentions": [
+    "A111925"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

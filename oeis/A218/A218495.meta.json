@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n^2 into positive cubes.",
+  "id": "A218495",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A003108",
+    "A218494"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(omega(n)).",
+  "id": "A243915",
+  "mentions": [
+    "A000203",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Amicable pairs (x < y) ordered by nondecreasing sum (x + y) and then by increasing x.",
+  "id": "A259933",
+  "mentions": [
+    "A000203",
+    "A063990",
+    "A259180",
+    "A259953",
+    "A260086",
+    "A260087"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

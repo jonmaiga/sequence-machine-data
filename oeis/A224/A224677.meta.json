@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n*(n+1)/2 into sums of positive triangular numbers.",
+  "id": "A224677",
+  "mentions": [
+    "A023361",
+    "A224366",
+    "A224679"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

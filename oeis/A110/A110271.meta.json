@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of Riordan array (1/(1-x)^2,x(1-x)/(1+x)), A104698.",
+  "id": "A110271",
+  "mentions": [
+    "A006318",
+    "A103137",
+    "A104698"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

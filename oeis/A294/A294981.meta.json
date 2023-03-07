@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of elements added at n-th stage to the structure of the cellular automaton of A294980.",
+  "id": "A294981",
+  "mentions": [
+    "A011782",
+    "A139251",
+    "A160121",
+    "A161207",
+    "A294980",
+    "A296612"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

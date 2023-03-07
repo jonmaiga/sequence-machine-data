@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A229110, where A229110(n) = antisigma(n) mod n = A024816(n) mod n.",
+  "id": "A239876",
+  "mentions": [
+    "A007691",
+    "A024816",
+    "A159907",
+    "A229110",
+    "A239877"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

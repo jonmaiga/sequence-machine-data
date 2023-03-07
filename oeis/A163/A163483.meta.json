@@ -1,0 +1,19 @@
+{
+  "description": "Row 0 of A163359 (column 0 of A163357).",
+  "id": "A163483",
+  "mentions": [
+    "A163357",
+    "A163359",
+    "A163482"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

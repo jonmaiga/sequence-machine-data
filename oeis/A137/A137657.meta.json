@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are simultaneously of the forms 24i+7 and 7j+24.",
+  "id": "A137657",
+  "mentions": [
+    "A137658",
+    "A137659"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

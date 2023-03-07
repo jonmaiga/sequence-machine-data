@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: BesselJ(0,2)*P(x) + Q(x), where P(x) = 1/Product_{n>=1} (1 - x^n/n^2) and Q(x) = Sum_{n>=1} -(-1)^n/Product_{k=1..n} (k^2 - x^k).",
+  "id": "A249607",
+  "mentions": [
+    "A091681",
+    "A249474",
+    "A249588",
+    "A249590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that there are more primes between n and 2n than between n^2 and (n+1)^2.",
+  "id": "A143226",
+  "mentions": [
+    "A000720",
+    "A014085",
+    "A060715",
+    "A104272",
+    "A143223",
+    "A143224",
+    "A143225",
+    "A143227"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

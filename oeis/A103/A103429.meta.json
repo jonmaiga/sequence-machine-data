@@ -1,0 +1,24 @@
+{
+  "description": "(1/4)*number of acute triangles that can be formed from the points of an (n+1)X(n+1)X(n+1) lattice cube.",
+  "id": "A103429",
+  "mentions": [
+    "A103158",
+    "A103426",
+    "A103427",
+    "A103428",
+    "A103499",
+    "A103500",
+    "A103501",
+    "A190019"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

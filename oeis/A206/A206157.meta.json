@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A206158(n)*x^n/n ), where A206158(n) = Sum_{k=0..n} binomial(n,k)^(2*k+1).",
+  "id": "A206157",
+  "mentions": [
+    "A184730",
+    "A206151",
+    "A206153",
+    "A206155",
+    "A206158"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

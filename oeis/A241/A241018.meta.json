@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest j such that the n-digit number consisting of a 1 in position j and 9's in the other n-1 positions is a prime, or 0 if no such prime exists.",
+  "id": "A241018",
+  "mentions": [
+    "A241019",
+    "A241020"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

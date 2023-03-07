@@ -1,0 +1,19 @@
+{
+  "description": "Consider a twin prime pair (p, q=p+2) such that the number of prime digits in p is equal to the number of odd digits in q; sequence lists values of p.",
+  "id": "A158314",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

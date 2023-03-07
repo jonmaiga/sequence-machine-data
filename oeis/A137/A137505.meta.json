@@ -1,0 +1,21 @@
+{
+  "description": "Inverse binomial transform of A007910.",
+  "id": "A137505",
+  "mentions": [
+    "A007910",
+    "A077973",
+    "A109499",
+    "A137429"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Cinehps numbers: sphenic numbers whose reversal is a different sphenic number.",
+  "id": "A270175",
+  "mentions": [
+    "A007304",
+    "A271799"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

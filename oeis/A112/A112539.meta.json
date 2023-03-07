@@ -1,0 +1,21 @@
+{
+  "description": "Half-baked Thue-Morse: at successive steps the sequence or its bit-inverted form is appended to itself.",
+  "id": "A112539",
+  "mentions": [
+    "A010060",
+    "A104104",
+    "A112865",
+    "A341389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

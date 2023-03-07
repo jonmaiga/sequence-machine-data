@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are equal to the sum of the uniform platonic polyhedral (figurate) numbers (tetrahedral, cubic, octahedral, dodecahedral, or icosahedral) on each of their digits.",
+  "id": "A218539",
+  "mentions": [
+    "A005188",
+    "A007532",
+    "A036057"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

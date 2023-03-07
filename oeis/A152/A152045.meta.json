@@ -1,0 +1,20 @@
+{
+  "description": "Numbers expressible as the difference of two nonnegative fifth powers.",
+  "id": "A152045",
+  "mentions": [
+    "A000584",
+    "A042965",
+    "A152043",
+    "A152044"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

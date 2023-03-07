@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of times it takes to iteratively subtract m from n where m is the largest nonzero proper suffix of n less than or equal to the remainder until no further subtraction is possible.",
+  "id": "A338920",
+  "mentions": [
+    "A217657"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

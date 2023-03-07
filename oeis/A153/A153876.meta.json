@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=2^(n-1)..2^n-1} sigma_0(i), sigma_0(i) number of divisors of n, n positive integer.",
+  "id": "A153876",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A085831",
+    "A095256",
+    "A140480",
+    "A346730"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

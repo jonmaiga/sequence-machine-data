@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of f(-x^2, -x^3)^3 / f(-x)^2 in powers of x where f(,) is the Ramanujan general theta function.",
+  "id": "A259910",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003106",
+    "A003114",
+    "A010054",
+    "A010815",
+    "A053262",
+    "A053266",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

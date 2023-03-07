@@ -1,0 +1,20 @@
+{
+  "description": "Number of complex Grothendieck rings of multiplicity one and rank n.",
+  "id": "A352506",
+  "mentions": [
+    "A000001",
+    "A348305"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

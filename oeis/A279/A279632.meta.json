@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients in the expansion of ([s] + [2s]x + [3s]x^2 + ...)/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = e - 1, s = r/(1-r).",
+  "id": "A279632",
+  "mentions": [
+    "A000210",
+    "A054385"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

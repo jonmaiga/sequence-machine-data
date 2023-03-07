@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps required by the Hwang-Deutsch merging algorithm.",
+  "id": "A260795",
+  "mentions": [
+    "A200310",
+    "A260794",
+    "A260996",
+    "A260997"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

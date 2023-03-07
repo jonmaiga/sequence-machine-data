@@ -1,0 +1,19 @@
+{
+  "description": "L.g.f.: -log( Sum_{n=-oo..+oo} (-2)^n * (2*x)^(n^2) ) = Sum_{n>=1} a(n) * x^n/n.",
+  "id": "A337950",
+  "mentions": [
+    "A337948",
+    "A337951"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

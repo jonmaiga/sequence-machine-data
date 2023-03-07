@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n^128+(n+1)^128 is a prime.",
+  "id": "A215431",
+  "mentions": [
+    "A027861",
+    "A153504",
+    "A154535",
+    "A155211",
+    "A174156",
+    "A174157",
+    "A215432"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

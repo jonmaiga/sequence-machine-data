@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there exist equal sums of k and 2k consecutive positive squares.",
+  "id": "A346163",
+  "mentions": [
+    "A000330",
+    "A001032",
+    "A130052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

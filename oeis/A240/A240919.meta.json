@@ -1,0 +1,22 @@
+{
+  "description": "Sequence whose n-th term is the sum of the first n digits in the concatenation of the base 10-representation of the sequence.",
+  "id": "A240919",
+  "mentions": [
+    "A004207",
+    "A016096",
+    "A061939",
+    "A065075"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

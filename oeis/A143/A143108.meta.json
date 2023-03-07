@@ -1,0 +1,21 @@
+{
+  "description": "Let H(2,d) be the space of polynomials p(x,y) of two variables with nonnegative coefficients such that p(x,y)=1 whenever x + y = 1. a(n) is the number of different polynomials in H(2,d) with exactly n distinct monomials and of maximum degree minus 1, i.e., of degree 2n-4.",
+  "id": "A143108",
+  "mentions": [
+    "A143107",
+    "A143109"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

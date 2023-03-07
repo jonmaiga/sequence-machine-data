@@ -1,0 +1,23 @@
+{
+  "description": "Alternating sum of centered heptagonal pyramidal numbers.",
+  "id": "A270694",
+  "mentions": [
+    "A000330",
+    "A004126",
+    "A006323",
+    "A019298",
+    "A232599"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:30:35",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

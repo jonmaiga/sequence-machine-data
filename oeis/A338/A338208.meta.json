@@ -1,0 +1,23 @@
+{
+  "description": "Inverse permutation to A322469.",
+  "id": "A338208",
+  "mentions": [
+    "A000027",
+    "A160016",
+    "A307048",
+    "A307407",
+    "A322469",
+    "A338206",
+    "A338207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that tau(k) and tau(k+1) are both prime, where tau is the number of divisors function.",
+  "id": "A343494",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A009087",
+    "A019434",
+    "A109434"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

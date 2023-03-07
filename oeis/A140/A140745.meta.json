@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that the Mersenne number A000225(p) = 2^p - 1 has exactly n prime factors (counted with multiplicity).",
+  "id": "A140745",
+  "mentions": [
+    "A000225",
+    "A001222",
+    "A046051",
+    "A136033"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

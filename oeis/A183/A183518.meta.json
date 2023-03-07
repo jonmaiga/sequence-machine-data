@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with each element equal to either the sum mod 3 of its horizontal and vertical neighbors or the sum mod 3 of its diagonal and antidiagonal neighbors",
+  "id": "A183518",
+  "mentions": [
+    "A183526"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

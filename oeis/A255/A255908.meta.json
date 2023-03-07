@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,L) = number of rho-labeled graphs with n edges whose labeling is bipartite with boundary value L.",
+  "id": "A255908",
+  "mentions": [
+    "A002866",
+    "A014479"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

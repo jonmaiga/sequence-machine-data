@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) arises from the star algorithm for the \"Just\"- or J-version of the n-coin group testing game.",
+  "id": "A241185",
+  "mentions": [
+    "A241184"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

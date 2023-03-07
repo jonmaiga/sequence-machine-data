@@ -1,0 +1,19 @@
+{
+  "description": "Even terms A336957(k) which are greater than k, divided by 2, in order of appearance.",
+  "id": "A338067",
+  "mentions": [
+    "A336957",
+    "A338062",
+    "A338069"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the position of the positive real maximum of Dawson's integral D_+(x).",
+  "id": "A133841",
+  "mentions": [
+    "A133842",
+    "A133843",
+    "A243433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

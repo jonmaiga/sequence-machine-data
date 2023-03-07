@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that prime(n) divides (prime(m) + prime(m+1))/2.",
+  "id": "A187026",
+  "mentions": [
+    "A000040",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

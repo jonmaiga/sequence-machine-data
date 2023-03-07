@@ -1,0 +1,32 @@
+{
+  "description": "Number of iterations of A000593 (sum of divisors of odd part of n) needed to reach a power of 2, or -1 if never reached.",
+  "id": "A336361",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A054784",
+    "A161942",
+    "A209229",
+    "A336362",
+    "A336363",
+    "A347240",
+    "A347241",
+    "A347242",
+    "A347243",
+    "A347244",
+    "A347245",
+    "A347249",
+    "A347250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

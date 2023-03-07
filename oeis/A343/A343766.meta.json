@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence of distinct integers such that a(0) = 0 and the balanced ternary expansions of two consecutive terms differ by a single digit, as far to the right as possible.",
+  "id": "A343766",
+  "mentions": [
+    "A003188",
+    "A007949",
+    "A024023",
+    "A081134",
+    "A117966",
+    "A128173",
+    "A341055"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

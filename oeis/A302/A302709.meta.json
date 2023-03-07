@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Trinomial(2*n+1, 4) = (1/6)*n*(2*n + 1)*(2*n^2 + 9*n + 1), n >= 0.",
+  "id": "A302709",
+  "mentions": [
+    "A000384",
+    "A027907",
+    "A030440",
+    "A127672"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:15",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

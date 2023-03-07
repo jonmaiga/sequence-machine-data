@@ -1,0 +1,35 @@
+{
+  "description": "A(n,k) is the n-th derivative of the k-th tetration of x (power tower of order k) x^^k at x=1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A277537",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A005727",
+    "A019590",
+    "A033917",
+    "A057427",
+    "A179230",
+    "A179405",
+    "A179505",
+    "A211205",
+    "A215703",
+    "A277536",
+    "A277538",
+    "A277539",
+    "A277540",
+    "A277541",
+    "A295028"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

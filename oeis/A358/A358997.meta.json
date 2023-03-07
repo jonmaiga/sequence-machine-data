@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct positive real roots of the Maclaurin polynomial of degree 2*n for cos(x).",
+  "id": "A358997",
+  "mentions": [
+    "A012265",
+    "A332325"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

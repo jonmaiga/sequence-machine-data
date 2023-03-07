@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of irreducible element forms for Z/pZ, with p = prime(n).",
+  "id": "A308164",
+  "mentions": [
+    "A005117",
+    "A039956"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

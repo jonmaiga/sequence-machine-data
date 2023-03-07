@@ -1,0 +1,17 @@
+{
+  "description": "Indices k such that A358128(k) is a square.",
+  "id": "A358130",
+  "mentions": [
+    "A358128"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

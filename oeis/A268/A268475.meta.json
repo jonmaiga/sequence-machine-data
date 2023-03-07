@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^3 +/- 2 and 3*n +/- 2 are all prime.",
+  "id": "A268475",
+  "mentions": [
+    "A024893",
+    "A090121",
+    "A108701",
+    "A153183",
+    "A157834"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

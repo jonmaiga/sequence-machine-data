@@ -1,0 +1,26 @@
+{
+  "description": "Start with n, and repeatedly apply the arithmetic derivative A003415. |a(n)| = the number of iterations to reach 0 (then a(n) is taken nonnegative) or a number having a factor of the form p^p with prime p, in which case a(n) = -|a(n)|.",
+  "id": "A256750",
+  "mentions": [
+    "A003415",
+    "A099307",
+    "A099308",
+    "A099309",
+    "A327934",
+    "A327966",
+    "A327969",
+    "A328324",
+    "A359547"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

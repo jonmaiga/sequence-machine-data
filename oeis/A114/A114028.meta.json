@@ -1,0 +1,19 @@
+{
+  "description": "n-th partial concatenation of A114027 divided by n-th composite.",
+  "id": "A114028",
+  "mentions": [
+    "A002808",
+    "A114027"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are sums of consecutive centered cube numbers (A005898).",
+  "id": "A329636",
+  "mentions": [
+    "A005898",
+    "A037270",
+    "A217843",
+    "A322611",
+    "A329634",
+    "A329635"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

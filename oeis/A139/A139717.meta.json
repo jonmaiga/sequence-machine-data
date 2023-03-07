@@ -1,0 +1,18 @@
+{
+  "description": "If k is the smallest divisor of n that is >= sqrt(n) then a(n) = k^2 - n.",
+  "id": "A139717",
+  "mentions": [
+    "A033677",
+    "A139716"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

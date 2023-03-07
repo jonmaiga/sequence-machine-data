@@ -1,0 +1,34 @@
+{
+  "description": "Characteristic function of powers of 2, cf. A000079.",
+  "id": "A209229",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001511",
+    "A029837",
+    "A036987",
+    "A048298",
+    "A057716",
+    "A069517",
+    "A087003",
+    "A090678",
+    "A104977",
+    "A154269",
+    "A154955",
+    "A201219",
+    "A255738"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

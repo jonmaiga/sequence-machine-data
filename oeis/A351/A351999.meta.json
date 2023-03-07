@@ -1,0 +1,22 @@
+{
+  "description": "A chain reaction sequence: a digit d1 from a(n) is expelled towards a(n+1) where it hits a digit d2 [from a(n+1)] and replaces it; d2 in turn is expelled towards a(n+2), hits a digit d3 there and replaces it; d3 in turn is expelled towards a(n+3), hits a digit there, and replaces it; d4 is expelled... etc. At the end of the chain reaction, only Fibonacci numbers will be left. This is the lexicographically earliest sequence of distinct positive integers with this property.",
+  "id": "A351999",
+  "mentions": [
+    "A000045",
+    "A351996",
+    "A351997",
+    "A351998",
+    "A352000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Initial primes of sets of 8 consecutive primes all different by modulo 30.",
+  "id": "A248199",
+  "mentions": [
+    "A095959"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

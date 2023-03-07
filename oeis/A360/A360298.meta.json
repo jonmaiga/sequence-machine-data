@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle (an infinite binary tree) read by rows. The tree has root node 1 in row n = 1. For n > 1, each node with value m in row n-1 has a left child with value m / n if n divides m, and a right child with value m * n.",
+  "id": "A360298",
+  "mentions": [
+    "A000142",
+    "A008336",
+    "A360173",
+    "A360299",
+    "A360300"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Signed sum over the prime multiplicities of n.",
+  "id": "A319273",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A008683",
+    "A071321",
+    "A195017",
+    "A268387",
+    "A316523",
+    "A316524"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

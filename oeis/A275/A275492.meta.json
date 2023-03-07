@@ -1,0 +1,24 @@
+{
+  "description": "Number of primitive weird numbers (A002975) between 10^n and 10^(n+1).",
+  "id": "A275492",
+  "mentions": [
+    "A002975",
+    "A006037",
+    "A258333",
+    "A258882",
+    "A275491",
+    "A275493",
+    "A275494"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

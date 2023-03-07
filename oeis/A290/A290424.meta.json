@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers that are not the sum or difference of two binary palindromes (A006995).",
+  "id": "A290424",
+  "mentions": [
+    "A006995",
+    "A241491",
+    "A261678",
+    "A290393"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

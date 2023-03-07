@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] such that the product of the first k elements and the product of the last k elements are multiples of k for all k in [n].",
+  "id": "A333934",
+  "mentions": [
+    "A333711",
+    "A333892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

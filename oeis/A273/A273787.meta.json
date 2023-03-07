@@ -1,0 +1,22 @@
+{
+  "description": "Least number k such that A001844(k) (sums of two consecutive squares) is the sum of two nonzero squares in exactly n ways.",
+  "id": "A273787",
+  "mentions": [
+    "A001844",
+    "A006339",
+    "A016032",
+    "A025426",
+    "A273238"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

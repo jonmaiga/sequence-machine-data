@@ -1,0 +1,28 @@
+{
+  "description": "MM-numbers of multiset partitions where each part has a different average.",
+  "id": "A326537",
+  "mentions": [
+    "A038041",
+    "A051293",
+    "A112798",
+    "A302242",
+    "A320324",
+    "A326513",
+    "A326516",
+    "A326521",
+    "A326533",
+    "A326534",
+    "A326535",
+    "A326536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

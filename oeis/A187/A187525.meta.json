@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..1 arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under 90 degree rotation",
+  "id": "A187525",
+  "mentions": [
+    "A187528"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

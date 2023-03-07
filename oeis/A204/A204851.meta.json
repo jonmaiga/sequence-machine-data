@@ -1,0 +1,19 @@
+{
+  "description": "Triangle by rows relating to A005773",
+  "id": "A204851",
+  "mentions": [
+    "A005773"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

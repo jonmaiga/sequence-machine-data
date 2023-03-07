@@ -1,0 +1,17 @@
+{
+  "description": "Number of sequences in {1,...,n}^n with longest increasing subsequence of length six.",
+  "id": "A268873",
+  "mentions": [
+    "A245667"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 6,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

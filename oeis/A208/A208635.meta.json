@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 6 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.",
+  "id": "A208635",
+  "mentions": [
+    "A208637"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

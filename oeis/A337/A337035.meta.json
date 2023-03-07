@@ -1,0 +1,25 @@
+{
+  "description": "Table read by antidiagonals: T(h,n) is the number of n-step self avoiding walks on a 3D cubic lattice confined inside a box of size h x h x h where the walk starts at one of the box's corners.",
+  "id": "A337035",
+  "mentions": [
+    "A001412",
+    "A039648",
+    "A336862",
+    "A337031",
+    "A337032",
+    "A337034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

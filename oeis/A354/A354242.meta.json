@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(5 - 4 * exp(x)).",
+  "id": "A354242",
+  "mentions": [
+    "A000010",
+    "A000670",
+    "A001813",
+    "A094417",
+    "A305404",
+    "A316747",
+    "A354240",
+    "A354241",
+    "A354252",
+    "A354253"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

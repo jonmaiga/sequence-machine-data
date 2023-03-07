@@ -1,0 +1,21 @@
+{
+  "description": "If \"sumdigit\" denotes the sum of the digits of a number then these are the numbers n such that n=sumdigit(sumdigit(n)^sumdigit(n)).",
+  "id": "A125724",
+  "mentions": [
+    "A125526"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

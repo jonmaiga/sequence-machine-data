@@ -1,0 +1,20 @@
+{
+  "description": "Total count of 1's in binary representation of Fibonacci(n) and previous Fibonacci numbers, minus total count of 0's. That is, partial sums of b(n) = -A037861(Fibonacci(n)).",
+  "id": "A214923",
+  "mentions": [
+    "A000045",
+    "A037861"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

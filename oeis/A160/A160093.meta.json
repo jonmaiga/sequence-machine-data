@@ -1,0 +1,31 @@
+{
+  "description": "Number of digits in n, excluding any trailing zeros.",
+  "id": "A160093",
+  "mentions": [
+    "A004086",
+    "A004151",
+    "A054899",
+    "A055640",
+    "A055641",
+    "A055642",
+    "A102669",
+    "A122840",
+    "A122841",
+    "A160094",
+    "A196563",
+    "A196564"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of divisors of x^n-1 having the maximal height A114536(n).",
+  "id": "A117215",
+  "mentions": [
+    "A114536"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

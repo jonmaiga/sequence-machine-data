@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n^2)*a(n-1) + a(n-2).",
+  "id": "A133471",
+  "mentions": [
+    "A000045",
+    "A000290",
+    "A001040",
+    "A036245"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

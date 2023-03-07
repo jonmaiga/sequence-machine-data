@@ -1,0 +1,32 @@
+{
+  "description": "Heinz numbers of integer partitions such that not every ordered pair of distinct parts has a different quotient.",
+  "id": "A325994",
+  "mentions": [
+    "A002033",
+    "A056239",
+    "A103300",
+    "A108917",
+    "A112798",
+    "A143823",
+    "A196724",
+    "A325768",
+    "A325853",
+    "A325854",
+    "A325856",
+    "A325860",
+    "A325861",
+    "A325868",
+    "A325869",
+    "A325876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

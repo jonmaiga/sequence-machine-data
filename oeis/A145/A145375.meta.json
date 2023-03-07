@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of partial sums of the alternating series of inverse central binomial coefficients.",
+  "id": "A145375",
+  "mentions": [
+    "A145556",
+    "A145557",
+    "A145558"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

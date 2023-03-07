@@ -1,0 +1,21 @@
+{
+  "description": "A128064(unsigned) * A128174.",
+  "id": "A128622",
+  "mentions": [
+    "A014848",
+    "A128064",
+    "A128174"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

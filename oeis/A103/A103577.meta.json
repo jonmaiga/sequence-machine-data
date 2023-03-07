@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into Fibonacci parts if each part is of two kinds.",
+  "id": "A103577",
+  "mentions": [
+    "A000045",
+    "A003107"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

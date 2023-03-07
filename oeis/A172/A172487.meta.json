@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of twin primes in A172240.",
+  "id": "A172487",
+  "mentions": [
+    "A000430",
+    "A001359",
+    "A172240",
+    "A173176",
+    "A181602",
+    "A181669"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

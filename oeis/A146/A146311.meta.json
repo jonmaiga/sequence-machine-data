@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = cos(2*n*arcsin(sqrt(3)) = (-1)^n*cosh(2*n*arcsinh(sqrt(2)).",
+  "id": "A146311",
+  "mentions": [
+    "A001079"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

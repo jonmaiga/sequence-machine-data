@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that omega(k-1) = omega(k)-1 and omega(k+1) = omega(k)+1, where omega(m) is the number of distinct primes dividing m, A001221(m).",
+  "id": "A342259",
+  "mentions": [
+    "A001221",
+    "A342258"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Call two divisors of n adjacent if the larger is a prime times the smaller. a(n) is the sum of elements of all pairs of adjacent divisors of n.",
+  "id": "A180253",
+  "mentions": [
+    "A001221",
+    "A062799",
+    "A069359",
+    "A179926",
+    "A180026",
+    "A323599",
+    "A328260",
+    "A329354",
+    "A329375"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of disconnected 3-regular simple graphs on 2n vertices with girth exactly 6.",
+  "id": "A185036",
+  "mentions": [
+    "A185033",
+    "A185034",
+    "A185035",
+    "A185037",
+    "A185236",
+    "A185237"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

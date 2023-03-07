@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose hexadecimal representation contains a run of zeros of prime length.",
+  "id": "A309092",
+  "mentions": [
+    "A110529",
+    "A319302"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

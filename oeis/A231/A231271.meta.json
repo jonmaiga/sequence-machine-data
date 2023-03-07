@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n and n+d are both odious (A000069) or both evil (A001969) for every divisor d of n.",
+  "id": "A231271",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A079523",
+    "A095283"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: Sum_{n>=0} a(n)*x^n/2^(n^2+n) = exp( Sum_{n>=1} x^n/[n*2^(n^2)] ).",
+  "id": "A165940",
+  "mentions": [
+    "A155200"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

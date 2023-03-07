@@ -1,0 +1,18 @@
+{
+  "description": "The decimal representation of the average of the digits of n starts with the digits of n.",
+  "id": "A257829",
+  "mentions": [
+    "A257830"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

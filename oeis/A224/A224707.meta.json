@@ -1,0 +1,17 @@
+{
+  "description": "Number of different patterns using tiles from 1*1 to 1*n with each tile flush or diagonal to at least one other.",
+  "id": "A224707",
+  "mentions": [
+    "A214366"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms in the greedy residue sum for n^2.",
+  "id": "A241834",
+  "mentions": [
+    "A000290",
+    "A241832",
+    "A241833",
+    "A241835",
+    "A241836"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

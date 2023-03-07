@@ -1,0 +1,20 @@
+{
+  "description": "a(n) begins the first chain of 9 consecutive positive integers of h-values with symmetrical gaps about the center, where h(k) is the length of the finite sequence k, f(k), f(f(k)), ...., 1 in the Collatz (or 3x + 1) problem.",
+  "id": "A268288",
+  "mentions": [
+    "A006577",
+    "A078441",
+    "A268177",
+    "A268253"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

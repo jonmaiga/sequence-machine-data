@@ -1,0 +1,19 @@
+{
+  "description": "Result of the morphing 01->01021212, 02->0102121201, 12->01021201, iterated from '01'. Sequence of the Fibonacci word fractal.",
+  "id": "A143668",
+  "mentions": [
+    "A003849",
+    "A123564"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:09",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

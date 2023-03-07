@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted unlabeled 4-cactus graphs on 3n+1 nodes.",
+  "id": "A287891",
+  "mentions": [
+    "A003080",
+    "A287889",
+    "A287890",
+    "A287892",
+    "A332648"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Solutions to abs(sigma(x+1) - sigma(x)) = 2. Divisor sums of x and its neighbor x+1 differ from each other by 2.",
+  "id": "A112645",
+  "mentions": [
+    "A000203",
+    "A112646",
+    "A112647"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

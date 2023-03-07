@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having at least the same number of prime factors of the form 4*k+1 than of the form 4*k+3, when counted with multiplicity.",
+  "id": "A268381",
+  "mentions": [
+    "A065339",
+    "A072202",
+    "A079635",
+    "A083025",
+    "A268379",
+    "A268380"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

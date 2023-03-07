@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A031368.",
+  "id": "A155067",
+  "mentions": [
+    "A001223",
+    "A031131",
+    "A031368",
+    "A110854"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:03:13",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

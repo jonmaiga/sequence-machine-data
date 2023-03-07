@@ -1,0 +1,26 @@
+{
+  "description": "Period 2: repeat [3, -2].",
+  "id": "A168330",
+  "mentions": [
+    "A000079",
+    "A007395",
+    "A010701",
+    "A010716",
+    "A020714",
+    "A049071",
+    "A084964",
+    "A168309"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:31",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers that are not the sum of two non-Ramanujan primes (A174635).",
+  "id": "A205616",
+  "mentions": [
+    "A104272",
+    "A173634",
+    "A174635",
+    "A204814",
+    "A205301",
+    "A205617",
+    "A205618"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

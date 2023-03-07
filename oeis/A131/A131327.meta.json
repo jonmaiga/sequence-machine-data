@@ -1,0 +1,22 @@
+{
+  "description": "Triangle |4*|A049310(n,k)| - 3| read by rows, 0<=k<=n.",
+  "id": "A131327",
+  "mentions": [
+    "A049310",
+    "A131324",
+    "A131325",
+    "A131326",
+    "A131328"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

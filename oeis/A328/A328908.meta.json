@@ -1,0 +1,28 @@
+{
+  "description": "Knight's tour on spirally numbered infinite chessboard, when the knight always jumps on the unvisited square closest to the origin, first according to 1-norm, then 2-norm, then number of the square: a(n) = number of the square visited at the n-th move.",
+  "id": "A328908",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A296030",
+    "A316328",
+    "A316667",
+    "A323809",
+    "A326924",
+    "A328909",
+    "A328928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

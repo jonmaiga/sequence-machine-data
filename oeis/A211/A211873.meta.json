@@ -1,0 +1,18 @@
+{
+  "description": "Numbers b >= 0 such that 2 b^2 + 3 b + 5 is prime.",
+  "id": "A211873",
+  "mentions": [
+    "A217788",
+    "A224217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

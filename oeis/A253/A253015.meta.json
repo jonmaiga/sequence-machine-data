@@ -1,0 +1,21 @@
+{
+  "description": "Sequence of determinants of matrices based on the digits of nonnegative integers.",
+  "id": "A253015",
+  "mentions": [
+    "A227876"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

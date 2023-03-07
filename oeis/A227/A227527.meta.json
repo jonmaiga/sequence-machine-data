@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * (1-x)^A003188(n), where A003188(n) = n XOR [n/2] is the Gray code for n.",
+  "id": "A227527",
+  "mentions": [
+    "A003188",
+    "A227526"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

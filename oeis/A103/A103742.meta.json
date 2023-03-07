@@ -1,0 +1,21 @@
+{
+  "description": "Number of letters in Turkish names for days of week.",
+  "id": "A103742",
+  "mentions": [
+    "A049005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

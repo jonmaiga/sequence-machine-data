@@ -1,0 +1,19 @@
+{
+  "description": "Least n such that L(n)<-1 and L(n)>L(n-1), where L(k) means the least root of the polynomial p(k,x) defined at A206284, and a(1)=13.",
+  "id": "A206443",
+  "mentions": [
+    "A206074",
+    "A206284",
+    "A206444"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

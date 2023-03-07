@@ -1,0 +1,20 @@
+{
+  "description": "Location (x,y) of the first n x n square of composite Gaussian integers in the first quadrant.",
+  "id": "A225073",
+  "mentions": [
+    "A225074",
+    "A225075"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

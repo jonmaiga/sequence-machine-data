@@ -1,0 +1,21 @@
+{
+  "description": "Least number such that exactly n iterations of A034690 are required to reach one of the fixed points, 1 or 15.",
+  "id": "A260060",
+  "mentions": [
+    "A034690",
+    "A086793",
+    "A094501",
+    "A095347"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

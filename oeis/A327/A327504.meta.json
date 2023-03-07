@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] where each subset is again partitioned into three nonempty subsets.",
+  "id": "A327504",
+  "mentions": [
+    "A324162",
+    "A346894"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

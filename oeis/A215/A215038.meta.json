@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A066259: a(n) = sum(F(k+1)^2*F(k),k=0..n), n>=0, with the Fibonacci numbers F=A000045.",
+  "id": "A215038",
+  "mentions": [
+    "A000045",
+    "A001655",
+    "A008346",
+    "A066258",
+    "A066259",
+    "A215037",
+    "A215308"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:18:34",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

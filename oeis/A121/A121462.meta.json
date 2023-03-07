@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nondecreasing Dyck paths of semilength n, having pyramid weight k (1 <= k <= n).",
+  "id": "A121462",
+  "mentions": [
+    "A001519",
+    "A030267",
+    "A062110",
+    "A084938",
+    "A091866",
+    "A153342",
+    "A208341"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:07",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

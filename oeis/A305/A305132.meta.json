@@ -1,0 +1,25 @@
+{
+  "description": "Number of connected graphs on n unlabeled nodes with exactly 2 cycles joined along two or more edges but not more than half each cycle and all nodes having degree at most 4.",
+  "id": "A305132",
+  "mentions": [
+    "A000598",
+    "A112410",
+    "A121331",
+    "A125669",
+    "A125670",
+    "A125671",
+    "A125672",
+    "A125673"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 5,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

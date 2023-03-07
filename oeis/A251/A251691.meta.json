@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: G(F(x)) is a power series in x consisting entirely of positive integer coefficients such that G(F(x) - x^k) has negative coefficients for k>0, where G(x) = 1 + x*G(x)^3 is the g.f. of A001764 and F(x) is g.f. of A251690.",
+  "id": "A251691",
+  "mentions": [
+    "A001764",
+    "A251690"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

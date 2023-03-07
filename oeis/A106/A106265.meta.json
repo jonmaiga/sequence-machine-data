@@ -1,0 +1,31 @@
+{
+  "description": "Numbers a > 0 such that the Diophantine equation a + b^2 = c^3 has integer solutions b and c.",
+  "id": "A106265",
+  "mentions": [
+    "A000578",
+    "A023055",
+    "A038597",
+    "A054504",
+    "A075772",
+    "A076438",
+    "A076440",
+    "A081120",
+    "A081121",
+    "A106266",
+    "A106267",
+    "A179386",
+    "A179388",
+    "A181138"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

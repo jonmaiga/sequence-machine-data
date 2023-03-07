@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows in which T(n,k) is the number of partitions of n with product of multiplicities of parts equal to k; n>=0, 1<=k<=A266480(n).",
+  "id": "A266477",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A077285",
+    "A090858",
+    "A265251",
+    "A266325",
+    "A266480",
+    "A266499",
+    "A266687",
+    "A266688",
+    "A266689",
+    "A266690",
+    "A266691",
+    "A266692",
+    "A266693",
+    "A266871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

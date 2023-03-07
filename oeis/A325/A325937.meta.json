@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Sum_{k>=1} (-1)^(k + 1) * x^(2*k) / (1 - x^k).",
+  "id": "A325937",
+  "mentions": [
+    "A032741",
+    "A048272",
+    "A058344",
+    "A091954",
+    "A275495",
+    "A325939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

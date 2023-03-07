@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = floor(m/2)*floor((m-1)/2)*floor(n/2)*floor((n-1)/2).",
+  "id": "A191928",
+  "mentions": [
+    "A000241",
+    "A002620"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

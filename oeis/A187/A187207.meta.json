@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the k=A000005(n) divisors of n in decreasing order, followed by the lists of their absolute differences up to order k-1.",
+  "id": "A187207",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000217",
+    "A032742",
+    "A056538",
+    "A184389",
+    "A187203",
+    "A187205",
+    "A187208",
+    "A187215"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Records in A171797.",
+  "id": "A305396",
+  "mentions": [
+    "A004643",
+    "A171797"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

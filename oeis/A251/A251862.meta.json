@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n + 3 divides n^n - 3.",
+  "id": "A251862",
+  "mentions": [
+    "A000027",
+    "A004273",
+    "A004275",
+    "A087156",
+    "A213382",
+    "A242787",
+    "A242788",
+    "A242800",
+    "A249751",
+    "A251603",
+    "A252041"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

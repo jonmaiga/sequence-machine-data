@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = numerator of sum of reciprocals of the terms of the continued fraction for prime(n+1)/prime(n).",
+  "id": "A112323",
+  "mentions": [
+    "A071866",
+    "A109374",
+    "A110021",
+    "A112324",
+    "A112768"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

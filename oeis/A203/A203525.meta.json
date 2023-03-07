@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = v(n+1)/(8*v(n)), where v=A203524.",
+  "id": "A203525",
+  "mentions": [
+    "A000040",
+    "A000178",
+    "A093883",
+    "A203315",
+    "A203524",
+    "A203526"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:07:54",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

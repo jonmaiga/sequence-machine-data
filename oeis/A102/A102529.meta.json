@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A102528.",
+  "id": "A102529",
+  "mentions": [
+    "A102528",
+    "A102530"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

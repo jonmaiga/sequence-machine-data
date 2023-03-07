@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 / (1 - x * Product_{k>=1} A(x^k)).",
+  "id": "A329802",
+  "mentions": [
+    "A050383",
+    "A091865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

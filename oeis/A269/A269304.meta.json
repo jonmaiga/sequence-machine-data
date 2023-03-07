@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + n/gpf(n) + 1, where gpf(n) is the greatest prime factor of n or 1 if n = 1.",
+  "id": "A269304",
+  "mentions": [
+    "A006530",
+    "A052126",
+    "A270807"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

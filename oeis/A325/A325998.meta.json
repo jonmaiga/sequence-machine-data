@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} (n+1)*(n+2)/2 * (x + x^n)^n.",
+  "id": "A325998",
+  "mentions": [
+    "A217669",
+    "A325997",
+    "A325999"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

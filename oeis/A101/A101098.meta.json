@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; thereafter, a(n+1) = 20*n^3 + 10*n.",
+  "id": "A101098",
+  "mentions": [
+    "A000584",
+    "A068236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:51",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

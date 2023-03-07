@@ -1,0 +1,18 @@
+{
+  "description": "One half of the even terms of A224771.",
+  "id": "A224773",
+  "mentions": [
+    "A224771"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

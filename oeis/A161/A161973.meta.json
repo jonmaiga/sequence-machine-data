@@ -1,0 +1,20 @@
+{
+  "description": "Primes in A136251 in order of appearance.",
+  "id": "A161973",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A136251"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

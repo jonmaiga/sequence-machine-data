@@ -1,0 +1,21 @@
+{
+  "description": "The least odd number with the same prime signature as n.",
+  "id": "A359600",
+  "mentions": [
+    "A003961",
+    "A046523",
+    "A101296",
+    "A278223"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

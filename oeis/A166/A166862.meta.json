@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that divide n! + 1 for some n other than p-1.",
+  "id": "A166862",
+  "mentions": [
+    "A000142",
+    "A002583",
+    "A038507",
+    "A051301"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

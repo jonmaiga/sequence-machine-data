@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p,q,r,s are consecutive primes and 2p+9, 2q+9, 2r+9, 2s+9 are also primes.",
+  "id": "A190354",
+  "mentions": [
+    "A023207"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

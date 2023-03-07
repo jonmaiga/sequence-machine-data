@@ -1,0 +1,43 @@
+{
+  "description": "Numbers k for which k * gcd(sigma(k), A003961(k)) is equal to sigma(k) * gcd(k, A003961(k)), where A003961 shifts the prime factorization one step towards larger primes, and sigma is the sum of divisors function.",
+  "id": "A349745",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A005101",
+    "A005820",
+    "A007814",
+    "A007949",
+    "A046060",
+    "A064987",
+    "A191002",
+    "A191218",
+    "A248150",
+    "A322361",
+    "A341529",
+    "A342671",
+    "A347870",
+    "A349169",
+    "A349746",
+    "A351458",
+    "A351459",
+    "A351534",
+    "A351536",
+    "A351538",
+    "A351548",
+    "A351549",
+    "A351551",
+    "A351554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+1 are both nonprime-powers whose all distinct prime divisors are consecutive primes (A066312).",
+  "id": "A346910",
+  "mentions": [
+    "A066312",
+    "A141399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

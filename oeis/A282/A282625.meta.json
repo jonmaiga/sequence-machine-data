@@ -1,0 +1,23 @@
+{
+  "description": "Number of cyclic groups in the total direct product factorization of the multiplicative group of integers modulo n, for n >= 1.",
+  "id": "A282625",
+  "mentions": [
+    "A001221",
+    "A033948",
+    "A033949",
+    "A046072",
+    "A281854",
+    "A281855",
+    "A282624"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

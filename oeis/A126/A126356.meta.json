@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the n-th integer from among the positive integers which are coprime to (n+1).",
+  "id": "A126356",
+  "mentions": [
+    "A069213",
+    "A126357"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

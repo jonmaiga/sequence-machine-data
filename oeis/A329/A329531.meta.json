@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between squares of successive even numbers.",
+  "id": "A329531",
+  "mentions": [
+    "A000720",
+    "A014085",
+    "A089166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

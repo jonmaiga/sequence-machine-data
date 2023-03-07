@@ -1,0 +1,20 @@
+{
+  "description": "Unipotent n X n matrices over GF(2) that are squares of other such matrices.",
+  "id": "A267132",
+  "mentions": [
+    "A002884",
+    "A006950"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

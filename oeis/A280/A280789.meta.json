@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: number of topologically distinct sets of N circles with one pair touching, classified according to number of factors.",
+  "id": "A280789",
+  "mentions": [
+    "A269800"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

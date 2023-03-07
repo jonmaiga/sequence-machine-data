@@ -1,0 +1,22 @@
+{
+  "description": "Central column of triangle A090181.",
+  "id": "A125558",
+  "mentions": [
+    "A000108",
+    "A000888",
+    "A001263",
+    "A090181"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

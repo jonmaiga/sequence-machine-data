@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple graphs on n labeled nodes containing at least one cycle subgraph, also row sums of A143899.",
+  "id": "A143900",
+  "mentions": [
+    "A001858",
+    "A006125",
+    "A007318",
+    "A143899"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to x == 0 (mod A007954(x)), x in A002113, 10^(n-1) <= x < 10^n.",
+  "id": "A110057",
+  "mentions": [
+    "A002113",
+    "A007954",
+    "A117057"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

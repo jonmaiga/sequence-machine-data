@@ -1,0 +1,26 @@
+{
+  "description": "'DP(n,k)' triangle read by rows. DP(n,k) is the number of k-double-palindromes of n.",
+  "id": "A180653",
+  "mentions": [
+    "A051159",
+    "A119963",
+    "A179519",
+    "A180279",
+    "A180750",
+    "A180918",
+    "A181111",
+    "A181169"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

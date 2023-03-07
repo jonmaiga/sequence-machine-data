@@ -1,0 +1,21 @@
+{
+  "description": "The angle of the center of each numbered sector of a standard competition dartboard.",
+  "id": "A244512",
+  "mentions": [
+    "A003833",
+    "A008575"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

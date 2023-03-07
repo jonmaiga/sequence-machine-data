@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime k such that (k+p(1)) (k+p(2))...(k+p(n))/(p(n)#) is an integer.",
+  "id": "A215490",
+  "mentions": [
+    "A215489"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

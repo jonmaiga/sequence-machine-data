@@ -1,0 +1,22 @@
+{
+  "description": "Number of unordered pairs of odd composite numbers that sum to 2n.",
+  "id": "A141100",
+  "mentions": [
+    "A005171",
+    "A118081",
+    "A141095",
+    "A141097",
+    "A141099"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

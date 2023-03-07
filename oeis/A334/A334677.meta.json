@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer-sided triangles with nonintegral area and perimeter A009005(n).",
+  "id": "A334677",
+  "mentions": [
+    "A005044",
+    "A009005",
+    "A051516",
+    "A051518"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

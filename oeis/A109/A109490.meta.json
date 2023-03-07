@@ -1,0 +1,20 @@
+{
+  "description": "Value of Product[k/sd(k,3),k=1..n], where sd[k,b] is the sum of the digits of k represented in base b.",
+  "id": "A109490",
+  "mentions": [
+    "A109489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of the maximal exponent in prime factorization of the positive integers (A051903).",
+  "id": "A359071",
+  "mentions": [
+    "A051903",
+    "A129132",
+    "A242977",
+    "A359072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

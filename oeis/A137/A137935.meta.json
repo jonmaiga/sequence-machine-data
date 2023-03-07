@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 5n + 26*floor(n/5).",
+  "id": "A137935",
+  "mentions": [
+    "A002266"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

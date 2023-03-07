@@ -1,0 +1,21 @@
+{
+  "description": "A triangular array distributing the values of sequence A072213 (cf. A115994).",
+  "id": "A128626",
+  "mentions": [
+    "A000041",
+    "A000290",
+    "A072213",
+    "A115994"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

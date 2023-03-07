@@ -1,0 +1,25 @@
+{
+  "description": "Number of pairs {k, m} with 0 <= k <= m such that binomial(2k,k) + binomial(2m,m) is not only a primitive root modulo prime(n) but also smaller than prime(n).",
+  "id": "A305030",
+  "mentions": [
+    "A000040",
+    "A000108",
+    "A000984",
+    "A239957",
+    "A241476",
+    "A241504",
+    "A241516",
+    "A303540",
+    "A305048"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

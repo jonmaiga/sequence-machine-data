@@ -1,0 +1,22 @@
+{
+  "description": "Diagonal indices of Greedy Queens (see A065188).",
+  "id": "A276325",
+  "mentions": [
+    "A065188",
+    "A275901",
+    "A275902",
+    "A276324",
+    "A276783"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

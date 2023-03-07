@@ -1,0 +1,22 @@
+{
+  "description": "Consecutive powers of the Gray code permutation.",
+  "id": "A195467",
+  "mentions": [
+    "A003188",
+    "A006068",
+    "A062383",
+    "A064706",
+    "A197819"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that sigma(Sum_{j=0..n}{k-j}) = sigma(Sum_{j=0..n}{k+j}).",
+  "id": "A276318",
+  "mentions": [
+    "A000203",
+    "A276319",
+    "A276320"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

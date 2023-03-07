@@ -1,0 +1,24 @@
+{
+  "description": "Number of unitary divisors of 2n.",
+  "id": "A100008",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001620",
+    "A034444",
+    "A068068",
+    "A099812"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

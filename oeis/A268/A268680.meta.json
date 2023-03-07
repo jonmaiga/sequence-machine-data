@@ -1,0 +1,21 @@
+{
+  "description": "Least monotonic left inverse of A268678.",
+  "id": "A268680",
+  "mentions": [
+    "A268395",
+    "A268678",
+    "A268679",
+    "A268711"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

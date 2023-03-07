@@ -1,0 +1,18 @@
+{
+  "description": "Number of 6Xn 0..3 arrays with antidiagonals unimodal and rows and diagonals nondecreasing",
+  "id": "A223966",
+  "mentions": [
+    "A223961"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

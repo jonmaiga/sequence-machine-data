@@ -1,0 +1,25 @@
+{
+  "description": "Number of numbers >1 up to 2*prime(n) which are divisible by primes up to prime(n).",
+  "id": "A120632",
+  "mentions": [
+    "A000040",
+    "A040976",
+    "A070046",
+    "A076274",
+    "A100484",
+    "A120633",
+    "A137621",
+    "A137624"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

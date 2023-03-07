@@ -1,0 +1,19 @@
+{
+  "description": "Starting from the standard 12 against 12 starting position in checkers, the sequence gives the number of distinct move sequences after n moves.",
+  "id": "A133046",
+  "mentions": [
+    "A055213",
+    "A133047"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

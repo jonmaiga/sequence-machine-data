@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array T(n,k) (n>=1, 0<=k<=n(n-1)/2) giving the total number of connected components in all subgraphs obtained from the complete labeled graph K_n by removing k edges.",
+  "id": "A125206",
+  "mentions": [
+    "A125205",
+    "A125207"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of natural numbers based on A072756 and A104463.",
+  "id": "A104464",
+  "mentions": [
+    "A072756",
+    "A072758",
+    "A104463"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

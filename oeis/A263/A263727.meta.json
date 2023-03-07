@@ -1,0 +1,21 @@
+{
+  "description": "Largest square number less than or equal to the n-th Fibonacci number.",
+  "id": "A263727",
+  "mentions": [
+    "A000045",
+    "A048760",
+    "A061287"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

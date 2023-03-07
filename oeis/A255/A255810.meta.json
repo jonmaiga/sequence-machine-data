@@ -1,0 +1,18 @@
+{
+  "description": "Infinite tree (flattened) generated as follows: generation g(1) = (1); thereafter, putting h = 3^n, each (1,x(2),...,x(h)) in generation g(n) has 1st, 2nd, and 3rd offspring, namely (1,x(2),...,x(h),x(h)+1), (1,x(2),...,x(h),x(h)+2) and (1,x(2),...,h(h),x(h)+3).",
+  "id": "A255810",
+  "mentions": [
+    "A255809"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

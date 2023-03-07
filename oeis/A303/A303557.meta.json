@@ -1,0 +1,28 @@
+{
+  "description": "a(0) = 1; a(n) = 2^(n-1)*prime(n)#, where prime(n)# is the product of first n primes.",
+  "id": "A303557",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A003680",
+    "A005179",
+    "A011782",
+    "A038547",
+    "A061283",
+    "A070175",
+    "A088860",
+    "A102476",
+    "A303555"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:48:36",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

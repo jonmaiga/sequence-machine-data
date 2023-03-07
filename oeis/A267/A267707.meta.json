@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A000217(A000217(n)+1).",
+  "id": "A267707",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A027927",
+    "A082044",
+    "A229183"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:30:55",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

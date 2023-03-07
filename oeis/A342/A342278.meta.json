@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A342274.",
+  "id": "A342278",
+  "mentions": [
+    "A151723",
+    "A170899",
+    "A342272",
+    "A342274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

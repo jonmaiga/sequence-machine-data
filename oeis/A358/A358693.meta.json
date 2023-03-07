@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k / (sum of digits of k) is the square of a prime.",
+  "id": "A358693",
+  "mentions": [
+    "A001102",
+    "A001248",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

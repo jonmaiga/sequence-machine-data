@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers that are also generalized octagonal numbers.",
+  "id": "A292851",
+  "mentions": [
+    "A000045",
+    "A001082",
+    "A039595"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

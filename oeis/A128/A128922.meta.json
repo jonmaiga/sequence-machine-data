@@ -1,0 +1,21 @@
+{
+  "description": "Numbers simultaneously 10-gonal and centered 10-gonal.",
+  "id": "A128922",
+  "mentions": [
+    "A001107",
+    "A048909",
+    "A062786"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:10:24",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

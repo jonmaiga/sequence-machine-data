@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: numerator of n/binomial(n,m).",
+  "id": "A159335",
+  "mentions": [
+    "A007318",
+    "A020475",
+    "A109004",
+    "A165661"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

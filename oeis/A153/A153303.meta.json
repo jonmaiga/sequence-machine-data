@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: cm4(x)^4 = Sum_{n>=0} a(n)*x^(4n)/(4n)!, where cm4(x) is defined by A153300.",
+  "id": "A153303",
+  "mentions": [
+    "A153300",
+    "A153301",
+    "A153302"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

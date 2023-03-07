@@ -1,0 +1,18 @@
+{
+  "description": "Quadrisection A157334(4n+3).",
+  "id": "A157339",
+  "mentions": [
+    "A157276",
+    "A157334"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that there exist integers x,y,z from {1,2,...,n-1} for which x*y*z = (k-x)*(k-y)*(k-z) and the factors x, y, z, k-x, k-y, k-z are all different.",
+  "id": "A102505",
+  "mentions": [
+    "A102495",
+    "A102793"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

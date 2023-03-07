@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that composite(n)={2 or 3}*{prime > 3}.",
+  "id": "A171420",
+  "mentions": [
+    "A002808",
+    "A171156"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

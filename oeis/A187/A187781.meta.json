@@ -1,0 +1,20 @@
+{
+  "description": "Number of noncongruent polygonal regions in a regular n-gon with all diagonals drawn.",
+  "id": "A187781",
+  "mentions": [
+    "A165217",
+    "A187782"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

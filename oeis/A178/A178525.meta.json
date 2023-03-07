@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the costs of all nodes in the Fibonacci tree of order n.",
+  "id": "A178525",
+  "mentions": [
+    "A000045",
+    "A094584",
+    "A178521",
+    "A192232",
+    "A192304"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

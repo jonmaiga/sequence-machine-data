@@ -1,0 +1,21 @@
+{
+  "description": "Determinant of n X n matrix M_{i,j} = 2^i*P_i(j), where P_i(j) is the Legendre polynomial of order i at j and i and j are 0-based.",
+  "id": "A110131",
+  "mentions": [
+    "A000079",
+    "A086205",
+    "A112332"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

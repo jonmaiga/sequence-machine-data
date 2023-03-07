@@ -1,0 +1,27 @@
+{
+  "description": "Number of factorizations of n into factors > 1 where each factor's prime indices are relatively prime. Number of factorizations of n using elements of A289509.",
+  "id": "A320439",
+  "mentions": [
+    "A000837",
+    "A001055",
+    "A007359",
+    "A085945",
+    "A112798",
+    "A289508",
+    "A289509",
+    "A302569",
+    "A302696",
+    "A318978",
+    "A320424"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

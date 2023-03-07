@@ -1,0 +1,23 @@
+{
+  "description": "Number of strict relatively prime factorizations of n.",
+  "id": "A318721",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A045778",
+    "A078374",
+    "A281116",
+    "A317748",
+    "A318720"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

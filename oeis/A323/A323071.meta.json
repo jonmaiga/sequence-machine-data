@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(n, 1+A060681(n)).",
+  "id": "A323071",
+  "mentions": [
+    "A055023",
+    "A060681",
+    "A323070",
+    "A323072"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Start with a sequence of 1's, then replace every other 1 with a 2; then replace every third of the remaining 1's with a 3 and every third of the remaining 2's with a 3; then replace every fourth remaining 1, 2 or 3 with a 4; and so on. The limiting sequence is shown here.",
+  "id": "A100002",
+  "mentions": [
+    "A000960",
+    "A098119",
+    "A100287"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

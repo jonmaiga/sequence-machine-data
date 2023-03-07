@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of a solution to x = 3*tanh(x).",
+  "id": "A309211",
+  "mentions": [
+    "A309207",
+    "A309208"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:15",
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

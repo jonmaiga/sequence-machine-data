@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(p^e) = prime(p-1)^e.",
+  "id": "A290641",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A032742",
+    "A046523",
+    "A055003",
+    "A064554",
+    "A064988",
+    "A064989"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

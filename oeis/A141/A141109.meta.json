@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers 2n such that for every prime p in [n,2n-2], 2n-p is also prime.",
+  "id": "A141109",
+  "mentions": [
+    "A002271"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

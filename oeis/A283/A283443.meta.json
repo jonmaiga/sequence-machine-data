@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = lcm(n,6) / gcd(n,6).",
+  "id": "A283443",
+  "mentions": [
+    "A064680",
+    "A089128",
+    "A109047",
+    "A130724",
+    "A188134",
+    "A283442",
+    "A283444"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:54:43",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

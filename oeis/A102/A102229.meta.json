@@ -1,0 +1,20 @@
+{
+  "description": "Column 1 of triangular matrix A102228, in which the first differences of row k forms row (k+1) of its matrix square-root (A102225).",
+  "id": "A102229",
+  "mentions": [
+    "A102225",
+    "A102226",
+    "A102227",
+    "A102228"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

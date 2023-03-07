@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^Omega(k).",
+  "id": "A347616",
+  "mentions": [
+    "A001222",
+    "A176029",
+    "A347614"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

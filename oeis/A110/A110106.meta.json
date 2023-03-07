@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of coverings of 1..n by cyclic words of length 3n, such that each value from 1 to n appears precisely twice. That is, the union of all the letters in all of the words of a given covering is the multiset {1,1,2,2,...,n,n}. Repeats of words are allowed in a given covering.",
+  "id": "A110106",
+  "mentions": [
+    "A052205",
+    "A108242",
+    "A110104",
+    "A110105"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

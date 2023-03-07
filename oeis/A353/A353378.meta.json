@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write the square of n as a product of the terms of A345452 larger than 1; a(1) = 1 by convention (an empty product).",
+  "id": "A353378",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A007814",
+    "A345452",
+    "A353304",
+    "A353334",
+    "A353338",
+    "A353359",
+    "A353374",
+    "A353377"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

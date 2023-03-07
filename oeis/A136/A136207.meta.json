@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p-6 or p+6 is prime.",
+  "id": "A136207",
+  "mentions": [
+    "A023201",
+    "A046117"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

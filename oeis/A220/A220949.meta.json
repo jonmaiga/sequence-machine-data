@@ -1,0 +1,25 @@
+{
+  "description": "Least prime p such that sum_{k=0}^n (2k+1)*x^(n-k) is irreducible modulo p.",
+  "id": "A220949",
+  "mentions": [
+    "A000040",
+    "A218465",
+    "A220072",
+    "A223934",
+    "A224210",
+    "A224416",
+    "A224417",
+    "A224418",
+    "A224480"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

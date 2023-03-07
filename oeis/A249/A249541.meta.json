@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that phi(m-2) divides m-1 where phi is Euler's totient function (A000010).",
+  "id": "A249541",
+  "mentions": [
+    "A000010",
+    "A019434",
+    "A232720",
+    "A254576"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

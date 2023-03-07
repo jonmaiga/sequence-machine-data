@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of the first n elements of A008578.",
+  "id": "A159900",
+  "mentions": [
+    "A008578",
+    "A019518",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

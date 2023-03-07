@@ -1,0 +1,32 @@
+{
+  "description": "Ascending descending base exponent transform of the infinite Fibonacci word (A003842).",
+  "id": "A113533",
+  "mentions": [
+    "A003842",
+    "A005408",
+    "A087316",
+    "A113122",
+    "A113153",
+    "A113154",
+    "A113208",
+    "A113231",
+    "A113257",
+    "A113258",
+    "A113271",
+    "A113320",
+    "A113336",
+    "A113498"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

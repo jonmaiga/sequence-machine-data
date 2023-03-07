@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of positive integers k such that there exists a nonnegative integer m with k + k^m = n.",
+  "id": "A309978",
+  "mentions": [
+    "A253913",
+    "A307074",
+    "A307092",
+    "A309997"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

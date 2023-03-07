@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k - 2 | sigma(k).",
+  "id": "A298563",
+  "mentions": [
+    "A055708",
+    "A057732",
+    "A125246"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3Xn 0..3*n-1 arrays with upper left zero and lower right 3*n-1 and each element differing from its horizontal, diagonal and antidiagonal neighbors by a power of two.",
+  "id": "A265637",
+  "mentions": [
+    "A265635"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

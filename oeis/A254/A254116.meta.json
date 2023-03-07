@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A064216(A254103(n)).",
+  "id": "A254116",
+  "mentions": [
+    "A064216",
+    "A064989",
+    "A254099",
+    "A254103",
+    "A254115",
+    "A254118"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

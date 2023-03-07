@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form a^2 + b^4, with a,b > 0.",
+  "id": "A111925",
+  "mentions": [
+    "A000404",
+    "A022549",
+    "A028916",
+    "A055394",
+    "A111909"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

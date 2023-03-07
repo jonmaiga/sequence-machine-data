@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit numbers x such that rev(x^2) = rev(x)^2 and x does not contain any zero digits, where rev(x) is the digit reversal of x.",
+  "id": "A340491",
+  "mentions": [
+    "A004086",
+    "A052382",
+    "A085305",
+    "A098701"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

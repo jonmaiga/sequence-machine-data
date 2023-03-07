@@ -1,0 +1,30 @@
+{
+  "description": "2-Fubini numbers.",
+  "id": "A232472",
+  "mentions": [
+    "A000110",
+    "A000670",
+    "A005493",
+    "A005494",
+    "A008277",
+    "A069321",
+    "A122101",
+    "A143494",
+    "A143495",
+    "A232473",
+    "A232474"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 2,
+    "size": 21,
+    "source": "joeis"
+  }
+}

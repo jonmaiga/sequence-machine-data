@@ -1,0 +1,39 @@
+{
+  "description": "Number of strict integer partitions of n with no 1's and a part divisible by all the other parts.",
+  "id": "A339660",
+  "mentions": [
+    "A000009",
+    "A000070",
+    "A015723",
+    "A018818",
+    "A033630",
+    "A083710",
+    "A083711",
+    "A097986",
+    "A098743",
+    "A098965",
+    "A130689",
+    "A167865",
+    "A200745",
+    "A264401",
+    "A339563",
+    "A339619",
+    "A341450",
+    "A343337",
+    "A343341",
+    "A343344",
+    "A343347",
+    "A343378",
+    "A343380"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

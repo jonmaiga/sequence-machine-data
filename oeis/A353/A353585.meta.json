@@ -1,0 +1,46 @@
+{
+  "description": "Square array T(n,k): row n lists the number of inequivalent matrices over Z/nZ, modulo permutations of rows and columns, of size r X c, 1 <= r <= c, c >= 1.",
+  "id": "A353585",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A002723",
+    "A002724",
+    "A002725",
+    "A002727",
+    "A002728",
+    "A006148",
+    "A028657",
+    "A052264",
+    "A052269",
+    "A052271",
+    "A052272",
+    "A080577",
+    "A091058",
+    "A091059",
+    "A091060",
+    "A091061",
+    "A091062",
+    "A246106",
+    "A246122",
+    "A246123",
+    "A246124",
+    "A246125",
+    "A246126"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

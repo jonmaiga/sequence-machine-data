@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = H_n(n), where H_n is the physicist's n-th Hermite polynomial.",
+  "id": "A285270",
+  "mentions": [
+    "A089466",
+    "A349066",
+    "A349067",
+    "A349068",
+    "A349069"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

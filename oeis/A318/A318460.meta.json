@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, d < n/d} (d XOR n/d), where XOR is bitwise-xor (A003987).",
+  "id": "A318460",
+  "mentions": [
+    "A003987",
+    "A037213",
+    "A318461",
+    "A318462",
+    "A318463"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

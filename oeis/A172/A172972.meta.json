@@ -1,0 +1,20 @@
+{
+  "description": "Subtraction triangle based on A029826: c(n)=Product[A029826(i),{i,0,n)];t(n,m)=c(n)-c(m)-c(n-m)",
+  "id": "A172972",
+  "mentions": [
+    "A029826"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

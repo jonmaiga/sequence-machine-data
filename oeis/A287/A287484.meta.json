@@ -1,0 +1,22 @@
+{
+  "description": "Number of squarefree k with A002110(n) <= k < A002110(n+1) such that A001221(k) = n.",
+  "id": "A287484",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A005117",
+    "A006881",
+    "A033992"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

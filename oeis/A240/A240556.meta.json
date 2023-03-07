@@ -1,0 +1,33 @@
+{
+  "description": "Earliest nonnegative increasing sequence with no 5-term subsequence of constant third differences.",
+  "id": "A240556",
+  "mentions": [
+    "A003278",
+    "A005836",
+    "A005838",
+    "A020654",
+    "A020655",
+    "A020656",
+    "A020657",
+    "A020658",
+    "A020659",
+    "A020660",
+    "A020661",
+    "A020662",
+    "A020663",
+    "A020664",
+    "A240075",
+    "A240555",
+    "A240557"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

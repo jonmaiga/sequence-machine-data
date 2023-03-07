@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Last value in column n of A225630 which is not yet the fixed point A003418(n) of that column.",
+  "id": "A225629",
+  "mentions": [
+    "A003418",
+    "A225630",
+    "A225632",
+    "A225633",
+    "A225637"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

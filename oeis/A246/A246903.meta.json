@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array: row n lists the numbers D, each being the discriminant of the minimal polynomial of a quadratic irrational represented by a continued fraction with period an n-tuple of 1s and 2s.",
+  "id": "A246903",
+  "mentions": [
+    "A246904",
+    "A246905"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

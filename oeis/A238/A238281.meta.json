@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = |{0 < k < n: the two intervals (k*n, (k+1)*n) and ((k+1)*n, (k+2)*n) contain the same number of primes}|.",
+  "id": "A238281",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A237578",
+    "A238224",
+    "A238277",
+    "A238278"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

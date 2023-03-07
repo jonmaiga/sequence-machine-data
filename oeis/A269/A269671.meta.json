@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that the concatenation of prime(n) and prime(n+1) and also concatenation of prime(n+1) and prime(n) are prime.",
+  "id": "A269671",
+  "mentions": [
+    "A088712",
+    "A088784"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

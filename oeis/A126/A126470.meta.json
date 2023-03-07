@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where row n lists coefficients of q in F(n,q) that satisfies: F(n,q) = Sum_{k=0..n-1} C(n-1,k)*F(k,q)*F(n-k-1,q)*q^k for n>0, with F(0,q) = 1.",
+  "id": "A126470",
+  "mentions": [
+    "A126347",
+    "A126471",
+    "A126472"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + k^3*x^k).",
+  "id": "A265840",
+  "mentions": [
+    "A022629",
+    "A092484",
+    "A265837",
+    "A265841",
+    "A265842"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

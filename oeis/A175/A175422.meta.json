@@ -1,0 +1,25 @@
+{
+  "description": "Sequence of resulting numbers after 3rd step of iteration defined in A175419.",
+  "id": "A175422",
+  "mentions": [
+    "A175419",
+    "A175420",
+    "A175421",
+    "A175423",
+    "A175424",
+    "A175425",
+    "A175426",
+    "A175427"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

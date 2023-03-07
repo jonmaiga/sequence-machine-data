@@ -1,0 +1,23 @@
+{
+  "description": "Maximal number of 1324 patterns in a permutation of 1,2,...,n.",
+  "id": "A342853",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A061061",
+    "A100354",
+    "A342646",
+    "A342854"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

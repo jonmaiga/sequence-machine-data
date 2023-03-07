@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (1 + log(2*Pi))/2, the entropy of the standard normal distribution.",
+  "id": "A122914",
+  "mentions": [
+    "A061444",
+    "A075700",
+    "A122915"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

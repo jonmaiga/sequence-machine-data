@@ -1,0 +1,17 @@
+{
+  "description": "Monotonic ordering of nonnegative differences 8^i-4^j, for 40>= i>=0, j>=0.",
+  "id": "A192168",
+  "mentions": [
+    "A192167"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:47",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

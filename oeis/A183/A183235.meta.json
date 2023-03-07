@@ -1,0 +1,24 @@
+{
+  "description": "Sums of the cubes of multinomial coefficients.",
+  "id": "A183235",
+  "mentions": [
+    "A005651",
+    "A036038",
+    "A182963",
+    "A183236",
+    "A183237",
+    "A183238",
+    "A183240"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

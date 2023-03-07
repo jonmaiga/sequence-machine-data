@@ -1,0 +1,19 @@
+{
+  "description": "Number of runs in all Fibonacci binary words of length n. A Fibonacci binary word is a binary word having no 00 subword. A run is a maximal sequence of consecutive identical letters.",
+  "id": "A129715",
+  "mentions": [
+    "A129714",
+    "A241701"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

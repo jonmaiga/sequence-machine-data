@@ -1,0 +1,25 @@
+{
+  "description": "Array: five joint rank sequences tending to A187413, by columns.",
+  "id": "A187470",
+  "mentions": [
+    "A000027",
+    "A000201",
+    "A003622",
+    "A005408",
+    "A187224",
+    "A187413",
+    "A187469",
+    "A187471"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

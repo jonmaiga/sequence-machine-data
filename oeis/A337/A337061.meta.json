@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: 1 / (1 + x^3/3 + log(1 - x)).",
+  "id": "A337061",
+  "mentions": [
+    "A000090",
+    "A007840",
+    "A226226",
+    "A337060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:57:50",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

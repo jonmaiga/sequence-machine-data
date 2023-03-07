@@ -1,0 +1,20 @@
+{
+  "description": "Numbers sandwiched between two semiprimes, one of which is a square.",
+  "id": "A358686",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A124936",
+    "A358665"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

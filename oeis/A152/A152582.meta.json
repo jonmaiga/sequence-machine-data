@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 9^(2^n) + 2.",
+  "id": "A152582",
+  "mentions": [
+    "A011764",
+    "A057727",
+    "A059919"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

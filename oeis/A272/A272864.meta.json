@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes that are not of the form x^2 + y^2 + z^2 where x, y, z are integers.",
+  "id": "A272864",
+  "mentions": [
+    "A002113",
+    "A004215"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

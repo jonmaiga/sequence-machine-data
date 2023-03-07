@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Number of iterations of A003961 starting from n which are needed before the result is one of the numbers in A251726. a(1) = 0 by convention.",
+  "id": "A252459",
+  "mentions": [
+    "A003961",
+    "A066048",
+    "A246271",
+    "A246272",
+    "A251726",
+    "A251727",
+    "A252372"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

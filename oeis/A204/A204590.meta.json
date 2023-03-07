@@ -1,0 +1,21 @@
+{
+  "description": "Nearest integer to 100*1.1^n.",
+  "id": "A204590",
+  "mentions": [
+    "A204581",
+    "A204589",
+    "A204591"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

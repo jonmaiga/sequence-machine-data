@@ -1,0 +1,18 @@
+{
+  "description": "For p = prime(n), number of primes k with k < p such that F_{p-(p/k)} == 0 (mod p), where F_i = A000045(i) and (a/b) denotes the Legendre symbol.",
+  "id": "A257978",
+  "mentions": [
+    "A000045",
+    "A257979"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of North-East lattice paths from (0,0) to (n,n) that bounce off the diagonal y = x to the right exactly once.",
+  "id": "A268429",
+  "mentions": [
+    "A268407"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

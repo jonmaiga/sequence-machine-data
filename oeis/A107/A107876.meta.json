@@ -1,0 +1,35 @@
+{
+  "description": "Triangular matrix T, read by rows, that satisfies: [T^k](n,k) = T(n,k-1) for n>=k>0, or, equivalently, (column k of T^k) = SHIFT_LEFT(column k-1 of T) when zeros above the diagonal are ignored.",
+  "id": "A107876",
+  "mentions": [
+    "A000108",
+    "A101479",
+    "A107862",
+    "A107865",
+    "A107867",
+    "A107870",
+    "A107873",
+    "A107877",
+    "A107878",
+    "A107879",
+    "A107880",
+    "A107884",
+    "A107889",
+    "A115728",
+    "A115729",
+    "A300954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:23:14",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

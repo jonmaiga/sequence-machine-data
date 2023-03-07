@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / (BesselI(0,2*x) + BesselI(1,2*x)).",
+  "id": "A308849",
+  "mentions": [
+    "A001405",
+    "A308850"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

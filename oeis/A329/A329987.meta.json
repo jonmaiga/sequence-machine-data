@@ -1,0 +1,21 @@
+{
+  "description": "Beatty sequence for the number x satisfying 1/x + 1/2^x = 1.",
+  "id": "A329987",
+  "mentions": [
+    "A329825",
+    "A329986",
+    "A329988"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

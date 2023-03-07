@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: row n counts down from n in steps of 2, then counts up the remaining elements in the set {1,2,...n}, again in steps of 2.",
+  "id": "A130517",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A003056",
+    "A004736",
+    "A028310",
+    "A056951",
+    "A130556",
+    "A130598",
+    "A130602",
+    "A162630",
+    "A212121",
+    "A213361",
+    "A213371",
+    "A220053",
+    "A220073"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:53",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

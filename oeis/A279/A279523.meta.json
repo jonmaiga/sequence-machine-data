@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..2 arrays with no element equal to a strict majority of its horizontal and vertical neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.",
+  "id": "A279523",
+  "mentions": [
+    "A279527"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

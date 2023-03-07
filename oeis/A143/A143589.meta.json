@@ -1,0 +1,24 @@
+{
+  "description": "Kolakoski fan based on A000034 with initial row 1.",
+  "id": "A143589",
+  "mentions": [
+    "A000002",
+    "A000034",
+    "A111090",
+    "A143477",
+    "A143490",
+    "A143590"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

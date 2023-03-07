@@ -1,0 +1,25 @@
+{
+  "description": "Total area of all squares and rectangles after n-th stage in the toothpick structure of A139250, assuming the toothpicks have length 2.",
+  "id": "A159786",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A159787",
+    "A159788",
+    "A159789",
+    "A159796",
+    "A211012"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

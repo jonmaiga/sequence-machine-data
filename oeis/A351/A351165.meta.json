@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{d|n} d^(d - n/d).",
+  "id": "A351165",
+  "mentions": [
+    "A062796",
+    "A087905",
+    "A355669",
+    "A356661"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-congruent solutions of x^2+y^2 == z^2+w^2 (mod n).",
+  "id": "A316148",
+  "mentions": [
+    "A096018",
+    "A240547"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

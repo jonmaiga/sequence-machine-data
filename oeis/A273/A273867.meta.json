@@ -1,0 +1,20 @@
+{
+  "description": "Degrees of fundamental invariants of Weyl group W(E_6).",
+  "id": "A273867",
+  "mentions": [
+    "A005795",
+    "A005796"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

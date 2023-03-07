@@ -1,0 +1,19 @@
+{
+  "description": "Absolute difference between A109441 and A100948.",
+  "id": "A120722",
+  "mentions": [
+    "A100948",
+    "A109441"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

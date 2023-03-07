@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of large or small squares that are used to tile primary squares of type 1 (see A344331) whose side length is A345285(n).",
+  "id": "A345286",
+  "mentions": [
+    "A071253",
+    "A344330",
+    "A344331",
+    "A344333",
+    "A344334",
+    "A345285",
+    "A345287"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

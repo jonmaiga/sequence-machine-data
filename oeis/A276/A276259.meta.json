@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 5*a(n-1)*a(n-2)*a(n-3) - a(n-4) with n>4, a(1) = a(2) = a(3) = a(4) = 1.",
+  "id": "A276259",
+  "mentions": [
+    "A001519",
+    "A276258"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

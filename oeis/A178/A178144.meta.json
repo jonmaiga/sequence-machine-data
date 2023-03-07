@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors d of n which are d=2, 3 or 5.",
+  "id": "A178144",
+  "mentions": [
+    "A000203",
+    "A008472",
+    "A171182",
+    "A178142",
+    "A178143"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the nanostar dendrimer defined pictorially as NS[n] in the M. Mirzargar reference.",
+  "id": "A227482",
+  "mentions": [
+    "A227483"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:29:49",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

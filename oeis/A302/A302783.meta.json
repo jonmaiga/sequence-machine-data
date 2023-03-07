@@ -1,0 +1,29 @@
+{
+  "description": "A divisor-or-multiple permutation of natural numbers: a(n) = A052330(A006068(n)).",
+  "id": "A302783",
+  "mentions": [
+    "A006068",
+    "A050376",
+    "A052330",
+    "A064707",
+    "A064736",
+    "A207901",
+    "A209229",
+    "A284003",
+    "A302350",
+    "A302777",
+    "A302781",
+    "A302784"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Greater of Wilson's pseudo-twin primes: primes q such that p! == 1 (mod q), where p=A151799(q) is the previous prime before q, and q-p>2.",
+  "id": "A286208",
+  "mentions": [
+    "A006512",
+    "A151799",
+    "A166864",
+    "A275111",
+    "A286181",
+    "A286230"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

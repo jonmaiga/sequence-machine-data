@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1-2*x-2*x^2-sqrt(1-4*x-4*x^2+8*x^3+4*x^4))/(2*x^2).",
+  "id": "A174403",
+  "mentions": [
+    "A000108",
+    "A174404"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

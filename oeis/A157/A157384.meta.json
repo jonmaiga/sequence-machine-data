@@ -1,0 +1,33 @@
+{
+  "description": "A partition product of Stirling_1 type [parameter k = -4] with biggest-part statistic (triangle read by rows).",
+  "id": "A157384",
+  "mentions": [
+    "A000217",
+    "A001715",
+    "A049352",
+    "A049377",
+    "A126074",
+    "A144354",
+    "A157383",
+    "A157386",
+    "A157391",
+    "A157392",
+    "A157393",
+    "A157394",
+    "A157395",
+    "A157400"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

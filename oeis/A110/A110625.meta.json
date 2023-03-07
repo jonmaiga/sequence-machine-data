@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of b(n) = -Sum_{k=1..n} A037861(k)/((2*k)*(2*k+1)), where A037861(k) = (number of 0's) - (number of 1's) in the binary representation of k.",
+  "id": "A110625",
+  "mentions": [
+    "A037861",
+    "A073099",
+    "A094640",
+    "A110626"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

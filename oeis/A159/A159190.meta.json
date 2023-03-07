@@ -1,0 +1,23 @@
+{
+  "description": "Main diagonal of array mentioned in A113941.",
+  "id": "A159190",
+  "mentions": [
+    "A001248",
+    "A078972",
+    "A113940",
+    "A113941"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

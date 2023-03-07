@@ -1,0 +1,18 @@
+{
+  "description": "Let i < k and prime(k) == x(i) mod prime(i). This sequence gives the indices k of the primes prime(k) such that Sum(i=1..k-1, x(i)) is prime.",
+  "id": "A254616",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

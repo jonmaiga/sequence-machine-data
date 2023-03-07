@@ -1,0 +1,18 @@
+{
+  "description": "Consider the family of configurations E where E(0) consists of a single equilateral triangle, and for any k >= 0, E(k+1) is obtained by applying the Equithirds substitution to E(k). For k >= 5, the central node of E(k) has 6 equivalent tetravalent neighbors; let t(k) be the coordination sequence for one of those tetravalent nodes. This sequence is the limit of t(k) as k goes to infinity.",
+  "id": "A323183",
+  "mentions": [
+    "A019557",
+    "A323187"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Fourth right hand column of the RSEG2 triangle A161739",
+  "id": "A161740",
+  "mentions": [
+    "A000292",
+    "A036283",
+    "A107963",
+    "A161739",
+    "A161741"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:39",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

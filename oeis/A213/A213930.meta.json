@@ -1,0 +1,23 @@
+{
+  "description": "Table of frequencies of gaps of size 2d between consecutive primes below 10^n, n >= 1; d = 1,2,...,A213949(n).",
+  "id": "A213930",
+  "mentions": [
+    "A000720",
+    "A007508",
+    "A038460",
+    "A093737",
+    "A213949"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The number of permutations of {1,2,...,n,1,2,...,n} with the property that there are k numbers between the two k's in the set for k=1,...,n, as n runs through the positive integers congruent to -1 or 0 mod 4.",
+  "id": "A268536",
+  "mentions": [
+    "A176127"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

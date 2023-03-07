@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n in the form F(x,y,z) = x^3 + y^3 + z^3 - 3xyz, where 0 <= x <= y <= z and z >= x+1.",
+  "id": "A261029",
+  "mentions": [
+    "A072670",
+    "A074232",
+    "A260803",
+    "A260804",
+    "A260935",
+    "A260965"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

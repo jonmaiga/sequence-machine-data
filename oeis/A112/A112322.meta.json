@@ -1,0 +1,20 @@
+{
+  "description": "Exclusionary square associated to corresponding smallest n-digit number (A112321), or 0 if no such number exists.",
+  "id": "A112322",
+  "mentions": [
+    "A110816",
+    "A112321"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

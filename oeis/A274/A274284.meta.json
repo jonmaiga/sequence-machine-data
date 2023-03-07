@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are a product of distinct numbers in A006355.",
+  "id": "A274284",
+  "mentions": [
+    "A006355",
+    "A160009"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

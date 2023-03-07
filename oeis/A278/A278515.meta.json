@@ -1,0 +1,22 @@
+{
+  "description": "Number of steps required to iterate map k -> A255131(k) when starting from k = (A000196(n)+1)^2 before n is reached, or 0 if n is not reached.",
+  "id": "A278515",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002828",
+    "A005563",
+    "A255131",
+    "A276573"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

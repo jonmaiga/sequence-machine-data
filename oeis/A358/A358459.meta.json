@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that the k-th standard ordered rooted tree is balanced (counted by A007059).",
+  "id": "A358459",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A003238",
+    "A004249",
+    "A007059",
+    "A032027",
+    "A048816",
+    "A066099",
+    "A184155",
+    "A244925",
+    "A290822",
+    "A318185",
+    "A358373",
+    "A358378",
+    "A358379"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

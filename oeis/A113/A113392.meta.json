@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix square of triangle A113389. Also given by the matrix product: R^2 = Q^3*(P^-2)*Q, using triangular matrices P=A113370, Q=A113381 and R=A113389.",
+  "id": "A113392",
+  "mentions": [
+    "A113370",
+    "A113381",
+    "A113388",
+    "A113389",
+    "A113393"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

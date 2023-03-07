@@ -1,0 +1,25 @@
+{
+  "description": "Values of k such that (product of squarefree numbers <= k) / (sum of squarefree numbers <= k) is an integer.",
+  "id": "A322608",
+  "mentions": [
+    "A005117",
+    "A051838",
+    "A111059",
+    "A116536",
+    "A141092",
+    "A173143",
+    "A322607",
+    "A347690"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

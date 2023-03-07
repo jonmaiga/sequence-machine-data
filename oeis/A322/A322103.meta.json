@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = Sum_{d|n} sigma_k(d).",
+  "id": "A322103",
+  "mentions": [
+    "A007425",
+    "A007429",
+    "A007433",
+    "A109974",
+    "A321140",
+    "A321141",
+    "A356045"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

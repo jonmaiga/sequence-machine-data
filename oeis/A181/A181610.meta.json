@@ -1,0 +1,20 @@
+{
+  "description": "The last n digits of powers of 2 start cycling. a(n) is the number of zero-free terms in this cycle.",
+  "id": "A181610",
+  "mentions": [
+    "A000855",
+    "A005054",
+    "A126605"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

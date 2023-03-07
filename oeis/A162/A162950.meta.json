@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose square contains no repeated digit.",
+  "id": "A162950",
+  "mentions": [
+    "A119509"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

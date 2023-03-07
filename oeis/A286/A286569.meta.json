@@ -1,0 +1,20 @@
+{
+  "description": "Restricted growth sequence transform of \"Hofstadter chaotic heart\", A284019 (= A004001(n) - A005185(n)).",
+  "id": "A286569",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A284019",
+    "A286560"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

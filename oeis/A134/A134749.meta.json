@@ -1,0 +1,21 @@
+{
+  "description": "First differences of permutational numbers : a(n)=A134640(n+1)-A134640(n).",
+  "id": "A134749",
+  "mentions": [
+    "A007489",
+    "A134640",
+    "A134703",
+    "A134748",
+    "A134750"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of twos in row n of triangle A083093.",
+  "id": "A227428",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A006047",
+    "A062296",
+    "A062756",
+    "A081603",
+    "A083093",
+    "A206424",
+    "A206428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

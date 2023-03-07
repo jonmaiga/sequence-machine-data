@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that (16^n + 15^n)/31 is prime.",
+  "id": "A227170",
+  "mentions": [
+    "A000978",
+    "A057469",
+    "A128066",
+    "A128335",
+    "A128336",
+    "A181141",
+    "A187805",
+    "A187819",
+    "A217095"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

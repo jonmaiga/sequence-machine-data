@@ -1,0 +1,21 @@
+{
+  "description": "Iterate the Kaprekar map of A151949 starting at the n-digit number 100...01; sequence gives the lowest number in the resulting cycle.",
+  "id": "A151967",
+  "mentions": [
+    "A151949",
+    "A151957",
+    "A151958",
+    "A151968"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

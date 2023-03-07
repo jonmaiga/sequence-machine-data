@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k/6^m == 5 (mod 6), where 6^m is the greatest power of 6 that divides k.",
+  "id": "A277571",
+  "mentions": [
+    "A277544",
+    "A277567",
+    "A277568",
+    "A277569",
+    "A277570"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

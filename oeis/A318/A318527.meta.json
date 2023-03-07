@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that -3 is a quadratic residue (not necessarily coprime) modulo k, k + 1, k + 2 and k + 3.",
+  "id": "A318527",
+  "mentions": [
+    "A057128",
+    "A305864",
+    "A318911"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals upwards, n > 0 and k > 0: T(n, k) is the k-th positive number whose Collatz sequence contains n.",
+  "id": "A299962",
+  "mentions": [
+    "A000027",
+    "A007283",
+    "A070165",
+    "A070167",
+    "A091629"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

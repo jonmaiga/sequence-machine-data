@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2. a(n) = the smallest integer > a(n-1) that is coprime to n, and is such that (a(n)-a(n-1)) is not a divisor of n.",
+  "id": "A161889",
+  "mentions": [
+    "A161888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:57",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

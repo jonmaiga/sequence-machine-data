@@ -1,0 +1,25 @@
+{
+  "description": "Number of twice-partitions of n with no repeated partitions.",
+  "id": "A296122",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A047968",
+    "A063834",
+    "A261049",
+    "A273873",
+    "A279375",
+    "A295279",
+    "A296121"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

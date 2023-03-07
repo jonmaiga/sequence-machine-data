@@ -1,0 +1,19 @@
+{
+  "description": "Like sequence A111072 but moving right by the squares of the sequence of positive integers.",
+  "id": "A111093",
+  "mentions": [
+    "A111072"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

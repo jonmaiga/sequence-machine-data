@@ -1,0 +1,20 @@
+{
+  "description": "Consider the runs of 0's in the binary representation of n, each of these runs being on the edge of the binary representation n and/or being bounded by 1's. Consider also the runs of 1's in the binary representation of n, each of these runs being on the edge of the binary representation n and/or being bounded by 0's. A positive integer n is included in this sequence if the length of the shortest such run of 0's in binary n equals the length of the shortest such run of 1's in binary n.",
+  "id": "A144793",
+  "mentions": [
+    "A090050",
+    "A144789",
+    "A144790"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

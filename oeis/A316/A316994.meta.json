@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that a(1) = 2 and for any n > 0 the binary representation of a(n) appears as a substring in the binary representation of Sum_{k=1..n} a(k).",
+  "id": "A316994",
+  "mentions": [
+    "A007088",
+    "A316993"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

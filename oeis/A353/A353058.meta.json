@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of iterations {add or subtract 1, or half if even} needed to reach 1, starting from n.",
+  "id": "A353058",
+  "mentions": [
+    "A003313",
+    "A061339",
+    "A128998",
+    "A137813"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

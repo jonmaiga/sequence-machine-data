@@ -1,0 +1,20 @@
+{
+  "description": "Number of base 10 n-digit numbers with adjacent digits differing by one or less.",
+  "id": "A126364",
+  "mentions": [
+    "A025565"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = x + A(x)^2*(1 + A(x))^2.",
+  "id": "A214372",
+  "mentions": [
+    "A000108",
+    "A229042"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

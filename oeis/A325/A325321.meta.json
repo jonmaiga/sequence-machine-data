@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if cototient of n is a square, 0 otherwise.",
+  "id": "A325321",
+  "mentions": [
+    "A000010",
+    "A010052",
+    "A051953",
+    "A063752"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

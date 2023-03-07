@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers that cannot be expressed as a sum of 3 or fewer terms of A035928.",
+  "id": "A278546",
+  "mentions": [
+    "A035928",
+    "A278465"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

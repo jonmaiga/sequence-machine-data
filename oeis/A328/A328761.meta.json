@@ -1,0 +1,20 @@
+{
+  "description": "The least integer k >= 0 for which A328578(k) = A257993(A276086(A276086(k))) = n.",
+  "id": "A328761",
+  "mentions": [
+    "A257993",
+    "A276086",
+    "A328578",
+    "A328631"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

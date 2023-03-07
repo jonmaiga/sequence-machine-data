@@ -1,0 +1,23 @@
+{
+  "description": "Integers whose prime signature a) contains at least two distinct numbers, and b) contains no number that occurs less often than any other number.",
+  "id": "A182854",
+  "mentions": [
+    "A059404",
+    "A177425",
+    "A181819",
+    "A182850",
+    "A182852",
+    "A182853",
+    "A182855"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

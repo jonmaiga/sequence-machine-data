@@ -1,0 +1,21 @@
+{
+  "description": "Table of strictly decreasing sequences with terms in {0, ..., 9}, sorted by length, then lexicographically.",
+  "id": "A330350",
+  "mentions": [
+    "A009995",
+    "A262557",
+    "A272011"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

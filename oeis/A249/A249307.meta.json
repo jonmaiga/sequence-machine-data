@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: A249095(n,k) * 2^k, k = 0 .. 2*n+1.",
+  "id": "A249307",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A005055",
+    "A005408",
+    "A013609",
+    "A249095",
+    "A249308"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

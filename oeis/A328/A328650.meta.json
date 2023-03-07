@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: row n shows the coefficients of this polynomial of degree n: (1/n!)*(numerator of n-th derivative of 1)/(1-x-2x^2).",
+  "id": "A328650",
+  "mentions": [
+    "A000032",
+    "A032741",
+    "A328646"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

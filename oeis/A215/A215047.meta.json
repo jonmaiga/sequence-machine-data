@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes of the form 1 + b^2 for 1 < b < 10^n.",
+  "id": "A215047",
+  "mentions": [
+    "A083844",
+    "A206709"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

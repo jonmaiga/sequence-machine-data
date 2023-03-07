@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2 X 2 matrices having all terms in {1,...,n} and determinant = 1 (mod 3).",
+  "id": "A211071",
+  "mentions": [
+    "A210000",
+    "A210698",
+    "A211034"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

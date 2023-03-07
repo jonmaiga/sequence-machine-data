@@ -1,0 +1,23 @@
+{
+  "description": "Primes having a unique partition into three squares.",
+  "id": "A287164",
+  "mentions": [
+    "A000164",
+    "A000378",
+    "A002313",
+    "A042998",
+    "A094739",
+    "A094942"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

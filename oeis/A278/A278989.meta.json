@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of words of length n over an alphabet of size 4 that are in standard order and which have the property that every letter that appears in the word is repeated.",
+  "id": "A278989",
+  "mentions": [
+    "A278984",
+    "A278987"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:57:38",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

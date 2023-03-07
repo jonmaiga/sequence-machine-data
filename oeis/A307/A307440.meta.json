@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = Sum_{j>=0} j!*x^j / Product_{k=1..j} (1 - k*x*A(x)).",
+  "id": "A307440",
+  "mentions": [
+    "A000670",
+    "A019538",
+    "A225293",
+    "A225294",
+    "A307402",
+    "A307439"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p with a prime number of syllables in their name in American English.",
+  "id": "A163648",
+  "mentions": [
+    "A000040",
+    "A075774",
+    "A164043",
+    "A231073",
+    "A231075"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

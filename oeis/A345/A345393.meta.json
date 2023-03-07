@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = n!*[x^(n-1)] Li(-k, 1 - exp(-4*x))/(4*x*cosh(x)), where Li(n, z) is the polylogarithm function.",
+  "id": "A345393",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A003462",
+    "A081200",
+    "A345394"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

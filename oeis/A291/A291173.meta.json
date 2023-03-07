@@ -1,0 +1,20 @@
+{
+  "description": "Totient superdeficient numbers: numbers n > 1 such that s(n)/n < s(m)/m for all m < n, where s(n) is the sum of iterated phi(n) (A092693).",
+  "id": "A291173",
+  "mentions": [
+    "A092693",
+    "A286268",
+    "A291174"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

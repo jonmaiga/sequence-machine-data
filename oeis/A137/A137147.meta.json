@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k and k^2 use only the digits 5, 6, 7, 8 and 9.",
+  "id": "A137147",
+  "mentions": [
+    "A000290",
+    "A027675",
+    "A058411",
+    "A058474",
+    "A136808",
+    "A136809",
+    "A137146",
+    "A277959",
+    "A277960",
+    "A277961",
+    "A295005",
+    "A295009"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:41",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

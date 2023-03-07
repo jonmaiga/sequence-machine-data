@@ -1,0 +1,20 @@
+{
+  "description": "The first differences (A129761) of the tribonacci representation numbers (A003714 or A014417) consists of runs of 1's separated by the terms of the present sequence.",
+  "id": "A319432",
+  "mentions": [
+    "A003714",
+    "A005614",
+    "A014417",
+    "A129761"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

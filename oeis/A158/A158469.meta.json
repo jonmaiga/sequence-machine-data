@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for hz = limit_{k -> infinity} 1 + k - Sum_{j = -k..k} exp(-2^j).",
+  "id": "A158469",
+  "mentions": [
+    "A158468",
+    "A159835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

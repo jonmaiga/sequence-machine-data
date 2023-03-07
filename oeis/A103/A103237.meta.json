@@ -1,0 +1,22 @@
+{
+  "description": "Triangular matrix T, read by rows, that satisfies: T^3 + 3T^2 + 3T = SHIFTUP(T), also T^(n+2) + 3T^(n+1) + 3T^n = SHIFTUP(T^n - D*T^(n-1)) for all n, where D is a diagonal matrix with diagonal(D) = diagonal(T) = {1,2,3,...}.",
+  "id": "A103237",
+  "mentions": [
+    "A082164",
+    "A103236",
+    "A103243",
+    "A103248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

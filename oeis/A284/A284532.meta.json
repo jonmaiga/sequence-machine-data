@@ -1,0 +1,18 @@
+{
+  "description": "The lexicographically earliest sequence of positive integers such that a(1) = a(2) = 1 and a(n + k) != a(n - k) for all k <= a(n).",
+  "id": "A284532",
+  "mentions": [
+    "A284548"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:14:49",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

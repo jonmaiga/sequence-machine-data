@@ -1,0 +1,28 @@
+{
+  "description": "Difference in the maximal prime exponents between the arithmetic derivative of A276086(n) and A276086(n) itself, which is the prime product form of primorial base expansion of n.",
+  "id": "A342026",
+  "mentions": [
+    "A003415",
+    "A051903",
+    "A276086",
+    "A327860",
+    "A328114",
+    "A328310",
+    "A328391",
+    "A342005",
+    "A342006",
+    "A342016",
+    "A342019"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

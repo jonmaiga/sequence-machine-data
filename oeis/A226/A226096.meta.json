@@ -1,0 +1,24 @@
+{
+  "description": "Squares with doubled (4*n+2)^2.",
+  "id": "A226096",
+  "mentions": [
+    "A016826",
+    "A047205",
+    "A090223",
+    "A225948",
+    "A226008",
+    "A226023"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:31",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

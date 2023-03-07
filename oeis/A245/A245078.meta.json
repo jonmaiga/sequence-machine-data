@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the positive solution of G(x)=x, with x>1, G being the Barnes function.",
+  "id": "A245078",
+  "mentions": [
+    "A218802"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

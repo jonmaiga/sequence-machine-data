@@ -1,0 +1,27 @@
+{
+  "description": "The number of 1's in row n of Pascal's Triangle (mod 3)",
+  "id": "A206424",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A006047",
+    "A062296",
+    "A062756",
+    "A081603",
+    "A083093",
+    "A206427",
+    "A227428"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

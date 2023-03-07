@@ -1,0 +1,20 @@
+{
+  "description": "Number of weighted lattice paths of weight n having no (1,0)-steps of weight 1.",
+  "id": "A182883",
+  "mentions": [
+    "A105868",
+    "A182882"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:45:36",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

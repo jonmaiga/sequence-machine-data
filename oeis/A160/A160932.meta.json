@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (k+1)^1+(k+2)^2+(k+3)^3+(k+4)^4+(k+5)^5+(k+6)^6.",
+  "id": "A160932",
+  "mentions": [
+    "A027886",
+    "A160934"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "The numerators of curvatures of touching circles inscribed in a special way in the smaller segment of unit circle divided by a chord of length sqrt(84)/5.",
+  "id": "A249458",
+  "mentions": [
+    "A005032",
+    "A049310",
+    "A078986",
+    "A097315",
+    "A169634",
+    "A240926",
+    "A247335",
+    "A247512",
+    "A248834",
+    "A249457",
+    "A249863",
+    "A249864"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:56:35",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

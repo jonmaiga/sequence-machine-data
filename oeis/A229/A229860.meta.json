@@ -1,0 +1,25 @@
+{
+  "description": "Let sigma*_m (n) be result of applying sum of anti-divisors m times to n; call n (m,k)-anti-perfect if sigma*_m (n) = k*n; sequence gives the (2,k)-anti-perfect numbers.",
+  "id": "A229860",
+  "mentions": [
+    "A019278",
+    "A019292",
+    "A019293",
+    "A066272",
+    "A066417",
+    "A192293",
+    "A214842",
+    "A229861",
+    "A229862"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k+x+y is a square, where x and y are the two squares nearest to k.",
+  "id": "A238489",
+  "mentions": [
+    "A000290",
+    "A081065",
+    "A238456"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

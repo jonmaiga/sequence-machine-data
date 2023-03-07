@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) is number of RNA secondary structures of size n (i.e., with n nodes) having k blocks (an RNA secondary structure can be viewed as a restricted noncrossing partition).",
+  "id": "A110319",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A004148",
+    "A089732",
+    "A110320"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

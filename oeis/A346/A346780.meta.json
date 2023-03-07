@@ -1,0 +1,21 @@
+{
+  "description": "Using the NATO phonetic word for each letter, the last letter of the word is used for the next word until a repeated word would be necessary. This sequence shows the number of words for each letter.",
+  "id": "A346780",
+  "mentions": [
+    "A003103"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

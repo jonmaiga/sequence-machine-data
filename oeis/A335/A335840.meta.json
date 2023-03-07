@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x*(1+2*x)/((1-2*x)*(1-x+4*x^2)).",
+  "id": "A335840",
+  "mentions": [
+    "A112259",
+    "A112260",
+    "A272931"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:20:58",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

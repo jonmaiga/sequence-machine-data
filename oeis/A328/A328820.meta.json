@@ -1,0 +1,23 @@
+{
+  "description": "Fourth digit after decimal point of square root of n.",
+  "id": "A328820",
+  "mentions": [
+    "A000196",
+    "A010879",
+    "A023961",
+    "A111862"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

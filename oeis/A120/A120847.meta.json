@@ -1,0 +1,21 @@
+{
+  "description": "Klarner-Rado primes. Primes in A005658.",
+  "id": "A120847",
+  "mentions": [
+    "A000040",
+    "A003627",
+    "A005658"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

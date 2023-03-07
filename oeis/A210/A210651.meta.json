@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=least odd number k such that 3*k*2^n-1 is a prime number",
+  "id": "A210651",
+  "mentions": [
+    "A126717"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

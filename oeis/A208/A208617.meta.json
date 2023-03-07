@@ -1,0 +1,18 @@
+{
+  "description": "Number of Young tableaux with 4 n-length rows, increasing entries down the columns and monotonic entries along the rows (first row increasing).",
+  "id": "A208617",
+  "mentions": [
+    "A208615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

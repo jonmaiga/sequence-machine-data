@@ -1,0 +1,19 @@
+{
+  "description": "Number of longest cycles in the n X n knight graph.",
+  "id": "A301649",
+  "mentions": [
+    "A001230"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

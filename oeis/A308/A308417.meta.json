@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(x*(1 + x + x^2)/(1 - x^2)^2).",
+  "id": "A308417",
+  "mentions": [
+    "A007434",
+    "A026741",
+    "A082579",
+    "A088009",
+    "A301876",
+    "A308418"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:51:47",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

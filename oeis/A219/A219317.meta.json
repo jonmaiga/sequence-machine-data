@@ -1,0 +1,19 @@
+{
+  "description": "Number of standard Young tableaux for partitions of n into exactly 4 distinct parts.",
+  "id": "A219317",
+  "mentions": [
+    "A218293",
+    "A219311"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 10,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

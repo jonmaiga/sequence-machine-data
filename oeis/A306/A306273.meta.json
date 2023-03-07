@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k * rev(k) is a square, where rev=A004086, decimal reversal.",
+  "id": "A306273",
+  "mentions": [
+    "A002113",
+    "A004086",
+    "A035090",
+    "A062917",
+    "A070760",
+    "A082994",
+    "A083406",
+    "A083407",
+    "A083408",
+    "A117281",
+    "A322835",
+    "A323061"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers equal to the fifth powers of the sums of their digits.",
+  "id": "A254000",
+  "mentions": [
+    "A055576",
+    "A061209",
+    "A061210",
+    "A061211"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

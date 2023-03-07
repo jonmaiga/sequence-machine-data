@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that either n^k - 1 or n^k - 2 is prime for some positive k, but not both.",
+  "id": "A258187",
+  "mentions": [
+    "A016957",
+    "A017341"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

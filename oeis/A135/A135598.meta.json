@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number whose Pierce expansion has the sequence of Fibonacci numbers (A000045) as coefficients.",
+  "id": "A135598",
+  "mentions": [
+    "A000045",
+    "A137991"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

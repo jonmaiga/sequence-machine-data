@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p such that n*p+b is prime, where b=1 if n is even or 2 if n is odd, and p > a(n-1) if n >= 2.",
+  "id": "A340339",
+  "mentions": [
+    "A000034",
+    "A340340"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with prime factorization of the form p_1^p_2*p_2^p_3*...p_(n-1)^p_n*p_n where p_(n-1) < p(n) and n > 1.",
+  "id": "A294110",
+  "mentions": [
+    "A046099"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

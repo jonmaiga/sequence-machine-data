@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of ways k brooks (0 <= k <= 2n+1) can be placed on the grid points of an n triboard so that no two brooks lie in the same straight line.",
+  "id": "A260333",
+  "mentions": [
+    "A002047",
+    "A003215",
+    "A047786",
+    "A260334"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

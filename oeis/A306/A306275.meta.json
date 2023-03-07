@@ -1,0 +1,19 @@
+{
+  "description": "Number of values 0 < k <= n for which there are no k distinct n-th roots of unity that sum to zero.",
+  "id": "A306275",
+  "mentions": [
+    "A103306",
+    "A322366"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

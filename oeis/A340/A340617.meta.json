@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{p prime, p == 3 (mod 4)} (1 - 2/p^2).",
+  "id": "A340617",
+  "mentions": [
+    "A002145",
+    "A065474",
+    "A085991",
+    "A243379",
+    "A335963"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

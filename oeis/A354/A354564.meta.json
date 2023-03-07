@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that P(k)^3 | k and P(k+1)^2 | (k+1), where P(k) = A006530(k) is the largest prime dividing k.",
+  "id": "A354564",
+  "mentions": [
+    "A006530",
+    "A070003",
+    "A071178",
+    "A354558",
+    "A354562",
+    "A354563"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes in A048675, in the order of appearance and with duplicates.",
+  "id": "A277321",
+  "mentions": [
+    "A000040",
+    "A048675",
+    "A277319"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

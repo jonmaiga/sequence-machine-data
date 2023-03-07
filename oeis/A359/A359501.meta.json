@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that for some r >= 1 we have phi(p - r) + ... + phi(p - 1) = phi(p + 1) + ... + phi(p + r), where phi(i) = A000010(i).",
+  "id": "A359501",
+  "mentions": [
+    "A000010",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

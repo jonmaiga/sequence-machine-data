@@ -1,0 +1,30 @@
+{
+  "description": "Atavistic Index Sequence to A089840 computed for ENIPS.",
+  "id": "A153832",
+  "mentions": [
+    "A089839",
+    "A089840",
+    "A089843",
+    "A122201",
+    "A122202",
+    "A122203",
+    "A122204",
+    "A122284",
+    "A122286",
+    "A122287",
+    "A129604",
+    "A153833",
+    "A153834"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

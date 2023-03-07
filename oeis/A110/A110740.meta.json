@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the concatenation 1,2,3,...,(k-1) is divisible by k.",
+  "id": "A110740",
+  "mentions": [
+    "A007908",
+    "A029455",
+    "A094151",
+    "A171785",
+    "A332580"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

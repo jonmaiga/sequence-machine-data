@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the positive number c for which the curve y=c/x is tangent to the curve y=sin(x), and 0 < x < 2*Pi.",
+  "id": "A196765",
+  "mentions": [
+    "A196504",
+    "A196760",
+    "A196766"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

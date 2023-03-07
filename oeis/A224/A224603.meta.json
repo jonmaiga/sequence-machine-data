@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2) X 7 0..2 matrices with each 3 X 3 subblock idempotent.",
+  "id": "A224603",
+  "mentions": [
+    "A224606"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

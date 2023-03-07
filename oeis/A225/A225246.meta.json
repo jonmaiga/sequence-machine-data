@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of distinct values of the sum of n products of a 0..k-1 and a 0..k integer",
+  "id": "A225246",
+  "mentions": [
+    "A027424",
+    "A225249"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

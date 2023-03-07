@@ -1,0 +1,19 @@
+{
+  "description": "The first 10 digits of the fourth root of n contain the digits 0-9.",
+  "id": "A119519",
+  "mentions": [
+    "A113507"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

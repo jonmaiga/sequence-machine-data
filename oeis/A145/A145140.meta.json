@@ -1,0 +1,33 @@
+{
+  "description": "Numerators of triangle T(n,k), n>=1, 0<=k<=n - 1, read by rows: T(n,k) is the coefficient of x^k in polynomial p_n for the n-th row sequence of A145153.",
+  "id": "A145140",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000292",
+    "A001477",
+    "A003269",
+    "A017898",
+    "A145126",
+    "A145127",
+    "A145128",
+    "A145129",
+    "A145130",
+    "A145141",
+    "A145142",
+    "A145153"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

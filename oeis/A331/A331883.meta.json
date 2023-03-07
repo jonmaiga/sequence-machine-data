@@ -1,0 +1,20 @@
+{
+  "description": "The number of permutations in the symmetric group S_n in which it is possible to find two disjoint increasing subsequences each with length equal to the length of the longest increasing subsequence of the permutation.",
+  "id": "A331883",
+  "mentions": [
+    "A047874",
+    "A047887",
+    "A167995"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

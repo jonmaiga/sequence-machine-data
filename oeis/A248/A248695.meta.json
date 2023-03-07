@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sum_{n >= 1} n!/p(n), where p(n) = [n/1]!*[n/2]!*...*[n/n]!, and [ ] = floor.",
+  "id": "A248695",
+  "mentions": [
+    "A214869",
+    "A248696"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 6,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

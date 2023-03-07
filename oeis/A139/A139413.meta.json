@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: row n gives the numbers A010888(n*k) for k = 1..n.",
+  "id": "A139413",
+  "mentions": [
+    "A007953",
+    "A010888",
+    "A038194",
+    "A180592",
+    "A180599"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

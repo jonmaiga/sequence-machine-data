@@ -1,0 +1,23 @@
+{
+  "description": "Column 1 of triangle A118045; also equals a bisection of A118034, which is column 1 of A118032.",
+  "id": "A118047",
+  "mentions": [
+    "A118032",
+    "A118034",
+    "A118040",
+    "A118045",
+    "A118046",
+    "A118048",
+    "A118049"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

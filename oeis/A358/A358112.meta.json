@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows. A statistic of permutations of the multiset {1,1,2,2,...,n,n}.",
+  "id": "A358112",
+  "mentions": [
+    "A000680",
+    "A006902"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

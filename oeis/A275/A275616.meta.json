@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n and omega(n) are relatively prime, where omega(n) (A001221) is the number of distinct prime divisors of n.",
+  "id": "A275616",
+  "mentions": [
+    "A001221",
+    "A063743"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

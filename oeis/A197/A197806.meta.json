@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of x>0 having x^2=2*cos(x).",
+  "id": "A197806",
+  "mentions": [
+    "A197737"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

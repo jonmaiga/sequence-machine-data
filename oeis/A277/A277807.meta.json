@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A048720(n, A065621(n)) is a perfect square, but n is not in A023758.",
+  "id": "A277807",
+  "mentions": [
+    "A000265",
+    "A010052",
+    "A023758",
+    "A048720",
+    "A065621",
+    "A277699",
+    "A277704",
+    "A277806"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

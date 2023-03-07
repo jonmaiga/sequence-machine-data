@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of representative three-color bracelets (necklaces with turn over allowed) with n beads for n >= 3.",
+  "id": "A214307",
+  "mentions": [
+    "A008284",
+    "A027671",
+    "A056358",
+    "A213939",
+    "A213940",
+    "A214309",
+    "A214310",
+    "A226882"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

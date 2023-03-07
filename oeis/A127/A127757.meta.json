@@ -1,0 +1,21 @@
+{
+  "description": "Integer part of Gauss' Arithmetic-Geometric Mean M(1,n).",
+  "id": "A127757",
+  "mentions": [
+    "A127758",
+    "A127759",
+    "A127760",
+    "A127761"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:17:35",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

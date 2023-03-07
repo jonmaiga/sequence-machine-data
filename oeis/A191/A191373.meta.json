@@ -1,0 +1,28 @@
+{
+  "description": "Sum of binomial coefficients C(i+j,i) modulo 2 over all pairs (i,j) of positive integers satisfying 5i+j=n.",
+  "id": "A191373",
+  "mentions": [
+    "A000012",
+    "A000071",
+    "A001316",
+    "A002487",
+    "A006498",
+    "A047999",
+    "A070550",
+    "A112970",
+    "A115008",
+    "A120562",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

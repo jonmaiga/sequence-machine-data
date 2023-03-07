@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (0! + 1! + ... + (p-1)!) mod p, where p = prime(n).",
+  "id": "A100612",
+  "mentions": [
+    "A003422",
+    "A049782",
+    "A067462",
+    "A236399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

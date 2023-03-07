@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction of (Pi + sqrt(4 + Pi^2))/2.",
+  "id": "A188723",
+  "mentions": [
+    "A000796",
+    "A188640",
+    "A188722"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:52",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

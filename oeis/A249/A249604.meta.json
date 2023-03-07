@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..n} Fibonacci(i)*10^(i-1).",
+  "id": "A249604",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A064108"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

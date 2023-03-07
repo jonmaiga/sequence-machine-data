@@ -1,0 +1,17 @@
+{
+  "description": "Values y corresponding to least x (A120930) of primitive quadruple(n,x,y,z),n",
+  "id": "A120931",
+  "mentions": [
+    "A120930"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primitive elements of A054741.",
+  "id": "A119431",
+  "mentions": [
+    "A054741",
+    "A119433"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n that are log_2(n-1)-smooth, i.e., such that all the prime factors of n are less than log_2(n).",
+  "id": "A304661",
+  "mentions": [
+    "A063539"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

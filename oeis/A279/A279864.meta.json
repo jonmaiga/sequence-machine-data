@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row corresponds to the natural numbers not exceeding A002110(n) and divisible by the n-th prime but not by a smaller prime.",
+  "id": "A279864",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005867",
+    "A055396",
+    "A083140"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=2} x^prime(k)/(1 - x^prime(k)) / Product_{k>=2} (1 - x^prime(k)).",
+  "id": "A281544",
+  "mentions": [
+    "A005087",
+    "A065091",
+    "A084993",
+    "A099773"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

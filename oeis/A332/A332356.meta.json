@@ -1,0 +1,22 @@
+{
+  "description": "Consider a partition of the triangle with vertices (0, 0), (1, 0), (0, 1) by the lines a_1*x_1 + a_2*x_2 = 1, where (x_1, x_2) is in {1, 2,...,m} X {1, 2,...,n}, m >= 1, n >= 1. Triangle read by rows: T(m,n) = number of quadrilateral cells in the partition, for m >= n >= 1.",
+  "id": "A332356",
+  "mentions": [
+    "A324043",
+    "A332350",
+    "A332352",
+    "A332354",
+    "A332357"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

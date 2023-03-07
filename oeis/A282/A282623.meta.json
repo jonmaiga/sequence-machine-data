@@ -1,0 +1,18 @@
+{
+  "description": "Number of independent cycles of the multiplicative group of integers modulo A033949(n).",
+  "id": "A282623",
+  "mentions": [
+    "A033949",
+    "A282624"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

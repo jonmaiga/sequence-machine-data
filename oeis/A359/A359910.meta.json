@@ -1,0 +1,33 @@
+{
+  "description": "Number of odd-length integer factorizations of n into factors > 1 with the same mean as median.",
+  "id": "A359910",
+  "mentions": [
+    "A001055",
+    "A240219",
+    "A316313",
+    "A326567",
+    "A326568",
+    "A326622",
+    "A328966",
+    "A359889",
+    "A359891",
+    "A359894",
+    "A359895",
+    "A359897",
+    "A359902",
+    "A359906",
+    "A359909",
+    "A359911",
+    "A360005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

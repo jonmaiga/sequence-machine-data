@@ -1,0 +1,19 @@
+{
+  "description": "Binary expansion of n contains at least one 1-bit at even position and one 1-bit at odd position.",
+  "id": "A176237",
+  "mentions": [
+    "A000695",
+    "A062880"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

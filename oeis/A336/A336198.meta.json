@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the radius of a sphere centered on the surface of a unit-radius sphere and dividing it into two parts of equal volume.",
+  "id": "A336198",
+  "mentions": [
+    "A019699",
+    "A133731"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

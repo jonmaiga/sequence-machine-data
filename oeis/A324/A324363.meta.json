@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = numerator of Sum_{d|n} sigma(d)/pod(d) where sigma(k) = the sum of the divisors of k (A000203) and pod(k) = the product of the divisors of k (A007955).",
+  "id": "A324363",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A007955",
+    "A324364"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

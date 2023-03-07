@@ -1,0 +1,21 @@
+{
+  "description": "Integers that do not have a partition into a sum of an odd square and two (not necessarily distinct) triangular numbers.",
+  "id": "A191764",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A002378",
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

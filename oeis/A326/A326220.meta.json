@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-Hamiltonian labeled n-vertex digraphs (with loops).",
+  "id": "A326220",
+  "mentions": [
+    "A000595",
+    "A002416",
+    "A003024",
+    "A003216",
+    "A246446",
+    "A326204",
+    "A326207",
+    "A326208",
+    "A326213",
+    "A326218",
+    "A326219",
+    "A326222",
+    "A326223",
+    "A326224",
+    "A326239"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

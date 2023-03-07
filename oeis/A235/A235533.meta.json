@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers n that cannot be represented as the form of a+b+c or a+b-c where a, b, c are perfect square numbers not larger than n (including 0).",
+  "id": "A235533",
+  "mentions": [
+    "A223731"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

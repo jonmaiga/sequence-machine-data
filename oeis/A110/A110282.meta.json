@@ -1,0 +1,22 @@
+{
+  "description": "A floretion-generated sequence calculated using the same rules given for A108618 with initial seed x = + .5'i + .5'ii' + .5'ij' + .5'ik'; version: \"ves\".",
+  "id": "A110282",
+  "mentions": [
+    "A108618",
+    "A110279",
+    "A110280",
+    "A110281",
+    "A110283"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

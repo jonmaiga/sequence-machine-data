@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of ascent sequences of length n where the maximum of 0 and all letter multiplicities equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A294219",
+  "mentions": [
+    "A000007",
+    "A022493",
+    "A057427",
+    "A294220"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

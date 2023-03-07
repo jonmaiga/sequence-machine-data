@@ -1,0 +1,30 @@
+{
+  "description": "Largest prime factor of 4^n + 1.",
+  "id": "A274903",
+  "mentions": [
+    "A002587",
+    "A002590",
+    "A002592",
+    "A003021",
+    "A006530",
+    "A052539",
+    "A062308",
+    "A074476",
+    "A074478",
+    "A227575",
+    "A229747",
+    "A274904",
+    "A274905"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "T(n, k) counts Schroeder n-paths whose ascent starting at the initial vertex has length k. Triangle T(n,k), read by rows.",
+  "id": "A132372",
+  "mentions": [
+    "A006318",
+    "A033878",
+    "A084938",
+    "A103136",
+    "A155069",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:04:22",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

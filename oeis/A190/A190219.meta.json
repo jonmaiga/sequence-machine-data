@@ -1,0 +1,22 @@
+{
+  "description": "Numbers all of whose divisors have decimal digits in strictly decreasing order.",
+  "id": "A190219",
+  "mentions": [
+    "A009995",
+    "A052014",
+    "A190220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

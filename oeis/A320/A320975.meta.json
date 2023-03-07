@@ -1,0 +1,18 @@
+{
+  "description": "Greatest eigenvalues of the form x + y*sqrt(z) of the Fibonacci matrix of the form n X n = [[F(0),F(1),...,F(n-1)],[F(n),F(n+1),...,F(2n-1)],...,[(F(n(n-1)),F(n(n-1)+1),...,F(n^2-1)]] represented by the triples of integers (x, y, z).",
+  "id": "A320975",
+  "mentions": [
+    "A000045",
+    "A174997"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

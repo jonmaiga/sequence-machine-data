@@ -1,0 +1,19 @@
+{
+  "description": "Least integer m > 0 such that gcd(m,n) = 1 and m*n | C(m+n), where C(k) refers to the k-th Catalan number binomial(2k,k)/(k+1).",
+  "id": "A248123",
+  "mentions": [
+    "A000108",
+    "A248058",
+    "A248124"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

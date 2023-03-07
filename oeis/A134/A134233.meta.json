@@ -1,0 +1,21 @@
+{
+  "description": "(A007318 * A134082 + A134082 * A007318) - A007318 as infinite lower triangular matrices.",
+  "id": "A134233",
+  "mentions": [
+    "A007318",
+    "A014480",
+    "A134082",
+    "A134083"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

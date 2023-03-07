@@ -1,0 +1,22 @@
+{
+  "description": "Numbers 32n-1 such that 4n-1, 8n-1, 16n-1 and 32n-1 are primes.",
+  "id": "A101798",
+  "mentions": [
+    "A002515",
+    "A101794",
+    "A101795",
+    "A101796",
+    "A101797"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

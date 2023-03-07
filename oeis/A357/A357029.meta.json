@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 - x * A(x))^(log(1 - x * A(x))^2).",
+  "id": "A357029",
+  "mentions": [
+    "A001761",
+    "A353344",
+    "A357028",
+    "A357037"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

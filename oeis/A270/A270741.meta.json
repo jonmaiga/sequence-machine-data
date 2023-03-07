@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (Fibonacci(n+2)-1) mod Fibonacci(floor(n/2)).",
+  "id": "A270741",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A222945",
+    "A270708"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

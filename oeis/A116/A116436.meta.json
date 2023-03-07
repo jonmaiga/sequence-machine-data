@@ -1,0 +1,35 @@
+{
+  "description": "Numbers m which when sandwiched between two 1's give a multiple of m.",
+  "id": "A116436",
+  "mentions": [
+    "A095372",
+    "A116437",
+    "A116438",
+    "A116439",
+    "A116440",
+    "A116441",
+    "A116442",
+    "A116443",
+    "A116444",
+    "A136296",
+    "A329914",
+    "A329915",
+    "A331630",
+    "A351237",
+    "A351238",
+    "A351239",
+    "A351320"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

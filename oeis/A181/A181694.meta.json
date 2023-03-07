@@ -1,0 +1,18 @@
+{
+  "description": "Array read by rows in which row n lists the numbers that are in the same \"y\" level in the primes (version 2).",
+  "id": "A181694",
+  "mentions": [
+    "A162343"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

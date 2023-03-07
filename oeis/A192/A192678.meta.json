@@ -1,0 +1,18 @@
+{
+  "description": "Floor-Sqrt transform of idempotent endomap numbers (A000248).",
+  "id": "A192678",
+  "mentions": [
+    "A000248"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:09:08",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

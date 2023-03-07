@@ -1,0 +1,29 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of relatively prime k-subsets of {1,...,n}, 1 <= k <= n.",
+  "id": "A320435",
+  "mentions": [
+    "A000837",
+    "A015614",
+    "A085945",
+    "A186974",
+    "A187106",
+    "A289508",
+    "A289509",
+    "A300486",
+    "A303139",
+    "A320424",
+    "A320436"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

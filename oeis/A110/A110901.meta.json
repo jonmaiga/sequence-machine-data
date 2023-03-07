@@ -1,0 +1,18 @@
+{
+  "description": "Product_{k=1..n} (A013929(k)), the product of the first n positive integers that are each divisible by at least one square >= 4.",
+  "id": "A110901",
+  "mentions": [
+    "A013929",
+    "A111059"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

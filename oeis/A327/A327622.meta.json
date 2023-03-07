@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of parts in all k-times partitions of n into distinct parts; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A327622",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A005408",
+    "A005894",
+    "A015723",
+    "A057427",
+    "A104249",
+    "A327605",
+    "A327618",
+    "A327623",
+    "A327628",
+    "A327632"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

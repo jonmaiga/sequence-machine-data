@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of Sum_{k=1..n} 1/(Fibonacci(k)*Fibonacci(k+2)).",
+  "id": "A119996",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A045468",
+    "A059248",
+    "A064739",
+    "A064831",
+    "A091729"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

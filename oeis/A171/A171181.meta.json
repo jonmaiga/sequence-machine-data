@@ -1,0 +1,21 @@
+{
+  "description": "n followed by (n - sum of digits of n).",
+  "id": "A171181",
+  "mentions": [
+    "A001477",
+    "A066568"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of labeled simple graphs covering n vertices with cut-connectivity 1.",
+  "id": "A327114",
+  "mentions": [
+    "A001187",
+    "A013922",
+    "A052442",
+    "A054592",
+    "A259862",
+    "A322389",
+    "A322390",
+    "A326786",
+    "A327070",
+    "A327098",
+    "A327100",
+    "A327125",
+    "A327126",
+    "A327197",
+    "A327336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

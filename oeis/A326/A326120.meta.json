@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the concatenation of n^1, n^2, ..., n^n.",
+  "id": "A326120",
+  "mentions": [
+    "A007908",
+    "A019521",
+    "A019522",
+    "A053062",
+    "A075363"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

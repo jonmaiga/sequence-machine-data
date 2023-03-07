@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are not the sum, minus 1, of a Pythagorean triple.",
+  "id": "A136003",
+  "mentions": [
+    "A009096",
+    "A010814",
+    "A136002"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

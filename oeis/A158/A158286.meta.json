@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = coefficients of p(n, x), where p(n, x) = (-1)^n*(1+x)*((n+1)^2 +x)^(n-1), p(0, x) = 1, and p(1, x) = -1-x, read by rows.",
+  "id": "A158286",
+  "mentions": [
+    "A158285"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

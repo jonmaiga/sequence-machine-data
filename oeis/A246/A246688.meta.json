@@ -1,0 +1,24 @@
+{
+  "description": "Triangle in which n-th row lists lexicographically ordered increasing lists of parts of all partitions of n into distinct parts.",
+  "id": "A246688",
+  "mentions": [
+    "A000027",
+    "A015723",
+    "A026791",
+    "A026793",
+    "A066189",
+    "A118457",
+    "A265146"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

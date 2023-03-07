@@ -1,0 +1,20 @@
+{
+  "description": "Ratio of (2n-1)! to number of zeros in Sylvester matrix of polynomial of n degree with all nonzero coefficients.",
+  "id": "A138896",
+  "mentions": [
+    "A001105",
+    "A007878",
+    "A009445"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:07:12",
+    "offset": 2,
+    "size": 13,
+    "source": "joeis"
+  }
+}

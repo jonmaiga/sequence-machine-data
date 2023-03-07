@@ -1,0 +1,19 @@
+{
+  "description": "Least positive x in the Diophantine equation x^3 + y^3 = n*z^3 (with x >= y and y != 0).",
+  "id": "A190356",
+  "mentions": [
+    "A020898",
+    "A190580",
+    "A190581"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

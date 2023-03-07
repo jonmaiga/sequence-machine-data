@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there are more primes in the interval [2*k+1, 3*k] than there are in the interval [k+1, 2*k].",
+  "id": "A342070",
+  "mentions": [
+    "A038822",
+    "A342068",
+    "A342069",
+    "A342071",
+    "A342839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

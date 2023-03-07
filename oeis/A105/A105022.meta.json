@@ -1,0 +1,18 @@
+{
+  "description": "Entries in the n-th row of Pascal's triangle that have the 2's bit set in their binary expansion.",
+  "id": "A105022",
+  "mentions": [
+    "A104176"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

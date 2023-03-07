@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n*(n+1) * A(x) ) = 2*n * [x^(n-1)] exp( n*(n+1) * A(x) ) for n>=1.",
+  "id": "A300874",
+  "mentions": [
+    "A296171",
+    "A300591",
+    "A300871",
+    "A300873"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

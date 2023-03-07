@@ -1,0 +1,25 @@
+{
+  "description": "Small-number statistic from the enumeration of domino tilings of a 7-pillow of order n.",
+  "id": "A112841",
+  "mentions": [
+    "A112833",
+    "A112835",
+    "A112836",
+    "A112838",
+    "A112839",
+    "A112840",
+    "A112842",
+    "A112844"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

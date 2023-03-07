@@ -1,0 +1,21 @@
+{
+  "description": "Self-convolution square equals A127776.",
+  "id": "A186284",
+  "mentions": [
+    "A000984",
+    "A002897",
+    "A004981",
+    "A127776"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

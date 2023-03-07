@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form Sum_{k=1..s} (k*(k+1)/2)^r for some integers r > 0 and s > 1.",
+  "id": "A128879",
+  "mentions": [
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

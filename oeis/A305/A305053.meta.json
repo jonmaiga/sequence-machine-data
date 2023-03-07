@@ -1,0 +1,28 @@
+{
+  "description": "If n = Product_i prime(x_i)^k_i, then a(n) = Sum_i k_i * omega(x_i) - omega(n), where omega = A001221 is number of distinct prime factors.",
+  "id": "A305053",
+  "mentions": [
+    "A001221",
+    "A003963",
+    "A056239",
+    "A112798",
+    "A286520",
+    "A290103",
+    "A302242",
+    "A304714",
+    "A304716",
+    "A305052",
+    "A305054"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

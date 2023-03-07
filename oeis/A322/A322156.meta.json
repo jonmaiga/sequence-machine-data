@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle where row n includes all decreasing sequences S = {k_0 = n, k_1, k_2, ..., k_m} in reverse lexicographic order such that the sum of subsequent terms k_j for all i < j <= m does not exceed any k_i.",
+  "id": "A322156",
+  "mentions": [
+    "A000123",
+    "A033485",
+    "A113473",
+    "A190899",
+    "A190900",
+    "A321223",
+    "A322457"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

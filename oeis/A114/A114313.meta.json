@@ -1,0 +1,22 @@
+{
+  "description": "Difference between first odd semiprime >= 5^n and 5^n.",
+  "id": "A114313",
+  "mentions": [
+    "A000351",
+    "A001358",
+    "A046315",
+    "A098147"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

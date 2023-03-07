@@ -1,0 +1,38 @@
+{
+  "description": "Number T(n,k) of ascent sequences of length n with exactly k flat steps; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A242153",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A002378",
+    "A022493",
+    "A130810",
+    "A134481",
+    "A137251",
+    "A138265",
+    "A238858",
+    "A242154",
+    "A242155",
+    "A242156",
+    "A242157",
+    "A242158",
+    "A242159",
+    "A242160",
+    "A242161",
+    "A242162",
+    "A242163",
+    "A242164"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

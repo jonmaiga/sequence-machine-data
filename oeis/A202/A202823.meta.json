@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A004001(n) = A005185(n), where A004001 = Hofstadter-Conway $10000 sequence and A005185 = Hofstadter Q-sequence.",
+  "id": "A202823",
+  "mentions": [
+    "A004001",
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

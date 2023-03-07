@@ -1,0 +1,21 @@
+{
+  "description": "Group number of the elements of the n-th column of the periodic table of the elements with 18 columns.",
+  "id": "A138718",
+  "mentions": [
+    "A138723",
+    "A138724"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

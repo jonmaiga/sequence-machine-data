@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of the n-th pentagonal number (A000326).",
+  "id": "A259650",
+  "mentions": [
+    "A000326",
+    "A006530",
+    "A259649",
+    "A259651",
+    "A259652"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 2,
+    "size": 64,
+    "source": "joeis"
+  }
+}

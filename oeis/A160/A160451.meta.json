@@ -1,0 +1,19 @@
+{
+  "description": "(4/3)u(u^3+6*u^2+8u-3) where u=Floor[{3n+5)/2].",
+  "id": "A160451",
+  "mentions": [
+    "A086302",
+    "A160372"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:11",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

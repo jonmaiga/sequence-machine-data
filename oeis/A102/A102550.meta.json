@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct prime-factors of n that are bitwise covered by n.",
+  "id": "A102550",
+  "mentions": [
+    "A001221",
+    "A004676",
+    "A007088",
+    "A080099",
+    "A102210",
+    "A102551",
+    "A102553",
+    "A102554",
+    "A102555"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

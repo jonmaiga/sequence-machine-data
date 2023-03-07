@@ -1,0 +1,17 @@
+{
+  "description": "(A007559(n+1)^2-1)/9, where A007559(n) = 1*4*7*...*(3n-2).",
+  "id": "A249352",
+  "mentions": [
+    "A007559"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

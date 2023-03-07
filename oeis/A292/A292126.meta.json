@@ -1,0 +1,21 @@
+{
+  "description": "Number of two-terminal exclusive-bridged graphs with n edges.",
+  "id": "A292126",
+  "mentions": [
+    "A000084",
+    "A048211",
+    "A174285",
+    "A174286"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

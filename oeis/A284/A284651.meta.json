@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of unique numbers such that for each digit \"d\" exactly one of the gaps to the neighboring digits \"d\" is equal to d, and no gap is smaller than d.",
+  "id": "A284651",
+  "mentions": [
+    "A284516"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

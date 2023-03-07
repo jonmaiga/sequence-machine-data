@@ -1,0 +1,22 @@
+{
+  "description": "Product of partial sums of odd squares.",
+  "id": "A339411",
+  "mentions": [
+    "A000108",
+    "A000447",
+    "A016754",
+    "A135438"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:28:09",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

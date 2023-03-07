@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^3 - 3*(n+3)^2.",
+  "id": "A153260",
+  "mentions": [
+    "A045991",
+    "A069778",
+    "A081437",
+    "A153257",
+    "A153258",
+    "A153259"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

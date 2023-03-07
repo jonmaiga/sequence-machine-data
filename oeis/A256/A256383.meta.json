@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n-5 and n+5 are semiprimes.",
+  "id": "A256383",
+  "mentions": [
+    "A001358",
+    "A105571",
+    "A124936",
+    "A256381",
+    "A256382"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

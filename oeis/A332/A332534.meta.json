@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not of the form prime + 2^(2^k) + m! with k >= 0, m >= 0.",
+  "id": "A332534",
+  "mentions": [
+    "A218044",
+    "A332379",
+    "A332535"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

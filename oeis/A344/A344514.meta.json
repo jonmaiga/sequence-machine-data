@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(n/k^2)^k.",
+  "id": "A344514",
+  "mentions": [
+    "A013936"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

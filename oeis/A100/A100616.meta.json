@@ -1,0 +1,22 @@
+{
+  "description": "Let B(n)(x) be the Bernoulli polynomials as defined in A001898, with B(n)(1) equal to the usual Bernoulli numbers A027641/A027642. Sequence gives denominators of B(n)(2).",
+  "id": "A100616",
+  "mentions": [
+    "A001898",
+    "A027641",
+    "A027642",
+    "A100615"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

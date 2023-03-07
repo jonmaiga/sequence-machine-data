@@ -1,0 +1,19 @@
+{
+  "description": "Noncubefree numbers k such that A357698(k) > k.",
+  "id": "A357699",
+  "mentions": [
+    "A046099",
+    "A357695",
+    "A357698"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

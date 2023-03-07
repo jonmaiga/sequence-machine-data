@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of solutions of the infinite Diophantine equation Sum_{j>0} j^r*(k_j)^2 = n with k_j integers and r = 2.",
+  "id": "A329264",
+  "mentions": [
+    "A000041",
+    "A000122",
+    "A320067",
+    "A320068",
+    "A320078",
+    "A320968",
+    "A320992",
+    "A329265",
+    "A329266"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

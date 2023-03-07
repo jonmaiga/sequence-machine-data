@@ -1,0 +1,22 @@
+{
+  "description": "Least integer b > F(n) such that sum_{k=1}^n F(k)*b^{k-1} is prime, where F = A000045.",
+  "id": "A224487",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A217785",
+    "A217788",
+    "A218465",
+    "A220947"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

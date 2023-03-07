@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n^5 into fifth powers.",
+  "id": "A259794",
+  "mentions": [
+    "A027601",
+    "A037444",
+    "A259792",
+    "A259793",
+    "A259795",
+    "A259799"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

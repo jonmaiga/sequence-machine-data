@@ -1,0 +1,20 @@
+{
+  "description": "Values n at which ratios of successive partition numbers approach 1 closer than the reciprocal of a whole number.",
+  "id": "A239445",
+  "mentions": [
+    "A000041",
+    "A013661"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form (p*q*r*s + 1)/2, where p, q, r, s are distinct primes.",
+  "id": "A234502",
+  "mentions": [
+    "A234104",
+    "A234499",
+    "A234500",
+    "A234501"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

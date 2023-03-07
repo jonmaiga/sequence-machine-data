@@ -1,0 +1,23 @@
+{
+  "description": "The least i for which A163355^n(i) is not equal to i, 0 if no such i exists, i.e., when A163355^n = A001477.",
+  "id": "A163894",
+  "mentions": [
+    "A001477",
+    "A163355",
+    "A163890",
+    "A163895",
+    "A163896",
+    "A163905",
+    "A163915"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

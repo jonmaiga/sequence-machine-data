@@ -1,0 +1,21 @@
+{
+  "description": "Smallest Euler-Jacobi pseudoprime to all natural bases up to prime(n) - 1 that is not a base prime(n) Euler-Jacobi pseudoprime.",
+  "id": "A354692",
+  "mentions": [
+    "A002110",
+    "A007324",
+    "A047713",
+    "A285549",
+    "A354694"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

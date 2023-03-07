@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of ways to assign n people to d_k unlabeled groups of equal size (where d_k is the k-th divisor of n).",
+  "id": "A200473",
+  "mentions": [
+    "A000005",
+    "A038041",
+    "A200472"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

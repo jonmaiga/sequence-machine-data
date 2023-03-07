@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(n*(Pi-1)-1); complement of A184592.",
+  "id": "A184591",
+  "mentions": [
+    "A184592"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:57",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

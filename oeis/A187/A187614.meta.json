@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the decimal representation of 1/p does not contain every digit 0-9.",
+  "id": "A187614",
+  "mentions": [
+    "A004022",
+    "A007615",
+    "A046107",
+    "A187372",
+    "A352023"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

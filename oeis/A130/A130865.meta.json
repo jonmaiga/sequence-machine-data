@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. The n-th run (after the initial 1) consists of (a(n)*n) repeated a(n) times.",
+  "id": "A130865",
+  "mentions": [
+    "A001462",
+    "A130805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

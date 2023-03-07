@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographic earliest sequence of distinct palindromes (A002113) such that a(n)+a(n+1) is never palindromic.",
+  "id": "A357044",
+  "mentions": [
+    "A002113",
+    "A029742",
+    "A262038",
+    "A357045"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

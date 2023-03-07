@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the column sums of the LG1 matrix",
+  "id": "A162449",
+  "mentions": [
+    "A162448"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

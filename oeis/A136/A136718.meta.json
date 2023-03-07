@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k entries divisible by 3 that are followed by a smaller entry (n>=1, k>=0).",
+  "id": "A136718",
+  "mentions": [
+    "A000142",
+    "A008292",
+    "A134434",
+    "A136717"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

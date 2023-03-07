@@ -1,0 +1,24 @@
+{
+  "description": "Least positive k such that n*k^k - 1 is a prime, or 0 if no such k exists.",
+  "id": "A231735",
+  "mentions": [
+    "A000040",
+    "A008864",
+    "A193807",
+    "A231734"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

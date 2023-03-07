@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Pi in the irrational base b=log(7).",
+  "id": "A239200",
+  "mentions": [
+    "A050948",
+    "A050949",
+    "A102243",
+    "A238897",
+    "A239199"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": -1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest possible area for a perfect isosceles right triangled square of order n; or 0 if no such square exists.",
+  "id": "A174386",
+  "mentions": [
+    "A129947"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

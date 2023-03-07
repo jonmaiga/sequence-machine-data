@@ -1,0 +1,20 @@
+{
+  "description": "There appear to be at least n primes in the range (x-sqrt(x), x] for all x >= a(n).",
+  "id": "A189026",
+  "mentions": [
+    "A104272",
+    "A189024",
+    "A189025",
+    "A189027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

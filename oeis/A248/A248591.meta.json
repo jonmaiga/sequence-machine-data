@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of the (simplified) rationals n*2^(n - 1)/(n - 1)! .",
+  "id": "A248591",
+  "mentions": [
+    "A248592"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

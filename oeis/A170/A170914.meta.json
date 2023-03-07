@@ -1,0 +1,26 @@
+{
+  "description": "Write 1 + sin x = Product_{n>=1} (1 + g_n * x^n); a(n) = numerator(g_n).",
+  "id": "A170914",
+  "mentions": [
+    "A157162",
+    "A170910",
+    "A170911",
+    "A170912",
+    "A170913",
+    "A170915",
+    "A328186",
+    "A328191"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

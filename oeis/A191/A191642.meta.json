@@ -1,0 +1,20 @@
+{
+  "description": "Kochański's (or Kochanski's) sequence.",
+  "id": "A191642",
+  "mentions": [
+    "A199657",
+    "A199658",
+    "A199671",
+    "A199672"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

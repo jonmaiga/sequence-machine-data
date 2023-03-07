@@ -1,0 +1,40 @@
+{
+  "description": "Multiples of 19 containing a 19 in their decimal representation.",
+  "id": "A121039",
+  "mentions": [
+    "A008601",
+    "A011531",
+    "A121022",
+    "A121023",
+    "A121024",
+    "A121025",
+    "A121026",
+    "A121027",
+    "A121028",
+    "A121029",
+    "A121030",
+    "A121031",
+    "A121032",
+    "A121033",
+    "A121034",
+    "A121035",
+    "A121036",
+    "A121037",
+    "A121038",
+    "A121040",
+    "A121041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

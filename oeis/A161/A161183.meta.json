@@ -1,0 +1,20 @@
+{
+  "description": "Terms which occur at least twice in A161182.",
+  "id": "A161183",
+  "mentions": [
+    "A038107",
+    "A078435",
+    "A161182"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

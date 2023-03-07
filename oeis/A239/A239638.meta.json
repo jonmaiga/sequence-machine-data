@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that the semiprime 2^n-1 is divisible by 2n+1.",
+  "id": "A239638",
+  "mentions": [
+    "A000043",
+    "A001348",
+    "A005384",
+    "A005420",
+    "A046051",
+    "A049479",
+    "A085724"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

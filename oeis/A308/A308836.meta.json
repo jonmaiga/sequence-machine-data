@@ -1,0 +1,20 @@
+{
+  "description": "The nome q=exp(T_C/T_R)=Sum_{n>=0} a(n)*(x/64)^n follows from the series solutions of 3*T-d/dx(16*(1-x)*x*dT/dx)=0.",
+  "id": "A308836",
+  "mentions": [
+    "A000897",
+    "A005797",
+    "A308835",
+    "A308837"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

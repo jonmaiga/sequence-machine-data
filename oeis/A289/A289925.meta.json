@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of the lower Wythoff sequence (A000201), where p(S) = 1 - S - S^2.",
+  "id": "A289925",
+  "mentions": [
+    "A000201",
+    "A033453",
+    "A289780",
+    "A289926"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

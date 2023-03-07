@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form n^2+1 that divide 4^n-1.",
+  "id": "A273999",
+  "mentions": [
+    "A000215",
+    "A002522",
+    "A273870",
+    "A273871",
+    "A274000"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

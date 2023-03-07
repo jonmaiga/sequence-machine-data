@@ -1,0 +1,20 @@
+{
+  "description": "Floor of the moduli of the zeros of the complex Lucas function.",
+  "id": "A214673",
+  "mentions": [
+    "A214657",
+    "A214671",
+    "A214672"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

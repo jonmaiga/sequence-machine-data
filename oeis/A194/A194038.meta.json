@@ -1,0 +1,22 @@
+{
+  "description": "Natural interspersion of A034856, a rectangular array, by antidiagonals.",
+  "id": "A194038",
+  "mentions": [
+    "A002260",
+    "A034856",
+    "A192872",
+    "A194029",
+    "A194040"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

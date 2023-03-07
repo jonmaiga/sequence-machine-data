@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to 1 +- 4 +- 9 +- ... +- n^2 == 0 (mod n).",
+  "id": "A300268",
+  "mentions": [
+    "A083527",
+    "A215573",
+    "A300190",
+    "A300269"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

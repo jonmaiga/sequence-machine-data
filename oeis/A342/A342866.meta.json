@@ -1,0 +1,24 @@
+{
+  "description": "The number of elements in the continued fraction for phi(n)/n, where phi is the Euler totient function (A000010).",
+  "id": "A342866",
+  "mentions": [
+    "A000010",
+    "A007694",
+    "A071862",
+    "A076512",
+    "A109395",
+    "A342867"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

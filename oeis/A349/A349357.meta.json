@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A349355(n) + A349356(n).",
+  "id": "A349357",
+  "mentions": [
+    "A003958",
+    "A003959",
+    "A063441",
+    "A097945",
+    "A349355",
+    "A349356"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

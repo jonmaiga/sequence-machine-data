@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = the number of ways of seating n people around a table for the second time so that k pairs are maintained. Reflected and rotated sequences are counted as one.",
+  "id": "A326411",
+  "mentions": [
+    "A001710",
+    "A002464",
+    "A002816",
+    "A326390",
+    "A326397",
+    "A326407"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

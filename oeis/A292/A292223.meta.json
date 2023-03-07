@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of representative six-color bracelets (necklaces with turning over allowed; D_6 symmetry) with n beads, for n >= 6.",
+  "id": "A292223",
+  "mentions": [
+    "A008284",
+    "A036036",
+    "A056361",
+    "A213939",
+    "A213940",
+    "A214311",
+    "A214314"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 6,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to reciprocally link elements of an n X 9 array either to themselves or to exactly one king-move neighbor.",
+  "id": "A243315",
+  "mentions": [
+    "A220644"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

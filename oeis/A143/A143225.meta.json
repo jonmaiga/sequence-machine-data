@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes between n^2 and (n+1)^2, if equal to the number of primes between n and 2n.",
+  "id": "A143225",
+  "mentions": [
+    "A000720",
+    "A014085",
+    "A060715",
+    "A104272",
+    "A143223",
+    "A143224",
+    "A143226",
+    "A143227"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

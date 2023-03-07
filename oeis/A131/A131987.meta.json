@@ -1,0 +1,25 @@
+{
+  "description": "Representation of a dense para-sequence.",
+  "id": "A131987",
+  "mentions": [
+    "A001511",
+    "A003602",
+    "A025480",
+    "A070941",
+    "A101279",
+    "A133108",
+    "A269752"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

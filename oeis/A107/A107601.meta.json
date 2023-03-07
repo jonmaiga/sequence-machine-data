@@ -1,0 +1,20 @@
+{
+  "description": "Column 6 of array illustrated in A089574 and related to A034261.",
+  "id": "A107601",
+  "mentions": [
+    "A034261",
+    "A089574",
+    "A107600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:57",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 398*x^2-1.",
+  "id": "A338476",
+  "mentions": [
+    "A331947",
+    "A338477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:51",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

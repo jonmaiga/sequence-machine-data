@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers whose nonzero digits in ternary expansion are palindromic.",
+  "id": "A321473",
+  "mentions": [
+    "A014190",
+    "A321464"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

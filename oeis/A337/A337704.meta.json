@@ -1,0 +1,21 @@
+{
+  "description": "Pythagorean primes that are not congruent numbers.",
+  "id": "A337704",
+  "mentions": [
+    "A002144",
+    "A003273",
+    "A165564",
+    "A165815",
+    "A269727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

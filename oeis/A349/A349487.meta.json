@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A132739((n-5)*(n+5)).",
+  "id": "A349487",
+  "mentions": [
+    "A061043",
+    "A098603",
+    "A132739"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

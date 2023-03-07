@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of regions formed by n-secting the angles of a heptagon.",
+  "id": "A335757",
+  "mentions": [
+    "A329713",
+    "A335758",
+    "A335759",
+    "A335760"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

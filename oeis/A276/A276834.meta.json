@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi/K, where K is the Landau-Ramanujan constant.",
+  "id": "A276834",
+  "mentions": [
+    "A004018",
+    "A064533"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

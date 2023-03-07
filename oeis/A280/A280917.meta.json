@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 - x - Sum_{k>=1} x^prime(k)).",
+  "id": "A280917",
+  "mentions": [
+    "A000607",
+    "A002124",
+    "A008578",
+    "A023360",
+    "A034891",
+    "A036497"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

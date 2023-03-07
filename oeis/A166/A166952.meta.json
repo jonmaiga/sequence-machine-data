@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = theta_3(x*A(x)) where Jacobi theta_3(x) = 1 + 2*Sum_{n>=1} x^(n^2).",
+  "id": "A166952",
+  "mentions": [
+    "A000122",
+    "A066535",
+    "A066536"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

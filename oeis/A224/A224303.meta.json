@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which number of iterations to reach the largest equals number of iterations to reach 1 from the largest in Collatz (3x+1) trajectory of n.",
+  "id": "A224303",
+  "mentions": [
+    "A220421",
+    "A222641",
+    "A224533"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

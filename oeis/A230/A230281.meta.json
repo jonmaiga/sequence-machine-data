@@ -1,0 +1,21 @@
+{
+  "description": "The least possible number of intersection points of the diagonals in the interior of a convex n-gon with all diagonals drawn.",
+  "id": "A230281",
+  "mentions": [
+    "A000332",
+    "A006561",
+    "A160860"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

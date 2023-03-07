@@ -1,0 +1,21 @@
+{
+  "description": "Composite squarefree numbers n such that p(i)-4 divides n+4, where p(i) are the prime factors of n.",
+  "id": "A225704",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225703",
+    "A225705",
+    "A225720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

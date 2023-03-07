@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers less than or equal to n whose largest prime factor is 5.",
+  "id": "A301506",
+  "mentions": [
+    "A080193",
+    "A301461"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 136^n - 135^n is prime.",
+  "id": "A259530",
+  "mentions": [
+    "A254298"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

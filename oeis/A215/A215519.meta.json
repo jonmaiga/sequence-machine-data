@@ -1,0 +1,18 @@
+{
+  "description": "n-th derivative of cosh(x)^sinh(x) at x=0.",
+  "id": "A215519",
+  "mentions": [
+    "A215679"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:01",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

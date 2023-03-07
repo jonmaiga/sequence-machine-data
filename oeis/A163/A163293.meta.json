@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n-th prime minus (number of bits in binary expansion of n-th prime).",
+  "id": "A163293",
+  "mentions": [
+    "A000040",
+    "A035100"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:37",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First a(n) > 1 whose sum of digits is the same in base 2 as in base n.",
+  "id": "A212283",
+  "mentions": [
+    "A037301",
+    "A212222"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

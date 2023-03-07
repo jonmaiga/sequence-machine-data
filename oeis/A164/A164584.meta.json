@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + 6*x - 12*x^2 - 8*x^3)/(1 - 24*x^2 + 16*x^4).",
+  "id": "A164584",
+  "mentions": [
+    "A063886"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:47:33",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

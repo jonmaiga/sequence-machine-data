@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma_2(n)*sigma_3(n)/sigma(n).",
+  "id": "A320917",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158",
+    "A013663",
+    "A320416"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

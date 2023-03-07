@@ -1,0 +1,31 @@
+{
+  "description": "A co-delta function for non-perfect powers. Dirichlet inverse of A304819.",
+  "id": "A304820",
+  "mentions": [
+    "A000005",
+    "A000007",
+    "A001222",
+    "A001597",
+    "A005117",
+    "A007916",
+    "A008683",
+    "A008836",
+    "A126706",
+    "A304362",
+    "A304653",
+    "A304779",
+    "A304817",
+    "A304819"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, 0 <= k <= n-1) read by rows: number of distinct permutations after k steps of the \"first transposition\" algorithm.",
+  "id": "A345462",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000255",
+    "A000274",
+    "A000313",
+    "A010027",
+    "A107111",
+    "A123513",
+    "A143689",
+    "A180191",
+    "A321352",
+    "A345461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

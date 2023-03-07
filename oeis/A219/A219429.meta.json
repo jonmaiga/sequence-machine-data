@@ -1,0 +1,19 @@
+{
+  "description": "Highest prime primitive root (less than p) for the n-th prime p. (or 0 if none exists).",
+  "id": "A219429",
+  "mentions": [
+    "A001918",
+    "A002233",
+    "A071894"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

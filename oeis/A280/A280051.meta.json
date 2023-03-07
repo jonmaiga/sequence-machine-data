@@ -1,0 +1,18 @@
+{
+  "description": "Let c_n(k) be the sequence defined in A278743; here we give the associated values of k0.",
+  "id": "A280051",
+  "mentions": [
+    "A278743",
+    "A280052"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

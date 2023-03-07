@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p^2 +/- p +/- 1 are all nonprimes.",
+  "id": "A290767",
+  "mentions": [
+    "A000040",
+    "A053182",
+    "A053184",
+    "A065508",
+    "A091567",
+    "A236056"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Terms from A300148 that disappear, according to the \"Erase or triple\" protocol (see the Crossref section).",
+  "id": "A300149",
+  "mentions": [
+    "A300148"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

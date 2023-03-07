@@ -1,0 +1,40 @@
+{
+  "description": "Let y be the integer partition with Heinz number n. Then a(n) is the size of the Young diagram of y after removing a rectangle of the same length as y and width equal to the smallest part of y.",
+  "id": "A359358",
+  "mentions": [
+    "A001222",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A124010",
+    "A241916",
+    "A243055",
+    "A243503",
+    "A246277",
+    "A268192",
+    "A316413",
+    "A325351",
+    "A325352",
+    "A326836",
+    "A326837",
+    "A326844",
+    "A326846",
+    "A355534",
+    "A356958",
+    "A358172",
+    "A358195",
+    "A359360"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

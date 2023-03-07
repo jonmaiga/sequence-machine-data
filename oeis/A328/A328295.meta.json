@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-step walks on cubic lattice starting at (0,0,0), remaining in the first (nonnegative) octant and using steps (0,0,1), (0,1,0), (1,0,0), (-1,1,1), (1,-1,1), and (1,1,-1).",
+  "id": "A328295",
+  "mentions": [
+    "A328297"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

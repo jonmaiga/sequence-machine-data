@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of square array A192404, with a(0)=1.",
+  "id": "A192406",
+  "mentions": [
+    "A192404",
+    "A192405",
+    "A192407"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

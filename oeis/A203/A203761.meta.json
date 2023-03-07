@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=f(a(n-1)+1,a(n-2),a(n-3)), where f(x,y,z)=yz+zx+xy and a(1)=0, a(2)=0, a(3)=1.",
+  "id": "A203761",
+  "mentions": [
+    "A121810",
+    "A203762",
+    "A203768",
+    "A203772",
+    "A203900",
+    "A203901",
+    "A203902"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:34:27",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of nonisomorphic T_0 n-regular set multipartitions (multisets of sets) on a k-set.",
+  "id": "A331508",
+  "mentions": [
+    "A000012",
+    "A000664",
+    "A058790",
+    "A058791",
+    "A058792",
+    "A058793",
+    "A283877",
+    "A306019",
+    "A330942",
+    "A331126",
+    "A331277",
+    "A331461",
+    "A331509",
+    "A331510"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

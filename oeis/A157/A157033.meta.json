@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime with 2^n digits.",
+  "id": "A157033",
+  "mentions": [
+    "A003617",
+    "A157034",
+    "A157035",
+    "A157036"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

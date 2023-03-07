@@ -1,0 +1,23 @@
+{
+  "description": "The Wiener index of the rooted tree with Matula-Goebel number n.",
+  "id": "A196051",
+  "mentions": [
+    "A020639",
+    "A049084",
+    "A196047",
+    "A196050",
+    "A196055",
+    "A348959"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

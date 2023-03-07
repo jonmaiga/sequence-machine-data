@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of odd integers divisible by 7 in ]2*(n-1)^2, 2*n^2[.",
+  "id": "A289120",
+  "mentions": [
+    "A004523",
+    "A288156",
+    "A289122",
+    "A289133"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:01",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

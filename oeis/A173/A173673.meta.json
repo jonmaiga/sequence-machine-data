@@ -1,0 +1,18 @@
+{
+  "description": "a(2k) = floor(F(k)/2), a(2k+1) = ceiling(F(k)/2), where F = A000045 is the Fibonacci sequence.",
+  "id": "A173673",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

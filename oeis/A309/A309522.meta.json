@@ -1,0 +1,25 @@
+{
+  "description": "Generalized Blasius numbers, square array read by ascending diagonals, A(n, k) for n, k >= 0.",
+  "id": "A309522",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A002105",
+    "A018893",
+    "A256522",
+    "A260876",
+    "A260878"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

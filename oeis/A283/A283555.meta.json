@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers that cannot be expressed as p+3, p+5, or p+7, with p prime.",
+  "id": "A283555",
+  "mentions": [
+    "A279040"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

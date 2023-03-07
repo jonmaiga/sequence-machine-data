@@ -1,0 +1,20 @@
+{
+  "description": "Records in A102419.",
+  "id": "A217934",
+  "mentions": [
+    "A060412",
+    "A060445",
+    "A102419"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

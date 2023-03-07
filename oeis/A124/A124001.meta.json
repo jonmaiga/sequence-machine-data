@@ -1,0 +1,19 @@
+{
+  "description": "Difference between first twin prime > 10^n and 10^n.",
+  "id": "A124001",
+  "mentions": [
+    "A033873",
+    "A092245"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

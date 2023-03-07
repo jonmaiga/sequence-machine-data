@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n, k) = t(n-k, k), where t(0,0) = 1, t(n,m) = 0 if n < 0 or m < 0, else t(n,m) = f(m)*t(n-1,m) + f(n)*t(n,m-1), and f(n) = 4*n + 3.",
+  "id": "A257621",
+  "mentions": [
+    "A000244",
+    "A000407",
+    "A038221",
+    "A142459",
+    "A256890",
+    "A257180",
+    "A257611",
+    "A257612",
+    "A257620",
+    "A257623",
+    "A257625",
+    "A257627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:01:26",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Integer part of square root of A001017: a(n) = floor(n^(9/2)).",
+  "id": "A238170",
+  "mentions": [
+    "A000093",
+    "A000196",
+    "A001017",
+    "A155013",
+    "A155014",
+    "A155015",
+    "A155016",
+    "A155018",
+    "A155019"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Dispersion of ([nx+x]), where x=sqrt(2) and [ ]=floor, by antidiagonals.",
+  "id": "A191431",
+  "mentions": [
+    "A000040",
+    "A003603",
+    "A007067",
+    "A022343",
+    "A035506",
+    "A035513",
+    "A114537",
+    "A114538",
+    "A133299",
+    "A191426",
+    "A191455"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

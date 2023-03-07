@@ -1,0 +1,26 @@
+{
+  "description": "O.g.f. A(x) satisfies: A(x) = x*(1 - 2*x*A'(x)) / (1 - 3*x*A'(x)).",
+  "id": "A300987",
+  "mentions": [
+    "A088716",
+    "A296171",
+    "A300593",
+    "A300595",
+    "A300736",
+    "A300986",
+    "A300989",
+    "A300991",
+    "A300993"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

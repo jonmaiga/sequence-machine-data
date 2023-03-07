@@ -1,0 +1,31 @@
+{
+  "description": "Array read by upwards antidiagonals T(n,k) = J(k) + n*J(k+1) where J(n) = A001045(n) is the Jacobsthal numbers.",
+  "id": "A355668",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A001045",
+    "A001477",
+    "A016777",
+    "A016885",
+    "A017449",
+    "A048573",
+    "A140683",
+    "A171160",
+    "A320933",
+    "A321373"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

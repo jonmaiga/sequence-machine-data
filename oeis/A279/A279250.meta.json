@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 155\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A279250",
+  "mentions": [
+    "A279251",
+    "A279252",
+    "A279253"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

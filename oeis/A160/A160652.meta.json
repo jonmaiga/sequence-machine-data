@@ -1,0 +1,25 @@
+{
+  "description": "Express n in balanced ternary, then reverse the digits, leaving any trailing zeros alone.",
+  "id": "A160652",
+  "mentions": [
+    "A007949",
+    "A057889",
+    "A065363",
+    "A117962",
+    "A117966",
+    "A134028"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

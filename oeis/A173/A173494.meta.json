@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that no square greater than 1 can be written as sum of distinct divisors of m.",
+  "id": "A173494",
+  "mentions": [
+    "A045344",
+    "A173493"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

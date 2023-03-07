@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers with distinct prime factors {p1, p2, ..., pk} in ascending order where p1^1 + p2^2 + ...+ pk^k is prime.",
+  "id": "A344030",
+  "mentions": [
+    "A027748",
+    "A343300"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

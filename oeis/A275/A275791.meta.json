@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n, m) appearing in the expansion of Jacobi's elliptic function cn(u, k) divided by cos(v) in terms of the Jacobi nome q and even powers of 2*cos(v) with v = u/((2/Pi)*K(k)).",
+  "id": "A275791",
+  "mentions": [
+    "A002103",
+    "A005797",
+    "A038534",
+    "A053120",
+    "A056982",
+    "A273506",
+    "A274661",
+    "A274662"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

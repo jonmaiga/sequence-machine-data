@@ -1,0 +1,22 @@
+{
+  "description": "Conway notation for rational 2-component links.",
+  "id": "A173637",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A005418",
+    "A018240",
+    "A090597",
+    "A122495"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

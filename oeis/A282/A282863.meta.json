@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that 72*x^3 + (y-z)^3 is an even square.",
+  "id": "A282863",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000578",
+    "A271518",
+    "A281976",
+    "A283617"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

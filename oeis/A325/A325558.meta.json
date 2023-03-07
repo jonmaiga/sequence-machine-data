@@ -1,0 +1,28 @@
+{
+  "description": "Number of compositions of n with equal circular differences up to sign.",
+  "id": "A325558",
+  "mentions": [
+    "A000079",
+    "A008965",
+    "A047966",
+    "A049988",
+    "A098504",
+    "A173258",
+    "A175342",
+    "A325325",
+    "A325553",
+    "A325557",
+    "A325588",
+    "A325589"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Smallest prime p such that there exist exactly n integers b such that 1 < b < p and b^(p-1) == 1 (mod p^2) or, equivalently, Fermat quotient q_p(b) == 0 (mod p).",
+  "id": "A175932",
+  "mentions": [
+    "A000720",
+    "A001220",
+    "A130912",
+    "A134307",
+    "A242830",
+    "A248865",
+    "A255203",
+    "A255204",
+    "A255205",
+    "A255206",
+    "A255207",
+    "A255208",
+    "A255209",
+    "A255210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

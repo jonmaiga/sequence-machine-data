@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k which are odd and squarefree and have the property that k is either a prime number or for every prime p dividing k, p+1 is not divisible by any of the other prime factors of k.",
+  "id": "A255602",
+  "mentions": [
+    "A005117",
+    "A006972",
+    "A056911",
+    "A253598"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

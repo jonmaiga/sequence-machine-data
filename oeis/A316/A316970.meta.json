@@ -1,0 +1,19 @@
+{
+  "description": "Reducible binary polynomials P of degree n>0 with P dividing the polynomial X^(2^n-1)+1, evaluated at X=2 (pseudo-primes in the ring GF(2)[X]).",
+  "id": "A316970",
+  "mentions": [
+    "A001567",
+    "A014580",
+    "A091242"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

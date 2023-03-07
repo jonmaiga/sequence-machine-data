@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Dawson's integral at the inflection point.",
+  "id": "A245262",
+  "mentions": [
+    "A133841",
+    "A133842",
+    "A133843",
+    "A247445"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

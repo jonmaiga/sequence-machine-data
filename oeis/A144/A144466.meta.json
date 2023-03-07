@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that the partition number of the p-th prime is also a prime.",
+  "id": "A144466",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A038601"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

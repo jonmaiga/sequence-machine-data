@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that can be written in all bases from base 2 to base 6 using only the digits 0, 1 and 2.",
+  "id": "A275600",
+  "mentions": [
+    "A146025",
+    "A146026",
+    "A146027",
+    "A146028",
+    "A146029",
+    "A258107",
+    "A258981"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

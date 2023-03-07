@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: 2C(x)/(3-sqrt(1-4xC(x))) where C = g.f. for A000108.",
+  "id": "A285195",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

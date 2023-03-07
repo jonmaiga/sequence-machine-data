@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k which have an odd number of trailing zeros in their binary reflected Gray code A014550(k).",
+  "id": "A344346",
+  "mentions": [
+    "A001950",
+    "A014550",
+    "A036554",
+    "A050605",
+    "A081706",
+    "A136480",
+    "A145204",
+    "A217319",
+    "A232745",
+    "A342050"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

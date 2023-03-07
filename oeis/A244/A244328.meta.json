@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = a(2) = 0; for n >= 3: a(n) = floor((n*(n+1)/2) / antisigma(n)) = floor(A000217(n) / A024816(n)).",
+  "id": "A244328",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A024816",
+    "A244327",
+    "A244329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:11:15",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

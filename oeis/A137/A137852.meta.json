@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Product_{n>=1} (1 + a(n)*x^n/n!) = exp(x).",
+  "id": "A137852",
+  "mentions": [
+    "A003056",
+    "A006973",
+    "A008289",
+    "A036038"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

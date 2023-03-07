@@ -1,0 +1,22 @@
+{
+  "description": "Least j > 1 for n > 0 such that j^2 = (n^2 + 1)*(k^2) + (n^2 + 1)*k + 1 where k sequence = A106230.",
+  "id": "A106229",
+  "mentions": [
+    "A003777",
+    "A005563",
+    "A005899",
+    "A106230"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:01",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

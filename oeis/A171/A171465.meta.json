@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest positive integer sequence such that no sum of consecutive terms is a positive square.",
+  "id": "A171465",
+  "mentions": [
+    "A168677",
+    "A332941"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

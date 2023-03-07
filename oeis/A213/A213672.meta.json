@@ -1,0 +1,18 @@
+{
+  "description": "Final term in Collatz trajectory of n that did not appear in previous trajectories.",
+  "id": "A213672",
+  "mentions": [
+    "A177729",
+    "A222118"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

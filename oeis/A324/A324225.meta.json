@@ -1,0 +1,33 @@
+{
+  "description": "Total number T(n,k) of 1's in falling diagonals with index k in all n X n permutation matrices; triangle T(n,k), n>=1, 1-n<=k<=n-1, read by rows.",
+  "id": "A324225",
+  "mentions": [
+    "A000142",
+    "A001563",
+    "A001710",
+    "A052520",
+    "A052521",
+    "A052560",
+    "A052571",
+    "A052849",
+    "A062119",
+    "A152883",
+    "A162608",
+    "A282822",
+    "A306461",
+    "A324224"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

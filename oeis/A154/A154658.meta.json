@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of length n within distance 9.",
+  "id": "A154658",
+  "mentions": [
+    "A000045",
+    "A002524",
+    "A002526",
+    "A072856",
+    "A154654",
+    "A154657",
+    "A306209"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

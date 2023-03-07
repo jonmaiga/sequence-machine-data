@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the abundance (A033880) of k is equal to the deficiency (A033879) of k+1.",
+  "id": "A335254",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005820",
+    "A033879",
+    "A033880",
+    "A330901",
+    "A335253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

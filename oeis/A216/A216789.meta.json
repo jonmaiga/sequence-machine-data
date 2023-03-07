@@ -1,0 +1,33 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the digital sum of k in base n displayed in decimal.",
+  "id": "A216789",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A053735",
+    "A053737",
+    "A053824",
+    "A053827",
+    "A053828",
+    "A053829",
+    "A053830",
+    "A053831",
+    "A053832",
+    "A053833",
+    "A053834",
+    "A053835",
+    "A053836"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

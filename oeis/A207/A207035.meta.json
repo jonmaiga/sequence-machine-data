@@ -1,0 +1,30 @@
+{
+  "description": "Sum of all parts minus the total number of parts of the last section of the set of partitions of n.",
+  "id": "A207035",
+  "mentions": [
+    "A006128",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A138135",
+    "A138137",
+    "A138879",
+    "A138880",
+    "A187219",
+    "A194548",
+    "A196087",
+    "A207034",
+    "A207038"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

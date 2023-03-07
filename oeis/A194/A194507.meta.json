@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = y is the unique solution to y*phi(y) = A082473(n).",
+  "id": "A194507",
+  "mentions": [
+    "A002618",
+    "A007913",
+    "A082473",
+    "A327172",
+    "A327173"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

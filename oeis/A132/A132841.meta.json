@@ -1,0 +1,17 @@
+{
+  "description": "Least increasing logarithmic coefficients such that exponentiation results in an integer sequence (A132842), starting with a(1)=1.",
+  "id": "A132841",
+  "mentions": [
+    "A132842"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

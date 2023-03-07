@@ -1,0 +1,24 @@
+{
+  "description": "Representable by A001045 (Jacobsthal sequence). Complement of A003158.",
+  "id": "A197911",
+  "mentions": [
+    "A001045",
+    "A003158",
+    "A010060",
+    "A030308",
+    "A050292",
+    "A056832"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

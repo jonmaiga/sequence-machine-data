@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n whose multiset of multiplicities has integer mean.",
+  "id": "A360069",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000975",
+    "A008284",
+    "A051293",
+    "A058398",
+    "A067340",
+    "A067538",
+    "A082550",
+    "A088529",
+    "A088530",
+    "A102627",
+    "A124010",
+    "A240219",
+    "A316313",
+    "A316413",
+    "A325347",
+    "A326622",
+    "A326669",
+    "A327475",
+    "A327482",
+    "A328966",
+    "A349156",
+    "A359905",
+    "A360068"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

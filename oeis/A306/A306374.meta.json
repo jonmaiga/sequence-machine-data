@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence starting with a(1) = 23 with no duplicate terms such that the n-th digit of the sequence is not a divisor of a(n).",
+  "id": "A306374",
+  "mentions": [
+    "A306311"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

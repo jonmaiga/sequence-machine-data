@@ -1,0 +1,22 @@
+{
+  "description": "Near-repdigit primes with 3 as the repeated digit, and either 2 or 4 as the single digit in base 10.",
+  "id": "A168439",
+  "mentions": [
+    "A105981",
+    "A137248",
+    "A138974",
+    "A138975",
+    "A168438"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Column 2 of triangle A152400.",
+  "id": "A152402",
+  "mentions": [
+    "A127715",
+    "A152400",
+    "A152401",
+    "A152403",
+    "A152404",
+    "A152405"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

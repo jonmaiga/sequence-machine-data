@@ -1,0 +1,22 @@
+{
+  "description": "Sequence of all m in {1,2,3,...} such that A191747(m) = 1.",
+  "id": "A191748",
+  "mentions": [
+    "A000330",
+    "A056520",
+    "A058372",
+    "A058373",
+    "A191747"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

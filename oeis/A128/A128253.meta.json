@@ -1,0 +1,17 @@
+{
+  "description": "Primitive elements of A092671: numbers that may be the largest denominator in an Egyptian fraction for 1.",
+  "id": "A128253",
+  "mentions": [
+    "A092671"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

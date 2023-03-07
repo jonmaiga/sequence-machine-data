@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A163085(n)/n!.",
+  "id": "A216628",
+  "mentions": [
+    "A056040",
+    "A163085"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

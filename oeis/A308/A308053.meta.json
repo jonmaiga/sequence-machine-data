@@ -1,0 +1,24 @@
+{
+  "description": "Coreful abundant numbers: numbers k such that csigma(k) > 2*k, where csigma(k) is the sum of the coreful divisors of k (A057723).",
+  "id": "A308053",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A007947",
+    "A057723",
+    "A129575",
+    "A307958",
+    "A339940",
+    "A356871"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

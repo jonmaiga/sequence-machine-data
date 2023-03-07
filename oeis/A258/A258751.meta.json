@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Ls_5(Pi), the value of the 5th basic generalized log-sine integral at Pi (negated).",
+  "id": "A258751",
+  "mentions": [
+    "A258749",
+    "A258750",
+    "A258752",
+    "A258753",
+    "A258754"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:27",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

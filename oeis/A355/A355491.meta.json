@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form a+b+c = a^3 - b^3 - c^3 where a > b >= c > 0.",
+  "id": "A355491",
+  "mentions": [
+    "A355490"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

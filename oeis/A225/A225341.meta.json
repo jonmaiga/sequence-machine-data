@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 -1,1 arrays such that the sum over i=1..n,j=1..5 of i*x(i,j) is zero, the sum of x(i,j) is zero, and rows are nondecreasing (number of ways to distribute 5-across galley oarsmen left-right at n fore-aft positions so that there are no turning moments on the ship)",
+  "id": "A225341",
+  "mentions": [
+    "A225345"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of strictly recursively normal integer partitions of n.",
+  "id": "A330937",
+  "mentions": [
+    "A107429",
+    "A181819",
+    "A316496",
+    "A317081",
+    "A317245",
+    "A317491",
+    "A329744",
+    "A329746",
+    "A329766",
+    "A332272",
+    "A332277",
+    "A332295",
+    "A332576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

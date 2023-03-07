@@ -1,0 +1,33 @@
+{
+  "description": "Divisor-or-multiple permutation of squarefree numbers: a(0) = 1, and for n >= 1, a(n) is either the least divisor of a(n-1) not already present in the sequence, or (if all divisors already used), a(n-1) * {the least prime p such that p does not divide a(n-1) and p*a(n-1) is not already present}.",
+  "id": "A303760",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A002110",
+    "A005117",
+    "A006530",
+    "A019565",
+    "A048675",
+    "A052330",
+    "A052331",
+    "A053669",
+    "A061395",
+    "A070939",
+    "A303761",
+    "A303762",
+    "A303767",
+    "A303771"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

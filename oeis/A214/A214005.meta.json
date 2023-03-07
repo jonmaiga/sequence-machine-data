@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n nonnegative integer matrices with row and column i=1..n having sum <= i.",
+  "id": "A214005",
+  "mentions": [
+    "A214011"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

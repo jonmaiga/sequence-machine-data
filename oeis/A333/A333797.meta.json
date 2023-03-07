@@ -1,0 +1,21 @@
+{
+  "description": "Total number of saturated chains in the lattices L_n(2) of subspaces (ordered by inclusion) of the vector space GF(2)^n.",
+  "id": "A333797",
+  "mentions": [
+    "A005329",
+    "A289545",
+    "A293844",
+    "A299998"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

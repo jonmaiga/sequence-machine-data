@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - a(a(a(a(a(a(n-1)))))), a(1)=1.",
+  "id": "A100721",
+  "mentions": [
+    "A005206",
+    "A005374",
+    "A005375",
+    "A005376"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

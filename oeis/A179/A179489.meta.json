@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = x/(1 - (1-3x)*A( x/(1-3x) )).",
+  "id": "A179489",
+  "mentions": [
+    "A074664",
+    "A179488"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n and n+1 both have at least two distinct prime factors.",
+  "id": "A255346",
+  "mentions": [
+    "A074851"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

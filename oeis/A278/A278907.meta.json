@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor((n*2^(n+1)+2)/(2*n-(-1)^n+3)) - floor((n*2^(n+1)-2)/(2*n-(-1)^n+3)).",
+  "id": "A278907",
+  "mentions": [
+    "A002064"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:27",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

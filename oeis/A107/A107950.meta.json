@@ -1,0 +1,20 @@
+{
+  "description": "Boling's constant, the decimal expansion of Sum_{i>=1} i(i+1) / (2*Product_{j=0..i-1} i!/j!).",
+  "id": "A107950",
+  "mentions": [
+    "A105658",
+    "A107951",
+    "A107952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

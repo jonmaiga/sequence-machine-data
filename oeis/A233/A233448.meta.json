@@ -1,0 +1,18 @@
+{
+  "description": "Compositorial(n) mod n!, that is, A036691(n) mod A000142(n).",
+  "id": "A233448",
+  "mentions": [
+    "A000142",
+    "A036691"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

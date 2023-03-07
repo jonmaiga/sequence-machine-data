@@ -1,0 +1,18 @@
+{
+  "description": "Exponent of the power of 2 that divides A272215(n).",
+  "id": "A272216",
+  "mentions": [
+    "A272215"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least integer k>0 such that A000041(k) is divisible by 10^n.",
+  "id": "A145524",
+  "mentions": [
+    "A000041",
+    "A046641",
+    "A145523"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

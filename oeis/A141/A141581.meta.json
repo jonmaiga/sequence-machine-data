@@ -1,0 +1,19 @@
+{
+  "description": "Cosine projection of Eulerian numbers A123125 as coefficient triangle: w=1: f(x,n)=(1 - 2*Cos[w]*x + x^2)^(n + 1)*Sum[k^n*x^k*Cos[w], {k, 0, Infinity}].",
+  "id": "A141581",
+  "mentions": [
+    "A123125"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

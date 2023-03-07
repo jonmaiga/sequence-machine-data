@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = ( n*(n + 1)*(2*n + 1)/6 )^2.",
+  "id": "A271535",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000537",
+    "A005563",
+    "A046092",
+    "A059977"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:51:41",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

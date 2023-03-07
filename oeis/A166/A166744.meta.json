@@ -1,0 +1,21 @@
+{
+  "description": "Unlucky primes: numbers which are members of both A000040 (primes) and A050505 (unlucky).",
+  "id": "A166744",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A007528",
+    "A031157",
+    "A050505"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

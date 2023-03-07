@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = gcd(n, A003968(n)), where A003968 is multiplicative with a(p^e) = p*(p+1)^(e-1).",
+  "id": "A348036",
+  "mentions": [
+    "A003959",
+    "A003968",
+    "A007947",
+    "A347960",
+    "A348030",
+    "A348037",
+    "A348038",
+    "A348039"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

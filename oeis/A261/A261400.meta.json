@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n knot mosaics.",
+  "id": "A261400",
+  "mentions": [
+    "A200000",
+    "A261399"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

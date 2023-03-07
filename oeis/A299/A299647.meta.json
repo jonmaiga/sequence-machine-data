@@ -1,0 +1,28 @@
+{
+  "description": "Positive solutions to x^2 == -2 (mod 11).",
+  "id": "A299647",
+  "mentions": [
+    "A001651",
+    "A005843",
+    "A017425",
+    "A017437",
+    "A017485",
+    "A017497",
+    "A047235",
+    "A106252",
+    "A156638",
+    "A279000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

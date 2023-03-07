@@ -1,0 +1,53 @@
+{
+  "description": "Heinz numbers of integer partitions for which the number of even conjugate parts is equal to the number of odd conjugate parts.",
+  "id": "A350848",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001222",
+    "A024619",
+    "A026424",
+    "A028260",
+    "A045931",
+    "A056239",
+    "A103919",
+    "A112798",
+    "A122111",
+    "A130780",
+    "A171966",
+    "A195017",
+    "A239241",
+    "A241638",
+    "A257991",
+    "A257992",
+    "A277103",
+    "A277579",
+    "A316524",
+    "A325698",
+    "A325700",
+    "A344616",
+    "A349157",
+    "A350847",
+    "A350849",
+    "A350941",
+    "A350942",
+    "A350943",
+    "A350944",
+    "A350945",
+    "A350946",
+    "A350947",
+    "A350948",
+    "A350949"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

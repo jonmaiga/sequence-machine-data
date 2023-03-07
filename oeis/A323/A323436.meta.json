@@ -1,0 +1,31 @@
+{
+  "description": "Number of plane partitions whose parts are the prime indices of n.",
+  "id": "A323436",
+  "mentions": [
+    "A000085",
+    "A000219",
+    "A003293",
+    "A056239",
+    "A112798",
+    "A114736",
+    "A117433",
+    "A138178",
+    "A296188",
+    "A299968",
+    "A323300",
+    "A323429",
+    "A323437",
+    "A323438",
+    "A323439"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

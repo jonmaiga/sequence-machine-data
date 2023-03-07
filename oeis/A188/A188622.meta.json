@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the Riordan matrix (1/sqrt(1-4*x), x/(1-x)) (A187888).",
+  "id": "A188622",
+  "mentions": [
+    "A187888"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let b be a composite number, c be the smallest composite number greater than b and coprime to b, and d = c-b. This sequence contains all b such that d is neither a prime nor a square.",
+  "id": "A353203",
+  "mentions": [
+    "A002808",
+    "A113496",
+    "A342175"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

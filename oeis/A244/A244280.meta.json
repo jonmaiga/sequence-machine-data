@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of the n-th iteration of the alternating continued fraction of the positive integers, initiated with (1 + ...).",
+  "id": "A244280",
+  "mentions": [
+    "A244279"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

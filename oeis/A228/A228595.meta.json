@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the concatenation of the terms equals the concatenation of the positive integers, and no term appears in its natural position.",
+  "id": "A228595",
+  "mentions": [
+    "A033307",
+    "A064809",
+    "A098067",
+    "A197124"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

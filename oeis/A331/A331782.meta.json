@@ -1,0 +1,22 @@
+{
+  "description": "Total number of vertices in graph formed by the straight line segments connecting the edges of an equilateral triangle with the n-1 points resulting from a subdivision of the sides into n equal pieces, counting coinciding intersection points only once.",
+  "id": "A331782",
+  "mentions": [
+    "A091908",
+    "A092098",
+    "A331423",
+    "A332376",
+    "A332378"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

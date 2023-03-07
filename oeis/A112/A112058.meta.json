@@ -1,0 +1,20 @@
+{
+  "description": "Mean of A112056 and A112057.",
+  "id": "A112058",
+  "mentions": [
+    "A112054",
+    "A112056",
+    "A112057"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

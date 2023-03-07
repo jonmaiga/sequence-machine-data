@@ -1,0 +1,26 @@
+{
+  "description": "D-toothpick sequence of the third kind in the first quadrant.",
+  "id": "A220524",
+  "mentions": [
+    "A139250",
+    "A194270",
+    "A194444",
+    "A194700",
+    "A220500",
+    "A220514",
+    "A220520",
+    "A220525"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

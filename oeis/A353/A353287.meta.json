@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} k^k * Stirling2(n-k,k).",
+  "id": "A353287",
+  "mentions": [
+    "A097341",
+    "A097342",
+    "A171367",
+    "A353260",
+    "A353261",
+    "A353288"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

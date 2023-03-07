@@ -1,0 +1,22 @@
+{
+  "description": "Minimal number of primorials (A002110) that add to A328768(n), where A328768 is the first primorial based variant of arithmetic derivative.",
+  "id": "A328771",
+  "mentions": [
+    "A002110",
+    "A276150",
+    "A324888",
+    "A328768",
+    "A328772"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

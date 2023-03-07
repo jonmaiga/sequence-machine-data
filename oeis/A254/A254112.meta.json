@@ -1,0 +1,22 @@
+{
+  "description": "Row index of n in A254105: If A234017(n) = 0, then a(n) = A213714(n), otherwise a(n) = a(A234017(n)).",
+  "id": "A254112",
+  "mentions": [
+    "A213714",
+    "A234017",
+    "A254105",
+    "A254107",
+    "A254111"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

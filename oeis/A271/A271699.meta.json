@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n} (-1)^(n-j)*C(-j,-n)*S1(k,j), S1 the Stirling cycle numbers A132393, for n>=0 and 0<=k<=n.",
+  "id": "A271699",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A132393",
+    "A247329"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

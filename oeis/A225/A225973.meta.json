@@ -1,0 +1,17 @@
+{
+  "description": "Number of union-closed partitions of weight n.",
+  "id": "A225973",
+  "mentions": [
+    "A050342"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

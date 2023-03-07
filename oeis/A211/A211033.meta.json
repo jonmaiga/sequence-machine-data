@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2 X 2 matrices having all elements in {0,1,...,n} and determinant = 0 (mod 3).",
+  "id": "A211033",
+  "mentions": [
+    "A210000",
+    "A211034"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in 7-adic expansion of sqrt(-5).",
+  "id": "A290798",
+  "mentions": [
+    "A290799",
+    "A290806"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

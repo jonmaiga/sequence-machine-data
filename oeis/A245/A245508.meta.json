@@ -1,0 +1,20 @@
+{
+  "description": "Smallest double square (cf. A001105) greater than n-th prime.",
+  "id": "A245508",
+  "mentions": [
+    "A000040",
+    "A001105",
+    "A145445",
+    "A245499"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

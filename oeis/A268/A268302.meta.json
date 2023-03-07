@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=1} x^(n*(n-1)/2) * (G(x)^n + 1/G(x)^(n-1)), where G(x) is the g.f. of A268300.",
+  "id": "A268302",
+  "mentions": [
+    "A268300",
+    "A268301"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

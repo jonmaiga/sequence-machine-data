@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n - 1)*(n^3 + 1) = n^4 - n^3 + n - 1, for n >= 1.",
+  "id": "A242604",
+  "mentions": [
+    "A005563",
+    "A062158"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:14:31",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

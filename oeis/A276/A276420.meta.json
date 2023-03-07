@@ -1,0 +1,19 @@
+{
+  "description": "Number of palindromic compositions of n into prime parts.",
+  "id": "A276420",
+  "mentions": [
+    "A016116",
+    "A023360"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

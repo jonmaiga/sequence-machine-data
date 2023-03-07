@@ -1,0 +1,20 @@
+{
+  "description": "A triangular sequence from a vector a(n) times a triangular tensor t(n,m): T(n,m)=a(n).t(n,m); a(n)=Fibonacci(n);A000045(n): t(n,m)=Binomial(n,GCD(n,m)).",
+  "id": "A140835",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

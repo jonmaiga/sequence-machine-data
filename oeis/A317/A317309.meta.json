@@ -1,0 +1,37 @@
+{
+  "description": "Primes p such that the largest Dyck path of the symmetric representation of sigma(p) has a central valley.",
+  "id": "A317309",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A060300",
+    "A065091",
+    "A161983",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A239660",
+    "A239929",
+    "A239931",
+    "A239933",
+    "A244050",
+    "A245092",
+    "A262626",
+    "A317304",
+    "A317308"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

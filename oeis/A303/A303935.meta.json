@@ -1,0 +1,19 @@
+{
+  "description": "Size of orbit of n under repeated application of sum of factorial of digits of n.",
+  "id": "A303935",
+  "mentions": [
+    "A014080",
+    "A061602"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

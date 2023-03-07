@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = d(n)_d(n) = A122618(d(n)), where d = A000005, and A122618 = \"n read in base n\".",
+  "id": "A122667",
+  "mentions": [
+    "A000005",
+    "A122618"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

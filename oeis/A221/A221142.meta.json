@@ -1,0 +1,21 @@
+{
+  "description": "Fourth-order spt function.",
+  "id": "A221142",
+  "mentions": [
+    "A092269",
+    "A221140",
+    "A221141",
+    "A221143",
+    "A221144"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

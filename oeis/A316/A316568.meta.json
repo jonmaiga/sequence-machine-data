@@ -1,0 +1,18 @@
+{
+  "description": "Largest k such that 1^2 + n, 2^2 + n, ..., k^2 + n are composite.",
+  "id": "A316568",
+  "mentions": [
+    "A085099"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

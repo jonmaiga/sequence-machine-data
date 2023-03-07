@@ -1,0 +1,20 @@
+{
+  "description": "The number of functions in a finite set that are not obtainable by a composition power of any other function. Similar to A163947, but it excludes self compositions.",
+  "id": "A163949",
+  "mentions": [
+    "A163947",
+    "A163950"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

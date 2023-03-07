@@ -1,0 +1,20 @@
+{
+  "description": "Smallest 4th power that contains exactly n occurrences of the string n.",
+  "id": "A109690",
+  "mentions": [
+    "A109689",
+    "A109691"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

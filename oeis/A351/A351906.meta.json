@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (1 - x^4)).",
+  "id": "A351906",
+  "mentions": [
+    "A190877",
+    "A246607",
+    "A293507",
+    "A293604",
+    "A351905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

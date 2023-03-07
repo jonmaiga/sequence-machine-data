@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. exp(x + Sum_{k>=2} prime(k-1)*x^k/k!).",
+  "id": "A300632",
+  "mentions": [
+    "A000040",
+    "A007446",
+    "A008578",
+    "A023626",
+    "A030011",
+    "A030012",
+    "A030013",
+    "A030014",
+    "A030015",
+    "A030016"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

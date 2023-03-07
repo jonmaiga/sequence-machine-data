@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of domino towers of height k consisting of n bricks.",
+  "id": "A333650",
+  "mentions": [
+    "A000071",
+    "A000244",
+    "A038622",
+    "A168368",
+    "A264746",
+    "A320314",
+    "A339029",
+    "A339252",
+    "A339254",
+    "A339346",
+    "A339493",
+    "A339494"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

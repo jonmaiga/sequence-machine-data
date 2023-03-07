@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of Euler phi with A342001, where A342001(n) = A003415(n) / A003557(n).",
+  "id": "A347235",
+  "mentions": [
+    "A000010",
+    "A003415",
+    "A003557",
+    "A342001",
+    "A346485",
+    "A347131",
+    "A347233",
+    "A347234",
+    "A347395"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

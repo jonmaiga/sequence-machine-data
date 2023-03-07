@@ -1,0 +1,20 @@
+{
+  "description": "Weakly prime numbers in the sense of A158124 but not A050249.",
+  "id": "A158125",
+  "mentions": [
+    "A050249",
+    "A158124",
+    "A227916"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

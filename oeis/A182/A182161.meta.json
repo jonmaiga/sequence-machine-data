@@ -1,0 +1,20 @@
+{
+  "description": "Number of extensional acyclic digraphs on n labeled nodes.",
+  "id": "A182161",
+  "mentions": [
+    "A001192",
+    "A003024",
+    "A182162"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

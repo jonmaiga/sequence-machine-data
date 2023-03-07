@@ -1,0 +1,18 @@
+{
+  "description": "Numbers where records occur in A133500.",
+  "id": "A133505",
+  "mentions": [
+    "A133500",
+    "A133504"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

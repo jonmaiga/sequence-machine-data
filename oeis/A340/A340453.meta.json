@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Product_{n>=0} (1 - x^(5*n+5))^2 / ( (1 - x^(5*n+1))*(1 - x^(5*n+4)) ).",
+  "id": "A340453",
+  "mentions": [
+    "A007325",
+    "A340454",
+    "A340455",
+    "A340456"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

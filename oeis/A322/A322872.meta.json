@@ -1,0 +1,21 @@
+{
+  "description": "Ordinal transform of A171462, where A171462(n) = n - A052126(n).",
+  "id": "A322872",
+  "mentions": [
+    "A052126",
+    "A081373",
+    "A171462",
+    "A303756",
+    "A322871"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

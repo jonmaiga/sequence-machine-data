@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = LCM of the prime indices in prime factorization of n, a(1) = 1.",
+  "id": "A290103",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A003963",
+    "A007947",
+    "A028234",
+    "A055396",
+    "A072411",
+    "A156061",
+    "A181819",
+    "A290104",
+    "A290105"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

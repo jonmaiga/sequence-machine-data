@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = x/(x1-floor(x1)) where x = sqrt(n) - floor(sqrt(n)), x1 = 1/x, a(n) = -1 if division by zero, a(n) = 0 for nonintegers.",
+  "id": "A244658",
+  "mentions": [
+    "A062731"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

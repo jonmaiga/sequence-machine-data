@@ -1,0 +1,24 @@
+{
+  "description": "Decimal sturdy primes: primes p such that sum of digits of k*p for any positive integer k is at least the sum of digits of p.",
+  "id": "A181863",
+  "mentions": [
+    "A004022",
+    "A007953",
+    "A077196",
+    "A143027",
+    "A181862"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

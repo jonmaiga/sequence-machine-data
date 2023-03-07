@@ -1,0 +1,21 @@
+{
+  "description": "An irregular table of node numbers (in order of appearance) which generate two children in the tree described by A128628 and A129129.",
+  "id": "A129127",
+  "mentions": [
+    "A002865",
+    "A128628",
+    "A129128",
+    "A129129"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

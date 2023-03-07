@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of moves to solve a variant of the first Panex puzzle of order n of transferring a side tower to the center column.",
+  "id": "A115185",
+  "mentions": [
+    "A109175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

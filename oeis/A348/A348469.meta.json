@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of squares that can be formed from the grid points in a qualifying circular region of the plane that contains exactly n points of a square grid.",
+  "id": "A348469",
+  "mentions": [
+    "A051602",
+    "A192493",
+    "A192494"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

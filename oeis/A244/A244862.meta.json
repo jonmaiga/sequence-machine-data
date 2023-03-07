@@ -1,0 +1,19 @@
+{
+  "description": "Pairs of prime numbers (p,q) starting with a(1)=2 such that p U q (where U denotes concatenation) is a prime number and a(n) is always extended with the smallest available prime not yet present in the sequence.",
+  "id": "A244862",
+  "mentions": [
+    "A000040",
+    "A105184"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

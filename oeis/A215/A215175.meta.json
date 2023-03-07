@@ -1,0 +1,22 @@
+{
+  "description": "a(2*n) = A214297(n), a(2*n+1) = A000290(n).",
+  "id": "A215175",
+  "mentions": [
+    "A000290",
+    "A001971",
+    "A005563",
+    "A214297"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:27",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

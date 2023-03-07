@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximal value that A324862(d) attains among the divisors d of n.",
+  "id": "A324864",
+  "mentions": [
+    "A156552",
+    "A324862",
+    "A324863",
+    "A324869"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

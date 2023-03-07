@@ -1,0 +1,26 @@
+{
+  "description": "The limit of row A182731(n,.) as n-> infinity.",
+  "id": "A182733",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182730",
+    "A182731",
+    "A182732",
+    "A182747",
+    "A182982",
+    "A182983",
+    "A183731"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

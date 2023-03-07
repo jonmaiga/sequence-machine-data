@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form x^3 + x*y + y^3 where x and y are positive integers.",
+  "id": "A266970",
+  "mentions": [
+    "A007645",
+    "A300381"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

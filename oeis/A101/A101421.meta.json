@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which are the sum of two positive cubes and divisible by 7.",
+  "id": "A101421",
+  "mentions": [
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

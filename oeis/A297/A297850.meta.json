@@ -1,0 +1,26 @@
+{
+  "description": "Least common prime factor of the members of n-th amicable pair, or 0 if the two members of the pair are coprime.",
+  "id": "A297850",
+  "mentions": [
+    "A001221",
+    "A002025",
+    "A020639",
+    "A061469",
+    "A122967",
+    "A171092",
+    "A259180",
+    "A297934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

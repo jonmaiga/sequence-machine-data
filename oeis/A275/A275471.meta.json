@@ -1,0 +1,25 @@
+{
+  "description": "Number of ordered ways to write n as 4^k*(1+x^2+y^2)+z^2, where k,x,y,z are nonnegative integers with x <= y and x == y (mod 2).",
+  "id": "A275471",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271518",
+    "A275648",
+    "A275656",
+    "A275675",
+    "A275676",
+    "A275678",
+    "A275738"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

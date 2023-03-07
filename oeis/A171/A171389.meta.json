@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 21*2^n - 1.",
+  "id": "A171389",
+  "mentions": [
+    "A086224",
+    "A175805"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

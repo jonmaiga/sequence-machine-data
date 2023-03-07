@@ -1,0 +1,19 @@
+{
+  "description": "A subset of vampire numbers: n has a nontrivial factorization using n's digits in reverse order",
+  "id": "A179482",
+  "mentions": [
+    "A009944",
+    "A020342"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

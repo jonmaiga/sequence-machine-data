@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A216427 that are the sum of two coprime terms of A216427.",
+  "id": "A307134",
+  "mentions": [
+    "A216427"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

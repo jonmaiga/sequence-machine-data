@@ -1,0 +1,29 @@
+{
+  "description": "Array read by upward antidiagonals: row n = coordination sequence for cylinder formed by rolling up a strip of width n hexagons cut from the hexagonal grid by cuts parallel to grid lines.",
+  "id": "A329508",
+  "mentions": [
+    "A008486",
+    "A040000",
+    "A329501",
+    "A329504",
+    "A329509",
+    "A329510",
+    "A329511",
+    "A329512",
+    "A329515",
+    "A329517"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

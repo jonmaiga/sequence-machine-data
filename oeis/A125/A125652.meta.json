@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that m^2=A125650(k) for some k (belonging A125651).",
+  "id": "A125652",
+  "mentions": [
+    "A041053",
+    "A106328",
+    "A125650",
+    "A125651"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

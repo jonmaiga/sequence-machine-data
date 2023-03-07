@@ -1,0 +1,25 @@
+{
+  "description": "Conjectured list of numbers which are perfect, amicable, or sociable.",
+  "id": "A347770",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A002025",
+    "A002046",
+    "A003416",
+    "A063990",
+    "A122726",
+    "A206708",
+    "A259180"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

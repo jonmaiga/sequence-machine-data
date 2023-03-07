@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} Catalan(n-2*k).",
+  "id": "A360273",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A360274"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

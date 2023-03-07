@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*a(n-1) + 5*a(n-2), with a(0)=1, a(1)=2.",
+  "id": "A197189",
+  "mentions": [
+    "A015523",
+    "A072263",
+    "A072264",
+    "A152187",
+    "A179606",
+    "A180140"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

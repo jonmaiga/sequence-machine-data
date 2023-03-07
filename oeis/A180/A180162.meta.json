@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number N such that sigma(N) is an n-th power but not a higher power, with a(n) = 0 if no such number exists.",
+  "id": "A180162",
+  "mentions": [
+    "A000203",
+    "A063869",
+    "A065496",
+    "A169981",
+    "A175432"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 36n+11, 36(n+1)+11, 36(n+2)+11 and 36(n+3)+11 are prime.",
+  "id": "A255608",
+  "mentions": [
+    "A215761"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

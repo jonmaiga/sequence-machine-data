@@ -1,0 +1,19 @@
+{
+  "description": "Smallest multiple of n such that, when expressed in binary, in the string of bits the binary representation of n occurs after the n-1 most significant bits.",
+  "id": "A245470",
+  "mentions": [
+    "A000265",
+    "A079847"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as x+y (0",
+  "id": "A219842",
+  "mentions": [
+    "A091182",
+    "A219782",
+    "A219838"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

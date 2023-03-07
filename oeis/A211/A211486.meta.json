@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 5+3*2^n.",
+  "id": "A211486",
+  "mentions": [
+    "A057197",
+    "A057913",
+    "A144487"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

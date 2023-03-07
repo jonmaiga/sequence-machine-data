@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that cannot be represented as a sum of one prime and two primes squared.",
+  "id": "A283248",
+  "mentions": [
+    "A214879"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

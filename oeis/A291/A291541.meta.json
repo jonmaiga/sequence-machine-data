@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = prime(n) * prime(n^2) - prime(n^3).",
+  "id": "A291541",
+  "mentions": [
+    "A000720",
+    "A123914",
+    "A262199",
+    "A291440",
+    "A291538",
+    "A291539",
+    "A291540",
+    "A291542"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

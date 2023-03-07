@@ -1,0 +1,20 @@
+{
+  "description": "Consider all ways of writing the composite Fibonacci number A090206(n+3) as product of two divisors d1*d2 = d3*d4 = ... The sequence a(n) gives the minimum sums of {d1+d2, d3+d4,...}.",
+  "id": "A287273",
+  "mentions": [
+    "A000045",
+    "A002808",
+    "A090206",
+    "A273227"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f and g are the squares and heptagonal numbers. Complement of A186320.",
+  "id": "A186321",
+  "mentions": [
+    "A186320",
+    "A186322",
+    "A186323"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:45",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

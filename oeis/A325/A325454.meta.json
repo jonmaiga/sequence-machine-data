@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the digit sum of the n-th Niven number (or Harshad number).",
+  "id": "A325454",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A113315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

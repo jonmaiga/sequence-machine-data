@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (binomial(n,floor(n/2)))/(greatest common divisor of all numbers in n-th row of Pascal's triangle excluding 1 and n).",
+  "id": "A327703",
+  "mentions": [
+    "A001405",
+    "A328202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

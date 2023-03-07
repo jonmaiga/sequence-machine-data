@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that can be expressed as (m + sum of digits of m) in exactly two ways.",
+  "id": "A230094",
+  "mentions": [
+    "A003052",
+    "A004207",
+    "A007953",
+    "A048528",
+    "A062028",
+    "A176995",
+    "A225793",
+    "A227915",
+    "A230092",
+    "A230093"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

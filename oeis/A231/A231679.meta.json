@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum_7(i)^4, where digsum_7(i) = A053828(i).",
+  "id": "A231679",
+  "mentions": [
+    "A053828",
+    "A231676",
+    "A231677",
+    "A231678"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:47",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

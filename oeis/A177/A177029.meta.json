@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that have exactly two different representations as polygonal numbers.",
+  "id": "A177029",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A000567",
+    "A090467",
+    "A175873",
+    "A176744",
+    "A176747",
+    "A176774",
+    "A176775",
+    "A176874",
+    "A176948",
+    "A176949",
+    "A177025",
+    "A177028"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

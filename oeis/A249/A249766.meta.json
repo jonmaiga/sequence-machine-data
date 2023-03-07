@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n = concat(s,t) such that s and t divide n.",
+  "id": "A249766",
+  "mentions": [
+    "A038770",
+    "A139138"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

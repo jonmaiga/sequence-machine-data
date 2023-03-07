@@ -1,0 +1,20 @@
+{
+  "description": "Table T(d,n), where T(d,n)/lcm(1..d) gives the probability that d is the n-th divisor of an integer.",
+  "id": "A181930",
+  "mentions": [
+    "A000005",
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

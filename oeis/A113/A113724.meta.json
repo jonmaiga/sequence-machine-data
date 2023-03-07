@@ -1,0 +1,21 @@
+{
+  "description": "A variant of Golomb's sequence using even numbers: a(n) is the number of times 2*n+2 occurs, starting with a(1) = 2.",
+  "id": "A113724",
+  "mentions": [
+    "A001462",
+    "A080606",
+    "A113676",
+    "A113722",
+    "A113725"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

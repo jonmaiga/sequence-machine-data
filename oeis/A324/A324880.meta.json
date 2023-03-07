@@ -1,0 +1,24 @@
+{
+  "description": "Even numbers k such that A324863(k) = A324874(k).",
+  "id": "A324880",
+  "mentions": [
+    "A156552",
+    "A323243",
+    "A324398",
+    "A324647",
+    "A324863",
+    "A324866",
+    "A324874",
+    "A324879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

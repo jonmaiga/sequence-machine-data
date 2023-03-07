@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers whose reverse is a square (possibly with fewer digits).",
+  "id": "A179889",
+  "mentions": [
+    "A066528",
+    "A066703",
+    "A069673",
+    "A181412"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

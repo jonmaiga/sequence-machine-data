@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A242962(n) = sigma(n) = A000203(n).",
+  "id": "A242963",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A002961",
+    "A009005",
+    "A024816",
+    "A217290",
+    "A242962",
+    "A243117",
+    "A243118"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Replace 2^k in binary expansion of n with A045623(k+1).",
+  "id": "A159699",
+  "mentions": [
+    "A045623",
+    "A159689"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

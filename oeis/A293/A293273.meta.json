@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive k <> n such that f(k) is divisible by f(n) where f = A005132, or 0 if no such k exists.",
+  "id": "A293273",
+  "mentions": [
+    "A005132",
+    "A057167"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

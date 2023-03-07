@@ -1,0 +1,41 @@
+{
+  "description": "Number of nonempty normal patterns contiguously matched by the n-th composition in standard order.",
+  "id": "A335474",
+  "mentions": [
+    "A000670",
+    "A034691",
+    "A056986",
+    "A066099",
+    "A102726",
+    "A108917",
+    "A124767",
+    "A124770",
+    "A124771",
+    "A181796",
+    "A269134",
+    "A325676",
+    "A333217",
+    "A333222",
+    "A333223",
+    "A333224",
+    "A334299",
+    "A335454",
+    "A335456",
+    "A335457",
+    "A335458",
+    "A335465",
+    "A335516",
+    "A335549"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

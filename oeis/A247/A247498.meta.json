@@ -1,0 +1,33 @@
+{
+  "description": "Generalized Euler numbers: Square array read by descending antidiagonals, T(n, k) = k!*[x^k] exp(n*x)*sech(x), n>=0, k>=0.",
+  "id": "A247498",
+  "mentions": [
+    "A000012",
+    "A000111",
+    "A000182",
+    "A000364",
+    "A001477",
+    "A067998",
+    "A119880",
+    "A119881",
+    "A121670",
+    "A122045",
+    "A153641",
+    "A155585",
+    "A225116",
+    "A244490",
+    "A247501"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

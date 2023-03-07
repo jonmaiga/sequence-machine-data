@@ -1,0 +1,28 @@
+{
+  "description": "Table T(n,k), n>=0, k>=0, read by antidiagonals, where the e.g.f. for column k satisfies A_k(x) = exp(x*A_k(((x+1)^k-1)/k)) if k>0 and A_0(x) = exp(x*A_0(0)) = exp(x).",
+  "id": "A143632",
+  "mentions": [
+    "A000012",
+    "A000272",
+    "A143633",
+    "A143634",
+    "A143635",
+    "A143636",
+    "A143637",
+    "A143638",
+    "A143639",
+    "A143640",
+    "A306578"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

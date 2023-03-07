@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose last digit is prime.",
+  "id": "A260181",
+  "mentions": [
+    "A002522",
+    "A017293",
+    "A017305",
+    "A017329",
+    "A017353",
+    "A042993",
+    "A047201",
+    "A092620",
+    "A118950",
+    "A140081",
+    "A197652",
+    "A262389"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:53",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

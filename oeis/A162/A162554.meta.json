@@ -1,0 +1,21 @@
+{
+  "description": "Triples of numbers {n1 < n2 < n3} such that {n1, n2, n3}^2 together use exactly 9 decimals 1..9, sorted first by n1, then by n2, and by n3.",
+  "id": "A162554",
+  "mentions": [
+    "A162450",
+    "A162839"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

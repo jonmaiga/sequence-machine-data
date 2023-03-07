@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 87*2^n - 38 (n>=0).",
+  "id": "A304171",
+  "mentions": [
+    "A304172"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

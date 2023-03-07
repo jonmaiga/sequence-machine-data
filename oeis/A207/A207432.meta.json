@@ -1,0 +1,18 @@
+{
+  "description": "Positions of primes in A066680, the badly sieved numbers.",
+  "id": "A207432",
+  "mentions": [
+    "A000040",
+    "A066680"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

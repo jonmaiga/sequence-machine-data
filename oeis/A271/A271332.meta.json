@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that n-th prime divides the n-th golden rectangle number.",
+  "id": "A271332",
+  "mentions": [
+    "A000040",
+    "A001654",
+    "A075702"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

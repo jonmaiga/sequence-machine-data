@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of ways to write n as i * j * k where 2 <= i <= sqrt(n), i < j <= min(2 * i - 1, floor(n / i)), k >= 1.",
+  "id": "A301989",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) = floor(k*t^n) where t = golden ratio = (1 + sqrt(5))/2, read by descending antidiagonals.",
+  "id": "A128440",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001622",
+    "A001950",
+    "A014217",
+    "A128439",
+    "A358359"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:09",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 2. Let k >= 1 be the minimal integer such that 2*k*a(n-1) + 1 has at least one prime divisor which is not already in the sequence. Then a(n) is the smallest such divisor.",
+  "id": "A174162",
+  "mentions": [
+    "A005132",
+    "A063733",
+    "A078943",
+    "A174161"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

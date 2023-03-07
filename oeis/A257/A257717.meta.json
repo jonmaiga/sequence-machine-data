@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest oldd-indexed prime not included earlier such that a(n) + a(n-1) + a(n-2) is a prime, beginning with a(1) = 5 and a(2) = 11.",
+  "id": "A257717",
+  "mentions": [
+    "A065091",
+    "A073653",
+    "A257716",
+    "A257718"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

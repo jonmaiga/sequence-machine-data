@@ -1,0 +1,20 @@
+{
+  "description": "Number of modified skew Dyck paths of semilength n such that the area between the x-axis and the path is n*(n+1)/2.",
+  "id": "A274054",
+  "mentions": [
+    "A000217",
+    "A230823",
+    "A274372"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

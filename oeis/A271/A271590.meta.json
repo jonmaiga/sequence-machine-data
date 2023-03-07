@@ -1,0 +1,20 @@
+{
+  "description": "First differences of column n of A271589 for arbitrarily large n.",
+  "id": "A271590",
+  "mentions": [
+    "A000295",
+    "A079583",
+    "A271589"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "For any number with ternary representation (t(1), t(2), ..., t(k)), the ternary representation of a(n) is (abs(t(1)-t(k)), abs(t(2)-t(k-1)), ..., abs(t(k)-t(1))).",
+  "id": "A338828",
+  "mentions": [
+    "A014190",
+    "A175919",
+    "A338827"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

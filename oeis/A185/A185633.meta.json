@@ -1,0 +1,32 @@
+{
+  "description": "For odd n, a(n) = 2; for even n, a(n) = denominator of Bernoulli(n)/n; The number 2 alternating with the elements of A006953.",
+  "id": "A185633",
+  "mentions": [
+    "A001221",
+    "A006863",
+    "A006953",
+    "A007395",
+    "A007947",
+    "A010051",
+    "A027760",
+    "A036283",
+    "A053657",
+    "A067513",
+    "A181819",
+    "A202367",
+    "A286561",
+    "A322312",
+    "A322315"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

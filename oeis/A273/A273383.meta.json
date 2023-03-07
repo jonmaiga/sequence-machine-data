@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x = concat(a,b) such that a^b ends with the digits of x.",
+  "id": "A273383",
+  "mentions": [
+    "A266817",
+    "A266818",
+    "A273382"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

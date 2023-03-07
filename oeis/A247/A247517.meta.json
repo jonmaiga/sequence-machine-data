@@ -1,0 +1,22 @@
+{
+  "description": "Card{(x,y,z,t,u): 1<=x,y,z,t,u<=n, gcd(x,y,z,t,u)=1, lcm(x,y,z,t,u)=n}.",
+  "id": "A247517",
+  "mentions": [
+    "A034444",
+    "A070921",
+    "A245019",
+    "A247516"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

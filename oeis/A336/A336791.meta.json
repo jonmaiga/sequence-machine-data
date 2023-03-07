@@ -1,0 +1,18 @@
+{
+  "description": "Incrementally largest values of minimal x satisfying the equation x^2 - D*y^2 = -2, where D is an odd prime number.",
+  "id": "A336791",
+  "mentions": [
+    "A033315",
+    "A336790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

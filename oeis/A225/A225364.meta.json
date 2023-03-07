@@ -1,0 +1,19 @@
+{
+  "description": "Position of first occurrence of n in the continued fraction for the Golomb-Dickman constant.",
+  "id": "A225364",
+  "mentions": [
+    "A084945",
+    "A225336"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

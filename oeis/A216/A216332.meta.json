@@ -1,0 +1,21 @@
+{
+  "description": "Number of horizontal and antidiagonal neighbor colorings of the even squares of an n X 2 array with new integer colors introduced in row major order.",
+  "id": "A216332",
+  "mentions": [
+    "A201862",
+    "A216078",
+    "A216338",
+    "A274105",
+    "A286422"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

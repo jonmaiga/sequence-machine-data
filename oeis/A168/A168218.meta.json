@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Sum_{k=2..infinity} 1/(k^2*log(k)).",
+  "id": "A168218",
+  "mentions": [
+    "A099769",
+    "A115563",
+    "A257812"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 20*a(n-1) - 64*a(n-2) + 3 for n > 1; a(0) = 1, a(1) = 22.",
+  "id": "A167033",
+  "mentions": [
+    "A006105",
+    "A166915",
+    "A166916",
+    "A167031",
+    "A167032"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

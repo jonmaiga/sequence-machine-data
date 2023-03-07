@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonnegative solutions to (x_1)^2 + (x_2)^2 + ... + (x_5)^2 <= n.",
+  "id": "A341400",
+  "mentions": [
+    "A000122",
+    "A000606",
+    "A003059",
+    "A038671",
+    "A055404",
+    "A055411",
+    "A175360",
+    "A224212",
+    "A224213",
+    "A302862",
+    "A341401",
+    "A341402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:35",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

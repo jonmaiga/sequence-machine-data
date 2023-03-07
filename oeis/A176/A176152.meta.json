@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, T(n, k) = 2*binomial(n, k)*binomial(n+1, k)/(k+1) - (k! - n! + (n-k)!).",
+  "id": "A176152",
+  "mentions": [
+    "A155170"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

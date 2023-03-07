@@ -1,0 +1,20 @@
+{
+  "description": "Number of possible legal open chains of a set of dominoes tiles with 0 to 2n pips.",
+  "id": "A284287",
+  "mentions": [
+    "A000217",
+    "A007082",
+    "A135388"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers, c, such that there is more than one solution to the equation a^2 + b^3 = c^4, with a, b > 0.",
+  "id": "A242186",
+  "mentions": [
+    "A242183",
+    "A242184",
+    "A242185",
+    "A242192"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

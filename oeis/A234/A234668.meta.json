@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (2+1) 0..7 arrays with every 2 X 2 subblock having its diagonal sum differing from its antidiagonal sum by 4 (constant-stress 1 X 1 tilings).",
+  "id": "A234668",
+  "mentions": [
+    "A234672"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

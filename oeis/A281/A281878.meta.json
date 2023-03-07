@@ -1,0 +1,18 @@
+{
+  "description": "The sum of two successive terms is prime and the sum of two successive digits is also prime.",
+  "id": "A281878",
+  "mentions": [
+    "A217555"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

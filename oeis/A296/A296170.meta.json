@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies: [x^(n-1)] A(x)^(n^2) = [x^n] A(x)^(n^2) for n>=1.",
+  "id": "A296170",
+  "mentions": [
+    "A182962",
+    "A296171",
+    "A296172",
+    "A296174",
+    "A296176",
+    "A296232"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

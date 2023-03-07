@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide A239868(k).",
+  "id": "A239869",
+  "mentions": [
+    "A000203",
+    "A054024",
+    "A239868"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

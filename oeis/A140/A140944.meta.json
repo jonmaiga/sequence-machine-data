@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(d,n) read by rows, the n-th term of the d-th differences of the Jacobsthal sequence A001045.",
+  "id": "A140944",
+  "mentions": [
+    "A001045",
+    "A140503"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonoverlapping placements of one 1 X 1 square and one 2 X 2 square on an n X n board.",
+  "id": "A173963",
+  "mentions": [
+    "A000290",
+    "A002378",
+    "A028347",
+    "A028552",
+    "A085740"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

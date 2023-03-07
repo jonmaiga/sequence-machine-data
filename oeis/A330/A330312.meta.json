@@ -1,0 +1,20 @@
+{
+  "description": "Gaps between palindromes in base 3: first differences of A014190.",
+  "id": "A330312",
+  "mentions": [
+    "A002113",
+    "A014190",
+    "A086862"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Unique values, or record values, of A343743.",
+  "id": "A348092",
+  "mentions": [
+    "A025487",
+    "A051161",
+    "A343743"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

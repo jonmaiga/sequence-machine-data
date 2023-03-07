@@ -1,0 +1,26 @@
+{
+  "description": "Matrix inverse of triangle A104505, which is the right-hand side of triangle A084610 of coefficients in (1 + x - x^2)^n.",
+  "id": "A104509",
+  "mentions": [
+    "A000204",
+    "A000213",
+    "A045925",
+    "A067988",
+    "A084214",
+    "A084610",
+    "A099425",
+    "A104505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

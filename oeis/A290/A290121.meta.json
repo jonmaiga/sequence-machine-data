@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k! / 8 - 1.",
+  "id": "A290121",
+  "mentions": [
+    "A139183",
+    "A139203"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

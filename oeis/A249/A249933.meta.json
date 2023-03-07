@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: 3*A(x) - 2*(1+x) = Series_Reversion( x/(2*A(x) - (1+x)) )/x.",
+  "id": "A249933",
+  "mentions": [
+    "A120955"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

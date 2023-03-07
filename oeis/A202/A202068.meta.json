@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of mass of oriented maximal Wicks forms of genus n.",
+  "id": "A202068",
+  "mentions": [
+    "A202066",
+    "A202067"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

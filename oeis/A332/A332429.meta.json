@@ -1,0 +1,24 @@
+{
+  "description": "The number of edges on a nonagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A332429",
+  "mentions": [
+    "A274586",
+    "A330845",
+    "A331765",
+    "A332421",
+    "A332427",
+    "A332428",
+    "A332600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

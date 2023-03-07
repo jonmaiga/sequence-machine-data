@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for the cpq net with respect to a node where a hexagon and two octagons meet.",
+  "id": "A348237",
+  "mentions": [
+    "A348227",
+    "A348235",
+    "A348239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

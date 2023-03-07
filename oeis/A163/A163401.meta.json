@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that all 10*m+d_1, 100*m+d_2 and 1000*m+d_3 are composite, where d_i are any i-digit numbers of A136333.",
+  "id": "A163401",
+  "mentions": [
+    "A002808",
+    "A136333",
+    "A163398"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: exp( exp(x) * (exp(x) - 1 - x) ).",
+  "id": "A347432",
+  "mentions": [
+    "A000295",
+    "A000296",
+    "A003725",
+    "A055882",
+    "A143405",
+    "A347434",
+    "A347435"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

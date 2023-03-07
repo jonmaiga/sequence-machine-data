@@ -1,0 +1,31 @@
+{
+  "description": "a(0)=0; thereafter a(n) = a(n-1) - A037861(n).",
+  "id": "A268289",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A023416",
+    "A037861",
+    "A096351",
+    "A145037",
+    "A181132",
+    "A233271",
+    "A269735",
+    "A296062"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

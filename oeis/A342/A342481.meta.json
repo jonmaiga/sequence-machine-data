@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers whose binary expansion involves powers of 2 with only composite (or zero) exponents.",
+  "id": "A342481",
+  "mentions": [
+    "A342475"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that Sum_{i= 1..k} 1/d(i) + Product_{i= 1..k} 1/d(i) = 1, where d(i) are the k prime distinct divisors of n.",
+  "id": "A227270",
+  "mentions": [
+    "A069819"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

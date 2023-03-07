@@ -1,0 +1,22 @@
+{
+  "description": "Perfect squares among 17-gonal numbers A051869(k) = k*(15*k - 13)/2.",
+  "id": "A137878",
+  "mentions": [
+    "A051869",
+    "A137879",
+    "A137880",
+    "A137881"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

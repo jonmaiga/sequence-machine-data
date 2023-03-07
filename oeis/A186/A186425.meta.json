@@ -1,0 +1,22 @@
+{
+  "description": "Antidiagonal sums of A179748.",
+  "id": "A186425",
+  "mentions": [
+    "A001622",
+    "A014176",
+    "A051731",
+    "A098316",
+    "A179748",
+    "A186426"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

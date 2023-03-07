@@ -1,0 +1,27 @@
+{
+  "description": "Inverse function for injection A005187.",
+  "id": "A213714",
+  "mentions": [
+    "A005187",
+    "A046699",
+    "A079559",
+    "A213715",
+    "A213723",
+    "A213724",
+    "A230414",
+    "A233275",
+    "A233277",
+    "A234017"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

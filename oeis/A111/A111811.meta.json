@@ -1,0 +1,24 @@
+{
+  "description": "Column 0 of the matrix logarithm (A111810) of triangle A098539, which shifts columns left and up under matrix square; these terms are the result of multiplying the element in row n by n!.",
+  "id": "A111811",
+  "mentions": [
+    "A002449",
+    "A098539",
+    "A111810",
+    "A111814",
+    "A111843",
+    "A111848",
+    "A111941"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

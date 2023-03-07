@@ -1,0 +1,23 @@
+{
+  "description": "Twin prime pairs concatenated to their average in decimal representation (the greater twin prepended, the lesser appended).",
+  "id": "A268146",
+  "mentions": [
+    "A001097",
+    "A014574",
+    "A095958",
+    "A111875",
+    "A268145"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

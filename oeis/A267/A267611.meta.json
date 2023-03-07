@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle array of coefficients in ascending order of modified polynomials that arise in the study of Erdős-Ko-Rado sets of generators of the hyperbolic quadrics Q+(4n + 1, q).",
+  "id": "A267611",
+  "mentions": [
+    "A000384",
+    "A002378",
+    "A002522",
+    "A178666"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The smallest number beginning with n whose distinct prime factors are the first n primes.",
+  "id": "A225903",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A018802",
+    "A077515",
+    "A077727",
+    "A086558",
+    "A088104",
+    "A109864"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

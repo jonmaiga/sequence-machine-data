@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose digits are in nondecreasing order in bases 8 and 9.",
+  "id": "A329298",
+  "mentions": [
+    "A023750",
+    "A023751",
+    "A329294",
+    "A329295",
+    "A329296",
+    "A329297",
+    "A329299",
+    "A329300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

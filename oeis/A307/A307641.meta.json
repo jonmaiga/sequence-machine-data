@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(i,j=1..i) read by rows which contain the naturally ordered prime-or-one factorization of the row number i.",
+  "id": "A307641",
+  "mentions": [
+    "A014963",
+    "A027746",
+    "A027748",
+    "A100995",
+    "A307662",
+    "A307723",
+    "A307742",
+    "A307743",
+    "A307746"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

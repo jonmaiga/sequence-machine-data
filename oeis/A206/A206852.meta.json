@@ -1,0 +1,22 @@
+{
+  "description": "Numbers N such that N/2 is a square, N/3 is a cube, and N/5 is a fifth power.",
+  "id": "A206852",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000584",
+    "A122971"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

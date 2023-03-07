@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of surjective linear mappings from an n-dimensional vector space over F_2 onto a k-dimensional vector space, n>=0, 0<=k<=n.",
+  "id": "A288853",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A002884",
+    "A006095",
+    "A006096",
+    "A006097",
+    "A006110",
+    "A008279",
+    "A022166",
+    "A022189",
+    "A022190",
+    "A022191",
+    "A022192",
+    "A022193"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

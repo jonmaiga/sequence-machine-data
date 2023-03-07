@@ -1,0 +1,20 @@
+{
+  "description": "The areas of the triangles formed by joining three consecutive primes as vertices on the Ulam spiral.",
+  "id": "A331377",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A214664",
+    "A214665"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

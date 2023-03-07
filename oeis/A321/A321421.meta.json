@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 10*(4^n - 1)/3 + 1.",
+  "id": "A321421",
+  "mentions": [
+    "A000302",
+    "A002450",
+    "A010727",
+    "A086462"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

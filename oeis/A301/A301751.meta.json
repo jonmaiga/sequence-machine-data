@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to choose a rooted partition of each part in a strict rooted partition of n.",
+  "id": "A301751",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A032305",
+    "A063834",
+    "A093637",
+    "A271619",
+    "A281113",
+    "A296118",
+    "A300383",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

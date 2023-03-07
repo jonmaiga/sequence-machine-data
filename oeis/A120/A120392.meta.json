@@ -1,0 +1,20 @@
+{
+  "description": "a(1) is the least k such that p(1) = (k*3)^2 + k*3 - 1 is prime, then a(n+1) is the least k such that (k*p(n))^2 + k*p(n) - 1 = p(n+1) is prime.",
+  "id": "A120392",
+  "mentions": [
+    "A120393",
+    "A120394",
+    "A120395",
+    "A120396"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

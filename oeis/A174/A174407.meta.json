@@ -1,0 +1,18 @@
+{
+  "description": "The number of primitive roots g such that there exists an x with g^x (mod p) = x, where p=prime(n).",
+  "id": "A174407",
+  "mentions": [
+    "A174329",
+    "A174330"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of elements of the group SL(2, Z(n)) with order k, 1 <= k <= A316563(n).",
+  "id": "A316564",
+  "mentions": [
+    "A000056",
+    "A316537",
+    "A316553",
+    "A316563",
+    "A316566",
+    "A316586"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

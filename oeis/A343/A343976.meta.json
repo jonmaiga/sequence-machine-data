@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are the sum of two consecutive terms of A093641.",
+  "id": "A343976",
+  "mentions": [
+    "A093641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

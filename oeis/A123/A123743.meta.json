@@ -1,0 +1,21 @@
+{
+  "description": "Certain Vandermonde determinants with Fibonacci numbers.",
+  "id": "A123743",
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A123742"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

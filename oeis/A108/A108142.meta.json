@@ -1,0 +1,18 @@
+{
+  "description": "a[1] = 1; a[2] = 1; a[3] = 1; a[4] = 1; a[5] = 1; a[6] = 1; for n >= 7, a[n] = 6*a[n - 1] - 5*a[n - 2] - 4*a[n - 3] - 3*a[ n - 4] + 2*a[n - 5] + a[n - 6]; then take absolute values.",
+  "id": "A108142",
+  "mentions": [
+    "A056015",
+    "A056016"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:42:01",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

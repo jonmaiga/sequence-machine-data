@@ -1,0 +1,30 @@
+{
+  "description": "Numbers of rank 2 in the poset of lunar numbers.",
+  "id": "A144175",
+  "mentions": [
+    "A087097",
+    "A133626",
+    "A144171",
+    "A161813",
+    "A171786",
+    "A171787",
+    "A171788",
+    "A171789",
+    "A171794",
+    "A171795",
+    "A171796",
+    "A191752",
+    "A191753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

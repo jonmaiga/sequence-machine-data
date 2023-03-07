@@ -1,0 +1,18 @@
+{
+  "description": "Slowest increasing sequence where a(n)+n is prime.",
+  "id": "A107819",
+  "mentions": [
+    "A014692"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

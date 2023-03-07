@@ -1,0 +1,20 @@
+{
+  "description": "The smallest prime and start of a run of exactly n primes that remain prime after each digit is replaced by its square.",
+  "id": "A335363",
+  "mentions": [
+    "A020449",
+    "A068492"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

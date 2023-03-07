@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least factor among all the products A307720(k) * A307720(k+1) equal to n.",
+  "id": "A348581",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348582"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

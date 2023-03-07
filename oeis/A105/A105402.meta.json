@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers k such that the prime factors of sigma(k) are a subset of the prime factors of k.",
+  "id": "A105402",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A023194",
+    "A027598",
+    "A054027",
+    "A058063",
+    "A175200"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

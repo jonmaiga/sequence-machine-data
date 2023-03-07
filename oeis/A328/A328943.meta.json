@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2 + (n mod 4).",
+  "id": "A328943",
+  "mentions": [
+    "A010873",
+    "A010883",
+    "A130482"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:57",
+    "offset": 0,
+    "size": 130,
+    "source": "joeis"
+  }
+}

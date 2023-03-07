@@ -1,0 +1,23 @@
+{
+  "description": "Pentaphobe or 5-phobe numbers: integers that are not pentaphile numbers.",
+  "id": "A348520",
+  "mentions": [
+    "A019532",
+    "A160811",
+    "A348517",
+    "A348518",
+    "A348519"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that the orderly concatenation of the n successive powers of p yields a prime number; a(n)=0 if n is a multiple of 6.",
+  "id": "A292163",
+  "mentions": [
+    "A047253"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

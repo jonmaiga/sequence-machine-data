@@ -1,0 +1,20 @@
+{
+  "description": "Random walk determined by the binary digits of the Dottie number, A003957.",
+  "id": "A182101",
+  "mentions": [
+    "A003957",
+    "A121967",
+    "A166006"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

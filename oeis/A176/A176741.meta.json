@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci-Chebyshev sequence depending on rabbit sequence A005614.",
+  "id": "A176741",
+  "mentions": [
+    "A005614",
+    "A053602",
+    "A078416"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Table of number of occurrences in n of each decimal digit from 0 to 9.",
+  "id": "A100910",
+  "mentions": [
+    "A010879",
+    "A055641",
+    "A055642",
+    "A059995",
+    "A100909",
+    "A102683",
+    "A268643"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of unordered ways of making change for n dollars using coins of denominations 1, 5, 10, and 25.",
+  "id": "A160551",
+  "mentions": [
+    "A001299"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:13",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

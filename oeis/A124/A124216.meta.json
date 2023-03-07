@@ -1,0 +1,24 @@
+{
+  "description": "Generalized Pascal triangle.",
+  "id": "A124216",
+  "mentions": [
+    "A001263",
+    "A006012",
+    "A007318",
+    "A056241",
+    "A124217"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:29:35",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

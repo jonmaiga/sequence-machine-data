@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3n)!/(n!(n+1)!(n+2)!).",
+  "id": "A161581",
+  "mentions": [
+    "A000108",
+    "A006480"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

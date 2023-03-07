@@ -1,0 +1,40 @@
+{
+  "description": "Square array read by antidiagonals: to obtain A(i,j), replace each prime factor prime(k) in prime factorization of j with prime(k+i).",
+  "id": "A242378",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A001477",
+    "A002262",
+    "A003961",
+    "A006094",
+    "A025581",
+    "A030078",
+    "A045966",
+    "A045968",
+    "A045970",
+    "A049084",
+    "A065091",
+    "A122111",
+    "A241909",
+    "A242379",
+    "A242415",
+    "A242419",
+    "A246278",
+    "A246676",
+    "A246678",
+    "A246684"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

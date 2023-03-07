@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of f(-x, -x^2) * f(-x^10, -x^20) / f(-x^2, -x^8) in powers of x where f(, ) is Ramanujan's general theta function.",
+  "id": "A113430",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003114",
+    "A010054",
+    "A010815",
+    "A057538",
+    "A093722",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:05",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

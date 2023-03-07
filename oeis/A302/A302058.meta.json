@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not square pyramidal numbers.",
+  "id": "A302058",
+  "mentions": [
+    "A000037",
+    "A000330",
+    "A014132",
+    "A145397",
+    "A253903"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:03",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of the n-th Jacobsthal number, A001045(n).",
+  "id": "A271314",
+  "mentions": [
+    "A001045",
+    "A002587",
+    "A005420",
+    "A060385",
+    "A129738",
+    "A264137"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

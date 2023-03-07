@@ -1,0 +1,19 @@
+{
+  "description": "Consider pairs of numbers m,n such that UnitaryPhi(m)=UnitaryPhi(n)= (3*m^(1/2)-2*n^(1/2))^2, m",
+  "id": "A144651",
+  "mentions": [
+    "A047994",
+    "A144648"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

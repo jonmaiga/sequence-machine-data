@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled graphs with n nodes and bipartite dimension (or biclique covering number) k, 0 <= k < n.",
+  "id": "A355334",
+  "mentions": [
+    "A000012",
+    "A000088",
+    "A002620",
+    "A355333",
+    "A355335",
+    "A355336"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

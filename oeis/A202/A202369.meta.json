@@ -1,0 +1,20 @@
+{
+  "description": "LCM of denominators of the coefficients of polynomials Q^(4)_m(n)defined by the recursion Q^(4)_0(n)=1; for m>=1,Q^(4)_m(n)=sum{i=1,...,n}i^4*Q^(4)_(m-1)(i).",
+  "id": "A202369",
+  "mentions": [
+    "A053657",
+    "A175669",
+    "A202367",
+    "A202368"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of s(v) in f(u), where H is Heinz number, f is forgotten symmetric functions, and s is Schur functions.",
+  "id": "A321894",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A008480",
+    "A056239",
+    "A082733",
+    "A124795",
+    "A153452",
+    "A296188",
+    "A300121",
+    "A317552",
+    "A321742",
+    "A321764",
+    "A321765",
+    "A321892"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

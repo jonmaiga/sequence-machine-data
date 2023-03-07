@@ -1,0 +1,26 @@
+{
+  "description": "Number of strict integer partitions of n using 1 and numbers that are not perfect powers.",
+  "id": "A323089",
+  "mentions": [
+    "A001597",
+    "A007916",
+    "A052410",
+    "A087897",
+    "A276431",
+    "A303707",
+    "A305630",
+    "A323088",
+    "A323090"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

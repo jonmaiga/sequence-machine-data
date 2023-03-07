@@ -1,0 +1,19 @@
+{
+  "description": "Let A098550(n) be prime. If A098550(n+1) is even, then suppose A098550(n+3), A098550(n+5), ..., A098550(n+(2*r-1)) are also even, while A098550(n+(2*r+1)) is odd. Then a(n)= A098550(n+(2*r-1))/2; if A098550(n+1) is odd, then a(n)=0.",
+  "id": "A252838",
+  "mentions": [
+    "A098550",
+    "A252837"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

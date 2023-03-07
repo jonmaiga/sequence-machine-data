@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A002034(n) = A109631(n).",
+  "id": "A109666",
+  "mentions": [
+    "A002034",
+    "A109631"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

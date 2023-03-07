@@ -1,0 +1,20 @@
+{
+  "description": "Number of periods of reduced indefinite binary quadratic forms with discriminant D(n) = A079896(n).",
+  "id": "A256945",
+  "mentions": [
+    "A079896",
+    "A087048"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

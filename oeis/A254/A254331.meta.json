@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of gamma_1(1/3), the first generalized Stieltjes constant at 1/3 (negated).",
+  "id": "A254331",
+  "mentions": [
+    "A001620",
+    "A082633",
+    "A251866",
+    "A254327",
+    "A254345",
+    "A254347",
+    "A254348",
+    "A254349",
+    "A254350",
+    "A255188",
+    "A255189"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

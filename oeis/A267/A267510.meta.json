@@ -1,0 +1,18 @@
+{
+  "description": "Integers in A267509 such that (B0 + B1 + ... + Bm) is congruent to 0 mod m.",
+  "id": "A267510",
+  "mentions": [
+    "A267509"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

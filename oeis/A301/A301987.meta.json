@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions whose product is equal to their sum.",
+  "id": "A301987",
+  "mentions": [
+    "A001055",
+    "A002865",
+    "A003963",
+    "A056239",
+    "A276024",
+    "A284640",
+    "A296150",
+    "A299701",
+    "A301957",
+    "A301988"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

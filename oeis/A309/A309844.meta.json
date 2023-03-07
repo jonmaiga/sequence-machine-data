@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form n^4 + n^2 + 3.",
+  "id": "A309844",
+  "mentions": [
+    "A017221",
+    "A027753",
+    "A037896",
+    "A049423",
+    "A182344",
+    "A182345"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:49",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

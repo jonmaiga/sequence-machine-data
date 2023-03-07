@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the least x satisfying x^2+4x+3=e^x.",
+  "id": "A201924",
+  "mentions": [
+    "A201741",
+    "A201925",
+    "A201926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:34:47",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

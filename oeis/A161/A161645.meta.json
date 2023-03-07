@@ -1,0 +1,32 @@
+{
+  "description": "First differences of A161644: number of new ON cells at generation n of the triangular cellular automaton described in A161644.",
+  "id": "A161645",
+  "mentions": [
+    "A000695",
+    "A003945",
+    "A005448",
+    "A011782",
+    "A139250",
+    "A139251",
+    "A160120",
+    "A160161",
+    "A161206",
+    "A161207",
+    "A161644",
+    "A182633",
+    "A295559",
+    "A295560",
+    "A342271"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

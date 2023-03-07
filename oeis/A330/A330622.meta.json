@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative terms such that for any n > 0 and k > 0, a(n+2*k) <> gcd(a(n), a(n+k)).",
+  "id": "A330622",
+  "mentions": [
+    "A003278",
+    "A330267",
+    "A330623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

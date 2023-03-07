@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes of the form m*k such that (m-1)/(k+1)=prime.",
+  "id": "A178564",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A178379"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

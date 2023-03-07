@@ -1,0 +1,19 @@
+{
+  "description": "Let K_n = prefix of length n of Kolakoski sequence A000002; a(n) is the length of the longest palindromic suffix of K_n.",
+  "id": "A307095",
+  "mentions": [
+    "A000002",
+    "A220080"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

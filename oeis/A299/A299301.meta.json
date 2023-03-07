@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A300000.",
+  "id": "A299301",
+  "mentions": [
+    "A300000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

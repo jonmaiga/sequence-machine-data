@@ -1,0 +1,19 @@
+{
+  "description": "n such that all n - p are practical numbers where p is a practical number in range n/2 <= p < n.",
+  "id": "A321152",
+  "mentions": [
+    "A005153",
+    "A320447"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

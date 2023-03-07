@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the sum of the distinct prime divisors equals three times the largest prime divisor.",
+  "id": "A200090",
+  "mentions": [
+    "A200070"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

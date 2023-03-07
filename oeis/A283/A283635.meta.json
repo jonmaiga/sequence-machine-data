@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X n 0..1 arrays with no 1 equal to more than one of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements.",
+  "id": "A283635",
+  "mentions": [
+    "A283634"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

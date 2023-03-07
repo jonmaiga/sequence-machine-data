@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n such that neither the run-lengths nor the negated run-lengths are unimodal.",
+  "id": "A332640",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A025065",
+    "A059204",
+    "A100883",
+    "A115981",
+    "A181819",
+    "A328509",
+    "A332280",
+    "A332281",
+    "A332282",
+    "A332284",
+    "A332577",
+    "A332578",
+    "A332579",
+    "A332638",
+    "A332639",
+    "A332641",
+    "A332642",
+    "A332643",
+    "A332669",
+    "A332726",
+    "A332727",
+    "A332745",
+    "A332746"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

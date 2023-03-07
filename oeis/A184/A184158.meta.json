@@ -1,0 +1,20 @@
+{
+  "description": "The sum of the odd distances in the rooted tree with Matula-Goebel number n.",
+  "id": "A184158",
+  "mentions": [
+    "A184157",
+    "A196051",
+    "A196059"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial alternating sums of the reciprocals of the Dedekind psi function (A001615).",
+  "id": "A357821",
+  "mentions": [
+    "A001615",
+    "A173290",
+    "A211178",
+    "A357820"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^3 + reversal of digits of n^3.",
+  "id": "A319603",
+  "mentions": [
+    "A000578",
+    "A004165",
+    "A056964",
+    "A061226",
+    "A072384"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

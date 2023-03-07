@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n! + 1 is a Chen prime. n! + 1 is then called a factorial Chen prime.",
+  "id": "A109132",
+  "mentions": [
+    "A002981",
+    "A109611"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

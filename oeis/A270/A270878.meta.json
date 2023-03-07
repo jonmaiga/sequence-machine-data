@@ -1,0 +1,22 @@
+{
+  "description": "Record differences between record prime gaps, that is, terms of A053695 that set a record.",
+  "id": "A270878",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A005250",
+    "A053695"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

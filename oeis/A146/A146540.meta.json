@@ -1,0 +1,19 @@
+{
+  "description": "The PolyLog functional part of A008292 (the Eulerian numbers) is treated as a curvature to give a set of polynomial triangle sequence coefficients: p(x,n)=Sum[A008292(n,m)*x^(m-1),{m,0,n}]; q(x,n)=k from Solve[FullSimplify[ExpandAll[p[x, n]/(x - 1)^n]] - (1 + k/x^2) == 0, k].",
+  "id": "A146540",
+  "mentions": [
+    "A008292",
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

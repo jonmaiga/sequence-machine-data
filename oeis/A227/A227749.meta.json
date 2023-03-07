@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X5 binary array having determinant equal to one",
+  "id": "A227749",
+  "mentions": [
+    "A227751"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of inverse of number triangle A(n,k) = 1/Euler_phi(n+1) if k <= n <= 2k, 0 otherwise.",
+  "id": "A127772",
+  "mentions": [
+    "A127771"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

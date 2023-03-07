@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the next perfect power after the earliest occurrence of n consecutive perfect powers, all of which are squares with exponents equal to 2.",
+  "id": "A340695",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A111245",
+    "A340661",
+    "A340662",
+    "A340663",
+    "A340664"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

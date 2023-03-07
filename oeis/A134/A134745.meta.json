@@ -1,0 +1,26 @@
+{
+  "description": "Numbers which are not permutational numbers A134640.",
+  "id": "A134745",
+  "mentions": [
+    "A134640",
+    "A134641",
+    "A134642",
+    "A134643",
+    "A134644",
+    "A134703",
+    "A134741",
+    "A134742",
+    "A134743",
+    "A134744"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

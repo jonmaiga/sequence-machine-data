@@ -1,0 +1,26 @@
+{
+  "description": "A coefficient tree from the list partition transform relating A111884, A084358, A000262, A094587, A128229 and A131758.",
+  "id": "A131202",
+  "mentions": [
+    "A000262",
+    "A084358",
+    "A094587",
+    "A111884",
+    "A128229",
+    "A131758",
+    "A132013",
+    "A133314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n not congruent to 1 mod 6 and that are not perfect powers such that for all k >= 1 the numbers n*4^k - 1 are composite.",
+  "id": "A251757",
+  "mentions": [
+    "A101036",
+    "A251057"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

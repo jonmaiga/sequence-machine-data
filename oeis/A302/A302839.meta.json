@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, A000120(a(n)) <= A053735(a(n+1)).",
+  "id": "A302839",
+  "mentions": [
+    "A000120",
+    "A053735",
+    "A302840"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

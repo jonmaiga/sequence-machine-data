@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are sums of two or more distinct 4th powers of primes.",
+  "id": "A193411",
+  "mentions": [
+    "A000040",
+    "A000583",
+    "A030514",
+    "A094479",
+    "A130833",
+    "A192926"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

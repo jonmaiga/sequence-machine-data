@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=middle sidelength of n-th triangle listed at A107572.",
+  "id": "A107574",
+  "mentions": [
+    "A005044",
+    "A070080",
+    "A107572",
+    "A107573",
+    "A107575",
+    "A107576",
+    "A107577"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

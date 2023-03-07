@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes that are the sum of five successive semiprimes.",
+  "id": "A254712",
+  "mentions": [
+    "A001358",
+    "A092192",
+    "A131610",
+    "A158339"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

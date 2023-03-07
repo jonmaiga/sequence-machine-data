@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T: T(n,k) = number of subset S of {1,2,...,n+1} such that |S| > 1 and max(S*) = k, where S* is the set {x(2)-x(1), x(3)-x(2), ..., x(h+1)-x(h)} when the elements of S are written as x(1) < x(2) < ... < x(h+1).",
+  "id": "A255874",
+  "mentions": [
+    "A000217",
+    "A001787",
+    "A014162"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

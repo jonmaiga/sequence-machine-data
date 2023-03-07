@@ -1,0 +1,21 @@
+{
+  "description": "Ceiling(4*Pi*n^2).",
+  "id": "A135971",
+  "mentions": [
+    "A066643",
+    "A066644",
+    "A066645",
+    "A135039"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:25",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that there exists an x!=n that makes {x,x,x,n} an amicable multiset.",
+  "id": "A259305",
+  "mentions": [
+    "A027687",
+    "A036471",
+    "A259302",
+    "A259303",
+    "A259304",
+    "A259306",
+    "A259307"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

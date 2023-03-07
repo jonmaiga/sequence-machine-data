@@ -1,0 +1,22 @@
+{
+  "description": "Number of set partitions of [2n] in which the size of the first block is n.",
+  "id": "A297926",
+  "mentions": [
+    "A000110",
+    "A056857",
+    "A056860",
+    "A276961",
+    "A297924"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

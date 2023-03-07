@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are equal to the sum of descending numbers raised to their digits' powers.",
+  "id": "A282839",
+  "mentions": [
+    "A032799",
+    "A035138"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

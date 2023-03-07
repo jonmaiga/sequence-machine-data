@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3Xn 0..n arrays with every repeated value in every row and column unequal to the previous repeated value, and new values introduced in row-major sequential order.",
+  "id": "A268012",
+  "mentions": [
+    "A268009"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

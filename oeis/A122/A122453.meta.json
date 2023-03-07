@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array related to A122402 as A079025 relates to A122172; sums A079139 values associated with cyclic partitions.",
+  "id": "A122453",
+  "mentions": [
+    "A002865",
+    "A074139",
+    "A079025",
+    "A079139",
+    "A122172",
+    "A122402"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

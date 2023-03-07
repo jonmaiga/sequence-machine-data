@@ -1,0 +1,28 @@
+{
+  "description": "Number of labeled simple graphs with n vertices and spanning edge-connectivity 2.",
+  "id": "A327146",
+  "mentions": [
+    "A006129",
+    "A327069",
+    "A327070",
+    "A327071",
+    "A327102",
+    "A327108",
+    "A327109",
+    "A327111",
+    "A327129",
+    "A327130",
+    "A327144"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

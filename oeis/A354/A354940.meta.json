@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n, k) = A354930(n, k)/n, read by falling antidiagonals.",
+  "id": "A354940",
+  "mentions": [
+    "A000961",
+    "A061345",
+    "A137827",
+    "A345992",
+    "A354930",
+    "A354932",
+    "A354934",
+    "A354935",
+    "A354936",
+    "A354937",
+    "A354938",
+    "A354939"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

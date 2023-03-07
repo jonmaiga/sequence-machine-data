@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of three third powers in nine or more ways.",
+  "id": "A345119",
+  "mentions": [
+    "A025337",
+    "A344750",
+    "A345087",
+    "A345120",
+    "A345121",
+    "A345146"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Fully multiplicative with a(p) = p*(p+1)/2 for prime p.",
+  "id": "A133205",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A003958",
+    "A003959",
+    "A003960",
+    "A003961",
+    "A003964",
+    "A034953"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

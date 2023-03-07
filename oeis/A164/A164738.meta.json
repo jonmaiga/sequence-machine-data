@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Row 0 = {2}; left half of row n+1 = row n, right half = row n reversed with each term replaced by the next prime.",
+  "id": "A164738",
+  "mentions": [
+    "A000040",
+    "A007443",
+    "A088696"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

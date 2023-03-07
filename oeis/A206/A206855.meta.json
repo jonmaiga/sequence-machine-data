@@ -1,0 +1,21 @@
+{
+  "description": "The sum of the degree of each root node over all rooted labeled trees on n nodes.",
+  "id": "A206855",
+  "mentions": [
+    "A000169",
+    "A053506",
+    "A206429"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

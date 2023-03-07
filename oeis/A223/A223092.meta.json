@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: let T(n,k) (for n >= 0, 0 <= k <= n) be the number of walks from (0,0) to (n,k) using steps (1,1), (1,0), (1,-1) and (0,-1); n-th row of triangle gives T(n,n), T(n,n-1), ..., T(n,0).",
+  "id": "A223092",
+  "mentions": [
+    "A052709",
+    "A064641",
+    "A071943"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

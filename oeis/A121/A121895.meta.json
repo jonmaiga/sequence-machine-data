@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into 4 summands a>=b>=c>=d>0 with integer a/b, b/c and c/d.",
+  "id": "A121895",
+  "mentions": [
+    "A003238",
+    "A026810",
+    "A049822",
+    "A122934",
+    "A122935"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that n and n+2 are both divisible by exactly 4 primes (counted with multiplicity).",
+  "id": "A180150",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A001359",
+    "A014613",
+    "A014614",
+    "A033987",
+    "A092207",
+    "A101637",
+    "A114106",
+    "A180117"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

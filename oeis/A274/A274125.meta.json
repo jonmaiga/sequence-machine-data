@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having digits in nondecreasing order and sum of digits greater than or equal to the product of digits.",
+  "id": "A274125",
+  "mentions": [
+    "A009994",
+    "A011540",
+    "A062996",
+    "A254621",
+    "A261370"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

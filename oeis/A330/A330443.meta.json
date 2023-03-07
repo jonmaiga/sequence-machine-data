@@ -1,0 +1,22 @@
+{
+  "description": "Least m >= 0 such that (n+m)(n+m+1)/2 - n(n-3)/2 is prime, or -1 if no such m exists.",
+  "id": "A330443",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A329946",
+    "A330501",
+    "A330502"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

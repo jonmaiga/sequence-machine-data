@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs of set partitions of {1,2,...,n} whose meet is {{1},{2},...,{n}} and join is {{1,2,...,n}}.",
+  "id": "A181939",
+  "mentions": [
+    "A059849",
+    "A060639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of alt-unary-binary trees with n nodes.",
+  "id": "A355911",
+  "mentions": [
+    "A355904",
+    "A355910",
+    "A355912",
+    "A355913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

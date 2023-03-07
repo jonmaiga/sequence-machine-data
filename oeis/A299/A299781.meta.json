@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,m) = number of k-uniform tilings having m different arrangements of polygons about their vertices, for k = 1..n, with 1 <= m <= n.",
+  "id": "A299781",
+  "mentions": [
+    "A010850",
+    "A068599",
+    "A068600",
+    "A299780",
+    "A299782"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

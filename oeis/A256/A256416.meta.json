@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers with primes p replaced by 2p and also 3p replaced by 2p, then sorted into increasing order.",
+  "id": "A256416",
+  "mentions": [
+    "A064413",
+    "A256415",
+    "A256417"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

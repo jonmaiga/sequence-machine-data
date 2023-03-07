@@ -1,0 +1,25 @@
+{
+  "description": "Repeat 2^n n times.",
+  "id": "A140513",
+  "mentions": [
+    "A000079",
+    "A018900",
+    "A059268",
+    "A111650",
+    "A137688",
+    "A173786",
+    "A173787"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:49",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

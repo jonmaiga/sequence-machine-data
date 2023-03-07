@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the convergents of the continued fraction for L(2, chi3), where L(s, chi3) is the Dirichlet L-function for the non-principal character modulo 3.",
+  "id": "A153067",
+  "mentions": [
+    "A086724",
+    "A102283",
+    "A153066",
+    "A153068"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": -2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

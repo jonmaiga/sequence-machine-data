@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of metallic ratio for N = 14.",
+  "id": "A351898",
+  "mentions": [
+    "A001622",
+    "A010503",
+    "A014166",
+    "A014176",
+    "A077444",
+    "A098316",
+    "A098317",
+    "A098318",
+    "A157214",
+    "A174968",
+    "A176398",
+    "A176439",
+    "A176458",
+    "A176522",
+    "A176537",
+    "A244593",
+    "A268683"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

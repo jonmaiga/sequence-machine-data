@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: Sprague-Grundy values G_G(n,k) (n>=1, k>=1) for Grossman's game.",
+  "id": "A323474",
+  "mentions": [
+    "A323473"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

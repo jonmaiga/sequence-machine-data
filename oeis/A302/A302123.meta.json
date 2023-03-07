@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 6*k^k - 5 is prime.",
+  "id": "A302123",
+  "mentions": [
+    "A301521",
+    "A302090",
+    "A302124"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

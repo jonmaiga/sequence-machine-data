@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(sqrt(F(n+2)^2 + F(n)^2)), where F(n) = A000045(n).",
+  "id": "A245271",
+  "mentions": [
+    "A000045",
+    "A014742",
+    "A069921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

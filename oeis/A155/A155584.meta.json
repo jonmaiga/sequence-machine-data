@@ -1,0 +1,24 @@
+{
+  "description": "Array, read by antidiagonals, of n-th strobogrammatic number in base k.",
+  "id": "A155584",
+  "mentions": [
+    "A000787",
+    "A006072",
+    "A006995",
+    "A007597",
+    "A068188"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Similar to A137284, but considering Sum{ k = 1,2,3,... } 5^(-nk).",
+  "id": "A136275",
+  "mentions": [
+    "A137284"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

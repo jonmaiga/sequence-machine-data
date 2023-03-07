@@ -1,0 +1,28 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts >= 7.",
+  "id": "A339108",
+  "mentions": [
+    "A017901",
+    "A025152",
+    "A032020",
+    "A032022",
+    "A185327",
+    "A339101",
+    "A339102",
+    "A339103",
+    "A339104",
+    "A339109",
+    "A339110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

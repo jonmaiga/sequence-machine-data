@@ -1,0 +1,22 @@
+{
+  "description": "Divide primes in groups with 2n elements and add together.",
+  "id": "A109726",
+  "mentions": [
+    "A007504",
+    "A109722",
+    "A109725",
+    "A322420"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

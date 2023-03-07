@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: nonzero coefficients of Swinnerton-Dyer polynomials.",
+  "id": "A153731",
+  "mentions": [
+    "A247209",
+    "A354913"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

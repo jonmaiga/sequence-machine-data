@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of the largest squarefree practical number comprising n prime factors.",
+  "id": "A267422",
+  "mentions": [
+    "A005117",
+    "A005153",
+    "A265501"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

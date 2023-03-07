@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(3*Pi/2), the value of an oscillatory integral.",
+  "id": "A255984",
+  "mentions": [
+    "A197723"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

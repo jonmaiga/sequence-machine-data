@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose prime indices are not prime and already belong to the sequence.",
+  "id": "A322386",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A007097",
+    "A079000",
+    "A079254",
+    "A112798",
+    "A214577",
+    "A276625",
+    "A291636",
+    "A304360",
+    "A320628",
+    "A322385"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

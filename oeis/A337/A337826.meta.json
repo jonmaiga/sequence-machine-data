@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = (1/n) * Sum_{k=1..n} binomial(n,k)^2 * k^4 * a(n-k).",
+  "id": "A337826",
+  "mentions": [
+    "A023998",
+    "A279358",
+    "A336227",
+    "A337591",
+    "A337825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

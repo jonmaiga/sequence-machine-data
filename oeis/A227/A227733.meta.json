@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sigma(2*n)^2 - sigma(n)^2.",
+  "id": "A227733",
+  "mentions": [
+    "A000203",
+    "A227732"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

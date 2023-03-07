@@ -1,0 +1,20 @@
+{
+  "description": "Squares in the Thue-Morse word A001285.",
+  "id": "A225186",
+  "mentions": [
+    "A001285",
+    "A010060",
+    "A020060",
+    "A225188"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

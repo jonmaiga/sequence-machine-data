@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the helm graph G(n) obtained from a wheel graph with n spokes by adjoining a pendant edge at each node of the cycle (n>=3, k>=1). The entries in row n are the coefficients of the corresponding Wiener polynomial.",
+  "id": "A192031",
+  "mentions": [
+    "A014105",
+    "A049598",
+    "A192026"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The greatest integer k such that (1+1/n)^k <= 2.",
+  "id": "A175406",
+  "mentions": [
+    "A094500"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

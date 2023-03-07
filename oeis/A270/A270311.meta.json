@@ -1,0 +1,18 @@
+{
+  "description": "Indices of primes ending with the same decimal digit as the previous or next prime.",
+  "id": "A270311",
+  "mentions": [
+    "A270310"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

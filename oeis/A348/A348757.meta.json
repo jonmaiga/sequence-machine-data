@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the area of a regular pentagram inscribed in a unit-radius circle.",
+  "id": "A348757",
+  "mentions": [
+    "A001622",
+    "A019845",
+    "A019916",
+    "A019952",
+    "A019970",
+    "A094874",
+    "A104955",
+    "A134974",
+    "A179050",
+    "A188593",
+    "A344172"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

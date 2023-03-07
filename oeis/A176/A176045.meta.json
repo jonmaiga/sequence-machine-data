@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n-1 and 2*n-1 are both prime.",
+  "id": "A176045",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A124485",
+    "A156592",
+    "A176043",
+    "A194593"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:37",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

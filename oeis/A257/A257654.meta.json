@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes where the outdegrees (branching factors) of adjacent nodes differ by exactly one.",
+  "id": "A257654",
+  "mentions": [
+    "A000081",
+    "A253244",
+    "A259863",
+    "A260353",
+    "A260403"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

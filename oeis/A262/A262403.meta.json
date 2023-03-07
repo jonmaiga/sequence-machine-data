@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write pi(T(n)) = pi(T(k)) + pi(T(m)) with 1 < k < m < n, where T(x) is the triangular number x*(x+1)/2, and pi(x) is the number of primes not exceeding x.",
+  "id": "A262403",
+  "mentions": [
+    "A000217",
+    "A000720",
+    "A111208",
+    "A262408",
+    "A262409",
+    "A262439",
+    "A262446"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

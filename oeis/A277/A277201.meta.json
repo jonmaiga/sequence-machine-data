@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (p^4 + 1)/2, where p is prime.",
+  "id": "A277201",
+  "mentions": [
+    "A096169",
+    "A096170",
+    "A176116"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

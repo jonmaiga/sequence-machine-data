@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*zeta(3/2)^4/(3*sqrt(2*Pi)*zeta(3)).",
+  "id": "A355977",
+  "mentions": [
+    "A000005",
+    "A002117",
+    "A019727",
+    "A078434",
+    "A355976"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

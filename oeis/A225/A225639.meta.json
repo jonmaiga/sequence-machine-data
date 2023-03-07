@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the index of the first row in column n of A225640 where A226055(n) occurs.",
+  "id": "A225639",
+  "mentions": [
+    "A225630",
+    "A225632",
+    "A225638",
+    "A225640",
+    "A225642",
+    "A225644",
+    "A225654",
+    "A226055",
+    "A226056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimal dominating sets in the n X n grid graph.",
+  "id": "A290382",
+  "mentions": [
+    "A133515",
+    "A286847",
+    "A286869"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

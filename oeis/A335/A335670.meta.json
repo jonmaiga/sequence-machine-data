@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A014448(m) == 4 (mod m).",
+  "id": "A335670",
+  "mentions": [
+    "A005845",
+    "A006497",
+    "A014448",
+    "A330276",
+    "A335669",
+    "A335671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

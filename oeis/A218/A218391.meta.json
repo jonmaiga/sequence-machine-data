@@ -1,0 +1,17 @@
+{
+  "description": "Let k be the n-th odd composite, then a(n) is the smallest w*x such that w + x = (k-1)/2, y + z = (k+1)/2, and w*x = y*z.",
+  "id": "A218391",
+  "mentions": [
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

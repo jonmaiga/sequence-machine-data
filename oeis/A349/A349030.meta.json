@@ -1,0 +1,27 @@
+{
+  "description": "Lucas-Carmichael numbers with 11 prime factors.",
+  "id": "A349030",
+  "mentions": [
+    "A006972",
+    "A069272",
+    "A216925",
+    "A216926",
+    "A216927",
+    "A216928",
+    "A217002",
+    "A217003",
+    "A217091",
+    "A349028",
+    "A349029"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

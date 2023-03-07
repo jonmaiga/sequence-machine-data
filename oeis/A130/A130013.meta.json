@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+647)^2 = y^2.",
+  "id": "A130013",
+  "mentions": [
+    "A001652",
+    "A066436",
+    "A118673",
+    "A118674",
+    "A129836",
+    "A156035",
+    "A159641",
+    "A159642",
+    "A159643"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:59:15",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

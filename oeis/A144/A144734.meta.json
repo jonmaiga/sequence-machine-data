@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, A054533 * transpose(A101688) (matrix product) provided A101688 is read as a square array by antidiagonals upwards.",
+  "id": "A144734",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A054533",
+    "A101688",
+    "A157658"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

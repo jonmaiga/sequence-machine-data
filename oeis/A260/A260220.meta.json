@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetry-allowed, linearly-independent terms at n-th order in the expansion of T1 x t1 rovibrational perturbation matrix H(Jx,Jy,Jz).",
+  "id": "A260220",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001399",
+    "A260253"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:03",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

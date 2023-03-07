@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges of Johnson solids in the order given by Johnson.",
+  "id": "A242732",
+  "mentions": [
+    "A242731",
+    "A242733"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

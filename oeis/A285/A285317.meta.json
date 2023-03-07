@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree numbers n for which A019565(n) < n.",
+  "id": "A285317",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A019565",
+    "A048675",
+    "A285315",
+    "A285318",
+    "A285319",
+    "A285332"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

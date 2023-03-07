@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that tau(k) and tau(k+2) are both prime, where tau is the number of divisors function (the lesser of twin prime pairs are excluded).",
+  "id": "A343495",
+  "mentions": [
+    "A000005",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

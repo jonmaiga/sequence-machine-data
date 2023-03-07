@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes < Fibonacci(n).",
+  "id": "A182564",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A006880",
+    "A007053",
+    "A028505",
+    "A038107",
+    "A040014"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

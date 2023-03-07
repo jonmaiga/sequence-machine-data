@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < g < prime(n): g is not only a primitive root modulo prime(n) but also a partition number given by A000041}|.",
+  "id": "A241504",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A237121",
+    "A239957",
+    "A239963",
+    "A241476",
+    "A241492",
+    "A241516",
+    "A241568"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of divisors of n which are not also differences between consecutive divisors, minus the number of differences between consecutive divisors of n which are not also divisors of n. Here the differences are counted with repetition if they occur more than once.",
+  "id": "A360119",
+  "mentions": [
+    "A000005",
+    "A060764",
+    "A088722",
+    "A088725",
+    "A360118",
+    "A360129"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

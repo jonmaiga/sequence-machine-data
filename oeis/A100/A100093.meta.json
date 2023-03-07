@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A100092(n^2+1).",
+  "id": "A100093",
+  "mentions": [
+    "A100092",
+    "A100094"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

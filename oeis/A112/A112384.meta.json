@@ -1,0 +1,19 @@
+{
+  "description": "A self-descriptive fractal sequence: the sequence contains every positive integer. If the first occurrence of each integer is deleted from the sequence, the resulting sequence is the same is the original (this process may be called \"upper trimming\").",
+  "id": "A112384",
+  "mentions": [
+    "A112377",
+    "A112382",
+    "A112383"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

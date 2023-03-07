@@ -1,0 +1,33 @@
+{
+  "description": "Number of compositions of n that are proper powers of Lyndon words.",
+  "id": "A298971",
+  "mentions": [
+    "A000005",
+    "A000031",
+    "A000740",
+    "A000961",
+    "A001045",
+    "A008965",
+    "A019536",
+    "A034691",
+    "A051953",
+    "A052823",
+    "A059966",
+    "A060223",
+    "A178472",
+    "A185700",
+    "A296302",
+    "A296373"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

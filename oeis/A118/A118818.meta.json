@@ -1,0 +1,19 @@
+{
+  "description": "Primes p for which there are more primitive roots below p/2 than above p/2.",
+  "id": "A118818",
+  "mentions": [
+    "A128859",
+    "A172480",
+    "A172490"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: 1 / AGM(1-12*x, sqrt((1-4*x)*(1-36*x))).",
+  "id": "A246876",
+  "mentions": [
+    "A081671",
+    "A168597",
+    "A246467"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(2*n) = 1 + 6*n, a(2*n+1) = A165367(n).",
+  "id": "A176672",
+  "mentions": [
+    "A060819",
+    "A061038",
+    "A145979",
+    "A165367",
+    "A176327",
+    "A176592"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:11",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

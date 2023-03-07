@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of first n numbers of the lower Wythoff sequence.",
+  "id": "A132935",
+  "mentions": [
+    "A000201",
+    "A007908",
+    "A019518"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

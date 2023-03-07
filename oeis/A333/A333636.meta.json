@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest least part of a partition of n into prime parts which does not divide n, or 0 if no such prime exists.",
+  "id": "A333636",
+  "mentions": [
+    "A001043",
+    "A331634",
+    "A333238",
+    "A333365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: the n-th row lists the number of (n-1)-dimensional cells in the convex regular n-dimensional polytopes in ascending order, n >= 3.",
+  "id": "A308875",
+  "mentions": [
+    "A000079",
+    "A005843",
+    "A053016",
+    "A063924"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

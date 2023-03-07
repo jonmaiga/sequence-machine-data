@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of lim_{n->infinity} (Product_{k=1..n} p(k)^2 / Product_{k=1..n} (p(k)^2 - 1)) where p(k) = A167135(k) are the primes with p mod 12 != 1.",
+  "id": "A333239",
+  "mentions": [
+    "A167135",
+    "A301430",
+    "A333240",
+    "A333304"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

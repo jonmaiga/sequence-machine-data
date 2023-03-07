@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) * (1 + a(n-2)/a(n-4)), a(0) = a(1) = a(2) = a(3) = 1.",
+  "id": "A253832",
+  "mentions": [
+    "A005831",
+    "A253853"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

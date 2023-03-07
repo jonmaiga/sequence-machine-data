@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (eta(q^5) * eta(q^10) / (eta(q) * eta(q^2)))^2 in powers of q.",
+  "id": "A227213",
+  "mentions": [
+    "A132041"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

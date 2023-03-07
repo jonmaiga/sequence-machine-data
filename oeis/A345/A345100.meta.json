@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^floor(n/k).",
+  "id": "A345100",
+  "mentions": [
+    "A031971",
+    "A055225",
+    "A344551",
+    "A345098"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

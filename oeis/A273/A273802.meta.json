@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers formed by successively prepending prime numbers to 3.",
+  "id": "A273802",
+  "mentions": [
+    "A240563"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

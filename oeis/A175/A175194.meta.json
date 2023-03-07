@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest factorial such that (the n-th prime)+a(n) is prime, or -1 if no such prime exists..",
+  "id": "A175194",
+  "mentions": [
+    "A000040",
+    "A082470",
+    "A092789",
+    "A175193"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

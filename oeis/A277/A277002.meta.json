@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of an asymptotic series for the Gamma function (odd power series).",
+  "id": "A277002",
+  "mentions": [
+    "A277000",
+    "A277001",
+    "A277003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

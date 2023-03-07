@@ -1,0 +1,26 @@
+{
+  "description": "A(n, k) is the k-th number b > 1 such that b^(prime(n+i)-1) == 1 (mod prime(n+i)^2) for each i = 0..1, with k running over the positive integers; square array, read by antidiagonals, downwards.",
+  "id": "A319059",
+  "mentions": [
+    "A244249",
+    "A256236",
+    "A259075",
+    "A319060",
+    "A319061",
+    "A319062",
+    "A319063",
+    "A319064",
+    "A319065"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

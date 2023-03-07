@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^(k*(k+1)/2))^A072964(k).",
+  "id": "A321507",
+  "mentions": [
+    "A000217",
+    "A001970",
+    "A007294",
+    "A072964",
+    "A300300"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

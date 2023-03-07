@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A330606 which are not squares or powers of 2.",
+  "id": "A330650",
+  "mentions": [
+    "A330606"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

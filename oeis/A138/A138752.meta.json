@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations before prime(n) reaches 7 or 2 under x -> A007918(A138750(x)).",
+  "id": "A138752",
+  "mentions": [
+    "A007918",
+    "A124123",
+    "A138750",
+    "A138751",
+    "A138753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

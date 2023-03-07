@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T[i,j] = number of (distinct) letters which the English names of i and j have in common; j=0,...,i ; i=0,1,2,...",
+  "id": "A231169",
+  "mentions": [
+    "A005589",
+    "A052360",
+    "A227857"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

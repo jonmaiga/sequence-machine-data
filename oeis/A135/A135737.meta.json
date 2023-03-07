@@ -1,0 +1,27 @@
+{
+  "description": "Ulam type (1-additive) sequences u[1]=2, u[2]=2n+1, u[k+1] is least unique sum u[i]+u[j]>u[k], 1<=i",
+  "id": "A135737",
+  "mentions": [
+    "A001857",
+    "A002858",
+    "A002859",
+    "A003666",
+    "A003667",
+    "A003668",
+    "A007300",
+    "A100729",
+    "A100730"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Define a map f(n):= n-> n + pi(n) - pi(n + pi(n)), where pi(n) is the prime count of n (n>=1). a(n) is the number of steps for n to reach 1 under repeated iteration of f.",
+  "id": "A337979",
+  "mentions": [
+    "A000720",
+    "A025003",
+    "A062298",
+    "A095117",
+    "A337978"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

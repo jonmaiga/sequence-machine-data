@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number starting a longest interval of consecutive integers, each of which is divisible by at least one of n primes specifically chosen to minimize the number.",
+  "id": "A292023",
+  "mentions": [
+    "A049300",
+    "A058989"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^2 is a minimal number; numbers k whose square is in A007416.",
+  "id": "A354530",
+  "mentions": [
+    "A000005",
+    "A007416",
+    "A016017",
+    "A025487",
+    "A071571",
+    "A166721",
+    "A166722"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

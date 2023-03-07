@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 2n free of multiples of 8 such that 4 occurs at most once. All odd parts occur with even multiplicities. There is no restriction on the other even parts.",
+  "id": "A100684",
+  "mentions": [
+    "A080054"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

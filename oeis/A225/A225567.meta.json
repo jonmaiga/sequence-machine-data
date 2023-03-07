@@ -1,0 +1,23 @@
+{
+  "description": "Primes with nonzero digits such that sum of cubes of digits equal to square of sums.",
+  "id": "A225567",
+  "mentions": [
+    "A055012",
+    "A118881",
+    "A227072",
+    "A227073"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

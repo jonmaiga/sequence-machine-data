@@ -1,0 +1,26 @@
+{
+  "description": "Trajectory of 0 under repeated application of the morphism 0 -> 0010, 1 -> 1010.",
+  "id": "A328979",
+  "mentions": [
+    "A036554",
+    "A072939",
+    "A080426",
+    "A096268",
+    "A284948",
+    "A285384",
+    "A297469",
+    "A298468",
+    "A328190",
+    "A328196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:25",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that A001414(p-1)*A001414(p+1) == q (mod p), where q is the prime before p.",
+  "id": "A339329",
+  "mentions": [
+    "A001414",
+    "A339327"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

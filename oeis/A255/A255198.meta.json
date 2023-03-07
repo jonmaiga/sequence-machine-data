@@ -1,0 +1,26 @@
+{
+  "description": "Let EKG-n denote the EKG sequence (A064413) started with n rather than 2, and suppose EKG-n first merges with some other EKG-i (i >= 2) sequence after f(n) (= A255583(n)) steps; then a(n) = number of i such that EKG-i meets EKG-n after f(n) steps.",
+  "id": "A255198",
+  "mentions": [
+    "A064413",
+    "A169837",
+    "A169841",
+    "A169843",
+    "A169849",
+    "A169855",
+    "A169857",
+    "A255524",
+    "A255583"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

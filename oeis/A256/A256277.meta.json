@@ -1,0 +1,22 @@
+{
+  "description": "C(2*n,n) mod 2*n+1.",
+  "id": "A256277",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A053214",
+    "A059288",
+    "A073076",
+    "A163209"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

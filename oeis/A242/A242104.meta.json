@@ -1,0 +1,19 @@
+{
+  "description": "Sum s of consecutive digits of Pi such that s is prime.",
+  "id": "A242104",
+  "mentions": [
+    "A000040",
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

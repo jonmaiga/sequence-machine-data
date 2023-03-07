@@ -1,0 +1,20 @@
+{
+  "description": "Merged values of A014217 = {floor(((1+sqrt(5))/2)^n)}, A000149 = {floor(e^n)}, and A001672 = {floor(Pi^n)}, with multiplicity.",
+  "id": "A119604",
+  "mentions": [
+    "A000149",
+    "A001672",
+    "A014217"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

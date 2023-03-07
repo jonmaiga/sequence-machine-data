@@ -1,0 +1,32 @@
+{
+  "description": "Products of three or more distinct prime numbers.",
+  "id": "A350352",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000111",
+    "A001250",
+    "A002808",
+    "A005117",
+    "A006881",
+    "A007304",
+    "A027383",
+    "A033942",
+    "A046386",
+    "A120944",
+    "A167171",
+    "A336568",
+    "A347548",
+    "A349796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

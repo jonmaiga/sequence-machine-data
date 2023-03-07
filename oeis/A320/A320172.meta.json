@@ -1,0 +1,34 @@
+{
+  "description": "Number of series-reduced balanced rooted identity trees whose leaves are integer partitions whose multiset union is an integer partition of n.",
+  "id": "A320172",
+  "mentions": [
+    "A000669",
+    "A005804",
+    "A048816",
+    "A079500",
+    "A119262",
+    "A120803",
+    "A141268",
+    "A292504",
+    "A300660",
+    "A319312",
+    "A320154",
+    "A320155",
+    "A320160",
+    "A320171",
+    "A320173",
+    "A320177",
+    "A320178",
+    "A320179"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that prime(m) mod 8 == prime(m) mod 27.",
+  "id": "A257482",
+  "mentions": [
+    "A000720",
+    "A039706",
+    "A242125",
+    "A257483"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

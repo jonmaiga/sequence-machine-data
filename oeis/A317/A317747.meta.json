@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of the coefficient of z^(-n) in the Stirling-like asymptotic expansion of Product_{z=1..n} z^(z^2).",
+  "id": "A317747",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A051675",
+    "A143475",
+    "A143476",
+    "A243262",
+    "A317796"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

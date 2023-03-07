@@ -1,0 +1,29 @@
+{
+  "description": "Number of Greek-key tours on an n X n board; i.e., self-avoiding walks on n X n grid starting in top left corner.",
+  "id": "A145157",
+  "mentions": [
+    "A000532",
+    "A001184",
+    "A003763",
+    "A007764",
+    "A046994",
+    "A046995",
+    "A120443",
+    "A145156",
+    "A160240",
+    "A160241",
+    "A271507"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

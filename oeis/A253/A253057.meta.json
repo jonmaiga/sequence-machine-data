@@ -1,0 +1,23 @@
+{
+  "description": "Complete list of numbers that take three steps to collapse to a single digit in base 3 (written in base 10).",
+  "id": "A253057",
+  "mentions": [
+    "A253058",
+    "A253952",
+    "A253953",
+    "A293929"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

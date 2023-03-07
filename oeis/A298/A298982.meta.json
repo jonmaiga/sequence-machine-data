@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k for which the most significant decimal digits of k/n (disregarding any leading zeros) are n, or 0 if no such k exists.",
+  "id": "A298982",
+  "mentions": [
+    "A051626",
+    "A298232",
+    "A298980",
+    "A298981"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

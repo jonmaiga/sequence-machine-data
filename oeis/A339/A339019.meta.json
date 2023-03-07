@@ -1,0 +1,21 @@
+{
+  "description": "Square table read by upwards antidiagonals: T(m,n) = A103438(2*m-1,n)/A103438(1,n) for m>=1, n>=1.",
+  "id": "A339019",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A103438"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

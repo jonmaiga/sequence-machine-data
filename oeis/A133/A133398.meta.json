@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are not Mersenne primes.",
+  "id": "A133398",
+  "mentions": [
+    "A000037",
+    "A000668",
+    "A014092",
+    "A138836"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

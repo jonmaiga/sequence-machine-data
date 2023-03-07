@@ -1,0 +1,22 @@
+{
+  "description": "The modified Collatz map considered by Vaillant and Delarue.",
+  "id": "A324245",
+  "mentions": [
+    "A060322",
+    "A324037",
+    "A324246",
+    "A349414"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

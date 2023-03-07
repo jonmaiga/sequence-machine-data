@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(1+1) 0..5 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 15",
+  "id": "A234201",
+  "mentions": [
+    "A234208"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

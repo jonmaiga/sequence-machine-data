@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+n)^k.",
+  "id": "A349928",
+  "mentions": [
+    "A026898",
+    "A031973",
+    "A050409",
+    "A060946",
+    "A062970",
+    "A074209",
+    "A116149",
+    "A117887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

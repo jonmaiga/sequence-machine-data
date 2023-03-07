@@ -1,0 +1,21 @@
+{
+  "description": "Areas of primitive Heron triangles with two rational medians from the infinite family based on Somos-5 sequences.",
+  "id": "A360537",
+  "mentions": [
+    "A006721",
+    "A223941",
+    "A360381"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

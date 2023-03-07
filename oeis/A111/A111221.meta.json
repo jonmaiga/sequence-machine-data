@@ -1,0 +1,30 @@
+{
+  "description": "d_11(n), tau_11(n), number of ordered factorizations of n as n = rstuvwxyzab (11-factorizations).",
+  "id": "A111221",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A007425",
+    "A007426",
+    "A034695",
+    "A061200",
+    "A077592",
+    "A111217",
+    "A111218",
+    "A111219",
+    "A111220",
+    "A111306"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

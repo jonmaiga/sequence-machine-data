@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that (n + prime(n))/2 is a prime.",
+  "id": "A225861",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

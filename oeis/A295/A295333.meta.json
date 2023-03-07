@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(10)/2 = sqrt(5/2) = A020797 + 1.",
+  "id": "A295333",
+  "mentions": [
+    "A020797",
+    "A295334"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are simultaneously the sums of 11, 13, and 15 consecutive primes.",
+  "id": "A339866",
+  "mentions": [
+    "A127340",
+    "A127341",
+    "A161612",
+    "A213914"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

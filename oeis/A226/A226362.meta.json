@@ -1,0 +1,19 @@
+{
+  "description": "Decimal representation of continued fraction antisigma(1), antisigma(2), antisigma(3), antisigma(4), ...",
+  "id": "A226362",
+  "mentions": [
+    "A024816",
+    "A223854"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

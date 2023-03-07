@@ -1,0 +1,22 @@
+{
+  "description": "3*A007318 - 2*A103451 as infinite lower triangular matrices.",
+  "id": "A132047",
+  "mentions": [
+    "A007318",
+    "A103451",
+    "A131128"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

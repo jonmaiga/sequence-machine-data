@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of (f(i,j)), where f(i,j)=(2i-1 if max(i,j) is odd, and 0 otherwise) as in A204173.",
+  "id": "A204174",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204173"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:53",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

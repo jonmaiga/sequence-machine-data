@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as (2^a*5^b)^2 + c*(3c+1)/2 + d*(3d+1)/2, where a and b are nonnegative integers, and c and d are integers with c*(3c+1)/2 <= d*(3d+1)/2.",
+  "id": "A308641",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A000351",
+    "A001318",
+    "A308566",
+    "A308584",
+    "A308621",
+    "A308623",
+    "A308640"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

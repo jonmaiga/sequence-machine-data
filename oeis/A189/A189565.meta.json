@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations p of 1,2,...,n satisfying |p(i+2)-p(i)|<>3 and |p(j+3)-p(j)|<>2 for all i=1..n-2, j=1..n-3.",
+  "id": "A189565",
+  "mentions": [
+    "A137774",
+    "A189358",
+    "A189563",
+    "A189564"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

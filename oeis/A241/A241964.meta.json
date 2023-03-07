@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of length n+3 0..k arrays with no consecutive four elements summing to more than 2*k",
+  "id": "A241964",
+  "mentions": [
+    "A118647",
+    "A212226",
+    "A212465",
+    "A212560"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

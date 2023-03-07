@@ -1,0 +1,21 @@
+{
+  "description": "List of y-coordinates of point moving in clockwise square spiral.",
+  "id": "A268038",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A174344",
+    "A274923"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

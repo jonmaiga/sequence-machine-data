@@ -1,0 +1,34 @@
+{
+  "description": "G.f. A(x,y) satisfies: A( x - y*G(x,y), y) = x + (1-y)*G(x,y) such that G(x,y) = Integral A(x,y) dx, where the coefficients T(n,k) of x^n*y^k form a triangle read by rows n>=1, for k=0..n-1.",
+  "id": "A277410",
+  "mentions": [
+    "A001147",
+    "A059332",
+    "A067146",
+    "A210949",
+    "A277403",
+    "A277411",
+    "A277412",
+    "A279843",
+    "A279844",
+    "A279845",
+    "A280570",
+    "A280571",
+    "A280572",
+    "A280573",
+    "A280574",
+    "A280575"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

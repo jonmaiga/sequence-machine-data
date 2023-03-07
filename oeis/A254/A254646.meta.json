@@ -1,0 +1,25 @@
+{
+  "description": "Fourth partial sums of seventh powers (A001015).",
+  "id": "A254646",
+  "mentions": [
+    "A000541",
+    "A001015",
+    "A022523",
+    "A250212",
+    "A254640",
+    "A254641",
+    "A254645"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:57",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

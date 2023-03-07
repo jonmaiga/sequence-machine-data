@@ -1,0 +1,22 @@
+{
+  "description": "Brazilian semiprimes.",
+  "id": "A307507",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A125134",
+    "A190300",
+    "A196104"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

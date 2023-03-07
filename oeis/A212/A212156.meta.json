@@ -1,0 +1,24 @@
+{
+  "description": "((6*A023000(n))^3 + 1)/7^n, n >= 0.",
+  "id": "A212156",
+  "mentions": [
+    "A023000",
+    "A210848",
+    "A210849",
+    "A210852",
+    "A210853",
+    "A212154"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

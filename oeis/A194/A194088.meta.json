@@ -1,0 +1,22 @@
+{
+  "description": "The number of biconnected squaregraphs that contain n squares.",
+  "id": "A194088",
+  "mentions": [
+    "A194089",
+    "A194090",
+    "A194091",
+    "A194092",
+    "A194093"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

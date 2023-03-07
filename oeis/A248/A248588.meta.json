@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer m such that m + n divides sigma(m), where sigma(m) is the sum of all positive divisors of m.",
+  "id": "A248588",
+  "mentions": [
+    "A000203",
+    "A248007",
+    "A248008",
+    "A248029",
+    "A248030",
+    "A248568",
+    "A248590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

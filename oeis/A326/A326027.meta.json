@@ -1,0 +1,28 @@
+{
+  "description": "Number of subsets of {1..n} whose geometric mean is an integer.",
+  "id": "A326027",
+  "mentions": [
+    "A051293",
+    "A067539",
+    "A078174",
+    "A078175",
+    "A082553",
+    "A102627",
+    "A326567",
+    "A326568",
+    "A326622",
+    "A326623",
+    "A326624",
+    "A326625"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

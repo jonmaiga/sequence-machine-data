@@ -1,0 +1,27 @@
+{
+  "description": "Compound filter (prime signature & prime signature of conjugated prime factorization): a(n) = P(A101296(n), A286621(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286454",
+  "mentions": [
+    "A000027",
+    "A046523",
+    "A101296",
+    "A122111",
+    "A278221",
+    "A285334",
+    "A286356",
+    "A286455",
+    "A286456",
+    "A286621"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

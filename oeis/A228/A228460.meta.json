@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of maxima of three adjacent elements of some length n+2 0..7 array",
+  "id": "A228460",
+  "mentions": [
+    "A228461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

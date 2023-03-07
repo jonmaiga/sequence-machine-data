@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers whose prime indices are all proper powers of the same number.",
+  "id": "A322903",
+  "mentions": [
+    "A001597",
+    "A018819",
+    "A023894",
+    "A052410",
+    "A056239",
+    "A072720",
+    "A072721",
+    "A302593",
+    "A322900",
+    "A322901",
+    "A322902"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

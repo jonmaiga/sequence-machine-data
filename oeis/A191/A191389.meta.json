@@ -1,0 +1,19 @@
+{
+  "description": "Number of valleys at level 0 in all dispersed Dyck paths of length n (i.e., in all Motzkin paths of length n with no (1,0) steps at positive heights).",
+  "id": "A191389",
+  "mentions": [
+    "A037952",
+    "A191387"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

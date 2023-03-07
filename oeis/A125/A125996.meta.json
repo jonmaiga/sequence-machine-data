@@ -1,0 +1,18 @@
+{
+  "description": "A106486-encodings of combinatorial games equivalent to game {1|0}.",
+  "id": "A125996",
+  "mentions": [
+    "A106486",
+    "A126000"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

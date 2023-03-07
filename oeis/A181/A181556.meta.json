@@ -1,0 +1,20 @@
+{
+  "description": "Minimum wind speed in km/h for a category n hurricane in the Saffir-Simpson hurricane wind scale.",
+  "id": "A181556",
+  "mentions": [
+    "A098516"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

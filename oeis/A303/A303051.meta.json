@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into two distinct parts (p,q) such that p, q and p+q are all squarefree.",
+  "id": "A303051",
+  "mentions": [
+    "A008683",
+    "A302986"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

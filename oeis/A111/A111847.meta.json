@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A111845, which shifts columns left and up under matrix 4th power.",
+  "id": "A111847",
+  "mentions": [
+    "A078537",
+    "A111845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

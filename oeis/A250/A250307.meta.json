@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-colored Schroeder paths of semilength n in which there are no (2,0)-steps at level 1.",
+  "id": "A250307",
+  "mentions": [
+    "A007564",
+    "A224071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:45:52",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

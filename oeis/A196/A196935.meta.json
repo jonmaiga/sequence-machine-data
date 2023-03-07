@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of arithmetic progressions prime chains in the form of p(n)-6k, p(n), p(n)+6k, while k > 0 and p(n) > 6k.",
+  "id": "A196935",
+  "mentions": [
+    "A001748",
+    "A078497",
+    "A078498",
+    "A196934"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 5,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

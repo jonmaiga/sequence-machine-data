@@ -1,0 +1,21 @@
+{
+  "description": "Sequence defined by the recursion a(n) = (1/2)*((1-signum(abs(b(n))-n))*b(n)+(1+signum(abs(b(n))-n))*a(n-1)), with a(1)=1 and b(n)=1+a(n-1-(n mod a(n-1)))-(-1)^n*a(n-1).",
+  "id": "A176982",
+  "mentions": [
+    "A004001",
+    "A176075",
+    "A176076"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

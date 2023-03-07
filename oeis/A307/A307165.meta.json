@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sequence f(0)=f(1)=k, f(x)=(a*b) mod (a+b+1), where a=f(x-1) and b=f(x-2) is a cycle.",
+  "id": "A307165",
+  "mentions": [
+    "A307087"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

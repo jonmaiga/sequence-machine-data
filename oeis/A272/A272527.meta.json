@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that prime(k) - 2 is the average of four consecutive odd squares.",
+  "id": "A272527",
+  "mentions": [
+    "A040976",
+    "A173960"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

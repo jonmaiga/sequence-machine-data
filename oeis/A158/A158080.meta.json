@@ -1,0 +1,21 @@
+{
+  "description": "Primes p = prime(n) such that the largest even digit of n equals the largest even digit of p.",
+  "id": "A158080",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A156851"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

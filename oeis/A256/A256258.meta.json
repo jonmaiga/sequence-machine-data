@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which the row lengths are the terms of A011782 and row n lists the terms of A016969 except for the right border which gives the positive terms of A000225.",
+  "id": "A256258",
+  "mentions": [
+    "A000225",
+    "A000302",
+    "A002001",
+    "A011782",
+    "A016969",
+    "A141548",
+    "A151548",
+    "A241717",
+    "A256260",
+    "A256261",
+    "A256263",
+    "A256264"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

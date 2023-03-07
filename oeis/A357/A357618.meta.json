@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum of lengths of partitions of more than one consecutive positive integer adding up to n.",
+  "id": "A357618",
+  "mentions": [
+    "A069283",
+    "A138591",
+    "A204217"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

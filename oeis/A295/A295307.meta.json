@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k > phi(sigma(k)), where phi = A000010 and sigma = A000203.",
+  "id": "A295307",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A073803",
+    "A295301",
+    "A295303",
+    "A295309"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

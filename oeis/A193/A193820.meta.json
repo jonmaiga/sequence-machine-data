@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array: the fusion of polynomial sequences P and Q given by p(n,x)=(x+1)^n and q(n,x)=x^n+x^(n-1)+...+x+1.",
+  "id": "A193820",
+  "mentions": [
+    "A008949",
+    "A054143",
+    "A128175",
+    "A193722",
+    "A193823"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:59",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

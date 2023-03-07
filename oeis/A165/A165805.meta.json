@@ -1,0 +1,23 @@
+{
+  "description": "Integers that start a trajectory x -> A008619(x) which contains only primes until terminating at 2 or 3.",
+  "id": "A165805",
+  "mentions": [
+    "A005385",
+    "A008619",
+    "A165801",
+    "A165802",
+    "A165803"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

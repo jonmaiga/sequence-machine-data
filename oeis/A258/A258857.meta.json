@@ -1,0 +1,20 @@
+{
+  "description": "Seventh pi-based arithmetic derivative of n.",
+  "id": "A258857",
+  "mentions": [
+    "A000720",
+    "A258850",
+    "A258851"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

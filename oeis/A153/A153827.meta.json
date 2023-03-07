@@ -1,0 +1,26 @@
+{
+  "description": "Index sequence to A089840: positions of bijections that preserve A129593 (that is, they permute the Łukasiewicz-word computed for a general tree).",
+  "id": "A153827",
+  "mentions": [
+    "A089839",
+    "A089840",
+    "A129593",
+    "A153826",
+    "A153828",
+    "A153829",
+    "A153830",
+    "A153831",
+    "A153832",
+    "A153833"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

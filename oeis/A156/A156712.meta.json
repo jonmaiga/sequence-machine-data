@@ -1,0 +1,27 @@
+{
+  "description": "Star numbers (A003154) that are also triangular numbers (A000217).",
+  "id": "A156712",
+  "mentions": [
+    "A000217",
+    "A001570",
+    "A001844",
+    "A001922",
+    "A003154",
+    "A003215",
+    "A005448",
+    "A007655",
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

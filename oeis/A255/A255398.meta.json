@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 lacks the digit 1 in its decimal expansion.",
+  "id": "A255398",
+  "mentions": [
+    "A052040",
+    "A052383"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of multimin partitions of integer partitions of n.",
+  "id": "A317546",
+  "mentions": [
+    "A007716",
+    "A020639",
+    "A034691",
+    "A056239",
+    "A255397",
+    "A300335",
+    "A317545"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of words A(n,k), either empty or beginning with the first letter of the k-ary alphabet, where each letter of the alphabet occurs n times and letters of neighboring word positions are equal or neighbors in the alphabet; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A208673",
+  "mentions": [
+    "A000012",
+    "A001595",
+    "A088218",
+    "A208674",
+    "A208675",
+    "A208879",
+    "A212334",
+    "A331562",
+    "A351759"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

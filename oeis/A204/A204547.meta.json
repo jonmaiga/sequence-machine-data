@@ -1,0 +1,21 @@
+{
+  "description": "Symmetric matrix: f(i,j)=floor[(i+j+4)/4]-floor[(i+j+2)/4], by (constant) antidiagonals.",
+  "id": "A204547",
+  "mentions": [
+    "A204269",
+    "A204296",
+    "A204453",
+    "A204548"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:37",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

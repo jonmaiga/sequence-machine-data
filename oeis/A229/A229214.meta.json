@@ -1,0 +1,21 @@
+{
+  "description": "If 1, 2, and 3 represent the three 2D vectors (1,0), (0.5,sqrt(3)/2) and (-0.5,sqrt(3)/2) and -1, -2 and -3 are the negation of these vectors, then this sequence represents the Gosper flowsnake.",
+  "id": "A229214",
+  "mentions": [
+    "A229215",
+    "A261180",
+    "A334485",
+    "A334486"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Largest number whose n-th power is exclusionary (or 0 if no such number exists).",
+  "id": "A113951",
+  "mentions": [
+    "A016813",
+    "A034293",
+    "A109135",
+    "A111116",
+    "A112736",
+    "A112994",
+    "A113318",
+    "A113952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

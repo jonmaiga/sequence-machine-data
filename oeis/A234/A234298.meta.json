@@ -1,0 +1,22 @@
+{
+  "description": "Ramanujan prime R_k such that pi(R_(k+1)) - pi(R_k) are record values: record Ramanujan prime A190874(k).",
+  "id": "A234298",
+  "mentions": [
+    "A168425",
+    "A174641",
+    "A190874",
+    "A202186",
+    "A202187",
+    "A202188"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

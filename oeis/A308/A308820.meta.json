@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=1..n} ceiling(n/k)!.",
+  "id": "A308820",
+  "mentions": [
+    "A010786",
+    "A020696",
+    "A092143",
+    "A131385"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:53:20",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

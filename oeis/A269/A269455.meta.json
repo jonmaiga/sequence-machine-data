@@ -1,0 +1,22 @@
+{
+  "description": "Number of Type I (singly-even) self-dual binary codes of length 2n.",
+  "id": "A269455",
+  "mentions": [
+    "A003178",
+    "A003179",
+    "A028361",
+    "A028362",
+    "A028363"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

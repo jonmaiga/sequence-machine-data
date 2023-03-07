@@ -1,0 +1,17 @@
+{
+  "description": "Fixed points of the permutation A087559.",
+  "id": "A131221",
+  "mentions": [
+    "A087559"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

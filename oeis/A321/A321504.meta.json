@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 each have at least 4 distinct prime factors.",
+  "id": "A321504",
+  "mentions": [
+    "A140078",
+    "A321494",
+    "A321505",
+    "A321506"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

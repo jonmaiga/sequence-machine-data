@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of tilings of a 5 X n rectangle with pentominoes of any shape and exactly k pentominoes of shape X; triangle T(n,k), n>=0, read by rows.",
+  "id": "A247711",
+  "mentions": [
+    "A174249",
+    "A233427",
+    "A247744",
+    "A247775",
+    "A247828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

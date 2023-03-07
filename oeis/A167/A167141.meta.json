@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} A004123(n)^2*log(1+x)^n/n! where 1/(1-2x) = Sum_{n>=0} A004123(n)*log(1+x)^n/n!.",
+  "id": "A167141",
+  "mentions": [
+    "A004123",
+    "A101370",
+    "A167138",
+    "A167139"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n-k+1)*(4*k+1).",
+  "id": "A101492",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A001107",
+    "A002412",
+    "A007742",
+    "A008587",
+    "A008591",
+    "A008595",
+    "A016813",
+    "A017089",
+    "A101493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

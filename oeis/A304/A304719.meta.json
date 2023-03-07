@@ -1,0 +1,18 @@
+{
+  "description": "Number of domino tilings of Ferrers-Young diagrams of partitions of 2n using exactly floor(n/2) horizontally oriented dominoes.",
+  "id": "A304719",
+  "mentions": [
+    "A304718"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

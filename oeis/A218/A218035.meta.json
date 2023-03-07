@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-digit palindromes with squares that are also palindromes.",
+  "id": "A218035",
+  "mentions": [
+    "A011826",
+    "A050683",
+    "A057135",
+    "A070252",
+    "A307717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

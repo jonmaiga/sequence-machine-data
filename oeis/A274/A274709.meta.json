@@ -1,0 +1,36 @@
+{
+  "description": "A statistic on orbital systems over n sectors: the number of orbitals which rise to maximum height k over the central circle.",
+  "id": "A274709",
+  "mentions": [
+    "A008313",
+    "A039599",
+    "A047072",
+    "A056040",
+    "A057977",
+    "A063549",
+    "A112467",
+    "A120730",
+    "A189230",
+    "A189231",
+    "A232500",
+    "A241477",
+    "A274706",
+    "A274708",
+    "A274710",
+    "A274878",
+    "A274879",
+    "A274880",
+    "A274881"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

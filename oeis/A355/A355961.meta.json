@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that (p+6)^(p-1) == 1 (mod p^2).",
+  "id": "A355961",
+  "mentions": [
+    "A355959",
+    "A355960",
+    "A355962",
+    "A355963",
+    "A355964",
+    "A355965"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

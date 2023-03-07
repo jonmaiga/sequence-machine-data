@@ -1,0 +1,20 @@
+{
+  "description": "Gauss's constant beta = 2*alpha*gamma + 3*alpha^2*h - log(2)*alpha/6, where alpha = 4/Pi^2 (A185199), gamma is Euler's constant (A001620) and h = -Zeta(1,2) (A073002).",
+  "id": "A185266",
+  "mentions": [
+    "A001620",
+    "A073002",
+    "A185199"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquarefree numbers k such that A293228(k) > k.",
+  "id": "A357686",
+  "mentions": [
+    "A005101",
+    "A013929",
+    "A087248",
+    "A243128",
+    "A293228",
+    "A357685"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

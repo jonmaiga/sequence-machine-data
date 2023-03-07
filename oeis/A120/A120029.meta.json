@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the value of Minkowski's question mark function at Levy's constant (Exp[Pi^2/(12*Log[2])], A086702).",
+  "id": "A120029",
+  "mentions": [
+    "A086702",
+    "A120028"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n with the property that it is possible to write the base 2 expansion of n as concat(a_2,b_2), with a_2>0 and b_2>0 such that, converting a_2 and b_2 to base 10 as a and b, we have antisigma(a) + antisigma(b) = n.",
+  "id": "A259670",
+  "mentions": [
+    "A024816",
+    "A253824",
+    "A253825",
+    "A258813",
+    "A258843",
+    "A258844"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

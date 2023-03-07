@@ -1,0 +1,19 @@
+{
+  "description": "Indices of Fibonacci numbers that can be expressed as the sum of three (but no fewer) primes.",
+  "id": "A102107",
+  "mentions": [
+    "A001605",
+    "A101422",
+    "A102106"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

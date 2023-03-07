@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers with decimal expansion d_1, ..., d_w that are divisible by d_1 + ... + d_k for k = 1..w.",
+  "id": "A357769",
+  "mentions": [
+    "A005349",
+    "A034837",
+    "A259433",
+    "A328273",
+    "A356350"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

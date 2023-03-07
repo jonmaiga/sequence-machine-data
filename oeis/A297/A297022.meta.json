@@ -1,0 +1,19 @@
+{
+  "description": "A permutation of the natural numbers: a(n) = A067565(A018252(n)).",
+  "id": "A297022",
+  "mentions": [
+    "A018252",
+    "A067565"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

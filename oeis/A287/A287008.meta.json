@@ -1,0 +1,20 @@
+{
+  "description": "Number of disconnected simple graphs on n vertices whose fractional chromatic number equals its chromatic number.",
+  "id": "A287008",
+  "mentions": [
+    "A243252",
+    "A287007"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

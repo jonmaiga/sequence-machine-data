@@ -1,0 +1,20 @@
+{
+  "description": "Number of 1's that appeared by n-th step when constructing A030717.",
+  "id": "A358466",
+  "mentions": [
+    "A030717",
+    "A030723",
+    "A358467",
+    "A358468"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

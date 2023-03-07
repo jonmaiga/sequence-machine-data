@@ -1,0 +1,21 @@
+{
+  "description": "Number of correct decimal digits of the approximation of Pi obtained from the continued fraction convergents A002485(n)/A002486(n).",
+  "id": "A356665",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A002486"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime-indexed primes q such that prime(q) + q + 1 is a prime-indexed prime.",
+  "id": "A318292",
+  "mentions": [
+    "A000040",
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

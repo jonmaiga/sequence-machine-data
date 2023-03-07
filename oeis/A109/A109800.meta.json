@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 55*10^n + 1 is prime.",
+  "id": "A109800",
+  "mentions": [
+    "A056805",
+    "A056806"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

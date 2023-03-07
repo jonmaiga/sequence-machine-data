@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 13*n + 1.",
+  "id": "A190991",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A008594",
+    "A008595",
+    "A153080"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:03",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

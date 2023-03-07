@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m such that the largest odd number < n^m is not prime.",
+  "id": "A245511",
+  "mentions": [
+    "A245509",
+    "A245510",
+    "A245512",
+    "A245513",
+    "A245514"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

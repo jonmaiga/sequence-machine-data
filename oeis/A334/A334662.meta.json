@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} gcd(tau(d), pod(d)), where pod(k) is the product of the divisors of k (A007955).",
+  "id": "A334662",
+  "mentions": [
+    "A000005",
+    "A007955",
+    "A065091",
+    "A306671",
+    "A334579",
+    "A334663"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

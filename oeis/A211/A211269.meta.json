@@ -1,0 +1,21 @@
+{
+  "description": "Integral of a sinc-shaped peak with unit height and unit half-height width.",
+  "id": "A211269",
+  "mentions": [
+    "A199460",
+    "A211268"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

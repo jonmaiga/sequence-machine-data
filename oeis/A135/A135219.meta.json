@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = largest number with n+1 digits and without zero digits whose squares have maximal number of zero digits = A135215(n+1).",
+  "id": "A135219",
+  "mentions": [
+    "A134843",
+    "A134844",
+    "A134845",
+    "A134846",
+    "A134847",
+    "A134848",
+    "A134849",
+    "A135215",
+    "A135216",
+    "A135217"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

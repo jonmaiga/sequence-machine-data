@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the (n-1)st odd number minus the sum of the aliquot parts of n.",
+  "id": "A353190",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A001065",
+    "A005408",
+    "A016789",
+    "A354801"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

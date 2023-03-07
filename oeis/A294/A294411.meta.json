@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. -exp(k*x)*LambertW(-x).",
+  "id": "A294411",
+  "mentions": [
+    "A000169",
+    "A277473",
+    "A277485",
+    "A290824",
+    "A292633"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

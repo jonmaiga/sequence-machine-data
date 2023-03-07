@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 192*2^n - 31 (n>=1).",
+  "id": "A304385",
+  "mentions": [
+    "A304384"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Array(d,n) = number of ordered ways to write n as the sum of d squares less than d, read by rows, through last nonzero value per row.",
+  "id": "A124054",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000292",
+    "A098547",
+    "A123337",
+    "A123999"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

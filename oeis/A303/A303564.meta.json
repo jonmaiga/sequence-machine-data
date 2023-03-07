@@ -1,0 +1,29 @@
+{
+  "description": "Number T(n,k) of derangements of [n] having exactly k peaks; triangle T(n,k), n>=0, 0<=k<=max(0,floor((n-1)/2)), read by rows.",
+  "id": "A303564",
+  "mentions": [
+    "A000166",
+    "A001045",
+    "A004526",
+    "A008303",
+    "A129815",
+    "A129817",
+    "A162979",
+    "A162980",
+    "A216963",
+    "A301272",
+    "A303648"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

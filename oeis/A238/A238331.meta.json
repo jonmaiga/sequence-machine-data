@@ -1,0 +1,21 @@
+{
+  "description": "The prime(n)-th prime number ending in prime(n), or 0 if none exists.",
+  "id": "A238331",
+  "mentions": [
+    "A000040",
+    "A030431",
+    "A030432",
+    "A167442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

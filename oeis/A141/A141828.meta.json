@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^4*a(n-1)-1)/(n-1) for n >= 2, with a(0) = 1, a(1) = 5.",
+  "id": "A141828",
+  "mentions": [
+    "A000522",
+    "A001339",
+    "A007808",
+    "A008620",
+    "A141827"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

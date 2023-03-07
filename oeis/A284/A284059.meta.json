@@ -1,0 +1,19 @@
+{
+  "description": "The absolute values of A275966.",
+  "id": "A284059",
+  "mentions": [
+    "A275966"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

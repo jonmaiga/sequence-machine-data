@@ -1,0 +1,25 @@
+{
+  "description": "Average of amicable pairs (x,y), ordered by the sum x+y given in A259953.",
+  "id": "A275316",
+  "mentions": [
+    "A259180",
+    "A259933",
+    "A259953",
+    "A260086",
+    "A260087",
+    "A275315",
+    "A275469",
+    "A275470"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

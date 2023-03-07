@@ -1,0 +1,18 @@
+{
+  "description": "Ends of the runs of numbers described in A072875.",
+  "id": "A124592",
+  "mentions": [
+    "A072875"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

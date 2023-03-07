@@ -1,0 +1,28 @@
+{
+  "description": "Number of series-reduced rooted trees whose leaves are strict integer partitions whose multiset union is an integer partition of n.",
+  "id": "A320175",
+  "mentions": [
+    "A000081",
+    "A000311",
+    "A000669",
+    "A001678",
+    "A005804",
+    "A141268",
+    "A292504",
+    "A300660",
+    "A317099",
+    "A319312",
+    "A320173",
+    "A320174"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

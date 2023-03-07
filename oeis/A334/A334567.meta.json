@@ -1,0 +1,17 @@
+{
+  "description": "Least value m > 0 such that Diophantine equation z^2 - y^2 - x^2 = m, when the positive integers, x, y and z are consecutive terms of an arithmetic progression, has exactly n solutions.",
+  "id": "A334567",
+  "mentions": [
+    "A334566"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

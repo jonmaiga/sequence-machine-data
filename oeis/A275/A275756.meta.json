@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies: A(x) = x + A( A(x)^2 - A(x)^6 ).",
+  "id": "A275756",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A141200",
+    "A275755",
+    "A275757",
+    "A275758"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

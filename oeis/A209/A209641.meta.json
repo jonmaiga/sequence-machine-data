@@ -1,0 +1,21 @@
+{
+  "description": "A014486-codes for rooted plane trees where non-leaf branches can occur only as the leftmost branch of any level, but nowhere else. Sorted into ascending order.",
+  "id": "A209641",
+  "mentions": [
+    "A014486",
+    "A209640",
+    "A209642",
+    "A209643",
+    "A209862"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

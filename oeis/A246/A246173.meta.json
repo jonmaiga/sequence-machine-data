@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of vertex pairs at distance k of the Fibonacci cube Gamma(n) (1<=k<=n).",
+  "id": "A246173",
+  "mentions": [
+    "A001629",
+    "A191797",
+    "A238419",
+    "A246174"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

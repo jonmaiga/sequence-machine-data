@@ -1,0 +1,20 @@
+{
+  "description": "Nonzero bisection of Moebius transform of A082392.",
+  "id": "A129629",
+  "mentions": [
+    "A011947",
+    "A082392",
+    "A138944"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

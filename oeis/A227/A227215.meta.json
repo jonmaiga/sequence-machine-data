@@ -1,0 +1,18 @@
+{
+  "description": "Smallest sum of the three perpendicular integer sides of a rectangular parallelepiped of volume n.",
+  "id": "A227215",
+  "mentions": [
+    "A033676",
+    "A063655"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

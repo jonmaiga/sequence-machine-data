@@ -1,0 +1,21 @@
+{
+  "description": "Number of cyclic Gray codes of length 2n which include all-0 bit sequence and use the least possible number of bits.",
+  "id": "A290772",
+  "mentions": [
+    "A003042",
+    "A286899",
+    "A350784"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

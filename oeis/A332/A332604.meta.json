@@ -1,0 +1,17 @@
+{
+  "description": "Limiting word over the alphabet {1,2,3} defined by the process in A332603, or, in case that process terminates, the final term in A332603.",
+  "id": "A332604",
+  "mentions": [
+    "A332603"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

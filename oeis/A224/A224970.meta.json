@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X4 0..3 matrices with each 2X2 permanent equal",
+  "id": "A224970",
+  "mentions": [
+    "A224975"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

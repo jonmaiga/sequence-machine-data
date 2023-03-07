@@ -1,0 +1,21 @@
+{
+  "description": "Squares that are also 4-dimensional pyramidal numbers.",
+  "id": "A351683",
+  "mentions": [
+    "A000290",
+    "A002415",
+    "A007655",
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

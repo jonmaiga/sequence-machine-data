@@ -1,0 +1,25 @@
+{
+  "description": "Noninfinitary Zumkeller numbers: numbers whose set of noninfinitary divisors is nonempty and can be partitioned into two disjoint sets of equal sum.",
+  "id": "A348527",
+  "mentions": [
+    "A083207",
+    "A290466",
+    "A335142",
+    "A335197",
+    "A335215",
+    "A335218",
+    "A348271",
+    "A348274",
+    "A348341"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

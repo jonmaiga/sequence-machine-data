@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A158705, nonnegative integers with an odd number of even powers of 2 in their base-2 representation.",
+  "id": "A341389",
+  "mentions": [
+    "A000035",
+    "A112539",
+    "A112865",
+    "A139351",
+    "A158704",
+    "A158705"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

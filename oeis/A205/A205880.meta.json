@@ -1,0 +1,23 @@
+{
+  "description": "[s(k)-s(j)]/10, where the pairs (k,j) are given by A205877 and A205878, and s(k) denotes the (k+1)-st Fibonacci number.",
+  "id": "A205880",
+  "mentions": [
+    "A204892",
+    "A204922",
+    "A205840",
+    "A205876",
+    "A205877",
+    "A205878",
+    "A205879"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:18:02",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to cover the n X n+1 grid graph by vertex disjoint cycles.",
+  "id": "A222203",
+  "mentions": [
+    "A222202",
+    "A222204"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

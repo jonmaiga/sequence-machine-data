@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least number with the same prime signature as n + (n+1)^2.",
+  "id": "A278247",
+  "mentions": [
+    "A028387",
+    "A046523",
+    "A278246",
+    "A278251",
+    "A278253",
+    "A278255"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions of zero digits in A167503 (when all terms are concatenated).",
+  "id": "A167523",
+  "mentions": [
+    "A167500",
+    "A167503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Ramanujan numbers (A000594) read mod 125.",
+  "id": "A126834",
+  "mentions": [
+    "A000594",
+    "A001157",
+    "A013955",
+    "A126832",
+    "A126833",
+    "A126835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

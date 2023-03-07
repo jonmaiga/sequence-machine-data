@@ -1,0 +1,43 @@
+{
+  "description": "Number T(n,k) of partitions of n into distinct parts, where k is the difference between the number of odd parts and the number of even parts; triangle T(n,k), n>=0, read by rows.",
+  "id": "A240021",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000065",
+    "A000070",
+    "A001057",
+    "A209815",
+    "A239239",
+    "A239240",
+    "A239241",
+    "A239242",
+    "A239243",
+    "A239871",
+    "A239880",
+    "A239881",
+    "A240009",
+    "A240138",
+    "A240139",
+    "A240140",
+    "A240141",
+    "A240142",
+    "A240143",
+    "A240144",
+    "A240145",
+    "A240146"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

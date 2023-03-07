@@ -1,0 +1,19 @@
+{
+  "description": "Define a sequence of rationals by S(1)=1; for n>=1, write S(1),...,S(n) as XY^k, Y nonempty, where the fractional exponent k is maximized, and set S(n+1)=k; sequence gives denominators of S(1), S(2), ...",
+  "id": "A224763",
+  "mentions": [
+    "A090822",
+    "A224762"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

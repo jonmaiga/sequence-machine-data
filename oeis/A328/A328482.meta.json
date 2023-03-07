@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct terms required when n is expressed as a greedy sum of terms of A129912 (number of nonzero digits when n is expressed in greedy A129912-base).",
+  "id": "A328482",
+  "mentions": [
+    "A002110",
+    "A129912",
+    "A267263",
+    "A328481",
+    "A328483"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

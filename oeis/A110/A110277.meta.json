@@ -1,0 +1,18 @@
+{
+  "description": "Values of n such that the perfect deficiency (A109883) of n is a square.",
+  "id": "A110277",
+  "mentions": [
+    "A109883",
+    "A110278"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

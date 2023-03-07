@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) where row n lists the positions of n in A275314.",
+  "id": "A352064",
+  "mentions": [
+    "A001414",
+    "A006093",
+    "A275314",
+    "A280954"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

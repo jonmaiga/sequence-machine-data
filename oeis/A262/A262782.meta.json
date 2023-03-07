@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum_{k=1..n} 3^prime(k).",
+  "id": "A262782",
+  "mentions": [
+    "A057901"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

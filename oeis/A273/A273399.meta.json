@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(Catalan(n)).",
+  "id": "A273399",
+  "mentions": [
+    "A000108",
+    "A273400"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

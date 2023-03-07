@@ -1,0 +1,19 @@
+{
+  "description": "Binary word formed from first 2^n-1 terms of paper-folding sequence A014577.",
+  "id": "A343181",
+  "mentions": [
+    "A014577",
+    "A337580",
+    "A343182"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

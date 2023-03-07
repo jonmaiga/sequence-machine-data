@@ -1,0 +1,23 @@
+{
+  "description": "The first a(n) n-gap primes are lessers of twin primes, a(n) maximal.",
+  "id": "A195465",
+  "mentions": [
+    "A080192",
+    "A164294",
+    "A164368",
+    "A194658",
+    "A195270",
+    "A195271",
+    "A195325"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

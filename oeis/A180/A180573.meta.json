@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of vertices at distance k in the sun graph on 2n nodes. The sun graph on 2n nodes is obtained by attaching n pendant edges to the cycle graph on n nodes.",
+  "id": "A180573",
+  "mentions": [
+    "A000384",
+    "A180574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

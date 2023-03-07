@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (sine of 1 radian)^2.",
+  "id": "A117013",
+  "mentions": [
+    "A049469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:45",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

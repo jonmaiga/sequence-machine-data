@@ -1,0 +1,20 @@
+{
+  "description": "Triangle (n,k) by columns, arithmetic sequences interspersed with k zeros.",
+  "id": "A130026",
+  "mentions": [
+    "A081307",
+    "A130027"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

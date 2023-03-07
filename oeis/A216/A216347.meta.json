@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form n*10^n + 1",
+  "id": "A216347",
+  "mentions": [
+    "A007647"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

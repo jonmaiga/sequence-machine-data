@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = denominator(Bernoulli(prime(n) - 1)).",
+  "id": "A166062",
+  "mentions": [
+    "A008578",
+    "A027642",
+    "A071772",
+    "A090801",
+    "A110936",
+    "A165248",
+    "A165943"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

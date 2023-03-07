@@ -1,0 +1,18 @@
+{
+  "description": "Indices k such that (8/9)*k < A347113(k) < (5/4)*k.",
+  "id": "A348787",
+  "mentions": [
+    "A347113",
+    "A348788"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

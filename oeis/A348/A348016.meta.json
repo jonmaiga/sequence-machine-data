@@ -1,0 +1,21 @@
+{
+  "description": "Record the number of terms with no proper divisors, then the number with one proper divisor, then two, three, etc., until reaching a zero term. After each zero term, repeat the count as before.",
+  "id": "A348016",
+  "mentions": [
+    "A032741",
+    "A342585",
+    "A345730",
+    "A347791"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

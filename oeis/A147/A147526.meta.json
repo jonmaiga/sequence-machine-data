@@ -1,0 +1,19 @@
+{
+  "description": "Numbers Y such that 309*Y^2 + 103 is a square.",
+  "id": "A147526",
+  "mentions": [
+    "A147525"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

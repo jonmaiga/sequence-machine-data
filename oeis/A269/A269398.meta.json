@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A179016(1+n)) = A233271(1+a(n)), a(A213713(n)) = A269390(a(n)), where A179016, A233271 are the infinite trunks of binary beanstalk and inverted binary beanstalk and A213713, A269390 are their complements.",
+  "id": "A269398",
+  "mentions": [
+    "A179016",
+    "A213713",
+    "A213719",
+    "A233270",
+    "A233271",
+    "A269371",
+    "A269390",
+    "A269392",
+    "A269397",
+    "A269401",
+    "A269402"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

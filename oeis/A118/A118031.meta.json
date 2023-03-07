@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the palindromic numbers A002113.",
+  "id": "A118031",
+  "mentions": [
+    "A002113",
+    "A118064",
+    "A194097",
+    "A244162"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

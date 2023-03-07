@@ -1,0 +1,22 @@
+{
+  "description": "Starting from 1, successively take the smallest \"Choix de Bruxelles\" with factor 13 which is not already in the sequence.",
+  "id": "A360190",
+  "mentions": [
+    "A323286",
+    "A358708"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

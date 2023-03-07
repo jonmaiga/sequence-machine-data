@@ -1,0 +1,19 @@
+{
+  "description": "To get a(m), replace each digit of a(m-1) with the sum of all digits to the left of that digit.",
+  "id": "A110403",
+  "mentions": [
+    "A110402"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

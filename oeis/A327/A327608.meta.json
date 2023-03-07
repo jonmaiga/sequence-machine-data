@@ -1,0 +1,23 @@
+{
+  "description": "Number of parts in all twice partitions of n where the second partition is strict.",
+  "id": "A327608",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A270995",
+    "A327554",
+    "A327594",
+    "A327605",
+    "A327607"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

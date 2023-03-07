@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the radius of convergence of the generating function for the enumeration of rooted identity trees (A004111).",
+  "id": "A275149",
+  "mentions": [
+    "A004111",
+    "A246169"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

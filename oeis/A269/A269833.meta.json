@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^n + n! is the sum of 2 squares.",
+  "id": "A269833",
+  "mentions": [
+    "A001481",
+    "A007611"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the number of positive and negative terms in the expansion of a skew symmetric matrix of order n.",
+  "id": "A167029",
+  "mentions": [
+    "A167028"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:48",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

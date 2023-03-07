@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = gcd(k^n + 1, (k+1)^n + 1) for the smallest k at which the GCD exceeds 1.",
+  "id": "A186710",
+  "mentions": [
+    "A118119"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

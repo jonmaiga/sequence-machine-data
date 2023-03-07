@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime of the form 2*x+1 where x is the product of n consecutive primes.",
+  "id": "A347866",
+  "mentions": [
+    "A348430"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

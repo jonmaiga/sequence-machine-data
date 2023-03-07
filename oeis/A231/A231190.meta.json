@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of abs(n-8)/(2*n), n >= 1.",
+  "id": "A231190",
+  "mentions": [
+    "A055034",
+    "A093819",
+    "A106609",
+    "A106617",
+    "A127672",
+    "A187360",
+    "A225975",
+    "A231193",
+    "A232625",
+    "A232626"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

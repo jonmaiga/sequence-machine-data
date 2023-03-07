@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that share at least 1 (decimal) digit with their largest proper divisor.",
+  "id": "A358076",
+  "mentions": [
+    "A032742",
+    "A357929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

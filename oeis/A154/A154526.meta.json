@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that lcm(1,2,3,...,p-2,p-1,p) -+ 1 are both primes.",
+  "id": "A154526",
+  "mentions": [
+    "A056604",
+    "A154524",
+    "A154525"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

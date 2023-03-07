@@ -1,0 +1,18 @@
+{
+  "description": "Total number of cycles in all permutations of [n] having cycles of the form (c1, c2, ..., c_m) where c1 = min_{i>=1} c_i and c_j = min_{i>=j} c_i or c_j = max_{i>=j} c_i.",
+  "id": "A345341",
+  "mentions": [
+    "A344855"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: A054522 * A054521 as infinite lower triangular matrices.",
+  "id": "A127479",
+  "mentions": [
+    "A029939",
+    "A054521",
+    "A054522"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

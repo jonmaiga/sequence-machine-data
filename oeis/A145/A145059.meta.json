@@ -1,0 +1,19 @@
+{
+  "description": "Sum of successive values in A031443.",
+  "id": "A145059",
+  "mentions": [
+    "A031443"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of generations between each single 1 in the Kolakoski sequence A000002 and its nearest double 1 ancestor.",
+  "id": "A249949",
+  "mentions": [
+    "A000002",
+    "A054351",
+    "A054352",
+    "A249093",
+    "A249094",
+    "A249507",
+    "A249508",
+    "A249942",
+    "A249948"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

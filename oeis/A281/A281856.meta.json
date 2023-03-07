@@ -1,0 +1,21 @@
+{
+  "description": "One fourth of the order of the abelian non-cyclic groups (Z/A033949(n)*Z)^x.",
+  "id": "A281856",
+  "mentions": [
+    "A000010",
+    "A033949",
+    "A060679",
+    "A281854"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) given by T(n,1) = T(n,n) = 1, otherwise T(n, k) = (m*n-m*k+1)*T(n-1,k-1) + (m*k-m+1)*T(n-1,k), where m = -1.",
+  "id": "A144431",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A060187",
+    "A098593"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

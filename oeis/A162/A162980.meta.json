@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of reverse alternating (i.e., up-down) permutations of {1,2,...,n} having k fixed points (n >= 0, 0 <= k <= 1 + floor(n/2)).",
+  "id": "A162980",
+  "mentions": [
+    "A000111",
+    "A000166",
+    "A129815",
+    "A162977",
+    "A162979"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

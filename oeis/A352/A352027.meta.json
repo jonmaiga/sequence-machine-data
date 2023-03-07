@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = binomial(2*n-1,n) - n*(n-1) - 1.",
+  "id": "A352027",
+  "mentions": [
+    "A010763",
+    "A350653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

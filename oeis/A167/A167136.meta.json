@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = b(n)-th highest positive integer not equal to any a(k), 1 <= k <= n-1, where b(n) = noncomposite numbers = A008578(n).",
+  "id": "A167136",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A008578",
+    "A014688",
+    "A090178",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

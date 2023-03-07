@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)/cos(x).",
+  "id": "A302584",
+  "mentions": [
+    "A000364",
+    "A003701",
+    "A062024",
+    "A115415",
+    "A115416",
+    "A302583",
+    "A302585",
+    "A302586",
+    "A302587"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

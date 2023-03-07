@@ -1,0 +1,20 @@
+{
+  "description": "Odd nonprimes of the form j/(p(j+1)-p(j)), where p(j)=j-th prime.",
+  "id": "A141635",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

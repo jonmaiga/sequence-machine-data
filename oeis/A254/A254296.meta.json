@@ -1,0 +1,31 @@
+{
+  "description": "The number of partitions of n having the minimum number of summands such that all integers from 1 to n can be represented as the sum of the summands times one of {-1, 0, 1}.",
+  "id": "A254296",
+  "mentions": [
+    "A005704",
+    "A062051",
+    "A254430",
+    "A254431",
+    "A254432",
+    "A254433",
+    "A254435",
+    "A254436",
+    "A254437",
+    "A254438",
+    "A254439",
+    "A254440",
+    "A254442"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A003415(sigma(k)) >= k.",
+  "id": "A343217",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A343216",
+    "A343218"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of elements of S_n with strategic pile of size 6.",
+  "id": "A281259",
+  "mentions": [
+    "A267323",
+    "A267324",
+    "A267391"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: exp(1 + x^2/2 - exp(x)).",
+  "id": "A337062",
+  "mentions": [
+    "A000587",
+    "A001147",
+    "A097514",
+    "A293037",
+    "A293038"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

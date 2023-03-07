@@ -1,0 +1,30 @@
+{
+  "description": "List first F(1) odd numbers, then first F(2) even numbers (starting from 2), then the next F(3) odd numbers, then the next F(4) even numbers, etc., where F(n) = A000045(n), the n-th Fibonacci number.",
+  "id": "A138606",
+  "mentions": [
+    "A000035",
+    "A000045",
+    "A001614",
+    "A005408",
+    "A005843",
+    "A062114",
+    "A072649",
+    "A138607",
+    "A138609",
+    "A138612",
+    "A166012",
+    "A166013"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of first n terms divides the concatenation of the first n terms.",
+  "id": "A166064",
+  "mentions": [
+    "A151995",
+    "A152210"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

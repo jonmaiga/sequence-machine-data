@@ -1,0 +1,28 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+17)^2 = y^2.",
+  "id": "A118120",
+  "mentions": [
+    "A066049",
+    "A066436",
+    "A118554",
+    "A118611",
+    "A118630",
+    "A118673",
+    "A155464",
+    "A155465",
+    "A155466",
+    "A155923"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

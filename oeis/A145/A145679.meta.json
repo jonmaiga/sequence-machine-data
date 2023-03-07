@@ -1,0 +1,22 @@
+{
+  "description": "Lower limit of backward value of 2^n and n!.",
+  "id": "A145679",
+  "mentions": [
+    "A000079",
+    "A004154",
+    "A023415",
+    "A158624",
+    "A158625"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

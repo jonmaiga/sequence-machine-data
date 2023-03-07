@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A259280.",
+  "id": "A274701",
+  "mentions": [
+    "A002024",
+    "A185869",
+    "A259280"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

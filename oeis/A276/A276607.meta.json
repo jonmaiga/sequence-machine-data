@@ -1,0 +1,21 @@
+{
+  "description": "Column 1 of A276620: a(n) = A276606(n) - A260723(1+n).",
+  "id": "A276607",
+  "mentions": [
+    "A260723",
+    "A276606",
+    "A276608",
+    "A276620"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4*n^4 + 24*n^3 + 84*n^2 + 144*n + 98.",
+  "id": "A160828",
+  "mentions": [
+    "A000583",
+    "A160827",
+    "A217844"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

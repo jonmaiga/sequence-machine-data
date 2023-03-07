@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that p = k^2 + 1 and q = (k+2n)^2 + 1 are prime numbers with q - p square.",
+  "id": "A339007",
+  "mentions": [
+    "A002496",
+    "A096012",
+    "A193558",
+    "A206328",
+    "A216330",
+    "A339008"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

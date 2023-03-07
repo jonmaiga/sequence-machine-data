@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2^(prime(n) - k - 1) mod n, 1 <= k <= n.",
+  "id": "A175620",
+  "mentions": [
+    "A000079",
+    "A173655",
+    "A177226"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

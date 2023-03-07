@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of n-digit terms in A023086.",
+  "id": "A159827",
+  "mentions": [
+    "A023086",
+    "A159816"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

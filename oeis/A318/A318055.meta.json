@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that gcd(k, 2^k - 2) = 1 and gcd(k, 3^k - 3) > 1.",
+  "id": "A318055",
+  "mentions": [
+    "A005935",
+    "A121707",
+    "A139613",
+    "A267999"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

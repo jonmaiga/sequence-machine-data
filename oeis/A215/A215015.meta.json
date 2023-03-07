@@ -1,0 +1,22 @@
+{
+  "description": "Number of sphenic twins up to 10^n.",
+  "id": "A215015",
+  "mentions": [
+    "A007304",
+    "A066509",
+    "A215152",
+    "A215217",
+    "A215218"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

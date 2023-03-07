@@ -1,0 +1,17 @@
+{
+  "description": "Column 0 and main diagonal (offset) of triangle A132005.",
+  "id": "A132006",
+  "mentions": [
+    "A132005"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

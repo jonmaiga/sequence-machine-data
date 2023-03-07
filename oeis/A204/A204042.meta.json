@@ -1,0 +1,21 @@
+{
+  "description": "The number of functions f:{1,2,...,n}->{1,2,...,n} (endofunctions) such that all of the fixed points in f are isolated.",
+  "id": "A204042",
+  "mentions": [
+    "A065440",
+    "A086331",
+    "A349454",
+    "A350134"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

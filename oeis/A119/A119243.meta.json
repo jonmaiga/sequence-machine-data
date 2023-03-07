@@ -1,0 +1,20 @@
+{
+  "description": "Eigenvector of triangle A118919, so that a(n) = Sum_{k=0..[n\\2]} A118919(n,k)*a(k).",
+  "id": "A119243",
+  "mentions": [
+    "A118919",
+    "A119244",
+    "A119245"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

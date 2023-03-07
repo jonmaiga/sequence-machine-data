@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that triangular(n) is an average of 4 consecutive primes.",
+  "id": "A226153",
+  "mentions": [
+    "A034963",
+    "A102655",
+    "A226151"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

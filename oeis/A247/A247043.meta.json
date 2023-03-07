@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of gamma_2, a lattice sum constant, analog of Euler's constant for two-dimensional lattices.",
+  "id": "A247043",
+  "mentions": [
+    "A247042"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

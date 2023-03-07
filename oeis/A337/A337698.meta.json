@@ -1,0 +1,37 @@
+{
+  "description": "Number of compositions of n that are not strictly increasing.",
+  "id": "A337698",
+  "mentions": [
+    "A000009",
+    "A000212",
+    "A001523",
+    "A007318",
+    "A047967",
+    "A056823",
+    "A066099",
+    "A097805",
+    "A115981",
+    "A128422",
+    "A140106",
+    "A218004",
+    "A242771",
+    "A332745",
+    "A332834",
+    "A332835",
+    "A333255",
+    "A337481",
+    "A337482",
+    "A337484"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

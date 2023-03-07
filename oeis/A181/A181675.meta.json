@@ -1,0 +1,21 @@
+{
+  "description": "V(n,n^2), where V is the number of integer points in an n-dimensional sphere of Lee-radius n^2 centered at the origin.",
+  "id": "A181675",
+  "mentions": [
+    "A001850",
+    "A026000",
+    "A026001"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

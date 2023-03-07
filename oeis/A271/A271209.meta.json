@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^5 + n + 1.",
+  "id": "A271209",
+  "mentions": [
+    "A003627",
+    "A016789",
+    "A016945",
+    "A131471",
+    "A161945",
+    "A271208"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:01:55",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

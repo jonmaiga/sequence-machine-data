@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which contain only the digit 4 in their base-5 representation, with at most one exception. If the exception is the most-significant digit, it must be the digit 1, 2, or 3, otherwise the exception must be the digit 3.",
+  "id": "A188531",
+  "mentions": [
+    "A089633",
+    "A188341",
+    "A188499",
+    "A188529"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

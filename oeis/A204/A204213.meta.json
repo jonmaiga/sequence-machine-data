@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = Number of length n+1 nonnegative integer arrays starting and ending with 0 with adjacent elements differing by no more than k.",
+  "id": "A204213",
+  "mentions": [
+    "A001006",
+    "A051662",
+    "A104184",
+    "A204208"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

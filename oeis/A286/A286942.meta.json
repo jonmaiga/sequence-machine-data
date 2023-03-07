@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: numbers 1 <= k <= (A002110(n) - 1) where gcd(k, A002110(n - 1)) = 1.",
+  "id": "A286942",
+  "mentions": [
+    "A001248",
+    "A002110",
+    "A005867",
+    "A006530",
+    "A057588",
+    "A279864",
+    "A286941"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, m) = floor(binomial(n+1, m)* binomial(n+2, m)/(2*m+2)), 1 <= m <= n.",
+  "id": "A174102",
+  "mentions": [
+    "A011848",
+    "A166454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [x^n*y^n] 1/(1 - x - y - x^2 + x*y - y^2).",
+  "id": "A322239",
+  "mentions": [
+    "A123603",
+    "A192364"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

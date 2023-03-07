@@ -1,0 +1,35 @@
+{
+  "description": "Number of ways to choose a sequence of integer partitions, one of each part of an integer partition of n into odd parts.",
+  "id": "A358825",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001970",
+    "A027193",
+    "A063834",
+    "A072233",
+    "A078408",
+    "A270995",
+    "A271619",
+    "A279374",
+    "A279785",
+    "A296122",
+    "A300301",
+    "A321449",
+    "A356932",
+    "A358334",
+    "A358824",
+    "A358826"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

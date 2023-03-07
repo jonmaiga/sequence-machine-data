@@ -1,0 +1,39 @@
+{
+  "description": "Number of sequences of length 2*n covering an initial interval of positive integers and splitting into n maximal runs.",
+  "id": "A337564",
+  "mentions": [
+    "A000670",
+    "A001700",
+    "A003242",
+    "A005649",
+    "A052841",
+    "A060223",
+    "A106351",
+    "A106356",
+    "A124767",
+    "A269134",
+    "A325535",
+    "A333217",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A333769",
+    "A335461",
+    "A335838",
+    "A336108",
+    "A337504",
+    "A337505",
+    "A337565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

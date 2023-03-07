@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of m(2) = Sum_{n>=0} 1/n!!.",
+  "id": "A143280",
+  "mentions": [
+    "A006882",
+    "A227569",
+    "A288055",
+    "A288091",
+    "A288092",
+    "A288093",
+    "A288094",
+    "A288095",
+    "A288096"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

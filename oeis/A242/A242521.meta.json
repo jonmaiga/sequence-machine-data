@@ -1,0 +1,33 @@
+{
+  "description": "Number of cyclic arrangements (up to direction) of {1,2,...,n} such that the difference between any two neighbors is b^k for some b>1 and k>1.",
+  "id": "A242521",
+  "mentions": [
+    "A242519",
+    "A242520",
+    "A242522",
+    "A242523",
+    "A242524",
+    "A242525",
+    "A242526",
+    "A242527",
+    "A242528",
+    "A242529",
+    "A242530",
+    "A242531",
+    "A242532",
+    "A242533",
+    "A242534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

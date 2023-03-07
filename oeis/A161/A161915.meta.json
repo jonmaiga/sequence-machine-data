@@ -1,0 +1,18 @@
+{
+  "description": "Digital root of Ramanujan primes (A104272).",
+  "id": "A161915",
+  "mentions": [
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

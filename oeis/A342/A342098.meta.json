@@ -1,0 +1,35 @@
+{
+  "description": "Number of (necessarily strict) integer partitions of n with all adjacent parts having quotients > 2.",
+  "id": "A342098",
+  "mentions": [
+    "A000009",
+    "A000929",
+    "A001055",
+    "A001227",
+    "A003114",
+    "A003242",
+    "A027193",
+    "A034296",
+    "A154402",
+    "A167606",
+    "A178470",
+    "A337135",
+    "A342083",
+    "A342084",
+    "A342085",
+    "A342094",
+    "A342095",
+    "A342096",
+    "A342097"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

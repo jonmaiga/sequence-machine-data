@@ -1,0 +1,21 @@
+{
+  "description": "Greatest 5th power integer that divides n!.",
+  "id": "A248767",
+  "mentions": [
+    "A000142",
+    "A248768",
+    "A248769"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

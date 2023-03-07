@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that (k-th prime after A002110(n)+1) - A002110(n) is not a prime, where A002110(n) is the n-th primorial.",
+  "id": "A160434",
+  "mentions": [
+    "A002110",
+    "A005235",
+    "A160433"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest composite number whose prime divisors (with multiplicity) sum to prime(n); n >= 3.",
+  "id": "A295185",
+  "mentions": [
+    "A000040",
+    "A056240",
+    "A288189",
+    "A288313",
+    "A288814",
+    "A289993",
+    "A292081",
+    "A297150",
+    "A297925",
+    "A298252",
+    "A298366",
+    "A298615"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 3,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

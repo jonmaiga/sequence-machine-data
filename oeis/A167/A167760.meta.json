@@ -1,0 +1,22 @@
+{
+  "description": "The number of permutations w of [n] with no w(i)+1 == w(i+1) (mod n).",
+  "id": "A167760",
+  "mentions": [
+    "A000166",
+    "A000587",
+    "A000757"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

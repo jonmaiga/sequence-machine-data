@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number of the form p^2 + q^2 - 2 for primes p and q that is an odd prime times 2^n, or -1 if there is no such number.",
+  "id": "A359492",
+  "mentions": [
+    "A045636",
+    "A359439"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

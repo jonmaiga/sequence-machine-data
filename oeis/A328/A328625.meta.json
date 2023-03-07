@@ -1,0 +1,27 @@
+{
+  "description": "In primorial base representation of n, multiply all other digits except the least significant with 1+{their right hand side neighbor}, and reduce each modulo prime(k) (with k > 1) to get a new digit for the position k (the least significant digit stays as it is), then convert back to decimal.",
+  "id": "A328625",
+  "mentions": [
+    "A002110",
+    "A003188",
+    "A049345",
+    "A276085",
+    "A289234",
+    "A328620",
+    "A328622",
+    "A328624",
+    "A328626",
+    "A328628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

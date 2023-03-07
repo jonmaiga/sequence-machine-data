@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that phi^e(k) > phi^e(m) for all m < k, where phi^e(k) = A072911(k) is the number of divisors d of k such that d and k are exponentially coprime.",
+  "id": "A307004",
+  "mentions": [
+    "A025487",
+    "A072911"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

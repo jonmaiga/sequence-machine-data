@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the limit, as n approaches infinity, of the probability that a node is a leaf in a free tree with n nodes.",
+  "id": "A345133",
+  "mentions": [
+    "A003228",
+    "A055543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

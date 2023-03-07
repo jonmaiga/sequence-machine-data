@@ -1,0 +1,18 @@
+{
+  "description": "Expected number of spins in a 2-player Dreidel game (rounded to nearest integer) (version 2).",
+  "id": "A348270",
+  "mentions": [
+    "A051787"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

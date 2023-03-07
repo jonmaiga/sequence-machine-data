@@ -1,0 +1,22 @@
+{
+  "description": "For any number n with runs in binary expansion (r_w, ..., r_0), let p(n) be the polynomial of a single indeterminate x where the coefficient of x^e is r_e for e = 0..w and otherwise 0, and let q be the inverse of p; a(n) = q(p(n)').",
+  "id": "A355653",
+  "mentions": [
+    "A000225",
+    "A005811",
+    "A101211",
+    "A355654"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

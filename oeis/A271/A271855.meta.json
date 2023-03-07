@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of -x_1 such that the Riemann function zeta(x) has at real x_1",
+  "id": "A271855",
+  "mentions": [
+    "A271856"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

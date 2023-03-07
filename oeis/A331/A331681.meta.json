@@ -1,0 +1,42 @@
+{
+  "description": "One, two, and all numbers of the form 2^k * prime(j) where k > 0 and j already belongs to the sequence.",
+  "id": "A331681",
+  "mentions": [
+    "A000045",
+    "A000081",
+    "A000669",
+    "A001678",
+    "A007097",
+    "A061775",
+    "A090129",
+    "A196050",
+    "A291636",
+    "A306202",
+    "A316470",
+    "A316473",
+    "A316495",
+    "A316697",
+    "A324969",
+    "A331679",
+    "A331680",
+    "A331682",
+    "A331683",
+    "A331687",
+    "A331783",
+    "A331784",
+    "A331785",
+    "A331873",
+    "A331935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

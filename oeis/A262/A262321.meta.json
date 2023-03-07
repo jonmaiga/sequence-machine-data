@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to select a subset s containing n from {1,...,n} and then partition s into blocks of equal size.",
+  "id": "A262321",
+  "mentions": [
+    "A262320"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

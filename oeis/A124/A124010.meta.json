@@ -1,0 +1,33 @@
+{
+  "description": "Triangle in which first row is 0, n-th row (n>1) lists the exponents of distinct prime factors (\"ordered prime signature\") in the prime factorization of n.",
+  "id": "A124010",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005361",
+    "A020639",
+    "A027746",
+    "A027748",
+    "A051903",
+    "A051904",
+    "A064372",
+    "A067029",
+    "A067255",
+    "A071178",
+    "A118914",
+    "A212171"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of 3 X n binary matrices avoiding simultaneously the right angled numbered polyomino patterns (ranpp) (10;0) and (01;1).",
+  "id": "A100312",
+  "mentions": [
+    "A049611",
+    "A100313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

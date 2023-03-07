@@ -1,0 +1,20 @@
+{
+  "description": "Slowest increasing sequence where the digits, taken one by one, show the pattern odd/odd/even/even/odd/odd/even/even... Only the terms < 300 differ from A098161.",
+  "id": "A102093",
+  "mentions": [
+    "A097962",
+    "A098161"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

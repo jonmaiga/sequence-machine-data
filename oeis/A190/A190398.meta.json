@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place 3 nonattacking grasshoppers on a toroidal chessboard of size n x n.",
+  "id": "A190398",
+  "mentions": [
+    "A172518",
+    "A190395"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:05",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

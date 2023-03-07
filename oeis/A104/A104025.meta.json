@@ -1,0 +1,19 @@
+{
+  "description": "Least number k that can be written as k^2 * j with 0 < j <= k and gcd(k, j) = 1 in n ways.",
+  "id": "A104025",
+  "mentions": [
+    "A102354",
+    "A104021",
+    "A104023"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

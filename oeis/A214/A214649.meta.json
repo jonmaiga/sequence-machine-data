@@ -1,0 +1,24 @@
+{
+  "description": "a(-1) = 1 and g.f. A(x) satisfies A(x) - 1/A(x) = 1/x - 1.",
+  "id": "A214649",
+  "mentions": [
+    "A000032",
+    "A001006",
+    "A007440",
+    "A039834",
+    "A100223",
+    "A343773"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": -1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

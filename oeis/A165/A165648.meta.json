@@ -1,0 +1,20 @@
+{
+  "description": "Number of disconnected simple graphs on n vertices with each component regular.",
+  "id": "A165648",
+  "mentions": [
+    "A005177",
+    "A165647"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

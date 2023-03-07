@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the same (Euclidean) distance does not occur twice between any two distinct pairs of points ((n, a(n)), (k, a(k)).",
+  "id": "A284916",
+  "mentions": [
+    "A005282",
+    "A284917"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form 2^m * (6k + 1) for m, k >= 0, and 0.",
+  "id": "A260488",
+  "mentions": [
+    "A000265",
+    "A045375",
+    "A113448",
+    "A115235",
+    "A123863",
+    "A126684",
+    "A133863",
+    "A260489"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

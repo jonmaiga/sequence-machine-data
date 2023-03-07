@@ -1,0 +1,21 @@
+{
+  "description": "Length of the longest sequence of equidistant primes among the first n primes.",
+  "id": "A343118",
+  "mentions": [
+    "A000720",
+    "A005115",
+    "A338869",
+    "A343122"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 127,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n if n <= 3, otherwise the smallest squarefree number not occurring earlier having at least one common factor with a(n-2), but none with a(n-1).",
+  "id": "A252865",
+  "mentions": [
+    "A005117",
+    "A098550",
+    "A251391",
+    "A252867",
+    "A252868"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

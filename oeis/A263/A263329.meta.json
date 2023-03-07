@@ -1,0 +1,22 @@
+{
+  "description": "Fixed points of permutations A263327 and A263328.",
+  "id": "A263329",
+  "mentions": [
+    "A263327",
+    "A263328",
+    "A263355",
+    "A263383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

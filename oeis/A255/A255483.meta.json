@@ -1,0 +1,40 @@
+{
+  "description": "Infinite square array read by antidiagonals downwards: T(0,m) = prime(m), m >= 1; for n >= 1, T(n,m) = T(n-1,m)*T(n-1,m+1)/gcd(T(n-1,m), T(n-1,m+1))^2, m >= 1.",
+  "id": "A255483",
+  "mentions": [
+    "A000040",
+    "A002262",
+    "A003961",
+    "A003987",
+    "A006094",
+    "A007913",
+    "A019565",
+    "A025581",
+    "A036262",
+    "A046302",
+    "A048675",
+    "A048720",
+    "A059897",
+    "A066117",
+    "A090076",
+    "A099884",
+    "A123098",
+    "A276578",
+    "A276579",
+    "A276804",
+    "A329049",
+    "A329329"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

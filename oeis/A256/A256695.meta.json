@@ -1,0 +1,18 @@
+{
+  "description": "Integer areas A of integer-sided triangles (a, b, c) such that the area of the triangle (a+b, a+c, b+c) is also an integer.",
+  "id": "A256695",
+  "mentions": [
+    "A135453",
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

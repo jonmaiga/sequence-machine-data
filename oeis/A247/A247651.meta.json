@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of binary strings of length 2n obtained from a partition of n.",
+  "id": "A247651",
+  "mentions": [
+    "A025560",
+    "A130670",
+    "A130760"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

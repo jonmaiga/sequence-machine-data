@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n+1) - sigma(n) divides n.",
+  "id": "A225211",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A067803"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 384*n^3 - 1184*n^2 + 1228*n - 427.",
+  "id": "A272131",
+  "mentions": [
+    "A245244",
+    "A272129",
+    "A272132"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:09:47",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

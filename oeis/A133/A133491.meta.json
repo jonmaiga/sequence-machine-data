@@ -1,0 +1,19 @@
+{
+  "description": "Order of the symmetry group of the (in some cases conjectural) minimal-energy configuration of n identical charged particles confined to the surface of a sphere.",
+  "id": "A133491",
+  "mentions": [
+    "A033177",
+    "A242617"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

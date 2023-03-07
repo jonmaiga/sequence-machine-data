@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients in asymptotic expansion of sequence A259869.",
+  "id": "A260578",
+  "mentions": [
+    "A256168",
+    "A259869",
+    "A260491",
+    "A260503",
+    "A260530",
+    "A260532",
+    "A260948",
+    "A260949",
+    "A260950"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

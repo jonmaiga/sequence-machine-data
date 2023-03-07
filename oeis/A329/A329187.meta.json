@@ -1,0 +1,19 @@
+{
+  "description": "Initial members of admirable triples: numbers k such that (k, k+2, k+4) are all admirable numbers (A111592).",
+  "id": "A329187",
+  "mentions": [
+    "A109730",
+    "A111592",
+    "A231088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Totient highly abundant numbers: numbers n such that A092693(n)+n > A092693(m)+m for all m < n.",
+  "id": "A286267",
+  "mentions": [
+    "A000396",
+    "A002093",
+    "A082897",
+    "A092693",
+    "A286265"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

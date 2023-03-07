@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which the set {210*n-19, 210*n-17, 210*n-13, 210*n-11, 210*n-1, 210*n+1, 210*n+11, 210*n+13, 210*n+17, 210*n+19} forms a symmetrical prime decuplet (also known as Federighi cluster).",
+  "id": "A178565",
+  "mentions": [
+    "A145315"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

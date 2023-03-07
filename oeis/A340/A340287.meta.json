@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which there are A000005(k+1)-1 bases b such that k in base b contains digit b-1.",
+  "id": "A340287",
+  "mentions": [
+    "A000005",
+    "A337496"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

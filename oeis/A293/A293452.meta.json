@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of iterations to reach a final state for an n X k lattice of sandpiles on a torus according to rules specified in A249872.",
+  "id": "A293452",
+  "mentions": [
+    "A023855",
+    "A249872"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

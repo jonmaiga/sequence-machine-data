@@ -1,0 +1,19 @@
+{
+  "description": "Frieze pattern with 4 rows, read by diagonals.",
+  "id": "A139434",
+  "mentions": [
+    "A139438",
+    "A139458"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

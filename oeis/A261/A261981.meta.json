@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of compositions of n such that k is the minimal distance between two identical parts; triangle T(n,k), n>=2, 1<=k<=floor((sqrt(8*n-7)-1)/2), read by rows.",
+  "id": "A261981",
+  "mentions": [
+    "A000142",
+    "A261960",
+    "A261982",
+    "A261983",
+    "A261984",
+    "A262191"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

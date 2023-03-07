@@ -1,0 +1,28 @@
+{
+  "description": "The largest proper divisor of the primorial base exp-function, reduced modulo 4.",
+  "id": "A353516",
+  "mentions": [
+    "A010873",
+    "A032742",
+    "A048103",
+    "A049345",
+    "A276086",
+    "A324895",
+    "A353486",
+    "A353487",
+    "A353490",
+    "A353517",
+    "A353526"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

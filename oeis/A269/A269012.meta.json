@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X n binary arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling two exactly once.",
+  "id": "A269012",
+  "mentions": [
+    "A269011"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:06:24",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Minimal m > 0 such that Fibonacci(m) == 0 (mod n^3).",
+  "id": "A132633",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A001177",
+    "A130233",
+    "A130234",
+    "A131294"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

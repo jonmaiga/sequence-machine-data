@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled 2-regular graphs with no multiple edges, but loops are allowed (i.e., each vertex is endpoint of two (usual) edges or one loop).",
+  "id": "A108246",
+  "mentions": [
+    "A000985",
+    "A001205",
+    "A002137",
+    "A144161"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

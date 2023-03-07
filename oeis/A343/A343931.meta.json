@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k} (-j)^j == 0 (mod k).",
+  "id": "A343931",
+  "mentions": [
+    "A001099",
+    "A128981",
+    "A341437",
+    "A343930",
+    "A343933"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

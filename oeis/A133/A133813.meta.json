@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are primally tight and have strictly descending powers.",
+  "id": "A133813",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A020639",
+    "A025487",
+    "A027748",
+    "A049084",
+    "A073491",
+    "A085233",
+    "A087980",
+    "A124010",
+    "A133808",
+    "A133812"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

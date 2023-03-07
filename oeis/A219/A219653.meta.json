@@ -1,0 +1,24 @@
+{
+  "description": "Least inverse of A219652; a(n) = minimal i such that A219652(i) = n.",
+  "id": "A219653",
+  "mentions": [
+    "A007623",
+    "A213708",
+    "A219643",
+    "A219652",
+    "A219654",
+    "A219655",
+    "A219659",
+    "A219666"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

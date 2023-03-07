@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime factor of A001008(n), numerator of n-th harmonic number; a(1) = 1.",
+  "id": "A308970",
+  "mentions": [
+    "A001008",
+    "A308967",
+    "A308968",
+    "A308969",
+    "A308971"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

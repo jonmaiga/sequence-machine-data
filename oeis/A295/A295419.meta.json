@@ -1,0 +1,23 @@
+{
+  "description": "Number of dissections of an n-gon by nonintersecting diagonals into polygons with a prime number of sides counted up to rotations and reflections.",
+  "id": "A295419",
+  "mentions": [
+    "A001004",
+    "A290571",
+    "A290646",
+    "A290722",
+    "A290816",
+    "A295260",
+    "A295634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

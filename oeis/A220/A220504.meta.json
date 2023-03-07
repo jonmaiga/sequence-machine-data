@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the total number of appearances of k as the smallest part in all partitions of n.",
+  "id": "A220504",
+  "mentions": [
+    "A000070",
+    "A026794",
+    "A087787",
+    "A092269",
+    "A174455",
+    "A182703",
+    "A209314"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

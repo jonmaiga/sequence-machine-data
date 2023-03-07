@@ -1,0 +1,22 @@
+{
+  "description": "Let n be a positive integer. For each prime divisor p of n, consider the highest power of p which does not exceed n. The sum a(n) of these powers is defined as the power-sum of n.",
+  "id": "A339378",
+  "mentions": [
+    "A000523",
+    "A052548",
+    "A053644",
+    "A100484",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

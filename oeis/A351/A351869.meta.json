@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of self-complementary score sequences that are possible for strong tournaments on n vertices.",
+  "id": "A351869",
+  "mentions": [
+    "A000571",
+    "A345470",
+    "A351822"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

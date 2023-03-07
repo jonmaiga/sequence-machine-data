@@ -1,0 +1,21 @@
+{
+  "description": "Indices of the primitive friendly pairs in the sequence of friendly pairs (A050973, A050972) ordered by smallest maximal element.",
+  "id": "A263118",
+  "mentions": [
+    "A050972",
+    "A050973",
+    "A165430",
+    "A233039"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

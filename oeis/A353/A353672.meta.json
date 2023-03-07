@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is an even number with an even number of distinct prime factors, otherwise 0.",
+  "id": "A353672",
+  "mentions": [
+    "A001221",
+    "A059841",
+    "A092248",
+    "A098902",
+    "A353555",
+    "A353673",
+    "A353674",
+    "A353675"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

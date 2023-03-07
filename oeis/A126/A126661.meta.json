@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: A(i,j) = smallest odd prime r such that pqr+2 is prime, where p is the i-th odd prime and q is the j-th odd prime.",
+  "id": "A126661",
+  "mentions": [
+    "A000040",
+    "A065091",
+    "A126608",
+    "A126609",
+    "A126660"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

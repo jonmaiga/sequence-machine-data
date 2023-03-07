@@ -1,0 +1,18 @@
+{
+  "description": "Number of times the number n turns up in pseudo-Fibonacci sequences starting with [k, 1] (with k >= 1), excluding the starting terms.",
+  "id": "A340862",
+  "mentions": [
+    "A067148",
+    "A067149"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices where A351101(n) = 1.",
+  "id": "A351278",
+  "mentions": [
+    "A000040",
+    "A350615",
+    "A350877",
+    "A351101",
+    "A351102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of toothpicks or D-toothpicks added at n-th stage in the structure of the D-toothpick \"narrow\" triangle of A233762.",
+  "id": "A233763",
+  "mentions": [
+    "A000079",
+    "A011782",
+    "A139251",
+    "A220501",
+    "A220523",
+    "A233761",
+    "A233762"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

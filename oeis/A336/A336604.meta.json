@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1, a(1) = 2; thereafter let x = (a(n-1) mod a(n-2)); then a(n) = a(n-1) + a(x) if x < n, otherwise a(n) = a(n-1).",
+  "id": "A336604",
+  "mentions": [
+    "A215526"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

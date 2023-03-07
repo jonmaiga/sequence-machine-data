@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = coefficient of x^n*y^(n+1)/n! in (1/2) * log( Sum_{n>=0} (n^2 + 3*n*y + 2*y^2)^n * x^n/n! ).",
+  "id": "A359928",
+  "mentions": [
+    "A318634",
+    "A319147",
+    "A319834",
+    "A359927"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

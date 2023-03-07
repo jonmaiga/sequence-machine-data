@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers which apparently never result in a palindrome under repeated applications of the function f(x) = x + (x with digits in Zeckendorf representation reversed). Zeckendorf representation analog of Lychrel numbers.",
+  "id": "A348570",
+  "mentions": [
+    "A014417",
+    "A023108",
+    "A061561",
+    "A066059",
+    "A075420",
+    "A077404",
+    "A094202",
+    "A338571",
+    "A348571",
+    "A348572",
+    "A349238",
+    "A349239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

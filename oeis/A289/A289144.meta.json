@@ -1,0 +1,17 @@
+{
+  "description": "The difference between the second divisor of n and the penultimate divisor of n.",
+  "id": "A289144",
+  "mentions": [
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

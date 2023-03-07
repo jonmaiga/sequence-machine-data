@@ -1,0 +1,20 @@
+{
+  "description": "Number of automorphisms of the n-folded cube graph.",
+  "id": "A357827",
+  "mentions": [
+    "A000165",
+    "A288944"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

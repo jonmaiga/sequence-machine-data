@@ -1,0 +1,20 @@
+{
+  "description": "Indices of zeros in A022837.",
+  "id": "A324790",
+  "mentions": [
+    "A022837",
+    "A309225",
+    "A324787"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

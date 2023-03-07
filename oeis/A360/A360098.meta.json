@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the number of ways of choosing nonnegative numbers for k n-sided dice, k >= 0, n >= 1, so that summing the faces can give any integer from 0 to n^k - 1.",
+  "id": "A360098",
+  "mentions": [
+    "A001147",
+    "A002119",
+    "A025035",
+    "A025036",
+    "A060540",
+    "A118914",
+    "A131514",
+    "A273013"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

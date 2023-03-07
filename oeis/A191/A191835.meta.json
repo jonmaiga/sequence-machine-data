@@ -1,0 +1,18 @@
+{
+  "description": "Primitive n such that k^k == k+1 (mod n) has no nonzero solutions.",
+  "id": "A191835",
+  "mentions": [
+    "A191834"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

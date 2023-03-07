@@ -1,0 +1,19 @@
+{
+  "description": "Greatest m such that 2^m divides p^2 - q^2, where p = prime(n) and q is a prime < p.",
+  "id": "A270649",
+  "mentions": [
+    "A000040",
+    "A270651"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

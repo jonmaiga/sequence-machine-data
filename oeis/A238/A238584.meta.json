@@ -1,0 +1,17 @@
+{
+  "description": "Ratios of consecutive terms in A152466.",
+  "id": "A238584",
+  "mentions": [
+    "A152466"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

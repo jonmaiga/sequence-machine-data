@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] avoiding the generalized patterns 1(k+2)-(u_1+1)-...-(u_k+1) for all permutations u of [k].",
+  "id": "A263791",
+  "mentions": [
+    "A000108",
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

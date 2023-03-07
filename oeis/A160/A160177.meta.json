@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (633+100*sqrt(2))/617.",
+  "id": "A160177",
+  "mentions": [
+    "A002193",
+    "A115135",
+    "A160176",
+    "A160178"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sequence a(n) with all (x,y)=(a(2m),a(2m+-1)) satisfying y|x^2+1 and x|y^2+y+1.",
+  "id": "A242728",
+  "mentions": [
+    "A077136",
+    "A101368",
+    "A242725"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:39:22",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum remaining space when a square n X n is tiled with smaller squares with distinct integer sides parallel to the n X n square.",
+  "id": "A334905",
+  "mentions": [
+    "A002839",
+    "A002962",
+    "A006983",
+    "A181735",
+    "A228953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

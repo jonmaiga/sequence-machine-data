@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 1..n arranged in a circle with exactly 4 adjacent element pairs in decreasing order.",
+  "id": "A151577",
+  "mentions": [
+    "A000498",
+    "A334218"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 4,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

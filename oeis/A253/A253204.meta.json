@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) is a prime power p^h (h>=1) with the property that its k-th smallest divisor, for all 1 <= k <= tau(p^h), contains exactly k \"1\" digits in its binary representation.",
+  "id": "A253204",
+  "mentions": [
+    "A019434",
+    "A071593",
+    "A255401"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

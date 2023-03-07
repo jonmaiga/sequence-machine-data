@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p + digitsum(p) = q^k for some prime q and k > 1 where digitsum(n) = A007953(n).",
+  "id": "A242368",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A007605",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

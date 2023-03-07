@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A174478(n)*x^n/n ) where A174478(n) = Sum_{d|n} d*2^(n/d)*tau(d).",
+  "id": "A174477",
+  "mentions": [
+    "A000005",
+    "A174478"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

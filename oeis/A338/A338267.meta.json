@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the nearest integer to the area of a triangle with sides prime(n), prime(n+1), prime(n+2).",
+  "id": "A338267",
+  "mentions": [
+    "A330096",
+    "A338262",
+    "A338269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

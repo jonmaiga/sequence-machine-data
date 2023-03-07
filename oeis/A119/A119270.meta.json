@@ -1,0 +1,22 @@
+{
+  "description": "Triangle: number of exactly (m-1)-dimensional partitions of n, up to conjugacy, for n >= 1, m >= 0.",
+  "id": "A119270",
+  "mentions": [
+    "A118364",
+    "A119269",
+    "A119271",
+    "A119339"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

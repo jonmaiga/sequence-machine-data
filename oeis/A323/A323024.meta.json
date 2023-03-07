@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with exactly three distinct exponents in their prime factorization, or three distinct parts in their prime signature.",
+  "id": "A323024",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001615",
+    "A006939",
+    "A033992",
+    "A059404",
+    "A062770",
+    "A071625",
+    "A118914",
+    "A181819",
+    "A323014",
+    "A323022",
+    "A323025"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can't be written as x^2 + x*y + y^2, with 0 <= x <= y and gcd(x,y) = 1.",
+  "id": "A226946",
+  "mentions": [
+    "A000086",
+    "A001615",
+    "A003627",
+    "A034017"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

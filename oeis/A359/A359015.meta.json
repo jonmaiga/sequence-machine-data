@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the smallest n-gonal pyramidal number with exactly n distinct prime factors.",
+  "id": "A359015",
+  "mentions": [
+    "A358864",
+    "A359016"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

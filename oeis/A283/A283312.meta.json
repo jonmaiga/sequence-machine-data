@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = smallest missing positive number, unless a(n-1) was a prime in which case a(n)=2*a(n-1).",
+  "id": "A283312",
+  "mentions": [
+    "A001747",
+    "A127202",
+    "A280864",
+    "A280985",
+    "A283313",
+    "A338356",
+    "A338357",
+    "A338361",
+    "A338362"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

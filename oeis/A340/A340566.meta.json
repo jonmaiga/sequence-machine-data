@@ -1,0 +1,21 @@
+{
+  "description": "Square array, read by descending antidiagonals; T(n,k) is A001057(n) + A001057(k)*i, converted to complex binary (base -1 + i), where i=sqrt(-1).",
+  "id": "A340566",
+  "mentions": [
+    "A001057",
+    "A318438",
+    "A318439"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

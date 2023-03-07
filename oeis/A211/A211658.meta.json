@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers k such that value of sigma(k) is unique; sigma(k) = A000203(k) = sum of divisors of k.",
+  "id": "A211658",
+  "mentions": [
+    "A000203",
+    "A066076",
+    "A211656",
+    "A211657",
+    "A211659",
+    "A211660"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

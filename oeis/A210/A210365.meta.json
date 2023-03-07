@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers p such that x^2 + x + p produces primes for x = 0..6 but not x = 7.",
+  "id": "A210365",
+  "mentions": [
+    "A067774",
+    "A164926",
+    "A210360",
+    "A210361",
+    "A210362",
+    "A210363",
+    "A210364"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

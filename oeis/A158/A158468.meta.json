@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of hz = limit_{k -> infinity} 1 + k - Sum_{j = -k..k} exp(-2^j).",
+  "id": "A158468",
+  "mentions": [
+    "A100668",
+    "A158469",
+    "A159835",
+    "A339168"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

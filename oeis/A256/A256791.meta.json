@@ -1,0 +1,18 @@
+{
+  "description": "Trace of n in the minimal alternating squares representation of n.",
+  "id": "A256791",
+  "mentions": [
+    "A256789"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

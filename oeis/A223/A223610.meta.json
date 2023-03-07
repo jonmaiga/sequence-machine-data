@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose abundance is 18: sigma(k) - 2*k = 18.",
+  "id": "A223610",
+  "mentions": [
+    "A000203",
+    "A033880",
+    "A223608"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

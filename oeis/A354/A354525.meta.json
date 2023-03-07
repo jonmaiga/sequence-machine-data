@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A354512(k) = A001221(k).",
+  "id": "A354525",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A354512",
+    "A354526",
+    "A354527",
+    "A354531",
+    "A354532",
+    "A354533",
+    "A354534"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

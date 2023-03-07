@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p that remains prime through exactly n iterations of the function f(x) = 5x + 2.",
+  "id": "A249573",
+  "mentions": [
+    "A000040",
+    "A005602",
+    "A023217",
+    "A023313",
+    "A023341",
+    "A280720"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

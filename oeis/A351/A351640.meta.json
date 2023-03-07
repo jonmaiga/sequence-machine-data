@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of patterns of length n with all distinct runs and maximum value k.",
+  "id": "A351640",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A111596",
+    "A350824",
+    "A351200",
+    "A351641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X n matrices with 3*n/2 1's (if n is even) or (3*n+1)/2 1's (if n is odd) that do not have a horizontal nor vertical nor diagonal 3-streak of 1's.",
+  "id": "A339631",
+  "mentions": [
+    "A339633",
+    "A339634"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

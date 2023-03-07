@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals five.",
+  "id": "A324449",
+  "mentions": [
+    "A324429",
+    "A324431",
+    "A324432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 5,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Decimal expansion of the sum of reciprocals of the numbers that are not pandigital numbers (version 2, A171102).",
+  "id": "A338287",
+  "mentions": [
+    "A007095",
+    "A052382",
+    "A052383",
+    "A052404",
+    "A052405",
+    "A052406",
+    "A052413",
+    "A052414",
+    "A052419",
+    "A052421",
+    "A082830",
+    "A082831",
+    "A082832",
+    "A082833",
+    "A082834",
+    "A082835",
+    "A082836",
+    "A082837",
+    "A082838",
+    "A082839",
+    "A171102",
+    "A179954"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

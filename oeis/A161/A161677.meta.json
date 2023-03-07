@@ -1,0 +1,22 @@
+{
+  "description": "Mersenne primes written in base 4.",
+  "id": "A161677",
+  "mentions": [
+    "A000648",
+    "A000668",
+    "A007090",
+    "A117293"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) = number of 0..k arrays x(0..n-1) of n elements with zero (n-1)-st difference.",
+  "id": "A200154",
+  "mentions": [
+    "A000982",
+    "A187202"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

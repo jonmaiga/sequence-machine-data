@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimal odd odious k > 1, such that k^i, i=1,2,...,n, all are odious, or a(n)=0, if there is no such k.",
+  "id": "A230496",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A230454",
+    "A230495"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "The number of n-almost primes less than or equal to e^n, starting with a(0)=1.",
+  "id": "A116432",
+  "mentions": [
+    "A078840",
+    "A078841",
+    "A078842",
+    "A078843",
+    "A078844",
+    "A078845",
+    "A078846",
+    "A116426",
+    "A116427",
+    "A116428",
+    "A116429",
+    "A116430",
+    "A116431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

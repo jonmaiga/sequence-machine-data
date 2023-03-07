@@ -1,0 +1,30 @@
+{
+  "description": "Array T(n,k) read by antidiagonals: T(n,k) is the number of [n,k]-triangulations in the plane, n >= 0, k >= 0.",
+  "id": "A169808",
+  "mentions": [
+    "A000207",
+    "A002709",
+    "A002713",
+    "A005027",
+    "A005500",
+    "A005501",
+    "A005502",
+    "A005503",
+    "A005504",
+    "A146305",
+    "A169809",
+    "A262586"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

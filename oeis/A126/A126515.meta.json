@@ -1,0 +1,20 @@
+{
+  "description": "Number of base 20 n-digit numbers with adjacent digits differing by four or less.",
+  "id": "A126515",
+  "mentions": [
+    "A126374",
+    "A126407",
+    "A126488"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:04:38",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

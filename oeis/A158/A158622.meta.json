@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of the reduced fraction A158620(n)/A158621(n).",
+  "id": "A158622",
+  "mentions": [
+    "A001093",
+    "A016921",
+    "A046163",
+    "A068601",
+    "A130770",
+    "A158620",
+    "A158621",
+    "A158623"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:57",
+    "offset": 2,
+    "size": 52,
+    "source": "joeis"
+  }
+}

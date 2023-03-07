@@ -1,0 +1,20 @@
+{
+  "description": "Distances in the lyrics of the Rolling Stones song \"2000 Light Years From Home\".",
+  "id": "A357747",
+  "mentions": [
+    "A357748"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

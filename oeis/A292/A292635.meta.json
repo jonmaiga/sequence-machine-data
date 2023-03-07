@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that 5 applications of \"Reverse and Subtract\" lead to n, whereas fewer than 5 applications do not lead to n.",
+  "id": "A292635",
+  "mentions": [
+    "A072142",
+    "A072143",
+    "A072718",
+    "A072719",
+    "A215669",
+    "A292634",
+    "A292846",
+    "A292856",
+    "A292857",
+    "A292858",
+    "A292859"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

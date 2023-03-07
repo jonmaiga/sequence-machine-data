@@ -1,0 +1,19 @@
+{
+  "description": "Primes p with the following property: let d_1, d_2, ... be the distinct digits occurring in the decimal expansion of p. Then for each d_i, dropping all the digits d_i from p produces a prime number, and for each digit pair (d_i, d_j), dropping all the digits d_i and all the digits d_j from p also produces a prime number. Leading 0's are not allowed.",
+  "id": "A347200",
+  "mentions": [
+    "A057876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

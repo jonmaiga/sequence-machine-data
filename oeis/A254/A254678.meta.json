@@ -1,0 +1,19 @@
+{
+  "description": "Primes p with the property that there are four consecutive integers less than p whose product is 1 mod p.",
+  "id": "A254678",
+  "mentions": [
+    "A256567",
+    "A256580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

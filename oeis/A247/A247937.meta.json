@@ -1,0 +1,20 @@
+{
+  "description": "Least integer m > n such that m + n divides F(m) + F(n), where F(k) refers to the Fibonacci number A000045(k).",
+  "id": "A247937",
+  "mentions": [
+    "A000045",
+    "A247824",
+    "A247940",
+    "A248032"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

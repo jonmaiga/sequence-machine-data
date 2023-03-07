@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients in asymptotic expansion of probability that a random pair of elements from the alternating group A_k generates all of A_k.",
+  "id": "A113869",
+  "mentions": [
+    "A003319",
+    "A112354",
+    "A113871",
+    "A114038",
+    "A158094",
+    "A168246",
+    "A306153",
+    "A316084"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

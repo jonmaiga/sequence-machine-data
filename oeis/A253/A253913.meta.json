@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form m^k + m, with m >= 0 and k > 1.",
+  "id": "A253913",
+  "mentions": [
+    "A099225",
+    "A253914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

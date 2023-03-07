@@ -1,0 +1,18 @@
+{
+  "description": "a(n)= primepi(n) if n is prime, otherwise a(n)=prime(n).",
+  "id": "A167480",
+  "mentions": [
+    "A068519",
+    "A175027"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

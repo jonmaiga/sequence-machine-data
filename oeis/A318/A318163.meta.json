@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = a(3) = 0, a(1) = a(2) = 1; for n >= 2, a(2*n) = -a(n-1) and a(2*n+1) = -a(n-1)-a(n).",
+  "id": "A318163",
+  "mentions": [
+    "A002487",
+    "A020714",
+    "A020944",
+    "A213369",
+    "A303404"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

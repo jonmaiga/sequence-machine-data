@@ -1,0 +1,22 @@
+{
+  "description": "Indices among the primes of the primes in A054356, The Five Hysterical Girls Theorem.",
+  "id": "A138132",
+  "mentions": [
+    "A000040",
+    "A020461",
+    "A054356",
+    "A138126"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

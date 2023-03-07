@@ -1,0 +1,22 @@
+{
+  "description": "4th-order coefficients of the 1/N-expansion of traces of negative powers of real Wishart matrices with parameter c=2.",
+  "id": "A277664",
+  "mentions": [
+    "A006318",
+    "A277661",
+    "A277662",
+    "A277663",
+    "A277665"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

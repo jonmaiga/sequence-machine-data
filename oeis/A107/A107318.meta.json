@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered Goldbach partitions of 10^n.",
+  "id": "A107318",
+  "mentions": [
+    "A065577"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

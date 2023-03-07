@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = a(2) = a(3) = 1; for n>2, a(n+1) = a(n) + a(n-1) + a(n-2) iff n is prime, otherwise a(n+1) = a(n) + 1.",
+  "id": "A113057",
+  "mentions": [
+    "A000040",
+    "A000073",
+    "A000213",
+    "A001590",
+    "A113050",
+    "A113051",
+    "A113058"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

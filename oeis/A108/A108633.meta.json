@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquare semiprimes with semiprime sum of factors.",
+  "id": "A108633",
+  "mentions": [
+    "A001358",
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

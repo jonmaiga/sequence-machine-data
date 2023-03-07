@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k with the property that i / gcd(i, k) is a prime power (or 1) for i = 1..n.",
+  "id": "A307616",
+  "mentions": [
+    "A284600"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 2^k + prime, with k > 0.",
+  "id": "A218044",
+  "mentions": [
+    "A039669",
+    "A080340",
+    "A118955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

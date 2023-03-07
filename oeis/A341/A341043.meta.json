@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 16*n^3 - 36*n^2 + 30*n - 9.",
+  "id": "A341043",
+  "mentions": [
+    "A000384",
+    "A000578",
+    "A155883"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:45",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

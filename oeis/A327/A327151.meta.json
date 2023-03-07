@@ -1,0 +1,20 @@
+{
+  "description": "Number of orbits of the direct square of the alternating group A_n^2 where A_n acts by conjugation, such that both permutations in a representative pair are of the same conjugacy class in A_n.",
+  "id": "A327151",
+  "mentions": [
+    "A110143",
+    "A327014",
+    "A327150"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) gives the number of distinct odd prime divisors of m(n) = A002559(n) (Markoff numbers).",
+  "id": "A327342",
+  "mentions": [
+    "A002559",
+    "A324250",
+    "A327343"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

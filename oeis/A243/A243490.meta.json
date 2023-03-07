@@ -1,0 +1,26 @@
+{
+  "description": "Fixed points of A069787: Numbers n such that A069787(n) = n.",
+  "id": "A243490",
+  "mentions": [
+    "A001405",
+    "A014486",
+    "A036256",
+    "A061856",
+    "A069787",
+    "A079442",
+    "A126312",
+    "A243489",
+    "A243492",
+    "A243493"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A000203(n) == n*A001221(n).",
+  "id": "A260508",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001221",
+    "A007691",
+    "A007774"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

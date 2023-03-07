@@ -1,0 +1,22 @@
+{
+  "description": "Lesser of emirp pairs whose members have prime digital products.",
+  "id": "A210547",
+  "mentions": [
+    "A006567",
+    "A046703",
+    "A173595",
+    "A210546",
+    "A210548"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

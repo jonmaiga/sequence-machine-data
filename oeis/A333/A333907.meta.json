@@ -1,0 +1,23 @@
+{
+  "description": "For n >= 1, a(n) = Sum_{k=1..n} prevfib(k) + nextfib(k) - 2*k, where prevfib(k) is the largest Fibonacci number < k, nextfib(k) is the smallest Fibonacci number > k.",
+  "id": "A333907",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A087172",
+    "A130473",
+    "A194029",
+    "A256654",
+    "A280514"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

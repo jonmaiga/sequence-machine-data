@@ -1,0 +1,21 @@
+{
+  "description": "Nonprimes with all digits distinct, all digits prime, and a nonprime number of digits.",
+  "id": "A165245",
+  "mentions": [
+    "A141521"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

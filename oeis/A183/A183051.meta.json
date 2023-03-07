@@ -1,0 +1,21 @@
+{
+  "description": "Array of least knight's moves to points on the square |i|+|j|=n on infinite chessboard.",
+  "id": "A183051",
+  "mentions": [
+    "A065775",
+    "A183050",
+    "A183053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=1} (exp(n*x) - 1)^n / n ).",
+  "id": "A243802",
+  "mentions": [
+    "A000670",
+    "A244437",
+    "A244585",
+    "A317855"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative order of 2^n mod 2*n+1.",
+  "id": "A266697",
+  "mentions": [
+    "A002326",
+    "A053447",
+    "A053451"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

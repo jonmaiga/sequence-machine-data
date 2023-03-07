@@ -1,0 +1,18 @@
+{
+  "description": "Lengths of periods of iterations described in A182005 for terms of A182005.",
+  "id": "A182006",
+  "mentions": [
+    "A182005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

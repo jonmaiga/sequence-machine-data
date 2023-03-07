@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: imaginary part of polylog expansion of Eulerian numbers: p(x,n) = (1 - I*x)^(n + 1)*PolyLog(-n, I*x)/x.",
+  "id": "A143197",
+  "mentions": [
+    "A060187",
+    "A143196"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

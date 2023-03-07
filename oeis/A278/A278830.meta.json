@@ -1,0 +1,22 @@
+{
+  "description": "Maximal number of possible moves at the n-th ply of a chess game.",
+  "id": "A278830",
+  "mentions": [
+    "A083276",
+    "A278831",
+    "A278832"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

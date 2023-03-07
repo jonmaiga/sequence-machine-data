@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m that divide 3^(m + 1) + 1.",
+  "id": "A328230",
+  "mentions": [
+    "A055685",
+    "A277289",
+    "A296369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

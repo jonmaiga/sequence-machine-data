@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers m with the property that m is the least cyclic permutation of its digits with the same number of digits as m.",
+  "id": "A287478",
+  "mentions": [
+    "A179239",
+    "A287198"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

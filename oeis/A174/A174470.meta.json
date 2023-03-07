@@ -1,0 +1,17 @@
+{
+  "description": "G.F.: exp( Sum_{n>=1} A014578(n)*(3x)^n/n ), where A014578 is the binary expansion of Thue constant.",
+  "id": "A174470",
+  "mentions": [
+    "A014578"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of quasi-abelian ideals in the affine Lie algebra sl_n^{hat}.",
+  "id": "A200613",
+  "mentions": [
+    "A000531",
+    "A194460"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n = x + y (x, y > 0) with p(39, x) + p(40, y) prime, where p(m, k) denotes the m-gonal number (m-2)*k*(k-1)/2 + k.",
+  "id": "A228429",
+  "mentions": [
+    "A000040",
+    "A228425",
+    "A228428",
+    "A228430",
+    "A228431"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "List of orders of centralizers of conjugacy classes of Mathieu simple group M_24 of order 244823040.",
+  "id": "A146073",
+  "mentions": [
+    "A028825",
+    "A146074"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

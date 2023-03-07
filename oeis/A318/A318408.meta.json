@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n+1] with index in the lexicographic ordering of permutations being congruent to 1 or 5 modulo 6 that have exactly k descents; k > 0.",
+  "id": "A318408",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n=0, otherwise Sum_{k=0..floor((n-1)/2)} binomial(n-k-1, k) *(-1)^k*a(n-1-2k).",
+  "id": "A172385",
+  "mentions": [
+    "A172383",
+    "A360898",
+    "A360899"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

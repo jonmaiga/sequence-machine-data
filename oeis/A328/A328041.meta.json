@@ -1,0 +1,18 @@
+{
+  "description": "Number of parts in all proper floor(n/2)-times partitions of n.",
+  "id": "A328041",
+  "mentions": [
+    "A327631"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

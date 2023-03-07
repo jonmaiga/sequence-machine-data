@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle with those partition numbers A000041( n*(2*m-1)+m+2 ) in row n which are congruent to 0 (mod 2m-1), m=1..n.",
+  "id": "A117751",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

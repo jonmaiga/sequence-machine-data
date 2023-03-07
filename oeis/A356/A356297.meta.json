@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} sigma_0(k)/k.",
+  "id": "A356297",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A006218",
+    "A082633",
+    "A356010",
+    "A356298",
+    "A356323"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

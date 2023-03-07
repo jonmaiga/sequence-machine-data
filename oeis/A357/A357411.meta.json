@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonempty subsets of {1..n} whose elements have an odd harmonic mean.",
+  "id": "A357411",
+  "mentions": [
+    "A339453",
+    "A357355",
+    "A357412",
+    "A357413",
+    "A357415"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

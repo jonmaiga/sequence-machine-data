@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A160790.",
+  "id": "A160791",
+  "mentions": [
+    "A000217",
+    "A160790",
+    "A160792",
+    "A160793"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

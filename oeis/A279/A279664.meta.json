@@ -1,0 +1,19 @@
+{
+  "description": "Constant whose Engel Expansion is A007775.",
+  "id": "A279664",
+  "mentions": [
+    "A007775"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

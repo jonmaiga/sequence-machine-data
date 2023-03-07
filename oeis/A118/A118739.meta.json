@@ -1,0 +1,19 @@
+{
+  "description": "Let L_n be the infinite sequence formed by starting with 1 and repeatedly placing the first digit at the end of the number and adding n to get the next term. If L_n eventually reaches a cycle, sequence gives length of that cycle, otherwise -1.",
+  "id": "A118739",
+  "mentions": [
+    "A055642",
+    "A118740"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

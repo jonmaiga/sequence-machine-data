@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the self-conjugate partitions of n, ordered by their k-th largest parts, or 0 if such partitions does not exist.",
+  "id": "A330372",
+  "mentions": [
+    "A000012",
+    "A000034",
+    "A000700",
+    "A067619",
+    "A181187",
+    "A208478",
+    "A208479",
+    "A208482",
+    "A208483",
+    "A330370",
+    "A330373"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

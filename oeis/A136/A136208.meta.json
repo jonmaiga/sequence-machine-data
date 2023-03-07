@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p-8 or p+8 is prime.",
+  "id": "A136208",
+  "mentions": [
+    "A023202",
+    "A136207"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

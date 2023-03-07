@@ -1,0 +1,18 @@
+{
+  "description": "Even integers not of the form p + prime(prime(q)) with distinct summands, where p and q are prime.",
+  "id": "A282251",
+  "mentions": [
+    "A000040",
+    "A038580"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

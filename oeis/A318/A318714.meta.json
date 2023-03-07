@@ -1,0 +1,26 @@
+{
+  "description": "Denominator of the coefficient of z^(-2*n) in the Stirling-like asymptotic expansion of Product_{z=1..n} z^(z^3).",
+  "id": "A318714",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A143475",
+    "A143476",
+    "A243263",
+    "A317747",
+    "A317796",
+    "A318713"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

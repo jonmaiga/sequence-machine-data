@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers whose product of digits is 4.",
+  "id": "A201016",
+  "mentions": [
+    "A107690",
+    "A199983",
+    "A199987"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

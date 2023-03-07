@@ -1,0 +1,19 @@
+{
+  "description": "Sum over all partitions lambda of n of binomial(|lambda|, |{lambda}|).",
+  "id": "A339006",
+  "mentions": [
+    "A108492",
+    "A339011",
+    "A339312"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

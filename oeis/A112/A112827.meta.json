@@ -1,0 +1,20 @@
+{
+  "description": "Least value k which is the beginning of a null Goldbach chain of length exactly n..",
+  "id": "A112827",
+  "mentions": [
+    "A020481",
+    "A112825",
+    "A112826"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

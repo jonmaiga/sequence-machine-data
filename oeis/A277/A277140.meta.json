@@ -1,0 +1,22 @@
+{
+  "description": "Earliest substring of the decimal expansion of Pi containing any of the 10 decimal digits at least once and disjoint from all earlier such substrings.",
+  "id": "A277140",
+  "mentions": [
+    "A000796",
+    "A104781",
+    "A109407",
+    "A277135"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (4+sqrt(17))/8.",
+  "id": "A174930",
+  "mentions": [
+    "A010473",
+    "A174927"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

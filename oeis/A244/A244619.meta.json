@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 'theta', the unique positive root of the equation polygamma(x) = log(Pi), where polygamma(x) gives gamma'(x)/gamma(x), that is the logarithmic derivative of the gamma function.",
+  "id": "A244619",
+  "mentions": [
+    "A074454",
+    "A074455",
+    "A074456",
+    "A074457"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

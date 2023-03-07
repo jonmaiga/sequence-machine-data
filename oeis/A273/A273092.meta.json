@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2^n - 1 written backwards.",
+  "id": "A273092",
+  "mentions": [
+    "A000225",
+    "A001348",
+    "A004086",
+    "A004087",
+    "A135623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of polypentagons with two connected internal vertices (see Cyvin et al. for precise definition).",
+  "id": "A122742",
+  "mentions": [
+    "A001787",
+    "A077957"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:10:53",
+    "offset": 4,
+    "size": 36,
+    "source": "joeis"
+  }
+}

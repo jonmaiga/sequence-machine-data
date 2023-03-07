@@ -1,0 +1,21 @@
+{
+  "description": "Composite integers sandwiched between primes p, q with q-p = 6.",
+  "id": "A271232",
+  "mentions": [
+    "A014574",
+    "A031924",
+    "A031925",
+    "A045881",
+    "A271211"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

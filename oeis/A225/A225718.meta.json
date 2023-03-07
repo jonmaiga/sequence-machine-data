@@ -1,0 +1,21 @@
+{
+  "description": "Composite squarefree numbers n such that p(i)+8 divides n-8, where p(i) are the prime factors of n.",
+  "id": "A225718",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225717",
+    "A225719",
+    "A225720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

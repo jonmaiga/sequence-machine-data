@@ -1,0 +1,19 @@
+{
+  "description": "1 if there is a winning strategy for misère Sprouts with n initial points, else 0.",
+  "id": "A164950",
+  "mentions": [
+    "A164951"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

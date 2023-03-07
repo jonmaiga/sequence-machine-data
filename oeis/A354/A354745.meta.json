@@ -1,0 +1,23 @@
+{
+  "description": "Non-repdigit numbers k such that every permutation of the digits of k has the same number of divisors.",
+  "id": "A354745",
+  "mentions": [
+    "A000005",
+    "A003459",
+    "A062895",
+    "A067012",
+    "A350867",
+    "A354746"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

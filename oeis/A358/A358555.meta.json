@@ -1,0 +1,18 @@
+{
+  "description": "Composite Fibonacci numbers that are not divisible by any Fibonacci primes.",
+  "id": "A358555",
+  "mentions": [
+    "A000045",
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

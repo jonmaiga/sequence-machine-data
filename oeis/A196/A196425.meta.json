@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..4 arrays with each element equal to the number its horizontal and vertical neighbors less than itself",
+  "id": "A196425",
+  "mentions": [
+    "A196430"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

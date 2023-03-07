@@ -1,0 +1,32 @@
+{
+  "description": "Rational primes that decompose in the field Q(sqrt(17)).",
+  "id": "A296938",
+  "mentions": [
+    "A001132",
+    "A002144",
+    "A002476",
+    "A011584",
+    "A033200",
+    "A038889",
+    "A038890",
+    "A045386",
+    "A045468",
+    "A097933",
+    "A139513",
+    "A191018",
+    "A191019",
+    "A296920",
+    "A296937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

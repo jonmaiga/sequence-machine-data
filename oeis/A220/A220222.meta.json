@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of functional digraphs on {1,2,...,n} such that no node is at a distance greater than one from a cycle and there are k recurrent elements whose preimage contains only one element, n>=0, 0<=k<=n.",
+  "id": "A220222",
+  "mentions": [
+    "A006153",
+    "A052848"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

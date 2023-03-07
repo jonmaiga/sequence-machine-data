@@ -1,0 +1,20 @@
+{
+  "description": "Odious squares.",
+  "id": "A235001",
+  "mentions": [
+    "A000069",
+    "A000290",
+    "A159918",
+    "A231431"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:43",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

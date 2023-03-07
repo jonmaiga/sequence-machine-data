@@ -1,0 +1,20 @@
+{
+  "description": "On the standard 33-hole cross-shaped peg solitaire board, the number of distinct board positions after n jumps (starting with the center vacant).",
+  "id": "A112737",
+  "mentions": [
+    "A014225",
+    "A014227"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

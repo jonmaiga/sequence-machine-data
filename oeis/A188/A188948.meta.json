@@ -1,0 +1,18 @@
+{
+  "description": "Values of x such that x^2 + y^2 = 13^n with x and y coprime and 0 < x < y.",
+  "id": "A188948",
+  "mentions": [
+    "A158936",
+    "A188949"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

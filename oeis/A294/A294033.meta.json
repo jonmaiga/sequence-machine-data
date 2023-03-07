@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, expansion of exp(x*z)*z*(tanh(z) + sech(z)), T(n, k) for n >= 1 and 0 <= k <= n-1.",
+  "id": "A294033",
+  "mentions": [
+    "A000027",
+    "A000111",
+    "A002378",
+    "A003506",
+    "A027480",
+    "A065619",
+    "A162668",
+    "A231179",
+    "A247453",
+    "A294034"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

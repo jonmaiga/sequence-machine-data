@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of psi(x^6) / psi(-x) in powers of x where psi() is a Ramanujan theta function.",
+  "id": "A132217",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A262987"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:48:07",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

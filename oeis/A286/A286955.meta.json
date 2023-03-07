@@ -1,0 +1,20 @@
+{
+  "description": "n-vertex sequences of plane forests with nondecreasing numbers of trees.",
+  "id": "A286955",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A307496"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ternary sequences of length n containing k subsequences 00 (n>=0, 0<=k<=max(0,n-1)).",
+  "id": "A118357",
+  "mentions": [
+    "A000244",
+    "A027471",
+    "A028859",
+    "A073388"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

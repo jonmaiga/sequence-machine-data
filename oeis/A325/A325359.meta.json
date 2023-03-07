@@ -1,0 +1,29 @@
+{
+  "description": "Numbers of the form p^y * 2^z where p is an odd prime, y >= 2, and z >= 0.",
+  "id": "A325359",
+  "mentions": [
+    "A056239",
+    "A093641",
+    "A112798",
+    "A136141",
+    "A325351",
+    "A325355",
+    "A325366",
+    "A325389",
+    "A325394",
+    "A325395",
+    "A325396",
+    "A325459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

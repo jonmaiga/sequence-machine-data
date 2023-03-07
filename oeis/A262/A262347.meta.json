@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of [1..n] of maximal size that are free of 3-term arithmetic progressions.",
+  "id": "A262347",
+  "mentions": [
+    "A003002",
+    "A065825",
+    "A334187"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

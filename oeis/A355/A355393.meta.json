@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of n such that, for all parts x of multiplicity 1, either x - 1 or x + 1 is also a part.",
+  "id": "A355393",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A007690",
+    "A073491",
+    "A183558",
+    "A289509",
+    "A325160",
+    "A328171",
+    "A328172",
+    "A328187",
+    "A328220",
+    "A355394",
+    "A356233",
+    "A356235",
+    "A356236",
+    "A356237",
+    "A356606",
+    "A356607"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

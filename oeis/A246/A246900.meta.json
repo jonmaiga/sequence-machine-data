@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant c = Sum_{n>=0} binomial(n-1 + 1/2^(n-1), n).",
+  "id": "A246900",
+  "mentions": [
+    "A224883"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least index m>0 such that A136117(n)-A000326(m) is again a pentagonal number.",
+  "id": "A136118",
+  "mentions": [
+    "A000326",
+    "A133388",
+    "A136112",
+    "A136117"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

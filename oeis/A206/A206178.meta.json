@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^3 * 2^k.",
+  "id": "A206178",
+  "mentions": [
+    "A000172",
+    "A206177",
+    "A206180",
+    "A216483",
+    "A216636",
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

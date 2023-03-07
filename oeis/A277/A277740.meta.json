@@ -1,0 +1,21 @@
+{
+  "description": "Knot diagrams with n crossings.",
+  "id": "A277740",
+  "mentions": [
+    "A000031",
+    "A008988",
+    "A008989",
+    "A086825"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

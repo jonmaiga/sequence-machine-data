@@ -1,0 +1,20 @@
+{
+  "description": "Obtained from A114882 by deleting row 1 and dividing by 2.",
+  "id": "A114883",
+  "mentions": [
+    "A083140",
+    "A114881",
+    "A114882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

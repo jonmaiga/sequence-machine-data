@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows. T(n, k) = denominator(Integral_{z=0..1} Eulerian(n, k)*z^(k + 1)*(z - 1)^(n - k - 1), where Eulerian(n, k) = A173018(n, k), for n >= 1, and T(0, 0) = 1.",
+  "id": "A356601",
+  "mentions": [
+    "A173018",
+    "A278075",
+    "A356545",
+    "A356547",
+    "A356602"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

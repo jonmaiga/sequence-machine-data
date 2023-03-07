@@ -1,0 +1,19 @@
+{
+  "description": "Numbers b_n of Fibonacci-quilt legal decompositions of n.",
+  "id": "A289432",
+  "mentions": [
+    "A000931",
+    "A289433"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:35:11",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by descending antidiagonals: T(n, k) = mu^n(k) where mu^1(k) = mu(k) = A008683(k) and for each n >= 1, mu^(n+1)(k) is the Dirichlet convolution of mu(k) and mu^n(k).",
+  "id": "A346148",
+  "mentions": [
+    "A007427",
+    "A007428",
+    "A008683",
+    "A077592",
+    "A163767",
+    "A247343",
+    "A341831",
+    "A341832",
+    "A341833",
+    "A341834",
+    "A341835",
+    "A341836",
+    "A341837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

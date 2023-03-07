@@ -1,0 +1,19 @@
+{
+  "description": "Records in A333549.",
+  "id": "A333550",
+  "mentions": [
+    "A005132",
+    "A333549",
+    "A333551"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

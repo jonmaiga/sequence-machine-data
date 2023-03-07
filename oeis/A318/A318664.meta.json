@@ -1,0 +1,29 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A064664, the inverse permutation of EKG-sequence.",
+  "id": "A318664",
+  "mentions": [
+    "A000040",
+    "A064413",
+    "A064664",
+    "A304526",
+    "A304527",
+    "A305293",
+    "A305294",
+    "A317929",
+    "A317930",
+    "A317937",
+    "A318665"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

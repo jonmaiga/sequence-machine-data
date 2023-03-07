@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive integers z such that n - phi(z^2) = x^2 + y^2 for some integers x and y with x*y*z even and phi(k^2) < n for all 0 < k < z.",
+  "id": "A262766",
+  "mentions": [
+    "A000010",
+    "A001481",
+    "A002618",
+    "A262747",
+    "A262750"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

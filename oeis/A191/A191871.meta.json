@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator(n^2 / 2^n).",
+  "id": "A191871",
+  "mentions": [
+    "A000265",
+    "A000290",
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

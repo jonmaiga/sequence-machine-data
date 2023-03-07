@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of parking functions of length n whose lead number is k.",
+  "id": "A298592",
+  "mentions": [
+    "A000272",
+    "A298593",
+    "A298594",
+    "A298597"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

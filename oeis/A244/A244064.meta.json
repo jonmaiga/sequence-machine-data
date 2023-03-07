@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are concatenation of prime(n), prime(10n) and prime(100n).",
+  "id": "A244064",
+  "mentions": [
+    "A000040",
+    "A030469",
+    "A031343",
+    "A031921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

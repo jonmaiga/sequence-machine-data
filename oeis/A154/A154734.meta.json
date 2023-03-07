@@ -1,0 +1,19 @@
+{
+  "description": "Define k(0) = 2 and k(m) = m^2-k(m-1) for m >= 1. This is a list of those terms k(m) for which k(m)+1 and k(m)-1 are both in A008578 (primes including 1).",
+  "id": "A154734",
+  "mentions": [
+    "A008578",
+    "A154736"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

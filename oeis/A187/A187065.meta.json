@@ -1,0 +1,25 @@
+{
+  "description": "Let i be in {1,2,3} and let r >= 0 be an integer. Let p = {p_1, p_2, p_3} = {-2,0,1}, n=2*r+p_i, and define a(-2)=1. Then, a(n)=a(2*r+p_i) gives the quantity of H_(7,1,0) tiles in a subdivided H_(7,i,r) tile after linear scaling by the factor x^r, where x=sqrt(2*cos(Pi/7)).",
+  "id": "A187065",
+  "mentions": [
+    "A006053",
+    "A096976",
+    "A187066",
+    "A187067",
+    "A187068",
+    "A187069",
+    "A187070"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primitive abundant numbers version 2 (abundant numbers all of whose proper divisors are deficient numbers) and increasing any prime factor in the prime factorization gives a non-abundant number when factored back.",
+  "id": "A335557",
+  "mentions": [
+    "A071395"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

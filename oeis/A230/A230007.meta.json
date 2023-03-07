@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sigma(n) = reversal(n+7).",
+  "id": "A230007",
+  "mentions": [
+    "A000203",
+    "A004086",
+    "A230009",
+    "A230021"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

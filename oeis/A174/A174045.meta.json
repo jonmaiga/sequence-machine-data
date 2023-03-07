@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k, q) = Sum_{j=0..10} q^j * floor( binomial(n+1,k)*binomial(n-1,k-1)/(2^j*(n+1)) ) for q = 3, read by rows.",
+  "id": "A174045",
+  "mentions": [
+    "A174043",
+    "A174044"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

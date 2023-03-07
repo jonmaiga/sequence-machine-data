@@ -1,0 +1,19 @@
+{
+  "description": "Number of interior points that are the intersections of exactly two chords in the configuration A006561(n).",
+  "id": "A292104",
+  "mentions": [
+    "A006561",
+    "A292105"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

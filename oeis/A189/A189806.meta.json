@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of coefficients in the series expansion of ((2 - m) EllipticK(m) - 2 EllipticE(m))/(Pi * m).",
+  "id": "A189806",
+  "mentions": [
+    "A007814",
+    "A090739",
+    "A189805"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

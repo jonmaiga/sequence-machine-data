@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A003961(n) - n, where A003961 is the prime shift towards larger primes.",
+  "id": "A336853",
+  "mentions": [
+    "A000035",
+    "A001359",
+    "A003961",
+    "A252748",
+    "A336852"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

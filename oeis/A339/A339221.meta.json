@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into cubes where every part appears at least 2 times.",
+  "id": "A339221",
+  "mentions": [
+    "A000578",
+    "A003108",
+    "A007690",
+    "A161090"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

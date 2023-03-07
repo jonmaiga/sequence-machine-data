@@ -1,0 +1,17 @@
+{
+  "description": "4X4 square grid graph coloring a rectangular array: number of nX7 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
+  "id": "A223401",
+  "mentions": [
+    "A223402"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

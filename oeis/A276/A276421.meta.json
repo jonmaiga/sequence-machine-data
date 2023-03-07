@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic compositions of n into nonprime numbers.",
+  "id": "A276421",
+  "mentions": [
+    "A005171",
+    "A016116",
+    "A052284",
+    "A276420"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

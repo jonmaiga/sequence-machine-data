@@ -1,0 +1,31 @@
+{
+  "description": "Number of achiral color patterns (set partitions) in a row or cycle of length n with 4 or fewer colors (subsets).",
+  "id": "A305750",
+  "mentions": [
+    "A008277",
+    "A052551",
+    "A056292",
+    "A056323",
+    "A056354",
+    "A057427",
+    "A124303",
+    "A304972",
+    "A304973",
+    "A304974",
+    "A305749",
+    "A320744",
+    "A320934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

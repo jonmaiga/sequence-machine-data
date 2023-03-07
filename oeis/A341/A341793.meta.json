@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 10 nonzero tetrahedral numbers.",
+  "id": "A341793",
+  "mentions": [
+    "A000292",
+    "A023533",
+    "A024692",
+    "A068980",
+    "A319820",
+    "A341774",
+    "A341775",
+    "A341776",
+    "A341777",
+    "A341778",
+    "A341791",
+    "A341792"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

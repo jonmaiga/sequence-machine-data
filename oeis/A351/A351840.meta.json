@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that a(1) = 1 and a(n-1) + a(n) is divisible by the first digit of a(n).",
+  "id": "A351840",
+  "mentions": [
+    "A323821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

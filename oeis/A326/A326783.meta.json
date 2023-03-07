@@ -1,0 +1,29 @@
+{
+  "description": "BII-numbers of uniform set-systems.",
+  "id": "A326783",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A047966",
+    "A048793",
+    "A070939",
+    "A306017",
+    "A306021",
+    "A319269",
+    "A320324",
+    "A326031",
+    "A326784",
+    "A326785",
+    "A326788"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

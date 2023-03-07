@@ -1,0 +1,17 @@
+{
+  "description": "Let sequence B_n={b_m} be defined by: b_1=prime(n), b_2=prime(n+1); for m>=3, b_m=b_(m-2)+b_(m-1) if b_(m-2)+b_(m-1) is not semiprime, otherwise b_m is the least prime divisor of b_(m-2)+b_(m-1). Then a(n) is the maximal term of sequence B_n, or a(n)=0 if B_n is unbounded.",
+  "id": "A221218",
+  "mentions": [
+    "A214156"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

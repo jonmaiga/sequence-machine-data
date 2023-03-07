@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of L(1) - F(1) + L(2) - F(2) + L(3) - F(3) + ..., where L = A000032 and F = A000045.",
+  "id": "A355019",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A355018",
+    "A355020",
+    "A355021"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

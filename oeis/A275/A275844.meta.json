@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which A060125(n) <> A225901(n).",
+  "id": "A275844",
+  "mentions": [
+    "A060125",
+    "A225901",
+    "A275843"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

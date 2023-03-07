@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n = r + s + t, where r,s,t are elements of the set {floor(k*(k+1)/4): k = 1,2,3,...} with s odd and r <= s <= t.",
+  "id": "A256587",
+  "mentions": [
+    "A000217",
+    "A256544",
+    "A256558"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

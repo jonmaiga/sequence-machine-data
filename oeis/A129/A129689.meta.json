@@ -1,0 +1,25 @@
+{
+  "description": "A007318 * A129688.",
+  "id": "A129689",
+  "mentions": [
+    "A007318",
+    "A057711",
+    "A081577",
+    "A129688",
+    "A129690",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:35",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

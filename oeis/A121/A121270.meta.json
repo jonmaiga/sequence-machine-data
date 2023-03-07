@@ -1,0 +1,25 @@
+{
+  "description": "Prime Sierpinski numbers of the first kind: primes of the form k^k+1.",
+  "id": "A121270",
+  "mentions": [
+    "A000215",
+    "A006127",
+    "A014566",
+    "A048861",
+    "A216148",
+    "A301641",
+    "A301642",
+    "A301644"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

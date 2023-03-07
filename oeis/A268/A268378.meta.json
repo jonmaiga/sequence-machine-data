@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose prime factorization includes at least one prime factor of form 4k+3 and any prime factor of the form 4k+1 has even multiplicity.",
+  "id": "A268378",
+  "mentions": [
+    "A004431",
+    "A065339",
+    "A221264",
+    "A267099",
+    "A267113",
+    "A268377"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

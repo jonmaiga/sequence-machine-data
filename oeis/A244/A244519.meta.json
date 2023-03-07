@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 + H(x^n)) where H(x) is the g.f. of A000081.",
+  "id": "A244519",
+  "mentions": [
+    "A000081",
+    "A001372"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

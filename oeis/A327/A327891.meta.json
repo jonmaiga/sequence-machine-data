@@ -1,0 +1,18 @@
+{
+  "description": "Table of A(n,k) read by antidiagonals, where A(n,1)=n-1; A(n,k) is the number of occurrences of A(n,k-1) in the row up to k-1.",
+  "id": "A327891",
+  "mentions": [
+    "A158416"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

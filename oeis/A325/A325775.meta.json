@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that bring back the last digit of n on its first digit, using the \"boomerang protocol\" explained in A308306, with no duplicate term (except the -1 terms). See the Comments and Example sections for details.",
+  "id": "A325775",
+  "mentions": [
+    "A308306",
+    "A325776"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

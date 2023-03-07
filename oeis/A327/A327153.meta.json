@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors d of n such that sigma(d)*d is equal to n.",
+  "id": "A327153",
+  "mentions": [
+    "A000203",
+    "A064987",
+    "A324539",
+    "A327165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

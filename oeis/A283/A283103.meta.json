@@ -1,0 +1,21 @@
+{
+  "description": "Number of A'Campo forests of degree n and co-dimension 5.",
+  "id": "A283103",
+  "mentions": [
+    "A277877",
+    "A283049",
+    "A283101",
+    "A283102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

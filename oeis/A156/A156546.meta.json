@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the central angle of a regular tetrahedron.",
+  "id": "A156546",
+  "mentions": [
+    "A019669",
+    "A105199",
+    "A137218",
+    "A137914",
+    "A156547",
+    "A195696",
+    "A236367",
+    "A247412"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:46",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n = x + y (x, y > 0) with x^4 + y*(y+1)/2 prime.",
+  "id": "A228430",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000583",
+    "A228425",
+    "A228428",
+    "A228429"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of all even numbers in Collatz (3x+1) trajectory of n.",
+  "id": "A213909",
+  "mentions": [
+    "A033493"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

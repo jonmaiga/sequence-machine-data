@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways for each of 2n (labeled) people in a circle to look at either a neighbor or the diametrally opposite person, such that no eye contact occurs.",
+  "id": "A141221",
+  "mentions": [
+    "A094047",
+    "A114939",
+    "A141384",
+    "A141385"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

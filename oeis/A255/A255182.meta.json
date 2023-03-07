@@ -1,0 +1,24 @@
+{
+  "description": "Third differences of eighth powers (A001016).",
+  "id": "A255182",
+  "mentions": [
+    "A000542",
+    "A001016",
+    "A022524",
+    "A254642",
+    "A255178",
+    "A255181"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:31",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

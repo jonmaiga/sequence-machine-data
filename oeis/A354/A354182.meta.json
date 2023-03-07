@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the binary expansions of n and n + a(n) have no 1's in common.",
+  "id": "A354182",
+  "mentions": [
+    "A001045",
+    "A065190"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

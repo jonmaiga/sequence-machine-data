@@ -1,0 +1,35 @@
+{
+  "description": "Table of partitions where the ordering is based on the modified partial sums of the exponents of primes in the prime factorization of n.",
+  "id": "A241918",
+  "mentions": [
+    "A007814",
+    "A036036",
+    "A036037",
+    "A061395",
+    "A067255",
+    "A071178",
+    "A080576",
+    "A080577",
+    "A112798",
+    "A122111",
+    "A193073",
+    "A203623",
+    "A227739",
+    "A241909",
+    "A241912",
+    "A241914",
+    "A242628"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

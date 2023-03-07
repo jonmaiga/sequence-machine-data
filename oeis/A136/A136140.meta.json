@@ -1,0 +1,21 @@
+{
+  "description": "Length of the cycles in which finish the sequences a(k+1)=sopfr(n a(k)+1), with sopfr=A001414.",
+  "id": "A136140",
+  "mentions": [
+    "A001414",
+    "A136136",
+    "A136137",
+    "A136138",
+    "A136139"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

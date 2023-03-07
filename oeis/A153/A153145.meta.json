@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*p + 19 is also prime.",
+  "id": "A153145",
+  "mentions": [
+    "A005384",
+    "A023204",
+    "A023205",
+    "A023206",
+    "A023207",
+    "A153143"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:09:27",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

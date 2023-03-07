@@ -1,0 +1,25 @@
+{
+  "description": "Number of consistent sets of 7 irreflexive binary order relationships over n objects.",
+  "id": "A147872",
+  "mentions": [
+    "A081064",
+    "A147796",
+    "A147817",
+    "A147821",
+    "A147860",
+    "A147881",
+    "A147883",
+    "A147964"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:44:39",
+    "offset": 5,
+    "size": 19,
+    "source": "joeis"
+  }
+}

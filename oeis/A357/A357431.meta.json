@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows where each term in row n is the next greater multiple of n..1.",
+  "id": "A357431",
+  "mentions": [
+    "A007952",
+    "A357417",
+    "A357498"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

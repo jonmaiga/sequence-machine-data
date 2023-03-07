@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form 12*k + 5 generated recursively. Initial prime is 5. General term is a(n) = Min_{p is prime; p divides 1 + 4*Q^2; p == 5 (mod 12)}, where Q is the product of previous terms in the sequence.",
+  "id": "A124986",
+  "mentions": [
+    "A000945",
+    "A040117",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057207",
+    "A057208",
+    "A124984",
+    "A124993",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

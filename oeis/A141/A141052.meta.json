@@ -1,0 +1,26 @@
+{
+  "description": "Number of runs or rising sequences of length 2 among all permutations of n.",
+  "id": "A141052",
+  "mentions": [
+    "A000142",
+    "A001048",
+    "A001286",
+    "A001710",
+    "A008292",
+    "A028387",
+    "A097900",
+    "A122843"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:44:00",
+    "offset": 2,
+    "size": 20,
+    "source": "joeis"
+  }
+}

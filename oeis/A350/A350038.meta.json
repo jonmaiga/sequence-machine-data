@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the perimeter of a primitive 60-degree integer triangle.",
+  "id": "A350038",
+  "mentions": [
+    "A024364",
+    "A201223",
+    "A264826",
+    "A350013",
+    "A350039"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

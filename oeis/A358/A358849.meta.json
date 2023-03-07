@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A053669(6*k) [the smallest prime not dividing 6k] is of the form 6m-1.",
+  "id": "A358849",
+  "mentions": [
+    "A053669",
+    "A358847",
+    "A358848"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of decompositions of 2^(n-1)*(2^n-1) into 3 nonnegative cubes.",
+  "id": "A286351",
+  "mentions": [
+    "A006516",
+    "A051343"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

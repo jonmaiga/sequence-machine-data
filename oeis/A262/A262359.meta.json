@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that denominator(sigma(n)/n) = 6.",
+  "id": "A262359",
+  "mentions": [
+    "A017666",
+    "A067237",
+    "A159907",
+    "A229088",
+    "A245775"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "LCM-transform of triangular numbers.",
+  "id": "A265574",
+  "mentions": [
+    "A014963",
+    "A020500",
+    "A051543"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

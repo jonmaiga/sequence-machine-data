@@ -1,0 +1,28 @@
+{
+  "description": "Irregular table read by rows: T(n, k) is the coefficient of x^k in the chromatic polynomial of the cubical graph Q_n, 0 <= k <= 2^n.",
+  "id": "A334278",
+  "mentions": [
+    "A002378",
+    "A091940",
+    "A140986",
+    "A158348",
+    "A296914",
+    "A334159",
+    "A334247",
+    "A334279",
+    "A334358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Square numbers with more divisors than any smaller square number.",
+  "id": "A136404",
+  "mentions": [
+    "A002182",
+    "A025487",
+    "A048691",
+    "A126098"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

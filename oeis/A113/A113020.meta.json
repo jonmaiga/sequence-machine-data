@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle whose row sums are the Fibonacci numbers.",
+  "id": "A113020",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A094435",
+    "A113021"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

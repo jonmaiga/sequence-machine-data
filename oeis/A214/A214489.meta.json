@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that A070939(m) = A070939(m + A070939(m)), A070939 = length of binary representation.",
+  "id": "A214489",
+  "mentions": [
+    "A070939",
+    "A103586",
+    "A105025",
+    "A105029"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

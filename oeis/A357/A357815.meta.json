@@ -1,0 +1,18 @@
+{
+  "description": "Smallest maximum degree over all maximal 2-degenerate graphs with diameter 2 and n vertices.",
+  "id": "A357815",
+  "mentions": [
+    "A004523"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

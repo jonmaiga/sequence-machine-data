@@ -1,0 +1,33 @@
+{
+  "description": "Smallest Fermi-Dirac factor of n.",
+  "id": "A223490",
+  "mentions": [
+    "A000040",
+    "A001511",
+    "A010055",
+    "A020639",
+    "A028233",
+    "A050376",
+    "A052331",
+    "A100995",
+    "A209229",
+    "A213925",
+    "A223491",
+    "A302023",
+    "A302024",
+    "A302786",
+    "A302792"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

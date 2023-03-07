@@ -1,0 +1,19 @@
+{
+  "description": "Nondescending wiggly sums: number of sums adding to n in which terms alternately do not decrease and do not increase.",
+  "id": "A129852",
+  "mentions": [
+    "A025048",
+    "A025049",
+    "A129853"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

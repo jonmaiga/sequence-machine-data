@@ -1,0 +1,27 @@
+{
+  "description": "In the ranked poset of integer partitions ordered by refinement, number of integer partitions coarser (greater) than or equal to the integer partition whose multiplicities are the prime indices of n in weakly decreasing order.",
+  "id": "A322077",
+  "mentions": [
+    "A063834",
+    "A066723",
+    "A213427",
+    "A265947",
+    "A299201",
+    "A300383",
+    "A305936",
+    "A317141",
+    "A321468",
+    "A321472"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

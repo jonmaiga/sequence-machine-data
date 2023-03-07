@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the constant term in the expansion of Product_{k=1..n} (x^k + 1/x^k)^4.",
+  "id": "A124996",
+  "mentions": [
+    "A047653",
+    "A063865",
+    "A124995"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

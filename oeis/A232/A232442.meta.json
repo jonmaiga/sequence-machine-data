@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k < n: m*prime(m) - 1 and m*prime(m) + 1 are both prime with m = sigma(k) + phi(n-k)}|, where sigma(k) is the sum of all positive divisors of k and phi(.) is Euler's totient function.",
+  "id": "A232442",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A085637",
+    "A086172",
+    "A086173",
+    "A232270",
+    "A232861",
+    "A233539",
+    "A233544"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

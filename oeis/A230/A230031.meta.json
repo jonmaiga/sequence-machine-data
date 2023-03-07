@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using tetrominoes of any shape; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A230031",
+  "mentions": [
+    "A000012",
+    "A007598",
+    "A099390",
+    "A174248",
+    "A232684",
+    "A232698",
+    "A232722",
+    "A232757",
+    "A232758",
+    "A232759",
+    "A233320",
+    "A233427",
+    "A247113",
+    "A263425"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

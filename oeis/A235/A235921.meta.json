@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that smallest number not dividing n^2 (A236454) is different from smallest prime not dividing n (A053669).",
+  "id": "A235921",
+  "mentions": [
+    "A000290",
+    "A002110",
+    "A007978",
+    "A034386",
+    "A053669",
+    "A055874",
+    "A055926",
+    "A071222",
+    "A232099",
+    "A235918",
+    "A236432",
+    "A236454"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

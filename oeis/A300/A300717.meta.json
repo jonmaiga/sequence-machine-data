@@ -1,0 +1,25 @@
+{
+  "description": "Möbius transform of A003557, n divided by its largest squarefree divisor.",
+  "id": "A300717",
+  "mentions": [
+    "A000010",
+    "A003557",
+    "A003958",
+    "A008683",
+    "A097945",
+    "A300718",
+    "A300719"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

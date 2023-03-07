@@ -1,0 +1,20 @@
+{
+  "description": "Numbers other than prime powers divisible by the sum, the sum of squares and the sum of cubes of their prime divisors.",
+  "id": "A268418",
+  "mentions": [
+    "A066031",
+    "A190882",
+    "A268373",
+    "A268417"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

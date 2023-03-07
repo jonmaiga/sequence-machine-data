@@ -1,0 +1,28 @@
+{
+  "description": "Number T(n,k) of endofunctions on [n] with exactly k fixed points, all of which are isolated; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A349454",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000217",
+    "A055134",
+    "A065440",
+    "A102741",
+    "A130809",
+    "A204042",
+    "A350212",
+    "A350454"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = SF(n+1)/(SF(n-k+1)*SF(k+1)) where SF(n) is the superfactorial A000178(n), read by rows.",
+  "id": "A156584",
+  "mentions": [
+    "A000178",
+    "A007318",
+    "A009963",
+    "A156764"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

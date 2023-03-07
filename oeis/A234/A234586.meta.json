@@ -1,0 +1,21 @@
+{
+  "description": "Odd-indexed terms are absolute values of differences.",
+  "id": "A234586",
+  "mentions": [
+    "A010060",
+    "A026465",
+    "A234587"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

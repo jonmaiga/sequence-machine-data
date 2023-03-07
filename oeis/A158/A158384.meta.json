@@ -1,0 +1,19 @@
+{
+  "description": "Positions of Pell numbers in the sequence of Markoff numbers (A002559).",
+  "id": "A158384",
+  "mentions": [
+    "A001653",
+    "A002559",
+    "A158381"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

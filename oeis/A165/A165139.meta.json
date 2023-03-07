@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative order of 2 in Z/mZ with m=A104017(n).",
+  "id": "A165139",
+  "mentions": [
+    "A104017",
+    "A162290",
+    "A163956"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

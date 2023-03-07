@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk 0..2 arrays with no three equal values forming an isosceles right triangle, and new values introduced in 0..2 order.",
+  "id": "A274065",
+  "mentions": [
+    "A007051",
+    "A231413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

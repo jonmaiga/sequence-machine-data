@@ -1,0 +1,18 @@
+{
+  "description": "a(n+1) = a(n-1) + A001414(a(n)) with a(1)=1, a(2)=2.",
+  "id": "A272136",
+  "mentions": [
+    "A000045",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

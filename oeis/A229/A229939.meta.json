@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 9*Pi/10.",
+  "id": "A229939",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A019692",
+    "A019694",
+    "A122952",
+    "A228719",
+    "A228721",
+    "A228824"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:51",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

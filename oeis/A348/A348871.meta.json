@@ -1,0 +1,17 @@
+{
+  "description": "After a(1) = 1, the sequence is always extended with the smallest divisor d (not yet present in the sequence) of the last term t. If d doesn't exist, we extend the sequence with tt (t concatenated to itself). If tt doesn't produce a new d, we extend the sequence with ttt, etc. See the Comments section for more details.",
+  "id": "A348871",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

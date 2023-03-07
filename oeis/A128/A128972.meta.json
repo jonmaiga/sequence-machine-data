@@ -1,0 +1,26 @@
+{
+  "description": "n^3 - 1 divided by its largest cube divisor.",
+  "id": "A128972",
+  "mentions": [
+    "A002350",
+    "A004709",
+    "A007948",
+    "A033314",
+    "A062378",
+    "A067872",
+    "A068310",
+    "A068601"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of new rationals produced at the n-th iteration by applying the map t -> {t+1, -1/t} to nonzero terms, starting with S[0] = {1}.",
+  "id": "A226275",
+  "mentions": [
+    "A003410",
+    "A058278",
+    "A097333",
+    "A226080",
+    "A226081",
+    "A226130",
+    "A226136",
+    "A226271",
+    "A226274"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:22:24",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

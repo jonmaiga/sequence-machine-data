@@ -1,0 +1,21 @@
+{
+  "description": "Primes p smaller than sqrt(g)*exp(sqrt(g)), where g is the gap between p and the next prime.",
+  "id": "A124147",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A001223",
+    "A002386"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

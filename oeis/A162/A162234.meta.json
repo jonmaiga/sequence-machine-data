@@ -1,0 +1,28 @@
+{
+  "description": "Base 9 perfect digital invariants (written in base 10): numbers equal to the sum of the k-th powers of their base-9 digits, for some k.",
+  "id": "A162234",
+  "mentions": [
+    "A010353",
+    "A023052",
+    "A033841",
+    "A162216",
+    "A162219",
+    "A162222",
+    "A162225",
+    "A162228",
+    "A162231",
+    "A162235",
+    "A162236"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

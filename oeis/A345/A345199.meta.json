@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct length-2n blocks in the Thue-Morse sequence (A010060) that are Dyck words.",
+  "id": "A345199",
+  "mentions": [
+    "A010060",
+    "A063171"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

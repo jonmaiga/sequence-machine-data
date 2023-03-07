@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest n-digit prime which remains prime whenever a 1 is inserted, appended or prepended, or 0 if no such prime exists.",
+  "id": "A228148",
+  "mentions": [
+    "A069246",
+    "A164328",
+    "A228149",
+    "A228150"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

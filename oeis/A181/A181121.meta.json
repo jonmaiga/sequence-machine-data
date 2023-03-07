@@ -1,0 +1,23 @@
+{
+  "description": "As n increases, the reciprocal of a(n) = asymptotic fraction of positive integers whose longest string of consecutive divisors is A181062(n).",
+  "id": "A181121",
+  "mentions": [
+    "A003418",
+    "A025473",
+    "A051451",
+    "A064859",
+    "A181062"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Six-digit exclusionary cubes: 6-digit numbers whose cubes comprise digits none of which appears in the number itself.",
+  "id": "A195363",
+  "mentions": [
+    "A195438"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

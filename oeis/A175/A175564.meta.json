@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n binary matrices that contain no 2 X 2 submatrix consisting of all zeros or all ones.",
+  "id": "A175564",
+  "mentions": [
+    "A175563"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:55",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

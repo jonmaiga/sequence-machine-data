@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that tau(k) divides k, sigma(k) and phi(k).",
+  "id": "A224108",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A000720",
+    "A003601",
+    "A020491",
+    "A033950",
+    "A069810",
+    "A217301"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "37-gonal numbers: a(n) = n*(35*n-33)/2.",
+  "id": "A282852",
+  "mentions": [
+    "A000217",
+    "A254474"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:15",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

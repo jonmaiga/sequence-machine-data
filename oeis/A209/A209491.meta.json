@@ -1,0 +1,21 @@
+{
+  "description": "Table T(n,d), read by antidiagonals, gives the number of subsets of length n containing an arithmetic progression of length 3 with distance d.",
+  "id": "A209491",
+  "mentions": [
+    "A209438",
+    "A209439",
+    "A209490"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

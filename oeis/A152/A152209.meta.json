@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A163501(n) - n.",
+  "id": "A152209",
+  "mentions": [
+    "A163501"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

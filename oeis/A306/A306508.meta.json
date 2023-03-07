@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers that have fully composite idempotent factorizations.",
+  "id": "A306508",
+  "mentions": [
+    "A002322",
+    "A115957",
+    "A120944",
+    "A138636",
+    "A306330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

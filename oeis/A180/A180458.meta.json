@@ -1,0 +1,19 @@
+{
+  "description": "Largest palindromic number <= n-th-prime.",
+  "id": "A180458",
+  "mentions": [
+    "A000040",
+    "A261423"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

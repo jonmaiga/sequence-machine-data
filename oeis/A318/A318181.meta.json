@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. exp((1 - exp(-6*x))/6).",
+  "id": "A318181",
+  "mentions": [
+    "A005012",
+    "A008542",
+    "A009235",
+    "A014182",
+    "A317996",
+    "A318179",
+    "A318180"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

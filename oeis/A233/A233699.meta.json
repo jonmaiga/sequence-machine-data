@@ -1,0 +1,20 @@
+{
+  "description": "Ideal rectangle side length for packing squares with side 1/n.",
+  "id": "A233699",
+  "mentions": [
+    "A013661",
+    "A164102"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

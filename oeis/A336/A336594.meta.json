@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k/A008835(k) is cubefree but not squarefree (A067259), where A008835(k) is the largest 4th power dividing k.",
+  "id": "A336594",
+  "mentions": [
+    "A002117",
+    "A008835",
+    "A013661",
+    "A013662",
+    "A030140",
+    "A067259",
+    "A182358",
+    "A252849",
+    "A336593"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

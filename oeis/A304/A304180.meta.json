@@ -1,0 +1,28 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = max{p_j}^max{k_j}.",
+  "id": "A304180",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A002110",
+    "A005117",
+    "A006530",
+    "A034699",
+    "A051903",
+    "A053585",
+    "A073482",
+    "A081810",
+    "A304181"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least semiprime m such that the next semiprime is m + A215231(n).",
+  "id": "A215232",
+  "mentions": [
+    "A001358",
+    "A002386",
+    "A131109",
+    "A215231",
+    "A217851"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

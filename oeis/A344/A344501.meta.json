@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*HT(n, k) = Sum_{k=0..n} (-1)^(n-k)*binomial(n, k)*HT(n, k), where HT(n, k) is the Hermite triangle A099174.",
+  "id": "A344501",
+  "mentions": [
+    "A099174",
+    "A344500"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

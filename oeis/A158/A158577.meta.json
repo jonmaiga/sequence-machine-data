@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = size of the n-th term in S(10) (defined in Comments).",
+  "id": "A158577",
+  "mentions": [
+    "A006879",
+    "A145667",
+    "A145668",
+    "A145669",
+    "A145670",
+    "A145671",
+    "A145672",
+    "A145673",
+    "A145674",
+    "A158576",
+    "A158578",
+    "A158579"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

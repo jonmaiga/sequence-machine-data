@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k is the substring identical to the most significant digits of its base-8 representation.",
+  "id": "A308071",
+  "mentions": [
+    "A181929",
+    "A228051",
+    "A307254",
+    "A307255",
+    "A307256",
+    "A307257",
+    "A308070",
+    "A308072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

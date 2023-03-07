@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence such that for any n>1, n=u*v, where u/v = a(n)/a(n-1) in reduced form.",
+  "id": "A260850",
+  "mentions": [
+    "A008336"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

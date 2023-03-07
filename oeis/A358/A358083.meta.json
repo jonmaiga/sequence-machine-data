@@ -1,0 +1,21 @@
+{
+  "description": "Sum of square end-to-end displacements over all n-step self-avoiding walks of A358046.",
+  "id": "A358083",
+  "mentions": [
+    "A001411",
+    "A336448",
+    "A358046",
+    "A358084"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

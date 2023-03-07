@@ -1,0 +1,21 @@
+{
+  "description": "Indices of the nonprimitive rows of the Wythoff array (A035513); see Comments.",
+  "id": "A360374",
+  "mentions": [
+    "A000045",
+    "A035513",
+    "A332937",
+    "A332938"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

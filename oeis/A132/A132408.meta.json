@@ -1,0 +1,18 @@
+{
+  "description": "Ceiling(exp(n)/n^2).",
+  "id": "A132408",
+  "mentions": [
+    "A107316"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

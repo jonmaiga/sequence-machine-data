@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(first n semiprimes).",
+  "id": "A164853",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Table for period length of periods of primitive reduced binary quadratic forms with discriminants D(n) = A079896(n).",
+  "id": "A225953",
+  "mentions": [
+    "A079896",
+    "A082174",
+    "A087048"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

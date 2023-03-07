@@ -1,0 +1,21 @@
+{
+  "description": "Minimal linear spaces on n points.",
+  "id": "A309114",
+  "mentions": [
+    "A001200",
+    "A001403",
+    "A001548",
+    "A309115"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

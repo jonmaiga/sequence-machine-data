@@ -1,0 +1,19 @@
+{
+  "description": "Number of dominating sets in the stacked prism graph C_n X P_n.",
+  "id": "A286914",
+  "mentions": [
+    "A284702",
+    "A285880",
+    "A286514"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the smallest divisor of n that contains the same number of (non-leading) 0's as n when both numbers are written in binary.",
+  "id": "A161399",
+  "mentions": [
+    "A161398"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The sum of digits function modulo 2 of the natural numbers in base phi.",
+  "id": "A330037",
+  "mentions": [
+    "A055778",
+    "A095076",
+    "A105424",
+    "A130600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

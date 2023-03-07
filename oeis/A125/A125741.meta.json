@@ -1,0 +1,21 @@
+{
+  "description": "The ratio of A117731(n) and A082687(n) when they are different.",
+  "id": "A125741",
+  "mentions": [
+    "A082687",
+    "A117731",
+    "A125740"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

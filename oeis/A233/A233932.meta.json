@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the binary representation of n shifted right k times and incremented if the last bit shifted away was set.",
+  "id": "A233932",
+  "mentions": [
+    "A001511",
+    "A070939",
+    "A079559",
+    "A120385"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

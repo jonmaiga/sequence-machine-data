@@ -1,0 +1,31 @@
+{
+  "description": "Numerators of drib tree fractions, where drib is the bit-reversal permutation tree of the Bird tree.",
+  "id": "A162911",
+  "mentions": [
+    "A000045",
+    "A002450",
+    "A002487",
+    "A020988",
+    "A020989",
+    "A059893",
+    "A072197",
+    "A162909",
+    "A162912",
+    "A176965",
+    "A258996",
+    "A268087"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

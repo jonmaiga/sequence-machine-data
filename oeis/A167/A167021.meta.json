@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 iff 6n+1 is prime.",
+  "id": "A167021",
+  "mentions": [
+    "A024899",
+    "A132350",
+    "A167020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

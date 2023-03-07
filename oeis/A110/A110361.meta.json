@@ -1,0 +1,23 @@
+{
+  "description": "A triangle of coefficients based on A000931 and A000045: a(n) = a(n - 2) + a(n - 3); t(n,m) := a(n - m + 1)*a(m + 1)*Fibonacci[(n - m + 1)]*Fibonacci[(m + 1)].",
+  "id": "A110361",
+  "mentions": [
+    "A000045",
+    "A000931",
+    "A058071",
+    "A141611",
+    "A141617"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

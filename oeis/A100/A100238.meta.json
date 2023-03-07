@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: 2^n + 1 = Sum_{k=0..n} [x^k] A(x)^n for n>=1.",
+  "id": "A100238",
+  "mentions": [
+    "A009545",
+    "A025225",
+    "A025227",
+    "A071356",
+    "A100223",
+    "A143045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:38:09",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

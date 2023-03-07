@@ -1,0 +1,26 @@
+{
+  "description": "Number of achiral colorings of the 120 dodecahedral facets of the 4-D 120-cell (or 120 vertices of the 4-D 600-cell) using subsets of a set of n colors.",
+  "id": "A338967",
+  "mentions": [
+    "A132366",
+    "A337955",
+    "A337958",
+    "A338951",
+    "A338964",
+    "A338965",
+    "A338966",
+    "A338983"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

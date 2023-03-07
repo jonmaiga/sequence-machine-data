@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array by antidiagonals: row k lists the numbers whose Fibonacci-Lucas representation has k terms.",
+  "id": "A353658",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A007895",
+    "A116543",
+    "A353655",
+    "A353656",
+    "A353659"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

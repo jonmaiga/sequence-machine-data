@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with 48 divisors.",
+  "id": "A175754",
+  "mentions": [
+    "A000005",
+    "A139575",
+    "A175752",
+    "A175753"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:51",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

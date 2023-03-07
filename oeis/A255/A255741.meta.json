@@ -1,0 +1,39 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k), n>=1, k>=1, in which row n lists the partial sums of the n-th row of the square array of A255740.",
+  "id": "A255741",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000120",
+    "A000290",
+    "A002061",
+    "A005408",
+    "A053698",
+    "A056107",
+    "A070941",
+    "A084849",
+    "A100104",
+    "A100705",
+    "A147562",
+    "A151781",
+    "A151788",
+    "A151790",
+    "A151792",
+    "A151793",
+    "A255740",
+    "A255764",
+    "A255765",
+    "A255766"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

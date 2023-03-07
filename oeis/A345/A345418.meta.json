@@ -1,0 +1,24 @@
+{
+  "description": "Table read by upward antidiagonals: Given m, n >= 1, write gcd(prime(m),prime(n)) as d = u*prime(m)+v*prime(n) where u, v are minimal; T(m,n) = v.",
+  "id": "A345418",
+  "mentions": [
+    "A003989",
+    "A050873",
+    "A345415",
+    "A345416",
+    "A345417",
+    "A345419",
+    "A345422"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

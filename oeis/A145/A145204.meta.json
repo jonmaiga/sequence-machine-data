@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose representation in base 3 (A007089) ends in an odd number of zeros.",
+  "id": "A145204",
+  "mentions": [
+    "A003159",
+    "A007089",
+    "A007417",
+    "A007949",
+    "A008585",
+    "A014578",
+    "A016051",
+    "A028983",
+    "A036554",
+    "A036668",
+    "A042964",
+    "A050376",
+    "A051064",
+    "A052330",
+    "A055040",
+    "A055041",
+    "A064614",
+    "A182581",
+    "A329575"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

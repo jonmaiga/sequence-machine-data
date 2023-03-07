@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers n such that the set of base-7 digits of n equals both the set of base-8 digits of n and the set of base-9 digits of n.",
+  "id": "A292125",
+  "mentions": [
+    "A037438"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

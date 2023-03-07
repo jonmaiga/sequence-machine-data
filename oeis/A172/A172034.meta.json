@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of Pillai primes (A063980).",
+  "id": "A172034",
+  "mentions": [
+    "A063980"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

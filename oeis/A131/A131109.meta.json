@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest semiprime such that difference between a(n) and next semiprime, b(n), is n.",
+  "id": "A131109",
+  "mentions": [
+    "A000230",
+    "A001358",
+    "A065516",
+    "A123375",
+    "A133478"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

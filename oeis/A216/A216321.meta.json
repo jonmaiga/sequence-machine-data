@@ -1,0 +1,26 @@
+{
+  "description": "phi(delta(n)), n >= 1, with phi = A000010 (Euler's totient) and delta = A055034 (degree of minimal polynomials with coefficients given in A187360).",
+  "id": "A216321",
+  "mentions": [
+    "A000010",
+    "A010554",
+    "A055034",
+    "A187360",
+    "A206551",
+    "A206552",
+    "A216319",
+    "A216320",
+    "A216322"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

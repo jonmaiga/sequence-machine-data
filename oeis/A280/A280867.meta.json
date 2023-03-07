@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that k is the sum of two totient numbers (A002202) in exactly n ways, or 0 if no such k exists.",
+  "id": "A280867",
+  "mentions": [
+    "A000010",
+    "A001172",
+    "A002202",
+    "A281687"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

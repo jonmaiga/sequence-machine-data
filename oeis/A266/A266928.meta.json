@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps needed to reach 1 or 2 where a step is x -> 3x+1 if x is odd, or x -> x/2p if x is even, 2p being the smallest semiprime dividing x.",
+  "id": "A266928",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

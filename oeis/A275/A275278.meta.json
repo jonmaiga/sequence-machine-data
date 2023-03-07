@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n >= 0 such that there exists a number m with sigma(m) and sigma(m+n) both prime.",
+  "id": "A275278",
+  "mentions": [
+    "A023194"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

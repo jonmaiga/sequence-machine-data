@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose maximal digit in their primorial base expansion is less than the maximal exponent in their prime factorization.",
+  "id": "A350075",
+  "mentions": [
+    "A049345",
+    "A051903",
+    "A276086",
+    "A328114",
+    "A350074",
+    "A350076",
+    "A351038",
+    "A351067",
+    "A351068",
+    "A351075"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

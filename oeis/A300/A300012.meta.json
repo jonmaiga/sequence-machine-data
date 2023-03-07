@@ -1,0 +1,20 @@
+{
+  "description": "A permutation of the positive integers in which adjacent terms differ by a single prime factor and a(n) has no prime factor exceeding prime(n), having the lexicographically earliest inverse.",
+  "id": "A300012",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A127185"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

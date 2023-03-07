@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k L-shaped corners (n>=2, k>=0).",
+  "id": "A273717",
+  "mentions": [
+    "A001793",
+    "A082582",
+    "A273718"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

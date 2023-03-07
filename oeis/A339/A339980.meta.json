@@ -1,0 +1,27 @@
+{
+  "description": "Coreful Zumkeller numbers (A339979) whose set of coreful divisors can be partitioned into two disjoint sets of equal sum in a single way.",
+  "id": "A339980",
+  "mentions": [
+    "A007947",
+    "A057723",
+    "A083209",
+    "A307958",
+    "A308053",
+    "A335143",
+    "A335199",
+    "A335202",
+    "A335217",
+    "A335219",
+    "A339979"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

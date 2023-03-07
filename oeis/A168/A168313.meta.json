@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, retain 1's as rightmost diagonal of A101688 and replace all other 1's with 2's.",
+  "id": "A168313",
+  "mentions": [
+    "A002260",
+    "A003056",
+    "A023531",
+    "A101688",
+    "A168314",
+    "A168315"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

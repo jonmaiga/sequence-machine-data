@@ -1,0 +1,25 @@
+{
+  "description": "The number of n X n matrices with zero determinant and with entries a permutation of [1,2,..,n^2].",
+  "id": "A221976",
+  "mentions": [
+    "A001044",
+    "A085000",
+    "A088020",
+    "A088217",
+    "A136609"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

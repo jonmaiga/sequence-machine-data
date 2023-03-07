@@ -1,0 +1,18 @@
+{
+  "description": "Least number k > n such that n concatenated with k is a perfect power.",
+  "id": "A243093",
+  "mentions": [
+    "A245632"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

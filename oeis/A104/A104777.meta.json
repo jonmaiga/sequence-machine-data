@@ -1,0 +1,23 @@
+{
+  "description": "Integer squares congruent to 1 mod 6.",
+  "id": "A104777",
+  "mentions": [
+    "A001318",
+    "A007310",
+    "A016922",
+    "A016970",
+    "A033683",
+    "A100044"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Mirror image of the Golden Triangle: T(n,k) = A001654(n-k) for n>=0 and 0<=k<=n.",
+  "id": "A180663",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A064831",
+    "A077916",
+    "A115730",
+    "A180662",
+    "A180664",
+    "A180665",
+    "A180666"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:12:27",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

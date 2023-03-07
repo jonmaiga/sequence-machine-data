@@ -1,0 +1,25 @@
+{
+  "description": "Second differences of eighth powers (A001016).",
+  "id": "A255178",
+  "mentions": [
+    "A000542",
+    "A001016",
+    "A022524",
+    "A253636",
+    "A254642",
+    "A254647",
+    "A255177"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:31",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

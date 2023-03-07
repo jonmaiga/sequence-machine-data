@@ -1,0 +1,17 @@
+{
+  "description": "Column 3 of array in A133713.",
+  "id": "A133718",
+  "mentions": [
+    "A133713"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

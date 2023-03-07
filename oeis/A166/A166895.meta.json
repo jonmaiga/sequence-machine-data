@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..[n/2]} C(n-k,k)^(n-k)*n/(n-k), n>=1.",
+  "id": "A166895",
+  "mentions": [
+    "A166894",
+    "A209428"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

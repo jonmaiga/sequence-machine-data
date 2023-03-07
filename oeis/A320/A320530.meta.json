@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) = k^n + k^(n - 2)*n*(n - 1)*(k*(k - 1) + 1)/2 for 0 < k <= n and T(n,0) = A154272(n+1), square array read by antidiagonals upwards.",
+  "id": "A320530",
+  "mentions": [
+    "A130883",
+    "A152947",
+    "A154272",
+    "A300184",
+    "A300401",
+    "A300451",
+    "A300453",
+    "A303273"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

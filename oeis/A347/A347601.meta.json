@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of positive Euler permutations of order n.",
+  "id": "A347601",
+  "mentions": [
+    "A000166",
+    "A122045",
+    "A346719",
+    "A346831",
+    "A347597",
+    "A347598",
+    "A347599",
+    "A347600",
+    "A347602",
+    "A347766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

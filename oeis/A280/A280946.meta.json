@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n and number of proper divisors (A032741) of n are relatively prime and n is a nonprime (A018252).",
+  "id": "A280946",
+  "mentions": [
+    "A000005",
+    "A003624",
+    "A010051",
+    "A014567",
+    "A018252",
+    "A032741",
+    "A046642",
+    "A125168"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

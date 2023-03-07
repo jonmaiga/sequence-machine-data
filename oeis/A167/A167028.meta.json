@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in the expansion of the determinant of a skew-symmetric matrix of order n.",
+  "id": "A167028",
+  "mentions": [
+    "A002135",
+    "A002370"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:59:40",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

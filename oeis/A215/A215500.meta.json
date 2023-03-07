@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((sqrt(5) + 3)^n + (-sqrt(5) -1)^n + (-sqrt(5) + 3)^n + (sqrt(5) - 1)^n) / 2^n.",
+  "id": "A215500",
+  "mentions": [
+    "A051927",
+    "A124697",
+    "A215502",
+    "A215503"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

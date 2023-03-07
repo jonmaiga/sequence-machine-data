@@ -1,0 +1,19 @@
+{
+  "description": "Prime(A205685(n)), the n-th number s(j) such that 5 divides s(k)-s(j), where the pairs (k,j) are given by A205684 and A205685.",
+  "id": "A205687",
+  "mentions": [
+    "A205558",
+    "A205684",
+    "A205685"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:32:01",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Maximal external path length of AVL trees with n (leaf-) nodes.",
+  "id": "A228155",
+  "mentions": [
+    "A003314",
+    "A008466",
+    "A029837",
+    "A036289",
+    "A067331",
+    "A072649",
+    "A143897",
+    "A166106",
+    "A217298",
+    "A217710",
+    "A228152",
+    "A228153"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Values of k such that k^2 + 9 is a triangular number (A000217).",
+  "id": "A276601",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001109",
+    "A077241",
+    "A106328",
+    "A230044",
+    "A276598",
+    "A276599",
+    "A276600",
+    "A276602"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

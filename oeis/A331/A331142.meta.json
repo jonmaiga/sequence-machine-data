@@ -1,0 +1,22 @@
+{
+  "description": "Number of different coincidence site lattices of index n in lattice A_4.",
+  "id": "A331142",
+  "mentions": [
+    "A031360",
+    "A031361",
+    "A331139",
+    "A331140",
+    "A331141"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

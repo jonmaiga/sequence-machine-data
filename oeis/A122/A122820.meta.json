@@ -1,0 +1,25 @@
+{
+  "description": "Array read by rows in which n-th row contains n successive primes with least sum divisible by n.",
+  "id": "A122820",
+  "mentions": [
+    "A054892",
+    "A077388",
+    "A077389",
+    "A082592",
+    "A082596",
+    "A082638",
+    "A082653",
+    "A082661"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

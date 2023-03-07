@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > 0 such that 2^(p-1) (mod p^2) < k*p for p = prime(n).",
+  "id": "A304214",
+  "mentions": [
+    "A000040",
+    "A001220",
+    "A196202"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest prime occurring (as a factor) in all terms up to A098550(n).",
+  "id": "A253591",
+  "mentions": [
+    "A098550",
+    "A253593"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

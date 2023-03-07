@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, equal to R^4, the matrix 4th power of R = A135894.",
+  "id": "A135897",
+  "mentions": [
+    "A135880",
+    "A135884",
+    "A135888",
+    "A135892",
+    "A135894"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

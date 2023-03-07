@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=0. If d(n)>d(n-1), then a(n)=a(n-1)+1. If d(n)",
+  "id": "A175150",
+  "mentions": [
+    "A000005",
+    "A182394"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

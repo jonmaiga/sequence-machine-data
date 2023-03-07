@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which A004001(n) = A283470(n).",
+  "id": "A283473",
+  "mentions": [
+    "A004001",
+    "A283469",
+    "A283470",
+    "A283471",
+    "A283472"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

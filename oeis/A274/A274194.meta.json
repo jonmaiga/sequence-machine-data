@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the array A274193, defined by g(n,k) = 1 for n >= 0; g(n,k) = 0 if k > n; g(n,k) = g(n-1,k-1) + g(n-1,3k) for n > 0, k > 1.",
+  "id": "A274194",
+  "mentions": [
+    "A274193",
+    "A274195"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

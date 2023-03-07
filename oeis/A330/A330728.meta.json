@@ -1,0 +1,37 @@
+{
+  "description": "Number of balanced reduced multisystems of maximum depth whose degrees (atom multiplicities) are the prime indices of n.",
+  "id": "A330728",
+  "mentions": [
+    "A000111",
+    "A001055",
+    "A005121",
+    "A006472",
+    "A112798",
+    "A292504",
+    "A292505",
+    "A305936",
+    "A317145",
+    "A318846",
+    "A318848",
+    "A318849",
+    "A330664",
+    "A330665",
+    "A330666",
+    "A330675",
+    "A330676",
+    "A330726",
+    "A330727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose number of divisors is not a 3-smooth number.",
+  "id": "A354181",
+  "mentions": [
+    "A000005",
+    "A003586",
+    "A036537",
+    "A059485",
+    "A162643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

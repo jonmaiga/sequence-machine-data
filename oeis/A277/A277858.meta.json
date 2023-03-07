@@ -1,0 +1,18 @@
+{
+  "description": "The absolute difference between a(n) and a(n+1) is visible in a(n).",
+  "id": "A277858",
+  "mentions": [
+    "A276070"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

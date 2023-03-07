@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n word structures with all distinct run-lengths using at most 3 symbols.",
+  "id": "A351639",
+  "mentions": [
+    "A351637",
+    "A351638"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

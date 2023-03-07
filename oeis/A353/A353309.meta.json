@@ -1,0 +1,20 @@
+{
+  "description": "The maximum sum of base-3 digits occurring among all numbers reached after n, when iterating map x -> A353313(x) starting from x=n, or -1 if no finite cycle is ever reached.",
+  "id": "A353309",
+  "mentions": [
+    "A053735",
+    "A352895",
+    "A353313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

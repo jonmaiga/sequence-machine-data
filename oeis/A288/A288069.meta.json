@@ -1,0 +1,22 @@
+{
+  "description": "Quotients obtained when the Zuckerman numbers are divided by the product of their digits.",
+  "id": "A288069",
+  "mentions": [
+    "A007602",
+    "A056770",
+    "A067251",
+    "A342593",
+    "A342941"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

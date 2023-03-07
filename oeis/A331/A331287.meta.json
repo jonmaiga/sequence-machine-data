@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(n, A225546(n)).",
+  "id": "A331287",
+  "mentions": [
+    "A048675",
+    "A225546",
+    "A225547",
+    "A297845",
+    "A331288",
+    "A331310",
+    "A331311"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

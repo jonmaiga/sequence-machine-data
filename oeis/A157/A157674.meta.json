@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x) = 1 + x/exp( Sum_{k>=1} (A((-1)^k*x) - 1)^k/k ).",
+  "id": "A157674",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A137720",
+    "A156909"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:42:05",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

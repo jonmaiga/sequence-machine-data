@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of cells that are turned from OFF to ON at stage k of the cellular automaton in the 30-60-90 triangle of hexagons defined in Comments.",
+  "id": "A170906",
+  "mentions": [
+    "A000695",
+    "A151723",
+    "A151724",
+    "A169782",
+    "A170905",
+    "A170907"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple directed cycles in the binary de Bruijn graphs of order n.",
+  "id": "A306522",
+  "mentions": [
+    "A016031"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

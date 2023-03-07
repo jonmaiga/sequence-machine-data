@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n minus the k-th proper divisor of n.",
+  "id": "A208460",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A027750",
+    "A027751",
+    "A032741",
+    "A060681",
+    "A094471"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime that is simultaneously the sum of 2n-1, 2n+1 and 2n+3 consecutive primes.",
+  "id": "A341338",
+  "mentions": [
+    "A034962",
+    "A034965",
+    "A082246",
+    "A082251",
+    "A127340",
+    "A127341",
+    "A161612"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

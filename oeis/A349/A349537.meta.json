@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer m such that the n numbers 33*k^2*(k^3+1) (k = 1..n) are pairwise distinct modulo m.",
+  "id": "A349537",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001093",
+    "A208643",
+    "A349459",
+    "A349530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

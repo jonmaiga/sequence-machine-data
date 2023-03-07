@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which A003973(k) < 2*sigma(k).",
+  "id": "A337382",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A246281",
+    "A337379",
+    "A337381",
+    "A337383"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

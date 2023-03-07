@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = r, third of four consecutive primes p,q,r,s with p+q+r+s = A245577(n)^4.",
+  "id": "A247265",
+  "mentions": [
+    "A245577",
+    "A247258",
+    "A247259",
+    "A247266"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

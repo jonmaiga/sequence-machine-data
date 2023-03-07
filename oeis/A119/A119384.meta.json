@@ -1,0 +1,20 @@
+{
+  "description": "Ten's complement of the factorials.",
+  "id": "A119384",
+  "mentions": [
+    "A110396"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

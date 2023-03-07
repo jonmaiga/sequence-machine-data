@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=0} 1/(1 - x^(2^k))^n.",
+  "id": "A301702",
+  "mentions": [
+    "A000123",
+    "A008485",
+    "A018819",
+    "A038712",
+    "A171238"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

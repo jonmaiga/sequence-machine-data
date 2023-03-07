@@ -1,0 +1,17 @@
+{
+  "description": "Sophie Germain primes p surrounded by Sophie Germain primes.",
+  "id": "A171161",
+  "mentions": [
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose distinct prime factors can be partitioned into two equal sums.",
+  "id": "A221054",
+  "mentions": [
+    "A005843",
+    "A008472",
+    "A027748",
+    "A037074",
+    "A071139",
+    "A071140",
+    "A071147",
+    "A083207",
+    "A175592"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

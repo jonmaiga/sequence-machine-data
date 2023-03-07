@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of appearances of (9*n + 4) in A358509.",
+  "id": "A358736",
+  "mentions": [
+    "A003462",
+    "A017209",
+    "A358509"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

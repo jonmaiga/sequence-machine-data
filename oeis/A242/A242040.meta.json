@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n + k! and n - k! are both prime for some k.",
+  "id": "A242040",
+  "mentions": [
+    "A125163",
+    "A239321",
+    "A241425",
+    "A245716"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

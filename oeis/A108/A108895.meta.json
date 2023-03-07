@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of quadruple factorial numbers n!!!! (A007662).",
+  "id": "A108895",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007662",
+    "A114347"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

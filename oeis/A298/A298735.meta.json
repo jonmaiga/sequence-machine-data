@@ -1,0 +1,28 @@
+{
+  "description": "Number of odd squares dividing n.",
+  "id": "A298735",
+  "mentions": [
+    "A000265",
+    "A001227",
+    "A016754",
+    "A046951",
+    "A056170",
+    "A071325",
+    "A111003",
+    "A122132",
+    "A357450"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that divide A124271(p) = Sum_{i=1..p} (prime(i)^p - 1) / (prime(i) - 1).",
+  "id": "A124273",
+  "mentions": [
+    "A123856",
+    "A124271",
+    "A124274",
+    "A124275"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

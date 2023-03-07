@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binary odd/even encoding of the iterates in the modified Syracuse algorithm (msa) starting with 2n+1 and continuing up to (but not including) the first iterate less than 2n+1.",
+  "id": "A260592",
+  "mentions": [
+    "A005408",
+    "A176999",
+    "A260590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

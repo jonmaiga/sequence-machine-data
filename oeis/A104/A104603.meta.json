@@ -1,0 +1,18 @@
+{
+  "description": "Numbers M such that M = m + 2^k = m * b(k) for m < 2^k where b is A050376.",
+  "id": "A104603",
+  "mentions": [
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

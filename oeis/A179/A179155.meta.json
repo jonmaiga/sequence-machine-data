@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that Mordell's equation y^2 = x^3 + n has exactly 14 integral solutions.",
+  "id": "A179155",
+  "mentions": [
+    "A001014",
+    "A054504",
+    "A081119",
+    "A179145",
+    "A179162"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

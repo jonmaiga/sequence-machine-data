@@ -1,0 +1,20 @@
+{
+  "description": "Twice repdigit numbers.",
+  "id": "A152966",
+  "mentions": [
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

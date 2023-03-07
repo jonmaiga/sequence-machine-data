@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime of the form (1 + k)^(2^n) + k for some k.",
+  "id": "A286678",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A070592",
+    "A100270",
+    "A232720",
+    "A263539",
+    "A272061",
+    "A285929",
+    "A286982",
+    "A287842"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

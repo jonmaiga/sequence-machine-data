@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers n such that each decimal digit of n is equal to the difference of at least two other digits of n.",
+  "id": "A255917",
+  "mentions": [
+    "A000217",
+    "A255892",
+    "A255893",
+    "A255966"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

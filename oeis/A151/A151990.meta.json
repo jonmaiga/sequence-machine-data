@@ -1,0 +1,19 @@
+{
+  "description": "If p and q are (odd) twin primes and q > p then p*q^2 + (p + q) + 1 is divisible by 6; a(n) = (p*q^2 + (p + q) + 1)/6.",
+  "id": "A151990",
+  "mentions": [
+    "A001359",
+    "A164689"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

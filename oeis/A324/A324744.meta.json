@@ -1,0 +1,37 @@
+{
+  "description": "Number of maximal subsets of {1...n} containing no element whose prime indices all belong to the subset.",
+  "id": "A324744",
+  "mentions": [
+    "A000720",
+    "A001462",
+    "A007097",
+    "A076078",
+    "A084422",
+    "A085945",
+    "A112798",
+    "A276625",
+    "A290822",
+    "A304360",
+    "A306844",
+    "A320426",
+    "A324694",
+    "A324736",
+    "A324738",
+    "A324743",
+    "A324749",
+    "A324754",
+    "A324759",
+    "A324762",
+    "A324764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

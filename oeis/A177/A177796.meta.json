@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that number of 1's in binary representation of n-th prime = number of 0's in binary representation of n-th prime.",
+  "id": "A177796",
+  "mentions": [
+    "A014499",
+    "A031443",
+    "A035103"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [2n] avoiding the pattern 12...n.",
+  "id": "A269042",
+  "mentions": [
+    "A010050",
+    "A214015",
+    "A267532",
+    "A269021"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest integer m such that the product of n consecutive integers starting at m is divisible by at most n primes.",
+  "id": "A325480",
+  "mentions": [
+    "A002182",
+    "A006549",
+    "A045619",
+    "A163264",
+    "A164799",
+    "A239035",
+    "A244656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

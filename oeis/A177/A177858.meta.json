@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which row n gives the number of primes <= 2^n having k 1's in their binary representation, k=1..n.",
+  "id": "A177858",
+  "mentions": [
+    "A007053",
+    "A061712"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Inner product of the Zeckendorf binary representation of n and its reverse.",
+  "id": "A216176",
+  "mentions": [
+    "A027941",
+    "A072649",
+    "A159780",
+    "A189920",
+    "A213676"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

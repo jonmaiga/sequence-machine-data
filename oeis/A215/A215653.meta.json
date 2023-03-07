@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest positive m such that m^2=1+k*n with positive k.",
+  "id": "A215653",
+  "mentions": [
+    "A070667",
+    "A076942"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

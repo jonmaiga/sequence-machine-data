@@ -1,0 +1,26 @@
+{
+  "description": "Triangular table T(n,k) = P(phi(k), floor(n/k)), where P is sequence A000027 used as a pairing function N x N -> N, and phi is Euler totient function, A000010. Table is read by rows as T(1,1), T(2,1), T(2,2), etc.",
+  "id": "A286235",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A002260",
+    "A004736",
+    "A286156",
+    "A286234",
+    "A286237",
+    "A286245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

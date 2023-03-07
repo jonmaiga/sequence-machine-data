@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A360522(k) = 2*k.",
+  "id": "A360524",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002827",
+    "A007357",
+    "A054979",
+    "A322486",
+    "A324707",
+    "A360522"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

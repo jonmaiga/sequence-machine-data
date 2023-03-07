@@ -1,0 +1,29 @@
+{
+  "description": "Number of finite sequences of positive integers whose sum minus runs-resistance is n.",
+  "id": "A329768",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A098504",
+    "A242882",
+    "A318921",
+    "A318928",
+    "A329744",
+    "A329745",
+    "A329746",
+    "A329747",
+    "A329750",
+    "A329767"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

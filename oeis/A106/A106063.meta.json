@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 1*p + 14 and 14*p + 1 are primes.",
+  "id": "A106063",
+  "mentions": [
+    "A153417"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

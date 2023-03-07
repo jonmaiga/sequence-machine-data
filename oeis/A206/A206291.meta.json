@@ -1,0 +1,24 @@
+{
+  "description": "The decimal expansion of the middle zero x(2) of the function F(x) = f(f(x)) - x, where f(x) = cos(x) - sin(x).",
+  "id": "A206291",
+  "mentions": [
+    "A168546",
+    "A215668",
+    "A215670",
+    "A215832",
+    "A215833",
+    "A216863",
+    "A216891"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

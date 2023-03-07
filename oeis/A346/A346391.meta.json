@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations f of {1,...,n} with f(n) = n and f(n-1) > f(1) such that f(1)*f(2) + ... + f(n-1)*f(n) + f(n)*f(1) == 0 (mod n^2).",
+  "id": "A346391",
+  "mentions": [
+    "A000290",
+    "A322070",
+    "A322099",
+    "A342965",
+    "A346387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

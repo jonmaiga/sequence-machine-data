@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms of A109858 with digit sum n.",
+  "id": "A109859",
+  "mentions": [
+    "A109858"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

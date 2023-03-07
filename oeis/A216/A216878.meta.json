@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 / Product_{n>=1} (1 + x^n*A(x)) * (1 + x^n/A(x)) * (1-x^n).",
+  "id": "A216878",
+  "mentions": [
+    "A190791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Second row of array in A358304.",
+  "id": "A358306",
+  "mentions": [
+    "A358298",
+    "A358304",
+    "A358307",
+    "A358882",
+    "A358885",
+    "A358886",
+    "A358889"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

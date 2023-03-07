@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 6*n^2 + 8*n + 1.",
+  "id": "A239325",
+  "mentions": [
+    "A000290",
+    "A069133",
+    "A100536",
+    "A139267"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:15",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

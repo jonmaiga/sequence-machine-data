@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 + 1/A007528(k)^2).",
+  "id": "A334482",
+  "mentions": [
+    "A007528",
+    "A175646",
+    "A334479",
+    "A334481"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

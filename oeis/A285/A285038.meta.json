@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that k*n belongs to A120383.",
+  "id": "A285038",
+  "mentions": [
+    "A120383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

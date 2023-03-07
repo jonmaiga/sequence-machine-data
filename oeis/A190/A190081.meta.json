@@ -1,0 +1,19 @@
+{
+  "description": "n + [n*r/t] + [n*s/t]; r=1, s=cos(Pi/5), t=sec(Pi/5).",
+  "id": "A190081",
+  "mentions": [
+    "A190079",
+    "A190080"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

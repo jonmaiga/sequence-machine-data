@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f.: Sum_{n>=0} 3*(n+3)^(n-1)*x^n/(1+n*x)^n.",
+  "id": "A195255",
+  "mentions": [
+    "A000522",
+    "A195254",
+    "A195256",
+    "A195257"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

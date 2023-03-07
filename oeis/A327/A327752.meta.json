@@ -1,0 +1,20 @@
+{
+  "description": "Primes powers (A246655) congruent to 1 mod 5.",
+  "id": "A327752",
+  "mentions": [
+    "A016861",
+    "A137827",
+    "A246655",
+    "A327753"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

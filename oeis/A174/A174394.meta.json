@@ -1,0 +1,18 @@
+{
+  "description": "Fourth root of largest n-digit number with exactly five divisors",
+  "id": "A174394",
+  "mentions": [
+    "A182647"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

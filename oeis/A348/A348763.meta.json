@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} ((-1)^(n+1)*n)/(n+1)^2.",
+  "id": "A348763",
+  "mentions": [
+    "A006752",
+    "A072691",
+    "A111003",
+    "A153071",
+    "A175571",
+    "A181983",
+    "A300707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

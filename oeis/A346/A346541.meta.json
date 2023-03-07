@@ -1,0 +1,19 @@
+{
+  "description": "Number of walks on square lattice from (n,2n) to (0,0) using steps that decrease the Euclidean distance to the origin and increase the Euclidean distance to (n,2n) and that change each coordinate by at most 1.",
+  "id": "A346541",
+  "mentions": [
+    "A346540"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

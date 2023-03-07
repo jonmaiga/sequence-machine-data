@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that prime(k)^n - 2 is prime.",
+  "id": "A258043",
+  "mentions": [
+    "A014224",
+    "A014232",
+    "A109080",
+    "A204578"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

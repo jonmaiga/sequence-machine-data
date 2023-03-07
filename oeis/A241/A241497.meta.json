@@ -1,0 +1,18 @@
+{
+  "description": "q-Pell numbers with q=2.",
+  "id": "A241497",
+  "mentions": [
+    "A015459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

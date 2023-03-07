@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ( (-1)^(n-1) * Sum_{k=0..n-1} (-1)^k*10^(2^k) - (1-(-1)^n)/2 )/9.",
+  "id": "A325910",
+  "mentions": [
+    "A002275",
+    "A007088",
+    "A325906",
+    "A325912"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

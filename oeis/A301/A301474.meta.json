@@ -1,0 +1,19 @@
+{
+  "description": "Summarize the double of the previous term (digits in increasing order), starting with a(1) = 1.",
+  "id": "A301474",
+  "mentions": [
+    "A005151"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

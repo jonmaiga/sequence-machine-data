@@ -1,0 +1,23 @@
+{
+  "description": "Three-column array read by rows: the sequence of 14 triples of the positions of the numbers 0 to 13 in sequence A332439.",
+  "id": "A332440",
+  "mentions": [
+    "A332439"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

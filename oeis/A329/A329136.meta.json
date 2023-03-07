@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions of n whose augmented differences are an aperiodic word.",
+  "id": "A329136",
+  "mentions": [
+    "A000041",
+    "A000740",
+    "A027375",
+    "A152061",
+    "A325351",
+    "A325356",
+    "A328594",
+    "A329132",
+    "A329133",
+    "A329134",
+    "A329135",
+    "A329137",
+    "A329139",
+    "A329140",
+    "A329143"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The number of times the n-th prime, p, can become a different prime under any mapping of some single decimal digit <=> with some other single decimal digit.",
+  "id": "A180560",
+  "mentions": [
+    "A175789",
+    "A175791",
+    "A180517",
+    "A180559",
+    "A180561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Total sum of parts of multiplicity 3 in all partitions of n.",
+  "id": "A222731",
+  "mentions": [
+    "A222730"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:52:59",
+    "offset": 3,
+    "size": 46,
+    "source": "joeis"
+  }
+}

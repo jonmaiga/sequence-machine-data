@@ -1,0 +1,18 @@
+{
+  "description": "Number of lattice paths from {n}^10 to {0}^10 using steps that decrement one component by 1 such that for each point (p_1,p_2,...,p_10) we have abs(p_{i}-p_{i+1}) <= 1.",
+  "id": "A227672",
+  "mentions": [
+    "A000142",
+    "A227655"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

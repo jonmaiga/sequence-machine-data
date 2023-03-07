@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 (-1,0,1) arrays of determinants of 2X2 subblocks of some (n+1)X8 binary array",
+  "id": "A226716",
+  "mentions": [
+    "A226717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

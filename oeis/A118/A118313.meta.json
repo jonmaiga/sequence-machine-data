@@ -1,0 +1,19 @@
+{
+  "description": "Sum of squared end-to-end distances of all n-step self-avoiding walks on the simple cubic lattice.",
+  "id": "A118313",
+  "mentions": [
+    "A001412",
+    "A078605",
+    "A079156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

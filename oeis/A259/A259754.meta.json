@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are congruent to {3,9,15,18,21} mod 24.",
+  "id": "A259754",
+  "mentions": [
+    "A000914",
+    "A008606",
+    "A047584",
+    "A073762",
+    "A259748",
+    "A259749",
+    "A259750",
+    "A259751",
+    "A259752",
+    "A259755"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

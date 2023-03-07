@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows: T(n,k) is the number of labeled order relations on n nodes in which the longest chain has k nodes (n>=1, 1<=k<=n).",
+  "id": "A342587",
+  "mentions": [
+    "A000142",
+    "A001035",
+    "A055531",
+    "A055532",
+    "A055533",
+    "A055534",
+    "A081064",
+    "A342501"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

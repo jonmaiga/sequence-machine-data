@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer m > 1 such that m!^(m + n) divides (m^2)!.",
+  "id": "A244443",
+  "mentions": [
+    "A096126",
+    "A096127",
+    "A246048"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

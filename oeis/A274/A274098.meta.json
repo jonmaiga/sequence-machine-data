@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways the most probable score sequence happens in an n-person round-robin tournament.",
+  "id": "A274098",
+  "mentions": [
+    "A000571"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

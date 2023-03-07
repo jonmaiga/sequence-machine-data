@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the arc length of the logarithmic spiral related to a golden triangle with a unit base length.",
+  "id": "A349274",
+  "mentions": [
+    "A001622",
+    "A296794"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

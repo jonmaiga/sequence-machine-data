@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximum matchings in the complete tripartite graph K_n,n,n.",
+  "id": "A297527",
+  "mentions": [
+    "A293075",
+    "A297008",
+    "A297487"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers m such that no self-avoiding walk of length m + 1 on the square lattice fits into the smallest circle that can enclose a walk of length m.",
+  "id": "A346124",
+  "mentions": [
+    "A037245",
+    "A122224",
+    "A127399",
+    "A127400",
+    "A127401",
+    "A192493",
+    "A192494",
+    "A266549",
+    "A316194",
+    "A346123",
+    "A346132",
+    "A346993",
+    "A346994",
+    "A346995"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

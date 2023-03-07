@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d divides n} (-1)^(d + n/d) * d^9.",
+  "id": "A321565",
+  "mentions": [
+    "A321543",
+    "A321564",
+    "A321807",
+    "A321836",
+    "A322083"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

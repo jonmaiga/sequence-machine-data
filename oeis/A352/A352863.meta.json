@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(n+3,k+3) * a(k).",
+  "id": "A352863",
+  "mentions": [
+    "A000292",
+    "A000670",
+    "A045499",
+    "A052882",
+    "A105480",
+    "A154931",
+    "A240798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

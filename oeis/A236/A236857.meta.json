@@ -1,0 +1,22 @@
+{
+  "description": "Each n occurs the least common multiple (LCM) of {1, 2, ..., n} (= A003418(n)) times.",
+  "id": "A236857",
+  "mentions": [
+    "A003418",
+    "A084556",
+    "A236856",
+    "A236858",
+    "A238280"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

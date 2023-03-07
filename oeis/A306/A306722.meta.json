@@ -1,0 +1,24 @@
+{
+  "description": "Number of pairs of primes (p,q), p < q, which are a solution of the Diophantine equation (p-1)*(q-1) = (2n)^2.",
+  "id": "A306722",
+  "mentions": [
+    "A039770",
+    "A052291",
+    "A062732",
+    "A221284",
+    "A221285",
+    "A247129",
+    "A306440",
+    "A307245"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

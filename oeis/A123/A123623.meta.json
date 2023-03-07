@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k>1 such that mu(n*k) = mu(n), where mu=A008683.",
+  "id": "A123623",
+  "mentions": [
+    "A008683",
+    "A093316",
+    "A123624"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

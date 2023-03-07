@@ -1,0 +1,21 @@
+{
+  "description": "Odd primitive abundant numbers n such that n = x^2 + x + y^2 with y^2 < 2*x and x and y primes, subsequence of A136476.",
+  "id": "A136479",
+  "mentions": [
+    "A006038",
+    "A136476",
+    "A136477",
+    "A136478"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

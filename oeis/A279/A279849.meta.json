@@ -1,0 +1,24 @@
+{
+  "description": "Rows of the 48 self-orthogonal Latin squares of order 4, lexicographically sorted.",
+  "id": "A279849",
+  "mentions": [
+    "A160368",
+    "A279648",
+    "A279649",
+    "A279650",
+    "A279850"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

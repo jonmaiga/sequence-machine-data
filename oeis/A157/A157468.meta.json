@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form sqrt(p-1)-1, where p is a prime.",
+  "id": "A157468",
+  "mentions": [
+    "A070155",
+    "A127435",
+    "A127436",
+    "A157467",
+    "A238048",
+    "A238086"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that 2^k-2 and 3^k-3 are both divisible by k and k is not a Carmichael number (A002997).",
+  "id": "A153513",
+  "mentions": [
+    "A002997",
+    "A122780",
+    "A153508",
+    "A153514"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct prime numbers such that the decimal representations of two consecutive terms overlap.",
+  "id": "A262702",
+  "mentions": [
+    "A076653",
+    "A262323"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

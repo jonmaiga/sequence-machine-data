@@ -1,0 +1,37 @@
+{
+  "description": "Augmentation of the triangular array A158405. See Comments.",
+  "id": "A193091",
+  "mentions": [
+    "A002260",
+    "A003169",
+    "A004736",
+    "A009766",
+    "A023531",
+    "A033878",
+    "A071948",
+    "A094638",
+    "A094727",
+    "A130296",
+    "A154325",
+    "A158405",
+    "A193092",
+    "A193093",
+    "A193094",
+    "A193560",
+    "A193561",
+    "A211788"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

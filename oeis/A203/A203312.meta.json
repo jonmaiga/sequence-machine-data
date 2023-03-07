@@ -1,0 +1,18 @@
+{
+  "description": "Vandermonde sequence using x^2 - xy + y^2 applied to (1,2,...,n).",
+  "id": "A203312",
+  "mentions": [
+    "A093883",
+    "A203513"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

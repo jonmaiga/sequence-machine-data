@@ -1,0 +1,19 @@
+{
+  "description": "3-adic valuation of A216854(n).",
+  "id": "A216856",
+  "mentions": [
+    "A216854"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

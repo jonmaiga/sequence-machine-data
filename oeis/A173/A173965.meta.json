@@ -1,0 +1,22 @@
+{
+  "description": "Averages of four consecutive cubes.",
+  "id": "A173965",
+  "mentions": [
+    "A027575",
+    "A089071",
+    "A173960",
+    "A173961",
+    "A173962"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:09",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

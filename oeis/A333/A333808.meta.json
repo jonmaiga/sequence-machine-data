@@ -1,0 +1,22 @@
+{
+  "description": "Sum of distinct prime divisors of n that are < sqrt(n).",
+  "id": "A333808",
+  "mentions": [
+    "A008472",
+    "A070039",
+    "A097974",
+    "A333806",
+    "A333807"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

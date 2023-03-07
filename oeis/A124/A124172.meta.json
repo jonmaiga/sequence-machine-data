@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which row n contains values from 1 to n in alphabetical order (in English).",
+  "id": "A124172",
+  "mentions": [
+    "A002260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

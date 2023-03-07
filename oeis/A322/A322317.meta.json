@@ -1,0 +1,22 @@
+{
+  "description": "Ordinal transform of A322316.",
+  "id": "A322317",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A122841",
+    "A126760",
+    "A244417",
+    "A322316"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

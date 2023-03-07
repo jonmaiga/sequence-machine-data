@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1-gamma-gamma(1), a constant related to the asymptotic expansion of j(n), the counting function of \"jagged\" numbers, where gamma is Euler-Mascheroni constant and gamma(1) the first Stieltjes constant.",
+  "id": "A242610",
+  "mentions": [
+    "A064052",
+    "A082633",
+    "A153810",
+    "A242493"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

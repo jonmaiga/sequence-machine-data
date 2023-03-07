@@ -1,0 +1,25 @@
+{
+  "description": "Fourth in a series of triangular subarrays of A117506. Previous arrays are Tables A007318, A059797 and A167201.",
+  "id": "A167202",
+  "mentions": [
+    "A007318",
+    "A059797",
+    "A099627",
+    "A117506",
+    "A124922",
+    "A161924",
+    "A167201"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

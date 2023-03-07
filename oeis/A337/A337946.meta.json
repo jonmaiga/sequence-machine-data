@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; thereafter, a(n) is the smallest number such that the addition and multiplication tables for (a(1),...,a(n)) together contain n*(n+1) different entries (the maximum possible).",
+  "id": "A337946",
+  "mentions": [
+    "A005282",
+    "A066720",
+    "A337655",
+    "A337656",
+    "A337947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

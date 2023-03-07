@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(2) = 1 and a(n) = number of terms among (a(1),a(2),...a(n-1)) which divide (a(n-1)+a(n-2)).",
+  "id": "A128978",
+  "mentions": [
+    "A128923"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

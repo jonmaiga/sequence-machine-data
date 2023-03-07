@@ -1,0 +1,20 @@
+{
+  "description": "Binomial(n-k-1,k) * binomial(n-k,k+1) where k = ceiling(n/4).",
+  "id": "A171006",
+  "mentions": [
+    "A094837",
+    "A171001",
+    "A171002",
+    "A171003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

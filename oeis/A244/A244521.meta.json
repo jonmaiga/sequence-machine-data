@@ -1,0 +1,18 @@
+{
+  "description": "Number of pseudo-square parallelogram (psp) polyominoes by semiperimeter.",
+  "id": "A244521",
+  "mentions": [
+    "A245185"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

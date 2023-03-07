@@ -1,0 +1,23 @@
+{
+  "description": "Total number of either concave decagons or concave hexadecagons in two variants of an octagon expansion after n iterations: either \"side-to-side\" or \"vertex-to-vertex\", respectively.",
+  "id": "A253896",
+  "mentions": [
+    "A061777",
+    "A179178",
+    "A253547",
+    "A253687",
+    "A253688",
+    "A253895"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

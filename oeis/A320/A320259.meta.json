@@ -1,0 +1,25 @@
+{
+  "description": "Terms that are on the y-axis of the square spiral built with 2*k, 2*k+1, 2*k+1 for k >= 0.",
+  "id": "A320259",
+  "mentions": [
+    "A000969",
+    "A002264",
+    "A004396",
+    "A004523",
+    "A004767",
+    "A004772",
+    "A143978",
+    "A211480"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:50:55",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

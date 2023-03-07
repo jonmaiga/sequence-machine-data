@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of x^5/(x^6-x^4-x^2-x+1).",
+  "id": "A245437",
+  "mentions": [
+    "A079500",
+    "A175331",
+    "A244521",
+    "A245185"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

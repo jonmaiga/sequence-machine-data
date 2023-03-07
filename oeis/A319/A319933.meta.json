@@ -1,0 +1,39 @@
+{
+  "description": "A(n, k) = [x^k] DedekindEta(x)^n, square array read by descending antidiagonals, A(n, k) for n >= 0 and k >= 0.",
+  "id": "A319933",
+  "mentions": [
+    "A000007",
+    "A000594",
+    "A000727",
+    "A000728",
+    "A000729",
+    "A000730",
+    "A000731",
+    "A001489",
+    "A002107",
+    "A008705",
+    "A010815",
+    "A010816",
+    "A010817",
+    "A010818",
+    "A078521",
+    "A080956",
+    "A167541",
+    "A258232",
+    "A286354",
+    "A319574",
+    "A319930",
+    "A319931",
+    "A319932"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k, k^2 and k^3 are cyclops numbers (A134808).",
+  "id": "A286662",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A134808",
+    "A160711",
+    "A239587",
+    "A239588",
+    "A239589",
+    "A239590",
+    "A239591",
+    "A239827",
+    "A239828"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

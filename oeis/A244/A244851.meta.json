@@ -1,0 +1,22 @@
+{
+  "description": "Least number k > 0 such that 3^k begins with exactly n consecutive decreasing digits.",
+  "id": "A244851",
+  "mentions": [
+    "A244848",
+    "A244849",
+    "A244852"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

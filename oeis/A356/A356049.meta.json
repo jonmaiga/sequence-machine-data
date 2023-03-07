@@ -1,0 +1,21 @@
+{
+  "description": "Symmetric array read by antidiagonals: T(n,k) is the number of legal positions in Go on an n X k board.",
+  "id": "A356049",
+  "mentions": [
+    "A094777",
+    "A102620",
+    "A266278",
+    "A356134"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

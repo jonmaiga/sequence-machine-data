@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1,2,3,...,n} whose sum is a cube.",
+  "id": "A126111",
+  "mentions": [
+    "A126024",
+    "A127542"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

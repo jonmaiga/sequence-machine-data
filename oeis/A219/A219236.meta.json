@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient array for the third power of the monic integer Chebyshev polynomials 2*T(2*n,x/2) as a function of x^2.",
+  "id": "A219236",
+  "mentions": [
+    "A016777",
+    "A127672",
+    "A219235"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

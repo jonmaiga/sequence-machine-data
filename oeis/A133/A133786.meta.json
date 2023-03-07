@@ -1,0 +1,20 @@
+{
+  "description": "Numbers prime to 10, 10's digit is odd and 100's digit is odd.",
+  "id": "A133786",
+  "mentions": [
+    "A045798"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of permutations p of [n] such that the up-down signature of 0,p has nonnegative partial sums with a maximal value <= k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A262163",
+  "mentions": [
+    "A000007",
+    "A000111",
+    "A258829",
+    "A258830",
+    "A262124",
+    "A262164",
+    "A262165",
+    "A262166",
+    "A262167",
+    "A262168",
+    "A262169",
+    "A262170",
+    "A262171",
+    "A262172"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

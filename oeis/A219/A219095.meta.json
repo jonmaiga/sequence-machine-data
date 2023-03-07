@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that if b/c > 1 is the least reduced fraction using divisors b and c of k, then c > 1.",
+  "id": "A219095",
+  "mentions": [
+    "A218993",
+    "A219093",
+    "A219094"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

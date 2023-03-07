@@ -1,0 +1,24 @@
+{
+  "description": "Table where row n lists numbers N equal to the determinant of an n X n circulant having as a row the base n+1 digits of N.",
+  "id": "A303262",
+  "mentions": [
+    "A219324",
+    "A219325",
+    "A219326",
+    "A219327",
+    "A303260",
+    "A303261"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

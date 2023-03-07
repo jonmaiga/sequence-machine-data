@@ -1,0 +1,19 @@
+{
+  "description": "Least integer multiple of 1/n, truncated to n digits after decimal.",
+  "id": "A111690",
+  "mentions": [
+    "A095199"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

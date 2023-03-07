@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary words of length n that contain all sixteen 4-bit words as (possibly overlapping) contiguous subwords.",
+  "id": "A242257",
+  "mentions": [
+    "A001146",
+    "A052944",
+    "A242167",
+    "A242206",
+    "A242323",
+    "A243820"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 19,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

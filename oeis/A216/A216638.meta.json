@@ -1,0 +1,21 @@
+{
+  "description": "First appearance of the Fibonacci numbers in the decimals of Pi.",
+  "id": "A216638",
+  "mentions": [
+    "A000045",
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

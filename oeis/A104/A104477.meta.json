@@ -1,0 +1,22 @@
+{
+  "description": "Number of successive squarefree intervals between primes.",
+  "id": "A104477",
+  "mentions": [
+    "A014085",
+    "A031265",
+    "A061265",
+    "A104481"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

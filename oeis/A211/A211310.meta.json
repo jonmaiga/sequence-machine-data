@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number |fdw(P,(n))| of entangled P-words with s=3.",
+  "id": "A211310",
+  "mentions": [
+    "A014606",
+    "A025035"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime of the form 7 followed by j copies of the digit k, where j runs through those positive values for which such a prime exists.",
+  "id": "A112750",
+  "mentions": [
+    "A090155"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

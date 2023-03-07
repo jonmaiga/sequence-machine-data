@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, 1<=k<=n: T(n,k) = k-th divisor of the smallest odd number with exactly n divisors, A038547.",
+  "id": "A119265",
+  "mentions": [
+    "A000005",
+    "A005408",
+    "A006218",
+    "A027750",
+    "A038547",
+    "A081532"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

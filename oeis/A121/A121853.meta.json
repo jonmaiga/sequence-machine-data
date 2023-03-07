@@ -1,0 +1,20 @@
+{
+  "description": "Cumulative product of A000120.",
+  "id": "A121853",
+  "mentions": [
+    "A000120",
+    "A002110",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

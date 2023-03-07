@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the least number with exactly n noninfinitary square divisors.",
+  "id": "A358262",
+  "mentions": [
+    "A005179",
+    "A025487",
+    "A038547",
+    "A085629",
+    "A130279",
+    "A187941",
+    "A309181",
+    "A340232",
+    "A340233",
+    "A357450",
+    "A358252",
+    "A358261",
+    "A358263"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

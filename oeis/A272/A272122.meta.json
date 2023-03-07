@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of positive divisors of A003266(n).",
+  "id": "A272122",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A003266",
+    "A027423",
+    "A063375",
+    "A069744",
+    "A260622"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

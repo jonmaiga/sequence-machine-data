@@ -1,0 +1,32 @@
+{
+  "description": "A skewed version of triangular array A122075.",
+  "id": "A236076",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A001333",
+    "A023610",
+    "A055830",
+    "A078057",
+    "A084938",
+    "A111006",
+    "A122075",
+    "A122950",
+    "A129707",
+    "A167704",
+    "A208337"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:29",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

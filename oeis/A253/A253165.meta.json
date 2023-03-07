@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (-1)^n*2^(6*n+3)*(zeta(-2*n-1,1/2) - zeta(-2*n-1,1)), where zeta(a,z) is the generalized Riemann zeta function.",
+  "id": "A253165",
+  "mentions": [
+    "A000825",
+    "A000828",
+    "A000831",
+    "A012393"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:31:25",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

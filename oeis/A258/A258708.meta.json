@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(i,j) = integer part of binomial(i+j, i-j)/(2*j+1) for i >= 1 and j = 0..i-1.",
+  "id": "A258708",
+  "mentions": [
+    "A000326",
+    "A000330",
+    "A000969",
+    "A000970",
+    "A000971",
+    "A000972",
+    "A000973",
+    "A000976",
+    "A001764",
+    "A001840",
+    "A002294",
+    "A002296",
+    "A005408",
+    "A006013",
+    "A007318",
+    "A011793",
+    "A158405",
+    "A258993"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

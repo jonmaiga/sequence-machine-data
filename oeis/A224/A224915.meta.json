@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n XOR k where XOR is the bitwise logical exclusive-or operator.",
+  "id": "A224915",
+  "mentions": [
+    "A001196",
+    "A004125",
+    "A051933",
+    "A222423",
+    "A265736",
+    "A350093",
+    "A350094"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

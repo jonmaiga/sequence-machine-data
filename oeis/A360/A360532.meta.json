@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form F(i)-F(2j+1), i>=5, 1<=j<=(i-3)/2.",
+  "id": "A360532",
+  "mentions": [
+    "A000045",
+    "A360528",
+    "A360531"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

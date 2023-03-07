@@ -1,0 +1,28 @@
+{
+  "description": "Triangle, read by rows, where T(0,0) = 1, T(n,k) = (-1)^(n+k)*T(n-1,k) + T(n-1,k-1); a signed version of Pascal's triangle.",
+  "id": "A108086",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A001791",
+    "A002054",
+    "A007318",
+    "A009116",
+    "A090132",
+    "A108520",
+    "A260192",
+    "A333378"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:15",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

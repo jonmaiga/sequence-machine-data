@@ -1,0 +1,19 @@
+{
+  "description": "Self-describing sequence : runs of equal parity digits alternate (\"0\" is considered as an even digit); the length of each run is given by the sequence itself.",
+  "id": "A114055",
+  "mentions": [
+    "A093848"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

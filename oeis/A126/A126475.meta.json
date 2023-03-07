@@ -1,0 +1,20 @@
+{
+  "description": "Number of base 7 n-digit numbers with adjacent digits differing by three or less.",
+  "id": "A126475",
+  "mentions": [
+    "A126361",
+    "A126394"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:01:16",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

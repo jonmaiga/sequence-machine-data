@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n^2 + 3*n + 8)/2.",
+  "id": "A167614",
+  "mentions": [
+    "A016028",
+    "A152949",
+    "A152950",
+    "A228446"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:33",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

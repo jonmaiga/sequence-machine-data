@@ -1,0 +1,22 @@
+{
+  "description": "2-comma numbers: n occurs in the sequence S[k+1] = S[k] + 10*last_digit(S[k-1]) + first_digit(S[k]) for two different splittings n=concat(S[0],S[1]).",
+  "id": "A166512",
+  "mentions": [
+    "A166507",
+    "A166508",
+    "A166511",
+    "A166513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

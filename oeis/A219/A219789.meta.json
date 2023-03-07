@@ -1,0 +1,19 @@
+{
+  "description": "Least prime in the form x*y-1 with x > 0, y > 0 and x + y = n > 3.",
+  "id": "A219789",
+  "mentions": [
+    "A091182",
+    "A219782",
+    "A219791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 4,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

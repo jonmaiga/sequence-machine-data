@@ -1,0 +1,20 @@
+{
+  "description": "The count of odd numbers from prime(n) up to the n-th odd nonprime, A014076(n).",
+  "id": "A163639",
+  "mentions": [
+    "A000040",
+    "A005408",
+    "A014076"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

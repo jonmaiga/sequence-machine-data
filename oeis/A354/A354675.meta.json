@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of near-Wieferich primes with |A| <= 10 less than 10^n, where A(k) = A258367(k).",
+  "id": "A354675",
+  "mentions": [
+    "A001220",
+    "A006880",
+    "A195988",
+    "A246568",
+    "A258367",
+    "A353141",
+    "A354676",
+    "A354677",
+    "A354678"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

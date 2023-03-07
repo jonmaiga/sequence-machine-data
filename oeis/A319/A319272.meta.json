@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose prime multiplicities are distinct and whose prime indices are term of the sequence.",
+  "id": "A319272",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A007097",
+    "A061775",
+    "A098859",
+    "A130091",
+    "A255231",
+    "A276625",
+    "A316793",
+    "A316794",
+    "A316795",
+    "A316796"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

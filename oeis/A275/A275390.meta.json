@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which |n/zeta(2) - Q(n)| sets a new record, where Q(x) is the number of squarefree numbers up to x.",
+  "id": "A275390",
+  "mentions": [
+    "A005117",
+    "A013928"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

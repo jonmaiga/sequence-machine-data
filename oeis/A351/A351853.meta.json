@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the number of their divisors over the Eisenstein integers.",
+  "id": "A351853",
+  "mentions": [
+    "A033950",
+    "A048166",
+    "A319442",
+    "A351851"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

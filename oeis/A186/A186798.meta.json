@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X3 binary arrays with no 3X3 subblock commuting with any horizontal or vertical neighbor 3X3 subblock",
+  "id": "A186798",
+  "mentions": [
+    "A186806"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

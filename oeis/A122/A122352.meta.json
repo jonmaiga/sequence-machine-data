@@ -1,0 +1,18 @@
+{
+  "description": "Knuth's power tree represented by parent node number.",
+  "id": "A122352",
+  "mentions": [
+    "A003313",
+    "A114622"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

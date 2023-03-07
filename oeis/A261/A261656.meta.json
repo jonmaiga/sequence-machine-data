@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with 3 prime factors a < b < c such that 2c = a^4 + b^2 and a = round(sqrt(b)).",
+  "id": "A261656",
+  "mentions": [
+    "A261657",
+    "A261658"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

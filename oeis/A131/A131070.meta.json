@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs of integers (a, b) such that n=a+b and n=Sum_digits(a)^Sum_digits(b), n belonging to A131069.",
+  "id": "A131070",
+  "mentions": [
+    "A131069"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

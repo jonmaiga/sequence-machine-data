@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the first term of the n-th 3x+1 sequence that shares infinitely many 1's with the 3x+1 sequence that starts at 2.",
+  "id": "A347268",
+  "mentions": [
+    "A006370",
+    "A008908",
+    "A033478",
+    "A033479",
+    "A075884",
+    "A076536",
+    "A153727",
+    "A347267",
+    "A347269",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

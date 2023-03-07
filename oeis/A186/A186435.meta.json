@@ -1,0 +1,19 @@
+{
+  "description": "Number of evaluation schemes for x^n achieving the minimal number of multiplications.",
+  "id": "A186435",
+  "mentions": [
+    "A001190",
+    "A003313",
+    "A079300"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

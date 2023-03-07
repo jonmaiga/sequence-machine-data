@@ -1,0 +1,21 @@
+{
+  "description": "Write the decimal digits of n and take successive absolute differences; sequence is the sum of all digits at each level of the pyramid.",
+  "id": "A227876",
+  "mentions": [
+    "A031298"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

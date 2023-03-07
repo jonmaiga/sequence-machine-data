@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the smaller parts of the partitions of 2n into two parts with larger part nonsquarefree.",
+  "id": "A294244",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A294243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of digraphs with n labeled nodes having exactly k undirected (or weak) components, n >= 1, 1 <= k <= n.",
+  "id": "A189898",
+  "mentions": [
+    "A003027",
+    "A045943",
+    "A053763",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

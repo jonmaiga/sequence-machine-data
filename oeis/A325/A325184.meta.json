@@ -1,0 +1,27 @@
+{
+  "description": "Last part of the origin-to-boundary partition of the Young diagram of the integer partition with Heinz number n.",
+  "id": "A325184",
+  "mentions": [
+    "A056239",
+    "A065770",
+    "A093641",
+    "A112798",
+    "A174090",
+    "A325166",
+    "A325169",
+    "A325183",
+    "A325185",
+    "A325186",
+    "A325187"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

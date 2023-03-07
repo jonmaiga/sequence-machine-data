@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that k and k + 1 are both Lucas-Niven numbers (A351714).",
+  "id": "A351715",
+  "mentions": [
+    "A130310",
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330927",
+    "A330931",
+    "A331086",
+    "A331820",
+    "A333427",
+    "A334309",
+    "A342427",
+    "A344342",
+    "A351714",
+    "A351716",
+    "A351720"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

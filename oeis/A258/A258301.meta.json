@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n*(n+1)*(2n+1)/6 into parts that are at most n.",
+  "id": "A258301",
+  "mentions": [
+    "A238608",
+    "A258297",
+    "A258298",
+    "A258299",
+    "A258300"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Pi(8,3)(n) + Pi(8,5)(n) + Pi(8,7)(n) - 3*Pi(8,1)(n), where Pi(a,b)(x) denotes the number of primes in the arithmetic progression a*k + b less than or equal to x.",
+  "id": "A329242",
+  "mentions": [
+    "A038698",
+    "A112632",
+    "A321862",
+    "A321864",
+    "A321865",
+    "A329243"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

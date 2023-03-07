@@ -1,0 +1,25 @@
+{
+  "description": "Negabinary palindromes: nonnegative numbers whose negabinary expansion (A039724) is palindromic.",
+  "id": "A331891",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A014190",
+    "A039724",
+    "A052539",
+    "A083420",
+    "A094202",
+    "A331191"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest positive number that has not yet appeared such that the number of 1-bits in the binary expansion of a(n) equals the number of proper divisors of a(n-1).",
+  "id": "A355482",
+  "mentions": [
+    "A000120",
+    "A005179",
+    "A027751",
+    "A032741",
+    "A355374",
+    "A355483"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

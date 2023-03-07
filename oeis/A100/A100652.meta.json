@@ -1,0 +1,30 @@
+{
+  "description": "Denominator of 1 - Sum_{i=1..n} |Bernoulli(i)|.",
+  "id": "A100652",
+  "mentions": [
+    "A000027",
+    "A026741",
+    "A027642",
+    "A028310",
+    "A045896",
+    "A051714",
+    "A051722",
+    "A051723",
+    "A100651",
+    "A164555",
+    "A176672",
+    "A193220",
+    "A194531"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

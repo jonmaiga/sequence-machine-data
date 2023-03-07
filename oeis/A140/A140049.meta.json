@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: A( x*exp(-x*A(x)) ) = exp(x*A(x)).",
+  "id": "A140049",
+  "mentions": [
+    "A140054",
+    "A140055",
+    "A162659"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

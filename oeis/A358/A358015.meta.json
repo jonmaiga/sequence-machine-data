@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = DedekindPsi(n*2^(-k))*2^(j-1) where k = valuation(n, 2) and j = k if 4 divides n and otherwise 0.",
+  "id": "A358015",
+  "mentions": [
+    "A000265",
+    "A001615",
+    "A003586",
+    "A006519",
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

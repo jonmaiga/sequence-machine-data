@@ -1,0 +1,24 @@
+{
+  "description": "Triangular numbers, T(m), that are three-quarters of another triangular number: T(m) such that 4*T(m)=3*T(k) for some k.",
+  "id": "A200998",
+  "mentions": [
+    "A001652",
+    "A029549",
+    "A053141",
+    "A075528",
+    "A200993",
+    "A201008"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of scaled central factorial numbers, T(n,k) = A008958(n,n-k).",
+  "id": "A160562",
+  "mentions": [
+    "A001819",
+    "A008275",
+    "A008277",
+    "A008958",
+    "A039599",
+    "A136630"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

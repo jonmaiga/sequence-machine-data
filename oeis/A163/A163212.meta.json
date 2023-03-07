@@ -1,0 +1,26 @@
+{
+  "description": "Wilson quotients (A007619) which are primes.",
+  "id": "A163212",
+  "mentions": [
+    "A007619",
+    "A050299",
+    "A122696",
+    "A163209",
+    "A163210",
+    "A163211",
+    "A163213",
+    "A180000",
+    "A225906"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

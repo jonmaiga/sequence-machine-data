@@ -1,0 +1,31 @@
+{
+  "description": "1 together with the positive terms of A000225.",
+  "id": "A255047",
+  "mentions": [
+    "A000225",
+    "A011782",
+    "A028310",
+    "A078485",
+    "A126646",
+    "A168604",
+    "A246674",
+    "A253909",
+    "A263159",
+    "A265007",
+    "A265202",
+    "A291117",
+    "A349276"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

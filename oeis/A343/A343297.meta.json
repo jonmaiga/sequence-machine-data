@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there are exactly two multisets of cardinality k where the sum equals the product (A033178(k)=2).",
+  "id": "A343297",
+  "mentions": [
+    "A033178",
+    "A033179",
+    "A343298"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

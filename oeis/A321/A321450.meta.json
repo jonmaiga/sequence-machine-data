@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are sums of consecutive pentagonal pyramidal numbers (A002411).",
+  "id": "A321450",
+  "mentions": [
+    "A001296",
+    "A002411",
+    "A319184",
+    "A322468",
+    "A322479",
+    "A322638",
+    "A322651",
+    "A322652",
+    "A322653"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

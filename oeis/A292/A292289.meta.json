@@ -1,0 +1,23 @@
+{
+  "description": "Smallest denominator of a proper fraction that has a nontrivial anomalous cancellation in base b.",
+  "id": "A292289",
+  "mentions": [
+    "A291093",
+    "A291094",
+    "A292288",
+    "A292393"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

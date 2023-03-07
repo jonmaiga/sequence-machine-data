@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the elements of the set S_n in increasing order, where S_1 = {1}, and S_{n+1} is the union of S_n, 2*S_n, and 3*S_n.",
+  "id": "A350604",
+  "mentions": [
+    "A003586",
+    "A350603"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

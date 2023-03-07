@@ -1,0 +1,22 @@
+{
+  "description": "Sum of parts, counted without multiplicity, in all compositions of n.",
+  "id": "A336516",
+  "mentions": [
+    "A001787",
+    "A014153",
+    "A336511",
+    "A336512",
+    "A336579",
+    "A336875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

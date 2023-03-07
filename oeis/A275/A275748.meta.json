@@ -1,0 +1,18 @@
+{
+  "description": "Number of Fibonacci numbers in {n, f(n), f(f(n)), ...., 1}, where f is the Collatz function.",
+  "id": "A275748",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

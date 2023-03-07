@@ -1,0 +1,37 @@
+{
+  "description": "Number of divisors d of n such that d+1 is not a divisor of n.",
+  "id": "A137921",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A005408",
+    "A027750",
+    "A055874",
+    "A060680",
+    "A088723",
+    "A088725",
+    "A099774",
+    "A129308",
+    "A137922",
+    "A173569",
+    "A174199",
+    "A181063",
+    "A199970",
+    "A328165",
+    "A328166",
+    "A328448",
+    "A328450"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

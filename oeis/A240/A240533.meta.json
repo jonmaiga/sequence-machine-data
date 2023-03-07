@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerators of n!/10^n.",
+  "id": "A240533",
+  "mentions": [
+    "A000142",
+    "A011557",
+    "A014973",
+    "A074143",
+    "A092043",
+    "A208529"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

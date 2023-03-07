@@ -1,0 +1,27 @@
+{
+  "description": "Rectangular table, read by antidiagonals, where row n is equal to column 1 of matrix power A121412^(n+1) for n>=0.",
+  "id": "A121426",
+  "mentions": [
+    "A121412",
+    "A121413",
+    "A121416",
+    "A121417",
+    "A121420",
+    "A121422",
+    "A121424",
+    "A121427",
+    "A121428",
+    "A121431"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

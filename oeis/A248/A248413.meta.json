@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of theta_1, one of the angles associated with the bow-and-arrow configuration used in the 2-arc smallest length problem.",
+  "id": "A248413",
+  "mentions": [
+    "A248414",
+    "A248415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

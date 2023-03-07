@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = ( binomial(5*n,2*n)*binomial(5*n/2,2*n)*binomial(2*n,n)^2 ) / binomial(5*n/2,n)^2.",
+  "id": "A352651",
+  "mentions": [
+    "A008978",
+    "A262732",
+    "A275652",
+    "A276098",
+    "A276100",
+    "A276101",
+    "A276102",
+    "A352652"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

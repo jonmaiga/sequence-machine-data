@@ -1,0 +1,27 @@
+{
+  "description": "Table of coefficients of the algebraic number s(2*l+1) = 2*sin(Pi/(2*l+1)) as a polynomial in odd powers of rho(2*(2*l+1)) = 2*cos(Pi/(2*(2*l+1))) (reduced version).",
+  "id": "A228785",
+  "mentions": [
+    "A055034",
+    "A111125",
+    "A140882",
+    "A187360",
+    "A228783",
+    "A228786",
+    "A228787",
+    "A228788",
+    "A267633"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

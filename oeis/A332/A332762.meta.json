@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 2, read by antidiagonals, where T(n,k) is the number of permutations of {k 1's, k 2's, ..., k n's} with the property that j's are equally spaced for j=1..n and the interval of j+1 is less than or equal to the interval of j for j=1..n-1.",
+  "id": "A332762",
+  "mentions": [
+    "A322178",
+    "A332748",
+    "A332752",
+    "A332773",
+    "A332783",
+    "A332784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

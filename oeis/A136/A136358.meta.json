@@ -1,0 +1,21 @@
+{
+  "description": "Increasing sequence obtained by union of two sequences {b(n)} and {c(n)}, where b(n) is the smallest odd composite number m such that both m-2 and m+2 are prime and the set of distinct prime factors of m consists of the first n odd primes and c(n) is the smallest composite number m such that both m-1 and m+1 are primes and the set of the distinct prime factors of m consists of the first n primes.",
+  "id": "A136358",
+  "mentions": [
+    "A070826",
+    "A118750",
+    "A136349",
+    "A136357"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

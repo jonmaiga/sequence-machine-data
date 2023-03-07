@@ -1,0 +1,31 @@
+{
+  "description": "FDH numbers of pairwise coprime sets.",
+  "id": "A327905",
+  "mentions": [
+    "A050376",
+    "A056239",
+    "A064547",
+    "A213925",
+    "A259936",
+    "A299755",
+    "A299757",
+    "A302569",
+    "A302696",
+    "A302797",
+    "A302798",
+    "A304711",
+    "A319826",
+    "A319827",
+    "A326675"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

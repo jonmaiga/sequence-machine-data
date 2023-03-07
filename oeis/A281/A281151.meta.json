@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor(4*n*(n+1)/5).",
+  "id": "A281151",
+  "mentions": [
+    "A000217",
+    "A047462",
+    "A047486",
+    "A143978",
+    "A184005",
+    "A194275",
+    "A281026"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:25",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of coefficients in the expansion of Sum_{y a composition of n} p(y) in terms of Schur functions, where p is power-sum symmetric functions.",
+  "id": "A317553",
+  "mentions": [
+    "A000085",
+    "A082733",
+    "A153452",
+    "A296188",
+    "A296561",
+    "A300121",
+    "A304438",
+    "A317552",
+    "A317554"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

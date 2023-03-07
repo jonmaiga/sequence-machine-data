@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions with the same product of parts as their conjugate.",
+  "id": "A325040",
+  "mentions": [
+    "A000720",
+    "A001055",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A112798",
+    "A122111",
+    "A321650",
+    "A325039",
+    "A325045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

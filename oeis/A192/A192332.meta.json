@@ -1,0 +1,32 @@
+{
+  "description": "For n >= 3, draw a regular n-sided polygon and its n(n-3)/2 diagonals, so there are n(n-1)/2 lines; a(n) is the number of ways to choose a subset of these lines (subsets differing by a rotation are regarded as identical). a(1)=1, a(2)=2 by convention.",
+  "id": "A192332",
+  "mentions": [
+    "A000031",
+    "A000939",
+    "A008965",
+    "A059966",
+    "A060223",
+    "A061417",
+    "A086675",
+    "A184271",
+    "A191563",
+    "A192314",
+    "A275527",
+    "A323858",
+    "A324461",
+    "A324463",
+    "A324464"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

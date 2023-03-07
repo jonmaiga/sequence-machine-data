@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of primes of the form x^2 + x + prime(n) for 0 <= x <=prime(n).",
+  "id": "A253827",
+  "mentions": [
+    "A000040",
+    "A005846",
+    "A014556",
+    "A228123"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

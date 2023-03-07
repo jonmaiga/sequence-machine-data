@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of (planar) unlabeled k-ary cacti having n polygons.",
+  "id": "A303912",
+  "mentions": [
+    "A052393",
+    "A052394",
+    "A054357",
+    "A054363",
+    "A054366",
+    "A054369",
+    "A070914",
+    "A303694",
+    "A303913"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:21:37",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

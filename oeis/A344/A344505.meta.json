@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (exp(2*Pi) - 1) / (exp(2*Pi) + 1).",
+  "id": "A344505",
+  "mentions": [
+    "A019692",
+    "A175314",
+    "A175315",
+    "A175316"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:35",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

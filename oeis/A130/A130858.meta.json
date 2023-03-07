@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that A061762(k) = n.",
+  "id": "A130858",
+  "mentions": [
+    "A061762"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

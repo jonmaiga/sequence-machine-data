@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A354512(k) < omega(k); complement of A354525.",
+  "id": "A354526",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A354512",
+    "A354525",
+    "A354527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

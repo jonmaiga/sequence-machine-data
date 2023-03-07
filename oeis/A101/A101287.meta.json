@@ -1,0 +1,20 @@
+{
+  "description": "Rounded frequencies in Hz of the notes of the pentatonic music scale beginning at F#.",
+  "id": "A101287",
+  "mentions": [
+    "A071831",
+    "A071832",
+    "A071833"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A121711.",
+  "id": "A121712",
+  "mentions": [
+    "A121711"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

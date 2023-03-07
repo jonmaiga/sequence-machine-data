@@ -1,0 +1,21 @@
+{
+  "description": "Sum of factorial-Catalan numbers over a certain family of decorations.",
+  "id": "A289427",
+  "mentions": [
+    "A289428",
+    "A289429",
+    "A289430",
+    "A289431"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

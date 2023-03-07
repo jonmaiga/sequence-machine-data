@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of the value of Minkowski's question mark function at Khinchin's constant (A002210).",
+  "id": "A119928",
+  "mentions": [
+    "A002210",
+    "A119929"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

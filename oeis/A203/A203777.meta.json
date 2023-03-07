@@ -1,0 +1,20 @@
+{
+  "description": "Aliquot sequence starting at 220.",
+  "id": "A203777",
+  "mentions": [
+    "A001065",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:37:31",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

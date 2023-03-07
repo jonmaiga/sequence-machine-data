@@ -1,0 +1,20 @@
+{
+  "description": "Number of equicolorable (unrooted) trees on 2n nodes.",
+  "id": "A119856",
+  "mentions": [
+    "A000081",
+    "A119855",
+    "A119857"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

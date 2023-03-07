@@ -1,0 +1,22 @@
+{
+  "description": "Natural interspersion of A000071(Fibonacci numbers minus 1), a rectangular array, by antidiagonals.",
+  "id": "A194056",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A194029",
+    "A194055",
+    "A194057"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 26k + 15.",
+  "id": "A140374",
+  "mentions": [
+    "A059245",
+    "A092178",
+    "A093191",
+    "A093350",
+    "A100202",
+    "A102732"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:47",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

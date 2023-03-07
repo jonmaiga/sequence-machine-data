@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2n into two parts with at least one nonsquarefree part.",
+  "id": "A302391",
+  "mentions": [
+    "A008683",
+    "A013929",
+    "A280226",
+    "A294097"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

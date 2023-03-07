@@ -1,0 +1,18 @@
+{
+  "description": "Iterate x -> A349824(x) starting at n; a(n) is the greatest term in the trajectory, or -1 if the trajectory increases for ever.",
+  "id": "A349827",
+  "mentions": [
+    "A349824",
+    "A349826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

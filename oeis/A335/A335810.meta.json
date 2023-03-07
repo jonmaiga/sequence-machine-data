@@ -1,0 +1,25 @@
+{
+  "description": "Given the two curves y = (1 + exp(x))/2 and y = (1 + exp(x))/(1 + exp(x/2)), draw a line tangent to both. This sequence is the decimal expansion of the x-coordinate of the point at which the line touches y = (1 + exp(x))/(1 + exp(x/2)).",
+  "id": "A335810",
+  "mentions": [
+    "A086277",
+    "A086278",
+    "A243261",
+    "A245330",
+    "A335809",
+    "A335822",
+    "A335825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

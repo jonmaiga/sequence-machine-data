@@ -1,0 +1,25 @@
+{
+  "description": "Sophie Germain triprimes: k and 2k + 1 are both the product of 3 primes, not necessarily distinct.",
+  "id": "A111173",
+  "mentions": [
+    "A005384",
+    "A014612",
+    "A111153",
+    "A111168",
+    "A111170",
+    "A111171",
+    "A111176"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

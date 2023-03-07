@@ -1,0 +1,38 @@
+{
+  "description": "Number of strict compositions of n that are neither increasing nor decreasing.",
+  "id": "A333149",
+  "mentions": [
+    "A000009",
+    "A001523",
+    "A032020",
+    "A059204",
+    "A072706",
+    "A072707",
+    "A115981",
+    "A227038",
+    "A329398",
+    "A332745",
+    "A332746",
+    "A332831",
+    "A332833",
+    "A332834",
+    "A332835",
+    "A332874",
+    "A333147",
+    "A333150",
+    "A333190",
+    "A333191",
+    "A333192"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:59:34",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

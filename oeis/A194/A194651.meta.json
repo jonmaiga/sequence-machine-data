@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place 3 nonattacking kings on an n X n cylindrical chessboard.",
+  "id": "A194651",
+  "mentions": [
+    "A061996",
+    "A179404",
+    "A194650"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:09:17",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

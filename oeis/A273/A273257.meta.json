@@ -1,0 +1,20 @@
+{
+  "description": "Number of twin primes between prime(n) and prime(n)^2.",
+  "id": "A273257",
+  "mentions": [
+    "A001097",
+    "A057767",
+    "A079047",
+    "A143738"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

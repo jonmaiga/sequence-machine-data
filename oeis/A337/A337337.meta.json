@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = gcd(1+sigma(s), (s+1)/2), where s is the square of n once prime-shifted (s = A003961(n)^2 = A003961(n^2)).",
+  "id": "A337337",
+  "mentions": [
+    "A003961",
+    "A003973",
+    "A007310",
+    "A048673",
+    "A336697",
+    "A336844",
+    "A337194",
+    "A337335",
+    "A337336",
+    "A337338",
+    "A337339"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "An infinite sequence of 4-digit half-palindromes.",
+  "id": "A191303",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A059809",
+    "A191279"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:19",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

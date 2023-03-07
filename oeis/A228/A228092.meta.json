@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically first sequence of nonprime terms (with no duplicates) that turns into a sequence of prime terms (with no duplicates) by applying the \"comma-permutation\" simultaneously at every comma. [The \"comma-permutation\" is explained in the Comments section.]",
+  "id": "A228092",
+  "mentions": [
+    "A274408"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

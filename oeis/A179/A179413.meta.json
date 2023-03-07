@@ -1,0 +1,19 @@
+{
+  "description": "The number of columns with alive cells in the n-th generation of cyclic sequence of patterns given in A179412, played in Conway's Game of Life on the 8x8 toroidal grid.",
+  "id": "A179413",
+  "mentions": [
+    "A179409",
+    "A179412",
+    "A179414"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

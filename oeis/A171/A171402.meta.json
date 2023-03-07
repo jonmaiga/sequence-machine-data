@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number m such that exactly n editing steps (insert or substitute) are necessary to transform the binary representation of m into the least prime not less than m.",
+  "id": "A171402",
+  "mentions": [
+    "A007918",
+    "A151799",
+    "A171400"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

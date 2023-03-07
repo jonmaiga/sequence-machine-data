@@ -1,0 +1,18 @@
+{
+  "description": "Primes containing as substring the string reversal of their index.",
+  "id": "A109305",
+  "mentions": [
+    "A109304"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

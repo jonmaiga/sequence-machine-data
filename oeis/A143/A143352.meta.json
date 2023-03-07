@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, A051731 * A054524 = (A051731)^2 * A128407; 1<=k<=n.",
+  "id": "A143352",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A051731",
+    "A054524",
+    "A128407"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

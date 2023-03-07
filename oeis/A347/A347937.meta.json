@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k+1 are both terms of A347935.",
+  "id": "A347937",
+  "mentions": [
+    "A005101",
+    "A096399",
+    "A187795",
+    "A347935",
+    "A347936",
+    "A347939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

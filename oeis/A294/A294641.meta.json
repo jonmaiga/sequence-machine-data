@@ -1,0 +1,17 @@
+{
+  "description": "Unique terms in sequence A294640, in order by size.",
+  "id": "A294641",
+  "mentions": [
+    "A294640"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

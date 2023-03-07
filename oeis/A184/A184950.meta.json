@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle C(n,g) counting the connected 5-regular simple graphs on 2n vertices with girth exactly g.",
+  "id": "A184950",
+  "mentions": [
+    "A006821",
+    "A054760",
+    "A058275",
+    "A184940",
+    "A184951",
+    "A184953",
+    "A184954",
+    "A184955",
+    "A184960",
+    "A184970",
+    "A184980",
+    "A198303"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

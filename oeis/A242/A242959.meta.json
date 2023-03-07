@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 5^A000010(n) == 1 (mod n^2).",
+  "id": "A242959",
+  "mentions": [
+    "A000010",
+    "A077816",
+    "A123692",
+    "A242958",
+    "A242960"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

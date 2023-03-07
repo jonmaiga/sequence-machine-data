@@ -1,0 +1,19 @@
+{
+  "description": "Pentagonal numbers penta(n) = (p + q + r)/3 which are the arithmetic mean of three consecutive primes such that p < penta(n) < q < r.",
+  "id": "A234532",
+  "mentions": [
+    "A000326",
+    "A069495",
+    "A234240"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

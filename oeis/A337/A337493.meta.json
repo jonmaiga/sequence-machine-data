@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 10800/Pi, number of minutes of arc in a radian.",
+  "id": "A337493",
+  "mentions": [
+    "A072097",
+    "A217572",
+    "A337092"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:05",
+    "offset": 4,
+    "size": 102,
+    "source": "joeis"
+  }
+}

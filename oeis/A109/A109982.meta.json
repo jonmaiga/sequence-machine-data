@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that index of p, the sum of p's digits and the number of p's digits are all primes.",
+  "id": "A109982",
+  "mentions": [
+    "A046704",
+    "A088136",
+    "A109981"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

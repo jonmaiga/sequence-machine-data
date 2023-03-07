@@ -1,0 +1,20 @@
+{
+  "description": "Least number in A349898 divisible by the n-th prime.",
+  "id": "A349899",
+  "mentions": [
+    "A349194",
+    "A349898"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

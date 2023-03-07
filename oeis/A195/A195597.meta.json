@@ -1,0 +1,26 @@
+{
+  "description": "Continued fraction for alpha, the unique solution on [2,oo) of the equation alpha*log((2*e)/alpha)=1.",
+  "id": "A195597",
+  "mentions": [
+    "A195581",
+    "A195582",
+    "A195583",
+    "A195596",
+    "A195598",
+    "A195599",
+    "A195600",
+    "A195601"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

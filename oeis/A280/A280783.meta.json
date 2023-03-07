@@ -1,0 +1,18 @@
+{
+  "description": "Number of irreducible matrices X of all sizes with nonnegative integral entries satisfying X^2 = nX, counted up to a permutation of basis vectors.",
+  "id": "A280783",
+  "mentions": [
+    "A280782"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

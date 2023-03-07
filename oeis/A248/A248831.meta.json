@@ -1,0 +1,20 @@
+{
+  "description": "Prime sieve of the square root of 2.",
+  "id": "A248831",
+  "mentions": [
+    "A002193",
+    "A245770",
+    "A248804"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

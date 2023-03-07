@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0. Thereafter, if a(n) has appeared before, most recently at a(m), then a(n+1) = n-m-1, the number of terms between a(m) and a(n). Otherwise a(n+1)=1.",
+  "id": "A341094",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

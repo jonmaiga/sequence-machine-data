@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the even Lucky numbers (A045954) minus the odd Lucky numbers (A000959).",
+  "id": "A118125",
+  "mentions": [
+    "A000959",
+    "A045954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

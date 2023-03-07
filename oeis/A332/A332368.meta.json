@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A332367, divided by 4.",
+  "id": "A332368",
+  "mentions": [
+    "A332367",
+    "A332371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

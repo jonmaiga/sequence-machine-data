@@ -1,0 +1,20 @@
+{
+  "description": "A symmetrical triangle from the generalization of A051597:m=2;a(n,k)=m*a(n - 1, k - 1) + m*a(n - 1, k)",
+  "id": "A177696",
+  "mentions": [
+    "A051597"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

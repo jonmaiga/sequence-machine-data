@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways of writing n as a sum of n square pyramidal numbers.",
+  "id": "A303172",
+  "mentions": [
+    "A000330",
+    "A066535",
+    "A279220",
+    "A287617",
+    "A290430",
+    "A303170"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

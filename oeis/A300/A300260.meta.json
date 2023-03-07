@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of unlabeled rank-3 graded lattices with n coatoms and k atoms (for n,k >= 1).",
+  "id": "A300260",
+  "mentions": [
+    "A300221",
+    "A322598",
+    "A322599",
+    "A322600"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

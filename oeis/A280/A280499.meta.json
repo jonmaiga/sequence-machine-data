@@ -1,0 +1,29 @@
+{
+  "description": "Triangular table for division in ring GF(2)[X]: T(n,k) = n/k, or 0 if k is not a divisor of n, where the binary expansion of each number defines the corresponding (0,1)-polynomial.",
+  "id": "A280499",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A014580",
+    "A048720",
+    "A126988",
+    "A178908",
+    "A280493",
+    "A280494",
+    "A280500"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

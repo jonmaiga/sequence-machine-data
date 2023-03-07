@@ -1,0 +1,21 @@
+{
+  "description": "The smallest multidigit prime of a sequence of n consecutive primes such that their digit sums are also a sequence of n consecutive primes.",
+  "id": "A239790",
+  "mentions": [
+    "A007953",
+    "A046704",
+    "A240598"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

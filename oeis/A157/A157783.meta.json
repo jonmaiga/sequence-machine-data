@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: the coefficient [x^k] of the polynomial Product_{i=1..n} (3^(i-1)-x) in row n, column k, 0 <= k <= n.",
+  "id": "A157783",
+  "mentions": [
+    "A000244",
+    "A003462",
+    "A022166",
+    "A047656",
+    "A084938",
+    "A122006",
+    "A135950",
+    "A157832",
+    "A203243"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the numerators for computing the third moment of the probability mass function for probability of k pairs among the involutions on n elements (A000085) assuming equal likelihood.",
+  "id": "A174774",
+  "mentions": [
+    "A000085",
+    "A162970"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

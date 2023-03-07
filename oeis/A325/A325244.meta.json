@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n with one fewer distinct multiplicities than distinct parts.",
+  "id": "A325244",
+  "mentions": [
+    "A008284",
+    "A071625",
+    "A090858",
+    "A098859",
+    "A116608",
+    "A117571",
+    "A127002",
+    "A325242",
+    "A325259",
+    "A325270"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

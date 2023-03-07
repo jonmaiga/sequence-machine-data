@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Stirling2(n, ceiling(n/2)).",
+  "id": "A343278",
+  "mentions": [
+    "A007820",
+    "A048993",
+    "A129506",
+    "A343279"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 2 or 3 neighboring 1s.",
+  "id": "A297638",
+  "mentions": [
+    "A297637"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

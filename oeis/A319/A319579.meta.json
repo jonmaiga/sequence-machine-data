@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive terms such that for any n >= 0, a(n+1) = a(n + a(n)) - a(n).",
+  "id": "A319579",
+  "mentions": [
+    "A309681"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

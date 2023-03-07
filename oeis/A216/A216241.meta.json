@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-step walks (each step +-1 starting from 0) which are never more than 5 or less than -5.",
+  "id": "A216241",
+  "mentions": [
+    "A000007",
+    "A016116",
+    "A068911",
+    "A068912",
+    "A068913",
+    "A214846",
+    "A216212"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:36:33",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let S_k denote the list of pairs (1,k), (2,k), (3,k), ..., (k,k); sequence lists the pairs in S_1, S_2, S_3, ...",
+  "id": "A349520",
+  "mentions": [
+    "A084855",
+    "A097283",
+    "A097285",
+    "A339399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows with zeros removed where T(n,k) is the number of integer partitions of n with k distinct multiplicities, n > 0.",
+  "id": "A325242",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A047966",
+    "A056556",
+    "A062770",
+    "A071625",
+    "A098859",
+    "A116608",
+    "A127002",
+    "A183558",
+    "A243978",
+    "A244515",
+    "A325243",
+    "A325244",
+    "A325268"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

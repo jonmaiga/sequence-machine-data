@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^5 = 20 has a solution mod p.",
+  "id": "A216862",
+  "mentions": [
+    "A000040",
+    "A040985"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:02",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Number A(n,k) of lattice paths from {n}^k to {0}^k using steps that decrement one component such that for each point (p_1,p_2,...,p_k) we have p_1<=p_2<=...<=p_k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A227578",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A011782",
+    "A059231",
+    "A060854",
+    "A181196",
+    "A181197",
+    "A227579",
+    "A227580",
+    "A227583",
+    "A227584",
+    "A227596",
+    "A227597",
+    "A227598",
+    "A227599",
+    "A227600",
+    "A227601",
+    "A227602",
+    "A227603",
+    "A227604",
+    "A227605",
+    "A227606",
+    "A227607",
+    "A262809",
+    "A263159"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

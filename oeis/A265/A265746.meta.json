@@ -1,0 +1,25 @@
+{
+  "description": "Jacobsthal greedy base (A265747) interpreted as base-3 numbers, then shown in decimal.",
+  "id": "A265746",
+  "mentions": [
+    "A000244",
+    "A001045",
+    "A003714",
+    "A130249",
+    "A244161",
+    "A265745",
+    "A265747"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

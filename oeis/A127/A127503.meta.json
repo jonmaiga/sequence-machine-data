@@ -1,0 +1,25 @@
+{
+  "description": "Number of n X n matrices A with 1's on the main diagonal and -1's and 0's elsewhere such that A + A' has only 0's and -1's off the main diagonal and is positive semi-definite.",
+  "id": "A127503",
+  "mentions": [
+    "A038379",
+    "A080858",
+    "A083029",
+    "A084553",
+    "A085657",
+    "A085658",
+    "A127502"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=1} (1 + x^(i*(2*j - 1))).",
+  "id": "A327731",
+  "mentions": [
+    "A001227",
+    "A107742",
+    "A301800",
+    "A320650"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:03:37",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The number of possible ways in which 2*n^2 black pawns and 2*n^2 white pawns can be arranged on a 2n X 2n chessboard such that no pawn attacks another.",
+  "id": "A294240",
+  "mentions": [
+    "A035290"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

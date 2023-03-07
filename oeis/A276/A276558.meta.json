@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the neutron mass energy equivalent in MeV.",
+  "id": "A276558",
+  "mentions": [
+    "A003675",
+    "A230848",
+    "A254289",
+    "A284832"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

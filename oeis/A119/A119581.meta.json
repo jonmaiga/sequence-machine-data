@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2*n+n^2)*(binomial(2*n,n))/2.",
+  "id": "A119581",
+  "mentions": [
+    "A000984",
+    "A001622",
+    "A005563"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:12:06",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Imaginary part of Gaussian norm-multiply-perfect numbers, in order of increasing norm.",
+  "id": "A332319",
+  "mentions": [
+    "A000396",
+    "A007691",
+    "A100884",
+    "A100885",
+    "A100889",
+    "A100890",
+    "A102506",
+    "A102507",
+    "A102531",
+    "A102532",
+    "A103228",
+    "A103229",
+    "A103230",
+    "A332318"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

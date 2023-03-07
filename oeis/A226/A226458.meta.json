@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A226459(n)*x^n/n ), where A226459(n) = Sum_{d|n} phi(d^d).",
+  "id": "A226458",
+  "mentions": [
+    "A226459",
+    "A226560"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(!n), where !n is subfactorial n.",
+  "id": "A126702",
+  "mentions": [
+    "A000040",
+    "A000166",
+    "A126701"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A111390.",
+  "id": "A114111",
+  "mentions": [
+    "A111390",
+    "A114110"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

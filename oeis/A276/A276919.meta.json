@@ -1,0 +1,27 @@
+{
+  "description": "Number of solutions to x^3 + y^3 + z^3 + t^3 == 1 (mod n) for 1 <= x, y, z, t <= n.",
+  "id": "A276919",
+  "mentions": [
+    "A000189",
+    "A047726",
+    "A060839",
+    "A063454",
+    "A066498",
+    "A087412",
+    "A087786",
+    "A088232",
+    "A254073",
+    "A276920"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

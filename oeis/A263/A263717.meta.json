@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into perfect odd powers (1 being excluded).",
+  "id": "A263717",
+  "mentions": [
+    "A075109",
+    "A112344"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

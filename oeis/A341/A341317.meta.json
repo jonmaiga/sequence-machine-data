@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals of products in the semigroup S = {(0,0), (i,j): i >= j >= 1} (see Comments for precise definition).",
+  "id": "A341317",
+  "mentions": [
+    "A341318",
+    "A341706",
+    "A341736"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

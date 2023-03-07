@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients in the expansion of ([r^2] + [2r^2]x + [3r^2]x^2 + ...)/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = golden ratio = (1 + sqrt(5))/2.",
+  "id": "A279586",
+  "mentions": [
+    "A000201",
+    "A001950"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

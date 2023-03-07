@@ -1,0 +1,23 @@
+{
+  "description": "a(n)! is the smallest factorial divisible by the numerator of Sum_{k=0...n} 1/k!, with a(0) = 1.",
+  "id": "A102468",
+  "mentions": [
+    "A000522",
+    "A002034",
+    "A007917",
+    "A061354",
+    "A096058",
+    "A102469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

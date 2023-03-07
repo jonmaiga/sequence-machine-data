@@ -1,0 +1,18 @@
+{
+  "description": "List of 5-tuples: primitive integral pentagon sides in Cairo tiling.",
+  "id": "A271509",
+  "mentions": [
+    "A103606"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

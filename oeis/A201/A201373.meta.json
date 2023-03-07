@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 6 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards.",
+  "id": "A201373",
+  "mentions": [
+    "A201375"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:30:35",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

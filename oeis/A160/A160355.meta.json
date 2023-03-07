@@ -1,0 +1,22 @@
+{
+  "description": "Odd indices pqr of flat cyclotomic polynomials of order 3 which are not of the form r = +/-1 (mod pq).",
+  "id": "A160355",
+  "mentions": [
+    "A046389",
+    "A117223",
+    "A160350",
+    "A160353",
+    "A160354"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

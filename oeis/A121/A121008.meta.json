@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of partial alternating sums of Catalan numbers scaled by powers of 1/(5*3^2) = 1/45.",
+  "id": "A121008",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000108",
+    "A120996",
+    "A121006",
+    "A121007",
+    "A121009"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

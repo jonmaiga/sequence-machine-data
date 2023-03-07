@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of partitions n = a + b such that a*b is a perfect square.",
+  "id": "A338939",
+  "mentions": [
+    "A115878",
+    "A337140",
+    "A338940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

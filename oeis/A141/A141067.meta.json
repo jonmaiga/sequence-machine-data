@@ -1,0 +1,28 @@
+{
+  "description": "List of different primes in Pascal-like triangles with index of asymmetry y = 2 and index of obliquity z = 0 or z = 1.",
+  "id": "A141067",
+  "mentions": [
+    "A007318",
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A140998",
+    "A141020",
+    "A141021",
+    "A141031",
+    "A141064",
+    "A141066"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

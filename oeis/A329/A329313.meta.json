@@ -1,0 +1,35 @@
+{
+  "description": "Length of the Lyndon factorization of the reversed binary expansion of n.",
+  "id": "A329313",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A027375",
+    "A059966",
+    "A060223",
+    "A102659",
+    "A121016",
+    "A211097",
+    "A211100",
+    "A275692",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A329131",
+    "A329312",
+    "A329314",
+    "A329317",
+    "A329325",
+    "A329326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

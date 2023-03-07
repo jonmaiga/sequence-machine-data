@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (a(n-1) * a(n-5) + a(n-3)^2) / a(n-6) with a(0) = a(1) = 1, a(2) = 0, a(3) = -1, a(4) = -3, a(8) = 29.",
+  "id": "A256916",
+  "mentions": [
+    "A102276",
+    "A256858"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the divisors of k are divisible by all digits of their divisors.",
+  "id": "A182183",
+  "mentions": [
+    "A027751",
+    "A034838",
+    "A116692",
+    "A209933"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

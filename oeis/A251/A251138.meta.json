@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime factors of A098550(n).",
+  "id": "A251138",
+  "mentions": [
+    "A001221",
+    "A098548",
+    "A098550",
+    "A251139",
+    "A251140"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

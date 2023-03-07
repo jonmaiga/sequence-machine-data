@@ -1,0 +1,21 @@
+{
+  "description": "Symmetric matrix based on the lower Wythoff sequence, A000201, by antidiagonals.",
+  "id": "A202869",
+  "mentions": [
+    "A000201",
+    "A054347",
+    "A193722",
+    "A202870"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:36:35",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

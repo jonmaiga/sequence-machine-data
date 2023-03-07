@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) is the number of domino towers of n bricks with height at most 3 and k bricks in the base floor. Triangle read by rows, T(n, k) for 1 <= k <= n.",
+  "id": "A339494",
+  "mentions": [
+    "A023531",
+    "A030528",
+    "A333650",
+    "A339495"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

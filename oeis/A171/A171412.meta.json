@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows (n >= 1): T(n,k) = [x^k] p(x,n), where p(x,n) = (x^3 + x^2 + x + 1)^floor(n/2) if n is odd, and p(x,n) = (x + 1)*p(x,n-1) otherwise.",
+  "id": "A171412",
+  "mentions": [
+    "A000079",
+    "A008406",
+    "A171414"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

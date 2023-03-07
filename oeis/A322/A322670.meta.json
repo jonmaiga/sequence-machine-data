@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of colored set partitions of [n] where colors of the elements of subsets are distinct and in increasing order and exactly k colors are used; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A322670",
+  "mentions": [
+    "A000007",
+    "A023998",
+    "A057427",
+    "A321296",
+    "A323128",
+    "A325478",
+    "A325481",
+    "A325482",
+    "A325930"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

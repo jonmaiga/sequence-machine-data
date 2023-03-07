@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths of semilength n such that all sixteen consecutive step patterns of length 4 occur at least once.",
+  "id": "A243820",
+  "mentions": [
+    "A242257",
+    "A243882",
+    "A243965",
+    "A243966"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 10,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

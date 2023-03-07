@@ -1,0 +1,25 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (p_j)^Sum (k_j).",
+  "id": "A306329",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A007947",
+    "A088865",
+    "A285769",
+    "A303277",
+    "A303278",
+    "A306328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:01",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

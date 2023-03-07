@@ -1,0 +1,20 @@
+{
+  "description": "Number of 312-avoiding derangements of {1,2,...,n}.",
+  "id": "A258041",
+  "mentions": [
+    "A000108",
+    "A000166",
+    "A061547"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

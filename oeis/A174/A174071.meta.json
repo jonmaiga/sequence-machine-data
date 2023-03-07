@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be written as a sum of at least 4 consecutive positive squares.",
+  "id": "A174071",
+  "mentions": [
+    "A111774",
+    "A138591",
+    "A174069",
+    "A174070",
+    "A307937"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

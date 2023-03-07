@@ -1,0 +1,25 @@
+{
+  "description": "Triangular numbers T from A000217 such that (4*T+1)/13 is prime.",
+  "id": "A208294",
+  "mentions": [
+    "A000217",
+    "A002731",
+    "A027862",
+    "A129307",
+    "A207337",
+    "A207339",
+    "A208292",
+    "A208293"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

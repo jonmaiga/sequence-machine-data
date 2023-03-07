@@ -1,0 +1,31 @@
+{
+  "description": "Generalized Catalan triangle of Riordan type, called C(1,2).",
+  "id": "A115193",
+  "mentions": [
+    "A000108",
+    "A033184",
+    "A053121",
+    "A064062",
+    "A084076",
+    "A110510",
+    "A115194",
+    "A115195",
+    "A115197",
+    "A115202",
+    "A115204",
+    "A116866"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

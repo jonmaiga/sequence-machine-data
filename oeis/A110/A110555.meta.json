@@ -1,0 +1,40 @@
+{
+  "description": "Triangle of partial sums of alternating binomial coefficients: T(n,k) = Sum_{j=0..k} binomial(n,j)*(-1)^j; n >= 0, 0 <= k <= n.",
+  "id": "A110555",
+  "mentions": [
+    "A000007",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A000581",
+    "A000582",
+    "A001287",
+    "A001288",
+    "A007318",
+    "A008949",
+    "A010965",
+    "A010966",
+    "A010967",
+    "A010968",
+    "A010969",
+    "A071919",
+    "A084938",
+    "A110556"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:39",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

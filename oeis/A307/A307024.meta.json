@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of different terms starting with a(1) = 1 and a(2) = 2 such that two consecutive terms of opposite parity are followed by their sum; else (same parity), by the smallest term not yet in the sequence.",
+  "id": "A307024",
+  "mentions": [
+    "A307023"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

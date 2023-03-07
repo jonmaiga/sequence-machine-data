@@ -1,0 +1,20 @@
+{
+  "description": "Index k of the semiprime A001358(k) = prime(n) * prime(n+1).",
+  "id": "A172348",
+  "mentions": [
+    "A001358",
+    "A006094",
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

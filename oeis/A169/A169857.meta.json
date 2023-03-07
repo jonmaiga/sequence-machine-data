@@ -1,0 +1,21 @@
+{
+  "description": "Consider the EKG sequence (A064413) started at n instead of 2; a(n) = number of steps before sequence merges with A064413, or 0 if the two sequences never merge.",
+  "id": "A169857",
+  "mentions": [
+    "A064413",
+    "A064421",
+    "A119415",
+    "A169837",
+    "A169856"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

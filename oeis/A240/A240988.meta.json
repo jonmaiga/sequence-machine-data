@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the (reduced) rationals (((n-1)!!)/(n!! * 2^((1 + (-1)^n)/2)))^((-1)^n), where n is a positive integer.",
+  "id": "A240988",
+  "mentions": [
+    "A000079",
+    "A005187",
+    "A101925",
+    "A163590"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

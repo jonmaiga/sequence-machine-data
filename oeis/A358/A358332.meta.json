@@ -1,0 +1,40 @@
+{
+  "description": "Numbers whose prime indices have arithmetic and geometric mean differing by one.",
+  "id": "A358332",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A051293",
+    "A056239",
+    "A067538",
+    "A067539",
+    "A078175",
+    "A111233",
+    "A112798",
+    "A215366",
+    "A289508",
+    "A289509",
+    "A316413",
+    "A320322",
+    "A326027",
+    "A326028",
+    "A326623",
+    "A326624",
+    "A326645",
+    "A357710",
+    "A358331"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the solution y to the Bachet Mordell equation y^2=x^3+K, with x = 3*T(b(n)) and K = (T(b(n)))^2, where T(b(n)) is the triangular number of b(n)= A285984(n).",
+  "id": "A286036",
+  "mentions": [
+    "A000217",
+    "A006451",
+    "A006454",
+    "A054504",
+    "A081119",
+    "A285955",
+    "A285984",
+    "A286035",
+    "A286037"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

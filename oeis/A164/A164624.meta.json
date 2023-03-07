@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + Floor[p/2] + Floor[p/3] is prime.",
+  "id": "A164624",
+  "mentions": [
+    "A038874",
+    "A097933"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

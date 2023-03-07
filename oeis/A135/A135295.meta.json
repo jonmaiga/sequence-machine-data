@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^(number of decimal digits of n).",
+  "id": "A135295",
+  "mentions": [
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; a(n+1)=desc(a(n))+a(n), where desc(x) is the description of x as in A005150.",
+  "id": "A112457",
+  "mentions": [
+    "A005150",
+    "A109229"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

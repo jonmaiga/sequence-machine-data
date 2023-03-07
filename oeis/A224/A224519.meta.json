@@ -1,0 +1,18 @@
+{
+  "description": "For n >= 4, a(n) = (A056899(n) - A056899(n-1))/72, where A056899 lists the primes of the form k^2 + 2.",
+  "id": "A224519",
+  "mentions": [
+    "A056899",
+    "A059100"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 4,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

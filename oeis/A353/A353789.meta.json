@@ -1,0 +1,25 @@
+{
+  "description": "Multiplicative with a(p^e) = (q - 1) * q^(e-1) * p^e, where q is the least prime greater than p.",
+  "id": "A353789",
+  "mentions": [
+    "A003961",
+    "A003972",
+    "A151800",
+    "A353749",
+    "A353764",
+    "A353790",
+    "A353793"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

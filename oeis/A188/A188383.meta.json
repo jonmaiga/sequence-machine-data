@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 1 in the zero-one sequence [nr+3r]-[nr]-[3r], where r=1/sqrt(2).",
+  "id": "A188383",
+  "mentions": [
+    "A080764",
+    "A187950",
+    "A286996"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

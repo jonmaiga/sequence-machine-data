@@ -1,0 +1,23 @@
+{
+  "description": "Reciprocal of Vandermonde determinant of (1,1/2,...,1/n).",
+  "id": "A203421",
+  "mentions": [
+    "A000169",
+    "A002109",
+    "A057077",
+    "A203422",
+    "A203424"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:23:46",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

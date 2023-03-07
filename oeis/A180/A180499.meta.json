@@ -1,0 +1,22 @@
+{
+  "description": "n^3 + n-th cubefree number.",
+  "id": "A180499",
+  "mentions": [
+    "A000578",
+    "A004709",
+    "A034262",
+    "A161203"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

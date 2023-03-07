@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the differences between the largest and the smallest fixed points over all non-derangement permutations of {1,2,...,n}.",
+  "id": "A161130",
+  "mentions": [
+    "A000166",
+    "A000240",
+    "A155521",
+    "A161129"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

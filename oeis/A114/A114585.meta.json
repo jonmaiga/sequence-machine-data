@@ -1,0 +1,17 @@
+{
+  "description": "Minimal numbers m such that number of positive integers whose harmonic mean with m is n.",
+  "id": "A114585",
+  "mentions": [
+    "A055081"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

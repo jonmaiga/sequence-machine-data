@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{primes p} 1/(p^2*(p-1)).",
+  "id": "A152441",
+  "mentions": [
+    "A085548",
+    "A085964",
+    "A085969",
+    "A136141",
+    "A246549"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

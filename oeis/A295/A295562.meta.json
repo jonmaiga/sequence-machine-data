@@ -1,0 +1,24 @@
+{
+  "description": "List of numbers k such that the middle Fibonomial coefficient (2n,n)_F is prime to 105.",
+  "id": "A295562",
+  "mentions": [
+    "A001177",
+    "A003267",
+    "A005836",
+    "A030979",
+    "A037461",
+    "A037543"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

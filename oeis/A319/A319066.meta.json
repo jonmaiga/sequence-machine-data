@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of integer partitions of n where all parts have the same length.",
+  "id": "A319066",
+  "mentions": [
+    "A001970",
+    "A047968",
+    "A261049",
+    "A279787",
+    "A305551",
+    "A306017",
+    "A319056"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

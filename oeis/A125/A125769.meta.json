@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number j such that j*T_k +/- 1 is n-th prime for some k-th triangular number.",
+  "id": "A125769",
+  "mentions": [
+    "A000217",
+    "A125765",
+    "A125766",
+    "A125767",
+    "A125768",
+    "A125770"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Inverse Moebius transform of the Mersenne numbers: a(n) = Sum_{d|n} (2^d - 1).",
+  "id": "A130887",
+  "mentions": [
+    "A000010",
+    "A000225",
+    "A001047",
+    "A027750",
+    "A038199",
+    "A055895",
+    "A135539"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

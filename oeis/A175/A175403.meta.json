@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number m requiring n iterations {((((D_1^D_2)^D_3)^D_4)^...)^D_k to reach a one-digit number starting at r = n, where D_k is the k-th digit D of the number r and k is the digit number of the number r in the decimal expansion of r (A055642)}.",
+  "id": "A175403",
+  "mentions": [
+    "A020665",
+    "A055642",
+    "A175398",
+    "A175399",
+    "A175400",
+    "A175401",
+    "A175402",
+    "A175405"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Self-power numbers (or SPN's) in A134698 which cannot be obtained by taking an earlier term M (say) of A134698 and prefixing or suffixing a digit of M.",
+  "id": "A134947",
+  "mentions": [
+    "A134698",
+    "A134949"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

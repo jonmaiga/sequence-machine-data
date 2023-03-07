@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer k such that A014577(k - 1) != A014577(n + k - 1).",
+  "id": "A330086",
+  "mentions": [
+    "A006519",
+    "A014577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

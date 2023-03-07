@@ -1,0 +1,20 @@
+{
+  "description": "Abelian complexity function of A064990.",
+  "id": "A216197",
+  "mentions": [
+    "A064990",
+    "A189718"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

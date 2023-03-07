@@ -1,0 +1,19 @@
+{
+  "description": "Magic sums of 3 X 3 semimagic squares of triangular numbers whose rows, columns, and at least one of the two main diagonals sum to the same number.",
+  "id": "A271020",
+  "mentions": [
+    "A269060",
+    "A271021",
+    "A271022"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

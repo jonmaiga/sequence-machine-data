@@ -1,0 +1,27 @@
+{
+  "description": "Fixed points of A332221: Numbers k such that A156552(sigma(k)) is equal to k.",
+  "id": "A332216",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A005940",
+    "A007505",
+    "A029747",
+    "A050522",
+    "A156552",
+    "A332217",
+    "A332218",
+    "A332221"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

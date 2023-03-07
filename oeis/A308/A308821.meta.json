@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes where the sum of the digits equals the difference between the prime factors.",
+  "id": "A308821",
+  "mentions": [
+    "A001358",
+    "A006753",
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

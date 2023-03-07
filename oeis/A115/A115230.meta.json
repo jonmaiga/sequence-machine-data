@@ -1,0 +1,26 @@
+{
+  "description": "Let p = prime(n); a(n) = number of ways to write p = 2^i + q^j where i >= 0, j >= 1, q = odd prime.",
+  "id": "A115230",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A000079",
+    "A000108",
+    "A010055",
+    "A036987",
+    "A061345",
+    "A115231",
+    "A115233"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

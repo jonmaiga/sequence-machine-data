@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that cannot be written as a product of distinct squarefree numbers.",
+  "id": "A293243",
+  "mentions": [
+    "A001055",
+    "A005117",
+    "A045778",
+    "A050320",
+    "A050326",
+    "A212164",
+    "A246547",
+    "A292432",
+    "A292444"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

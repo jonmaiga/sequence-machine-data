@@ -1,0 +1,20 @@
+{
+  "description": "Let G be the undirected graph with nodes {g_k, k >= 0} such that for any k >= 0, g_k is connected to g_{k+1} and g_{A006068(k)} is connected to g_{A006068(k+1)}; a(n) is the number of nodes at distance n from g_0.",
+  "id": "A339696",
+  "mentions": [
+    "A003188",
+    "A006068",
+    "A339695",
+    "A339697"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

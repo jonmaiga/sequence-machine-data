@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A007318, when Pascal's triangle is seen as flattened list.",
+  "id": "A259525",
+  "mentions": [
+    "A007318",
+    "A014473",
+    "A163866",
+    "A214292"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

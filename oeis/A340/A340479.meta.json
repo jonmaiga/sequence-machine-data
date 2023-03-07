@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = R(n) + digsum(n).",
+  "id": "A340479",
+  "mentions": [
+    "A004086",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:03",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

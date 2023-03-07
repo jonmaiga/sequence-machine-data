@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-n ternary strings x with the property that if w is a subword of x and |w| >= 3, then w reversed is not a subword of x.",
+  "id": "A330010",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

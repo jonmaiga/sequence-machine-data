@@ -1,0 +1,18 @@
+{
+  "description": "The smallest distance d>1 such that A033308(n+d)= A033308(n).",
+  "id": "A173853",
+  "mentions": [
+    "A033308"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 154,
+    "source": "oeis-entry"
+  }
+}

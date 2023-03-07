@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of x*(1+11*x-10*x^3)/(1-12*x^2+10*x^4).",
+  "id": "A249312",
+  "mentions": [
+    "A007068",
+    "A022165",
+    "A249310",
+    "A249311",
+    "A249313"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of toothpicks and D-toothpicks after n-th stage in the structure of the D-toothpick \"medium\" triangle of the third kind.",
+  "id": "A220526",
+  "mentions": [
+    "A139250",
+    "A194270",
+    "A194440",
+    "A194442",
+    "A194700",
+    "A220500",
+    "A220512",
+    "A220514",
+    "A220520",
+    "A220522",
+    "A220524",
+    "A220527"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

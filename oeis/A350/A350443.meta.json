@@ -1,0 +1,19 @@
+{
+  "description": "Rigidly-deletable primes: primes such that removing some digit, one at a time in unique order gives a prime at each step, until the empty string is reached.",
+  "id": "A350443",
+  "mentions": [
+    "A080608",
+    "A188809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

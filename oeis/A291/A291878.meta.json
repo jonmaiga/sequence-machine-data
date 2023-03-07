@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of fountains of n coins and height k.",
+  "id": "A291878",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000071",
+    "A005169",
+    "A047998",
+    "A187080"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

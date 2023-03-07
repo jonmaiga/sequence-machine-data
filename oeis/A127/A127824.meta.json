@@ -1,0 +1,28 @@
+{
+  "description": "Triangle in which row n is a sorted list of all numbers having total stopping time n in the Collatz (or 3x+1) iteration.",
+  "id": "A127824",
+  "mentions": [
+    "A000079",
+    "A000975",
+    "A005186",
+    "A006577",
+    "A033491",
+    "A088975",
+    "A153772",
+    "A337673"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

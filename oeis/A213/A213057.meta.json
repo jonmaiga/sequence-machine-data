@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: left edge is all 1's, right edge is 1, 2, 3, 4, ...; construct an internal entry by concatenating the two entries above it.",
+  "id": "A213057",
+  "mentions": [
+    "A004073",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

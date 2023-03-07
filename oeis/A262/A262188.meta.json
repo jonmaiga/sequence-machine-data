@@ -1,0 +1,26 @@
+{
+  "description": "Table read by rows: row n contains all distinct palindromes contained as substrings in decimal representation of n.",
+  "id": "A262188",
+  "mentions": [
+    "A002113",
+    "A031298",
+    "A047813",
+    "A054054",
+    "A136522",
+    "A218978",
+    "A262190"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

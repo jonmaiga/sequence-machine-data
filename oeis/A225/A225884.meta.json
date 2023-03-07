@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers whose binary and decimal reversals are also triangular numbers.",
+  "id": "A225884",
+  "mentions": [
+    "A000217",
+    "A061455"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

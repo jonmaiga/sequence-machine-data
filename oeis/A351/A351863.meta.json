@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with at least one divisor, d, such that k-d is prime.",
+  "id": "A351863",
+  "mentions": [
+    "A008864",
+    "A100484",
+    "A179182",
+    "A242932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

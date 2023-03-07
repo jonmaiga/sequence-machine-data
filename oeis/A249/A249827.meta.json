@@ -1,0 +1,24 @@
+{
+  "description": "Row 3 of A246278: replace in 2n each prime factor p(k) with prime p(k+2).",
+  "id": "A249827",
+  "mentions": [
+    "A003961",
+    "A016945",
+    "A048673",
+    "A084967",
+    "A246278",
+    "A249734",
+    "A249824"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

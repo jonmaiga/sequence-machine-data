@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=0} a(n)*x^(2*n) satisfies: 1 = Sum_{n>=0} x^n*A(x)^n/(1 + 2^n*x*A(x)^(n+1)).",
+  "id": "A340331",
+  "mentions": [
+    "A340330"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

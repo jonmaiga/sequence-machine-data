@@ -1,0 +1,24 @@
+{
+  "description": "q-expansion of modular form psi_0^4/t_{3B}.",
+  "id": "A198956",
+  "mentions": [
+    "A001158",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A106402",
+    "A198955",
+    "A215711"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

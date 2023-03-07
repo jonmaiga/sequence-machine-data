@@ -1,0 +1,21 @@
+{
+  "description": "Number of unimodal functions f:[n]->[n^2].",
+  "id": "A227402",
+  "mentions": [
+    "A071920",
+    "A071921",
+    "A226031",
+    "A227406"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

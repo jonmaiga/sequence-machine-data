@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1+2*x^2-2*x^3+2*x^4)/(1-x+x^2-x^3+x^4-x^5).",
+  "id": "A100286",
+  "mentions": [
+    "A010892",
+    "A049347",
+    "A100284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:33:39",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

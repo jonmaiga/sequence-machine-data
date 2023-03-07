@@ -1,0 +1,20 @@
+{
+  "description": "Start from the singleton set S = {n}, and unless 1 is already a member of S, generate on each iteration a new set where each odd number k is replaced by 3k+1, and each even number k is replaced by 3k+1 and k/2. a(n) is the size of the set after the first iteration which has produced 1 as a member.",
+  "id": "A290100",
+  "mentions": [
+    "A127885",
+    "A290101",
+    "A290102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

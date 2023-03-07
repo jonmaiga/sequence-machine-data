@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = Number of squarefree words of length n in a (k+1)-ary alphabet, with new values 0..k introduced in increasing order.",
+  "id": "A215075",
+  "mentions": [
+    "A006156",
+    "A051041",
+    "A060688",
+    "A118311"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

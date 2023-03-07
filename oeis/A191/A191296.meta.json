@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that k-1 and k+1 in binary representation have same number n of 0's as 1's.",
+  "id": "A191296",
+  "mentions": [
+    "A031443",
+    "A191292",
+    "A191341"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

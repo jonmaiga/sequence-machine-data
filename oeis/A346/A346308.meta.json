@@ -1,0 +1,30 @@
+{
+  "description": "Intersection of Beatty sequences for sqrt(2) and sqrt(3).",
+  "id": "A346308",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A022838",
+    "A022840",
+    "A054406",
+    "A347467",
+    "A347468",
+    "A347469",
+    "A356052",
+    "A356085",
+    "A356086",
+    "A356087",
+    "A356088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:08:49",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

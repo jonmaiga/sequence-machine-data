@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k)=Number of -k..k arrays of length n with the sum ahead of each element differing from the sum following that element by k or less",
+  "id": "A221967",
+  "mentions": [
+    "A005917",
+    "A016754",
+    "A062510",
+    "A142993",
+    "A189318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of set partitions of the set {1,2,...,n} (or of any n-set) containing k blocks of size 3 (0<=k<=floor(n/3)).",
+  "id": "A124503",
+  "mentions": [
+    "A000110",
+    "A025035",
+    "A105480",
+    "A124504",
+    "A355144"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

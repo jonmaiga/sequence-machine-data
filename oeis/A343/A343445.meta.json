@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the series S(p, q) for which (-sqrt(p))*S converges to the largest real root of x^3 - p*x + q for 0 < p and 0 < q < 2*(p/3)^(3/2).",
+  "id": "A343445",
+  "mentions": [
+    "A113551",
+    "A343446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

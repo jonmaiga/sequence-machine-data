@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the polynomial x^3-x^2-x-1 mod p has 3 distinct zeros.",
+  "id": "A106279",
+  "mentions": [
+    "A000073",
+    "A001644",
+    "A033209",
+    "A106276",
+    "A106294",
+    "A106302"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

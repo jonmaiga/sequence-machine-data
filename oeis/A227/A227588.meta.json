@@ -1,0 +1,21 @@
+{
+  "description": "Maximum label within a minimal labeling of k >= 0 identical n-sided dice (n >= 1) yielding the most possible sums; square array A(n,k), read by antidiagonals.",
+  "id": "A227588",
+  "mentions": [
+    "A227358",
+    "A227589",
+    "A227590"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

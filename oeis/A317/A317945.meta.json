@@ -1,0 +1,26 @@
+{
+  "description": "Filter sequence constructed from the coefficients of the Stern polynomials B(d,t) collected for each divisor d of n. Restricted growth sequence transform of A317944.",
+  "id": "A317945",
+  "mentions": [
+    "A000027",
+    "A002487",
+    "A125184",
+    "A260443",
+    "A278243",
+    "A286378",
+    "A305795",
+    "A317838",
+    "A317943",
+    "A317944"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

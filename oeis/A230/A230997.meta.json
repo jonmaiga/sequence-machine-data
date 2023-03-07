@@ -1,0 +1,21 @@
+{
+  "description": "Number of years after which it is possible to have a date falling on same day of the week, but the entire year does not have the same calendar, in the Gregorian calendar.",
+  "id": "A230997",
+  "mentions": [
+    "A230995",
+    "A230996",
+    "A231002",
+    "A231014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

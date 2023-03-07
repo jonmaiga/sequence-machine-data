@@ -1,0 +1,45 @@
+{
+  "description": "Number of permutations A(n,k) in S_n with longest increasing subsequence of length <= k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A214015",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A000142",
+    "A005802",
+    "A033312",
+    "A047887",
+    "A047888",
+    "A047889",
+    "A047890",
+    "A052399",
+    "A056986",
+    "A072131",
+    "A072132",
+    "A072133",
+    "A072167",
+    "A158005",
+    "A158432",
+    "A159139",
+    "A159175",
+    "A182172",
+    "A208447",
+    "A214152",
+    "A217675",
+    "A217676",
+    "A217677",
+    "A267479",
+    "A269042"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

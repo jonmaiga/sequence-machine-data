@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of m(5) = Sum_{n>=0} 1/n!5, the 5th reciprocal multifactorial constant.",
+  "id": "A288092",
+  "mentions": [
+    "A085157",
+    "A143280",
+    "A288055",
+    "A288091",
+    "A288093",
+    "A288094",
+    "A288095",
+    "A288096"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

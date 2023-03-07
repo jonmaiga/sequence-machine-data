@@ -1,0 +1,19 @@
+{
+  "description": "Primes p for which p + q is not a multiple of 4, where q is the previous prime if p == 1 (mod 3) or else the next prime.",
+  "id": "A355272",
+  "mentions": [
+    "A068228",
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

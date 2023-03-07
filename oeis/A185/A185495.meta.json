@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X8 binary arrays with every 2X2 subblock sum equal to some horizontal or vertical neighbor 2X2 subblock sum",
+  "id": "A185495",
+  "mentions": [
+    "A185497"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

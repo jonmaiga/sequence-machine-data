@@ -1,0 +1,29 @@
+{
+  "description": "Xor-Moebius transform of A324866, where A324866(n) = A156552(n) OR (A323243(n) - A156552(n)).",
+  "id": "A324876",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000225",
+    "A000523",
+    "A156552",
+    "A318456",
+    "A323243",
+    "A324820",
+    "A324821",
+    "A324866",
+    "A324877",
+    "A324878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

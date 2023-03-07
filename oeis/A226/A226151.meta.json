@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that triangular(n) is a sum of 4 consecutive primes.",
+  "id": "A226151",
+  "mentions": [
+    "A000217",
+    "A034963",
+    "A051395",
+    "A206280",
+    "A226154"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

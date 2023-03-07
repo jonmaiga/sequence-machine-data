@@ -1,0 +1,32 @@
+{
+  "description": "Number of disconnected 5-regular (quintic) graphs on 2n vertices.",
+  "id": "A165655",
+  "mentions": [
+    "A006821",
+    "A033483",
+    "A068932",
+    "A068933",
+    "A165626",
+    "A165652",
+    "A165653",
+    "A165656",
+    "A165877",
+    "A165878",
+    "A185203",
+    "A185213",
+    "A185293"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

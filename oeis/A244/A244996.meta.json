@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the moment derivative W_3'(0) associated with the radial probability distribution of a 3-step uniform random walk.",
+  "id": "A244996",
+  "mentions": [
+    "A122722",
+    "A242710",
+    "A273464"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

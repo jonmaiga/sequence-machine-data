@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 15*2^n - 1.",
+  "id": "A196305",
+  "mentions": [
+    "A033484",
+    "A083705",
+    "A110286",
+    "A196940"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:39:46",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

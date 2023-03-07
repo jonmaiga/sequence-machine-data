@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the x-values of the solutions of the equation x*(y - 1) + (2*x - y - 1)*(x mod 2) = 2*n for 0 < x <= y.",
+  "id": "A341829",
+  "mentions": [
+    "A005843",
+    "A340804",
+    "A340805",
+    "A341830"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

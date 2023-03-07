@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..2 introduced in row major order",
+  "id": "A203984",
+  "mentions": [
+    "A002023",
+    "A067411"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

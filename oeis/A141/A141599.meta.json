@@ -1,0 +1,22 @@
+{
+  "description": "Number of difference sets for permutations of [2n] with distinct differences.",
+  "id": "A141599",
+  "mentions": [
+    "A067601",
+    "A141598",
+    "A155914",
+    "A238838"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

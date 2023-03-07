@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. log(1 + Sum_{k>=1} x^prime(k)/prime(k)).",
+  "id": "A305619",
+  "mentions": [
+    "A000040",
+    "A002120",
+    "A007447",
+    "A218002",
+    "A305618"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

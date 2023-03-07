@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Sum_{d|n} d * A348507(n/d), where A348507(n) = A003959(n) - n, where A003959 is fully multiplicative with a(p) = (p+1).",
+  "id": "A349140",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A003959",
+    "A038040",
+    "A347130",
+    "A348507",
+    "A348971",
+    "A348980",
+    "A349141",
+    "A349142",
+    "A349143",
+    "A349170"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of pairs of conjugate inseparable solutions of X + Y = 2Z (integer, disjoint triples from {1,2,3,...,3n}).",
+  "id": "A279198",
+  "mentions": [
+    "A002572",
+    "A002848",
+    "A002849",
+    "A104429",
+    "A202705",
+    "A279197",
+    "A279199",
+    "A282615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

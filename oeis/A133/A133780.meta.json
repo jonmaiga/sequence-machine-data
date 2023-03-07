@@ -1,0 +1,20 @@
+{
+  "description": "Irregular array: n-th row lists the \"non-isolated divisors\" of (2n). A positive divisor, k, of n is non-isolated if (k-1) or (k+1) also divides n.",
+  "id": "A133780",
+  "mentions": [
+    "A132747",
+    "A132748",
+    "A133779"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

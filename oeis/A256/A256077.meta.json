@@ -1,0 +1,23 @@
+{
+  "description": "Repeat 2^d times the repunit A002275(d); d = 1, 2, 3...",
+  "id": "A256077",
+  "mentions": [
+    "A000042",
+    "A000523",
+    "A002275",
+    "A007931",
+    "A032810",
+    "A032834"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

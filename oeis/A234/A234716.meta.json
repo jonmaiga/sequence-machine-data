@@ -1,0 +1,20 @@
+{
+  "description": "Number of odd composite integers k, such that n-1 < k < 2n-2.",
+  "id": "A234716",
+  "mentions": [
+    "A002375",
+    "A141100"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

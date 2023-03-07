@@ -1,0 +1,17 @@
+{
+  "description": "2n-th derivative of cosh(x)^cos(x) at x=0.",
+  "id": "A215584",
+  "mentions": [
+    "A215517"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

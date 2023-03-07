@@ -1,0 +1,22 @@
+{
+  "description": "Composite k such that tau(k') = (tau(k))', where tau(k) is the number of divisors of k (A000005) and k' is the arithmetic derivative of k (A003415).",
+  "id": "A353702",
+  "mentions": [
+    "A000005",
+    "A003415",
+    "A045536",
+    "A092109",
+    "A174100",
+    "A260961"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

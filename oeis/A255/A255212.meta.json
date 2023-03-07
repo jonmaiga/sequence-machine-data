@@ -1,0 +1,29 @@
+{
+  "description": "Number A(n,k) of partitions of n^2 into at most k square parts; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A255212",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A016727",
+    "A063014",
+    "A065458",
+    "A065459",
+    "A065460",
+    "A065461",
+    "A065462",
+    "A105152",
+    "A255213",
+    "A255214"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

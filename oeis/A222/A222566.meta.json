@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=2; for n>0, a(n+1) is the least prime p>a(n) such that 2*(a(n)+1)-p is prime.",
+  "id": "A222566",
+  "mentions": [
+    "A000040",
+    "A163846",
+    "A163847",
+    "A222532"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

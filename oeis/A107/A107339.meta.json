@@ -1,0 +1,20 @@
+{
+  "description": "Longest sequence of n-digit n-almost primes formed by beginning with a single-digit prime and appending a single decimal digit to each previous term.",
+  "id": "A107339",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of a pair (p,p+4) of cousin primes whose arithmetic mean p+2 is a cube.",
+  "id": "A178227",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A172494",
+    "A174370",
+    "A176130",
+    "A176229",
+    "A178228"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

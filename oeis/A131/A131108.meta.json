@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = 2*A007318(n,k) - A097806(n,k).",
+  "id": "A131108",
+  "mentions": [
+    "A007318",
+    "A084938",
+    "A095121",
+    "A097806"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:07",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

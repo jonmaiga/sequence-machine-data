@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the maximum number of equal-sum subsets into which the first n primes can be partitioned.",
+  "id": "A331541",
+  "mentions": [
+    "A331479"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least k > 1 such that k^(3^n)*(k^(3^n)+1) + 1 is prime.",
+  "id": "A153438",
+  "mentions": [
+    "A056993",
+    "A085398",
+    "A101406",
+    "A153436"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

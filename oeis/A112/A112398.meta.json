@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers which are exclusively the shortest side of primitive Pythagorean triangles.",
+  "id": "A112398",
+  "mentions": [
+    "A020882",
+    "A081874",
+    "A081934",
+    "A112372"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

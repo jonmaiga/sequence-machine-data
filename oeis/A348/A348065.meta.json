@@ -1,0 +1,25 @@
+{
+  "description": "Coefficient of x^4 in expansion of n!* Sum_{k=0..n} binomial(x,k).",
+  "id": "A348065",
+  "mentions": [
+    "A000482",
+    "A028341",
+    "A054651",
+    "A190782",
+    "A347987",
+    "A348063",
+    "A348064",
+    "A348068"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

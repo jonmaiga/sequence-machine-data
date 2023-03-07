@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n has length the n-th triangular number A000217(n) and every column k lists the positive integers A000027, n >= 1, k >= 1.",
+  "id": "A345116",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A000217",
+    "A000292",
+    "A110730",
+    "A175254",
+    "A237593",
+    "A245092",
+    "A333516",
+    "A340581"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

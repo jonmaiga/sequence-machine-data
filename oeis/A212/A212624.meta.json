@@ -1,0 +1,31 @@
+{
+  "description": "Number of vertices in all independent vertex subsets of the rooted tree with Matula-Goebel number n.",
+  "id": "A212624",
+  "mentions": [
+    "A212618",
+    "A212619",
+    "A212620",
+    "A212621",
+    "A212622",
+    "A212623",
+    "A212625",
+    "A212626",
+    "A212627",
+    "A212628",
+    "A212629",
+    "A212630",
+    "A212631",
+    "A212632"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

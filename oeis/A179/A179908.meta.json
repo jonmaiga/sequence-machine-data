@@ -1,0 +1,21 @@
+{
+  "description": "First appearance of n in A039996: Primes embedded in prime(n).",
+  "id": "A179908",
+  "mentions": [
+    "A039996",
+    "A079397",
+    "A178596",
+    "A178597"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

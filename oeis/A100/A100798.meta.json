@@ -1,0 +1,22 @@
+{
+  "description": "n occurs n times, as early as possible subject to the constraint that two successive occurrences of n are separated by at least by n terms.",
+  "id": "A100798",
+  "mentions": [
+    "A061925",
+    "A074148",
+    "A100795",
+    "A100919",
+    "A100920"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

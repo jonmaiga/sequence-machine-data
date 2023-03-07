@@ -1,0 +1,20 @@
+{
+  "description": "Numbers d > 1 such that the class number of Q(sqrt(d)) is strictly greater than the class number of Q(sqrt(m)) for all m < d.",
+  "id": "A283658",
+  "mentions": [
+    "A003172",
+    "A003649",
+    "A283659"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

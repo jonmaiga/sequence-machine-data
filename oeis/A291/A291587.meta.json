@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ((2n-1)!!)^5 * Sum_{i=1..n} 1/(2*i-1)^5.",
+  "id": "A291587",
+  "mentions": [
+    "A001147",
+    "A001824",
+    "A004041",
+    "A099827",
+    "A291585",
+    "A291586"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

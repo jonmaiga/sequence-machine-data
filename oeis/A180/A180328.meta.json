@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes pq such that there is another semiprime rs with (p+1)(q+1)=(r+1)(s+1) and p, q, r, and s distinct primes.",
+  "id": "A180328",
+  "mentions": [
+    "A000203",
+    "A162283",
+    "A180329"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

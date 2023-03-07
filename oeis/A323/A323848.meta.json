@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,d) (n >= 1, d <= n-1 for n>1) = number of n X n integer-valued matrices M such that M_{1,1}=0, M_{n,n}=d, M_{(i+1),j} = M_{i,j} + (0 or 1), M_{i,(j+1)} = M_{i,j} + (0 or 1), and M_{(i+1),(j+1)} = M_{i,j} + (0 or 1).",
+  "id": "A323848",
+  "mentions": [
+    "A005157",
+    "A115112",
+    "A306322",
+    "A323849"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

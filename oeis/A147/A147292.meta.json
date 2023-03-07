@@ -1,0 +1,20 @@
+{
+  "description": "Eigentriangle.",
+  "id": "A147292",
+  "mentions": [
+    "A007051"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

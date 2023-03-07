@@ -1,0 +1,19 @@
+{
+  "description": "Least prime divisor of 659*2^n-1.",
+  "id": "A244609",
+  "mentions": [
+    "A038699",
+    "A040081",
+    "A057026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Earliest start of a run of n numbers divisible by a fifth power larger than one.",
+  "id": "A330481",
+  "mentions": [
+    "A000584",
+    "A045882",
+    "A088080",
+    "A271443",
+    "A330480",
+    "A330482",
+    "A330483",
+    "A330484",
+    "A330485",
+    "A330486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

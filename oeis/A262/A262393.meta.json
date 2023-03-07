@@ -1,0 +1,20 @@
+{
+  "description": "Positions of numbers starting with 1 in A262356.",
+  "id": "A262393",
+  "mentions": [
+    "A000030",
+    "A262356",
+    "A262390"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

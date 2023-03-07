@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of 120*Stirling_2(n,5)/n!.",
+  "id": "A324006",
+  "mentions": [
+    "A000142",
+    "A002678",
+    "A002679",
+    "A065974",
+    "A065975",
+    "A324003",
+    "A324004",
+    "A324005"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 5,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

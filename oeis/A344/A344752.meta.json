@@ -1,0 +1,21 @@
+{
+  "description": "Quotient A306927(k) / A344705(k) computed for such k >= 1 that the quotient is a nonnegative natural number. (The k are given by A344700.)",
+  "id": "A344752",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A306927",
+    "A344700",
+    "A344705"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let t(n) denote the triangular numbers (A000217). Sequence mixes t(n+2) and t(n).",
+  "id": "A111074",
+  "mentions": [
+    "A000217",
+    "A008795"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:45",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

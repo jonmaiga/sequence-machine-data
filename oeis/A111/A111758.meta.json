@@ -1,0 +1,17 @@
+{
+  "description": "Number of bipartite connected outerplanar graphs on n unlabeled nodes.",
+  "id": "A111758",
+  "mentions": [
+    "A111563"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

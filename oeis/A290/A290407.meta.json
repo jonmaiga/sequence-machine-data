@@ -1,0 +1,22 @@
+{
+  "description": "Primes obtained from other primes by prefixing an 8.",
+  "id": "A290407",
+  "mentions": [
+    "A045714",
+    "A165555",
+    "A167187",
+    "A289866",
+    "A289867"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

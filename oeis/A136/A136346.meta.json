@@ -1,0 +1,30 @@
+{
+  "description": "Octagonal numbers which are the sums of exactly two positive octagonal numbers.",
+  "id": "A136346",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A000567",
+    "A009000",
+    "A089982",
+    "A117104",
+    "A133215",
+    "A136117",
+    "A136345"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

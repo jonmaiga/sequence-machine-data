@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows in which row n lists the partitions of n in reverse lexicographic order.",
+  "id": "A228531",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A026791",
+    "A026792",
+    "A036036",
+    "A036042",
+    "A049085",
+    "A066099",
+    "A066186",
+    "A080576",
+    "A080577",
+    "A103921",
+    "A112798",
+    "A115623",
+    "A129129",
+    "A182715",
+    "A193073",
+    "A211992",
+    "A228351",
+    "A331581",
+    "A333486",
+    "A334302",
+    "A334435",
+    "A334436",
+    "A334439",
+    "A334442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Primes of the form p*2^k+1 with k>0 and p=1 or p in this sequence.",
+  "id": "A147545",
+  "mentions": [
+    "A000120",
+    "A000265",
+    "A019434",
+    "A039687",
+    "A050526",
+    "A074781",
+    "A135832",
+    "A147454",
+    "A300407",
+    "A329697",
+    "A334092",
+    "A334093",
+    "A334094",
+    "A334095",
+    "A334096",
+    "A334100"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chiral pairs of color loops of length n with exactly k different colors.",
+  "id": "A305541",
+  "mentions": [
+    "A008277",
+    "A059076",
+    "A087854",
+    "A273891",
+    "A293496",
+    "A305540",
+    "A305542",
+    "A305543",
+    "A305544",
+    "A305545",
+    "A309651",
+    "A326895"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

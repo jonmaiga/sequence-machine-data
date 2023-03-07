@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(4 - sqrt(4 - sqrt(4 - sqrt(4 - ... )))).",
+  "id": "A222133",
+  "mentions": [
+    "A082486",
+    "A178255",
+    "A222132"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:47",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} with k parity changes (n>=2; 1<=k <=n-1; the permutation 372185946 has 5 parity changes: 37-2-1-8-59-46.",
+  "id": "A152874",
+  "mentions": [
+    "A000142",
+    "A077613",
+    "A092186",
+    "A152875"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

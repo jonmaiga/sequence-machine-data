@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that (p mod s) and (p mod t) are consecutive primes, where s is the sum of the digits of p and t is the product of the digits of p.",
+  "id": "A344127",
+  "mentions": [
+    "A007605",
+    "A053666",
+    "A136251"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

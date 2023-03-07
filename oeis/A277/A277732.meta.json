@@ -1,0 +1,23 @@
+{
+  "description": "Positions of 0's in A277731.",
+  "id": "A277732",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A052980",
+    "A277731",
+    "A277733",
+    "A277734"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

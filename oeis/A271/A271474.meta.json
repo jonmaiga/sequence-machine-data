@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of flips required to sort a stack of n unburnt pancakes using the big-3 flips.",
+  "id": "A271474",
+  "mentions": [
+    "A058986"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

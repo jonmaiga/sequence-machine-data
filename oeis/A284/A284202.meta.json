@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that phi(sum of divisors of m) = lambda(sum of distinct primes dividing m).",
+  "id": "A284202",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A002322",
+    "A008472",
+    "A078883",
+    "A282515"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

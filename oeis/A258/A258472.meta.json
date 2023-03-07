@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into two sorts of parts having exactly 2 parts of the second sort.",
+  "id": "A258472",
+  "mentions": [
+    "A094533",
+    "A256193"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Mahonian numbers T(n,7) (cf. A008302).",
+  "id": "A242657",
+  "mentions": [
+    "A000712",
+    "A008302"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 5,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "List of pairs (i,j) of central factors of n, such that i*j = n, where i is the largest divisor of n <= sqrt(n) and j is the smallest divisor of n >= sqrt(n).",
+  "id": "A162348",
+  "mentions": [
+    "A006446",
+    "A018253",
+    "A033676",
+    "A033677",
+    "A063655",
+    "A160812",
+    "A161344",
+    "A162190"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

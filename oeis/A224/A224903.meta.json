@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(2*n^4) - sigma(n^4).",
+  "id": "A224903",
+  "mentions": [
+    "A000203",
+    "A054785",
+    "A224902"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

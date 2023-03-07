@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of divisors d of n which are either 1 or of the form Product_(i) (p_i^e_i) where the e_i are <= 1.",
+  "id": "A183095",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A183093",
+    "A183094"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

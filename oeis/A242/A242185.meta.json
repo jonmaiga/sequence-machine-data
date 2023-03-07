@@ -1,0 +1,20 @@
+{
+  "description": "Integers b which are the solution to the equation a^2 + b^3 = c^4, with integers a, b > 0, and indexed from A242183.",
+  "id": "A242185",
+  "mentions": [
+    "A242183",
+    "A242184",
+    "A242186"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

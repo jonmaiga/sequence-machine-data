@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct quadratic forms of discriminant -4n by which some prime can be represented.",
+  "id": "A234287",
+  "mentions": [
+    "A000003",
+    "A000926",
+    "A067752",
+    "A232550",
+    "A232551"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

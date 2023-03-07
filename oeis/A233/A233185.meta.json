@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number larger than the total number of letters in the French names for all terms up to and including a(n).",
+  "id": "A233185",
+  "mentions": [
+    "A167507",
+    "A233184",
+    "A233186",
+    "A233187",
+    "A233188"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

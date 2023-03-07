@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose factorials are exclusionary: numbers n such that n and n! have no digits in common.",
+  "id": "A254130",
+  "mentions": [
+    "A000142",
+    "A111116",
+    "A112736",
+    "A112994",
+    "A182049"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of subsets of {1..n} containing n whose mean and geometric mean are both integers.",
+  "id": "A326644",
+  "mentions": [
+    "A051293",
+    "A067538",
+    "A067539",
+    "A082550",
+    "A082553",
+    "A102627",
+    "A326027",
+    "A326028",
+    "A326029",
+    "A326623",
+    "A326625",
+    "A326641",
+    "A326643",
+    "A326645",
+    "A326647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

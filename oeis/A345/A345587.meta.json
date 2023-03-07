@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of nine fourth powers in three or more ways.",
+  "id": "A345587",
+  "mentions": [
+    "A345542",
+    "A345578",
+    "A345586",
+    "A345588",
+    "A345596",
+    "A345620",
+    "A345845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

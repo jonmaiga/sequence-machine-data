@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of the largest power of 2 that divides 5^n - 3^n.",
+  "id": "A195986",
+  "mentions": [
+    "A005058",
+    "A007814",
+    "A090740"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

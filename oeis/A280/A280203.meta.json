@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 3^n - 2^n is not squarefree, but 3^d - 2^d is squarefree for all proper divisors d of n.",
+  "id": "A280203",
+  "mentions": [
+    "A001047",
+    "A237043",
+    "A280149",
+    "A280208",
+    "A280209"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers q.r such that q*r divides q.r, when q and r have the same number of digits, \".\" means concatenation, and r may not begin with 0.",
+  "id": "A347541",
+  "mentions": [
+    "A007602",
+    "A147553",
+    "A348589"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

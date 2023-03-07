@@ -1,0 +1,26 @@
+{
+  "description": "Products of terms of A003418.",
+  "id": "A250270",
+  "mentions": [
+    "A000142",
+    "A001013",
+    "A001813",
+    "A003418",
+    "A025487",
+    "A025527",
+    "A064350",
+    "A166338",
+    "A250569",
+    "A253139"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

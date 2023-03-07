@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A276086(k) mod A003415(k) is an even number, where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A358229",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A328382",
+    "A358221",
+    "A358226",
+    "A358227",
+    "A358228"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

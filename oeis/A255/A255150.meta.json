@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A253086.",
+  "id": "A255150",
+  "mentions": [
+    "A116520",
+    "A245542",
+    "A253086",
+    "A253908",
+    "A255048"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of primes <= n-th quarter-square.",
+  "id": "A220506",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002620",
+    "A014085",
+    "A038107",
+    "A111208",
+    "A220492"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

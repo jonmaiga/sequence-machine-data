@@ -1,0 +1,25 @@
+{
+  "description": "Large denominators of Bernoulli numbers. Mix A002445, 2*A141421 .",
+  "id": "A165823",
+  "mentions": [
+    "A002445",
+    "A027642",
+    "A027760",
+    "A091137",
+    "A141056",
+    "A141421",
+    "A160014",
+    "A164020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

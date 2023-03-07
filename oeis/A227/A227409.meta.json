@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers representing a date in \"condensed American notation\" MMDDYY.",
+  "id": "A227409",
+  "mentions": [
+    "A213184",
+    "A227407"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

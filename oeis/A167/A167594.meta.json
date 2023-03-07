@@ -1,0 +1,21 @@
+{
+  "description": "A triangle related to the GF(z) formulas of the rows of the ED4 array A167584.",
+  "id": "A167594",
+  "mentions": [
+    "A001193",
+    "A002866",
+    "A024199",
+    "A167584"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

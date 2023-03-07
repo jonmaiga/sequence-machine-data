@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonprimes less than or equal to n that do not divide n.",
+  "id": "A279436",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000720",
+    "A001221",
+    "A014689",
+    "A033273",
+    "A048865",
+    "A049820",
+    "A062298",
+    "A065890",
+    "A082514",
+    "A229109"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:19",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

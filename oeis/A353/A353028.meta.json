@@ -1,0 +1,19 @@
+{
+  "description": "Number of subgraphs of the directed square lattice with n vertices and all vertices reachable from the origin.",
+  "id": "A353028",
+  "mentions": [
+    "A344571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

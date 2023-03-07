@@ -1,0 +1,18 @@
+{
+  "description": "Integer solutions to n^4 = x^3 + y^2 (values of y sorted by n).",
+  "id": "A221745",
+  "mentions": [
+    "A096741",
+    "A221744"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

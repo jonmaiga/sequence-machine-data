@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit palindromes in bases 2 and 10. Also difference of A120764(n).",
+  "id": "A127916",
+  "mentions": [
+    "A007632",
+    "A120764"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

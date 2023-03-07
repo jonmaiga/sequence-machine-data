@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*4^(n-1) - (3n-1)/(2n+2)*C(2n,n).",
+  "id": "A104268",
+  "mentions": [
+    "A000108",
+    "A006419"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:13:58",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

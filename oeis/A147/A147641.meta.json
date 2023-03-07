@@ -1,0 +1,25 @@
+{
+  "description": "Numbers B in the triples (A,B,C) that set a record in the L-function of the ABC conjecture if the search for C admits only the restricted integer subset of A009967 as described in A147642.",
+  "id": "A147641",
+  "mentions": [
+    "A009967",
+    "A085152",
+    "A085153",
+    "A147298",
+    "A147307",
+    "A147638",
+    "A147642",
+    "A147643"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

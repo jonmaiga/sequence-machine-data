@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations p of 1,2,...,n satisfying |p(i+5)-p(i)|<>5 for all 1<=i<=n-5.",
+  "id": "A189256",
+  "mentions": [
+    "A002464",
+    "A110128",
+    "A117574",
+    "A189255",
+    "A333706"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

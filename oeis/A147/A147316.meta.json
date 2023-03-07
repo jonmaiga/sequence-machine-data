@@ -1,0 +1,25 @@
+{
+  "description": "Fibonacci numbers (A000045) starting at offset -20.",
+  "id": "A147316",
+  "mentions": [
+    "A000045",
+    "A000285",
+    "A001060",
+    "A022113",
+    "A039834",
+    "A212804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": -20,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

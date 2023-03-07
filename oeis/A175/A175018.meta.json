@@ -1,0 +1,19 @@
+{
+  "description": "A005185(n)-floor(A005185(n)/2).",
+  "id": "A175018",
+  "mentions": [
+    "A005185",
+    "A110654"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

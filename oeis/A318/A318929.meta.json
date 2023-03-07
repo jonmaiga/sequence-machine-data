@@ -1,0 +1,18 @@
+{
+  "description": "Intersection of A300216 and A306146.",
+  "id": "A318929",
+  "mentions": [
+    "A300216",
+    "A306146"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

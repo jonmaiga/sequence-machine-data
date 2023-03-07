@@ -1,0 +1,25 @@
+{
+  "description": "Integers m such that pod(m) divides pod(m^2) where pod = product of digits = A007954.",
+  "id": "A351807",
+  "mentions": [
+    "A002275",
+    "A002473",
+    "A007954",
+    "A052382",
+    "A134844",
+    "A351650",
+    "A351808",
+    "A351809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

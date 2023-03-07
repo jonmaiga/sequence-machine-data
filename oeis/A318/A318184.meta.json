@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^(n * (n - 1)/2) * 3^((n - 1) * (n - 2)) * n^(n - 3).",
+  "id": "A318184",
+  "mentions": [
+    "A007701",
+    "A193678",
+    "A303941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest m such that (Z/mZ)* = C_2 X C_(2n), or 0 if no such m exists, where (Z/mZ)* is the multiplicative group of integers modulo m.",
+  "id": "A328411",
+  "mentions": [
+    "A049283",
+    "A049823",
+    "A057635",
+    "A062373",
+    "A328410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The subsequence A253071(2^n-1).",
+  "id": "A253072",
+  "mentions": [
+    "A050476",
+    "A253067",
+    "A253068",
+    "A253071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

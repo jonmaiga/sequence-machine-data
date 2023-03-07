@@ -1,0 +1,24 @@
+{
+  "description": "Position of 1/n in the canonical bijection from the positive integers to the positive rational numbers.",
+  "id": "A206350",
+  "mentions": [
+    "A008683",
+    "A038568",
+    "A038569",
+    "A049696",
+    "A171503",
+    "A206296",
+    "A206297"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

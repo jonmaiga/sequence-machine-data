@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^4 - n +/- 1 are twin primes.",
+  "id": "A236763",
+  "mentions": [
+    "A126424",
+    "A236761"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

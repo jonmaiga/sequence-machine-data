@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - x / (1 - x)^2).",
+  "id": "A328055",
+  "mentions": [
+    "A001906",
+    "A004146",
+    "A005248",
+    "A005443",
+    "A029767",
+    "A052567",
+    "A100404",
+    "A226968",
+    "A328054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:17:11",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

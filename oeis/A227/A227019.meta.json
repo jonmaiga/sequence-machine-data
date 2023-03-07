@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that exactly one of {2^n-1, 2^n+1, 2^n+3} is semiprime.",
+  "id": "A227019",
+  "mentions": [
+    "A001358",
+    "A226116"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

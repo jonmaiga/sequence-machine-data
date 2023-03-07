@@ -1,0 +1,36 @@
+{
+  "description": "Number A(n,k) of lattice paths starting at {n}^k and ending when k or any component equals 0, using steps that decrement one or more components by one; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A263159",
+  "mentions": [
+    "A000012",
+    "A001850",
+    "A115866",
+    "A210472",
+    "A225094",
+    "A227578",
+    "A227655",
+    "A229142",
+    "A229345",
+    "A255047",
+    "A262809",
+    "A263160",
+    "A263162",
+    "A263163",
+    "A263164",
+    "A263165",
+    "A263166",
+    "A263167",
+    "A263168"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

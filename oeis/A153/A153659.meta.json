@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. A074206 interleaved with k-1 zeros in the k-th column.",
+  "id": "A153659",
+  "mentions": [
+    "A000027",
+    "A008683",
+    "A074206"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

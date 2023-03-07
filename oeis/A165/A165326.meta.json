@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=a(1)=1, a(n) = -a(n-1) for n > 1.",
+  "id": "A165326",
+  "mentions": [
+    "A000918",
+    "A006232",
+    "A033999",
+    "A040000",
+    "A105809"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:59",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

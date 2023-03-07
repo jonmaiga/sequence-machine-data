@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-backtracking walks on Z^2 of length n that are active for k steps, where the walk is initially active and turns in the walk toggle the activity.",
+  "id": "A307584",
+  "mentions": [
+    "A000244",
+    "A051708",
+    "A348595"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Iterations during which LQTL cellular automaton passes through the origin.",
+  "id": "A102110",
+  "mentions": [
+    "A094266",
+    "A094867",
+    "A099423",
+    "A102127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

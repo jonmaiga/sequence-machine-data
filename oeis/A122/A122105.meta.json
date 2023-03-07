@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the bottom levels of all columns in all deco polyominoes of height n. A deco polyomino is a directed column-convex polyomino in which the height, measured along the diagonal, is attained only in the last column.",
+  "id": "A122105",
+  "mentions": [
+    "A122104"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:16:06",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

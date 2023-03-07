@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as w^3 + 2*x^3 + 4*y^3 + 5*z^3 + t^6, where w is a positive integer, and x,y,z,t are nonnegative integers.",
+  "id": "A352503",
+  "mentions": [
+    "A000578",
+    "A001014",
+    "A271099",
+    "A271237"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

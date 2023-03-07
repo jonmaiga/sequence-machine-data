@@ -1,0 +1,19 @@
+{
+  "description": "Let gcd_2(b,c) be the second-largest common divisor of non-coprime integers b and c; then a(n) = Sum_{k=1..n} gcd_2(k,n). If b and c are coprime, then gcd_2(b,c) = 0.",
+  "id": "A309491",
+  "mentions": [
+    "A018804",
+    "A032742",
+    "A073582"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

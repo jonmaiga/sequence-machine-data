@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that there exists at least one number j and pi(p)= d_1 d_2 ... d_j*d_(j+1) d_(j+2) ... d_k where d_1 d_2 ...d_k is the decimal expansion of p.",
+  "id": "A112013",
+  "mentions": [
+    "A112012"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

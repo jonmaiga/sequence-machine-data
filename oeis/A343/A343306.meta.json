@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there is only 1 abundant number (A005101) among 6*k+1 through 6*k+5.",
+  "id": "A343306",
+  "mentions": [
+    "A005101",
+    "A005231",
+    "A115414",
+    "A343301"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m containing no zeros in base n representation but at least one zero in all base b representations with 1",
+  "id": "A106372",
+  "mentions": [
+    "A106370",
+    "A119354"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

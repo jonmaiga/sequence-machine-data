@@ -1,0 +1,26 @@
+{
+  "description": "Number of representations of n as a sum of products of pairs of positive integers, n = Sum_{k=1..m} i_k*j_k with i_k<=j_k, i_k<=i_{k+1}, j_k<=j_{k+1}, i_k*j_k<=i_{k+1}*j_{k+1}.",
+  "id": "A212214",
+  "mentions": [
+    "A066739",
+    "A182269",
+    "A182270",
+    "A211856",
+    "A211857",
+    "A212215",
+    "A212216",
+    "A212217",
+    "A212218",
+    "A212219"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

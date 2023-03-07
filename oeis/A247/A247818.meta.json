@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 1/(theta*P'(theta)), a constant appearing in the asymptotic evaluation of the coefficients q_n in 1/(1+P(x)), where P(x) is the generating function of the primes and theta the unique zero of P(x) in [-3/4, 0].",
+  "id": "A247818",
+  "mentions": [
+    "A030018",
+    "A072508",
+    "A088751"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

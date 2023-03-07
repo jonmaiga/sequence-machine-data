@@ -1,0 +1,18 @@
+{
+  "description": "First matching value found in A127141.",
+  "id": "A127142",
+  "mentions": [
+    "A127141",
+    "A127143"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

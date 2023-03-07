@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the representation of k^2 is a substring of that of k!, in base 10.",
+  "id": "A113621",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A008904",
+    "A033180"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; a(1) = 1; for n > 1, a(n) is the square spiral number obtained from the magnitude of the difference between adjacent horizontal and vertical previously visited square numbers. If only one such adjacent square exists then it takes on that square's number.",
+  "id": "A334812",
+  "mentions": [
+    "A174344",
+    "A274640",
+    "A274923",
+    "A328794",
+    "A334742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

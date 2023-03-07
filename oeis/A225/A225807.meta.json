@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (17^n - 2^n)/15 is prime.",
+  "id": "A225807",
+  "mentions": [
+    "A006034",
+    "A128031",
+    "A217320",
+    "A225955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

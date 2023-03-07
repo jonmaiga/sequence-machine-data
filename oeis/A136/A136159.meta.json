@@ -1,0 +1,27 @@
+{
+  "description": "A Chebyshev polynomial triangle of the first kind defined by T(n+1,x) = 3x*T(n,x) - T(n-1,x).",
+  "id": "A136159",
+  "mentions": [
+    "A000244",
+    "A003688",
+    "A006234",
+    "A080419",
+    "A080420",
+    "A080421",
+    "A080422",
+    "A080423",
+    "A136158"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

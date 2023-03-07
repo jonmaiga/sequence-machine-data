@@ -1,0 +1,18 @@
+{
+  "description": "Number of sequences with n copies each of 1,2,...,5 and longest increasing subsequence of length 5.",
+  "id": "A268841",
+  "mentions": [
+    "A047909"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

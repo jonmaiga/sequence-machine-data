@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of A181800(n) (n-th powerful number that is the first integer of its prime signature).",
+  "id": "A212640",
+  "mentions": [
+    "A000005",
+    "A181800",
+    "A212641"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

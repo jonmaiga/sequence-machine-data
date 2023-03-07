@@ -1,0 +1,20 @@
+{
+  "description": "Write n as n = k1 + k2 + ... + km, so that all k are distinct positive integers. a(n) is the maximum value of A001055(k1) + A001055(k2) + ... + A001055(km) over all such partitions.",
+  "id": "A350029",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A066739",
+    "A350032"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

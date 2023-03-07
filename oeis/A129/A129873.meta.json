@@ -1,0 +1,19 @@
+{
+  "description": "Sequence s_n arising in enumeration of arrays of directed blocks (see Quaintance reference for precise definition).",
+  "id": "A129873",
+  "mentions": [
+    "A129872",
+    "A129886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nilpotent n X n matrices with elements {-1, 1}.",
+  "id": "A306819",
+  "mentions": [
+    "A272662",
+    "A306791"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

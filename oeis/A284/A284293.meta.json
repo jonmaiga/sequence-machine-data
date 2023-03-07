@@ -1,0 +1,27 @@
+{
+  "description": "Numbers using only digits 1 and 6.",
+  "id": "A284293",
+  "mentions": [
+    "A007088",
+    "A007931",
+    "A020454",
+    "A032822",
+    "A032917",
+    "A213084",
+    "A276037",
+    "A276038",
+    "A276039",
+    "A284294"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

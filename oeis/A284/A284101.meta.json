@@ -1,0 +1,17 @@
+{
+  "description": "Initial primes of 14 consecutive primes all congruent to 5 mod 6.",
+  "id": "A284101",
+  "mentions": [
+    "A057622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

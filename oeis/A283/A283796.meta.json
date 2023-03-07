@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of symmetric q-circulant n X n {0,1}-matrices where each row and each column sum equals k.",
+  "id": "A283796",
+  "mentions": [
+    "A045655",
+    "A235384",
+    "A283795"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

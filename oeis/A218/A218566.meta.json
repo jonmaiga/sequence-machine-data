@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T[r,c]=(r-1)*binomial(r-1,c-1)*(c-1)!*A093883(c), read by rows.",
+  "id": "A218566",
+  "mentions": [
+    "A093883",
+    "A167819",
+    "A218556",
+    "A218560"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

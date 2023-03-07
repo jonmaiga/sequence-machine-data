@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number with exactly n divisors that are Brazilian.",
+  "id": "A340796",
+  "mentions": [
+    "A085104",
+    "A087997",
+    "A125134",
+    "A190300",
+    "A220570",
+    "A308851",
+    "A333456",
+    "A335038",
+    "A340795",
+    "A340797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

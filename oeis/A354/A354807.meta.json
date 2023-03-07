@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A346241(n) is negative, and 0 otherwise, where A346241 is the Dirichlet inverse of {A003415, arithmetic derivative of n + A063524 (1, 0, 0, 0, ...)}.",
+  "id": "A354807",
+  "mentions": [
+    "A003415",
+    "A063524",
+    "A346241",
+    "A354806",
+    "A354808",
+    "A354809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

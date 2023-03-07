@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A128379.",
+  "id": "A128378",
+  "mentions": [
+    "A000012",
+    "A000594",
+    "A128379"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

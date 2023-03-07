@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest Moran number m for which m/digsum(m) = prime(n) or 0 if no such number exists.",
+  "id": "A337752",
+  "mentions": [
+    "A001101",
+    "A007953",
+    "A130338"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Central coefficients of the polynomials defined in A278074.",
+  "id": "A281480",
+  "mentions": [
+    "A088218",
+    "A097805",
+    "A131689",
+    "A210029",
+    "A241171",
+    "A278073",
+    "A278074",
+    "A281478",
+    "A281479"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

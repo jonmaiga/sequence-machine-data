@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n!*Sum_{k=0..n} bell(k+1)/k!, n=0,1..., where bell(n) are the Bell numbers, cf. A000110.",
+  "id": "A113060",
+  "mentions": [
+    "A000110",
+    "A113059"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

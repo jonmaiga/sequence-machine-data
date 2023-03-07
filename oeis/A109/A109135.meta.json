@@ -1,0 +1,20 @@
+{
+  "description": "Least number whose n-th power is exclusionary (or 0 if no such n exists). An exclusionary n-th power m^n is one made up of digits not appearing in m, which itself consists of distinct digits.",
+  "id": "A109135",
+  "mentions": [
+    "A016813",
+    "A113951"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A328078.",
+  "id": "A328079",
+  "mentions": [
+    "A328078"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative numbers k such that if 2^i and 2^j appear in the binary expansion of k, then 2^(i OR j) also appears in the binary expansion of k (where OR denotes the bitwise OR operator).",
+  "id": "A359527",
+  "mentions": [
+    "A133457",
+    "A190939",
+    "A359528"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

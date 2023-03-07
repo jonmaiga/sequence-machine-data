@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = largest Ramanujan prime R_k in A104272 that is <= A002386(n).",
+  "id": "A214756",
+  "mentions": [
+    "A000101",
+    "A001223",
+    "A002386",
+    "A104272",
+    "A179196",
+    "A214757",
+    "A214924",
+    "A214925",
+    "A214926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

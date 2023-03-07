@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest prime that, when written in binary, starts with the substring of n in binary.",
+  "id": "A164022",
+  "mentions": [
+    "A018800",
+    "A108234",
+    "A208241",
+    "A262365"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

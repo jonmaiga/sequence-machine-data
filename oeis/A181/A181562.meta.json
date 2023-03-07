@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form highly abundant number - 1.",
+  "id": "A181562",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A002093",
+    "A181561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

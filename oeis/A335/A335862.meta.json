@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the zero x1 of the cubic polynomial x^3 - 2*x^2 - 10*x - 6.",
+  "id": "A335862",
+  "mentions": [
+    "A001622",
+    "A333852",
+    "A335863",
+    "A335864"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:41",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

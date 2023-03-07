@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of abs(i/(i + i/(i + i/...))) and abs(i/(1 + i/(1 + i/...))), i being the imaginary unit.",
+  "id": "A257945",
+  "mentions": [
+    "A156548",
+    "A156590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

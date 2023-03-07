@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = the period of the first differences of the n-th row of A112060 (or A112070), or 0 if that row does not have a periodic first difference.",
+  "id": "A112086",
+  "mentions": [
+    "A010684",
+    "A066631",
+    "A097250",
+    "A102476",
+    "A112060",
+    "A112070",
+    "A112132",
+    "A112133",
+    "A112134",
+    "A112135",
+    "A112136",
+    "A112137",
+    "A112138",
+    "A112139"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

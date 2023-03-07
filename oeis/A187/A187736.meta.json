@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies: A(x) = x*Sum{n>=0} A( n*x/(1+n*x) )^n.",
+  "id": "A187736",
+  "mentions": [
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

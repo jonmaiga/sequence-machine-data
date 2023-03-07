@@ -1,0 +1,19 @@
+{
+  "description": "Partial products of A049820; a(1) = a(2) = 1.",
+  "id": "A280981",
+  "mentions": [
+    "A049820",
+    "A161664"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:21",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

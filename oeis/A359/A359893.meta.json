@@ -1,0 +1,45 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with median k, where k ranges from 1 to n in steps of 1/2.",
+  "id": "A359893",
+  "mentions": [
+    "A000041",
+    "A005408",
+    "A008284",
+    "A026424",
+    "A027193",
+    "A027336",
+    "A058398",
+    "A067538",
+    "A067659",
+    "A102627",
+    "A240219",
+    "A316413",
+    "A325347",
+    "A326567",
+    "A326568",
+    "A327482",
+    "A349156",
+    "A359889",
+    "A359894",
+    "A359895",
+    "A359901",
+    "A359902",
+    "A359906",
+    "A359907",
+    "A360005",
+    "A360006",
+    "A360007",
+    "A360008"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

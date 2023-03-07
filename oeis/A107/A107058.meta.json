@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest number m>0 such that prime(n)*prime(n+1)-m is a prime.",
+  "id": "A107058",
+  "mentions": [
+    "A074928",
+    "A106172",
+    "A107019",
+    "A107057",
+    "A107059"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

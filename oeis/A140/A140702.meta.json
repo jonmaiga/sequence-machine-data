@@ -1,0 +1,26 @@
+{
+  "description": "Main diagonal of array A(k,n) = product of first n centered n-gonal numbers.",
+  "id": "A140702",
+  "mentions": [
+    "A001844",
+    "A003215",
+    "A005448",
+    "A005891",
+    "A006003",
+    "A006472",
+    "A133401",
+    "A140701"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

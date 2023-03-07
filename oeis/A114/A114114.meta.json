@@ -1,0 +1,23 @@
+{
+  "description": "An invertible partition matrix.",
+  "id": "A114114",
+  "mentions": [
+    "A000027",
+    "A008620",
+    "A114115",
+    "A114117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

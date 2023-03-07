@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the sum of the first k prime powers > 1 is divisible by k.",
+  "id": "A227032",
+  "mentions": [
+    "A225792"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

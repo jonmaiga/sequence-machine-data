@@ -1,0 +1,18 @@
+{
+  "description": "Primes from the decimal expansion of e, sorted first by the final digit index and then by length.",
+  "id": "A198188",
+  "mentions": [
+    "A095935"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (sqrt(8*x+4*sqrt(1-4*x)-3)-1)/(2*sqrt(1-4*x)-2).",
+  "id": "A243760",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

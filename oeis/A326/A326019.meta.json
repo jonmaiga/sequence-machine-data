@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of non-knapsack partitions such that every non-singleton submultiset has a different sum.",
+  "id": "A326019",
+  "mentions": [
+    "A108917",
+    "A275972",
+    "A299702",
+    "A299729",
+    "A304793",
+    "A325780",
+    "A325862",
+    "A325863",
+    "A326016",
+    "A326018"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

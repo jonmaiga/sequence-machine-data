@@ -1,0 +1,24 @@
+{
+  "description": "Least possible k > 0 with T(k) - T(j) = n, j > 0, where T(i) > 0 are the triangular numbers A000217.",
+  "id": "A138796",
+  "mentions": [
+    "A000217",
+    "A109814",
+    "A118235",
+    "A136107",
+    "A138797",
+    "A138798",
+    "A138799",
+    "A212652"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in the function A(x) such that: A(x) = A( x^2 + 2*x^2*A(x) )^(1/2), with A(0)=0, A'(0)=1.",
+  "id": "A356781",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers whose number of proper divisors has a number of proper divisors which has a prime number of proper divisors.",
+  "id": "A223457",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A032741",
+    "A063806",
+    "A223456"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

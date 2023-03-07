@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the differences of the larger and smaller parts in the partitions of n into two parts with the smaller part prime.",
+  "id": "A294023",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A056172",
+    "A294022"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

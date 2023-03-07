@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into an even number of parts that are not multiples of 4.",
+  "id": "A339406",
+  "mentions": [
+    "A001935",
+    "A027187",
+    "A042968",
+    "A261734",
+    "A339404",
+    "A339405",
+    "A339407"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

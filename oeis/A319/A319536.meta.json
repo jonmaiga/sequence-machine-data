@@ -1,0 +1,19 @@
+{
+  "description": "Number of signed permutations of length n where numbers occur in consecutive order.",
+  "id": "A319536",
+  "mentions": [
+    "A000165",
+    "A271212"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

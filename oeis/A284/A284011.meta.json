@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = least natural number with the same prime signature Stern polynomial B(n,x) has when it is factored over Z.",
+  "id": "A284011",
+  "mentions": [
+    "A046523",
+    "A125184",
+    "A186891",
+    "A260443",
+    "A277013",
+    "A278233",
+    "A278243",
+    "A284010",
+    "A284012"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

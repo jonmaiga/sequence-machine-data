@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: the right-hand side of the triangle in A349815.",
+  "id": "A349816",
+  "mentions": [
+    "A348815",
+    "A349815",
+    "A349818"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

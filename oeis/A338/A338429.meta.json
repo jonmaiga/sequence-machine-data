@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of copies of a 1234 permutation pattern in an alternating (or zig-zag) permutation of length n + 5.",
+  "id": "A338429",
+  "mentions": [
+    "A006325",
+    "A072819",
+    "A168380"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

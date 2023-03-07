@@ -1,0 +1,29 @@
+{
+  "description": "The sums of 2 consecutive odious numbers (A000069).",
+  "id": "A234011",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A003159",
+    "A017101",
+    "A036554",
+    "A091785",
+    "A131323",
+    "A225822",
+    "A227930",
+    "A233388",
+    "A234431"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

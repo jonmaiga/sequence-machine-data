@@ -1,0 +1,21 @@
+{
+  "description": "Number of irredundant sets in the n X n queen graph.",
+  "id": "A290711",
+  "mentions": [
+    "A075692",
+    "A286883",
+    "A287070",
+    "A291103"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

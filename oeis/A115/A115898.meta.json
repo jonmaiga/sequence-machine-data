@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sigma(k) + prime(k) is a palindrome.",
+  "id": "A115898",
+  "mentions": [
+    "A115895",
+    "A115899"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

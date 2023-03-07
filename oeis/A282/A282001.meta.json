@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime p such that there is a multiplicative subgroup H of Z/pZ, of odd size and of index 2n, such that for any two cosets H1 and H2 of H, H1 + H2 contains all of (Z/pZ)\\0.",
+  "id": "A282001",
+  "mentions": [
+    "A281998"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

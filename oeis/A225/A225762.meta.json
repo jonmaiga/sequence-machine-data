@@ -1,0 +1,18 @@
+{
+  "description": "Position of the first occurrence of n in continued fraction for the Glaisher-Kinkelin constant.",
+  "id": "A225762",
+  "mentions": [
+    "A087501"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

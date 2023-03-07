@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all distinct squares occurring when partitioning n into two squares.",
+  "id": "A143574",
+  "mentions": [
+    "A000161",
+    "A002654",
+    "A010052",
+    "A022544",
+    "A143575"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

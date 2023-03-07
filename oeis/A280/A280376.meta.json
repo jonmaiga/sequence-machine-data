@@ -1,0 +1,21 @@
+{
+  "description": "Primes formed from the concatenation of n and nextprime(n).",
+  "id": "A280376",
+  "mentions": [
+    "A049852",
+    "A084667",
+    "A084669",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

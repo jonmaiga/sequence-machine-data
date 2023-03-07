@@ -1,0 +1,30 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A014580(n)) = A117968(a(n)), a(A091242(n)) = A117967(1+a(n)), where A117967 and A117968 give positive and negative parts of inverse of balanced ternary enumeration of integers, and A014580 resp. A091242 are the binary coded irreducible resp. reducible polynomials over GF(2).",
+  "id": "A246205",
+  "mentions": [
+    "A014580",
+    "A091225",
+    "A091226",
+    "A091242",
+    "A091245",
+    "A117967",
+    "A117968",
+    "A245701",
+    "A246163",
+    "A246201",
+    "A246206",
+    "A246207",
+    "A246209"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

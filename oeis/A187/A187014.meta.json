@@ -1,0 +1,19 @@
+{
+  "description": "Number of isomorphism classes of simply embedded (i.e., loop-free and without parallel edges bounding a disk) bipartite quadrangulations of RP^2 of minimum degree 3 with n nodes and n-1 faces.",
+  "id": "A187014",
+  "mentions": [
+    "A078666",
+    "A187013"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 4,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

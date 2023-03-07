@@ -1,0 +1,20 @@
+{
+  "description": "The total number of 5's in all partitions of n into an odd number of distinct parts.",
+  "id": "A238212",
+  "mentions": [
+    "A067659",
+    "A067661",
+    "A238450"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

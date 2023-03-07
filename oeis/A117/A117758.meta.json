@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between the successive central binomial coefficients; i.e., the number of primes in the interval (C(2n,n), C(2n+2,n+1)], with inclusion on the right.",
+  "id": "A117758",
+  "mentions": [
+    "A000984",
+    "A036378"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

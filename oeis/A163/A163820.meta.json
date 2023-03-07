@@ -1,0 +1,26 @@
+{
+  "description": "Number of permutations of the divisors of n that are greater than 1, in which consecutive elements are not coprime.",
+  "id": "A163820",
+  "mentions": [
+    "A000142",
+    "A025487",
+    "A046523",
+    "A114717",
+    "A119842",
+    "A122977",
+    "A122978",
+    "A293900",
+    "A293902"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

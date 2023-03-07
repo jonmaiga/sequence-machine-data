@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = Product_{n>=1} 1/(1 - 4^n*x^n)^(4/4^n); self-convolution of A110156.",
+  "id": "A110154",
+  "mentions": [
+    "A110152",
+    "A110153",
+    "A110155",
+    "A110156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

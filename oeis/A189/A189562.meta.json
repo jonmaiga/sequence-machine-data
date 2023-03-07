@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle in which row n has even numbers k that have n solutions to the equation x' = k, where x' denotes the arithmetic derivative (A003415).",
+  "id": "A189562",
+  "mentions": [
+    "A003415",
+    "A099302",
+    "A189558",
+    "A189561"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

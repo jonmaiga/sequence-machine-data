@@ -1,0 +1,22 @@
+{
+  "description": "Minimal most likely sum for a roll of n 12-sided dice.",
+  "id": "A258589",
+  "mentions": [
+    "A030123",
+    "A256680",
+    "A258588",
+    "A263941"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:43",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

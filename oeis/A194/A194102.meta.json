@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{j=1..n} floor(j*sqrt(2)); n-th partial sum of Beatty sequence for sqrt(2), A001951.",
+  "id": "A194102",
+  "mentions": [
+    "A001951",
+    "A194029",
+    "A194103",
+    "A194104"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(x) = if one of {4x^2 - 146x + 1373, 4x^2 - 144x + 1459, 4x^2 - 142x + 1301, 4x^2 - 140x + 1877} is prime, then pick that prime in sequence, otherwise pick zero.",
+  "id": "A155925",
+  "mentions": [
+    "A139414"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

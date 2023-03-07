@@ -1,0 +1,21 @@
+{
+  "description": "Self-inverse integer permutation induced by Beatty sequences for Pi/2 and Pi/(Pi-2).",
+  "id": "A108590",
+  "mentions": [
+    "A108589",
+    "A108591",
+    "A108592",
+    "A140758"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

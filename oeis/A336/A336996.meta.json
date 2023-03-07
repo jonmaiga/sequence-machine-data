@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of coefficients T(n,k) (n >= 0, 0 <= k <= 2*n), read by rows: n-th row is obtained by expanding (2 + x + x^2)^n.",
+  "id": "A336996",
+  "mentions": [
+    "A000302",
+    "A027907",
+    "A038207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

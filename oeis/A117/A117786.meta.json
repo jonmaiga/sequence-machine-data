@@ -1,0 +1,19 @@
+{
+  "description": "Total number of palindromic primes in base 8 with n digits.",
+  "id": "A117786",
+  "mentions": [
+    "A006341",
+    "A029976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

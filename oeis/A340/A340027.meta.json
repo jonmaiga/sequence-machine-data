@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent vertex colorings of connected graphs on n unlabeled vertices.",
+  "id": "A340027",
+  "mentions": [
+    "A339645",
+    "A340024",
+    "A340025",
+    "A340026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row 3 of array in A344009.",
+  "id": "A344011",
+  "mentions": [
+    "A002491",
+    "A344009",
+    "A344010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

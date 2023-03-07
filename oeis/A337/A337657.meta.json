@@ -1,0 +1,19 @@
+{
+  "description": "Let M_k denote the addition table for the first k terms of A337656. M_k contains exactly k*(k+1)/2 distinct numbers, and these numbers are a subset of the entries in M_{k+1}. The present sequence consists of the numbers that never appear in any M_k.",
+  "id": "A337657",
+  "mentions": [
+    "A337655",
+    "A337656",
+    "A337658"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

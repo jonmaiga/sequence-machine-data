@@ -1,0 +1,23 @@
+{
+  "description": "Number of triangles in a Star of David of size n.",
+  "id": "A299965",
+  "mentions": [
+    "A002717",
+    "A045946",
+    "A045949",
+    "A135453",
+    "A228887"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

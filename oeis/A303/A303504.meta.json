@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose digits, together with a single supplementary digit, cannot be reordered to form a base-10 palindrome number.",
+  "id": "A303504",
+  "mentions": [
+    "A002113",
+    "A031962",
+    "A303502"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

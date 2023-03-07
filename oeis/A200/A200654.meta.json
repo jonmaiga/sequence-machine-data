@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k>0 such that k*p*(k*p+1)-1 and k*p*(k*p+1)+1 are twin primes, where p = n-th prime.",
+  "id": "A200654",
+  "mentions": [
+    "A200778"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

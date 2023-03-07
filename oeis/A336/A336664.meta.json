@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct divisors d of n with the property that d = (the number of nonnegative bases m < n such that m^k == m (mod n))/(the number of nonnegative bases m < n such that -m^k == m (mod n)) for some nonnegative k.",
+  "id": "A336664",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A026741",
+    "A334006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

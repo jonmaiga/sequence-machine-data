@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that 12 m^2 is the average of a twin prime pair.",
+  "id": "A154331",
+  "mentions": [
+    "A037073",
+    "A154671"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

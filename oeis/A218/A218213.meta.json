@@ -1,0 +1,28 @@
+{
+  "description": "Number of n-digit primes representable as sums of consecutive squares.",
+  "id": "A218213",
+  "mentions": [
+    "A027861",
+    "A027862",
+    "A027863",
+    "A027864",
+    "A027866",
+    "A027867",
+    "A218207",
+    "A218209",
+    "A218211",
+    "A218214"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

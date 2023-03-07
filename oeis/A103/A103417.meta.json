@@ -1,0 +1,19 @@
+{
+  "description": "Leading coefficients of self-interpolating polynomials from A103423.",
+  "id": "A103417",
+  "mentions": [
+    "A103418",
+    "A103423"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

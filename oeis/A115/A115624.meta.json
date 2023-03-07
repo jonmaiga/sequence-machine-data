@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations of signature function required to get to [1] from partitions in Mathematica order.",
+  "id": "A115624",
+  "mentions": [
+    "A012257",
+    "A080577",
+    "A113787",
+    "A115621"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

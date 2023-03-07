@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary words of length n that avoid abelian 4th powers circularly.",
+  "id": "A334831",
+  "mentions": [
+    "A305003",
+    "A305594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

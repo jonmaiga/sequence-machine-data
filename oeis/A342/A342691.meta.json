@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form (p^k)^2 + p^k + 1 with prime p and positive integer k.",
+  "id": "A342691",
+  "mentions": [
+    "A000040",
+    "A053183",
+    "A066101",
+    "A335865",
+    "A342690",
+    "A344448"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

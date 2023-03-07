@@ -1,0 +1,28 @@
+{
+  "description": "Complement of A158919: complementary Beatty sequence to the Beatty sequence defined by the tribonacci constant tau = A058265.",
+  "id": "A276383",
+  "mentions": [
+    "A000073",
+    "A000201",
+    "A001950",
+    "A058265",
+    "A080843",
+    "A158919",
+    "A172278",
+    "A278039",
+    "A278040",
+    "A278041",
+    "A316711"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

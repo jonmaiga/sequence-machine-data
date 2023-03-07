@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n such that the successive differences of consecutive parts are strictly decreasing.",
+  "id": "A320470",
+  "mentions": [
+    "A049988",
+    "A240026",
+    "A240027",
+    "A320466",
+    "A320510",
+    "A325325",
+    "A325358",
+    "A325393",
+    "A325457"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

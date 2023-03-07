@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(n, A325634(n)) = gcd(n, A091255(n, sigma(n))).",
+  "id": "A325632",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A091255",
+    "A325633",
+    "A325634",
+    "A325639",
+    "A325640"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

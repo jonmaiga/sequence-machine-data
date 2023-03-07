@@ -1,0 +1,19 @@
+{
+  "description": "List of prime pairs of the form (p, p+12).",
+  "id": "A156323",
+  "mentions": [
+    "A046133",
+    "A092216"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

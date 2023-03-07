@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n is a multiple of the sum of decimal digits squared of n.",
+  "id": "A117562",
+  "mentions": [
+    "A034087"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:37",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

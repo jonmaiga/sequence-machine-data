@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of the Kirchhoff (and Harary) index for the n-hypercube graph.",
+  "id": "A290343",
+  "mentions": [
+    "A290344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

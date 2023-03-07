@@ -1,0 +1,26 @@
+{
+  "description": "Array, read by rows: T(n,h)=floor[1/{(h+n^3)^(1/3)}], where h=1,2,...,3n^2+3n and {}=fractional part.",
+  "id": "A184532",
+  "mentions": [
+    "A000290",
+    "A007590",
+    "A013942",
+    "A033428",
+    "A080476",
+    "A184533",
+    "A184534",
+    "A184535"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 162,
+    "source": "oeis-entry"
+  }
+}

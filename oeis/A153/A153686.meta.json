@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the fractional part of (11/10)^k is less than 1/k.",
+  "id": "A153686",
+  "mentions": [
+    "A153662",
+    "A153670",
+    "A153678",
+    "A153682",
+    "A153694",
+    "A153702",
+    "A153710",
+    "A153718",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

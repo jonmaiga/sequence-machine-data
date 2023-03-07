@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer such that for all s >= a(n), there are at least n-1 different partitions of s into n parts, namely {x_{11},x_{12},...,x_{1n}}, {x_{21},x_{22},...,x_{2n}},..., and {x_{n-1,1},x_{n-1,2},...,x_{n-1,n}}, such that the products of every set are equal.",
+  "id": "A317254",
+  "mentions": [
+    "A060277",
+    "A316945",
+    "A316946"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

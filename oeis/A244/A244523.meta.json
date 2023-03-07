@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of identity trees with n nodes and maximal branching factor k.",
+  "id": "A244523",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A004111",
+    "A244372",
+    "A245747",
+    "A245748",
+    "A245749",
+    "A245750",
+    "A245751",
+    "A245752",
+    "A245753",
+    "A245754",
+    "A245755"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of, not necessarily connected, regular simple graphs on n vertices with girth exactly 4.",
+  "id": "A198314",
+  "mentions": [
+    "A026797",
+    "A185134",
+    "A185144",
+    "A185314",
+    "A185315",
+    "A185644",
+    "A186744",
+    "A198313",
+    "A198315",
+    "A198316",
+    "A198317",
+    "A198318",
+    "A210714"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

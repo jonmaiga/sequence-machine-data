@@ -1,0 +1,18 @@
+{
+  "description": "Similar to A117137 but begin each row with 0. Equals A117137 - 1.",
+  "id": "A117139",
+  "mentions": [
+    "A117137"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

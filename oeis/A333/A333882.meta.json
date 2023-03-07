@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(Sum_{k>=0} x^(5*k + 1) / (5*k + 1)!).",
+  "id": "A333882",
+  "mentions": [
+    "A000110",
+    "A003724",
+    "A306347",
+    "A333881",
+    "A333883"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal numbers m such that the product of the binary string of m and the binary string of m in reverse contains the binary string of m as a substring.",
+  "id": "A342130",
+  "mentions": [
+    "A000079",
+    "A007088",
+    "A203565",
+    "A305989",
+    "A332795",
+    "A342127"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

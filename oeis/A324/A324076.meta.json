@@ -1,0 +1,24 @@
+{
+  "description": "Integers which are the sum of distinct primes of the form 6n-1.",
+  "id": "A324076",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A002476",
+    "A007528",
+    "A048262",
+    "A048263",
+    "A048264",
+    "A048265"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:39",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

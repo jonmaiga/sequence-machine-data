@@ -1,0 +1,20 @@
+{
+  "description": "Replace each digit with its number of occurrences in decimal representation of n.",
+  "id": "A139337",
+  "mentions": [
+    "A055642",
+    "A108571"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

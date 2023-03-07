@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: Sum_{j=0..k} binomial(n, j)*binomial(k, j)*j!.",
+  "id": "A176120",
+  "mentions": [
+    "A000027",
+    "A000262",
+    "A002061",
+    "A002720",
+    "A082545",
+    "A086885",
+    "A088699",
+    "A129833",
+    "A135859",
+    "A343832"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

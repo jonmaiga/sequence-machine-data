@@ -1,0 +1,31 @@
+{
+  "description": "a(n) has base-2 representation with ones in those digit-positions where n contains ones in its factorial base representation, and zeros in all the other positions.",
+  "id": "A275736",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000225",
+    "A007489",
+    "A007623",
+    "A048675",
+    "A059590",
+    "A255411",
+    "A257261",
+    "A257511",
+    "A275727",
+    "A275730",
+    "A275732"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

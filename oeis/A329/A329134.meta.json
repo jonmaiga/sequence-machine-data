@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose differences of prime indices are a periodic word.",
+  "id": "A329134",
+  "mentions": [
+    "A000740",
+    "A027375",
+    "A056239",
+    "A112798",
+    "A121016",
+    "A124010",
+    "A152061",
+    "A178472",
+    "A328594",
+    "A329132",
+    "A329135",
+    "A329139",
+    "A329140",
+    "A329144"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

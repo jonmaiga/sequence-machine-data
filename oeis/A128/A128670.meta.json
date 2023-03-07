@@ -1,0 +1,34 @@
+{
+  "description": "Least number k > 0 such that k^n does not divide the denominator of generalized harmonic number H(k,n) nor the denominator of alternating generalized harmonic number H'(k,n).",
+  "id": "A128670",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A007410",
+    "A058312",
+    "A058313",
+    "A119682",
+    "A120296",
+    "A125581",
+    "A126196",
+    "A126197",
+    "A128671",
+    "A128672",
+    "A128673",
+    "A128674",
+    "A128675",
+    "A128676"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

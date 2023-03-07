@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic Hamiltonian cycles on 2n X 2n square grid of points with two-fold rotational symmetry (and no other symmetry).",
+  "id": "A237430",
+  "mentions": [
+    "A209077",
+    "A227257",
+    "A237429"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of subpermutations of an n-set whose orbits are each of size at most k, and without fixed points. Equivalently, T(n,k) is the number of partial derangements of an n-set each of whose orbits is of size at most k.",
+  "id": "A261762",
+  "mentions": [
+    "A144085",
+    "A157400",
+    "A261763",
+    "A261764",
+    "A261765",
+    "A261766",
+    "A261767"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

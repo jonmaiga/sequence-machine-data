@@ -1,0 +1,25 @@
+{
+  "description": "Sum of nonabundant proper divisors of n.",
+  "id": "A294888",
+  "mentions": [
+    "A001065",
+    "A263837",
+    "A294886",
+    "A294887",
+    "A294889",
+    "A294900",
+    "A294928",
+    "A294935"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

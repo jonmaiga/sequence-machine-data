@@ -1,0 +1,22 @@
+{
+  "description": "Number of undirected Knight's tours on a 3 X n board.",
+  "id": "A169696",
+  "mentions": [
+    "A118067",
+    "A169764",
+    "A169770",
+    "A169771",
+    "A169772"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

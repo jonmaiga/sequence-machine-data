@@ -1,0 +1,18 @@
+{
+  "description": "Number of different letters in the French spelling of the number n.",
+  "id": "A167508",
+  "mentions": [
+    "A167507"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

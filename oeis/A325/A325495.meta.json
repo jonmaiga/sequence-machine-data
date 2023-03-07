@@ -1,0 +1,21 @@
+{
+  "description": "Difference sequence of A325420.",
+  "id": "A325495",
+  "mentions": [
+    "A325417",
+    "A325419",
+    "A325420",
+    "A325494"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

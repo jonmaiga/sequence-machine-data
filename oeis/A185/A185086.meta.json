@@ -1,0 +1,25 @@
+{
+  "description": "Fouvry-Iwaniec primes: Primes of the form k^2 + p^2 where p is a prime.",
+  "id": "A185086",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A002144",
+    "A002313",
+    "A010052",
+    "A028916",
+    "A240130",
+    "A262340"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

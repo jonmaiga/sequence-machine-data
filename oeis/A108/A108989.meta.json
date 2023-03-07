@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n with primitive root 2; i.e., the order of 2 modulo n is phi(n).",
+  "id": "A108989",
+  "mentions": [
+    "A001122",
+    "A002326",
+    "A167791",
+    "A216838",
+    "A216848",
+    "A219030"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers which are the values of the quadratic polynomial 3+4*k+7*t+8*k*t on nonnegative integers.",
+  "id": "A213687",
+  "mentions": [
+    "A001844",
+    "A005408",
+    "A046092",
+    "A073101",
+    "A075245",
+    "A075246",
+    "A075247",
+    "A213340"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

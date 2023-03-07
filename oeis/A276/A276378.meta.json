@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that 6*n is squarefree.",
+  "id": "A276378",
+  "mentions": [
+    "A003961",
+    "A005117",
+    "A007310",
+    "A008588",
+    "A056911",
+    "A059897",
+    "A076978",
+    "A104141",
+    "A215848",
+    "A261034",
+    "A274546",
+    "A300957"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

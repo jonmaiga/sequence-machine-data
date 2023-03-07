@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into odd parts in which the largest part occurs only once.",
+  "id": "A117409",
+  "mentions": [
+    "A000009",
+    "A117408"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

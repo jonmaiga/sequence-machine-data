@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of squares and rectangles of all sizes in 3*n*(n+1)/2-ominoes in form of three-quarters of Aztec diamonds.",
+  "id": "A338996",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A002417",
+    "A004320",
+    "A045943",
+    "A258440",
+    "A330805"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:01",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

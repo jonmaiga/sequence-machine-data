@@ -1,0 +1,25 @@
+{
+  "description": "Square array: row n contains in ascending order all natural numbers k for which A246271(k)+1 = n, i.e., numbers m for which we need n-1 additional iterations of A003961, starting from A003961(m), before the result is 1 modulo 4.",
+  "id": "A246259",
+  "mentions": [
+    "A002260",
+    "A003961",
+    "A004736",
+    "A246258",
+    "A246261",
+    "A246271",
+    "A246278",
+    "A246280"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

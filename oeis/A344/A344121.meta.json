@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the multiplicative inverse of 24 (mod 7^n).",
+  "id": "A344121",
+  "mentions": [
+    "A340757",
+    "A340957",
+    "A344120"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:43:43",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

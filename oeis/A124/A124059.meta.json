@@ -1,0 +1,39 @@
+{
+  "description": "Number of connected asymmetric graphs with n nodes.",
+  "id": "A124059",
+  "mentions": [
+    "A003400",
+    "A241454",
+    "A241455",
+    "A241456",
+    "A241457",
+    "A241458",
+    "A241459",
+    "A241460",
+    "A241461",
+    "A241462",
+    "A241463",
+    "A241464",
+    "A241465",
+    "A241466",
+    "A241467",
+    "A241468",
+    "A241469",
+    "A241470",
+    "A241471",
+    "A275867"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

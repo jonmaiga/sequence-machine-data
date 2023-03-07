@@ -1,0 +1,21 @@
+{
+  "description": "Limiting 1-word of the morphism 0 -> 11, 1 -> 01.",
+  "id": "A285384",
+  "mentions": [
+    "A072939",
+    "A285383",
+    "A285385"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) = coefficient of x^n in the Taylor expansion of [(1-(1-8*x)^(1/4))/(1+(1-8*x)^(1/4))]^m.",
+  "id": "A202550",
+  "mentions": [
+    "A101478"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

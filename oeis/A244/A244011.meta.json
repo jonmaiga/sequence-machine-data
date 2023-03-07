@@ -1,0 +1,19 @@
+{
+  "description": "The quotient when A243700(n) is calculated.",
+  "id": "A244011",
+  "mentions": [
+    "A243700",
+    "A244010"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

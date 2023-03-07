@@ -1,0 +1,25 @@
+{
+  "description": "Arithmetic derivative of the sum of the divisors of the largest unitary divisor of n that is a square.",
+  "id": "A351570",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A342925",
+    "A350388",
+    "A351568",
+    "A351571",
+    "A351572",
+    "A351575"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

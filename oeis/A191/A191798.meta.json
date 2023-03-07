@@ -1,0 +1,20 @@
+{
+  "description": "Number of essentially different ways of arranging numbers 1 through 2*n around a circle so that the sums of each pair of adjacent numbers are neither all prime nor all composite.",
+  "id": "A191798",
+  "mentions": [
+    "A051252",
+    "A191374"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

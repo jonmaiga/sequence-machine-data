@@ -1,0 +1,24 @@
+{
+  "description": "Length of the longest simple path in the divisor graph of {1,...,n}.",
+  "id": "A337125",
+  "mentions": [
+    "A034298",
+    "A035280",
+    "A320536",
+    "A339490",
+    "A339491",
+    "A347698"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

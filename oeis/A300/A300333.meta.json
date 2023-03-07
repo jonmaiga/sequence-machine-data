@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = max{ p prime | n = Sum_{j in 0:p-1} x^j*y^(p-j-1)} where x and y are positive integers with max(x, y) >= 2 or 0 if no such representation exists.",
+  "id": "A300333",
+  "mentions": [
+    "A001348",
+    "A300332"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

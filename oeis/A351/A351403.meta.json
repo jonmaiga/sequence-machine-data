@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: (1 - x) = Product_{i>=1, j>=1} A(x^(i*j)).",
+  "id": "A351403",
+  "mentions": [
+    "A000005",
+    "A007427",
+    "A101035",
+    "A117208",
+    "A288098",
+    "A351402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

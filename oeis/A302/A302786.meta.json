@@ -1,0 +1,27 @@
+{
+  "description": "Index of the smallest Fermi-Dirac factor of n, a(1) = 0 by convention: a(n) = A302778(A223490(n)).",
+  "id": "A302786",
+  "mentions": [
+    "A001511",
+    "A050376",
+    "A052331",
+    "A055396",
+    "A223490",
+    "A302778",
+    "A302785",
+    "A302787",
+    "A302788",
+    "A302789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

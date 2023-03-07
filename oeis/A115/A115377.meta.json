@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the first n digits of sqrt(2) form a prime.",
+  "id": "A115377",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

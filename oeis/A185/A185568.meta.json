@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X2 0..3 arrays with every 2X2 subblock sum equal to some horizontal or vertical neighbor 2X2 subblock sum",
+  "id": "A185568",
+  "mentions": [
+    "A185571"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The n-th term is the n-th composite if n is prime, and the n-th prime if n is not prime.",
+  "id": "A236676",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A018252",
+    "A026234",
+    "A088608",
+    "A097457",
+    "A236675"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - log(1 + x))^4.",
+  "id": "A354121",
+  "mentions": [
+    "A006252",
+    "A226738",
+    "A317280",
+    "A354120",
+    "A354123"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

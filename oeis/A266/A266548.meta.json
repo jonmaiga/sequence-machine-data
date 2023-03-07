@@ -1,0 +1,29 @@
+{
+  "description": "Least prime p such that n + p^3 = x^2 + y^3 for some positive integers x and y, or 0 if no such prime p exists.",
+  "id": "A266548",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000578",
+    "A055394",
+    "A266152",
+    "A266153",
+    "A266230",
+    "A266231",
+    "A266277",
+    "A266314",
+    "A266363",
+    "A266364",
+    "A266528"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

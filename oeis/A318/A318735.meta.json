@@ -1,0 +1,22 @@
+{
+  "description": "Positive records in A318734.",
+  "id": "A318735",
+  "mentions": [
+    "A000005",
+    "A099774",
+    "A318734",
+    "A318736",
+    "A318737",
+    "A318738"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

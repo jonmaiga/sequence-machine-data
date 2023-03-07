@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose sum of anti-divisors is equal to the sum of the divisors of their arithmetic derivative.",
+  "id": "A249912",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A066417",
+    "A229342"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

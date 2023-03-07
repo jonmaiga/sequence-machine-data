@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of nonnegative integers induced by Basilica group generating wreath recursion: a = (1,b), b = s(1,a), starting from the inactive (fixing) state a.",
+  "id": "A154439",
+  "mentions": [
+    "A054429",
+    "A072376",
+    "A153141",
+    "A153142",
+    "A154435",
+    "A154436",
+    "A154440",
+    "A154441",
+    "A154443",
+    "A154445",
+    "A154448",
+    "A154449"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

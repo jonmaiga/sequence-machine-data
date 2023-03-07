@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers whose sum of unitary divisors is a multiple of the sum of their aliquot parts.",
+  "id": "A273813",
+  "mentions": [
+    "A001065",
+    "A034448",
+    "A064591"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A000110 / A014182: (A154107 convolved with A014182 = Bell numbers).",
+  "id": "A154107",
+  "mentions": [
+    "A000110",
+    "A014182"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

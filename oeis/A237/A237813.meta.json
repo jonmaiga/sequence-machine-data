@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 2*p+1 and 2*p+15 are also prime.",
+  "id": "A237813",
+  "mentions": [
+    "A126107",
+    "A237810",
+    "A237811",
+    "A237812",
+    "A237814"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

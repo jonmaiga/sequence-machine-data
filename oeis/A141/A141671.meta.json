@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of coefficients as a modular shifted triangular sequence: t(n,m) = If[m == 0, n + 1, If[Mod[n, m] == 0, n/m, 0]].",
+  "id": "A141671",
+  "mentions": [
+    "A141672"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

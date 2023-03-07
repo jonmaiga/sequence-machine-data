@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = Sum_{i=1..n} BM[k][i] where BM is the BellMatrix(x -> x mod n) as defined in A264428. Square array read by ascending antidiagonals for n >= 1 and k >= 1.",
+  "id": "A327005",
+  "mentions": [
+    "A001850",
+    "A005046",
+    "A264428",
+    "A327006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A000012 * A051731^3.",
+  "id": "A140703",
+  "mentions": [
+    "A000012",
+    "A051731",
+    "A061201",
+    "A061202"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

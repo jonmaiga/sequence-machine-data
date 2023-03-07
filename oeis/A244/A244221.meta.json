@@ -1,0 +1,25 @@
+{
+  "description": "Parity of Greedy Catalan Base representation for n: a(n) = A014418(n) reduced modulo 2.",
+  "id": "A244221",
+  "mentions": [
+    "A000035",
+    "A014418",
+    "A244161",
+    "A244220",
+    "A244223",
+    "A244225",
+    "A244226",
+    "A244227"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:03:51",
+    "offset": 0,
+    "size": 133,
+    "source": "joeis"
+  }
+}

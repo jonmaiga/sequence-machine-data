@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients in quasimodular form 12*F_3(q) of level 1 and weight 12.",
+  "id": "A126861",
+  "mentions": [
+    "A006352",
+    "A008411",
+    "A126858",
+    "A126859",
+    "A126860",
+    "A280024",
+    "A280869",
+    "A282102",
+    "A282752",
+    "A282780",
+    "A308285"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

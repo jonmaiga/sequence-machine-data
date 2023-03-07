@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 7*k + 5 is prime.",
+  "id": "A111367",
+  "mentions": [
+    "A017041",
+    "A045458",
+    "A111224"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

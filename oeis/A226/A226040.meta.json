@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = product{ p prime such that p divides n + 1 and p - 1 does not divide n }.",
+  "id": "A226040",
+  "mentions": [
+    "A141056",
+    "A160014",
+    "A225481",
+    "A226038",
+    "A226039"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

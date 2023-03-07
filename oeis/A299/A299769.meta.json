@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of all squares of the parts k in the last section of the set of partitions of n, with n >= 1, 1 <= k <= n.",
+  "id": "A299769",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000290",
+    "A066183",
+    "A135010",
+    "A206438",
+    "A206440",
+    "A299768"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

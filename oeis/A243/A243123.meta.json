@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n in which the maximal multiplicity of parts equals 6.",
+  "id": "A243123",
+  "mentions": [
+    "A242447",
+    "A243081",
+    "A243083",
+    "A243084"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 6,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

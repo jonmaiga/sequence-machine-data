@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest proper multiple of 2n+1 which contains only odd digits, or -1 if no such multiple exists.",
+  "id": "A350536",
+  "mentions": [
+    "A014261",
+    "A061810",
+    "A061829",
+    "A078221",
+    "A296009",
+    "A350538"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

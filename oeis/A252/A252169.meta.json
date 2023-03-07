@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for sqrt(Pi*phi) where phi is the golden ratio A001622.",
+  "id": "A252169",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A094886",
+    "A253301"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

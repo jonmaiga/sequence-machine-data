@@ -1,0 +1,20 @@
+{
+  "description": "The nome q=exp(T_C/T_R)=Sum_{n>=0} a(n)*(x/27)^n follows from the series solutions of 2*T-d/dx(9*(1-x)*x*dT/dx)=0.",
+  "id": "A308835",
+  "mentions": [
+    "A005797",
+    "A006480",
+    "A308836",
+    "A308837"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

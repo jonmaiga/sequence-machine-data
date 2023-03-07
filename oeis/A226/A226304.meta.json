@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of certain polynomials P_n(x) arising in the enumeration of tatami mat coverings.",
+  "id": "A226304",
+  "mentions": [
+    "A226302",
+    "A226303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 123,
+    "source": "oeis-entry"
+  }
+}

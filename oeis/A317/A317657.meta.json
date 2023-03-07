@@ -1,0 +1,24 @@
+{
+  "description": "Numbers congruent to {15, 75, 95} mod 100.",
+  "id": "A317657",
+  "mentions": [
+    "A008587",
+    "A008854",
+    "A047205",
+    "A090772",
+    "A290781",
+    "A317633"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:35",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

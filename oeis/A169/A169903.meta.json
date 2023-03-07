@@ -1,0 +1,27 @@
+{
+  "description": "Primitive primes in carryless arithmetic mod 10.",
+  "id": "A169903",
+  "mentions": [
+    "A004520",
+    "A058943",
+    "A058945",
+    "A059729",
+    "A168294",
+    "A168541",
+    "A169884",
+    "A169885",
+    "A169886",
+    "A169887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

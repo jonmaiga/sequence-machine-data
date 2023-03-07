@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the product of palindromic divisors of n.",
+  "id": "A184392",
+  "mentions": [
+    "A007955",
+    "A087990",
+    "A087991",
+    "A088000",
+    "A088001",
+    "A179937"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

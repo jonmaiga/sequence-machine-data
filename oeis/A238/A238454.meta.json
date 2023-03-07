@@ -1,0 +1,23 @@
+{
+  "description": "Difference between 2^(2*n-1) and the next larger square.",
+  "id": "A238454",
+  "mentions": [
+    "A000035",
+    "A000079",
+    "A056008",
+    "A201125",
+    "A236564"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest positive number m not yet in the sequence with the property that the sum of the even digits of m and the sum of the odd digits of m differ by n.",
+  "id": "A341011",
+  "mentions": [
+    "A009994",
+    "A036301",
+    "A341002",
+    "A341003",
+    "A341004",
+    "A341005",
+    "A341006",
+    "A341007",
+    "A341008",
+    "A341009",
+    "A341010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

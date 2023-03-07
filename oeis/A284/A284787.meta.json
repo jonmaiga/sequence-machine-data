@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers representable in at least two ways as the sum of two odd composites.",
+  "id": "A284787",
+  "mentions": [
+    "A076770",
+    "A284788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

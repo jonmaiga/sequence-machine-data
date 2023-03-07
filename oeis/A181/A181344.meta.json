@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n matrices over {0,1} with rows and columns summing to 3, rows and columns sorted (>=) by value.",
+  "id": "A181344",
+  "mentions": [
+    "A000512",
+    "A001501",
+    "A181345"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows in which row n lists the first 2^(n-1) terms of A003602.",
+  "id": "A167204",
+  "mentions": [
+    "A003602",
+    "A099627",
+    "A124922",
+    "A161924",
+    "A167201",
+    "A167202",
+    "A167979"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

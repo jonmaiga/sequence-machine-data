@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x) * ( d/dx x*A(x)^3 ).",
+  "id": "A317353",
+  "mentions": [
+    "A088716",
+    "A317352",
+    "A317354"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

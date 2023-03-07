@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and 8*k, taken together, are pandigital.",
+  "id": "A114126",
+  "mentions": [
+    "A054383",
+    "A115922",
+    "A115923",
+    "A115924",
+    "A115925",
+    "A115927"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

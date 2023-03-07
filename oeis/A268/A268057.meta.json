@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), 1<=k<=n, read by rows: T(n,k) = number of iterations of A048158(n, A048158(n, ... A048158(n, k)...)) to reach 0.",
+  "id": "A268057",
+  "mentions": [
+    "A003418",
+    "A048158",
+    "A107435",
+    "A268058",
+    "A268059",
+    "A268060"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

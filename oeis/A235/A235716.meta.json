@@ -1,0 +1,19 @@
+{
+  "description": "Average of twin prime pairs n having their decimal expansion of the form abcabc or abcabc0 such that n contains three twin primes as divisors.",
+  "id": "A235716",
+  "mentions": [
+    "A235483"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

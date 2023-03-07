@@ -1,0 +1,25 @@
+{
+  "description": "Number of inversion sequences of length n where all consecutive subsequences i,j,k satisfy i > j <= k or i <= j > k.",
+  "id": "A328491",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A000225",
+    "A001250",
+    "A328357",
+    "A328358",
+    "A328409",
+    "A328425"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

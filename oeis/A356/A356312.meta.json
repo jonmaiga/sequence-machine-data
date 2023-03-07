@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A003415(k) and A276086(k) are not relatively prime, where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A356312",
+  "mentions": [
+    "A003415",
+    "A046337",
+    "A276086",
+    "A324584",
+    "A327858",
+    "A356310",
+    "A356311"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

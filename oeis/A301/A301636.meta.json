@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals upwards, n >= 0 and k >= 0: T(n, k) = square of the distance from n + k*i to nearest square of a Gaussian integer (where i denotes the root of -1 with positive imaginary part).",
+  "id": "A301636",
+  "mentions": [
+    "A000290",
+    "A001105",
+    "A053188",
+    "A301626"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

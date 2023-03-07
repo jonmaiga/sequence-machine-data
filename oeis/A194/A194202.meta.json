@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [Sum_{k=1..n} (2k*e)], where [ ]=floor, ( )=fractional part.",
+  "id": "A194202",
+  "mentions": [
+    "A194203"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct values v satisfying v = sum of elements in S = product of elements in P for any partition of {1,...,n} into two sets S and P.",
+  "id": "A213237",
+  "mentions": [
+    "A178830",
+    "A207852",
+    "A213238"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

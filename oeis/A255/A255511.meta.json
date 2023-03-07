@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of a constant related to A255358.",
+  "id": "A255511",
+  "mentions": [
+    "A074962",
+    "A243262",
+    "A243263",
+    "A243264",
+    "A243265",
+    "A255358",
+    "A255438",
+    "A255439",
+    "A255504",
+    "A259068"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

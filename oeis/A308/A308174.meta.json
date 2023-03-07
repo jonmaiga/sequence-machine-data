@@ -1,0 +1,18 @@
+{
+  "description": "Let EM denote the Ehrenfeucht-Mycielski sequence A038219, and let P(n) = [EM(1),...,EM(n)]. To compute EM(n+1) for n>=3, we find the longest suffix S (say) of P(n) which has previously appeared in P(n). Suppose the most recent appearance of S began at index n-t(n). Then a(n) = length of S, while t(n) is given in A308175.",
+  "id": "A308174",
+  "mentions": [
+    "A038219",
+    "A308175"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 3,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

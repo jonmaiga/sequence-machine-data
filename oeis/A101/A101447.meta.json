@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (2*k+1)*(n+1-k), 0 <= k < n.",
+  "id": "A101447",
+  "mentions": [
+    "A000027",
+    "A000330",
+    "A008585",
+    "A008587",
+    "A008589",
+    "A024966",
+    "A028896",
+    "A045943",
+    "A094728"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:43:39",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

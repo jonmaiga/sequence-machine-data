@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number k such that the difference between the next prime greater than k and k equals n.",
+  "id": "A309877",
+  "mentions": [
+    "A000101",
+    "A000230",
+    "A007918",
+    "A007920",
+    "A013632",
+    "A051652",
+    "A075403",
+    "A077019",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

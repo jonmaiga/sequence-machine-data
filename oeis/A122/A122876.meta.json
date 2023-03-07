@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=1, a(1)=1, a(2)=2, a(n) = a(n-1) - a(n-2) for n>2.",
+  "id": "A122876",
+  "mentions": [
+    "A055830",
+    "A057079",
+    "A087204",
+    "A100051"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:29:03",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

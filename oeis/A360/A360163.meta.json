@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of the square roots of the divisors of n that are odd squares.",
+  "id": "A360163",
+  "mentions": [
+    "A001620",
+    "A069290",
+    "A336649",
+    "A347176"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

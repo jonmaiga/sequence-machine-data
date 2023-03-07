@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = (-1)^n * Sum_{j=0..n} (-2)^j * binomial(n,j) * binomial(k*n+j+1,n)/(k*n+j+1).",
+  "id": "A336573",
+  "mentions": [
+    "A001003",
+    "A003168",
+    "A011782",
+    "A243659",
+    "A243667",
+    "A243668",
+    "A336495",
+    "A336534",
+    "A336574",
+    "A336575"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers j + k*sqrt(2) of length n, where the length is the least number of steps to reach 0, the allowable steps being x -> x + 1 and x -> x*sqrt(2).",
+  "id": "A254729",
+  "mentions": [
+    "A000032",
+    "A080023",
+    "A169985",
+    "A252864"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of resistance values that can be obtained from a network of exactly 10 one-ohm resistors, but not from any network with fewer than 10 one-ohm resistors. Denominators are in A338590.",
+  "id": "A338580",
+  "mentions": [
+    "A180414",
+    "A338197",
+    "A338590",
+    "A338595",
+    "A338596",
+    "A338597",
+    "A338598",
+    "A338599"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "frac",
+    "full",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

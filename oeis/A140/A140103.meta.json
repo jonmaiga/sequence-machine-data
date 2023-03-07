@@ -1,0 +1,29 @@
+{
+  "description": "Term-by-term sums of A140101 and A140100; also, equals the complement of A140102, which is the term-by-term differences of A140101 and A140100, where A140101 is the complement of A140100.",
+  "id": "A140103",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A058265",
+    "A140100",
+    "A140101",
+    "A140102",
+    "A276800",
+    "A305374",
+    "A305392",
+    "A305393",
+    "A305394"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

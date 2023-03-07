@@ -1,0 +1,21 @@
+{
+  "description": "Sophie Germain 5-almost primes.",
+  "id": "A211162",
+  "mentions": [
+    "A014614",
+    "A111153",
+    "A111173",
+    "A111176"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

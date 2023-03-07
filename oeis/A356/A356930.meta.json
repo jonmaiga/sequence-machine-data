@@ -1,0 +1,42 @@
+{
+  "description": "Numbers whose prime indices have all odd prime indices. MM-numbers of finite multisets of finite multisets of odd numbers.",
+  "id": "A356930",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000688",
+    "A000720",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003963",
+    "A011782",
+    "A055887",
+    "A056239",
+    "A066208",
+    "A076610",
+    "A089259",
+    "A112798",
+    "A302242",
+    "A302478",
+    "A302492",
+    "A304969",
+    "A356931",
+    "A356935",
+    "A356939",
+    "A356940",
+    "A356944",
+    "A356955"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Values of y solving x^2 = floor(y^2/3 + y).",
+  "id": "A232765",
+  "mentions": [
+    "A001570",
+    "A005320",
+    "A011943",
+    "A110293",
+    "A232771"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

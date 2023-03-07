@@ -1,0 +1,20 @@
+{
+  "description": "Lower bounds for minimal number of simplices in a triangulation of the n-dimensional cube (A019503).",
+  "id": "A166932",
+  "mentions": [
+    "A019502",
+    "A019503",
+    "A019504"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

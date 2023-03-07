@@ -1,0 +1,24 @@
+{
+  "description": "An odious count.",
+  "id": "A102390",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A008619",
+    "A010060",
+    "A102389"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

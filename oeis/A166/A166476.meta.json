@@ -1,0 +1,19 @@
+{
+  "description": "Number of stable n-celled patterns (\"still lifes\") in the 2x2 (B36/S125) cellular automaton.",
+  "id": "A166476",
+  "mentions": [
+    "A019473"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

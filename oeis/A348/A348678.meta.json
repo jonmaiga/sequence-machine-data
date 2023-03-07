@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n, k) = denominator([x^k] M(n, x)) where M(n,x) are the Mandelbrot-Larsen polynomials defined in A347928.",
+  "id": "A348678",
+  "mentions": [
+    "A046161",
+    "A088802",
+    "A123854",
+    "A347928",
+    "A348679"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

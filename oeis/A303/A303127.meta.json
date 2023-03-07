@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of proton magnetic moment to Bohr magneton ratio.",
+  "id": "A303127",
+  "mentions": [
+    "A230438",
+    "A238200",
+    "A303126",
+    "A303128"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": -2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

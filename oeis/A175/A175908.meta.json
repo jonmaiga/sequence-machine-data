@@ -1,0 +1,20 @@
+{
+  "description": "3*sum(k=1..n, floor(k^2/n)) - n^2.",
+  "id": "A175908",
+  "mentions": [
+    "A000290",
+    "A014817",
+    "A020893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

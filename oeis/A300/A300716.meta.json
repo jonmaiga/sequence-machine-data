@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) = Product_{d|n, 1",
+  "id": "A300716",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A292258",
+    "A294897",
+    "A297174",
+    "A300250",
+    "A300827"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

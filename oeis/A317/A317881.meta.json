@@ -1,0 +1,28 @@
+{
+  "description": "Number of series-reduced free pure identity multifunctions (with empty expressions allowed) with one atom and n positions.",
+  "id": "A317881",
+  "mentions": [
+    "A001003",
+    "A001678",
+    "A067824",
+    "A167865",
+    "A277996",
+    "A280000",
+    "A317875",
+    "A317876",
+    "A317877",
+    "A317878",
+    "A317879",
+    "A317880"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

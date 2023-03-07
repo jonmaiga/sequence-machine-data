@@ -1,0 +1,18 @@
+{
+  "description": "Start with S = {}. For m = 1, 2, 3, ... in turn, examine all 2^m m-bit strings u in arithmetic order. If u is not a substring of S, append the minimal number of 0's and 1's to S to remedy this. Sequence gives S.",
+  "id": "A108736",
+  "mentions": [
+    "A108737"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

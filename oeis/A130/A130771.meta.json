@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n not divisible by 3 for which neither 2n-3 nor 2n+3 are primes.",
+  "id": "A130771",
+  "mentions": [
+    "A001651",
+    "A130699"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f.: 1/(2 - exp(x) - sinh(x)).",
+  "id": "A352326",
+  "mentions": [
+    "A000670",
+    "A006154",
+    "A028296",
+    "A094088",
+    "A352327",
+    "A352617"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

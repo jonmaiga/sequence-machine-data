@@ -1,0 +1,21 @@
+{
+  "description": "Characteristic function of balanced numbers: a(n) = 1 if phi(n) divides sigma(n), otherwise 0.",
+  "id": "A351114",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A063514"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "One-based column index of n in array A255555.",
+  "id": "A255559",
+  "mentions": [
+    "A005187",
+    "A055938",
+    "A070939",
+    "A213714",
+    "A254111",
+    "A255555",
+    "A255557",
+    "A255560",
+    "A256478",
+    "A256989",
+    "A256993"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

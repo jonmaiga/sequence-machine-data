@@ -1,0 +1,31 @@
+{
+  "description": "Number of divisors d|n such that no other divisor of n has the same Heinz weight A056239(d).",
+  "id": "A301855",
+  "mentions": [
+    "A000712",
+    "A056239",
+    "A108917",
+    "A112798",
+    "A122768",
+    "A275972",
+    "A276024",
+    "A284640",
+    "A296150",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301830",
+    "A301854",
+    "A301856"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

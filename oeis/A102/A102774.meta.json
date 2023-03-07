@@ -1,0 +1,17 @@
+{
+  "description": "Values of x arising from representations of n >= 11 in A085514.",
+  "id": "A102774",
+  "mentions": [
+    "A085514"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

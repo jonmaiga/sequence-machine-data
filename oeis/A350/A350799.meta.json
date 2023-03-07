@@ -1,0 +1,20 @@
+{
+  "description": "The number of decimal places of Pi that are computed correctly when using Machin's formula with n terms of the Taylor series.",
+  "id": "A350799",
+  "mentions": [
+    "A000796",
+    "A096954",
+    "A096955"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

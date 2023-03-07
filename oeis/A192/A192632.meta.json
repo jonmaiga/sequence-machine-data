@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the Diophantus-Dujella rational Diophantine quintuple: 1 + the product of any two distinct terms is a square.",
+  "id": "A192632",
+  "mentions": [
+    "A030063",
+    "A192629",
+    "A192630",
+    "A192631"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

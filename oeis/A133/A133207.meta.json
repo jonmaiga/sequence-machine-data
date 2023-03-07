@@ -1,0 +1,19 @@
+{
+  "description": "Strobogrammatic non-palindromic primes.",
+  "id": "A133207",
+  "mentions": [
+    "A007597",
+    "A068188"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

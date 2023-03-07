@@ -1,0 +1,18 @@
+{
+  "description": "Convert number n to each of the bases from 2 to 10. a(n) is the minimum base that maximizes the sum of digits.",
+  "id": "A254596",
+  "mentions": [
+    "A254597"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

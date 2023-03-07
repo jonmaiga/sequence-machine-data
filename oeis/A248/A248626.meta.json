@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that prime(m+n) divides 2^m - 1.",
+  "id": "A248626",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A248588"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

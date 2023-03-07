@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime p such that the multiplicative order of 10 modulo p is 3^n.",
+  "id": "A122787",
+  "mentions": [
+    "A014950",
+    "A066364"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

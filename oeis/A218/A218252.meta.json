@@ -1,0 +1,25 @@
+{
+  "description": "Start with 1. For each term m, the next term is the smallest positive integer k such that k - (sum of base 2 digits of k) = m. If no such k exists, use the smallest natural number not already in the sequence.",
+  "id": "A218252",
+  "mentions": [
+    "A000012",
+    "A000120",
+    "A005187",
+    "A011371",
+    "A213723",
+    "A218253",
+    "A218254",
+    "A257676",
+    "A257683"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

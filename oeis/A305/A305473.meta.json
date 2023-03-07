@@ -1,0 +1,26 @@
+{
+  "description": "Let k be a Sierpiński or Riesel number divisible by 2*n - 1, and let p be the largest number in a set of primes which cover every number of the form k*2^m + 1 (or of the form k*2^m - 1) with m >= 1. a(n) = p if and only if there exists no number k that has a covering set with largest prime < p.",
+  "id": "A305473",
+  "mentions": [
+    "A076336",
+    "A101036",
+    "A187714",
+    "A187716",
+    "A213529",
+    "A222534",
+    "A244071",
+    "A244562",
+    "A306151"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

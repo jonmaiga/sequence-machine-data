@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n such that n^2 divided by the digital root of n is a square.",
+  "id": "A236652",
+  "mentions": [
+    "A010888",
+    "A236653"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:23",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

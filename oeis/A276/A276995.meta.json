@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n,k) = k^(n-k)*(n-k)!*Sum_{j=0..n-k}(-1)^j/j! for 0<=k<=n.",
+  "id": "A276995",
+  "mentions": [
+    "A000166",
+    "A277004"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

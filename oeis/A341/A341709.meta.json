@@ -1,0 +1,19 @@
+{
+  "description": "Write n as a sum of powers of 2 then replace each power of 2 in the sum by its decimal reversal A004094(n).",
+  "id": "A341709",
+  "mentions": [
+    "A004094",
+    "A341707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

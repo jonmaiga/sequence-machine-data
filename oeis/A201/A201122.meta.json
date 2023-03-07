@@ -1,0 +1,20 @@
+{
+  "description": "Differences between odd powers of 6 and the next smaller square",
+  "id": "A201122",
+  "mentions": [
+    "A051217",
+    "A200440",
+    "A200506"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

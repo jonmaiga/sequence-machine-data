@@ -1,0 +1,20 @@
+{
+  "description": "Dimension of space of invariants of n-th tensor power of the 26-dimensional fundamental (or \"standard\") irreducible representation of F_4.",
+  "id": "A353173",
+  "mentions": [
+    "A005789",
+    "A059710",
+    "A095922",
+    "A179685"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled nonseparable (or 2-connected) multigraphs with n edges on k nodes and degree >= 3 at each node, loops allowed, n >= 2, 1 <= k <= floor(2*n/3).",
+  "id": "A360870",
+  "mentions": [
+    "A014616",
+    "A046752",
+    "A322115",
+    "A360862",
+    "A360866",
+    "A360871"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

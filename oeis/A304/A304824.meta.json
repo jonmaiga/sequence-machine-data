@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of central binomial coefficients and partition numbers.",
+  "id": "A304824",
+  "mentions": [
+    "A000041",
+    "A000984",
+    "A014329",
+    "A304823"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-tuples of numbers [0..5] (leading zeros allowed) in which adjacent digits differ by 4 or less.",
+  "id": "A126501",
+  "mentions": [
+    "A054458",
+    "A126360",
+    "A126393",
+    "A126474"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:12:06",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Initial member of 10 consecutive primes {a, b, c, d, e, f, g, h, i, j} such that (j - e) = (i - d) = (h - c) = (g - b) = (f - a).",
+  "id": "A293393",
+  "mentions": [
+    "A000040",
+    "A292618",
+    "A292715",
+    "A292743"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

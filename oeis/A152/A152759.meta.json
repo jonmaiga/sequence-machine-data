@@ -1,0 +1,32 @@
+{
+  "description": "3 times 9-gonal (or nonagonal) numbers: 3n(7n-5)/2.",
+  "id": "A152759",
+  "mentions": [
+    "A001106",
+    "A033428",
+    "A045943",
+    "A062741",
+    "A094159",
+    "A139268",
+    "A152751",
+    "A152767",
+    "A152773",
+    "A153448",
+    "A153783",
+    "A153875",
+    "A226491",
+    "A226492"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

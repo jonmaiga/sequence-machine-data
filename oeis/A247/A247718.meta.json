@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{0..Pi/2} exp(t)*cos(t) dt.",
+  "id": "A247718",
+  "mentions": [
+    "A042972",
+    "A097666"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

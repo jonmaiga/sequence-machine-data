@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} (Product_{j=1..k} (1 + x^(k*j))^(k*j)).",
+  "id": "A327065",
+  "mentions": [
+    "A028377",
+    "A192065",
+    "A211856",
+    "A280541",
+    "A294842",
+    "A327063",
+    "A327064",
+    "A327068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

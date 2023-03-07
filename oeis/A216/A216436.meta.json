@@ -1,0 +1,20 @@
+{
+  "description": "For g=A201557(n), define a(n) as the prime p|g such that G(g/p) is maximum, where G(k) = sigma(k)/(k*log(log(k))).",
+  "id": "A216436",
+  "mentions": [
+    "A000203",
+    "A197638",
+    "A201557"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

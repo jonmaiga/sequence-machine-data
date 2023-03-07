@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A101036(n) - A076336(n).",
+  "id": "A271110",
+  "mentions": [
+    "A076336",
+    "A101036"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

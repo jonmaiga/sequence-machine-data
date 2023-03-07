@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing -2..2 vectors of length n whose dot product with some nonincreasing -2..2 vector equals n",
+  "id": "A226393",
+  "mentions": [
+    "A226398"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of ON-cells in the completed n-th level of a triangular wedge in the hexagonal grid of A151723 (i.e., after 2^k >= n generations of the automaton in A151723 have been computed).",
+  "id": "A334164",
+  "mentions": [
+    "A000051",
+    "A036563",
+    "A052548",
+    "A083686",
+    "A151723",
+    "A164094",
+    "A169781",
+    "A181565",
+    "A195744",
+    "A196657",
+    "A206371",
+    "A334169"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of Hamiltonian cycles in C_6 X P_n.",
+  "id": "A180582",
+  "mentions": [
+    "A003699",
+    "A003731",
+    "A180583",
+    "A180584",
+    "A180585",
+    "A180586",
+    "A180587",
+    "A180588"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

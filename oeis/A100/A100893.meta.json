@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest n-digit prime formed by appending a digit to a(n-1); a(1) = 2.",
+  "id": "A100893",
+  "mentions": [
+    "A048549",
+    "A065122",
+    "A088603",
+    "A127889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

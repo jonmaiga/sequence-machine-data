@@ -1,0 +1,21 @@
+{
+  "description": "Triangular sequence: The Fibonacci sequence on the diagonal, 1's at all other places",
+  "id": "A137773",
+  "mentions": [
+    "A002062",
+    "A130296"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Each entry is the first of three consecutive primes with equal digital sum.",
+  "id": "A209396",
+  "mentions": [
+    "A066540",
+    "A209663",
+    "A210629"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

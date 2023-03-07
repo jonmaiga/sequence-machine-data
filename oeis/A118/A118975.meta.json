@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: row n consists of M times n-th-order Farey fractions, where M is the LCM of their denominators.",
+  "id": "A118975",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A093594"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

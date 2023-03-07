@@ -1,0 +1,25 @@
+{
+  "description": "Determinant of the 2*n X 2*n matrix with (i,j)-entry equal to 1 or 0 according as i + j is a prime congruent to 1 mod 4 or not.",
+  "id": "A228574",
+  "mentions": [
+    "A002144",
+    "A069191",
+    "A228552",
+    "A228557",
+    "A228559",
+    "A228561",
+    "A228591",
+    "A228615",
+    "A228616"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

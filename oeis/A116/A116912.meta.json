@@ -1,0 +1,21 @@
+{
+  "description": "In prime factorization of n replace all primes of form k*6+1 with k*6+5 and primes of form k*6+5 with k*6+1.",
+  "id": "A116912",
+  "mentions": [
+    "A002476",
+    "A003627",
+    "A072010"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

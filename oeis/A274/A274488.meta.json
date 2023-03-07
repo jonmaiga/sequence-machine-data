@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having least column-height k (n>=2, k>=1).",
+  "id": "A274488",
+  "mentions": [
+    "A008909",
+    "A082582",
+    "A188464",
+    "A273350",
+    "A274490"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

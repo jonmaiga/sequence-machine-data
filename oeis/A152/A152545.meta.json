@@ -1,0 +1,22 @@
+{
+  "description": "Padovan-Fibonacci triangle, read by rows, where the first column equals the Padovan spiral numbers (A134816), while the row sums equal the Fibonacci numbers (A000045).",
+  "id": "A152545",
+  "mentions": [
+    "A000045",
+    "A000931",
+    "A134816",
+    "A152546"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

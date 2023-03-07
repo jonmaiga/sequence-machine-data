@@ -1,0 +1,21 @@
+{
+  "description": "Number of car parking assignments of n cars in n spaces, if one car does not park.",
+  "id": "A140647",
+  "mentions": [
+    "A000272",
+    "A007830",
+    "A016777",
+    "A264902"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

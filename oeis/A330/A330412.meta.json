@@ -1,0 +1,24 @@
+{
+  "description": "Integers m such that sigma(m) + sigma(8*m) = 18*m.",
+  "id": "A330412",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002236",
+    "A050524",
+    "A136539",
+    "A281993",
+    "A330413"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:26",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

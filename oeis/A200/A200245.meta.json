@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A200244.",
+  "id": "A200245",
+  "mentions": [
+    "A200244"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:23:59",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

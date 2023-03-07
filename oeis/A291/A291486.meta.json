@@ -1,0 +1,23 @@
+{
+  "description": "The decimal expansion of Gamma''''(1).",
+  "id": "A291486",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A002117",
+    "A081855",
+    "A261509"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 2,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

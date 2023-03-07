@@ -1,0 +1,18 @@
+{
+  "description": "Indices of primes in the 11th-order Fibonacci number sequence, A127624.",
+  "id": "A257966",
+  "mentions": [
+    "A127624",
+    "A257967"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

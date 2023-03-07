@@ -1,0 +1,22 @@
+{
+  "description": "Let G be the undirected graph with nodes {g_k, k > 0} such that for any k > 0, g_k is connected to g_{k+1} and g_{A064413(k)} is connected to g_{A064413(k+1)}; a(n) is the distance between g_1 and g_n.",
+  "id": "A339731",
+  "mentions": [
+    "A064413",
+    "A064664",
+    "A339695",
+    "A339732",
+    "A339733"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

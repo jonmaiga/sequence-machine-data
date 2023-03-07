@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, obtained by dividing A151724 by 6.",
+  "id": "A170898",
+  "mentions": [
+    "A000225",
+    "A139250",
+    "A139251",
+    "A151723",
+    "A151724",
+    "A169779",
+    "A170899",
+    "A170905"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

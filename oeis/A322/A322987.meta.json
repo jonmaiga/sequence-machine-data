@@ -1,0 +1,27 @@
+{
+  "description": "Number of iterations of A049820(x) = x - A000005(x) needed to reach a square, when starting from x = n.",
+  "id": "A322987",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A010052",
+    "A049820",
+    "A155043",
+    "A259934",
+    "A262514",
+    "A262680",
+    "A322996",
+    "A323073"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

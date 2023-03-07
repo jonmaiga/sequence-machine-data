@@ -1,0 +1,20 @@
+{
+  "description": "Indices of prime Fibonacci 6-step numbers, A001592.",
+  "id": "A249635",
+  "mentions": [
+    "A001592",
+    "A105758"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) = -(-1)^k*ceiling(k/2)^2 mod p, where p is the n-th prime congruent to 2 or 3 mod 4; triangle T(n,k), n>=1, 0<=k<=p-1, read by rows.",
+  "id": "A331047",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000040",
+    "A000217",
+    "A045326",
+    "A190105",
+    "A230077",
+    "A281664",
+    "A331103"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

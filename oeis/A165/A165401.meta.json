@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonally reading the array, formed via: first, writing the primes in the first row (row_1), and forming all successive rows' elements using the previous rows' elements as: row_2(j) = row_1(j)*row_1(j+1) - row_1(j) - row_1(j+1), and so on. The first 'column' of the array, 2 1 -1 -1 -1 -1 -1 -1 ... is converted to its absolute value.",
+  "id": "A165401",
+  "mentions": [
+    "A000040",
+    "A037165"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Row sums of the Riordan array (1-4x+4x^2, x(1-2x)) (A167431).",
+  "id": "A167433",
+  "mentions": [
+    "A001607",
+    "A077020",
+    "A107920",
+    "A167431",
+    "A169998"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Times on a 12-hour digital clock with all digits in {1, 2, 3, 4, 5, 6}.",
+  "id": "A133794",
+  "mentions": [
+    "A000040",
+    "A036960",
+    "A052382",
+    "A057436",
+    "A133783"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Hyperfibonacci square number array a(k,n) = F(n)^(k), read by ascending antidiagonals (k, n >= 0).",
+  "id": "A136431",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001924",
+    "A014162",
+    "A014166",
+    "A027934",
+    "A053295",
+    "A053296",
+    "A053308",
+    "A053309",
+    "A053739",
+    "A108081",
+    "A123736",
+    "A137176"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:37",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

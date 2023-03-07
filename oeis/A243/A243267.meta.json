@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/2+G/Pi, the highest limiting crest of a square wave Fourier series, where G is the Gibbs-Wilbraham constant.",
+  "id": "A243267",
+  "mentions": [
+    "A036792",
+    "A036793",
+    "A243268"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

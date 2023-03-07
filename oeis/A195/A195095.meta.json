@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=1} -moebius(2*n)*x^n/(1 - 2*x^n).",
+  "id": "A195095",
+  "mentions": [
+    "A000048",
+    "A008683",
+    "A011946",
+    "A127804"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

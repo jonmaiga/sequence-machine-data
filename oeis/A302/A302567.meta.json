@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of primes less than the n-th prime that divide the sum of primes up to the n-th prime.",
+  "id": "A302567",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A024011",
+    "A105783"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

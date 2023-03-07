@@ -1,0 +1,18 @@
+{
+  "description": "Let b(n) the sequence of zero plus the natural numbers (0+A000027). At any step n=1,2,3,4,... add b(n-1) to the number in position n+b(n).",
+  "id": "A158185",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

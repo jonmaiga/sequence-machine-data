@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n+1)*(6*n-5)/2.",
+  "id": "A172082",
+  "mentions": [
+    "A051682",
+    "A237616"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:21",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

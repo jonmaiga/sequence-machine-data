@@ -1,0 +1,18 @@
+{
+  "description": "Minimum sum of mutual Manhattan distances of n distinct grid points in a cubic lattice.",
+  "id": "A290190",
+  "mentions": [
+    "A193452"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

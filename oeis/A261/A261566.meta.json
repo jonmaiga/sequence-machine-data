@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1/(1 + 2*x^k))^k.",
+  "id": "A261566",
+  "mentions": [
+    "A071109",
+    "A255528",
+    "A261567"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that the sum of the prime divisors and the sum of the nonprime divisors of m^2+1 are both prime.",
+  "id": "A358704",
+  "mentions": [
+    "A193462",
+    "A194039",
+    "A194594"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

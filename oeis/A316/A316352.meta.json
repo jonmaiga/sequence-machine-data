@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (BesselI(0,1/2)-BesselI(1,1/2))/(BesselI(0,1/2)-3*BesselI(1,1/2)).",
+  "id": "A316352",
+  "mentions": [
+    "A001113",
+    "A003417",
+    "A058281",
+    "A101443",
+    "A298242"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

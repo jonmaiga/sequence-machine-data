@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are congruent to {0, 1} mod 16.",
+  "id": "A151977",
+  "mentions": [
+    "A030308",
+    "A321212"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:23",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

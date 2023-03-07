@@ -1,0 +1,21 @@
+{
+  "description": "Total number of weak left-to-right maxima in Dyck paths of semilength n.",
+  "id": "A346158",
+  "mentions": [
+    "A000005",
+    "A007318",
+    "A346157",
+    "A346195"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that for all k < m, at least one of m*k - 1 and m*k + 1 is squarefree.",
+  "id": "A357315",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A257771",
+    "A281192"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

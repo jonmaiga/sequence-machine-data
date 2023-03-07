@@ -1,0 +1,20 @@
+{
+  "description": "Values of n for which the concatenation 7nn7 (from sequence A100897) are primes.",
+  "id": "A102500",
+  "mentions": [
+    "A100897",
+    "A102501"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

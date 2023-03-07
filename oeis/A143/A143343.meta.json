@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) (n>=0, 1<=k<=n+1) read by rows: T(n,1)=1 for n>=0, T(1,2)=2. If n>=3 is odd then T(n,k)=1 for all k. If n>=3 is even then if k is prime and k-1 divides n then T(n,k)=k, otherwise T(n,k)=1.",
+  "id": "A143343",
+  "mentions": [
+    "A002445",
+    "A027642",
+    "A080092",
+    "A127093",
+    "A138239",
+    "A138243",
+    "A176079",
+    "A191904",
+    "A191910"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

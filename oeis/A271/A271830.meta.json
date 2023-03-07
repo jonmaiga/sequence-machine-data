@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (3 - 4*x + 3*x^2 + x^4)/((1 - x)^2*(1 + x^2 + x^4)).",
+  "id": "A271830",
+  "mentions": [
+    "A000027",
+    "A080412"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:33",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

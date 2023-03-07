@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = least k such that 1 + 1/2 < H(k) - H(2); a(2) = least k such that H(a(1)) - 1/2 < H(k) -H(a(1)), and for n > 2, a(n) = least k such that H(a(n-1)) - H(a(n-2) > H(k) - H(a(n-1)), where H = harmonic number.",
+  "id": "A227965",
+  "mentions": [
+    "A224820",
+    "A224868",
+    "A227728",
+    "A227966",
+    "A227967"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of the k-th divisor island of n.",
+  "id": "A244965",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000217",
+    "A027750",
+    "A137921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

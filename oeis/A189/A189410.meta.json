@@ -1,0 +1,19 @@
+{
+  "description": "The least common multiple of a perfect number (A000396) and its arithmetic derivative (A003415).",
+  "id": "A189410",
+  "mentions": [
+    "A000396",
+    "A003415",
+    "A061652"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Size of one subtree in the unlabeled binary rooted tree shape of size n whose leaf-labeled trees have the largest number of coalescence sequences.",
+  "id": "A306390",
+  "mentions": [
+    "A001147",
+    "A001190",
+    "A006472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

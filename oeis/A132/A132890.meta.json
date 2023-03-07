@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of left factors of Dyck paths of length n that have height k (1 <= k <= n).",
+  "id": "A132890",
+  "mentions": [
+    "A001405",
+    "A005672",
+    "A052551",
+    "A068914",
+    "A132891"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

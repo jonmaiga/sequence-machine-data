@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = number of distinct k which satisfy n = k + wt(k), where wt(k) (A000120) gives the number of 1's in binary representation of a nonnegative integer k.",
+  "id": "A228085",
+  "mentions": [
+    "A000120",
+    "A010061",
+    "A010062",
+    "A070939",
+    "A092391",
+    "A227643",
+    "A227915",
+    "A228082",
+    "A228086",
+    "A228087",
+    "A228088",
+    "A228091",
+    "A230058",
+    "A230091",
+    "A230092",
+    "A230093"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form XYYYYX, where Y is a single digit.",
+  "id": "A214702",
+  "mentions": [
+    "A154270",
+    "A162423",
+    "A214290",
+    "A214291"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

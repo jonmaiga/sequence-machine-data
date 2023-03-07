@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime such that exactly n prime pairs (p,q) exist with a(n) = p * q + p + q.",
+  "id": "A198277",
+  "mentions": [
+    "A049084",
+    "A067432"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

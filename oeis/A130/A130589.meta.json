@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = F(F(n)-1), where F(n) = A000045(n) (the Fibonacci numbers).",
+  "id": "A130589",
+  "mentions": [
+    "A000045",
+    "A007570"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

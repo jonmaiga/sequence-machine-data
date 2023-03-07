@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime(b(n)) where b(n) = b(n-2) + a(n-1) (with b(1)=1, b(2)=2).",
+  "id": "A112601",
+  "mentions": [
+    "A111392",
+    "A112237"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

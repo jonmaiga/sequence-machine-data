@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose square is expressible in only one way as x^2+xy+y^2, with x and y > 0.",
+  "id": "A232437",
+  "mentions": [
+    "A002476",
+    "A050931",
+    "A084645",
+    "A230780",
+    "A232436",
+    "A248599",
+    "A254063",
+    "A254064"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

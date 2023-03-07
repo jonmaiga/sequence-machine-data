@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of an Ising constant related to the random coloring problem.",
+  "id": "A242743",
+  "mentions": [
+    "A002898",
+    "A006752",
+    "A218387",
+    "A245592"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

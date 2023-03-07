@@ -1,0 +1,23 @@
+{
+  "description": "Weird totient numbers: totient abundant numbers (A286265) that are not pseudoperfect totient numbers (A288452).",
+  "id": "A288453",
+  "mentions": [
+    "A000010",
+    "A000396",
+    "A006037",
+    "A082897",
+    "A092693",
+    "A286265",
+    "A288452"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

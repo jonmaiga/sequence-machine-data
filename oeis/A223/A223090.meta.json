@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n with the property that if the base-8 representation of n is read backwards, the result is an integral multiple of n.",
+  "id": "A223090",
+  "mentions": [
+    "A214927",
+    "A217742",
+    "A222817",
+    "A222820",
+    "A223089"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

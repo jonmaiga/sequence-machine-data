@@ -1,0 +1,22 @@
+{
+  "description": "Number of twice-factorizations of type (Q,P,Q) and product n.",
+  "id": "A294788",
+  "mentions": [
+    "A001055",
+    "A063834",
+    "A279790",
+    "A281113",
+    "A294786",
+    "A294787"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

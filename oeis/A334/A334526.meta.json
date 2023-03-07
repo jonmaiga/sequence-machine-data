@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (w,x,y) with all terms in {-n,...,0,...,n} and w^2 + 11xy = 0.",
+  "id": "A334526",
+  "mentions": [
+    "A211423"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

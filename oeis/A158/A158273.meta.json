@@ -1,0 +1,22 @@
+{
+  "description": "Indices of single-digit numbers in A061049.",
+  "id": "A158273",
+  "mentions": [
+    "A061049",
+    "A158270"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

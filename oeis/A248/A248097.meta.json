@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered trees with n edges such that non-leaf vertices at even (odd) level have an even (odd) number of children.",
+  "id": "A248097",
+  "mentions": [
+    "A248096"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

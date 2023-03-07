@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the minimum number of tiles needed for constructing a polyiamond with n holes.",
+  "id": "A327896",
+  "mentions": [
+    "A000217",
+    "A000577",
+    "A067628",
+    "A069813",
+    "A070764",
+    "A161680"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

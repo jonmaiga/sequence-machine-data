@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, square of A116598.",
+  "id": "A147767",
+  "mentions": [
+    "A000990",
+    "A116598",
+    "A147766"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

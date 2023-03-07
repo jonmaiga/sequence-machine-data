@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that m^4*n = u^4 + v^4 - (x^4 + y^4) for some nonnegative integers u,v,x,y with x^4 + y^4 <= m^4*n^2.",
+  "id": "A351306",
+  "mentions": [
+    "A000583",
+    "A004831",
+    "A351312"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number of paths from (0,0) to (n+2,n) using only up and right steps and avoiding two or more consecutive moves up or three or more consecutive moves right.",
+  "id": "A177787",
+  "mentions": [
+    "A001700",
+    "A010892",
+    "A035363",
+    "A088218",
+    "A138364",
+    "A140226",
+    "A227161",
+    "A292301",
+    "A344619",
+    "A357136",
+    "A357182",
+    "A357621",
+    "A357622",
+    "A357625",
+    "A357626",
+    "A357631",
+    "A357639",
+    "A357641",
+    "A357642",
+    "A357706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:57",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

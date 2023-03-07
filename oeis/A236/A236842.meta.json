@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that occur as results of remultiplication (GF(2)[X] -> N) of some number; A234742 sorted and duplicates removed.",
+  "id": "A236842",
+  "mentions": [
+    "A014580",
+    "A091206",
+    "A091209",
+    "A234742",
+    "A236841",
+    "A236844",
+    "A236853",
+    "A236860",
+    "A236862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

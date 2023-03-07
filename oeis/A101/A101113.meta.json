@@ -1,0 +1,22 @@
+{
+  "description": "Let t(G) = number of unitary factors of the Abelian group G. Then a(n) = sum t(G) over all Abelian groups G of order exactly n.",
+  "id": "A101113",
+  "mentions": [
+    "A000688",
+    "A034444",
+    "A101114"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

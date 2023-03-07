@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k > 1 such that A309906(k-1) < A309906(k) > A309906(k+1) < A309906(k+2) > A309906(k+3).",
+  "id": "A349938",
+  "mentions": [
+    "A000005",
+    "A309906",
+    "A349937",
+    "A349941"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

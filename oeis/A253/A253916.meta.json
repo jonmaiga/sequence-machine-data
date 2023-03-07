@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be represented as both x^y + y and b^c + b + c, for some b, c, x, y > 1.",
+  "id": "A253916",
+  "mentions": [
+    "A099225",
+    "A253775",
+    "A253914",
+    "A253917"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

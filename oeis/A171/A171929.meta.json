@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers whose abundancy is closer to 2 than any smaller odd number.",
+  "id": "A171929",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A053624",
+    "A088012",
+    "A117349",
+    "A119239",
+    "A188263",
+    "A188597"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

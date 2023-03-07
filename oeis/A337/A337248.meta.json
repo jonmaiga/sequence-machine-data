@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which sec(k) > k.",
+  "id": "A337248",
+  "mentions": [
+    "A088306",
+    "A092328",
+    "A249836",
+    "A337249",
+    "A337371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

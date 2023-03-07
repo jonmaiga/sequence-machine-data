@@ -1,0 +1,18 @@
+{
+  "description": "The perfect numbers produced by the aspiring numbers (A063769).",
+  "id": "A226280",
+  "mentions": [
+    "A000396",
+    "A063769"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

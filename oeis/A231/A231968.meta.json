@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers (A005117) of the form p*q*r*s with prime factors p, q, r, s with q = 2*p + 1, r = 2*q + 1 and s = 2*r + 1.",
+  "id": "A231968",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A231966",
+    "A231967",
+    "A231969"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

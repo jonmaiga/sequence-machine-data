@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records in the sequence of unitary harmonic means A103339(k)/A103340(k).",
+  "id": "A348654",
+  "mentions": [
+    "A103339",
+    "A103340",
+    "A179971"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

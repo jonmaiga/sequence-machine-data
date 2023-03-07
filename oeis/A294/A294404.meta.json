@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: exp(-Sum_{n>=1} sigma_2(n) * x^n).",
+  "id": "A294404",
+  "mentions": [
+    "A001157",
+    "A073592",
+    "A294362",
+    "A294402",
+    "A294403",
+    "A343497"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

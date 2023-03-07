@@ -1,0 +1,28 @@
+{
+  "description": "Indices of prime values of heptanacci-Lucas numbers A104621.",
+  "id": "A104622",
+  "mentions": [
+    "A000032",
+    "A001644",
+    "A073817",
+    "A074048",
+    "A074584",
+    "A104414",
+    "A104576",
+    "A104577",
+    "A104621",
+    "A104623"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

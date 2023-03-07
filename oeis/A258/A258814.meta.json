@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the Dirichlet beta function of 7.",
+  "id": "A258814",
+  "mentions": [
+    "A003881",
+    "A006752",
+    "A153071",
+    "A175570",
+    "A175571",
+    "A175572",
+    "A258815",
+    "A258816"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

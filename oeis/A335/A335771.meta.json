@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of edges formed by n-secting the angles of an octagon.",
+  "id": "A335771",
+  "mentions": [
+    "A333110",
+    "A335769",
+    "A335770",
+    "A335772"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

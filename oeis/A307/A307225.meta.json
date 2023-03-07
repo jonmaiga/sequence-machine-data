@@ -1,0 +1,19 @@
+{
+  "description": "Superpractical numbers: practical numbers m with a record total number of combinations for presenting the set of numbers 1 <= k <= sigma(m) as sums of distinct divisors of m.",
+  "id": "A307225",
+  "mentions": [
+    "A005153",
+    "A307223",
+    "A307224"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

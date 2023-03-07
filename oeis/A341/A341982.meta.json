@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 2 primes (counting 1 as a prime).",
+  "id": "A341982",
+  "mentions": [
+    "A008578",
+    "A073610",
+    "A096139",
+    "A280917",
+    "A283762",
+    "A341945",
+    "A341973",
+    "A341983",
+    "A341984"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

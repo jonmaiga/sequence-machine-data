@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as x + y with 0 < x <= y and (xy)^2 + xy + 1 prime.",
+  "id": "A219838",
+  "mentions": [
+    "A091182",
+    "A219782",
+    "A219791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

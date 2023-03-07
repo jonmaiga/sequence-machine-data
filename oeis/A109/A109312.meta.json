@@ -1,0 +1,21 @@
+{
+  "description": "Numbers q such that q^2 is a sum of n-th and (n+1)-st semiprimes for some n.",
+  "id": "A109312",
+  "mentions": [
+    "A001358",
+    "A092191",
+    "A109311",
+    "A118717"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

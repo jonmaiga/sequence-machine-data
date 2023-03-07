@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the formal power series of a half-iterate of exp(x)-1 (rescaled).",
+  "id": "A184011",
+  "mentions": [
+    "A052122",
+    "A052123"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

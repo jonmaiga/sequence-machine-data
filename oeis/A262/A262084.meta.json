@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n that satisfy the equation phi(n + 6) = phi(n) + 6 where phi(n) = A000010(n) is Euler's totient function.",
+  "id": "A262084",
+  "mentions": [
+    "A000010",
+    "A001838",
+    "A023201",
+    "A056772",
+    "A262085",
+    "A262086"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions of n with relatively prime parts in which no two distinct parts are relatively prime.",
+  "id": "A328672",
+  "mentions": [
+    "A000837",
+    "A078374",
+    "A202425",
+    "A285573",
+    "A289509",
+    "A291166",
+    "A303140",
+    "A305148",
+    "A316476",
+    "A318715",
+    "A319759",
+    "A326910",
+    "A326912",
+    "A328673",
+    "A328679"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

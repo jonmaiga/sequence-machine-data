@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the radius of convergence of Wedderburn-Etherington numbers g.f.",
+  "id": "A240943",
+  "mentions": [
+    "A001190",
+    "A086317"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

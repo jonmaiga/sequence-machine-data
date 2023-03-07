@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6*a(n-1) - 2*a(n-2) for n>1; a(1)=1, a(2)=6.",
+  "id": "A154244",
+  "mentions": [
+    "A010465",
+    "A010913",
+    "A126473"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

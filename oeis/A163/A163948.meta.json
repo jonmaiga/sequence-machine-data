@@ -1,0 +1,23 @@
+{
+  "description": "The number of functions on a finite set that are obtainable by a composition power (excluding identity as power).",
+  "id": "A163948",
+  "mentions": [
+    "A102687",
+    "A163859",
+    "A163860",
+    "A163861",
+    "A163947"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

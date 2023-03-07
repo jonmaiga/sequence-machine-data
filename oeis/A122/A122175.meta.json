@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = C( k*(k+1)/2 + n-k, n-k) for n>=k>=0.",
+  "id": "A122175",
+  "mentions": [
+    "A098568",
+    "A107876",
+    "A121435",
+    "A122176",
+    "A122177"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

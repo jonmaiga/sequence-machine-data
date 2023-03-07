@@ -1,0 +1,18 @@
+{
+  "description": "Least m>0 such that (1+r)^m >= n!, where r = (1+sqrt(5))/2, the golden ratio.",
+  "id": "A214051",
+  "mentions": [
+    "A214050"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

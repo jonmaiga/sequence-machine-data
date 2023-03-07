@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any distinct i,j, k, the points at positions (i, a(i)), (j, a(j)), (k, a(k)) are not aligned.",
+  "id": "A231334",
+  "mentions": [
+    "A175498",
+    "A236266",
+    "A236335",
+    "A300002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

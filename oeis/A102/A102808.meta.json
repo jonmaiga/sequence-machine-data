@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the k-th prime is in A057468.",
+  "id": "A102808",
+  "mentions": [
+    "A057468"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

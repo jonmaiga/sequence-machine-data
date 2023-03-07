@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^(k-1) == 1 (mod k) and p-1 does not divide k-1 for every prime p dividing k.",
+  "id": "A316907",
+  "mentions": [
+    "A001567",
+    "A121707",
+    "A214305",
+    "A316906"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

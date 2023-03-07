@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 3^k - 1 is not squarefree.",
+  "id": "A249025",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A024023",
+    "A049094",
+    "A065502",
+    "A107078",
+    "A283620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

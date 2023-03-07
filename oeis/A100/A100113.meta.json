@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n if n <= 2, otherwise (smallest squarefree number m not occurring earlier such that gcd(m, a(n-1)) > 1).",
+  "id": "A100113",
+  "mentions": [
+    "A005117",
+    "A064413",
+    "A100112",
+    "A100114",
+    "A100115"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

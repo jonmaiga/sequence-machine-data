@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that ror(k) XOR rol(k) = k, where ror(x)=A038572(x) is x rotated one binary place to the right, rol(x)=A006257(x) is x rotated one binary place to the left, and XOR is the binary exclusive-or operator.",
+  "id": "A273050",
+  "mentions": [
+    "A006257",
+    "A020988",
+    "A038572",
+    "A088163",
+    "A125836",
+    "A125837"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:18",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

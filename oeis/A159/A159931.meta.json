@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: a(1,1) = 1. a(m,m) = product of the terms in row m-1. For n < m, a(m,n) = a(m-1,n) + (product of the terms in row m-1).",
+  "id": "A159931",
+  "mentions": [
+    "A159932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

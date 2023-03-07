@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/((1-x^2)*sqrt(1-4*x)).",
+  "id": "A106188",
+  "mentions": [
+    "A000984",
+    "A006134",
+    "A054108",
+    "A059841",
+    "A106187"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

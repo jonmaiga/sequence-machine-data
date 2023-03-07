@@ -1,0 +1,20 @@
+{
+  "description": "The nonprimes k such that k + 2 is either a prime or a semiprime.",
+  "id": "A221865",
+  "mentions": [
+    "A001358",
+    "A109611",
+    "A175634",
+    "A179384"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

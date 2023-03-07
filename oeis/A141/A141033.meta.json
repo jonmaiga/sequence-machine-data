@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that cannot be formed by the concatenation of previous terms.",
+  "id": "A141033",
+  "mentions": [
+    "A141409"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

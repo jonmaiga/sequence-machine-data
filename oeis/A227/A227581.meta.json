@@ -1,0 +1,20 @@
+{
+  "description": "Array r(m,n) = least k such that H(m) + H(n) - H(m*n + k) < g, where H denotes harmonic number and g denotes the Euler-Mascheroni constant.",
+  "id": "A227581",
+  "mentions": [
+    "A227582",
+    "A227586"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

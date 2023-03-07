@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum of integers between n!+1 and (n+1)!.",
+  "id": "A294193",
+  "mentions": [
+    "A000217",
+    "A001563",
+    "A049775"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

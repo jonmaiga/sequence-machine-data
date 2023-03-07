@@ -1,0 +1,23 @@
+{
+  "description": "One more than the partial sums of the characteristic function of A070003.",
+  "id": "A243283",
+  "mentions": [
+    "A057627",
+    "A070003",
+    "A102354",
+    "A241917",
+    "A243282",
+    "A243284",
+    "A243285"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

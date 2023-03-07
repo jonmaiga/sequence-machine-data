@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+439)^2 = y^2.",
+  "id": "A130645",
+  "mentions": [
+    "A001652",
+    "A028871",
+    "A118337",
+    "A118675",
+    "A118676",
+    "A156035",
+    "A159890",
+    "A159891",
+    "A159892"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:19:22",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

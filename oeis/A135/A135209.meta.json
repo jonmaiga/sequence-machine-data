@@ -1,0 +1,21 @@
+{
+  "description": "D'Agapeyeff cipher.",
+  "id": "A135209",
+  "mentions": [
+    "A101110",
+    "A101111",
+    "A101112"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

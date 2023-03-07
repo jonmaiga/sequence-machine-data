@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of 1 - log(2).",
+  "id": "A244009",
+  "mentions": [
+    "A002162",
+    "A019739",
+    "A024168",
+    "A048098",
+    "A063539",
+    "A100381",
+    "A135002",
+    "A188859",
+    "A239354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

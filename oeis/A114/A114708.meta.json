@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A114707(n) - A114707(n-1) = the number of distinct primes dividing n but not A114707(n-1).",
+  "id": "A114708",
+  "mentions": [
+    "A114707"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Length of the rightmost run in the binary representation of A241944: a(n) = A136480(A249144(n)).",
+  "id": "A249143",
+  "mentions": [
+    "A136480",
+    "A241944",
+    "A249144",
+    "A249145"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

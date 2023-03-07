@@ -1,0 +1,20 @@
+{
+  "description": "Evil (A001969) numbers divisible by 7 but not divisible by 3.",
+  "id": "A229826",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A224072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

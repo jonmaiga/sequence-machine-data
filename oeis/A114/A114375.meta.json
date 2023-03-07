@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (a(n-1) XOR a(n-2)) + 1, a(0) = a(1) = 0.",
+  "id": "A114375",
+  "mentions": [
+    "A001511",
+    "A003987",
+    "A074723",
+    "A168273"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

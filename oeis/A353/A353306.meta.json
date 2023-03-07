@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 1 is in the transitive closure of the map x -> A353313(x) when starting iterating from x=k.",
+  "id": "A353306",
+  "mentions": [
+    "A000244",
+    "A003946",
+    "A211221",
+    "A353305",
+    "A353313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

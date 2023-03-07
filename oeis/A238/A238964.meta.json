@@ -1,0 +1,21 @@
+{
+  "description": "Size of divisor lattice in canonical order.",
+  "id": "A238964",
+  "mentions": [
+    "A062799",
+    "A063008",
+    "A238953"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

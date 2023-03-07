@@ -1,0 +1,22 @@
+{
+  "description": "Number of edges in each rooted plane tree produced with the GF(2)[X] factorization unranking algorithm presented in A106456.",
+  "id": "A106457",
+  "mentions": [
+    "A000108",
+    "A072643",
+    "A075167",
+    "A091247",
+    "A106443",
+    "A106456"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

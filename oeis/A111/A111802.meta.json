@@ -1,0 +1,20 @@
+{
+  "description": "n^2-n-1 for n>3; a(1)=1; a(2)=2; a(3)=3.",
+  "id": "A111802",
+  "mentions": [
+    "A000519",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:33",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

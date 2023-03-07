@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the perfect deficiency of n (A109883) is prime.",
+  "id": "A108865",
+  "mentions": [
+    "A109883"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

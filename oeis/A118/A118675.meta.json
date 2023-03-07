@@ -1,0 +1,24 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+47)^2 = y^2.",
+  "id": "A118675",
+  "mentions": [
+    "A001652",
+    "A028871",
+    "A118337",
+    "A156035",
+    "A159750",
+    "A159751",
+    "A159752"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:29:42",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

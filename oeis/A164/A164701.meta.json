@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest positive integer such that neither a(n) nor a(n)+1 are coprime to A024619(n), where A024619 is the sequence of positive integers that are not powers of primes.",
+  "id": "A164701",
+  "mentions": [
+    "A024619"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Length of n-th chain in A331440.",
+  "id": "A331442",
+  "mentions": [
+    "A331440",
+    "A331441"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

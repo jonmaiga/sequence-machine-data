@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 0, for n > 0, a(n) = the least (necessarily also unique) k such that A269160(k) = n, or 0 if no such k exists.",
+  "id": "A269162",
+  "mentions": [
+    "A000079",
+    "A000523",
+    "A007088",
+    "A110240",
+    "A269160",
+    "A269163",
+    "A269164",
+    "A269165",
+    "A269166"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

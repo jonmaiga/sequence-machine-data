@@ -1,0 +1,22 @@
+{
+  "description": "Write n! partition(n) times.",
+  "id": "A178801",
+  "mentions": [
+    "A000041",
+    "A036042",
+    "A053529",
+    "A066186"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

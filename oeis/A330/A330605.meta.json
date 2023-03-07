@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = exp(-1) * Sum_{k>=0} (n*k - 1)^n / k!.",
+  "id": "A330605",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A124311",
+    "A292914",
+    "A307066",
+    "A330604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

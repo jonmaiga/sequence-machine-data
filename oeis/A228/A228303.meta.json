@@ -1,0 +1,18 @@
+{
+  "description": "Composite squarefree numbers n such that each p-sopfr(n) divides n+sopfr(n), where p runs through the prime factors of n, and where sopfr(n) is the sum of the prime factors of n (A001414).",
+  "id": "A228303",
+  "mentions": [
+    "A001414",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

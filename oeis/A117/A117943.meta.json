@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0, a(2) = 1; a(3n) = a(n); if every third term (a(3), a(6), a(9), ...) is deleted, this gives back the original sequence.",
+  "id": "A117943",
+  "mentions": [
+    "A071996",
+    "A126616",
+    "A178931",
+    "A255824",
+    "A255829"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

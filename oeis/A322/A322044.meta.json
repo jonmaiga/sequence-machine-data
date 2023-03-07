@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: numerators of coefficients (highest degree first) of polynomials interpolating Fibonacci numbers.",
+  "id": "A322044",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A078700",
+    "A167544"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

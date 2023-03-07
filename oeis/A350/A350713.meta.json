@@ -1,0 +1,19 @@
+{
+  "description": "Maximum smallest prime required to generate all Goldbach partitions to 10^n.",
+  "id": "A350713",
+  "mentions": [
+    "A025018",
+    "A025019"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

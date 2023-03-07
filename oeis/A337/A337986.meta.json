@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p such that v_p(A000166(k)) = v_p(k-1) for all k > 1, where v_p(k) is the p-adic valuation of k.",
+  "id": "A337986",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A007814",
+    "A068985"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

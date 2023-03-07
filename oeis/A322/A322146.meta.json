@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of 10 copies of 1..n with no element equal to another within a distance of 1.",
+  "id": "A322146",
+  "mentions": [
+    "A321670",
+    "A322093",
+    "A322127",
+    "A322128"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

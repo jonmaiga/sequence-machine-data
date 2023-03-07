@@ -1,0 +1,18 @@
+{
+  "description": "List of coefficients of chromatic polynomial of icosahedron, highest order terms first.",
+  "id": "A296917",
+  "mentions": [
+    "A218514",
+    "A296916"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

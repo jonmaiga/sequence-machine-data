@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that gcd(n, sigma(n)) = sigma(n) (mod n).",
+  "id": "A205523",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A009194",
+    "A054024",
+    "A205524",
+    "A205525"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

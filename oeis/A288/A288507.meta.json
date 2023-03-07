@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that both prime(k+1) -/+ prime(k) are products of n prime factors (counting multiplicity).",
+  "id": "A288507",
+  "mentions": [
+    "A001043",
+    "A001223",
+    "A046310",
+    "A251600"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

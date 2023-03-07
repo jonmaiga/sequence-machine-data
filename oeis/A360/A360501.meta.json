@@ -1,0 +1,23 @@
+{
+  "description": "Number of edges added at n-th generation of hexagonal graph constructed in first quadrant (see Comments for precise definition).",
+  "id": "A360501",
+  "mentions": [
+    "A106466",
+    "A182838",
+    "A265428",
+    "A265429",
+    "A360512"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

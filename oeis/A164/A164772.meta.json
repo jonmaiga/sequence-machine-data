@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with property that average digit of n^2 is s=8.",
+  "id": "A164772",
+  "mentions": [
+    "A164770",
+    "A164771"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

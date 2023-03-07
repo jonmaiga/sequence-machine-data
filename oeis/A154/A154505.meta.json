@@ -1,0 +1,19 @@
+{
+  "description": "Sophie Germain primes of A144571.",
+  "id": "A154505",
+  "mentions": [
+    "A144571",
+    "A154503",
+    "A154504"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps needed for a(1) = k (\"the seed\") to reappear in the sequence under the A339091 protocol, for k = 1, 2, 3, 4, ... to n. Else -1 if the seed never reappears.",
+  "id": "A339092",
+  "mentions": [
+    "A339091",
+    "A339093",
+    "A339111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimal number k>=n such that n+k and n*k+1 are primes.",
+  "id": "A120224",
+  "mentions": [
+    "A085063",
+    "A092945",
+    "A120223",
+    "A120225"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

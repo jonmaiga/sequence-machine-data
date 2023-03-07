@@ -1,0 +1,19 @@
+{
+  "description": "J(n)^2+J(n+1)^2, with J(n) the Jacobsthal number A001045(n).",
+  "id": "A108924",
+  "mentions": [
+    "A001045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:06:04",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

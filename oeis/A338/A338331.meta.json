@@ -1,0 +1,43 @@
+{
+  "description": "Numbers whose set of distinct prime indices (A304038) is pairwise coprime, where a singleton is always considered coprime.",
+  "id": "A338331",
+  "mentions": [
+    "A000837",
+    "A000961",
+    "A047968",
+    "A051424",
+    "A056239",
+    "A112798",
+    "A289509",
+    "A302797",
+    "A302798",
+    "A304038",
+    "A304709",
+    "A304711",
+    "A304712",
+    "A305148",
+    "A316476",
+    "A318716",
+    "A318719",
+    "A327516",
+    "A328867",
+    "A333228",
+    "A337600",
+    "A337602",
+    "A337664",
+    "A337665",
+    "A337695",
+    "A338330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

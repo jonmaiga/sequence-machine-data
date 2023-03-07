@@ -1,0 +1,20 @@
+{
+  "description": "5x + 1 sequence beginning at 5.",
+  "id": "A259207",
+  "mentions": [
+    "A033478",
+    "A245671"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:05",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

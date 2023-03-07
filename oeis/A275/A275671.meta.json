@@ -1,0 +1,20 @@
+{
+  "description": "Even values produced by the sigma function A000203, in increasing order.",
+  "id": "A275671",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A060657",
+    "A152678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

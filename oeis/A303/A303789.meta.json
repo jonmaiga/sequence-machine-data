@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..m} d(i)*6^i, where Sum_{i=0..m} d(i)*7^i is the base-7 representation of n.",
+  "id": "A303789",
+  "mentions": [
+    "A037470",
+    "A065361",
+    "A215090",
+    "A303787",
+    "A303788"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "description": "Nonzero coefficients of the Swiss-Knife polynomials for the computation of Euler, tangent, and Bernoulli numbers (triangle read by rows).",
+  "id": "A153641",
+  "mentions": [
+    "A000012",
+    "A000111",
+    "A000217",
+    "A001057",
+    "A001477",
+    "A001586",
+    "A009006",
+    "A011934",
+    "A027641",
+    "A027642",
+    "A036968",
+    "A046092",
+    "A046978",
+    "A062392",
+    "A062393",
+    "A067998",
+    "A077221",
+    "A099612",
+    "A099617",
+    "A104033",
+    "A119879",
+    "A119880",
+    "A119881",
+    "A121670",
+    "A122045",
+    "A137501",
+    "A144129",
+    "A151751",
+    "A154286",
+    "A155457",
+    "A155585",
+    "A162590"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

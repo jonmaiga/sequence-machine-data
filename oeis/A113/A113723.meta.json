@@ -1,0 +1,21 @@
+{
+  "description": "The number of terms in row n of A113722 when interpreted as a triangle.",
+  "id": "A113723",
+  "mentions": [
+    "A001462",
+    "A113676",
+    "A113722",
+    "A113724",
+    "A113725"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

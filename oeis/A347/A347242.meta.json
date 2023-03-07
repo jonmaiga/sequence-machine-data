@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that when iterating the map x -> A000593(x), then at some point before 1 is reached (after starting from x=k), a term is encountered whose largest prime factor is at least as large as A006530(k).",
+  "id": "A347242",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A006530",
+    "A091490",
+    "A161942",
+    "A336353",
+    "A336361",
+    "A347240",
+    "A347241",
+    "A347243",
+    "A347244",
+    "A347245"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

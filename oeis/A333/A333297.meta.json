@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=1..n, j=1..n, gcd(i,j)=1} i.",
+  "id": "A333297",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A018805",
+    "A023896",
+    "A115004",
+    "A319087",
+    "A333295"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

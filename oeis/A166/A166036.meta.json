@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (4^n+8*(-5)^n)/9.",
+  "id": "A166036",
+  "mentions": [
+    "A077925",
+    "A091004",
+    "A112555",
+    "A166035"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

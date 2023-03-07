@@ -1,0 +1,24 @@
+{
+  "description": "Rotationally ambigrammatic square numbers with no trailing zeros.",
+  "id": "A340164",
+  "mentions": [
+    "A000290",
+    "A004086",
+    "A018848",
+    "A045574",
+    "A339996"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

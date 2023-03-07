@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: 1 + C(1)*x/(1 + C(2)*x/(1 + C(3)*x/(1 + C(4)*x/(1 + C(5)*x/(1 +...))))), where C(n) are the Catalan numbers A000108.",
+  "id": "A343441",
+  "mentions": [
+    "A000108",
+    "A268646"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

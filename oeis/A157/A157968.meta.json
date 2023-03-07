@@ -1,0 +1,19 @@
+{
+  "description": "2^n - 1 (A000225) where n is nonprime number (A141468).",
+  "id": "A157968",
+  "mentions": [
+    "A000225",
+    "A000668",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

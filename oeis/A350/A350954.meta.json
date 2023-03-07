@@ -1,0 +1,22 @@
+{
+  "description": "Maximal determinant of an n X n symmetric Toeplitz matrix using the integers 1 to n.",
+  "id": "A350954",
+  "mentions": [
+    "A307887",
+    "A350931",
+    "A350953",
+    "A356865"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

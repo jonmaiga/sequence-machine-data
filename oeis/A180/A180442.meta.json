@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that a sum of two or more consecutive squares beginning with n^2 is a square.",
+  "id": "A180442",
+  "mentions": [
+    "A001032",
+    "A075404",
+    "A075405",
+    "A075406",
+    "A180259",
+    "A180273",
+    "A180274",
+    "A180465",
+    "A184762",
+    "A184763",
+    "A184885",
+    "A184886"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime divisors of concatenated even numbers.",
+  "id": "A108728",
+  "mentions": [
+    "A001221",
+    "A019520",
+    "A105388"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

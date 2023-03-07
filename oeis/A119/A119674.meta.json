@@ -1,0 +1,19 @@
+{
+  "description": "Number of states of the minimal deterministic finite automaton that accepts binary strings that represent numbers that are divisible by n.",
+  "id": "A119674",
+  "mentions": [
+    "A000265",
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

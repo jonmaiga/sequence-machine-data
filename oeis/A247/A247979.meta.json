@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form x^2 + 7y^2 with x, y integers, or x^2/4 + 7y^2/4 with x, y odd integers.",
+  "id": "A247979",
+  "mentions": [
+    "A002481",
+    "A033207",
+    "A045386"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

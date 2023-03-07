@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} F(k)/(k*2^k), where F(k) is the k-th Fibonacci number (A000045).",
+  "id": "A344041",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A002163",
+    "A002390",
+    "A002457",
+    "A016627",
+    "A036289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

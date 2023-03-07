@@ -1,0 +1,21 @@
+{
+  "description": "Sum of proper divisors (A001065) of deficient numbers (A005100).",
+  "id": "A205099",
+  "mentions": [
+    "A001065",
+    "A005100",
+    "A204823",
+    "A205098"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

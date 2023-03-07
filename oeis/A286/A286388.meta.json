@@ -1,0 +1,22 @@
+{
+  "description": "Compound filter (\"discard the smallest prime factor\" & \"number of trailing 1-bits in base-2\"): a(n) = P(A032742(n), A001511(1+n)), where P(n,k) is sequence A000027 used as a pairing function, with a(1) = 0.",
+  "id": "A286388",
+  "mentions": [
+    "A000027",
+    "A001511",
+    "A032742",
+    "A286379",
+    "A286386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

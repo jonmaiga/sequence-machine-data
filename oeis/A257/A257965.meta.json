@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 = a^2 + b^2 and a^3 + b^3 is a square, for some positive integers a and b.",
+  "id": "A257965",
+  "mentions": [
+    "A000404",
+    "A133388"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Total number of parts smaller than the largest part, in all partitions of n.",
+  "id": "A116686",
+  "mentions": [
+    "A006128",
+    "A046746",
+    "A116685",
+    "A211870",
+    "A211881",
+    "A244966"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

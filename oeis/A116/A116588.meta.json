@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = max(2^(n - k), 2^(k - n)).",
+  "id": "A116588",
+  "mentions": [
+    "A000079",
+    "A082693",
+    "A084639",
+    "A130321"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

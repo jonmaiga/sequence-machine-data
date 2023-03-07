@@ -1,0 +1,28 @@
+{
+  "description": "Prime trio leaders: largest number of a prime trio.",
+  "id": "A119891",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A106754",
+    "A106762",
+    "A106774",
+    "A106775",
+    "A106787",
+    "A119889",
+    "A119890",
+    "A119892",
+    "A304367"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Interleave A007583 and A000012.",
+  "id": "A166752",
+  "mentions": [
+    "A000012",
+    "A000975",
+    "A002450",
+    "A007583",
+    "A166753"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Index of 2^n-1 in A353709.",
+  "id": "A352690",
+  "mentions": [
+    "A000225",
+    "A353405",
+    "A353709"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

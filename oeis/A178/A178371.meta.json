@@ -1,0 +1,22 @@
+{
+  "description": "The smallest prime p of the form j^3 + prime(n), such that the sum-of-digits of p equals prime(n).",
+  "id": "A178371",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A176111",
+    "A176790",
+    "A178237"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

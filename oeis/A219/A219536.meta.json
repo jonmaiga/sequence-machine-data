@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*(A(x)^2 + 2*A(x)^3).",
+  "id": "A219536",
+  "mentions": [
+    "A003168",
+    "A103210",
+    "A219534",
+    "A219535",
+    "A336574"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

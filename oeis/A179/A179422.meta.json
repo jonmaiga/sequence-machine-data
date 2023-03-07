@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: A(x) = G(G(x)) = x*G'(x) where G(x) is the g.f. of A179420.",
+  "id": "A179422",
+  "mentions": [
+    "A179420",
+    "A179421"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the location of the maximum of (1-cos(x))/x.",
+  "id": "A257451",
+  "mentions": [
+    "A257452"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of seven fourth powers in six or more ways.",
+  "id": "A345572",
+  "mentions": [
+    "A345524",
+    "A345563",
+    "A345571",
+    "A345573",
+    "A345581",
+    "A345609",
+    "A345828"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

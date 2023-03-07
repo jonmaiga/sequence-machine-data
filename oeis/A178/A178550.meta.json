@@ -1,0 +1,28 @@
+{
+  "description": "Primes with exactly one digit 1.",
+  "id": "A178550",
+  "mentions": [
+    "A000040",
+    "A038618",
+    "A043493",
+    "A178551",
+    "A178552",
+    "A178553",
+    "A178554",
+    "A178555",
+    "A178556",
+    "A178557",
+    "A178558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

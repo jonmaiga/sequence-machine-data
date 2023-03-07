@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of (n/tau(n) + sigma(n)/n)",
+  "id": "A245785",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A245777",
+    "A245784",
+    "A245786"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

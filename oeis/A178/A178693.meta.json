@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients of Maclaurin series for 2 - sqrt(1 - x - x^2).",
+  "id": "A178693",
+  "mentions": [
+    "A046161",
+    "A178694"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

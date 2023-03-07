@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having no divisor d > 1 that is a binary palindrome (i.e., an element of A006995).",
+  "id": "A318206",
+  "mentions": [
+    "A006995"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

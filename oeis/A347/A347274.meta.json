@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{j=1..n} j*n^(n+1-j).",
+  "id": "A347274",
+  "mentions": [
+    "A058128",
+    "A060073",
+    "A062805"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

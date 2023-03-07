@@ -1,0 +1,18 @@
+{
+  "description": "Least k(n) such that 3*2^k(n)*M(n)-1 or 3*2^k(n)*M(n)+1 is prime (or both primes) with M(i)=i-th Mersenne prime.",
+  "id": "A152097",
+  "mentions": [
+    "A145983"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

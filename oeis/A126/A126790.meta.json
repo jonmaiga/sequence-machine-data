@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers that are not Higgs' primes (numbers in A000040 not in A007459).",
+  "id": "A126790",
+  "mentions": [
+    "A000040",
+    "A007459"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct integers that are product of the parts of exactly one partition of n into 3 positive parts.",
+  "id": "A306435",
+  "mentions": [
+    "A317578"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

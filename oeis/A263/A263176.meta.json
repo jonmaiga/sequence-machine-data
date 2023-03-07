@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a constant related to A263136 (negated).",
+  "id": "A263176",
+  "mentions": [
+    "A263136",
+    "A263177"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

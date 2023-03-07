@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers p of the form p=x^2+y^3 such that there exist three other prime numbers q,r,s such q=abs(x^2-y^3) ; r=x^3+y^2 ; s=abs(x^3-y^2); x > y.",
+  "id": "A129537",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

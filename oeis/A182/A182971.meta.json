@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: coefficients in expansion of Q(n) = (x-n^2)*(x-(n-2)^2)*(x-(n-4)^2)*...*(x-(1 or 2)^2), highest powers first.",
+  "id": "A182971",
+  "mentions": [
+    "A000292",
+    "A008955",
+    "A008956",
+    "A121408",
+    "A181888",
+    "A182867",
+    "A184877",
+    "A184878"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

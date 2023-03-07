@@ -1,0 +1,23 @@
+{
+  "description": "Set of all n, where n = r(s(n)) = s(r(n)), given that r(n) = n+bitcount(n), s(n) = n-bitcount(n), and bitcount(n) is the count of binary 1's in n.",
+  "id": "A227408",
+  "mentions": [
+    "A010061",
+    "A010062",
+    "A055938",
+    "A227359",
+    "A227361"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of unordered quadruples of self-avoiding paths with nodes that cover all vertices of a convex n-gon; one-node paths are allowed.",
+  "id": "A360276",
+  "mentions": [
+    "A001792",
+    "A359405",
+    "A360021"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

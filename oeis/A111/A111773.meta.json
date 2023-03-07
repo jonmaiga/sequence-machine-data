@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-element binary operation tables, out of a total n^n^2 tables, that satisfy the axioms for an Average system. Not culled for isomorphism. The Average system axioms are avg(A,A)=A, avg(A,B)=avg(B,A), avg(avg(A,B),avg(C,D)) = avg(avg(A,C),avg(B,D)).",
+  "id": "A111773",
+  "mentions": [
+    "A111772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

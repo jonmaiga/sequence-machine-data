@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k), 1<=k<=n, read by rows: T(n,k) = length of Euclidean algorithm starting with n and k.",
+  "id": "A107435",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A002390",
+    "A034883",
+    "A049816",
+    "A051010",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

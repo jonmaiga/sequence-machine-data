@@ -1,0 +1,20 @@
+{
+  "description": "Lengths of successive words (starting with a) under the substitution: {a -> aab, b -> aac, c -> a}.",
+  "id": "A101168",
+  "mentions": [
+    "A101399",
+    "A101400"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:03:09",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

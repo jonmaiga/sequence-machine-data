@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into 6 nonzero tetrahedral numbers.",
+  "id": "A341777",
+  "mentions": [
+    "A000292",
+    "A023533",
+    "A024692",
+    "A068980",
+    "A319816",
+    "A341774",
+    "A341775",
+    "A341776",
+    "A341778"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

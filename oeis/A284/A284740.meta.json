@@ -1,0 +1,19 @@
+{
+  "description": "A condensed version of A202954.",
+  "id": "A284740",
+  "mentions": [
+    "A104429",
+    "A202954"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

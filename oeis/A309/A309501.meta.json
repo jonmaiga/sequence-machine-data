@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimal number of steps to return to the origin for a self-avoiding walk with step-length n confined to one quadrant of a 2D plane where at each step the walk must go to an unvisited point with integer coordinates as close as possible to the origin.",
+  "id": "A309501",
+  "mentions": [
+    "A009000",
+    "A020882",
+    "A307448"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

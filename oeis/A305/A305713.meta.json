@@ -1,0 +1,26 @@
+{
+  "description": "Number of strict integer partitions of n into pairwise coprime parts.",
+  "id": "A305713",
+  "mentions": [
+    "A000009",
+    "A051424",
+    "A078374",
+    "A302569",
+    "A302696",
+    "A302797",
+    "A303282",
+    "A303283",
+    "A318717",
+    "A318719"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

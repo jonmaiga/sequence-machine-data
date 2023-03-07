@@ -1,0 +1,29 @@
+{
+  "description": "Bitwise XOR of trajectories of rule 30 and rule 124, when both are started from a lone 1 cell: a(n) = A110240(n) XOR A267357(n).",
+  "id": "A328103",
+  "mentions": [
+    "A003987",
+    "A110240",
+    "A267357",
+    "A269160",
+    "A269174",
+    "A327971",
+    "A327972",
+    "A327973",
+    "A327976",
+    "A328104",
+    "A328109",
+    "A328111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

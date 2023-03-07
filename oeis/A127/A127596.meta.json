@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 1 + Sum_{i=1..k-1} A001223(i)*(-1)^i = 0.",
+  "id": "A127596",
+  "mentions": [
+    "A000101",
+    "A001223",
+    "A002386",
+    "A008578",
+    "A282178",
+    "A330545",
+    "A330547"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Canyon primes (A134971) whose first and last digits are 9.",
+  "id": "A179673",
+  "mentions": [
+    "A000040",
+    "A134951",
+    "A134971"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

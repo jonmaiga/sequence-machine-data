@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bit words missing from the first 2^n+n-1 bits of the Ehrenfeucht-Mycielski sequence (A007061 or A038219).",
+  "id": "A253059",
+  "mentions": [
+    "A007061",
+    "A038219"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

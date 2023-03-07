@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers that are not twin primes.",
+  "id": "A255763",
+  "mentions": [
+    "A001097",
+    "A005408",
+    "A014076",
+    "A134797"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:03",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: n-th row starts with n and continues with half the previous value as long as that is even.",
+  "id": "A123390",
+  "mentions": [
+    "A001511",
+    "A082850",
+    "A120385"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

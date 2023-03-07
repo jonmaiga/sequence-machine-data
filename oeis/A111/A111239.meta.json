@@ -1,0 +1,17 @@
+{
+  "description": "Primes in the order in which they appear in A109890.",
+  "id": "A111239",
+  "mentions": [
+    "A109890"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

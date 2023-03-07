@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the index of the first occurrence of n in A316774.",
+  "id": "A316905",
+  "mentions": [
+    "A316774",
+    "A316973",
+    "A316984",
+    "A330440",
+    "A330447",
+    "A330448"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

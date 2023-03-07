@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p > 3 such that 2^n + p*2^floor((n+1)/2) - 1 is prime.",
+  "id": "A206553",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A206554"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

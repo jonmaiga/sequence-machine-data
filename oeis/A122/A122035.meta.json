@@ -1,0 +1,19 @@
+{
+  "description": "Primes p = Prime[m] such that polynomial (1 + Sum[x^Prime[k],{k,1,m}]) factors over the integers.",
+  "id": "A122035",
+  "mentions": [
+    "A007351",
+    "A038691"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

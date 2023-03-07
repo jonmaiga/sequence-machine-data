@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Pell(n)*A008653(n) for n>=1, with a(0)=1, where A008653 is the theta series of direct sum of 2 copies of hexagonal lattice.",
+  "id": "A209447",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A008653",
+    "A204270",
+    "A205967",
+    "A209446",
+    "A209448"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

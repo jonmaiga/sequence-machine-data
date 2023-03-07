@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, constructed by the Pascal rule, with top entry 2, left edge = odd numbers, right edge = squares plus 1.",
+  "id": "A135635",
+  "mentions": [
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

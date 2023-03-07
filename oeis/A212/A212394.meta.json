@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of constant C = maximum value that sigma(n)*log(n^2)/n^2 reaches where sigma(n) = (sum of primes <= n), A034387.",
+  "id": "A212394",
+  "mentions": [
+    "A034387"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

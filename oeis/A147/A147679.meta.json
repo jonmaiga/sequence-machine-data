@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 1, 0 <= k <= n-1) is the number of permutations of [0..(n-1)] of spread k.",
+  "id": "A147679",
+  "mentions": [
+    "A000142",
+    "A003112",
+    "A004204",
+    "A004205",
+    "A004206",
+    "A004246"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

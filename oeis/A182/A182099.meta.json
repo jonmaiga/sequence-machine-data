@@ -1,0 +1,22 @@
+{
+  "description": "Total area of the largest inscribed rectangles of all integer partitions of n.",
+  "id": "A182099",
+  "mentions": [
+    "A000041",
+    "A061017",
+    "A115723",
+    "A116503",
+    "A182114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

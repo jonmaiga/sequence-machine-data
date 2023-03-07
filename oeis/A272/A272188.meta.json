@@ -1,0 +1,28 @@
+{
+  "description": "Triangle with 2*n+1 terms per row, read by rows: the first row is 1 (by decree), following rows contain 0 to 2n+1 but omitting 2n.",
+  "id": "A272188",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A005843",
+    "A006369",
+    "A028310",
+    "A053186",
+    "A128138",
+    "A265667",
+    "A265734",
+    "A267654"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "30*a(n) + 1 is the least prime of the form 2^r*3^s*5^t + 1, r > 0, s > 0, t > 0, r + s + t = n.",
+  "id": "A337882",
+  "mentions": [
+    "A051037",
+    "A071520",
+    "A336773",
+    "A337881"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

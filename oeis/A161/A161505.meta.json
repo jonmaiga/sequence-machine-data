@@ -1,0 +1,25 @@
+{
+  "description": "Primes congruent to {1, 7, 8, 25, 26, 32} mod 33.",
+  "id": "A161505",
+  "mentions": [
+    "A117223",
+    "A142049",
+    "A142053",
+    "A142054",
+    "A142063",
+    "A142064",
+    "A142068",
+    "A160495"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:29",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

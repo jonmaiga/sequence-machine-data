@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured number of numbers that are not the sum of three generalized n-gonal numbers, or -1 if infinite.",
+  "id": "A118283",
+  "mentions": [
+    "A118278",
+    "A118282",
+    "A118285"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

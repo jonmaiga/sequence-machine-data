@@ -1,0 +1,21 @@
+{
+  "description": "Number of essentially 3-connected rooted toroidal maps with n edges.",
+  "id": "A308524",
+  "mentions": [
+    "A006422",
+    "A289208",
+    "A308523",
+    "A308526"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

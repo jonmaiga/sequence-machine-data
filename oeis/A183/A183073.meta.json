@@ -1,0 +1,30 @@
+{
+  "description": "Prime numbers p such that each prime divisor of 2^p - 1 has the form 4j + 3.",
+  "id": "A183073",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A136003",
+    "A136005",
+    "A183071",
+    "A183072",
+    "A183074",
+    "A183075",
+    "A183076",
+    "A183077",
+    "A183078"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

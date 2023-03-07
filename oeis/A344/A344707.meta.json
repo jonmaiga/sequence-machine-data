@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of the n-th triangular number n*(n+1)/2 into a triangular number of triangular parts.",
+  "id": "A344707",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

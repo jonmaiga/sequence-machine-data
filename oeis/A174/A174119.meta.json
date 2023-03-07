@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n, k) = ((n-k)/6)*binomial(n-1, k-1)*binomial(2*n, 2*k) with T(n, 0) = T(n, n) = 1, read by rows.",
+  "id": "A174119",
+  "mentions": [
+    "A111910",
+    "A174116",
+    "A174117",
+    "A174124",
+    "A174125",
+    "A196148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

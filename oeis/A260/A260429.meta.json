@@ -1,0 +1,29 @@
+{
+  "description": "Column index to A255545: if n is Lucky number, then a(n) = 1, otherwise a(n) = 1 + the position at the stage where n is removed in the Lucky sieve.",
+  "id": "A260429",
+  "mentions": [
+    "A000959",
+    "A050505",
+    "A078898",
+    "A145649",
+    "A219178",
+    "A246277",
+    "A255543",
+    "A255545",
+    "A260437",
+    "A260438",
+    "A260439",
+    "A260739"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

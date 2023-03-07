@@ -1,0 +1,29 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: apply *A074679 to the root and recurse down the cdr-spine (the right-hand side edge of a binary tree) as long as the binary tree rotation is possible and if the top-level length (A057515(n)) is odd, then apply *A069770 to the last branch-point.",
+  "id": "A130369",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A019590",
+    "A057515",
+    "A069770",
+    "A074679",
+    "A074685",
+    "A130370",
+    "A130372",
+    "A130376",
+    "A130377",
+    "A130378",
+    "A130379"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

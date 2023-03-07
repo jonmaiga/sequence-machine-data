@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=1..n} d(2*k - 1), where d() is the number of divisors function A000005.",
+  "id": "A334764",
+  "mentions": [
+    "A000005",
+    "A066843",
+    "A099774"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:24:33",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

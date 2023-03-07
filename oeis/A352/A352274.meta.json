@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose squarefree part is congruent to 1 modulo 6 or 3 modulo 18.",
+  "id": "A352274",
+  "mentions": [
+    "A003136",
+    "A003159",
+    "A007913",
+    "A026225",
+    "A084089",
+    "A108166",
+    "A225837",
+    "A352272"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

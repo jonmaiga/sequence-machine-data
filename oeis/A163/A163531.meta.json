@@ -1,0 +1,23 @@
+{
+  "description": "The square of the distance from the origin to the n-th point in the Peano curve A163334.",
+  "id": "A163531",
+  "mentions": [
+    "A000290",
+    "A163334",
+    "A163528",
+    "A163529",
+    "A163530",
+    "A163547"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

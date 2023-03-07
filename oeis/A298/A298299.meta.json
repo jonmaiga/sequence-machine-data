@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest b > 0 such that b^(2n) + 1 has all prime divisors p == 1 (mod 2n).",
+  "id": "A298299",
+  "mentions": [
+    "A007947",
+    "A298076",
+    "A298398"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

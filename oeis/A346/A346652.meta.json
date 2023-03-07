@@ -1,0 +1,21 @@
+{
+  "description": "Hexagonal pandigitals.",
+  "id": "A346652",
+  "mentions": [
+    "A000384",
+    "A171102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; thereafter a(n+1) is the smallest integer > a(n) having a(n) digits.",
+  "id": "A288848",
+  "mentions": [
+    "A252707"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

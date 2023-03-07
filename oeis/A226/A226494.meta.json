@@ -1,0 +1,17 @@
+{
+  "description": "Composite squarefree numbers that are not the sum of two (distinct) smaller composite squarefree numbers.",
+  "id": "A226494",
+  "mentions": [
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

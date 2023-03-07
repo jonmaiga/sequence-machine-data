@@ -1,0 +1,38 @@
+{
+  "description": "Number of ways to choose a distinct factor in a factorization of n (pointed factorizations).",
+  "id": "A339564",
+  "mentions": [
+    "A000005",
+    "A000070",
+    "A001055",
+    "A001787",
+    "A001792",
+    "A006128",
+    "A007716",
+    "A015723",
+    "A045778",
+    "A050336",
+    "A057567",
+    "A066186",
+    "A066637",
+    "A074206",
+    "A162247",
+    "A254577",
+    "A281113",
+    "A281116",
+    "A292886",
+    "A293627",
+    "A336875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

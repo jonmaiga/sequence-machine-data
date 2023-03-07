@@ -1,0 +1,18 @@
+{
+  "description": "Largest number in an integer 6-tuple (a, b, c, d, e, f) satisfying the Markoff(6) equation a^2+b^2+c^2+d^2+e^2+f^2 = 6*a*b*c*d*e*f.",
+  "id": "A227206",
+  "mentions": [
+    "A001653",
+    "A229242"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(n + 1)*(16*n - 1)/6.",
+  "id": "A304659",
+  "mentions": [
+    "A007742",
+    "A033429",
+    "A076455",
+    "A139273",
+    "A213835"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:43",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

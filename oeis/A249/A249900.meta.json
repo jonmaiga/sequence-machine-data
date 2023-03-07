@@ -1,0 +1,20 @@
+{
+  "description": "Sequence which reappears when consecutive terms are erased iff they both are either prime or nonprime.",
+  "id": "A249900",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A010051",
+    "A249484"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

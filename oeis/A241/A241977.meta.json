@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that 10^phi(n) == 1 (mod n^2), where phi(n)=A000010(n).",
+  "id": "A241977",
+  "mentions": [
+    "A000010",
+    "A045616",
+    "A077816",
+    "A171928",
+    "A242958",
+    "A242959",
+    "A242960",
+    "A245529"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

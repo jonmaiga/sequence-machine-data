@@ -1,0 +1,18 @@
+{
+  "description": "Artiads (A001583) congruent to 1 mod 50 and for which 5 is a quintic residue.",
+  "id": "A271210",
+  "mentions": [
+    "A001583",
+    "A270798"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

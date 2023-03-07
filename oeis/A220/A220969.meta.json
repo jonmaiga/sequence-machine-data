@@ -1,0 +1,19 @@
+{
+  "description": "Positions in A030229 where even terms occur.",
+  "id": "A220969",
+  "mentions": [
+    "A020639",
+    "A030229",
+    "A220968"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

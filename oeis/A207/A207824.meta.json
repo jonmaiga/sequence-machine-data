@@ -1,0 +1,35 @@
+{
+  "description": "Triangle of coefficients of Chebyshev's S(n,x+5) polynomials (exponents of x in increasing order).",
+  "id": "A207824",
+  "mentions": [
+    "A000351",
+    "A001109",
+    "A004254",
+    "A008587",
+    "A049310",
+    "A053122",
+    "A078812",
+    "A084938",
+    "A101950",
+    "A104562",
+    "A123967",
+    "A125662",
+    "A159764",
+    "A179900",
+    "A207815",
+    "A207823"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

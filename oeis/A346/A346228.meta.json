@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-step 7-dimensional nonnegative lattice walks starting at the origin and using steps that increment all components or decrement one component by 1.",
+  "id": "A346228",
+  "mentions": [
+    "A335570"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

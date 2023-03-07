@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 2; thereafter a(n) is the concatenation 2,A328991(n).",
+  "id": "A328993",
+  "mentions": [
+    "A328991",
+    "A328992"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

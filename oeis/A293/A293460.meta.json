@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sign(omega(n+1) - omega(n)) (where omega(m) = A001221(m), the number of distinct primes dividing m).",
+  "id": "A293460",
+  "mentions": [
+    "A001221",
+    "A006049",
+    "A294277",
+    "A294278"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

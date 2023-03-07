@@ -1,0 +1,20 @@
+{
+  "description": "Largest aggressor for the maximum number of peaceable coexisting queens as given in A250000.",
+  "id": "A308632",
+  "mentions": [
+    "A250000"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

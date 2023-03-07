@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which phi(A267099(k)) is equal to phi(k), but the number of 4m+1 and 4m+3 primes in the prime factorization of k (when counted with multiplicity) is not equal. Here A267099 is fully multiplicative involution swapping the positions of 4m+1 and 4m+3 primes, and phi is Euler totient function.",
+  "id": "A354194",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A072202",
+    "A267099",
+    "A342025",
+    "A354102",
+    "A354188",
+    "A354189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

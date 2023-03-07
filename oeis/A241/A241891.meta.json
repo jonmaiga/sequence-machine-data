@@ -1,0 +1,22 @@
+{
+  "description": "Total number of unit squares appearing in the Thue-Morse sequence of logical matrices (1, 0 version) after n stages.",
+  "id": "A241891",
+  "mentions": [
+    "A001045",
+    "A010059",
+    "A033691",
+    "A241682"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

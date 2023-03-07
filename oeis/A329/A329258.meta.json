@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - Sum_{k>=1} x^(k*(k + 1)/2) / (k*(k + 1)/2)!).",
+  "id": "A329258",
+  "mentions": [
+    "A000629",
+    "A010054",
+    "A205803",
+    "A329259"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

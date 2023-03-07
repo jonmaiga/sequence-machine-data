@@ -1,0 +1,19 @@
+{
+  "description": "Number of idempotent 3 X 3 0..n matrices of rank 1.",
+  "id": "A224525",
+  "mentions": [
+    "A002541",
+    "A224524"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

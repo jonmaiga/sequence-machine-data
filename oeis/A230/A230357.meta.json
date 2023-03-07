@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that digit sum of n equals digit sum of sopf(n) (sum of the distinct prime factors of n).",
+  "id": "A230357",
+  "mentions": [
+    "A006753",
+    "A036920",
+    "A230354",
+    "A230355",
+    "A230356"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

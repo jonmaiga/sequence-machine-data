@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k), n>=3, 3<=k<=n, read by rows: T(n,k) = number of simple graphs on n labeled nodes, where each maximally connected subgraph consists of a single node or has a unique cycle of length k.",
+  "id": "A144212",
+  "mentions": [
+    "A000142",
+    "A007318",
+    "A053507",
+    "A065889",
+    "A098909",
+    "A139149",
+    "A144207",
+    "A144208",
+    "A144209",
+    "A144210"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

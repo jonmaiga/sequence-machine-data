@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(5+1) 0..3 arrays colored with the sum of the maximum and minimum values of each 2X2 subblock",
+  "id": "A236499",
+  "mentions": [
+    "A236500"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

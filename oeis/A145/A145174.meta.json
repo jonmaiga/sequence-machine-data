@@ -1,0 +1,19 @@
+{
+  "description": "Least a(n) such that p(n)#*(p(n)#-a(n))-1 and p(n)#*(p(n)#-a(n))+1 are twin primes with p(i)#=i-th primorial",
+  "id": "A145174",
+  "mentions": [
+    "A144946",
+    "A144947",
+    "A145173"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

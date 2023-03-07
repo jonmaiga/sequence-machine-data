@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonzero terms in first n rows of the base-3 generalized Pascal triangle P_3 (A284441).",
+  "id": "A284442",
+  "mentions": [
+    "A282715",
+    "A284441"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

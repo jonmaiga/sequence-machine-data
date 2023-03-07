@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of the group of the Gaussian integers in a reduced system modulo (1+i)^n.",
+  "id": "A302254",
+  "mentions": [
+    "A016116",
+    "A079458",
+    "A227334"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of generalized Young tableaux with constant rows, weakly increasing columns, and entries summing to n.",
+  "id": "A323582",
+  "mentions": [
+    "A000085",
+    "A000219",
+    "A003293",
+    "A006951",
+    "A100883",
+    "A138178",
+    "A279784",
+    "A299968",
+    "A323432",
+    "A323436",
+    "A323437",
+    "A323438",
+    "A323450"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

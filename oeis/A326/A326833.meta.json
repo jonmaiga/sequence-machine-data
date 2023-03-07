@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose sum of digits is a power of 10.",
+  "id": "A326833",
+  "mentions": [
+    "A007953",
+    "A017173",
+    "A028838",
+    "A052224",
+    "A326806",
+    "A328560"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

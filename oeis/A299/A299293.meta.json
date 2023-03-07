@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n + 1, n + 2)-core partitions into odd parts.",
+  "id": "A299293",
+  "mentions": [
+    "A047749"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

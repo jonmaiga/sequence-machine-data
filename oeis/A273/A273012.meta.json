@@ -1,0 +1,22 @@
+{
+  "description": "Totient of the n-th semiprime.",
+  "id": "A273012",
+  "mentions": [
+    "A000010",
+    "A001358",
+    "A006093",
+    "A006881",
+    "A228578"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

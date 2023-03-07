@@ -1,0 +1,19 @@
+{
+  "description": "Marks on lexicographically fifth 7-mark optimal Golomb ruler.",
+  "id": "A106675",
+  "mentions": [
+    "A079287"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of different nonisomorphic antimatroids on n labeled items.",
+  "id": "A224913",
+  "mentions": [
+    "A119770"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that have an equal number of even- and odd-length unordered factorizations and also an equal number of even- and odd-length unordered factorizations into distinct factors.",
+  "id": "A350486",
+  "mentions": [
+    "A000961",
+    "A006881",
+    "A114592",
+    "A189987",
+    "A316441",
+    "A319238",
+    "A319240"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

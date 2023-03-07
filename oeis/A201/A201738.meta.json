@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of greatest x satisfying x^2 - 4 = csc(x) and 0",
+  "id": "A201738",
+  "mentions": [
+    "A201564",
+    "A201737"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Denominator in the division of n by the product of prime indices of n.",
+  "id": "A324933",
+  "mentions": [
+    "A003963",
+    "A109129",
+    "A112798",
+    "A120383",
+    "A196050",
+    "A317713",
+    "A324846",
+    "A324849",
+    "A324850",
+    "A324922",
+    "A324923",
+    "A324924",
+    "A324925",
+    "A324931",
+    "A324932",
+    "A324934"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} x^n * C(x)^(n^2), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108).",
+  "id": "A183608",
+  "mentions": [
+    "A000108",
+    "A121689"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

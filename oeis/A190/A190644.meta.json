@@ -1,0 +1,19 @@
+{
+  "description": "Least number k>1 such that (tau(k-1)+tau(k+1))/tau(k)=n where tau=A000005.",
+  "id": "A190644",
+  "mentions": [
+    "A000005",
+    "A190612",
+    "A190664"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

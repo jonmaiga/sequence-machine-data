@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the only number m such that m = pi(1^(1/n)) + pi(2^(1/n)) + ... + pi(m^(1/n)).",
+  "id": "A171270",
+  "mentions": [
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

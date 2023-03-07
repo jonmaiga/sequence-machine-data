@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n X n black bishop graph.",
+  "id": "A290594",
+  "mentions": [
+    "A146304",
+    "A288183",
+    "A290613"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

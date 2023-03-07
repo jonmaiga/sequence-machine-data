@@ -1,0 +1,19 @@
+{
+  "description": "Least start of a run of exactly n consecutive odd numbers that are all de Polignac numbers (A006285).",
+  "id": "A330303",
+  "mentions": [
+    "A006285",
+    "A330284"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

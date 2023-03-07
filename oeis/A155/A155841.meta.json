@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form q*p+2^p where p is prime, q=3.",
+  "id": "A155841",
+  "mentions": [
+    "A057664"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

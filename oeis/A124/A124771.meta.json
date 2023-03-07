@@ -1,0 +1,44 @@
+{
+  "description": "Number of distinct subsequences for compositions in standard order.",
+  "id": "A124771",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A003022",
+    "A011782",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A108917",
+    "A114994",
+    "A124767",
+    "A124770",
+    "A233249",
+    "A233312",
+    "A233569",
+    "A325680",
+    "A325770",
+    "A333222",
+    "A333223",
+    "A333224",
+    "A333257",
+    "A334299",
+    "A334967",
+    "A334968",
+    "A335279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

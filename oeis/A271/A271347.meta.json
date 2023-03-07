@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + 38 is also prime.",
+  "id": "A271347",
+  "mentions": [
+    "A000040",
+    "A134118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

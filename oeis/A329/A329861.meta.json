@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of compositions of n with cuts-resistance k.",
+  "id": "A329861",
+  "mentions": [
+    "A000079",
+    "A003242",
+    "A175342",
+    "A240085",
+    "A261983",
+    "A319411",
+    "A319416",
+    "A319420",
+    "A319421",
+    "A329738",
+    "A329744",
+    "A329860",
+    "A329862",
+    "A329863",
+    "A329865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

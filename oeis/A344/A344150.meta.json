@@ -1,0 +1,20 @@
+{
+  "description": "Length of the n-th word in A342910.",
+  "id": "A344150",
+  "mentions": [
+    "A342753",
+    "A342781",
+    "A342910"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

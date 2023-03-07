@@ -1,0 +1,25 @@
+{
+  "description": "Expressible as A*B^A in a nontrivial way.",
+  "id": "A171607",
+  "mentions": [
+    "A001105",
+    "A018215",
+    "A036289",
+    "A036290",
+    "A036291",
+    "A117642",
+    "A141046",
+    "A171606"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

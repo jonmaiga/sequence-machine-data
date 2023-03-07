@@ -1,0 +1,25 @@
+{
+  "description": "Greatest x < n such that n divides x*(x-1).",
+  "id": "A182665",
+  "mentions": [
+    "A246655",
+    "A344005",
+    "A345992",
+    "A354919",
+    "A354920",
+    "A354921",
+    "A354922"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

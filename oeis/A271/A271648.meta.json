@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations in S_{2*n+3} containing the pattern 2143...(2n)(2n-1).",
+  "id": "A271648",
+  "mentions": [
+    "A217193"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:07:39",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

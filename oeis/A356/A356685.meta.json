@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent simultaneous colorings of the faces, vertices and edges of the cube under rotational symmetry using at most n colors.",
+  "id": "A356685",
+  "mentions": [
+    "A355502"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

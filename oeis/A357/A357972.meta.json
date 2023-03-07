@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of segments used to represent the time of n minutes past midnight in the format hh:mm on a 7-segment calculator display; version where the digits '6', '7' and '9' use 5, 3 and 5 segments, respectively.",
+  "id": "A357972",
+  "mentions": [
+    "A008588",
+    "A055642",
+    "A055643",
+    "A063720",
+    "A357970",
+    "A357971",
+    "A357973",
+    "A357974"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

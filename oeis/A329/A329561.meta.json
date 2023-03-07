@@ -1,0 +1,31 @@
+{
+  "description": "BII-numbers of intersecting antichains of sets.",
+  "id": "A329561",
+  "mentions": [
+    "A000120",
+    "A048143",
+    "A048793",
+    "A070939",
+    "A087086",
+    "A305844",
+    "A305857",
+    "A306007",
+    "A326031",
+    "A326361",
+    "A326704",
+    "A326910",
+    "A326912",
+    "A329560",
+    "A329628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

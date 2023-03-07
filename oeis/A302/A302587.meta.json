@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)*tanh(x).",
+  "id": "A302587",
+  "mentions": [
+    "A000182",
+    "A009832",
+    "A062024",
+    "A302583",
+    "A302584",
+    "A302585",
+    "A302586"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

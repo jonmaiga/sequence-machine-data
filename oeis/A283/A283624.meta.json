@@ -1,0 +1,19 @@
+{
+  "description": "Number of {0,1} n X n matrices with no rows or columns in which all entries are the same.",
+  "id": "A283624",
+  "mentions": [
+    "A048291",
+    "A283654"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:35:49",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

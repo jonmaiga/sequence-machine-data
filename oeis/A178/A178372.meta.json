@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 8 nonattacking amazons (superqueens) on an 8 X n board.",
+  "id": "A178372",
+  "mentions": [
+    "A174642",
+    "A174644",
+    "A174645",
+    "A174646"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:13",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

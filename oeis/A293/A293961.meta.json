@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of linear chord diagrams having n chords and maximal chord length k (or k=0 if n=0); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A293961",
+  "mentions": [
+    "A000007",
+    "A001147",
+    "A057427",
+    "A167030",
+    "A293881",
+    "A293960",
+    "A293962",
+    "A293963"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

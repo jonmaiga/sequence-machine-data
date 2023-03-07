@@ -1,0 +1,33 @@
+{
+  "description": "Correlation triangle for n+1.",
+  "id": "A115262",
+  "mentions": [
+    "A000027",
+    "A000330",
+    "A001752",
+    "A003783",
+    "A007290",
+    "A051925",
+    "A097701",
+    "A115622",
+    "A144112",
+    "A159920",
+    "A185957",
+    "A193722",
+    "A202673",
+    "A271916"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:51",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

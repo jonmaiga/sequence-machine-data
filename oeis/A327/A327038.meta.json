@@ -1,0 +1,29 @@
+{
+  "description": "Number of pairwise intersecting set-systems covering a subset of {1..n} where every two covered vertices appear together in some edge (cointersecting).",
+  "id": "A327038",
+  "mentions": [
+    "A051185",
+    "A058891",
+    "A319765",
+    "A319767",
+    "A319774",
+    "A326854",
+    "A326912",
+    "A327037",
+    "A327039",
+    "A327040",
+    "A327052"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

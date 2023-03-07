@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) in which n-th row lists in increasing order the values of the n-th derivative at x=1 of all functions that are representable as x^x^...^x with n x's and parentheses inserted in all possible ways; n>=1, 1<=k<=A000081(n).",
+  "id": "A216350",
+  "mentions": [
+    "A000081",
+    "A033917",
+    "A215703",
+    "A216281",
+    "A216349",
+    "A216351"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

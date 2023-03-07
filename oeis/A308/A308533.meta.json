@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that the sum of anti-divisors divides the concatenation (in ascending order) of anti-divisors.",
+  "id": "A308533",
+  "mentions": [
+    "A066272",
+    "A066417",
+    "A130846",
+    "A308486"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

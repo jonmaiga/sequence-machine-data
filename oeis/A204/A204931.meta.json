@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that n divides A204930(k), the k-th difference of two distinct factorials.",
+  "id": "A204931",
+  "mentions": [
+    "A204892",
+    "A204930",
+    "A204932"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:13:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

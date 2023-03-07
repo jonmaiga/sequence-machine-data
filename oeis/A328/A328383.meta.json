@@ -1,0 +1,28 @@
+{
+  "description": "a(n) gives the number of iterations of x -> A003415(x) needed to reach the first number which is either a divisor or multiple of n, but not both at the same time. If no such number can ever be reached, a(n) is 0 (when either n is of the form p^p, or if the iteration would never stop). When the number reached is a divisor of n, a(n) is -1 * iteration count.",
+  "id": "A328383",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A051674",
+    "A256750",
+    "A258651",
+    "A328235",
+    "A328236",
+    "A328248",
+    "A328384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A065447(n) / A002275(floor((n+1)/2)).",
+  "id": "A262806",
+  "mentions": [
+    "A002275",
+    "A065447"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

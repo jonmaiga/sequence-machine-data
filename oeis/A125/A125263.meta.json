@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^8 + 7 is prime.",
+  "id": "A125263",
+  "mentions": [
+    "A000040",
+    "A005574",
+    "A067200",
+    "A125259",
+    "A125260",
+    "A125261",
+    "A125262",
+    "A125264",
+    "A125265"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

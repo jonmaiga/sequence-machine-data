@@ -1,0 +1,24 @@
+{
+  "description": "Möbius transform of A250469.",
+  "id": "A347376",
+  "mentions": [
+    "A003972",
+    "A008683",
+    "A020639",
+    "A078898",
+    "A250469",
+    "A346479",
+    "A347377"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

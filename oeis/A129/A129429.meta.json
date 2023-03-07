@@ -1,0 +1,25 @@
+{
+  "description": "Number of isomorphism classes of 4-regular multigraphs of order n, loops allowed.",
+  "id": "A129429",
+  "mentions": [
+    "A085549",
+    "A129418",
+    "A129427",
+    "A129431",
+    "A129433",
+    "A129435",
+    "A129437",
+    "A167625"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

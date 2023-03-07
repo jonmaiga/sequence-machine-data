@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n,k) for 1 <= k <= n/2 + 1: T(n,k) = number of double palindrome structures of length n using exactly k different symbols.",
+  "id": "A284877",
+  "mentions": [
+    "A165137",
+    "A180249",
+    "A284826",
+    "A284873",
+    "A328688",
+    "A328689",
+    "A328690",
+    "A328692",
+    "A328693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

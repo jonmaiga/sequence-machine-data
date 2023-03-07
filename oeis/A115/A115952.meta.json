@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1-x+x*y)/(1-x^2*y^2) - x^2/(1-x^2*y).",
+  "id": "A115952",
+  "mentions": [
+    "A000007",
+    "A115524",
+    "A115953",
+    "A115954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

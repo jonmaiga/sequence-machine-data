@@ -1,0 +1,22 @@
+{
+  "description": "Define b(n) by 1/sm(w) = Sum_{n >= 0} b(3*n-1)*w^(3*n-1), where sm(w) is the elliptic function defined in A104133; a(n) = denominator of b(3*n-1).",
+  "id": "A335158",
+  "mentions": [
+    "A104133",
+    "A104134",
+    "A335157",
+    "A335180",
+    "A335181"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

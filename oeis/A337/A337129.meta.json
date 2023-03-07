@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array read by rows: T(n,0) = 2^n, T(n,k) = Sum_{i=n-k..n, j=0..i-n+k, i<>n or j<>k} T(i,j) for k > 0.",
+  "id": "A337129",
+  "mentions": [
+    "A000079",
+    "A001906",
+    "A004171",
+    "A018903",
+    "A069429",
+    "A099157"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

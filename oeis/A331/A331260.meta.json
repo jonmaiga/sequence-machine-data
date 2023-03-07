@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of harmonic mean of 3 consecutive primes. Numerators are A331259.",
+  "id": "A331260",
+  "mentions": [
+    "A046301",
+    "A127345",
+    "A292530",
+    "A331259"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

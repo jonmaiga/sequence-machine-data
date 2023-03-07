@@ -1,0 +1,22 @@
+{
+  "description": "Define the \"Fibonacci\" morphism f: 1->12, 2->1 and let a(0) = 2; then a(n+1) = f(a(n)).",
+  "id": "A106750",
+  "mentions": [
+    "A000045",
+    "A003842",
+    "A106748",
+    "A106749",
+    "A213975",
+    "A213976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

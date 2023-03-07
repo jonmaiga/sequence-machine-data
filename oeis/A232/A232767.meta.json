@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the concatenation p987654321 is prime.",
+  "id": "A232767",
+  "mentions": [
+    "A104914",
+    "A104915",
+    "A232766"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

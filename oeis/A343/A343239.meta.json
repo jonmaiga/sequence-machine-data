@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows giving the solutions x for x^2 == -5 (mod A343238(n)), for x from {0, 1, 2, ..., A343238(n)-1}, for n >= 1.",
+  "id": "A343239",
+  "mentions": [
+    "A343238",
+    "A343240"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

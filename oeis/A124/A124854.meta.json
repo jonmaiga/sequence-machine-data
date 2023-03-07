@@ -1,0 +1,19 @@
+{
+  "description": "Primes p=n/2 such that 5n+3 and 3n+5 are primes.",
+  "id": "A124854",
+  "mentions": [
+    "A087505",
+    "A088879",
+    "A124853"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

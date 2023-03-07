@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array: the fission of ((2x+1)^n) by (q(n,x)), where q(n,x)=x^n+x^(n-1)+...+x+1.",
+  "id": "A193860",
+  "mentions": [
+    "A193823",
+    "A193842",
+    "A193861"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:03",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

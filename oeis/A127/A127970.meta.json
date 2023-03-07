@@ -1,0 +1,19 @@
+{
+  "description": "Number triangle A127967 modulo 2.",
+  "id": "A127970",
+  "mentions": [
+    "A127967",
+    "A127971"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

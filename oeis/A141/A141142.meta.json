@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of power series arising in random graphs.",
+  "id": "A141142",
+  "mentions": [
+    "A141143"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

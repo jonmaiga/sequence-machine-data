@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that the union of {A242059(i): 1 <= i <= k} and {A242060(i): 1 <= i <= k} includes all primes {5, ..., prime(n)}.",
+  "id": "A242065",
+  "mentions": [
+    "A242033",
+    "A242034",
+    "A242036",
+    "A242037",
+    "A242057",
+    "A242058",
+    "A242059",
+    "A242060",
+    "A242064"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

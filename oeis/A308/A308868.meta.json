@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the smallest parts in the partitions of n into 6 parts.",
+  "id": "A308868",
+  "mentions": [
+    "A238340",
+    "A306670",
+    "A306671",
+    "A308867",
+    "A308869",
+    "A308872",
+    "A308873"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:51",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

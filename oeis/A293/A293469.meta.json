@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (2*k-1)!!*binomial(2*n-k, n).",
+  "id": "A293469",
+  "mentions": [
+    "A001147",
+    "A076795",
+    "A084262",
+    "A092392",
+    "A270447",
+    "A293468"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

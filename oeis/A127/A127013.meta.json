@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: reversal of A126988.",
+  "id": "A127013",
+  "mentions": [
+    "A000203",
+    "A126988"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:51:39",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

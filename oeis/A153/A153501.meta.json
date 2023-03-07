@@ -1,0 +1,22 @@
+{
+  "description": "Abundant numbers n such that n/(sigma(n)-2n) is an integer.",
+  "id": "A153501",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A005820",
+    "A033880",
+    "A097498",
+    "A181595"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

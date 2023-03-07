@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = gcd(n, phi(n) + sigma(n)), where phi is A000010 and sigma is A000203.",
+  "id": "A308707",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A000290",
+    "A001597",
+    "A002496",
+    "A008578",
+    "A046388",
+    "A050873",
+    "A065387",
+    "A079704",
+    "A100484",
+    "A308470"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

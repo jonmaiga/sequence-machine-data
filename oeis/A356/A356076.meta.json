@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sigma_k(k) * floor(n/k).",
+  "id": "A356076",
+  "mentions": [
+    "A023887",
+    "A344434",
+    "A356046",
+    "A356079"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

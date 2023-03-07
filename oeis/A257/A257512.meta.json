@@ -1,0 +1,28 @@
+{
+  "description": "Those vertices of the binary beanstalk whose children are both leaves.",
+  "id": "A257512",
+  "mentions": [
+    "A005187",
+    "A011371",
+    "A055938",
+    "A079559",
+    "A179016",
+    "A213717",
+    "A213723",
+    "A213724",
+    "A256490",
+    "A257265",
+    "A257507",
+    "A257508"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

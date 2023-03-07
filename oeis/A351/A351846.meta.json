@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n >= 0, k >= 0, in which n appears 4*n + 1 times in row n.",
+  "id": "A351846",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A001477",
+    "A003056",
+    "A007742",
+    "A016813",
+    "A347263",
+    "A347529",
+    "A351819",
+    "A351824",
+    "A352269",
+    "A352499"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

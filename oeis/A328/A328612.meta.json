@@ -1,0 +1,24 @@
+{
+  "description": "Starting with m = 1, p = 2 and x = n, iterate m -> m * p^valuation(x,p), x -> floor(x/p), p -> {next prime after p}, until x is zero. Then a(n) = {the value of m at the end of iteration}.",
+  "id": "A328612",
+  "mentions": [
+    "A001221",
+    "A007814",
+    "A079067",
+    "A276086",
+    "A328613",
+    "A328620"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

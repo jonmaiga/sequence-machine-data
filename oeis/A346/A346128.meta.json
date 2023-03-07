@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that no self-avoiding walk that can make turns from the set 0, +-Pi/4, +-Pi/2, +-3*Pi/4, of length m + 1 fits into the smallest circle that can enclose a walk of length m.",
+  "id": "A346128",
+  "mentions": [
+    "A127399",
+    "A127400",
+    "A127401",
+    "A306178",
+    "A316198",
+    "A346123",
+    "A346132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

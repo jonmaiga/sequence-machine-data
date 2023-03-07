@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} d(k) * k^c(n/k), where c(n) = 1 - ceiling(n) + floor(n).",
+  "id": "A344746",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A143127"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the smallest 10^n-digit member of a sexy prime triple and 10^(10^n - 1).",
+  "id": "A275686",
+  "mentions": [
+    "A046118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

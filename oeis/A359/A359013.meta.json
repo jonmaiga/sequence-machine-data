@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that can be written as the sum of a perfect square and a factorial in exactly 3 distinct ways.",
+  "id": "A359013",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A358071"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{m=0..n} (Sum_{k=0..m} binomial(n,k))^4.",
+  "id": "A294435",
+  "mentions": [
+    "A001792",
+    "A003583",
+    "A007403",
+    "A294436"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

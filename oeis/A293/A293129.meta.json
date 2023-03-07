@@ -1,0 +1,21 @@
+{
+  "description": "L.g.f.: Sum_{n=-oo..+oo} (x - x^(2*n-1))^(2*n-1) / (2*n-1).",
+  "id": "A293129",
+  "mentions": [
+    "A291937",
+    "A293597",
+    "A293598",
+    "A293599"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

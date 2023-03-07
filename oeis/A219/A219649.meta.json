@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table, where row n (n >= 0) starts with n, the next term is A219641(n), and the successive terms are obtained by repeatedly subtracting the number of 1's in the previous term's Zeckendorf expansion, until zero is reached, after which the next row starts with one larger n.",
+  "id": "A219649",
+  "mentions": [
+    "A007895",
+    "A014417",
+    "A218254",
+    "A219641",
+    "A219647",
+    "A219648",
+    "A219659"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

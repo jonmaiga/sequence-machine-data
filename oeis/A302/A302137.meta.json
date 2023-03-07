@@ -1,0 +1,21 @@
+{
+  "description": "Primes of form 10*k^k - 9.",
+  "id": "A302137",
+  "mentions": [
+    "A301870",
+    "A302124",
+    "A302135",
+    "A302136"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

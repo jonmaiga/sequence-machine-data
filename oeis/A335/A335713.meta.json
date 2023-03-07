@@ -1,0 +1,20 @@
+{
+  "description": "The sum of the sizes of the largest fixed points over all compositions of n.",
+  "id": "A335713",
+  "mentions": [
+    "A099036",
+    "A335712",
+    "A335714"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

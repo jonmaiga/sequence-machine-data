@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the Riordan matrix (1+x/sqrt(1-4*x),(1-sqrt(1-4*x))/2) (A189175).",
+  "id": "A189176",
+  "mentions": [
+    "A189175"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:00:20",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

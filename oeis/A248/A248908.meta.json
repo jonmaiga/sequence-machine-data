@@ -1,0 +1,19 @@
+{
+  "description": "The number of isomorphism classes of Latin keis (involutory right distributive quasigroups) of order n.",
+  "id": "A248908",
+  "mentions": [
+    "A254434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p of three consecutive primes (p,q,r) with p + q + r equal to a lower twin prime.",
+  "id": "A176603",
+  "mentions": [
+    "A001359",
+    "A034961",
+    "A174454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

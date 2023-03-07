@@ -1,0 +1,27 @@
+{
+  "description": "A classification of permutations based on their cycle length and the size of the centralizer of their cycle type. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A339016",
+  "mentions": [
+    "A000142",
+    "A002104",
+    "A006231",
+    "A092271",
+    "A121726",
+    "A126074",
+    "A132393",
+    "A339015",
+    "A339033"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

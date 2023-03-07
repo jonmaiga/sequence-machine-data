@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the alternating sum 1/p(1) - 1/(p(2)*p(3)) + 1/(p(4)*p(5)*p(6)) - 1/(p(7)*p(8)*p(9)*p(10)) + ..., where p(n) is the n-th prime.",
+  "id": "A238234",
+  "mentions": [
+    "A000217",
+    "A139395",
+    "A139396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

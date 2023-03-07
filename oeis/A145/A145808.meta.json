@@ -1,0 +1,28 @@
+{
+  "description": "Non-palindromic balanced numbers: the first and the last half of digits have the same sum.",
+  "id": "A145808",
+  "mentions": [
+    "A002113",
+    "A004526",
+    "A007953",
+    "A020492",
+    "A031443",
+    "A055642",
+    "A110654",
+    "A147808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

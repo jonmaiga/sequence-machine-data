@@ -1,0 +1,28 @@
+{
+  "description": "E.g.f.: exp(8*x*G(x)^7) / G(x) where G(x) = 1 + x*G(x)^8 is the g.f. of A007556.",
+  "id": "A251668",
+  "mentions": [
+    "A007556",
+    "A243953",
+    "A251578",
+    "A251663",
+    "A251664",
+    "A251665",
+    "A251666",
+    "A251667",
+    "A251669",
+    "A251670",
+    "A251698"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:07:49",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

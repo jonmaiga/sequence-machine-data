@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime divisors, counted with multiplicity, of A180202(n), the product of the two numbers in the n-th amicable pair, A002025(n) * A002046(n).",
+  "id": "A247191",
+  "mentions": [
+    "A001222",
+    "A002025",
+    "A002046",
+    "A180202"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

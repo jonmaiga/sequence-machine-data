@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive integer not yet in the sequence which shares a digit with either a(n-3) or a(n-2) (or with both), but shares no digit with a(n-1); a(1)=0, a(2)=1, a(3)=2.",
+  "id": "A303294",
+  "mentions": [
+    "A286890",
+    "A300907",
+    "A302388",
+    "A302566"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

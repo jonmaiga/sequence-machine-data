@@ -1,0 +1,43 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals: A(n,k) is the number of n-colorings of the square diagonal grid graph DG_(k,k).",
+  "id": "A212209",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000038",
+    "A000290",
+    "A000332",
+    "A002522",
+    "A002943",
+    "A052762",
+    "A068250",
+    "A068251",
+    "A068252",
+    "A068293",
+    "A068294",
+    "A068295",
+    "A068296",
+    "A068297",
+    "A068298",
+    "A068299",
+    "A068300",
+    "A068301",
+    "A068302",
+    "A068303",
+    "A068304",
+    "A068305",
+    "A208021",
+    "A212208"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

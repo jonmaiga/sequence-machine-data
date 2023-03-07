@@ -1,0 +1,27 @@
+{
+  "description": "Number of cells turned \"ON\" at n-th stage of cellular automaton of A173460.",
+  "id": "A173461",
+  "mentions": [
+    "A000695",
+    "A110164",
+    "A139250",
+    "A139251",
+    "A147610",
+    "A173457",
+    "A173460",
+    "A173462",
+    "A173463"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

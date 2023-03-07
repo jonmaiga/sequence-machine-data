@@ -1,0 +1,32 @@
+{
+  "description": "Number of labeled hypertrees spanning some subset of {1,...,n}, with singleton edges allowed.",
+  "id": "A304968",
+  "mentions": [
+    "A030019",
+    "A035053",
+    "A134954",
+    "A134955",
+    "A134956",
+    "A134957",
+    "A134958",
+    "A134959",
+    "A144959",
+    "A304386",
+    "A304867",
+    "A304911",
+    "A304912",
+    "A304918",
+    "A304970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

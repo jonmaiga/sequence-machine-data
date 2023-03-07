@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the least triangular numbers (A000217) for which three consecutive triangular numbers sum to a perfect square (A000290).",
+  "id": "A165517",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A129445",
+    "A165516"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

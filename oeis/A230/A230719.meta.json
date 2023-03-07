@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number whose square is the sum of two positive cubes in at least n ways.",
+  "id": "A230719",
+  "mentions": [
+    "A050801",
+    "A051302",
+    "A155961"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

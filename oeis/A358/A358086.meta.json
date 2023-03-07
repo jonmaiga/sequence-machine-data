@@ -1,0 +1,23 @@
+{
+  "description": "Inventory of positions ordered by odd parts of terms, as an irregular table; the first row contains 1, subsequent rows contains the 1-based positions of terms with odd part 1, followed by positions of terms with odd part 3, 5, etc. in prior rows flattened.",
+  "id": "A358086",
+  "mentions": [
+    "A000265",
+    "A011782",
+    "A342585",
+    "A356784",
+    "A358085",
+    "A358122"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

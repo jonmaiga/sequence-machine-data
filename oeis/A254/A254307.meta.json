@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that there are n positive integers, all less than or equal to k, such that the sum of the reciprocals of their squares equals 1.",
+  "id": "A254307",
+  "mentions": [
+    "A000058",
+    "A063664"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 6,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

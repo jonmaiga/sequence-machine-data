@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = card{ x <= n : x odd and omega(x) = 2 }.",
+  "id": "A346622",
+  "mentions": [
+    "A007774",
+    "A082997",
+    "A146167",
+    "A346623"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

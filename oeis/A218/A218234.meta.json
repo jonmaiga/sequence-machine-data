@@ -1,0 +1,23 @@
+{
+  "description": "Infinitesimal generator for padded Pascal matrix A097805 (as lower triangular matrices).",
+  "id": "A218234",
+  "mentions": [
+    "A021009",
+    "A094638",
+    "A097805",
+    "A132440"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

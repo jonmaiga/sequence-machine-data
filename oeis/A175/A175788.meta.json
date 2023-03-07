@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals: A(n,k) is the number of partitions of n that do not contain k as a part.",
+  "id": "A175788",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000065",
+    "A002865",
+    "A027336",
+    "A027337",
+    "A027338",
+    "A027339",
+    "A027340",
+    "A027341",
+    "A027342",
+    "A027343",
+    "A027344",
+    "A060576"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

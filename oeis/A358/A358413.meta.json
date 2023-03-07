@@ -1,0 +1,26 @@
+{
+  "description": "Smallest 3-abundant number (sigma(x) > 3x) which is not divisible by any of the first n primes.",
+  "id": "A358413",
+  "mentions": [
+    "A023199",
+    "A047802",
+    "A068403",
+    "A119240",
+    "A358412",
+    "A358414",
+    "A358418",
+    "A358419"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

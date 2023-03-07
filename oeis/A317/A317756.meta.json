@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct primes obtained by cyclically shifting the decimal digits of the n-th prime.",
+  "id": "A317756",
+  "mentions": [
+    "A000040",
+    "A247153",
+    "A262988",
+    "A317716"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows T(n,k) is the least integer with more than 1 digit in base n and k, such that the set of its base_n digits equals the set of its base_k digits.",
+  "id": "A281383",
+  "mentions": [
+    "A033170",
+    "A037408",
+    "A037443",
+    "A281384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

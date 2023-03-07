@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-dimensional subspaces of an n-dimensional vector space over F_2 that do not contain a given nonzero vector, n>=0, 0<=k<=n.",
+  "id": "A289537",
+  "mentions": [
+    "A022166",
+    "A182176",
+    "A289538",
+    "A289539",
+    "A289541",
+    "A289542"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

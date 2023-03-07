@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining A305897 and the parity of n.",
+  "id": "A318500",
+  "mentions": [
+    "A000035",
+    "A007814",
+    "A246277",
+    "A291761",
+    "A305801",
+    "A305891",
+    "A305897"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

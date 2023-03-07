@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd-length columns in all bargraphs having semiperimeter n (n>=2).",
+  "id": "A273902",
+  "mentions": [
+    "A082582",
+    "A273901",
+    "A273903",
+    "A273904"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

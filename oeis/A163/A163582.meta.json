@@ -1,0 +1,19 @@
+{
+  "description": "Smallest pseudoprimes in ascending bases b of the form pq, where p = (b^k - 1) / (b - 1) and q = (b^k + 1) / (b + 1), both prime, with k a prime less than 100",
+  "id": "A163582",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007535"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of uniform star polyhedra with Euler characteristic A300449(n).",
+  "id": "A300450",
+  "mentions": [
+    "A128112",
+    "A128113",
+    "A128114",
+    "A128914",
+    "A300449"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to 4/n = 1/x + 1/y + 1/z in positive integers.",
+  "id": "A292581",
+  "mentions": [
+    "A073101",
+    "A192786",
+    "A192787",
+    "A292624",
+    "A337432"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

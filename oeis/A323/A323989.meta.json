@@ -1,0 +1,18 @@
+{
+  "description": "Partial alternating sums modulo 3 of the Kolakoski sequence A000002.",
+  "id": "A323989",
+  "mentions": [
+    "A000002",
+    "A074272"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

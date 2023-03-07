@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+3)X(2+3) 0..1 arrays with each row divisible by 13 and column not divisible by 13, read as a binary number with top and left being the most significant bits.",
+  "id": "A263300",
+  "mentions": [
+    "A263303"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

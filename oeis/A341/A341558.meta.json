@@ -1,0 +1,18 @@
+{
+  "description": "Fourier coefficients of the modular form (1/t_{3A}^2) * F_{3A}^12.",
+  "id": "A341558",
+  "mentions": [
+    "A004016"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

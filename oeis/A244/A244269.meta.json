@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 1p2p3p4p5p6p7p8p9 is prime.",
+  "id": "A244269",
+  "mentions": [
+    "A244268"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

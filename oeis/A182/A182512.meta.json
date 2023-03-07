@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (16^n - 1)/5.",
+  "id": "A182512",
+  "mentions": [
+    "A015521",
+    "A108020",
+    "A112627",
+    "A131865"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

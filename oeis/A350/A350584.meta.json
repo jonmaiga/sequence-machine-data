@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n, k) = [x^k] ((2*x^3 - 3*x^2 - x + 1)/(1 - x)^(n + 2)), for n >= 1 and 0 <= k < n.",
+  "id": "A350584",
+  "mentions": [
+    "A005807",
+    "A046937",
+    "A071716",
+    "A135339",
+    "A280891"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

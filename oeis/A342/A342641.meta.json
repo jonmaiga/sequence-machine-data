@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A342640(k) = k.",
+  "id": "A342641",
+  "mentions": [
+    "A133457",
+    "A342639",
+    "A342640",
+    "A342642"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

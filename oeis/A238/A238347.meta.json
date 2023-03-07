@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of compositions of n where the k-th part is the first occurrence of a smallest part, n>=1, 1<=k<=n.",
+  "id": "A238347",
+  "mentions": [
+    "A011782",
+    "A171682",
+    "A238351"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

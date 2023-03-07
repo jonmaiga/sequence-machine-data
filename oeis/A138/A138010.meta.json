@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of positive divisors of n that divide d(n), where d(n) is the number of positive divisors of n, A000005(n); a(n) also equals d(gcd(n, d(n))).",
+  "id": "A138010",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A124315",
+    "A138011",
+    "A138012"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

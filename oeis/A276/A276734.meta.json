@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the number of divisors of n equals the integer part of the geometric mean of the divisors of n.",
+  "id": "A276734",
+  "mentions": [
+    "A000005",
+    "A000196",
+    "A007955",
+    "A280235"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

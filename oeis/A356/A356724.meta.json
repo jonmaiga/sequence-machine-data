@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n tables where each row represents a permutation of { 1, 2, ..., n } and the column sums are equal, up to permutation of rows.",
+  "id": "A356724",
+  "mentions": [
+    "A356722",
+    "A356723",
+    "A356725"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

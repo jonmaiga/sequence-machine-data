@@ -1,0 +1,21 @@
+{
+  "description": "Sequence built as it follows in comments.",
+  "id": "A174676",
+  "mentions": [
+    "A000045",
+    "A174353",
+    "A174664",
+    "A174665"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

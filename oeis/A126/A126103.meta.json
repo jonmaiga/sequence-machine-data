@@ -1,0 +1,20 @@
+{
+  "description": "Number of pointed groups of order n: that is, Sum_{G = group of order n} Number of orbits in G under the full automorphism group of G.",
+  "id": "A126103",
+  "mentions": [
+    "A000001",
+    "A000055",
+    "A000081",
+    "A126102"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

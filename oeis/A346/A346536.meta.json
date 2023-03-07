@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the sum of the number of ways the numbers between the n-th and (n+1)st composite squarefree numbers can be properly factored.",
+  "id": "A346536",
+  "mentions": [
+    "A001055",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

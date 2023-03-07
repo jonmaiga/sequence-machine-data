@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 2n into two odd parts that are not both prime.",
+  "id": "A352100",
+  "mentions": [
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

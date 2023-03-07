@@ -1,0 +1,25 @@
+{
+  "description": "Fermi-Dirac factorization prime shift towards larger terms: a(n) = A052330(2*A052331(n)).",
+  "id": "A300841",
+  "mentions": [
+    "A003159",
+    "A003961",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A059897",
+    "A300840"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

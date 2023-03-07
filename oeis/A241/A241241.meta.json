@@ -1,0 +1,25 @@
+{
+  "description": "If x is in the sequence then so are x^2 and x(x+1)/2.",
+  "id": "A241241",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001146",
+    "A005214",
+    "A007501",
+    "A011764",
+    "A050909",
+    "A173501",
+    "A176594"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

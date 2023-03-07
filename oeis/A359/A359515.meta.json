@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 3 positive Fibonacci numbers (with a single type of 1).",
+  "id": "A359515",
+  "mentions": [
+    "A000045",
+    "A076739",
+    "A121548",
+    "A121550",
+    "A359512",
+    "A359514",
+    "A359516"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

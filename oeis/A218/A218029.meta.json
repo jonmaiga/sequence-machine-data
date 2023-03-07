@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are equal to the product of the nonzero digits (in base 10) of their square.",
+  "id": "A218029",
+  "mentions": [
+    "A218013",
+    "A218072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

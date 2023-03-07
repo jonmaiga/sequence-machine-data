@@ -1,0 +1,22 @@
+{
+  "description": "Limit of the coefficient of x^(3^m + n) in B(x)^(n+1)/(n+1) as m grows, where B(x) = Sum_{k>=0} x^(3^k).",
+  "id": "A277041",
+  "mentions": [
+    "A144691",
+    "A277040",
+    "A277042",
+    "A277043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

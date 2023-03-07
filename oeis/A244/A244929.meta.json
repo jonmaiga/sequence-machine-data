@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Ti_2(2+sqrt(3)), where Ti_2 is the inverse tangent integral function.",
+  "id": "A244929",
+  "mentions": [
+    "A006752",
+    "A244928"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

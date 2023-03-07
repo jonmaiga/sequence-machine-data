@@ -1,0 +1,20 @@
+{
+  "description": "Write n in Elias's delta code, interchange the 1's and 0's and convert it back to decimal.",
+  "id": "A281313",
+  "mentions": [
+    "A035327",
+    "A054429",
+    "A281150"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

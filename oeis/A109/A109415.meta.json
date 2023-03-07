@@ -1,0 +1,20 @@
+{
+  "description": "a(n) equals the (n*(n+1)/2)-th partial sum of the self-convolution 4th power of A010054, which has the g.f.: Sum_{k>=0} x^(k*(k+1)/2).",
+  "id": "A109415",
+  "mentions": [
+    "A010054",
+    "A109413",
+    "A109414"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

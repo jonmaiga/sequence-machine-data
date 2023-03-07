@@ -1,0 +1,21 @@
+{
+  "description": "Multidimensional Young numbers: Given a d-dimensional partition of n, this is the number of ways to fill the associated d-dimensional Young diagram with the integers 1 to n such that the entries are increasing in each positive (orthogonal) direction.",
+  "id": "A226651",
+  "mentions": [
+    "A005987",
+    "A117506",
+    "A119268"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..[n/2]} A034807(n,k)^n, where A034807 is a triangle of Lucas polynomials.",
+  "id": "A171187",
+  "mentions": [
+    "A034807",
+    "A067961",
+    "A171186"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

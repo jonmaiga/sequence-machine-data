@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{primes p} log(log(p)) / (p*log(p)).",
+  "id": "A354887",
+  "mentions": [
+    "A137245",
+    "A221711"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

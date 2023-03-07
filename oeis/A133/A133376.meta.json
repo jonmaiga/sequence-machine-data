@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (...((2^3)^4)^...)^n.",
+  "id": "A133376",
+  "mentions": [
+    "A049384",
+    "A124075"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

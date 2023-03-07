@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=1..n} gcd(1 + (i-1) * (k-1),n) for 1 <= k <= n.",
+  "id": "A347293",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A008683",
+    "A018804",
+    "A127473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

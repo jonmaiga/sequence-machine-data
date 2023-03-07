@@ -1,0 +1,26 @@
+{
+  "description": "Continued fraction expansion of the constant x (A109169) such that the continued fraction of 2*x yields the continued fraction of x interleaved with the positive even numbers.",
+  "id": "A109168",
+  "mentions": [
+    "A006519",
+    "A100338",
+    "A109169",
+    "A109170",
+    "A109171",
+    "A129760",
+    "A140472",
+    "A285326"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:07",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

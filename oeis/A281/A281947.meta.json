@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that p^i - 1 is a totient (A002202) for all i = 1 to n, or 0 if no such p exists.",
+  "id": "A281947",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A181062",
+    "A281909"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

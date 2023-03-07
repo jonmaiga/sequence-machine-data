@@ -1,0 +1,18 @@
+{
+  "description": "Square array such that horizontal and vertical neighbors add to a prime, read by antidiagonals, filled the greedy way using positive integers, not more than once each.",
+  "id": "A157182",
+  "mentions": [
+    "A055265"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

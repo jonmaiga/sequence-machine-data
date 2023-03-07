@@ -1,0 +1,20 @@
+{
+  "description": "Integers k for which the open interval (k*m, (k+1)*m) contains a prime for all m > 1.",
+  "id": "A220315",
+  "mentions": [
+    "A104272",
+    "A218831"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

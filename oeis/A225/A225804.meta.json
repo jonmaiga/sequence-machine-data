@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic mean of the first n primes, rounded up.",
+  "id": "A225804",
+  "mentions": [
+    "A007504",
+    "A060620"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

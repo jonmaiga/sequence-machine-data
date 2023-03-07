@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k![7]+1 is prime (n![7] = A114799(n) = septuple factorial).",
+  "id": "A156165",
+  "mentions": [
+    "A002981",
+    "A037083",
+    "A080778",
+    "A085146",
+    "A085148",
+    "A085150",
+    "A114799",
+    "A156167"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of the set {1,2,...,n} having no blocks with all entries of the same parity.",
+  "id": "A124425",
+  "mentions": [
+    "A000110",
+    "A124418",
+    "A124419",
+    "A124420",
+    "A124421",
+    "A124422",
+    "A124423",
+    "A124424"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

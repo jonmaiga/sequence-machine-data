@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that for all i > n the largest prime factor of product(i+k, {k,0,9}) exceeds the largest prime factor of product(n+k, {k,0,9}).",
+  "id": "A200567",
+  "mentions": [
+    "A200566",
+    "A200568"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: equivalence classes of natural numbers, where numbers are equivalent when having equal numbers of zeros and ones in binary representation, respectively.",
+  "id": "A187769",
+  "mentions": [
+    "A000120",
+    "A002262",
+    "A003056",
+    "A007318",
+    "A023416",
+    "A023758",
+    "A070939",
+    "A099627",
+    "A187786",
+    "A294648"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

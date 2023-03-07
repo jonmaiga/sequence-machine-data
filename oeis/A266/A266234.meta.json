@@ -1,0 +1,19 @@
+{
+  "description": "Primes representable as f(f(f(...f(p)...))) where p is a prime and f(x) = x*2 - 1.",
+  "id": "A266234",
+  "mentions": [
+    "A000040",
+    "A005383",
+    "A266233"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

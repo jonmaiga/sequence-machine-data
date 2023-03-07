@@ -1,0 +1,22 @@
+{
+  "description": "Nonpalindromic integers with palindromic product of divisors.",
+  "id": "A324041",
+  "mentions": [
+    "A002113",
+    "A007955",
+    "A029742",
+    "A327325"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

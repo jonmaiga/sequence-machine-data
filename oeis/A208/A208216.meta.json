@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of making change for n cents using coins of 1, 5, 10, and 25 cents, where each coin that appears is used a different number of times.",
+  "id": "A208216",
+  "mentions": [
+    "A001299",
+    "A208217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

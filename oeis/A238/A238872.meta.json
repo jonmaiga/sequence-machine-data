@@ -1,0 +1,25 @@
+{
+  "description": "Number of strongly unimodal compositions of n with absolute difference of successive parts = 1.",
+  "id": "A238872",
+  "mentions": [
+    "A001522",
+    "A001523",
+    "A005169",
+    "A034297",
+    "A059618",
+    "A130695",
+    "A238870",
+    "A238871"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

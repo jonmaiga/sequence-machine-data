@@ -1,0 +1,19 @@
+{
+  "description": "Last remaining numbers after a symmetric variation of the Josephus problem.",
+  "id": "A325594",
+  "mentions": [
+    "A006257",
+    "A165556"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of fully symmetric recurrent sandpiles on an n X n grid.",
+  "id": "A348567",
+  "mentions": [
+    "A256046",
+    "A348566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

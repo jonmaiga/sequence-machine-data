@@ -1,0 +1,20 @@
+{
+  "description": "a(f(A074773(n))) = A074773(n); 1 <= n <= 9999; f: N -> {1..9999}.",
+  "id": "A209833",
+  "mentions": [
+    "A074773",
+    "A208846"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

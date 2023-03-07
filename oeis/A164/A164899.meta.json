@@ -1,0 +1,23 @@
+{
+  "description": "Binomial matrix (1,10^n) read by antidiagonals.",
+  "id": "A164899",
+  "mentions": [
+    "A001020",
+    "A007318",
+    "A021093",
+    "A094704",
+    "A164844"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

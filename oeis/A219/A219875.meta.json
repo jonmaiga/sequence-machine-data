@@ -1,0 +1,22 @@
+{
+  "description": "Multiplication table of the operation n•m = n*m + ceiling(n/phi)*ceiling(m/phi), with phi=(1+sqrt(5))/2, read by antidiagonals.",
+  "id": "A219875",
+  "mentions": [
+    "A004956",
+    "A101385",
+    "A101858",
+    "A101866",
+    "A101868"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

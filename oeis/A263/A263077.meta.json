@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = greatest k where A155043(k) < A155043(n).",
+  "id": "A263077",
+  "mentions": [
+    "A002182",
+    "A002183",
+    "A155043",
+    "A261089",
+    "A262503",
+    "A263078",
+    "A263079",
+    "A263080",
+    "A263082"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

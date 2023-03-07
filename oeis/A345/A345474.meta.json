@@ -1,0 +1,22 @@
+{
+  "description": "Given the associative array U(n,k) described below, numbers m > 7 such that [m-5..m+5] are not in U(n,k) (excluding the first row and column).",
+  "id": "A345474",
+  "mentions": [
+    "A319929",
+    "A327263",
+    "A340748",
+    "A345357",
+    "A345473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

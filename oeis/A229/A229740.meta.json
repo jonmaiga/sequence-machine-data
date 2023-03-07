@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = q^9/6+5*q^8/6+2*q^7/3-q^6/6-5*q^5/6+q^4/3 where q = n-th prime power A000961(n).",
+  "id": "A229740",
+  "mentions": [
+    "A000961",
+    "A229738",
+    "A229739",
+    "A255500",
+    "A255501"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of iterations of A340592 starting from n, until 0, 1 or a prime is reached.",
+  "id": "A340594",
+  "mentions": [
+    "A066247",
+    "A340592",
+    "A340595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 2,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

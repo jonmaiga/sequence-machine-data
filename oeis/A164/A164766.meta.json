@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that exactly n odd numbers can be seen as proper substrings of m in decimal representation.",
+  "id": "A164766",
+  "mentions": [
+    "A045888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

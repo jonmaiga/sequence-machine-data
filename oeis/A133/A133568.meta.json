@@ -1,0 +1,20 @@
+{
+  "description": "Triangle: row n is least sequence of n positive integers such that A131655(n) distinct rational numbers are generated only from them using only +, -, * and / and each number in the row no more than once in a given expression.",
+  "id": "A133568",
+  "mentions": [
+    "A131655"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

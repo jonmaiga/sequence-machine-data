@@ -1,0 +1,19 @@
+{
+  "description": "The distance between n! and the nearest perfect square.",
+  "id": "A260374",
+  "mentions": [
+    "A260373",
+    "A260375"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

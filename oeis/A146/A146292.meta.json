@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,m) read by rows (n >= 1, 0 <= m <= A036041(n)), giving the number of divisors of A025487(n) with m prime factors (counted with multiplicity).",
+  "id": "A146292",
+  "mentions": [
+    "A001222",
+    "A007318",
+    "A025487",
+    "A036041",
+    "A061394",
+    "A098719",
+    "A146288",
+    "A146289",
+    "A146290",
+    "A146291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

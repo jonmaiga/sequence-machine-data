@@ -1,0 +1,18 @@
+{
+  "description": "Lower s-Wythoff sequence, where s=5n+1. Complement of A184521.",
+  "id": "A184520",
+  "mentions": [
+    "A184117",
+    "A184521"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:49",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

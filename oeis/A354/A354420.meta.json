@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n>3, a(n) has a common factor with a(n-2), shares a 1-bit in its binary expansion with a(n-2), has no common factor with a(n-1), and does not share a 1-bit in its binary expansion with a(n-1).",
+  "id": "A354420",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A336957",
+    "A351691",
+    "A352763",
+    "A353989",
+    "A353990",
+    "A354087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

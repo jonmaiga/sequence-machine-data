@@ -1,0 +1,20 @@
+{
+  "description": "Fractalization of (1+[n/sqrt(5)]), where [ ]=floor.",
+  "id": "A194983",
+  "mentions": [
+    "A194959",
+    "A194964",
+    "A194984",
+    "A194985"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

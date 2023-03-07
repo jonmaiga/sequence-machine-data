@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers m such that A309132(m) <= m.",
+  "id": "A309235",
+  "mentions": [
+    "A002997",
+    "A027641",
+    "A027642",
+    "A309132"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

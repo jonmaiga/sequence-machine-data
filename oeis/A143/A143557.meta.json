@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^4/A(-x)^4.",
+  "id": "A143557",
+  "mentions": [
+    "A143555",
+    "A143556",
+    "A143558",
+    "A143559",
+    "A143564"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes in carryless arithmetic mod 10 in which all digits except the rightmost are even.",
+  "id": "A163396",
+  "mentions": [
+    "A169887",
+    "A169984"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

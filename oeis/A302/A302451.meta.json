@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=0} (1 + n*x^(2^k)).",
+  "id": "A302451",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A048883",
+    "A102376",
+    "A245788",
+    "A256140"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:05",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

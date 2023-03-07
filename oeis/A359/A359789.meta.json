@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet inverse of A036288, where A036288(n) = 1 + sopfr(n), where sopfr is the sum of prime divisors with repetition, A001414.",
+  "id": "A359789",
+  "mentions": [
+    "A001414",
+    "A036288",
+    "A359773",
+    "A359774",
+    "A359788",
+    "A359790",
+    "A359791"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

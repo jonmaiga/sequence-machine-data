@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of bracelets of n beads (necklaces that can be flipped over) with exactly two colors and k white beads for which the set of distances among the white beads are different.",
+  "id": "A103441",
+  "mentions": [
+    "A045611",
+    "A052307",
+    "A077078",
+    "A077079",
+    "A103442"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

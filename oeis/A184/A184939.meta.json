@@ -1,0 +1,21 @@
+{
+  "description": "From the base sequence of the positive integers, keep the first two, remove the next three, keep the next five, remove the next seven, ..., block lengths determined by the prime numbers.",
+  "id": "A184939",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A004201",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

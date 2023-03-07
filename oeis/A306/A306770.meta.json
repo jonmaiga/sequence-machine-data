@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(k! + (k+1)! + (k+2)!).",
+  "id": "A306770",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A054119",
+    "A091725"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

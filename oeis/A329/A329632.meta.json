@@ -1,0 +1,27 @@
+{
+  "description": "Number of connected integer partitions of n whose distinct parts are pairwise indivisible.",
+  "id": "A329632",
+  "mentions": [
+    "A048143",
+    "A218970",
+    "A286518",
+    "A286520",
+    "A304714",
+    "A304716",
+    "A304717",
+    "A305078",
+    "A305148",
+    "A329559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

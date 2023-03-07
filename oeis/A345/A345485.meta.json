@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of seven squares in eight or more ways.",
+  "id": "A345485",
+  "mentions": [
+    "A344812",
+    "A345484",
+    "A345486",
+    "A345495",
+    "A345526"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

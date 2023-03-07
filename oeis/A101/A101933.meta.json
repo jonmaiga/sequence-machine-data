@@ -1,0 +1,25 @@
+{
+  "description": "Concatenate the first n positive integers written in binary (with each integer written so the most significant 1 is on the left and the concatenated string is from left to right, A030302). a(n) is the number of times n written in binary appears disjointedly in the concatenated string.",
+  "id": "A101933",
+  "mentions": [
+    "A007088",
+    "A030190",
+    "A030302",
+    "A047778",
+    "A058935",
+    "A117127",
+    "A141439"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

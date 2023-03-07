@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sopf(n) + n/rad(n).",
+  "id": "A229022",
+  "mentions": [
+    "A007947",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

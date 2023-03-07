@@ -1,0 +1,19 @@
+{
+  "description": "prime(k) for those k where floor(2*(((prime(k + 1) - prime(k))*PrimePi(k)) mod (8*k)) / k) = m with m = 0.",
+  "id": "A109555",
+  "mentions": [
+    "A109556",
+    "A109569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:52:13",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

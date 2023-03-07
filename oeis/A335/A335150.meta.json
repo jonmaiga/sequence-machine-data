@@ -1,0 +1,17 @@
+{
+  "description": "Perimeters of Heronian triangles whose smallest side length is coprime to their middle side and whose middle side length divides their perimeter.",
+  "id": "A335150",
+  "mentions": [
+    "A335149"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, Pell sequence in every column.",
+  "id": "A128514",
+  "mentions": [
+    "A000129",
+    "A048739"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

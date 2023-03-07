@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of 2*sin(Pi/5); the 'associate' of the golden ratio.",
+  "id": "A182007",
+  "mentions": [
+    "A001622",
+    "A002193",
+    "A003401",
+    "A019845",
+    "A019881",
+    "A102769",
+    "A131595",
+    "A188593"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:19:43",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

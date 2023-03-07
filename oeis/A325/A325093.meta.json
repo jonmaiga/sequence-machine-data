@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions into distinct powers of 2.",
+  "id": "A325093",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A018819",
+    "A033844",
+    "A056239",
+    "A102378",
+    "A112798",
+    "A318400",
+    "A325091",
+    "A325092"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

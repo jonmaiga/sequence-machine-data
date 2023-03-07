@@ -1,0 +1,40 @@
+{
+  "description": "To get A(n,k), replace 0's in the binary expansion of n with (-1) and interpret the result in base k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A360099",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A002061",
+    "A006257",
+    "A023443",
+    "A030300",
+    "A057427",
+    "A062157",
+    "A062158",
+    "A083074",
+    "A145037",
+    "A147991",
+    "A147992",
+    "A147993",
+    "A152618",
+    "A153777",
+    "A165900",
+    "A359925",
+    "A360096"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

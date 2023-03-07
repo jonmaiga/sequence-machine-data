@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary matrices with n distinct columns and any number of distinct nonzero rows with 4 ones in every column and rows in decreasing lexicographic order.",
+  "id": "A331655",
+  "mentions": [
+    "A188446",
+    "A331039"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

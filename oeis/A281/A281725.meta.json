@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T(n,k) is the sum of elements in an n X k matrix that will be assigned the same value whether the integers from 1 to n*k are assigned to elements in row-major order or column-major order.",
+  "id": "A281725",
+  "mentions": [
+    "A000217",
+    "A006003",
+    "A058331",
+    "A081436",
+    "A281726"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

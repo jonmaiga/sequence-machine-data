@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps of applying \"Erase or triple\" protocol to n before reaching 0, 5, 7, or 89.",
+  "id": "A306378",
+  "mentions": [
+    "A300148",
+    "A300149",
+    "A300150",
+    "A300151"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

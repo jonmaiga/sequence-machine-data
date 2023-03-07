@@ -1,0 +1,22 @@
+{
+  "description": "Semiprime powers with special exponents: k^(j-1) where both j and k are arbitrary semiprime numbers.",
+  "id": "A186637",
+  "mentions": [
+    "A001358",
+    "A036454",
+    "A113877",
+    "A186621"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

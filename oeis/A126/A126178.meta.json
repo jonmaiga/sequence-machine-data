@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of hex trees with n edges and k vertices of outdegree 1 (0<=k<=n).",
+  "id": "A126178",
+  "mentions": [
+    "A000244",
+    "A002212",
+    "A026376"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

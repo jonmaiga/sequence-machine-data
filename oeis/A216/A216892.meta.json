@@ -1,0 +1,18 @@
+{
+  "description": "Number of unspecified amplitude coefficients in an n-particle supersymmetric Yang-Mills Lagrangian (with maximum helicity violation, 4 charges) on the three-loop level.",
+  "id": "A216892",
+  "mentions": [
+    "A006918"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 5,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

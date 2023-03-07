@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that both 5*p - 4 and 4*p - 5 are prime.",
+  "id": "A289556",
+  "mentions": [
+    "A056240",
+    "A136051",
+    "A156300",
+    "A259730",
+    "A288814",
+    "A290163",
+    "A290164"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

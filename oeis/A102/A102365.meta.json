@@ -1,0 +1,33 @@
+{
+  "description": "Triangle T(n,k), 0 <= k <= n, read by rows: given by [ 1, 0, 3, 0, 5, 0, 7, 0, 9, 0, ...] DELTA [ 0, 1, 0, 2, 0, 3, 0, 4, 0, 5, 0, ...] where DELTA is the operator defined in A084938.",
+  "id": "A102365",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000340",
+    "A001147",
+    "A008292",
+    "A014307",
+    "A050488",
+    "A084938",
+    "A142965",
+    "A142966",
+    "A156922",
+    "A156923",
+    "A156924",
+    "A211399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

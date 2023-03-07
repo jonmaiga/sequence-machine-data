@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = k / gcd(k, n), 1 <= k <= n.",
+  "id": "A164306",
+  "mentions": [
+    "A051537",
+    "A054531",
+    "A057661",
+    "A167192"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

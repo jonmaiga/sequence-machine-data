@@ -1,0 +1,28 @@
+{
+  "description": "Number of connected cyclic conjugacy classes of subgroups of the symmetric group.",
+  "id": "A218970",
+  "mentions": [
+    "A018783",
+    "A200976",
+    "A286518",
+    "A286520",
+    "A290103",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A322306",
+    "A322307"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

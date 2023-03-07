@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*A345652(k)*Stirling1(n, k).",
+  "id": "A350759",
+  "mentions": [
+    "A048994",
+    "A176118",
+    "A238363",
+    "A345652"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

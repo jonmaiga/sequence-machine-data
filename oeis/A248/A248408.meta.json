@@ -1,0 +1,20 @@
+{
+  "description": "Values of y in A142508(n) = x^2+13y^2.",
+  "id": "A248408",
+  "mentions": [
+    "A033210",
+    "A142508",
+    "A248019",
+    "A248221"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

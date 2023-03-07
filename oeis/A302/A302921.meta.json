@@ -1,0 +1,20 @@
+{
+  "description": "Values of A000010(m) where gcd(A000010(m), m) equals the number of solutions of A000010(m) = A000010(x), and m is the least solution.",
+  "id": "A302921",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A302838"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

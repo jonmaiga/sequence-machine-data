@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of o.g.f. x*s(x)/(1-x*s(x)-x^2*s(x)^2), where s(x) is the o.g.f. of the little Schroeder numbers (A001003).",
+  "id": "A180473",
+  "mentions": [
+    "A001003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

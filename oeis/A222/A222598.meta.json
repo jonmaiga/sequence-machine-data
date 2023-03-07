@@ -1,0 +1,17 @@
+{
+  "description": "Least number k having Collatz (3x+1) sequence with exactly n pairs of odd and even numbers in a row.",
+  "id": "A222598",
+  "mentions": [
+    "A213215"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n gives terms in lazy Fibonacci representation of n.",
+  "id": "A112309",
+  "mentions": [
+    "A000045",
+    "A007895",
+    "A035517",
+    "A112310"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

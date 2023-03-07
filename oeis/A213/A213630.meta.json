@@ -1,0 +1,20 @@
+{
+  "description": "a(t_1 t_2...t_n) = (t_1 + t_2)*t_1 t_2 + ... + (t_n-1 + t_n)*t_n-1 t_n.",
+  "id": "A213630",
+  "mentions": [
+    "A057147"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

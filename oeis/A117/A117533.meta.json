@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A117532(k).",
+  "id": "A117533",
+  "mentions": [
+    "A117532",
+    "A117534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

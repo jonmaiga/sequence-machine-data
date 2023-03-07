@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: log(1 + x) / (1 - x)^4.",
+  "id": "A346846",
+  "mentions": [
+    "A000292",
+    "A001716",
+    "A024167",
+    "A109792",
+    "A346845",
+    "A346847"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:09:39",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

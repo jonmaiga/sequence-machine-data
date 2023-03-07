@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, 1 <= k <= n: T(n,k) = non-isomorphic colorings of a toroidal n X k grid using exactly five colors under translational symmetry.",
+  "id": "A294687",
+  "mentions": [
+    "A056285",
+    "A294684",
+    "A294685",
+    "A294686",
+    "A294791",
+    "A294792",
+    "A294793",
+    "A294794"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

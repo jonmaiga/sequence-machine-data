@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k+x+y is a square and k+u+v is a triangular number, where x and y are the two squares nearest to k, while u and v are the two triangular numbers nearest to k.",
+  "id": "A239203",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A238489",
+    "A239071"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

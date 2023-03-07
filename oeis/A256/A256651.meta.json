@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which both number of evil numbers <= n and relatively prime to n, and odious numbers <= n and relatively prime to n, are primes.",
+  "id": "A256651",
+  "mentions": [
+    "A000010",
+    "A000069",
+    "A001969",
+    "A230070",
+    "A230120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers expressible as a quotient of two terms of A014486.",
+  "id": "A358866",
+  "mentions": [
+    "A014486"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest possible x such that 4/n = 1/x + 1/y + 1/z with 0 < x < y < z all integers, or 0 if there is no such solution. Corresponding y and z values are in A257840 and A257841.",
+  "id": "A257839",
+  "mentions": [
+    "A073101",
+    "A075245",
+    "A075246",
+    "A075247",
+    "A257840",
+    "A257841"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of cardinalities of coalition sets A095941.",
+  "id": "A178684",
+  "mentions": [
+    "A000009",
+    "A002623",
+    "A095941",
+    "A095944"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

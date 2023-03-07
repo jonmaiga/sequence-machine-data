@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = log_2(B[4,n]), where B[4,n] is the order of Burnside group of exponent 4 and rank n (A079682).",
+  "id": "A116398",
+  "mentions": [
+    "A079682"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

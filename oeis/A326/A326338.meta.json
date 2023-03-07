@@ -1,0 +1,29 @@
+{
+  "description": "Number of simple graphs with vertices {1..n} whose weakly nesting edges are connected.",
+  "id": "A326338",
+  "mentions": [
+    "A006125",
+    "A099947",
+    "A136653",
+    "A324328",
+    "A326289",
+    "A326293",
+    "A326330",
+    "A326331",
+    "A326335",
+    "A326336",
+    "A326337",
+    "A326341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

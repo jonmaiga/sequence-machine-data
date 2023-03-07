@@ -1,0 +1,18 @@
+{
+  "description": "Number of 8-core partitions of n.",
+  "id": "A182803",
+  "mentions": [
+    "A175595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

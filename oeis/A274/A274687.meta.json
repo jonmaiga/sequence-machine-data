@@ -1,0 +1,18 @@
+{
+  "description": "Sequence and first differences (A274688) together list every integer except zero exactly once.",
+  "id": "A274687",
+  "mentions": [
+    "A005228",
+    "A274688"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

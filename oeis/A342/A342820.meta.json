@@ -1,0 +1,17 @@
+{
+  "description": "Frobenius number of the triangular numbers (A000217) starting with the n-th term.",
+  "id": "A342820",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

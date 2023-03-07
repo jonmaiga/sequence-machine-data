@@ -1,0 +1,19 @@
+{
+  "description": "The number of labeled graphs on n nodes whose degree sequences realize the first n even terms of A001223 (the prime gap sequence).",
+  "id": "A360437",
+  "mentions": [
+    "A001223",
+    "A339987"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

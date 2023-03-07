@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least multiple of n which uses only the digit 1, or a(n) = -1 if no such multiple exists.",
+  "id": "A216479",
+  "mentions": [
+    "A004290",
+    "A079339",
+    "A084681",
+    "A181060",
+    "A181061",
+    "A190301",
+    "A216485"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

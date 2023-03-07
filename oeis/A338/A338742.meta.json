@@ -1,0 +1,23 @@
+{
+  "description": "When a(n) is even, a(n) is the number of even digits present so far in the sequence, a(n) included.",
+  "id": "A338742",
+  "mentions": [
+    "A196563",
+    "A338741",
+    "A338743",
+    "A338744",
+    "A338745",
+    "A338746"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

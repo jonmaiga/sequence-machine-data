@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real part of the complex roots of x^3-x^2+1.",
+  "id": "A210462",
+  "mentions": [
+    "A075778",
+    "A210463"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

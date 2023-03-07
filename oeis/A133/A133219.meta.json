@@ -1,0 +1,19 @@
+{
+  "description": "Smallest composite integer in base n which remains composite after altering any one or two digits.",
+  "id": "A133219",
+  "mentions": [
+    "A220289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

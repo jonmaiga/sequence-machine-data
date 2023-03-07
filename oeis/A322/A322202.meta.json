@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A322201(n)*x^n/n ), where A322201(n) is the coefficient of x^n*y^n/(2*n) in Sum_{n>=1} -log(1 - (x^n + y^n)).",
+  "id": "A322202",
+  "mentions": [
+    "A000108",
+    "A123611",
+    "A322200",
+    "A322201",
+    "A322204"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

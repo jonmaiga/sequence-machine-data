@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^(7*k))^12/(1 - x^k)^13 in powers of x.",
+  "id": "A282921",
+  "mentions": [
+    "A282919"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

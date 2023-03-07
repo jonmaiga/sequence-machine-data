@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers k with property that if d is any nonzero digit of k then k mod d is also a digit of k.",
+  "id": "A330562",
+  "mentions": [
+    "A171102",
+    "A330563"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

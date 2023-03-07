@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that lambda(n)^3 divides (n-1)^2, where lambda(n) = A002322(n).",
+  "id": "A277389",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A265628"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

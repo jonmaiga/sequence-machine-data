@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 4k+1, 4k+3, and 6k+5 are all primes.",
+  "id": "A245305",
+  "mentions": [
+    "A007811",
+    "A010051",
+    "A125855",
+    "A245304"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

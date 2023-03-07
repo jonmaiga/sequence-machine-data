@@ -1,0 +1,27 @@
+{
+  "description": "First differences of perfect numbers A000396, divided by 2.",
+  "id": "A139229",
+  "mentions": [
+    "A000396",
+    "A139228",
+    "A139230",
+    "A139231",
+    "A139232",
+    "A139233",
+    "A139234",
+    "A139235",
+    "A139236",
+    "A139237"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:46:37",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

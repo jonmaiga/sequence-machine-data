@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX6 integer arrays with each element equal to the number of horizontal and antidiagonal neighbors exactly one smaller than itself.",
+  "id": "A266099",
+  "mentions": [
+    "A266101"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

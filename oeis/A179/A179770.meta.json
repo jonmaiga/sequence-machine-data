@@ -1,0 +1,24 @@
+{
+  "description": "The fourth central column of triangle A122242, i.e., A179761(4), A179761(11), A179761(20), A179761(31), ...",
+  "id": "A179770",
+  "mentions": [
+    "A028875",
+    "A122242",
+    "A179761",
+    "A179771",
+    "A179774",
+    "A179775",
+    "A179830"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

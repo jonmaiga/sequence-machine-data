@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = A331595(n) for all other n, except for odd primes p, f(p) = 0.",
+  "id": "A331730",
+  "mentions": [
+    "A064989",
+    "A122111",
+    "A241909",
+    "A305801",
+    "A331594",
+    "A331595",
+    "A331596",
+    "A331597",
+    "A331600",
+    "A331731"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

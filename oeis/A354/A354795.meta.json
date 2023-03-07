@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows. The matrix inverse of A354794. Equivalently, the Bell transform of cfact(n) = -(n - 1)! if n > 0 and otherwise 1/(-n)!.",
+  "id": "A354795",
+  "mentions": [
+    "A005727",
+    "A006963",
+    "A008296",
+    "A045406",
+    "A132393",
+    "A159075",
+    "A159333",
+    "A176118",
+    "A264428",
+    "A298511",
+    "A345651",
+    "A347276",
+    "A354794",
+    "A354796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

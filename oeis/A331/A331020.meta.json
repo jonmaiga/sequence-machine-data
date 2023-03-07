@@ -1,0 +1,20 @@
+{
+  "description": "Values k for successive maximal records of the function A defined as A(prime(k)) = log(prime(k)) - prime(k)/Pi(prime(k)) where Pi(prime(k)) is number of primes <= prime(k).",
+  "id": "A331020",
+  "mentions": [
+    "A000720",
+    "A228211"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

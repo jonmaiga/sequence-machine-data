@@ -1,0 +1,27 @@
+{
+  "description": "Number of aperiodic binary arrays of size n.",
+  "id": "A323864",
+  "mentions": [
+    "A000740",
+    "A027375",
+    "A265627",
+    "A323351",
+    "A323860",
+    "A323862",
+    "A323863",
+    "A323865",
+    "A323867",
+    "A323869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

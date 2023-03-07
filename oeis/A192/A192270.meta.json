@@ -1,0 +1,20 @@
+{
+  "description": "Pseudo anti-perfect numbers.",
+  "id": "A192270",
+  "mentions": [
+    "A005835",
+    "A066272",
+    "A073930",
+    "A192268"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

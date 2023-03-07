@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A065188 that are below the main diagonal.",
+  "id": "A294428",
+  "mentions": [
+    "A065188",
+    "A199134",
+    "A275884"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

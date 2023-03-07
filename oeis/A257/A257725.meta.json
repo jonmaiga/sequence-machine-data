@@ -1,0 +1,31 @@
+{
+  "description": "Permutation of natural numbers: a(0) = 0, a(lucky(n)) = 1 + 2*a(n-1), a(unlucky(n)) = 2*a(n), where lucky(n) = n-th lucky number A000959, unlucky(n) = n-th unlucky number A050505.",
+  "id": "A257725",
+  "mentions": [
+    "A000959",
+    "A005408",
+    "A005843",
+    "A050505",
+    "A109497",
+    "A145649",
+    "A237427",
+    "A246377",
+    "A257690",
+    "A257726",
+    "A257732",
+    "A257734",
+    "A257735",
+    "A257738"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

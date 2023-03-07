@@ -1,0 +1,18 @@
+{
+  "description": "Define G(x) = Sum_{n>=0} a(n)*x^n/2^[n*(n-1) - A000120(n)], then [x^n] G(x)^(1/2^n) = 1 for n>=0, where A000120(n) = number of 1's in binary expansion of n.",
+  "id": "A134096",
+  "mentions": [
+    "A000120"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

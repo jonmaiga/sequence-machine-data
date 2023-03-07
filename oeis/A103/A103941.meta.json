@@ -1,0 +1,24 @@
+{
+  "description": "Number of unrooted loopless n-edge maps in the plane (planar with a distinguished outside face).",
+  "id": "A103941",
+  "mentions": [
+    "A000010",
+    "A000260",
+    "A002293",
+    "A005470",
+    "A006390",
+    "A103942"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

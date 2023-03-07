@@ -1,0 +1,20 @@
+{
+  "description": "Length of chain of consecutive integers starting with n, where each new integer in the chain has a prime factor which no previous member in the chain has.",
+  "id": "A217287",
+  "mentions": [
+    "A006530",
+    "A217288",
+    "A217289",
+    "A217438"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

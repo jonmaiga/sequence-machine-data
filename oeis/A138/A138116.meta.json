@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: row n lists the first n digits of the decimal expansion of golden ratio phi.",
+  "id": "A138116",
+  "mentions": [
+    "A001622",
+    "A011551",
+    "A138072",
+    "A138073",
+    "A175834"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-2)^2 + a(n-1) + 1 for n >= 2 with a(0) = 0 and a(1) = 1.",
+  "id": "A359502",
+  "mentions": [
+    "A000278",
+    "A000283"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

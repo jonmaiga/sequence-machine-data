@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(10*n + 7, 5*n + 1)/(10*n + 7).",
+  "id": "A265103",
+  "mentions": [
+    "A000108",
+    "A065097",
+    "A265101",
+    "A265102",
+    "A306444"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

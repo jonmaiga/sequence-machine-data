@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n crossword puzzles with dihedral symmetry group, for n odd. Acceptable crossword puzzles must have all words of length 3 or more, at least one word in each row and each column and be connected.",
+  "id": "A137334",
+  "mentions": [
+    "A130578",
+    "A133226",
+    "A133253",
+    "A133258"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

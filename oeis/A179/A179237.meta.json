@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(1) = 2; a(n+1) = 6*a(n) + a(n-1) for n>1.",
+  "id": "A179237",
+  "mentions": [
+    "A005668",
+    "A015451",
+    "A176398"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

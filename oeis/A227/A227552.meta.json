@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into distinct parts with maximal boundary size.",
+  "id": "A227552",
+  "mentions": [
+    "A053993",
+    "A201077",
+    "A227345",
+    "A227551",
+    "A227568"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

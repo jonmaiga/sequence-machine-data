@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: eta(x) - x*eta'(x), where eta(x) is Dedekind's eta(q) function without the q^(1/24) factor.",
+  "id": "A184365",
+  "mentions": [
+    "A066398",
+    "A184362",
+    "A184366"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

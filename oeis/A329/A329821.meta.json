@@ -1,0 +1,22 @@
+{
+  "description": "Largest k for which sigma(k) = A002191(n), where A002191 = range of sigma, the sum-of-divisors function A000203.",
+  "id": "A329821",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A051444",
+    "A054973",
+    "A085790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

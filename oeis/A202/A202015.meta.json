@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed polyominoes that can produce a repeating phenotype with 1, 2, or 4 90-degree turns.",
+  "id": "A202015",
+  "mentions": [
+    "A001168"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

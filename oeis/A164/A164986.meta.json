@@ -1,0 +1,33 @@
+{
+  "description": "Numbers of the form 2p^2 = q^2 + 1, where p and q are primes.",
+  "id": "A164986",
+  "mentions": [
+    "A000129",
+    "A001653",
+    "A002315",
+    "A002522",
+    "A008843",
+    "A079704",
+    "A086383",
+    "A086395",
+    "A086397",
+    "A088165",
+    "A088920",
+    "A101411",
+    "A104683",
+    "A118612",
+    "A140480",
+    "A163742"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Golden Triangle sums: a(n)=a(n-4)+A001654(n) with a(0)=0, a(1)=1, a(2)=2 and a(3)=6.",
+  "id": "A180666",
+  "mentions": [
+    "A001519",
+    "A001654",
+    "A064831",
+    "A087960",
+    "A115730",
+    "A180662",
+    "A180664",
+    "A180665"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 06:02:41",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

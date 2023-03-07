@@ -1,0 +1,19 @@
+{
+  "description": "(1/8) * number of ways to select 3 distinct points forming a triangle of unsigned area = 1 from a square of grid points with side length n.",
+  "id": "A320544",
+  "mentions": [
+    "A115004",
+    "A320540",
+    "A320543"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

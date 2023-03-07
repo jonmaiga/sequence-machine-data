@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic rings with n elements minus number of groups of order n.",
+  "id": "A186116",
+  "mentions": [
+    "A000001",
+    "A027623"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

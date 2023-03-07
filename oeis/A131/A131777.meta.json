@@ -1,0 +1,24 @@
+{
+  "description": "5*A065941 - 4*A049310.",
+  "id": "A131777",
+  "mentions": [
+    "A022096",
+    "A049310",
+    "A065941",
+    "A131774",
+    "A131775",
+    "A131776"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

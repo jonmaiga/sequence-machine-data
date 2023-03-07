@@ -1,0 +1,32 @@
+{
+  "description": "Digits of one of the four 5-adic integers 6^(1/4) that is congruent to 1 mod 5.",
+  "id": "A325489",
+  "mentions": [
+    "A210850",
+    "A210851",
+    "A324025",
+    "A324085",
+    "A324086",
+    "A324087",
+    "A324153",
+    "A325484",
+    "A325485",
+    "A325486",
+    "A325487",
+    "A325490",
+    "A325491",
+    "A325492"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

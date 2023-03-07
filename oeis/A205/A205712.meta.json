@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k for which 9 divides prime(k)-prime(j) for some j",
+  "id": "A205712",
+  "mentions": [
+    "A000040",
+    "A204890",
+    "A204892",
+    "A205558",
+    "A205711",
+    "A205713",
+    "A205714",
+    "A205715",
+    "A205716",
+    "A205717"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:19:35",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

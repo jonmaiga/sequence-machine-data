@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*p + 79 is a square.",
+  "id": "A269790",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A045433",
+    "A055025",
+    "A061237",
+    "A068228",
+    "A269784"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

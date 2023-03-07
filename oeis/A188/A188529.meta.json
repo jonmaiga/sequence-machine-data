@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which contain only the digit 3 in their base-4 representation, with at most one exception. If the exception is the most-significant digit, it must be the digit 1 or 2, otherwise the exception must be the digit 2.",
+  "id": "A188529",
+  "mentions": [
+    "A024036",
+    "A089633",
+    "A188341",
+    "A188499"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

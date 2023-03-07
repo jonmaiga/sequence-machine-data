@@ -1,0 +1,20 @@
+{
+  "description": "First differences of 1/p(n), reciprocal of the number p(n) of unrestricted partitions of n (denominator).",
+  "id": "A272340",
+  "mentions": [
+    "A000041",
+    "A272339"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

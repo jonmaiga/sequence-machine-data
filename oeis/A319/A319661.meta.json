@@ -1,0 +1,22 @@
+{
+  "description": "2-rank of the class group of imaginary quadratic field with discriminant -k, k = A191483(n).",
+  "id": "A319661",
+  "mentions": [
+    "A001221",
+    "A003642",
+    "A191483",
+    "A319659",
+    "A319660"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

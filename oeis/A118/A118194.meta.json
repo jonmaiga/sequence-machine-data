@@ -1,0 +1,19 @@
+{
+  "description": "Column 0 of the matrix log of triangle A118190, after term in row n is multiplied by n: a(n) = n*[log(A118190)](n,0), where A118190(n,k) = 5^(k*(n-k)).",
+  "id": "A118194",
+  "mentions": [
+    "A118190",
+    "A118193"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

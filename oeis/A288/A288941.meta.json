@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least natural number not included earlier having all decimal digits except the digits in n; if n is pandigital or zeroless pandigital, a(n) is simply the least natural number not included earlier.",
+  "id": "A288941",
+  "mentions": [
+    "A050289",
+    "A171102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

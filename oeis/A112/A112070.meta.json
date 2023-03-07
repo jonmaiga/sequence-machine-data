@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(x,y) = y-th odd number 2i+1 (i>=1) for which A112049(2i+1)=x, or 0 if no such i exists; read by descending antidiagonals.",
+  "id": "A112070",
+  "mentions": [
+    "A047621",
+    "A112046",
+    "A112049",
+    "A112052",
+    "A112060",
+    "A112071",
+    "A112072",
+    "A112073",
+    "A112074",
+    "A112075",
+    "A112076",
+    "A112077",
+    "A112078",
+    "A112079"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

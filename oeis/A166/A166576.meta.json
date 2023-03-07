@@ -1,0 +1,20 @@
+{
+  "description": "Intersection of A104272 and A166252.",
+  "id": "A166576",
+  "mentions": [
+    "A104272",
+    "A166252",
+    "A166272",
+    "A166307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

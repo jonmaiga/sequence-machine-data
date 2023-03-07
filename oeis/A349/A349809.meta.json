@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n^2 - A099611(n).",
+  "id": "A349809",
+  "mentions": [
+    "A099611"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 4,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

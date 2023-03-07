@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) = A(x,x), where A(x,y) is the e.g.f. of triangle A326797.",
+  "id": "A326794",
+  "mentions": [
+    "A326795",
+    "A326796",
+    "A326797"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

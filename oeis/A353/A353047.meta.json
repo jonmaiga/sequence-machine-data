@@ -1,0 +1,21 @@
+{
+  "description": "Number of length n words on alphabet {0,1,2} that contain each of the subwords 01, 02, 10, 12, 20, and 21 as (not necessarily contiguous) subwords.",
+  "id": "A353047",
+  "mentions": [
+    "A005803",
+    "A058809",
+    "A222993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 5,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A257680: a(0) = 0; for n >= 1, a(n) = A257680(n) + a(n-1).",
+  "id": "A257682",
+  "mentions": [
+    "A256450",
+    "A257680",
+    "A257681",
+    "A273662"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

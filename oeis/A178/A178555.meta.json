@@ -1,0 +1,23 @@
+{
+  "description": "Primes with exactly six 6's.",
+  "id": "A178555",
+  "mentions": [
+    "A038618",
+    "A178550",
+    "A178554",
+    "A178556",
+    "A178558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

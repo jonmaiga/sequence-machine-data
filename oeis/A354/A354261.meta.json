@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(1 + 6 * log(1-x)).",
+  "id": "A354261",
+  "mentions": [
+    "A346978",
+    "A354241",
+    "A354252",
+    "A354259",
+    "A354262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

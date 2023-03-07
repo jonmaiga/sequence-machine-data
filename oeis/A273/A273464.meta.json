@@ -1,0 +1,27 @@
+{
+  "description": "The number of tilings of an equilateral triangle of side length n with k lozenges and n^2 - 2*k unit triangles. Triangle T(n, k) with n >= 1 and 0 <= k <= n*(n + 1)/2), read by rows.",
+  "id": "A273464",
+  "mentions": [
+    "A000124",
+    "A011555",
+    "A011556",
+    "A011781",
+    "A045943",
+    "A122722",
+    "A326367",
+    "A326368",
+    "A326369"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,t) read by rows: the number of n X n {0,1} matrices with trace t where each row sum and each column sum is 4.",
+  "id": "A284991",
+  "mentions": [
+    "A007105",
+    "A058528",
+    "A139670"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

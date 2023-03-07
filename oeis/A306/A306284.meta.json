@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer x such that x > y >= 0 and n divides x^2 - y^2.",
+  "id": "A306284",
+  "mentions": [
+    "A048152",
+    "A306271"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

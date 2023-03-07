@@ -1,0 +1,41 @@
+{
+  "description": "Total sum T(n,k) of the sizes of all blocks with minimal element k in all set partitions of {1,2,...,n}; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A270702",
+  "mentions": [
+    "A000110",
+    "A070071",
+    "A124427",
+    "A270701",
+    "A270703",
+    "A270756",
+    "A270757",
+    "A270758",
+    "A270759",
+    "A270760",
+    "A270761",
+    "A270762",
+    "A270763",
+    "A270764",
+    "A270765",
+    "A270766",
+    "A270767",
+    "A270768",
+    "A270769",
+    "A270770",
+    "A270771",
+    "A270772",
+    "A270773"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

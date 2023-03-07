@@ -1,0 +1,20 @@
+{
+  "description": "Let f be multiplicative with f(prime(k)^e) = k + e*i for any k, e > 0 (where i denotes the imaginary unit); a(n) is the imaginary part of f(n). See A351464 for the real part.",
+  "id": "A351465",
+  "mentions": [
+    "A289311",
+    "A351464",
+    "A351475"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

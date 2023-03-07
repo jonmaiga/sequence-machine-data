@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = H_5(3,n) where H_n is the n-th hyperoperator.",
+  "id": "A266199",
+  "mentions": [
+    "A014222",
+    "A054871",
+    "A266198"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": -1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

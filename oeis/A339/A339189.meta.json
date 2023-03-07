@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that {k, k+2, k+6, k+8, k+120, k+122, k+126, k+128} and either (k+30, k+32, k+36, k+38) or (k+90, k+92, k+96, k+98) are all prime.",
+  "id": "A339189",
+  "mentions": [
+    "A007530",
+    "A338868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

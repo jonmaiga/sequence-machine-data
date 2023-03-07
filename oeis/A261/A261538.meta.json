@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p^9 + 2 is also prime.",
+  "id": "A261538",
+  "mentions": [
+    "A000040",
+    "A007528",
+    "A261536"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

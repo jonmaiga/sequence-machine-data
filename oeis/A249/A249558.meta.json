@@ -1,0 +1,17 @@
+{
+  "description": "a(a(n)) is a triangular number.",
+  "id": "A249558",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

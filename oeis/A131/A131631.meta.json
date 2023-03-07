@@ -1,0 +1,22 @@
+{
+  "description": "Supersubfactorials: partial product of positive subfactorials (A000166).",
+  "id": "A131631",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000178",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

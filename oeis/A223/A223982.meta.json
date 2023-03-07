@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..3 arrays with rows unimodal and columns nondecreasing.",
+  "id": "A223982",
+  "mentions": [
+    "A223987"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:21",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

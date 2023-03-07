@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways that the divisors of 2n can be written as unordered sums of two other prime divisors of 2n (not necessarily distinct).",
+  "id": "A337531",
+  "mentions": [
+    "A175393"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the polynomial (x^9-1)*(x^7-1)*(x^6-1)*(x^5-1)*(x^4-1)*(x^3-1)*(x-1) in increasing powers of x.",
+  "id": "A178781",
+  "mentions": [
+    "A008869",
+    "A178795"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Pascal's tetrahedron of trinomial coefficients (A046816) read mod 2.",
+  "id": "A268240",
+  "mentions": [
+    "A007318",
+    "A046816",
+    "A047999",
+    "A048883"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are powerful(1) (A001694) and triangular at the same time.",
+  "id": "A113938",
+  "mentions": [
+    "A000217",
+    "A001694"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For the n-th prime p of the form 6k-1, a(n) is the first prime q for which (p+q^2-1, p+q^2+1) is a twin prime pair.",
+  "id": "A306400",
+  "mentions": [
+    "A001359",
+    "A007528"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

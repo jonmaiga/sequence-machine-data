@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A069010(n), read by rows; the n-th row contains the shortest partition of n whose values belong to A023758 and can be added without carriers in binary, in descending order.",
+  "id": "A343835",
+  "mentions": [
+    "A023758",
+    "A069010",
+    "A272011",
+    "A342126",
+    "A342410",
+    "A343757"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

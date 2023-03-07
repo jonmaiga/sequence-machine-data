@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(k, h) gives the denominators of the Dedekind sums s(h, k) with gcd(h, k) = 1 or 0 otherwise.",
+  "id": "A278716",
+  "mentions": [
+    "A278715"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

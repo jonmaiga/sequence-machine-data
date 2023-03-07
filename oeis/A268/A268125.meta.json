@@ -1,0 +1,20 @@
+{
+  "description": "Minimal order of recurrence for number of legal n X m Go positions, for fixed n.",
+  "id": "A268125",
+  "mentions": [
+    "A094777",
+    "A102620",
+    "A266278"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

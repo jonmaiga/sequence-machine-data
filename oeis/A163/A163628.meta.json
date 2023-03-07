@@ -1,0 +1,21 @@
+{
+  "description": "Integers such that the two adjacent integers are a prime and three times a prime.",
+  "id": "A163628",
+  "mentions": [
+    "A000040",
+    "A001748",
+    "A023208",
+    "A088878",
+    "A163492"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

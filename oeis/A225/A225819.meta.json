@@ -1,0 +1,19 @@
+{
+  "description": "Consider the set of n-tuples such that the sum of cubes of the elements is equal to square of their sum; sequence gives largest element in all such tuples.",
+  "id": "A225819",
+  "mentions": [
+    "A158649",
+    "A225808"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

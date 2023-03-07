@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle of 11^k mod prime(n).",
+  "id": "A323873",
+  "mentions": [
+    "A000040",
+    "A201908",
+    "A201909",
+    "A201910",
+    "A201911",
+    "A323874"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

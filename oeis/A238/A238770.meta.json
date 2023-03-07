@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..3 arrays with no element equal to the sum modulo 4 of elements to its left or elements above it",
+  "id": "A238770",
+  "mentions": [
+    "A238775"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

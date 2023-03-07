@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to partition Turan graph T(2n,n) into connected components.",
+  "id": "A282010",
+  "mentions": [
+    "A000110",
+    "A020557"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

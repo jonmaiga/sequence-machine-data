@@ -1,0 +1,23 @@
+{
+  "description": "Let c(n) = 0 if n=1, (c(floor(n/2)) + c(floor((n+1)/2)))/2 if 1 < n < 3*2^floor(log_2(n)-1), and c(n-2^floor(log_2(n))) + 1 otherwise. Then a(n) = numerator(c(n)).",
+  "id": "A140129",
+  "mentions": [
+    "A000523",
+    "A002262",
+    "A007283",
+    "A023758",
+    "A140130"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

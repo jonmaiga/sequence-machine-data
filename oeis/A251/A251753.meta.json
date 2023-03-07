@@ -1,0 +1,20 @@
+{
+  "description": "n!/pp, where pp is the largest perfect power (A001597) which divides n!.",
+  "id": "A251753",
+  "mentions": [
+    "A000142",
+    "A001597",
+    "A090630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The number of alive cells in Conway's Game of Life on the infinite square grid, in the \"lumps of muck\" sequence of patterns leading from the grandfather of \"stairstep hexomino\" to a stable configuration of four blocks, known as a blockade.",
+  "id": "A179415",
+  "mentions": [
+    "A179409"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

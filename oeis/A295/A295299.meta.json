@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that the sum of the divisors (A000203) and the binary weight of k (A000120) have different parity.",
+  "id": "A295299",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A000203",
+    "A001969",
+    "A004169",
+    "A010059",
+    "A028982",
+    "A053866",
+    "A231431",
+    "A235001",
+    "A295297",
+    "A295298"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

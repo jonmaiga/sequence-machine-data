@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 4's in A181391.",
+  "id": "A171954",
+  "mentions": [
+    "A171865",
+    "A171951",
+    "A171956",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

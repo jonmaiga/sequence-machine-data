@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that pi(m) = d_1!!*d_2!!*...*d_k!! where d_1 d_2 ... d_k is the decimal expansion of m.",
+  "id": "A139182",
+  "mentions": [
+    "A000720",
+    "A006882",
+    "A066457"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

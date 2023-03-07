@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = gcd(n,k) A181549(k), triangle read by rows.",
+  "id": "A181552",
+  "mentions": [
+    "A130212",
+    "A181538",
+    "A181549",
+    "A181553"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of self-inverse permutations p on [n] where the maximal displacement of an element equals k: k = max_{i=1..n} |p(i)-i|; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A238889",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000071",
+    "A000085",
+    "A238888",
+    "A238913",
+    "A238914",
+    "A238915",
+    "A238916",
+    "A238917",
+    "A238918",
+    "A238919",
+    "A238920",
+    "A238921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

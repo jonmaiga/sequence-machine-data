@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which 2*n+5, 4*n+5, 6*n+5, and 8*n+5 are primes.",
+  "id": "A210504",
+  "mentions": [
+    "A115334"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

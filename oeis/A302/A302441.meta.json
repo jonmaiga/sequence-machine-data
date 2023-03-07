@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the length of the n-th run of equal terms in A303579.",
+  "id": "A302441",
+  "mentions": [
+    "A303579",
+    "A303580"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

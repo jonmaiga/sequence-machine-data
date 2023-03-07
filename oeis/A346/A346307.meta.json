@@ -1,0 +1,19 @@
+{
+  "description": "Number of runs in the n-th word in A076478.",
+  "id": "A346307",
+  "mentions": [
+    "A007931",
+    "A076478"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

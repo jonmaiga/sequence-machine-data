@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers having the same bits as their prime factors (with multiplicity), including zero bits.",
+  "id": "A280971",
+  "mentions": [
+    "A278909",
+    "A280928",
+    "A280967",
+    "A280972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

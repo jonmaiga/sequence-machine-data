@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-compositions of n having no column with an even sum. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181329",
+  "mentions": [
+    "A181327"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

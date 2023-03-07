@@ -1,0 +1,19 @@
+{
+  "description": "Lower s-Wythoff sequence, where s=lower Wythoff sequence. Complement of A184420.",
+  "id": "A184419",
+  "mentions": [
+    "A000201",
+    "A184117",
+    "A184420"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

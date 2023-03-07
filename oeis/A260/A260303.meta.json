@@ -1,0 +1,18 @@
+{
+  "description": "For the Collatz (3x+1) iteration starting at k, the sequence lists the smallest k such that prime(n) belongs to the trajectory of k, or 0 if no such k exists.",
+  "id": "A260303",
+  "mentions": [
+    "A000040",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

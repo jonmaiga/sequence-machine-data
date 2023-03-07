@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having a unique partition into three positive triangular numbers.",
+  "id": "A111638",
+  "mentions": [
+    "A002097",
+    "A060773",
+    "A063993",
+    "A064825"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

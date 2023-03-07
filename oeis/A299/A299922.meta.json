@@ -1,0 +1,18 @@
+{
+  "description": "The sequence c(n) defined in A298737.",
+  "id": "A299922",
+  "mentions": [
+    "A298737"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

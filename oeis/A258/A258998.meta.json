@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = -(-1)^n if n = k^2 for positive integer k, otherwise 0.",
+  "id": "A258998",
+  "mentions": [
+    "A000007",
+    "A000122",
+    "A000700",
+    "A002448",
+    "A010052",
+    "A010054",
+    "A010815",
+    "A109091",
+    "A121373",
+    "A123477",
+    "A160535"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

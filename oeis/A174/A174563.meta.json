@@ -1,0 +1,24 @@
+{
+  "description": "Number of 3 X n Latin rectangles such that every element of the second row has the same cyclic order (see comment).",
+  "id": "A174563",
+  "mentions": [
+    "A000179",
+    "A000186",
+    "A000296",
+    "A094047",
+    "A174556",
+    "A174560",
+    "A174561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

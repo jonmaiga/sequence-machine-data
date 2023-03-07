@@ -1,0 +1,18 @@
+{
+  "description": "Starting numbers k = a(n) for the (modified) Collatz map iteration which survive in the sieved Collatz table of A246646.",
+  "id": "A246647",
+  "mentions": [
+    "A246646"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

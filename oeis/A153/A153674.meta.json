@@ -1,0 +1,28 @@
+{
+  "description": "Greatest number m such that the fractional part of (101/100)^A153670(n) <= 1/m.",
+  "id": "A153674",
+  "mentions": [
+    "A153662",
+    "A153666",
+    "A153670",
+    "A153682",
+    "A153690",
+    "A153698",
+    "A153706",
+    "A153714",
+    "A153722",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

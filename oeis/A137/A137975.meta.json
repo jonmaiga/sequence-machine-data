@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of A139621, number of connected directed multigraphs with loops and no vertex of degree 0, with n arcs.",
+  "id": "A137975",
+  "mentions": [
+    "A052171",
+    "A139621",
+    "A139627"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

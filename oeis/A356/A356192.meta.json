@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the smallest cubefull exponentially odd number (A335988) that is divisible by n.",
+  "id": "A356192",
+  "mentions": [
+    "A001694",
+    "A013664",
+    "A053143",
+    "A053149",
+    "A053167",
+    "A066638",
+    "A087320",
+    "A087321",
+    "A197863",
+    "A268335",
+    "A335988",
+    "A356191",
+    "A356193",
+    "A356194"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

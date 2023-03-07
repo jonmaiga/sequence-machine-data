@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n that share a prime factor with A276086(n).",
+  "id": "A324584",
+  "mentions": [
+    "A276086",
+    "A324198",
+    "A324583"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

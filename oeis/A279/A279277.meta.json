@@ -1,0 +1,21 @@
+{
+  "description": "Composition of Lucas numbers A000032 with Fibonacci numbers A000045.",
+  "id": "A279277",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A270863"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:50:51",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

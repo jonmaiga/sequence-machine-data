@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in expansion of 1/(1 + 2 cos(sqrt(x))).",
+  "id": "A279121",
+  "mentions": [
+    "A279120",
+    "A279122"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the Carmichael function A002322(k) divides Dedekind psi A001615(k).",
+  "id": "A353868",
+  "mentions": [
+    "A001615",
+    "A002322",
+    "A353869",
+    "A353870",
+    "A353871"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

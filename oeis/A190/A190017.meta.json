@@ -1,0 +1,22 @@
+{
+  "description": "Inverse permutation to A190016: lexicographical ordering of integers 1 .. 10^4.",
+  "id": "A190017",
+  "mentions": [
+    "A119589",
+    "A119590",
+    "A190016"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

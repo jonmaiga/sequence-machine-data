@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n-th prime reduced modulo the sum of its digits.",
+  "id": "A136251",
+  "mentions": [
+    "A000040",
+    "A138791",
+    "A138792"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(5+1) 0..7 arrays with every 2X2 subblock summing to a prime",
+  "id": "A251566",
+  "mentions": [
+    "A251567"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

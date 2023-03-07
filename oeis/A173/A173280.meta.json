@@ -1,0 +1,19 @@
+{
+  "description": "First column of the matrix power A173279(.,.)^j in the limit j->infinity.",
+  "id": "A173280",
+  "mentions": [
+    "A000142",
+    "A173279"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi/(Pi - 1) = 1 + 1/Pi + 1/Pi^2 + ... .",
+  "id": "A306811",
+  "mentions": [
+    "A000796",
+    "A185393",
+    "A201775"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,m) is the number of binary pattern classes in the (n,m)-rectangular grid with half 1's and half 0's: two patterns are in same class if one can be obtained by a reflection or 180-degree rotation of the other (ordered occurrences rounded up/down if m*n is odd).",
+  "id": "A283435",
+  "mentions": [
+    "A286892",
+    "A287020",
+    "A287021",
+    "A287022",
+    "A287377",
+    "A287378",
+    "A287383",
+    "A287384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

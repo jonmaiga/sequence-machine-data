@@ -1,0 +1,21 @@
+{
+  "description": "Modulus for Fibonacci-type sequence described by A015134.",
+  "id": "A179390",
+  "mentions": [
+    "A015134",
+    "A179391",
+    "A179392",
+    "A179393"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

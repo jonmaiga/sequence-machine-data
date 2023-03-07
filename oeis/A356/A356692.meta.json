@@ -1,0 +1,23 @@
+{
+  "description": "Pascal-like triangle, where each entry is the sum of the four entries above it starting with 1 at the top.",
+  "id": "A356692",
+  "mentions": [
+    "A007318",
+    "A064189",
+    "A216837",
+    "A356832",
+    "A356853"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

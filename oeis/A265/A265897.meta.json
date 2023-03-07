@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which (2n+1)! / n! [= A000407(n)] is >= k! but < 2*k! for some k; positions of ones in A265891.",
+  "id": "A265897",
+  "mentions": [
+    "A000407",
+    "A265334",
+    "A265891",
+    "A265898"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

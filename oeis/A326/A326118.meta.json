@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest number of squares of unit area connected only at corners and without holes that can be inscribed in an n X n square.",
+  "id": "A326118",
+  "mentions": [
+    "A000290",
+    "A309038",
+    "A338329"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

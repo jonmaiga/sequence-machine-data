@@ -1,0 +1,19 @@
+{
+  "description": "One sixth of gap g between 3 consecutive primes for the smallest k such that 6^n+k, 6^n+k+g, 6^n+k+2*g are consecutive primes in arithmetic progression",
+  "id": "A233742",
+  "mentions": [
+    "A233546",
+    "A233550"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

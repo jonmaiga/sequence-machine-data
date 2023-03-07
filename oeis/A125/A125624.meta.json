@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: n-th row contains the positive integers with their largest prime factor equal to the n-th prime.",
+  "id": "A125624",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A006530",
+    "A033286",
+    "A065119",
+    "A077320",
+    "A080193",
+    "A080194",
+    "A080195",
+    "A080196",
+    "A083140"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

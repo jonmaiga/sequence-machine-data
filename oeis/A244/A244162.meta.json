@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the binary palindromic numbers.",
+  "id": "A244162",
+  "mentions": [
+    "A006995",
+    "A118031",
+    "A194097"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

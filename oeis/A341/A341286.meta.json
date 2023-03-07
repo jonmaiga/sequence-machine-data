@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k plus the sum of the fifth powers of the digits of k is a cube.",
+  "id": "A341286",
+  "mentions": [
+    "A055014"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

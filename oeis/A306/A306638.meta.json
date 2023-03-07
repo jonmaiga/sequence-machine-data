@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the norm of the fundamental unit of binary quadratic forms with discriminant D = A079896(n).",
+  "id": "A306638",
+  "mentions": [
+    "A003658",
+    "A014077",
+    "A079896",
+    "A226696"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

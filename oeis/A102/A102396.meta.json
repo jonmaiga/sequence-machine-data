@@ -1,0 +1,24 @@
+{
+  "description": "A mod 2 related Jacobsthal sequence.",
+  "id": "A102396",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A001045",
+    "A001316",
+    "A010060",
+    "A102395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

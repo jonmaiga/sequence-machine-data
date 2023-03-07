@@ -1,0 +1,21 @@
+{
+  "description": "\"True already\", base 3, start 1: a(n) is the least integer such that the sequence up to a(n-1) written in base 3 contains floor(a(n)/3) copies of the digit a(n) % 3, with a(0) = 1.",
+  "id": "A102829",
+  "mentions": [
+    "A102357",
+    "A102823",
+    "A102830"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-1)^(n+1)*n!* [x^n](log(x + 1)/2 + log(3*x + 1)/6).",
+  "id": "A321398",
+  "mentions": [
+    "A000165",
+    "A133942",
+    "A320962"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

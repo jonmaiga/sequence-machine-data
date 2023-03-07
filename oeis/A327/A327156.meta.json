@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} A008578(1+A286561(n,sigma(d))), where A286561(n,x) gives the highest exponent of x dividing n.",
+  "id": "A327156",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A001222",
+    "A008578",
+    "A173441",
+    "A286561",
+    "A293514",
+    "A322312",
+    "A323155",
+    "A327154",
+    "A327155"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

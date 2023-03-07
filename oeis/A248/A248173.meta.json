@@ -1,0 +1,17 @@
+{
+  "description": "Primes equal to 3 or congruent to 2 mod 3 that satisfy (1+a^p) == (1+a)^p (mod p^2) for all a between (p-3)/2.",
+  "id": "A248173",
+  "mentions": [
+    "A003627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

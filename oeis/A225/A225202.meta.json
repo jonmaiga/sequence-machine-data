@@ -1,0 +1,19 @@
+{
+  "description": "Number of aperiodic tilings of an n X 1 rectangle by tiles of dimension 1 X 1 and 2 X 1.",
+  "id": "A225202",
+  "mentions": [
+    "A000045",
+    "A001037"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, M * Q; M = (T(n,k) = A155728(n-k+1)); Q = (A155728 * 0^(n-k)).",
+  "id": "A155729",
+  "mentions": [
+    "A054765",
+    "A155728"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

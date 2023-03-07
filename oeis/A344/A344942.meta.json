@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five fourth powers in seven or more ways.",
+  "id": "A344942",
+  "mentions": [
+    "A344922",
+    "A344940",
+    "A344943",
+    "A344944",
+    "A345180",
+    "A345564"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

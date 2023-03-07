@@ -1,0 +1,17 @@
+{
+  "description": "Consider two consecutive primes {p,q} such that {P=2p-q,Q=2q-p} are both prime. Sequence gives lesser primes p.",
+  "id": "A186169",
+  "mentions": [
+    "A181848"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

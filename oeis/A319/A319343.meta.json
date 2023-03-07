@@ -1,0 +1,20 @@
+{
+  "description": "Filter sequence combining the prime signature of phi(d) from all proper divisors d of n.",
+  "id": "A319343",
+  "mentions": [
+    "A305983",
+    "A318881",
+    "A319342",
+    "A319345"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

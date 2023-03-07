@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways to reach n by the process of starting from 1 and repeatedly adding 5 or multiplying by 3.",
+  "id": "A335392",
+  "mentions": [
+    "A018819",
+    "A335365",
+    "A335393"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

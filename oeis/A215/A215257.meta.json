@@ -1,0 +1,21 @@
+{
+  "description": "Number of indecomposable permutations sortable by a double-ended queue.",
+  "id": "A215257",
+  "mentions": [
+    "A003319",
+    "A182216",
+    "A215252",
+    "A216040"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

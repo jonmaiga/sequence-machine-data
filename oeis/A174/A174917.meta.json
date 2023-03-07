@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of twin primes p1 such that p2+(p2^2-p1^2) is a prime number.",
+  "id": "A174917",
+  "mentions": [
+    "A001359",
+    "A174913",
+    "A174915",
+    "A174916"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

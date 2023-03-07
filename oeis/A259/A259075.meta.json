@@ -1,0 +1,17 @@
+{
+  "description": "Smallest base b > 1 such that both prime(n) and prime(n+1) are base-b Wieferich primes, i.e., p = prime(n) satisfies b^(p-1) == 1 (mod p^2) and q = prime(n+1) satisfies b^(q-1) == 1 (mod q^2).",
+  "id": "A259075",
+  "mentions": [
+    "A039678"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

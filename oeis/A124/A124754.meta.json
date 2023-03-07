@@ -1,0 +1,24 @@
+{
+  "description": "Alternating sum of compositions in standard order.",
+  "id": "A124754",
+  "mentions": [
+    "A011782",
+    "A066099",
+    "A070939",
+    "A106400",
+    "A124756"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

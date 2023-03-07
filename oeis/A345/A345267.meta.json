@@ -1,0 +1,21 @@
+{
+  "description": "Conjectural order of the torsion subgroup of the group K_n(Z) (the algebraic K-theory groups of the integers).",
+  "id": "A345267",
+  "mentions": [
+    "A000367",
+    "A006863",
+    "A345225"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Unitary pseudoperfect numbers k such that no subset of the nontrivial unitary divisors {d|k : 1 < d < k, gcd(d, k/d) = 1} adds up to k.",
+  "id": "A342399",
+  "mentions": [
+    "A002827",
+    "A034683",
+    "A064114",
+    "A293188",
+    "A339343",
+    "A342398"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

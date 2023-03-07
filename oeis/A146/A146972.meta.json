@@ -1,0 +1,18 @@
+{
+  "description": "Twin primes in A046704",
+  "id": "A146972",
+  "mentions": [
+    "A046704"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

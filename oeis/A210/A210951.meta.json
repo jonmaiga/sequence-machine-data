@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of parts in the k-th column of the shell model of partitions considering only the n-th shell and with its parts aligned to the right margin.",
+  "id": "A210951",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A194714",
+    "A210945",
+    "A210950",
+    "A210952",
+    "A210953"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

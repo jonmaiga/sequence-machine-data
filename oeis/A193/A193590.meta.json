@@ -1,0 +1,21 @@
+{
+  "description": "Augmentation of the Euler triangle A008292. See Comments.",
+  "id": "A193590",
+  "mentions": [
+    "A002662",
+    "A008292",
+    "A193091",
+    "A193589"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

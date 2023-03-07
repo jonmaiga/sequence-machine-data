@@ -1,0 +1,25 @@
+{
+  "description": "Index of Mersenne number A000225 that is also Mersenne prime A000668, minus n-th prime: a(n) = A000043(n) - A000040(n).",
+  "id": "A153801",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000225",
+    "A000396",
+    "A000668",
+    "A007691",
+    "A153800",
+    "A153802",
+    "A153803"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

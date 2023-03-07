@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that lambda(n) = lambda(n+1) = lambda(n+2) = lambda(n+3), where lambda(n) = A008836(n) is the Liouville function.",
+  "id": "A221282",
+  "mentions": [
+    "A008836",
+    "A221280",
+    "A221281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

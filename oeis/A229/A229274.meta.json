@@ -1,0 +1,26 @@
+{
+  "description": "Composite squarefree numbers n such that p+tau(n) divides n-sigma(n), where p are the prime factors of n, tau(n) = A000005(n) and sigma(n) = A000203(n).",
+  "id": "A229274",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A120944",
+    "A228299",
+    "A228300",
+    "A228301",
+    "A228302",
+    "A229273",
+    "A229275",
+    "A229276"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

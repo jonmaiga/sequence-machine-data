@@ -1,0 +1,19 @@
+{
+  "description": "The number of peaks of width 1 (i.e., UHD configurations, where U = (0,1), H=(1,0), D=(0,-1)) in all bargraphs of semiperimeter n (n>=2).",
+  "id": "A273716",
+  "mentions": [
+    "A082582",
+    "A273715"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

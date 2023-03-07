@@ -1,0 +1,25 @@
+{
+  "description": "A001045 with a(0) replaced by -1.",
+  "id": "A167167",
+  "mentions": [
+    "A001045",
+    "A001782",
+    "A090129",
+    "A128209",
+    "A131577",
+    "A152046",
+    "A155559"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

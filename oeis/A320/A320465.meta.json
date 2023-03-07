@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^n - (2^(n-1) mod n), where \"mod\" is the nonnegative remainder operator.",
+  "id": "A320465",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A001146",
+    "A001348",
+    "A001567",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

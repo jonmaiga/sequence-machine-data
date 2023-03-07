@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that A242480(x) = n has no solution.",
+  "id": "A242486",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A024816",
+    "A054024",
+    "A142150",
+    "A229110",
+    "A242480",
+    "A242481",
+    "A242482",
+    "A242483",
+    "A242484",
+    "A242485"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

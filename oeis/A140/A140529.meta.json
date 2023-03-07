@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 6*4^n - 1.",
+  "id": "A140529",
+  "mentions": [
+    "A000302",
+    "A002023",
+    "A028894",
+    "A083420"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

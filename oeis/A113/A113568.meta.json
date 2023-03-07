@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that prime(k) +- k, prime(k) +- 2k, prime(k) +- 3k and prime(k) +- 4k are all primes.",
+  "id": "A113568",
+  "mentions": [
+    "A064403",
+    "A112530",
+    "A113567"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

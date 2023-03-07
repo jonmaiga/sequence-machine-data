@@ -1,0 +1,23 @@
+{
+  "description": "R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2*w^k < x^k + y^k; square array read by descending diagonals.",
+  "id": "A211802",
+  "mentions": [
+    "A016061",
+    "A182260",
+    "A211790",
+    "A211800",
+    "A211801",
+    "A211805"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

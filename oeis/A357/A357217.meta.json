@@ -1,0 +1,24 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of cycles of the permutation given by the order of elimination in the Josephus problem for n numbers and a count of k; n, k >= 1.",
+  "id": "A357217",
+  "mentions": [
+    "A003418",
+    "A006694",
+    "A163782",
+    "A163800",
+    "A198789",
+    "A321298"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of forests with n labeled nodes and 6 trees.",
+  "id": "A240683",
+  "mentions": [
+    "A105599",
+    "A138464"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 6,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

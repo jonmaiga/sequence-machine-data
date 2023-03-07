@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n!*LaguerreL(n, -2*n).",
+  "id": "A277391",
+  "mentions": [
+    "A002720",
+    "A087912",
+    "A277373",
+    "A277382",
+    "A277392",
+    "A277418",
+    "A277419",
+    "A277420",
+    "A277421",
+    "A277422"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

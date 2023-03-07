@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the area of the triangle with sides p and the next two primes achieves a record for closeness to a prime.",
+  "id": "A338262",
+  "mentions": [
+    "A330096",
+    "A338267",
+    "A338269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

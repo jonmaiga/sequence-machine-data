@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k = concat(MSD(k),x) such that k' = x', where k' is the arithmetic derivative of k.",
+  "id": "A293477",
+  "mentions": [
+    "A000030",
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

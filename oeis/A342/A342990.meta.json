@@ -1,0 +1,22 @@
+{
+  "description": "Number of horizontally or vertically semicyclic diagonal Latin squares of order 2n+1.",
+  "id": "A342990",
+  "mentions": [
+    "A071607",
+    "A338562",
+    "A343867"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

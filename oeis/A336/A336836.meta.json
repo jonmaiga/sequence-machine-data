@@ -1,0 +1,25 @@
+{
+  "description": "Number of iterations of x -> A003961(x) needed before A003961(x) < 2x, when starting from x=n, or -1 if such a number is never reached.",
+  "id": "A336836",
+  "mentions": [
+    "A003961",
+    "A005940",
+    "A246271",
+    "A246281",
+    "A252459",
+    "A252742",
+    "A252743",
+    "A286385",
+    "A336835"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

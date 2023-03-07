@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose prime exponents are distinct and cover an initial interval of positive integers.",
+  "id": "A325337",
+  "mentions": [
+    "A055932",
+    "A056239",
+    "A112798",
+    "A317081",
+    "A317089",
+    "A317090",
+    "A320348",
+    "A325326",
+    "A325330",
+    "A325370",
+    "A325371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

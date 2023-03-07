@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} 2^n * x^n/(n*(1+x^n)) ).",
+  "id": "A165941",
+  "mentions": [
+    "A259192",
+    "A259273",
+    "A259274",
+    "A259275",
+    "A259276",
+    "A348902"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

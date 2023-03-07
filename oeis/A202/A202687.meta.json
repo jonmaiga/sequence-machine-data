@@ -1,0 +1,21 @@
+{
+  "description": "Triangle arising in the computation of hypersigma, definition 2 (A191161).",
+  "id": "A202687",
+  "mentions": [
+    "A000629",
+    "A191161"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

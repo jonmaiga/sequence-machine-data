@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that cannot be represented as the sum of at most three Fibonacci numbers (with repetitions allowed).",
+  "id": "A111458",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A135709",
+    "A179244"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

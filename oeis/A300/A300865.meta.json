@@ -1,0 +1,34 @@
+{
+  "description": "Signed recurrence over binary enriched p-trees: a(n) = (-1)^(n-1) + Sum_{x + y = n, 0 < x <= y < n} a(x) * a(y).",
+  "id": "A300865",
+  "mentions": [
+    "A000992",
+    "A001190",
+    "A007317",
+    "A063834",
+    "A099323",
+    "A196545",
+    "A220418",
+    "A273866",
+    "A273873",
+    "A289501",
+    "A290261",
+    "A300352",
+    "A300442",
+    "A300443",
+    "A300862",
+    "A300863",
+    "A300864",
+    "A300866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

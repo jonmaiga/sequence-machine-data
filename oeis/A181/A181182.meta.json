@@ -1,0 +1,22 @@
+{
+  "description": "Primes in A181178.",
+  "id": "A181182",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A069800",
+    "A181178"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

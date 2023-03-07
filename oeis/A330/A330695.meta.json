@@ -1,0 +1,17 @@
+{
+  "description": "Indices k at which record low values of the ratio A046530(k)/k occur.",
+  "id": "A330695",
+  "mentions": [
+    "A046530"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

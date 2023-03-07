@@ -1,0 +1,21 @@
+{
+  "description": "A symmetrical triangle: T(n,k) = binomial(n, k)*if(floor(n/2) greater than or equal to k then 4^k, otherwise 4^(n-k)).",
+  "id": "A174301",
+  "mentions": [
+    "A098430",
+    "A144463",
+    "A144470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

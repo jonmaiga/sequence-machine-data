@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime factor of 6*n-1 that is congruent to 5 modulo 6.",
+  "id": "A111863",
+  "mentions": [
+    "A007528",
+    "A016969",
+    "A024898",
+    "A107745"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

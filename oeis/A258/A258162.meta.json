@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the log Gamma integral LG_3 = Integral_{0..1} log(Gamma(x))^3 dx.",
+  "id": "A258162",
+  "mentions": [
+    "A075700",
+    "A102887",
+    "A258163",
+    "A258164"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

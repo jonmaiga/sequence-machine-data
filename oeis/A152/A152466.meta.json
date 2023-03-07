@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 252, a(n) is a(n-1) multiplied by the smallest prime factor of a(n-1)+1.",
+  "id": "A152466",
+  "mentions": [
+    "A020639",
+    "A238584",
+    "A238642"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

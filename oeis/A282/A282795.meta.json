@@ -1,0 +1,20 @@
+{
+  "description": "Start with n. If n is 1 or a prime, stop. Otherwise, add the prime factors of n (with repetition) to n, and repeat until reaching a prime, when we stop. If no prime is ever reached, a(n) = -1.",
+  "id": "A282795",
+  "mentions": [
+    "A016837",
+    "A037274",
+    "A075254",
+    "A195264"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

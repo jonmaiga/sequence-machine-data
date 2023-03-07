@@ -1,0 +1,26 @@
+{
+  "description": "Values f(1,x,y) with x>=0, y>0, in increasing order, where f is the Sudan function defined in A260002.",
+  "id": "A260003",
+  "mentions": [
+    "A000325",
+    "A005408",
+    "A048493",
+    "A079583",
+    "A123720",
+    "A133124",
+    "A260002",
+    "A260004",
+    "A260005",
+    "A260006"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

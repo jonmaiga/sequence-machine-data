@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of first 3 digits and last 3 digits of n-th perfect number.",
+  "id": "A138877",
+  "mentions": [
+    "A000396",
+    "A104511",
+    "A138843",
+    "A138866"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

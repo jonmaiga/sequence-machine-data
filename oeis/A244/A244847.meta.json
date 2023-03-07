@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of rho_c = (5-sqrt(5))/10, the asymptotic critical density for the hard hexagon model.",
+  "id": "A244847",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A006267",
+    "A045529",
+    "A176015",
+    "A244593"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:29",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

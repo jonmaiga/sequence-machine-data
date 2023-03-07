@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, such that row n equals the inverse binomial transform of row n of table A060543, where A060543(n,k) = C(n+n*k+k, n*k+k).",
+  "id": "A108290",
+  "mentions": [
+    "A000169",
+    "A060543",
+    "A108267",
+    "A108291",
+    "A108292"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

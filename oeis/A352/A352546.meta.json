@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having more even than odd digits when written in base 10.",
+  "id": "A352546",
+  "mentions": [
+    "A072603",
+    "A117076",
+    "A196563",
+    "A196564",
+    "A352547"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

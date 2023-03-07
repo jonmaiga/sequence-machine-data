@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of ordered set partitions of [n] such that for each block b the smallest integer interval containing b has at most k elements; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A276890",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000670",
+    "A240172",
+    "A276719",
+    "A276891",
+    "A276893",
+    "A276894",
+    "A276895",
+    "A276896",
+    "A276897",
+    "A276898",
+    "A276899",
+    "A276900"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

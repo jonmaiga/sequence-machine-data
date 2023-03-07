@@ -1,0 +1,20 @@
+{
+  "description": "Number of independent vertex subsets of the graph obtained by attaching two pendant edges to each vertex of the star graph S_n (having n vertices; see A235114).",
+  "id": "A235115",
+  "mentions": [
+    "A235114",
+    "A235118"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

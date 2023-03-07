@@ -1,0 +1,17 @@
+{
+  "description": "Number of integer triples (x,y,z), x > 0, y > 0, z > 0, such that x <= p, y <= q, z <= r for any factorization n = p*q*r.",
+  "id": "A283626",
+  "mentions": [
+    "A138808"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

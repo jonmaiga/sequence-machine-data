@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: row n lists the divisors of n-th perfect number A000396(n) that are multiples of n-th Mersenne prime A000668(n).",
+  "id": "A139247",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A018254",
+    "A018487",
+    "A133024",
+    "A133025",
+    "A133031",
+    "A133049",
+    "A135652",
+    "A135653",
+    "A135654",
+    "A135655"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

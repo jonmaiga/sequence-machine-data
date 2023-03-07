@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative m for which k*floor(m^2/9) = floor(k*m^2/9), with 2 < k < 9.",
+  "id": "A265227",
+  "mentions": [
+    "A001477",
+    "A008585",
+    "A060464",
+    "A265188"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:03",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

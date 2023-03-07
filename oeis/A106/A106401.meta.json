@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (eta(q) * eta(q^9))^3 / eta(q^3)^2 in powers of q.",
+  "id": "A106401",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A030203",
+    "A033686",
+    "A144614"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:57",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

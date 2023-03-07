@@ -1,0 +1,18 @@
+{
+  "description": "The number of maximal paths in the Bruhat graph for S_n.",
+  "id": "A165208",
+  "mentions": [
+    "A061710"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

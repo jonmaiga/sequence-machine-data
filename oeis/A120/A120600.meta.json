@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: 7*A(x) = 6 + x + A(x)^6, starting with [1,1,15].",
+  "id": "A120600",
+  "mentions": [
+    "A120588",
+    "A120599",
+    "A120601",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

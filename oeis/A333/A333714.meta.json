@@ -1,0 +1,28 @@
+{
+  "description": "Squares visited by a chess king moving on a square-spiral numbered board where the king moves to the adjacent unvisited square containing the spiral number with the most divisors. In case of a tie it chooses the square with the highest spiral number.",
+  "id": "A333714",
+  "mentions": [
+    "A033996",
+    "A316667",
+    "A326922",
+    "A328928",
+    "A328929",
+    "A329520",
+    "A330008",
+    "A333713",
+    "A335816"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer not already in the sequence for which a(n)+a(n-1) is a semiprime, with a(1)=1.",
+  "id": "A243625",
+  "mentions": [
+    "A055265"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

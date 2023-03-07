@@ -1,0 +1,27 @@
+{
+  "description": "Number of achiral colorings of the edges of a cube or regular octahedron.",
+  "id": "A331351",
+  "mentions": [
+    "A037270",
+    "A060530",
+    "A199406",
+    "A337406",
+    "A337410",
+    "A337414",
+    "A337897",
+    "A337898",
+    "A337953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:13",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A238498.",
+  "id": "A272080",
+  "mentions": [
+    "A001615",
+    "A238498"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 4n-1, 8n-1, 16n-1, 32n-1 and 64n-1 are primes.",
+  "id": "A101994",
+  "mentions": [
+    "A002515",
+    "A101790",
+    "A101794",
+    "A101995",
+    "A101996",
+    "A101997",
+    "A101998",
+    "A101999"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k concatenated with k+2 gives the product of two numbers which differ by 6.",
+  "id": "A116173",
+  "mentions": [
+    "A115430",
+    "A116126",
+    "A116159",
+    "A116172",
+    "A116174",
+    "A116187",
+    "A116205",
+    "A116207",
+    "A116304",
+    "A116337"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 4,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of planar strictly 2-connected graphs on n edges.",
+  "id": "A289471",
+  "mentions": [
+    "A002218",
+    "A002840",
+    "A289470",
+    "A343869"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

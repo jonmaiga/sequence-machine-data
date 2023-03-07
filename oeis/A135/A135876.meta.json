@@ -1,0 +1,25 @@
+{
+  "description": "Square array, read by antidiagonals, where row n+1 is generated from row n by first removing terms at positions [(m+2)^2/4 - 1] for m>=0 and then taking partial sums, starting with all 1's in row 0.",
+  "id": "A135876",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A004041",
+    "A125714",
+    "A129890",
+    "A135877",
+    "A135878"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

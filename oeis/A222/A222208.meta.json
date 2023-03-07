@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 3; for n>2, a(n) = smallest number not in {a(1), ..., a(n-1)} such that a(n) is divisible by a(d) for all divisors d of n.",
+  "id": "A222208",
+  "mentions": [
+    "A000027",
+    "A027751",
+    "A211384",
+    "A222209"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

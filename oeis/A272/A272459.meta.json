@@ -1,0 +1,21 @@
+{
+  "description": "The total number of different isosceles trapezoids, excluding squares, that can be drawn on an n X n square grid where the corners of each individual trapezoid lie on a lattice point.",
+  "id": "A272459",
+  "mentions": [
+    "A000292",
+    "A032438",
+    "A143785"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:12:01",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

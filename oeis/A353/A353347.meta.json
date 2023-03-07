@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the elements of the continued fraction of phi(k)/k and phi(k+1)/(k+1) are anagrams of each other.",
+  "id": "A353347",
+  "mentions": [
+    "A000010",
+    "A069567",
+    "A076512",
+    "A109395",
+    "A342866",
+    "A353345",
+    "A353346"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

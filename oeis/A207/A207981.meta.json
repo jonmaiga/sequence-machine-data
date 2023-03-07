@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of nXk nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any diagonal or antidiagonal neighbor (colorings ignoring permutations of colors)",
+  "id": "A207981",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

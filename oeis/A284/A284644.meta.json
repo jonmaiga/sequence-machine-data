@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 2, a(3) = 1; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 3.",
+  "id": "A284644",
+  "mentions": [
+    "A005185",
+    "A244477"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

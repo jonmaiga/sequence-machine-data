@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T, read by rows, where T(n,k) = [T^n](n-k-1,0); i.e., where row n of T equals the initial n terms of column 0 in matrix power T^n, reversed and with an appended '1', for n>0, with T(0,0)=1.",
+  "id": "A167015",
+  "mentions": [
+    "A167016",
+    "A167017",
+    "A167018",
+    "A167019",
+    "A167142",
+    "A167144",
+    "A167145"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

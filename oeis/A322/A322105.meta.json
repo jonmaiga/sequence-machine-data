@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that set a record for occurrences as longest side of a triangle with integer sides and positive integer area.",
+  "id": "A322105",
+  "mentions": [
+    "A054875",
+    "A096467",
+    "A120130",
+    "A306626"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Strip A117488 of r-1 row values 1,2,5,10,20,36,65 ... A000712.",
+  "id": "A117566",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A008284",
+    "A115994",
+    "A117488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

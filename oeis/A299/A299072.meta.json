@@ -1,0 +1,26 @@
+{
+  "description": "Sequence is an irregular triangle read by rows with zeros removed where T(n,k) is the number of compositions of n whose standard factorization into Lyndon words has k distinct factors.",
+  "id": "A299072",
+  "mentions": [
+    "A001045",
+    "A001221",
+    "A008965",
+    "A059966",
+    "A116608",
+    "A146289",
+    "A185700",
+    "A296373",
+    "A299070"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

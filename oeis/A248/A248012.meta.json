@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=p1^(p2^(p3^(p4^...)))... where p1",
+  "id": "A248012",
+  "mentions": [
+    "A027748"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

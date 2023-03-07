@@ -1,0 +1,19 @@
+{
+  "description": "Integers m such that A342805(m) = m+3.",
+  "id": "A342806",
+  "mentions": [
+    "A090466",
+    "A177028",
+    "A342805"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

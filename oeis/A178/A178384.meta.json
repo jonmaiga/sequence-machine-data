@@ -1,0 +1,20 @@
+{
+  "description": "A (-1,1) Somos-4 sequence associated with the elliptic curve y^2 + y = x^3 + x.",
+  "id": "A178384",
+  "mentions": [
+    "A006720",
+    "A247368"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

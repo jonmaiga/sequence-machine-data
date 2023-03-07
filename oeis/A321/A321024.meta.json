@@ -1,0 +1,18 @@
+{
+  "description": "Let j be one of the prime factors of k. Sequence lists numbers k such that the prime before j is a prime factor of k+1.",
+  "id": "A321024",
+  "mentions": [
+    "A072562",
+    "A073606"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

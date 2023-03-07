@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with no common terms in their Zeckendorf and dual Zeckendorf representations.",
+  "id": "A331467",
+  "mentions": [
+    "A000045",
+    "A000931",
+    "A007895",
+    "A014417",
+    "A104326",
+    "A112310",
+    "A331466"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

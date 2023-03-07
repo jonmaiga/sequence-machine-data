@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A055265(1..n) is a solution of prime circle problem.",
+  "id": "A197926",
+  "mentions": [
+    "A055265",
+    "A070942"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A046523(A284003(n)).",
+  "id": "A284004",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A046523",
+    "A209281",
+    "A284003"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

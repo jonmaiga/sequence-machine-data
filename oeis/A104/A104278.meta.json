@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 2n+1 and 2n-1 are not primes.",
+  "id": "A104278",
+  "mentions": [
+    "A002808",
+    "A010051",
+    "A040040",
+    "A099047",
+    "A147820",
+    "A177961"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

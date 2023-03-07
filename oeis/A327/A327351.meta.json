@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of antichains of nonempty sets covering n vertices with vertex-connectivity exactly k.",
+  "id": "A327351",
+  "mentions": [
+    "A003465",
+    "A006126",
+    "A014466",
+    "A048143",
+    "A120338",
+    "A293993",
+    "A307249",
+    "A323818",
+    "A326704",
+    "A327020",
+    "A327125",
+    "A327334",
+    "A327336",
+    "A327350",
+    "A327352",
+    "A327353",
+    "A327356",
+    "A327357",
+    "A327359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

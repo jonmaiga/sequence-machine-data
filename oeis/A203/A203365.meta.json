@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..2 arrays with every 1 immediately preceded by 0 to the left or above, and every 2 immediately preceded by both a 1 and a 0.",
+  "id": "A203365",
+  "mentions": [
+    "A203371"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

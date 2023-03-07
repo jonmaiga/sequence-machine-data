@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k, k + 1 and k + 2 are all norm-deficient in Gaussian integers (A332572).",
+  "id": "A332574",
+  "mentions": [
+    "A005100",
+    "A103228",
+    "A103229",
+    "A103230",
+    "A317047",
+    "A332572",
+    "A332573"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

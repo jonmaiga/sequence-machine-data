@@ -1,0 +1,41 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with omicron k.",
+  "id": "A325268",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A001222",
+    "A008284",
+    "A071625",
+    "A116608",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A225485",
+    "A304465",
+    "A304634",
+    "A304636",
+    "A323014",
+    "A323022",
+    "A323023",
+    "A325242",
+    "A325248",
+    "A325249",
+    "A325250",
+    "A325267",
+    "A325273",
+    "A325277",
+    "A325280"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

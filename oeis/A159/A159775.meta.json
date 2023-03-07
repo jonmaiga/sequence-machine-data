@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that n^2 starts and ends with 81.",
+  "id": "A159775",
+  "mentions": [
+    "A111445",
+    "A159254",
+    "A159754"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of cyclic arrangements of S={1,2,...,n} such that the difference between any two neighbors is 2^k for some k=0,1,2,...",
+  "id": "A242519",
+  "mentions": [
+    "A001710",
+    "A236602",
+    "A242520",
+    "A242521",
+    "A242522",
+    "A242523",
+    "A242524",
+    "A242525",
+    "A242526",
+    "A242527",
+    "A242528",
+    "A242529",
+    "A242530",
+    "A242531",
+    "A242532",
+    "A242533",
+    "A242534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

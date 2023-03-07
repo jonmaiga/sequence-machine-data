@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic matroids of rank 4 on n labeled points.",
+  "id": "A336704",
+  "mentions": [
+    "A053534",
+    "A058693"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that Sum_{i = 1..q} 1/d(i) is an integer where d(i) are the divisors of n for some q and n is primitive (the set {d(1), d(2), ..., d(q)} appears only once).",
+  "id": "A226853",
+  "mentions": [
+    "A225110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

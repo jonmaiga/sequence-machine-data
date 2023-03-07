@@ -1,0 +1,19 @@
+{
+  "description": "Sphenic numbers n=p*q*r, where reversal(n) is also a sphenic number and reversal(n) = reversal(p)*reversal(q)*reversal(r).",
+  "id": "A242726",
+  "mentions": [
+    "A007304",
+    "A242592"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

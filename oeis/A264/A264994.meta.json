@@ -1,0 +1,27 @@
+{
+  "description": "Bijective base-4 reverse: a(0) = 0; for n >= 1, a(n) = A030103(A065883(n)) * A234957(n).",
+  "id": "A264994",
+  "mentions": [
+    "A030103",
+    "A057889",
+    "A065883",
+    "A234957",
+    "A263273",
+    "A264979",
+    "A264993",
+    "A264995",
+    "A265335"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

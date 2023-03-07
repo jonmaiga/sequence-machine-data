@@ -1,0 +1,24 @@
+{
+  "description": "q-inverse of x-x^2-x^3. Coefficients of a solution to the functional equation x = f(x) - f(x) f(q x) - f(x) f(q x) f(q^2 x).",
+  "id": "A128520",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000045",
+    "A001002",
+    "A001105",
+    "A005843"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

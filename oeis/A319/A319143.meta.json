@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies: [x^(n-1)] (1+x)^(n^3) / A(x)^(n^2) = 0 for n>1.",
+  "id": "A319143",
+  "mentions": [
+    "A303060"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

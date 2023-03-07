@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that (10^(k+2) + 999) * 10^k + 1 is prime.",
+  "id": "A246804",
+  "mentions": [
+    "A082703",
+    "A156166"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

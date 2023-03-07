@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose base-8 digits have greater up-variation than down-variation; see Comments.",
+  "id": "A297266",
+  "mentions": [
+    "A297264",
+    "A297265",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

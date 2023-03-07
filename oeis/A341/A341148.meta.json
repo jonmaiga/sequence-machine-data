@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of cubes in the k-th vertical slice of the polycube called \"tower\" described in A221529 where n is the longest side of its base, 1 <= k <= n.",
+  "id": "A341148",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A024916",
+    "A066186",
+    "A080513",
+    "A221529",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A336811",
+    "A336812",
+    "A338156",
+    "A340035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

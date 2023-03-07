@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps for \"powertrain\" operation to converge when started at n.",
+  "id": "A133501",
+  "mentions": [
+    "A133500",
+    "A133503",
+    "A133508",
+    "A135381"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

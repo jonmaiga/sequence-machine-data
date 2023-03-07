@@ -1,0 +1,17 @@
+{
+  "description": "Primes that can be represented as (1/2)*Sum_{i=0..m} binomial(m,i)*prime(i+k) for some k and m >= 2.",
+  "id": "A342093",
+  "mentions": [
+    "A338273"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

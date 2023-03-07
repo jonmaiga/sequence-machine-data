@@ -1,0 +1,19 @@
+{
+  "description": "Prime chain of 128 terms, including 104 distinct primes, consisting of the output of eight equations that alternate sequentially within a procedural expression of a single polynomial. The equations are either subsequences of x^2 - 79x + 1601 or transforms with one exception: 100x^2 - 2260x + 12959. The other four distinct equations are Euler-derived: 25x^2 - 1185x + 14083, 25x^2 - 775x + 6047, 100x^2 - 2280x + 13159, 100x^2 - 4160x + 43427.",
+  "id": "A140708",
+  "mentions": [
+    "A140718"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

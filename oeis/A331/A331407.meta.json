@@ -1,0 +1,21 @@
+{
+  "description": "Numbers at which the sum of the iterated exponential totient function (A331273) attains a record.",
+  "id": "A331407",
+  "mentions": [
+    "A000010",
+    "A072911",
+    "A181659",
+    "A331273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

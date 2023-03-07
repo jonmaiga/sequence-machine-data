@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=-4; a(n+1) = 2*a(n) + period 4: repeat 6,1,2,5.",
+  "id": "A180343",
+  "mentions": [
+    "A007909",
+    "A112030",
+    "A131800"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

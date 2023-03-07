@@ -1,0 +1,20 @@
+{
+  "description": "f-Pascal's triangle where f(n) = n*(n+1)/2 = A000217(n).",
+  "id": "A119732",
+  "mentions": [
+    "A000217",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

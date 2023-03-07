@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n,k) = lunar product n*k (n >= 0, k >= 0) read by antidiagonals.",
+  "id": "A261684",
+  "mentions": [
+    "A003983",
+    "A087061",
+    "A087062"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hear",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

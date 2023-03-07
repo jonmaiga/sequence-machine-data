@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > 2, such that A000587(k) is divisible by n.",
+  "id": "A327433",
+  "mentions": [
+    "A000587",
+    "A325935",
+    "A327432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of factorizations of n into factors > 1 with different sums of prime indices. Number of multiset partitions of the multiset of prime indices of n with distinct block-sums.",
+  "id": "A321469",
+  "mentions": [
+    "A001055",
+    "A038041",
+    "A056239",
+    "A112798",
+    "A275780",
+    "A317144",
+    "A321455",
+    "A322794",
+    "A326514",
+    "A326515",
+    "A326516",
+    "A326519",
+    "A326535"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

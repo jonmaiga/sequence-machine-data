@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k), 0 <= k <= n, read by rows, with T(2n,2k) = T(2n+1,2k) = T(2n+1,2k+1) = T(2n+2,2k+1) = binomial(n,k).",
+  "id": "A119963",
+  "mentions": [
+    "A007318",
+    "A029744",
+    "A051159",
+    "A052955",
+    "A180171",
+    "A292200"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

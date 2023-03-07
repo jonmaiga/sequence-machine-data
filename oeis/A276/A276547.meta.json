@@ -1,0 +1,19 @@
+{
+  "description": "Number of primitive (period n) n-bead necklace structures using an infinite alphabet.",
+  "id": "A276547",
+  "mentions": [
+    "A084423",
+    "A107424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

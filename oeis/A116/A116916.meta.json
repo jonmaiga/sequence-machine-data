@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of q^(-1/8) * (eta(q)^3 + 3 * eta(q^9)^3) in powers of q^3.",
+  "id": "A116916",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A010816",
+    "A121373",
+    "A202394",
+    "A282937",
+    "A282941"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

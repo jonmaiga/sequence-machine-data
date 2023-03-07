@@ -1,0 +1,27 @@
+{
+  "description": "If n has one or two prime-factors then 1 else 0.",
+  "id": "A101040",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A010051",
+    "A032742",
+    "A033942",
+    "A037143",
+    "A063524",
+    "A064911",
+    "A101041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

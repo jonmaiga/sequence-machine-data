@@ -1,0 +1,23 @@
+{
+  "description": "Largest prime factor of the composites in the n-th prime gap larger than 2.",
+  "id": "A136801",
+  "mentions": [
+    "A006530",
+    "A052248",
+    "A136798",
+    "A136799",
+    "A136800",
+    "A136802"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

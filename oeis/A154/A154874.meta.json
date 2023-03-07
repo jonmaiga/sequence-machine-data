@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k^3 contains every digit exactly twice.",
+  "id": "A154874",
+  "mentions": [
+    "A054038",
+    "A074205",
+    "A154532",
+    "A154566",
+    "A154871",
+    "A154873"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

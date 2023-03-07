@@ -1,0 +1,24 @@
+{
+  "description": "Nonsquares mod 65537.",
+  "id": "A136806",
+  "mentions": [
+    "A028730",
+    "A136803",
+    "A136804",
+    "A136805"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

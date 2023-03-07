@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows with trailing zeros removed where T(n,k) is the number of antichains of sets covering n vertices with non-spanning edge-connectivity k.",
+  "id": "A327357",
+  "mentions": [
+    "A014466",
+    "A120338",
+    "A293606",
+    "A307249",
+    "A326704",
+    "A326787",
+    "A327071",
+    "A327148",
+    "A327149",
+    "A327201",
+    "A327236",
+    "A327351",
+    "A327352",
+    "A327353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Restricted growth sequence transform of A292268; filter combining multiplicative order of 2 mod 2n+1 and the number of trailing 1's in binary expansion of 2n+1.",
+  "id": "A292267",
+  "mentions": [
+    "A002326",
+    "A007814",
+    "A291766",
+    "A291769",
+    "A292268"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

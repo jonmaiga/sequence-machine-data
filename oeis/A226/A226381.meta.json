@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the distance from n to the next prime is the same as the distance from n^2 to the next prime.",
+  "id": "A226381",
+  "mentions": [
+    "A013632"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

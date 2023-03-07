@@ -1,0 +1,19 @@
+{
+  "description": "Perimeters of Heronian triangles with exactly one square side length.",
+  "id": "A334606",
+  "mentions": [
+    "A010052",
+    "A334825",
+    "A335100"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

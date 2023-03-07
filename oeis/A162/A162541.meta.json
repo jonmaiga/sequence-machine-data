@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that a splitting of the cyclic group Zp by the perfect 3-shift code {+-1,+-2,+-3} exists.",
+  "id": "A162541",
+  "mentions": [
+    "A040034",
+    "A053760",
+    "A054272",
+    "A098990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

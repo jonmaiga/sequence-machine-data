@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k = n..2*n+1} k^2.",
+  "id": "A299646",
+  "mentions": [
+    "A008854",
+    "A047388",
+    "A050409",
+    "A050410",
+    "A174070"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

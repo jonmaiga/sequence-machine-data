@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the binary digits of all primes between 2^(n-1) and 2^n-1, i.e., with exactly n binary digits.",
+  "id": "A168156",
+  "mentions": [
+    "A086904",
+    "A168155"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

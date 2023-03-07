@@ -1,0 +1,21 @@
+{
+  "description": "R(n) - prime(2n), where R(n) is the n-th Ramanujan prime and prime(n) is the n-th prime.",
+  "id": "A233739",
+  "mentions": [
+    "A000040",
+    "A104272",
+    "A233740",
+    "A233741"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

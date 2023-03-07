@@ -1,0 +1,21 @@
+{
+  "description": "The stripe enumeration of N X N where N = {0, 1, 2, ...}, also called boustrophedonic Cantor enumeration. Terms are interleaved x and y coordinates.",
+  "id": "A319571",
+  "mentions": [
+    "A319289",
+    "A319290",
+    "A319514",
+    "A319572",
+    "A319573"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

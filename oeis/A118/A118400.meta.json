@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T, read by rows, where all columns of T are different and yet all columns of the matrix square T^2 (A118401) are equal; a signed version of triangle A087698.",
+  "id": "A118400",
+  "mentions": [
+    "A084633",
+    "A087698",
+    "A118401",
+    "A118404"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

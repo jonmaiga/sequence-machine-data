@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A024431.",
+  "id": "A247414",
+  "mentions": [
+    "A024431",
+    "A115409"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of defective parking functions of length n and defect k; triangle T(n,k), n>=0, 0<=k<=max(0,n-1), read by rows.",
+  "id": "A264902",
+  "mentions": [
+    "A000272",
+    "A000312",
+    "A036276",
+    "A101334",
+    "A140647",
+    "A264903",
+    "A274279",
+    "A291128",
+    "A291129",
+    "A291130",
+    "A291131",
+    "A291132",
+    "A291133",
+    "A291134",
+    "A291135",
+    "A291136"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

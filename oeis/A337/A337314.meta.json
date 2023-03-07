@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the number of n-digit positive integers with exactly four distinct base 10 digits.",
+  "id": "A337314",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000302",
+    "A000453",
+    "A031969",
+    "A055642",
+    "A073531",
+    "A180599",
+    "A235155",
+    "A235691",
+    "A235718",
+    "A335843",
+    "A337127",
+    "A337313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:12:26",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer that, when written in binary, contains the binary representations of both A164861(n) and the reversal of the order of the digits of A164861(n) as (overlapping) substrings.",
+  "id": "A164862",
+  "mentions": [
+    "A164861"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

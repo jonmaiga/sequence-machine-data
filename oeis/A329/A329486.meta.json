@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 3*A006519(n)/2 + n/2 where A006519(n) is the highest power of 2 dividing n.",
+  "id": "A329486",
+  "mentions": [
+    "A003602",
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

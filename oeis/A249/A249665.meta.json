@@ -1,0 +1,20 @@
+{
+  "description": "The number of permutations p of {1,...,n} such that p(1)=1, p(n)=n, and |p(i)-p(i+1)| is in {1,2,3} for all i from 1 to n-1.",
+  "id": "A249665",
+  "mentions": [
+    "A000930",
+    "A174700",
+    "A337654"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:14:25",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

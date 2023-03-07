@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of deco polyominoes of height n and such that the sum of the bottom levels of all columns is k (n>=1, k>=0; informally, the number of the \"missing\" cells in the right bottom corner of the polyomino). A deco polyomino is a directed column-convex polyomino in which the height, measured along the diagonal, is attained only in the last column.",
+  "id": "A122104",
+  "mentions": [
+    "A000142",
+    "A000522",
+    "A005096",
+    "A033312",
+    "A122105"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Array A(n,k) read by antidiagonals: the length of the (k+1)-th run (k>=0) of binary digits of n, first run starting from the least significant bit of n.",
+  "id": "A227186",
+  "mentions": [
+    "A002262",
+    "A005811",
+    "A025581",
+    "A029837",
+    "A101211",
+    "A136480",
+    "A163575",
+    "A167489",
+    "A227183",
+    "A227188",
+    "A227189"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

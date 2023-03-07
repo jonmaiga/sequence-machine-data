@@ -1,0 +1,21 @@
+{
+  "description": "A permutation of Motzkin numbers by reversal of indices in blocks of length 7.",
+  "id": "A180352",
+  "mentions": [
+    "A001006",
+    "A073794"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

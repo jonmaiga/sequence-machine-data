@@ -1,0 +1,21 @@
+{
+  "description": "Least prime number appearing in the prime tower factorization of n (when n > 1); a(1) = 1.",
+  "id": "A284694",
+  "mentions": [
+    "A020639",
+    "A182318",
+    "A279513",
+    "A284695"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

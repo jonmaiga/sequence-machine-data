@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocal of the Bernoulli numbers with even index (negated).",
+  "id": "A300220",
+  "mentions": [
+    "A000367",
+    "A002445"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

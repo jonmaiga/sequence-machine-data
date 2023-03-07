@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} log(p)/p^9.",
+  "id": "A303499",
+  "mentions": [
+    "A136271",
+    "A303493",
+    "A303494",
+    "A303495",
+    "A303496",
+    "A303497",
+    "A303498"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

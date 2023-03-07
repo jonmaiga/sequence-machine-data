@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: antidiagonals of an array formed by sequences of the form a(0)=1, a(1) = (n+1); a(n+1), n>1 = 2*a(n).",
+  "id": "A179743",
+  "mentions": [
+    "A179744"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: n-th diagonal (from the right) is the sequence of (signed) differences between pairs of consecutive terms in the (n-1)th diagonal. The rightmost diagonal (A136562) is defined: A136562(1)=1; A136562(n) is the smallest integer > A136562(n-1) such that any (signed) integer occurs at most once in the triangle A136561.",
+  "id": "A136561",
+  "mentions": [
+    "A035312",
+    "A136562",
+    "A136563"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

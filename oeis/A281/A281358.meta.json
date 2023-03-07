@@ -1,0 +1,24 @@
+{
+  "description": "Number of scenarios in the Gift Exchange Game when a gift can be stolen at most 6 times.",
+  "id": "A281358",
+  "mentions": [
+    "A001515",
+    "A144416",
+    "A144508",
+    "A144509",
+    "A149187",
+    "A281359",
+    "A281360",
+    "A281361"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

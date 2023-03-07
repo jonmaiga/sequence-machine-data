@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of reduced Latin trapezoids of height 3, whose top row has n boxes, the middle row has n+1 boxes, and the bottom row has n+2 boxes.",
+  "id": "A347927",
+  "mentions": [
+    "A000186",
+    "A001623",
+    "A001626",
+    "A002860"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

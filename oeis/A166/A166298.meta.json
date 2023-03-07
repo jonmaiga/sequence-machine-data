@@ -1,0 +1,19 @@
+{
+  "description": "Number of simsun permutations of {1,2,...,n} having at least one 321 pattern. A permutation p in S_n is said to be simsun if it has no double descents and with the hereditary property that when n, n-1, ..., 2, 1 are deleted in succession, the property of not having double descents is preserved after each deletion.",
+  "id": "A166298",
+  "mentions": [
+    "A000108",
+    "A000111"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

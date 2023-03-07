@@ -1,0 +1,18 @@
+{
+  "description": "Number of reflexible maps with n edges.",
+  "id": "A170947",
+  "mentions": [
+    "A170948",
+    "A170949"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

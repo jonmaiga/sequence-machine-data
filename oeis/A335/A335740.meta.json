@@ -1,0 +1,29 @@
+{
+  "description": "Factorize each integer m >= 2 as the product of powers of nonunit squarefree numbers with distinct exponents that are powers of 2. The sequence lists m such that the factor with the largest exponent is not a power of 2.",
+  "id": "A335740",
+  "mentions": [
+    "A000188",
+    "A005117",
+    "A020725",
+    "A042968",
+    "A062503",
+    "A113849",
+    "A144338",
+    "A182853",
+    "A268390",
+    "A299090",
+    "A335738",
+    "A336322"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

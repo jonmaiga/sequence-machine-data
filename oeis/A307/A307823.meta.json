@@ -1,0 +1,25 @@
+{
+  "description": "The number of nonunitary abundant numbers below 10^n.",
+  "id": "A307823",
+  "mentions": [
+    "A048146",
+    "A064597",
+    "A302992",
+    "A302993",
+    "A302994",
+    "A307820",
+    "A307821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

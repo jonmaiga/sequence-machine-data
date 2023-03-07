@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the prime factors with multiplicity of k divides k+1.",
+  "id": "A130871",
+  "mentions": [
+    "A001414",
+    "A036844"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of prime powers in A098550.",
+  "id": "A251241",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A098550",
+    "A100995",
+    "A251239",
+    "A251240"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

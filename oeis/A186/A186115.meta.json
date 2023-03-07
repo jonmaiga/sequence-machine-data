@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of q^(-1) * f(-q^3) * phi(-q^3) / (phi(-q^2) * psi(-q^9)) in powers of q where f(), phi(), psi() are Ramanujan theta functions.",
+  "id": "A186115",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058647",
+    "A121373",
+    "A128129",
+    "A228447",
+    "A261154"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:53",
+    "offset": -1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

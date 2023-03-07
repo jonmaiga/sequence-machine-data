@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the value k such that A292030(A292031(n), k) = n.",
+  "id": "A292032",
+  "mentions": [
+    "A292030",
+    "A292031"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

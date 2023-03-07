@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with no element plus any diagonal or antidiagonal neighbor equal to n-1.",
+  "id": "A266183",
+  "mentions": [
+    "A000142",
+    "A265860"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

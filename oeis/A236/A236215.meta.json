@@ -1,0 +1,34 @@
+{
+  "description": "Sum of the ninth powers of the first n primes.",
+  "id": "A236215",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A045345",
+    "A050247",
+    "A050248",
+    "A085450",
+    "A111441",
+    "A128165",
+    "A128166",
+    "A171399",
+    "A179665",
+    "A217599",
+    "A217600",
+    "A217601",
+    "A233523",
+    "A233862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

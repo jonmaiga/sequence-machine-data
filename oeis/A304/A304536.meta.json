@@ -1,0 +1,23 @@
+{
+  "description": "Binary weight of terms of A304533; Number of terms of A050376 in \"Fermi-Dirac factorization\" of A304531(1+n).",
+  "id": "A304536",
+  "mentions": [
+    "A000120",
+    "A050376",
+    "A064547",
+    "A304531",
+    "A304533",
+    "A304535"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

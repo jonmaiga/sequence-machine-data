@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} d*binomial(d+2,3).",
+  "id": "A321598",
+  "mentions": [
+    "A000292",
+    "A000335",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A002417",
+    "A059358",
+    "A278403"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

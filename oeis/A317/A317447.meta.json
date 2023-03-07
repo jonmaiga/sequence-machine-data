@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n] whose lengths of increasing runs are distinct prime numbers.",
+  "id": "A317447",
+  "mentions": [
+    "A000040",
+    "A317131",
+    "A317444",
+    "A317445",
+    "A317446",
+    "A317448"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

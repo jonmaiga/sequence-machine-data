@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of trajectory of 1 under the morphism 1->2, 2->13, 3->1.",
+  "id": "A105258",
+  "mentions": [
+    "A073058",
+    "A105111"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 581\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A283135",
+  "mentions": [
+    "A283132",
+    "A283133",
+    "A283134"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:52:25",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

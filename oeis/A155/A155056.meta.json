@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that number of prime digits of prime(p) > number of nonprime digits of prime(p).",
+  "id": "A155056",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

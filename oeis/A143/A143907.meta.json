@@ -1,0 +1,18 @@
+{
+  "description": "If n = product{primes p(k)|n} p(k)^b(n,p(k)), where p(k) is the k-th prime that divides n (when these primes are listed from smallest to largest) and each b(n,p(k)) is a positive integer, then the sequence contains the non-prime-powers n such that p(k)^b(n,p(k)) < p(k+1) for all k, 1<=k<= -1 + number of distinct prime divisors of n.",
+  "id": "A143907",
+  "mentions": [
+    "A057714",
+    "A102308"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

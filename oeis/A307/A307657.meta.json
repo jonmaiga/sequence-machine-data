@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: 1/(1 + x) = A(x)*A(x^2)^2*A(x^3)^3*A(x^4)^4* ... *A(x^k)^k* ...",
+  "id": "A307657",
+  "mentions": [
+    "A008683",
+    "A055615",
+    "A117211",
+    "A307649"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:41:18",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

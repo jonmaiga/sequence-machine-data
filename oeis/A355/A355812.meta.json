@@ -1,0 +1,18 @@
+{
+  "description": "Values t of the solutions to 1/s^2 + 1/t^2 = 1/p^2 + 1/q^2 where p,q < t.",
+  "id": "A355812",
+  "mentions": [
+    "A355813",
+    "A355814"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

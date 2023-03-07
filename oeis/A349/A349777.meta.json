@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically first sequence of positive integers such that all disjoint equivalent sets of K terms have distinct sums for 1 <= K <= 4.",
+  "id": "A349777",
+  "mentions": [
+    "A005318",
+    "A011185",
+    "A036241",
+    "A276661"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

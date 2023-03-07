@@ -1,0 +1,18 @@
+{
+  "description": "Strings of ascending digits in A007376.",
+  "id": "A224780",
+  "mentions": [
+    "A007376"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

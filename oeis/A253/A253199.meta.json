@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of q-series for vertex operator algebra associated with lattice QQF.4.f.",
+  "id": "A253199",
+  "mentions": [
+    "A125509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

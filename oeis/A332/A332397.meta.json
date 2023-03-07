@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Pi in bijective base-9 numeration.",
+  "id": "A332397",
+  "mentions": [
+    "A000796",
+    "A004608",
+    "A214676",
+    "A332395"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

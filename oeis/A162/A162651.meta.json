@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which can be expressed as the product of 3 positive integers in arithmetic progression.",
+  "id": "A162651",
+  "mentions": [
+    "A000384",
+    "A000578",
+    "A007531",
+    "A011199",
+    "A033996"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

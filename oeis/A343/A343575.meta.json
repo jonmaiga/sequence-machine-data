@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor((2+sqrt(5))^n - 2^(n+1)) mod (20*n).",
+  "id": "A343575",
+  "mentions": [
+    "A345031"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

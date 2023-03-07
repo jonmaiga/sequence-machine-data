@@ -1,0 +1,21 @@
+{
+  "description": "Modified Schroeder numbers for q=3.",
+  "id": "A114292",
+  "mentions": [
+    "A112833",
+    "A112844",
+    "A114293",
+    "A114299"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "An unrestricted partition statistic: sum of A179864 over row n.",
+  "id": "A179862",
+  "mentions": [
+    "A000041",
+    "A139582",
+    "A141285",
+    "A179864",
+    "A194446",
+    "A211978",
+    "A225600"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

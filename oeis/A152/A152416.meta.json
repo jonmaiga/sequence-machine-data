@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2 - Pi^2/6.",
+  "id": "A152416",
+  "mentions": [
+    "A013661",
+    "A045991"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:44",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

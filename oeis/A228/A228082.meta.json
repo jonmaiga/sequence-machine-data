@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are of the form k + sum of binary digits of k for some nonnegative integer k.",
+  "id": "A228082",
+  "mentions": [
+    "A005187",
+    "A010061",
+    "A092391",
+    "A227643",
+    "A227915",
+    "A228083",
+    "A228085",
+    "A228088",
+    "A230091",
+    "A230092",
+    "A242403",
+    "A350601"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:23:25",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

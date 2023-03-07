@@ -1,0 +1,36 @@
+{
+  "description": "Dirichlet inverse of A353557, the characteristic function of odd numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A358777",
+  "mentions": [
+    "A026424",
+    "A046315",
+    "A046337",
+    "A046523",
+    "A166698",
+    "A323239",
+    "A353480",
+    "A353557",
+    "A353558",
+    "A358778",
+    "A359589",
+    "A359595",
+    "A359596",
+    "A359598",
+    "A359599",
+    "A359607",
+    "A359608",
+    "A359609"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 135,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of supernormal integer partitions.",
+  "id": "A317246",
+  "mentions": [
+    "A055932",
+    "A056239",
+    "A181819",
+    "A182850",
+    "A296150",
+    "A304465",
+    "A304687",
+    "A304818",
+    "A305732",
+    "A305733",
+    "A317089",
+    "A317090",
+    "A317245"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

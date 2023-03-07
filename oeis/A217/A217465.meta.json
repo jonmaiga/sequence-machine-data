@@ -1,0 +1,23 @@
+{
+  "description": "Composite integers n such that 2^n == 2 (mod n*(n+1)).",
+  "id": "A217465",
+  "mentions": [
+    "A019320",
+    "A216822",
+    "A217466",
+    "A217468",
+    "A297415",
+    "A298758",
+    "A303531"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

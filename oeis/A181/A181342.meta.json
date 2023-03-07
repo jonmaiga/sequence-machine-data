@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (35*n^4 - 105*n^3 + 160*n^2 - 120*n + 36)/6.",
+  "id": "A181342",
+  "mentions": [
+    "A175898",
+    "A181343"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

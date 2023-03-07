@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers n such that a^v + b^v + c^v + ... is prime, where a*b*c* ... is the prime factorization of n and v is the number of primes dividing n (counted with repetition).",
+  "id": "A108315",
+  "mentions": [
+    "A001222",
+    "A082813"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

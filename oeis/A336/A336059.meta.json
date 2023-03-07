@@ -1,0 +1,23 @@
+{
+  "description": "Numbers p such that p, 2p-1, 3p-2, 4p-3 are primes.",
+  "id": "A336059",
+  "mentions": [
+    "A005382",
+    "A057326",
+    "A067257",
+    "A237189",
+    "A336060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

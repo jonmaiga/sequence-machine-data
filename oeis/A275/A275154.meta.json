@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer which can be represented as the sum of distinct positive cubes in exactly n ways, or 0 if no such integer exists.",
+  "id": "A275154",
+  "mentions": [
+    "A003997",
+    "A097563",
+    "A274046",
+    "A279329"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

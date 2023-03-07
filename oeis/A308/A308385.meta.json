@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the last square visited by fers moves on a spirally numbered (2n-1) X (2n-1) board, moving to the lowest available unvisited square at each step.",
+  "id": "A308385",
+  "mentions": [
+    "A054552",
+    "A054556",
+    "A316667",
+    "A316884"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:29",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

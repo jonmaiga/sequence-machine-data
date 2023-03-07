@@ -1,0 +1,20 @@
+{
+  "description": "Q-residue of the Delannoy triangle A008288, where Q is the triangular array (t(i,j)) given by t(i,j)=1.",
+  "id": "A193653",
+  "mentions": [
+    "A008288",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

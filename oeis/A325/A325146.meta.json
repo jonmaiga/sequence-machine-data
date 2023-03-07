@@ -1,0 +1,22 @@
+{
+  "description": "A(n, k) = Stirling2(n + k, k)*A053657(n)*k!/(n + k)!, array read by ascending antidiagonals for n >= 0 and k >= 0.",
+  "id": "A325146",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A011379",
+    "A049451",
+    "A053657",
+    "A163176"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

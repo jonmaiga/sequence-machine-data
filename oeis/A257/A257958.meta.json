@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of the Digamma function at 1/Pi, negated.",
+  "id": "A257958",
+  "mentions": [
+    "A155968",
+    "A255306",
+    "A255888",
+    "A256066",
+    "A256165",
+    "A256166",
+    "A256167",
+    "A256609",
+    "A256610",
+    "A256611",
+    "A256612",
+    "A256614",
+    "A256615",
+    "A256616",
+    "A257955",
+    "A257957",
+    "A257959"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

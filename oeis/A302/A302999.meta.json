@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{k=1..n} (Fibonacci(k+2) - 1).",
+  "id": "A302999",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A003266",
+    "A067962",
+    "A190535",
+    "A194157",
+    "A194158",
+    "A196870"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

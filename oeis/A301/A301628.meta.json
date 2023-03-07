@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not divisible by 2, 3 or 5 (A007775) with digital root 7.",
+  "id": "A301628",
+  "mentions": [
+    "A007775",
+    "A017245"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:35:17",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

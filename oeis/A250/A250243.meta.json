@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A246275(A055396(n+1), a(A078898(n+1))).",
+  "id": "A250243",
+  "mentions": [
+    "A006093",
+    "A055396",
+    "A078898",
+    "A246275",
+    "A246278",
+    "A246684",
+    "A249813",
+    "A249815",
+    "A249816",
+    "A250244",
+    "A250246"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

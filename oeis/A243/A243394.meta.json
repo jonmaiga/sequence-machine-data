@@ -1,0 +1,21 @@
+{
+  "description": "Number of isomorphism classes of connected 3-regular multigraphs with n vertices and with loops and semi-edges allowed.",
+  "id": "A243394",
+  "mentions": [
+    "A000421",
+    "A005967",
+    "A243391",
+    "A243392",
+    "A243393"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

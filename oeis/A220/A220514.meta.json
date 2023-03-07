@@ -1,0 +1,27 @@
+{
+  "description": "D-toothpick sequence of the third kind starting with a X-shaped cross formed by 4 D-toothpicks.",
+  "id": "A220514",
+  "mentions": [
+    "A139250",
+    "A194270",
+    "A194434",
+    "A194700",
+    "A220500",
+    "A220520",
+    "A220522",
+    "A220524",
+    "A221528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

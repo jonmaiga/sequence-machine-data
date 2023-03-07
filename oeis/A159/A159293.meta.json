@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest prime congruent to 1 mod A051426(n).",
+  "id": "A159293",
+  "mentions": [
+    "A051426"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

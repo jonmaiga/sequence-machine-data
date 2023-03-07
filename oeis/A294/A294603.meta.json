@@ -1,0 +1,19 @@
+{
+  "description": "Number of words of semilength n over n-ary alphabet, either empty or beginning with the first letter of the alphabet, such that the index set of occurring letters is an integer interval [1, k], that can be built by repeatedly inserting doublets into the initially empty word.",
+  "id": "A294603",
+  "mentions": [
+    "A256116",
+    "A258498"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

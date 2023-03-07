@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = -3 * Sum_{k=1..n} binomial(2*n-1,2*k-1) * a(n-k).",
+  "id": "A352278",
+  "mentions": [
+    "A080527",
+    "A210676",
+    "A260884",
+    "A352277"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

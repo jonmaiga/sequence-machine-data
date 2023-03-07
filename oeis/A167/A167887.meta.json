@@ -1,0 +1,19 @@
+{
+  "description": "n-th single or isolated number plus n-th non-single or nonisolated number.",
+  "id": "A167887",
+  "mentions": [
+    "A167706",
+    "A167707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^41 = 2 has a solution mod p, and p is congruent to 1 mod 41.",
+  "id": "A190758",
+  "mentions": [
+    "A049573",
+    "A059236",
+    "A142199"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

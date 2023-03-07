@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1 and, for all n >= 1, if a(n) = 0 then a(2*n) = 1 and a(2*n+1) = 0 whereas if a(n) = 1 then a(2*n) = 0 and a(2*n+1) = 0.",
+  "id": "A217586",
+  "mentions": [
+    "A030300",
+    "A036987",
+    "A096268",
+    "A171945",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

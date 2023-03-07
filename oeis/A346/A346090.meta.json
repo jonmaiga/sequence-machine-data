@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and A346098(k) are relatively prime; positions of ones in A346099, positions of zeros in A346100.",
+  "id": "A346090",
+  "mentions": [
+    "A346098",
+    "A346099",
+    "A346100"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

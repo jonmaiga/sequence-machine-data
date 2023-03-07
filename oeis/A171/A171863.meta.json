@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that take a record number of steps to appear in A181391.",
+  "id": "A171863",
+  "mentions": [
+    "A171862",
+    "A171864",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

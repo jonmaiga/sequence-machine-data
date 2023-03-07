@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2n-length words w over an n-ary alphabet {a1, a2, ..., an} such that #(w,a1) >= #(w,a2) >= ... >= #(w,an) >= 1, where #(w,x) counts the letters x in word w.",
+  "id": "A318796",
+  "mentions": [
+    "A226874"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

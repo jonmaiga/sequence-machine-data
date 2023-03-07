@@ -1,0 +1,19 @@
+{
+  "description": "Numbers all of whose base 11 digits are even.",
+  "id": "A212495",
+  "mentions": [
+    "A033036"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

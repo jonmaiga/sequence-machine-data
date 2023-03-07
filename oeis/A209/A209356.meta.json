@@ -1,0 +1,17 @@
+{
+  "description": "The function g(n), the inverse of f(k) the shortest length of a binary linear intersecting code.",
+  "id": "A209356",
+  "mentions": [
+    "A209334"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

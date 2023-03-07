@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^(-149).",
+  "id": "A307769",
+  "mentions": [
+    "A321219"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": -44,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

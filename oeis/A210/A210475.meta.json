@@ -1,0 +1,21 @@
+{
+  "description": "Let p_(4,1)(m) be the m-th prime == 1 (mod 4). Then a(n) is the smallest p_(4,1)(m) such that the interval(p_(4,1)(m)*n, p_(4,1)(m+1)*n) contains exactly one prime == 1 (mod 4).",
+  "id": "A210475",
+  "mentions": [
+    "A023200",
+    "A195325",
+    "A207820",
+    "A210465",
+    "A210467"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

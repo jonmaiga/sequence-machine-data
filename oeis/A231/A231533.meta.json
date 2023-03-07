@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the negative imaginary part of Sum_{n=0..inf}(1/c_n), c_0=1, c_n=c_(n-1)*(n+I).",
+  "id": "A231533",
+  "mentions": [
+    "A231530",
+    "A231531",
+    "A231532",
+    "A231534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

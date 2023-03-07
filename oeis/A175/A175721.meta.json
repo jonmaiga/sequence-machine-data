@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n,m) read by antidiagonals: the coefficient of [x^m] of 1/(-x^n + 1 - x^(1+n) + x + 3*x^(2+n) - 2*x^2 - x^(3+n)) in row n, column 1 <= m.",
+  "id": "A175721",
+  "mentions": [
+    "A000045",
+    "A077899",
+    "A077925",
+    "A175722"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

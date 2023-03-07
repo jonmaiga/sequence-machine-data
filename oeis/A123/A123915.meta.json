@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary words whose (unique) decreasing Lyndon decomposition is into Lyndon words each with an even number of 1's; EULER transform of A051841.",
+  "id": "A123915",
+  "mentions": [
+    "A051841"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

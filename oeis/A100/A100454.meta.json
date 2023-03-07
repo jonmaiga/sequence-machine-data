@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sum of n-th column in array in A100452.",
+  "id": "A100454",
+  "mentions": [
+    "A100452"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

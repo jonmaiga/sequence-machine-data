@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of terms in row n of A214850.",
+  "id": "A224504",
+  "mentions": [
+    "A075680",
+    "A075684",
+    "A214850"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

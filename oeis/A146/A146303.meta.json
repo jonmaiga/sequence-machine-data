@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct ways to place queens (even fewer than n) on an n X n chessboard so that no queen is attacking another and that it is not possible to add another queen.",
+  "id": "A146303",
+  "mentions": [
+    "A000170",
+    "A146304"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

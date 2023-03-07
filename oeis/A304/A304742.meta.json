@@ -1,0 +1,20 @@
+{
+  "description": "Restricted growth sequence transform of A246277(A280866(n)).",
+  "id": "A304742",
+  "mentions": [
+    "A064989",
+    "A246277",
+    "A280866",
+    "A304743"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

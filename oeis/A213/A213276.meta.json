@@ -1,0 +1,43 @@
+{
+  "description": "Number A(n,k) of n-length words w over a k-ary alphabet such that for every prefix z of w we have #(z,a_i) = 0 or #(z,a_i) >= #(z,a_j) for all j>i and #(z,a_i) counts the occurrences of the i-th letter in z; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A213276",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000290",
+    "A001477",
+    "A081435",
+    "A182172",
+    "A213275",
+    "A213283",
+    "A213284",
+    "A213285",
+    "A213286",
+    "A213287",
+    "A213288",
+    "A213289",
+    "A213290",
+    "A213291",
+    "A213292",
+    "A213293",
+    "A213294",
+    "A213295",
+    "A213296",
+    "A213297",
+    "A213298",
+    "A257783",
+    "A321704"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

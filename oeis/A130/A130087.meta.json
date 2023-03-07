@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of product{k=1 to n} k^mu(k), where mu is the Moebius function A008683.",
+  "id": "A130087",
+  "mentions": [
+    "A008683",
+    "A130086",
+    "A130088",
+    "A130089"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

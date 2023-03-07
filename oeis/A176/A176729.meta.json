@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of z-sequence for Sheffer triangle A060081.",
+  "id": "A176729",
+  "mentions": [
+    "A060081",
+    "A176726",
+    "A176727",
+    "A176728"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

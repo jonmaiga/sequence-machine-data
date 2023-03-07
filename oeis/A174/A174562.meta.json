@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=2, a(2)=3, then a(n)=a(n-1)+a(n-2) if n odd, a(n)=a(n-1)-a(n-2) if n even.",
+  "id": "A174562",
+  "mentions": [
+    "A001060",
+    "A013655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

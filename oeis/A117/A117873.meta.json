@@ -1,0 +1,19 @@
+{
+  "description": "Primes for which the level as defined in A117563 is 3.",
+  "id": "A117873",
+  "mentions": [
+    "A117078",
+    "A117563",
+    "A118534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

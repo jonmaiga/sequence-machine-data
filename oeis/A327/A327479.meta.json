@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the minimum number of squares of unit area that must be removed from an n X n square to obtain a connected figure without holes and of the longest perimeter.",
+  "id": "A327479",
+  "mentions": [
+    "A000290",
+    "A005843",
+    "A309038",
+    "A326118",
+    "A327480"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:11",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

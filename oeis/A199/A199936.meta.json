@@ -1,0 +1,23 @@
+{
+  "description": "Total sum of Fibonacci parts in all partitions of n.",
+  "id": "A199936",
+  "mentions": [
+    "A000045",
+    "A066186",
+    "A073118",
+    "A144115",
+    "A194544",
+    "A194545"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct grids after n moves in the 5D version of Morpion Solitaire.",
+  "id": "A204107",
+  "mentions": [
+    "A204108",
+    "A204109",
+    "A204110"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of n that are less than 10.",
+  "id": "A242627",
+  "mentions": [
+    "A165412",
+    "A202022",
+    "A242614",
+    "A242622"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

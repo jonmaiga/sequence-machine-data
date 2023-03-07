@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonisomorphic disconnected mappings (or mapping patterns) from n points to themselves; number of disconnected endofunctions.",
+  "id": "A127912",
+  "mentions": [
+    "A000081",
+    "A000273",
+    "A001372",
+    "A002861",
+    "A003027",
+    "A003085",
+    "A062738",
+    "A116950",
+    "A126285",
+    "A127909",
+    "A127915"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

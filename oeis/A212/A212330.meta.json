@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of x^5*(1 - x)^2*(4 - 14*x + 8*x^2 + 11*x^3 - 6*x^4 - 2*x^5 + 2*x^6 + 5*x^7 - 2*x^8 + x^9)/(1 - 2*x)^4.",
+  "id": "A212330",
+  "mentions": [
+    "A192886"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

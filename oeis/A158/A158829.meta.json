@@ -1,0 +1,21 @@
+{
+  "description": "Antidiagonal sums of square array A158825, in which row n lists the coefficients of the n-th iteration of x*C(x), where C(x) is the Catalan function (A000108).",
+  "id": "A158829",
+  "mentions": [
+    "A000108",
+    "A158825",
+    "A158826",
+    "A158827",
+    "A158828"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

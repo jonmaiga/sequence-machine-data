@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(p^e) = (p + 4)^e.",
+  "id": "A359530",
+  "mentions": [
+    "A000027",
+    "A003958",
+    "A003959",
+    "A166586",
+    "A166589",
+    "A166590",
+    "A166591"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of heptagons that can be formed with perimeter n.",
+  "id": "A288253",
+  "mentions": [
+    "A005044",
+    "A026813",
+    "A062890",
+    "A069906",
+    "A069907",
+    "A288254",
+    "A288255",
+    "A288256",
+    "A288341"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:45:25",
+    "offset": 7,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is denominator of y(n), where y(n+1) = (25*n^2-1)/48 * y(n) + (1/2)*Sum_{k=1..n}y(k)*y(n+1-k), with y(0) = -1.",
+  "id": "A269419",
+  "mentions": [
+    "A266240",
+    "A269418"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

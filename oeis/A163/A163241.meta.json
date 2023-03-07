@@ -1,0 +1,25 @@
+{
+  "description": "Simple self-inverse permutation: Write n in base 4, then replace each digit '2' with '3' and vice versa, then convert back to decimal.",
+  "id": "A163241",
+  "mentions": [
+    "A000695",
+    "A003987",
+    "A007090",
+    "A048647",
+    "A059905",
+    "A059906"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:35",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

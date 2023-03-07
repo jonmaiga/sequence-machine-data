@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. For n >= 2, if A025474(n) is the exponent of the n-th prime-power (1 is considered the first prime-power here), then a(n) = the A025474(n)th integer from among those positive integers not yet in the sequence.",
+  "id": "A175107",
+  "mentions": [
+    "A025474"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

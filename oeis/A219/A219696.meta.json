@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the trajectory of 3k + 1 under the '3x + 1' map reaches k.",
+  "id": "A219696",
+  "mentions": [
+    "A006370",
+    "A014682",
+    "A070165",
+    "A070991"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

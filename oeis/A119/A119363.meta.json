@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,3k)^2.",
+  "id": "A119363",
+  "mentions": [
+    "A024493",
+    "A119335",
+    "A119358",
+    "A119364",
+    "A119365",
+    "A139468",
+    "A139469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

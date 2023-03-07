@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 11 then the least number of concatenation of n that gives prime when placed on the most significant side of the previous concatenation.",
+  "id": "A110767",
+  "mentions": [
+    "A088061"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

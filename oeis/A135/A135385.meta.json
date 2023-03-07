@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of the map m -> powertrain(m) (see A133500 for definition).",
+  "id": "A135385",
+  "mentions": [
+    "A133500",
+    "A195264",
+    "A290447"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

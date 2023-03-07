@@ -1,0 +1,19 @@
+{
+  "description": "Number of blocks in a Steiner system S(2, 4, A228137(n+1)).",
+  "id": "A228138",
+  "mentions": [
+    "A228137"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:15",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

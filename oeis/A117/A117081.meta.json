@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 36*n^2 - 810*n + 2753, producing the conjectured record number of 45 primes in a contiguous range of n for quadratic polynomials, i.e., abs(a(n)) is prime for 0 <= n < 44.",
+  "id": "A117081",
+  "mentions": [
+    "A005846",
+    "A050267",
+    "A050268",
+    "A267252"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:25",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

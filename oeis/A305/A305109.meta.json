@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. A(x,y) satisfies: [x^n] exp( n * x*A(x,y) ) * (n + y - A(x,y)) = 0 for n > 0.",
+  "id": "A305109",
+  "mentions": [
+    "A305110",
+    "A305111",
+    "A305112",
+    "A305113"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

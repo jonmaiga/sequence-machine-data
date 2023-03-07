@@ -1,0 +1,24 @@
+{
+  "description": "The partition function G(n,6).",
+  "id": "A148092",
+  "mentions": [
+    "A000012",
+    "A000085",
+    "A001680",
+    "A001681",
+    "A110038",
+    "A229223",
+    "A276926"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

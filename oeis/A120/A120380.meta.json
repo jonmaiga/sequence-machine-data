@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n*(n+1).",
+  "id": "A120380",
+  "mentions": [
+    "A002378",
+    "A003107"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

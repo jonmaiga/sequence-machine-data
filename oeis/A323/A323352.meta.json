@@ -1,0 +1,22 @@
+{
+  "description": "Number of tilings of an 8 X n rectangle using 2*n copies of the disconnected shape [oo oo].",
+  "id": "A323352",
+  "mentions": [
+    "A320437",
+    "A322473",
+    "A323423",
+    "A323483"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

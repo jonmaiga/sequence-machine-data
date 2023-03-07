@@ -1,0 +1,21 @@
+{
+  "description": "Permutations of lengths 1,2,3,... arranged lexicographically that are relatively prime to 30.",
+  "id": "A181073",
+  "mentions": [
+    "A030298",
+    "A030299"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Series expansion of the reciprocal of the Goellnitz-Gordon continued fraction.",
+  "id": "A111374",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003823",
+    "A010054",
+    "A010815",
+    "A083365",
+    "A092869",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:47:39",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

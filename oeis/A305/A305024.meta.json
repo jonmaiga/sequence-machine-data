@@ -1,0 +1,20 @@
+{
+  "description": "Minimal number of squares, not all equal to 1, having as sum prime(n), such that their squares also sum to a prime; 0 if no such decomposition exists.",
+  "id": "A305024",
+  "mentions": [
+    "A126769",
+    "A128292",
+    "A133388"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

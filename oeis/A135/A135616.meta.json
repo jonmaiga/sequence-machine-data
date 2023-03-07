@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of {1,2,...,n} such that p(x) is a polynomial in x, modulo n, of degree at most 2, for x=1,2,3,...,n.",
+  "id": "A135616",
+  "mentions": [
+    "A002618"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

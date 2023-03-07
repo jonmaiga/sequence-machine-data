@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = prime(n-2) - ceiling(a(n-2)/2); a(1)=0, a(2)=1.",
+  "id": "A337723",
+  "mentions": [
+    "A000040",
+    "A337724"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

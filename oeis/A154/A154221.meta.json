@@ -1,0 +1,23 @@
+{
+  "description": "A simple Pascal-like triangle.",
+  "id": "A154221",
+  "mentions": [
+    "A094373",
+    "A123166",
+    "A154222",
+    "A154223"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:18:23",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

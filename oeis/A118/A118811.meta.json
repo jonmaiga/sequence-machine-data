@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of arc length of the (first) butterfly curve.",
+  "id": "A118811",
+  "mentions": [
+    "A118292"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

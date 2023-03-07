@@ -1,0 +1,21 @@
+{
+  "description": "Start with an empty stack S; for n = 1, 2, 3, ..., interpret the binary representation of n from left to right as follows: in case of bit 1, push the number 1 on top of S, in case of bit 0, replace the two numbers on top of S, say u on top of v, with v-u; a(n) gives the number on top of S after processing n.",
+  "id": "A330262",
+  "mentions": [
+    "A268289",
+    "A308551",
+    "A330261",
+    "A330265"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

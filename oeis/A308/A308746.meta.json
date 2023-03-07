@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, and for n > 1, a(n) is the greatest k > 0 such that (a(1), ..., a(n-1)) can be split into k chunks of contiguous terms and those chunks have the same sum.",
+  "id": "A308746",
+  "mentions": [
+    "A095258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

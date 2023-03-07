@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nondecreasing Dyck prefixes (i.e., left factors of nondecreasing Dyck paths) of length n and final height k (0 <= k <= n).",
+  "id": "A322378",
+  "mentions": [
+    "A001519",
+    "A061667",
+    "A322325",
+    "A322329"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:57",
+    "offset": 0,
+    "size": 136,
+    "source": "joeis"
+  }
+}

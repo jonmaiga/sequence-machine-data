@@ -1,0 +1,23 @@
+{
+  "description": "Real part of Q^n, Q being the quaternion 2+i+j+k.",
+  "id": "A213421",
+  "mentions": [
+    "A087455",
+    "A088138",
+    "A128018",
+    "A146559",
+    "A168175"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

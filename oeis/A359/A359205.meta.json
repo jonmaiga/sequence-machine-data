@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have at least two non-overlapping pairs of consecutive ones in their binary representation.",
+  "id": "A359205",
+  "mentions": [
+    "A003714"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

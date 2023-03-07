@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of {1,..,n} such that no two adjacent parts are of equal size (labeled Carlitz compositions), allowing parts to be of size 0.",
+  "id": "A114903",
+  "mentions": [
+    "A114900",
+    "A114902"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

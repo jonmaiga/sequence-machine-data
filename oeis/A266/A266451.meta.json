@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes that are the sum of six consecutive semiprimes.",
+  "id": "A266451",
+  "mentions": [
+    "A001358",
+    "A092192",
+    "A131610",
+    "A158339",
+    "A254712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

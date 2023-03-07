@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in the greedy Lucas-and-Fibonacci representations of 1,2,...,n; partial sums of A214973.",
+  "id": "A214981",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A179180",
+    "A214973",
+    "A214977",
+    "A214979",
+    "A214980"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

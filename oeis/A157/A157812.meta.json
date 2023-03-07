@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Euler(n,5).",
+  "id": "A157812",
+  "mentions": [
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

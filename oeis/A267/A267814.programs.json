@@ -1,0 +1,322 @@
+{
+  "oi": 267814,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "char[floor(sqrt(n)+n)]",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sqrt",
+        "n",
+        "+",
+        "floor",
+        "char"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "xor(1, Δ[round(sqrt(n+1))])",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "xor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "log2(L(Δ[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "L",
+        "log2"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(cos(Δ[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "cos",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(acos(Δ[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "acos",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(acot(Δ[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "acot",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(ratio[acot(round(sqrt(n+1)))])",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "acot",
+        "ratio",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "sin(acos(Δ[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "acos",
+        "sin"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "cos(asin(Δ[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "Δ",
+        "asin",
+        "cos"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "ceil(ratio[round(sqrt(n+1))])%2",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "2",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "and(1, ceil(ratio[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "and"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "μ(nonprime(ceil(ratio[round(sqrt(n+1))])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "nonprime",
+        "μ"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "1-char[lcm(n, n+1)-1]",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "n",
+        "1",
+        "+",
+        "lcm",
+        "1",
+        "sub",
+        "char",
+        "sub"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "dr(1-char[(n+1)²+n])",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "²",
+        "n",
+        "+",
+        "char",
+        "sub",
+        "dr"
+      ]
+    },
+    {
+      "d": "2022-04-29",
+      "ix": "xor(1, char[(n+1)²+n])²",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "²",
+        "n",
+        "+",
+        "char",
+        "xor",
+        "²"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "2-ceil(ratio[round(sqrt(n+1))])!",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "!",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "2-dr(ceil(ratio[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "dr",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "3-p(ceil(ratio[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "3",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "p",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "2-d(ceil(ratio[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "d",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-10-04",
+      "ix": "1-Ω(ceil(ratio[round(sqrt(n+1))]))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "ratio",
+        "ceil",
+        "Ω",
+        "sub"
+      ]
+    }
+  ]
+}

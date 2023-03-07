@@ -1,0 +1,23 @@
+{
+  "description": "Q-toothpick sequence with Q-toothpicks of radius 1 and 2 (see Comments for precise definition).",
+  "id": "A282470",
+  "mentions": [
+    "A139250",
+    "A187210",
+    "A187211",
+    "A187212",
+    "A267694",
+    "A267698",
+    "A282471"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

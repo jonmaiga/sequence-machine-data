@@ -1,0 +1,19 @@
+{
+  "description": "Number of nodes in row n of the power tree A114622.",
+  "id": "A114623",
+  "mentions": [
+    "A114622",
+    "A114624",
+    "A114625"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

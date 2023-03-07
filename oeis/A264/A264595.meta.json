@@ -1,0 +1,25 @@
+{
+  "description": "Let G[1](q) denote the g.f. for A003114 and G[2](q) the g.f. for A003106 (the two Rogers-Ramanujan identities). For i>=3, let G[i](q) = (G[i-1](q)-G[i-2](q))/q^(i-2). Sequence gives coefficients of G[8](q).",
+  "id": "A264595",
+  "mentions": [
+    "A001622",
+    "A003106",
+    "A003114",
+    "A006141",
+    "A264591",
+    "A264592",
+    "A264593",
+    "A264594"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of [n] such that the maximal absolute difference between the least elements of consecutive blocks equals ten.",
+  "id": "A322883",
+  "mentions": [
+    "A287215",
+    "A287259",
+    "A287260"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 10,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

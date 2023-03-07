@@ -1,0 +1,23 @@
+{
+  "description": "Sierpinski-type iteration: start with a(0)=1, at each step, replace 0 with 000 and 1 with 101.",
+  "id": "A292686",
+  "mentions": [
+    "A047999",
+    "A070886",
+    "A071029",
+    "A088917",
+    "A153490",
+    "A292687"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

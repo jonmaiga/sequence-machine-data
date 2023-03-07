@@ -1,0 +1,27 @@
+{
+  "description": "Smallest side of integer-sided primitive triangles whose angles satisfy A < B < C = 2*Pi/3.",
+  "id": "A357275",
+  "mentions": [
+    "A002324",
+    "A050931",
+    "A088514",
+    "A106505",
+    "A229849",
+    "A229858",
+    "A357274",
+    "A357276",
+    "A357277",
+    "A357278"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

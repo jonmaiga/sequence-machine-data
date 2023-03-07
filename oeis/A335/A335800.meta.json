@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of regions formed by n-secting the angles of a decagon.",
+  "id": "A335800",
+  "mentions": [
+    "A333139",
+    "A335801",
+    "A335802",
+    "A335803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Cotesian number C(n,2).",
+  "id": "A100646",
+  "mentions": [
+    "A002176",
+    "A002179",
+    "A100640",
+    "A100641",
+    "A100645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

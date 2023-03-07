@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2^A000668(n) - 1.",
+  "id": "A277634",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000668",
+    "A077586",
+    "A103901",
+    "A263686",
+    "A276641"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

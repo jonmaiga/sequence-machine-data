@@ -1,0 +1,30 @@
+{
+  "description": "Table read by antidiagonals where A(n,k) is the number of n X k aperiodic binary toroidal necklaces.",
+  "id": "A323861",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A001037",
+    "A027375",
+    "A059966",
+    "A179043",
+    "A184271",
+    "A323859",
+    "A323860",
+    "A323865",
+    "A323866",
+    "A323871",
+    "A323872"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

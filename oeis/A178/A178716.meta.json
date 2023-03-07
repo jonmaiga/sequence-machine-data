@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest prime whose sum of digits is A001651(n).",
+  "id": "A178716",
+  "mentions": [
+    "A001651",
+    "A061105"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

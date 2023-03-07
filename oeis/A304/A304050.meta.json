@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for one of the inner vertices introduced in the first inflation-deflation step in a Half-Hex tiling.",
+  "id": "A304050",
+  "mentions": [
+    "A304075",
+    "A304076",
+    "A304077"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

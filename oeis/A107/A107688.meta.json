@@ -1,0 +1,17 @@
+{
+  "description": "A107686(n+1) - A107686(n).",
+  "id": "A107688",
+  "mentions": [
+    "A107686"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

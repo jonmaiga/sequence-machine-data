@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of Sum_{k=1..n} (-1)^(k+1)/k^4.",
+  "id": "A120296",
+  "mentions": [
+    "A007406",
+    "A007410",
+    "A013662",
+    "A119682",
+    "A267315",
+    "A334585"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:38",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

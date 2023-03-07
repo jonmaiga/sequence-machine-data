@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X 5 0..1 arrays with rows unimodal and columns nondecreasing.",
+  "id": "A225007",
+  "mentions": [
+    "A000384",
+    "A225010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:07",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

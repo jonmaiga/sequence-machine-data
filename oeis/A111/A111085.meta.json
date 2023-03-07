@@ -1,0 +1,19 @@
+{
+  "description": "Number of semi-magic 3-dimensional hypercubes with 27 entries and magic sum n.",
+  "id": "A111085",
+  "mentions": [
+    "A070302",
+    "A093199"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:47",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

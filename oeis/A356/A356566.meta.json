@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. ( Product_{k>0} (1+x^k)^k )^x.",
+  "id": "A356566",
+  "mentions": [
+    "A007113",
+    "A078306",
+    "A356394",
+    "A356564",
+    "A356565"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

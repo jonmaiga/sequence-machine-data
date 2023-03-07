@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 2, a(n) = Sum_{k=2..n} prevpower2(k) + nextpower2(k) - 2*k, where prevpower2(k) is the largest power of 2 < k, nextpower2(k) is the smallest power of 2 > k.",
+  "id": "A333906",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A062050",
+    "A080079"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

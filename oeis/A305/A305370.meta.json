@@ -1,0 +1,20 @@
+{
+  "description": "Index of 2^n in A109812.",
+  "id": "A305370",
+  "mentions": [
+    "A109812",
+    "A113233"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

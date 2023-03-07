@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of writing n as a sum of powers of 7, each power being used at most seven times.",
+  "id": "A303825",
+  "mentions": [
+    "A054390",
+    "A277872",
+    "A277873",
+    "A303824"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X5 0..5 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements",
+  "id": "A203930",
+  "mentions": [
+    "A203934"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

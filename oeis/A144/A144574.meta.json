@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime < nonprime(prime(n)).",
+  "id": "A144574",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A078782"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that binomial(k^2,k) - k^2 is squarefree.",
+  "id": "A309290",
+  "mentions": [
+    "A308078",
+    "A309289"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

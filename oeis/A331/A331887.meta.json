@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct parts having a common factor > 1 with n.",
+  "id": "A331887",
+  "mentions": [
+    "A036998",
+    "A121998",
+    "A175787",
+    "A303280",
+    "A331885",
+    "A331888"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

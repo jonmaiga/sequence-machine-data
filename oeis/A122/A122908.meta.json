@@ -1,0 +1,22 @@
+{
+  "description": "A central binomial scaling of the Riordan array (1+x,x) (A097806).",
+  "id": "A122908",
+  "mentions": [
+    "A001045",
+    "A050168",
+    "A097806"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers of the form A242489(n) - 3.",
+  "id": "A242716",
+  "mentions": [
+    "A242489",
+    "A242490",
+    "A242770"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

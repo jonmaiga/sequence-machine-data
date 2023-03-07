@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative numbers whose digits can be formed by typing adjacent keys on a 123-456-789-X0X keypad without repeating a digit.",
+  "id": "A280594",
+  "mentions": [
+    "A010784",
+    "A280593",
+    "A280595"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

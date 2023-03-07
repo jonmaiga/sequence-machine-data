@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that mean of 7 consecutive squares starting with n^2 is prime.",
+  "id": "A129412",
+  "mentions": [
+    "A005473",
+    "A007591",
+    "A056899",
+    "A067201",
+    "A098062",
+    "A129389"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

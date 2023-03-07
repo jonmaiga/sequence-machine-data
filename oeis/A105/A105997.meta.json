@@ -1,0 +1,23 @@
+{
+  "description": "Semiprime function n -> A001358(n) applied three times to n.",
+  "id": "A105997",
+  "mentions": [
+    "A001358",
+    "A007097",
+    "A091022",
+    "A105998",
+    "A105999"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 + q(k)*x^k), where q(k) = number of partitions of k into distinct parts (A000009).",
+  "id": "A316231",
+  "mentions": [
+    "A000009",
+    "A089254",
+    "A270995",
+    "A279785",
+    "A304786",
+    "A316230"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:28:53",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

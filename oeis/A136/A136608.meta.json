@@ -1,0 +1,22 @@
+{
+  "description": "(1/576)*number of ways to express n as the determinant of a 4 X 4 matrix with elements 1...16.",
+  "id": "A136608",
+  "mentions": [
+    "A085000",
+    "A088215",
+    "A088216",
+    "A088237",
+    "A136609"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime and squarefree Löschian numbers (A003136).",
+  "id": "A270667",
+  "mentions": [
+    "A003136",
+    "A005117",
+    "A034021"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

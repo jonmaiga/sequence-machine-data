@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that A000041(p)+p are also prime numbers.",
+  "id": "A163151",
+  "mentions": [
+    "A000041",
+    "A098145",
+    "A163150"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

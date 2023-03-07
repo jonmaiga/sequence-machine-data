@@ -1,0 +1,25 @@
+{
+  "description": "Square numbers k that are abelian orders.",
+  "id": "A350343",
+  "mentions": [
+    "A003277",
+    "A051532",
+    "A350152",
+    "A350322",
+    "A350323",
+    "A350341",
+    "A350342",
+    "A350345"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

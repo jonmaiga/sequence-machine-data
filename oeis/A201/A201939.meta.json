@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of x>0 satisfying x*cosh(x)=2.",
+  "id": "A201939",
+  "mentions": [
+    "A069814",
+    "A201943",
+    "A201944",
+    "A201945",
+    "A201946",
+    "A202283"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

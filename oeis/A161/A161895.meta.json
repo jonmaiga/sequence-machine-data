@@ -1,0 +1,21 @@
+{
+  "description": "Write down binary n as a string of 0's and 1's. Consider the runs of 1's (bounded by 0's or by the edge of the string) alternating with the runs of 0's (bounded by 1's or by the edge of the string) in the string. Then, a(n) = the number of positive binary integers that contain the same lengths of runs of 1's as of the runs of 1's in binary n, and contain the same lengths of runs of 0's as of the runs of 0's in binary n.",
+  "id": "A161895",
+  "mentions": [
+    "A161819",
+    "A161820",
+    "A161821",
+    "A161822"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

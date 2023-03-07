@@ -1,0 +1,21 @@
+{
+  "description": "Values of n at which the sequence A161865/A161867 equals 1/2.",
+  "id": "A163161",
+  "mentions": [
+    "A144264",
+    "A161621",
+    "A161622",
+    "A161865",
+    "A161867"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

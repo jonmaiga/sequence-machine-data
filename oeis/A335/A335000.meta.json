@@ -1,0 +1,21 @@
+{
+  "description": "Orders of the groups PSL(m,q) in increasing order as q runs through the prime powers (with repetitions).",
+  "id": "A335000",
+  "mentions": [
+    "A002884",
+    "A117762",
+    "A334884",
+    "A334994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Odd central polygonal numbers.",
+  "id": "A193867",
+  "mentions": [
+    "A000124",
+    "A014494",
+    "A014601",
+    "A185438",
+    "A188135",
+    "A193868"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:07",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

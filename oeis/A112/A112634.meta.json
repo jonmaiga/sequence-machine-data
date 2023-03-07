@@ -1,0 +1,20 @@
+{
+  "description": "Mersenne prime indices that are not Gaussian primes.",
+  "id": "A112634",
+  "mentions": [
+    "A000043",
+    "A002313",
+    "A112633"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

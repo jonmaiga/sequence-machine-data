@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) read by rows: column k lists a periodic sequence with period 2*k, repeated: S, where S is a sequence formed by 2*k-1 1's together with a zero, starting in row A056220(k), n >=1, k >= 1.",
+  "id": "A229940",
+  "mentions": [
+    "A000005",
+    "A056220",
+    "A059841",
+    "A097325",
+    "A139250",
+    "A166486",
+    "A229942",
+    "A229950",
+    "A229951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

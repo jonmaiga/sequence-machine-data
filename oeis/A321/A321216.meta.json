@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of C[12] coefficient in 1/N expansion of the lowest Laplacian Dirichlet eigenvalue of the Pi-area, N-sided regular polygon.",
+  "id": "A321216",
+  "mentions": [
+    "A002117",
+    "A013663",
+    "A115368",
+    "A244355",
+    "A321215"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 5,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

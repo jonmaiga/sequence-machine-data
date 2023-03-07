@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of a set of n consecutive numbers having at least one prime gap in their factorization: a(n) = smallest number of this set.",
+  "id": "A137723",
+  "mentions": [
+    "A073490",
+    "A073492"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

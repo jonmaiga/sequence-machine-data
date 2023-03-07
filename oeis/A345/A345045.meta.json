@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A047994(n) / A345044(n), where A047994(n) is multiplicative with a(p^e) = p^e - 1, and A345044(n) gives the least common multiple of the same factors.",
+  "id": "A345045",
+  "mentions": [
+    "A047994",
+    "A344879",
+    "A345044",
+    "A345047"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

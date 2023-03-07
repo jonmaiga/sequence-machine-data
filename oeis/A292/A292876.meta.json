@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table whose n-th row lists all k such that A039654(k) = prime(n).",
+  "id": "A292876",
+  "mentions": [
+    "A000720",
+    "A039653",
+    "A039654",
+    "A177343",
+    "A292112",
+    "A292113",
+    "A292874"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

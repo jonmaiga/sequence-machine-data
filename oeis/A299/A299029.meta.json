@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: Independent domination number for rectangular queens graph Q(n,m), 1 <= n <= m.",
+  "id": "A299029",
+  "mentions": [
+    "A075324",
+    "A274138",
+    "A279404"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

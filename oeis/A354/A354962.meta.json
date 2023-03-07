@@ -1,0 +1,17 @@
+{
+  "description": "Number of acyclic n-multidigraphs on n labeled vertices.",
+  "id": "A354962",
+  "mentions": [
+    "A339768"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

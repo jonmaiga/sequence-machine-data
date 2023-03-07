@@ -1,0 +1,17 @@
+{
+  "description": "Let {f_n(k)} be the n-th sequence of Fibonacci-like numbers defined by recursion f_n(0) = 0, f_n(1) = 1 and, for k>=2, f_n(k) = f_n(k-1) + f_n(k-2) divided by maximal possible powers of primes >= prime(n). a(n) is length of the smallest period of {f_n(k)}, and a(n)=0, if {f_n(k)} is not eventually periodic.",
+  "id": "A224523",
+  "mentions": [
+    "A078414"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

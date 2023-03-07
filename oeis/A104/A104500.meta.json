@@ -1,0 +1,20 @@
+{
+  "description": "Number of different groupings among the hierarchical orderings of n unlabeled elements.",
+  "id": "A104500",
+  "mentions": [
+    "A034691",
+    "A034899",
+    "A104460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

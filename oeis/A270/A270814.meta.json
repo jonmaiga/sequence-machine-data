@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=0; thereafter a(2k)=k+a(k), a(2k+1)=6k+4+a(6k+4).",
+  "id": "A270814",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A033493",
+    "A266569",
+    "A271473"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the distinct odd-indexed prime divisors, p_{2k-1}, of n.",
+  "id": "A344908",
+  "mentions": [
+    "A000720",
+    "A005074",
+    "A008472",
+    "A066207",
+    "A324966",
+    "A344931"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

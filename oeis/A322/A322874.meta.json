@@ -1,0 +1,20 @@
+{
+  "description": "Ordinal transform of A007431, which is Möbius transform of Euler phi.",
+  "id": "A322874",
+  "mentions": [
+    "A007431",
+    "A081373",
+    "A303756",
+    "A322873"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

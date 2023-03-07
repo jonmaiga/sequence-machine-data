@@ -1,0 +1,36 @@
+{
+  "description": "Triangle of coefficients of Chebyshev's S(n,x+4) polynomials (exponents of x in increasing order).",
+  "id": "A207823",
+  "mentions": [
+    "A000302",
+    "A001353",
+    "A004254",
+    "A008586",
+    "A049310",
+    "A053122",
+    "A078812",
+    "A084938",
+    "A101950",
+    "A104562",
+    "A123967",
+    "A124029",
+    "A125662",
+    "A139278",
+    "A159764",
+    "A207815",
+    "A207824"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:49",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

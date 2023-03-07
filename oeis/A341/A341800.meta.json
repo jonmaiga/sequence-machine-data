@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table read by rows: Take a 2 by 1 ellipse with all diagonals drawn, as in A341688. Then T(n,k) = number of k-sided polygons in the figure containing 2n vertices, for k >= 3.",
+  "id": "A341800",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A255011",
+    "A331929",
+    "A331931",
+    "A333075",
+    "A341688",
+    "A341762",
+    "A341764"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

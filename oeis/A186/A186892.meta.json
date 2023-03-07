@@ -1,0 +1,17 @@
+{
+  "description": "Nonprime numbers n such that the Stern polynomial B(n,x) is irreducible.",
+  "id": "A186892",
+  "mentions": [
+    "A186891"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

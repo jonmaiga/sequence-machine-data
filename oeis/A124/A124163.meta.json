@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 1 + n + n^3 + n^5 + n^7 + n^9 is prime.",
+  "id": "A124163",
+  "mentions": [
+    "A049407",
+    "A244376"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:02:13",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

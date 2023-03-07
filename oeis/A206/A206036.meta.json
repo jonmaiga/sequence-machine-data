@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n) = sigma(k) has solution for distinct numbers n and k.",
+  "id": "A206036",
+  "mentions": [
+    "A000203",
+    "A066074",
+    "A158913"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

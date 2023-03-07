@@ -1,0 +1,27 @@
+{
+  "description": "Resistance values R < 1 ohm, multiplied by a common denominator 232792560 (= A338600(7)), that can be obtained from a network of exactly 7 one-ohm resistors, but not from any network with fewer than 7 one-ohm resistors.",
+  "id": "A338607",
+  "mentions": [
+    "A180414",
+    "A338197",
+    "A338587",
+    "A338597",
+    "A338600",
+    "A338605",
+    "A338606",
+    "A338608",
+    "A338609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

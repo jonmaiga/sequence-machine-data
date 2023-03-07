@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of the permutation A125987/A125988.",
+  "id": "A126298",
+  "mentions": [
+    "A125985",
+    "A125987",
+    "A125988",
+    "A126299",
+    "A126300"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

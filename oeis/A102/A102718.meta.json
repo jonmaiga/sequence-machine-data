@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + (sum of the last two digits of the sequence so far); a(0)=0; a(1)=1.",
+  "id": "A102718",
+  "mentions": [
+    "A102039"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:16:37",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

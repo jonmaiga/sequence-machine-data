@@ -1,0 +1,24 @@
+{
+  "description": "The number of multinomial coefficients over partitions with value equal to 4.",
+  "id": "A230128",
+  "mentions": [
+    "A230149",
+    "A230167",
+    "A230197",
+    "A230198",
+    "A230257",
+    "A230258"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:53:43",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

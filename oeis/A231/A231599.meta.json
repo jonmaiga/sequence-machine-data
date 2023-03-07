@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k) is the coefficient of x^k in Product_{i=1..n} (1-x^i); triangle T(n,k), n >= 0, 0 <= k <= A000217(n), read by rows.",
+  "id": "A231599",
+  "mentions": [
+    "A000217",
+    "A026807",
+    "A086376",
+    "A086394",
+    "A160089",
+    "A269298"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

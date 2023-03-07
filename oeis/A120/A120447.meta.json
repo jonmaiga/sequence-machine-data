@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the multiplier of the primorial which furnishes the \"one-line proof\" for primality of prime(n) associated with A079900(n); i.e., k*(p+k) = primorial(q)*a(n), where k = A079900(n), p = prime(n) and q = sqrt(p).",
+  "id": "A120447",
+  "mentions": [
+    "A079900"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

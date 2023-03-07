@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the averages of adjacent pairs of perfect numbers (A000396).",
+  "id": "A259931",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A259849"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

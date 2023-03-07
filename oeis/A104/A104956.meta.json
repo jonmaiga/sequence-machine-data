@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the area of the regular hexagon with circumradius 1.",
+  "id": "A104956",
+  "mentions": [
+    "A002194",
+    "A090488",
+    "A102771",
+    "A104954",
+    "A104955",
+    "A104957",
+    "A120011",
+    "A178809",
+    "A178816",
+    "A178817",
+    "A256853",
+    "A256854"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

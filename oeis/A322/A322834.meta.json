@@ -1,0 +1,18 @@
+{
+  "description": "Regular triangle read by rows: T(n,k) is the k-th ionization energy of the n-th chemical element (in kJ/mol), rounded to the nearest integer.",
+  "id": "A322834",
+  "mentions": [
+    "A320506"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

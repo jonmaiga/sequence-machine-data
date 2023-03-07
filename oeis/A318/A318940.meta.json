@@ -1,0 +1,18 @@
+{
+  "description": "Primes whose binary representation contains a consecutive string of zeros of prime length.",
+  "id": "A318940",
+  "mentions": [
+    "A319302"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

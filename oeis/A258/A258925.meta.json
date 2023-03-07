@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. satisfies: A(x) = Integral 1 + A(x)^5 dx.",
+  "id": "A258925",
+  "mentions": [
+    "A258880",
+    "A258901",
+    "A258924",
+    "A258927",
+    "A258971",
+    "A259112",
+    "A259113"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

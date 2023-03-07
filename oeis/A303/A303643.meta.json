@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and phi(k) are in A292544.",
+  "id": "A303643",
+  "mentions": [
+    "A007733",
+    "A053575",
+    "A066781",
+    "A292544"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

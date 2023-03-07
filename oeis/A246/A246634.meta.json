@@ -1,0 +1,18 @@
+{
+  "description": "Number of solid standard Young tableaux of shape [[9*n,n],[n]].",
+  "id": "A246634",
+  "mentions": [
+    "A176129"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

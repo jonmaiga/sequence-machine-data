@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k is the uphi(k)-th composite number, where uphi is the unitary totient function.",
+  "id": "A300479",
+  "mentions": [
+    "A000720",
+    "A002808",
+    "A047994",
+    "A100410"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

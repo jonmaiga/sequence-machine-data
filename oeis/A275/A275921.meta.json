@@ -1,0 +1,19 @@
+{
+  "description": "Number of 5 X n Latin rectangles.",
+  "id": "A275921",
+  "mentions": [
+    "A000179",
+    "A000186",
+    "A001623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 5,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

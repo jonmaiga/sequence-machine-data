@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of two-layer networks on n channels modulo permutations.",
+  "id": "A244484",
+  "mentions": [
+    "A000085"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

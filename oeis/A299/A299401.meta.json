@@ -1,0 +1,23 @@
+{
+  "description": "Number of primitive weird numbers (PWN) of the form 2^n*p*q*r, where p,q,r are odd primes.",
+  "id": "A299401",
+  "mentions": [
+    "A002975",
+    "A005835",
+    "A258333",
+    "A258883",
+    "A273815"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

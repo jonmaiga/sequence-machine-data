@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the least positive x satisfying cos(x)=1/sqrt(1+x^2).",
+  "id": "A196502",
+  "mentions": [
+    "A196500",
+    "A196503",
+    "A196504",
+    "A196505"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that the order of the (p-1)-th Bell number B(p-1) is a power of 2 modulo p.",
+  "id": "A351688",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are a product of one or more factorials j!, j >= 2, in at least two ways.",
+  "id": "A359750",
+  "mentions": [
+    "A001013"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

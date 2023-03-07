@@ -1,0 +1,20 @@
+{
+  "description": "Sums-complement of the Beatty sequence for Pi.",
+  "id": "A276877",
+  "mentions": [
+    "A022844",
+    "A063438",
+    "A276871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

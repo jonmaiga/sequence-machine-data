@@ -1,0 +1,19 @@
+{
+  "description": "Number of forests of labeled rooted trees of height at most 1, with n labels, where each root contains a nonempty set of labels of equal size, also row sums of A143398.",
+  "id": "A143406",
+  "mentions": [
+    "A000142",
+    "A143398"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

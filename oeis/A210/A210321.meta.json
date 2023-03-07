@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-divided binary words of length n.",
+  "id": "A210321",
+  "mentions": [
+    "A210109",
+    "A210322"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

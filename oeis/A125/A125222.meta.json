@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)* [x^(n-k)] A(x)^k for n>0, with a(0)=1.",
+  "id": "A125222",
+  "mentions": [
+    "A125223",
+    "A222658"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

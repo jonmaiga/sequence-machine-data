@@ -1,0 +1,26 @@
+{
+  "description": "Positive numbers whose square starts and ends with exactly one 4.",
+  "id": "A348488",
+  "mentions": [
+    "A002276",
+    "A017317",
+    "A045858",
+    "A273375",
+    "A305719",
+    "A328886",
+    "A348487",
+    "A348489",
+    "A348490"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

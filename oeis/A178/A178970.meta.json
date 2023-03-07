@@ -1,0 +1,20 @@
+{
+  "description": "2^(2n-1) mod (2n+1).",
+  "id": "A178970",
+  "mentions": [
+    "A000079",
+    "A005408",
+    "A081294"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

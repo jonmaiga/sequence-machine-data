@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: Joffe's central differences of zero, T(n,k), 1 <= k <= n.",
+  "id": "A241171",
+  "mentions": [
+    "A000364",
+    "A000680",
+    "A002446",
+    "A002456",
+    "A019538",
+    "A036969",
+    "A094088",
+    "A100872",
+    "A156289",
+    "A213455",
+    "A241172",
+    "A278073",
+    "A281478",
+    "A327022"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

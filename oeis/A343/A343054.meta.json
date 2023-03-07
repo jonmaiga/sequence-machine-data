@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the imaginary part of i^(1/12), or sin(Pi/24).",
+  "id": "A343054",
+  "mentions": [
+    "A144982"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:07",
+    "offset": 0,
+    "size": 116,
+    "source": "joeis"
+  }
+}

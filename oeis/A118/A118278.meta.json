@@ -1,0 +1,25 @@
+{
+  "description": "Conjectured largest number that is not the sum of three n-gonal numbers, or -1 if there is no largest number.",
+  "id": "A118278",
+  "mentions": [
+    "A003679",
+    "A007536",
+    "A118279",
+    "A213523",
+    "A213524",
+    "A213525",
+    "A214419",
+    "A214420",
+    "A214421"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

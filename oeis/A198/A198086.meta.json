@@ -1,0 +1,20 @@
+{
+  "description": "Number of isomorphism classes of nanocones with 5 pentagons and a symmetric boundary of length n.",
+  "id": "A198086",
+  "mentions": [
+    "A197988",
+    "A198014",
+    "A198015",
+    "A198016"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 5,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the value of the continued fraction constructed from prime primorials minus 1.",
+  "id": "A248585",
+  "mentions": [
+    "A005234",
+    "A006794",
+    "A018239",
+    "A057705",
+    "A242072",
+    "A247856",
+    "A247858",
+    "A247860",
+    "A248584"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

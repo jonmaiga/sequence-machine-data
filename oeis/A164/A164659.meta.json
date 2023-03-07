@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of coefficients of integrated Chebyshev polynomials T(n,x) (in increasing order of powers of x).",
+  "id": "A164659",
+  "mentions": [
+    "A164658",
+    "A164660",
+    "A164661",
+    "A164663"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

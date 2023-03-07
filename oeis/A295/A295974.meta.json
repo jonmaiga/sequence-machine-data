@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-n permutations avoiding descent patterns aba and bab.",
+  "id": "A295974",
+  "mentions": [
+    "A295987",
+    "A296054"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

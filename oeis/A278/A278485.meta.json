@@ -1,0 +1,21 @@
+{
+  "description": "Positions of numbers that are one more than a prime in A276573, the infinite trunk of least squares beanstalk.",
+  "id": "A278485",
+  "mentions": [
+    "A010051",
+    "A276573",
+    "A277887",
+    "A278486",
+    "A278487"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

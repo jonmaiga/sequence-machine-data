@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array giving minimum number of reciprocal steps in the boomerang fractions process needed to return to 1 if a returning path exists, otherwise 0.",
+  "id": "A261527",
+  "mentions": [
+    "A038566",
+    "A038567",
+    "A256174"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

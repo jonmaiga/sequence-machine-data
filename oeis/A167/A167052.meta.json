@@ -1,0 +1,20 @@
+{
+  "description": "Scrabble value of the Spanish word for the number n.",
+  "id": "A167052",
+  "mentions": [
+    "A113172"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

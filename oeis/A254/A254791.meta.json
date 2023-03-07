@@ -1,0 +1,22 @@
+{
+  "description": "Nontrivial solutions to n = sigma(a) = sigma(b) (A000203) and rad(a) = rad(b) (A007947) with a != b.",
+  "id": "A254791",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A254035",
+    "A255334",
+    "A255425",
+    "A255426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

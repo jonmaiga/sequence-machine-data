@@ -1,0 +1,18 @@
+{
+  "description": "Number of down steps at start of segment n of A079051.",
+  "id": "A117248",
+  "mentions": [
+    "A079051"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

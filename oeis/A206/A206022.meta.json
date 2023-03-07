@@ -1,0 +1,27 @@
+{
+  "description": "Riordan array (1, x*exp(arcsinh(-2*x)).",
+  "id": "A206022",
+  "mentions": [
+    "A000108",
+    "A001105",
+    "A005843",
+    "A009117",
+    "A084938",
+    "A104624",
+    "A130809",
+    "A205813"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

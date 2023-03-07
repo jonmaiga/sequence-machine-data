@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (prime(j)#)^2 + prime(j)# + 1.",
+  "id": "A162454",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

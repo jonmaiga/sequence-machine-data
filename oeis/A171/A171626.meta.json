@@ -1,0 +1,22 @@
+{
+  "description": "Ceiling(n-th noncomposite/n).",
+  "id": "A171626",
+  "mentions": [
+    "A000027",
+    "A008578",
+    "A171525",
+    "A171526",
+    "A171622"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

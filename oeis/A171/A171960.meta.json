@@ -1,0 +1,23 @@
+{
+  "description": "Values of the 2-complement of n in ternary representation.",
+  "id": "A171960",
+  "mentions": [
+    "A003462",
+    "A007089",
+    "A035327",
+    "A061601",
+    "A134025",
+    "A134026"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

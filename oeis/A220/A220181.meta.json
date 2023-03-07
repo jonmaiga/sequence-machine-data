@@ -1,0 +1,27 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (1 - exp(-n*x))^n.",
+  "id": "A220181",
+  "mentions": [
+    "A048163",
+    "A092552",
+    "A122399",
+    "A136126",
+    "A187755",
+    "A203798",
+    "A220179",
+    "A320096",
+    "A338040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

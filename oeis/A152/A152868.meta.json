@@ -1,0 +1,25 @@
+{
+  "description": "Beginnings of maximal chains of primes with five members (four links).",
+  "id": "A152868",
+  "mentions": [
+    "A152658",
+    "A152735",
+    "A152865",
+    "A152866",
+    "A152867",
+    "A152869",
+    "A152962",
+    "A152963",
+    "A152964"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

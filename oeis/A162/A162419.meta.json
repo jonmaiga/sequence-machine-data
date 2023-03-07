@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n)*|A002129(n)| where sigma(n) = A000203(n).",
+  "id": "A162419",
+  "mentions": [
+    "A000203",
+    "A002117",
+    "A002129",
+    "A162420"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes that are reached by an ever increasing aliquot sequence.",
+  "id": "A234842",
+  "mentions": [
+    "A001065",
+    "A005101",
+    "A080907",
+    "A081705",
+    "A098007",
+    "A098008",
+    "A115350"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

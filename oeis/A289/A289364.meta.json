@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(x) = 12*k+2 is solvable, where phi is Euler's totient A000010.",
+  "id": "A289364",
+  "mentions": [
+    "A000010",
+    "A002202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

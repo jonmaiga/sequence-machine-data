@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of all numbers of the same parity <= n is equal to the sum of numbers of the opposite parity from n+1 to n+m, where m is odd and > 1.",
+  "id": "A134803",
+  "mentions": [
+    "A001109",
+    "A084068",
+    "A089895"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

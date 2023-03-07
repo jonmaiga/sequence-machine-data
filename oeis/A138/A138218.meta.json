@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 180k^2 + 1 is prime.",
+  "id": "A138218",
+  "mentions": [
+    "A137530"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:59",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

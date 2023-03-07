@@ -1,0 +1,18 @@
+{
+  "description": "Integers m such that 6m+1 and 6m+101 are two consecutive primes.",
+  "id": "A194430",
+  "mentions": [
+    "A050434"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

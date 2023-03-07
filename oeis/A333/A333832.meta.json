@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest array of distinct positive integers read row by row; a single row consists of integers using together exactly 10 distinct digits.",
+  "id": "A333832",
+  "mentions": [
+    "A050278",
+    "A120125"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

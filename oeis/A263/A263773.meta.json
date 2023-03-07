@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of b(-q)^2 in powers of q where b() is a cubic AGM theta function.",
+  "id": "A263773",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A134079",
+    "A226535",
+    "A252651",
+    "A262651"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:27",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

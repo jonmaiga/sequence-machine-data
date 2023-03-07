@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that A131852(m) > 0.",
+  "id": "A131862",
+  "mentions": [
+    "A131852",
+    "A131855",
+    "A131857",
+    "A131861",
+    "A131864"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

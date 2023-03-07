@@ -1,0 +1,32 @@
+{
+  "description": "Number of decimal digits of the smallest solution for the reverse-and-subtract problem for cycle length n.",
+  "id": "A215669",
+  "mentions": [
+    "A072141",
+    "A072142",
+    "A072143",
+    "A072718",
+    "A072719",
+    "A292634",
+    "A292635",
+    "A292846",
+    "A292856",
+    "A292857",
+    "A292858",
+    "A292859",
+    "A292992",
+    "A292993"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

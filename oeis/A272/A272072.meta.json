@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers n such that 10^n is not of the form x^3 + y^3 + z^3 where x > y > z > 0.",
+  "id": "A272072",
+  "mentions": [
+    "A003072",
+    "A011557",
+    "A024975",
+    "A271876"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

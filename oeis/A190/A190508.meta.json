@@ -1,0 +1,20 @@
+{
+  "description": "n+[ns/r]+[nt/r]+[nu/r]; r=golden ratio, s=r^2, t=r^3, u=r^4.",
+  "id": "A190508",
+  "mentions": [
+    "A054770",
+    "A190509",
+    "A190511"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:15",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

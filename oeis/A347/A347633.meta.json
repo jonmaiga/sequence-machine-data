@@ -1,0 +1,22 @@
+{
+  "description": "Number of minimum dominating sets in the path graph P_n.",
+  "id": "A347633",
+  "mentions": [
+    "A347538",
+    "A347558",
+    "A350815",
+    "A350816",
+    "A350820"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:31:39",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

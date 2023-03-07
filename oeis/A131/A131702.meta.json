@@ -1,0 +1,19 @@
+{
+  "description": "Distances between the locations of new prime gaps (A014320).",
+  "id": "A131702",
+  "mentions": [
+    "A001223",
+    "A005669",
+    "A014320"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

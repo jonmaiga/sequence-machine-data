@@ -1,0 +1,20 @@
+{
+  "description": "Number of coprime pairs (x,y) with x^2 + y^2 <= n.",
+  "id": "A304651",
+  "mentions": [
+    "A000089",
+    "A175341",
+    "A305117"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

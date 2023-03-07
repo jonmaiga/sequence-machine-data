@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(k,m) = dimension of shape space for k labeled points in R^m (1 <= k <= m-1, m >= 2).",
+  "id": "A133082",
+  "mentions": [
+    "A000096"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

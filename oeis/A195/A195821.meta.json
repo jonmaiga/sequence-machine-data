@@ -1,0 +1,27 @@
+{
+  "description": "Total number of parts that are not the smallest part in all partitions of n that do not contain 1 as a part.",
+  "id": "A195821",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A002865",
+    "A092269",
+    "A135010",
+    "A138121",
+    "A138135",
+    "A138137",
+    "A182984",
+    "A195820"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

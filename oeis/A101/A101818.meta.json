@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: (1/n)*T(n,h), where T(n,h) is the array in A101817.",
+  "id": "A101818",
+  "mentions": [
+    "A000169",
+    "A019538",
+    "A066524",
+    "A090657",
+    "A101817",
+    "A101819",
+    "A101820",
+    "A101821"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

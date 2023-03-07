@@ -1,0 +1,19 @@
+{
+  "description": "Number of attractors under iteration of sum of squares of digits in base n.",
+  "id": "A193586",
+  "mentions": [
+    "A193583",
+    "A193585"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers that can be written as concatenation of two nonprimes in decimal representation.",
+  "id": "A278799",
+  "mentions": [
+    "A066738",
+    "A121609"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

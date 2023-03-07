@@ -1,0 +1,19 @@
+{
+  "description": "Minimal recursive sequence beginning with 3 such that A001221(a(n)) = A001221(n).",
+  "id": "A159560",
+  "mentions": [
+    "A001221",
+    "A159559"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of array A324124.",
+  "id": "A328866",
+  "mentions": [
+    "A002685",
+    "A002686",
+    "A324124",
+    "A328884",
+    "A328885"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

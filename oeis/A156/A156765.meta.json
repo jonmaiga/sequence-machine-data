@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k, m) = f(n, m)/(f(k, m)*f(n-k, m)), where T(0, k, m) = 1, f(n, k) = Product_{j=1..n} ( j!*((k+1)^j -1)/k ), f(n, 0) = n!, and m = 1, read by rows.",
+  "id": "A156765",
+  "mentions": [
+    "A007318",
+    "A156766",
+    "A156767"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

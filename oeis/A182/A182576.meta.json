@@ -1,0 +1,24 @@
+{
+  "description": "Number of 1's in the Zeckendorf representation of n^2.",
+  "id": "A182576",
+  "mentions": [
+    "A007895",
+    "A020908",
+    "A020910",
+    "A025496",
+    "A025502",
+    "A088060",
+    "A182535",
+    "A182580"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

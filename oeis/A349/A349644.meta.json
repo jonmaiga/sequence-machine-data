@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals, n >= 2, m >= 0: T(n,m) is the smallest prime p = prime(k) such that all n-th differences of (prime(k), ..., prime(k+n+m)) are zero.",
+  "id": "A349644",
+  "mentions": [
+    "A006560",
+    "A095195",
+    "A349642",
+    "A349643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Hiccup sequence.",
+  "id": "A248624",
+  "mentions": [
+    "A001175",
+    "A248218"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of endofunctions on [n] such that no element has a preimage of cardinality one.",
+  "id": "A231797",
+  "mentions": [
+    "A206823",
+    "A241580",
+    "A241581",
+    "A245405",
+    "A245496"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

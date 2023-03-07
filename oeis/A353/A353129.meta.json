@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of sqrt(Pi) in base Pi.",
+  "id": "A353129",
+  "mentions": [
+    "A000796",
+    "A002161",
+    "A050949",
+    "A102243"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

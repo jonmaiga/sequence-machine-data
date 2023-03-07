@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as w^2 + x^2 + y^2 + z^2 with w and w + x + y + z both squares, where w,x,y,z are integers with |x| <= |y| <= |z|.",
+  "id": "A281941",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A270969",
+    "A272620",
+    "A281939"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

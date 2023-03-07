@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array read by rows: T(n,k) is the number of words of length n on alphabet {0,1,2} that have exactly k records, n>=0, 0<=k<=3.",
+  "id": "A285852",
+  "mentions": [
+    "A000007",
+    "A000244",
+    "A000392",
+    "A001550",
+    "A029858"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

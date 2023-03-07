@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} exp(n^2*(n+1)/2*x) / (1 + exp(n^2*x))^(n+1) = Sum_{n>=0} a(n) * x^(2*n) / (2*n)!.",
+  "id": "A248657",
+  "mentions": [
+    "A248656"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number with exactly n divisors that are square pyramidal numbers.",
+  "id": "A358543",
+  "mentions": [
+    "A000330",
+    "A005179",
+    "A130279",
+    "A253903",
+    "A279496",
+    "A358542",
+    "A358545"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

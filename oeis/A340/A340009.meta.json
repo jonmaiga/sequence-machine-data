@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sum of reciprocals of squares of perfect numbers.",
+  "id": "A340009",
+  "mentions": [
+    "A000396",
+    "A173898",
+    "A335118"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

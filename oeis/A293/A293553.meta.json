@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the integer k that minimizes |k/Fibonacci(n) - 1/4|.",
+  "id": "A293553",
+  "mentions": [
+    "A000045",
+    "A004697",
+    "A131132",
+    "A293552"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

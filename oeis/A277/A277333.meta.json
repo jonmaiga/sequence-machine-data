@@ -1,0 +1,27 @@
+{
+  "description": "Left inverse of A260443, giving 0 as a result when n is outside of the range of A260443.",
+  "id": "A277333",
+  "mentions": [
+    "A003961",
+    "A005811",
+    "A007949",
+    "A048675",
+    "A064989",
+    "A260442",
+    "A260443",
+    "A277316",
+    "A277317",
+    "A277324"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

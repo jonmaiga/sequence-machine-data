@@ -1,0 +1,19 @@
+{
+  "description": "Euclid numbers (A006862) of the form 3*(i*i + i*j + j*j + i + j) + 1 where i and j are integers.",
+  "id": "A261558",
+  "mentions": [
+    "A003136",
+    "A006862",
+    "A202822"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of totient abundant numbers <= 10^n.",
+  "id": "A286266",
+  "mentions": [
+    "A000010",
+    "A082897",
+    "A092693",
+    "A286265"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

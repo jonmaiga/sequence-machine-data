@@ -1,0 +1,23 @@
+{
+  "description": "Palindromes with digits strictly increasing up to the middle digit.",
+  "id": "A343524",
+  "mentions": [
+    "A002113",
+    "A009993",
+    "A062351",
+    "A134941"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

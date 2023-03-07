@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(n,k) * Bell(k-1) * a(n-k).",
+  "id": "A335849",
+  "mentions": [
+    "A000110",
+    "A004122",
+    "A083355",
+    "A129247",
+    "A137551"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

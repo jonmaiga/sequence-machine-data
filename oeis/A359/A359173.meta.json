@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose square can be expressed as k * A004086(k) with non-palindromic k.",
+  "id": "A359173",
+  "mentions": [
+    "A000290",
+    "A002113",
+    "A004086",
+    "A118959"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Exponent of 4 appearing in the 4-adic value of 1/n, n >= 1, given in A240226(n).",
+  "id": "A244415",
+  "mentions": [
+    "A006519",
+    "A007814",
+    "A007949",
+    "A038500",
+    "A240226"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

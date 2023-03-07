@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers l of the form l = A007913(4*k*m^3 - k^4), where 1 <= k <= 5*l, 1 <= m <= 5*l.",
+  "id": "A180336",
+  "mentions": [
+    "A000215",
+    "A007913",
+    "A008833",
+    "A180323"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

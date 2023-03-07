@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2*p+3 is not prime.",
+  "id": "A163769",
+  "mentions": [
+    "A000040",
+    "A023204",
+    "A144562",
+    "A153238"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

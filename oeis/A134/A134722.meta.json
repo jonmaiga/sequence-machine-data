@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of Mersenne primes A000668.",
+  "id": "A134722",
+  "mentions": [
+    "A000668",
+    "A134721"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:38:02",
+    "offset": 1,
+    "size": 5,
+    "source": "joeis"
+  }
+}

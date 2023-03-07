@@ -1,0 +1,21 @@
+{
+  "description": "Bo Tan et al.'s string E_n, defined by A_n = A103269(n) = D_{n-1}E_n = A317197(n-1)E_n for n >= 2, with E_1 = 12.",
+  "id": "A317199",
+  "mentions": [
+    "A103269",
+    "A317197",
+    "A317200",
+    "A317201"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

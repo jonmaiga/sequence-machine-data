@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimes n such that the sum of proper divisors of n and the product of proper divisors of n are both perfect cubes.",
+  "id": "A244429",
+  "mentions": [
+    "A064121",
+    "A194948",
+    "A229972",
+    "A244428"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

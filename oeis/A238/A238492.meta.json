@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n not containing 4*(number of parts) as a part.",
+  "id": "A238492",
+  "mentions": [
+    "A000041",
+    "A185325"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

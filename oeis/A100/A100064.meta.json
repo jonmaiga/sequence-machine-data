@@ -1,0 +1,18 @@
+{
+  "description": "Triangle, read by rows, of coefficients in powers of e.g.f. for A100065 such that, for each row n>=0, Sum_{k=0..n} T(n,k)/k! = [exp(n)] (integer floor of e^n).",
+  "id": "A100064",
+  "mentions": [
+    "A100065"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

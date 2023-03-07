@@ -1,0 +1,20 @@
+{
+  "description": "Number of positive integer pairs (s,t), with s,t <= n and s <= t such that either both s and t divide n or both do not.",
+  "id": "A349360",
+  "mentions": [
+    "A000005",
+    "A184389",
+    "A335567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

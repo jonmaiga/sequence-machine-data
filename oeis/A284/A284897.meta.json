@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1+x^k)^(k^3) in powers of x.",
+  "id": "A284897",
+  "mentions": [
+    "A081362",
+    "A248882",
+    "A255528",
+    "A284896",
+    "A284898",
+    "A284899",
+    "A284900"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

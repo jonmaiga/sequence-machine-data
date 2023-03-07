@@ -1,0 +1,24 @@
+{
+  "description": "Initial terms of the arithmetic progressions in A278735.",
+  "id": "A279062",
+  "mentions": [
+    "A006450",
+    "A113827",
+    "A142160",
+    "A274825",
+    "A278735",
+    "A279021"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

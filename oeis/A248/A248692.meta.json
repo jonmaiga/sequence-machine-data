@@ -1,0 +1,29 @@
+{
+  "description": "Fully multiplicative with a(prime(i)) = 2^i; If n = Product_{k >= 1} (p_k)^(c_k) where p_k is k-th prime A000040(k) and c_k >= 0 then a(n) = Product_{k >= 1} 2^(k*c_k).",
+  "id": "A248692",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A003961",
+    "A003965",
+    "A048675",
+    "A049084",
+    "A056239",
+    "A061142",
+    "A065446",
+    "A122111",
+    "A297109"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

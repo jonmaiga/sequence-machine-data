@@ -1,0 +1,26 @@
+{
+  "description": "Highly abundant numbers that are not products of consecutive primes with nonincreasing exponents, i.e., that are not of the form n=2^{e_2} * 3^{e_3} * ...* p^{e_p}, with e_2>=e_3>=...>=e_p.",
+  "id": "A128701",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A004490",
+    "A128699",
+    "A128700",
+    "A128702"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

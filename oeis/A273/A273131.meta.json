@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the bottom entry of the difference table of the divisors of n divides n.",
+  "id": "A273131",
+  "mentions": [
+    "A000079",
+    "A027750",
+    "A187202",
+    "A273102",
+    "A273103",
+    "A273109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

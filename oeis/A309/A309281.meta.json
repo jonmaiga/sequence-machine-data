@@ -1,0 +1,25 @@
+{
+  "description": "Total sum of the sum of divisors of the element sum over all nonempty subsets of [n].",
+  "id": "A309281",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A000225",
+    "A053632",
+    "A096137",
+    "A309280",
+    "A309402",
+    "A309403"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of lattices L in Z^k such that the quotient group Z^k / L is C_n.",
+  "id": "A263950",
+  "mentions": [
+    "A000012",
+    "A000203",
+    "A000225",
+    "A001615",
+    "A003462",
+    "A003463",
+    "A006516",
+    "A016123",
+    "A016142",
+    "A016152",
+    "A023000",
+    "A046915",
+    "A160869",
+    "A160870",
+    "A160889",
+    "A160891",
+    "A160893",
+    "A160895",
+    "A160897",
+    "A160908",
+    "A160953",
+    "A160957",
+    "A160960",
+    "A160972",
+    "A161010",
+    "A161025",
+    "A161139",
+    "A161167",
+    "A161213",
+    "A344210"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

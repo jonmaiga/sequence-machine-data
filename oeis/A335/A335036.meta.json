@@ -1,0 +1,23 @@
+{
+  "description": "Smallest side c of the primitive triples (c,a,b) for integer triangles that have two perpendicular medians, ordered by increasing perimeter.",
+  "id": "A335036",
+  "mentions": [
+    "A004431",
+    "A335034",
+    "A335035",
+    "A335273",
+    "A335347",
+    "A335348"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

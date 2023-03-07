@@ -1,0 +1,22 @@
+{
+  "description": "The number of positive integers m for which the exponents of prime(n) and prime(n+1) in the prime power factorization of m! are both powers of 2.",
+  "id": "A177458",
+  "mentions": [
+    "A000142",
+    "A115627",
+    "A177349",
+    "A177355",
+    "A177378",
+    "A177436"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

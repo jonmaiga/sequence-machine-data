@@ -1,0 +1,22 @@
+{
+  "description": "Inverse to sequence matrix for odd numbers.",
+  "id": "A101038",
+  "mentions": [
+    "A005408",
+    "A040000",
+    "A099375"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:27",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

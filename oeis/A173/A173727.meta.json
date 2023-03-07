@@ -1,0 +1,21 @@
+{
+  "description": "Number of reduced 3x3 semimagic squares with distinct nonnegative integer entries and maximum entry n.",
+  "id": "A173727",
+  "mentions": [
+    "A173546",
+    "A173723",
+    "A173724",
+    "A173728"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:37",
+    "offset": 8,
+    "size": 35,
+    "source": "joeis"
+  }
+}

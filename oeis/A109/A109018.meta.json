@@ -1,0 +1,35 @@
+{
+  "description": "Least n-almost prime number which gives a different n-almost prime number when digits are reversed.",
+  "id": "A109018",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A006567",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A097393",
+    "A109019",
+    "A109023",
+    "A109024",
+    "A109025",
+    "A109026",
+    "A109027",
+    "A109028",
+    "A109029",
+    "A109030",
+    "A109031"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(q(k)-1), where q(k) = number of partitions of k into distinct parts (A000009).",
+  "id": "A305651",
+  "mentions": [
+    "A000009",
+    "A050342",
+    "A081362",
+    "A089259",
+    "A111133",
+    "A304966",
+    "A304969"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

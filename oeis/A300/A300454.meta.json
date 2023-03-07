@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: row n consists of the coefficients of the expansion of the polynomial 2*(x + 1)^(n + 1) + x^3 + 2*x^2 - x - 2.",
+  "id": "A300454",
+  "mentions": [
+    "A002061",
+    "A005408",
+    "A007318",
+    "A014206",
+    "A020707",
+    "A028326",
+    "A046127",
+    "A064999",
+    "A155753",
+    "A299989",
+    "A300184",
+    "A300453"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

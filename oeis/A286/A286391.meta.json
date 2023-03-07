@@ -1,0 +1,23 @@
+{
+  "description": "Number of tilings of a 6 X n rectangle using pentominoes of shapes X, Y, Z, T and monominoes.",
+  "id": "A286391",
+  "mentions": [
+    "A247125",
+    "A278330",
+    "A278456",
+    "A278657",
+    "A278877",
+    "A278964",
+    "A286347"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

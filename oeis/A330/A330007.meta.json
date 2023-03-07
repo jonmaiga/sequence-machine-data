@@ -1,0 +1,22 @@
+{
+  "description": "Base-24 integers whose substrings are primes (written in base 10).",
+  "id": "A330007",
+  "mentions": [
+    "A024773",
+    "A085822",
+    "A085823",
+    "A213300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

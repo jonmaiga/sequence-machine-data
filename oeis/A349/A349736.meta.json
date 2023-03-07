@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficients C(m,k) such that C(m,k), C(m,k+1), C(m,k+2) with 0 <= k <= m-2 form an increasing arithmetic progression.",
+  "id": "A349736",
+  "mentions": [
+    "A007318",
+    "A008865",
+    "A034856",
+    "A349737"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

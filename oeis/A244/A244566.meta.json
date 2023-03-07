@@ -1,0 +1,25 @@
+{
+  "description": "Odd integers n such that for every integer k>0, n*2^k+1 has a divisor in the set { 3, 5, 7, 13, 17, 97, 257 }.",
+  "id": "A244566",
+  "mentions": [
+    "A076336",
+    "A244076",
+    "A244561",
+    "A244562",
+    "A244563",
+    "A244564",
+    "A244565"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

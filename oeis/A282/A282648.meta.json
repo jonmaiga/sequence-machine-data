@@ -1,0 +1,21 @@
+{
+  "description": "Consider the antisigma function of a number x, A024816(x). Take the sum of its digits. Repeat the process deleting the first addendum and adding the previous sum. The sequence lists the numbers that after some iterations reach x.",
+  "id": "A282648",
+  "mentions": [
+    "A024816",
+    "A269307",
+    "A269312"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

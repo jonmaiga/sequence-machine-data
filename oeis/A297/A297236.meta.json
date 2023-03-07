@@ -1,0 +1,22 @@
+{
+  "description": "Total variation of base-12 digits of n; see Comments.",
+  "id": "A297236",
+  "mentions": [
+    "A037834",
+    "A297234",
+    "A297235",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

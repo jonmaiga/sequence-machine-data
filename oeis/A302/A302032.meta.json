@@ -1,0 +1,33 @@
+{
+  "description": "A032742 analog for a nonstandard factorization process based on the Ludic sieve (A255127); Discard a single instance of the Ludic factor A272565(n) from n.",
+  "id": "A302032",
+  "mentions": [
+    "A003309",
+    "A020639",
+    "A032742",
+    "A255127",
+    "A260738",
+    "A260739",
+    "A269379",
+    "A269380",
+    "A272565",
+    "A302025",
+    "A302026",
+    "A302031",
+    "A302034",
+    "A302035",
+    "A302037",
+    "A302042"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

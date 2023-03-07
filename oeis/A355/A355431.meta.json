@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose binary expansion, when interpreted in base -1+i, gives a Gaussian prime.",
+  "id": "A355431",
+  "mentions": [
+    "A066321",
+    "A318438",
+    "A318439"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

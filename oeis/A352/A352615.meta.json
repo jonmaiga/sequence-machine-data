@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{0<=x,y<=Pi/2} sqrt(1-cos^2(x)*cos^2(y)) dx dy.",
+  "id": "A352615",
+  "mentions": [
+    "A091670"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

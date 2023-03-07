@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: row n contains the first n Lucas numbers A000204.",
+  "id": "A104765",
+  "mentions": [
+    "A000204",
+    "A027961",
+    "A104762",
+    "A104763",
+    "A104764"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "a(1) = 1, a(A206074(n)) = prime(a(n)), a(A205783(1+n)) = composite(a(n)), where A206074 and A205783 give binary codes for polynomials with coefficients 0 or 1 that are irreducible [resp. reducible] over Q.",
+  "id": "A260424",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A205783",
+    "A206074",
+    "A206075",
+    "A245704",
+    "A246378",
+    "A255572",
+    "A255574",
+    "A257000",
+    "A260421",
+    "A260423",
+    "A260426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

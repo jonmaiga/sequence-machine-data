@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows, coefficients of the determinant polynomials of the generalized tangent matrices.",
+  "id": "A346837",
+  "mentions": [
+    "A011782",
+    "A346831",
+    "A347596"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

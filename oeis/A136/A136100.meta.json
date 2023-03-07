@@ -1,0 +1,25 @@
+{
+  "description": "Square each term in the sequence counting standard Young tableaux; cf. A117506.",
+  "id": "A136100",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A000142",
+    "A007318",
+    "A008459",
+    "A059797",
+    "A117506"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

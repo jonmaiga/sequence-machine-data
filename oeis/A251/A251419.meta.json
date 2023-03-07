@@ -1,0 +1,21 @@
+{
+  "description": "Domination number of the n-triangle grid graph TG_n.",
+  "id": "A251419",
+  "mentions": [
+    "A251418",
+    "A287064",
+    "A297572",
+    "A302486"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

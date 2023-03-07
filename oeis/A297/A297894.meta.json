@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers that divide at least one Euclid number.",
+  "id": "A297894",
+  "mentions": [
+    "A002110",
+    "A006862",
+    "A113165",
+    "A297891"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

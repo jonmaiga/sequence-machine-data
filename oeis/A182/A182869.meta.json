@@ -1,0 +1,23 @@
+{
+  "description": "Joint-rank array of prime powers: p(i)^j, i>=1, j>=1, read by antidiagonals.",
+  "id": "A182869",
+  "mentions": [
+    "A000961",
+    "A027883",
+    "A182801",
+    "A182870",
+    "A182908"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

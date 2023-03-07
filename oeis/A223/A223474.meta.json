@@ -1,0 +1,22 @@
+{
+  "description": "Least positive multiple of n that when written in base 10 has digits in nonincreasing order.",
+  "id": "A223474",
+  "mentions": [
+    "A004290",
+    "A009996",
+    "A079339",
+    "A181060",
+    "A223475"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

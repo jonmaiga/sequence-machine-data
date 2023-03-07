@@ -1,0 +1,21 @@
+{
+  "description": "Beastly fax numbers: numbers containing the fax number of the Beast (667, one more than its regular number) in their decimal expansion.",
+  "id": "A138563",
+  "mentions": [
+    "A051003"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

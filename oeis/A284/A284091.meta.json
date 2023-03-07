@@ -1,0 +1,20 @@
+{
+  "description": "Indices n where prime(n) + 2*prime(n+1) and 2*prime(n) + prime(n+1) have the same number of prime divisors counted with multiplicity.",
+  "id": "A284091",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A241945"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

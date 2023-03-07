@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of self-avoiding paths of length 2*(n-1+k) connecting opposite corners in the n X n grid graph (0 <= k <= floor((n-1)^2/2), n >= 1).",
+  "id": "A333520",
+  "mentions": [
+    "A000984",
+    "A001184",
+    "A007764",
+    "A074148",
+    "A121788",
+    "A257888",
+    "A302337",
+    "A329633"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

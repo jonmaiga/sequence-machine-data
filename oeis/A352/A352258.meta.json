@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric binary n X n matrices with no 2 X 2 submatrix of all 1s.",
+  "id": "A352258",
+  "mentions": [
+    "A345249",
+    "A350189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

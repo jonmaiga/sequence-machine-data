@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the value of Minkowski's question mark function at 6/Pi^2.",
+  "id": "A119923",
+  "mentions": [
+    "A119922"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

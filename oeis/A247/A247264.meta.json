@@ -1,0 +1,22 @@
+{
+  "description": "Smallest positive number not divisible by 10 whose square remains a square when prefixed with 10^n.",
+  "id": "A247264",
+  "mentions": [
+    "A242268",
+    "A247261",
+    "A247262",
+    "A247263",
+    "A247312"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

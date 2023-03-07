@@ -1,0 +1,24 @@
+{
+  "description": "Odd palindromes having more divisors than all smaller odd palindromes.",
+  "id": "A343735",
+  "mentions": [
+    "A000005",
+    "A002113",
+    "A029950",
+    "A076888",
+    "A343736",
+    "A344422",
+    "A345250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

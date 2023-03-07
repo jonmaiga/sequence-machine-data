@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number not already present that permits the cyclic repetition of the path 1,2 of the digits in the sequence.",
+  "id": "A165300",
+  "mentions": [
+    "A165301",
+    "A165307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

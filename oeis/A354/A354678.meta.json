@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = number of near-Wieferich primes with |A| <= 10000 less than 10^n.",
+  "id": "A354678",
+  "mentions": [
+    "A006880",
+    "A195988",
+    "A246568",
+    "A258367",
+    "A353141",
+    "A354675",
+    "A354676",
+    "A354677"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

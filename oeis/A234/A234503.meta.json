@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 0 such that 3^(phi(k)/2 + phi(m)/12) + 2 is prime, where phi(.) is Euler's totient function.",
+  "id": "A234503",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000244",
+    "A014232",
+    "A057735",
+    "A079363",
+    "A111974",
+    "A234344",
+    "A234346",
+    "A234347",
+    "A234361",
+    "A234451",
+    "A234470",
+    "A234475",
+    "A234504",
+    "A236358"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

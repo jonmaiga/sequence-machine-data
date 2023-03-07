@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k whose square is, for some prime p, the largest integer m such that both m and m-1 factor into primes less than or equal to p.",
+  "id": "A250302",
+  "mentions": [
+    "A002072",
+    "A117581",
+    "A250298"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

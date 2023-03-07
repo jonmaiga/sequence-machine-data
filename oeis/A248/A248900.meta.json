@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] avoiding patterns 2431 and 54321.",
+  "id": "A248900",
+  "mentions": [
+    "A022558",
+    "A047889"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

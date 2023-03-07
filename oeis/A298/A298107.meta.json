@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (eta(q^4) * eta(q^5) / (eta(q) * eta(q^20)))^2 in powers of q.",
+  "id": "A298107",
+  "mentions": [
+    "A058555",
+    "A058664"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:49:38",
+    "offset": -1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

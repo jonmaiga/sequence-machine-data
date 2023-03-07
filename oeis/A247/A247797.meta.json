@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest permutation of prime numbers, such that adjacent terms have coprime sums of digits in decimal representation.",
+  "id": "A247797",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A007953",
+    "A049084",
+    "A119449",
+    "A119450",
+    "A250552"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

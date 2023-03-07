@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the least positive number m not yet used such that prime(n) + m and prime(n+1) + m are prime.",
+  "id": "A276829",
+  "mentions": [
+    "A247097"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

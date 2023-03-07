@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of rooted trees with n nodes such that no more than k isomorphic subtrees extend from the same node; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A318757",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A063524",
+    "A248869",
+    "A318753",
+    "A318758",
+    "A318850",
+    "A318851",
+    "A318852",
+    "A318853",
+    "A318854",
+    "A318855",
+    "A318856",
+    "A318857"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

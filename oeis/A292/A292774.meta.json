@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest m such that Sum_{i=1..m} 1/sqrt(prime(i)) >= n.",
+  "id": "A292774",
+  "mentions": [
+    "A019529",
+    "A054040",
+    "A292775"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

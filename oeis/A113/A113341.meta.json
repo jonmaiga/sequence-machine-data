@@ -1,0 +1,21 @@
+{
+  "description": "Column 1 of triangle A113340, also equals column 0 of A113340^3.",
+  "id": "A113341",
+  "mentions": [
+    "A113340",
+    "A113342",
+    "A113343",
+    "A113344",
+    "A113360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

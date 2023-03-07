@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of {1,2,...,n} such that for every k >= 1, the k-th differences are distinct.",
+  "id": "A327845",
+  "mentions": [
+    "A130783",
+    "A131529",
+    "A327743"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

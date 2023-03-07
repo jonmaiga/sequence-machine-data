@@ -1,0 +1,26 @@
+{
+  "description": "Primes that contain only the digits (2, 3, 0).",
+  "id": "A260125",
+  "mentions": [
+    "A020458",
+    "A062350",
+    "A199342",
+    "A214703",
+    "A214704",
+    "A260126",
+    "A260127",
+    "A260128"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of factorizations of n that are empty or have at least two factors, all of which are > 1 and pairwise coprime.",
+  "id": "A327517",
+  "mentions": [
+    "A000110",
+    "A001221",
+    "A259936",
+    "A302569",
+    "A302696",
+    "A304711",
+    "A305079",
+    "A327076",
+    "A327392"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle T(n,k), n>=1, 1<=k<=ceiling(n/2), read by rows: T(n,k) is the number of different ways to select k disjoint (nonempty) subsets from {1..n} with equal element sum.",
+  "id": "A196231",
+  "mentions": [
+    "A000225",
+    "A110654",
+    "A161943",
+    "A164934",
+    "A164949",
+    "A196232",
+    "A196233",
+    "A196234",
+    "A196235",
+    "A196236",
+    "A196237",
+    "A196534"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

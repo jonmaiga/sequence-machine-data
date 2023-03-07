@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n containing at least one prime.",
+  "id": "A235945",
+  "mentions": [
+    "A000041",
+    "A002095"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

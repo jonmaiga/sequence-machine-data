@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways to write n = k + m with 0 < k <= m such that the inverse of k mod prime(k) among 1, ..., prime(k) - 1 is prime and the inverse of m mod prime(m) among 1, ..., prime(m) - 1 is also prime.",
+  "id": "A242753",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A242425",
+    "A242748",
+    "A242750",
+    "A242752",
+    "A242754",
+    "A242755"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

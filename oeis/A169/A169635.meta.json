@@ -1,0 +1,24 @@
+{
+  "description": "Integers n such that sigma_2(n) = sigma_2(n + 2) where sigma_2(n) is the sum of squares of divisors of n (A001157).",
+  "id": "A169635",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A053807",
+    "A064602",
+    "A175199"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

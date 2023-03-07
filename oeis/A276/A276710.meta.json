@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers m such that Product_{k=0..m} binomial(m,k) is divisible by m^(m-1).",
+  "id": "A276710",
+  "mentions": [
+    "A000169",
+    "A001142",
+    "A109873",
+    "A109874"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

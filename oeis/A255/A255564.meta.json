@@ -1,0 +1,26 @@
+{
+  "description": "Primes having in binary representation a nonprime number of 1's.",
+  "id": "A255564",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A007088",
+    "A019434",
+    "A027699",
+    "A081092",
+    "A084345",
+    "A085448",
+    "A095077",
+    "A255569"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

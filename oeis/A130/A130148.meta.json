@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 1. For n > 1, n is repeated (a(n)+a(n-1)) times.",
+  "id": "A130148",
+  "mentions": [
+    "A001462",
+    "A002024"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

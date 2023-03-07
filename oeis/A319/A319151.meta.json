@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of superperiodic integer partitions.",
+  "id": "A319151",
+  "mentions": [
+    "A001597",
+    "A056239",
+    "A061345",
+    "A072774",
+    "A098859",
+    "A181819",
+    "A182850",
+    "A289509",
+    "A296150",
+    "A298748",
+    "A304464",
+    "A305732",
+    "A317246",
+    "A317257",
+    "A319149",
+    "A319152",
+    "A319157"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

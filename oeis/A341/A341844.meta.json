@@ -1,0 +1,21 @@
+{
+  "description": "Least k > 1 such that (n+k^n)/(n+k) is an integer.",
+  "id": "A341844",
+  "mentions": [
+    "A242801",
+    "A242899",
+    "A341760",
+    "A341889",
+    "A341890"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

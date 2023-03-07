@@ -1,0 +1,29 @@
+{
+  "description": "Denominators of Bird tree fractions.",
+  "id": "A162910",
+  "mentions": [
+    "A002487",
+    "A059893",
+    "A080675",
+    "A081254",
+    "A136412",
+    "A162909",
+    "A162912",
+    "A258746",
+    "A258996",
+    "A268087"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

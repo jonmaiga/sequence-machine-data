@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: x * Product_{k>=1} (1 + k*x^k)^a(k).",
+  "id": "A308205",
+  "mentions": [
+    "A004111",
+    "A308204",
+    "A308206",
+    "A308207"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

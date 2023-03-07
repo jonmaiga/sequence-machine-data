@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations of 10 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 1.",
+  "id": "A321670",
+  "mentions": [
+    "A190826",
+    "A190830",
+    "A190833",
+    "A190835",
+    "A190836",
+    "A190837",
+    "A321669",
+    "A322013"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

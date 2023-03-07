@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that next term of Hofstadter's Q-sequence differs by 1.",
+  "id": "A194626",
+  "mentions": [
+    "A005185",
+    "A081827",
+    "A081828",
+    "A081829",
+    "A081830"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

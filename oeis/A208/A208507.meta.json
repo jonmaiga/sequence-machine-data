@@ -1,0 +1,19 @@
+{
+  "description": "Reordering of A070776 such that the cyclotomic polynomial Phi(A070776, m) is in sorted order for any integer m >= 2.",
+  "id": "A208507",
+  "mentions": [
+    "A070776",
+    "A206225"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

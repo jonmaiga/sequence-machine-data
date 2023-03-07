@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients for central differences M_{6}^(2*n).",
+  "id": "A323995",
+  "mentions": [
+    "A002675",
+    "A323996"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

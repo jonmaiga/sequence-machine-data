@@ -1,0 +1,20 @@
+{
+  "description": "Number of length n word structures with all distinct runs using an infinite alphabet.",
+  "id": "A351642",
+  "mentions": [
+    "A206464",
+    "A351200",
+    "A351638",
+    "A351641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

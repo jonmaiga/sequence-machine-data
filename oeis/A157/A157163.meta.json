@@ -1,0 +1,25 @@
+{
+  "description": "Product_{n>=1} (1 + 2*a(n)*x^n) = Sum_{k>=0} binomial(2*k, k)*x^k = 1/sqrt(1 - 4*x), with the central binomial numbers A000984(n).",
+  "id": "A157163",
+  "mentions": [
+    "A000984",
+    "A003056",
+    "A008289",
+    "A048996",
+    "A147542",
+    "A157161",
+    "A157162"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

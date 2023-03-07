@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers k for which m == 0 (mod k) is the only solution to m^(2^v(k-1)+1) == -m (mod k), where v(k) = A007814(k) is the 2-adic valuation of k.",
+  "id": "A345330",
+  "mentions": [
+    "A002997",
+    "A007814",
+    "A065091",
+    "A071904",
+    "A345331",
+    "A360114",
+    "A360117"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Interlaces \"2*n^2 - 1 is a square\" with NSW numbers.",
+  "id": "A104683",
+  "mentions": [
+    "A001653",
+    "A002315",
+    "A100828"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

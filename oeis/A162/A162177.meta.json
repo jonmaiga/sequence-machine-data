@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of composite numbers that are smaller than A008578(n).",
+  "id": "A162177",
+  "mentions": [
+    "A002808",
+    "A008578",
+    "A065890",
+    "A073169",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:05",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

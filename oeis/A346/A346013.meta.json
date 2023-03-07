@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of A346009(n)/A346010(n) - A001221(n)/2.",
+  "id": "A346013",
+  "mentions": [
+    "A001221",
+    "A346009",
+    "A346010",
+    "A346012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

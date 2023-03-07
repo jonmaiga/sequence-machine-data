@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies: A(x)^(A(x)^3) = 1 + x.",
+  "id": "A349651",
+  "mentions": [
+    "A120980",
+    "A349650",
+    "A349653",
+    "A349655",
+    "A349657"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

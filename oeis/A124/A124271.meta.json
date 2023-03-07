@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (prime(i)^n - 1)/(prime(i) - 1).",
+  "id": "A124271",
+  "mentions": [
+    "A123855",
+    "A123856",
+    "A124272",
+    "A124273",
+    "A124274"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

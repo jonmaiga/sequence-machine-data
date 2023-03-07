@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A005248.",
+  "id": "A188378",
+  "mentions": [
+    "A000032",
+    "A001654",
+    "A002878",
+    "A005248",
+    "A016945",
+    "A024851",
+    "A027941",
+    "A267797"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

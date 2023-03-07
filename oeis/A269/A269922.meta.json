@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,f) is the number of rooted maps with n edges and f faces on an orientable surface of genus 2.",
+  "id": "A269922",
+  "mentions": [
+    "A006298",
+    "A006299",
+    "A006301",
+    "A269919",
+    "A269921",
+    "A288082",
+    "A288083",
+    "A288084",
+    "A288085",
+    "A288086",
+    "A288087",
+    "A288088",
+    "A288089",
+    "A288090"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 4,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: Take a vesica piscis with all diagonals drawn, as in A341877. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A342153",
+  "mentions": [
+    "A331451",
+    "A331911",
+    "A340614",
+    "A340688",
+    "A341877",
+    "A341878",
+    "A342152"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

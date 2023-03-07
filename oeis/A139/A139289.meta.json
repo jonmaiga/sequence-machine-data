@@ -1,0 +1,26 @@
+{
+  "description": "(2^(2p - 1)/2)-1, where p is prime.",
+  "id": "A139289",
+  "mentions": [
+    "A139286",
+    "A139287",
+    "A139288",
+    "A139290",
+    "A139291",
+    "A139292",
+    "A139293",
+    "A139294",
+    "A139306"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

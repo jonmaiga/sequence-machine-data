@@ -1,0 +1,29 @@
+{
+  "description": "Number of permutations of the multiset of prime factors of n whose first part is not 2.",
+  "id": "A325392",
+  "mentions": [
+    "A008480",
+    "A056239",
+    "A112798",
+    "A325327",
+    "A325362",
+    "A325364",
+    "A325367",
+    "A325390",
+    "A325403",
+    "A325407",
+    "A325460",
+    "A325461"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

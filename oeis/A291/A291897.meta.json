@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of E(2*n-1,n), where E(n,x) is the Euler polynomial.",
+  "id": "A291897",
+  "mentions": [
+    "A002425",
+    "A006519",
+    "A007814",
+    "A157805",
+    "A292706"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

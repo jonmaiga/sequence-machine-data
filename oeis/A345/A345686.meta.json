@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} n/floor(n/k)^2.",
+  "id": "A345686",
+  "mentions": [
+    "A345683"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

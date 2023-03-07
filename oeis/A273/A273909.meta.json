@@ -1,0 +1,18 @@
+{
+  "description": "Let p = prime(n) and q = prime(n+1), then a(n) = p*q - p^2 - 2*q.",
+  "id": "A273909",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

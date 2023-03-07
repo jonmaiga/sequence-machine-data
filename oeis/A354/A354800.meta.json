@@ -1,0 +1,18 @@
+{
+  "description": "Cardinality of the set of ordered pairs (m(lambda),f(lambda)), where lambda ranges over all partitions of n and m gives the infimum and f gives the sum of the squares of the argument.",
+  "id": "A354800",
+  "mentions": [
+    "A069999",
+    "A354468"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

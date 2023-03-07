@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of phi(q)^4 / phi(q^3) in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A261394",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004013",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:24:23",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes p such that next semiprime after p is p+20.",
+  "id": "A217335",
+  "mentions": [
+    "A001358",
+    "A065516",
+    "A217030"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

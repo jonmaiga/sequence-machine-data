@@ -1,0 +1,19 @@
+{
+  "description": "The number of phi-partitions of n.",
+  "id": "A283528",
+  "mentions": [
+    "A000010",
+    "A271384",
+    "A283530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

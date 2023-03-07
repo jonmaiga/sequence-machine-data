@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(n,k) * (4*k-3) * a(n-k).",
+  "id": "A337553",
+  "mentions": [
+    "A000354",
+    "A001907",
+    "A337552",
+    "A337554"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:27:36",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

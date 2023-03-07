@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*(n-1)*a(n-1) - a(n-2) + 2*(n-2)*a(n-3) with a(0)=a(1)=a(2)=1.",
+  "id": "A269820",
+  "mentions": [
+    "A269450",
+    "A269509"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

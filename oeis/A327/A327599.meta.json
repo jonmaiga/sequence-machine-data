@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers k that have a divisor d such that sigma(d)*d is equal to k.",
+  "id": "A327599",
+  "mentions": [
+    "A064987",
+    "A327165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer that can be represented as the sum of a prime and a triangular number in exactly n ways.",
+  "id": "A101182",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A076768"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Differences between A250396 and A104080.",
+  "id": "A250397",
+  "mentions": [
+    "A104080",
+    "A250396"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

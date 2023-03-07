@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers for which the number of ways to express them as 2*p+q, p,q primes, is a new record.",
+  "id": "A194830",
+  "mentions": [
+    "A046927",
+    "A194831"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

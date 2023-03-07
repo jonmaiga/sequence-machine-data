@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with both prime number of 0's and prime number of 1's in their binary reflected Gray code representation.",
+  "id": "A281014",
+  "mentions": [
+    "A014550",
+    "A280998",
+    "A280999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

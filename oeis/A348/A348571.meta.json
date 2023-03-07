@@ -1,0 +1,23 @@
+{
+  "description": "In Zeckendorf representation: integers that set a new record for the number of Reverse and Add steps (A349239) needed to reach a palindrome (A094202).",
+  "id": "A348571",
+  "mentions": [
+    "A014417",
+    "A094202",
+    "A348570",
+    "A348572",
+    "A349239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

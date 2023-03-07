@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n+1)*25^n.",
+  "id": "A166725",
+  "mentions": [
+    "A016578",
+    "A058962",
+    "A155988"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

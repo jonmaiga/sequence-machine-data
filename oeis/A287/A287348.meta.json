@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 2 in A287345.",
+  "id": "A287348",
+  "mentions": [
+    "A287345",
+    "A287346",
+    "A287347"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

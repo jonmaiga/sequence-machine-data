@@ -1,0 +1,28 @@
+{
+  "description": "Integers with precisely ten partitions into sums of four squares of nonnegative numbers.",
+  "id": "A294311",
+  "mentions": [
+    "A001156",
+    "A002635",
+    "A006431",
+    "A025428",
+    "A180149",
+    "A245022",
+    "A293175",
+    "A294282",
+    "A294297",
+    "A294308",
+    "A294309",
+    "A294310"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of regions in a regular drawing of the complete bipartite graph K_{n,n}.",
+  "id": "A290131",
+  "mentions": [
+    "A007569",
+    "A007678",
+    "A088658",
+    "A114043",
+    "A114146",
+    "A115004",
+    "A115005",
+    "A135563",
+    "A141255",
+    "A159065",
+    "A290132",
+    "A306302",
+    "A331754"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

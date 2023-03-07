@@ -1,0 +1,21 @@
+{
+  "description": "Diameter of nearest neighbor interchange distance for free 3-trees.",
+  "id": "A335408",
+  "mentions": [
+    "A000672",
+    "A001147",
+    "A211266"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of steps it takes to reach all n positions around a circle during the grasshopper procedure.",
+  "id": "A329230",
+  "mentions": [
+    "A329231",
+    "A329232",
+    "A329233"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

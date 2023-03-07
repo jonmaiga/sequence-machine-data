@@ -1,0 +1,18 @@
+{
+  "description": "A number j is included if (Sum_{k=1..j} d(k)) is prime, where d(k) is the number of divisors of k.",
+  "id": "A140222",
+  "mentions": [
+    "A006218",
+    "A140221"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

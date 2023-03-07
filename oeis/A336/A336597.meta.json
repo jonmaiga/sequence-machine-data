@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k of the form (the number of nonnegative bases m < n such that m^k == m (mod n))/(the number of nonnegative bases m < n such that -m^k == m (mod n)) dividing n, or 0 if no such k exists.",
+  "id": "A336597",
+  "mentions": [
+    "A002997",
+    "A065091",
+    "A334006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

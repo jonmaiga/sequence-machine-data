@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) is the number of partitions of (n,k) into a sum of distinct pairs.",
+  "id": "A201377",
+  "mentions": [
+    "A000009",
+    "A036469",
+    "A054225",
+    "A054242",
+    "A201376",
+    "A219554",
+    "A219557"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

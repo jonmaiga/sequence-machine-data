@@ -1,0 +1,20 @@
+{
+  "description": "Primes with at most n digits and a digit sum n in ascending order. 2,11; 3; 13,31,103,211,1021,2011,3001; 5,23,41,113,...",
+  "id": "A110741",
+  "mentions": [
+    "A007953",
+    "A110742"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

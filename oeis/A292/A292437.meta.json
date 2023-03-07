@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of lattice walks from (0,0) to (3*n,3*n) that use steps in directions {(3,0), (2,1), (1,2), (0,3)} and stay weakly below the line y=x.",
+  "id": "A292437",
+  "mentions": [
+    "A000108",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

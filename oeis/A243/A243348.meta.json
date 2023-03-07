@@ -1,0 +1,27 @@
+{
+  "description": "Difference between the n-th squarefree number and n: a(n) = A005117(n) - n.",
+  "id": "A243348",
+  "mentions": [
+    "A000027",
+    "A005117",
+    "A053797",
+    "A053806",
+    "A120992",
+    "A243289",
+    "A243347",
+    "A243349",
+    "A243351"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

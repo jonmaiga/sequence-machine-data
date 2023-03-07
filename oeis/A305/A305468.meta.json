@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers that can be expressed as the quotient of two binary palindromic numbers (that is, terms of A006995).",
+  "id": "A305468",
+  "mentions": [
+    "A006995",
+    "A305469",
+    "A305470"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

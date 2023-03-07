@@ -1,0 +1,20 @@
+{
+  "description": "Triangular sequence from coefficients of a switched even -odd polynomial recursion: odd:p(x,n)=2*x*p(x, n - 1) - p(x, n - 2); even:p(x,n)=(1 - 2*x)*p(x, n - 1) - p(x, n - 2);.",
+  "id": "A137408",
+  "mentions": [
+    "A048788"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

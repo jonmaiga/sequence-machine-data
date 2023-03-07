@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers that cannot be represented as the quotient of two antipalindromic numbers (A035928).",
+  "id": "A351173",
+  "mentions": [
+    "A035928",
+    "A351172"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

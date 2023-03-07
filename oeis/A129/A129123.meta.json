@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4-tuples of standard tableau with height less than or equal to 2.",
+  "id": "A129123",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A003161",
+    "A120730",
+    "A355481",
+    "A357652",
+    "A357824"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

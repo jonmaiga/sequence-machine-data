@@ -1,0 +1,19 @@
+{
+  "description": "floor((n-h)*s+h), where s=(3+sqrt(3))/2 and h=1/4; complement of A184626.",
+  "id": "A184627",
+  "mentions": [
+    "A184618",
+    "A184626"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:57",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

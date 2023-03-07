@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n^2 as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers and z <= w such that both x and 4*x - 3*y are powers of 4 (including 4^0 = 1).",
+  "id": "A300219",
+  "mentions": [
+    "A000118",
+    "A271518",
+    "A279612",
+    "A281976",
+    "A299924",
+    "A300360",
+    "A300365"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

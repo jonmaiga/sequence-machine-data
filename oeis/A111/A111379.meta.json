@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers n which are divisible by (nextprime(n) - prevprime(n)), but have fewer divisors than some number between those two primes.",
+  "id": "A111379",
+  "mentions": [
+    "A076082",
+    "A076083",
+    "A113709"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

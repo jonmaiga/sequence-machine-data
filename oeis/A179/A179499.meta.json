@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) = G(x)^2/x where G(x) satisfies: G(G(x))^2 = G(x)^2 * G'(x) and G(x) is the g.f. of A179499.",
+  "id": "A179499",
+  "mentions": [
+    "A179420",
+    "A179497",
+    "A179498"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

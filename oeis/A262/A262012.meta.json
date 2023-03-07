@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: [ Sum_{n>=0} (4*n)!/(n!)^4 * x^(4*n)/(1-x)^(4*n+4) ]^(1/4).",
+  "id": "A262012",
+  "mentions": [
+    "A262013"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

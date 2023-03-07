@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the Sum_{k>=2} 1/(k^3*log(k)).",
+  "id": "A349641",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A073002",
+    "A168218",
+    "A244115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

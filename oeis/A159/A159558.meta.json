@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(n^2+n) * C(n-1 + 1/2^n, n) = [x^n] 1/(1 - 2^(n+1)*x)^(1/2^n).",
+  "id": "A159558",
+  "mentions": [
+    "A158093",
+    "A159478",
+    "A183131",
+    "A224883"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

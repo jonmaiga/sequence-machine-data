@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that four consecutive primes starting with p are congruent to {1,2,3,4} (mod 5).",
+  "id": "A215607",
+  "mentions": [
+    "A215599",
+    "A215662"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

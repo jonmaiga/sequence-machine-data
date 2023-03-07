@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = p(2*n)-p(2*n-2)-p(n) where p(n) are the partition numbers A000041(n).",
+  "id": "A263847",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

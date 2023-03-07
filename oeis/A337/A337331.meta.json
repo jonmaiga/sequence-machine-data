@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs of divisors of n, (d1,d2), with d1 <= d2, whose average divides n.",
+  "id": "A337331",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

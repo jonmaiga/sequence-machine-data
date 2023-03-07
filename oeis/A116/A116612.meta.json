@@ -1,0 +1,25 @@
+{
+  "description": "Values of n such that p(2n+1) mod 12 = 1, where p(j) denotes the j-th prime.",
+  "id": "A116612",
+  "mentions": [
+    "A000720",
+    "A068228",
+    "A116602",
+    "A116610",
+    "A116613",
+    "A116617",
+    "A160591",
+    "A160594"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

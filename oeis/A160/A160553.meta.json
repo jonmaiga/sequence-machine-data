@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n not of the form 7k+4 such that A000041(49n+47) == 0 (mod 343).",
+  "id": "A160553",
+  "mentions": [
+    "A000041",
+    "A002300"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

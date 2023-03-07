@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k for which bigomega(k) == 3 (mod 4).",
+  "id": "A358763",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A003961",
+    "A004767",
+    "A010051",
+    "A010873",
+    "A014612",
+    "A026424",
+    "A212582",
+    "A226527",
+    "A349905",
+    "A358753",
+    "A358760",
+    "A358761",
+    "A358762"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

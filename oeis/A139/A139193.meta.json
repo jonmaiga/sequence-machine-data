@@ -1,0 +1,26 @@
+{
+  "description": "Natural numbers of the form (prime(n)! - 5)/5.",
+  "id": "A139193",
+  "mentions": [
+    "A039716",
+    "A139189",
+    "A139190",
+    "A139191",
+    "A139192",
+    "A139194",
+    "A139195",
+    "A139196",
+    "A139197",
+    "A139198"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Complement of sequence A029903.",
+  "id": "A122529",
+  "mentions": [
+    "A029903",
+    "A029905"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

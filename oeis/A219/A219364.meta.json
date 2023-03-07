@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the product of divisors of n is greater than the product of divisors of sigma(n).",
+  "id": "A219364",
+  "mentions": [
+    "A000203",
+    "A007955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

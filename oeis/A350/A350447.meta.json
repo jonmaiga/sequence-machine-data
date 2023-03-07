@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of acyclic digraphs on n unlabeled nodes with k arcs, n >=0, k = 0..(n-1)*n/2.",
+  "id": "A350447",
+  "mentions": [
+    "A003087",
+    "A081064",
+    "A122078",
+    "A350449"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

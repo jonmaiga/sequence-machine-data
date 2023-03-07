@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of reducible Stern polynomials in range B(1,x) .. B(n,x). (Polynomial B_1(x) = 1 is not included in the count).",
+  "id": "A283993",
+  "mentions": [
+    "A125184",
+    "A255572",
+    "A260443",
+    "A283992",
+    "A283994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

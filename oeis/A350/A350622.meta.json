@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator of the X-coordinate of n*P where P is the generator [0,0] for rational points on the curve y^2 + y = x^3 + x^2.",
+  "id": "A350622",
+  "mentions": [
+    "A028940",
+    "A028943",
+    "A350623",
+    "A350625"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

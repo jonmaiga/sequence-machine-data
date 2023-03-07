@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 2; thereafter a(n) = smallest integer not a multiple of an earlier terms nor a sum of two earlier terms.",
+  "id": "A140460",
+  "mentions": [
+    "A000040",
+    "A002858",
+    "A008320",
+    "A054016",
+    "A075573",
+    "A085947"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Asymptotic number of completely symmetric polynomials of degree n up to momentum conservation in the limit as the number of particles increases.",
+  "id": "A226919",
+  "mentions": [
+    "A226920"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

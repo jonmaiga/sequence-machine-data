@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that A002522(k) and A002522(k+2n) are successive primes of the form m^2+1.",
+  "id": "A245463",
+  "mentions": [
+    "A002496",
+    "A002522",
+    "A005574",
+    "A134406",
+    "A206400"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

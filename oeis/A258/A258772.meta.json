@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed points in the Collatz (3x+1) trajectory of n.",
+  "id": "A258772",
+  "mentions": [
+    "A006370",
+    "A070165",
+    "A258821"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

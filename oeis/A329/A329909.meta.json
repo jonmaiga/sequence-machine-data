@@ -1,0 +1,20 @@
+{
+  "description": "Number of different four-digit proper fractions with anomalous cancellation property in base n.",
+  "id": "A329909",
+  "mentions": [
+    "A094907",
+    "A329908"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

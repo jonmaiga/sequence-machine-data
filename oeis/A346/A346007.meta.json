@@ -1,0 +1,21 @@
+{
+  "description": "Let b=5. If n == -i (mod b) for 0 <= i < b, then a(n) = binomial(b,i+1)*((n+i)/b)^(i+1).",
+  "id": "A346007",
+  "mentions": [
+    "A125714",
+    "A346004",
+    "A346005",
+    "A346006",
+    "A346595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

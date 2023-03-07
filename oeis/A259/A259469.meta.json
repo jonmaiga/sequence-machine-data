@@ -1,0 +1,23 @@
+{
+  "description": "Digits of an idempotent 12-adic number.",
+  "id": "A259469",
+  "mentions": [
+    "A003226",
+    "A018247",
+    "A018248",
+    "A054869",
+    "A055620",
+    "A259468"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

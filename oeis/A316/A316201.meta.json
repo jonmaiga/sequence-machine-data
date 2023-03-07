@@ -1,0 +1,27 @@
+{
+  "description": "Number of self-avoiding polygons with perimeter 2*n and sides = 1 that have vertex angles from the set +-Pi/11, +-3*Pi/11, +-5*Pi/11, +-7*Pi/11, +-9*Pi/11, not counting rotations and reflections as distinct.",
+  "id": "A316201",
+  "mentions": [
+    "A258206",
+    "A266549",
+    "A284869",
+    "A306181",
+    "A316192",
+    "A316195",
+    "A316197",
+    "A316198",
+    "A316199",
+    "A316200"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

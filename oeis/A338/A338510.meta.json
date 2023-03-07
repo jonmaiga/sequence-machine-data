@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is smallest number in column n >= 0 of the triangle in A247687.",
+  "id": "A338510",
+  "mentions": [
+    "A014210",
+    "A237593",
+    "A247687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

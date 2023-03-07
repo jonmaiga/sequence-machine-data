@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows of n*(n+1)/2 terms, where row n equals the coefficients in the series reversion of the function G(x,n)-1 such that: x = Sum_{m>=1} 1/G(x,n)^(n*m) * Product_{k=1..m} (1 - 1/G(x,n)^k), for n>=1.",
+  "id": "A214670",
+  "mentions": [
+    "A001002",
+    "A005014",
+    "A181997",
+    "A181998",
+    "A209441",
+    "A209442",
+    "A214669",
+    "A214690"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Index of least Fibonacci number congruent to n mod 100.",
+  "id": "A245456",
+  "mentions": [
+    "A023183"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

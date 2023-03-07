@@ -1,0 +1,20 @@
+{
+  "description": "Least semiprime of a run of exactly n with alternating parity.",
+  "id": "A304458",
+  "mentions": [
+    "A001358",
+    "A304456",
+    "A304457"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

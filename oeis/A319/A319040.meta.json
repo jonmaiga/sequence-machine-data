@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k > 1 such that Pell(k) == 1 (mod k).",
+  "id": "A319040",
+  "mentions": [
+    "A000129",
+    "A001132",
+    "A023173",
+    "A319041",
+    "A319042",
+    "A319043"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Defined by (i) a(1)=1; (ii) if you move a(n) steps to the right you must reach a prime; (iii) a(n) = smallest unused composite number, unless a(n) is required to be prime by (ii), in which case a(n) is the smallest unused prime.",
+  "id": "A249054",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A249053",
+    "A249571",
+    "A249594",
+    "A249595"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

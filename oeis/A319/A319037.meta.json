@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the length of the longest run of consecutive triangular numbers with n divisors.",
+  "id": "A319037",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A081978",
+    "A276542",
+    "A319035",
+    "A319036"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

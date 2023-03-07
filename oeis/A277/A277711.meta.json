@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = position of the first occurrence of n in A264977.",
+  "id": "A277711",
+  "mentions": [
+    "A023758",
+    "A264977",
+    "A277710"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

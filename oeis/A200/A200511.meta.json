@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with omega(n)=2 and bigomega(n)>2, where omega=A001221=number of distinct prime factors, bigomega=A001222=prime factors counted with multiplicity.",
+  "id": "A200511",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A123711",
+    "A178212",
+    "A200521"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

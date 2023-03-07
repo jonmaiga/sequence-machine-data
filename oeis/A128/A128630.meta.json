@@ -1,0 +1,18 @@
+{
+  "description": "Let gpf(1)=1 and gpf(n)=greatest prime factor of n, n>1. Then a(n)=minimum sum of gpf of the parts of a partition of n.",
+  "id": "A128630",
+  "mentions": [
+    "A006530",
+    "A128631"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

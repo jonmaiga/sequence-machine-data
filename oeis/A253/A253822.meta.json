@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered triangular numbers (A005448) which are also octagonal numbers (A000567).",
+  "id": "A253822",
+  "mentions": [
+    "A000567",
+    "A005448",
+    "A253821",
+    "A253823"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

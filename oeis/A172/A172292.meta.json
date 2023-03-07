@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (2*n+1)*(2*k+1), n>=1, 1<=k<=n.",
+  "id": "A172292",
+  "mentions": [
+    "A016945",
+    "A017329",
+    "A072670",
+    "A083487",
+    "A144562",
+    "A147587"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:19",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

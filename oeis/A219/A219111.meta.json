@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that eventually reach 1 under \"x -> sum of 4th power of digits of x\".",
+  "id": "A219111",
+  "mentions": [
+    "A007770",
+    "A035504"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

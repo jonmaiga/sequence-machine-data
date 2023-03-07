@@ -1,0 +1,30 @@
+{
+  "description": "Constant whose decimal expansion is the concatenation of the smallest n-digit square A061432(n), for n = 1, 2, 3, ...",
+  "id": "A340206",
+  "mentions": [
+    "A001191",
+    "A030190",
+    "A033307",
+    "A033308",
+    "A061432",
+    "A134724",
+    "A215689",
+    "A340207",
+    "A340208",
+    "A340219",
+    "A340221"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:05",
+    "offset": 0,
+    "size": 110,
+    "source": "joeis"
+  }
+}

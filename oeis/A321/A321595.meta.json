@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocal of the Genocchi numbers (of first kind) with even index (negated).",
+  "id": "A321595",
+  "mentions": [
+    "A036968",
+    "A300220"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

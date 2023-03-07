@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sigma(n)*Fibonacci(n), where sigma(n) = A000203(n), the sum of divisors of n.",
+  "id": "A203848",
+  "mentions": [
+    "A000045",
+    "A000203",
+    "A000204",
+    "A203838",
+    "A203847",
+    "A203849"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

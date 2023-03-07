@@ -1,0 +1,18 @@
+{
+  "description": "Garel's separator length for position n of the Thue-Morse sequence (A010060).",
+  "id": "A336168",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

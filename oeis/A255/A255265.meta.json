@@ -1,0 +1,17 @@
+{
+  "description": "Numbers representable as x*y*(x+y), where x>=y>1.",
+  "id": "A255265",
+  "mentions": [
+    "A254671"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

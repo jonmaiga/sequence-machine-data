@@ -1,0 +1,18 @@
+{
+  "description": "The number j such that 6 divides prime(k)-prime(j), where k(n)=A205691(n).",
+  "id": "A205692",
+  "mentions": [
+    "A205558",
+    "A205691"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:39:24",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of numerator and denominator in the convergents of the approximation of log(2)/log(3) by a continued fraction.",
+  "id": "A355512",
+  "mentions": [
+    "A005663",
+    "A005664",
+    "A102525",
+    "A355513",
+    "A355514",
+    "A355515"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

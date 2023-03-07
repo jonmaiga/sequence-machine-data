@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of {2..n} such that the product of the elements is a perfect power.",
+  "id": "A339555",
+  "mentions": [
+    "A001597",
+    "A089819",
+    "A320322",
+    "A339554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Floor of the expected value of number of trials until all cells are occupied in a random distribution of 2n balls in n cells.",
+  "id": "A210024",
+  "mentions": [
+    "A209899",
+    "A209900"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

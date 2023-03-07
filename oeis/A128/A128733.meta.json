@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of skew Dyck paths of semilength n having k LD's (n>=0; 0<=k<=floor((n-1)/2)).",
+  "id": "A128733",
+  "mentions": [
+    "A000245",
+    "A002212",
+    "A128734"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

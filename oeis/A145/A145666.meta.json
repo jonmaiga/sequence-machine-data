@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = numerator of polynomial of genus 1 and level n for m = 7 : A[1,n](7).",
+  "id": "A145666",
+  "mentions": [
+    "A001008",
+    "A145609",
+    "A145640",
+    "A145656",
+    "A145687"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

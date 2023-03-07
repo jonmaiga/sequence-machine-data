@@ -1,0 +1,37 @@
+{
+  "description": "Number of times prime(n) occurs as the least prime factor among numbers 1 .. prime(n)^3: a(n) = A078898(A030078(n)).",
+  "id": "A250474",
+  "mentions": [
+    "A000040",
+    "A000879",
+    "A001248",
+    "A002110",
+    "A005867",
+    "A008683",
+    "A008836",
+    "A020639",
+    "A030078",
+    "A050216",
+    "A054272",
+    "A055396",
+    "A078898",
+    "A249821",
+    "A249822",
+    "A250473",
+    "A250477",
+    "A250478",
+    "A251721",
+    "A251722"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

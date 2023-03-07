@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of 7's possible in an infinite Minesweeper grid with n mines.",
+  "id": "A302931",
+  "mentions": [
+    "A047345",
+    "A302928",
+    "A302929",
+    "A302930"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that share a (decimal) digit with at least 1 of their proper divisors.",
+  "id": "A357929",
+  "mentions": [
+    "A038770"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

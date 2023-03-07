@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the position of n^2 in the list of perfect powers.",
+  "id": "A340698",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A340699"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

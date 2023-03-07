@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 24*p is the difference of two squares of primes in three different ways.",
+  "id": "A358313",
+  "mentions": [
+    "A124865"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

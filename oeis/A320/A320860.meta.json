@@ -1,0 +1,24 @@
+{
+  "description": "Powers of 2 with initial digit 4.",
+  "id": "A320860",
+  "mentions": [
+    "A000079",
+    "A008952",
+    "A067480",
+    "A067482",
+    "A067488",
+    "A217397",
+    "A320859"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

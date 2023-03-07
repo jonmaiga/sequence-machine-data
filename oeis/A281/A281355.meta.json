@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A092318(n) + 1: Number of terms of the odd harmonic series 1 + 1/3 + 1/5 + 1/7 + ... required to reach a sum >= n.",
+  "id": "A281355",
+  "mentions": [
+    "A002387",
+    "A056053",
+    "A092315",
+    "A092318"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

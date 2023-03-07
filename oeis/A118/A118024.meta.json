@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T, read by rows, T(n,k) = T(n-k)*2^(k*(n-k)) such that column 0 of the matrix square of T equals column 0 of T shifted left: [T^2](n,k) = T(n-k+1,0)*2^(k*(n-k)) for n>=k>=0.",
+  "id": "A118024",
+  "mentions": [
+    "A117401",
+    "A118022",
+    "A118025",
+    "A123305"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

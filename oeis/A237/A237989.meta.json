@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the numbers of primes, even positive integers and odd positive integers less than or equal to m are all odd.",
+  "id": "A237989",
+  "mentions": [
+    "A042963",
+    "A042964",
+    "A057812",
+    "A237990"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

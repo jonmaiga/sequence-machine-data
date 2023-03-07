@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest permutation of [1,2,...,n] minimizing the positive value of the determinant of an n X n circulant matrix that uses this permutation as first row, written as triangle T(n,k), k <= n.",
+  "id": "A328062",
+  "mentions": [
+    "A309257",
+    "A328029",
+    "A328030"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

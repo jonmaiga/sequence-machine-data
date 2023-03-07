@@ -1,0 +1,18 @@
+{
+  "description": "Run lengths in A037861 having the same sign.",
+  "id": "A145015",
+  "mentions": [
+    "A037861"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

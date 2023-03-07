@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the largest parts in the partitions of n into 5 primes.",
+  "id": "A308859",
+  "mentions": [
+    "A010051",
+    "A259195",
+    "A308854",
+    "A308855",
+    "A308856",
+    "A308857",
+    "A308858"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

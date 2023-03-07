@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest k such that there is no square between prime(k) and prime(k+n).",
+  "id": "A224699",
+  "mentions": [
+    "A221056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

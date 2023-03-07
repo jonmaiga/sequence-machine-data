@@ -1,0 +1,21 @@
+{
+  "description": "1/4 of the number of paths that are made of alternate vertical and horizontal 4*n consecutive prime (> 2 and < prime(4*n+2)) steps. (Each path begins and ends at the same point but is allowed to intersect itself.)",
+  "id": "A292700",
+  "mentions": [
+    "A000040",
+    "A007219",
+    "A292698",
+    "A292699"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

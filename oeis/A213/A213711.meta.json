@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = minimal k for which A218600(k) >= n.",
+  "id": "A213711",
+  "mentions": [
+    "A179016",
+    "A213709",
+    "A217309",
+    "A218600"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 - x - (1 - sqrt(1 + 4*x^4)) / (2*x) in powers of x.",
+  "id": "A182492",
+  "mentions": [
+    "A000108",
+    "A087960"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Binomial transform of triangle A046854 (shifted).",
+  "id": "A153342",
+  "mentions": [
+    "A001519",
+    "A007318",
+    "A046854",
+    "A084938",
+    "A121462"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:21:25",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

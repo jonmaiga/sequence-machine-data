@@ -1,0 +1,26 @@
+{
+  "description": "Triangle interpolating the swinging factorial (A056040) restricted to even indices with its binomial transform. Same as interpolating bilateral Schroeder paths (A026375) with the central binomial coefficients (A000984).",
+  "id": "A163841",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A026375",
+    "A056040",
+    "A163650",
+    "A163840",
+    "A163842",
+    "A163844",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

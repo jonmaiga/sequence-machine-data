@@ -1,0 +1,21 @@
+{
+  "description": "Consider the array T(n, m) where the n-th row is the sequence of integer coefficients of A(x), where 1<=a(n)<=n, such that A(x)^(1/n) consists entirely of integer coefficients and where m is the (m+1)-th coefficient. This is the table in the example of A112283 read term by term, row by row.",
+  "id": "A141524",
+  "mentions": [
+    "A111603",
+    "A111604",
+    "A112283"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

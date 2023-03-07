@@ -1,0 +1,23 @@
+{
+  "description": "Positions of 0,1,0 in the Thue-Morse sequence (A010060).",
+  "id": "A248104",
+  "mentions": [
+    "A010060",
+    "A157970",
+    "A157971",
+    "A248056",
+    "A248057",
+    "A248105"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

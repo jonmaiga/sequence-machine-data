@@ -1,0 +1,20 @@
+{
+  "description": "Colombian palindromes.",
+  "id": "A332970",
+  "mentions": [
+    "A002113",
+    "A003052",
+    "A332240"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Interspersion fractally induced by A194979, a rectangular array, by antidiagonals.",
+  "id": "A194981",
+  "mentions": [
+    "A019480",
+    "A097337",
+    "A194959",
+    "A194979",
+    "A194980",
+    "A194982"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

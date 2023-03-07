@@ -1,0 +1,32 @@
+{
+  "description": "Restricted growth sequence transform of ((-1)^n)*A046523(n); filter combining the parity and the prime signature of n.",
+  "id": "A291761",
+  "mentions": [
+    "A000035",
+    "A001248",
+    "A030078",
+    "A046388",
+    "A046523",
+    "A065091",
+    "A098108",
+    "A100484",
+    "A101296",
+    "A147516",
+    "A286161",
+    "A286251",
+    "A286367",
+    "A291762",
+    "A291767",
+    "A291768"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

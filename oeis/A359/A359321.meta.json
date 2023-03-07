@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest n-gonal pyramidal number which can be represented as the sum of n distinct nonzero n-gonal pyramidal numbers in exactly n ways, or -1 if none exists.",
+  "id": "A359321",
+  "mentions": [
+    "A080851",
+    "A350210",
+    "A350397",
+    "A350423"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

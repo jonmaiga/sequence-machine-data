@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number representable in exactly n ways as a sum of 3 powerful(1) numbers.",
+  "id": "A115355",
+  "mentions": [
+    "A001694",
+    "A063274",
+    "A085252",
+    "A085253",
+    "A085254",
+    "A085255",
+    "A115354"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

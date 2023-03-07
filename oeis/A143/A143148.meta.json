@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of lower bound using Shannon entropy arising in randomly projected hypercubes.",
+  "id": "A143148",
+  "mentions": [
+    "A143149"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:43",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

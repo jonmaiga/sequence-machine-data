@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = d(n)/p(n-1)# where d(n) > 0 is the common difference of the smallest p-term arithmetic progression of primes beginning with p = p(n) = n-th prime.",
+  "id": "A231018",
+  "mentions": [
+    "A002110",
+    "A088430",
+    "A231017"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

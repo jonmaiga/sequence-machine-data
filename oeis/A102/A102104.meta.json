@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangular matrix A102101, which shifts upward to exclude the main diagonal under matrix fourth power.",
+  "id": "A102104",
+  "mentions": [
+    "A102101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

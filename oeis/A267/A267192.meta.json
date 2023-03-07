@@ -1,0 +1,20 @@
+{
+  "description": "Column 3 of triangle in A059317 (the Pascal \"Rhombus\").",
+  "id": "A267192",
+  "mentions": [
+    "A059317",
+    "A106050",
+    "A106053"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that abs(p - 3*k) is also prime, where p is the k-th prime.",
+  "id": "A231432",
+  "mentions": [
+    "A061068",
+    "A064402",
+    "A231232",
+    "A231383"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

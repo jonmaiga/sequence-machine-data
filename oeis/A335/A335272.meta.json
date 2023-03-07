@@ -1,0 +1,22 @@
+{
+  "description": "For m to be a term there must exist three Euclidean divisions of m by d, d', and d\", m = d*q + r = d'*q' + r' = d\"*q\" + r\", such that (r, q, d), (r', d', q'), and (q\", r\", d\") are three geometric progressions.",
+  "id": "A335272",
+  "mentions": [
+    "A002378",
+    "A127629",
+    "A334185",
+    "A334186",
+    "A335064",
+    "A335065"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

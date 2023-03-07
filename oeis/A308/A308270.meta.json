@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime with E-irregularity index n.",
+  "id": "A308270",
+  "mentions": [
+    "A000040",
+    "A000364",
+    "A061576",
+    "A092217",
+    "A308243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Carmichael numbers m having a Fermat prime (A019434) factor such that A002322(m) = 2^k * p^2, where k is an integer and p is an odd prime.",
+  "id": "A293291",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A019434",
+    "A214428"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

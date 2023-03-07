@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by antidiagonals downwards: each row starts with the least prime not in a previous row, and each prime p in a row is followed by the least prime > 2*p.",
+  "id": "A229608",
+  "mentions": [
+    "A055496",
+    "A064934",
+    "A065545",
+    "A065546",
+    "A193507",
+    "A194598",
+    "A229607",
+    "A229609",
+    "A229610"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

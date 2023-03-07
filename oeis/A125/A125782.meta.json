@@ -1,0 +1,24 @@
+{
+  "description": "Column 2 of table A125781.",
+  "id": "A125782",
+  "mentions": [
+    "A091351",
+    "A091352",
+    "A125781",
+    "A125783",
+    "A125784",
+    "A125785",
+    "A125786"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

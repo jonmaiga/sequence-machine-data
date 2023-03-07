@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A340179(k) is a square.",
+  "id": "A341059",
+  "mentions": [
+    "A340179",
+    "A341060",
+    "A341061"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

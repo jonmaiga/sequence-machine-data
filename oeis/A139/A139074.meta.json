@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = smallest prime p such that p!/n + 1 is prime, or 0 if no such prime exists.",
+  "id": "A139074",
+  "mentions": [
+    "A007749",
+    "A020458",
+    "A082672",
+    "A089085",
+    "A089130",
+    "A117141",
+    "A136019",
+    "A136020",
+    "A136026",
+    "A136027",
+    "A137390",
+    "A139056",
+    "A139066",
+    "A139068",
+    "A139070",
+    "A139075",
+    "A139206",
+    "A139207"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

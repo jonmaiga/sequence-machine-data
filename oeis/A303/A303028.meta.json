@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, a(1) = a(2) = 1; for k >= 2, a(2*k-1) = k - 1 - a(k-1) - a(k), a(2*k) = a(2*k-1) - a(k).",
+  "id": "A303028",
+  "mentions": [
+    "A002487",
+    "A330328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hear",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

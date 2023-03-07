@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, 0<=k<=n) = number of partitions of 2n+1 into 2k+1 odd parts.",
+  "id": "A152157",
+  "mentions": [
+    "A008284",
+    "A078408",
+    "A107379",
+    "A152140",
+    "A152146"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

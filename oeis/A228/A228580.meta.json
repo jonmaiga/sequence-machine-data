@@ -1,0 +1,19 @@
+{
+  "description": "y-values in the solution to the Pell equation x^2 - 106*y^2 = -1.",
+  "id": "A228580",
+  "mentions": [
+    "A228579"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

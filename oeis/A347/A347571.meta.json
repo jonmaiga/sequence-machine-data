@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the e.g.f. (-1 - 2*x - 2*log(1 - x) + exp(-2*x) / (1 - x)^2) / 4 + 1.",
+  "id": "A347571",
+  "mentions": [
+    "A106828",
+    "A343482",
+    "A345697",
+    "A345969",
+    "A346119",
+    "A347210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

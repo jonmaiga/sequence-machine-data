@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary expansion generates 3-fold rotationally symmetric EQ-triangles.",
+  "id": "A335132",
+  "mentions": [
+    "A030101",
+    "A279645",
+    "A334556"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

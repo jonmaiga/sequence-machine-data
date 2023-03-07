@@ -1,0 +1,22 @@
+{
+  "description": "Least number k such that A258769(k) = n.",
+  "id": "A258819",
+  "mentions": [
+    "A014682",
+    "A070168",
+    "A258769"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

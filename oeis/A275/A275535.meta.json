@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest positive multiple of n that is the sum of more than 1 consecutive positive integers.",
+  "id": "A275535",
+  "mentions": [
+    "A138591",
+    "A160899"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

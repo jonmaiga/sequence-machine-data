@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes that are the concatenation of n 1's, 2^n and n 1's",
+  "id": "A261364",
+  "mentions": [
+    "A001358",
+    "A002275",
+    "A068817",
+    "A070220",
+    "A070746",
+    "A262399"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

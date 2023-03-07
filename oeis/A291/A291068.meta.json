@@ -1,0 +1,24 @@
+{
+  "description": "Largest number of distinct words arising in Watanabe's tag system {00, 1110} applied to a binary word w, over all starting words w of length n.",
+  "id": "A291068",
+  "mentions": [
+    "A284116",
+    "A289670",
+    "A291067",
+    "A291069",
+    "A291073",
+    "A291778",
+    "A291779"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

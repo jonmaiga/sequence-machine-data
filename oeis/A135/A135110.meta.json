@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers such that the digital sum base 2 and the digital sum base 10 are in a ratio of 2:10.",
+  "id": "A135110",
+  "mentions": [
+    "A007953",
+    "A227793"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

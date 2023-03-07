@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime p > prime(n+2) such that the first n odd primes 3, 5, 7, 11, ..., prime(n+1) are quadratic residues mod p, and prime(n+2) is a quadratic non-residue mod p.",
+  "id": "A222756",
+  "mentions": [
+    "A096636"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

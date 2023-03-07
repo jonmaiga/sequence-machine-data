@@ -1,0 +1,24 @@
+{
+  "description": "Number of move operations required to sort all permutations of [n] by MTF sort.",
+  "id": "A279683",
+  "mentions": [
+    "A000142",
+    "A088164",
+    "A212395",
+    "A240797",
+    "A280970",
+    "A330718",
+    "A330719"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

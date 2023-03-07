@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimal total dominating sets in the wheel graph on n nodes.",
+  "id": "A302658",
+  "mentions": [
+    "A213661",
+    "A290270",
+    "A300738",
+    "A302603"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:11:52",
+    "offset": 2,
+    "size": 47,
+    "source": "joeis"
+  }
+}

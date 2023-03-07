@@ -1,0 +1,28 @@
+{
+  "description": "Regular triangle read by rows where T(n, k) is the number of ways to split an n-cycle into connected subsequences of sizes > k, n >=1, 0 <= k < n.",
+  "id": "A323954",
+  "mentions": [
+    "A000325",
+    "A001610",
+    "A001680",
+    "A005251",
+    "A066982",
+    "A306351",
+    "A323950",
+    "A323951",
+    "A323952",
+    "A323953"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

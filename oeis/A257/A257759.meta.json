@@ -1,0 +1,18 @@
+{
+  "description": "Quasi-Carmichael numbers to at least one negative base and at least one positive base.",
+  "id": "A257759",
+  "mentions": [
+    "A259282",
+    "A259283"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

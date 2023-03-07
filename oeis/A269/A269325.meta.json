@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = initial term of an arithmetic progression of nine primes used to form a 3 X 3 magic square with magic sum A269324(n).",
+  "id": "A269325",
+  "mentions": [
+    "A227284",
+    "A269324"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of (3+sqrt(9+4r))/2, where r=sqrt(3).",
+  "id": "A190286",
+  "mentions": [
+    "A188635",
+    "A190285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:53",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

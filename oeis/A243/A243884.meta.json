@@ -1,0 +1,18 @@
+{
+  "description": "Type of walk that occurs when walking along a ray emanating from the center of a rotationally symmetric Penrose rhomb tiling with a \"Sun\" patch at the center (see comments for details).",
+  "id": "A243884",
+  "mentions": [
+    "A242129"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

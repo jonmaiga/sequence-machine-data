@@ -1,0 +1,21 @@
+{
+  "description": "Smallest b > 1 such that b^(2^n)+1 is a Sophie Germain prime.",
+  "id": "A358621",
+  "mentions": [
+    "A005384",
+    "A056993",
+    "A182154"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

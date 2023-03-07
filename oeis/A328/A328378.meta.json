@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of length n that possess the maximal sum of distances between contiguous elements.",
+  "id": "A328378",
+  "mentions": [
+    "A047838"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

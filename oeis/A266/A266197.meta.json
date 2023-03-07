@@ -1,0 +1,22 @@
+{
+  "description": "Indices of \"good matches\" produced by match-making permutation A266195; numbers n for which A070939(A266195(n)) = A070939(A266195(n+1)), where A070939(n) gives the length of base-2 representation of n.",
+  "id": "A266197",
+  "mentions": [
+    "A070939",
+    "A264982",
+    "A265748",
+    "A265749",
+    "A266195"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

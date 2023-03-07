@@ -1,0 +1,21 @@
+{
+  "description": "The number of ways to paint the cells of the six convex regular 4-polytopes using exactly n colors where n is the number of cells of each 4-polytope.",
+  "id": "A317978",
+  "mentions": [
+    "A098427",
+    "A198861",
+    "A273509"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

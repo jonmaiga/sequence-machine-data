@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that bitand(2k,sigma(k))/2 = k = bitand(k,sigma(k)-k), where bitand is bitwise-AND, A004198.",
+  "id": "A324643",
+  "mentions": [
+    "A004198",
+    "A318458",
+    "A318468",
+    "A324639",
+    "A324649",
+    "A324652"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled star-like graphs on n vertices.",
+  "id": "A208356",
+  "mentions": [
+    "A006125",
+    "A058862",
+    "A179534"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

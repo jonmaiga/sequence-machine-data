@@ -1,0 +1,22 @@
+{
+  "description": "The numbers 4^n-1 written in groups of three digits, with leading zeros omitted.",
+  "id": "A114807",
+  "mentions": [
+    "A114645",
+    "A114804",
+    "A114808",
+    "A114827"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

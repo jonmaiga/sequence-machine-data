@@ -1,0 +1,17 @@
+{
+  "description": "Similar to A112683, but using the recurrence x(i) = x(i-1)^2 + x(i-n) mod 3.",
+  "id": "A112684",
+  "mentions": [
+    "A112683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that n consecutive integers starting at k have the same number of odd divisors (A001227).",
+  "id": "A324593",
+  "mentions": [
+    "A001227",
+    "A006558",
+    "A045983",
+    "A045984",
+    "A323253",
+    "A324594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

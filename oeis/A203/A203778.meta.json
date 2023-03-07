@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = -24*A015219(n-2)*a(n-1), with a(1) = 2.",
+  "id": "A203778",
+  "mentions": [
+    "A015219",
+    "A202946",
+    "A202948"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

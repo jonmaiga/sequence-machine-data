@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = #{1 <= k <= ceiling(n/2) : A000002(2k-1) = 2}.",
+  "id": "A156080",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

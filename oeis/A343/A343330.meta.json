@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest odd positive integer that is abundant and has the same prime signature as A279537(n) or 0 if no such integer exists.",
+  "id": "A343330",
+  "mentions": [
+    "A279537"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

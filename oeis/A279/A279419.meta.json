@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k from A284919 such that either k-1 or k+1 is in A277688.",
+  "id": "A279419",
+  "mentions": [
+    "A277688",
+    "A284919"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n-29, n-1, n+1 and n+29 are consecutive primes.",
+  "id": "A265651",
+  "mentions": [
+    "A014574",
+    "A049481",
+    "A077800",
+    "A124595",
+    "A249674",
+    "A252090",
+    "A256753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

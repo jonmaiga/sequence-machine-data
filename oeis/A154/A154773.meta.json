@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 252n^2 is the average of a twin prime pair.",
+  "id": "A154773",
+  "mentions": [
+    "A037073",
+    "A154331",
+    "A154673",
+    "A154676",
+    "A154772"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

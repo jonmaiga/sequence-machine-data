@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative function defined for prime powers by a(p^k) = p + p^2 + p^3 + ... + p^(k-1) - 1 (k >= 1).",
+  "id": "A126690",
+  "mentions": [
+    "A020639",
+    "A028234",
+    "A046090",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

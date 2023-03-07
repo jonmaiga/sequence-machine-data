@@ -1,0 +1,18 @@
+{
+  "description": "Signature sequence of Phi^6 = 17.944271909999..., where Phi is the golden ratio 1.6180339887499... .",
+  "id": "A167974",
+  "mentions": [
+    "A084531",
+    "A084532"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

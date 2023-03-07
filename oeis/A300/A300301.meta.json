@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to choose a partition, with odd parts, of each part of a partition of n into odd parts.",
+  "id": "A300301",
+  "mentions": [
+    "A000009",
+    "A063834",
+    "A078408",
+    "A089259",
+    "A270995",
+    "A271619",
+    "A279374",
+    "A279375",
+    "A279785",
+    "A279790",
+    "A294617",
+    "A300300"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

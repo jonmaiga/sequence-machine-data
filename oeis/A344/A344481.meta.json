@@ -1,0 +1,17 @@
+{
+  "description": "Isolated single primes enclosed by four composites on square spiral board of odd numbers.",
+  "id": "A344481",
+  "mentions": [
+    "A341542"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

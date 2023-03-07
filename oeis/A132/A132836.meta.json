@@ -1,0 +1,18 @@
+{
+  "description": "Largest integer terms forming a self-convolution cube-root of a sequence (A132835) such that: A132835(n) <= 3*A132835(n-1) for n>0 with A132835(0)=1.",
+  "id": "A132836",
+  "mentions": [
+    "A132831",
+    "A132835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

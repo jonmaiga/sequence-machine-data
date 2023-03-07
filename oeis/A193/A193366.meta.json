@@ -1,0 +1,30 @@
+{
+  "description": "Primes of the form n^4 + n^3 + n^2 + n + 1 where n is nonprime.",
+  "id": "A193366",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A049409",
+    "A053699",
+    "A065509",
+    "A085104",
+    "A088548",
+    "A125134",
+    "A185632",
+    "A190527",
+    "A192321",
+    "A286094"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

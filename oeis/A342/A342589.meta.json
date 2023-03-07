@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the number of posets of n labeled elements with k covering relations (n>=1, k>=0). Triangle read by rows.",
+  "id": "A342589",
+  "mentions": [
+    "A001035",
+    "A002378",
+    "A033486",
+    "A342447",
+    "A342588"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

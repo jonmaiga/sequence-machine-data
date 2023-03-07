@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n that contain at least one odd prime as a part.",
+  "id": "A355193",
+  "mentions": [
+    "A000041",
+    "A065091",
+    "A235945",
+    "A353188",
+    "A355195"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

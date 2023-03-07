@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which row n lists the number of states of the subshells of the n-th shell of the nuclear shell model ordered by energy level in increasing order.",
+  "id": "A213362",
+  "mentions": [
+    "A018226",
+    "A130517",
+    "A162630",
+    "A212012",
+    "A212122",
+    "A213361",
+    "A213363",
+    "A213364",
+    "A213372"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

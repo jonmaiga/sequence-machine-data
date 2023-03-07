@@ -1,0 +1,20 @@
+{
+  "description": "Numbers all of whose divisors are binary palindromes (A329419) with a record number of divisors.",
+  "id": "A329420",
+  "mentions": [
+    "A000005",
+    "A006995",
+    "A329419"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

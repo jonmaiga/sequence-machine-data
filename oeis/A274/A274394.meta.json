@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies: A( A( x^4*exp(-4*x) )^(1/4) ) = x.",
+  "id": "A274394",
+  "mentions": [
+    "A216857",
+    "A274275",
+    "A274393",
+    "A274395"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

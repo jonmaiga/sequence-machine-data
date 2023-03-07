@@ -1,0 +1,24 @@
+{
+  "description": "Fibonacci numbers Fib(n) whose decimal expansion does not contain any digit 6.",
+  "id": "A177247",
+  "mentions": [
+    "A000045",
+    "A176253",
+    "A177194",
+    "A177195",
+    "A177231",
+    "A177245",
+    "A177246"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

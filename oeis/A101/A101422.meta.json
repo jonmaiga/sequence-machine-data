@@ -1,0 +1,22 @@
+{
+  "description": "Minimal number of primes needed to sum to Fibonacci(n).",
+  "id": "A101422",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A051034",
+    "A102106",
+    "A102107"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

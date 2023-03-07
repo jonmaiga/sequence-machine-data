@@ -1,0 +1,22 @@
+{
+  "description": "13-adic valuations of terms of A217416.",
+  "id": "A217418",
+  "mentions": [
+    "A216416",
+    "A217416",
+    "A217417"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

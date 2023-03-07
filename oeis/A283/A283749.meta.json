@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the limit of the nested sin(1+ sin(2+ sin(3+ sin(4+ ...)))).",
+  "id": "A283749",
+  "mentions": [
+    "A072449",
+    "A277313"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Continued fraction for beta = 3/(2*log(alpha/2)); alpha = A195596.",
+  "id": "A195600",
+  "mentions": [
+    "A195581",
+    "A195582",
+    "A195583",
+    "A195596",
+    "A195597",
+    "A195598",
+    "A195599",
+    "A195601"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that pk is of minimal Hamming weight, where p is the n-th prime.",
+  "id": "A278968",
+  "mentions": [
+    "A086342",
+    "A278966",
+    "A278967"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if A353749(n) > A353749(sigma(n)), otherwise 0. Here A353749(n) = phi(n)*A064989(n), and A064989 shifts the prime factorization one step towards lower primes.",
+  "id": "A353760",
+  "mentions": [
+    "A064989",
+    "A353638",
+    "A353639",
+    "A353681",
+    "A353749",
+    "A353750",
+    "A353757",
+    "A353758",
+    "A353759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

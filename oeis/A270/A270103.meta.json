@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n, k) is the sum of the integer part of the n-th roots of natural numbers less than k.",
+  "id": "A270103",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A022554",
+    "A031876",
+    "A032512",
+    "A032513"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

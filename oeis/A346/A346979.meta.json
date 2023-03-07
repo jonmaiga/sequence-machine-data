@@ -1,0 +1,25 @@
+{
+  "description": "Count of the prime decimal descendants of n.",
+  "id": "A346979",
+  "mentions": [
+    "A030665",
+    "A032352",
+    "A038800",
+    "A119289",
+    "A122072",
+    "A214342",
+    "A218255",
+    "A256481"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

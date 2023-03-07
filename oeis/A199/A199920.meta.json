@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n = p+k with p, p+6, 6k-1 and 6k+1 all prime",
+  "id": "A199920",
+  "mentions": [
+    "A001359",
+    "A002375",
+    "A006512",
+    "A023201",
+    "A199800",
+    "A219055",
+    "A219864",
+    "A219923"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

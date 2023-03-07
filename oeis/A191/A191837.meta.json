@@ -1,0 +1,18 @@
+{
+  "description": "Least even number m which can be written as sum of 2n primes p(1) < ... < p(2n) < m/2 such that m-p(i) is also prime for i=1,...,2n.",
+  "id": "A191837",
+  "mentions": [
+    "A007921",
+    "A014092"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

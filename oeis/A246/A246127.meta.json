@@ -1,0 +1,20 @@
+{
+  "description": "Limiting block extension of the (2,1)-version of the infinite Fibonacci word A014675 with first term as initial block.",
+  "id": "A246127",
+  "mentions": [
+    "A014675",
+    "A245920",
+    "A246128",
+    "A246129"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

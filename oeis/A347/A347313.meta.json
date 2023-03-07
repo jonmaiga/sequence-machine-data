@@ -1,0 +1,17 @@
+{
+  "description": "Index of prime(n) in A347113, or -1 if that prime never appears.",
+  "id": "A347313",
+  "mentions": [
+    "A347113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

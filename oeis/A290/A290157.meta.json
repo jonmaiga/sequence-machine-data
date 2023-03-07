@@ -1,0 +1,20 @@
+{
+  "description": "Tribonacci-like sequence of composite numbers with a(0) = 151646890045, a(1) = 836564809606 and a(2) = 942785024683.",
+  "id": "A290157",
+  "mentions": [
+    "A000073",
+    "A290156"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

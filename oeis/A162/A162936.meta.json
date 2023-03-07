@@ -1,0 +1,20 @@
+{
+  "description": "Highly composite numbers (A002182) whose following highly composite number is at least 3/2 times greater.",
+  "id": "A162936",
+  "mentions": [
+    "A002182",
+    "A162935"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (1 - exp(-n^3*x))^n.",
+  "id": "A203798",
+  "mentions": [
+    "A187755",
+    "A220181",
+    "A242229"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

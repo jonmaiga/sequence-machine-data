@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(2n) = A000079(A055396(2n+1)-1) * ((2*A246277(2n+1))-1), a(2n+1) = 1 + 2*a(n).",
+  "id": "A246677",
+  "mentions": [
+    "A000079",
+    "A055396",
+    "A156552",
+    "A246277",
+    "A246675",
+    "A246678",
+    "A246679",
+    "A246683"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Prime numbers in the lexicographically earliest sequence of positive integers whose prime indices are not already in the sequence (A304360).",
+  "id": "A317964",
+  "mentions": [
+    "A000720",
+    "A001462",
+    "A007097",
+    "A060197",
+    "A079254",
+    "A112798",
+    "A276625",
+    "A277098",
+    "A290822",
+    "A304360",
+    "A306844",
+    "A324695",
+    "A324696",
+    "A324698",
+    "A324704",
+    "A324741",
+    "A324756",
+    "A324758",
+    "A324765",
+    "A324766",
+    "A324768"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

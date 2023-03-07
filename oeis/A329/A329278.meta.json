@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows. The n-th row is the permutation of {0, 1, 2, ..., 2^n-1} given by T(n,k) = k(k+1)/2 (mod 2^n).",
+  "id": "A329278",
+  "mentions": [
+    "A000217",
+    "A000225",
+    "A017911",
+    "A053645",
+    "A105332",
+    "A131577",
+    "A330766",
+    "A331105"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

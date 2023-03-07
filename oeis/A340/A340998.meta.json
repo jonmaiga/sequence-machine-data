@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of n into 7 distinct nonzero squares.",
+  "id": "A340998",
+  "mentions": [
+    "A000290",
+    "A008451",
+    "A010052",
+    "A025431",
+    "A025441",
+    "A025442",
+    "A025443",
+    "A025444",
+    "A045849",
+    "A224982",
+    "A340906",
+    "A340988",
+    "A340999",
+    "A341000",
+    "A341001",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 140,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

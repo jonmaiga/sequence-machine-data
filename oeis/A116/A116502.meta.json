@@ -1,0 +1,20 @@
+{
+  "description": "Squares with structure dmdmd, where d is a single digit and m a string of digits.",
+  "id": "A116502",
+  "mentions": [
+    "A069919",
+    "A116500",
+    "A116501"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

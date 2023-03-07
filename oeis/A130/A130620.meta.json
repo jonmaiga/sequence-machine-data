@@ -1,0 +1,21 @@
+{
+  "description": "Defined in comments.",
+  "id": "A130620",
+  "mentions": [
+    "A000796",
+    "A141411"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

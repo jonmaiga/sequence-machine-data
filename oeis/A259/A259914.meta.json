@@ -1,0 +1,27 @@
+{
+  "description": "Staircase path through the array P(n,k) of the k-th partial sums of cubes (A000578).",
+  "id": "A259914",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A001405",
+    "A024166",
+    "A101094",
+    "A101097",
+    "A101102",
+    "A254469",
+    "A259775"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

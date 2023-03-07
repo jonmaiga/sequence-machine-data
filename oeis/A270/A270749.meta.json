@@ -1,0 +1,20 @@
+{
+  "description": "(r,1)-greedy sequence, where r(k) = k/log(k+1).",
+  "id": "A270749",
+  "mentions": [
+    "A001620",
+    "A270744"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f.: exp(Sum_{j=1..k+1} binomial(k,j-1)*x^j/j).",
+  "id": "A293991",
+  "mentions": [
+    "A000012",
+    "A000085",
+    "A049425",
+    "A049426",
+    "A049427",
+    "A049428",
+    "A291709",
+    "A294003"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The 10th Hermite Polynomial evaluated at n: H_10(n) = 1024*n^10 - 23040*n^8 + 161280*n^6 - 403200*n^4 + 302400*n^2 - 30240.",
+  "id": "A247855",
+  "mentions": [
+    "A247850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:45",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

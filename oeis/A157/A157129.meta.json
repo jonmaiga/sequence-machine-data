@@ -1,0 +1,21 @@
+{
+  "description": "An analog of the Kolakoski sequence A000002, only now a(n) = (length of n-th run divided by 2) using 1 and 2 and starting with 1,1.",
+  "id": "A157129",
+  "mentions": [
+    "A000002",
+    "A071928",
+    "A229785",
+    "A284796"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

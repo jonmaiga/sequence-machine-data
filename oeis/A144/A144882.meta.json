@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A144881 (S1hat(3)) and of array A144880 (M31hat(3)).",
+  "id": "A144882",
+  "mentions": [
+    "A144880",
+    "A144881"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Ordinal transform of A286622, or equally, of A278222.",
+  "id": "A286552",
+  "mentions": [
+    "A263017",
+    "A278222",
+    "A286554",
+    "A286622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

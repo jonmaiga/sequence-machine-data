@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed pseudo-polytans with n cells.",
+  "id": "A354405",
+  "mentions": [
+    "A006074",
+    "A353978",
+    "A354380"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

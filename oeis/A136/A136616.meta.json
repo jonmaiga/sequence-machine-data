@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = largest m with H(m) - H(n) <= 1, where H(i) = Sum_{j=1 to i} 1/j, the i-th harmonic number, H(0) = 0.",
+  "id": "A136616",
+  "mentions": [
+    "A001008",
+    "A002387",
+    "A002805",
+    "A004080",
+    "A014537",
+    "A055980",
+    "A079353",
+    "A096618",
+    "A103762",
+    "A115515",
+    "A136617"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

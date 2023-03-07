@@ -1,0 +1,21 @@
+{
+  "description": "Digital roots of centered square numbers (A001844).",
+  "id": "A254373",
+  "mentions": [
+    "A001844",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:04:37",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

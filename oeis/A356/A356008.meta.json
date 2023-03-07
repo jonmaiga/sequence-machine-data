@@ -1,0 +1,25 @@
+{
+  "description": "A variant of Look and Say sequence (A005150) based on exponents in prime factorization of n (see Comments section for precise definition).",
+  "id": "A356008",
+  "mentions": [
+    "A002110",
+    "A005150",
+    "A007814",
+    "A008776",
+    "A067255",
+    "A244990",
+    "A356014",
+    "A356016"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

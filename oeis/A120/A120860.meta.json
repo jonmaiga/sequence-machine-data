@@ -1,0 +1,29 @@
+{
+  "description": "Fixed-j dispersion for Q = 8: Square array D(g,h) (g, h >= 1), read by ascending antidiagonals.",
+  "id": "A120860",
+  "mentions": [
+    "A087056",
+    "A087059",
+    "A098021",
+    "A120858",
+    "A120859",
+    "A120861",
+    "A120862",
+    "A120863",
+    "A120871",
+    "A187967",
+    "A187968"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

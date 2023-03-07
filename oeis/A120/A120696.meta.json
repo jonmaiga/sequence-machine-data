@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose factorial representation contains no zeros and each digit is at most one larger than the largest following digit.",
+  "id": "A120696",
+  "mentions": [
+    "A000110",
+    "A071156",
+    "A120695",
+    "A120697",
+    "A120698"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

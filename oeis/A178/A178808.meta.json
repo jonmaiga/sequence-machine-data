@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (1/n^2) * Sum_{k = 0..n-1} (2*k+1)*(D_k)^2, where D_0, D_1, ... are central Delannoy numbers given by A001850.",
+  "id": "A178808",
+  "mentions": [
+    "A001850",
+    "A173774",
+    "A178790",
+    "A178791",
+    "A358387",
+    "A358388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

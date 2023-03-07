@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to the congruence y^2 + x*y + y == x^3 + x^2 - 10*x - 10 (mod p) as p runs through the primes.",
+  "id": "A275742",
+  "mentions": [
+    "A275745"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

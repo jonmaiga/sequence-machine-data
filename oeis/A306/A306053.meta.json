@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk 0..1 arrays with every element unequal to 0, 1, 2, 3, 6 or 7 king-move adjacent elements, with upper left element zero.",
+  "id": "A306053",
+  "mentions": [
+    "A000079",
+    "A303721"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

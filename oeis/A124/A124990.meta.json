@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form 12k+1 generated recursively. Initial prime is 13. General term is a(n)=Min {p is prime; p divides Q^4-Q^2+1}, where Q is the product of previous terms in the sequence.",
+  "id": "A124990",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A068228",
+    "A124984",
+    "A124993",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

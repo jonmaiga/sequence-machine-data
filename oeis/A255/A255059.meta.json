@@ -1,0 +1,19 @@
+{
+  "description": "Positions n where A255054(n) is odd.",
+  "id": "A255059",
+  "mentions": [
+    "A255054",
+    "A255060",
+    "A255061"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of unit cells intersected by the circumference of a circle centered on the origin with radius squared equal to the norm of the Gaussian integers A001481(n).",
+  "id": "A333597",
+  "mentions": [
+    "A001481",
+    "A055025",
+    "A057655",
+    "A119439",
+    "A242118"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

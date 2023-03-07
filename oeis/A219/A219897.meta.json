@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose binary expansion has curling number > 1.",
+  "id": "A219897",
+  "mentions": [
+    "A219763",
+    "A219764",
+    "A219896"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

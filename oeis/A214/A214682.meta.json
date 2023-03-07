@@ -1,0 +1,29 @@
+{
+  "description": "Remove 2's that do not contribute to a factor of 4 from the prime factorization of n.",
+  "id": "A214682",
+  "mentions": [
+    "A003159",
+    "A007814",
+    "A036554",
+    "A056832",
+    "A059895",
+    "A059897",
+    "A073675",
+    "A214681",
+    "A214685",
+    "A235127"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

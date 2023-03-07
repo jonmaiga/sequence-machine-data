@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that R(7*n) is not palindromic and R(7*n) is divisible by 7.",
+  "id": "A175460",
+  "mentions": [
+    "A004086",
+    "A045642"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

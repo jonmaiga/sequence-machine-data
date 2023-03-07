@@ -1,0 +1,22 @@
+{
+  "description": "Least prime divisor of the n-th central Delannoy number D(n) which does not divide any D(k) with k < n, or 1 if such a primitive prime divisor of D(n) does not exist.",
+  "id": "A242173",
+  "mentions": [
+    "A000040",
+    "A001850",
+    "A005259",
+    "A242169",
+    "A242170",
+    "A242171"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

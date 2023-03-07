@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer m such that A087285(n) = A154333(m) = m^3 - next smaller square.",
+  "id": "A154332",
+  "mentions": [
+    "A000578",
+    "A048760",
+    "A081120",
+    "A081121",
+    "A087285",
+    "A154333"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers equal to a promic number or an anagram of a promic number.",
+  "id": "A162393",
+  "mentions": [
+    "A000045",
+    "A002378",
+    "A055642",
+    "A162394"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

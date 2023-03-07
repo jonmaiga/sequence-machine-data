@@ -1,0 +1,21 @@
+{
+  "description": "Reciprocal of Vandermonde determinant of (1/2,1/4,...,1/(2n)).",
+  "id": "A203424",
+  "mentions": [
+    "A074962",
+    "A203421",
+    "A203425"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

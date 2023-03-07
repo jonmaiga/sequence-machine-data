@@ -1,0 +1,18 @@
+{
+  "description": "\"Ungodly\" numbers: numbers that, in some base b > 6, contain the string 666 at least once in their expansion.",
+  "id": "A137201",
+  "mentions": [
+    "A121205"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

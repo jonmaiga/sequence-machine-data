@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of (marked) circular binary words of length n having k occurrences of 00 (0 <= k <= n).",
+  "id": "A119458",
+  "mentions": [
+    "A000079",
+    "A000204",
+    "A000358",
+    "A006490",
+    "A006491",
+    "A006492",
+    "A057711",
+    "A212804",
+    "A320341"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

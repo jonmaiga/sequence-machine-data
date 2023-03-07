@@ -1,0 +1,19 @@
+{
+  "description": "Indices m for which A177961(m) = 4.",
+  "id": "A177964",
+  "mentions": [
+    "A177961"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:23",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A328412(k) sets a new record; numbers k such that (Z/mZ)* = C_2 X C_(2k) has more solutions for m than all k' < k, where (Z/mZ)* is the multiplicative group of integers modulo m.",
+  "id": "A328417",
+  "mentions": [
+    "A328412",
+    "A328418"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

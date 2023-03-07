@@ -1,0 +1,21 @@
+{
+  "description": "First term in Fibonacci-type sequence described by A015134.",
+  "id": "A179391",
+  "mentions": [
+    "A015134",
+    "A179390",
+    "A179392",
+    "A179393"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

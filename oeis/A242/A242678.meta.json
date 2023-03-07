@@ -1,0 +1,22 @@
+{
+  "description": "The number of ways that a score of n can be obtained using three darts on a standard dartboard.",
+  "id": "A242678",
+  "mentions": [
+    "A241746",
+    "A242681",
+    "A242717",
+    "A242718"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 178,
+    "source": "oeis-entry"
+  }
+}

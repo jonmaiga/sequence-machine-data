@@ -1,0 +1,18 @@
+{
+  "description": "Total sum of the sizes of all blocks with minimal element 9 in all set partitions of {1,2,...,n}.",
+  "id": "A270772",
+  "mentions": [
+    "A270701",
+    "A270702"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 9,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

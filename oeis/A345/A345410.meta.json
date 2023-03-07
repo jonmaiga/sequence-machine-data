@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number that is the sum of an emirp and its reversal in exactly n ways.",
+  "id": "A345410",
+  "mentions": [
+    "A006567",
+    "A056964",
+    "A345408",
+    "A345409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

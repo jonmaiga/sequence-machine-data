@@ -1,0 +1,28 @@
+{
+  "description": "Numbers C which generate successive records of the merit function of the ABC conjecture admitting only C which are powers of 23.",
+  "id": "A147642",
+  "mentions": [
+    "A007947",
+    "A009967",
+    "A085152",
+    "A085153",
+    "A120498",
+    "A147298",
+    "A147302",
+    "A147307",
+    "A147638",
+    "A147641",
+    "A147643"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

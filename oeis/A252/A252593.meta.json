@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to place 8 nonattacking queens on an n X n board.",
+  "id": "A252593",
+  "mentions": [
+    "A000170",
+    "A036464",
+    "A047659",
+    "A061994",
+    "A108792",
+    "A176186",
+    "A178721",
+    "A348129"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

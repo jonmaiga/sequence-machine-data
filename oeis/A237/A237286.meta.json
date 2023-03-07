@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(n) - n = perfect number (A000396).",
+  "id": "A237286",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

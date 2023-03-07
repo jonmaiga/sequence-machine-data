@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of expansion of original Debye function D(3,x).",
+  "id": "A120080",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A027641",
+    "A027642",
+    "A120081",
+    "A227570",
+    "A227571"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

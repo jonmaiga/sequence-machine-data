@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest prime p such that p+4 and q+4 are prime; q is the n-th prime after p.",
+  "id": "A105443",
+  "mentions": [
+    "A105439",
+    "A105444",
+    "A105445"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

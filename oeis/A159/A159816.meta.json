@@ -1,0 +1,21 @@
+{
+  "description": "Seven-digit terms in A023086 Numbers n such that n and 2*n are anagrams.",
+  "id": "A159816",
+  "mentions": [
+    "A023086",
+    "A023088"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

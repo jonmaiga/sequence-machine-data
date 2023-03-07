@@ -1,0 +1,22 @@
+{
+  "description": "Take the sequence of almost-natural numbers (A007376) and reverse successive subsequences of lengths 1,2,3,4,...",
+  "id": "A244426",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A038722",
+    "A244425"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

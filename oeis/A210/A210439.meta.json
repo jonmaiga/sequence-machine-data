@@ -1,0 +1,29 @@
+{
+  "description": "The minimal Skewes number for prime n-tuplets.",
+  "id": "A210439",
+  "mentions": [
+    "A022011",
+    "A022012",
+    "A022013",
+    "A052435",
+    "A332493",
+    "A333586",
+    "A333587",
+    "A346996",
+    "A346997",
+    "A346998",
+    "A348053"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

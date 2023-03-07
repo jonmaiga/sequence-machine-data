@@ -1,0 +1,21 @@
+{
+  "description": "Main diagonal of table A060543; a(n) = C((n+1)^2-1, n*(n+1)).",
+  "id": "A108288",
+  "mentions": [
+    "A060543",
+    "A060545",
+    "A108267",
+    "A108289"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

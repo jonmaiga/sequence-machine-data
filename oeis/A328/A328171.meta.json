@@ -1,0 +1,30 @@
+{
+  "description": "Number of (necessarily strict) integer partitions of n with no two consecutive parts divisible.",
+  "id": "A328171",
+  "mentions": [
+    "A000837",
+    "A018783",
+    "A328026",
+    "A328028",
+    "A328161",
+    "A328172",
+    "A328187",
+    "A328188",
+    "A328189",
+    "A328194",
+    "A328195",
+    "A328220",
+    "A328221",
+    "A328603"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

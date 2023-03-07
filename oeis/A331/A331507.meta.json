@@ -1,0 +1,21 @@
+{
+  "description": "Water retention for an n X n number square with the maximum number of ponds using a simple filling pattern.",
+  "id": "A331507",
+  "mentions": [
+    "A201126",
+    "A261347",
+    "A275339",
+    "A275359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

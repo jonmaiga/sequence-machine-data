@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows (n >= 0, 0 <= k <= n): row n gives the coefficients in the expansion of x^n + n*x^(n - 1) + n*x + 1.",
+  "id": "A144393",
+  "mentions": [
+    "A005843",
+    "A144394"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

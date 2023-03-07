@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = sigma(n) (mod 10), i.e., unit's digit of sigma(n).",
+  "id": "A105853",
+  "mentions": [
+    "A000203",
+    "A010879",
+    "A053866",
+    "A074941",
+    "A084301",
+    "A105824",
+    "A105825",
+    "A105826",
+    "A105827",
+    "A105852"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

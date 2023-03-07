@@ -1,0 +1,21 @@
+{
+  "description": "n appears (n+1)/(1 + (n mod 2)) times.",
+  "id": "A235963",
+  "mentions": [
+    "A000041",
+    "A001318",
+    "A026741",
+    "A238442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

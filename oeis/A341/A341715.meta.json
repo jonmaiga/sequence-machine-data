@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = smallest prime of the form n||n+1||n+2||...||n+k, where || denotes decimal concatenation, or -1 if no such prime exists.",
+  "id": "A341715",
+  "mentions": [
+    "A007908",
+    "A030457",
+    "A030470",
+    "A030471",
+    "A075022",
+    "A084559",
+    "A135605",
+    "A140793",
+    "A341716",
+    "A341717",
+    "A341718",
+    "A341720"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k, q) = q^k*Q(k, n, q), with T(0, 0, q) = -2, where Q(k, n, q) = (1/q)*( -Q(k-1, n, q) + (1+q)*p(q, k-1)^n), Q(k, 0, q) = -q*(1+q)^n, p(q, n) = Product_{j=1..n} ( (1-q^k)/(1-q) ), and q = 2, read by rows.",
+  "id": "A156222",
+  "mentions": [
+    "A156220"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

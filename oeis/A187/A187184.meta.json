@@ -1,0 +1,20 @@
+{
+  "description": "Parse the infinite string 0123450123450123450... into distinct phrases 0, 1, 2, 3, 4, 5, 01, 23, 45, 012, 34, ...; a(n) = length of n-th phrase.",
+  "id": "A187184",
+  "mentions": [
+    "A187180",
+    "A187188"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:39",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

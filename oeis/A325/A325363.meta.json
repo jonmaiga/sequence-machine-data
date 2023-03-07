@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of integer partitions into nonzero triangular numbers A000217.",
+  "id": "A325363",
+  "mentions": [
+    "A000217",
+    "A007294",
+    "A056239",
+    "A112798",
+    "A240026",
+    "A325327",
+    "A325360",
+    "A325362",
+    "A325367",
+    "A325390",
+    "A325394",
+    "A325400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

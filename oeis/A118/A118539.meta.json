@@ -1,0 +1,20 @@
+{
+  "description": "Adjacent generalized Fermat primes.",
+  "id": "A118539",
+  "mentions": [
+    "A217993"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

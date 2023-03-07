@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = -1; for n>0, a(n) = numerator(1/4 - 4/n^2).",
+  "id": "A225948",
+  "mentions": [
+    "A000466",
+    "A028566",
+    "A061037",
+    "A061041",
+    "A078371",
+    "A106609",
+    "A142705",
+    "A145923",
+    "A226008",
+    "A226044"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

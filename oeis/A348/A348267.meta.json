@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form q^3+r^5+s^7, where q,r,s are consecutive primes.",
+  "id": "A348267",
+  "mentions": [
+    "A000040",
+    "A259772",
+    "A304292",
+    "A348313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

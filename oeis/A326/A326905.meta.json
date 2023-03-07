@@ -1,0 +1,31 @@
+{
+  "description": "BII-numbers of set-systems (without {}) closed under intersection.",
+  "id": "A326905",
+  "mentions": [
+    "A006058",
+    "A048793",
+    "A102895",
+    "A102898",
+    "A326866",
+    "A326875",
+    "A326876",
+    "A326878",
+    "A326882",
+    "A326900",
+    "A326901",
+    "A326902",
+    "A326903",
+    "A326904",
+    "A326913"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

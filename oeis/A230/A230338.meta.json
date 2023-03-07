@@ -1,0 +1,23 @@
+{
+  "description": "Recurrence equation: a(0) = 1 and a(n) = a(n-1)*sqrt(21*a(n-1)^2 + 4) for n >= 1.",
+  "id": "A230338",
+  "mentions": [
+    "A000079",
+    "A003487",
+    "A004254",
+    "A058635",
+    "A071579"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

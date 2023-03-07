@@ -1,0 +1,32 @@
+{
+  "description": "Number of ordered triples of positive integers summing to n that are either weakly increasing or weakly decreasing.",
+  "id": "A337483",
+  "mentions": [
+    "A000212",
+    "A000217",
+    "A001399",
+    "A001840",
+    "A014311",
+    "A069905",
+    "A079978",
+    "A156040",
+    "A211540",
+    "A218004",
+    "A329398",
+    "A337461",
+    "A337484",
+    "A337603",
+    "A337604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:05",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Highly abundant numbers that are powerful.",
+  "id": "A306621",
+  "mentions": [
+    "A001694",
+    "A002093"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

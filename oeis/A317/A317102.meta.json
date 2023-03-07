@@ -1,0 +1,28 @@
+{
+  "description": "Powerful numbers whose distinct prime multiplicities are pairwise indivisible.",
+  "id": "A317102",
+  "mentions": [
+    "A001694",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A285572",
+    "A285573",
+    "A303362",
+    "A304713",
+    "A316475",
+    "A317101",
+    "A317616"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

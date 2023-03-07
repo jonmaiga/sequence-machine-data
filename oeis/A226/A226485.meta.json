@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of length of median to hypotenuse of primitive Pythagorean triangles sorted on hypotenuse.",
+  "id": "A226485",
+  "mentions": [
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

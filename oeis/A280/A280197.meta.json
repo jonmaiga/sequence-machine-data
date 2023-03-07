@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{k>=2} mu(k)^2*x^k), where mu(k) is the Moebius function (A008683).",
+  "id": "A280197",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A073576",
+    "A144338",
+    "A280127",
+    "A280194"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

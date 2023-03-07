@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A247190.",
+  "id": "A250984",
+  "mentions": [
+    "A247190",
+    "A250985"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

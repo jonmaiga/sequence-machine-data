@@ -1,0 +1,21 @@
+{
+  "description": "A number triangle with repeated columns of binomial coefficients.",
+  "id": "A107249",
+  "mentions": [
+    "A026010",
+    "A096921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

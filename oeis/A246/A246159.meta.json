@@ -1,0 +1,23 @@
+{
+  "description": "Inverse function to the injection A048724.",
+  "id": "A246159",
+  "mentions": [
+    "A006068",
+    "A010059",
+    "A048724",
+    "A065620",
+    "A245710",
+    "A246160"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

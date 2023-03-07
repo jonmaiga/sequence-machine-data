@@ -1,0 +1,20 @@
+{
+  "description": "Smallest first term of a sequence of exactly n consecutive hoax numbers.",
+  "id": "A235766",
+  "mentions": [
+    "A019506"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

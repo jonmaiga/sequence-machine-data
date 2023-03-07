@@ -1,0 +1,21 @@
+{
+  "description": "Triangular sequence of coefficients of the expansion of a degenerate partition of Chebyshev U(x,n);A053117 and Hermite H(x,n);A060821 functions: 1) f(x,t)=1/(1-2*x*t+t^2); 2) g(x,t)=Exp[2*x*t-t^2]; to give: p(x,t)=Exp[2*x*t-t^2]/(1-2*x*t+t^2).",
+  "id": "A137862",
+  "mentions": [
+    "A053117",
+    "A060821"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

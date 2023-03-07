@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction for ternary expansion of Liouville's number interpreted in base 3 (A012245).",
+  "id": "A317414",
+  "mentions": [
+    "A012245",
+    "A058304",
+    "A089013",
+    "A317413",
+    "A317627",
+    "A317661"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

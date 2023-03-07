@@ -1,0 +1,21 @@
+{
+  "description": "Reading the first column of this array or its successive antidiagonals is the same as reading this sequence.",
+  "id": "A325785",
+  "mentions": [
+    "A000217",
+    "A325783",
+    "A325784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

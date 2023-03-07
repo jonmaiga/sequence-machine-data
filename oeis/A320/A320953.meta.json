@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the constant t having the continued fraction expansion {d(n), n>=0} such that the continued fraction expansion of 4*t yields partial denominators {5*d(n), n>=0}.",
+  "id": "A320953",
+  "mentions": [
+    "A320411",
+    "A320413",
+    "A320952"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 150,
+    "source": "oeis-bfile"
+  }
+}

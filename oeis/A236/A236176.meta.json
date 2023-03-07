@@ -1,0 +1,20 @@
+{
+  "description": "Prime gap pattern of compacting Eratosthenes sieve for prime(5) = 11.",
+  "id": "A236176",
+  "mentions": [
+    "A236175",
+    "A236180",
+    "A236185",
+    "A236190"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

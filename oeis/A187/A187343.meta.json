@@ -1,0 +1,20 @@
+{
+  "description": "Rank transform of the sequence floor(6n/5); complement of A187344.",
+  "id": "A187343",
+  "mentions": [
+    "A000027",
+    "A047226",
+    "A187224",
+    "A187344"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

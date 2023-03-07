@@ -1,0 +1,23 @@
+{
+  "description": "Indices of Belphegor primes: numbers k such that the decimal number 1 0...0(k 0's) 666 0...0(k 0's) 1 (i.e., A232449(k)) is prime.",
+  "id": "A232448",
+  "mentions": [
+    "A156166",
+    "A232449",
+    "A232450",
+    "A232451"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

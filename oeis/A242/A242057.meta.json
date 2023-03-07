@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers n for which lpf_3(n-1) < lpf_3(n-3), where lpf_3(n) = lpf(n/3^t) (cf. A020639) such that 3^t (t>=0) is the maximal power of 3 which divides n.",
+  "id": "A242057",
+  "mentions": [
+    "A020639",
+    "A243937",
+    "A245024"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

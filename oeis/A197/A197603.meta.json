@@ -1,0 +1,20 @@
+{
+  "description": "Floor((n+1/n)^4).",
+  "id": "A197603",
+  "mentions": [
+    "A010000",
+    "A014052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

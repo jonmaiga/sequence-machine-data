@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (u^4 + v^4)/2 = x^4 + y^4 = n has a solution in positive integers u,v,x,y.",
+  "id": "A282948",
+  "mentions": [
+    "A003336",
+    "A191345"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

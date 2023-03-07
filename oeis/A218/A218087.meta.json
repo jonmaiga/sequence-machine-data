@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the sum of their digits in every base from 2 through to 16.",
+  "id": "A218087",
+  "mentions": [
+    "A005349",
+    "A128397",
+    "A177917"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

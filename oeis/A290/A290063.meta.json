@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 633\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A290063",
+  "mentions": [
+    "A290062",
+    "A290064",
+    "A290065"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

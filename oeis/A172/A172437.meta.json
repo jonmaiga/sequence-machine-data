@@ -1,0 +1,19 @@
+{
+  "description": "Indices of pentagonal pyramidal numbers which are the sum of two other such numbers: k such that A002411(k) = A002411(i)+A002411(j) for some i,j>0.",
+  "id": "A172437",
+  "mentions": [
+    "A002411",
+    "A133459",
+    "A172425"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

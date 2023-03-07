@@ -1,0 +1,28 @@
+{
+  "description": "Exponential unitary harmonic numbers: numbers k such that the harmonic mean of the exponential unitary divisors of k is an integer.",
+  "id": "A349026",
+  "mentions": [
+    "A001599",
+    "A006086",
+    "A063947",
+    "A278908",
+    "A286325",
+    "A319745",
+    "A322857",
+    "A322858",
+    "A323310",
+    "A348964",
+    "A349025",
+    "A349027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

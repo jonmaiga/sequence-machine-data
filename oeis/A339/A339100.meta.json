@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = GCD({(2*n-k)*T(n,k)+(k+1)*T(n,k+1), k=0..n}), where T(n,k) stands for A214406 (the second-order Eulerian numbers of type B).",
+  "id": "A339100",
+  "mentions": [
+    "A165886",
+    "A214406"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

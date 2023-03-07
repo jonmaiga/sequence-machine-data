@@ -1,0 +1,20 @@
+{
+  "description": "Non-isomorphic proper colorings of the 5 X 5 grid graph using at most n colors under rotational and reflectional symmetries.",
+  "id": "A321246",
+  "mentions": [
+    "A002817",
+    "A321244",
+    "A321245"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:25",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

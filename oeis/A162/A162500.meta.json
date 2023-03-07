@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of the polynomial (1-x^3) * (1-x^6) * (1-x^9) / (1-x)^3.",
+  "id": "A162500",
+  "mentions": [
+    "A162499"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Honaker primes of the form p = 2*k-1 with sum-of-digits(p) = sum-of-digits(k).",
+  "id": "A176111",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A033548",
+    "A033584",
+    "A176012"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

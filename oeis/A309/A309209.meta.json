@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of the negation of the constant defined by A265011 (among other formulas, this is Sum_{k >= 1} arctan((-1)^k/k)).",
+  "id": "A309209",
+  "mentions": [
+    "A265011",
+    "A309204"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

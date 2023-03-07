@@ -1,0 +1,19 @@
+{
+  "description": "Every 5th term of A083950 where the self-convolution 5th power is congruent modulo 25 to A083950, which consists entirely of numbers 1 through 10.",
+  "id": "A110642",
+  "mentions": [
+    "A083950",
+    "A110641",
+    "A110643"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

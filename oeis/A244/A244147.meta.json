@@ -1,0 +1,19 @@
+{
+  "description": "Number of hexagons (side length 1) that intersect the circumference of a circle of radius n centered at a lattice point.",
+  "id": "A244147",
+  "mentions": [
+    "A242118",
+    "A242394",
+    "A242395"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

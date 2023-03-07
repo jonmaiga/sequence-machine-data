@@ -1,0 +1,20 @@
+{
+  "description": "Composites occurring as divisors of Fibonacci(p) with p prime.",
+  "id": "A238082",
+  "mentions": [
+    "A038672",
+    "A092395",
+    "A135952",
+    "A233281"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

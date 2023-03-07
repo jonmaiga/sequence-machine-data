@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 6+2 0..n arrays with every three consecutive terms having the sum of some two elements equal to twice the third",
+  "id": "A248439",
+  "mentions": [
+    "A248433"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

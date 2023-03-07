@@ -1,0 +1,17 @@
+{
+  "description": "L.g.f: A(x) = Sum_{n>=1} a(n)*x^n/n = Sum_{n>=1} E( a(n)*x )^n*x^n/n where E(x) = exp(A(x)) is the g.f. of A180720.",
+  "id": "A180721",
+  "mentions": [
+    "A180720"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) = (z*(z-1)-(-1+(-1)^(z^2 mod 3))*n+(1+(-1)^(z^2 mod 3))*k)/2, where z=n+k-1; n, k > 0, read by antidiagonals.",
+  "id": "A213927",
+  "mentions": [
+    "A001651",
+    "A008585",
+    "A011655",
+    "A056011",
+    "A056023",
+    "A130196",
+    "A218890"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

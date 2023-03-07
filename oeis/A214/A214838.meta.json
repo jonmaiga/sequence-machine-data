@@ -1,0 +1,28 @@
+{
+  "description": "Triangular numbers of the form k^2 + 2.",
+  "id": "A214838",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A001219",
+    "A006454",
+    "A029549",
+    "A069017",
+    "A077241",
+    "A089982",
+    "A164055",
+    "A165892"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:08:36",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

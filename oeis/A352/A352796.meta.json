@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that {d + m/d : d | m } does not contain consecutive integers.",
+  "id": "A352796",
+  "mentions": [
+    "A072389",
+    "A335572"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

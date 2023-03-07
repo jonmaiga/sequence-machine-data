@@ -1,0 +1,22 @@
+{
+  "description": "Preperiod (or threshold) of orbit of Post's {00, 1101} tag system applied to the word (100)^n, or -1 if this word has an unbounded trajectory.",
+  "id": "A284119",
+  "mentions": [
+    "A284116",
+    "A284121",
+    "A290447",
+    "A291792",
+    "A292090"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

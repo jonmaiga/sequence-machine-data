@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions with no 1's whose parts can be combined together using additions and multiplications to obtain n.",
+  "id": "A319925",
+  "mentions": [
+    "A000792",
+    "A001055",
+    "A001970",
+    "A002865",
+    "A005520",
+    "A048249",
+    "A066739",
+    "A275870",
+    "A318949",
+    "A319850",
+    "A319909",
+    "A319910",
+    "A319912",
+    "A319913"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

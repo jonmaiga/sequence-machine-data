@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of digits of all distinct prime factors of n-th semiprime = sum of digits of all distinct prime factors of (n+1)-th semiprime.",
+  "id": "A176717",
+  "mentions": [
+    "A001358",
+    "A007953",
+    "A095402",
+    "A176707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

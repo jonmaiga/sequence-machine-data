@@ -1,0 +1,25 @@
+{
+  "description": "Consider the digit reverse of a number x. Take the sum of these digits and repeat the process deleting the first addend and adding the previous sum. The sequence lists the numbers that after some iterations reach a sum equal to x.",
+  "id": "A289868",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A001590",
+    "A004086",
+    "A248134",
+    "A269307",
+    "A269309",
+    "A269311"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

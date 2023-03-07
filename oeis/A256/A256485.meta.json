@@ -1,0 +1,20 @@
+{
+  "description": "Primes p for which there are more primes in range [p^2, p*nextprime(p)] than in range [p*nextprime(p), nextprime(p)^2], where nextprime(p) gives the next prime after prime p.",
+  "id": "A256485",
+  "mentions": [
+    "A000040",
+    "A256475",
+    "A256484"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

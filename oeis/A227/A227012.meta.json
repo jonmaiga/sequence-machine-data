@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor(M(g(n-1)+1, ..., g(n))), where M = harmonic mean and g(n) = n^3.",
+  "id": "A227012",
+  "mentions": [
+    "A002378",
+    "A080576",
+    "A227013",
+    "A227014",
+    "A227015",
+    "A227016",
+    "A227017"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:29",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

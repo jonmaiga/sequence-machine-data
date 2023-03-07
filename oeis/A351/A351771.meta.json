@@ -1,0 +1,20 @@
+{
+  "description": "Given g.f. A(x), the even bisections of both A(x) and A(x)^2 are equal, and the odd bisections of both A(x)^2 and A(x)^3 are equal (after the initial terms).",
+  "id": "A351771",
+  "mentions": [
+    "A000108",
+    "A352383",
+    "A352384"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

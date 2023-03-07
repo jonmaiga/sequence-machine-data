@@ -1,0 +1,34 @@
+{
+  "description": "Triangle P, read by rows, such that P^3 transforms column k of P into column k+1 of P, so that column k of P equals column 0 of P^(3*k+1), where P^3 denotes the matrix cube of P.",
+  "id": "A113370",
+  "mentions": [
+    "A113340",
+    "A113350",
+    "A113371",
+    "A113372",
+    "A113373",
+    "A113374",
+    "A113378",
+    "A113381",
+    "A113384",
+    "A113387",
+    "A113389",
+    "A113392",
+    "A113394",
+    "A114150",
+    "A114152",
+    "A114156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

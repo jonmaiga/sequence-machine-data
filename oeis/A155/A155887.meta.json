@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array (1, (1/(1-x))c(x/(1-x))), c(x) the g.f. of A000108.",
+  "id": "A155887",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A002212",
+    "A084938",
+    "A104259"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

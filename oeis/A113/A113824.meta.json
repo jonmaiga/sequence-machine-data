@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1; a(n+1) = the least prime greater than 2*a(n) which is a(n) plus a power of two.",
+  "id": "A113824",
+  "mentions": [
+    "A073924",
+    "A080355",
+    "A080567",
+    "A099969",
+    "A099970",
+    "A099971",
+    "A099972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

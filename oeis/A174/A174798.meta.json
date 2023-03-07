@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 2*prime(n) and 2*prime(n+1) are consecutive semiprimes.",
+  "id": "A174798",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A100484",
+    "A174797",
+    "A174956"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

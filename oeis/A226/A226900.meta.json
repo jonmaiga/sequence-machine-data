@@ -1,0 +1,19 @@
+{
+  "description": "Record values of Hooley's Delta function A226898.",
+  "id": "A226900",
+  "mentions": [
+    "A002183",
+    "A226898",
+    "A226899"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

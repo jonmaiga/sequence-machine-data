@@ -1,0 +1,30 @@
+{
+  "description": "Sum of squares of tribonacci numbers (A000073).",
+  "id": "A107239",
+  "mentions": [
+    "A000073",
+    "A000213",
+    "A085697",
+    "A107231",
+    "A107240",
+    "A107241",
+    "A107242",
+    "A107243",
+    "A107244",
+    "A107245",
+    "A107246",
+    "A107247"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

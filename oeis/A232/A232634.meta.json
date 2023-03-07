@@ -1,0 +1,19 @@
+{
+  "description": "Ramanujan primes of the form 3*k + 1.",
+  "id": "A232634",
+  "mentions": [
+    "A000594",
+    "A002476",
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

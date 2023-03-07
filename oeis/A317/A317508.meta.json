@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways to split the integer partition with Heinz number n into consecutive subsequences with weakly decreasing sums.",
+  "id": "A317508",
+  "mentions": [
+    "A001970",
+    "A056239",
+    "A063834",
+    "A255397",
+    "A296150",
+    "A316223",
+    "A316245",
+    "A317545",
+    "A317546",
+    "A317715",
+    "A318434",
+    "A318683",
+    "A318684",
+    "A319002",
+    "A319004",
+    "A319794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

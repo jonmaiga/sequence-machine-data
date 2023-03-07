@@ -1,0 +1,30 @@
+{
+  "description": "Characteristic function of A230709: a(n) = 1 if n is either evil (A001969) or even odious (A128309), otherwise 0 (when n is odd odious).",
+  "id": "A254377",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A003071",
+    "A010059",
+    "A010060",
+    "A092246",
+    "A093431",
+    "A122248",
+    "A128309",
+    "A175186",
+    "A228495",
+    "A230709",
+    "A254378"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

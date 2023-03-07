@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = row n of triangle A249133, concatenated.",
+  "id": "A249183",
+  "mentions": [
+    "A006943",
+    "A007088",
+    "A055641",
+    "A249133",
+    "A249184",
+    "A249304"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

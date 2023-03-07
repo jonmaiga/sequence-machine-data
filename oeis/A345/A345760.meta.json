@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct numbers of intercalates of order n diagonal Latin squares.",
+  "id": "A345760",
+  "mentions": [
+    "A287764",
+    "A307163",
+    "A307164",
+    "A309344",
+    "A344105",
+    "A345370",
+    "A345761"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

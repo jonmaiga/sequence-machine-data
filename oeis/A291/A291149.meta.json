@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - x^16/(1 - x^81/(1 - x^256/(1 - x^625/(1 - x^1296/(1 - ... - x^(n^4)/(1 - ...)))))))), a continued fraction.",
+  "id": "A291149",
+  "mentions": [
+    "A290771"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

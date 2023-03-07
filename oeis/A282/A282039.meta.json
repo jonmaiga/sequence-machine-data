@@ -1,0 +1,23 @@
+{
+  "description": "Let p = n-th prime == 7 mod 8; a(n) = sum of quadratic residues mod p that are < p/2.",
+  "id": "A282039",
+  "mentions": [
+    "A282035",
+    "A282040",
+    "A282041",
+    "A282042",
+    "A282043",
+    "A282721",
+    "A282727"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

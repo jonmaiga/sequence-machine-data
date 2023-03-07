@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, a(1) = 1; a(2*n) = gpf(a(n)), a(2*n+1) = a(n) + a(n+1), where gpf(a(n)) is the greatest prime dividing a(n) for a(n) >= 2 and 1 if a(n) = 1 (A006530).",
+  "id": "A287051",
+  "mentions": [
+    "A002487",
+    "A006530",
+    "A175723",
+    "A177904"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

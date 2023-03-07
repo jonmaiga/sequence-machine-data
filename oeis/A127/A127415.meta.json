@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{1<=k<=n, gcd(k,n)=1}, A000217(k).",
+  "id": "A127415",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A007947",
+    "A008683",
+    "A023896",
+    "A054521",
+    "A076512",
+    "A109395",
+    "A189918"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

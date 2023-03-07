@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-step self-avoiding walks on 10-D cubic lattice.",
+  "id": "A342886",
+  "mentions": [
+    "A001411",
+    "A001412",
+    "A010575",
+    "A010576",
+    "A010577",
+    "A342883",
+    "A342884",
+    "A342885",
+    "A342887",
+    "A342888"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

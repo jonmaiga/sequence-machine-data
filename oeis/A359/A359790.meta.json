@@ -1,0 +1,29 @@
+{
+  "description": "Dirichlet inverse of function f(n) = 1 + n', where n' stands for the arithmetic derivative of n, A003415(n).",
+  "id": "A359790",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A346241",
+    "A347082",
+    "A347084",
+    "A359603",
+    "A359780",
+    "A359781",
+    "A359782",
+    "A359783",
+    "A359789",
+    "A359791"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

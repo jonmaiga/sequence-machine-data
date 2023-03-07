@@ -1,0 +1,27 @@
+{
+  "description": "Logarithmic derivative of A112938 such that a(n)=(1/4)*A112938(n+1) for n>0, where A112938 equals the INVERT transform (with offset) of quadruple factorials A008545.",
+  "id": "A112939",
+  "mentions": [
+    "A008545",
+    "A112934",
+    "A112935",
+    "A112936",
+    "A112937",
+    "A112938",
+    "A112940",
+    "A112941",
+    "A112942",
+    "A112943"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

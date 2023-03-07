@@ -1,0 +1,39 @@
+{
+  "description": "MM-numbers of lexicographically normalized multisets of multisets.",
+  "id": "A330120",
+  "mentions": [
+    "A007716",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A317533",
+    "A320456",
+    "A330060",
+    "A330061",
+    "A330097",
+    "A330098",
+    "A330099",
+    "A330100",
+    "A330103",
+    "A330104",
+    "A330105",
+    "A330107",
+    "A330108",
+    "A330109",
+    "A330110",
+    "A330121",
+    "A330122",
+    "A330123",
+    "A330194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

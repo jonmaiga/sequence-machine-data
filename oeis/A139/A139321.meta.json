@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of n in A068307: least number k such that the number of decomposition of k into the sum of three primes is n.",
+  "id": "A139321",
+  "mentions": [
+    "A000040",
+    "A068307",
+    "A139322"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

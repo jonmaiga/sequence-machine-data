@@ -1,0 +1,22 @@
+{
+  "description": "64*n^6 - 80*n^4 + 24*n^2 - 1.",
+  "id": "A242851",
+  "mentions": [
+    "A000466",
+    "A144138",
+    "A144139",
+    "A242850"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:24:25",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

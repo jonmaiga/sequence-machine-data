@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = if n mod 2 = 0 then n*(n+1)/2 otherwise (n+1)^2/2-1.",
+  "id": "A128223",
+  "mentions": [
+    "A024206",
+    "A053439",
+    "A127701",
+    "A128174",
+    "A128221",
+    "A128222"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:35:45",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

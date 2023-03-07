@@ -1,0 +1,20 @@
+{
+  "description": "Floor(integral of log(x) from 1 to n).",
+  "id": "A156625",
+  "mentions": [
+    "A050504",
+    "A156624"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:09:57",
+    "offset": 2,
+    "size": 48,
+    "source": "joeis"
+  }
+}

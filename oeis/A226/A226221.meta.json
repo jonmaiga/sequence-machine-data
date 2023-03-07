@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^n mod n is not a power of 2.",
+  "id": "A226221",
+  "mentions": [
+    "A015910",
+    "A015911",
+    "A065090"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

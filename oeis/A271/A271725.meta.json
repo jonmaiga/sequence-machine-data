@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is an array read by rows, with n > 0 and k=1..4, where row n gives four prime numbers in increasing order with locations in right angles of each concentric square drawn on a distorted version of the Ulam spiral.",
+  "id": "A271725",
+  "mentions": [
+    "A028871",
+    "A073337",
+    "A121326",
+    "A125202",
+    "A200975"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

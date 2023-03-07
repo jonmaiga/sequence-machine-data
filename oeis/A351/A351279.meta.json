@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * k^(n-k).",
+  "id": "A351279",
+  "mentions": [
+    "A003101",
+    "A026898",
+    "A038125",
+    "A349962"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

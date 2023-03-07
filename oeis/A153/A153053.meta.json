@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2*n + 7 is not a prime.",
+  "id": "A153053",
+  "mentions": [
+    "A105760",
+    "A154684"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

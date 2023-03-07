@@ -1,0 +1,21 @@
+{
+  "description": "Start with x=4/3; repeatedly apply the map x -> (x^2) ceiling(x); sequence gives numerators of the resulting sequence of fractions.",
+  "id": "A117620",
+  "mentions": [
+    "A072340",
+    "A085276",
+    "A117596"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

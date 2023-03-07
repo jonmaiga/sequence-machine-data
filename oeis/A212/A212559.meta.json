@@ -1,0 +1,18 @@
+{
+  "description": "Number of functions f:{1,2,...,n}->{1,2,...,n} such that every non-recurrent element has at most one preimage.",
+  "id": "A212559",
+  "mentions": [
+    "A006152"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Dimensions of spheres that admit continuous multiplications with unit element.",
+  "id": "A222010",
+  "mentions": [
+    "A222011"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

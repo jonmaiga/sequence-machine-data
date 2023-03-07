@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k, q) = t(n,q)/(t(k,q)*t(n-k,q)), where t(n, k) = Product_{j=1..n} q-Pochhammer(j, k+1, k+1)/(1-(k+1))^j and t(n, 0) = n!, with q = 3, read by rows.",
+  "id": "A156952",
+  "mentions": [
+    "A007318",
+    "A156950",
+    "A156951",
+    "A156953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

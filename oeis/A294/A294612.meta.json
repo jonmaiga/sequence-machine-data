@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the contraharmonic mean of the first n primes.",
+  "id": "A294612",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A296199"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

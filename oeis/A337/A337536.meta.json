@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k for which there are only 2 bases b (2 and k+1) where the digits of k contain the digit b-1.",
+  "id": "A337536",
+  "mentions": [
+    "A005836",
+    "A007095",
+    "A020654",
+    "A020657",
+    "A023717",
+    "A037465",
+    "A037474",
+    "A037477",
+    "A068499",
+    "A337496",
+    "A337535"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

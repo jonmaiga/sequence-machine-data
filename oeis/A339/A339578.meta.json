@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^3 can be obtained by taking a number m that is the product of exactly three primes (cf. A014612) and deleting the central digit if m has an odd number of digits, or by deleting the central pair of digits if m has an even number of digits.",
+  "id": "A339578",
+  "mentions": [
+    "A014612",
+    "A217297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

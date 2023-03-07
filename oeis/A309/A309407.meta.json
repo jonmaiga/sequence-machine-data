@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round(sqrt(3*n + 9/4)), with a(0) = 1.",
+  "id": "A309407",
+  "mentions": [
+    "A046693",
+    "A308766",
+    "A326499"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

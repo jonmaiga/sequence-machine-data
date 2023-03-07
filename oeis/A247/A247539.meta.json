@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 7+3 0..n arrays with some disjoint pairs in every consecutive four terms having the same sum",
+  "id": "A247539",
+  "mentions": [
+    "A247533"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

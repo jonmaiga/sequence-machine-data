@@ -1,0 +1,18 @@
+{
+  "description": "With respect to the dictionary ordering of words over the alphabet {a,b}, i.e., e,a,b,aa,ab,ba,bb,aaa,..., the sequence is the characteristic function of the language of words that have no consecutive b's.",
+  "id": "A276254",
+  "mentions": [
+    "A007931"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

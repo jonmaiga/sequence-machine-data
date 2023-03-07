@@ -1,0 +1,25 @@
+{
+  "description": "Matrix log of A117939, read by rows, consisting only of 0's, 3's and signed 2's.",
+  "id": "A120854",
+  "mentions": [
+    "A053735",
+    "A062756",
+    "A081603",
+    "A117939",
+    "A117947",
+    "A120855"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-entry"
+  }
+}

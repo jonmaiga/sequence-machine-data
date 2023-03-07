@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of discriminant of n-th Bernoulli polynomial.",
+  "id": "A285740",
+  "mentions": [
+    "A053382",
+    "A053383",
+    "A196838",
+    "A196839",
+    "A285739"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

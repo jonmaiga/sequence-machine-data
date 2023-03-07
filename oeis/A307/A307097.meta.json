@@ -1,0 +1,21 @@
+{
+  "description": "Number of configurations in the repeating cycle of the sandpile model in a bounded square of size 2n+1.",
+  "id": "A307097",
+  "mentions": [
+    "A007341",
+    "A056219",
+    "A180230",
+    "A259013",
+    "A307652"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

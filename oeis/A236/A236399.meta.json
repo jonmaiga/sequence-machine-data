@@ -1,0 +1,18 @@
+{
+  "description": "Left factorial !p, where p = prime(n).",
+  "id": "A236399",
+  "mentions": [
+    "A003422"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

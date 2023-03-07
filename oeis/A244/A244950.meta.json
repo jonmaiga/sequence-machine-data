@@ -1,0 +1,21 @@
+{
+  "description": "Least number k > n such that k^128 + n^128 is prime.",
+  "id": "A244950",
+  "mentions": [
+    "A056994",
+    "A089489",
+    "A158979",
+    "A215431",
+    "A242557"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

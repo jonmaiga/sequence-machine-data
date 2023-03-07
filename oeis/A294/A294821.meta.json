@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = 1 if k is the largest divisor of n <= sqrt(n), otherwise T(n,k) = 0. With n >= 1, and 1 <= k <= A000196(n).",
+  "id": "A294821",
+  "mentions": [
+    "A000012",
+    "A000196",
+    "A008578",
+    "A033676",
+    "A057427",
+    "A161344",
+    "A161345",
+    "A161424",
+    "A161835",
+    "A162527",
+    "A162528",
+    "A162529",
+    "A162530",
+    "A162531",
+    "A162532",
+    "A163280",
+    "A237273",
+    "A294721"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle where a(1,1)=0; a(n,m) is number of terms among the first (n-1) terms of A115863 that are not coprime to m. A115863(n) is the sum of the terms of the n-th row of A115862.",
+  "id": "A115862",
+  "mentions": [
+    "A115758",
+    "A115863"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

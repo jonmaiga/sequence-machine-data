@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer solutions to a^2 + b^2 + 4*c^2 + 4*d^2 = n.",
+  "id": "A236922",
+  "mentions": [
+    "A097057",
+    "A236923"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

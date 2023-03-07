@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A136370(k) is prime.",
+  "id": "A136371",
+  "mentions": [
+    "A024530",
+    "A136365",
+    "A136366",
+    "A136367",
+    "A136368",
+    "A136369",
+    "A136370"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

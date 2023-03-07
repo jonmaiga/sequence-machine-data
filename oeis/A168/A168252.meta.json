@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n is squarefree and n is non-single or nonisolated.",
+  "id": "A168252",
+  "mentions": [
+    "A000469",
+    "A005117",
+    "A120944",
+    "A167707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

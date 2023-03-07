@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which n-th row lists all integer partitions of n, in order of traversing the periphery of the Fenner-Loizou tree in the clockwise sense.",
+  "id": "A182937",
+  "mentions": [
+    "A036036",
+    "A036037",
+    "A080576",
+    "A080577",
+    "A193073",
+    "A228100"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

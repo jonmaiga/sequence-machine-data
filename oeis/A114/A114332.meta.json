@@ -1,0 +1,21 @@
+{
+  "description": "English spelling of n ends with a(n)-th letter of the alphabet.",
+  "id": "A114332",
+  "mentions": [
+    "A005589",
+    "A005606",
+    "A052360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

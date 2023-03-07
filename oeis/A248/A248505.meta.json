@@ -1,0 +1,18 @@
+{
+  "description": "Alternating the subtraction and multiplication of two previous terms, starting with 3, 2.",
+  "id": "A248505",
+  "mentions": [
+    "A248479"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

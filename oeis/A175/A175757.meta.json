@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of blocks of size k in all set partitions of {1,2,...,n}.",
+  "id": "A175757",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A052889",
+    "A056857",
+    "A056860",
+    "A070071",
+    "A105479",
+    "A105480",
+    "A105481",
+    "A105482",
+    "A285595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle numbers: m = a*b*c such that the integers a,b,c are the sides of a triangle with integer area.",
+  "id": "A218243",
+  "mentions": [
+    "A034836",
+    "A083875",
+    "A139270",
+    "A188158",
+    "A218392"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

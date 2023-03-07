@@ -1,0 +1,20 @@
+{
+  "description": "Bisections are {b(n)*b(n+1), n>=0} (shifted) and {b(n)^2, n>=0} where {b(n), n>=0} is the self-convolution of this sequence, with a(0)=1.",
+  "id": "A173610",
+  "mentions": [
+    "A173611",
+    "A173612",
+    "A173613"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

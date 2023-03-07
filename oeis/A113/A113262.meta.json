@@ -1,0 +1,20 @@
+{
+  "description": "One quarter of the number of solutions to a^2 + b^2 + 3*c^2 + 3*d^2 = n.",
+  "id": "A113262",
+  "mentions": [
+    "A034896",
+    "A222171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

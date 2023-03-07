@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n gives list Q(n) of LCMs of \"array-admissible\" sets for n.",
+  "id": "A222417",
+  "mentions": [
+    "A222422",
+    "A222801"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

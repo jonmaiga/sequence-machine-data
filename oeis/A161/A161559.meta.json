@@ -1,0 +1,18 @@
+{
+  "description": "Engel expansion of tan(1/2).",
+  "id": "A161559",
+  "mentions": [
+    "A006784",
+    "A161011"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:47",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

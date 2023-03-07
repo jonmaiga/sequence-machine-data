@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. For T(n,k) where 1 <= k <= n, start with x = k and repeat the map x -> floor(n/x) + (n mod x) until an x occurs that has already appeared, then that is T(n,k).",
+  "id": "A357554",
+  "mentions": [
+    "A357610"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways to induce a single pinch on a compact 2-manifold with n handles. (Note: The manifold is embedded in Euclidean 2-space, and each pinch partitions it into at most two submanifolds.)",
+  "id": "A316261",
+  "mentions": [
+    "A087811"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:21",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

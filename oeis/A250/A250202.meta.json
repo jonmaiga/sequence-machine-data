@@ -1,0 +1,29 @@
+{
+  "description": "The \"sum of squares of digits\" problem in base 12, start with 6 (written in base 10).",
+  "id": "A250202",
+  "mentions": [
+    "A000216",
+    "A000218",
+    "A000221",
+    "A007770",
+    "A008460",
+    "A008461",
+    "A008462",
+    "A008463",
+    "A080709",
+    "A161772",
+    "A161949"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:57",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

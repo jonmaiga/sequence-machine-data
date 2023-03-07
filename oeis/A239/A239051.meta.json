@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (f(-q^2, -q^3)^5 - 3 * q * f(-q, -q^4)^5) / f(-q)^3 in powers of q where f() is a Ramanujan theta function.",
+  "id": "A239051",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A227216",
+    "A229802"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

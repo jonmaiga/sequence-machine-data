@@ -1,0 +1,22 @@
+{
+  "description": "Integers of the form (the number of nonnegative bases m < n such that m^3 == m (mod n))/(the number of nonnegative bases m < n such that -m^3 == m (mod n)).",
+  "id": "A337910",
+  "mentions": [
+    "A002145",
+    "A002313",
+    "A008784",
+    "A026741",
+    "A334006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

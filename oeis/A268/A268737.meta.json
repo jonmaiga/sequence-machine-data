@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX5 binary arrays with some 1 horizontally or vertically adjacent to some other 1 exactly once.",
+  "id": "A268737",
+  "mentions": [
+    "A268740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

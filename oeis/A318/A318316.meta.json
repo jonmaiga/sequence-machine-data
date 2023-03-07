@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicative with a(p^e) = 2^A007306(e).",
+  "id": "A318316",
+  "mentions": [
+    "A002487",
+    "A003557",
+    "A007306",
+    "A318307",
+    "A318322"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

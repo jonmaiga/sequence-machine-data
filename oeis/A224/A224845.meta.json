@@ -1,0 +1,19 @@
+{
+  "description": "Integer lengths of the Mills primes A051254.",
+  "id": "A224845",
+  "mentions": [
+    "A051254",
+    "A108739"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

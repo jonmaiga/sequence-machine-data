@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product prime(k), where k ranges over the lengths of all arithmetic progressions formed from the divisors of n (with at least two distinct terms each); a(1) = 2 by convention.",
+  "id": "A319354",
+  "mentions": [
+    "A001222",
+    "A061395",
+    "A066446",
+    "A067131",
+    "A071178",
+    "A160752",
+    "A319355"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

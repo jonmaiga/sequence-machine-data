@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes whose ternary representations are also semiprime when read as a decimal number.",
+  "id": "A278931",
+  "mentions": [
+    "A001358",
+    "A005935",
+    "A007089",
+    "A065721",
+    "A089981",
+    "A236537"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

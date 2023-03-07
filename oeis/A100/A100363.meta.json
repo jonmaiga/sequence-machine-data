@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the numbers of divisors of n,n+1 and n+2 are k,2k,4k respectively for some k.",
+  "id": "A100363",
+  "mentions": [
+    "A000005",
+    "A063446"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

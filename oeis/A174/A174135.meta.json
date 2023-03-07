@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n >= 2, 1 <= k <= n/2), = number of rooted forests with n nodes and k trees, with at least two nodes in each tree.",
+  "id": "A174135",
+  "mentions": [
+    "A000081",
+    "A033185",
+    "A174145",
+    "A181360"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

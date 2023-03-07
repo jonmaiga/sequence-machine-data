@@ -1,0 +1,21 @@
+{
+  "description": "A transform of the central binomial coefficients A001405.",
+  "id": "A113409",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A113408"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

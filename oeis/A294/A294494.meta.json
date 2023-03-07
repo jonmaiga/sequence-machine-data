@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: 1/Product_{k>0} (1+x^k/k!)^k.",
+  "id": "A294494",
+  "mentions": [
+    "A032315",
+    "A174661",
+    "A292308",
+    "A294495"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

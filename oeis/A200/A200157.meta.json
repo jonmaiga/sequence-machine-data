@@ -1,0 +1,18 @@
+{
+  "description": "Number of 0..n arrays x(0..5) of 6 elements with zero 5th difference",
+  "id": "A200157",
+  "mentions": [
+    "A200154"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

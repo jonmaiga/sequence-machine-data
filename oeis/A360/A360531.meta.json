@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form F(i)-F(j)-1, i>=5, 3<=j<=i-2.",
+  "id": "A360531",
+  "mentions": [
+    "A000045",
+    "A360528",
+    "A360532"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

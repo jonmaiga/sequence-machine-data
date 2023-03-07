@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows, 0 <= k <= n: T(n,k) is the denominator of the derivative of the k-th Bernstein basis polynomial of degree n evaluated at the interval midpoint t = 1/2; numerator is A320085.",
+  "id": "A320086",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A007318",
+    "A084623",
+    "A128433",
+    "A128434",
+    "A141692",
+    "A319861",
+    "A319862",
+    "A320085"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

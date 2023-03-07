@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers equal to the permanent of the circulant matrix formed by their decimal digits.",
+  "id": "A306853",
+  "mentions": [
+    "A101337",
+    "A219324",
+    "A219327",
+    "A306593",
+    "A306662",
+    "A306714"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

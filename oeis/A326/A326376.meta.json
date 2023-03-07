@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals upwards, n > 0 and k > 0: for any number n > 0, let f(n) be the polynomial of a single indeterminate x where the coefficient of x^e is the prime(1+e)-adic valuation of n (where prime(k) denotes the k-th prime); f establishes a bijection between the positive numbers and the polynomials of a single indeterminate x with nonnegative integer coefficients; let g be the inverse of f; T(n, k) = g(f(n) o f(k)) (where o denotes function composition).",
+  "id": "A326376",
+  "mentions": [
+    "A006519",
+    "A061142",
+    "A297473",
+    "A297845",
+    "A319525",
+    "A326377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

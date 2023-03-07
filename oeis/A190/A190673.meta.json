@@ -1,0 +1,17 @@
+{
+  "description": "Positions of 0 in A190672.",
+  "id": "A190673",
+  "mentions": [
+    "A190672"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:29",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of mass formula for vacuum graphs for a phi^4 field theory.",
+  "id": "A225698",
+  "mentions": [
+    "A225697"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1, for n > 0: n-th run consists of 2^n-1 copies of n+1.",
+  "id": "A103586",
+  "mentions": [
+    "A000225",
+    "A070939",
+    "A102370",
+    "A214489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

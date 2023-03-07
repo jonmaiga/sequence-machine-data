@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the numbers of the matrix A111490 along a boustrophedon path: a11, a11+a21, a11+a21+a21, etc.",
+  "id": "A119931",
+  "mentions": [
+    "A111490",
+    "A119930"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

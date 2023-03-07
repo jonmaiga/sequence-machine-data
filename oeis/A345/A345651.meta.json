@@ -1,0 +1,24 @@
+{
+  "description": "Fourth column of A008296.",
+  "id": "A345651",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A008296",
+    "A045406",
+    "A081048"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

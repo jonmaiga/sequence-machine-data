@@ -1,0 +1,20 @@
+{
+  "description": "The bisection A053445(2n+1).",
+  "id": "A161921",
+  "mentions": [
+    "A053445",
+    "A160643",
+    "A160644"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

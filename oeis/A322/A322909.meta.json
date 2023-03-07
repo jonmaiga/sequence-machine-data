@@ -1,0 +1,24 @@
+{
+  "description": "The permanent of an n X n Toeplitz matrix M(n) whose first row consists of successive positive integer numbers 1, ..., n and whose first column consists of 1, n + 1, ..., 2*n - 1.",
+  "id": "A322909",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A003991",
+    "A005448",
+    "A005843",
+    "A120070",
+    "A306457",
+    "A322908"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

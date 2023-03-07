@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled acyclic digraphs with n >= 0 nodes and n-k outnodes (0 <= k <= n).",
+  "id": "A122078",
+  "mentions": [
+    "A000007",
+    "A003087",
+    "A058876",
+    "A350415",
+    "A350447",
+    "A350448",
+    "A350449",
+    "A350450"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which sigma(k) - 3k exceeds sigma(j) - 3j for all j < k.",
+  "id": "A279088",
+  "mentions": [
+    "A002093",
+    "A033885",
+    "A034090",
+    "A140522"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

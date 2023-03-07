@@ -1,0 +1,19 @@
+{
+  "description": "Numerator generator for offsets from the quarter points of the Cantor ternary set to the center points of deleted middle thirds: 1 is in the list and if m is in the list -3m-4 and -3m+4 are in the list, which is ordered by absolute value.",
+  "id": "A355680",
+  "mentions": [
+    "A191108",
+    "A355682"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

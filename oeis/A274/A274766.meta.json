@@ -1,0 +1,23 @@
+{
+  "description": "Multiplication of pair of contiguous repunits, i.e., (0*1, 1*11, 11*111, 111*1111, 1111*11111, ...).",
+  "id": "A274766",
+  "mentions": [
+    "A002275",
+    "A002378",
+    "A259937",
+    "A274743",
+    "A274755"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

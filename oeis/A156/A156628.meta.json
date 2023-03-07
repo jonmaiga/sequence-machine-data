@@ -1,0 +1,30 @@
+{
+  "description": "Square array, read by antidiagonals, where row n+1 is generated from row n by first removing terms in row n at positions 0 and {(m+1)*(m+2)/2-2, m>0} and then taking partial sums, starting with all 1's in row 0.",
+  "id": "A156628",
+  "mentions": [
+    "A003319",
+    "A104980",
+    "A104981",
+    "A104988",
+    "A125714",
+    "A125781",
+    "A127054",
+    "A135876",
+    "A136212",
+    "A136213",
+    "A136217",
+    "A156629"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

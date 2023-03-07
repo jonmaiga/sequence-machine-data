@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k). Row n lists the numerators of a finite sum of fractions which results from Sum_{j>=1} 1/2^(A014682^n(j)).",
+  "id": "A343684",
+  "mentions": [
+    "A014682"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

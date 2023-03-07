@@ -1,0 +1,19 @@
+{
+  "description": "Longest palindromic factor of (n base 2); in case of tie choose largest; if it begins with 0 complement it.",
+  "id": "A215256",
+  "mentions": [
+    "A050430",
+    "A215467"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

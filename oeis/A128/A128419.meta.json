@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 8/(sqrt(1-8*x)*(sqrt(1-8*x)+4*x+7)).",
+  "id": "A128419",
+  "mentions": [
+    "A128417"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

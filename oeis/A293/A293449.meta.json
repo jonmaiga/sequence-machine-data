@@ -1,0 +1,27 @@
+{
+  "description": "Characteristic function for A056166, numbers that have no nonprime exponents present in their prime factorization n = p_1^e_1 * ... * p_k^e_k.",
+  "id": "A293449",
+  "mentions": [
+    "A010051",
+    "A028234",
+    "A056166",
+    "A067029",
+    "A095683",
+    "A095691",
+    "A101436",
+    "A125070",
+    "A126849"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

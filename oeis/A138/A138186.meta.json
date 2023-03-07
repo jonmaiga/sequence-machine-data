@@ -1,0 +1,20 @@
+{
+  "description": "A triangular sequence based on expansion of the rational polynomial of A023054 as a Sheffer sequence: p(x,t)=Exp[x*t]*(1 - t^5)/((1 - t)*(1 - t^2)^2*(1 - t^3)).",
+  "id": "A138186",
+  "mentions": [
+    "A023054"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of normal generalized Young tableaux of size n with all rows and columns weakly increasing and all regions connected skew partitions.",
+  "id": "A300122",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A006958",
+    "A138178",
+    "A238690",
+    "A259479",
+    "A259480",
+    "A296561",
+    "A297388",
+    "A299699",
+    "A299925",
+    "A299926",
+    "A300118",
+    "A300120",
+    "A300121",
+    "A300123",
+    "A300124"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

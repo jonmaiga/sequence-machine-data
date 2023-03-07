@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of length n sortable by 3 passes through a pop-stack.",
+  "id": "A293774",
+  "mentions": [
+    "A224232",
+    "A293775",
+    "A293776",
+    "A293784"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Base 4 perfect digital invariants (written in base 10): numbers equal to the sum of the k-th powers of their base-4 digits, for some k.",
+  "id": "A162219",
+  "mentions": [
+    "A010344",
+    "A023052",
+    "A033836",
+    "A162216",
+    "A162220",
+    "A162221",
+    "A162222",
+    "A162225",
+    "A162228",
+    "A162231",
+    "A162234"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

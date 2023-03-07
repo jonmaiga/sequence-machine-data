@@ -1,0 +1,21 @@
+{
+  "description": "Odd positive integers a(n) such that for every odd integer m>=7 there exists a unique representation of the form m=a(p)+2a(q)+4a(r)",
+  "id": "A147845",
+  "mentions": [
+    "A033045",
+    "A033052",
+    "A145812",
+    "A145818"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:19",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

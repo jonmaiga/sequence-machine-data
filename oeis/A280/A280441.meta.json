@@ -1,0 +1,18 @@
+{
+  "description": "Least composite numbers k such that the least common multiples of their aliquot parts, each one increased by n, is less than k.",
+  "id": "A280441",
+  "mentions": [
+    "A000961",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "McKay-Thompson series of class 60D for the Monster group with a(0) = -1.",
+  "id": "A143751",
+  "mentions": [
+    "A058728",
+    "A112215",
+    "A143752"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": -1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

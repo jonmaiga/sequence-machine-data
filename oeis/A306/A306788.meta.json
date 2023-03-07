@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that all digits in k are different and for each digit d it is true that k = d (mod sum of digits(k) - d).",
+  "id": "A306788",
+  "mentions": [
+    "A010784",
+    "A172189"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 15*n^2 + 16 is a square.",
+  "id": "A273053",
+  "mentions": [
+    "A070997",
+    "A273052"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

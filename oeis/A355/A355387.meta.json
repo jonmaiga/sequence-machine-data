@@ -1,0 +1,42 @@
+{
+  "description": "Number of ways to choose a distinct subsequence of an integer composition of n.",
+  "id": "A355387",
+  "mentions": [
+    "A000302",
+    "A000712",
+    "A011782",
+    "A022811",
+    "A025192",
+    "A032005",
+    "A032020",
+    "A063834",
+    "A070933",
+    "A075900",
+    "A133494",
+    "A181591",
+    "A236002",
+    "A304961",
+    "A307068",
+    "A323583",
+    "A336127",
+    "A336128",
+    "A336130",
+    "A336139",
+    "A339006",
+    "A355382",
+    "A355383",
+    "A355384",
+    "A355388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

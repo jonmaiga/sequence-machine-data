@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive number not in a random Fibonacci sequence of length n.",
+  "id": "A338517",
+  "mentions": [
+    "A336717"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

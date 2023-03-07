@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = the least k >= 1 for which the Jacobi symbol J(k,2n+1) is not +1 (thus is either 0 or -1).",
+  "id": "A112046",
+  "mentions": [
+    "A000040",
+    "A053760",
+    "A053761",
+    "A090368",
+    "A112047",
+    "A112048",
+    "A112049",
+    "A112050",
+    "A112053",
+    "A112060",
+    "A112070",
+    "A268829",
+    "A286465",
+    "A286466"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k = 0..n-1} binomial(n,k)*binomial(n-1,k)*binomial(n+k,k)*binomial(n-1+k,k).",
+  "id": "A352653",
+  "mentions": [
+    "A002002",
+    "A005259",
+    "A108628",
+    "A143007",
+    "A177316"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

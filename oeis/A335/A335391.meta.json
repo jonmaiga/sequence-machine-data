@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals downwards: for n >= 2, T(k,n) is the number of permutations of [k+n] that differ in every position from both the identity permutation and a permutation consisting of k 1-cycles and one n-cycle.",
+  "id": "A335391",
+  "mentions": [
+    "A000023",
+    "A000166",
+    "A000270",
+    "A034807",
+    "A047920",
+    "A102761",
+    "A105926",
+    "A127677",
+    "A213234",
+    "A331007"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

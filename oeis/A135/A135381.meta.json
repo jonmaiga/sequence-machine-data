@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = high point in trajectory of n under repeated application of powertrain map (see A133500).",
+  "id": "A135381",
+  "mentions": [
+    "A133500",
+    "A133501",
+    "A135382",
+    "A135383"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

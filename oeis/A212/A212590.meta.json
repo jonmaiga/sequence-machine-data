@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p = prime(k) such that prime(n+k) - prime(k) = 6^(n-1).",
+  "id": "A212590",
+  "mentions": [
+    "A182317",
+    "A182320"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

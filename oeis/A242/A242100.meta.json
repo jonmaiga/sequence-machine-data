@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form m = b^i + b^j, where b > 1 and i > j > 0.",
+  "id": "A242100",
+  "mentions": [
+    "A001597",
+    "A018900",
+    "A239709",
+    "A239710"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

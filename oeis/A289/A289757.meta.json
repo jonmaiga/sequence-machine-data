@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!7-1, where k!7 is the septuple factorial number (A114799).",
+  "id": "A289757",
+  "mentions": [
+    "A114799",
+    "A156167"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

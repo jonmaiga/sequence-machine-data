@@ -1,0 +1,37 @@
+{
+  "description": "First position of n in the sequence of zero-based weighted sums of standard compositions (A124757), if we start with position 0.",
+  "id": "A359756",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A053632",
+    "A059893",
+    "A066099",
+    "A070939",
+    "A083329",
+    "A089633",
+    "A124757",
+    "A231204",
+    "A304818",
+    "A318283",
+    "A320387",
+    "A359043",
+    "A359674",
+    "A359676",
+    "A359678",
+    "A359681",
+    "A359682"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

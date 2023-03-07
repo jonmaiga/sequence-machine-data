@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: parameters of the principal cycle of discriminant 4*D(n), with D(n) = A000037(n).",
+  "id": "A324251",
+  "mentions": [
+    "A000037",
+    "A000194",
+    "A225953",
+    "A307372",
+    "A324252"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

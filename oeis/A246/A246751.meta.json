@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of D, an auxiliary constant associated with the asymptotic number of values of the Euler totient function less than a given number.",
+  "id": "A246751",
+  "mentions": [
+    "A234614",
+    "A246746",
+    "A246749"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

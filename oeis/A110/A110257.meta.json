@@ -1,0 +1,25 @@
+{
+  "description": "Numerators in the coefficients that form the odd-indexed partial quotients of the continued fraction representation of the inverse tangent of 1/x.",
+  "id": "A110257",
+  "mentions": [
+    "A000120",
+    "A002894",
+    "A110255",
+    "A110256",
+    "A110258",
+    "A110259",
+    "A110260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

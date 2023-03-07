@@ -1,0 +1,19 @@
+{
+  "description": "Nontotients (A005277) that are the product of two totients (A002202).",
+  "id": "A329872",
+  "mentions": [
+    "A002202",
+    "A005277",
+    "A301587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

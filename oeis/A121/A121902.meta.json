@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor((Pi - e)*sqrt(n)).",
+  "id": "A121902",
+  "mentions": [
+    "A073244",
+    "A121854",
+    "A121855",
+    "A121856",
+    "A121857",
+    "A121899",
+    "A121900",
+    "A121901"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:08:37",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

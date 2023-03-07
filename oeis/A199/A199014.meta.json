@@ -1,0 +1,25 @@
+{
+  "description": "Divisors of 196884.",
+  "id": "A199014",
+  "mentions": [
+    "A000521",
+    "A001379",
+    "A018253",
+    "A018287",
+    "A018623",
+    "A174670",
+    "A174671"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

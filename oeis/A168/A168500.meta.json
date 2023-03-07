@@ -1,0 +1,19 @@
+{
+  "description": "Primes n of the form 10000p+100q+r with primes p, q and r, 98>p>q>r>10.",
+  "id": "A168500",
+  "mentions": [
+    "A168499"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

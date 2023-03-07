@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with a record size of the largest Lucas-Carmichael number that can be generated from them using an adjusted version of Erdős's method.",
+  "id": "A292354",
+  "mentions": [
+    "A006972",
+    "A287840",
+    "A287862",
+    "A292352"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

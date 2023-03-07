@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sqrt(A132956(n)).",
+  "id": "A132957",
+  "mentions": [
+    "A132955",
+    "A132956"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

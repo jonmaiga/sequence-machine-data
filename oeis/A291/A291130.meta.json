@@ -1,0 +1,18 @@
+{
+  "description": "Number of defective parking functions of length n and defect four.",
+  "id": "A291130",
+  "mentions": [
+    "A264902"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 5,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

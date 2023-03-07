@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = Kronecker symbol (-n/k), n >= 1, k >= 1.",
+  "id": "A323378",
+  "mentions": [
+    "A034947",
+    "A101455",
+    "A102283",
+    "A109017",
+    "A175629",
+    "A188510",
+    "A215200",
+    "A226162"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

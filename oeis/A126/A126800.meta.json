@@ -1,0 +1,18 @@
+{
+  "description": "Smallest divisor of n which is greater than largest divisor d of n such that each integer from 1 to d is also a divisor of n.",
+  "id": "A126800",
+  "mentions": [
+    "A055874"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

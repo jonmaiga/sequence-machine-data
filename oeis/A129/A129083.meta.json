@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of b(n): b(n) = the maximum possible value for a continued fraction whose terms are a permutation of the terms of the simple continued fraction for H(n) = sum{k=1 to n} 1/k, the n-th harmonic number.",
+  "id": "A129083",
+  "mentions": [
+    "A129082",
+    "A129084",
+    "A129085"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

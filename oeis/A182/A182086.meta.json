@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of making change for n Pfennig using Deutschmark coins.",
+  "id": "A182086",
+  "mentions": [
+    "A000008",
+    "A001312",
+    "A001364",
+    "A067996",
+    "A082593"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:15",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

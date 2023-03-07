@@ -1,0 +1,19 @@
+{
+  "description": "Amenable numbers: n such that there exists a multiset of integers (s(1), ..., s(n)) whose size, sum and product are all n.",
+  "id": "A100832",
+  "mentions": [
+    "A014601",
+    "A042948"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:13",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

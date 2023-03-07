@@ -1,0 +1,19 @@
+{
+  "description": "(Conjecturally) the lexicographically earliest infinite sequence over {0,1,2,3} avoiding abelian squares.",
+  "id": "A321252",
+  "mentions": [
+    "A272653",
+    "A272654",
+    "A272655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

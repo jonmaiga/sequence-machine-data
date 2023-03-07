@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, T(n,k) = T(n-1,k) + T(n-3,k-1) + T(n-4,k-2) + delta(n,0)*delta(k,0), T(n,k",
+  "id": "A335964",
+  "mentions": [
+    "A006498",
+    "A011973",
+    "A059259",
+    "A123521",
+    "A157897",
+    "A158909",
+    "A348445"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

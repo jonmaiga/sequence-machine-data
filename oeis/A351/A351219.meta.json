@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicative with a(p^e) = Fibonacci(e+1).",
+  "id": "A351219",
+  "mentions": [
+    "A000045",
+    "A005117",
+    "A065108",
+    "A065488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

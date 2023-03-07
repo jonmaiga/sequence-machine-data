@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows in which T(n,k) is the number of length k chains from (0,0) to (n,n) of the poset [n] X [n] ordered by the product order, 0 <= k <= 2n, n>=0.",
+  "id": "A316649",
+  "mentions": [
+    "A000007",
+    "A000984",
+    "A007318",
+    "A008865",
+    "A052141",
+    "A057427",
+    "A108628"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that A242719(n) = (prime(n))^2+1 and A242720(n) - A242719(n) = 2*(prime(n)+1).",
+  "id": "A246748",
+  "mentions": [
+    "A001359",
+    "A062326",
+    "A157468",
+    "A242719",
+    "A242720",
+    "A246819",
+    "A246821"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

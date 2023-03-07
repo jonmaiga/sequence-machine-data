@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - x)^cos(x).",
+  "id": "A351880",
+  "mentions": [
+    "A007118",
+    "A007119",
+    "A009192",
+    "A009410",
+    "A298374",
+    "A351881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

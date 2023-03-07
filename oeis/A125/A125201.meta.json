@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 8*n^2 - 7*n + 1.",
+  "id": "A125201",
+  "mentions": [
+    "A000217",
+    "A051870",
+    "A125199"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:59:31",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

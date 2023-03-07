@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n=prime(phi(sigma(pi(n)))).",
+  "id": "A163665",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A000720",
+    "A163666"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

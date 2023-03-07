@@ -1,0 +1,26 @@
+{
+  "description": "Number of digits in sum of first n primes (A007504).",
+  "id": "A123119",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A004216",
+    "A004218",
+    "A007504",
+    "A034386",
+    "A055642",
+    "A111287"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

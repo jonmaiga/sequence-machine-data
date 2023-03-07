@@ -1,0 +1,21 @@
+{
+  "description": "Replace 2^k in the binary representation of n with n-k (i.e. if n = 2^a + 2^b + 2^c + ... then a(n) = (n-a) + (n-b) + (n-c) + ...).",
+  "id": "A198192",
+  "mentions": [
+    "A000120",
+    "A073642"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

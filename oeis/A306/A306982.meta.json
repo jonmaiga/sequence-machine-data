@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the upper asymptotic density of certain sets of residues.",
+  "id": "A306982",
+  "mentions": [
+    "A154945",
+    "A324833",
+    "A324834",
+    "A324835",
+    "A324836"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": -8,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

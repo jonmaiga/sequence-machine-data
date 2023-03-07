@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers s for which there exist primes p, q, r such that phi(pqs)=phi(rs^3), sigma(pqs)=sigma(rs^3).",
+  "id": "A236255",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A134922"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

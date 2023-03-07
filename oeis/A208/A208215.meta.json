@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of dividing a 3 X n rectangle into rectangles of integer side lengths.",
+  "id": "A208215",
+  "mentions": [
+    "A034999",
+    "A116694",
+    "A182275"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:20:54",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

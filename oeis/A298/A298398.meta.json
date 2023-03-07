@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest odd b > 1 such that (b^(2n) + 1)/2 has all prime divisors p == 1 (mod 2n).",
+  "id": "A298398",
+  "mentions": [
+    "A298299"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

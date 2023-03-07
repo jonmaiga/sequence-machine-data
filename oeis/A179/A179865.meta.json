@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-bit binary numbers containing one run of 0's.",
+  "id": "A179865",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:55:35",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

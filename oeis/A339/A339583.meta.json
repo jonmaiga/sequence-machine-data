@@ -1,0 +1,21 @@
+{
+  "description": "Leading term in row 2*n of A237270.",
+  "id": "A339583",
+  "mentions": [
+    "A237270",
+    "A237271",
+    "A237590",
+    "A237593",
+    "A241838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

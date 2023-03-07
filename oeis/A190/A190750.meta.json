@@ -1,0 +1,17 @@
+{
+  "description": "n+[nr/w]+[ns/w]+[nt/w]+[nu/w]+[nv/w], where r=sinh(1), s=cosh(1), t=tanh(1), u=csch(1), v=sech(1), w=coth(1).",
+  "id": "A190750",
+  "mentions": [
+    "A190745"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:35",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

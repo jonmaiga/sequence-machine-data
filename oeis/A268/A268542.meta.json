@@ -1,0 +1,19 @@
+{
+  "description": "The diagonal of the rational function 1/(1 - x - y - x y - x z - y z).",
+  "id": "A268542",
+  "mentions": [
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

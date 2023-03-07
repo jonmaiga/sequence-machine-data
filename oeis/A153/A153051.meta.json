@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n>=9 such that 2*n-17 is not a prime.",
+  "id": "A153051",
+  "mentions": [
+    "A098605",
+    "A153041",
+    "A163674"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

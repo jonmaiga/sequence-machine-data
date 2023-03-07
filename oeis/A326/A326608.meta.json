@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that m | A000385(m-1) = Sum_{k=1..m-1} sigma(k) * sigma(m-k).",
+  "id": "A326608",
+  "mentions": [
+    "A000203",
+    "A000385",
+    "A000396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "A permutation of {0, 1, ..., 1023} corresponding to lexicographical ordering A262557 of numbers with decreasing digits A009995.",
+  "id": "A263327",
+  "mentions": [
+    "A009995",
+    "A262557",
+    "A263328",
+    "A263329",
+    "A263355",
+    "A263383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

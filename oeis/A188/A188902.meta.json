@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of the base n logarithm of the product of the divisors of n.",
+  "id": "A188902",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A007955",
+    "A007956",
+    "A010052",
+    "A038548",
+    "A056924"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

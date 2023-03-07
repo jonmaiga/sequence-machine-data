@@ -1,0 +1,19 @@
+{
+  "description": "Pentagonal numbers (A000326) whose digit reversal is a prime.",
+  "id": "A115707",
+  "mentions": [
+    "A000326",
+    "A115706"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

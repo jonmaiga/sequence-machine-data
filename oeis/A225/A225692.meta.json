@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths of semilength n avoiding the pattern U^(n-1) D^(n-1).",
+  "id": "A225692",
+  "mentions": [
+    "A009766"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of the matrix square of triangle A224798.",
+  "id": "A224799",
+  "mentions": [
+    "A224798",
+    "A224800",
+    "A224801",
+    "A224802"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

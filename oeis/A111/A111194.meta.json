@@ -1,0 +1,18 @@
+{
+  "description": "Permanent of the inverse Hilbert matrix.",
+  "id": "A111194",
+  "mentions": [
+    "A005249",
+    "A092326"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Harmonic residue of n.",
+  "id": "A106315",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A038040",
+    "A106316",
+    "A106317",
+    "A240471"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

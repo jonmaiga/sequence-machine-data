@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(A227349(n), A227350(n)).",
+  "id": "A284582",
+  "mentions": [
+    "A167489",
+    "A227349",
+    "A227350",
+    "A284583"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

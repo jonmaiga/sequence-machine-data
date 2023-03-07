@@ -1,0 +1,21 @@
+{
+  "description": "Largest n digit prime with the most digits equal to 1.",
+  "id": "A177999",
+  "mentions": [
+    "A004022",
+    "A037055",
+    "A105992",
+    "A178000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

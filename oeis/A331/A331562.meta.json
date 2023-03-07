@@ -1,0 +1,38 @@
+{
+  "description": "Number A(n,k) of sequences with k copies each of 1,2,...,n avoiding absolute differences between adjacent elements larger than one; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A331562",
+  "mentions": [
+    "A000012",
+    "A000984",
+    "A103882",
+    "A130130",
+    "A177282",
+    "A177291",
+    "A177298",
+    "A177301",
+    "A177304",
+    "A177307",
+    "A177310",
+    "A177313",
+    "A177316",
+    "A177317",
+    "A177318",
+    "A177319",
+    "A177320",
+    "A177321",
+    "A269129",
+    "A275784",
+    "A331623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

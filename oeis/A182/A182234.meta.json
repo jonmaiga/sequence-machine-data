@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are palindromic in bases 2 and 7.",
+  "id": "A182234",
+  "mentions": [
+    "A006995",
+    "A029954",
+    "A060792",
+    "A097856"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

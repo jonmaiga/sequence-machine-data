@@ -1,0 +1,21 @@
+{
+  "description": "The number of coreful perfect numbers (A307958) below 10^n.",
+  "id": "A307961",
+  "mentions": [
+    "A307822",
+    "A307958",
+    "A307960"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

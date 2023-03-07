@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = least integer m > 1 such that 2S_k^2 (k=1,...,n) are pairwise distinct modulo m, where S_k is the sum of the first k primes.",
+  "id": "A210640",
+  "mentions": [
+    "A000040",
+    "A207982",
+    "A208494",
+    "A208643",
+    "A210144",
+    "A210186",
+    "A210393",
+    "A210394"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

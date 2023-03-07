@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A335579(k) is divisible by at least one of the composites between prime(k) and prime(k+1).",
+  "id": "A335580",
+  "mentions": [
+    "A335579"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

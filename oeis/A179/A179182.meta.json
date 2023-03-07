@@ -1,0 +1,21 @@
+{
+  "description": "Natural numbers n such that n+1 or 2n+1 is prime.",
+  "id": "A179182",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A006093"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

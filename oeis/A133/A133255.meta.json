@@ -1,0 +1,24 @@
+{
+  "description": "Triangle with a minimum occurrence of prime powers for which the least common multiple of the rows will give the terms in A003418.",
+  "id": "A133255",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A089026",
+    "A133232",
+    "A133233"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

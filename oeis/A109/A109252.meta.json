@@ -1,0 +1,19 @@
+{
+  "description": "Number of fair sudoku problems with n given values on a 4 x 4 grid.",
+  "id": "A109252",
+  "mentions": [
+    "A107739"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

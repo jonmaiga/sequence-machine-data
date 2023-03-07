@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=0, a(1)=1, a(2)=10; for n>2, a(n) = concat(a(1), ..., a(n-1)).",
+  "id": "A266926",
+  "mentions": [
+    "A000079",
+    "A098011",
+    "A103204",
+    "A136308",
+    "A267348"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

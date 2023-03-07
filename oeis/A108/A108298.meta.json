@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the first 10^n terms in A097975. a(n) = sum_{m=1..10^n} t(m), where t(m) is the sum of the prime divisors of m that are greater than or equal to sqrt(m).",
+  "id": "A108298",
+  "mentions": [
+    "A097975"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers with more than one 1 < k < 10 for which the base-k representation is palindromic.",
+  "id": "A255161",
+  "mentions": [
+    "A087155"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

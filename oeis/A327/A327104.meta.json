@@ -1,0 +1,26 @@
+{
+  "description": "Maximum vertex-degree of the set-system with BII-number n.",
+  "id": "A327104",
+  "mentions": [
+    "A000120",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A326031",
+    "A326701",
+    "A326786",
+    "A327041",
+    "A327103",
+    "A327106"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

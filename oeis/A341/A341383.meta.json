@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that the largest digit in the decimal expansion of 1/m is 2.",
+  "id": "A341383",
+  "mentions": [
+    "A021499",
+    "A021823",
+    "A093143",
+    "A333236",
+    "A333237",
+    "A333402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

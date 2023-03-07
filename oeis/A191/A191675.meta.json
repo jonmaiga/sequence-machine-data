@@ -1,0 +1,18 @@
+{
+  "description": "Euler totient function in base 10 lunar arithmetic.",
+  "id": "A191675",
+  "mentions": [
+    "A191674"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

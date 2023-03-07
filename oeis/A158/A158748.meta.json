@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, T(n, k) = (prime(n+1) - prime(k+1))! - (n! - k!).",
+  "id": "A158748",
+  "mentions": [
+    "A000142",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

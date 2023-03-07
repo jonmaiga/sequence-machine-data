@@ -1,0 +1,21 @@
+{
+  "description": "Numbers all of whose divisors are numbers whose decimal digits are in nonincreasing order.",
+  "id": "A190220",
+  "mentions": [
+    "A009996",
+    "A028867",
+    "A190217",
+    "A190219"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

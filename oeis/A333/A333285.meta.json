@@ -1,0 +1,22 @@
+{
+  "description": "The main diagonal of the triangular array A333284.",
+  "id": "A333285",
+  "mentions": [
+    "A018808",
+    "A141255",
+    "A332282",
+    "A333282",
+    "A333283",
+    "A333284"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

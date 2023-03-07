@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Re((1/4)*Integral_{-infinity..+infinity} sqrt(log(1/2 + i*z))* sech(Pi*z)^2).",
+  "id": "A301814",
+  "mentions": [
+    "A301815"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

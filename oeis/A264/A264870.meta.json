@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array: For n >= 2 and 0 < k <= n - 2, T(n, k) equals the number of (unrooted) duplication trees on n gene segments that are canonical and whose leftmost visible duplication event is (k, r), for 1 <= r <= (n - k)/2.",
+  "id": "A264870",
+  "mentions": [
+    "A086521",
+    "A264868",
+    "A264869",
+    "A264879"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

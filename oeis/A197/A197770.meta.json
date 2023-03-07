@@ -1,0 +1,23 @@
+{
+  "description": "Ceiling((10*n+1/n)^n).",
+  "id": "A197770",
+  "mentions": [
+    "A014058",
+    "A197716",
+    "A197717",
+    "A197764",
+    "A197765",
+    "A197766"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

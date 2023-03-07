@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k adjacent pairs of the form (even,even) (0<=k<=floor(n/2)-1).",
+  "id": "A145892",
+  "mentions": [
+    "A000142",
+    "A077612",
+    "A134434",
+    "A134435",
+    "A145891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

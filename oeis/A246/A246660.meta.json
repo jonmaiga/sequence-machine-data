@@ -1,0 +1,34 @@
+{
+  "description": "Run Length Transform of factorials.",
+  "id": "A246660",
+  "mentions": [
+    "A000142",
+    "A001013",
+    "A001316",
+    "A003714",
+    "A005940",
+    "A007814",
+    "A071053",
+    "A112624",
+    "A227349",
+    "A246588",
+    "A246595",
+    "A246596",
+    "A246661",
+    "A246674",
+    "A323505",
+    "A323506"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

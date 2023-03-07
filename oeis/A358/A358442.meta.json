@@ -1,0 +1,21 @@
+{
+  "description": "Records in A266798.",
+  "id": "A358442",
+  "mentions": [
+    "A266798",
+    "A358441"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

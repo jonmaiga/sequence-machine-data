@@ -1,0 +1,22 @@
+{
+  "description": "A table distributing the values 1 2 5 14 43 144 523 2048 38486 182905 ... A047970 based on row sums of sub-tables counting permutations of partitions.",
+  "id": "A112996",
+  "mentions": [
+    "A001787",
+    "A047969",
+    "A047970"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

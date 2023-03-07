@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A324721: a(n) = 1 if 2*A156552(n) > A323243(n), and 0 otherwise.",
+  "id": "A324732",
+  "mentions": [
+    "A156552",
+    "A294934",
+    "A323243",
+    "A323244",
+    "A324721",
+    "A324731"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

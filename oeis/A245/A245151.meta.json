@@ -1,0 +1,29 @@
+{
+  "description": "Number T(n,k) of n-node unlabeled rooted trees with thickening limbs and root outdegree (branching factor) k; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.",
+  "id": "A245151",
+  "mentions": [
+    "A000007",
+    "A244657",
+    "A245142",
+    "A245143",
+    "A245144",
+    "A245145",
+    "A245146",
+    "A245147",
+    "A245148",
+    "A245149",
+    "A245150",
+    "A245152"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

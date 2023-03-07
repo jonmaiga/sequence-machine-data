@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place n nonattacking composite pieces queen + rider[3,4] on an n X n chessboard.",
+  "id": "A189879",
+  "mentions": [
+    "A102388",
+    "A189858",
+    "A189874",
+    "A189877"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which there exists x > n such that A155043(x) < A155043(n); numbers n for which A263078(n) is positive.",
+  "id": "A263080",
+  "mentions": [
+    "A049820",
+    "A155043",
+    "A261089",
+    "A262503",
+    "A263077",
+    "A263078",
+    "A263079"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

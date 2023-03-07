@@ -1,0 +1,24 @@
+{
+  "description": "Perimeters of integer-sided primitive triangles (a, b, c) where side a is the harmonic mean of the 2 other sides b and c, i.e., 2/a = 1/b + 1/c with b < a < c. The triples (a, b, c) are listed in increasing order of side a, and if sides a coincide, in increasing order of side b.",
+  "id": "A343894",
+  "mentions": [
+    "A020883",
+    "A020886",
+    "A020890",
+    "A343891",
+    "A343892",
+    "A343893",
+    "A343895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

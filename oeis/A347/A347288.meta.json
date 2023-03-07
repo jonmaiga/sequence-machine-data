@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n,k) starting with 2^n followed by p_k^e_k = p_k^floor(log_p_k(p_(k-1)^e_(k-1))) such that e_k > 0.",
+  "id": "A347288",
+  "mentions": [
+    "A000217",
+    "A000961",
+    "A089576",
+    "A347284",
+    "A347385"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

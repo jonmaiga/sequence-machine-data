@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: the n-th row gives the saturated vertex Turán numbers for the cube graph Q_n.",
+  "id": "A350292",
+  "mentions": [
+    "A350293",
+    "A350295"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Products of the 8th power of a prime and a distinct prime (p^8*q).",
+  "id": "A179668",
+  "mentions": [
+    "A006881",
+    "A007304",
+    "A065036",
+    "A085986",
+    "A085987",
+    "A092759",
+    "A178739",
+    "A179642",
+    "A179643",
+    "A179644",
+    "A179645",
+    "A179646",
+    "A179664",
+    "A179665",
+    "A179666",
+    "A179667"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

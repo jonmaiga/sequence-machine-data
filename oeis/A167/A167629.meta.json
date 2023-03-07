@@ -1,0 +1,18 @@
+{
+  "description": "The odd composites n such that n=q*g*j*y/2 and q+g=j*y where q,g,j,y are distinct primes.",
+  "id": "A167629",
+  "mentions": [
+    "A000040",
+    "A157931"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

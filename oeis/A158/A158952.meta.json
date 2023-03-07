@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Euler transform of the number of partitions in expanding space (A023881).",
+  "id": "A158952",
+  "mentions": [
+    "A023881",
+    "A158947"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/s, where s = Sum_{n>=1} 1/p(n), where p(n) is the product of numbers n^2 + 1 to (n+1)^2 - 1.",
+  "id": "A219734",
+  "mentions": [
+    "A219733"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

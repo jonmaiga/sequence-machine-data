@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 11...111 (with k 1's) = (10^k - 1)/9 is a Kaprekar prime.",
+  "id": "A350755",
+  "mentions": [
+    "A002275",
+    "A004022",
+    "A004023",
+    "A006886"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

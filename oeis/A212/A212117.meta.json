@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into exactly 6 different parts with distinct multiplicities.",
+  "id": "A212117",
+  "mentions": [
+    "A182485"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 56,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n^2 concatenated with (n+1)^2.",
+  "id": "A246973",
+  "mentions": [
+    "A104242",
+    "A235497"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

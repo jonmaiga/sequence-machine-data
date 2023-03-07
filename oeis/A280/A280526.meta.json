@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 278\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A280526",
+  "mentions": [
+    "A280365",
+    "A280524",
+    "A280525"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:04:54",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

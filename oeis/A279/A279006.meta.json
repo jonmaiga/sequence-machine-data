@@ -1,0 +1,27 @@
+{
+  "description": "Alternating Jacobsthal triangle read by rows (second version).",
+  "id": "A279006",
+  "mentions": [
+    "A000124",
+    "A003600",
+    "A108561",
+    "A112468",
+    "A112555",
+    "A220074",
+    "A223659",
+    "A223718",
+    "A257890"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

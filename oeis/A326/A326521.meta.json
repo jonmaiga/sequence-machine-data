@@ -1,0 +1,28 @@
+{
+  "description": "Number of normal multiset partitions of weight n where each part has a different average.",
+  "id": "A326521",
+  "mentions": [
+    "A038041",
+    "A051293",
+    "A255906",
+    "A317583",
+    "A326513",
+    "A326516",
+    "A326517",
+    "A326518",
+    "A326519",
+    "A326520",
+    "A326537"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

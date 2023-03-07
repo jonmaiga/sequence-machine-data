@@ -1,0 +1,19 @@
+{
+  "description": "Sum([pi(j+1)-pi(j)][prime(j+1)-prime(j)],j=1..n), where pi(k) is the number of prime numbers less than or equal to k and prime(k) is the k-th prime.",
+  "id": "A109579",
+  "mentions": [
+    "A001223",
+    "A010051",
+    "A109578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Orbits with n vertices of special cuts up to isomorphism of 600-cell.",
+  "id": "A135059",
+  "mentions": [
+    "A143661"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

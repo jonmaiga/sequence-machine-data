@@ -1,0 +1,28 @@
+{
+  "description": "Triangular array of generalized Narayana numbers T(n,k) = 2*binomial(n+1,k)* binomial(n-2,k-1)/(n+1) for n >= 1 and 0 <= k <= n-1, read by rows.",
+  "id": "A281260",
+  "mentions": [
+    "A000007",
+    "A001263",
+    "A033184",
+    "A088218",
+    "A103365",
+    "A108838",
+    "A145596",
+    "A281293",
+    "A281297"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

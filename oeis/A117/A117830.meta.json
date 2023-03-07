@@ -1,0 +1,23 @@
+{
+  "description": "Let S_m be the infinite sequence formed by starting with m and repeatedly reversing the digits and adding 4 to get the next term. For all m < 1015, S_m enters the cycle of length 54 whose terms are shown here.",
+  "id": "A117830",
+  "mentions": [
+    "A117807",
+    "A117827",
+    "A117828",
+    "A117829",
+    "A117831"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:51",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as a^2 + 3*b^2 + c^4 + 2*d^4 + a*b*c*d, where a,b,c,d are nonnegative integers.",
+  "id": "A352636",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A352627",
+    "A352628",
+    "A352629",
+    "A352632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

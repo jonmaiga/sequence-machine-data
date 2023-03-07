@@ -1,0 +1,24 @@
+{
+  "description": "Recursively defined polynomials, read by row.",
+  "id": "A109086",
+  "mentions": [
+    "A109087",
+    "A109088",
+    "A109089",
+    "A109090"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

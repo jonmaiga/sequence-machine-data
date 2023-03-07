@@ -1,0 +1,28 @@
+{
+  "description": "Subsets of {1,2,...,n-6} without differences equal to 3 or 6.",
+  "id": "A224810",
+  "mentions": [
+    "A000930",
+    "A002524",
+    "A002529",
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A080014",
+    "A217694",
+    "A224808"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

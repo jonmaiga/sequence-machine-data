@@ -1,0 +1,17 @@
+{
+  "description": "Determinant of the n X n matrix with (i,j)-entry equal to the greatest common divisor of i-j and n.",
+  "id": "A228884",
+  "mentions": [
+    "A228885"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

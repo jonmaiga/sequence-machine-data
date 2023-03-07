@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (58*100^n - 157)/99 is prime.",
+  "id": "A103110",
+  "mentions": [
+    "A013110",
+    "A069514",
+    "A102589"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Highly composite numbers (A002182) that are not superabundant numbers (A004394).",
+  "id": "A308913",
+  "mentions": [
+    "A002182",
+    "A004394",
+    "A166735",
+    "A166981",
+    "A181309"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

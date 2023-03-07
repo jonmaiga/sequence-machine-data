@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor( n * (n+5) / 10) + 1.",
+  "id": "A249020",
+  "mentions": [
+    "A008669",
+    "A249013"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:15",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

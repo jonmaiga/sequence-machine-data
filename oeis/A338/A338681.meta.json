@@ -1,0 +1,19 @@
+{
+  "description": "The number of factorizations of an n-element set. (Defined below in Comments.)",
+  "id": "A338681",
+  "mentions": [
+    "A000110",
+    "A001055"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

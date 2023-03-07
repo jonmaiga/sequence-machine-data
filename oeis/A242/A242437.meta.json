@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not appearing in the sequence of integers, beginning with 1, that can be formed by adding any digit of any previous term to that previous term.",
+  "id": "A242437",
+  "mentions": [
+    "A241175"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

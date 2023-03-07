@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonzero evil numbers <= n, see A001969.",
+  "id": "A245710",
+  "mentions": [
+    "A001969",
+    "A010059",
+    "A115384",
+    "A159481",
+    "A246159",
+    "A246162"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

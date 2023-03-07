@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - (x*(1 + x))^k).",
+  "id": "A309575",
+  "mentions": [
+    "A238441",
+    "A266108",
+    "A306565",
+    "A307501",
+    "A307548",
+    "A327671"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

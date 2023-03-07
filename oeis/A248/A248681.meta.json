@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of r = Sum_{n >= 0} floor(n/4)!/floor(n/3)!.",
+  "id": "A248681",
+  "mentions": [
+    "A248679",
+    "A248680"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

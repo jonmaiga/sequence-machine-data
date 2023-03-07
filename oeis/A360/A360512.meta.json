@@ -1,0 +1,22 @@
+{
+  "description": "Total number of edges after n generations in hexagonal graph constructed in first quadrant (see Comments in A360501 for precise definition).",
+  "id": "A360512",
+  "mentions": [
+    "A182632",
+    "A182838",
+    "A182840",
+    "A360501"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Values of m for which (6m+1)(12m+1)(18m+1) is a Carmichael number.",
+  "id": "A101187",
+  "mentions": [
+    "A002997",
+    "A046025",
+    "A065703",
+    "A101186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

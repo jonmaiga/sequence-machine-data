@@ -1,0 +1,20 @@
+{
+  "description": "Left-hand half of triangle A297191.",
+  "id": "A297192",
+  "mentions": [
+    "A008288",
+    "A297191"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

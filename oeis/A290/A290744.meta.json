@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of distinct Lyndon factors that can appear in words of length n over an alphabet of size 5.",
+  "id": "A290744",
+  "mentions": [
+    "A290743",
+    "A290745",
+    "A290747"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:27:23",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

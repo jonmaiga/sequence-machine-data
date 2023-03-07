@@ -1,0 +1,26 @@
+{
+  "description": "Number of permutations on [n] whose up-down signature has nonnegative partial sums and which have exactly two descents.",
+  "id": "A321268",
+  "mentions": [
+    "A000246",
+    "A005803",
+    "A008292",
+    "A065826",
+    "A177042",
+    "A303285",
+    "A321269",
+    "A321280"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:00:00",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

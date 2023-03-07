@@ -1,0 +1,26 @@
+{
+  "description": "Array of sequences read by descending antidiagonals, A(n) the Jacobi square of the sequence n, n+1, n+2, ....",
+  "id": "A321960",
+  "mentions": [
+    "A000007",
+    "A000110",
+    "A002378",
+    "A033445",
+    "A074664",
+    "A321958",
+    "A321959",
+    "A321964"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

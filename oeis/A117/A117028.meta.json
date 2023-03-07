@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of abs(log_10(sine of 1 radian)).",
+  "id": "A117028",
+  "mentions": [
+    "A002392",
+    "A049469",
+    "A073447",
+    "A117029"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the heights of all lattice paths from (0,0) to (n,0) that do not go below the x-axis, and at (x,y) only allow steps (1,v) with v in {-1,0,1,...,y+1}.",
+  "id": "A333504",
+  "mentions": [
+    "A333069",
+    "A333070",
+    "A333071",
+    "A333498",
+    "A333608"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

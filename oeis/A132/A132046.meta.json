@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,0) = T(n,n) = 1, and T(n,k) = 2*binomial(n,k) for 1 <= k <= n - 1.",
+  "id": "A132046",
+  "mentions": [
+    "A007318",
+    "A095121",
+    "A100320",
+    "A103451",
+    "A141540",
+    "A144704",
+    "A154325",
+    "A154327"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * exp( x*exp(n*x) ) / n!.",
+  "id": "A340909",
+  "mentions": [
+    "A340332",
+    "A340335"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

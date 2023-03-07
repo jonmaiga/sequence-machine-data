@@ -1,0 +1,19 @@
+{
+  "description": "Least integer k > n such that n*k/(n+k) is an integer, or 0 if no such k exists.",
+  "id": "A235268",
+  "mentions": [
+    "A002378",
+    "A063427"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

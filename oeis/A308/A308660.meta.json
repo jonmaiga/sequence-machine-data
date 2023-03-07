@@ -1,0 +1,18 @@
+{
+  "description": "For any Gaussian integer z, let d(z) be the distance from z to the nearest Gaussian prime distinct from z; we build an undirected graph G on top of the Gaussian prime numbers as follows: two Gaussian prime numbers p and q are connected iff at least one of d(p) or d(q) equals the distance from p to q; a(n) is the number of elements in the connected component of G containing A002145(n).",
+  "id": "A308660",
+  "mentions": [
+    "A002145",
+    "A308261"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

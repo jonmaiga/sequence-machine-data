@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = k! * Sum_{d|n} phi(d) * A008284(n/d, k) for n >= 1, T(0, k) = 0^k. Triangle read by rows for 0 <= k <= n.",
+  "id": "A327028",
+  "mentions": [
+    "A000142",
+    "A008284",
+    "A318144",
+    "A327025",
+    "A327029"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

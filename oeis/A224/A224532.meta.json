@@ -1,0 +1,18 @@
+{
+  "description": "Largest number k such that phi(k) = A007374(n).",
+  "id": "A224532",
+  "mentions": [
+    "A007374",
+    "A224531"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

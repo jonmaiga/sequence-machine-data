@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of psi(x) / psi(x^3) in powers of x where psi() is a Ramanujan theta function.",
+  "id": "A256626",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058487",
+    "A098151",
+    "A101195",
+    "A121373",
+    "A128633",
+    "A135211"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:17:17",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of ways to write n as Sum_{k = 2..14} x_k^k with x_k > 0 for k = 2..14.",
+  "id": "A344833",
+  "mentions": [
+    "A078359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

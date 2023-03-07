@@ -1,0 +1,21 @@
+{
+  "description": "Self-convolution of A010060 (Thue-Morse sequence).",
+  "id": "A108804",
+  "mentions": [
+    "A010060",
+    "A108805",
+    "A115384",
+    "A247303"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

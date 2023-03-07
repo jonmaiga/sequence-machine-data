@@ -1,0 +1,21 @@
+{
+  "description": "Binomial(2p-1,p-1) modulo p^4, with p=prime(n).",
+  "id": "A242473",
+  "mentions": [
+    "A088164",
+    "A099905",
+    "A099906",
+    "A099907",
+    "A099908"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Pi*e A019609.",
+  "id": "A159822",
+  "mentions": [
+    "A019609"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

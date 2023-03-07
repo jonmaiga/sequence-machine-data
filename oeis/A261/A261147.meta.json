@@ -1,0 +1,18 @@
+{
+  "description": "English flagpole sequence of nonnegative integers (like A215693, but with a(1)=0).",
+  "id": "A261147",
+  "mentions": [
+    "A215693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

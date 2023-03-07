@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of series expansion of the e.g.f. for the Catalan numbers.",
+  "id": "A144187",
+  "mentions": [
+    "A000108",
+    "A144186"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

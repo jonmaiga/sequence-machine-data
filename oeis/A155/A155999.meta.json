@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = (-1)^n*StirlingS2(n, k)*StirlingS2(n, n-k), read by rows.",
+  "id": "A155999",
+  "mentions": [
+    "A048993"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

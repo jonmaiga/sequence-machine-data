@@ -1,0 +1,31 @@
+{
+  "description": "First coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on an hexagonal grid. Second and third coordinates are given in A307012 and A345978.",
+  "id": "A307011",
+  "mentions": [
+    "A000567",
+    "A028896",
+    "A033428",
+    "A045944",
+    "A049450",
+    "A049451",
+    "A307012",
+    "A307013",
+    "A307014",
+    "A307016",
+    "A307017",
+    "A328818",
+    "A345435",
+    "A345978"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

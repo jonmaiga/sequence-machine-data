@@ -1,0 +1,22 @@
+{
+  "description": "Distinct primes occurring as not necessarily consecutive subsequences in decimal representation of 39467139.",
+  "id": "A205956",
+  "mentions": [
+    "A010051",
+    "A039995",
+    "A094535"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

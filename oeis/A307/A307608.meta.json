@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n^2 into consecutive positive squares.",
+  "id": "A307608",
+  "mentions": [
+    "A000290",
+    "A030273",
+    "A034705",
+    "A037444",
+    "A097812",
+    "A151557",
+    "A296338"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

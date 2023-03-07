@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -zeta'(alpha), where alpha = A069995 is the fixed point of Riemann zeta function in (1, +oo).",
+  "id": "A344427",
+  "mentions": [
+    "A069995",
+    "A344428"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 2k^2 - 1 is not prime.",
+  "id": "A143834",
+  "mentions": [
+    "A066049",
+    "A066436",
+    "A090684",
+    "A090686",
+    "A143826",
+    "A143827",
+    "A143828",
+    "A143829",
+    "A143830",
+    "A143831",
+    "A143833"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:45",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..n} (k*j)!* |Stirling1(n,k*j)|/(k!^j * j!).",
+  "id": "A357883",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A324162",
+    "A347001",
+    "A347002",
+    "A347003",
+    "A347004",
+    "A357119",
+    "A357881",
+    "A357882"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

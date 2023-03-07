@@ -1,0 +1,17 @@
+{
+  "description": "A133058 with duplicates removed.",
+  "id": "A339571",
+  "mentions": [
+    "A133058"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

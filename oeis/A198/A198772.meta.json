@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having exactly one representation by the quadratic form x^2 + xy + y^2 with 0 <= x <= y.",
+  "id": "A198772",
+  "mentions": [
+    "A003136",
+    "A034022",
+    "A088534",
+    "A118886",
+    "A198773",
+    "A198774",
+    "A198775"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

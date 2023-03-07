@@ -1,0 +1,17 @@
+{
+  "description": "The x coordinates of the shell enumeration of N X N where N = {0, 1, 2, ...} (A319514).",
+  "id": "A319289",
+  "mentions": [
+    "A319514"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

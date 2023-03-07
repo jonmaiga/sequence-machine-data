@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k), n >= k >= 1, is the number of grid points on or below the diagonal of an n X k grid.",
+  "id": "A279417",
+  "mentions": [
+    "A000217",
+    "A279416"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The smallest number reached after n when iterating map x -> A353313(x) and starting from x=n, or -1 if no finite cycle is ever reached.",
+  "id": "A353305",
+  "mentions": [
+    "A353306",
+    "A353313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

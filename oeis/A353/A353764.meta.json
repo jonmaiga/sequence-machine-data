@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k for which A353749(sigma(k)) is a multiple of A353749(k), where A353749(k) = phi(k) * A064989(k), and A064989 shifts the prime factorization one step towards lower primes.",
+  "id": "A353764",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A006872",
+    "A007691",
+    "A062401",
+    "A064989",
+    "A336549",
+    "A336550",
+    "A353749",
+    "A353757",
+    "A353759",
+    "A353761",
+    "A353762",
+    "A353765",
+    "A353766",
+    "A353789",
+    "A353796",
+    "A353797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

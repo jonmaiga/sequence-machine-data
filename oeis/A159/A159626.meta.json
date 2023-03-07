@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers y such that y^2 is of the form x^2+(x+577)^2 with integer x.",
+  "id": "A159626",
+  "mentions": [
+    "A001653",
+    "A130005",
+    "A156035",
+    "A159627",
+    "A159628"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:55:21",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

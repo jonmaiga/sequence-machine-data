@@ -1,0 +1,18 @@
+{
+  "description": "Number of points of the outer discrete Theodorus spiral on sheet S_n, n >= 1. First differences of A072895.",
+  "id": "A295338",
+  "mentions": [
+    "A072895"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

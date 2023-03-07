@@ -1,0 +1,19 @@
+{
+  "description": "Convolution square root of the Robbins sequence, A005130, starting with offset 1.",
+  "id": "A160707",
+  "mentions": [
+    "A005130",
+    "A160708"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

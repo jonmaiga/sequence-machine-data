@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the fraction (30*n+7) * binomial(2*n,n)^2 * 2F1([1/2 - n/2, -n/2], [1], 64)/(-256)^n, where 2F1 is the hypergeometric function.",
+  "id": "A220853",
+  "mentions": [
+    "A061549",
+    "A120738",
+    "A132714",
+    "A220852"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

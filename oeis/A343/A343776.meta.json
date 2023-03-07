@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Product_{k>=1} eta(x^(k^2)).",
+  "id": "A343776",
+  "mentions": [
+    "A004101",
+    "A010815",
+    "A280451",
+    "A288098"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

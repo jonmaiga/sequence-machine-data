@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number that is prime when interpreted in bases 2 to n, but not n+1.",
+  "id": "A360494",
+  "mentions": [
+    "A086884"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

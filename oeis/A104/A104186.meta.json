@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of numbers from four consecutive concatenated odd numbers.",
+  "id": "A104186",
+  "mentions": [
+    "A001221",
+    "A104377"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

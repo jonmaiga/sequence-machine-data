@@ -1,0 +1,41 @@
+{
+  "description": "Numerators of an asymptotic series for the Gamma function (even power series).",
+  "id": "A277000",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A005146",
+    "A005147",
+    "A090674",
+    "A090675",
+    "A144618",
+    "A181855",
+    "A181856",
+    "A182912",
+    "A182913",
+    "A182914",
+    "A182915",
+    "A182916",
+    "A182917",
+    "A182919",
+    "A182920",
+    "A182935",
+    "A276667",
+    "A276668",
+    "A277001",
+    "A277002",
+    "A277003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

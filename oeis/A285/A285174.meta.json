@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of Dyck paths of (2,3)-knight moves of size n.",
+  "id": "A285174",
+  "mentions": [
+    "A005220"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

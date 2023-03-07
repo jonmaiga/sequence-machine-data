@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of permutations of [1..n] that avoid the consecutive pattern 1324 (equally, the permutations that avoid 4231).",
+  "id": "A113228",
+  "mentions": [
+    "A113229",
+    "A117156",
+    "A117158",
+    "A117226",
+    "A201692",
+    "A201693",
+    "A231166",
+    "A240885",
+    "A264173"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

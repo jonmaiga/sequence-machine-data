@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. cot(x)*(1 - sqrt(1 - 4*tan(x)))/2.",
+  "id": "A295257",
+  "mentions": [
+    "A000108",
+    "A195727",
+    "A295237",
+    "A295254",
+    "A295255",
+    "A295256",
+    "A295258"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

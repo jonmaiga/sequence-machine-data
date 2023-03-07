@@ -1,0 +1,27 @@
+{
+  "description": "Same as A000179, except that a(0) = 2.",
+  "id": "A102761",
+  "mentions": [
+    "A000023",
+    "A000179",
+    "A000186",
+    "A127672",
+    "A300480",
+    "A300481",
+    "A300484",
+    "A335391",
+    "A335700"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:09",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes in (n*log(n)..(n+1)*log(n+1)] semi-open intervals, n >= 1.",
+  "id": "A166712",
+  "mentions": [
+    "A000720",
+    "A166363"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

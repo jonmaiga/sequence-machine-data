@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes of the form (q//R(q))/11 where q is an emirp, R() denotes digit-reversal and // concatenation.",
+  "id": "A178654",
+  "mentions": [
+    "A002385",
+    "A006567",
+    "A132286",
+    "A155214"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

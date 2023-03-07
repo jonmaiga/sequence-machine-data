@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that phi(n) = phi(n+12) and are not divisible by 2.",
+  "id": "A217141",
+  "mentions": [
+    "A000010",
+    "A179188",
+    "A217139"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

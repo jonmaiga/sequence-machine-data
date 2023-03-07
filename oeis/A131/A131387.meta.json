@@ -1,0 +1,21 @@
+{
+  "description": "Product of the nonzero digital products of n for all the bases 1 to n (a 'total digital-product factorial').",
+  "id": "A131387",
+  "mentions": [
+    "A007954",
+    "A010786",
+    "A131385"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

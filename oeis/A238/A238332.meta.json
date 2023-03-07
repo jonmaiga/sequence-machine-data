@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose digits, after the first, form a nonprime number not occurring earlier.",
+  "id": "A238332",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A238333"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

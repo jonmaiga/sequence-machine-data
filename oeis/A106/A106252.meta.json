@@ -1,0 +1,20 @@
+{
+  "description": "Number of positive integer triples (x,y,z), with x<=y<=z<=n, such that each of x,y and z divides the sum of the other two.",
+  "id": "A106252",
+  "mentions": [
+    "A106253",
+    "A211701"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:11",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The sequence of numbers where the n-th term is (Pi^n - e^n) rounded down to the nearest integer, where Pi is the ratio of a circle's circumference to its diameter (A000796) and e is Euler's constant (A001113).",
+  "id": "A181052",
+  "mentions": [
+    "A000796",
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

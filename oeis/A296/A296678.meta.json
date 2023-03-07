@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. arctanh(arcsin(x)) (odd powers only).",
+  "id": "A296678",
+  "mentions": [
+    "A001818",
+    "A003716",
+    "A010050",
+    "A012258",
+    "A296465",
+    "A296467",
+    "A296677"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:43:00",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

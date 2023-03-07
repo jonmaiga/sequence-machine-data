@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose ternary representation begins with 1.",
+  "id": "A132141",
+  "mentions": [
+    "A007089",
+    "A131835",
+    "A132140",
+    "A157671"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

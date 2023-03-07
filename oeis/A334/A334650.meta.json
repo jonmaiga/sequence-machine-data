@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the total number of down steps between the first and second up steps in all 3_2-Dyck paths of length 4*n.",
+  "id": "A334650",
+  "mentions": [
+    "A001764",
+    "A007226",
+    "A007228",
+    "A334609",
+    "A334647",
+    "A334648",
+    "A334649",
+    "A334785"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

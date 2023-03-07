@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that p^2 divides n^(p-1)-(n-1)^(p-1).",
+  "id": "A253234",
+  "mentions": [
+    "A039951",
+    "A174422"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

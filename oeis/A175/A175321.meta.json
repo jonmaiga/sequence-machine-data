@@ -1,0 +1,18 @@
+{
+  "description": "Integers greater than 120 million which cannot be represented as half-sums (averages) of two primes with indices that are primes with prime indices.",
+  "id": "A175321",
+  "mentions": [
+    "A175320"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

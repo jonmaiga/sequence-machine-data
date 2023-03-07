@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Wilson quotients (or Wilson quotients for composite moduli).",
+  "id": "A157249",
+  "mentions": [
+    "A001783",
+    "A007540",
+    "A007619",
+    "A033948",
+    "A157250",
+    "A317507"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

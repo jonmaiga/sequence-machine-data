@@ -1,0 +1,28 @@
+{
+  "description": "Number of chiral pairs of color patterns (set partitions) for a row of length n using 5 or fewer colors (subsets).",
+  "id": "A320935",
+  "mentions": [
+    "A008277",
+    "A056272",
+    "A056324",
+    "A122746",
+    "A304972",
+    "A305751",
+    "A320526",
+    "A320527",
+    "A320528",
+    "A320751"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:29:13",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

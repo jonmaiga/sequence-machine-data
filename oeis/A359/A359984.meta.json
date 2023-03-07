@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-crossing antichain covers of {1,...,n} without singletons.",
+  "id": "A359984",
+  "mentions": [
+    "A054726",
+    "A324167",
+    "A324168",
+    "A324169"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

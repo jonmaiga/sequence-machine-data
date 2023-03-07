@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) of the number of unlabeled graphs on n nodes with existential reconstruction number k, 3<=k<=n. ERN(G) is the minimum number of vertex-deleted subgraphs of G required to uniquely reconstruct G up to isomorphism.",
+  "id": "A124002",
+  "mentions": [
+    "A000088",
+    "A006652",
+    "A006655",
+    "A124003"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

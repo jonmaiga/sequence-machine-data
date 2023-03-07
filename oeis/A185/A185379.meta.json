@@ -1,0 +1,23 @@
+{
+  "description": "Product of exactly three distinct primes congruent to 1 mod 8 (A007519).",
+  "id": "A185379",
+  "mentions": [
+    "A000040",
+    "A007519",
+    "A014612",
+    "A017077",
+    "A185377"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of embeddings on the sphere of 2-connected planar graphs with n nodes up to orientation preserving isomorphisms.",
+  "id": "A342058",
+  "mentions": [
+    "A034889",
+    "A342059"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

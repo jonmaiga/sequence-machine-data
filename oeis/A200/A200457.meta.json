@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..4) of 5 elements with zero sum and nonzero first and second differences",
+  "id": "A200457",
+  "mentions": [
+    "A200454"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

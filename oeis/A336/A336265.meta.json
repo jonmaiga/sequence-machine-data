@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2D closed-loop self-avoiding paths on a square lattice where each path consists of steps with successive lengths equal to the prime numbers, from 2 to prime(2n+1).",
+  "id": "A336265",
+  "mentions": [
+    "A010566",
+    "A334602",
+    "A334720",
+    "A334877",
+    "A335305"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

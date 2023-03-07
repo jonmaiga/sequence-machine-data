@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=F(n-1)a(n-1)+F(n)a(n-2), where F = A000045 (Fibonacci numbers), a(0)=0, a(1)=1.",
+  "id": "A105804",
+  "mentions": [
+    "A000045",
+    "A096655"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The smallest k such that a regular k-gon with all diagonals drawn contains cells with a total number of sides of 3 through n, or -1 if no such k exists.",
+  "id": "A349549",
+  "mentions": [
+    "A007678",
+    "A331450",
+    "A342222",
+    "A342236"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

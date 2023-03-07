@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers m such that sigma(m) < sigma(m-1).",
+  "id": "A333040",
+  "mentions": [
+    "A005843",
+    "A027753",
+    "A142330",
+    "A231546",
+    "A234103",
+    "A333038",
+    "A333039"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

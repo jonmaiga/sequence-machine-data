@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for 1/6 + Soldner's constant",
+  "id": "A160923",
+  "mentions": [
+    "A000012",
+    "A099803"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

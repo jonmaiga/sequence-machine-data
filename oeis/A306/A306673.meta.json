@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct, non-similar acute triangles with integer sides and largest side <= n.",
+  "id": "A306673",
+  "mentions": [
+    "A247588",
+    "A306674",
+    "A306676",
+    "A306677",
+    "A306678"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A203418(n)/A000178(n) where A000178=(superfactorials).",
+  "id": "A203420",
+  "mentions": [
+    "A000040",
+    "A000178",
+    "A002808",
+    "A018252",
+    "A202808",
+    "A203417",
+    "A203418",
+    "A203419"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:38:15",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

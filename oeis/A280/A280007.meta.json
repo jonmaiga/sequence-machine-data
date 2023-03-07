@@ -1,0 +1,21 @@
+{
+  "description": "Balanced single (or balanced isolated) numbers (of order one): single (or isolated) numbers which are the average of the previous single (or isolated) number and the following single (or isolated) number.",
+  "id": "A280007",
+  "mentions": [
+    "A007510",
+    "A014574",
+    "A167706",
+    "A167909"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

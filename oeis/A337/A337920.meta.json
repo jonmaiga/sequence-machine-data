@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that d(k) = d(k+1), where d(k) = A058312(k) is the denominator of the k-th alternating harmonic number.",
+  "id": "A337920",
+  "mentions": [
+    "A058312",
+    "A065454"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

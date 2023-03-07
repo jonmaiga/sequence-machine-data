@@ -1,0 +1,19 @@
+{
+  "description": "Enneagonal numbers for which the product of the digits is also an enneagonal number.",
+  "id": "A117052",
+  "mentions": [
+    "A001106",
+    "A007954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

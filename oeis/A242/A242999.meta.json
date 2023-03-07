@@ -1,0 +1,22 @@
+{
+  "description": "Mersenne prime exponents p in A000043 such that R=2^k-1+(2^k-2)/(2^(p-k)-1) is prime for some k < p, listed with multiplicity (number of k's), see A243003 for the k-values.",
+  "id": "A242999",
+  "mentions": [
+    "A000043",
+    "A002975",
+    "A242998",
+    "A243003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

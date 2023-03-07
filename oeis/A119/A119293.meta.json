@@ -1,0 +1,23 @@
+{
+  "description": "Total number of 2's digits in the first 10^n primes.",
+  "id": "A119293",
+  "mentions": [
+    "A119290",
+    "A119291",
+    "A119292",
+    "A119294",
+    "A119300"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

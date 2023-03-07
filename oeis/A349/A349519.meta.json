@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=x is the least prime with pi(x,4,3) - pi(x,4,1) = 1-n where pi(x,4,k) is the number of primes 4*j + k <= x.",
+  "id": "A349519",
+  "mentions": [
+    "A007350",
+    "A038691",
+    "A349518"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

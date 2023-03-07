@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to select a set partition, P of {1,2,...,n} and then select a subset, S of {1,2,...,n} such that for all i in {1,2,...,n-1} if i and i+1 are in S then i and i+1 are in different blocks of P.",
+  "id": "A227119",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

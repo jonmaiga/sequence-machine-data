@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = number of permutations on 123...n with exactly two abc patterns and no aj pattern with j<=k, for n>=0, 0<=k<=n.",
+  "id": "A229158",
+  "mentions": [
+    "A001089",
+    "A228708"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

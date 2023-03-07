@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows where the n-th row lists the bases 2<=b<=n+1 where n in base b contains the digit b-1.",
+  "id": "A333970",
+  "mentions": [
+    "A011539",
+    "A074940",
+    "A095778",
+    "A333656",
+    "A337141",
+    "A337143",
+    "A337239",
+    "A337250",
+    "A337496",
+    "A337535",
+    "A337536",
+    "A337572",
+    "A338090",
+    "A338295"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of dominating sets in the stacked prism graph C_m X P_n.",
+  "id": "A286514",
+  "mentions": [
+    "A218354",
+    "A284702",
+    "A285880",
+    "A286513",
+    "A286914"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

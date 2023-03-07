@@ -1,0 +1,33 @@
+{
+  "description": "Consider the presentation of the digits of the natural numbers in a triangular form for successive bases, b. Now examine the main diagonal of these triangles and note the first occurrence of the n digits (0 through b-1). This is its own triangle presented here.",
+  "id": "A104620",
+  "mentions": [
+    "A091425",
+    "A104606",
+    "A104607",
+    "A104608",
+    "A104609",
+    "A104610",
+    "A104611",
+    "A104612",
+    "A104613",
+    "A104614",
+    "A104615",
+    "A104616",
+    "A104617",
+    "A104618",
+    "A104619"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

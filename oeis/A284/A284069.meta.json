@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose smallest decimal digit is 8.",
+  "id": "A284069",
+  "mentions": [
+    "A002283",
+    "A011540",
+    "A020472",
+    "A054054",
+    "A284062",
+    "A284063",
+    "A284064",
+    "A284065",
+    "A284066",
+    "A284067",
+    "A284068"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

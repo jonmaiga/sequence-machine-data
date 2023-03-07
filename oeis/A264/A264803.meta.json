@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with largest ratio A003313(k)/log_2(k) in the range 2^n < k < 2^(n+1).",
+  "id": "A264803",
+  "mentions": [
+    "A003313",
+    "A253723"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

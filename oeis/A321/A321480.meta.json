@@ -1,0 +1,20 @@
+{
+  "description": "Zeroless analog of triangular numbers (version 2): a(0) = 0, and for any n > 0, a(n) = noz(1 + noz(2 + ... + noz((n-1) + n))), where noz(n) = A004719(n) omits the zeros from n.",
+  "id": "A321480",
+  "mentions": [
+    "A000217",
+    "A004719",
+    "A243658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

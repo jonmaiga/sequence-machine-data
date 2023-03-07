@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of the natural numbers formed by numbering an infinite square grid by a counterclockwise diamond spiral and visiting them by a counterclockwise stair step spiral.",
+  "id": "A337822",
+  "mentions": [
+    "A010751",
+    "A102083",
+    "A305258",
+    "A334619",
+    "A337838"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

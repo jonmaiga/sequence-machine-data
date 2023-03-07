@@ -1,0 +1,22 @@
+{
+  "description": "Positive solutions of the Pell equation x^2 - 89*y^2 = -1. Solutions x = 500*a(n).",
+  "id": "A227137",
+  "mentions": [
+    "A049310",
+    "A227110",
+    "A227111",
+    "A227138"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:25:04",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

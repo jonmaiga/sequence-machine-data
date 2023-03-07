@@ -1,0 +1,21 @@
+{
+  "description": "Decimal value of binary number whose n-th 1 is followed by F(n) 0's.",
+  "id": "A117067",
+  "mentions": [
+    "A000040",
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

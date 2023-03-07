@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the alternating convergent series S = Sum_{k>=0} (-1)^k*f(k), where f(k) = harmonic(2^k) - k*log(2) - gamma, harmonic(m) is the Sum_{j=1..m} 1/j, and gamma is Euler-Mascheroni constant.",
+  "id": "A307671",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002162",
+    "A002805",
+    "A094640",
+    "A256921"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

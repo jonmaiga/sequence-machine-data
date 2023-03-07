@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = (4 + A(x)^3) / (5 - 4*x).",
+  "id": "A244627",
+  "mentions": [
+    "A120592",
+    "A244594"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

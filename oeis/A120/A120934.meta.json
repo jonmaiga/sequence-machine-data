@@ -1,0 +1,25 @@
+{
+  "description": "Least prime p such that the interval [p,p+log(p)] contains n primes.",
+  "id": "A120934",
+  "mentions": [
+    "A008407",
+    "A020497",
+    "A120935",
+    "A120936",
+    "A186634"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

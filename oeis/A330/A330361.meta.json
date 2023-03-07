@@ -1,0 +1,22 @@
+{
+  "description": "First occurrence of run of lucky numbers congruent to 3 mod 4 of exactly length n.",
+  "id": "A330361",
+  "mentions": [
+    "A000959",
+    "A055624",
+    "A137170",
+    "A330359",
+    "A330360"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

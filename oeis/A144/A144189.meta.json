@@ -1,0 +1,20 @@
+{
+  "description": "Table in which row n lists the digits of n, the digits of the number of days in each month of year n and the digits of the number of days in year n.",
+  "id": "A144189",
+  "mentions": [
+    "A144179"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

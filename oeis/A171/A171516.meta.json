@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + k, n>1; with a(0) = 1, a(1) = 2, k = 3.",
+  "id": "A171516",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000285",
+    "A014739"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

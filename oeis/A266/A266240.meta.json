@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,g) is the number of rooted 2n-face triangulations in an orientable surface of genus g.",
+  "id": "A266240",
+  "mentions": [
+    "A002005",
+    "A062980",
+    "A269418",
+    "A269419",
+    "A269473",
+    "A269474",
+    "A269475",
+    "A269476"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

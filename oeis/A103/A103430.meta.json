@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of integral(1/(n*log(n))^(3/2),n=2..Inf).",
+  "id": "A103430",
+  "mentions": [
+    "A103359"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

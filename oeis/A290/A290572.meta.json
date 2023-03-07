@@ -1,0 +1,20 @@
+{
+  "description": "Least number that is the start of a gap of size n between numbers that are either prime or twice a prime (A001751).",
+  "id": "A290572",
+  "mentions": [
+    "A001751",
+    "A002386",
+    "A290488",
+    "A290489"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

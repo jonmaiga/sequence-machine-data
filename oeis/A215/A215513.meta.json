@@ -1,0 +1,23 @@
+{
+  "description": "spt(n) - p(n): total number of smallest parts in all partitions of n minus the number of partitions of n.",
+  "id": "A215513",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A002865",
+    "A092269",
+    "A120452",
+    "A220479"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

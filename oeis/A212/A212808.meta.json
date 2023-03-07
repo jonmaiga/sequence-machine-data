@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n gives number of cycles of length k in map on Catalan family of size n.",
+  "id": "A212808",
+  "mentions": [
+    "A000108",
+    "A057545"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

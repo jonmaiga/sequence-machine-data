@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime divisor of Fibonacci(100*n).",
+  "id": "A121169",
+  "mentions": [
+    "A000045",
+    "A060385"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

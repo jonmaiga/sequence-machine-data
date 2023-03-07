@@ -1,0 +1,20 @@
+{
+  "description": "a(n)^2 is the least possible value at the root of a binary tree of height n where all nodes hold positive squares and all interior nodes also equal the sum of their two children.",
+  "id": "A309167",
+  "mentions": [
+    "A000351",
+    "A309228"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

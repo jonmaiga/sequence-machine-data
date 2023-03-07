@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=2. For n >= 1, let k = floor(log a(n)). If k >= 2 and k is not already in the sequence then a(n+1)=k, otherwise a(n+1)=a(n)^2.",
+  "id": "A217727",
+  "mentions": [
+    "A114183",
+    "A277848"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

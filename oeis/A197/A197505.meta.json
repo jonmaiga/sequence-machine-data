@@ -1,0 +1,18 @@
+{
+  "description": "Exponential transform of A006125.",
+  "id": "A197505",
+  "mentions": [
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

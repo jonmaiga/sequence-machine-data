@@ -1,0 +1,19 @@
+{
+  "description": "Floor(n/2) - A287864(n).",
+  "id": "A287867",
+  "mentions": [
+    "A274933",
+    "A287864",
+    "A287866"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

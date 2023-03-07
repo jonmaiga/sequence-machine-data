@@ -1,0 +1,27 @@
+{
+  "description": "Catalan transform of A135092.",
+  "id": "A146533",
+  "mentions": [
+    "A000984",
+    "A010687",
+    "A029609",
+    "A029651",
+    "A039599",
+    "A088218",
+    "A100320",
+    "A106566",
+    "A135092",
+    "A144706"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

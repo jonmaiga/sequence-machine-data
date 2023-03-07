@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, lower triangle of the all-zeros matrix modified step by step with T(0,0) = 1, then at each step, if T(n,k) has changed in previous step, increase T(n+k,k) and T(3n+1-2k,2n+1-k) by 1.",
+  "id": "A341150",
+  "mentions": [
+    "A341151"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Integers in which no digit occurs more than once more often than any other digit and not all repeated digits are identical, for all bases up to ten.",
+  "id": "A145101",
+  "mentions": [
+    "A049354",
+    "A049355",
+    "A049356",
+    "A049357",
+    "A049358",
+    "A049359",
+    "A049360",
+    "A049361",
+    "A049362",
+    "A049363",
+    "A049364",
+    "A145100"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

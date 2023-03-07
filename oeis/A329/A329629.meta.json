@@ -1,0 +1,30 @@
+{
+  "description": "Products of distinct odd primes of squarefree index.",
+  "id": "A329629",
+  "mentions": [
+    "A005117",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A302494",
+    "A305078",
+    "A316476",
+    "A318991",
+    "A320456",
+    "A327398",
+    "A328514",
+    "A329557",
+    "A329559",
+    "A329630"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

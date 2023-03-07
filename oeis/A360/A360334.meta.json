@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals downwards: A(n,m) = number of set partitions of [3n] into 3-element subsets {i, i+k, i+2k} with 1 <= k <= m.",
+  "id": "A360334",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000073",
+    "A104429",
+    "A104443",
+    "A334250",
+    "A360333",
+    "A360335"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

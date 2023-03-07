@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of n-element unlabeled connected N-free posets of height k (2 <= k <= n).",
+  "id": "A202179",
+  "mentions": [
+    "A202178",
+    "A202180"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

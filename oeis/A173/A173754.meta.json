@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=m-k where x^2+x+41=m-th prime and x^2-x+41=k-th prime.",
+  "id": "A173754",
+  "mentions": [
+    "A005846"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

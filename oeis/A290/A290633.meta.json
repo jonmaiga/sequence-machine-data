@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that, for any m and n > 0, gcd(a(n), a(n+1)) > 1 and a(n) != a(n+2), and if m < n then a(m) != a(n) or a(m+1) != a(n+1).",
+  "id": "A290633",
+  "mentions": [
+    "A002487",
+    "A020639",
+    "A067992"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

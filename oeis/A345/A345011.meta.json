@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative terms forming a clockwise square spiral when nothing else is read except the nonprime/prime nature of the terms (see the Comments section).",
+  "id": "A345011",
+  "mentions": [
+    "A174344",
+    "A344547",
+    "A345012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

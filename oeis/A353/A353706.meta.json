@@ -1,0 +1,19 @@
+{
+  "description": "n appears in A093714 a(n) steps earlier than expected.",
+  "id": "A353706",
+  "mentions": [
+    "A093714",
+    "A093715",
+    "A353707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

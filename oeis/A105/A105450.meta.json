@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n+5,6) + binomial(n+3,3) + binomial(n+2,3) + binomial(n-1,1).",
+  "id": "A105450",
+  "mentions": [
+    "A006027",
+    "A051743"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:33",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

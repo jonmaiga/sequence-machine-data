@@ -1,0 +1,19 @@
+{
+  "description": "Number of (3*n) X n matrices with nonnegative integer entries and each column sum being 3 up to permutation of rows.",
+  "id": "A322487",
+  "mentions": [
+    "A165434",
+    "A219727",
+    "A358721"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The ZL(n) sequence of the Zeta and Lambda triangles A160474 and A160487.",
+  "id": "A160479",
+  "mentions": [
+    "A000040",
+    "A008955",
+    "A008956",
+    "A128060",
+    "A130290",
+    "A160474",
+    "A160476",
+    "A160487",
+    "A217983"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

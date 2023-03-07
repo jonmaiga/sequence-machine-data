@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers that are not the sum of two binary palindromes.",
+  "id": "A261678",
+  "mentions": [
+    "A006995",
+    "A241491",
+    "A261680"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

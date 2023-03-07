@@ -1,0 +1,20 @@
+{
+  "description": "Period 12: repeat [1,1,1,1,0,0,-1,-1,-1,-1,0,0].",
+  "id": "A166446",
+  "mentions": [
+    "A010892",
+    "A110199"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:25",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

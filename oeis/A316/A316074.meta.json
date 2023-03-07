@@ -1,0 +1,33 @@
+{
+  "description": "Sequence a_k of column k shifts left k places under Weigh transform and equals signum(n) for n=1, 1<=k<=n, read by rows.",
+  "id": "A316074",
+  "mentions": [
+    "A000009",
+    "A003633",
+    "A004111",
+    "A007560",
+    "A057427",
+    "A144018",
+    "A316075",
+    "A316076",
+    "A316077",
+    "A316078",
+    "A316079",
+    "A316080",
+    "A316081",
+    "A316082",
+    "A316101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "eigen",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

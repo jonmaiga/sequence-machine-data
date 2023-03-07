@@ -1,0 +1,20 @@
+{
+  "description": "Table of q-derangement numbers of type B, by rows.",
+  "id": "A140075",
+  "mentions": [
+    "A000166",
+    "A139755"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

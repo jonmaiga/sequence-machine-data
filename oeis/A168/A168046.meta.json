@@ -1,0 +1,30 @@
+{
+  "description": "Characteristic function of zerofree numbers in decimal representation.",
+  "id": "A168046",
+  "mentions": [
+    "A000007",
+    "A007602",
+    "A007954",
+    "A010879",
+    "A011540",
+    "A038186",
+    "A052382",
+    "A055641",
+    "A057427",
+    "A059995",
+    "A168184",
+    "A217096"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers p such that prime = abs(smallest digit of p - sum of all the other digits of p).",
+  "id": "A158281",
+  "mentions": [
+    "A000040",
+    "A156979"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

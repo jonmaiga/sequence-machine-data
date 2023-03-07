@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 1..ceiling(w/2)} d(k) * d(w+1-k), where (d(1), ..., d(w)) is the decimal expansion of n.",
+  "id": "A111707",
+  "mentions": [
+    "A085942"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

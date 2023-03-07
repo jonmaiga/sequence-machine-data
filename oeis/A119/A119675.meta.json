@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers n such that the number of prime factors of n (counted with multiplicity) is a Fibonacci number.",
+  "id": "A119675",
+  "mentions": [
+    "A001222",
+    "A037144"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

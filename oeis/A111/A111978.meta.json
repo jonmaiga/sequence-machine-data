@@ -1,0 +1,21 @@
+{
+  "description": "Matrix log of triangle A111975, which shifts columns left and up under matrix square; these terms are the result of multiplying each element in row n and column k by (n-k)!.",
+  "id": "A111978",
+  "mentions": [
+    "A111975",
+    "A111979"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

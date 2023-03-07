@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{l=1..n} Sum_{k=1..l} Sum_{j=1..k} Sum_{i=1..j} (l*k*j*i)^2.",
+  "id": "A353021",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000915",
+    "A060493",
+    "A351105",
+    "A354021"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of sets of three positive integers p_1 < p_2 < p_3 such that 2*p_2 = p_1 + p_3, where p_i (i=1,2,3) is either 1 or a prime number and p_3 = prime(n).",
+  "id": "A240301",
+  "mentions": [
+    "A000040",
+    "A240232"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

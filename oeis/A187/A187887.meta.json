@@ -1,0 +1,21 @@
+{
+  "description": "Riordan matrix (1/((1-x)*sqrt(1-4*x)),x/(1-x)).",
+  "id": "A187887",
+  "mentions": [
+    "A006134",
+    "A082590"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

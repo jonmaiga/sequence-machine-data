@@ -1,0 +1,27 @@
+{
+  "description": "Number of digits in 11^n.",
+  "id": "A348553",
+  "mentions": [
+    "A001020",
+    "A034887",
+    "A034888",
+    "A055642",
+    "A210062",
+    "A210434",
+    "A210435",
+    "A210436"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Pairs p, q for those partial sums p/q of the series e = sum_{n>=0} 1/n! that are not convergents to e.",
+  "id": "A233044",
+  "mentions": [
+    "A007676",
+    "A007677",
+    "A061354",
+    "A061355"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Primitive period of the partial sums of the periodic unsigned Schick sequence for N = 7 (A130794), taken modulo 14, and the related Euler tour using all regular 14-gon vertices.",
+  "id": "A332439",
+  "mentions": [
+    "A000012",
+    "A003558",
+    "A010684",
+    "A130794",
+    "A135303",
+    "A332440",
+    "A332441"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

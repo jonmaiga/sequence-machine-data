@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the multiplicative orders of 2 modulo p^2 and 2 modulo p, where p = prime(n).",
+  "id": "A282552",
+  "mentions": [
+    "A001220",
+    "A014664",
+    "A243905"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

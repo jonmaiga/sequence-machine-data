@@ -1,0 +1,18 @@
+{
+  "description": "Least inverse of A114912, or -1 if no inverse exists.",
+  "id": "A115251",
+  "mentions": [
+    "A114912"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

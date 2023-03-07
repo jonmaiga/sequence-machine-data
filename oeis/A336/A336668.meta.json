@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with decimal expansion d_1, ..., d_w such that d_k = d*_{k + d_k} for k = 1..w where d* is the w-periodic sequence with initial terms d_1, ..., d_w.",
+  "id": "A336668",
+  "mentions": [
+    "A002275",
+    "A010785",
+    "A020338",
+    "A074842",
+    "A336669"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

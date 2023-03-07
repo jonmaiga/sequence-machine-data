@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of Product_{d|n} b(d)^Moebius(n/d), where b() = A100371().",
+  "id": "A226306",
+  "mentions": [
+    "A100371",
+    "A226305"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

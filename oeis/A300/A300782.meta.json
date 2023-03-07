@@ -1,0 +1,26 @@
+{
+  "description": "Number of symmetrically distinct sublattices (supercells, superlattices, HNFs) of the simple cubic lattice of index n.",
+  "id": "A300782",
+  "mentions": [
+    "A001001",
+    "A003051",
+    "A128119",
+    "A145393",
+    "A145396",
+    "A145398",
+    "A159842",
+    "A160870",
+    "A300783",
+    "A300784"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

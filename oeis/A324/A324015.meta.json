@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonempty subsets of {1, ..., n} containing no two cyclically successive elements.",
+  "id": "A324015",
+  "mentions": [
+    "A000045",
+    "A000126",
+    "A000296",
+    "A001610",
+    "A001644",
+    "A169985",
+    "A306357",
+    "A324014"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:46:20",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

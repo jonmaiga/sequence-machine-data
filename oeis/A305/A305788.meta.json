@@ -1,0 +1,22 @@
+{
+  "description": "Restricted growth sequence transform of A278233, filter-sequence for GF(2)[X]-factorization.",
+  "id": "A305788",
+  "mentions": [
+    "A014580",
+    "A101296",
+    "A278233",
+    "A304529",
+    "A304751",
+    "A305789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

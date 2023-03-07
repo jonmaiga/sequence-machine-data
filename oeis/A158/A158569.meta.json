@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i=1..F(n)} F(i), n >= 1, where F(k) is A000045, Fibonacci numbers.",
+  "id": "A158569",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

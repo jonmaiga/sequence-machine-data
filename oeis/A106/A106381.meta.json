@@ -1,0 +1,22 @@
+{
+  "description": "Real part of Gaussian prime numbers such that the Gaussian Primorial product up to them is a Gaussian prime minus i.",
+  "id": "A106381",
+  "mentions": [
+    "A103431",
+    "A103432",
+    "A106377",
+    "A106379",
+    "A106382",
+    "A106384"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

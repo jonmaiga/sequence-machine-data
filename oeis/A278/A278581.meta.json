@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the Shimura subgroup Sigma(n) of the Jacobi variety J_0(n) has order 1.",
+  "id": "A278581",
+  "mentions": [
+    "A091401",
+    "A278582"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

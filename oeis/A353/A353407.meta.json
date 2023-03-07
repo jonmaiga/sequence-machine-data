@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the gravitational force between two unit-edge-length unit-mass cubes whose centers are a unit distance apart, so they are in contact along one face, in units where the gravitational constant is G = 1.",
+  "id": "A353407",
+  "mentions": [
+    "A070058",
+    "A336274",
+    "A353769",
+    "A353770"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

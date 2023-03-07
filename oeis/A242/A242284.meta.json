@@ -1,0 +1,23 @@
+{
+  "description": "Greedy residue sequence of triangular numbers 3, 6, 10, 15, ...",
+  "id": "A242284",
+  "mentions": [
+    "A000217",
+    "A241833",
+    "A242285",
+    "A242286",
+    "A242287",
+    "A242288"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

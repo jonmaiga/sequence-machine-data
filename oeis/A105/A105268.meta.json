@@ -1,0 +1,24 @@
+{
+  "description": "Primes which are 1 + strobogrammatic numbers A000787(n): the same upside down.",
+  "id": "A105268",
+  "mentions": [
+    "A000040",
+    "A000787",
+    "A007597",
+    "A018847",
+    "A018848"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

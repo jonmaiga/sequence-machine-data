@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having in binary representation longest palindromic subwords not longer than 3.",
+  "id": "A193159",
+  "mentions": [
+    "A050430"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

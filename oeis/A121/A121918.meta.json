@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ceiling((Pi+e)^(n*Pi)).",
+  "id": "A121918",
+  "mentions": [
+    "A121854",
+    "A121855",
+    "A121856",
+    "A121857",
+    "A121915",
+    "A121917"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

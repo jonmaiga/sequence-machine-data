@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (30*n)!*(5*n)!*(3*n)!*(2*n)!/((15*n)!*(10*n)!*(8*n)!*(6*n)!*n!).",
+  "id": "A295468",
+  "mentions": [
+    "A295431"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:37:55",
+    "offset": 0,
+    "size": 7,
+    "source": "joeis"
+  }
+}

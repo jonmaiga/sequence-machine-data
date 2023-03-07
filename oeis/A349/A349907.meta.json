@@ -1,0 +1,21 @@
+{
+  "description": "Number of factorizations of n into odd factors > 1 (a(1) = 1 by convention).",
+  "id": "A349907",
+  "mentions": [
+    "A000004",
+    "A001055",
+    "A340101",
+    "A349906"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that k, k+n and k+2n have the same number of divisors.",
+  "id": "A113467",
+  "mentions": [
+    "A005238",
+    "A113458",
+    "A113465"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

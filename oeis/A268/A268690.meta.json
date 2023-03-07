@@ -1,0 +1,17 @@
+{
+  "description": "A268642 with a(n+1) = 5*n if ceiling(a(n)/2) is already in the sequence.",
+  "id": "A268690",
+  "mentions": [
+    "A268642"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

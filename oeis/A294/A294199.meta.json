@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into powers of 2 such that 1 and 2 cannot both be parts of a particular partition, and 4 and 8 cannot both be parts of a particular partition, and 16 and 32, and so on.",
+  "id": "A294199",
+  "mentions": [
+    "A070047"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

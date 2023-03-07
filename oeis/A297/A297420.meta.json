@@ -1,0 +1,25 @@
+{
+  "description": "Square of the number of groups of order n.",
+  "id": "A297420",
+  "mentions": [
+    "A000001",
+    "A000679",
+    "A046058",
+    "A140987",
+    "A141323",
+    "A235388",
+    "A282460"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

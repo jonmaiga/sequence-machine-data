@@ -1,0 +1,17 @@
+{
+  "description": "Number of triples {x, y, x mod y} of three distinct divisors of n.",
+  "id": "A260073",
+  "mentions": [
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

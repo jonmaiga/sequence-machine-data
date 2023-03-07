@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of an n-set without blocks of size 5.",
+  "id": "A343665",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A027339",
+    "A097514",
+    "A124504",
+    "A343664",
+    "A343666",
+    "A343667",
+    "A343668",
+    "A343669"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

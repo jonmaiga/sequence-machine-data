@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: row n (n > 0) gives the coefficients of x^k (0 <= k <= n - 1) in the expansion of Sum_{j=0..n} A000931(j+4)*binomial(n, j)*x^(j - 1)*(1 - x)^(n - j).",
+  "id": "A144400",
+  "mentions": [
+    "A000931",
+    "A078027",
+    "A122753",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123027",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221",
+    "A141720",
+    "A144387",
+    "A174128",
+    "A182097"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

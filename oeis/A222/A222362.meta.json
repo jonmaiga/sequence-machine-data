@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the ratio of the area of the latus rectum segment of any equilateral hyperbola to the square of its semi-axis: sqrt(2) - log(1 + sqrt(2)).",
+  "id": "A222362",
+  "mentions": [
+    "A002193",
+    "A091648",
+    "A103710",
+    "A103711",
+    "A180434",
+    "A278386"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

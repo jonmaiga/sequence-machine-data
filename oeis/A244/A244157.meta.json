@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = difference between n and the n-th Catalan restricted growth string [b_k, b_{k-1}, ..., b_2, b_1] (see A239903) when it is viewed as a simple numeral in Catalan Base: b_k*C(k) + b_{k-1}*C(k-1) + ... + b_2*C(2) +b_1*C(1). Here C(m) = A000108(m).",
+  "id": "A244157",
+  "mentions": [
+    "A000108",
+    "A014418",
+    "A239903",
+    "A244155",
+    "A244156",
+    "A244158"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

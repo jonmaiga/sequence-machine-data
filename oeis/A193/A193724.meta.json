@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array: the fusion of polynomial sequences P and Q given by p(n,x)=(x+2)^n and q(n,x)=(x+1)^n.",
+  "id": "A193724",
+  "mentions": [
+    "A084938",
+    "A193722",
+    "A193725"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:47",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

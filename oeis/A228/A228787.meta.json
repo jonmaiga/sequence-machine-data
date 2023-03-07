@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*sin(Pi/17), the ratio side/R in the regular 17-gon inscribed in a circle of radius R.",
+  "id": "A228787",
+  "mentions": [
+    "A003401",
+    "A019434",
+    "A210644",
+    "A228785",
+    "A228788"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:21",
+    "offset": 0,
+    "size": 107,
+    "source": "joeis"
+  }
+}

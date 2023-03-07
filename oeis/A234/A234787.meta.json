@@ -1,0 +1,21 @@
+{
+  "description": "Cubes (with at least two digits) that become squares when their rightmost digit is removed.",
+  "id": "A234787",
+  "mentions": [
+    "A000578",
+    "A226354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:07",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

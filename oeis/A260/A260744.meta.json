@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime juggling patterns of period n using 2 balls.",
+  "id": "A260744",
+  "mentions": [
+    "A260745",
+    "A260746",
+    "A260752"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

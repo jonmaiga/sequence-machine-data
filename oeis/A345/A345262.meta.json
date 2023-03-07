@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the order of the image of the J-homomorphism in the stable homotopy groups of spheres.",
+  "id": "A345262",
+  "mentions": [
+    "A006863",
+    "A048648",
+    "A079612"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

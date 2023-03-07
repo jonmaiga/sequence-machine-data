@@ -1,0 +1,27 @@
+{
+  "description": "Least number divisible by at least n of its digits, different and > 1.",
+  "id": "A187584",
+  "mentions": [
+    "A185186",
+    "A187238",
+    "A187398",
+    "A187516",
+    "A187533",
+    "A187534",
+    "A187551",
+    "A187565"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

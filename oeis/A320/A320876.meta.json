@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically first 6 X 6 pandiagonal magic square made of consecutive primes with the smallest magic constant (930).",
+  "id": "A320876",
+  "mentions": [
+    "A073519",
+    "A073520",
+    "A073521",
+    "A073522",
+    "A073523"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let G(n) = gcd(a(n-2),a(n-1)), a(1)=1, a(2)=2, a(3)=3. Thereafter if G(n) = 1, a(n) is the least novel m sharing a divisor with both a(n-2) and a(n-1). If G(n) > 1 and every prime divisor of a(n-1) also divides a(n-2), a(n) is the least m prime to both a(n-1) and a(n-2). Otherwise a(n) is the least novel multiple of any prime divisor of a(n-1) which does not divide a(n-2).",
+  "id": "A358026",
+  "mentions": [
+    "A064413",
+    "A336957",
+    "A352187",
+    "A357963"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that n divides the k-th difference between distinct triangular numbers.",
+  "id": "A205001",
+  "mentions": [
+    "A193974",
+    "A204892",
+    "A205002"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

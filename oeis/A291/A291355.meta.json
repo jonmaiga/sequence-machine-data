@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations s_1,s_2,...,s_n of 1,2,...,n such that for all j=1,2,...,n, j divides Sum_{i=1..j} s_i^3.",
+  "id": "A291355",
+  "mentions": [
+    "A291445"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

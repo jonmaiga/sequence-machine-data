@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic deviation of terms of A006960.",
+  "id": "A217774",
+  "mentions": [
+    "A006960",
+    "A064834"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

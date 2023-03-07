@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that m^2 + 1 = p*q with p, q primes and m = (p + q)/2 - 1.",
+  "id": "A348594",
+  "mentions": [
+    "A014442",
+    "A085722",
+    "A089120",
+    "A109306",
+    "A144255"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

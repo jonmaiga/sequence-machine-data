@@ -1,0 +1,19 @@
+{
+  "description": "Maximum domination number of connected graphs with n vertices and minimum degree 2.",
+  "id": "A350327",
+  "mentions": [
+    "A057354"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 3,
+    "size": 48,
+    "source": "joeis"
+  }
+}

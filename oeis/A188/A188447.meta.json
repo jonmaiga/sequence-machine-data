@@ -1,0 +1,17 @@
+{
+  "description": "Number of (5*n) X n binary arrays with nonzero rows in decreasing order and 5 ones in every column.",
+  "id": "A188447",
+  "mentions": [
+    "A188445"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

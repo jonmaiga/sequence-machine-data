@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = bitwise NOR of n and 2n.",
+  "id": "A334076",
+  "mentions": [
+    "A000079",
+    "A048724",
+    "A125835",
+    "A141032",
+    "A163617",
+    "A213370",
+    "A247648"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

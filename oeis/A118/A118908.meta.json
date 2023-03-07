@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 4; a(n) is greatest semiprime < a(n-1)^2.",
+  "id": "A118908",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A005385",
+    "A006992",
+    "A055496",
+    "A059785",
+    "A076656",
+    "A118909",
+    "A118913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

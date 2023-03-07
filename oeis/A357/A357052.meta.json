@@ -1,0 +1,22 @@
+{
+  "description": "Distance from 10^n to the next prime triplet.",
+  "id": "A357052",
+  "mentions": [
+    "A007529",
+    "A022004",
+    "A022005",
+    "A343635"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

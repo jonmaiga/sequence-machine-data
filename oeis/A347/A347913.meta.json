@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of multisets of integers that are possible to reach by starting with n occurrences of 0 and by splitting. Splitting is taking 2 occurrences of the same integer and incrementing one of them by 1 and decrementing the other occurrence by 1.",
+  "id": "A347913",
+  "mentions": [
+    "A348532"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

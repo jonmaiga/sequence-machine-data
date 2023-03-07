@@ -1,0 +1,20 @@
+{
+  "description": "Square array A260717 transposed.",
+  "id": "A260718",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A260717"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

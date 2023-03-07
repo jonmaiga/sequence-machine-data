@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 8*a(n-1)-13*a(n-2) for n > 1; a(0) = 5, a(1) = 23.",
+  "id": "A162815",
+  "mentions": [
+    "A143647",
+    "A162814"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:38:14",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

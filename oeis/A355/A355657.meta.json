@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that A355655(i) = 1, where i is the index of p in A000040.",
+  "id": "A355657",
+  "mentions": [
+    "A000040",
+    "A355655",
+    "A355656"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

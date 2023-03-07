@@ -1,0 +1,18 @@
+{
+  "description": "Exponent of 2 in denominators of expansion of e.g.f.: exp(-1 + sqrt(1+x)).",
+  "id": "A101684",
+  "mentions": [
+    "A101683",
+    "A101685"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

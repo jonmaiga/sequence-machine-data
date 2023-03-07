@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that phi(n) > tau(n).",
+  "id": "A279289",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A020490",
+    "A020491",
+    "A063070",
+    "A279287",
+    "A279288"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:13",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

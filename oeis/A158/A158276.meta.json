@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sigma_1(k) not divides sigma_2(k).",
+  "id": "A158276",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A020487"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n)=0 if n is in A055938, a(n)=1 if n is in A179016, otherwise (i.e., n is in A213717), a(n)=2.",
+  "id": "A213731",
+  "mentions": [
+    "A055938",
+    "A079559",
+    "A179016",
+    "A213717",
+    "A213719",
+    "A213725",
+    "A213726",
+    "A213730"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

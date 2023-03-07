@@ -1,0 +1,19 @@
+{
+  "description": "The product of (n!)^2/8 and the variance of the random number of comparisons needed to sort a list of n distinct items using quicksort.",
+  "id": "A334935",
+  "mentions": [
+    "A330895",
+    "A330907"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

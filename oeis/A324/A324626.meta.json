@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [6+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(6+n)*[i",
+  "id": "A324626",
+  "mentions": [
+    "A324563",
+    "A324564"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

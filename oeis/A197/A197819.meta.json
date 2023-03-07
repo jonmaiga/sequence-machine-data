@@ -1,0 +1,20 @@
+{
+  "description": "Table of binary Walsh functions w(A001317), columns read as binary numbers.",
+  "id": "A197819",
+  "mentions": [
+    "A001317",
+    "A195467",
+    "A228539"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n with no two distinct consecutive parts divisible.",
+  "id": "A328675",
+  "mentions": [
+    "A003238",
+    "A305148",
+    "A316476",
+    "A318726",
+    "A328171",
+    "A328172",
+    "A328187",
+    "A328460",
+    "A328508",
+    "A328593",
+    "A328598",
+    "A328603",
+    "A328674"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

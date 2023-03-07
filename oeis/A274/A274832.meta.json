@@ -1,0 +1,26 @@
+{
+  "description": "Values of n such that 2*n+1 and 7*n+1 are both triangular numbers (A000217).",
+  "id": "A274832",
+  "mentions": [
+    "A000217",
+    "A074377",
+    "A124174",
+    "A274579",
+    "A274603",
+    "A274680",
+    "A274756",
+    "A274830"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

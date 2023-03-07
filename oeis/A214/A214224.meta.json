@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A(x) = x/(1 - tan(A(x))).",
+  "id": "A214224",
+  "mentions": [
+    "A201594",
+    "A214222",
+    "A214223",
+    "A214225"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

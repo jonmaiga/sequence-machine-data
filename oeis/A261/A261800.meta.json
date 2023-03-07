@@ -1,0 +1,19 @@
+{
+  "description": "Number of 8-compositions of n: matrices with 8 rows of nonnegative integers with positive column sums and total element sum n.",
+  "id": "A261800",
+  "mentions": [
+    "A261780"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

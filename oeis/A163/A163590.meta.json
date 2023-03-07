@@ -1,0 +1,26 @@
+{
+  "description": "Odd part of the swinging factorial A056040.",
+  "id": "A163590",
+  "mentions": [
+    "A000120",
+    "A000165",
+    "A001147",
+    "A001790",
+    "A001803",
+    "A056040",
+    "A060632",
+    "A060818",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows. Coefficients of the polynomials (-1)^n*binomial(-x - 1, -x - n - 1) * binomial(n + x, x) * (n!)^2 in ascending order of powers.",
+  "id": "A358501",
+  "mentions": [
+    "A000007",
+    "A001044"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

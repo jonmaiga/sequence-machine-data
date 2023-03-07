@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers which cannot be represented as half-sums (averages) of two primes with indices that are primes with prime indices.",
+  "id": "A175320",
+  "mentions": [
+    "A174682",
+    "A175319",
+    "A175321"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

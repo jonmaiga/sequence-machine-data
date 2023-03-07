@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that b(k) < b(j) for all j < k where b(k) = Min_{sqrt(n) - Sum_{i} sqrt(c_i) > 0 with c_i being unique integers}.",
+  "id": "A337211",
+  "mentions": [
+    "A045880",
+    "A333987",
+    "A337210"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The 3rd Witt transform of A000217.",
+  "id": "A147618",
+  "mentions": [
+    "A000217",
+    "A032092",
+    "A049347",
+    "A099254",
+    "A128504"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:01",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 4 under map k -> A094077(k).",
+  "id": "A117149",
+  "mentions": [
+    "A094077",
+    "A115966",
+    "A117150"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

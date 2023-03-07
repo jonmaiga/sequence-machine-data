@@ -1,0 +1,24 @@
+{
+  "description": "Unitary sociable numbers of order 4.",
+  "id": "A319902",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A063991",
+    "A090615",
+    "A097024",
+    "A097030",
+    "A098188"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

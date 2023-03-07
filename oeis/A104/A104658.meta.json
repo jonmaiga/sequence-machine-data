@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime factors of 23 concatenated n times.",
+  "id": "A104658",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

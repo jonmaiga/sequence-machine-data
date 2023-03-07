@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the digit sum of n^2 is a divisor of the digit sum of n.",
+  "id": "A268135",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A058369"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

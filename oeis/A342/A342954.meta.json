@@ -1,0 +1,18 @@
+{
+  "description": "Number of interior regions formed by drawing n unit circles whose centers (s,t) are the partitions of k into 2 parts, where 0 < s <= t and s + t = k, ordered by increasing values of s and where k = 2,3,... .",
+  "id": "A342954",
+  "mentions": [
+    "A339399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

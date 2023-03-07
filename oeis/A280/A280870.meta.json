@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the mediant of prime(n) / prime(n+1) and prime(n+2) / prime(n+3).",
+  "id": "A280870",
+  "mentions": [
+    "A000040",
+    "A280871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

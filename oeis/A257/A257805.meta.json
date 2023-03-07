@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A257259: a(0) = 1; for n >= 1, a(n) = A257259(n) + a(n-1).",
+  "id": "A257805",
+  "mentions": [
+    "A218542",
+    "A218543",
+    "A218600",
+    "A218789",
+    "A257259",
+    "A257806"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

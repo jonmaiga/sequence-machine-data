@@ -1,0 +1,21 @@
+{
+  "description": "Relative of Hofstadter Q-sequence: a(n) = max(0, n+117) for n <= 0; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 0.",
+  "id": "A283883",
+  "mentions": [
+    "A000027",
+    "A005185",
+    "A274058"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

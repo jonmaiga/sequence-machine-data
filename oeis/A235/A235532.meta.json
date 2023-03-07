@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n^2 * (4-Pi)).",
+  "id": "A235532",
+  "mentions": [
+    "A000290",
+    "A057672",
+    "A066643"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:41",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

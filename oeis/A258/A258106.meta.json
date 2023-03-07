@@ -1,0 +1,20 @@
+{
+  "description": "Number x such that sigma(x) = usigma(x) + (-1)sigma(x), where sigma(x) is the sum of divisors of x (A000203), usigma(x) is the sum of unitary divisors of x (A034448) and (-1)sigma(x) is defined in A049060.",
+  "id": "A258106",
+  "mentions": [
+    "A000203",
+    "A034448",
+    "A049060",
+    "A258101"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

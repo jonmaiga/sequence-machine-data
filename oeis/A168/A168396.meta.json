@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, T(n,k) = number of compositions a(1),...,a(j) of n with a(1) = k, such that a(i+1) <= a(i) + 1 for 1 <= i < j.",
+  "id": "A168396",
+  "mentions": [
+    "A003116",
+    "A005169"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

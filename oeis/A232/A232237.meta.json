@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p-2 and q are primes, where q is concatenation of binary representations of p and p-2: q = p * 2^L + p-2, where L is the length of binary representation of p-2: L=A070939(p-2).",
+  "id": "A232237",
+  "mentions": [
+    "A000040",
+    "A070939",
+    "A232235"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

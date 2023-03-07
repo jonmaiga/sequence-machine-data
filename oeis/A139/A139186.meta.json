@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest k such that k!/n +- 1 is a twin prime pair.",
+  "id": "A139186",
+  "mentions": [
+    "A000142",
+    "A001359",
+    "A006512",
+    "A139187",
+    "A139188"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

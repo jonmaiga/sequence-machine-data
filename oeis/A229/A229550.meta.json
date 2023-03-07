@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with nonzero digits such that n*(product of digits of n) is a palindrome.",
+  "id": "A229550",
+  "mentions": [
+    "A007954"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes at which occur records of A205531 and A205535.",
+  "id": "A205532",
+  "mentions": [
+    "A002224",
+    "A096637",
+    "A102295",
+    "A205531",
+    "A205534",
+    "A205535"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

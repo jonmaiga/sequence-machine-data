@@ -1,0 +1,22 @@
+{
+  "description": "Primes 6k - 1 preceding the maximal gaps in A268928.",
+  "id": "A268929",
+  "mentions": [
+    "A007528",
+    "A268928",
+    "A268930",
+    "A334543",
+    "A334544"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

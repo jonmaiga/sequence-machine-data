@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number > 1 that needs n toggles in the trailing bits of its binary representation to become a square.",
+  "id": "A358701",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A001737",
+    "A159918"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

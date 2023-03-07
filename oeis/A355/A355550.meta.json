@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number k such that k occurs in the Reverse-and-Multiply trajectories of exactly n positive integers less than k.",
+  "id": "A355550",
+  "mentions": [
+    "A355548",
+    "A355549"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. z*(2*(exp(z) + 1)/(cosh(z) + cos(z)) - 1).",
+  "id": "A281588",
+  "mentions": [
+    "A281587"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:53:03",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

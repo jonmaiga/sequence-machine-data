@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (Sum_{k=1..n} (-k)^k) mod n.",
+  "id": "A343933",
+  "mentions": [
+    "A341437",
+    "A343930",
+    "A343931"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

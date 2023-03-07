@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (48*n mod 604) + (70*n mod 426) + (46*n mod 47) + (93*n mod 1766).",
+  "id": "A340343",
+  "mentions": [
+    "A340342"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

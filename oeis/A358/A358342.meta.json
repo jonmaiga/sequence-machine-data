@@ -1,0 +1,25 @@
+{
+  "description": "Lesser of twin primes p such that sigma((p-1)/2) + tau((p-1)/2) is a prime.",
+  "id": "A358342",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001359",
+    "A019434",
+    "A064205",
+    "A145824",
+    "A272060",
+    "A272061"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

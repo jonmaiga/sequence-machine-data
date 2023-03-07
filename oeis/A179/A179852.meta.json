@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms in the simple continued fraction for (e truncated to n decimal digits).",
+  "id": "A179852",
+  "mentions": [
+    "A011543",
+    "A080229",
+    "A080235"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

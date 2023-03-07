@@ -1,0 +1,20 @@
+{
+  "description": "Consider the array T(r,c), the number of c-almost primes less than or equal to r^c. This is the diagonal T(r,r-1).",
+  "id": "A116434",
+  "mentions": [
+    "A116433",
+    "A116435"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

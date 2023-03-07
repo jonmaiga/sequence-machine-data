@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers on a square spiral such that any 3X3 square of numbers sums to a prime.",
+  "id": "A354441",
+  "mentions": [
+    "A000040",
+    "A257339",
+    "A337116",
+    "A354434",
+    "A354442"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

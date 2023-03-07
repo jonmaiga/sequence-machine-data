@@ -1,0 +1,22 @@
+{
+  "description": "The total number of ways of partitioning the multiset {1,1,1,2,3,...,n-2}.",
+  "id": "A169587",
+  "mentions": [
+    "A000110",
+    "A035098",
+    "A169588",
+    "A346426",
+    "A346813"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

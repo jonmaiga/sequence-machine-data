@@ -1,0 +1,21 @@
+{
+  "description": "Minimal number of editing steps (delete, insert or substitute) to transform n in decimal representation into the largest palindrome <= n.",
+  "id": "A262257",
+  "mentions": [
+    "A002113",
+    "A055642",
+    "A136522",
+    "A261423"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

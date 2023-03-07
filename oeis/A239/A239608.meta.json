@@ -1,0 +1,21 @@
+{
+  "description": "Sin( arcsin(n)- 2*arccos(n) )^2.",
+  "id": "A239608",
+  "mentions": [
+    "A144129",
+    "A239607",
+    "A239609",
+    "A239610"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:51",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

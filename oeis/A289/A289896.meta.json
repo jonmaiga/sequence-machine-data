@@ -1,0 +1,18 @@
+{
+  "description": "Number of (undirected) cycles in the n-triangular honeycomb rook graph.",
+  "id": "A289896",
+  "mentions": [
+    "A002807"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimum k such that (F(n) - 1) | sum_{i=n..n+k} F(i), where F(i) are Fibonacci numbers (A000045).",
+  "id": "A226841",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A226842"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

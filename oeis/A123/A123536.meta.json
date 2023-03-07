@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = (-1)^(n+1)*B(2n)*Product_{prime p<=2n+1} p where B(2n) denotes the (2n)-th Bernoulli number.",
+  "id": "A123536",
+  "mentions": [
+    "A002445",
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

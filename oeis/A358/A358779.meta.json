@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the maximal absolute value of the determinant of an n X n symmetric matrix using all the integers from 0 to n*(n + 1)/2 - 1.",
+  "id": "A358779",
+  "mentions": [
+    "A000217",
+    "A351153",
+    "A351609",
+    "A358806",
+    "A358807",
+    "A358808",
+    "A358809"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

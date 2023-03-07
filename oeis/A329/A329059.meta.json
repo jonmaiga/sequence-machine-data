@@ -1,0 +1,26 @@
+{
+  "description": "3-parking triangle T(r, i, 3) read by rows: T(r, i, k) = (r + 1)^(i-1)*binomial(k*(r + 1) + r - i - 1, r - i) with k = 3 and 0 <= i <= r.",
+  "id": "A329059",
+  "mentions": [
+    "A000108",
+    "A000272",
+    "A006632",
+    "A007318",
+    "A328978",
+    "A329057",
+    "A329058",
+    "A329060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

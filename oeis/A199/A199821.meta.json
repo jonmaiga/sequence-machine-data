@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form 12^n-11^n.",
+  "id": "A199821",
+  "mentions": [
+    "A016197"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

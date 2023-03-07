@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-3) unless a(n-1) and a(n-3) are both even in which case a(n) = (a(n-1) + a(n-3))/2, with a(0) = a(1) = a(2) = 1.",
+  "id": "A341312",
+  "mentions": [
+    "A000930",
+    "A214551",
+    "A241551",
+    "A341313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

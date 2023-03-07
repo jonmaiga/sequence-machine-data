@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime that is the sum of four nonzero squares in exactly n ways.",
+  "id": "A213721",
+  "mentions": [
+    "A025416"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

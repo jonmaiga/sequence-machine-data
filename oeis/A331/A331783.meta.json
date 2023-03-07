@@ -1,0 +1,32 @@
+{
+  "description": "Number of locally disjoint rooted semi-identity trees with n unlabeled vertices.",
+  "id": "A331783",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A212804",
+    "A306200",
+    "A306202",
+    "A316471",
+    "A316473",
+    "A316475",
+    "A316494",
+    "A316495",
+    "A316694",
+    "A331682",
+    "A331683",
+    "A331684",
+    "A331686"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

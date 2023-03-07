@@ -1,0 +1,19 @@
+{
+  "description": "Ordered differences of numbers 3^j-2^j, as in A001047.",
+  "id": "A205105",
+  "mentions": [
+    "A001047",
+    "A204892",
+    "A205000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:31:49",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

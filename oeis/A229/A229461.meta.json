@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there is no convex pentagon that can be decomposed into n pairwise congruent regular equilateral triangles.",
+  "id": "A229461",
+  "mentions": [
+    "A000926",
+    "A025052",
+    "A229462",
+    "A229757"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the digits of Sum_{k=1..n} k!.",
+  "id": "A349403",
+  "mentions": [
+    "A003422",
+    "A004152",
+    "A007489",
+    "A007953",
+    "A127554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

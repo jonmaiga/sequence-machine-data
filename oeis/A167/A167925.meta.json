@@ -1,0 +1,19 @@
+{
+  "description": "This sequence needs a meaningful name.",
+  "id": "A167925",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "obsc",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

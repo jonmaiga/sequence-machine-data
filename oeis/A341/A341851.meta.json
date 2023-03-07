@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximum matchings in the 3 X n rook graph.",
+  "id": "A341851",
+  "mentions": [
+    "A341502",
+    "A341848",
+    "A341850"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

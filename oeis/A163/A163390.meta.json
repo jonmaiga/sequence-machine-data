@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 can be represented as sum of (at least two) consecutive squares.",
+  "id": "A163390",
+  "mentions": [
+    "A136312"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

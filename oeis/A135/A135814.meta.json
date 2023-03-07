@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of numbers of coincidence-free length n-m lists of m-tuples with all numbers 1,...,n-m in tuple position k, for k=1..m.",
+  "id": "A135814",
+  "mentions": [
+    "A000007",
+    "A000166",
+    "A089041",
+    "A135809",
+    "A135813"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(m) is the smallest positive integer such that A132422(m,n) = A132422(m,n+a(m)) for all n > some value.",
+  "id": "A132423",
+  "mentions": [
+    "A132422"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

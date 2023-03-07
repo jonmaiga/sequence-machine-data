@@ -1,0 +1,20 @@
+{
+  "description": "Values of A098550 where A098550(n)/n reaches a new high-water mark.",
+  "id": "A251415",
+  "mentions": [
+    "A098550",
+    "A241416",
+    "A250127"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

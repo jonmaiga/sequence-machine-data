@@ -1,0 +1,23 @@
+{
+  "description": "Smaller member of a Bhaskara pair (excluding Bhaskara twins, that is, include only a < b); a Bhaskara pair (a,b) is such that a^2 + b^2 = X^3 and a^3 + b^3 = Y^2.",
+  "id": "A106321",
+  "mentions": [
+    "A106318",
+    "A106319",
+    "A106320",
+    "A106322"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

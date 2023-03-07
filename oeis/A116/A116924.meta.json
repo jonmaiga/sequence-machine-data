@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) = B(k,n) - B(k-1,n) where B(n,m) = Sum_{i=0..n} binomial(m,i) (3*i+1).",
+  "id": "A116924",
+  "mentions": [
+    "A016777",
+    "A053220"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

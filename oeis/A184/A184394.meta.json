@@ -1,0 +1,19 @@
+{
+  "description": "The largest number m such that sigma(m) = A007368(n), where A007368(n) = the smallest k such that sigma(x) = k has exactly n solutions.",
+  "id": "A184394",
+  "mentions": [
+    "A007368",
+    "A184393",
+    "A201915"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

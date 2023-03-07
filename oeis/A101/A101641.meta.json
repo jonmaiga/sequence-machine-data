@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n for which n = f(n), where f(n) is the total number of 4's required when writing out all numbers between 0 and n.",
+  "id": "A101641",
+  "mentions": [
+    "A014778",
+    "A101639",
+    "A101640",
+    "A130427",
+    "A130428",
+    "A130429",
+    "A130430",
+    "A130431",
+    "A130432"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions of n covering an initial interval of positive integers and containing their own multiset of multiplicities (as a submultiset).",
+  "id": "A325766",
+  "mentions": [
+    "A000009",
+    "A055932",
+    "A114639",
+    "A114640",
+    "A290689",
+    "A324753",
+    "A325702",
+    "A325706",
+    "A325707",
+    "A325708",
+    "A325767"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

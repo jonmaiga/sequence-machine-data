@@ -1,0 +1,23 @@
+{
+  "description": "Let cn(n,k) denote the number of times 11..1 (k 1's) appears in the binary representation of n; a(n) = n - cn(n,1) + cn(n,2) - cn(n,3).",
+  "id": "A239906",
+  "mentions": [
+    "A000120",
+    "A012081",
+    "A014081",
+    "A014082",
+    "A239904",
+    "A239907"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

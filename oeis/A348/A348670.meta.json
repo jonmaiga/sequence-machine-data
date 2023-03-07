@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 10 - Pi^2.",
+  "id": "A348670",
+  "mentions": [
+    "A002388",
+    "A008911",
+    "A010467",
+    "A060459"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

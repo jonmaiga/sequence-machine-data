@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*phi(n) for nonprime n.",
+  "id": "A137148",
+  "mentions": [
+    "A002618",
+    "A018252",
+    "A036689"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

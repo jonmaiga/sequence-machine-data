@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into distinct generalized pentagonal numbers (A001318).",
+  "id": "A290942",
+  "mentions": [
+    "A000009",
+    "A001318",
+    "A095699",
+    "A218379",
+    "A218380",
+    "A279221",
+    "A280952",
+    "A281083"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

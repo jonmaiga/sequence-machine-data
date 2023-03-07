@@ -1,0 +1,17 @@
+{
+  "description": "Dimension of a certain space of modular forms of weight 2 and level p^2, where p runs through the primes > 3 that are == 3 mod 4. See reference for precise definition.",
+  "id": "A101435",
+  "mentions": [
+    "A002143"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

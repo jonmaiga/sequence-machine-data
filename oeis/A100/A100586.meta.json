@@ -1,0 +1,24 @@
+{
+  "description": "Write down the numbers from 3 to infinity. Take next number, M say, that has not been crossed off. Counting through the numbers that have not yet been crossed off after that M, cross off every 5th term. Repeat, always crossing off every 5th term of those that remain. The numbers that are left form the sequence.",
+  "id": "A100586",
+  "mentions": [
+    "A003309",
+    "A003310",
+    "A003311",
+    "A003312",
+    "A052548",
+    "A100464",
+    "A100562",
+    "A100585"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

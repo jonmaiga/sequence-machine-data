@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k) read by rows, n > 0 and k = 1..A000005(n); T(n, k) is the number of subsets of divisors of n with least common multiple of elements equal to the k-th divisor of n.",
+  "id": "A338507",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A076078",
+    "A100587",
+    "A338508"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

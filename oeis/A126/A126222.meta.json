@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2-Motzkin paths (i.e., Motzkin paths with blue and red level steps) without red level steps on the x-axis, having length n and k level steps (0 <= k <= n).",
+  "id": "A126222",
+  "mentions": [
+    "A000108",
+    "A126223",
+    "A166073"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Consecutive pairs of prime point sums in A161191 (includes triples).",
+  "id": "A161192",
+  "mentions": [
+    "A161190",
+    "A161191",
+    "A161193",
+    "A161194"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

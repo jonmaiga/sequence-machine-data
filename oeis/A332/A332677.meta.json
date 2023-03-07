@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ways n can be obtained by adding some digit of a number k to k.",
+  "id": "A332677",
+  "mentions": [
+    "A241175",
+    "A241176",
+    "A241177",
+    "A241178",
+    "A241179"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

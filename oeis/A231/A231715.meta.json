@@ -1,0 +1,21 @@
+{
+  "description": "For n with a unique factorial base representation n = du*u! + ... + d2*2! + d1*1! (each di in range 0..i, cf. A007623), a(n) = Product_{i=1..u} (gcd(d_i,i+1) mod i+1), where u is given by A084558(n).",
+  "id": "A231715",
+  "mentions": [
+    "A007623",
+    "A084558",
+    "A208575",
+    "A227157",
+    "A231716"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

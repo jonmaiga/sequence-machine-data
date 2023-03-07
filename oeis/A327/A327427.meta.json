@@ -1,0 +1,19 @@
+{
+  "description": "Record gaps between primes which are palindromic in base 10.",
+  "id": "A327427",
+  "mentions": [
+    "A002385",
+    "A005250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

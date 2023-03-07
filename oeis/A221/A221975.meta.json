@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows of the numbers that are the sum of some consecutive Mersenne numbers A000225.",
+  "id": "A221975",
+  "mentions": [
+    "A000225",
+    "A000295",
+    "A023758",
+    "A141419",
+    "A194939"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

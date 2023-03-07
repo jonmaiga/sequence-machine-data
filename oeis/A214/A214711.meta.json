@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 2 in A214710.",
+  "id": "A214711",
+  "mentions": [
+    "A214710"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients in expansion of 1/E_14^(1/2).",
+  "id": "A289569",
+  "mentions": [
+    "A001943",
+    "A287964",
+    "A289029",
+    "A289295",
+    "A289565",
+    "A289566",
+    "A289567",
+    "A289568"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

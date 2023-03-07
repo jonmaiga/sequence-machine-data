@@ -1,0 +1,28 @@
+{
+  "description": "Start of record gap in odd semiprimes A046315.",
+  "id": "A114057",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A065516",
+    "A085809",
+    "A100484",
+    "A114021",
+    "A114412",
+    "A341828",
+    "A349995",
+    "A350098",
+    "A350099"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

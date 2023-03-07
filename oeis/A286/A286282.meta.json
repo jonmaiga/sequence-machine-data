@@ -1,0 +1,21 @@
+{
+  "description": "Stage at which Ken Knowlton's elevator (version 2) reaches floor n for the first time.",
+  "id": "A286282",
+  "mentions": [
+    "A000522",
+    "A002627",
+    "A285201",
+    "A286281"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

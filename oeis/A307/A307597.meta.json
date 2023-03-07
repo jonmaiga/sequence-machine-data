@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 2 distinct positive triangular numbers.",
+  "id": "A307597",
+  "mentions": [
+    "A000217",
+    "A008441",
+    "A024940",
+    "A025441",
+    "A052344",
+    "A053603",
+    "A260647",
+    "A307598"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

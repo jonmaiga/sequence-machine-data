@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of the generalized pattern 12-3; triangle T(n,k), n>=0, 0<=k<=(n-1)*(n-2)/2-[n=0], read by rows.",
+  "id": "A260665",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A000217",
+    "A001754",
+    "A092923",
+    "A260670",
+    "A263776",
+    "A264451",
+    "A264452",
+    "A264453",
+    "A264454",
+    "A264455",
+    "A264456",
+    "A264457",
+    "A264458",
+    "A264459"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

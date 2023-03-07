@@ -1,0 +1,29 @@
+{
+  "description": "Smallest number of stones in Tchoukaillon (or Mancala, or Kalahari) solitaire which make use of (2*n-1)-th hole for n>=1; a bisection of A002491.",
+  "id": "A112557",
+  "mentions": [
+    "A000012",
+    "A000960",
+    "A002491",
+    "A112558",
+    "A113742",
+    "A113743",
+    "A113744",
+    "A113745",
+    "A113746",
+    "A113747",
+    "A113748",
+    "A113749"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:49",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n = k^2 + m with k > 0 and m > 0 such that phi(k^2) + prime(m) is prime, where phi(.) is Euler's totient function.",
+  "id": "A236548",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A233867",
+    "A233918",
+    "A234246",
+    "A236541"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, n-th row = first n terms of an array formed by A051731 * A051731(transform).",
+  "id": "A134838",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A051731"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0; thereafter, if a(n) has not appeared before, a(n+1) = number of existing terms which are greater than a(n); otherwise, a(n) = n-m where a(m) is the most recent copy of a(n).",
+  "id": "A341846",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

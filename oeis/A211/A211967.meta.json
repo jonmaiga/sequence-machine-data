@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of decimal equivalents of binary numbers with no initial repeats, A211027.",
+  "id": "A211967",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A083329",
+    "A093371",
+    "A122536",
+    "A211027",
+    "A211029",
+    "A211968",
+    "A211969",
+    "A216955"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

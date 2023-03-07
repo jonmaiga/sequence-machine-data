@@ -1,0 +1,20 @@
+{
+  "description": "Number of nX3 array permutations with each element not moved or moved diagonally or antidiagonally by one",
+  "id": "A189274",
+  "mentions": [
+    "A189280",
+    "A207628",
+    "A270567"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

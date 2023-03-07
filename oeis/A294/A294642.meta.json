@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)*BesselI(1,2*sqrt(2)*x)/(sqrt(2)*x).",
+  "id": "A294642",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A025235",
+    "A068764",
+    "A071356",
+    "A151374",
+    "A247496",
+    "A292716"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

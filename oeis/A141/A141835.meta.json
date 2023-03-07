@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum of terms in A062901 which are below 10^n.",
+  "id": "A141835",
+  "mentions": [
+    "A062901"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

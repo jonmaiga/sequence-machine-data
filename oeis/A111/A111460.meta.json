@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the square root of sine of 1 degree.",
+  "id": "A111460",
+  "mentions": [
+    "A019810",
+    "A111474",
+    "A111664"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:48:57",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

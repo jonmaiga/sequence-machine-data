@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of primes, inverse of A108546.",
+  "id": "A332806",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A108546",
+    "A108547",
+    "A332805",
+    "A332808"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

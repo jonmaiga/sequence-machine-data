@@ -1,0 +1,23 @@
+{
+  "description": "Fourth powers that become prime when their most significant (leftmost) decimal digit is removed.",
+  "id": "A226092",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A225873",
+    "A226090"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

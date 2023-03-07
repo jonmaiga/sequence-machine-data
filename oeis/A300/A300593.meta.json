@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^2 * A(x) ) = n^3 * [x^(n-1)] exp( n^2 * A(x) ) for n>=1.",
+  "id": "A300593",
+  "mentions": [
+    "A296171",
+    "A300591",
+    "A300592",
+    "A300595"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lesser of twin-bin primes: primes p such that p+2, x and y are primes, where x is concatenation of binary representations of p and p+2, and y is concatenation of binary representations of p+2 and p: x = p * 2^A070939(p+2) + p+2, y = (p+2) * 2^A070939(p) + p.",
+  "id": "A232239",
+  "mentions": [
+    "A001359",
+    "A070939",
+    "A232237",
+    "A232238"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

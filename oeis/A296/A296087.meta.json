@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that there is k < n for which A003557(k) = A003557(n), A048250(k) = A048250(n) and A173557(k) = A173557(n).",
+  "id": "A296087",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001615",
+    "A003557",
+    "A048250",
+    "A069822",
+    "A173557",
+    "A291750",
+    "A296214"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

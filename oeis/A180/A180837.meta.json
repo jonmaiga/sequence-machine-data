@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 arrays containing 3 indistinguishable copies of 1..n with rows and columns in lexicographically strictly increasing order",
+  "id": "A180837",
+  "mentions": [
+    "A180839"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

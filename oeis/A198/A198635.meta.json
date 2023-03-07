@@ -1,0 +1,23 @@
+{
+  "description": "Total number of round trips, each of length 2*n on the graph P_5 (o-o-o-o-o).",
+  "id": "A198635",
+  "mentions": [
+    "A005248",
+    "A034472",
+    "A049310",
+    "A198632",
+    "A198633"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

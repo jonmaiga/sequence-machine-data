@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: row n has g.f. ((1-x)/(1-2x))^n.",
+  "id": "A160232",
+  "mentions": [
+    "A000012",
+    "A001519",
+    "A011782",
+    "A045623",
+    "A052984",
+    "A058396",
+    "A062109",
+    "A062110",
+    "A084938",
+    "A105306",
+    "A169792",
+    "A169797",
+    "A208341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:07",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

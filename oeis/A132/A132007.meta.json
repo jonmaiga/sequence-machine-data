@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = T(n,k-1) + n*T(n-1,k-1) for n>0 and k>0, with T(n,0) = T(n-1,n-1) for n>0 and T(0,0) = 1.",
+  "id": "A132007",
+  "mentions": [
+    "A110083",
+    "A132008"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

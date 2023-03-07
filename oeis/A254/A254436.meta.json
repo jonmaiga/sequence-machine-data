@@ -1,0 +1,27 @@
+{
+  "description": "A component sequence of A254296.",
+  "id": "A254436",
+  "mentions": [
+    "A254296",
+    "A254430",
+    "A254431",
+    "A254432",
+    "A254433",
+    "A254435",
+    "A254437",
+    "A254438",
+    "A254439",
+    "A254440"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

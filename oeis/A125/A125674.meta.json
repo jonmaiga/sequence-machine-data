@@ -1,0 +1,18 @@
+{
+  "description": "For any number larger than 2, the primes reached when you start with n and concatenate the sum of its prime factors with its largest prime factor, then repeat the process until you eventually reach a prime, or print a -1 if you never do.",
+  "id": "A125674",
+  "mentions": [
+    "A037274"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

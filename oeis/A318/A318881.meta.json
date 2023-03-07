@@ -1,0 +1,23 @@
+{
+  "description": "Restricted growth sequence transform of A277906, the least number with same prime signature as phi(n).",
+  "id": "A318881",
+  "mentions": [
+    "A000010",
+    "A046523",
+    "A277906",
+    "A319342",
+    "A319343",
+    "A319344",
+    "A319345"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

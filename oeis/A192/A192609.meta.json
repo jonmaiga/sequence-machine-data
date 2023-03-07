@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the concatenation of k^4 k^3 k^2 k^1 k^0 is prime.",
+  "id": "A192609",
+  "mentions": [
+    "A192608",
+    "A192610"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

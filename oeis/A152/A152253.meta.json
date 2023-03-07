@@ -1,0 +1,21 @@
+{
+  "description": "Array, by antidiagonals, arising in asymptotic approximation to the number of p-groups of order p^n.",
+  "id": "A152253",
+  "mentions": [
+    "A000040",
+    "A000961"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of series-reduced rooted trees whose leaves span an initial interval of positive integers with multiplicities an integer partition of n.",
+  "id": "A316652",
+  "mentions": [
+    "A000081",
+    "A000311",
+    "A000669",
+    "A001678",
+    "A005804",
+    "A141268",
+    "A181821",
+    "A292504",
+    "A304660",
+    "A316651",
+    "A316653",
+    "A316654",
+    "A316655",
+    "A316656",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

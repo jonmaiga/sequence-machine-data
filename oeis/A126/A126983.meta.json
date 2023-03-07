@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1+x*c(x)), c(x) the g.f. of Catalan numbers A000108.",
+  "id": "A126983",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A033999",
+    "A039599",
+    "A064310",
+    "A106566"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

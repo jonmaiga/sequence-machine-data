@@ -1,0 +1,19 @@
+{
+  "description": "Composite lopsided numbers: composite numbers n such that the largest prime factor > 2 sqrt(n).",
+  "id": "A101549",
+  "mentions": [
+    "A063763",
+    "A064052",
+    "A101550"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in asymptotic expansion of log z + psi(z+1/z), where psi is the digamma function.",
+  "id": "A222803",
+  "mentions": [
+    "A222804",
+    "A222806"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

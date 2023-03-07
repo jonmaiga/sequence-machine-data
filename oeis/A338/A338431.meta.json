@@ -1,0 +1,24 @@
+{
+  "description": "Row length of irregular triangle A337939.",
+  "id": "A338431",
+  "mentions": [
+    "A000217",
+    "A055034",
+    "A111774",
+    "A187360",
+    "A219839",
+    "A337939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

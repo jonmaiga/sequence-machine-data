@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(4+1) 0..2 arrays colored with the sets of distinct values in every 2X2 subblock",
+  "id": "A236151",
+  "mentions": [
+    "A236155"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

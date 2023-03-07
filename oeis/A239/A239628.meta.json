@@ -1,0 +1,24 @@
+{
+  "description": "Factored over the Gaussian integers, the least positive number having n prime factors counted multiply, including units -1, i, and -i.",
+  "id": "A239628",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A078458",
+    "A086275",
+    "A164073",
+    "A239627",
+    "A239629",
+    "A239630"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

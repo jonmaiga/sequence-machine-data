@@ -1,0 +1,20 @@
+{
+  "description": "L.g.f.: A(x) satisfies: A(x+x^2) = 2*A(x) - log(1+x) with A(0)=0; thus A(x) = log(B(x)), where B(x) is g.f. of A122938.",
+  "id": "A122940",
+  "mentions": [
+    "A122888",
+    "A122938",
+    "A122941"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

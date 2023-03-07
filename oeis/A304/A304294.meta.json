@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k having at least one divisor d such that sigma(k) = sigma(k+d).",
+  "id": "A304294",
+  "mentions": [
+    "A000203",
+    "A304295"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

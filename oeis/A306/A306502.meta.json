@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index in primes of A306499(n), or 0 if A306499(n) = 0.",
+  "id": "A306502",
+  "mentions": [
+    "A003658",
+    "A306499",
+    "A306503"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

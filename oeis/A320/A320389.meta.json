@@ -1,0 +1,17 @@
+{
+  "description": "Product_i prime(i)^e(i), where e are the nonzero exponents in the prime factorization of n, sorted in increasing order.",
+  "id": "A320389",
+  "mentions": [
+    "A046523"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

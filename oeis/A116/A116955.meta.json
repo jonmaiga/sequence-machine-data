@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = a(n) + (if a(n) is odd then (next odd square) else (next even square)), a(0) = 1.",
+  "id": "A116955",
+  "mentions": [
+    "A002492"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:35",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(n)^2*(4n + 2).",
+  "id": "A267981",
+  "mentions": [
+    "A000891",
+    "A013709"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:31:29",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

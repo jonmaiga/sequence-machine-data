@@ -1,0 +1,22 @@
+{
+  "description": "A binomial convolution recurrence sequence.",
+  "id": "A275872",
+  "mentions": [
+    "A000994",
+    "A007476",
+    "A032346"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

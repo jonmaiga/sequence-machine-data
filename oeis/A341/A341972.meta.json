@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into 10 primes (counting 1 as a prime).",
+  "id": "A341972",
+  "mentions": [
+    "A008578",
+    "A034891",
+    "A259201",
+    "A341719",
+    "A341945",
+    "A341946",
+    "A341947",
+    "A341948",
+    "A341949",
+    "A341950",
+    "A341951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

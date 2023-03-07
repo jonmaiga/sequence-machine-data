@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) = number of m X n whirlpool permutations.",
+  "id": "A334518",
+  "mentions": [
+    "A000142",
+    "A261683",
+    "A334516",
+    "A334517",
+    "A334519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers in A014285.",
+  "id": "A114256",
+  "mentions": [
+    "A014285",
+    "A114257"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

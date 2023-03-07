@@ -1,0 +1,23 @@
+{
+  "description": "Number of maximum independent vertex sets in the n-triangular honeycomb queen graph.",
+  "id": "A289893",
+  "mentions": [
+    "A002047",
+    "A004396",
+    "A350041",
+    "A350191"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

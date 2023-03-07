@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that ceiling(sqrt(k))^2 - k is a square.",
+  "id": "A256173",
+  "mentions": [
+    "A000290",
+    "A016825",
+    "A046315",
+    "A065091",
+    "A068527",
+    "A145236",
+    "A249142",
+    "A249298"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

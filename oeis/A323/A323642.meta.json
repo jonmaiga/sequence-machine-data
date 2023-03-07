@@ -1,0 +1,21 @@
+{
+  "description": "Row n of triangle A323641 when n -> infinity.",
+  "id": "A323642",
+  "mentions": [
+    "A323641",
+    "A323649",
+    "A323650",
+    "A323651"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

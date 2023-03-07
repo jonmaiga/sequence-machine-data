@@ -1,0 +1,24 @@
+{
+  "description": "Odd numbers m such that sigma(m) > sigma(m-1).",
+  "id": "A333041",
+  "mentions": [
+    "A000203",
+    "A053222",
+    "A231546",
+    "A323726",
+    "A333038",
+    "A333039",
+    "A333040",
+    "A334117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

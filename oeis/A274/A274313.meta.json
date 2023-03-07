@@ -1,0 +1,18 @@
+{
+  "description": "The number of conjugacy classes of n X n matrices over GF(2) which are squares of other such matrices.",
+  "id": "A274313",
+  "mentions": [
+    "A266462"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

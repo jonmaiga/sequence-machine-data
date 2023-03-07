@@ -1,0 +1,23 @@
+{
+  "description": "Third smallest number with exactly n prime factors.",
+  "id": "A116453",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A005010",
+    "A014612",
+    "A014613",
+    "A116451",
+    "A116454"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

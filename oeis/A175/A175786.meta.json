@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the number of prime divisors of n (counted with multiplicity) is not a divisor of phi(n).",
+  "id": "A175786",
+  "mentions": [
+    "A000010",
+    "A001222",
+    "A013929",
+    "A074946",
+    "A109421",
+    "A109423"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

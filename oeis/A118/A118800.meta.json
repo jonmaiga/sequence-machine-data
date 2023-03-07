@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T satisfies the matrix products: C*T*C = T^-1 and T*C*T = C^-1, where C is Pascal's triangle.",
+  "id": "A118800",
+  "mentions": [
+    "A000012",
+    "A002002",
+    "A025192",
+    "A051708",
+    "A078057",
+    "A081277",
+    "A084938",
+    "A097805",
+    "A118801",
+    "A130595",
+    "A135387",
+    "A167374",
+    "A193722",
+    "A200139",
+    "A209149",
+    "A239473",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:05",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

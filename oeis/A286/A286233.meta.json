@@ -1,0 +1,22 @@
+{
+  "description": "Amicable totient numbers: pairs of numbers (m, n) such that n = A092693(m) and m = A092693(n).",
+  "id": "A286233",
+  "mentions": [
+    "A000396",
+    "A063990",
+    "A082897",
+    "A091847",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

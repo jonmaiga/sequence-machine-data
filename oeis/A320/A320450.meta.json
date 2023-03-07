@@ -1,0 +1,27 @@
+{
+  "description": "Number of strict antichains of sets whose multiset union is an integer partition of n.",
+  "id": "A320450",
+  "mentions": [
+    "A001970",
+    "A050342",
+    "A089259",
+    "A258466",
+    "A261049",
+    "A319719",
+    "A319721",
+    "A320328",
+    "A320331",
+    "A320353"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

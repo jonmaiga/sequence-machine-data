@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table in which row n = 1, 2, 3... lists the lexicographically first triangle of height and width n with minimal sum, distinct positive entries using only digits <= n and no diagonal having the same digit in two entries.",
+  "id": "A332080",
+  "mentions": [
+    "A000042",
+    "A000217",
+    "A002275",
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

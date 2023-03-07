@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of knight's move paths of minimal length n steps, from origin at center of an infinite open chessboard to square (0,0) for n=0; to square (2,-1) for n=1; and to square ([(3n-3)/2], [(3n-4)/2]) for n>=2.",
+  "id": "A242512",
+  "mentions": [
+    "A183043",
+    "A242511",
+    "A242513",
+    "A242514",
+    "A242591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

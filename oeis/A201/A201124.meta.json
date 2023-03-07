@@ -1,0 +1,18 @@
+{
+  "description": "Differences between odd powers of 3 and the next smaller square",
+  "id": "A201124",
+  "mentions": [
+    "A051214"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

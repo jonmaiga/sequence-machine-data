@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers P such that 8*P^2-1 is also prime.",
+  "id": "A245639",
+  "mentions": [
+    "A245640",
+    "A245641",
+    "A245642",
+    "A245643"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

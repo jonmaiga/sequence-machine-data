@@ -1,0 +1,24 @@
+{
+  "description": "Least prime p such that B_{2*n} == 0 (mod p) but there is no k < n with B_{2k} == 0 (mod p), or 1 if such a prime p does not exist, where B_m denotes the m-th Bernoulli number.",
+  "id": "A242193",
+  "mentions": [
+    "A000040",
+    "A027641",
+    "A242169",
+    "A242170",
+    "A242171",
+    "A242173",
+    "A242194",
+    "A242195"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: row n lists even numbers that are \"generated\" (in Kaprekar's sense) in all bases 2, 4, 6, ..., 2n.",
+  "id": "A350601",
+  "mentions": [
+    "A003052",
+    "A010061",
+    "A228082",
+    "A230624",
+    "A349831",
+    "A349832",
+    "A349833"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

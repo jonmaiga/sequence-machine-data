@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A218468 (= least unused number which is a multiple of a digit of the preceding term).",
+  "id": "A226179",
+  "mentions": [
+    "A218468"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

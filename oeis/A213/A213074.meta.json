@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: coefficients c(n,k) (n>=2, 0<=k<= floor((n-2)/2)) in formula for number of restricted partitions.",
+  "id": "A213074",
+  "mentions": [
+    "A000041",
+    "A002219",
+    "A002220",
+    "A002221",
+    "A002222",
+    "A213075",
+    "A213076",
+    "A213086"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

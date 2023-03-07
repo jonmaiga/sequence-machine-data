@@ -1,0 +1,20 @@
+{
+  "description": "Convolution square of A285349.",
+  "id": "A285350",
+  "mentions": [
+    "A007325",
+    "A078905",
+    "A112274",
+    "A285349"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

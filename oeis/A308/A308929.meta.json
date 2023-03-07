@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the fifth largest parts in the partitions of n into 7 parts.",
+  "id": "A308929",
+  "mentions": [
+    "A026813",
+    "A308926",
+    "A308927",
+    "A308928",
+    "A308930",
+    "A308931",
+    "A308932",
+    "A308933"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

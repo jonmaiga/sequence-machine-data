@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0..7 arrays with some element plus some horizontally or vertically adjacent neighbor totalling seven exactly once.",
+  "id": "A270114",
+  "mentions": [
+    "A270118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

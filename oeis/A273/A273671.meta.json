@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A270436(A007305(n+1)) * A270437(A047679(n-1)).",
+  "id": "A273671",
+  "mentions": [
+    "A007305",
+    "A047679",
+    "A270418",
+    "A270419",
+    "A270436",
+    "A270437",
+    "A273672"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

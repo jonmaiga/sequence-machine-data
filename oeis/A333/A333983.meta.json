@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = 0; a(n) = 4^(n-1) + (1/n) * Sum_{k=1..n-1} binomial(n,k)^2 * 4^(k-1) * (n-k) * a(n-k).",
+  "id": "A333983",
+  "mentions": [
+    "A102223",
+    "A201368",
+    "A333981",
+    "A333982",
+    "A333984",
+    "A333985",
+    "A337594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

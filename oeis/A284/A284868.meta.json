@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the derivative Ai'(0) (negated), where Ai is the Airy function of the first kind.",
+  "id": "A284868",
+  "mentions": [
+    "A073005",
+    "A096714",
+    "A096715",
+    "A269892",
+    "A269893",
+    "A284867"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Moduli n for which -1 is a (nontrivial) power residue for some power greater than 2, i.e., m^k == -1 (mod n) for some k > 1 and some 1 < m < n-1.",
+  "id": "A126949",
+  "mentions": [
+    "A000010",
+    "A008784",
+    "A178751"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

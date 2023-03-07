@@ -1,0 +1,22 @@
+{
+  "description": "A Chebyshev transform of number triangle A107230.",
+  "id": "A107238",
+  "mentions": [
+    "A001477",
+    "A034828",
+    "A107230"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

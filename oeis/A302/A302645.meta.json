@@ -1,0 +1,23 @@
+{
+  "description": "Values of unimodal polynomial analogous to A302612 and A302644 arising from a partition size <= 4 restriction.",
+  "id": "A302645",
+  "mentions": [
+    "A000984",
+    "A002522",
+    "A302612",
+    "A302644",
+    "A302646"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:13",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

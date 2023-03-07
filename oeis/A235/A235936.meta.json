@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of numerators of the unreduced coefficients of a numerical integration for a prediction Adams method.",
+  "id": "A235936",
+  "mentions": [
+    "A002657",
+    "A091137",
+    "A141417",
+    "A232853"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

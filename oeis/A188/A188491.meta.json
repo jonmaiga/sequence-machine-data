@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p on the set [n] with the properties that abs(p(i)-i) <= 3 for all i, p(1) <= 3, and p(4) >= 2.",
+  "id": "A188491",
+  "mentions": [
+    "A002526",
+    "A002528",
+    "A188494"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:45:32",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

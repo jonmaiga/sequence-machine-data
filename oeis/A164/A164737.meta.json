@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 8*a(n-2) for n > 2; a(1) = 5, a(2) = 12.",
+  "id": "A164737",
+  "mentions": [
+    "A001018",
+    "A067412",
+    "A096980",
+    "A101386",
+    "A164593"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

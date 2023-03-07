@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of an n X 9 rectangle using integer-sided rectangular tiles of area n.",
+  "id": "A220134",
+  "mentions": [
+    "A220122"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A-numbers of sequences in the OEIS not beginning with a 1.",
+  "id": "A139330",
+  "mentions": [
+    "A000020"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "dumb",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

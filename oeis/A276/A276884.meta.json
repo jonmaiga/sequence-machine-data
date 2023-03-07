@@ -1,0 +1,21 @@
+{
+  "description": "Sums-complement of the Beatty sequence for 2 + sqrt(5).",
+  "id": "A276884",
+  "mentions": [
+    "A004076",
+    "A004976",
+    "A276866",
+    "A276871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

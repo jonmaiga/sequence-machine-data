@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: number of Dyck paths of semilength n having k 3-bridges of a given shape (0<=k<=floor(n/3)). A 3-bridge is a subpath of the form UUUDDD or UUDUDD starting at level 0.",
+  "id": "A114499",
+  "mentions": [
+    "A000108",
+    "A114500"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

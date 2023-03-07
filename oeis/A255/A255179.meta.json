@@ -1,0 +1,26 @@
+{
+  "description": "Second differences of ninth powers (A001017).",
+  "id": "A255179",
+  "mentions": [
+    "A001017",
+    "A007487",
+    "A022525",
+    "A253637",
+    "A254643",
+    "A255177",
+    "A255178"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:31",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

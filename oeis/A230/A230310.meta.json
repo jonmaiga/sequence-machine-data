@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that Sum_{a=0..72*k-1, b=0..72*k-1)} (a+b*i)^(72*k) !== 0 (mod 72*k), where i is the imaginary unit.",
+  "id": "A230310",
+  "mentions": [
+    "A230308"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

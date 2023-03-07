@@ -1,0 +1,20 @@
+{
+  "description": "A258188(n) / 7.",
+  "id": "A258329",
+  "mentions": [
+    "A258188",
+    "A258225",
+    "A258330",
+    "A258334"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

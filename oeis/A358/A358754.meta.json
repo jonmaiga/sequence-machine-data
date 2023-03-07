@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A053669(n) [the smallest prime not dividing n] is of the form 6m+1, otherwise a(n) = 0.",
+  "id": "A358754",
+  "mentions": [
+    "A053669",
+    "A249674",
+    "A353528",
+    "A358755",
+    "A358756"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 210,
+    "source": "oeis-bfile"
+  }
+}

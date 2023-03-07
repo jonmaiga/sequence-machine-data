@@ -1,0 +1,27 @@
+{
+  "description": "Bases b where exactly nine primes p with p < b exist such that p is a base-b Wieferich prime.",
+  "id": "A325885",
+  "mentions": [
+    "A255920",
+    "A255921",
+    "A255922",
+    "A255923",
+    "A255924",
+    "A255925",
+    "A325881",
+    "A325882",
+    "A325883",
+    "A325884",
+    "A325886"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of moves needed to solve the Towers of Hanoi puzzle with 6 pegs and n disks.",
+  "id": "A182058",
+  "mentions": [
+    "A007664",
+    "A007665"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

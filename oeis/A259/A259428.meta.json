@@ -1,0 +1,17 @@
+{
+  "description": "Numbers never appearing in A259124.",
+  "id": "A259428",
+  "mentions": [
+    "A259124"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

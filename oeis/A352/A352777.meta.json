@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{p <= n <= q < 2n, p,q prime} (p * q).",
+  "id": "A352777",
+  "mentions": [
+    "A000720",
+    "A035250",
+    "A352749",
+    "A352753",
+    "A352754"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = 1 if either n = 1 or the primorial inflation of n is equal to k * p#, where p# is the primorial (A034386) of some prime p, and 1 <= k < p, otherwise 0.",
+  "id": "A351956",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A002110",
+    "A006530",
+    "A010051",
+    "A010055",
+    "A034386",
+    "A060735",
+    "A061395",
+    "A108951",
+    "A276086",
+    "A324886",
+    "A329040",
+    "A351957",
+    "A351958"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

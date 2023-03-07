@@ -1,0 +1,19 @@
+{
+  "description": "Coefficient of q^4 in the polynomial NT_{n,mu}(q).",
+  "id": "A235594",
+  "mentions": [
+    "A235593"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:41",
+    "offset": 5,
+    "size": 30,
+    "source": "joeis"
+  }
+}

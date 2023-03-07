@@ -1,0 +1,21 @@
+{
+  "description": "a(2n) = 2a(n)+2^(2n), a(2n+1) = 2^(2n+1), a(0)=0.",
+  "id": "A227326",
+  "mentions": [
+    "A000302",
+    "A004171",
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

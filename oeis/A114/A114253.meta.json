@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = C(5+2*n,5+n)*C(10+2*n,0+n).",
+  "id": "A114253",
+  "mentions": [
+    "A062190"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

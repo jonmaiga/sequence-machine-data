@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dispersed Dyck paths of length n with k valleys at level 0.",
+  "id": "A191387",
+  "mentions": [
+    "A001405",
+    "A191388",
+    "A191389"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

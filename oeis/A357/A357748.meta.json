@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in the lyrics of the Rolling Stones song \"2000 Light Years From Home\" in the order in which they appear.",
+  "id": "A357748",
+  "mentions": [
+    "A357747"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

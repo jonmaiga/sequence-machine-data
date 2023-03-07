@@ -1,0 +1,24 @@
+{
+  "description": "Largest prime whose decimal expansion consists of the concatenation of a 1-digit cube, a 2-digit cube, a 3-digit cube, ..., and an n-digit cube, or 0 if there is no such prime.",
+  "id": "A340115",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A003618",
+    "A061435",
+    "A215692",
+    "A338968",
+    "A339978"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

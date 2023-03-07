@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of permutations A247143 and A247144.",
+  "id": "A247167",
+  "mentions": [
+    "A247143",
+    "A247144"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

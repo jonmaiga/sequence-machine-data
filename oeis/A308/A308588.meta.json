@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4-regular 3-connected planar graphs with n vertices having an Eulerian tour for which no two consecutive edges are incident with the same face.",
+  "id": "A308588",
+  "mentions": [
+    "A007022"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 8,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

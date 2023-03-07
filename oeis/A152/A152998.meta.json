@@ -1,0 +1,25 @@
+{
+  "description": "Toothpick sequence on the semi-infinite square grid.",
+  "id": "A152998",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A152968",
+    "A152978",
+    "A153000",
+    "A153003",
+    "A187220"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of A351084, where A351084(n) = gcd(n, A328572(n)), and A328572 converts the primorial base expansion of n into its prime product form, but with 1 subtracted from all nonzero digits.",
+  "id": "A354824",
+  "mentions": [
+    "A328572",
+    "A346242",
+    "A351084",
+    "A354347",
+    "A354348",
+    "A354823"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

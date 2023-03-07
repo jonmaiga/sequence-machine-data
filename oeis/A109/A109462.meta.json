@@ -1,0 +1,20 @@
+{
+  "description": "Number of PN-equivalence classes of canalizing functions with n variables.",
+  "id": "A109462",
+  "mentions": [
+    "A000616",
+    "A102449",
+    "A109460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

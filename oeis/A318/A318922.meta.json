@@ -1,0 +1,19 @@
+{
+  "description": "Apply Lenormand's transformation k -> A318921(k) to the Fibonacci numbers.",
+  "id": "A318922",
+  "mentions": [
+    "A000045",
+    "A318921"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

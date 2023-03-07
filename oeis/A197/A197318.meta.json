@@ -1,0 +1,28 @@
+{
+  "description": "Divisors of the repunit 111111111111 = A002275(12).",
+  "id": "A197318",
+  "mentions": [
+    "A002275",
+    "A018282",
+    "A018766",
+    "A027889",
+    "A027890",
+    "A027895",
+    "A070529",
+    "A109492",
+    "A197308",
+    "A197309"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

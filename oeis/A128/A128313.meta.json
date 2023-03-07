@@ -1,0 +1,21 @@
+{
+  "description": "Moebius transform of A007318 (signed).",
+  "id": "A128313",
+  "mentions": [
+    "A007318",
+    "A008683",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

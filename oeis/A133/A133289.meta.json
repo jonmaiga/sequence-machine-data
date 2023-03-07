@@ -1,0 +1,24 @@
+{
+  "description": "Riordan matrix T from A084358 (lists of sets of lists) inverse to the Riordan matrix TI = 2I-A129652 formed from A000262 (number of sets of lists) and reciprocal under a partition transform.",
+  "id": "A133289",
+  "mentions": [
+    "A000262",
+    "A084358",
+    "A129652",
+    "A131202",
+    "A133314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

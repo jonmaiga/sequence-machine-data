@@ -1,0 +1,24 @@
+{
+  "description": "Let qf(a,q) = Product_{j >= 0} (1-a*q^j); g.f. is qf(q,q^4)/qf(q^3,q^4).",
+  "id": "A111330",
+  "mentions": [
+    "A111317",
+    "A111335",
+    "A111374",
+    "A224704",
+    "A284313",
+    "A284316"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:27",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

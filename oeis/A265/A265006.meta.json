@@ -1,0 +1,23 @@
+{
+  "description": "Twin prime pairs of the form (k^2 + k - 1, k^2 + k + 1).",
+  "id": "A265006",
+  "mentions": [
+    "A002327",
+    "A002378",
+    "A002383",
+    "A088485",
+    "A088486"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

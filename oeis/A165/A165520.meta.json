@@ -1,0 +1,26 @@
+{
+  "description": "Antidiagonal writing from three rows trio A165351,A165355,A165367 (first,second and third trisections of A026741).",
+  "id": "A165520",
+  "mentions": [
+    "A000027",
+    "A004273",
+    "A008585",
+    "A016945",
+    "A026741",
+    "A165351",
+    "A165355",
+    "A165367"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

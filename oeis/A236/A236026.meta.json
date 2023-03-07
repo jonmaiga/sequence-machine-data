@@ -1,0 +1,25 @@
+{
+  "description": "Sequence of numbers from A236025 such that A236025(n) > A236025(k) for all k < n.",
+  "id": "A236026",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A236020",
+    "A236021",
+    "A236022",
+    "A236023",
+    "A236024",
+    "A236025",
+    "A236027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

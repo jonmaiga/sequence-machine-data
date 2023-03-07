@@ -1,0 +1,28 @@
+{
+  "description": "Greatest number m such that the fractional part of e^A091560(m) >= 1-(1/m).",
+  "id": "A153707",
+  "mentions": [
+    "A000149",
+    "A091560",
+    "A153663",
+    "A153671",
+    "A153679",
+    "A153687",
+    "A153695",
+    "A153715",
+    "A153723",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

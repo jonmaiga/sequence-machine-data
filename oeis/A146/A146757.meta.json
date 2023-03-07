@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p < 10^n such that s - p is prime, where s is the next square greater than p.",
+  "id": "A146757",
+  "mentions": [
+    "A068527",
+    "A146315",
+    "A146758",
+    "A146759",
+    "A146760"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n gives list of reverse multipliers for base n.",
+  "id": "A222818",
+  "mentions": [
+    "A214927",
+    "A222817",
+    "A222819",
+    "A222820"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

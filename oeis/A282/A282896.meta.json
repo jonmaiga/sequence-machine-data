@@ -1,0 +1,25 @@
+{
+  "description": "Indices n such that sign(Im(zetazero(n)) - 2*Pi*e*exp(LambertW((n - 11/8)/e))) = 1.",
+  "id": "A282896",
+  "mentions": [
+    "A002505",
+    "A135297",
+    "A153815",
+    "A273061",
+    "A282793",
+    "A282794",
+    "A282897",
+    "A288640"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

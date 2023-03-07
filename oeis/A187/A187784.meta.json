@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of ordered set partitions of {1,2,...,n} with exactly k singletons, n>=0, 0<=k<=n.",
+  "id": "A187784",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A032032"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

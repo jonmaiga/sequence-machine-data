@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that F(2*k + 1) is prime where F(m) is a Fibonacci number.",
+  "id": "A117517",
+  "mentions": [
+    "A000045",
+    "A001602",
+    "A001605",
+    "A022307",
+    "A030427",
+    "A051694",
+    "A075737",
+    "A083668",
+    "A093062",
+    "A099000",
+    "A117595"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

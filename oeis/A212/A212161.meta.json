@@ -1,0 +1,23 @@
+{
+  "description": "Numbers congruent to 6 or 10 mod 17.",
+  "id": "A212161",
+  "mentions": [
+    "A000217",
+    "A001844",
+    "A002144",
+    "A047219",
+    "A212160"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:23",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: the (n,k)-entry is the number of vertices with Strahler number k in the rooted tree with Matula-Goebel number n (n>=1, k>=1).",
+  "id": "A214573",
+  "mentions": [
+    "A061775",
+    "A214574"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 143,
+    "source": "oeis-entry"
+  }
+}

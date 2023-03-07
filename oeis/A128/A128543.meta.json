@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(2^(n-2)*3*n).",
+  "id": "A128543",
+  "mentions": [
+    "A007310",
+    "A134239",
+    "A249111"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{k=0..n} C(k-1,2*k-1-n)*C(k,2*k-n).",
+  "id": "A203611",
+  "mentions": [
+    "A001622",
+    "A110236",
+    "A202411"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

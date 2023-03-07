@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the positive constant t in (1,2) such that the partial denominators of the continued fraction of t equals the Beatty sequence of t, {floor((n+1)*t), n >= 0}.",
+  "id": "A320828",
+  "mentions": [
+    "A320829"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 150,
+    "source": "oeis-entry"
+  }
+}

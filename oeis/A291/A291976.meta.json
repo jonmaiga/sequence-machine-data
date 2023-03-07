@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (4*n)! * [z^(4*n)] exp(1 - (cos(z) + cosh(z))/2).",
+  "id": "A291976",
+  "mentions": [
+    "A291452"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

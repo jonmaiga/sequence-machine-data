@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1. a(n) = the numerator of the sum of the reciprocals of the earlier terms of the sequence which are coprime to n.",
+  "id": "A127010",
+  "mentions": [
+    "A127009"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

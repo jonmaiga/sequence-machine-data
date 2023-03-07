@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of unlabeled directed graphs of n nodes that have exactly k isolated nodes.",
+  "id": "A217654",
+  "mentions": [
+    "A000273",
+    "A053598"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

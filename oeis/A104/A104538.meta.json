@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 + 2*x) / (1 + 2*x + 4*x^2).",
+  "id": "A104538",
+  "mentions": [
+    "A057078",
+    "A287479"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

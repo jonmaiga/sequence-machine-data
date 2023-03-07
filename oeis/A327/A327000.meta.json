@@ -1,0 +1,35 @@
+{
+  "description": "A(n, k) = A309522(n, k) - A327001(n, k) for n >= 0 and k >= 3, square array read by ascending antidiagonals.",
+  "id": "A327000",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A000142",
+    "A001700",
+    "A002105",
+    "A005046",
+    "A011782",
+    "A018893",
+    "A048742",
+    "A125107",
+    "A291973",
+    "A291975",
+    "A309522",
+    "A326995",
+    "A326999",
+    "A327001",
+    "A327002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

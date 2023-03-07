@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the sum of p and the next two primes is the product of two consecutive primes.",
+  "id": "A351579",
+  "mentions": [
+    "A000040",
+    "A006094",
+    "A034961"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

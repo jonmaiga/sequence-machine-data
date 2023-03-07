@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) = ((-1)^(n+k)/(n+1))*Sum_{j=0..n} (-1)^j*j!*Stirling2(n, j)* binomial(n-j, k)*binomial(n+j, j), read by rows.",
+  "id": "A156653",
+  "mentions": [
+    "A001761",
+    "A008292",
+    "A048993"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

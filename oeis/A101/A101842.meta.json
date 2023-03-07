@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k), for k=-n..n-1, is the scaled (by 2^n n!) probability that the sum of n uniform [-1, 1] variables is between k and k+1.",
+  "id": "A101842",
+  "mentions": [
+    "A008292",
+    "A011818",
+    "A101845",
+    "A102012",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Multiplicities for the representation of even numbers as a balanced sum of three distinct nonzero squares.",
+  "id": "A240228",
+  "mentions": [
+    "A240227"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

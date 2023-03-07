@@ -1,0 +1,45 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees whose number of nodes is one more than their node-height.",
+  "id": "A358731",
+  "mentions": [
+    "A000040",
+    "A000081",
+    "A000108",
+    "A000720",
+    "A001222",
+    "A007097",
+    "A034781",
+    "A055277",
+    "A056239",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A112798",
+    "A196050",
+    "A206487",
+    "A209638",
+    "A289207",
+    "A316321",
+    "A342507",
+    "A358552",
+    "A358576",
+    "A358577",
+    "A358580",
+    "A358592",
+    "A358724",
+    "A358725",
+    "A358726",
+    "A358729"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

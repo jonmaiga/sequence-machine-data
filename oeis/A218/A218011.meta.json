@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which n’ = x’*y’, where x>0, y>0, n = x + y and n’, x’, y’ are the arithmetic derivatives of n, x, y.",
+  "id": "A218011",
+  "mentions": [
+    "A003415",
+    "A211223",
+    "A211224",
+    "A211225",
+    "A212662",
+    "A212663",
+    "A212664"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Left half of triangle A125053.",
+  "id": "A210111",
+  "mentions": [
+    "A000364",
+    "A125053",
+    "A125054",
+    "A210108"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

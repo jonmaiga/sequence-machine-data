@@ -1,0 +1,19 @@
+{
+  "description": "Half the number of (n-3)-element subsets of {1,...,n} whose elements sum up to an odd value.",
+  "id": "A159914",
+  "mentions": [
+    "A159916",
+    "A228705"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:39",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

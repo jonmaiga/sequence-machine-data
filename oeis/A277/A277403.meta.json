@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x - Integral A(x) dx) = x + Integral A(x) dx.",
+  "id": "A277403",
+  "mentions": [
+    "A210949",
+    "A277410",
+    "A279843"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of octagonal numbers (A000567) that are also centered square numbers (A001844).",
+  "id": "A254895",
+  "mentions": [
+    "A000567",
+    "A001844",
+    "A253673",
+    "A254896"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

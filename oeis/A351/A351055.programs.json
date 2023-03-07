@@ -1,0 +1,134 @@
+{
+  "oi": 351055,
+  "ps": [
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(acos(sin(2)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "sin",
+        "acos",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(2-acos(0))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "0",
+        "acos",
+        "sub",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(2-asin(1))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "1",
+        "asin",
+        "sub",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[root(acos(sin(2)), 2)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "sin",
+        "acos",
+        "2",
+        "root",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(asin(abs(cos(2))))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "cos",
+        "abs",
+        "asin",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(asin(-cos(2)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "cos",
+        "neg",
+        "asin",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(acot(abs(tan(2))))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "tan",
+        "abs",
+        "acot",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(acot(tan(-2)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "neg",
+        "tan",
+        "acot",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(atan(abs(cot(2))))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "cot",
+        "abs",
+        "atan",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "de[sqrt(atan(cot(-2)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "neg",
+        "cot",
+        "atan",
+        "sqrt",
+        "de"
+      ]
+    }
+  ]
+}

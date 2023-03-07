@@ -1,0 +1,25 @@
+{
+  "description": "n such that floor(sqrt(10^(2*n-1))) is (probably) prime.",
+  "id": "A136583",
+  "mentions": [
+    "A010467",
+    "A017934",
+    "A131581",
+    "A132153",
+    "A136582",
+    "A175733",
+    "A175734"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

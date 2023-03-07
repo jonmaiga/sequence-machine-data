@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 X 4 0..n arrays with no row or column sum equal to the previous one.",
+  "id": "A202653",
+  "mentions": [
+    "A202651"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that (p-1)/gpf(p-1) = 2^q * 3^r with q, r >= 1, where gpf(m) is the greatest prime factor of m, A006530.",
+  "id": "A339465",
+  "mentions": [
+    "A002476",
+    "A006093",
+    "A006530",
+    "A033845",
+    "A052126",
+    "A074781",
+    "A339464",
+    "A339466"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

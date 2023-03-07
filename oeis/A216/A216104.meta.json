@@ -1,0 +1,23 @@
+{
+  "description": "10's complement of A216105.",
+  "id": "A216104",
+  "mentions": [
+    "A007185",
+    "A016090",
+    "A018247",
+    "A018248",
+    "A091663",
+    "A091664",
+    "A216105"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

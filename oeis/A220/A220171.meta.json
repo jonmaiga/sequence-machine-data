@@ -1,0 +1,19 @@
+{
+  "description": "An ordered subset of primitive values of x^2 + x*y + y^2 where at least two ordered pairs (x1,y1) and (x2,y2) with x1 != x2, y1 != y2 and gcd(x1,y1) = gcd(x2,y2) = 1 yield identical primitive values.",
+  "id": "A220171",
+  "mentions": [
+    "A034017",
+    "A121940"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

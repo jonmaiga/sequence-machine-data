@@ -1,0 +1,24 @@
+{
+  "description": "Triangle, read by rows, of coefficients of q^(nk) in the q-analog of the even double factorials: T(n,k) = [q^(nk)] Product_{j=1..n} (1-q^(2j))/(1-q) for n>0, with T(0,0)=1.",
+  "id": "A128596",
+  "mentions": [
+    "A000165",
+    "A128084",
+    "A128086",
+    "A128592",
+    "A128597",
+    "A128598"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

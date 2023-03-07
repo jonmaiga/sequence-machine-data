@@ -1,0 +1,27 @@
+{
+  "description": "If p, q are successive primes, and there is a number k with p < k <= q such that r = p+k is a prime, then r is in the sequence.",
+  "id": "A166574",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164294",
+    "A164333",
+    "A164368",
+    "A164554",
+    "A166251",
+    "A166252",
+    "A166307",
+    "A166308"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

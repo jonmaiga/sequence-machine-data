@@ -1,0 +1,18 @@
+{
+  "description": "Lexically least sequence of distinct positive integers such that for all j and k, 1+a(j)-a(k) is 0, 1 or not a square.",
+  "id": "A102664",
+  "mentions": [
+    "A030193"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

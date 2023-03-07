@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that k^n and k^n-1 contain the same number of prime factors (counted with multiplicity) or 0 if no such k exists.",
+  "id": "A241793",
+  "mentions": [
+    "A001222",
+    "A242786"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

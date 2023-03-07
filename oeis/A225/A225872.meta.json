@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of k(q)^3 * k'(q)^2 * (K(q) / (Pi/2))^6 / 64 in powers of q where k(), k'(), K() are Jacobi elliptic functions.",
+  "id": "A225872",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002291",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A225912",
+    "A322032"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

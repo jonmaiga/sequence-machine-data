@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n^3 has one or more occurrences of exactly six different digits.",
+  "id": "A235808",
+  "mentions": [
+    "A030292",
+    "A119735",
+    "A155146",
+    "A155147",
+    "A235807",
+    "A235809",
+    "A235811"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

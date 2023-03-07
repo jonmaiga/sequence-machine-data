@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of terms in the n-th row of the irregular table A126336.",
+  "id": "A126337",
+  "mentions": [
+    "A126336",
+    "A126338",
+    "A126339"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

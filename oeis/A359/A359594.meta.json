@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative with a(p^e) = p^e if p divides e, 1 otherwise.",
+  "id": "A359594",
+  "mentions": [
+    "A085731",
+    "A327939",
+    "A359593"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured least prime p for which binomial(n*q,q) (mod q^3) = n for all primes q >= p.",
+  "id": "A222760",
+  "mentions": [
+    "A096328",
+    "A222759"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

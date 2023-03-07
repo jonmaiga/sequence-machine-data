@@ -1,0 +1,20 @@
+{
+  "description": "12^a(n) is smallest power of 12 beginning with n.",
+  "id": "A180692",
+  "mentions": [
+    "A180690",
+    "A180691",
+    "A180694"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there is no prime of a prime twin pair between n^2 + n and n^2 + 3*n + 2.",
+  "id": "A246826",
+  "mentions": [
+    "A091592",
+    "A108309"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

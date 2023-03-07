@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which A020639(n) = A272565(n).",
+  "id": "A276347",
+  "mentions": [
+    "A020639",
+    "A047229",
+    "A192503",
+    "A272565",
+    "A276437",
+    "A276568"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

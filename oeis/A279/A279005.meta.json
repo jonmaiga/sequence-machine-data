@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 3 * q * b(q^9)^3 / c(q^3) in powers of q^3 where b(), c() are cubic AGM theta functions.",
+  "id": "A279005",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A030206"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:01",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

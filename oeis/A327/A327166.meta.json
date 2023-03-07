@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors d of n for which A000005(d)*d is equal to n, where A000005(x) gives the number of divisors of x.",
+  "id": "A327166",
+  "mentions": [
+    "A000005",
+    "A038040",
+    "A327153",
+    "A327169"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

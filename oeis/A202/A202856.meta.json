@@ -1,0 +1,20 @@
+{
+  "description": "Moments of the quadratic coefficient of the characteristic polynomial of a random matrix in SU(2) X SU(2) (inside USp(4)).",
+  "id": "A202856",
+  "mentions": [
+    "A126120",
+    "A126869",
+    "A202814"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

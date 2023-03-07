@@ -1,0 +1,22 @@
+{
+  "description": "The numbers of plain simply typable lambda terms of natural size n.",
+  "id": "A294450",
+  "mentions": [
+    "A105633",
+    "A220471",
+    "A236393",
+    "A236405",
+    "A272794"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

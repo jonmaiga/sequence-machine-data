@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'mu', a percolation constant associated with the asymptotic threshold for 3-dimensional bootstrap percolation.",
+  "id": "A246686",
+  "mentions": [
+    "A086463"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

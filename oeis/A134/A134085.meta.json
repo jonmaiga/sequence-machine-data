@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: [x^(n+1)] A(x)^(2^(n-1)) = [x^n] A(x)^(2^(n-1)) for n>=0.",
+  "id": "A134085",
+  "mentions": [
+    "A134084",
+    "A134086",
+    "A134087",
+    "A134088",
+    "A134089"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

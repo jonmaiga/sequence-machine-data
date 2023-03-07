@@ -1,0 +1,40 @@
+{
+  "description": "Square array read by antidiagonals downwards: T(n,k), n>=0, k>=0, in which column 0 is equal to A057427: 0, 1, 1, 1, ..., and for k > 0 column k lists two zeros followed by the partial sums of column k-1.",
+  "id": "A277627",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A000032",
+    "A000045",
+    "A000096",
+    "A000217",
+    "A001477",
+    "A005439",
+    "A007318",
+    "A011973",
+    "A029635",
+    "A029653",
+    "A054977",
+    "A057427",
+    "A060576",
+    "A078012",
+    "A087204",
+    "A128834",
+    "A191302",
+    "A199969",
+    "A226158",
+    "A230324"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

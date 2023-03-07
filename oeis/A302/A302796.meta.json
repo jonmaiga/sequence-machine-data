@@ -1,0 +1,31 @@
+{
+  "description": "Squarefree numbers whose prime indices are relatively prime. Nonprime Heinz numbers of strict integer partitions with relatively prime parts.",
+  "id": "A302796",
+  "mentions": [
+    "A001222",
+    "A003963",
+    "A005117",
+    "A007359",
+    "A051424",
+    "A056239",
+    "A275024",
+    "A289509",
+    "A302242",
+    "A302505",
+    "A302696",
+    "A302697",
+    "A302698",
+    "A302797",
+    "A302798"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

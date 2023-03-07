@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: The d-th row contains the Betti numbers of the d-dimensional resonance arrangement.",
+  "id": "A344494",
+  "mentions": [
+    "A000225",
+    "A034997",
+    "A036239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

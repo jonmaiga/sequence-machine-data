@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: n-th row contains all consecutive subsets of the first n primes in their natural order.",
+  "id": "A248147",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000292",
+    "A151800",
+    "A248141",
+    "A248164"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

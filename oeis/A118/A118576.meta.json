@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+16807)^2 = y^2.",
+  "id": "A118576",
+  "mentions": [
+    "A156035",
+    "A156649",
+    "A156713"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:37:21",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

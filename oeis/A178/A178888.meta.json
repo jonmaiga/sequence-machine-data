@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table A035206(n,k)*A096162(n,k), read by rows.",
+  "id": "A178888",
+  "mentions": [
+    "A035206",
+    "A096162",
+    "A178887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

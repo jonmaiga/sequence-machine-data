@@ -1,0 +1,19 @@
+{
+  "description": "Theodorus-primes: primes formed from the concatenation of the initial decimal digits of Theodorus's constant, sqrt(3).",
+  "id": "A119343",
+  "mentions": [
+    "A119344"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

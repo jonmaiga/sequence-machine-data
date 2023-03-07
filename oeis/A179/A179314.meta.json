@@ -1,0 +1,22 @@
+{
+  "description": "An irregular table of values refining Table A061260.",
+  "id": "A179314",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A055884",
+    "A061260"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

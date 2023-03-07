@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) = Sum m^max(k,n-k),k=0..n.",
+  "id": "A107661",
+  "mentions": [
+    "A014105",
+    "A107659",
+    "A107660",
+    "A181617"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

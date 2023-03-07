@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that the smallest digit in the decimal expansion of 1/m is k = 8, ignoring leading and trailing 0's.",
+  "id": "A352161",
+  "mentions": [
+    "A003592",
+    "A351474",
+    "A352153",
+    "A352154",
+    "A352155",
+    "A352156",
+    "A352157",
+    "A352158",
+    "A352159",
+    "A352160"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

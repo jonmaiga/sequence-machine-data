@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers which have a dominant prime factor. A prime factor p of n is dominant if floor(sqrt(p)) > (n/p).",
+  "id": "A277624",
+  "mentions": [
+    "A006530",
+    "A063763",
+    "A092487"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

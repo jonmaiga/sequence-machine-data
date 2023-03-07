@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows, expansion of e.g.f. exp(x*(cos(z) + cosh(z) - 2)/2), nonzero coefficients of z.",
+  "id": "A291452",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000587",
+    "A001147",
+    "A005046",
+    "A025035",
+    "A025036",
+    "A048993",
+    "A156289",
+    "A260884",
+    "A291451",
+    "A291973",
+    "A291974",
+    "A291975",
+    "A291976"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

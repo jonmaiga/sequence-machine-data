@@ -1,0 +1,18 @@
+{
+  "description": "Primes p containing no zero digits and such that p+1 is divisible by every digit of p.",
+  "id": "A179520",
+  "mentions": [
+    "A081981"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

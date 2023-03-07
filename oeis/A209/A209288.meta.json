@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of the quadruple recurrence x(i,j,k,m) = x(i-1,j,k,m) + x(i,j-1,k,m) + x(i,j,k-1,m) + x(i,j,k,m-1) with x(i,j,k,m) = 1 if 0 in {i,j,k,m}.",
+  "id": "A209288",
+  "mentions": [
+    "A209245",
+    "A210472"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Pierce expansion of 1 to the base Pi.",
+  "id": "A232326",
+  "mentions": [
+    "A006784",
+    "A014014",
+    "A058635",
+    "A061233",
+    "A192223",
+    "A230600",
+    "A232325",
+    "A232327",
+    "A232328"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

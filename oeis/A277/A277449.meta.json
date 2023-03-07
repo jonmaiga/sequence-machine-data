@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there is exactly one nontrivial square n-gonal number.",
+  "id": "A277449",
+  "mentions": [
+    "A005893",
+    "A188896",
+    "A271624"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

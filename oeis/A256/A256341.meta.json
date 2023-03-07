@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which have only digits 8 and 9 in base 10.",
+  "id": "A256341",
+  "mentions": [
+    "A000523",
+    "A002281",
+    "A007088",
+    "A007931",
+    "A032810",
+    "A032834",
+    "A256077",
+    "A256290",
+    "A256292",
+    "A256340"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:53",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

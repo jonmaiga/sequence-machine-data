@@ -1,0 +1,26 @@
+{
+  "description": "Number of uncrossed rooted knight's paths of length n on an infinite board.",
+  "id": "A323131",
+  "mentions": [
+    "A003192",
+    "A272773",
+    "A322831",
+    "A323132",
+    "A323133",
+    "A323134",
+    "A323559"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

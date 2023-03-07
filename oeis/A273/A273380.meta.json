@@ -1,0 +1,19 @@
+{
+  "description": "2..a(n) is the smallest range in which the most common value of omega(k) is n, where omega(k) is the number of prime divisors of k (A001221).",
+  "id": "A273380",
+  "mentions": [
+    "A001221",
+    "A273381"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

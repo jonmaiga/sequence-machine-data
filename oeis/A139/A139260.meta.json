@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Euler's constant (or Euler-Mascheroni constant) gamma truncated to n places.",
+  "id": "A139260",
+  "mentions": [
+    "A001620",
+    "A011543",
+    "A011545",
+    "A011551",
+    "A139258",
+    "A139259",
+    "A139261"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

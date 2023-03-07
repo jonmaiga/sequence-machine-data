@@ -1,0 +1,19 @@
+{
+  "description": "Start of a string of exactly 10 consecutive (but disjoint) pairs of twin primes.",
+  "id": "A335395",
+  "mentions": [
+    "A087641",
+    "A263205"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

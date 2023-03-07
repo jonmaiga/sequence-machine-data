@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime followed by n prime gaps in arithmetic progression with a common difference of 2.",
+  "id": "A348927",
+  "mentions": [
+    "A001223",
+    "A006560",
+    "A036263",
+    "A094749",
+    "A158939",
+    "A349121"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

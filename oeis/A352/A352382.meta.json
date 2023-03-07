@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that no nonzero digit of 5*k divides 5*k.",
+  "id": "A352382",
+  "mentions": [
+    "A038772",
+    "A352379",
+    "A352380",
+    "A352381"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

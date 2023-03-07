@@ -1,0 +1,18 @@
+{
+  "description": "Least m>0 such that 2^n-m and n^2-m are relatively prime.",
+  "id": "A214073",
+  "mentions": [
+    "A071222"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

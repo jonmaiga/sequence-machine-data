@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Fibonacci(k) has more divisors than k does.",
+  "id": "A114306",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A063375"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of unordered pairs of set partitions of {1,...,n} where every block of one is a proper subset or proper superset of some block of the other.",
+  "id": "A319884",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A001247",
+    "A008277",
+    "A059849",
+    "A060639",
+    "A181939",
+    "A322435",
+    "A322436",
+    "A322437",
+    "A322438",
+    "A322439",
+    "A322440",
+    "A322441",
+    "A322442"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

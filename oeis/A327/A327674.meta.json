@@ -1,0 +1,20 @@
+{
+  "description": "Number of colored compositions of n using all colors of an n-set such that the color patterns for parts i are sorted and have i (distinct) colors (in arbitrary order).",
+  "id": "A327674",
+  "mentions": [
+    "A293840",
+    "A294253",
+    "A327673"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

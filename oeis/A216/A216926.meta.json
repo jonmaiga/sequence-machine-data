@@ -1,0 +1,22 @@
+{
+  "description": "Lucas-Carmichael numbers with 4 prime factors.",
+  "id": "A216926",
+  "mentions": [
+    "A006972",
+    "A216925",
+    "A216927",
+    "A217002",
+    "A217003",
+    "A217091"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

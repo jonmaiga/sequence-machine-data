@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all the n-digit numbers whose digits are all even and nonzero: 2,4,6,8.",
+  "id": "A192370",
+  "mentions": [
+    "A045926",
+    "A192107",
+    "A220094"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:10:59",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

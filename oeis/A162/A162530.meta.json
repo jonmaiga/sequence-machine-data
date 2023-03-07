@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k whose largest divisor <= sqrt(k) equals 10.",
+  "id": "A162530",
+  "mentions": [
+    "A008578",
+    "A033676",
+    "A161344",
+    "A161345",
+    "A161424",
+    "A161835",
+    "A162526",
+    "A162527",
+    "A162528",
+    "A162529",
+    "A162531",
+    "A162532"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

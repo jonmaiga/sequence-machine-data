@@ -1,0 +1,23 @@
+{
+  "description": "Boustrophedon transform of composite numbers.",
+  "id": "A230954",
+  "mentions": [
+    "A000732",
+    "A000747",
+    "A002808",
+    "A109449",
+    "A230953",
+    "A230955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

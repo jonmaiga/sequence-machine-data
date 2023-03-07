@@ -1,0 +1,26 @@
+{
+  "description": "Primes such that the sum of digits is a perfect power (A001597).",
+  "id": "A143863",
+  "mentions": [
+    "A001597",
+    "A062338",
+    "A062339",
+    "A062343",
+    "A106757",
+    "A106768",
+    "A107618"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

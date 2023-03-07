@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number d such that the smallest number with d divisors is a multiple of n.",
+  "id": "A143986",
+  "mentions": [
+    "A005179"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

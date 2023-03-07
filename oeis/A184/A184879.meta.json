@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T read by rows: T(n, k) = Sum_{i=0..2*n-2*k} binomial(2*n-2*k, i)*binomial(2*k, i)*(-1)^i, 0 <= k <= n.",
+  "id": "A184879",
+  "mentions": [
+    "A000984",
+    "A007318",
+    "A108474",
+    "A184880",
+    "A184881"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

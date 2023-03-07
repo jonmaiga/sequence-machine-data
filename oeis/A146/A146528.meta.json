@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 4; for n >= 1, a(n) = 2^n + 4.",
+  "id": "A146528",
+  "mentions": [
+    "A053016",
+    "A140504",
+    "A342759"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

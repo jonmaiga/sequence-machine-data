@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers obtained by inserting a 0 between each pair of adjacent digits of a prime number > 10.",
+  "id": "A119680",
+  "mentions": [
+    "A159236"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

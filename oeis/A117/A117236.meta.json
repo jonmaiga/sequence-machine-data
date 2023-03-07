@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of solution to problem #6 in the Trefethen challenge (negated).",
+  "id": "A117236",
+  "mentions": [
+    "A117231",
+    "A117232",
+    "A117233",
+    "A117234",
+    "A117235",
+    "A117237",
+    "A117238",
+    "A117239",
+    "A117240"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

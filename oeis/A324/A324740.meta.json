@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple graphs on n unlabeled nodes with maximum degree exactly 2.",
+  "id": "A324740",
+  "mentions": [
+    "A003292",
+    "A008619",
+    "A263293",
+    "A294217"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

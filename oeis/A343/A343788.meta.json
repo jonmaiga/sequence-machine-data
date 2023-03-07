@@ -1,0 +1,28 @@
+{
+  "description": "Number of ordered partitions of an n-set without blocks of size 5.",
+  "id": "A343788",
+  "mentions": [
+    "A000670",
+    "A032032",
+    "A337058",
+    "A337059",
+    "A343665",
+    "A343787",
+    "A343789",
+    "A343790",
+    "A343791",
+    "A343792",
+    "A343793"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:19:28",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

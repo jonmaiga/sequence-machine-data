@@ -1,0 +1,26 @@
+{
+  "description": "a(0)=1; thereafter a(n) = -2*Sum_{k=1..n} binomial(2n,2k)*a(n-k).",
+  "id": "A210657",
+  "mentions": [
+    "A002114",
+    "A028296",
+    "A094088",
+    "A210672",
+    "A210674",
+    "A210676",
+    "A241171",
+    "A249939",
+    "A255882"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

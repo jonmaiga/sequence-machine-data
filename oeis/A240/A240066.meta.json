@@ -1,0 +1,18 @@
+{
+  "description": "Twice prime nonnegative octonion integers shown as 8-vectors sorted by norm and then real and 7 imaginary components.",
+  "id": "A240066",
+  "mentions": [
+    "A239395",
+    "A240067"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

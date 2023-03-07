@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(j,k), j>=1, k>=1, in which column k lists the positive squares repeated k-1 times, except the column 1 which is A123327. The elements of the even-indexed columns are multiplied by -1. The first element of column k is in row k(k+1)/2.",
+  "id": "A236631",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A000290",
+    "A003056",
+    "A004125",
+    "A008794",
+    "A024916",
+    "A123327",
+    "A196020",
+    "A211547",
+    "A236104",
+    "A236630",
+    "A237593"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

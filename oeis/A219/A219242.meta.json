@@ -1,0 +1,21 @@
+{
+  "description": "Distribution of letters in the name of all months of the year (English).",
+  "id": "A219242",
+  "mentions": [
+    "A219241"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

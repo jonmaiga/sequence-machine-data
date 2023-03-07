@@ -1,0 +1,19 @@
+{
+  "description": "Sum of n mod m, summed over semiprimes m = 4, 6, 9, ..., smallest semiprime >= n.",
+  "id": "A173717",
+  "mentions": [
+    "A001358",
+    "A106325"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

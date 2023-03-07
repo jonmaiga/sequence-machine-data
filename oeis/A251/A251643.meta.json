@@ -1,0 +1,17 @@
+{
+  "description": "Smallest composite c such that F_(c-(c/p)) == 0 (mod c) with p = prime(n), F_k = A000045(k) and a/b the Kronecker symbol.",
+  "id": "A251643",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

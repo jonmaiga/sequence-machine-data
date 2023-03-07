@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{1 <= i_1 <= i_2 <= i_3 <= i_4} (1 + x^(i_1*i_2*i_3*i_4)).",
+  "id": "A321567",
+  "mentions": [
+    "A000009",
+    "A066806",
+    "A211856",
+    "A218320",
+    "A321359",
+    "A321566"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

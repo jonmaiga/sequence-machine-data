@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose prime exponents, starting from the largest prime factor through to the smallest, form an initial interval of positive integers.",
+  "id": "A307895",
+  "mentions": [
+    "A055932",
+    "A056239",
+    "A098859",
+    "A109298",
+    "A112798",
+    "A130091",
+    "A179269",
+    "A317090",
+    "A325326",
+    "A325337",
+    "A325460"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

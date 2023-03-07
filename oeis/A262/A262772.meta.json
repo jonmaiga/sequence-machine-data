@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n!! - 32 is prime.",
+  "id": "A262772",
+  "mentions": [
+    "A006882",
+    "A007749",
+    "A094144",
+    "A123910",
+    "A258616"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

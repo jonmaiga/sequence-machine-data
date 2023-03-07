@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 5 0..2 arrays with new values introduced in each row and column in sequential order starting with zero.",
+  "id": "A268053",
+  "mentions": [
+    "A268056"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

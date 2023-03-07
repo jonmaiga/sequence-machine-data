@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x,y) satisfies: A(x,y) = x*y + A(x,x*y)^2, with A(0,y) = 1.",
+  "id": "A275670",
+  "mentions": [
+    "A024916",
+    "A033156",
+    "A138157",
+    "A274965",
+    "A275691"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

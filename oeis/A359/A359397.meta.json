@@ -1,0 +1,36 @@
+{
+  "description": "Squarefree numbers with weakly decreasing first differences of 0-prepended prime indices.",
+  "id": "A359397",
+  "mentions": [
+    "A000009",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A056239",
+    "A112798",
+    "A253566",
+    "A261079",
+    "A287352",
+    "A296150",
+    "A304818",
+    "A318283",
+    "A325362",
+    "A355536",
+    "A358136",
+    "A358137",
+    "A358169",
+    "A359361"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

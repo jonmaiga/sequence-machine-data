@@ -1,0 +1,24 @@
+{
+  "description": "Egyptian fraction representation of sqrt(78) (A010530) using a greedy function.",
+  "id": "A248302",
+  "mentions": [
+    "A006487",
+    "A010530",
+    "A129702",
+    "A132480",
+    "A132574",
+    "A224231",
+    "A248235",
+    "A248322"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Beatty sequence for (x+1)^2, where 1/x + 1/(x+1)^2 = 1.",
+  "id": "A330003",
+  "mentions": [
+    "A255249",
+    "A329825",
+    "A330002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

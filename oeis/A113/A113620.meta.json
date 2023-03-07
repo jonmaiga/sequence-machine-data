@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose 3 prime powers are a permutation of each other. Numbers with 3 distinct prime factors whose 3 exponents are a permutation of the 3 bases.",
+  "id": "A113620",
+  "mentions": [
+    "A113855"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

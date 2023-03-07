@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A360121(k) is odd, but A347389(k) is even.",
+  "id": "A360124",
+  "mentions": [
+    "A347389",
+    "A360121",
+    "A360122",
+    "A360123"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

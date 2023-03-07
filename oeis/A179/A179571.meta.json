@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 1..n+4 with the number moved left exceeding the number moved right by n.",
+  "id": "A179571",
+  "mentions": [
+    "A046691",
+    "A083706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

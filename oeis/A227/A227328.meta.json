@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0,1 arrays indicating 2 X 2 subblocks of some larger (n+1) X (n+1) binary array having two adjacent 1's and two adjacent 0's, with rows and columns of the latter in lexicographically nondecreasing order.",
+  "id": "A227328",
+  "mentions": [
+    "A227333"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

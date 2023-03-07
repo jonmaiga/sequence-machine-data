@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the number of primes representable as the sum of some subset of the set of first n primes.",
+  "id": "A108018",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A066028",
+    "A071810",
+    "A256015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

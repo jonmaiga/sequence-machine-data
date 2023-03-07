@@ -1,0 +1,20 @@
+{
+  "description": "Decompose the multiplicative group of integers modulo N as a product of cyclic groups C_{k_1} x C_{k_2} x ... x C_{k_m}, where k_i divides k_j for i < j, then a(n) is the smallest N such that the product contains a copy of C_{2n}.",
+  "id": "A302099",
+  "mentions": [
+    "A002174",
+    "A002322",
+    "A002396",
+    "A046072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

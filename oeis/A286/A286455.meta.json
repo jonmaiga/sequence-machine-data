@@ -1,0 +1,27 @@
+{
+  "description": "Compound filter (smallest prime dividing n & prime signature of conjugated prime factorization): a(n) = P(A055396(n), A286621(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286455",
+  "mentions": [
+    "A000027",
+    "A055396",
+    "A122111",
+    "A243055",
+    "A278221",
+    "A285334",
+    "A286454",
+    "A286456",
+    "A286470",
+    "A286621"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Divisors of 12!.",
+  "id": "A155182",
+  "mentions": [
+    "A000142",
+    "A027423",
+    "A051038",
+    "A174228"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

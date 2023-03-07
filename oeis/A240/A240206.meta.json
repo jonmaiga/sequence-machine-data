@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n such that mean(p) > multiplicity(min(p)).",
+  "id": "A240206",
+  "mentions": [
+    "A000041",
+    "A240079",
+    "A240203",
+    "A240204",
+    "A240205"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

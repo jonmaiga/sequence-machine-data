@@ -1,0 +1,19 @@
+{
+  "description": "Number of cycles for vectors of length n under the Ducci map.",
+  "id": "A135547",
+  "mentions": [
+    "A038553",
+    "A083843",
+    "A111944"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

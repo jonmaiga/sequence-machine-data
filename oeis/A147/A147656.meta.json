@@ -1,0 +1,24 @@
+{
+  "description": "The arithmetic mean of the n-th and (n+1)-st cubes, rounded down.",
+  "id": "A147656",
+  "mentions": [
+    "A000578",
+    "A002378",
+    "A006003",
+    "A027480",
+    "A045943",
+    "A081435"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:15",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

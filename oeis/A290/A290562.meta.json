@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - cos(n*Pi/2).",
+  "id": "A290562",
+  "mentions": [
+    "A085046",
+    "A289870",
+    "A290561"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:21:43",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

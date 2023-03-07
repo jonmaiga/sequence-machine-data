@@ -1,0 +1,20 @@
+{
+  "description": "Squares which cannot be written as the sum of a smaller nonzero square and twice a triangular number.",
+  "id": "A230312",
+  "mentions": [
+    "A000217",
+    "A001912"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

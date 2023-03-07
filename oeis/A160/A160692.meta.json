@@ -1,0 +1,22 @@
+{
+  "description": "Iteration of (k terms=k, followed by 2^k-k terms=0), beginning with k=0.",
+  "id": "A160692",
+  "mentions": [
+    "A000225",
+    "A000918",
+    "A052944",
+    "A083706"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

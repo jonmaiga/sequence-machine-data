@@ -1,0 +1,21 @@
+{
+  "description": "Records in A341755 (= length of chain of (k,k+1) sharing a digit with k+(k+1), starting at n).",
+  "id": "A341756",
+  "mentions": [
+    "A341755",
+    "A341757"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

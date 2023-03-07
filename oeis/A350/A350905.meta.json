@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that binomial(k, 3) divides binomial(3^k-3, 2).",
+  "id": "A350905",
+  "mentions": [
+    "A019434",
+    "A350176",
+    "A350402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

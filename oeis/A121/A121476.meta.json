@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes with digit sum 9.",
+  "id": "A121476",
+  "mentions": [
+    "A121477"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

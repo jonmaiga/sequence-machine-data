@@ -1,0 +1,22 @@
+{
+  "description": "Boustrophedon primes: write the numbers 0, 1, 2, 3, ... in a triangle on a square grid in the boustrophedon manner, ending a row when a prime is reached; sequence lists primes that appear in the zeroth column.",
+  "id": "A330339",
+  "mentions": [
+    "A000747",
+    "A127596",
+    "A282178",
+    "A330545",
+    "A330546",
+    "A330547"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

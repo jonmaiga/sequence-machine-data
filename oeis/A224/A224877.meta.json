@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of f(x^29, x^31) - x^3 * f(x^11, x^49) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A224877",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:55",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

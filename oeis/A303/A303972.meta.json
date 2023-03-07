@@ -1,0 +1,20 @@
+{
+  "description": "Total volume of all cubes with side length n which can be split such that n = p + q, p divides q and p < q.",
+  "id": "A303972",
+  "mentions": [
+    "A023645",
+    "A303873"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

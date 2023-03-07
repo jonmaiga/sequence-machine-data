@@ -1,0 +1,18 @@
+{
+  "description": "Nodes of tree generated as follows: (1,2) is an edge, and if (x,y) is an edge, then (y, y^2 - x^2) and (y, y^2 + x^2) are edges.",
+  "id": "A228940",
+  "mentions": [
+    "A228853"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

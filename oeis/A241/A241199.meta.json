@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 4 consecutive terms of binomial(n,k) satisfy a quadratic relation for 0 <= k <= n/2.",
+  "id": "A241199",
+  "mentions": [
+    "A008865",
+    "A014206",
+    "A062730",
+    "A200182",
+    "A241200"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

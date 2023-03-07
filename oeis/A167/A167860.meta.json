@@ -1,0 +1,25 @@
+{
+  "description": "Primes p dividing every A167859(m) from m=(p-1)/2 to m=(p-1).",
+  "id": "A167860",
+  "mentions": [
+    "A000984",
+    "A006134",
+    "A007522",
+    "A066796",
+    "A082590",
+    "A132310",
+    "A144635",
+    "A167713",
+    "A167859"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

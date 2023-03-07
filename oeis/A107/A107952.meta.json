@@ -1,0 +1,21 @@
+{
+  "description": "Increasing partial quotients in A107951.",
+  "id": "A107952",
+  "mentions": [
+    "A105658",
+    "A106643",
+    "A107950",
+    "A107951"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

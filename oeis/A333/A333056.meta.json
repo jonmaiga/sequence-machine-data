@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 have different prime signatures and d(k) = d(k+1) = d(k+2), where d(k) is the number of divisors of k (A000005).",
+  "id": "A333056",
+  "mentions": [
+    "A000005",
+    "A005238",
+    "A052214",
+    "A124010",
+    "A333055"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that the number of distinct digits in the prime factorization of k is n (counting terms of the form p^1 as p).",
+  "id": "A254317",
+  "mentions": [
+    "A043537",
+    "A254315"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

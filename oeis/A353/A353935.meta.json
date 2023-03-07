@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that a cube cannot be divided into k subcubes.",
+  "id": "A353935",
+  "mentions": [
+    "A014544",
+    "A179101"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

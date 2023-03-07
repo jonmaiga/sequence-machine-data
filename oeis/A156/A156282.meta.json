@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: row n is the expansion of the product of cyclotomic polynomials from 2nd to n-th polynomial.",
+  "id": "A156282",
+  "mentions": [
+    "A002088",
+    "A003418",
+    "A013595",
+    "A013596",
+    "A076585"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

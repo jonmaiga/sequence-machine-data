@@ -1,0 +1,30 @@
+{
+  "description": "Primes which are obtained at least by two ways using the iterations of the S operator (see A164960) beginning with primes of the union of {2,3} and A164333.",
+  "id": "A164966",
+  "mentions": [
+    "A006992",
+    "A055496",
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164333",
+    "A164368",
+    "A164917",
+    "A164918",
+    "A164920",
+    "A164960",
+    "A164962"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

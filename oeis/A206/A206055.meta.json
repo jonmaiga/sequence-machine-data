@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..3 arrays with every 2X3 or 3X2 subblock having exactly two clockwise edge increases",
+  "id": "A206055",
+  "mentions": [
+    "A206063"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

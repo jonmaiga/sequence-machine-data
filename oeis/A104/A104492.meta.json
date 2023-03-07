@@ -1,0 +1,23 @@
+{
+  "description": "Cube excess of the n-th prime.",
+  "id": "A104492",
+  "mentions": [
+    "A000040",
+    "A053186",
+    "A055400",
+    "A056892",
+    "A102821"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

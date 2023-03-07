@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table read by rows: suppose n has d decimal digits; then T(n,j) for 1 <= j <= d is the number obtained by discarding the d-j least significant digits of n.",
+  "id": "A259433",
+  "mentions": [
+    "A259434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

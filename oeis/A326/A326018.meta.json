@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of knapsack partitions such that no addition of one part up to the maximum is knapsack.",
+  "id": "A326018",
+  "mentions": [
+    "A002033",
+    "A108917",
+    "A275972",
+    "A299702",
+    "A299729",
+    "A304793",
+    "A325780",
+    "A325782",
+    "A325857",
+    "A325862",
+    "A325878",
+    "A325880",
+    "A326015",
+    "A326016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

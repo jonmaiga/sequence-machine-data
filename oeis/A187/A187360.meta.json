@@ -1,0 +1,33 @@
+{
+  "description": "Coefficient array for minimal polynomials of 2*cos(Pi/n) (rising powers of x).",
+  "id": "A187360",
+  "mentions": [
+    "A013595",
+    "A020513",
+    "A049310",
+    "A055034",
+    "A127672",
+    "A138929",
+    "A181875",
+    "A181876",
+    "A181877",
+    "A192003",
+    "A192004",
+    "A230078",
+    "A230079",
+    "A255237"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

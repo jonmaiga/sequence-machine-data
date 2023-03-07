@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of prime dates based on the proleptic Gregorian calendar in YY..YMMDD format in the year AD n, where n = YY..Y.",
+  "id": "A354422",
+  "mentions": [
+    "A352947"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1. a(n) = smallest positive integer not occurring earlier in the sequence such that |d(a(n))-d(a(n-1))| = 1, where d(n) is the number of positive divisors of n.",
+  "id": "A111390",
+  "mentions": [
+    "A114107",
+    "A114108",
+    "A114109",
+    "A114110",
+    "A114111"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

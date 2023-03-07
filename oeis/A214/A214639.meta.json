@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of q * f(-q^2, -q^14) / f(-q, q^3) in powers of q where f(,) is Ramanujan's two-variable theta function.",
+  "id": "A214639",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A079006",
+    "A121373",
+    "A185083",
+    "A210063",
+    "A214263",
+    "A224216"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:01:07",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

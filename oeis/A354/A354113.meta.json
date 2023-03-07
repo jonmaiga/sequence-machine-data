@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number that contains all the digits of n in order but does not equal n.",
+  "id": "A354113",
+  "mentions": [
+    "A354049",
+    "A354114"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

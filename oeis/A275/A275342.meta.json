@@ -1,0 +1,20 @@
+{
+  "description": "2-adic valuation of iterated triangular numbers, starting with 2.",
+  "id": "A275342",
+  "mentions": [
+    "A007501",
+    "A007814",
+    "A117872"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

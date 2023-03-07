@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the sixth largest parts in the partitions of n into 8 squarefree parts.",
+  "id": "A326447",
+  "mentions": [
+    "A008683",
+    "A326443",
+    "A326444",
+    "A326445",
+    "A326446",
+    "A326448",
+    "A326449",
+    "A326450",
+    "A326451",
+    "A326452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

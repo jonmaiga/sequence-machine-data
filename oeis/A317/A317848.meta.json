@@ -1,0 +1,27 @@
+{
+  "description": "Multiplicative with a(p^e) = binomial(2*e, e).",
+  "id": "A317848",
+  "mentions": [
+    "A000265",
+    "A000984",
+    "A006519",
+    "A037445",
+    "A046643",
+    "A046644",
+    "A165825",
+    "A299149",
+    "A299150"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

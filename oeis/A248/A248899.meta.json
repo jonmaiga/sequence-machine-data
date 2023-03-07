@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are palindromic in bases 10 and 19.",
+  "id": "A248899",
+  "mentions": [
+    "A007632",
+    "A007633",
+    "A029731",
+    "A029961",
+    "A029962",
+    "A029963",
+    "A029964",
+    "A029965",
+    "A029966",
+    "A029967",
+    "A029968",
+    "A029969",
+    "A029970",
+    "A097855",
+    "A248889"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

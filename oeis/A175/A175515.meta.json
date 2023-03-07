@@ -1,0 +1,19 @@
+{
+  "description": "1,2,3 together with the semiprimes A001358.",
+  "id": "A175515",
+  "mentions": [
+    "A001358",
+    "A171581",
+    "A176540"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Indices where terms of A249684 appear in A084933.",
+  "id": "A249685",
+  "mentions": [
+    "A084933",
+    "A084937",
+    "A249684"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

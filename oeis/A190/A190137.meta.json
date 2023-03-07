@@ -1,0 +1,20 @@
+{
+  "description": "Least k in {1,2,3,4,5,6,7,8,9} such that all decimal digits of k*n are less than or equal to k.",
+  "id": "A190137",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

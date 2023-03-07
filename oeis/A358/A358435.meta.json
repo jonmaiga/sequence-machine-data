@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of the triangular array A357498.",
+  "id": "A358435",
+  "mentions": [
+    "A007952",
+    "A357498"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

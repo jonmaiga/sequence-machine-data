@@ -1,0 +1,29 @@
+{
+  "description": "L-toothpick sequence (see Comment lines for definition).",
+  "id": "A172310",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160120",
+    "A160170",
+    "A160172",
+    "A161206",
+    "A161328",
+    "A161330",
+    "A172304",
+    "A172311",
+    "A172312",
+    "A194270",
+    "A220500"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

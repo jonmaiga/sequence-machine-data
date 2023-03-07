@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x in the reduction by x^2->x+2 of the polynomial p(n,x) defined below in Comments.",
+  "id": "A192377",
+  "mentions": [
+    "A192232",
+    "A192376",
+    "A192378"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:18:28",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

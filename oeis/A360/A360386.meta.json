@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] satisfying |p(i+8) - p(i)| <> 8 for all 1 <= i <= n-8.",
+  "id": "A360386",
+  "mentions": [
+    "A110128",
+    "A333706"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

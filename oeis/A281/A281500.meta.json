@@ -1,0 +1,32 @@
+{
+  "description": "Reduced denominators of f(n) = (n+1)/(2^(2+n)-2) with A026741(n+1) as numerators.",
+  "id": "A281500",
+  "mentions": [
+    "A000027",
+    "A000918",
+    "A001477",
+    "A006519",
+    "A026741",
+    "A027642",
+    "A096045",
+    "A111701",
+    "A117856",
+    "A164555",
+    "A198631",
+    "A198693",
+    "A209308",
+    "A267921"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

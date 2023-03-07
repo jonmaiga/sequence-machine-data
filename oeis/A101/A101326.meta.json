@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: n-th row consists of n distinct primes whose sum is n+n^2+n^3. Take the lexicographically earliest solution for each row.",
+  "id": "A101326",
+  "mentions": [
+    "A100667",
+    "A101245"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

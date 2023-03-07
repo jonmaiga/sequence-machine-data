@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form 26*n+11.",
+  "id": "A140373",
+  "mentions": [
+    "A059245",
+    "A092178",
+    "A093191",
+    "A093350",
+    "A100202",
+    "A102732",
+    "A111369"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

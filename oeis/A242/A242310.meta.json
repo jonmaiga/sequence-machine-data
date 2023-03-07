@@ -1,0 +1,20 @@
+{
+  "description": "Largest 1 < k <= A000005(n) such that the sum of k distinct divisors of n is equal to k*m for some m, or 1 if no such k exists.",
+  "id": "A242310",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A049642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

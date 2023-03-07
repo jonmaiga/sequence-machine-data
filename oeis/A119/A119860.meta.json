@@ -1,0 +1,19 @@
+{
+  "description": "Greater of the twin primes of the form 8*k^4 - 1 and 8*k^4 + 1 where k is a multiple of 3.",
+  "id": "A119860",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

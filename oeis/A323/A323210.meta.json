@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 9*J(n)^2 where J(n) are the Jacobsthal numbers A001045 with J(0) = 1.",
+  "id": "A323210",
+  "mentions": [
+    "A001045",
+    "A062510",
+    "A139818",
+    "A208556",
+    "A322942",
+    "A323232"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:56:40",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

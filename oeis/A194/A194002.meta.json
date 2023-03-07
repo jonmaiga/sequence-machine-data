@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that are the start of a sequence of 7 maximally-squarefree numbers.",
+  "id": "A194002",
+  "mentions": [
+    "A007674",
+    "A007675"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

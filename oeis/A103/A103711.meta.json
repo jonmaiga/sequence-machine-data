@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the ratio of the length of the latus rectum arc of any parabola to its latus rectum: (sqrt(2) + log(1 + sqrt(2)))/2.",
+  "id": "A103711",
+  "mentions": [
+    "A002193",
+    "A091648",
+    "A103710",
+    "A103712",
+    "A222362",
+    "A232716",
+    "A232717"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = G(x/A(x)) where o.g.f. G(x) = A(x*G(x)) = Sum_{n>=0} A003701(n)*x^n.",
+  "id": "A172396",
+  "mentions": [
+    "A003701",
+    "A157308",
+    "A157310",
+    "A158119"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

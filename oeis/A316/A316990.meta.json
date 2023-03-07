@@ -1,0 +1,18 @@
+{
+  "description": "Smallest exponent m of n such that A289280(n) | n^m.",
+  "id": "A316990",
+  "mentions": [
+    "A162306",
+    "A289280"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

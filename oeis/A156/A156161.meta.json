@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 34*a(n-1)-a(n-2)-2312 for n > 2; a(1)=289, a(2)=7225.",
+  "id": "A156161",
+  "mentions": [
+    "A008844",
+    "A156159",
+    "A156164"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:12:06",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

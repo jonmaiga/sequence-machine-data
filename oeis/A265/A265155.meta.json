@@ -1,0 +1,28 @@
+{
+  "description": "Integers which are unique starting points for the algorithm described in A090566.",
+  "id": "A265155",
+  "mentions": [
+    "A090566",
+    "A243091",
+    "A265147",
+    "A265148",
+    "A265149",
+    "A265150",
+    "A265151",
+    "A265152",
+    "A265153",
+    "A265154"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of coefficients in the asymptotic expansion of the logarithm of the central binomial coefficient.",
+  "id": "A275995",
+  "mentions": [
+    "A275994"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

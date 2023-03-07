@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n, n+2, n+4 and n+6 are squarefree.",
+  "id": "A124569",
+  "mentions": [
+    "A007675",
+    "A024556"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

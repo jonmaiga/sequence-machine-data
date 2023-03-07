@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, the k rightmost digits of a(n+1) equal the k leftmost digits of a(n) for some k > 0.",
+  "id": "A360470",
+  "mentions": [
+    "A262323",
+    "A360472"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n, k) obtained from the array N1(a, b) = a^2 + a*b - b^2, for a >= 0 and b >= 0, read by upwards antidiagonals.",
+  "id": "A344685",
+  "mentions": [
+    "A001622",
+    "A003631",
+    "A132111",
+    "A281385",
+    "A281386",
+    "A344686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

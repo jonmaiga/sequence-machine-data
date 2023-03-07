@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that abs(A037861(p)) is a prime number.",
+  "id": "A177681",
+  "mentions": [
+    "A037861",
+    "A177718",
+    "A177796"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows, where row n consists of n zeros followed by 2^(n-1).",
+  "id": "A134309",
+  "mentions": [
+    "A000007",
+    "A000079",
+    "A007318",
+    "A011782",
+    "A055372",
+    "A057711",
+    "A067419",
+    "A081294",
+    "A081341",
+    "A082137",
+    "A084938",
+    "A092811",
+    "A093143"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:39",
+    "offset": 0,
+    "size": 98,
+    "source": "joeis"
+  }
+}

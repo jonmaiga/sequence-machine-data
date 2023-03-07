@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k of the form 4*j + 1 such that 2*k + 1 is a prime with primitive root 2.",
+  "id": "A163779",
+  "mentions": [
+    "A054639",
+    "A163777",
+    "A163778",
+    "A163780",
+    "A163782",
+    "A213051"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

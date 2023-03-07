@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number which can be written in n different ways as an ordered product of prime factors.",
+  "id": "A304938",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A007283",
+    "A008480",
+    "A025487",
+    "A027746",
+    "A206487",
+    "A344606",
+    "A358508",
+    "A358526"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

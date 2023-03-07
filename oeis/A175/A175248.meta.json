@@ -1,0 +1,22 @@
+{
+  "description": "Noncomposites (A008578) with noncomposite (A008578) subscripts.",
+  "id": "A175248",
+  "mentions": [
+    "A006450",
+    "A008578",
+    "A055003",
+    "A102615",
+    "A175249"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:23",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

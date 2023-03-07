@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of times n appears in A006949.",
+  "id": "A241235",
+  "mentions": [
+    "A006949",
+    "A051135",
+    "A135560"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

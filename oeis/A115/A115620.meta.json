@@ -1,0 +1,18 @@
+{
+  "description": "Phi(A033631(n)) {phi is the Euler totient function A000010}.",
+  "id": "A115620",
+  "mentions": [
+    "A000010",
+    "A033631"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

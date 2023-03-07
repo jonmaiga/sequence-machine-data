@@ -1,0 +1,20 @@
+{
+  "description": "Primes p which have at least one prime anagram larger than p.",
+  "id": "A166681",
+  "mentions": [
+    "A055387",
+    "A069567",
+    "A109308"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

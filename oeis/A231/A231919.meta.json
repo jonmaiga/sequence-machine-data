@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 3^n + (4^n - 3^n) * (d(n) - 3), where d(n) = A000005(n).",
+  "id": "A231919",
+  "mentions": [
+    "A000005",
+    "A000244",
+    "A001358",
+    "A002250",
+    "A005061",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

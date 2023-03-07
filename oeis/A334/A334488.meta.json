@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m for which p(m, 2)*p(m, 5) = p(m, 10), where p(m, b) is the period of repeating digits of 1/m in base b.",
+  "id": "A334488",
+  "mentions": [
+    "A007732",
+    "A007733",
+    "A007736",
+    "A334487"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

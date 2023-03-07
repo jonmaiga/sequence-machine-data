@@ -1,0 +1,29 @@
+{
+  "description": "Number of set multipartitions (multisets of sets) of factorizations of n into factors > 1 such that all the parts have the same product.",
+  "id": "A320888",
+  "mentions": [
+    "A001055",
+    "A001970",
+    "A045778",
+    "A050336",
+    "A052409",
+    "A089259",
+    "A294786",
+    "A296132",
+    "A319269",
+    "A320886",
+    "A320887",
+    "A320889"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

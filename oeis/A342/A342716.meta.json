@@ -1,0 +1,18 @@
+{
+  "description": "Frobenius number of the upper Wythoff sequence (A001950), starting with the n-th term.",
+  "id": "A342716",
+  "mentions": [
+    "A001950",
+    "A342715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

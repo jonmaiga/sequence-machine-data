@@ -1,0 +1,21 @@
+{
+  "description": "In base 8, records for the number of 'Reverse and Add' steps needed to reach a palindrome.",
+  "id": "A306600",
+  "mentions": [
+    "A065198",
+    "A065199",
+    "A306599"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

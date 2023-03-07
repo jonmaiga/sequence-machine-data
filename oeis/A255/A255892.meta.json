@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that each decimal digit of p is equal to the difference of two other digits of p.",
+  "id": "A255892",
+  "mentions": [
+    "A000040",
+    "A255893",
+    "A255917",
+    "A255966"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

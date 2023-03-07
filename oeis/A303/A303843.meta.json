@@ -1,0 +1,20 @@
+{
+  "description": "The number of unlabeled trees with n nodes rooted at 3 indistinguishable roots.",
+  "id": "A303843",
+  "mentions": [
+    "A000081",
+    "A294783",
+    "A303833"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

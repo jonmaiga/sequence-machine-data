@@ -1,0 +1,21 @@
+{
+  "description": "Number of longest directed cycles in the 2-Fibonacci digraph of order n.",
+  "id": "A359998",
+  "mentions": [
+    "A016031",
+    "A080023",
+    "A359997",
+    "A360000"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

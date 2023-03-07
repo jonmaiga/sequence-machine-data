@@ -1,0 +1,29 @@
+{
+  "description": "Primes of the form abs(7*k^2 - 371*k + 4871) in order of increasing nonnegative values of k.",
+  "id": "A272077",
+  "mentions": [
+    "A005846",
+    "A007635",
+    "A007641",
+    "A048988",
+    "A050265",
+    "A050266",
+    "A050267",
+    "A050268",
+    "A271980",
+    "A272074",
+    "A272075",
+    "A272076",
+    "A298078"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

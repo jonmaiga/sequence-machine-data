@@ -1,0 +1,18 @@
+{
+  "description": "Discriminants of the polynomials T_n(x) = Product_{k=0..n} (x - k(k + 1)/2).",
+  "id": "A271386",
+  "mentions": [
+    "A000217",
+    "A128813"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

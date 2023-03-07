@@ -1,0 +1,18 @@
+{
+  "description": "Oddly colossally abundant numbers.",
+  "id": "A110464",
+  "mentions": [
+    "A004490",
+    "A110465"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

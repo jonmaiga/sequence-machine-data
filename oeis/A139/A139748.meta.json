@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{ k >= 0} binomial(n,5*k+3).",
+  "id": "A139748",
+  "mentions": [
+    "A049016",
+    "A133476",
+    "A139398",
+    "A139714",
+    "A139761"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

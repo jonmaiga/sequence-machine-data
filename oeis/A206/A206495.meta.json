@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n contains in nondecreasing order the Matula-Goebel numbers of the elements of N(t), where t is the rooted tree with Matula-Goebel number n and N is the natural growth operator.",
+  "id": "A206495",
+  "mentions": [
+    "A061775"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

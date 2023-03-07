@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 3*n^n-1 is prime.",
+  "id": "A118305",
+  "mentions": [
+    "A110931",
+    "A118306"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

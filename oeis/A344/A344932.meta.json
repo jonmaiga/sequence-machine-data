@@ -1,0 +1,20 @@
+{
+  "description": "Values of n where A046800(n) produces a record.",
+  "id": "A344932",
+  "mentions": [
+    "A046800",
+    "A177710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

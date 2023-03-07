@@ -1,0 +1,18 @@
+{
+  "description": "Number of integral solutions to y^2 = x^3 + n*x^2 + n (with y nonnegative).",
+  "id": "A259191",
+  "mentions": [
+    "A081119",
+    "A081120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

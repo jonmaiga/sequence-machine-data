@@ -1,0 +1,22 @@
+{
+  "description": "Area A of the triangles such that A, the sides and three perpendicular bisectors are integers.",
+  "id": "A182171",
+  "mentions": [
+    "A181924",
+    "A181925",
+    "A181928",
+    "A188158",
+    "A210643"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

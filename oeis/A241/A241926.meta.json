@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) (n >= 1, k >= 1) is the number of necklaces with n black beads and k white beads.",
+  "id": "A241926",
+  "mentions": [
+    "A003239",
+    "A037306",
+    "A047996",
+    "A245558",
+    "A245559"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = least k>0 such that n^n divides Fibonacci(k).",
+  "id": "A215453",
+  "mentions": [
+    "A001177",
+    "A132632",
+    "A132633",
+    "A214528",
+    "A215011"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

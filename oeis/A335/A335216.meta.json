@@ -1,0 +1,20 @@
+{
+  "description": "Bi-unitary Zumkeller numbers (A335215) that are not exponentially odd numbers (A268335).",
+  "id": "A335216",
+  "mentions": [
+    "A083207",
+    "A268335",
+    "A290466",
+    "A335215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Hooley's Delta function: maximum number of divisors of n in [u, eu] for all u. (Here e is Euler's number 2.718... = A001113.)",
+  "id": "A226898",
+  "mentions": [
+    "A000005",
+    "A001113",
+    "A022843",
+    "A027750",
+    "A226899",
+    "A226900",
+    "A226901"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "core",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

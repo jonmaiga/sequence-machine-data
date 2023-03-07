@@ -1,0 +1,23 @@
+{
+  "description": "Consider a graph as defined in A306302 formed from a row of n adjacent congruent squares with the diagonals of all possible rectangles; a(n) is the minimum edge length of the squares such that the vertices formed by all intersections have integer x and y coordinates.",
+  "id": "A334224",
+  "mentions": [
+    "A003418",
+    "A076100",
+    "A290131",
+    "A290132",
+    "A306302",
+    "A331755"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nXn 0..1 arrays with every element unequal to 0, 2, 3 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.",
+  "id": "A318085",
+  "mentions": [
+    "A318091"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

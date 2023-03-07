@@ -1,0 +1,21 @@
+{
+  "description": "Largest k such that the decimal representation of 2^k is missing any n-digit string.",
+  "id": "A360623",
+  "mentions": [
+    "A094776",
+    "A360656"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

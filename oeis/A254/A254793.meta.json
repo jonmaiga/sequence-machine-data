@@ -1,0 +1,18 @@
+{
+  "description": "Sums of pairs of adjacent pairs of terms in A254788.",
+  "id": "A254793",
+  "mentions": [
+    "A254788",
+    "A254792"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

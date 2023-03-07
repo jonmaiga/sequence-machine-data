@@ -1,0 +1,20 @@
+{
+  "description": "Number of peakless Motzkin paths of length n having no (1,0)-steps at levels 0,2,4,... .",
+  "id": "A190165",
+  "mentions": [
+    "A190164",
+    "A190167",
+    "A190168"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

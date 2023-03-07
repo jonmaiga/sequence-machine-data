@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{k=0..n} C(n,k)^4*C(n+k,k)^2.",
+  "id": "A218690",
+  "mentions": [
+    "A005258",
+    "A218692"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

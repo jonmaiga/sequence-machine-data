@@ -1,0 +1,18 @@
+{
+  "description": "Strong elliptic Carmichael numbers for the elliptic curve y^2 = x^3 + 80.",
+  "id": "A290339",
+  "mentions": [
+    "A112927",
+    "A275739"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

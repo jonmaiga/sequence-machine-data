@@ -1,0 +1,18 @@
+{
+  "description": "Sum_{i=0..n} { 2^C(n,i) } - n.",
+  "id": "A169974",
+  "mentions": [
+    "A000372"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

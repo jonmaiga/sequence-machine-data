@@ -1,0 +1,23 @@
+{
+  "description": "Lucas(prime(n+1)) - prime(Lucas(n)), for Lucas numbers beginning at 2.",
+  "id": "A180367",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A093062",
+    "A094894",
+    "A180363"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "y-values in the solution to x^2 - 28*y^2=1.",
+  "id": "A175672",
+  "mentions": [
+    "A175633"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

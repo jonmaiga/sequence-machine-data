@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that Sigma(n)*UnitarySigma(n) is divisible by UnitaryPhi(n)*n.",
+  "id": "A121287",
+  "mentions": [
+    "A000203",
+    "A034448",
+    "A047994",
+    "A121288"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

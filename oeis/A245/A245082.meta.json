@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the local maximum of the Barnes G function in the interval [0,2].",
+  "id": "A245082",
+  "mentions": [
+    "A245081",
+    "A245083",
+    "A245084"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

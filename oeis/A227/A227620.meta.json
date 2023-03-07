@@ -1,0 +1,21 @@
+{
+  "description": "Logarithmic derivative of A005169, the number of fountains of n coins.",
+  "id": "A227620",
+  "mentions": [
+    "A005169",
+    "A039924",
+    "A224898",
+    "A227543"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

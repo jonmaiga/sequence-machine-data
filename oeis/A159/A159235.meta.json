@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k having n prime factors such that k + sum of the prime factors of k also has n prime factors.",
+  "id": "A159235",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A157973"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

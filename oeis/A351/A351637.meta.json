@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of length n word structures with all distinct run-lengths using exactly k different symbols, n >= 0, k = 0..floor((sqrtint(8*n+1)+1)/2).",
+  "id": "A351637",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A000217",
+    "A003056",
+    "A008289",
+    "A032020",
+    "A216695",
+    "A350824",
+    "A351638",
+    "A351639",
+    "A351641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

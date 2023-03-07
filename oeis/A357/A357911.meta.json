@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(11*k+1)) in powers of x.",
+  "id": "A357911",
+  "mentions": [
+    "A081362",
+    "A284312",
+    "A284313",
+    "A284314",
+    "A284499",
+    "A284585",
+    "A357912"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

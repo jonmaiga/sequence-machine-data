@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array read by rows: row n gives a list of the partitions of n into distinct Fibonacci numbers. The order of the partitions is like in Abramowitz-Stegun.",
+  "id": "A240224",
+  "mentions": [
+    "A000119",
+    "A239001",
+    "A240225"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

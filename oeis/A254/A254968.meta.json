@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the mean reciprocal Euclidean distance from a point in a unit cube to the faces (named B_3(-1) in Bailey's paper).",
+  "id": "A254968",
+  "mentions": [
+    "A130590",
+    "A244920",
+    "A244921"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:06",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

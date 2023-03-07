@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma(k) does not have any prime factor larger than the largest prime factor of k.",
+  "id": "A336353",
+  "mentions": [
+    "A000396",
+    "A001599",
+    "A065091",
+    "A102750",
+    "A105402",
+    "A333646",
+    "A336317",
+    "A336352",
+    "A336354"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

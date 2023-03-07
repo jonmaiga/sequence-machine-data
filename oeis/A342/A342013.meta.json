@@ -1,0 +1,31 @@
+{
+  "description": "Position of the n-th colossally abundant number in A329886, the primorial inflation of Doudna-tree.",
+  "id": "A342013",
+  "mentions": [
+    "A000523",
+    "A004490",
+    "A005940",
+    "A070939",
+    "A073751",
+    "A108951",
+    "A156552",
+    "A319626",
+    "A329886",
+    "A329900",
+    "A342000",
+    "A342010",
+    "A342011",
+    "A342012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

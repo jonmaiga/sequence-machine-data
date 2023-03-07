@@ -1,0 +1,18 @@
+{
+  "description": "Let A(x) satisfy: A(x) = 1 + x*A(x)^(phi^2) where phi = (sqrt(5)+1)/2, then this sequence equals the integer part of the coefficients of A(x).",
+  "id": "A184786",
+  "mentions": [
+    "A184785"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

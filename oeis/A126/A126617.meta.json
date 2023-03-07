@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=0..n} (-2)^(n-i)*B(i)*binomial(n,i) where B(n) = Bell numbers A000110(n).",
+  "id": "A126617",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A000296",
+    "A005493",
+    "A124311",
+    "A126390",
+    "A153732"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

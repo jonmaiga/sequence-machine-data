@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) = number of non-robust primitive binary sequences of length n and curling number k.",
+  "id": "A218876",
+  "mentions": [
+    "A216955",
+    "A218869",
+    "A218875"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

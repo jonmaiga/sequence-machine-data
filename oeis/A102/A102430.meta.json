@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n > 1 into powers of k > 1.",
+  "id": "A102430",
+  "mentions": [
+    "A000961",
+    "A001597",
+    "A001700",
+    "A007916",
+    "A008645",
+    "A008648",
+    "A008650",
+    "A008652",
+    "A018819",
+    "A023894",
+    "A052410",
+    "A062051",
+    "A102431",
+    "A102432",
+    "A102433",
+    "A102434",
+    "A112344",
+    "A308558"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

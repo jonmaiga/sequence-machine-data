@@ -1,0 +1,20 @@
+{
+  "description": "0-limiting word of the morphism 0->10, 1-> 0100.",
+  "id": "A285205",
+  "mentions": [
+    "A285206",
+    "A285207",
+    "A285208"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

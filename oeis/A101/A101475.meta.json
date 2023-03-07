@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of lattice paths from (0,0) to (0,2n) with steps (1,1) or (1,-1) that stay between the lines y=0 and y=k.",
+  "id": "A101475",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A024718",
+    "A030662",
+    "A101476"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

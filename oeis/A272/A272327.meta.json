@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) is the least i > n such that n divides i^k (n > 0, k > 0).",
+  "id": "A272327",
+  "mentions": [
+    "A073353",
+    "A254732",
+    "A254733",
+    "A254734"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

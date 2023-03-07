@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the series reversion of -1 + Product_{k>=1} 1/(1 - x^k)^k.",
+  "id": "A291488",
+  "mentions": [
+    "A000219",
+    "A007312",
+    "A050393",
+    "A176025"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(m, k) is the list of squarefree numbers A002110(m) < t < 2*A002110(m) such that A001221(t) = m.",
+  "id": "A288813",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A006530",
+    "A020900",
+    "A053669",
+    "A054841",
+    "A244052",
+    "A287352",
+    "A288784"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

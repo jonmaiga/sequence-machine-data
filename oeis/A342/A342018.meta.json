@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the arithmetic derivative of A276086(k) is divisible by at least one prime power divisor of the form p^p, where A276086 gives the prime product form of primorial base expansion of its argument.",
+  "id": "A342018",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327860",
+    "A342002",
+    "A342006",
+    "A342007",
+    "A342017",
+    "A342019",
+    "A342023"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

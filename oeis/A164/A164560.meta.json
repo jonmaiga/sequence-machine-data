@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A164532.",
+  "id": "A164560",
+  "mentions": [
+    "A024062",
+    "A026549",
+    "A162436",
+    "A164123",
+    "A164532",
+    "A164559"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose prime multiplicities are pairwise indivisible.",
+  "id": "A317101",
+  "mentions": [
+    "A118914",
+    "A124010",
+    "A285572",
+    "A285573",
+    "A303362",
+    "A304713",
+    "A316475",
+    "A317102",
+    "A317616"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

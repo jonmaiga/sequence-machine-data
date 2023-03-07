@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is multiplicative with a(p^e) = Sum_{d|e} p^(e-d).",
+  "id": "A348963",
+  "mentions": [
+    "A005117",
+    "A049419",
+    "A348964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

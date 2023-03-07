@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle in which n-th row lists squarefree divisors (A005117) of n.",
+  "id": "A206778",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A027750",
+    "A034444",
+    "A048250",
+    "A050320",
+    "A050326",
+    "A050328",
+    "A077610",
+    "A206787"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

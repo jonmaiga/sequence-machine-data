@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that n = +- 1^2 +- 2^2 +- 3^2 +- 4^2 +- ... +- k^2 for some choice of +- signs.",
+  "id": "A231015",
+  "mentions": [
+    "A000330",
+    "A158092",
+    "A231071",
+    "A231272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

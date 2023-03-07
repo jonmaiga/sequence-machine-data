@@ -1,0 +1,19 @@
+{
+  "description": "Write n-th prime in binary, then increase each run of 0's by one 0, and increase each run of 1's by one 1. a(n) is the decimal equivalent of the result.",
+  "id": "A319406",
+  "mentions": [
+    "A175046",
+    "A318923"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

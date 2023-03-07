@@ -1,0 +1,33 @@
+{
+  "description": "Smallest father factorial prime p of order n = smallest prime of the form (p!-n)/n where p is prime.",
+  "id": "A139207",
+  "mentions": [
+    "A136019",
+    "A136020",
+    "A136026",
+    "A136027",
+    "A139074",
+    "A139189",
+    "A139190",
+    "A139191",
+    "A139192",
+    "A139193",
+    "A139194",
+    "A139195",
+    "A139196",
+    "A139197",
+    "A139198",
+    "A139206"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

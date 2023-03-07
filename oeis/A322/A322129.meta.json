@@ -1,0 +1,27 @@
+{
+  "description": "Digital roots of A057084.",
+  "id": "A322129",
+  "mentions": [
+    "A000045",
+    "A010888",
+    "A015454",
+    "A030132",
+    "A041025",
+    "A057084",
+    "A114479",
+    "A164546"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

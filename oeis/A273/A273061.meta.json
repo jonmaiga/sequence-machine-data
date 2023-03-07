@@ -1,0 +1,25 @@
+{
+  "description": "Nearest integer to the França-Leclair approximation 2*Pi*(n - 11/8)/LambertW((n - 11/8)/exp(1)) of the Riemann zeta zeros.",
+  "id": "A273061",
+  "mentions": [
+    "A002505",
+    "A135297",
+    "A153815",
+    "A177885",
+    "A282793",
+    "A282794",
+    "A282896",
+    "A282897"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2*n! is not a refactorable number.",
+  "id": "A281291",
+  "mentions": [
+    "A019434",
+    "A033950",
+    "A052849",
+    "A281498"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(4*k) - 1).",
+  "id": "A256919",
+  "mentions": [
+    "A013662",
+    "A013666",
+    "A013670",
+    "A100554",
+    "A175316",
+    "A256920",
+    "A339529",
+    "A339530",
+    "A339604"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

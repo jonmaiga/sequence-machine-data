@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A110095 (least nonprime sequence whose first differences are nonprime).",
+  "id": "A110194",
+  "mentions": [
+    "A110095"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

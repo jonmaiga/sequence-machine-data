@@ -1,0 +1,43 @@
+{
+  "description": "Number of subsets of {2...n} containing no element whose prime indices all belong to the subset.",
+  "id": "A324739",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001462",
+    "A007097",
+    "A084422",
+    "A085945",
+    "A112798",
+    "A276625",
+    "A279861",
+    "A290689",
+    "A290822",
+    "A304360",
+    "A306844",
+    "A324694",
+    "A324695",
+    "A324696",
+    "A324736",
+    "A324737",
+    "A324738",
+    "A324741",
+    "A324742",
+    "A324744",
+    "A324750",
+    "A324755",
+    "A324760",
+    "A324762",
+    "A324764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

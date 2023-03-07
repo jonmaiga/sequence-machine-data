@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer-sided polygons having perimeter n, modulo rotations and reflections.",
+  "id": "A293818",
+  "mentions": [
+    "A124287",
+    "A293820"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

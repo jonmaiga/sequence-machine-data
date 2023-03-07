@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * [x^n] Product_{k>=1} 1/(1 - x^k/k!)^n.",
+  "id": "A319174",
+  "mentions": [
+    "A005651",
+    "A174661",
+    "A319175",
+    "A319176"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

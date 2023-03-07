@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of numbers whose largest prime power factor equals A000961(n).",
+  "id": "A305215",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A034699",
+    "A051451",
+    "A056795",
+    "A305325"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

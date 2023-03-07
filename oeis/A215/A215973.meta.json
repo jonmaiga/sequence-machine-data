@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1, for n > 0: a(n) = Sum_{k=0..n-1} a(k) * (1 + a(n-1-k)).",
+  "id": "A215973",
+  "mentions": [
+    "A000108",
+    "A188312"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Central terms of the triangle in A208101.",
+  "id": "A208983",
+  "mentions": [
+    "A126596",
+    "A208101"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

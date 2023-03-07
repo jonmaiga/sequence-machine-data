@@ -1,0 +1,18 @@
+{
+  "description": "Dimension of space of modular forms for Gamma_0(4*n) of weight 3/2 and trivial character.",
+  "id": "A159630",
+  "mentions": [
+    "A159634",
+    "A159636"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

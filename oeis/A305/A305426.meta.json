@@ -1,0 +1,22 @@
+{
+  "description": "Number of proper divisors of n of the form 2^k - 1 for k >= 1.",
+  "id": "A305426",
+  "mentions": [
+    "A000225",
+    "A036987",
+    "A154402",
+    "A209229",
+    "A305435"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

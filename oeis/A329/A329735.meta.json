@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k > 0 such that the binary representation of n appears as a substring in the binary representation of at least half of the numbers in the range 1..k.",
+  "id": "A329735",
+  "mentions": [
+    "A330220"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

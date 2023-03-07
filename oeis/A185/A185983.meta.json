@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: number of set partitions of n elements with k circular connectors.",
+  "id": "A185983",
+  "mentions": [
+    "A000110",
+    "A032741",
+    "A185982",
+    "A271272",
+    "A271273"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(sqrt(1+4x^2)+x(1-x)).",
+  "id": "A111964",
+  "mentions": [
+    "A111963"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

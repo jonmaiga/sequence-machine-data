@@ -1,0 +1,40 @@
+{
+  "description": "Square array read by antidiagonals: Hilbert transform of triangle A060187.",
+  "id": "A145905",
+  "mentions": [
+    "A004248",
+    "A007318",
+    "A008288",
+    "A008290",
+    "A008292",
+    "A008459",
+    "A039755",
+    "A047969",
+    "A052750",
+    "A060187",
+    "A073107",
+    "A086645",
+    "A086764",
+    "A108553",
+    "A108558",
+    "A108625",
+    "A114172",
+    "A123125",
+    "A142992",
+    "A143409",
+    "A145901"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

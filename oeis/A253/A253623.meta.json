@@ -1,0 +1,34 @@
+{
+  "description": "Expansion of phi(q) * f(q, q^2)^2 / f(q^2, q^4) in powers of q where phi(), f() are Ramanujan theta functions.",
+  "id": "A253623",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033687",
+    "A033762",
+    "A097195",
+    "A112604",
+    "A112605",
+    "A121361",
+    "A121373",
+    "A123884",
+    "A244339",
+    "A253625"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:11",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

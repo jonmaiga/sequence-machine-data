@@ -1,0 +1,22 @@
+{
+  "description": "Number of conjugacy classes of the symmetric group S_n when conjugating only by even permutations.",
+  "id": "A242101",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A046682",
+    "A061417",
+    "A242099"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

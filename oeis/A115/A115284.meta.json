@@ -1,0 +1,23 @@
+{
+  "description": "Correlation triangle of 4-C(1,n)-2*C(0,n) (A113311).",
+  "id": "A115284",
+  "mentions": [
+    "A005899",
+    "A113311",
+    "A113770",
+    "A115285"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:15",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

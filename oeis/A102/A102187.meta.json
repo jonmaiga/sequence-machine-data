@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic means of divisors of arithmetic numbers (arithmetic numbers, A003601, are those for which the average of the divisors is an integer).",
+  "id": "A102187",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

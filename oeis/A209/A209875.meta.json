@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p and p+18 are consecutive primes with equal digital sum.",
+  "id": "A209875",
+  "mentions": [
+    "A066540",
+    "A209663"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "changed",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

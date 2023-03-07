@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (4*Pi^2)/sqrt(35) = A212002/A010490.",
+  "id": "A196737",
+  "mentions": [
+    "A003676",
+    "A005563",
+    "A010490",
+    "A019694",
+    "A212002"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:02:01",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

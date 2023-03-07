@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} A283369(n)/n*x^n ) in powers of x.",
+  "id": "A283510",
+  "mentions": [
+    "A000041",
+    "A023880",
+    "A283369",
+    "A283579",
+    "A283580",
+    "A283803"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

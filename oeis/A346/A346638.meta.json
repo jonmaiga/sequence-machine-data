@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of 6-tuples (a_1,a_2,a_3,a_4,a_5,a_6) having all terms in {1,...,n} such that there exists a hexagon with these side-lengths.",
+  "id": "A346638",
+  "mentions": [
+    "A006003",
+    "A346636",
+    "A346637"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:54:47",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

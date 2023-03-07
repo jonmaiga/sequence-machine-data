@@ -1,0 +1,20 @@
+{
+  "description": "Cubes t^3 = (p+q+r)/3 which are the arithmetic mean of three consecutive primes such that p < t^3 < q < r.",
+  "id": "A234256",
+  "mentions": [
+    "A000578",
+    "A062703",
+    "A069495",
+    "A234240"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

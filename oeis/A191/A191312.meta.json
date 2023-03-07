@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dispersed Dyck paths (i.e., Motzkin paths with no (1,0) steps at positive heights) of length n having abscissa of the first return to the horizontal axis equal to k (assumed to be 0 if there are no such returns).",
+  "id": "A191312",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A093387",
+    "A191313"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

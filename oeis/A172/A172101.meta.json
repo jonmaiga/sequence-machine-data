@@ -1,0 +1,31 @@
+{
+  "description": "Triangle, read by rows, given by [0, 1, 0, -1, 0, 1, 0, -1, 0, 1, 0, -1, 0, ...] DELTA [1, 0, -1, 0, 1, 0, -1, 0, 1, 0, -1, 0, 1, ...] where DELTA is the operator defined in A084938.",
+  "id": "A172101",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001405",
+    "A002620",
+    "A005566",
+    "A008619",
+    "A028723",
+    "A028724",
+    "A028725",
+    "A084938",
+    "A088518",
+    "A088855",
+    "A331574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

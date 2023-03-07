@@ -1,0 +1,18 @@
+{
+  "description": "Cubes k such that k-2 is prime.",
+  "id": "A236334",
+  "mentions": [
+    "A000040",
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

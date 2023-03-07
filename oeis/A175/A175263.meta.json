@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers that in binary contain an odd number of digits with the middle digit being a 0.",
+  "id": "A175263",
+  "mentions": [
+    "A175262"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

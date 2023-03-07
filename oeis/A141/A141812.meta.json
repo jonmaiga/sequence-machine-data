@@ -1,0 +1,21 @@
+{
+  "description": "RMS values of the RMS numbers: a(n) is the root mean square of the divisors of A140480(n).",
+  "id": "A141812",
+  "mentions": [
+    "A140480",
+    "A141813",
+    "A141814",
+    "A141815",
+    "A141816"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

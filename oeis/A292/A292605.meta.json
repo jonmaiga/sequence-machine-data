@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, coefficients of generalized Eulerian polynomials F_{3;n}(x).",
+  "id": "A292605",
+  "mentions": [
+    "A002115",
+    "A014606",
+    "A129186",
+    "A173018",
+    "A181985",
+    "A278073",
+    "A292604",
+    "A292606",
+    "A292609"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

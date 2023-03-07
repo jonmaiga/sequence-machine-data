@@ -1,0 +1,32 @@
+{
+  "description": "Recurrence a(n) = a(n-2) + n^M for M=4, starting with a(0)=0, a(1)=1.",
+  "id": "A231303",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000583",
+    "A001477",
+    "A062392",
+    "A105636",
+    "A231304",
+    "A231305",
+    "A231306",
+    "A231307",
+    "A231308",
+    "A231309"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Odd numbers D not a square that admit proper solutions (x, y) to the Pell equation x^2 - D*y^2 = +8 with both x and y odd.",
+  "id": "A263012",
+  "mentions": [
+    "A033313",
+    "A033317",
+    "A261246",
+    "A261247",
+    "A261248",
+    "A263011",
+    "A264348",
+    "A264349",
+    "A264350",
+    "A264351",
+    "A264352",
+    "A264353",
+    "A264354"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

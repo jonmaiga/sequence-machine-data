@@ -1,0 +1,29 @@
+{
+  "description": "Centered 36-gonal numbers.",
+  "id": "A195316",
+  "mentions": [
+    "A003154",
+    "A069129",
+    "A069133",
+    "A069190",
+    "A195147",
+    "A195160",
+    "A195314",
+    "A195315",
+    "A195317",
+    "A195318",
+    "A195321"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

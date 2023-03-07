@@ -1,0 +1,22 @@
+{
+  "description": "Represent the ring R = {x+y*sqrt(-2): x, y rational integers} by the cells centered at the points (x,y) of a square grid; number the cells of the grid along a counterclockwise square spiral, with the cells at (0,0) and (1,0) numbered 0, 1. Sequence lists the index numbers of the cells which are 0 or a prime in R.",
+  "id": "A345437",
+  "mentions": [
+    "A003173",
+    "A033715",
+    "A341784",
+    "A345435",
+    "A345436",
+    "A345438"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(3+1) 0..3 arrays with the upper median unequal to the lower median in every 2X2 subblock",
+  "id": "A235845",
+  "mentions": [
+    "A235849"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

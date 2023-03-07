@@ -1,0 +1,25 @@
+{
+  "description": "If pd(x) is the product of the digits of the number x and sd(x) the sum of the digits of the number x then the sequence lists all the positive numbers n for which pd(n) = sd(n) and sd(pd(n)) = pd(sd(n)).",
+  "id": "A305257",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A010888",
+    "A031347",
+    "A034710",
+    "A128290"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

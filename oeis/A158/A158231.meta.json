@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 256*n + 1.",
+  "id": "A158231",
+  "mentions": [
+    "A076338",
+    "A158230"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

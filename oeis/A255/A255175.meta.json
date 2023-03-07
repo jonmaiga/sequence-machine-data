@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of phi(-x) / (1 - x)^2 in powers of x where phi() is a Ramanujan theta function.",
+  "id": "A255175",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053615",
+    "A121373",
+    "A134451",
+    "A196199",
+    "A329116",
+    "A339265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

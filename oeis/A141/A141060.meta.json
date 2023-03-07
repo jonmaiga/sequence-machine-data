@@ -1,0 +1,29 @@
+{
+  "description": "Fourth quadrisection of Jacobsthal numbers A001045: a(n)=16a(n-1)-5.",
+  "id": "A141060",
+  "mentions": [
+    "A001025",
+    "A001045",
+    "A013709",
+    "A013776",
+    "A098704",
+    "A131865",
+    "A139792",
+    "A141032",
+    "A144864",
+    "A195156"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

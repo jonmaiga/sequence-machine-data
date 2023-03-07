@@ -1,0 +1,25 @@
+{
+  "description": "Number of cells turned \"ON\" at n-th stage of cellular automaton whose virtual skeleton is a polyedge as the toothpick structure of A139250.",
+  "id": "A162625",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A147614",
+    "A160420",
+    "A160421",
+    "A160422",
+    "A160423",
+    "A162627"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

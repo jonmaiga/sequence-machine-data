@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that sum of odd digits is also prime.",
+  "id": "A226017",
+  "mentions": [
+    "A071649",
+    "A104260"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

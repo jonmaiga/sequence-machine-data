@@ -1,0 +1,28 @@
+{
+  "description": "Numbers such that, in base 10, all their proper prefixes and suffixes represent primes.",
+  "id": "A254751",
+  "mentions": [
+    "A020994",
+    "A024770",
+    "A024785",
+    "A254750",
+    "A254752",
+    "A254753",
+    "A254754",
+    "A254756",
+    "A260181"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of achiral colorings of the edges of a regular n-dimensional simplex using exactly k colors. Row n has (n+1)*n/2 columns.",
+  "id": "A327090",
+  "mentions": [
+    "A325003",
+    "A327083",
+    "A327084",
+    "A327085",
+    "A327086",
+    "A327087",
+    "A327088",
+    "A327089"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

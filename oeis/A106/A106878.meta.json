@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 3x^2+xy+3y^2.",
+  "id": "A106878",
+  "mentions": [
+    "A106856",
+    "A243179"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

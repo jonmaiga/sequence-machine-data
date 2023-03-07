@@ -1,0 +1,20 @@
+{
+  "description": "Smallest divisor of n that is greater than the smallest prime not dividing n (A053669(n)).",
+  "id": "A245689",
+  "mentions": [
+    "A053669",
+    "A126800",
+    "A245690"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

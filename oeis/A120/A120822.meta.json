@@ -1,0 +1,29 @@
+{
+  "description": "Primes with n consecutive ascending digits beginning with the digit four.",
+  "id": "A120822",
+  "mentions": [
+    "A006055",
+    "A120819",
+    "A120820",
+    "A120821",
+    "A120823",
+    "A120824",
+    "A120825",
+    "A120826",
+    "A120827",
+    "A120829"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Lychrel numbers k that set a new record for the number of 'Reverse and Add' steps in base 2 needed to reach a Lychrel number m < k (i.e., its seed).",
+  "id": "A306481",
+  "mentions": [
+    "A066059",
+    "A066144",
+    "A066145",
+    "A075252",
+    "A306482"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

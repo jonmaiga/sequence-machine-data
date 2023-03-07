@@ -1,0 +1,24 @@
+{
+  "description": "Residues of 3^(2^(p(n)-1)+1) for Mersenne numbers with prime indices.",
+  "id": "A131460",
+  "mentions": [
+    "A001348",
+    "A095847",
+    "A131458",
+    "A131459",
+    "A131461",
+    "A131462",
+    "A131463"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

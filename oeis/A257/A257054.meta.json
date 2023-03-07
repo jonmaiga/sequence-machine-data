@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that for each decimal digit d of k, \"sum of all occurrences of d in k\" is constant.",
+  "id": "A257054",
+  "mentions": [
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

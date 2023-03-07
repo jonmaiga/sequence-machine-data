@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of superdiagonal bargraphs with area n and with k columns.",
+  "id": "A305556",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A219282"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

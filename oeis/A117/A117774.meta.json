@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers which are divisible by the sum of their digits.",
+  "id": "A117774",
+  "mentions": [
+    "A000045",
+    "A005349",
+    "A337448"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

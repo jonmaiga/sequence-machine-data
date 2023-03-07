@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = k^2 mod p where p is the n-th prime and of the form 6k-1 or 6k+1.",
+  "id": "A332777",
+  "mentions": [
+    "A002476",
+    "A007528",
+    "A024699"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

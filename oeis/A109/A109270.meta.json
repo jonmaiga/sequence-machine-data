@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 > (1/2)(prevprime(n^2)+nextprime(n^2)).",
+  "id": "A109270",
+  "mentions": [
+    "A024675",
+    "A033597",
+    "A051634",
+    "A075190",
+    "A109269"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

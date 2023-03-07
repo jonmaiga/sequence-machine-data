@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2 * Sum_{p prime}(p^2-p-1)*log(p)/(p^4+2*p^3+1).",
+  "id": "A306072",
+  "mentions": [
+    "A085609",
+    "A306069",
+    "A335705",
+    "A335707"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

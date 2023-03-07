@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0 and a(1)=a(2)=1; a(n) = a(a(n-1)) + a(n-a(n-1)) unless floor( sum_{i=0..n-1} a(i)/2) mod 16*A069705(n) = 1 in which case a(n) = A010882(n).",
+  "id": "A153112",
+  "mentions": [
+    "A004001",
+    "A010882",
+    "A069705",
+    "A092550",
+    "A136640"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

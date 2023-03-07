@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = card { d | d*p = n, d odd, p prime }",
+  "id": "A205745",
+  "mentions": [
+    "A000005",
+    "A000607",
+    "A001221",
+    "A008683",
+    "A010051",
+    "A068050",
+    "A083399",
+    "A088705",
+    "A106404",
+    "A305614"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

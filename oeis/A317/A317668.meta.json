@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{n>=0} ( 1/A(x) - (1-x)^(4*n) )^n = 1.",
+  "id": "A317668",
+  "mentions": [
+    "A317349",
+    "A317666",
+    "A317667",
+    "A317803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

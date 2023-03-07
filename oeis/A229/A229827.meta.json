@@ -1,0 +1,21 @@
+{
+  "description": "Number of circular permutations i_1,...,i_n of 1,...,n such that the n numbers i_1^2+i_2, i_2^2+i_3, ..., i_{n-1}^2+i_n, i_n^2+i_1 form a complete system of residues modulo n.",
+  "id": "A229827",
+  "mentions": [
+    "A227456",
+    "A229082",
+    "A229141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

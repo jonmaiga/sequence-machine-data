@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers removed in each step of Eratosthenes's sieve for 10^4.",
+  "id": "A145540",
+  "mentions": [
+    "A006880",
+    "A122121",
+    "A145532"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

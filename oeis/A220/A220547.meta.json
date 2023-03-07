@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to reciprocally link elements of an n X 2 array either to themselves or to exactly one horizontal, vertical or antidiagonal neighbor.",
+  "id": "A220547",
+  "mentions": [
+    "A000078",
+    "A220553"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

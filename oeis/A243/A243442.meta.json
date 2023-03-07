@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that, in base 2, p - digitsum(p) is also a prime.",
+  "id": "A243442",
+  "mentions": [
+    "A066568",
+    "A068395",
+    "A243441"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of divisors of n that are odd squares.",
+  "id": "A360159",
+  "mentions": [
+    "A016754",
+    "A035316",
+    "A078434",
+    "A344300"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

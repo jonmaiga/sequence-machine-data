@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors d of n such that n - d is not square.",
+  "id": "A360568",
+  "mentions": [
+    "A000037",
+    "A027750",
+    "A360017"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

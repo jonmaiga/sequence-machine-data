@@ -1,0 +1,18 @@
+{
+  "description": "Recursive form of A109845 but with a(1)=1.",
+  "id": "A109173",
+  "mentions": [
+    "A109845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

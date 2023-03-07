@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 100p-1, 100p-3, 100p-7, and 100p-9 are all prime.",
+  "id": "A243409",
+  "mentions": [
+    "A064976",
+    "A236042"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

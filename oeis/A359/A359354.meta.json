@@ -1,0 +1,22 @@
+{
+  "description": "Position of the first subsequence of n primes that differs from the first n primes, but where the relative distances among their elements coincide with those of the subsequence of first n primes except for a scale factor.",
+  "id": "A359354",
+  "mentions": [
+    "A001223",
+    "A272863",
+    "A274225",
+    "A274263"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

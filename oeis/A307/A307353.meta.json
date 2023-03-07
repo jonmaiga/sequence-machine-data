@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{1<=i<=j<=k<=n} (i+j+k)!/(i!*j!*k!).",
+  "id": "A307353",
+  "mentions": [
+    "A120279",
+    "A144511",
+    "A144660",
+    "A307352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

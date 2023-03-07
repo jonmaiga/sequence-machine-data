@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + n*(n+1)*(n-1)/2.",
+  "id": "A158842",
+  "mentions": [
+    "A027480",
+    "A158841"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

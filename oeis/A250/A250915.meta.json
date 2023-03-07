@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: (32 - 31*cosh(x)) / (41 - 40*cosh(x)).",
+  "id": "A250915",
+  "mentions": [
+    "A050353",
+    "A247082",
+    "A249938",
+    "A249939",
+    "A250914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

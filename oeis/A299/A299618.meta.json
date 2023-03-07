@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of W(1) + W(1/e), where w is the Lambert W function (or PowerLog); see Comments.",
+  "id": "A299618",
+  "mentions": [
+    "A299613",
+    "A299619"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

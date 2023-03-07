@@ -1,0 +1,25 @@
+{
+  "description": "Palindromes having more divisors than all smaller palindromes.",
+  "id": "A344422",
+  "mentions": [
+    "A000005",
+    "A002113",
+    "A002182",
+    "A076888",
+    "A084324",
+    "A093036",
+    "A345250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

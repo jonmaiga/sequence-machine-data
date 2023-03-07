@@ -1,0 +1,27 @@
+{
+  "description": "Row sums of A168281.",
+  "id": "A168380",
+  "mentions": [
+    "A000292",
+    "A002492",
+    "A005993",
+    "A027656",
+    "A035597",
+    "A093907",
+    "A099956",
+    "A137583",
+    "A168281"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

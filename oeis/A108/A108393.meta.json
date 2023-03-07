@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=number of primes of the form p^2+k^2 with 2<=k<=floor(sqrt(2*p+1)) (less than (p+1)^2), for every p(n).",
+  "id": "A108393",
+  "mentions": [
+    "A108714"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: Inverse FORK-transform of automorphism *A120705.",
+  "id": "A130923",
+  "mentions": [
+    "A074680",
+    "A120705",
+    "A120706",
+    "A122201",
+    "A130924",
+    "A130925",
+    "A130926"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n - A007913(n), where A007913 gives the squarefree part of n.",
+  "id": "A326128",
+  "mentions": [
+    "A007913",
+    "A033879",
+    "A066503",
+    "A326126",
+    "A326127",
+    "A326129",
+    "A336642"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

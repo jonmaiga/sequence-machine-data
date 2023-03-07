@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX7 0..1 arrays with rows and columns unimodal",
+  "id": "A223619",
+  "mentions": [
+    "A223620"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

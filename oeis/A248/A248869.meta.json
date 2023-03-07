@@ -1,0 +1,26 @@
+{
+  "description": "Satisfies Sum_{n>=0} a(n)*x^n = x * Product_{n>=0} (1 + x^n + x^(2*n))^a(n).",
+  "id": "A248869",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A073075",
+    "A115593",
+    "A213920",
+    "A248870",
+    "A309352",
+    "A318757",
+    "A318859"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

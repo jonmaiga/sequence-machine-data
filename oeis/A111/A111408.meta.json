@@ -1,0 +1,18 @@
+{
+  "description": "f(f(n+1))-f(f(n)), where f(0)=0, and for m>0, f(m) = sigma(m) = A000203(m).",
+  "id": "A111408",
+  "mentions": [
+    "A000203",
+    "A051027"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

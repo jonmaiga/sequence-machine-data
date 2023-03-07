@@ -1,0 +1,24 @@
+{
+  "description": "Prime numbers that give a remainder of 1 when divided by the sum of their digits.",
+  "id": "A347702",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A056797",
+    "A056804",
+    "A136251",
+    "A209871",
+    "A259866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

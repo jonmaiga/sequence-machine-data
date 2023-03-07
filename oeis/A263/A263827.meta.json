@@ -1,0 +1,20 @@
+{
+  "description": "The number c_{Cc pi_1(B_1)}(2n) of the second amphicosm 2n-coverings over the first amphicosm.",
+  "id": "A263827",
+  "mentions": [
+    "A007429",
+    "A263825",
+    "A263830",
+    "A263832"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

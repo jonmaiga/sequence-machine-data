@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle whose rows are the sorted combined parts of all strict integer partitions of n.",
+  "id": "A325537",
+  "mentions": [
+    "A000009",
+    "A006128",
+    "A015723",
+    "A022629",
+    "A066189",
+    "A181821",
+    "A302247",
+    "A325504",
+    "A325513",
+    "A325515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

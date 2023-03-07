@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into 3 parts whose largest part divides n.",
+  "id": "A348537",
+  "mentions": [
+    "A069905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

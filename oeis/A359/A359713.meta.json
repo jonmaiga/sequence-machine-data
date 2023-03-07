@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = coefficient of x^n in A(x) such that 3 = Sum_{n=-oo..+oo} (-x)^n * (3*A(x) + x^(n-1))^(n+1).",
+  "id": "A359713",
+  "mentions": [
+    "A359670",
+    "A359711",
+    "A359712"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

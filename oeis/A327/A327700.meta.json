@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p + q*(q-p) and q + p*(q-p) are prime, where q is the next prime after p.",
+  "id": "A327700",
+  "mentions": [
+    "A174920"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

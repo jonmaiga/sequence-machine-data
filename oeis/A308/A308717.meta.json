@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of cosh(sqrt(3)*Pi/2)*sech(Pi/2).",
+  "id": "A308717",
+  "mentions": [
+    "A001844",
+    "A156648",
+    "A308642",
+    "A308718"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:33",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

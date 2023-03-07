@@ -1,0 +1,18 @@
+{
+  "description": "Least prime of a 6-tuplet that contains both a prime quadruple and a sexy prime quadruple.",
+  "id": "A160264",
+  "mentions": [
+    "A007530",
+    "A023271"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

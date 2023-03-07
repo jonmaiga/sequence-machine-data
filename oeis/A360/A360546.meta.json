@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, m) = (n+1-m)*C(2*n+2-m, m)*C(3*n-3*m+2, n-m+1)/(2*n-m+2).",
+  "id": "A360546",
+  "mentions": [
+    "A025174",
+    "A134481"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

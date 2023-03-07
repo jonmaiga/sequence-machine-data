@@ -1,0 +1,18 @@
+{
+  "description": "Problem 66 in Knuth's Art of Computer Programming, vol. 4, section 7.2.1.5 asks which integer partition of n produces the most set partitions. The n-th term of this sequence is the number of set partitions produced by that integer partition.",
+  "id": "A102356",
+  "mentions": [
+    "A080575",
+    "A102456"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

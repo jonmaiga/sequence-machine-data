@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chains of length k in the poset of all arithmetic progressions contained in {1,...,n} of length in the range [1..n-1], ordered by inclusion.",
+  "id": "A347580",
+  "mentions": [
+    "A008683",
+    "A338993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A181411(n)*x^n/n ) where A181411(n) = Sum_{k=0..n} C(n,k)*sigma(n+k).",
+  "id": "A181410",
+  "mentions": [
+    "A181411"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

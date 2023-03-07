@@ -1,0 +1,20 @@
+{
+  "description": "Start with A_0 = 0, then extend by setting B_k = complement of A_k and A_{k+1} = A_k C_1 C_2 ... C_m, where m is the length of A_k and C_i = A_k if the i-th element of A_k is 1 and C_i = B_k otherwise; sequence is limit of A_k as k -> infinity.",
+  "id": "A269927",
+  "mentions": [
+    "A007018",
+    "A010060",
+    "A189718",
+    "A269723"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Numbers whose least prime index is odd. Heinz numbers of integer partitions whose last part is odd.",
+  "id": "A340932",
+  "mentions": [
+    "A001222",
+    "A005408",
+    "A006141",
+    "A026424",
+    "A026804",
+    "A026805",
+    "A027193",
+    "A031368",
+    "A055396",
+    "A056239",
+    "A058695",
+    "A061395",
+    "A066208",
+    "A112798",
+    "A160786",
+    "A244991",
+    "A257991",
+    "A300063",
+    "A300272",
+    "A340604",
+    "A340854",
+    "A340855",
+    "A340933",
+    "A341446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

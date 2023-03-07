@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of the numbers from 3 to n.",
+  "id": "A284891",
+  "mentions": [
+    "A089987",
+    "A262571"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 3,
+    "size": 17,
+    "source": "joeis"
+  }
+}

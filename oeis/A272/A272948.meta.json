@@ -1,0 +1,23 @@
+{
+  "description": "Positions of Fibonacci numbers in ordered sequence A160009 of all products of Fibonacci numbers.",
+  "id": "A272948",
+  "mentions": [
+    "A000045",
+    "A160009",
+    "A271354",
+    "A272947",
+    "A272949",
+    "A272950",
+    "A273950"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The smallest palindromic prime which contains the decimal expansion of 11^n in its decimal representation.",
+  "id": "A178496",
+  "mentions": [
+    "A001020",
+    "A002385",
+    "A177678"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured least number M such that PrimePi(m)*log(m)/m lies between 1+(1/n) and 1-(1/n) for all m >= M.",
+  "id": "A176614",
+  "mentions": [
+    "A000720",
+    "A006880",
+    "A038625"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

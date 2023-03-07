@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = ( G(x)^2 - G(x^2) - 2*x/(1-x^2) )/(4*x^2) where G(x) is the g.f. of A110627.",
+  "id": "A111581",
+  "mentions": [
+    "A083952",
+    "A110627"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

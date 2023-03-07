@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways of writing n-th tetrahedral number as a sum of n positive tetrahedral numbers.",
+  "id": "A338778",
+  "mentions": [
+    "A000292",
+    "A298269",
+    "A298672",
+    "A298857",
+    "A298858",
+    "A303170",
+    "A338586"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

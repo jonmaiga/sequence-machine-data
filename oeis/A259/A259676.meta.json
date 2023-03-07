@@ -1,0 +1,23 @@
+{
+  "description": "Heptagonal numbers (A000566) that are semiprimes (A001358).",
+  "id": "A259676",
+  "mentions": [
+    "A000566",
+    "A001358",
+    "A114517",
+    "A129521",
+    "A245365",
+    "A259677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

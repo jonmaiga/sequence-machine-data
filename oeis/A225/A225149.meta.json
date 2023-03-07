@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in expansion of x/((x^2+1)*arctan(x)), even powers only.",
+  "id": "A225149",
+  "mentions": [
+    "A154289",
+    "A216254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

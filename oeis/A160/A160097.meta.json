@@ -1,0 +1,25 @@
+{
+  "description": "Number of non-exponential divisors of n.",
+  "id": "A160097",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000040",
+    "A000961",
+    "A006881",
+    "A049419",
+    "A053810",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

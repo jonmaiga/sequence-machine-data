@@ -1,0 +1,20 @@
+{
+  "description": "The number of tilings of 2 X n boards with squares of 2 colors and dominoes of 3 colors.",
+  "id": "A253265",
+  "mentions": [
+    "A030186",
+    "A102436"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

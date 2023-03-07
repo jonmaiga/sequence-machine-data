@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 1, k >= n+1) is the number of cells with k vertices in the dissection of an n-dimensional cube by all the hyperplanes that pass through any n vertices.",
+  "id": "A333543",
+  "mentions": [
+    "A007847",
+    "A331452",
+    "A333539",
+    "A333540",
+    "A333544",
+    "A338622"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

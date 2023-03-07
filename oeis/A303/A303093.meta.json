@@ -1,0 +1,22 @@
+{
+  "description": "Balanced primes of order one ending in 3.",
+  "id": "A303093",
+  "mentions": [
+    "A006562",
+    "A030431",
+    "A303092",
+    "A303094",
+    "A303095"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

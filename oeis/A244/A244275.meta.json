@@ -1,0 +1,22 @@
+{
+  "description": "Year of state admission into the United States sorted by years.",
+  "id": "A244275",
+  "mentions": [
+    "A090232",
+    "A112506",
+    "A130801",
+    "A140646"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

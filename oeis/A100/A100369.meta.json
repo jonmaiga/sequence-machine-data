@@ -1,0 +1,25 @@
+{
+  "description": "Largest primes arising in A099756 which were built up from n distinct digits. This sequence differs from A007810 because more than one copy of each digit is permitted.",
+  "id": "A100369",
+  "mentions": [
+    "A007809",
+    "A007810",
+    "A099651",
+    "A099653",
+    "A099654",
+    "A099756"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Floor of the average of the numbers |x-y| over all pairs (x,y) with x*y = n, x <= y.",
+  "id": "A351752",
+  "mentions": [
+    "A000010",
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

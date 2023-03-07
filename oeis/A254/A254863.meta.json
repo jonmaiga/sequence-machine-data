@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p such that p + previousprime(p) is a multiple of n.",
+  "id": "A254863",
+  "mentions": [
+    "A254862"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

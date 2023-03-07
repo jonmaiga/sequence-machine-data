@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 have at least 4 but not both exactly 4 distinct prime factors.",
+  "id": "A321494",
+  "mentions": [
+    "A140078",
+    "A321493",
+    "A321496",
+    "A321504"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

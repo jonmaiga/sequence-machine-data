@@ -1,0 +1,27 @@
+{
+  "description": "Sums of three Mersenne primes.",
+  "id": "A174055",
+  "mentions": [
+    "A000668",
+    "A155877",
+    "A166484",
+    "A171251",
+    "A171252",
+    "A171253",
+    "A171254",
+    "A171255",
+    "A174056",
+    "A174057"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

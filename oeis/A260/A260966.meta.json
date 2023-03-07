@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=1, then a(n) is the least sum of two successive primes that is a multiple of n and > a(n-1).",
+  "id": "A260966",
+  "mentions": [
+    "A001043",
+    "A247245"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

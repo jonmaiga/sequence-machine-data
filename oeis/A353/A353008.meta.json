@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive k such that k^2 + 1 has 2*n divisors.",
+  "id": "A353008",
+  "mentions": [
+    "A193432"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

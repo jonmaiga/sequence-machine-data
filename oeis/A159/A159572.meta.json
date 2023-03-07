@@ -1,0 +1,26 @@
+{
+  "description": "A triangular array related to ordered partitions and having row sums 1,2,5,14,43,144,523,2048,8597... A047970.",
+  "id": "A159572",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000330",
+    "A006011",
+    "A047970",
+    "A053445",
+    "A086602",
+    "A159571"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "obsc",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

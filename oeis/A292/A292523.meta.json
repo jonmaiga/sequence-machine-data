@@ -1,0 +1,22 @@
+{
+  "description": "Decimal encoding T(n,k) of the k-th non-averaging permutation of [n]; triangle T(n,k), n >= 0, k = 1..A003407(n), read by rows.",
+  "id": "A292523",
+  "mentions": [
+    "A003407",
+    "A030299",
+    "A055642",
+    "A088370"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

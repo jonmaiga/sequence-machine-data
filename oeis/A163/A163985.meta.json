@@ -1,0 +1,24 @@
+{
+  "description": "Sum of all isolated parts of all partitions of n.",
+  "id": "A163985",
+  "mentions": [
+    "A000041",
+    "A005408",
+    "A130773",
+    "A140139",
+    "A163986"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:55",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

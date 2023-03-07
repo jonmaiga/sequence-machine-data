@@ -1,0 +1,32 @@
+{
+  "description": "Uniform tree numbers. Matula-Goebel numbers of uniform rooted trees.",
+  "id": "A317710",
+  "mentions": [
+    "A061775",
+    "A072774",
+    "A111299",
+    "A214577",
+    "A276625",
+    "A277098",
+    "A303431",
+    "A317589",
+    "A317705",
+    "A317707",
+    "A317708",
+    "A317709",
+    "A317711",
+    "A317712",
+    "A317717",
+    "A317718"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

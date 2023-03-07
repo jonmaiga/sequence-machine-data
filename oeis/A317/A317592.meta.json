@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically first sequence of different terms such that erasing the last two digits of a(n+1) and adding this new reshaped integer to a(n) gives back a(n+1).",
+  "id": "A317592",
+  "mentions": [
+    "A317591"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{i=1..n} prime(i)^(prime(i)-1), a(0)=1.",
+  "id": "A276092",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A036878",
+    "A048103",
+    "A057588",
+    "A276086"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

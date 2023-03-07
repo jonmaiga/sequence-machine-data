@@ -1,0 +1,36 @@
+{
+  "description": "Constant whose decimal expansion is the concatenation of the largest n-digit cube A061435(n), for n = 1, 2, 3, ...",
+  "id": "A340209",
+  "mentions": [
+    "A001191",
+    "A030190",
+    "A033307",
+    "A033308",
+    "A061435",
+    "A134724",
+    "A215641",
+    "A215647",
+    "A215692",
+    "A339978",
+    "A340115",
+    "A340207",
+    "A340208",
+    "A340219",
+    "A340220",
+    "A340221",
+    "A340222"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:05",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

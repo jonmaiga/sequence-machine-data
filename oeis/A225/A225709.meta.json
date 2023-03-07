@@ -1,0 +1,21 @@
+{
+  "description": "Composite squarefree numbers n such that p(i)-9 divides n+9, where p(i) are the prime factors of n.",
+  "id": "A225709",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225708",
+    "A225710",
+    "A225720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

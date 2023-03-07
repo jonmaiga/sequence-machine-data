@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (392*16^n -1620*8^n +1890*4^n -767)/105.",
+  "id": "A225209",
+  "mentions": [
+    "A036563"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative numbers all of whose pairs of consecutive decimal digits are adjacent digits, where 9 and 0 are considered adjacent.",
+  "id": "A357142",
+  "mentions": [
+    "A032981",
+    "A033075",
+    "A043089",
+    "A048491"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

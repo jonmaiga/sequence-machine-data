@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers with no finite subset summing to a positive Fibonacci number.",
+  "id": "A353966",
+  "mentions": [
+    "A000045",
+    "A353889",
+    "A353967",
+    "A353968"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

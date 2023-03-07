@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-strand braids of length at most 2 in the dual monoid B_n^{+*}.",
+  "id": "A248382",
+  "mentions": [
+    "A000108",
+    "A168344",
+    "A248386"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

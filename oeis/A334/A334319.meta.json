@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers m in base n with distinct digits such that the number formed by the consecutive subsequence of the initial j digits is divisible by j for all j in {1,...,length(m)}.",
+  "id": "A334319",
+  "mentions": [
+    "A334318"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

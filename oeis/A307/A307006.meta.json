@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (2*exp(x)-1-2*x-x^2)/(1-x-x^2).",
+  "id": "A307006",
+  "mentions": [
+    "A000045",
+    "A307005"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:57:25",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

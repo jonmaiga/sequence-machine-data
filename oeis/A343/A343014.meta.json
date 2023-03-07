@@ -1,0 +1,21 @@
+{
+  "description": "Number with a record number of divisors whose prime factorizations contain no repeated exponents.",
+  "id": "A343014",
+  "mentions": [
+    "A025487",
+    "A087980",
+    "A130091",
+    "A181796",
+    "A181824"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

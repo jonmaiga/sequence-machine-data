@@ -1,0 +1,26 @@
+{
+  "description": "The exponent of the highest power of 3 dividing the product of the elements on the n-th row of Pascal's triangle (A001142(n)).",
+  "id": "A249343",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A001142",
+    "A007949",
+    "A187059",
+    "A243759",
+    "A249345",
+    "A249347",
+    "A249421"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

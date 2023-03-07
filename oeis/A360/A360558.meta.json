@@ -1,0 +1,37 @@
+{
+  "description": "Numbers whose multiset of prime factors (or indices, see A112798) has more adjacent equalities (or parts that have appeared before) than distinct parts.",
+  "id": "A360558",
+  "mentions": [
+    "A000975",
+    "A001221",
+    "A001222",
+    "A027193",
+    "A056239",
+    "A067340",
+    "A067801",
+    "A112798",
+    "A237363",
+    "A317090",
+    "A326567",
+    "A326568",
+    "A360005",
+    "A360248",
+    "A360249",
+    "A360254",
+    "A360454",
+    "A360555",
+    "A360556"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

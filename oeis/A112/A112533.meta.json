@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (4+49*x+108*x^2-432*x^3+54675*x^5)/((1-27*x^2)*(1-6*x+27*x^2)*(1+6*x+27*x^2)).",
+  "id": "A112533",
+  "mentions": [
+    "A112534",
+    "A112535",
+    "A112536",
+    "A112537",
+    "A112538"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

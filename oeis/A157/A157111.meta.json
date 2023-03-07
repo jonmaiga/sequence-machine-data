@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 137842*n - 106846.",
+  "id": "A157111",
+  "mentions": [
+    "A157110",
+    "A157112"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

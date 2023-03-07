@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers less than or equal to n whose largest prime factor is 3.",
+  "id": "A301461",
+  "mentions": [
+    "A003586",
+    "A065119",
+    "A071521",
+    "A301506"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

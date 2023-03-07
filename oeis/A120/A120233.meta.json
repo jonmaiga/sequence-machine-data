@@ -1,0 +1,18 @@
+{
+  "description": "Split-floor-multiplier sequence (SFMS) using multipliers 3/4 and 4/3. (SFMS is defined at A120229.).",
+  "id": "A120233",
+  "mentions": [
+    "A120229"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) = binomial(n, k)*((2*k+1)*(n-k) +k+1)/(k+1), read by rows.",
+  "id": "A134081",
+  "mentions": [
+    "A000027",
+    "A000326",
+    "A002064",
+    "A002413",
+    "A007318",
+    "A051740",
+    "A051879",
+    "A112295"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

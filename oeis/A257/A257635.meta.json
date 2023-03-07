@@ -1,0 +1,29 @@
+{
+  "description": "Triangle with n-th row polynomial equal to Product_{k = 1..n} (x + n + k).",
+  "id": "A257635",
+  "mentions": [
+    "A000108",
+    "A000407",
+    "A000984",
+    "A001813",
+    "A005449",
+    "A006963",
+    "A038455",
+    "A054649",
+    "A092932",
+    "A098118"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

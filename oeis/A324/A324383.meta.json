@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the minimal number of primorials that add to A322827(n).",
+  "id": "A324383",
+  "mentions": [
+    "A000975",
+    "A002110",
+    "A003188",
+    "A025487",
+    "A034968",
+    "A276150",
+    "A322827",
+    "A324342",
+    "A324382",
+    "A324386",
+    "A324387"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

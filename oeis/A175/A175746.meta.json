@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with 36 divisors.",
+  "id": "A175746",
+  "mentions": [
+    "A000005",
+    "A175744",
+    "A175745"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:23",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

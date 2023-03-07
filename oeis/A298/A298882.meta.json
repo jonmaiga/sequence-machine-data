@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1, and for any n > 1, if n is the k-th number with least prime factor p, then a(n) is the k-th number with greatest prime factor p.",
+  "id": "A298882",
+  "mentions": [
+    "A008364",
+    "A020639",
+    "A046022",
+    "A051038",
+    "A055396",
+    "A078898",
+    "A083140",
+    "A125624",
+    "A298268"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

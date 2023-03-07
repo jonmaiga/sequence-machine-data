@@ -1,0 +1,20 @@
+{
+  "description": "The Redstone permutation: a(1) = 2, a(2) = 1, otherwise the smallest number not occurring earlier which is strongly prime to n.",
+  "id": "A350313",
+  "mentions": [
+    "A000255",
+    "A181830",
+    "A350314",
+    "A350315"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

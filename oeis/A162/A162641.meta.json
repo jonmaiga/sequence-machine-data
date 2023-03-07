@@ -1,0 +1,32 @@
+{
+  "description": "Number of even exponents in canonical prime factorization of n.",
+  "id": "A162641",
+  "mentions": [
+    "A001221",
+    "A002035",
+    "A003557",
+    "A007913",
+    "A025487",
+    "A028234",
+    "A056170",
+    "A059841",
+    "A061742",
+    "A067029",
+    "A072587",
+    "A162642",
+    "A179119",
+    "A268335",
+    "A295316"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

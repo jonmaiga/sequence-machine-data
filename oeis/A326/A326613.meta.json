@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the cyclic length of the iterative sequence f(k) = prime(f(k-1) mod 2^n) with f(0) = 1.",
+  "id": "A326613",
+  "mentions": [
+    "A007053",
+    "A007097",
+    "A128867"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

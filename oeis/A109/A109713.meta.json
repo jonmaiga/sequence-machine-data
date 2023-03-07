@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 99 * 10^n + 1 is prime.",
+  "id": "A109713",
+  "mentions": [
+    "A056797",
+    "A056804",
+    "A056805",
+    "A056806",
+    "A056807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

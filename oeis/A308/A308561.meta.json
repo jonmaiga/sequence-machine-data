@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with no 0 digit that are divisible by the sum of any two of their digits at distinct positions.",
+  "id": "A308561",
+  "mentions": [
+    "A308534",
+    "A308560"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

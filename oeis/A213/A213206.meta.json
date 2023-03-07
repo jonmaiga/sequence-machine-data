@@ -1,0 +1,19 @@
+{
+  "description": "Largest order of permutation without a 2-cycle of n elements. Equivalently, largest LCM of partitions of n without parts =2.",
+  "id": "A213206",
+  "mentions": [
+    "A000793",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

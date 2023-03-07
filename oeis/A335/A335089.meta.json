@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of log(Pi^2/6).",
+  "id": "A335089",
+  "mentions": [
+    "A000796",
+    "A013661",
+    "A014963",
+    "A016629",
+    "A025474",
+    "A053510",
+    "A100995",
+    "A131659",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

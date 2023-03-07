@@ -1,0 +1,41 @@
+{
+  "description": "Numbers whose Matula tree is a binary tree (i.e., root has degree 2 and all nodes except root and leaves have degree 3).",
+  "id": "A111299",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A004111",
+    "A005517",
+    "A005518",
+    "A007097",
+    "A036656",
+    "A061773",
+    "A061775",
+    "A063895",
+    "A196050",
+    "A245824",
+    "A276625",
+    "A291636",
+    "A292050",
+    "A306200",
+    "A306201",
+    "A306202",
+    "A306203",
+    "A320230",
+    "A331935",
+    "A331965",
+    "A331966",
+    "A339193"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

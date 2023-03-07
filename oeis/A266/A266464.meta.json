@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 binary arrays with rows and columns lexicographically nondecreasing and column sums nonincreasing.",
+  "id": "A266464",
+  "mentions": [
+    "A266470"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:04:43",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

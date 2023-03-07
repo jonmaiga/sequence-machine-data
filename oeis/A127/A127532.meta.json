@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of binary trees with n edges and jump-length equal to k (n >= 0, 0 <= k <= n-2).",
+  "id": "A127532",
+  "mentions": [
+    "A000108",
+    "A000129",
+    "A074084",
+    "A127530",
+    "A127533"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

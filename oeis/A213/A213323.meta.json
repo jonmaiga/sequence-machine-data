@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of n objects such that no four-element subset is preserved.",
+  "id": "A213323",
+  "mentions": [
+    "A000166",
+    "A137482",
+    "A213322",
+    "A213324"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:57:41",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

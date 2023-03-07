@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m such that 2im+1 is composite for all i, 0",
+  "id": "A244433",
+  "mentions": [
+    "A071576",
+    "A244434",
+    "A244435"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

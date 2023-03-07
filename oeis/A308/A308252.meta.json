@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree composite numbers k with chained prime factors: the last digit of every prime factor is the same as the first digit of the next one. Prime factors must be in ascending order.",
+  "id": "A308252",
+  "mentions": [
+    "A005117",
+    "A308099",
+    "A308101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

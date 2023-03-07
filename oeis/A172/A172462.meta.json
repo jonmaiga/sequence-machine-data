@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 2k-3, 2k-1, 2k+1 and 2k+3 are composite.",
+  "id": "A172462",
+  "mentions": [
+    "A104278"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

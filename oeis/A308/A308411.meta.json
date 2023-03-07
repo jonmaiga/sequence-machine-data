@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as 2^i*3^j + A008347(k), where i, j and k > 0 are nonnegative integers.",
+  "id": "A308411",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A008347",
+    "A308403",
+    "A316141"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

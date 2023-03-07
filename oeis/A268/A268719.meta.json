@@ -1,0 +1,26 @@
+{
+  "description": "Triangular table T(n>=0,k=0..n) = A003188(A006068(n) + A006068(k)), read by rows as A(0,0), A(1,0), A(1,1), A(2,0), A(2,1), A(2,2), ...",
+  "id": "A268719",
+  "mentions": [
+    "A001477",
+    "A001969",
+    "A002262",
+    "A003056",
+    "A003188",
+    "A006068",
+    "A268715",
+    "A268720"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

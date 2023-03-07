@@ -1,0 +1,19 @@
+{
+  "description": "The value A104017(n) rescaled with its decremented prime factors as described in A162290.",
+  "id": "A164946",
+  "mentions": [
+    "A104016",
+    "A104017",
+    "A162290"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

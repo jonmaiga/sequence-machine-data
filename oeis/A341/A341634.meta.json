@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime whose product of digits (A007954) is the n-th 7-smooth number = A002473(n), with a(0) = 101.",
+  "id": "A341634",
+  "mentions": [
+    "A002473",
+    "A004954",
+    "A007954",
+    "A053666",
+    "A107698",
+    "A335331"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

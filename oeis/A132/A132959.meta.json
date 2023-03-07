@@ -1,0 +1,25 @@
+{
+  "description": "Total number of all distinct list sizes in all partitions of [n] into lists, cf. A000262.",
+  "id": "A132959",
+  "mentions": [
+    "A000262",
+    "A052852",
+    "A132958",
+    "A132960",
+    "A132961",
+    "A132962",
+    "A132963"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

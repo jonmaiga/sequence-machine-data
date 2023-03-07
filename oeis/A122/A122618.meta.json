@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n_n, where \"N_b\" denotes \"N read in base b\": if N = Sum c_i 10^i then N_b = Sum c_i b^i.",
+  "id": "A122618",
+  "mentions": [
+    "A028897",
+    "A083292",
+    "A122640"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

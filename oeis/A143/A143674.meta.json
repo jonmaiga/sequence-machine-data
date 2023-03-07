@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal antichains in the poset of Dyck paths ordered by inclusion.",
+  "id": "A143674",
+  "mentions": [
+    "A143672",
+    "A143673"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

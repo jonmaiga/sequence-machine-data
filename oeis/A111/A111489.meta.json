@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form prime(k) + composite(k) for some k.",
+  "id": "A111489",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A097452",
+    "A142348"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

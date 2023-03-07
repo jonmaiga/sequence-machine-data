@@ -1,0 +1,19 @@
+{
+  "description": "The no-3-in-line problem: maximal number of points from an n X n square grid so that no three lie on a line.",
+  "id": "A272651",
+  "mentions": [
+    "A000769",
+    "A103517"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:13:29",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

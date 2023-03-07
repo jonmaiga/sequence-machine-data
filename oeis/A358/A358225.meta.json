@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A276086(k) mod k is an odd number, where A276086 is the primorial base exp-function.",
+  "id": "A358225",
+  "mentions": [
+    "A000035",
+    "A005843",
+    "A276086",
+    "A328386",
+    "A358224",
+    "A358226",
+    "A358228",
+    "A358231"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

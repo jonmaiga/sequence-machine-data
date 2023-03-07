@@ -1,0 +1,20 @@
+{
+  "description": "Bi-unitary abundant numbers: numbers n such that bsigma(n) > 2n, where bsigma is the sum of the bi-unitary divisors function (A188999).",
+  "id": "A292982",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A034683",
+    "A188999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

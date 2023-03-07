@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the concatenation of n 1's, 0, n 1's and 0.",
+  "id": "A173521",
+  "mentions": [
+    "A138148",
+    "A170940"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:47:00",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies: A(x) = A( x/(1-x)^3 ) * (1-x)/(1+2*x) with A(0)=0.",
+  "id": "A261885",
+  "mentions": [
+    "A001764",
+    "A179320",
+    "A179330",
+    "A179420",
+    "A261886"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

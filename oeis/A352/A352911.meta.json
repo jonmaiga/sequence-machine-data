@@ -1,0 +1,20 @@
+{
+  "description": "Pairs (i,j) of relatively prime positive integers sorted first by i+j then by i.",
+  "id": "A352911",
+  "mentions": [
+    "A020652",
+    "A020653",
+    "A038566",
+    "A352909"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

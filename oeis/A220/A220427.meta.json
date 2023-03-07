@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A005064(n)*x^n/n ), where A005064(n) = sum of cubes of primes dividing n.",
+  "id": "A220427",
+  "mentions": [
+    "A005064",
+    "A219224"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

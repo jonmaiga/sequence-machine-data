@@ -1,0 +1,20 @@
+{
+  "description": "Let S(k) be the subsequence of multiples of k from k*positive integers where each element of S(k) sets a new record of divisors in that sequence. Then f(k) is the first element from S(k)/k that is not a power of 2. Sequence lists records for f(k).",
+  "id": "A352797",
+  "mentions": [
+    "A002182",
+    "A147516",
+    "A351623"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

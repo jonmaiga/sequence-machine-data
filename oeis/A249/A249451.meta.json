@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of lambda(1), a constant associated with the asymptotic upper tail of the distribution of the first hitting time T_{1,0} for an Ornstein-Uhlenbeck process across the level 1, starting at 0.",
+  "id": "A249451",
+  "mentions": [
+    "A249417",
+    "A249418",
+    "A249445",
+    "A249449"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

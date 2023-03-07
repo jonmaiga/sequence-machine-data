@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of DeVicci's tesseract constant.",
+  "id": "A243309",
+  "mentions": [
+    "A093577"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:11",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

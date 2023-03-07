@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-gonal inositol homologs with 2 kinds of achiral proligands.",
+  "id": "A283848",
+  "mentions": [
+    "A000011",
+    "A053656",
+    "A123045",
+    "A256216",
+    "A256217",
+    "A283846",
+    "A283847",
+    "A284711"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

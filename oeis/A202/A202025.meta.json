@@ -1,0 +1,17 @@
+{
+  "description": "Position of second appearance of set of first n terms in the sequence of odd primes modulo 4.",
+  "id": "A202025",
+  "mentions": [
+    "A039702"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

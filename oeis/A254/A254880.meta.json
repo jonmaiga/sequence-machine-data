@@ -1,0 +1,22 @@
+{
+  "description": "Let 's' denote the sum of the abundant numbers in the aliquot parts of x. Sequence lists numbers x such that sigma(s)-s is equal to x.",
+  "id": "A254880",
+  "mentions": [
+    "A001065",
+    "A005101",
+    "A254878",
+    "A254879",
+    "A294889"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

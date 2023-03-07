@@ -1,0 +1,20 @@
+{
+  "description": "As a binary numeral, the bit 2^(m-1) of a(n) is 1 iff m is a proper divisor of n.",
+  "id": "A247146",
+  "mentions": [
+    "A034729",
+    "A077049",
+    "A178472"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:16:47",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

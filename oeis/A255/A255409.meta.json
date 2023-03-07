@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the least k for which A255326(k) = n; positions of records in A255326.",
+  "id": "A255409",
+  "mentions": [
+    "A255326"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

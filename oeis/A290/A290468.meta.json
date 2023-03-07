@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that x = Sum_{i=1..k} (x mod d_(x-i)) for some k, where d_(x-i) is the aliquot parts of (x-i).",
+  "id": "A290468",
+  "mentions": [
+    "A286873",
+    "A290469"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

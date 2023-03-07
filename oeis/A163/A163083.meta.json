@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form k$ + 1 which are the greater of twin primes. Here '$' denotes the swinging factorial function (A056040).",
+  "id": "A163083",
+  "mentions": [
+    "A006512",
+    "A056040",
+    "A163075"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number k such that k, k+1, and k+2 are all divisible by an n-th power.",
+  "id": "A174113",
+  "mentions": [
+    "A045330",
+    "A051903",
+    "A059737",
+    "A063528",
+    "A068140",
+    "A068780",
+    "A068781",
+    "A068782",
+    "A068783",
+    "A068784"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

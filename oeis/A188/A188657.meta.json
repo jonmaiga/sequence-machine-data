@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3+sqrt(73))/8.",
+  "id": "A188657",
+  "mentions": [
+    "A188640",
+    "A188656"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:03",
+    "offset": 1,
+    "size": 111,
+    "source": "joeis"
+  }
+}

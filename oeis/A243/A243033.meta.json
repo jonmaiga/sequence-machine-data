@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of length n+3 0..k arrays with no four elements in a row with pattern abba (possibly a=b) and new values 0..k introduced in 0..k order",
+  "id": "A243033",
+  "mentions": [
+    "A000930"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

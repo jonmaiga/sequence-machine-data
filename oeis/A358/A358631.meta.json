@@ -1,0 +1,31 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k > 0, read by rows of extended (due to binary expansion of n) Stirling numbers of the first kind.",
+  "id": "A358631",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A035327",
+    "A052852",
+    "A053645",
+    "A054429",
+    "A059893",
+    "A063250",
+    "A132393",
+    "A290255",
+    "A347205",
+    "A358612"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of final Tic-Tac-Toe positions on a (2*n) X 3 board that resulted in a tie.",
+  "id": "A339633",
+  "mentions": [
+    "A339631",
+    "A339634"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

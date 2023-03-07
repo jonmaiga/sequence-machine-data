@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes appearing along the border of an n X n square array whose elements are the numbers from 1..n^2, listed in increasing order by rows.",
+  "id": "A344316",
+  "mentions": [
+    "A000720",
+    "A038107",
+    "A221490",
+    "A344349"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

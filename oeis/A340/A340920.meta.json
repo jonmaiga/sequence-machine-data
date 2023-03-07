@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of distinct resistances that can be produced from a planar circuit with exactly n unit resistors.",
+  "id": "A340920",
+  "mentions": [
+    "A002840",
+    "A048211",
+    "A113881",
+    "A174283",
+    "A180414",
+    "A219158",
+    "A337516",
+    "A337517",
+    "A338511",
+    "A338601",
+    "A338602",
+    "A340921"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The 2-adic valuation of A318466(n), where A318466(n) = 2*n OR sigma(n).",
+  "id": "A324904",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003986",
+    "A007814",
+    "A318466",
+    "A324884",
+    "A324902",
+    "A324903",
+    "A324906"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Values of m (mod 25) such that V(m) >= 2, where V(m) indicates the constant convergence speed of the tetration base m.",
+  "id": "A321130",
+  "mentions": [
+    "A067251",
+    "A317824",
+    "A317903",
+    "A317905",
+    "A321131"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

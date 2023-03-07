@@ -1,0 +1,31 @@
+{
+  "description": "Consider the base-4 Kaprekar map n->K(n) defined in A165012. Sequence gives numbers belonging to cycles of length greater than 1",
+  "id": "A165019",
+  "mentions": [
+    "A099010",
+    "A165000",
+    "A165012",
+    "A165016",
+    "A165017",
+    "A165020",
+    "A165021",
+    "A165023",
+    "A165030",
+    "A165039",
+    "A165058",
+    "A165078",
+    "A165097",
+    "A165117"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

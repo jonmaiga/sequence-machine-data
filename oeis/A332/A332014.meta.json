@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct hexagonal numbers.",
+  "id": "A332014",
+  "mentions": [
+    "A000384",
+    "A278949",
+    "A279279",
+    "A322798",
+    "A331843",
+    "A331844",
+    "A332007",
+    "A332015",
+    "A332016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of j in the range 1 <= j <= n such that j / rad(j) = n / rad(n).",
+  "id": "A357241",
+  "mentions": [
+    "A001694",
+    "A003557",
+    "A008479"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if there is no prime p such that p^p divides n, but for the arithmetic derivative of n such a prime exists; a(1) = 0 by convention.",
+  "id": "A360111",
+  "mentions": [
+    "A003415",
+    "A256750",
+    "A327934",
+    "A341996",
+    "A353479",
+    "A359550",
+    "A360109"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

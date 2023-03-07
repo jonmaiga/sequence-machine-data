@@ -1,0 +1,20 @@
+{
+  "description": "10's complement of nonnegative numbers.",
+  "id": "A178914",
+  "mentions": [
+    "A089186"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

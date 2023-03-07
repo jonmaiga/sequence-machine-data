@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of divisors of n that are less than or equal to k for 1 <= k <= n.",
+  "id": "A243987",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A027750",
+    "A051731",
+    "A081307",
+    "A138553",
+    "A340260",
+    "A340261"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

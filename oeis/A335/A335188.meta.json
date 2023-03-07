@@ -1,0 +1,19 @@
+{
+  "description": "Total surface area of all rectangular prisms with dimensions p X q X q, where p and q are prime, n = p+q and p",
+  "id": "A335188",
+  "mentions": [
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

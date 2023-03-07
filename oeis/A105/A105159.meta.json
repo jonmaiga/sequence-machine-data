@@ -1,0 +1,20 @@
+{
+  "description": "Consider trajectory of n under repeated application of map k --> A105108(k); a(n) = length of cycle.",
+  "id": "A105159",
+  "mentions": [
+    "A102370",
+    "A105108",
+    "A105154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

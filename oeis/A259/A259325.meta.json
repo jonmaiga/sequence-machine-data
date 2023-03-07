@@ -1,0 +1,23 @@
+{
+  "description": "Infinite square array T(n,k) read by antidiagonals, defined by T(n,k) = T(n,k-1)+T(n-k,k), T(0,k)=1 (n >= 0, k >= 1).",
+  "id": "A259325",
+  "mentions": [
+    "A000601",
+    "A002623",
+    "A002624",
+    "A002625",
+    "A002626"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

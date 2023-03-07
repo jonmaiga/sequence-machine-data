@@ -1,0 +1,20 @@
+{
+  "description": "Forced end points ( -Infinity ->-1) integration of A137286: Triangle of coefficients of Integrated recursive orthogonal Hermite polynomials given in Hochstadt's book : P(x, n) = x*P(x, n - 1) - n*P(x, n - 2).",
+  "id": "A136239",
+  "mentions": [
+    "A137286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

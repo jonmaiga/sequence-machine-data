@@ -1,0 +1,24 @@
+{
+  "description": "Zeroless pandigital (9-digit) numbers where the first three digits minus the middle three digits equals the last three digits.",
+  "id": "A286846",
+  "mentions": [
+    "A050289",
+    "A286845",
+    "A289544",
+    "A289552",
+    "A290725"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

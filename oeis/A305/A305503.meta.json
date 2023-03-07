@@ -1,0 +1,23 @@
+{
+  "description": "Largest cardinality of subsets A of {0,1,...,n-1} with |A + A| > |A - A|.",
+  "id": "A305503",
+  "mentions": [
+    "A118544",
+    "A222807",
+    "A222808",
+    "A291514"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent ways to cut an n X n square into squares with integer sides, such that the dissection has two reflective symmetries in axes parallel to the sides, and no other reflective symmetries.",
+  "id": "A240121",
+  "mentions": [
+    "A045846",
+    "A224239",
+    "A226979",
+    "A240120",
+    "A240122"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

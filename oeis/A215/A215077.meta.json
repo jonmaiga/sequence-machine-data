@@ -1,0 +1,24 @@
+{
+  "description": "Binomial convolution of sum of consecutive powers.",
+  "id": "A215077",
+  "mentions": [
+    "A202357",
+    "A215078",
+    "A215079",
+    "A215080",
+    "A215083",
+    "A215084"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal total dominating sets in the 2 X n king graph.",
+  "id": "A332392",
+  "mentions": [
+    "A332390"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

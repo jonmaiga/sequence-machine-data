@@ -1,0 +1,27 @@
+{
+  "description": "The (m^n)-th prime, written as square array T(n,m) read by falling antidiagonals.",
+  "id": "A347000",
+  "mentions": [
+    "A000040",
+    "A003320",
+    "A011757",
+    "A033844",
+    "A038833",
+    "A051129",
+    "A055875",
+    "A062448",
+    "A109791",
+    "A119772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

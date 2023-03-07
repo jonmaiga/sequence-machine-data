@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that the coefficient of x^n in the expansion of Product_{k>=1} (1-x^k)^2 is zero.",
+  "id": "A213250",
+  "mentions": [
+    "A000594",
+    "A002107",
+    "A014132",
+    "A020757",
+    "A090864",
+    "A093519",
+    "A302056",
+    "A302057",
+    "A322043"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

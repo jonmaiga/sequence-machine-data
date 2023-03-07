@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers n such that Lambda_n = A002336(n) is divisible by n.",
+  "id": "A211202",
+  "mentions": [
+    "A002336",
+    "A076046",
+    "A215797",
+    "A216162",
+    "A222785",
+    "A222786"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

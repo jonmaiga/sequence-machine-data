@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of first derivatives of Catalan numbers (as continuous functions of n).",
+  "id": "A260631",
+  "mentions": [
+    "A000108",
+    "A260630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

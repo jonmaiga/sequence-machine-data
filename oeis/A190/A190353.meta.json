@@ -1,0 +1,20 @@
+{
+  "description": "Goldbach conjecture: number of decompositions of n into an unordered sum of two odd primes (if n even) or three odd primes (if n odd).",
+  "id": "A190353",
+  "mentions": [
+    "A002375",
+    "A007963",
+    "A083338"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

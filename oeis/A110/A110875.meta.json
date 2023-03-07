@@ -1,0 +1,20 @@
+{
+  "description": "Minimum positive integer such that length of the gap described at A109322 is exactly n (in contrast to A109322 where the gap length is >= n).",
+  "id": "A110875",
+  "mentions": [
+    "A109322",
+    "A109323",
+    "A109324",
+    "A231965"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

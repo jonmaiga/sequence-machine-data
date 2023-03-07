@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime dissections of an n X n square into integer-sided squares up to symmetry.",
+  "id": "A221844",
+  "mentions": [
+    "A221843",
+    "A221845"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

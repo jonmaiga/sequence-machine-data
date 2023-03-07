@@ -1,0 +1,18 @@
+{
+  "description": "Practical numbers that are squarefree.",
+  "id": "A265501",
+  "mentions": [
+    "A005117",
+    "A005153"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of coresilience C(n) = (n - phi(n))/(n-1).",
+  "id": "A160598",
+  "mentions": [
+    "A160595",
+    "A160596",
+    "A160597",
+    "A160599"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

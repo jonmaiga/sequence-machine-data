@@ -1,0 +1,17 @@
+{
+  "description": "Erroneous version of A000079.",
+  "id": "A221180",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

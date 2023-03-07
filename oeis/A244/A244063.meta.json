@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors (with multiplicity) of the number of distinct prime factors of n; i.e., Omega(omega(n)).",
+  "id": "A244063",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A143731"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

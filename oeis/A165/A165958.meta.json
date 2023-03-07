@@ -1,0 +1,22 @@
+{
+  "description": "The digits on a number pad from lower right to upper left.",
+  "id": "A165958",
+  "mentions": [
+    "A113655",
+    "A114514"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

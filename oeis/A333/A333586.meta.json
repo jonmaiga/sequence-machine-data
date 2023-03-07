@@ -1,0 +1,27 @@
+{
+  "description": "Skewes numbers for prime n-tuples p1, p2, ..., pn, with p2 - p1 = 2.",
+  "id": "A333586",
+  "mentions": [
+    "A005597",
+    "A065418",
+    "A065419",
+    "A210439",
+    "A269843",
+    "A269846",
+    "A271742",
+    "A332493",
+    "A333587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

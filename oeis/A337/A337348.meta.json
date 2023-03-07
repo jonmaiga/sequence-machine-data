@@ -1,0 +1,20 @@
+{
+  "description": "Numbers formed as the product of two numbers without consecutive equal binary digits and sharing no common bits between them.",
+  "id": "A337348",
+  "mentions": [
+    "A000975"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:49:44",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

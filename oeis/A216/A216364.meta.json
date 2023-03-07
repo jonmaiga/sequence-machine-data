@@ -1,0 +1,21 @@
+{
+  "description": "Fermat pseudoprimes to base 2 divisible by 15.",
+  "id": "A216364",
+  "mentions": [
+    "A001567",
+    "A008597",
+    "A215672",
+    "A215944",
+    "A216023"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

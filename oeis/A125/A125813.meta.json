@@ -1,0 +1,23 @@
+{
+  "description": "q-Bell numbers for q=3; eigensequence of A022167, which is the triangle of Gaussian binomial coefficients [n,k] for q=3.",
+  "id": "A125813",
+  "mentions": [
+    "A022167",
+    "A125810",
+    "A125811",
+    "A125812",
+    "A125814",
+    "A125815"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

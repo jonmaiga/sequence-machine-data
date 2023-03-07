@@ -1,0 +1,19 @@
+{
+  "description": "Similar to A057835 except using K * X / log(X), K=1.022.",
+  "id": "A128910",
+  "mentions": [
+    "A006880",
+    "A057835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

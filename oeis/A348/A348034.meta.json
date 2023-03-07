@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that have at least one unitary divisor d such that sigma(d)*d is equal to k.",
+  "id": "A348034",
+  "mentions": [
+    "A000396",
+    "A327165",
+    "A348033",
+    "A348035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

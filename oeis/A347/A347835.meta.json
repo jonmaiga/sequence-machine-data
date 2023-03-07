@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the a(a(n))-th digit of S is the n-th digit of Pi.",
+  "id": "A347835",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

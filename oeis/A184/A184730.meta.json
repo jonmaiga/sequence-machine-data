@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A184731(n)*x^n/n ) where A184731(n) = Sum_{k=0..n} C(n,k)^(k+1).",
+  "id": "A184730",
+  "mentions": [
+    "A181070",
+    "A184731",
+    "A228899"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

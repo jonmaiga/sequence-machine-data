@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k > 1 such that prime(n)*k^prime(n)+1 is prime.",
+  "id": "A245598",
+  "mentions": [
+    "A245597"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

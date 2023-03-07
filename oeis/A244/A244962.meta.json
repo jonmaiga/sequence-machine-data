@@ -1,0 +1,21 @@
+{
+  "description": "Generalized pentagonal numbers that are also partition numbers.",
+  "id": "A244962",
+  "mentions": [
+    "A000041",
+    "A001318",
+    "A175003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

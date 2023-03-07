@@ -1,0 +1,35 @@
+{
+  "description": "Number of compositions of n whose standard factorization into Lyndon words has distinct strict compositions as factors.",
+  "id": "A299024",
+  "mentions": [
+    "A001045",
+    "A032020",
+    "A032153",
+    "A034691",
+    "A049311",
+    "A050342",
+    "A059966",
+    "A089259",
+    "A098407",
+    "A116540",
+    "A185700",
+    "A270995",
+    "A283877",
+    "A292432",
+    "A296373",
+    "A299023",
+    "A299026",
+    "A299027"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

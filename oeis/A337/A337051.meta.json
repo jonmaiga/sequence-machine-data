@@ -1,0 +1,23 @@
+{
+  "description": "Least positive number that has exactly n different representations as the product of a number and of its decimal digits.",
+  "id": "A337051",
+  "mentions": [
+    "A098736",
+    "A336826",
+    "A336876",
+    "A336944",
+    "A337054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

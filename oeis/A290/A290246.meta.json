@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers that are common indices to both prime Lucas and prime Wagstaff numbers.",
+  "id": "A290246",
+  "mentions": [
+    "A000978",
+    "A001606",
+    "A080327"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

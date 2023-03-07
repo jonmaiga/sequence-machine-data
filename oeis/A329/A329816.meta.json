@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = [(x*y)^k] (-1 + (1 + x + 1/x)*(1 + y + 1/y))^n for -n <= k <= n.",
+  "id": "A329816",
+  "mentions": [
+    "A094061",
+    "A260492",
+    "A288470",
+    "A329819",
+    "A329820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that both n+(n-1)^2 and n+(n+1)^2 are primes.",
+  "id": "A108809",
+  "mentions": [
+    "A027861",
+    "A055494",
+    "A094210"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows in which row n lists the compositions (ordered partitions) of n in lexicographic order.",
+  "id": "A228369",
+  "mentions": [
+    "A001511",
+    "A001787",
+    "A001792",
+    "A008687",
+    "A026791",
+    "A066099",
+    "A101211",
+    "A124734",
+    "A228351",
+    "A228525",
+    "A281013"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

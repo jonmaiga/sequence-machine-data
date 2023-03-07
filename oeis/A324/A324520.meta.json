@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions of n > 0 where the minimum part equals the number of parts minus the number of distinct parts.",
+  "id": "A324520",
+  "mentions": [
+    "A003114",
+    "A006141",
+    "A039900",
+    "A046660",
+    "A047993",
+    "A064174",
+    "A090858",
+    "A133121",
+    "A324516",
+    "A324518",
+    "A324519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

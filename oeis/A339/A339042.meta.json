@@ -1,0 +1,26 @@
+{
+  "description": "Number of unlabeled connected loopless multigraphs with n edges rooted at two noninterchangeable vertices.",
+  "id": "A339042",
+  "mentions": [
+    "A050535",
+    "A076864",
+    "A339036",
+    "A339037",
+    "A339038",
+    "A339040",
+    "A339043",
+    "A339065"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

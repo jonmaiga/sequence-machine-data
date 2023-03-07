@@ -1,0 +1,20 @@
+{
+  "description": "Somos's sequence {b(3,n)} defined in comment in A078495: a(0)=a(1)=...=a(8)=1; for n>=9, a(n)=(a(n-1)*a(n-8)+a(n-4)*a(n-5))/a(n-9).",
+  "id": "A268199",
+  "mentions": [
+    "A006721",
+    "A078495",
+    "A271948"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

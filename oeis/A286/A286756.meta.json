@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n,k) for 0 <= k < 5n/2: T(n,k) = number of vertices of the cube-connected cycle graph of order n that are at a distance k from a designated vertex.",
+  "id": "A286756",
+  "mentions": [
+    "A036289",
+    "A192191"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

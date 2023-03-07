@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not representable as Fibonacci(i) + triangular(j), i,j>=0.",
+  "id": "A107258",
+  "mentions": [
+    "A107259"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

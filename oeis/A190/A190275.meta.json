@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes of the form p*(p^2 - p + 1).",
+  "id": "A190275",
+  "mentions": [
+    "A001358",
+    "A003415",
+    "A065508",
+    "A164643",
+    "A190272",
+    "A190273",
+    "A190274",
+    "A326690"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

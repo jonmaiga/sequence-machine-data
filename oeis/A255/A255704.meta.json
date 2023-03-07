@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of n-node rooted trees in which the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root equals k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A255704",
+  "mentions": [
+    "A000081",
+    "A002955",
+    "A063524",
+    "A255636",
+    "A255705",
+    "A318899",
+    "A318900",
+    "A318901",
+    "A318902",
+    "A318903",
+    "A318904",
+    "A318905",
+    "A318906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

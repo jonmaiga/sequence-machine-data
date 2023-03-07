@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 7*n+2 is not prime.",
+  "id": "A153351",
+  "mentions": [
+    "A105772"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

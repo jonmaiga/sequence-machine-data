@@ -1,0 +1,19 @@
+{
+  "description": "Number of different cubes of mappings of a finite set of n elements into itself.",
+  "id": "A163859",
+  "mentions": [
+    "A102687",
+    "A247026"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

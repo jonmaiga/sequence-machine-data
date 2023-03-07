@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = phi(n)/(Product_{primes p dividing n } gcd(p - 1, n - 1)).",
+  "id": "A247074",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002997",
+    "A003557",
+    "A063994",
+    "A064234",
+    "A182816",
+    "A191311",
+    "A209211"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

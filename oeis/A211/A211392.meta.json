@@ -1,0 +1,21 @@
+{
+  "description": "The number of divisors d of n! such that the symmetric group on n letters contains no elements of order d.",
+  "id": "A211392",
+  "mentions": [
+    "A000005",
+    "A009490",
+    "A027423",
+    "A211391"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

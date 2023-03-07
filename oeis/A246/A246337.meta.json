@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n which when expressed in base 16 are palindromes whose digit sum and digit product both divide n.",
+  "id": "A246337",
+  "mentions": [
+    "A117228",
+    "A246338"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

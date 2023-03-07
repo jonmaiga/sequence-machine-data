@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of rooted signed trees with n nodes and k positive edges (0 <= k < n).",
+  "id": "A304489",
+  "mentions": [
+    "A000081",
+    "A000151",
+    "A000243",
+    "A294783",
+    "A302939",
+    "A331114"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

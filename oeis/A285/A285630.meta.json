@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of r(q)^5 / r(q^5) in powers of q where r() is the Rogers-Ramanujan continued fraction.",
+  "id": "A285630",
+  "mentions": [
+    "A078905",
+    "A229793",
+    "A285349",
+    "A285585",
+    "A285587",
+    "A285628",
+    "A285629"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

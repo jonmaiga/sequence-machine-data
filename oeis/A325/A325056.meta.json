@@ -1,0 +1,23 @@
+{
+  "description": "Index of n-th low point in A076042.",
+  "id": "A325056",
+  "mentions": [
+    "A008348",
+    "A076042",
+    "A309226",
+    "A324782",
+    "A324783",
+    "A324791",
+    "A324792"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

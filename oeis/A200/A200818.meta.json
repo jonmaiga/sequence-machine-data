@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that (2^k - k)*2^k - 1 is prime.",
+  "id": "A200818",
+  "mentions": [
+    "A200816",
+    "A200817",
+    "A200819",
+    "A200821",
+    "A200822",
+    "A200823",
+    "A200832"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

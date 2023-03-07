@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into an even number of distinct primes.",
+  "id": "A184171",
+  "mentions": [
+    "A000586",
+    "A184172",
+    "A184198",
+    "A219180"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

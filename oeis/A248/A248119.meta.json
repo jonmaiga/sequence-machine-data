@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1,...,n} containing n and having at least one set partition into 10 blocks with equal element sum.",
+  "id": "A248119",
+  "mentions": [
+    "A248112"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 19,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

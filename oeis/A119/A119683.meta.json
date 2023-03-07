@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of steps that an n-state Turing machine can make which was started on an initially blank tape before halting on the blank tape again.",
+  "id": "A119683",
+  "mentions": [
+    "A028444",
+    "A060843"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

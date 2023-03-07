@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which the sum of the odd members and the sum of the even members in the Collatz (3x+1) trajectory are both semiprime.",
+  "id": "A277336",
+  "mentions": [
+    "A001358",
+    "A213909",
+    "A213916",
+    "A275866"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

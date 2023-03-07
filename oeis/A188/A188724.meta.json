@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of shape of a (Pi/2)-extension rectangle; shape = (1/4)*(Pi + sqrt(16 + Pi^2)).",
+  "id": "A188724",
+  "mentions": [
+    "A188640",
+    "A188722"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:45",
+    "offset": 1,
+    "size": 132,
+    "source": "joeis"
+  }
+}

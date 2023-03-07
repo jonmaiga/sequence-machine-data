@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest k such that the tribonacci word A080843 contains a block of length k*n that is an abelian k-th power.",
+  "id": "A345901",
+  "mentions": [
+    "A080843"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

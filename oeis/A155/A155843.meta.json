@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form q*p+2^p where p is prime, q=9.",
+  "id": "A155843",
+  "mentions": [
+    "A057664",
+    "A155841",
+    "A155842"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

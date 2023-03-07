@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of ((1 + 16*x)/(1 - 16*x))^(1/16).",
+  "id": "A304915",
+  "mentions": [
+    "A063886",
+    "A303537",
+    "A303538"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

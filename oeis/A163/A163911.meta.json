@@ -1,0 +1,26 @@
+{
+  "description": "Maximum cycle size in range [A000302(n-1)..A024036(n)] of permutation A163355/A163356.",
+  "id": "A163911",
+  "mentions": [
+    "A000302",
+    "A024036",
+    "A163355",
+    "A163356",
+    "A163890",
+    "A163891",
+    "A163896",
+    "A163904",
+    "A163910",
+    "A163912"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

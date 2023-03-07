@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X (4+1) 0..3 arrays with no 2 X 2 subblock having the sum of its diagonal elements less than the absolute difference of its antidiagonal elements.",
+  "id": "A251398",
+  "mentions": [
+    "A251402"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

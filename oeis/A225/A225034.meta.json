@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of binary words containing n 1's and at most n 0's that do not contain the substring 101.",
+  "id": "A225034",
+  "mentions": [
+    "A005251",
+    "A239101"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

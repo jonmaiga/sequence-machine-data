@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of some number of consecutive prime cubes.",
+  "id": "A352423",
+  "mentions": [
+    "A030078",
+    "A034707",
+    "A340771"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

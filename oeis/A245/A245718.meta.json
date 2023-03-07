@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of sum of fractions A182972(k) / A182973(k) such that A182972(k) + A182973(k) = n.",
+  "id": "A245718",
+  "mentions": [
+    "A182972",
+    "A182973",
+    "A245677",
+    "A245678"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The number of numbers j+k*r <= n, where r = golden ratio and j and k are nonnegative integers.",
+  "id": "A255977",
+  "mentions": [
+    "A019446",
+    "A022776",
+    "A022778",
+    "A022780"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of orbits of Sym(n)^2 under action of Iso_1(n).",
+  "id": "A241584",
+  "mentions": [
+    "A110143",
+    "A241585"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

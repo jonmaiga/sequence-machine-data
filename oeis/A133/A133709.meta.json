@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(m,l) = number of labeled covers of size l of a finite set of m unlabeled elements (m >= 1, 1 <= l <= 2^m - 1).",
+  "id": "A133709",
+  "mentions": [
+    "A055998",
+    "A133710",
+    "A133711",
+    "A133712"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:15:54",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

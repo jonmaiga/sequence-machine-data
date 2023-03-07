@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=0; for n>1, a(n) = k if n is a non-prime-power, A007916(k), say; or 0 if n is a prime power.",
+  "id": "A278029",
+  "mentions": [
+    "A007916",
+    "A052409",
+    "A089723",
+    "A277564",
+    "A278028"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

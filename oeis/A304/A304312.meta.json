@@ -1,0 +1,24 @@
+{
+  "description": "Logarithmic derivative of F(x) that satisfies: [x^n] exp( n^2 * x ) / F(x) = 0 for n>0.",
+  "id": "A304312",
+  "mentions": [
+    "A006691",
+    "A226775",
+    "A304313",
+    "A304314",
+    "A304315",
+    "A304321",
+    "A304322"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = F(F(F(n))) mod F(F(n)), where F = Fibonacci = A000045.",
+  "id": "A274996",
+  "mentions": [
+    "A000045",
+    "A007570",
+    "A058051",
+    "A263101",
+    "A263112",
+    "A338889"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

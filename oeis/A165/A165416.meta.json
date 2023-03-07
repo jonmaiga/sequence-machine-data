@@ -1,0 +1,24 @@
+{
+  "description": "Irregular array read by rows: The n-th row contains those distinct positive integers that each, when written in binary, occurs as a substring in binary n.",
+  "id": "A165416",
+  "mentions": [
+    "A030308",
+    "A119709",
+    "A122953",
+    "A165153",
+    "A225243"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

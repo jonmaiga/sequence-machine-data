@@ -1,0 +1,18 @@
+{
+  "description": "A078371(n-1) mod 9.",
+  "id": "A144481",
+  "mentions": [
+    "A078371"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of product_{k=1..n-1} (1 + 1/prime(k)).",
+  "id": "A236435",
+  "mentions": [
+    "A038110",
+    "A060753",
+    "A072044",
+    "A072045",
+    "A236436"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

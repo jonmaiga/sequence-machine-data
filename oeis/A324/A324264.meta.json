@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected graphs on n unlabeled nodes with diameter equal to radius.",
+  "id": "A324264",
+  "mentions": [
+    "A294525",
+    "A324244"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

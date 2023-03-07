@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of arranging 2*n tokens in a row, with 2 copies of each token from 1 through n, such that between every pair of tokens labeled i (i = 1..n-1) there is exactly one taken labeled i+1.",
+  "id": "A117513",
+  "mentions": [
+    "A002105",
+    "A110501",
+    "A117514",
+    "A117515",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

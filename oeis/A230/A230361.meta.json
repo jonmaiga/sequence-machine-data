@@ -1,0 +1,17 @@
+{
+  "description": "Integer areas of the tangential triangles corresponding to the integer-sided triangles with integer areas.",
+  "id": "A230361",
+  "mentions": [
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

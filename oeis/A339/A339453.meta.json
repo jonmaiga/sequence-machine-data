@@ -1,0 +1,25 @@
+{
+  "description": "Number of subsets of {1..n} whose harmonic mean is an integer.",
+  "id": "A339453",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A051293",
+    "A067540",
+    "A246655",
+    "A326027",
+    "A339454"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

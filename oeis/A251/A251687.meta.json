@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} [Sum_{k=0..2*n} T(n,k)^2 * x^k] / A(x)^n * x^n/n ), where T(n,k) is the coefficient of x^k in (1 + x + 2*x^2)^n.",
+  "id": "A251687",
+  "mentions": [
+    "A084600",
+    "A200537",
+    "A251688",
+    "A251689"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:13:00",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

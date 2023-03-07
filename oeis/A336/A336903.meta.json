@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the largest parts of all compositions of n into distinct parts.",
+  "id": "A336903",
+  "mentions": [
+    "A005895",
+    "A006128",
+    "A046746",
+    "A092265",
+    "A097939",
+    "A102712",
+    "A336902"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

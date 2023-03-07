@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sin(k) < 0 and cos(k) > 0.",
+  "id": "A332482",
+  "mentions": [
+    "A070751",
+    "A131503",
+    "A327423",
+    "A332480",
+    "A332481",
+    "A332483"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array A(n, k), n, k >= 0, read by antidiagonals; A(n, k) = Sum_{i, j >= 3} t_i * u_j * T(i+j) where Sum_{i >= 3} t_i * T(i) and Sum_{j >= 3} u_j * T(j) are the greedy tribonacci representations of n and k, respectively, and T = A000073.",
+  "id": "A356592",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A101330",
+    "A135090"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct values of (Sum_{i=1..r} x_i)!/(Product_{i=1..r} x_i!), where (x_1, ..., x_r) is an r-tuple of nonnegative integers with Sum_{i=1..r} i*x_i = n.",
+  "id": "A102463",
+  "mentions": [
+    "A102462",
+    "A102464",
+    "A102465"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

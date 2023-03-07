@@ -1,0 +1,20 @@
+{
+  "description": "Even and odd composite squarefree numbers, interlaced.",
+  "id": "A215739",
+  "mentions": [
+    "A024556",
+    "A039956",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

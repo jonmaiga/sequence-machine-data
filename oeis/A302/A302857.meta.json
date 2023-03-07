@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of ((1 + 2 * Sum_{k>=1} q^(k^2))^32 - 1) / 64.",
+  "id": "A302857",
+  "mentions": [
+    "A002654",
+    "A008457",
+    "A046897",
+    "A302855",
+    "A302856"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

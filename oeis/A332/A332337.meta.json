@@ -1,0 +1,36 @@
+{
+  "description": "Number of widely totally strongly normal compositions of n.",
+  "id": "A332337",
+  "mentions": [
+    "A025487",
+    "A100883",
+    "A107429",
+    "A181819",
+    "A317245",
+    "A317491",
+    "A329744",
+    "A332274",
+    "A332276",
+    "A332277",
+    "A332278",
+    "A332279",
+    "A332291",
+    "A332292",
+    "A332293",
+    "A332296",
+    "A332336",
+    "A332340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

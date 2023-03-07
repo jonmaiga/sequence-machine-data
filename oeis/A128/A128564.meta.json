@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals the number of permutations of {1..n+1} with [(nk+k)/2] inversions for n>=k>=0.",
+  "id": "A128564",
+  "mentions": [
+    "A008302",
+    "A098558",
+    "A128565",
+    "A128566"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

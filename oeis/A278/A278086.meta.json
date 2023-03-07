@@ -1,0 +1,22 @@
+{
+  "description": "1/12 of the number of integer quadruples with sum = 3*n and sum of squares = 7*n^2.",
+  "id": "A278086",
+  "mentions": [
+    "A046897",
+    "A278081",
+    "A278082",
+    "A278083",
+    "A278084",
+    "A278085"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

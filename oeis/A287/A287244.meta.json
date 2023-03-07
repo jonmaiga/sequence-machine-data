@@ -1,0 +1,19 @@
+{
+  "description": "Indices n for which concatenation of the numbers from n to n + 9 is prime.",
+  "id": "A287244",
+  "mentions": [
+    "A030458"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

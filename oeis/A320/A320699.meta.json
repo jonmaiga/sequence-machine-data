@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose product of prime indices is a nonprime prime power (A246547).",
+  "id": "A320699",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A001597",
+    "A003963",
+    "A056239",
+    "A064573",
+    "A112798",
+    "A246547",
+    "A246655",
+    "A279787",
+    "A320322",
+    "A320325",
+    "A320698",
+    "A320700"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

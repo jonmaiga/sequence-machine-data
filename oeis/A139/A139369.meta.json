@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals, n-th sum of 2 distinct powers of k.",
+  "id": "A139369",
+  "mentions": [
+    "A002378",
+    "A002522",
+    "A018900",
+    "A038444",
+    "A038464",
+    "A038470",
+    "A038474",
+    "A038478",
+    "A038481",
+    "A038484",
+    "A038487",
+    "A038490",
+    "A038492"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

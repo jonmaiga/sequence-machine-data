@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with distinct prime factors 2, 3, and 5.",
+  "id": "A143207",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A007947",
+    "A010869",
+    "A020639",
+    "A051037",
+    "A069819",
+    "A143201",
+    "A143204"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of (n-2*j) for j < n/2 coprime to n.",
+  "id": "A340714",
+  "mentions": [
+    "A023896",
+    "A028491",
+    "A066840"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

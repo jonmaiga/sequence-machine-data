@@ -1,0 +1,32 @@
+{
+  "description": "Primes in A103379 (= 11-delayed Fibonacci b(n) = b(n-11)+b(n-12) or = 1 for n",
+  "id": "A103389",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000931",
+    "A079398",
+    "A103372",
+    "A103373",
+    "A103374",
+    "A103375",
+    "A103376",
+    "A103377",
+    "A103378",
+    "A103379",
+    "A103381",
+    "A103399"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:27",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

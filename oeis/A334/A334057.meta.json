@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of configurations with exactly k polyomino matchings in a generalized game of memory played on the path of length 4n.",
+  "id": "A334057",
+  "mentions": [
+    "A025036",
+    "A079267",
+    "A325753",
+    "A334056",
+    "A334058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

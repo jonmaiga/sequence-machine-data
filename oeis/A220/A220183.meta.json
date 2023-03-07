@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k triple descents (n>=0,0<=k<=n-3). We say that i is a triple descent of a permutation p if p(i) > p(i+1) > p(i+2) > p(i+3).",
+  "id": "A220183",
+  "mentions": [
+    "A117158",
+    "A162975",
+    "A242783",
+    "A242784"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

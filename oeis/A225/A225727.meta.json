@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sum of first n primorials (A143293) is divisible by n.",
+  "id": "A225727",
+  "mentions": [
+    "A002110",
+    "A057245",
+    "A128981",
+    "A143293"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

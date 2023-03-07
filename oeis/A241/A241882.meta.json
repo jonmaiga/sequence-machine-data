@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with d digits that are divisible by 2^d and have at most 2 distinct digits: exactly one even digit and at most one odd digit.",
+  "id": "A241882",
+  "mentions": [
+    "A035014",
+    "A050622",
+    "A053312",
+    "A053318",
+    "A053332",
+    "A053338",
+    "A053376",
+    "A053380"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

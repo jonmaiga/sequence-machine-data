@@ -1,0 +1,27 @@
+{
+  "description": "Riordan array (1/(1-x-x^2)^2, x/(1-x-x^2)^2).",
+  "id": "A238241",
+  "mentions": [
+    "A000012",
+    "A001629",
+    "A001872",
+    "A001874",
+    "A005843",
+    "A014106",
+    "A037027",
+    "A097472",
+    "A152440"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:13",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

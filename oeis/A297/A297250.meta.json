@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose base-3 digits having equal up-variation and down-variation; see Comments.",
+  "id": "A297250",
+  "mentions": [
+    "A297249",
+    "A297251",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Marks on lexicographically second 11-mark optimal Golomb ruler.",
+  "id": "A106677",
+  "mentions": [
+    "A079430"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

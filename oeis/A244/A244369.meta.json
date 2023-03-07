@@ -1,0 +1,25 @@
+{
+  "description": "Palindromic right-angled primes.",
+  "id": "A244369",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A002385",
+    "A134811",
+    "A135602",
+    "A167842"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

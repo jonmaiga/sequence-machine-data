@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A345048(n) - A345049(n).",
+  "id": "A345050",
+  "mentions": [
+    "A345048",
+    "A345049",
+    "A345051"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

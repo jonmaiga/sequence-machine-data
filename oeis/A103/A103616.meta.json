@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the largest real root of the quintic equation x^5 + 2*x^4 - 2*x^3 - x^2 + 2*x -1 = 0.",
+  "id": "A103616",
+  "mentions": [
+    "A103546"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:35",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

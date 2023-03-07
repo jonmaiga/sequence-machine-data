@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number of repetitions such that the result of the repeated execution of the multiplication f <- f*n started at f=1 differs from the exact value n^a(n), when the multiplication is performed using 32-bit single precision floats according to the IEEE 754 standard.",
+  "id": "A336774",
+  "mentions": [
+    "A336775",
+    "A336778",
+    "A336779"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Indices of Fibonacci numbers with 10 prime factors when counted with multiplicity.",
+  "id": "A114819",
+  "mentions": [
+    "A303215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

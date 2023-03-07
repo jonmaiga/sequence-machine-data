@@ -1,0 +1,40 @@
+{
+  "description": "Flattened tetrangle of strict integer partitions, sorted first by sum, then by length, and finally reverse-lexicographically.",
+  "id": "A344092",
+  "mentions": [
+    "A026791",
+    "A026793",
+    "A036036",
+    "A036037",
+    "A036043",
+    "A080577",
+    "A103921",
+    "A112798",
+    "A118457",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A211992",
+    "A296150",
+    "A296774",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334435",
+    "A334438",
+    "A334439",
+    "A334441",
+    "A344090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Ludic recurrence: Iterates of f(n) = A003309(n+1) starting from n=1.",
+  "id": "A255420",
+  "mentions": [
+    "A000225",
+    "A003309",
+    "A007097",
+    "A237126",
+    "A255421"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

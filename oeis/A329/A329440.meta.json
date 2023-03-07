@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: n-th row gives positions of ones in A329126(n) in decreasing order.",
+  "id": "A329440",
+  "mentions": [
+    "A051903",
+    "A329126"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

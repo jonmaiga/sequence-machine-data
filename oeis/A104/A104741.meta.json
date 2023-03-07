@@ -1,0 +1,19 @@
+{
+  "description": "First terms in the rearrangements of integer numbers (see comments).",
+  "id": "A104741",
+  "mentions": [
+    "A104705",
+    "A104706",
+    "A104717"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

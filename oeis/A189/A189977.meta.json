@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that d(p+1) = 2*d(p-1), where d(k) counts the divisors of k.",
+  "id": "A189977",
+  "mentions": [
+    "A000005",
+    "A008328",
+    "A008329"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

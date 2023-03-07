@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with prime signature (2,1,1,1), i.e., factorization p*q*r*s^2 with distinct primes p, q, r, s.",
+  "id": "A189982",
+  "mentions": [
+    "A030514",
+    "A030629",
+    "A101296",
+    "A178739",
+    "A179696",
+    "A189975",
+    "A189990"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Final nonzero terms in rows of A139801.",
+  "id": "A139816",
+  "mentions": [
+    "A026004",
+    "A139801"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

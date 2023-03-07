@@ -1,0 +1,31 @@
+{
+  "description": "Number of distinct integers that can be obtained by iteratively adding any two or multiplying any two non-1 parts of an integer partition until only one part remains, starting with the integer partition with Heinz number n.",
+  "id": "A319907",
+  "mentions": [
+    "A000792",
+    "A001970",
+    "A005520",
+    "A048249",
+    "A066739",
+    "A070960",
+    "A201163",
+    "A275870",
+    "A318949",
+    "A319850",
+    "A319855",
+    "A319856",
+    "A319909",
+    "A319912",
+    "A319913"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

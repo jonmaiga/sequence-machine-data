@@ -1,0 +1,18 @@
+{
+  "description": "The hyper-Wiener index of the nanostar dendrimer NS_2[n], defined pictorially in the A. R. Ashrafi et al. reference.",
+  "id": "A224453",
+  "mentions": [
+    "A224452"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:17:04",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

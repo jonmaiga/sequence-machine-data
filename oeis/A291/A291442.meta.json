@@ -1,0 +1,24 @@
+{
+  "description": "Matula-Goebel numbers of leaf-balanced trees.",
+  "id": "A291442",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A061775",
+    "A109129",
+    "A214577",
+    "A280994",
+    "A291441",
+    "A291443"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

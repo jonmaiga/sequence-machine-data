@@ -1,0 +1,32 @@
+{
+  "description": "Binary encoding of balanced ordered rooted trees (counted by A007059).",
+  "id": "A358524",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A003238",
+    "A007059",
+    "A014486",
+    "A048816",
+    "A057122",
+    "A184155",
+    "A244925",
+    "A290689",
+    "A358377",
+    "A358379",
+    "A358453",
+    "A358459",
+    "A358523"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

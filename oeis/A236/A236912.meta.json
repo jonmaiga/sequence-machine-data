@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that no part is a sum of two other parts.",
+  "id": "A236912",
+  "mentions": [
+    "A000041",
+    "A237113"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

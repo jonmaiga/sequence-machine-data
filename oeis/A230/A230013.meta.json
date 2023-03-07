@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that phi(n) + sigma(n) = (3/2)*reversal(n).",
+  "id": "A230013",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A004086",
+    "A136543"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

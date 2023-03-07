@@ -1,0 +1,23 @@
+{
+  "description": "Order of the group of invertible 3 X 3 symmetric matrices over Z(n).",
+  "id": "A115226",
+  "mentions": [
+    "A000056",
+    "A064767",
+    "A115224",
+    "A115225"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

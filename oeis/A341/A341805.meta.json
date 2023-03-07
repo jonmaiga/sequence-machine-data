@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that (product of first k primes)-1 is divisible by the (k+1)-th prime.",
+  "id": "A341805",
+  "mentions": [
+    "A000720",
+    "A079276",
+    "A081618",
+    "A338543",
+    "A341804",
+    "A341812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

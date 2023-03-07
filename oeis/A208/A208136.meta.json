@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of A208135 with numbers that match duplicate factors deleted.",
+  "id": "A208136",
+  "mentions": [
+    "A206073",
+    "A206284",
+    "A208135"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

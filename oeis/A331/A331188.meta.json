@@ -1,0 +1,30 @@
+{
+  "description": "Primorial inflation of A052126(n), where A052126(n) = n/(largest prime dividing n).",
+  "id": "A331188",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A003557",
+    "A005361",
+    "A052126",
+    "A061395",
+    "A108951",
+    "A111701",
+    "A117366",
+    "A329348",
+    "A329382",
+    "A331292",
+    "A331293"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

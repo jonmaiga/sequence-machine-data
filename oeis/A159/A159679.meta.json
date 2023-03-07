@@ -1,0 +1,21 @@
+{
+  "description": "a(n) are solutions of the 2 equations: 7*a(n) +1 = c(n)^2 and 9*a(n) +1 = b(n)^2.",
+  "id": "A159679",
+  "mentions": [
+    "A077412",
+    "A157456",
+    "A159678"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

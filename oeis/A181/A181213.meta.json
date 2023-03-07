@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary matrices with no three 1's adjacent in a line diagonally or antidiagonally",
+  "id": "A181213",
+  "mentions": [
+    "A181217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

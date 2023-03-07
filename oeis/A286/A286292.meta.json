@@ -1,0 +1,21 @@
+{
+  "description": "The first differences of A286291 (one of the bisections of A064736) appears to consist of runs of 1 followed by singleton 2's; this sequence gives the lengths of these runs.",
+  "id": "A286292",
+  "mentions": [
+    "A064736",
+    "A286290",
+    "A286291",
+    "A286293"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

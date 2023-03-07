@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of constant c = Sum_{n>=0} C(3/2^n, n).",
+  "id": "A139825",
+  "mentions": [
+    "A139823",
+    "A139824"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

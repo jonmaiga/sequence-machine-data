@@ -1,0 +1,22 @@
+{
+  "description": "Column 1 of triangle A132870 (first 30 terms only).",
+  "id": "A132873",
+  "mentions": [
+    "A132870",
+    "A132871",
+    "A132872",
+    "A132874"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

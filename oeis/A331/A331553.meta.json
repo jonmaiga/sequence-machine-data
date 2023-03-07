@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n,k) = A115722(n,k)^2 - n.",
+  "id": "A331553",
+  "mentions": [
+    "A053186",
+    "A115722",
+    "A116365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

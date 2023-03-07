@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least semiprime > a(n-1) whose digits do not appear in a(n-1).",
+  "id": "A131220",
+  "mentions": [
+    "A001358",
+    "A030284"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of m X n binary matrices with all 1's connected and no zero rows or columns.",
+  "id": "A262307",
+  "mentions": [
+    "A001047",
+    "A002501",
+    "A002502",
+    "A005333",
+    "A048291",
+    "A123260",
+    "A183109",
+    "A226658",
+    "A227322",
+    "A286189",
+    "A287274",
+    "A287297"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

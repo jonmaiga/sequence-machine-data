@@ -1,0 +1,32 @@
+{
+  "description": "Number of ordered 6-tuples (a,b,c,d,e,f) with gcd(a,b,c,d,e,f)=1 (1<= {a,b,c,d,e,f} <= 10^n).",
+  "id": "A344038",
+  "mentions": [
+    "A013664",
+    "A018805",
+    "A071778",
+    "A082540",
+    "A082544",
+    "A342586",
+    "A342632",
+    "A342841",
+    "A342935",
+    "A343193",
+    "A343282",
+    "A343359",
+    "A343527",
+    "A343978"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

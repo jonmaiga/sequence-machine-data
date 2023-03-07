@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (Sum_{i>=0} x^(i^2)) * (Sum_{j>=0} x^(j^3)) / (1-x).",
+  "id": "A262872",
+  "mentions": [
+    "A003059",
+    "A262874"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

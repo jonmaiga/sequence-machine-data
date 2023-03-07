@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose arithmetic derivative is a multiple of 4, cf. A003415.",
+  "id": "A327864",
+  "mentions": [
+    "A003415",
+    "A008586",
+    "A235992",
+    "A327862",
+    "A327863",
+    "A327865",
+    "A353493",
+    "A353494",
+    "A359423",
+    "A360110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

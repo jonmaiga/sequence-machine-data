@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-node connected Stanley graphs.",
+  "id": "A323843",
+  "mentions": [
+    "A135922",
+    "A323841",
+    "A323842"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

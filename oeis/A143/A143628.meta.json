@@ -1,0 +1,27 @@
+{
+  "description": "Define E(n) = Sum_{k >= 0} (-1)^floor(k/3)*k^n/k! for n = 0,1,2,... . Then E(n) is an integral linear combination of E(0), E(1) and E(2). This sequence lists the coefficients of E(0).",
+  "id": "A143628",
+  "mentions": [
+    "A000587",
+    "A121867",
+    "A143629",
+    "A143630",
+    "A143631",
+    "A143815",
+    "A143816",
+    "A143817",
+    "A143818"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n - b(b(b(n))), where b(n) = A356988(n).",
+  "id": "A356994",
+  "mentions": [
+    "A000045",
+    "A356988",
+    "A356991",
+    "A356999"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

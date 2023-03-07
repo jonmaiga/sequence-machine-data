@@ -1,0 +1,19 @@
+{
+  "description": "Triangle (1 <= k <= n) read by rows: row n gives lexicographically earliest evenly spaced arrangement of weights 1...n around the circumference of a circular disk minimizing the resulting imbalance.",
+  "id": "A326921",
+  "mentions": [
+    "A118887",
+    "A118888"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

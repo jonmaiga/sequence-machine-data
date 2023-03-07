@@ -1,0 +1,26 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of factorizations of n into factors > 1 with sum k.",
+  "id": "A318950",
+  "mentions": [
+    "A001055",
+    "A002865",
+    "A069016",
+    "A096276",
+    "A301987",
+    "A319000",
+    "A319005",
+    "A319057",
+    "A319916"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

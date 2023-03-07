@@ -1,0 +1,24 @@
+{
+  "description": "The first n-fold intrinsically 6-palindromic number (represented in base ten).",
+  "id": "A171705",
+  "mentions": [
+    "A171701",
+    "A171702",
+    "A171703",
+    "A171704",
+    "A171706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

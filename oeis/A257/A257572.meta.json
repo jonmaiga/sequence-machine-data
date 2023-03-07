@@ -1,0 +1,20 @@
+{
+  "description": "Prime root of n-th term in A257278.",
+  "id": "A257572",
+  "mentions": [
+    "A020639",
+    "A025473",
+    "A257278",
+    "A257573"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

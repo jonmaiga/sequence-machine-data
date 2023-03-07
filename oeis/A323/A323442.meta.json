@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n binary strings that neither begin nor end with a square.",
+  "id": "A323442",
+  "mentions": [
+    "A323443"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

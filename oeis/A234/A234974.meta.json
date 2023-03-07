@@ -1,0 +1,19 @@
+{
+  "description": "Expected lengths of random walks along the edges of a Platonic solid (in the order cube, octahedron, dodecahedron, icosahedron) from one vertex to an opposing one.",
+  "id": "A234974",
+  "mentions": [
+    "A063723"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

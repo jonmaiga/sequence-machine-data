@@ -1,0 +1,18 @@
+{
+  "description": "Number of 6Xn 0..1 arrays with rows unimodal and columns nondecreasing",
+  "id": "A225013",
+  "mentions": [
+    "A225010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

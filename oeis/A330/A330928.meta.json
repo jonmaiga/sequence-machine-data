@@ -1,0 +1,25 @@
+{
+  "description": "Starts of runs of 5 consecutive Niven (or harshad) numbers (A005349).",
+  "id": "A330928",
+  "mentions": [
+    "A005349",
+    "A060159",
+    "A141769",
+    "A154701",
+    "A330927",
+    "A330929",
+    "A330930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

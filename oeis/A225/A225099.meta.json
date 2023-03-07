@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways n can be represented as a sum of two distinct nontrivial prime powers (numbers of the form p^k where p is a prime number and k >= 2).",
+  "id": "A225099",
+  "mentions": [
+    "A025475",
+    "A225100"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

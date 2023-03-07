@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of arctan( 1/(2*Pi) ): opposite angle for a right triangle of equal area to a circle.",
+  "id": "A233527",
+  "mentions": [
+    "A019669",
+    "A019692",
+    "A086201",
+    "A233528"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

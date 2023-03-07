@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 10^(k-1) == 1 (mod k).",
+  "id": "A104381",
+  "mentions": [
+    "A005939"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime p such that n*(p-1)-1 and n*(p+1)+1 are both prime, or 0 if no such p exists.",
+  "id": "A225302",
+  "mentions": [
+    "A225063"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

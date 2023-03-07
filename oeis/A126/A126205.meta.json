@@ -1,0 +1,24 @@
+{
+  "description": "Number of 3's in decimal expansion of 3^n, with n>=0.",
+  "id": "A126205",
+  "mentions": [
+    "A065710",
+    "A126206",
+    "A126207",
+    "A126208",
+    "A126209",
+    "A126210",
+    "A126211"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:17:59",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

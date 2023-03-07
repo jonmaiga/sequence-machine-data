@@ -1,0 +1,19 @@
+{
+  "description": "Primes for which there is no pair (k,q) with k a positive integer and q another prime, such that p=q*(2k+1)-2k.",
+  "id": "A348153",
+  "mentions": [
+    "A091180",
+    "A136020",
+    "A136061"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

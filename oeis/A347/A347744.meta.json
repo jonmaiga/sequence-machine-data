@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 2 prime parts (counting 1 as a prime).",
+  "id": "A347744",
+  "mentions": [
+    "A001031",
+    "A008578",
+    "A096139",
+    "A280917",
+    "A341982",
+    "A347739",
+    "A347745"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

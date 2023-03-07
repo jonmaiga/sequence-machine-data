@@ -1,0 +1,26 @@
+{
+  "description": "Number of gulls (or G-toothpicks) added at n-th stage in the first quadrant of the gullwing structure of A187212.",
+  "id": "A187214",
+  "mentions": [
+    "A000695",
+    "A099035",
+    "A151550",
+    "A151688",
+    "A187210",
+    "A187211",
+    "A187212",
+    "A187213",
+    "A187220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

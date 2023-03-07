@@ -1,0 +1,18 @@
+{
+  "description": "Sum of primes between n^2 and n^2+n, n^2+n and (n+1)^2. The only intervals for which n^2+n is prime are [1,2], [2,4] and the endpoint 2 is included in the sum. One might have written 0,3,5,7,..., etc.",
+  "id": "A161180",
+  "mentions": [
+    "A160907"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

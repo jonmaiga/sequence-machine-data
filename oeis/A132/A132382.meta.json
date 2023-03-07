@@ -1,0 +1,43 @@
+{
+  "description": "Lower triangular array T(n,k) generator for group of arrays related to A001147 and A102625.",
+  "id": "A132382",
+  "mentions": [
+    "A000165",
+    "A000166",
+    "A000255",
+    "A000354",
+    "A000522",
+    "A001147",
+    "A001339",
+    "A001761",
+    "A001813",
+    "A002061",
+    "A002866",
+    "A008290",
+    "A010844",
+    "A053871",
+    "A055137",
+    "A055142",
+    "A084262",
+    "A094587",
+    "A102625",
+    "A113278",
+    "A132013",
+    "A132014",
+    "A132159",
+    "A133314",
+    "A134082"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

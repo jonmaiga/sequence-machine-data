@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of numbers x(i=1..8) in 0..n with sum i*x(i)^4 equal to 8*n^4",
+  "id": "A184852",
+  "mentions": [
+    "A184848"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

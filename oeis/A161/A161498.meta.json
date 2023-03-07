@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of x*(1-x)*(1+x)/(1-13*x+36*x^2-13*x^3+x^4).",
+  "id": "A161498",
+  "mentions": [
+    "A001353",
+    "A001906",
+    "A004254",
+    "A006238",
+    "A100047",
+    "A139400",
+    "A187732"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

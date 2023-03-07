@@ -1,0 +1,17 @@
+{
+  "description": "Products of successive blocks of 2^n terms of A245180.",
+  "id": "A245190",
+  "mentions": [
+    "A245180"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

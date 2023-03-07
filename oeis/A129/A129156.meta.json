@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive Dyck factors in all skew Dyck paths of semilength n.",
+  "id": "A129156",
+  "mentions": [
+    "A128742",
+    "A129154",
+    "A129157",
+    "A129158"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

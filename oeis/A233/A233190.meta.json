@@ -1,0 +1,23 @@
+{
+  "description": "Indices of primes in the tribonacci-like sequence, A214899.",
+  "id": "A233190",
+  "mentions": [
+    "A001590",
+    "A100683",
+    "A214899",
+    "A230607",
+    "A231574",
+    "A231575",
+    "A232542"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

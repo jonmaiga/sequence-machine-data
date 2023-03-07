@@ -1,0 +1,20 @@
+{
+  "description": "Real part of Gaussian amicable numbers in order of increasing magnitude. See A102925 for the imaginary part.",
+  "id": "A102924",
+  "mentions": [
+    "A102506",
+    "A102531",
+    "A102925"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

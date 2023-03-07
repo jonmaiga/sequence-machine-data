@@ -1,0 +1,20 @@
+{
+  "description": "Positions of records in the continued fraction expansion of the prime constant.",
+  "id": "A103313",
+  "mentions": [
+    "A051006",
+    "A051007",
+    "A102878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

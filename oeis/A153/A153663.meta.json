@@ -1,0 +1,26 @@
+{
+  "description": "Minimal exponents m such that the fractional part of (3/2)^m reaches a maximum (when starting with m=1).",
+  "id": "A153663",
+  "mentions": [
+    "A002379",
+    "A153661",
+    "A153662",
+    "A153664",
+    "A153665",
+    "A153666",
+    "A153667",
+    "A153668"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

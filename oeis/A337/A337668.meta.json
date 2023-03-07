@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{n>=1} (1+1/Fibonacci(n)).",
+  "id": "A337668",
+  "mentions": [
+    "A000045",
+    "A094214",
+    "A337669"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

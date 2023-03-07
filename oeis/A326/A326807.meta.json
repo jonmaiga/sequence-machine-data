@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that s(m)/m > s(k)/k for all k < m, where s(m) = A168512(m) is the sum of divisors of m, weighted by divisor multiplicity.",
+  "id": "A326807",
+  "mentions": [
+    "A004394",
+    "A168512",
+    "A326677",
+    "A326712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

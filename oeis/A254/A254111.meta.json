@@ -1,0 +1,22 @@
+{
+  "description": "One-based column index of n in A254105: If A234017(n) = 0, then a(n) = 1, otherwise a(n) = 1 + a(A234017(n)).",
+  "id": "A254111",
+  "mentions": [
+    "A234017",
+    "A254105",
+    "A254107",
+    "A254110",
+    "A254112"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Denominators for generalized Bernoulli numbers B[5,j](n), for j=1..4, n >= 0.",
+  "id": "A288872",
+  "mentions": [
+    "A027642",
+    "A141459",
+    "A157866",
+    "A157871",
+    "A157883",
+    "A285068"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

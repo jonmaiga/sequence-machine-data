@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(m), where li(m) = n and li is the logarithmic integral. We consider only real and positive m.",
+  "id": "A356075",
+  "mentions": [
+    "A052435",
+    "A089963",
+    "A096353",
+    "A223853",
+    "A337734",
+    "A337735"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

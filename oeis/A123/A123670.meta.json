@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k of the polynomial n(n-x)(n-2x)(n-3x)...(n-(n-1)x) (n>=1, 0<=k<=n-1).",
+  "id": "A123670",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A008276",
+    "A048994"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

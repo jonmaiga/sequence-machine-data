@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies: A(x,q) = exp( Integral A(x,q)*A(q*x,q) dx ).",
+  "id": "A232433",
+  "mentions": [
+    "A001286",
+    "A075183",
+    "A126470",
+    "A232434"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

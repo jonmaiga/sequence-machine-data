@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row n lists the first n digits of the decimal expansion of e.",
+  "id": "A138115",
+  "mentions": [
+    "A001113",
+    "A011543",
+    "A138068",
+    "A138069"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

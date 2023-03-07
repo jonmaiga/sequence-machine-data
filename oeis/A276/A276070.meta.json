@@ -1,0 +1,18 @@
+{
+  "description": "Each digit of the absolute difference |a(n+1)-a(n)| is also a digit of a(n): lexicographic first such sequence with no repeated term.",
+  "id": "A276070",
+  "mentions": [
+    "A277858"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

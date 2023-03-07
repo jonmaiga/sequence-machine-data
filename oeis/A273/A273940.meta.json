@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form 5^n - n.",
+  "id": "A273940",
+  "mentions": [
+    "A058046",
+    "A081296",
+    "A224420",
+    "A224451",
+    "A224468",
+    "A224469",
+    "A273941"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

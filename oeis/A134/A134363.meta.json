@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows where n-th row (of A061395(n) terms, for n>=2) is such that n = Product_{j=1..A061395(n)} prime(j)^(Sum_{k=1..j} T(n,k)). Row 1 is {0}.",
+  "id": "A134363",
+  "mentions": [
+    "A061395",
+    "A067255",
+    "A134364"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

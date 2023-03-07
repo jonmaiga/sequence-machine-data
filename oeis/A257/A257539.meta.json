@@ -1,0 +1,18 @@
+{
+  "description": "The smallest of the Matula numbers of the rooted trees that are isomorphic as trees to the rooted tree with Matula number n.",
+  "id": "A257539",
+  "mentions": [
+    "A235121"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

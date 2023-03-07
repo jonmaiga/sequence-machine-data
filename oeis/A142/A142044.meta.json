@@ -1,0 +1,20 @@
+{
+  "description": "Primes congruent to 23 mod 32.",
+  "id": "A142044",
+  "mentions": [
+    "A000040",
+    "A142042"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:03",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

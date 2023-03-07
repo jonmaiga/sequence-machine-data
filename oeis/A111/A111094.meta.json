@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 18*k + 1 is prime.",
+  "id": "A111094",
+  "mentions": [
+    "A024906"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

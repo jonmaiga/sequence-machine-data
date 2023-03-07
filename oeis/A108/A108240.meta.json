@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (10^n)^2 + 5*(10^n) - 1 is prime.",
+  "id": "A108240",
+  "mentions": [
+    "A108195"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

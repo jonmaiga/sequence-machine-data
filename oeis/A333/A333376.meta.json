@@ -1,0 +1,24 @@
+{
+  "description": "Differences between two positive cubes in exactly 4 ways.",
+  "id": "A333376",
+  "mentions": [
+    "A014439",
+    "A014440",
+    "A014441",
+    "A034179",
+    "A098110",
+    "A181123",
+    "A265625",
+    "A333377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

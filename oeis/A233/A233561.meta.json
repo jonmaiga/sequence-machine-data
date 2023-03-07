@@ -1,0 +1,20 @@
+{
+  "description": "Products p*q of distinct primes such that (p*q - 1)/2 is prime.",
+  "id": "A233561",
+  "mentions": [
+    "A046388",
+    "A234093",
+    "A234095"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of achiral loops (necklaces or bracelets) of length n using exactly k different colors.",
+  "id": "A305540",
+  "mentions": [
+    "A008277",
+    "A019538",
+    "A027383",
+    "A056489",
+    "A056490",
+    "A056491",
+    "A056492",
+    "A057427",
+    "A087854",
+    "A172106",
+    "A273891"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

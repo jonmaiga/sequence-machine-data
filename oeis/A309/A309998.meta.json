@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x + 529)^2 = y^2.",
+  "id": "A309998",
+  "mentions": [
+    "A028871",
+    "A207059"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

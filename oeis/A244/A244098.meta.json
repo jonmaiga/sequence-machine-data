@@ -1,0 +1,19 @@
+{
+  "description": "Total number of divisors of all the ordered prime factorizations of an integer.",
+  "id": "A244098",
+  "mentions": [
+    "A000012",
+    "A008480"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:39",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

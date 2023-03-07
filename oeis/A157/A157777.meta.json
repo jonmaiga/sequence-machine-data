@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Euler(n, 13/32).",
+  "id": "A157777",
+  "mentions": [
+    "A009976"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:18:47",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

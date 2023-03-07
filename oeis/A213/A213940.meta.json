@@ -1,0 +1,30 @@
+{
+  "description": "Triangle with entry a(n,m) giving the number of bracelets of n beads (dihedral D_n symmetry) with n colors available for each bead, but only m distinct fixed colors, say c[1],...,c[m], are present, with m from {1,...,n} and n>=1.",
+  "id": "A213940",
+  "mentions": [
+    "A008284",
+    "A152176",
+    "A212359",
+    "A213934",
+    "A213939",
+    "A213941",
+    "A213942",
+    "A213943",
+    "A214307",
+    "A214309",
+    "A214311",
+    "A226874"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

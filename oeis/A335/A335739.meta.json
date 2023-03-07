@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the area of an equilateral triangle of side k falls in between twin primes.",
+  "id": "A335739",
+  "mentions": [
+    "A001359",
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

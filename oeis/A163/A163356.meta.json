@@ -1,0 +1,37 @@
+{
+  "description": "Inverse permutation to A163355, related to Hilbert's curve in N x N grid.",
+  "id": "A163356",
+  "mentions": [
+    "A000302",
+    "A000523",
+    "A000695",
+    "A024036",
+    "A057300",
+    "A059252",
+    "A059253",
+    "A059905",
+    "A059906",
+    "A147600",
+    "A163355",
+    "A163901",
+    "A163906",
+    "A163910",
+    "A163911",
+    "A163912",
+    "A163916",
+    "A302781",
+    "A302844",
+    "A302846"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k concatenated with k-1 and then divided by 2k-1 produces an integer after some divisions explained in the Example section.",
+  "id": "A316538",
+  "mentions": [
+    "A316534"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

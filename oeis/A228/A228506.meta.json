@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk binary arrays with top left value 1 and no two ones adjacent horizontally, vertically, diagonally or antidiagonally.",
+  "id": "A228506",
+  "mentions": [
+    "A000045",
+    "A001045"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

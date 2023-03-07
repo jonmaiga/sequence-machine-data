@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of 2n such that the largest multiplicity of parts equals n.",
+  "id": "A232665",
+  "mentions": [
+    "A232605",
+    "A238342",
+    "A242447",
+    "A332051"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

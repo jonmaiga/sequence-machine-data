@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T, read by rows, where column n of T = column 0 of T^(2^n) for n>0, such that column 0 (A129092) equals the row sums of the prior row, starting with T(0,0)=1.",
+  "id": "A129100",
+  "mentions": [
+    "A030067",
+    "A129092",
+    "A129101",
+    "A129102",
+    "A129103",
+    "A129104"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

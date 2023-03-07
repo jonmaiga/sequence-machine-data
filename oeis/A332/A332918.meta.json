@@ -1,0 +1,20 @@
+{
+  "description": "Average number of binary strings of length n with Levenshtein distance <= 3 from a uniform randomly sampled binary string of this length, rounded to nearest integer.",
+  "id": "A332918",
+  "mentions": [
+    "A332916",
+    "A332917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

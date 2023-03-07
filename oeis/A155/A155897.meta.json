@@ -1,0 +1,32 @@
+{
+  "description": "Square matrix T(m,n)=1 if (2m+1)^n-2 is prime, 0 otherwise; read by antidiagonals.",
+  "id": "A155897",
+  "mentions": [
+    "A000043",
+    "A014224",
+    "A084714",
+    "A090669",
+    "A094786",
+    "A109080",
+    "A128455",
+    "A128457",
+    "A128458",
+    "A128459",
+    "A128460",
+    "A128461",
+    "A128472",
+    "A155899"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

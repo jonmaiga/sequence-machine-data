@@ -1,0 +1,17 @@
+{
+  "description": "Positions in the Thue-Morse sequence A010060 where no square begins.",
+  "id": "A345868",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

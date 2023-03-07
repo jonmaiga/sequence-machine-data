@@ -1,0 +1,20 @@
+{
+  "description": "Largest number k > 0 such that n + k! is prime, or 0 if no such k exists.",
+  "id": "A241423",
+  "mentions": [
+    "A002981",
+    "A020639",
+    "A125162",
+    "A245714"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

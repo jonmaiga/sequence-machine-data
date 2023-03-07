@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 0..1 arrays with every element unequal to 0, 2, 3 or 5 king-move adjacent elements, with upper left element zero.",
+  "id": "A304007",
+  "mentions": [
+    "A304010"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

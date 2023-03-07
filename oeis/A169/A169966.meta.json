@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose decimal expansion contains only 0's and 3's.",
+  "id": "A169966",
+  "mentions": [
+    "A007088",
+    "A014263",
+    "A030308",
+    "A078242",
+    "A093138",
+    "A097256",
+    "A169964",
+    "A169965",
+    "A169967",
+    "A204093",
+    "A204094",
+    "A204095"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

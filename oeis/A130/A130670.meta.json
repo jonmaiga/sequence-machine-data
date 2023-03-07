@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that phi(x) = k has exactly n even solutions.",
+  "id": "A130670",
+  "mentions": [
+    "A007374",
+    "A130669"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

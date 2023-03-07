@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers n for which the square excess of the n-th prime is prime.",
+  "id": "A104491",
+  "mentions": [
+    "A000040",
+    "A053186",
+    "A102821"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

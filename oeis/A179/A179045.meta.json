@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k), 1<=k<=n, read by rows, related to A033485.",
+  "id": "A179045",
+  "mentions": [
+    "A033485",
+    "A062188",
+    "A102378"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

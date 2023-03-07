@@ -1,0 +1,20 @@
+{
+  "description": "Number of times record values occur in A132085.",
+  "id": "A132088",
+  "mentions": [
+    "A132042",
+    "A132085",
+    "A132086",
+    "A132087"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

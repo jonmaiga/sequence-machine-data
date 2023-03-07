@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi*cos(phi) - Pi/2, where phi is the constant defined by A191102.",
+  "id": "A192930",
+  "mentions": [
+    "A133731",
+    "A173201",
+    "A191102"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

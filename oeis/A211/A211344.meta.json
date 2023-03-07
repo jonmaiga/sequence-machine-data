@@ -1,0 +1,22 @@
+{
+  "description": "Atomic Boolean functions interpreted as binary numbers.",
+  "id": "A211344",
+  "mentions": [
+    "A000215",
+    "A001317",
+    "A051179",
+    "A089633"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of numbers x(i=1..n) in 0..n with sum i^2*x(i)^3 equal to n^5",
+  "id": "A184310",
+  "mentions": [
+    "A184318"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

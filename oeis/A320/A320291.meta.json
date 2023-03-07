@@ -1,0 +1,29 @@
+{
+  "description": "Number of singleton-free multiset partitions of integer partitions of n with no 1's.",
+  "id": "A320291",
+  "mentions": [
+    "A002865",
+    "A007716",
+    "A049311",
+    "A083751",
+    "A283877",
+    "A293606",
+    "A302545",
+    "A304966",
+    "A304967",
+    "A320294",
+    "A320295",
+    "A320296"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

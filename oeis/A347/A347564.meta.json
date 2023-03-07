@@ -1,0 +1,19 @@
+{
+  "description": "Record the number of distinct terms seen thus far, then the number of distinct terms seen only once, then twice, and so on until recording a zero; whereupon repeat the count.",
+  "id": "A347564",
+  "mentions": [
+    "A342585",
+    "A348016"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

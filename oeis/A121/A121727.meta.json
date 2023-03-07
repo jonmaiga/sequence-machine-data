@@ -1,0 +1,19 @@
+{
+  "description": "Hypotenuse of primitive Pythagorean triangles sorted on area (A024406), then on hypotenuse.",
+  "id": "A121727",
+  "mentions": [
+    "A024406",
+    "A121728",
+    "A121729"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

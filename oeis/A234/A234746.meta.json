@@ -1,0 +1,23 @@
+{
+  "description": "Self-inverse permutation of integers induced by the restriction of blue-code to reducible polynomials over GF(2): a(n) = A091246(A193231(A091242(n))).",
+  "id": "A234746",
+  "mentions": [
+    "A091242",
+    "A091246",
+    "A193231",
+    "A234745",
+    "A234749",
+    "A234751"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

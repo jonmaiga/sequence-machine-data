@@ -1,0 +1,18 @@
+{
+  "description": "L.g.f.: log(G(x)/x) where G(x) is the g.f. of A259270.",
+  "id": "A259272",
+  "mentions": [
+    "A259270",
+    "A259271"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

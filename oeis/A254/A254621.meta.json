@@ -1,0 +1,24 @@
+{
+  "description": "Zerofree numbers having product of digits less than or equal to sum of digits.",
+  "id": "A254621",
+  "mentions": [
+    "A002275",
+    "A052382",
+    "A062996",
+    "A062997",
+    "A062998",
+    "A062999",
+    "A254622"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

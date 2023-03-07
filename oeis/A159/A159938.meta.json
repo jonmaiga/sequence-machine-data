@@ -1,0 +1,24 @@
+{
+  "description": "The number of homogeneous trisubstituted linear alkanes.",
+  "id": "A159938",
+  "mentions": [
+    "A002522",
+    "A033816",
+    "A081489",
+    "A152947",
+    "A159940",
+    "A159941"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:39",
+    "offset": 2,
+    "size": 37,
+    "source": "joeis"
+  }
+}

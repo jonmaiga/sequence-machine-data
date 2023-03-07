@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least semiprime x such that x-2*n and x+2*n are prime.",
+  "id": "A358128",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

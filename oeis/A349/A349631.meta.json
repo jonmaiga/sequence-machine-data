@@ -1,0 +1,32 @@
+{
+  "description": "Dirichlet convolution of A003961 with A346479, which is Dirichlet inverse of A250469.",
+  "id": "A349631",
+  "mentions": [
+    "A003961",
+    "A003972",
+    "A020639",
+    "A078898",
+    "A083221",
+    "A246278",
+    "A249821",
+    "A249822",
+    "A250245",
+    "A250246",
+    "A250469",
+    "A346479",
+    "A347376",
+    "A349381",
+    "A349632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

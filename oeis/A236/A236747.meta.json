@@ -1,0 +1,22 @@
+{
+  "description": "Number of 0 <= k <= sqrt(n) such that n-k and n+k are both prime.",
+  "id": "A236747",
+  "mentions": [
+    "A000196",
+    "A010051",
+    "A061357",
+    "A171637",
+    "A236767"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

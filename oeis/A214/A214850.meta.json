@@ -1,0 +1,19 @@
+{
+  "description": "3x+1 groups: irregular triangle read by rows: row n gives all the numbers p <= A075684(n)+1 such that {T(2n+1,k) /pZ} is a multiplicative finite group, where T(2n+1,k) is the reduced trajectory of the Collatz problem whose elements are all odd.",
+  "id": "A214850",
+  "mentions": [
+    "A075680",
+    "A075684"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

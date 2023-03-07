@@ -1,0 +1,19 @@
+{
+  "description": "Series inversion of A007296.",
+  "id": "A187111",
+  "mentions": [
+    "A007296",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

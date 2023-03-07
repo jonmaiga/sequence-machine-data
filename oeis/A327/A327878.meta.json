@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of primitive (period n) periodic palindromes using exactly k different symbols, 1 <= k <= 1 + floor(n/2).",
+  "id": "A327878",
+  "mentions": [
+    "A056498",
+    "A056499",
+    "A056500",
+    "A056501",
+    "A056502",
+    "A284856",
+    "A305540",
+    "A327873",
+    "A327879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

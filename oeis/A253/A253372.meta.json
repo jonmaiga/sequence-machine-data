@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(5+1) 0..2 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw",
+  "id": "A253372",
+  "mentions": [
+    "A253375"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

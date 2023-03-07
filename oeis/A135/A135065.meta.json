@@ -1,0 +1,25 @@
+{
+  "description": "A127733 * A007318 as infinite lower triangular matrices.",
+  "id": "A135065",
+  "mentions": [
+    "A000290",
+    "A007318",
+    "A014477",
+    "A066524",
+    "A084938",
+    "A127733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:56:17",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

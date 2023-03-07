@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array, T(i,j)=number of knight's moves to points on vertical segments (n,0), (n,1),...,(n,n) on infinite chessboard.",
+  "id": "A183043",
+  "mentions": [
+    "A018837",
+    "A018839",
+    "A065775",
+    "A183044",
+    "A183045",
+    "A183046",
+    "A242511",
+    "A242512",
+    "A242513",
+    "A242514",
+    "A242591"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest primes of 5 X 5 magic squares formed from consecutive primes.",
+  "id": "A272386",
+  "mentions": [
+    "A073519",
+    "A173981",
+    "A176571",
+    "A256891",
+    "A260673",
+    "A272387"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

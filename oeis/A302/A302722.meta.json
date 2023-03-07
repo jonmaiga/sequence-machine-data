@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th prime number raised to the n-th nonprime number.",
+  "id": "A302722",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A086650",
+    "A086701"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

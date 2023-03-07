@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers with three distinct prime divisors.",
+  "id": "A137563",
+  "mentions": [
+    "A000045",
+    "A033992",
+    "A053409",
+    "A114841",
+    "A303218"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

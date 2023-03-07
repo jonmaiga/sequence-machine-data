@@ -1,0 +1,33 @@
+{
+  "description": "Number of strict integer partitions of n containing no part > 1 whose prime indices all belong to the partition.",
+  "id": "A324749",
+  "mentions": [
+    "A000720",
+    "A001462",
+    "A007097",
+    "A074971",
+    "A078374",
+    "A112798",
+    "A276625",
+    "A290822",
+    "A305713",
+    "A324694",
+    "A324738",
+    "A324744",
+    "A324750",
+    "A324754",
+    "A324755",
+    "A324759",
+    "A324760"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

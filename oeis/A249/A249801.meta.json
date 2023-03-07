@@ -1,0 +1,23 @@
+{
+  "description": "Take smallest prime q such that n(q+1)+1 is prime (A249800), that is, the smallest prime q so that n = (p-1)/(q+1) with p prime; sequence gives values of p; or -1 if A249800(n) = -1.",
+  "id": "A249801",
+  "mentions": [
+    "A060324",
+    "A062251",
+    "A064632",
+    "A249800",
+    "A249802",
+    "A249803"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Period-length of the ultimate periodic behavior of the orbit of a list [1,1,1,...,1] of n 1's under the mapping defined in the comments.",
+  "id": "A183110",
+  "mentions": [
+    "A037306",
+    "A092964",
+    "A178572",
+    "A178574",
+    "A201144"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

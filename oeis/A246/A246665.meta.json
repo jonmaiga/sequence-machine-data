@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the asymptotic probability of success in the full-information secretary problem with uniform distribution when the number of applicants is also uniformly distributed.",
+  "id": "A246665",
+  "mentions": [
+    "A068985",
+    "A242674",
+    "A246664",
+    "A325905"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

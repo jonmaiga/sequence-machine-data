@@ -1,0 +1,19 @@
+{
+  "description": "The number of ordered n-tuples consisting of n permutations (not necessarily distinct) such that the first element of each of them is the same.",
+  "id": "A342573",
+  "mentions": [
+    "A001013",
+    "A091868"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

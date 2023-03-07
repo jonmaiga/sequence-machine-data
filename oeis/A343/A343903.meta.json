@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum{i=1..A343901(n)} n (mod A343902(n, i)^2).",
+  "id": "A343903",
+  "mentions": [
+    "A000010",
+    "A343901",
+    "A343902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

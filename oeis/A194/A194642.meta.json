@@ -1,0 +1,21 @@
+{
+  "description": "Units' digits of the nonzero heptagonal numbers.",
+  "id": "A194642",
+  "mentions": [
+    "A000566",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:09:15",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

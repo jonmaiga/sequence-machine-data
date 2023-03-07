@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the total number of digits in the first 10^n primes.",
+  "id": "A119290",
+  "mentions": [
+    "A006880",
+    "A097952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

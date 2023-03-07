@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if n is divisible by the square of its smallest prime factor, 0 otherwise.",
+  "id": "A319710",
+  "mentions": [
+    "A008966",
+    "A010052",
+    "A020639",
+    "A067029",
+    "A126773",
+    "A268340",
+    "A283050",
+    "A283071",
+    "A319988"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p = 2x + 1 such that x^2 + x + 41 is prime.",
+  "id": "A215697",
+  "mentions": [
+    "A005846",
+    "A056561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of possible states when placing n tokens of 2 alternating types on 3 piles.",
+  "id": "A320731",
+  "mentions": [
+    "A320452"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

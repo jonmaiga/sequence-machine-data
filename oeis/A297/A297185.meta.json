@@ -1,0 +1,17 @@
+{
+  "description": "One-half of the number of closed binary words of length n that are not privileged.",
+  "id": "A297185",
+  "mentions": [
+    "A297184"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

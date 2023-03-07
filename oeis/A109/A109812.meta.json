@@ -1,0 +1,46 @@
+{
+  "description": "a(1)=1; thereafter a(n) = smallest positive integer not among the earlier terms of the sequence such that a(n) and a(n-1) have no common 1-bits in their binary representations.",
+  "id": "A109812",
+  "mentions": [
+    "A048833",
+    "A093714",
+    "A113232",
+    "A113233",
+    "A113234",
+    "A115510",
+    "A252867",
+    "A305369",
+    "A305370",
+    "A305372",
+    "A340016",
+    "A352203",
+    "A352204",
+    "A352205",
+    "A352206",
+    "A352336",
+    "A352359",
+    "A352569",
+    "A352570",
+    "A352575",
+    "A352781",
+    "A352794",
+    "A352917",
+    "A352923",
+    "A353714"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

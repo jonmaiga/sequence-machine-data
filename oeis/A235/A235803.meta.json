@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array read by upward antidiagonals: A(n,k) = 1 + sqrt(k)*((1+sqrt(k))^n - (1-sqrt(k))^n)/2, n,k >= 0.",
+  "id": "A235803",
+  "mentions": [
+    "A034867",
+    "A094373"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

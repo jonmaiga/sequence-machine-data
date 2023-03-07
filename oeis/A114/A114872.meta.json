@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers not representable as (p-1)p^k (where p is a prime and k>=0) in ascending order.",
+  "id": "A114872",
+  "mentions": [
+    "A114871"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

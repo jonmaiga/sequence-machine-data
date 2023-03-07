@@ -1,0 +1,20 @@
+{
+  "description": "Langton's ant on a three-dimensional grid: number of black cells on the grid after n moves of the ant.",
+  "id": "A325953",
+  "mentions": [
+    "A255938",
+    "A308563",
+    "A325954",
+    "A325955"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

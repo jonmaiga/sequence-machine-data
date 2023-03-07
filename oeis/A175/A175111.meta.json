@@ -1,0 +1,20 @@
+{
+  "description": "((2*n+1)^5+(-1)^n)/2.",
+  "id": "A175111",
+  "mentions": [
+    "A001753",
+    "A175112"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Given a circle of radius R into which small circles of radius R/2^n are packed in a \"hexagonal pattern\" (see Comments), a(n) is the number of points at which a small circle is tangent to the big circle.",
+  "id": "A239074",
+  "mentions": [
+    "A033716",
+    "A239073",
+    "A239206"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

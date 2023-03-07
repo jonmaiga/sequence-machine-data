@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(A003959(n), A129283(n)), where A003959 is multiplicative with a(p^e) = (p+1)^e and A129283(n) is sum of n and its arithmetic derivative.",
+  "id": "A348972",
+  "mentions": [
+    "A003415",
+    "A003959",
+    "A129283",
+    "A343226",
+    "A348970",
+    "A348973",
+    "A348974"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of 2n in which every part is",
+  "id": "A209816",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000569",
+    "A008284",
+    "A025065",
+    "A079122",
+    "A096373",
+    "A147878",
+    "A209815",
+    "A320911",
+    "A320921",
+    "A320924"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

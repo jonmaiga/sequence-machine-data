@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n with exactly two distinct multiplicities.",
+  "id": "A325243",
+  "mentions": [
+    "A008284",
+    "A062770",
+    "A071625",
+    "A098859",
+    "A116608",
+    "A244515",
+    "A323055",
+    "A325242",
+    "A325244",
+    "A325267"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

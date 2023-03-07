@@ -1,0 +1,25 @@
+{
+  "description": "Compound filter: a(n) = P(sigma(n), sigma(2n)), where P(n,k) is sequence A000027 used as a pairing function, and sigma is the sum of divisors (A000203).",
+  "id": "A286359",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A002131",
+    "A054785",
+    "A161942",
+    "A286357",
+    "A286360",
+    "A286460"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

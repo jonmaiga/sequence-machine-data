@@ -1,0 +1,20 @@
+{
+  "description": "Symmetric matrix by antidiagonals: C(max(i,j),min(i,j)), i>=1, j>=1.",
+  "id": "A205456",
+  "mentions": [
+    "A059674",
+    "A205457",
+    "A205548"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:11",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

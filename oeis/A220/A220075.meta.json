@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums in rows of A220073, triangle read by rows.",
+  "id": "A220075",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A002061",
+    "A019298",
+    "A220053",
+    "A220073"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

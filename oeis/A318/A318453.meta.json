@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A001227, number of odd divisors of n.",
+  "id": "A318453",
+  "mentions": [
+    "A001227",
+    "A317937",
+    "A318313",
+    "A318454"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

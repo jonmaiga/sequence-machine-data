@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose waterfall sequence ends in 0,0,0,....",
+  "id": "A210652",
+  "mentions": [
+    "A210614",
+    "A210653"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

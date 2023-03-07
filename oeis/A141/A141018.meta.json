@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest number in the n-th row of triangle A140997.",
+  "id": "A141018",
+  "mentions": [
+    "A007318",
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A140998",
+    "A141020",
+    "A141021"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

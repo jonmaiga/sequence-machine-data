@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows related to A001700.",
+  "id": "A205945",
+  "mentions": [
+    "A001700",
+    "A191314",
+    "A205573"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Variation on the Inventory Sequence A342585: the same rules as A342585 are used except that the terms count the occurrences of the iterating number, treated as a string, in the string concatenation of all previous terms. See the Comments.",
+  "id": "A348288",
+  "mentions": [
+    "A032531",
+    "A181391",
+    "A342585",
+    "A345730",
+    "A347738"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

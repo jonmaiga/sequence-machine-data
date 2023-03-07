@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2^n is not the sum of 5 positive cubes.",
+  "id": "A274337",
+  "mentions": [
+    "A000079",
+    "A003328"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

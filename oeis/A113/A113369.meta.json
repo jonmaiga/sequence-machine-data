@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, given by the product Q^2*P^-1, where the triangular matrices involved are P = A113340 and Q = A113350.",
+  "id": "A113369",
+  "mentions": [
+    "A113340",
+    "A113350",
+    "A113368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

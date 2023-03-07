@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n^3 into squares.",
+  "id": "A218494",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A001156",
+    "A218495"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

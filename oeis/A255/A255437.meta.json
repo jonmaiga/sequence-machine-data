@@ -1,0 +1,28 @@
+{
+  "description": "In positive integers: replace k^2 with the first k odd numbers.",
+  "id": "A255437",
+  "mentions": [
+    "A000027",
+    "A000037",
+    "A000290",
+    "A005448",
+    "A016742",
+    "A068722",
+    "A158405",
+    "A164514",
+    "A255507",
+    "A255508",
+    "A255527",
+    "A256188"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

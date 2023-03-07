@@ -1,0 +1,30 @@
+{
+  "description": "Square array read by descending antidiagonals. T(n,k) is the number of ways to separate the columns of an ordered pair of n-permutations (that have been written as a 2 X n array, one atop the other) into k cells so that no cell has a column rise. For n >= 0, k >= 0.",
+  "id": "A340986",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000275",
+    "A001477",
+    "A014105",
+    "A192721",
+    "A212855",
+    "A334394",
+    "A336271",
+    "A336638",
+    "A336639",
+    "A336665"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

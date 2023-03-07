@@ -1,0 +1,27 @@
+{
+  "description": "Composite numbers n such that every divisor greater than one of n contains the digit 0.",
+  "id": "A243819",
+  "mentions": [
+    "A062649",
+    "A062664",
+    "A062668",
+    "A062670",
+    "A062672",
+    "A062674",
+    "A062676",
+    "A062678",
+    "A062680"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

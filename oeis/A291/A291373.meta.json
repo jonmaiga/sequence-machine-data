@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number k such that A001065(k) = A002110(n), or 0 if no such k exists.",
+  "id": "A291373",
+  "mentions": [
+    "A001065",
+    "A002110",
+    "A070015",
+    "A153076",
+    "A291356"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

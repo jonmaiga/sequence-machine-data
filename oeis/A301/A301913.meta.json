@@ -1,0 +1,17 @@
+{
+  "description": "Primes which divide numbers of the form 3^k + 2 for k >= 1.",
+  "id": "A301913",
+  "mentions": [
+    "A168607"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

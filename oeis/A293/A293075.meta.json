@@ -1,0 +1,18 @@
+{
+  "description": "Number of matchings in the complete tripartite graph K_{n,n,n}.",
+  "id": "A293075",
+  "mentions": [
+    "A002720"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

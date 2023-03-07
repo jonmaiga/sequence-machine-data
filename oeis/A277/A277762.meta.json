@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..2 arrays with every element equal to some element at offset (-1,-1) (-1,0) (-1,1) (0,-1) (0,1) or (1,0) both plus 1 mod 3 and minus 1 mod 3, with new values introduced in order 0..2.",
+  "id": "A277762",
+  "mentions": [
+    "A277767"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

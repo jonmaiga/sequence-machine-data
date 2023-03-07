@@ -1,0 +1,20 @@
+{
+  "description": "Q-residue of A075392, where Q=A075392. (See Comments.)",
+  "id": "A193665",
+  "mentions": [
+    "A075362",
+    "A075392",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

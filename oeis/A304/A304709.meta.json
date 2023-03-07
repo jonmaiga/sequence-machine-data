@@ -1,0 +1,33 @@
+{
+  "description": "Number of integer partitions of n whose distinct parts are pairwise coprime.",
+  "id": "A304709",
+  "mentions": [
+    "A000005",
+    "A007359",
+    "A007360",
+    "A018783",
+    "A051424",
+    "A078374",
+    "A101268",
+    "A289508",
+    "A289509",
+    "A302569",
+    "A302696",
+    "A302698",
+    "A302796",
+    "A302797",
+    "A304711",
+    "A304712"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

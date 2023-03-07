@@ -1,0 +1,20 @@
+{
+  "description": "Where the zeros in A123066 occur.",
+  "id": "A321962",
+  "mentions": [
+    "A001222",
+    "A030230",
+    "A030231",
+    "A123066"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

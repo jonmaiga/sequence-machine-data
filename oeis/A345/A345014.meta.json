@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least nonnegative integer k such that 2^n - k is a Sophie Germain prime.",
+  "id": "A345014",
+  "mentions": [
+    "A005384",
+    "A013603",
+    "A057821",
+    "A243916"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Table of gcd(n,m) read by antidiagonals, n >= 0, m >= 0.",
+  "id": "A109004",
+  "mentions": [
+    "A003989",
+    "A089128",
+    "A109007",
+    "A109008",
+    "A109009",
+    "A109010",
+    "A109011",
+    "A109012",
+    "A109013",
+    "A109014",
+    "A109015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

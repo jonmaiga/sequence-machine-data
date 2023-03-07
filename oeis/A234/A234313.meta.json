@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = A(x)^5 * A(-x) with A(0) = 1.",
+  "id": "A234313",
+  "mentions": [
+    "A235322",
+    "A235329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

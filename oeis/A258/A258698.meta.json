@@ -1,0 +1,21 @@
+{
+  "description": "Number of torsion-free congruence subgroups of PSL(2,Z) of genus n, up to conjugacy in PGL(2,Z).",
+  "id": "A258698",
+  "mentions": [
+    "A102474",
+    "A258691",
+    "A258693",
+    "A258700"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

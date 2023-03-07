@@ -1,0 +1,18 @@
+{
+  "description": "Integers whose k-th powers are pandigital for every k>1.",
+  "id": "A341118",
+  "mentions": [
+    "A171102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

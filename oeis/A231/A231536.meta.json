@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of functions f:{1,2,...,n}->{1,2,...,n} whose functional digraph has exactly k nodes such that no nonrecurrent element is mapped into it. n >= 1, 1 <= k <= n.",
+  "id": "A231536",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A055302"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

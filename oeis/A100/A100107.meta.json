@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Moebius transform of Lucas numbers (A000032) 1,3,4,7,11,..",
+  "id": "A100107",
+  "mentions": [
+    "A000032",
+    "A001622",
+    "A007435",
+    "A100279"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

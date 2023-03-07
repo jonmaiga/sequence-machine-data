@@ -1,0 +1,22 @@
+{
+  "description": "Number of decimal digits of A008559.",
+  "id": "A242347",
+  "mentions": [
+    "A008559",
+    "A020862",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

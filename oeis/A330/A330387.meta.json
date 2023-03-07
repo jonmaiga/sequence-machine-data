@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} (-1)^(k + 1) * (exp(x) - 1)^k / (k * (1 - (exp(x) - 1)^k)).",
+  "id": "A330387",
+  "mentions": [
+    "A000009",
+    "A000593",
+    "A000629",
+    "A008277",
+    "A088311",
+    "A265024",
+    "A305550",
+    "A330353",
+    "A330388"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-bead necklaces labeled with numbers -2..2 not allowing reversal, with sum zero and avoiding the patterns z z+1 z+2 and z z-1 z-2.",
+  "id": "A209109",
+  "mentions": [
+    "A209115"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

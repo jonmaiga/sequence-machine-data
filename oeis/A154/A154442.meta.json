@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of nonnegative integers: the inverse of A154441.",
+  "id": "A154442",
+  "mentions": [
+    "A054429",
+    "A072376",
+    "A153141",
+    "A153142",
+    "A154435",
+    "A154436",
+    "A154439",
+    "A154441",
+    "A154444",
+    "A154446",
+    "A154448",
+    "A154452"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

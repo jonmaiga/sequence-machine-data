@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes p <= n such that 2*n-p and 2*n+p are prime.",
+  "id": "A284950",
+  "mentions": [
+    "A237885",
+    "A284919",
+    "A284928"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

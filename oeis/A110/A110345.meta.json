@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + (n+1) + (n+2) + ... n terms if n is odd, else a(n) = n + (n-1) + (n-2) + ... n terms = n(n+1)/2 = n-th triangular number if n is even.",
+  "id": "A110345",
+  "mentions": [
+    "A000217",
+    "A110344"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:41",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

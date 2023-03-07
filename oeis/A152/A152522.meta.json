@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least even number such that if p_i is the i-th prime then a(n)-p_i, i=1..n, are composite numbers.",
+  "id": "A152522",
+  "mentions": [
+    "A025018"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} d' * (-1)^(d'), where d' is the arithmetic derivative of d (A003415).",
+  "id": "A353961",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

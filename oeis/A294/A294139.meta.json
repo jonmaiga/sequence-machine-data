@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the areas of the distinct rectangles (and the areas of the squares on their sides) with positive integer sides such that L + W = n, W < L.",
+  "id": "A294139",
+  "mentions": [
+    "A294473"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:21",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

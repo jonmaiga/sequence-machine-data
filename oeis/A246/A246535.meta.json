@@ -1,0 +1,21 @@
+{
+  "description": "Largest number with at most n distinct digits in any base b >= 2 (written in decimal).",
+  "id": "A246535",
+  "mentions": [
+    "A037968",
+    "A049363"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

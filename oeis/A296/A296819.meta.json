@@ -1,0 +1,22 @@
+{
+  "description": "Maximum detour index of any bipartite graph on n nodes.",
+  "id": "A296819",
+  "mentions": [
+    "A288720",
+    "A296779",
+    "A296780",
+    "A296785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:59",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

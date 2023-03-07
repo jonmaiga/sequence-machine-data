@@ -1,0 +1,25 @@
+{
+  "description": "The greatest inverse of A234741: a(n) = the largest k such that A234741(k) = n, and 0 if no such k exists.",
+  "id": "A236837",
+  "mentions": [
+    "A234741",
+    "A234742",
+    "A235042",
+    "A236833",
+    "A236834",
+    "A236835",
+    "A236836",
+    "A236841",
+    "A236850"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

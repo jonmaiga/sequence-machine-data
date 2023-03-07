@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: Row n is the lexicographically earliest strictly monotonic completely additive sequence of length n.",
+  "id": "A352957",
+  "mentions": [
+    "A001414",
+    "A020857",
+    "A064097",
+    "A104244",
+    "A249344",
+    "A334200",
+    "A344443",
+    "A344444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

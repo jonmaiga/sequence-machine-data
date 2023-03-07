@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all numbers from 2*n-1 up to prime(n).",
+  "id": "A161626",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000217",
+    "A161570"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that (p mod 8) = (p mod 27).",
+  "id": "A257483",
+  "mentions": [
+    "A000040",
+    "A039706",
+    "A242125",
+    "A257482"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

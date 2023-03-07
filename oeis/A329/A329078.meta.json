@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(n,k) is the number of k-step closed paths (from origin to origin) in 2-dimensional lattice, using steps (t_1,t_2) (|t_1| + |t_2| = n).",
+  "id": "A329078",
+  "mentions": [
+    "A329066",
+    "A329074"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

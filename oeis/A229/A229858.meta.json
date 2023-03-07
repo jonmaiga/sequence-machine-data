@@ -1,0 +1,21 @@
+{
+  "description": "Consider all 120-degree triangles with sides A < B < C. The sequence gives the values of A.",
+  "id": "A229858",
+  "mentions": [
+    "A050931",
+    "A229849",
+    "A229859"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:48:47",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

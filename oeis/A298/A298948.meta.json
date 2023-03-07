@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^prime(k))^2.",
+  "id": "A298948",
+  "mentions": [
+    "A046675",
+    "A280245",
+    "A298436"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:25",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

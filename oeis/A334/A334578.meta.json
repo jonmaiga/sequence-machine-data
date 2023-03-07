@@ -1,0 +1,22 @@
+{
+  "description": "Double subfactorials: a(n) = (-1)^floor(n/2) * n!! * Sum_{i=0..floor(n/2)} (-1)^i/(n-2*i)!!.",
+  "id": "A334578",
+  "mentions": [
+    "A000166",
+    "A000354",
+    "A006882",
+    "A092605",
+    "A306858"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

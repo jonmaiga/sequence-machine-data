@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Weigh transform of 5^n.",
+  "id": "A306159",
+  "mentions": [
+    "A000351",
+    "A038070",
+    "A306156",
+    "A306157",
+    "A306158"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

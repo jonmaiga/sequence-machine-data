@@ -1,0 +1,18 @@
+{
+  "description": "Lucky primes k such that k+6 is also a lucky prime.",
+  "id": "A309381",
+  "mentions": [
+    "A031157",
+    "A309334"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

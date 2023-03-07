@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that A019565(k)-1 and A019565(k)+1 are both primes.",
+  "id": "A103798",
+  "mentions": [
+    "A019565",
+    "A103796",
+    "A103797"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

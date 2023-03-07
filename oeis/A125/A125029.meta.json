@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of exponents in the prime factorization of n that are noncomposite.",
+  "id": "A125029",
+  "mentions": [
+    "A001221",
+    "A125030",
+    "A125070"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

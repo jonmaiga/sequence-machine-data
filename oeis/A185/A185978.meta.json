@@ -1,0 +1,21 @@
+{
+  "description": "Nontriangular numbers which are the sum of two (positive) triangular numbers.",
+  "id": "A185978",
+  "mentions": [
+    "A000217",
+    "A020756",
+    "A051533"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

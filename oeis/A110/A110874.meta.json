@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors with multiplicity of 2 + (n^(n+1)).",
+  "id": "A110874",
+  "mentions": [
+    "A001222",
+    "A007778",
+    "A110567",
+    "A110676"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

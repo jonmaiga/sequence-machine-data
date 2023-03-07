@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of rooted hypermaps on the torus with n darts (darts are semi-edges in the particular case of ordinary maps).",
+  "id": "A118093",
+  "mentions": [
+    "A000108",
+    "A000257",
+    "A118094",
+    "A214817",
+    "A214818"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

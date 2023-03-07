@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that a positive number m < n exists such that n-m, n+m, and n*m are oblong numbers (A002378).",
+  "id": "A224954",
+  "mentions": [
+    "A002378",
+    "A224935"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

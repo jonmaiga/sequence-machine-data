@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that none of 9n + 1, 9n + 2, 9n + 3, 9n + 4, 9n + 5, 9n + 6, 9n + 7 and 9n + 8 are squarefree.",
+  "id": "A256013",
+  "mentions": [
+    "A013929",
+    "A258211",
+    "A258332"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

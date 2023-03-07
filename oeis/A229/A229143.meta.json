@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (b(q^3) - b(q)) / 3 in powers of q where b() is a cubic AGM theta function.",
+  "id": "A229143",
+  "mentions": [
+    "A004016",
+    "A004611",
+    "A005882",
+    "A005928",
+    "A033687",
+    "A097195",
+    "A121361",
+    "A123884",
+    "A259024"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

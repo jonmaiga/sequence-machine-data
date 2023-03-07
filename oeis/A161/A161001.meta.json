@@ -1,0 +1,18 @@
+{
+  "description": "Those positive integers n that when read in binary contains runs of 0's and 1's being of distinct lengths, the list of lengths forming a permutation of some number of consecutive positive integers.",
+  "id": "A161001",
+  "mentions": [
+    "A161000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

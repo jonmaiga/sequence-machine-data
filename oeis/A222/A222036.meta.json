@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary arrays indicating the locations of trailing edge maxima of a random length-n 0..1 array extended with zeros and convolved with -1,2,-1.",
+  "id": "A222036",
+  "mentions": [
+    "A222043"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

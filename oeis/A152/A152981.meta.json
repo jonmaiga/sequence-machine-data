@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors of Motzkin number A001006(n).",
+  "id": "A152981",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001006",
+    "A152761"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

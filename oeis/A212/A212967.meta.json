@@ -1,0 +1,21 @@
+{
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and w < range{w,x,y}.",
+  "id": "A212967",
+  "mentions": [
+    "A036666",
+    "A212959",
+    "A212968"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

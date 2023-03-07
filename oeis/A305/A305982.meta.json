@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{d|n, d",
+  "id": "A305982",
+  "mentions": [
+    "A008578",
+    "A305793",
+    "A305973",
+    "A305983",
+    "A305984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Permutation A163356 applied twice.",
+  "id": "A163906",
+  "mentions": [
+    "A163356",
+    "A163905",
+    "A163916"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

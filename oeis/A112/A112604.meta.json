@@ -1,0 +1,33 @@
+{
+  "description": "Number of representations of n as a sum of three times a square and two times a triangular number.",
+  "id": "A112604",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002324",
+    "A010054",
+    "A010815",
+    "A033762",
+    "A112605",
+    "A112606",
+    "A112607",
+    "A112608",
+    "A112609",
+    "A121373",
+    "A123884",
+    "A131961",
+    "A131963",
+    "A164272"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:53",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

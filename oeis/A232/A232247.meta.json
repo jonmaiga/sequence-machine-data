@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the arctan of 2/Pi.",
+  "id": "A232247",
+  "mentions": [
+    "A019669",
+    "A060294",
+    "A232182"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

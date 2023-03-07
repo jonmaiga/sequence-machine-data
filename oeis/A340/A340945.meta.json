@@ -1,0 +1,20 @@
+{
+  "description": "List of Y-coordinates of point moving along one of the arms of a counterclockwise square spiral with four arms; A340944 gives X-coordinates.",
+  "id": "A340945",
+  "mentions": [
+    "A340172",
+    "A340944"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

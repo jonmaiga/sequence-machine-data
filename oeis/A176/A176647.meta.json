@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = f(n, k) + f(n, n-k) - f(n, n), where f(n, k) = binomial(n*(3*n-1)/2 + k, k), read by rows.",
+  "id": "A176647",
+  "mentions": [
+    "A000326",
+    "A176567"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

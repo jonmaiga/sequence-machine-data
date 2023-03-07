@@ -1,0 +1,22 @@
+{
+  "description": "Indices of zeros of the sequence u(n)=abs(u(n-1)-gcd(u(n-1),n-1)), u(1)=1.",
+  "id": "A186253",
+  "mentions": [
+    "A106108",
+    "A186254",
+    "A186263",
+    "A261301",
+    "A261310"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

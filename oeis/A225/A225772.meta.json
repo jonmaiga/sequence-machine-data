@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-element sets of mapping patterns from n points to themselves; the number of 2-element sets of transformations on n points up to conjugation.",
+  "id": "A225772",
+  "mentions": [
+    "A001372",
+    "A054745",
+    "A224539"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

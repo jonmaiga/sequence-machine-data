@@ -1,0 +1,22 @@
+{
+  "description": "Even bisection of A122111: a(n) = A122111(2*n).",
+  "id": "A253568",
+  "mentions": [
+    "A102750",
+    "A122111",
+    "A243285",
+    "A244982",
+    "A253561"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: x^((k^2 + k)/2) / (Product_{i=1..k} (1 - x^i) * Product_{r>=1} (1 + x^r)) with k = 2.",
+  "id": "A246581",
+  "mentions": [
+    "A027349",
+    "A081362",
+    "A218907",
+    "A246582",
+    "A246583"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:53",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

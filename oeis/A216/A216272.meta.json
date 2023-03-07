@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in expansion of x/arctan(x)-1 (even powers only).",
+  "id": "A216272",
+  "mentions": [
+    "A195466"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

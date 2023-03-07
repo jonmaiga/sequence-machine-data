@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^n mod (n + 2) = n.",
+  "id": "A213382",
+  "mentions": [
+    "A176003",
+    "A213381"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

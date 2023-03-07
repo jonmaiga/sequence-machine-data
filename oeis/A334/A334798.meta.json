@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the binary digits of k*(k-1) and k*(k+1) have the same numbers of 0's and the same number of 1's.",
+  "id": "A334798",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A023416",
+    "A070939",
+    "A181775"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

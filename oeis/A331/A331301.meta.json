@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = min(n, A225546(n)) for all other n, except for odd primes p, f(p) = 0.",
+  "id": "A331301",
+  "mentions": [
+    "A019565",
+    "A064179",
+    "A064547",
+    "A225546",
+    "A302777",
+    "A305801",
+    "A331174",
+    "A331287",
+    "A331288",
+    "A331308",
+    "A331592"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

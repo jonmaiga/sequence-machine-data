@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of numbers of squares {i^2}, i = 0,1..ceiling(n/2), in permutations of {1..n} in A293857.",
+  "id": "A293783",
+  "mentions": [
+    "A008794",
+    "A010551",
+    "A293857",
+    "A293984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

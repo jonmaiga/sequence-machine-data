@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f.: Product_{n>=1} (1 - x^(2*n-1))^(-1/(2*n-1)).",
+  "id": "A206303",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A028342"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

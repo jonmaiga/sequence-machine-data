@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that the only normal integer partition of m whose run-lengths are a palindrome is (1)^m.",
+  "id": "A335402",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A025065",
+    "A046022",
+    "A124010",
+    "A242414",
+    "A317085",
+    "A317086",
+    "A317087"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of xi = (cos(Pi/5) - 1/2) / (sin(Pi/5) + 1/2).",
+  "id": "A158934",
+  "mentions": [
+    "A001622",
+    "A019845",
+    "A158241",
+    "A188593"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:17",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

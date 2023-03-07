@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 3 nonattacking zebras on an n X n board.",
+  "id": "A172138",
+  "mentions": [
+    "A047659",
+    "A172124",
+    "A172134",
+    "A172137"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:21",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

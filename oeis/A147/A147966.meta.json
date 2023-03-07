@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n+(A001223(n)-1) = n+A046933(n).",
+  "id": "A147966",
+  "mentions": [
+    "A001223",
+    "A046933",
+    "A141042",
+    "A147965"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

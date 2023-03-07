@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2n)! - n! + 1.",
+  "id": "A237580",
+  "mentions": [
+    "A000142",
+    "A010050",
+    "A118812",
+    "A237443",
+    "A237579"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

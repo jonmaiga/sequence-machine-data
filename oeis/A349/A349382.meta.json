@@ -1,0 +1,27 @@
+{
+  "description": "Dirichlet convolution of A064989 with A346234 (Dirichlet inverse of A003961), where A003961 and A064989 are fully multiplicative sequences that shift the prime factorization of n one step towards larger and smaller primes respectively.",
+  "id": "A349382",
+  "mentions": [
+    "A003961",
+    "A064989",
+    "A151799",
+    "A151800",
+    "A346234",
+    "A349355",
+    "A349356",
+    "A349381",
+    "A349383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

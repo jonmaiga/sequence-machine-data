@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of 12312-avoiding matchings on [2n] with exactly k crossings (n >= 1, 0 <= k <= n-1).",
+  "id": "A108410",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A002054",
+    "A007851",
+    "A089434"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

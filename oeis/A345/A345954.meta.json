@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ternary strings of length n with at least three 0's.",
+  "id": "A345954",
+  "mentions": [
+    "A001047",
+    "A066810"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:15:22",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Lower triangular array called S2hat(-3) related to partition number array A144279.",
+  "id": "A144280",
+  "mentions": [
+    "A000369",
+    "A008277",
+    "A008284",
+    "A008545",
+    "A036040",
+    "A144275",
+    "A144279",
+    "A144281",
+    "A144282",
+    "A144283"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

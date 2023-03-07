@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of rooted trees t with n vertices yielding k distinct rooted trees with n+1 vertices when a pendant edge is added to a vertex of t (1 <= k <= n).",
+  "id": "A214568",
+  "mentions": [
+    "A000081",
+    "A000107",
+    "A004111",
+    "A032741",
+    "A061775",
+    "A214567"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:01",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

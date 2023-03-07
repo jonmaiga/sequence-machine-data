@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: P(x,y) = Product_{n>=1} (1 - (x^n + y^n)), where P(x,y) = Sum_{n>=0} Sum_{k>=0} T(n,k) * x^n*y^k, as a square table of coefficients T(n,k) read by antidiagonals.",
+  "id": "A322212",
+  "mentions": [
+    "A322213"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 253,
+    "source": "oeis-bfile"
+  }
+}

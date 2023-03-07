@@ -1,0 +1,19 @@
+{
+  "description": "For any positive number n, let f(n) be the infinite matrix (m_{i, j}, i, j > 0) with values in GF(2) encoding the Fermi-Dirac prime factors of n (n = Product_{i, j > 0} (prime(i)^2^(j-1))^m_{i, j}); let g be the inverse of f; a(n) = g(f(n)^2).",
+  "id": "A348091",
+  "mentions": [
+    "A039956",
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

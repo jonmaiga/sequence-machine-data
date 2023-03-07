@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = length of n-th run of even terms in A259934.",
+  "id": "A263278",
+  "mentions": [
+    "A259934",
+    "A262514",
+    "A262516",
+    "A263253",
+    "A263277"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

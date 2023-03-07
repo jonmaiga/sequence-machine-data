@@ -1,0 +1,21 @@
+{
+  "description": "Number of different 5th-power (quintic) mappings of a finite set of n elements into itself.",
+  "id": "A163861",
+  "mentions": [
+    "A102687",
+    "A163859",
+    "A163860",
+    "A247026"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

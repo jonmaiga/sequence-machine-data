@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers whose square starts with exactly 2 identical digits.",
+  "id": "A346812",
+  "mentions": [
+    "A123912",
+    "A186438",
+    "A186439",
+    "A346678",
+    "A346774"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

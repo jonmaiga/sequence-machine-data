@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 8^n into parts that are at most 8.",
+  "id": "A238635",
+  "mentions": [
+    "A238016"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

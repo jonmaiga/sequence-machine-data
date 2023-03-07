@@ -1,0 +1,33 @@
+{
+  "description": "Square array, read by antidiagonals, where row n equals the coordination sequence of B_n lattice, for n >= 0.",
+  "id": "A108998",
+  "mentions": [
+    "A022144",
+    "A022145",
+    "A022146",
+    "A022147",
+    "A022148",
+    "A022149",
+    "A022150",
+    "A022151",
+    "A022152",
+    "A022153",
+    "A022154",
+    "A108553",
+    "A108999",
+    "A109000",
+    "A109001"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose representations in factorial base include each of the digits from 0 to d-1 exactly once, where d = A084558(k) is the number of digits of k in factorial base.",
+  "id": "A343476",
+  "mentions": [
+    "A000225",
+    "A000325",
+    "A007623",
+    "A065355",
+    "A084558",
+    "A343477"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

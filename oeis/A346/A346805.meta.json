@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of ten squares in six or more ways.",
+  "id": "A346805",
+  "mentions": [
+    "A345503",
+    "A345554",
+    "A346804",
+    "A346806"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

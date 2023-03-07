@@ -1,0 +1,33 @@
+{
+  "description": "Expansion of (1 - phi(q^3) / phi(q) * phi(-q^2) * phi(-q^6)) / 2 in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A132004",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A035154",
+    "A053692",
+    "A113407",
+    "A121373",
+    "A122856",
+    "A122865",
+    "A125079",
+    "A132003",
+    "A258277",
+    "A258278"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

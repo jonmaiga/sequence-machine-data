@@ -1,0 +1,36 @@
+{
+  "description": "Triangle of coefficients of (1/sec^2(x))*D^n(sec^2(x)) in powers of t = tan(x), where D = d/dx.",
+  "id": "A185896",
+  "mentions": [
+    "A000111",
+    "A000165",
+    "A000182",
+    "A000364",
+    "A000367",
+    "A000670",
+    "A000828",
+    "A002445",
+    "A004123",
+    "A008292",
+    "A008293",
+    "A008294",
+    "A019538",
+    "A059419",
+    "A080795",
+    "A104035",
+    "A155100"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

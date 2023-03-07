@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = round(n^2 - sqrt(n)).",
+  "id": "A213077",
+  "mentions": [
+    "A056847"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:39:39",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

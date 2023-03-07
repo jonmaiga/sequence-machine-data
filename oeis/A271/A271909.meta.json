@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and 3*k+1 have the same number of prime divisors (including multiplicities).",
+  "id": "A271909",
+  "mentions": [
+    "A001222",
+    "A272229"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n and digital sum of n-th prime are primes.",
+  "id": "A104735",
+  "mentions": [
+    "A104736"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

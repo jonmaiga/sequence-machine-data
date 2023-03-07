@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that e(k) > 1 and k == e(k) (mod lambda(k)), where e(k) = A051903(k) is the maximal exponent in prime factorization of k.",
+  "id": "A327295",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A002326",
+    "A002997",
+    "A007814",
+    "A013929",
+    "A050990",
+    "A050992",
+    "A051903",
+    "A068494",
+    "A219175",
+    "A270096",
+    "A276976",
+    "A324050",
+    "A327979",
+    "A329885"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

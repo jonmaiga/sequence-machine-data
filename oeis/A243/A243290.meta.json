@@ -1,0 +1,24 @@
+{
+  "description": "The index of the greatest prime dividing the n-th squarefree number: a(n) = A061395(A005117(n)).",
+  "id": "A243290",
+  "mentions": [
+    "A005117",
+    "A006530",
+    "A048672",
+    "A049084",
+    "A061395",
+    "A070939",
+    "A243289"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

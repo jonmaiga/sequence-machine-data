@@ -1,0 +1,19 @@
+{
+  "description": "Smallest lower twin prime number which sums with its upper twin prime to a perfect n-th power.",
+  "id": "A195421",
+  "mentions": [
+    "A001359",
+    "A195336"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

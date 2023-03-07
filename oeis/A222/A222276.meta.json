@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..5 arrays with no entry increasing mod 6 by 5 rightwards or downwards, starting with upper left zero.",
+  "id": "A222276",
+  "mentions": [
+    "A222281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

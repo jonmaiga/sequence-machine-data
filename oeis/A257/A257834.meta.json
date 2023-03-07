@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n-th prime is == +1 or -1 mod 12; -1 if n-th prime is == 5 or 7 mod 12; and 0 if n-th prime is 2 or 3.",
+  "id": "A257834",
+  "mentions": [
+    "A070750",
+    "A134323"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Location of the n-th prime in its Andrica ranking.",
+  "id": "A218014",
+  "mentions": [
+    "A001359",
+    "A079296",
+    "A218012",
+    "A218013",
+    "A218015"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

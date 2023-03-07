@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = 0 if n > 1 and n is a square or twice square, with f(n) = n for all other numbers.",
+  "id": "A332900",
+  "mentions": [
+    "A292383",
+    "A292583",
+    "A324400",
+    "A332896",
+    "A332901"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Integral x solutions of elliptic curve x^3-y^2 = 54814765 = A200218(2).",
+  "id": "A200565",
+  "mentions": [
+    "A134105",
+    "A200216",
+    "A200217",
+    "A200218"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

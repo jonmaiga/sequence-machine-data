@@ -1,0 +1,170 @@
+{
+  "oi": 102615,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(nonprime(n+1))",
+      "mt": 66,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "nonprime",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(lt[∑{p}[n, #], n])",
+      "mt": 66,
+      "px": [
+        "n",
+        "#",
+        "∑{p}",
+        "n",
+        "lt",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-10-11",
+      "ix": "nonprime(record[nonprime(n-a(2%n))])",
+      "mt": 66,
+      "px": [
+        "1",
+        "0",
+        "n",
+        "2",
+        "n",
+        "%",
+        "a",
+        "sub",
+        "nonprime",
+        "record",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-10-01",
+      "ix": "nonprime(lt[n-a(d(n)-1), n])",
+      "mt": 66,
+      "px": [
+        "1",
+        "n",
+        "n",
+        "d",
+        "1",
+        "sub",
+        "a",
+        "sub",
+        "n",
+        "lt",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "record[nonprime(nonprime(ceil(C(or(1, n), n)/2)))]",
+      "mt": 66,
+      "px": [
+        "1",
+        "n",
+        "or",
+        "n",
+        "C",
+        "2",
+        "/",
+        "ceil",
+        "nonprime",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-04-07",
+      "ix": "∑{d}[nonprime(nonprime(ϕ²-(ϕ-n))), φ(#)]",
+      "mt": 66,
+      "px": [
+        "ϕ",
+        "²",
+        "ϕ",
+        "n",
+        "sub",
+        "sub",
+        "nonprime",
+        "nonprime",
+        "#",
+        "φ",
+        "∑{d}"
+      ]
+    },
+    {
+      "d": "2021-10-01",
+      "ix": "nonprime(comp[gpf(n²-a(n-1))])",
+      "mt": 66,
+      "px": [
+        "0",
+        "0",
+        "n",
+        "²",
+        "n",
+        "1",
+        "sub",
+        "a",
+        "sub",
+        "gpf",
+        "comp",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-05-22",
+      "ix": "lcm((-1)^n, nonprime(nonprime(-xor(n, -1))))",
+      "mt": 66,
+      "px": [
+        "1",
+        "neg",
+        "n",
+        "^",
+        "n",
+        "1",
+        "neg",
+        "xor",
+        "neg",
+        "nonprime",
+        "nonprime",
+        "lcm"
+      ]
+    },
+    {
+      "d": "2022-05-15",
+      "ix": "and(1, n)!*nonprime(nonprime(Δ[n²]-n))",
+      "mt": 66,
+      "px": [
+        "1",
+        "n",
+        "and",
+        "!",
+        "n",
+        "²",
+        "Δ",
+        "n",
+        "sub",
+        "nonprime",
+        "nonprime",
+        "*"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(Δ[A051349(n)])",
+      "mt": 66,
+      "px": [
+        "n",
+        "A051349",
+        "Δ",
+        "nonprime"
+      ]
+    }
+  ]
+}

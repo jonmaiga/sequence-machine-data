@@ -1,0 +1,23 @@
+{
+  "description": "Additive with a(p^e) = A007306(e).",
+  "id": "A318322",
+  "mentions": [
+    "A002487",
+    "A007306",
+    "A007814",
+    "A122810",
+    "A318306",
+    "A318316"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

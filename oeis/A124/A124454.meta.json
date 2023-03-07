@@ -1,0 +1,18 @@
+{
+  "description": "Maximum possible number of subtrees of an n-node unrooted tree in which each node has maximum degree three (equivalently, rooted binary trees in which some internal nodes may have only one child). A subtree is a nonempty contiguous set of nodes, not necessarily including all descendants of the root.",
+  "id": "A124454",
+  "mentions": [
+    "A092781"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

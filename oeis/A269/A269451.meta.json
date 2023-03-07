@@ -1,0 +1,27 @@
+{
+  "description": "The first of 50 consecutive positive integers the sum of the squares of which is a square.",
+  "id": "A269451",
+  "mentions": [
+    "A001032",
+    "A001652",
+    "A094196",
+    "A106521",
+    "A257781",
+    "A269447",
+    "A269448",
+    "A269449"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

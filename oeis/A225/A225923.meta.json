@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of q^(-1/2) * k(q) * (1 - k(q)^4) * (K(q) / (Pi/2))^6 / 4 in powers of q where k(), k'(), K() are Jacobi elliptic functions.",
+  "id": "A225923",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000735",
+    "A002292",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A225872"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

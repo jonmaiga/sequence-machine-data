@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+2^3, p+2^5 and p+2^7 are all primes.",
+  "id": "A275475",
+  "mentions": [
+    "A269257",
+    "A269258",
+    "A269259",
+    "A269859",
+    "A270203",
+    "A275485"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

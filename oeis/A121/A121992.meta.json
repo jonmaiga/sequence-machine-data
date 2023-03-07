@@ -1,0 +1,20 @@
+{
+  "description": "List of Eisenstein triples: {a,b,c} such that {a^2 + b^2 - a*b - c^2 = 0} and abs(a - b) > 0, sorted by greatest a.",
+  "id": "A121992",
+  "mentions": [
+    "A046063"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

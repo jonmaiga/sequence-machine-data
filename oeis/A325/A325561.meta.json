@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence such that for all i, j, a(i) = a(j) => f(i) = f(j) where f(n) = A234741(n) except for those numbers for which A234741(n) = n, in which case f(n) = 0.",
+  "id": "A325561",
+  "mentions": [
+    "A234741",
+    "A305801",
+    "A325562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

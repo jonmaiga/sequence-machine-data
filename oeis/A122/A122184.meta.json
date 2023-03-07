@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of Sum_{k=0..2n} (-1)^k/C(2n,k)^3.",
+  "id": "A122184",
+  "mentions": [
+    "A046825",
+    "A100516",
+    "A100518",
+    "A100520"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

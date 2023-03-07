@@ -1,0 +1,18 @@
+{
+  "description": "Independent domination number of Fibonacci cube Gamma_n.",
+  "id": "A291297",
+  "mentions": [
+    "A291742"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

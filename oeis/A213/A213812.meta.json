@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest m for which the n-th Carmichael number A002997(n) can be written as p^2*(m+1) - p*m.",
+  "id": "A213812",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

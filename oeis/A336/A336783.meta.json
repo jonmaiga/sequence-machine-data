@@ -1,0 +1,24 @@
+{
+  "description": "Integers b where the number of cycles under iteration of sum of cubes of digits in base b is exactly four.",
+  "id": "A336783",
+  "mentions": [
+    "A194025",
+    "A194281",
+    "A336744",
+    "A336762"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of similarity classes of groups with exactly n subgroups (see reference for precise definition of similarity classes).",
+  "id": "A274847",
+  "mentions": [
+    "A018216",
+    "A289445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

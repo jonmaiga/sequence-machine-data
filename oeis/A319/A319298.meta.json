@@ -1,0 +1,30 @@
+{
+  "description": "Number T(n,k) of entries in the k-th blocks of all set partitions of [n] when blocks are ordered by increasing lengths (and increasing smallest elements); triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A319298",
+  "mentions": [
+    "A070071",
+    "A097147",
+    "A319375",
+    "A322383",
+    "A332942",
+    "A332943",
+    "A332944",
+    "A332945",
+    "A332946",
+    "A332947",
+    "A332948",
+    "A332949",
+    "A332950"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

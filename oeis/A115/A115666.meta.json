@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes (A001358) whose digit reversal is a brilliant number (A078972).",
+  "id": "A115666",
+  "mentions": [
+    "A001358",
+    "A078972",
+    "A115665"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

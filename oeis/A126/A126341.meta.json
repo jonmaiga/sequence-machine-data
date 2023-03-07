@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the limit of coefficients of q in { [x^n] W(x,q) } when read backward from [q^(n*(n-1)/2)] to [q^(n*(n-1)/2 - (n-1))], where W satisfies: W(x,q) = exp( q*x*W(q*x,q) ).",
+  "id": "A126341",
+  "mentions": [
+    "A126265",
+    "A126342",
+    "A126343"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

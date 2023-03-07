@@ -1,0 +1,24 @@
+{
+  "description": "Toothpick number A153006(n) minus generalized pentagonal number A001318(n).",
+  "id": "A160166",
+  "mentions": [
+    "A000695",
+    "A001318",
+    "A139250",
+    "A153006",
+    "A153007",
+    "A159790",
+    "A160165"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:07",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

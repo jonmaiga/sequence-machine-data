@@ -1,0 +1,23 @@
+{
+  "description": "Second class of all proper positive solutions y2(n) = a(n) of the Pell equation x^2 - 7*y^2 = 9.",
+  "id": "A307173",
+  "mentions": [
+    "A077412",
+    "A077421",
+    "A307168",
+    "A307169",
+    "A307172"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:23:34",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

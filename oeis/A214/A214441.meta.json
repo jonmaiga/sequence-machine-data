@@ -1,0 +1,20 @@
+{
+  "description": "Catalan numbers at square positions: a(n) = A000108(n^2).",
+  "id": "A214441",
+  "mentions": [
+    "A000108",
+    "A135758",
+    "A201555"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

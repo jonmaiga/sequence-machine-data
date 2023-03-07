@@ -1,0 +1,22 @@
+{
+  "description": "P-defects p - N(p) of the elliptic curve y^2 = x^3 + 17 for primes p, where N(p) is the number of solutions modulo prime p.",
+  "id": "A271228",
+  "mentions": [
+    "A001479",
+    "A001480",
+    "A002476",
+    "A271227"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

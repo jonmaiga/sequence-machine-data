@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A160552 convolved with (1, 2, 2, 2, ...); row sums = A139250, the Toothpick sequence.",
+  "id": "A160570",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160552"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

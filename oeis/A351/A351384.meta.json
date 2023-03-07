@@ -1,0 +1,24 @@
+{
+  "description": "Number of tilings of the d-dimensional zonotope constructed from d+5 vectors.",
+  "id": "A351384",
+  "mentions": [
+    "A006245",
+    "A060595",
+    "A060601",
+    "A060602",
+    "A060637",
+    "A351383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

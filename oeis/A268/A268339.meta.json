@@ -1,0 +1,20 @@
+{
+  "description": "Number of polyominoes with width and height equal to n that are invariant under all symmetries of the square.",
+  "id": "A268339",
+  "mentions": [
+    "A054247",
+    "A268311",
+    "A268758"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

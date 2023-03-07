@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chiral pairs of cycles of length n (1) with a color pattern of exactly k colors or equivalently (2) partitioned into k nonempty subsets.",
+  "id": "A320647",
+  "mentions": [
+    "A000004",
+    "A059053",
+    "A152175",
+    "A152176",
+    "A304972",
+    "A320643",
+    "A320644",
+    "A320645",
+    "A320646",
+    "A320749"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

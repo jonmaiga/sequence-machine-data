@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct nonzero values frac(n/k) can take for k in 1..n, where frac denotes the fractional part.",
+  "id": "A316519",
+  "mentions": [
+    "A000005",
+    "A049820"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

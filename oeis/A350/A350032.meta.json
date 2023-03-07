@@ -1,0 +1,22 @@
+{
+  "description": "Write n as n = k1 + k2 + ... + km, so that all k are distinct positive integers and b = A001055(k1) + A001055(k2) + ... + A001055(km) becomes maximal. a(n) is the number of such partitions which attain this maximum.",
+  "id": "A350032",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001055",
+    "A066739",
+    "A350029"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k, excluding powers of 2, such that a regular k-sided polygon can be constructed with a ruler and compass.",
+  "id": "A122772",
+  "mentions": [
+    "A003401"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

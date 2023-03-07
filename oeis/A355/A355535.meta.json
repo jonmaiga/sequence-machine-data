@@ -1,0 +1,36 @@
+{
+  "description": "Odd numbers of which it is not possible to choose a different prime factor of each prime index.",
+  "id": "A355535",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003963",
+    "A056239",
+    "A076610",
+    "A112798",
+    "A120383",
+    "A289509",
+    "A302796",
+    "A327486",
+    "A355529",
+    "A355731",
+    "A355733",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A355742",
+    "A355744"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

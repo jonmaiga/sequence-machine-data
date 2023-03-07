@@ -1,0 +1,19 @@
+{
+  "description": "Exponential transform of the eighth powers A001016.",
+  "id": "A279641",
+  "mentions": [
+    "A001016",
+    "A279636"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

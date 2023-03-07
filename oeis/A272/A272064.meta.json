@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] such that for each pair of consecutive blocks (b,b+1) exactly one pair of consecutive numbers (i,i+1) exists with i member of b and i+1 member of b+1.",
+  "id": "A272064",
+  "mentions": [
+    "A000110",
+    "A185982",
+    "A271270",
+    "A272065"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

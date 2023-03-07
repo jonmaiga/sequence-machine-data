@@ -1,0 +1,23 @@
+{
+  "description": "Infinite Fibonacci word on the alphabet {1,2,3,4}.",
+  "id": "A138967",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A003849",
+    "A101864",
+    "A270788",
+    "A276757"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

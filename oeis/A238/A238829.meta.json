@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A238823(n) - A238826(n).",
+  "id": "A238829",
+  "mentions": [
+    "A238823",
+    "A238824",
+    "A238825",
+    "A238826",
+    "A238827",
+    "A238828"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Super-Catalan triangle (read by rows) = triangular array associated with little Schroeder numbers (read by rows): T(0,0)=1, T(p,q)=T(p,q-1) if 0",
+  "id": "A144944",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A009766",
+    "A010683",
+    "A033877",
+    "A186826"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

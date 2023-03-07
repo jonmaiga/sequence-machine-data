@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients in expansion of 1/E_2^(1/2).",
+  "id": "A289565",
+  "mentions": [
+    "A000203",
+    "A001943",
+    "A211342",
+    "A288816",
+    "A288968",
+    "A289291",
+    "A289566",
+    "A289567",
+    "A289568",
+    "A289569"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

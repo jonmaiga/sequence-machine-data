@@ -1,0 +1,32 @@
+{
+  "description": "Number of free pure symmetric identity multifunctions (with empty expressions allowed) with one atom and n positions.",
+  "id": "A317876",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A052893",
+    "A053492",
+    "A277996",
+    "A280000",
+    "A317652",
+    "A317653",
+    "A317654",
+    "A317875",
+    "A317877",
+    "A317878",
+    "A317879",
+    "A317880",
+    "A317881"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

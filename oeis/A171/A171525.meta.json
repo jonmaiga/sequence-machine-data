@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of (n-th noncomposite/n).",
+  "id": "A171525",
+  "mentions": [
+    "A000040",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: 1/(1-x) = Sum_{n>=0} A(x)^n/sf(n), where A(x) = Sum_{n>=1} a(n)*x^n/sf(n), and sf(n) = Product_{k=0..n} k! is the superfactorial of n (A000178).",
+  "id": "A193478",
+  "mentions": [
+    "A000178",
+    "A193440",
+    "A193479"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

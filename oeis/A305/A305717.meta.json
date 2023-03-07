@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct Heronian triangles with perimeter A051518(n).",
+  "id": "A305717",
+  "mentions": [
+    "A051516",
+    "A051518",
+    "A070138",
+    "A298614"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

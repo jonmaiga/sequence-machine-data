@@ -1,0 +1,22 @@
+{
+  "description": "Number of simple directed paths on an n X n king graph.",
+  "id": "A236690",
+  "mentions": [
+    "A140518",
+    "A158651",
+    "A236753",
+    "A288033"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

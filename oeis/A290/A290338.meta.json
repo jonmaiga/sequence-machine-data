@@ -1,0 +1,18 @@
+{
+  "description": "Euler elliptic Carmichael numbers for the elliptic curve y^2 = x^3 + 80.",
+  "id": "A290338",
+  "mentions": [
+    "A112927",
+    "A275739"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

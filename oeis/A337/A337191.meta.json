@@ -1,0 +1,18 @@
+{
+  "description": "If cards numbered 1 through n are \"Down Two Table\" shuffled (top two put on bottom one at a time, third from top card dealt to table) until all of the cards are placed on the table, a(n) is the number of the last card dealt.",
+  "id": "A337191",
+  "mentions": [
+    "A006257"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

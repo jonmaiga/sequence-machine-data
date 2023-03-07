@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes with n distinct decimal digits, none of which are 0.",
+  "id": "A140532",
+  "mentions": [
+    "A073532",
+    "A112371"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:51",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

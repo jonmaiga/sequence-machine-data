@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with additive persistence = 3.",
+  "id": "A304368",
+  "mentions": [
+    "A031286",
+    "A166459",
+    "A304366",
+    "A304367",
+    "A304373"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

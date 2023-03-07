@@ -1,0 +1,21 @@
+{
+  "description": "Difference between number of halving steps and number of tripling steps needed to reach 1 in '3x+1' problem.",
+  "id": "A220071",
+  "mentions": [
+    "A006577",
+    "A006666",
+    "A006667",
+    "A014682"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Starts of runs of 3 consecutive Moran numbers (A001101).",
+  "id": "A334371",
+  "mentions": [
+    "A001101",
+    "A085775",
+    "A154701",
+    "A235397",
+    "A334346"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

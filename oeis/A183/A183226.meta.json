@@ -1,0 +1,23 @@
+{
+  "description": "Sum of digits of (2^n) in base 5, also sum of digits of (10^n) in base 5.",
+  "id": "A183226",
+  "mentions": [
+    "A053824",
+    "A055476",
+    "A173670",
+    "A183227",
+    "A183228"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

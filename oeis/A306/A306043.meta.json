@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically first sequence of distinct positive squares, no two or more of which sum to a square.",
+  "id": "A306043",
+  "mentions": [
+    "A305884"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

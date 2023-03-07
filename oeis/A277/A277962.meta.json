@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that A006577(k) = A006577(n) + A006577(n+1).",
+  "id": "A277962",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

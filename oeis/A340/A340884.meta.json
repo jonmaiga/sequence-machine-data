@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the constant rho(1,5).",
+  "id": "A340884",
+  "mentions": [
+    "A000010",
+    "A340004",
+    "A340628",
+    "A340808",
+    "A340839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 117,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Table read by rows: row n lists the wrecker ball sequence starting with n, or contains -1 if 0 is never reached..",
+  "id": "A248939",
+  "mentions": [
+    "A001532",
+    "A228474",
+    "A248940",
+    "A248941",
+    "A248942",
+    "A248952",
+    "A248953",
+    "A248961",
+    "A248973"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

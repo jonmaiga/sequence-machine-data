@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform(2) of Catalan numbers.",
+  "id": "A270447",
+  "mentions": [
+    "A000108",
+    "A007317",
+    "A092392"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

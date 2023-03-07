@@ -1,0 +1,20 @@
+{
+  "description": "Number of cryptarithms of the form x + y = z in base n for which no summand contains any letter more than once and for which the solution is unique.",
+  "id": "A277496",
+  "mentions": [
+    "A277497"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

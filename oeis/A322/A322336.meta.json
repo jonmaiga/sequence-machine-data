@@ -1,0 +1,32 @@
+{
+  "description": "Heinz numbers of 2-edge-connected integer partitions.",
+  "id": "A322336",
+  "mentions": [
+    "A001222",
+    "A003963",
+    "A013922",
+    "A054921",
+    "A056239",
+    "A095983",
+    "A112798",
+    "A218970",
+    "A275307",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A322335",
+    "A322337",
+    "A322338"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

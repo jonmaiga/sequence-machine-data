@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * A000108(k) * k^(n-k).",
+  "id": "A349603",
+  "mentions": [
+    "A000108",
+    "A000248",
+    "A007317",
+    "A064613",
+    "A104455",
+    "A104498",
+    "A154623",
+    "A292632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

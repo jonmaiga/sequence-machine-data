@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (1/2) * (1 + 2/1 + 4/(2*1) + 8/(4*2*1) + ... ).",
+  "id": "A332678",
+  "mentions": [
+    "A000796",
+    "A013705",
+    "A190405",
+    "A299998"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

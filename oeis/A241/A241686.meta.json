@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, a(2)=2, a(3)=3; for n>=4, a(n) = n - A082467(n).",
+  "id": "A241686",
+  "mentions": [
+    "A082467"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

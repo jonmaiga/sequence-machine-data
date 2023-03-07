@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can't be written as a palindromic product, i.e., such that the concatenation of all digits of the factors yields a palindrome.",
+  "id": "A359510",
+  "mentions": [
+    "A002113",
+    "A004176",
+    "A029742",
+    "A334321"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

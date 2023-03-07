@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck paths with no UUU's and no DDD's of semilength n and having k UD's starting at level 0 (i.e., hills); (0 <= k <= n; U=(1,1), D=(1,-1)).",
+  "id": "A162986",
+  "mentions": [
+    "A004148",
+    "A162987",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the angle of association yielding the gyroid relative to Schwarz's D surface.",
+  "id": "A338004",
+  "mentions": [
+    "A249282",
+    "A249283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that n divides psi(k!) (k > 0).",
+  "id": "A292024",
+  "mentions": [
+    "A001615",
+    "A005382",
+    "A062737",
+    "A275985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

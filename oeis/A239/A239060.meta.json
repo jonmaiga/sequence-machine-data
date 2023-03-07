@@ -1,0 +1,28 @@
+{
+  "description": "Nonprime numbers whose divisors all appear as a substring in the number's decimal expansion.",
+  "id": "A239060",
+  "mentions": [
+    "A011531",
+    "A018834",
+    "A092911",
+    "A115738",
+    "A121022",
+    "A121040",
+    "A121041",
+    "A208270",
+    "A239058"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

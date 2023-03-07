@@ -1,0 +1,21 @@
+{
+  "description": "Base-7 complementary numbers: n equals the product of the 7 complement (7-d) of its base-7 digits d.",
+  "id": "A298977",
+  "mentions": [
+    "A294090",
+    "A298976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

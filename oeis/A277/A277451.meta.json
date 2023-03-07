@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in geodesic dome generated from icosahedron by recursively dividing each triangle in 4.",
+  "id": "A277451",
+  "mentions": [
+    "A003947",
+    "A122973"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

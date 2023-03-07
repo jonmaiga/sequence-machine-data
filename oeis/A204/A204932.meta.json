@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that n divides k!-j! for some j satisfying 1<=j",
+  "id": "A204932",
+  "mentions": [
+    "A000142",
+    "A204892",
+    "A204930",
+    "A204931",
+    "A204933",
+    "A204934",
+    "A204935",
+    "A204936",
+    "A204937"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:30:50",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let b be the lexicographically earliest weakly increasing sequence of squares such that Sum_{k = 1..m} prime(k) <= Sum_{k = 1..m} b(k) for any m > 0 (where prime(k) denotes the k-th prime number); a(n) = Sum_{k = 1..n} (b(k) - prime(k)).",
+  "id": "A344324",
+  "mentions": [
+    "A000290",
+    "A007504",
+    "A338699"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

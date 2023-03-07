@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,m) read by rows: T(n,m) = If[n == 1, 1, n - m + 1]*If[n == 1, n, If[Mod[n, m + 1] == 0, n/(m + 1), 1]].",
+  "id": "A141675",
+  "mentions": [
+    "A126988"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

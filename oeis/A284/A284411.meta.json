@@ -1,0 +1,23 @@
+{
+  "description": "Least prime p such that more than half of all integers are divisible by n distinct primes not greater than p.",
+  "id": "A284411",
+  "mentions": [
+    "A002110",
+    "A096294",
+    "A194156",
+    "A281889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

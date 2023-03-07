@@ -1,0 +1,24 @@
+{
+  "description": "A fourth-order linear divisibility sequence: a(n) := A(n)/A(1) where A(n) := ( (3^n + 2^n)*(3^(3*n) - 2^(3*n)) ).",
+  "id": "A238541",
+  "mentions": [
+    "A215466",
+    "A238536",
+    "A238537",
+    "A238538",
+    "A238539",
+    "A238540"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:35:55",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of four-colored rooted trees of order n and structure k; triangle T(n,k), n>=1, 1<=k<=A000081(n), read by rows.",
+  "id": "A242354",
+  "mentions": [
+    "A000041",
+    "A000081",
+    "A087803",
+    "A136793",
+    "A216648",
+    "A242353"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

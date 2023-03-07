@@ -1,0 +1,22 @@
+{
+  "description": "Team size n for which there exists a balanced tournament for 2n+1 players so that in 2n+1 matches each player plays exactly n-1 times with and n times against each other player.",
+  "id": "A274332",
+  "mentions": [
+    "A005097",
+    "A102781",
+    "A130290",
+    "A139791"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

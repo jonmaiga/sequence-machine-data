@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} 2^(n^2)/(1 - 2^n*x)^n * x^n/n ).",
+  "id": "A156910",
+  "mentions": [
+    "A155200",
+    "A155201"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

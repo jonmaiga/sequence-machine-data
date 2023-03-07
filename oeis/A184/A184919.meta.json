@@ -1,0 +1,21 @@
+{
+  "description": "n+[rn/u]+[sn/u]+[tn/u], where []=floor and r=1, s=2^(1/4), t=s^2, u=s^3.",
+  "id": "A184919",
+  "mentions": [
+    "A184812",
+    "A184912",
+    "A184916",
+    "A184917",
+    "A184918"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:01",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

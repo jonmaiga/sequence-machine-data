@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in which n-th row is binomial(n+k-1,k), for column k=1..n.",
+  "id": "A165257",
+  "mentions": [
+    "A001700",
+    "A030662",
+    "A059481"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

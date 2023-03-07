@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the Avogadro constant N_A in the 2019 SI system in units mol^(-1).",
+  "id": "A322578",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070063",
+    "A081823",
+    "A087778",
+    "A129106",
+    "A230458",
+    "A322415"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:59",
+    "offset": 24,
+    "size": 9,
+    "source": "joeis"
+  }
+}

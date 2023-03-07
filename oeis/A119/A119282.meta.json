@@ -1,0 +1,29 @@
+{
+  "description": "Alternating sum of the first n Fibonacci numbers.",
+  "id": "A119282",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A008346",
+    "A119283",
+    "A119284",
+    "A119285",
+    "A119286",
+    "A119287",
+    "A128696",
+    "A128698",
+    "A141169"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

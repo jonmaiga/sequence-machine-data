@@ -1,0 +1,28 @@
+{
+  "description": "Array T(n,k) = (3*n*k - A319929(n,k))/2, n >= 1, k >= 1, read by antidiagonals.",
+  "id": "A322744",
+  "mentions": [
+    "A003991",
+    "A307001",
+    "A307002",
+    "A319929",
+    "A322630",
+    "A327263",
+    "A340746",
+    "A340747",
+    "A354594"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

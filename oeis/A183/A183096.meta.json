@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of divisors of n that are not perfect powers.",
+  "id": "A183096",
+  "mentions": [
+    "A000005",
+    "A091050",
+    "A183093",
+    "A183095"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

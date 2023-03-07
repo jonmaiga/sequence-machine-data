@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: the number of directed elements with area n on the lattice T_{2k+1}.",
+  "id": "A296129",
+  "mentions": [
+    "A047781"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

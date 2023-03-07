@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number m such that 2n = prime(i+k) + prime(j-k), k=1,2,...,m, where i and j are a pair of numbers such that 2n = prime(i+1) + prime(j+1).",
+  "id": "A305875",
+  "mentions": [
+    "A002372",
+    "A002375",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

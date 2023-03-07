@@ -1,0 +1,22 @@
+{
+  "description": "First differences of the E-toothpick sequence A211964.",
+  "id": "A211976",
+  "mentions": [
+    "A139250",
+    "A139251",
+    "A161330",
+    "A161331",
+    "A211964"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

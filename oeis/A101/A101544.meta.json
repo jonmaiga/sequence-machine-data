@@ -1,0 +1,19 @@
+{
+  "description": "Smallest permutation of the natural numbers with a(3*k-2) + a(3*k-1) = a(3*k), k > 0.",
+  "id": "A101544",
+  "mentions": [
+    "A075326",
+    "A249031"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

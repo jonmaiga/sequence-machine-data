@@ -1,0 +1,30 @@
+{
+  "description": "A(n,k) is the sum of all compositions [c_1, c_2, ..., c_k] of n into k nonnegative parts encoded as Product_{i=1..k} prime(i)^(c_i); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A343751",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000040",
+    "A000079",
+    "A001047",
+    "A007504",
+    "A016273",
+    "A025931",
+    "A074140",
+    "A124960",
+    "A325054",
+    "A332967"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

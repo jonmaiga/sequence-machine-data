@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = exp(3) * Sum_{k>=0} (-3)^k*k^n/k!.",
+  "id": "A309084",
+  "mentions": [
+    "A000587",
+    "A027710",
+    "A213170",
+    "A292861",
+    "A309085",
+    "A317996"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

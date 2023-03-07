@@ -1,0 +1,22 @@
+{
+  "description": "Primes seen in decimal expansion of e, contiguous, smallest and distinct, with terms larger than 10^100 replaced by 0.",
+  "id": "A229178",
+  "mentions": [
+    "A001113",
+    "A007512",
+    "A047777",
+    "A064118",
+    "A229155"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

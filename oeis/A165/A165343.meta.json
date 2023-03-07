@@ -1,0 +1,17 @@
+{
+  "description": "First series of Hankel determinants based on A001044(n)=(n!)^2 : a(n)=det(A001044(i+j-2))=det(((i+j-2)!)^2), i,j=1,2...n. Hankel transform of A001044.",
+  "id": "A165343",
+  "mentions": [
+    "A001044"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

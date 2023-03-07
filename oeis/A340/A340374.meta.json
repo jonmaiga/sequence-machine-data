@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the odd part of n satisfies Korselt's criterion (is in A324050), 0 otherwise.",
+  "id": "A340374",
+  "mentions": [
+    "A000265",
+    "A002322",
+    "A002997",
+    "A324050",
+    "A340371"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

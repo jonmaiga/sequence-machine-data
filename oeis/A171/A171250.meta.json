@@ -1,0 +1,31 @@
+{
+  "description": "Row lengths of A082381: number of iterations of \"sum of digits squared\" until 1 or 4 is reached.",
+  "id": "A171250",
+  "mentions": [
+    "A000012",
+    "A000216",
+    "A000218",
+    "A000221",
+    "A003132",
+    "A008460",
+    "A008461",
+    "A008462",
+    "A080709",
+    "A082381",
+    "A082382",
+    "A122065",
+    "A139566"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

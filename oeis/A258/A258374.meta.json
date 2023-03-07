@@ -1,0 +1,26 @@
+{
+  "description": "Least primitive weird number with n prime divisors, not counting multiplicity.",
+  "id": "A258374",
+  "mentions": [
+    "A002975",
+    "A258375",
+    "A258401",
+    "A258882",
+    "A258883",
+    "A258884",
+    "A258885",
+    "A273815"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of signed Egyptian fractions with sums converging to the Euler-Mascheroni constant.",
+  "id": "A226058",
+  "mentions": [
+    "A226049"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

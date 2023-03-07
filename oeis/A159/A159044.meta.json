@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form prime(n)+prime(n+4)+1.",
+  "id": "A159044",
+  "mentions": [
+    "A159043"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of lim_{n->infinity} (b(n)/n - (n - log(n))/4) where {b(n)} is the real-valued sequence defined by b(1)=1 and b(n+1) = b(n) + sqrt(b(n)) for n > 0.",
+  "id": "A332396",
+  "mentions": [
+    "A073833",
+    "A233770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

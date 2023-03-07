@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding closed paths in the n X n grid graph which pass through all vertices on four (left, right, upper, lower) sides of the graph.",
+  "id": "A333759",
+  "mentions": [
+    "A333466",
+    "A333758"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

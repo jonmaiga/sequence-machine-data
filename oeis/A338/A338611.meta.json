@@ -1,0 +1,23 @@
+{
+  "description": "Numbers all of whose divisors, excluding the divisor 1, are evil numbers (A001969) with a record number of divisors.",
+  "id": "A338611",
+  "mentions": [
+    "A000005",
+    "A001969",
+    "A019434",
+    "A093688",
+    "A330289"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

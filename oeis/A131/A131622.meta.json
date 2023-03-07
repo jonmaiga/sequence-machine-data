@@ -1,0 +1,20 @@
+{
+  "description": "Number of cycles in all permutations of n elements with distinct cycle lengths.",
+  "id": "A131622",
+  "mentions": [
+    "A000254",
+    "A007838"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

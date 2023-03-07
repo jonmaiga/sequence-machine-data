@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: (1 - sinh(x)) / (1 - 2*sinh(x)).",
+  "id": "A332257",
+  "mentions": [
+    "A000557",
+    "A000670",
+    "A002866",
+    "A006154",
+    "A050351",
+    "A331608"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A sequence based on the period 6 sequence A300067.",
+  "id": "A300068",
+  "mentions": [
+    "A300067",
+    "A300290"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that !k/(k-1) is prime, where !k = A000166(k) is the subfactorial of k.",
+  "id": "A301423",
+  "mentions": [
+    "A000166",
+    "A000255"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

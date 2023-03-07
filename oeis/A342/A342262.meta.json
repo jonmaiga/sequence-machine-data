@@ -1,0 +1,23 @@
+{
+  "description": "Numbers divisible both by the product of their nonzero digits (A055471) and by the sum of their digits (A005349).",
+  "id": "A342262",
+  "mentions": [
+    "A005349",
+    "A038186",
+    "A051004",
+    "A055471",
+    "A328273",
+    "A342650"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

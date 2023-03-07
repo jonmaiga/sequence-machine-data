@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2*n - 1) / A326478(2*n - 1).",
+  "id": "A326577",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A326478",
+    "A326578"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

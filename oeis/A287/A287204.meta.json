@@ -1,0 +1,22 @@
+{
+  "description": "Number of independent vertex sets and vertex covers in the n-triangular honeycomb acute knight graph.",
+  "id": "A287204",
+  "mentions": [
+    "A027740",
+    "A244500",
+    "A287195",
+    "A287229",
+    "A287230",
+    "A289902"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

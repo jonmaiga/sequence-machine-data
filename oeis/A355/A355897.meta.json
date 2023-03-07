@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index in A354790 of first nonprime term divisible by prime(n).",
+  "id": "A355897",
+  "mentions": [
+    "A354790",
+    "A354791",
+    "A354792"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

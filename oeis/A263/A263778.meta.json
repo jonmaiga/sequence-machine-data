@@ -1,0 +1,19 @@
+{
+  "description": "Number of inversion sequences avoiding pattern 120.",
+  "id": "A263778",
+  "mentions": [
+    "A263777",
+    "A263779",
+    "A263780"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

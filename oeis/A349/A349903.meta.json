@@ -1,0 +1,26 @@
+{
+  "description": "Array read by ascending antidiagonals. Inverse Euler transform of the right-shifted k-bonacci numbers.",
+  "id": "A349903",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A057427",
+    "A063524",
+    "A092921",
+    "A349802"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

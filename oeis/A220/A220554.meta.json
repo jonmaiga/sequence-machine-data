@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write 2n = p+q (q>0) with p, 2p+1 and (p-1)^2+q^2 all prime",
+  "id": "A220554",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A036468",
+    "A218867",
+    "A219055",
+    "A219842",
+    "A219864",
+    "A219923",
+    "A220272",
+    "A220413",
+    "A220419",
+    "A220431",
+    "A220455"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Column 0 of triangle A127126.",
+  "id": "A127127",
+  "mentions": [
+    "A127126",
+    "A127128",
+    "A127129",
+    "A127130",
+    "A127131",
+    "A127132",
+    "A127133",
+    "A127134",
+    "A127135"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

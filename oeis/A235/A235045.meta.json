@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of permutations A235041/A235042.",
+  "id": "A235045",
+  "mentions": [
+    "A048720",
+    "A091206",
+    "A235032",
+    "A235041",
+    "A235042"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

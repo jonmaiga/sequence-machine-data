@@ -1,0 +1,26 @@
+{
+  "description": "Number of palindromic hexagonal numbers of length n whose index is also palindromic.",
+  "id": "A307766",
+  "mentions": [
+    "A000384",
+    "A054969",
+    "A054970",
+    "A082721",
+    "A307717",
+    "A307752",
+    "A307753"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

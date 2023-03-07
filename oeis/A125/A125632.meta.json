@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime p such that 13^n divides p^12 - 1.",
+  "id": "A125632",
+  "mentions": [
+    "A125609",
+    "A125610",
+    "A125611",
+    "A125612",
+    "A125633",
+    "A125634",
+    "A125635"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes without 0's or primes in their decimal expansion.",
+  "id": "A152313",
+  "mentions": [
+    "A019546",
+    "A034844",
+    "A087363",
+    "A152312"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

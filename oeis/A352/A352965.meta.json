@@ -1,0 +1,17 @@
+{
+  "description": "A variant of Van Eck's sequence where we only consider prime numbers: for n >= 0, if a(n) = a(n-p) for some prime number p, take the least such p and set a(n+1) = p; otherwise a(n+1) = 0. Start with a(1) = 0.",
+  "id": "A352965",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

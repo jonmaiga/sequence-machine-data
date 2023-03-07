@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes that are the arithmetic derivative (A003415) of some number.",
+  "id": "A351096",
+  "mentions": [
+    "A001358",
+    "A002620",
+    "A003415",
+    "A189441",
+    "A239433",
+    "A351095"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

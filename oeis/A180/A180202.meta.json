@@ -1,0 +1,22 @@
+{
+  "description": "The product of the two numbers in an amicable pair, A002025(n) * A002046(n).",
+  "id": "A180202",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A063990",
+    "A180163",
+    "A259180"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

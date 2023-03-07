@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) is the product of prime factors of the n-th composite, but with the largest prime incremented by 3 and the smallest decremented by 1.",
+  "id": "A141467",
+  "mentions": [
+    "A002808",
+    "A052369",
+    "A056608"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

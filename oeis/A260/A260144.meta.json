@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there exist two numbers a and b where k = a.b = sigma(a)*phi(b) (\".\" means concatenation).",
+  "id": "A260144",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A159000",
+    "A253824"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

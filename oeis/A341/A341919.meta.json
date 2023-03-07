@@ -1,0 +1,17 @@
+{
+  "description": "Number of strong triangulations of a disk with n nodes.",
+  "id": "A341919",
+  "mentions": [
+    "A341856"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

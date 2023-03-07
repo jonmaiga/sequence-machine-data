@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers with locations of right angle turns in the Ulam square spiral that are vertices of isosceles right triangles.",
+  "id": "A270269",
+  "mentions": [
+    "A087277",
+    "A172979"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

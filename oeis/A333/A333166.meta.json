@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-regular graphs on 2n unlabeled vertices with half-edges.",
+  "id": "A333166",
+  "mentions": [
+    "A333161",
+    "A333164",
+    "A333165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

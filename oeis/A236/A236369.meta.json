@@ -1,0 +1,19 @@
+{
+  "description": "4^n! - 3^n! + 2^n! - 1.",
+  "id": "A236369",
+  "mentions": [
+    "A203925",
+    "A236368"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

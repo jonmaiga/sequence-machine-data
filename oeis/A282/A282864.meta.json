@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographic first permutation of the nonnegative integers such that the partial sums of s(n)*a(n) always remain nonnegative, where s(n) = +1 if a(n) is prime, -1 else.",
+  "id": "A282864",
+  "mentions": [
+    "A282846"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

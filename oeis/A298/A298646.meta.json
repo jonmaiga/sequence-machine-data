@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the degrees of asymmetry of all Dyck paths of semilength n.",
+  "id": "A298646",
+  "mentions": [
+    "A000108",
+    "A298645"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

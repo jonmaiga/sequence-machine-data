@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=2, k=2,...,n) is the minimal position at which the sequence A_n merges with the sequence A_k, where A_n be the sequence defined in the same way as A159559 but with initial term prime(n).",
+  "id": "A276676",
+  "mentions": [
+    "A159559",
+    "A229019",
+    "A229132"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

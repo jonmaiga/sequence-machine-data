@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of iterations needed to reach 1 or 5 starting at n and using the map k -> (k/2 if k is even, otherwise k + (smallest triangular number > k)). Set a(n) = -1 if the trajectory never reaches 1 or 5.",
+  "id": "A326825",
+  "mentions": [
+    "A006577",
+    "A326823"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

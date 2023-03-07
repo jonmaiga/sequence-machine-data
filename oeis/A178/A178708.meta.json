@@ -1,0 +1,20 @@
+{
+  "description": "Position of start of first appearance of n consecutive 0's in the binary expansion of Pi.",
+  "id": "A178708",
+  "mentions": [
+    "A004601",
+    "A050279",
+    "A178709"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

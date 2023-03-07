@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n} (-1)^(n-j)*C(-j,-n)*S2(j,k), S2 the Stirling set numbers A048993, for n>=0 and 0<=k<=n.",
+  "id": "A269952",
+  "mentions": [
+    "A000079",
+    "A000096",
+    "A001047",
+    "A005493",
+    "A016269",
+    "A025211",
+    "A048993",
+    "A049444",
+    "A074051",
+    "A136124",
+    "A143491",
+    "A143494",
+    "A215862",
+    "A269951"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

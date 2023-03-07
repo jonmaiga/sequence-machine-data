@@ -1,0 +1,20 @@
+{
+  "description": "Bitwise XOR of first n triangular numbers.",
+  "id": "A193232",
+  "mentions": [
+    "A000217",
+    "A003815",
+    "A145768"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

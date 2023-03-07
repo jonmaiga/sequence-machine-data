@@ -1,0 +1,22 @@
+{
+  "description": "Similar to A100787, but alternate with addition and multiplication instead. See Comments section for more information.",
+  "id": "A339951",
+  "mentions": [
+    "A100787",
+    "A107974",
+    "A107975",
+    "A107976",
+    "A107977"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

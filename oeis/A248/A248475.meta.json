@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs of partitions of n that are successors in reverse lexicographic order, but incomparable in dominance (natural, majorization) ordering.",
+  "id": "A248475",
+  "mentions": [
+    "A001475",
+    "A076276",
+    "A182988",
+    "A248476"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

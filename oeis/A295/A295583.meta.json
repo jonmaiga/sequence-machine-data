@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; thereafter, a(n+1) = Sum_{d divides n} (n!/(d!*(n/d)!))*2^d*a(n/d).",
+  "id": "A295583",
+  "mentions": [
+    "A295577",
+    "A295578"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1,2,....,n} with an arithmetic mean that is an integer and also a divisor of n.",
+  "id": "A114976",
+  "mentions": [
+    "A000005",
+    "A051293"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

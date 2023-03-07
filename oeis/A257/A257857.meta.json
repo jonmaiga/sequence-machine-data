@@ -1,0 +1,22 @@
+{
+  "description": "Sequentially filled binary triangle rotated 180 degrees and then superimposed and added to the original triangle.",
+  "id": "A257857",
+  "mentions": [
+    "A186421",
+    "A201629",
+    "A240828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

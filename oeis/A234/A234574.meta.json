@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the number of size k ordered submultisets of the regular multiset {1_1,1_2,...,1_(n-1),1_n, ... ,i_1,i_2,...,i_(n-1),i_n, ... ,n_1,n_2,...,n_(n-1),n_n} (which contains n copies of i for 1 <= i <= n).",
+  "id": "A234574",
+  "mentions": [
+    "A181567",
+    "A274762"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

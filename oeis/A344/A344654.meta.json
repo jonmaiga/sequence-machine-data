@@ -1,0 +1,52 @@
+{
+  "description": "Number of integer partitions of n of which every permutation has a consecutive monotone triple, i.e., a triple (..., x, y, z, ...) such that either x <= y <= z or x >= y >= z.",
+  "id": "A344654",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A001250",
+    "A003242",
+    "A025047",
+    "A025048",
+    "A025049",
+    "A102726",
+    "A103919",
+    "A325534",
+    "A325535",
+    "A333489",
+    "A335126",
+    "A335433",
+    "A335448",
+    "A344604",
+    "A344605",
+    "A344606",
+    "A344607",
+    "A344614",
+    "A344615",
+    "A344653",
+    "A344740",
+    "A344742",
+    "A345162",
+    "A345163",
+    "A345164",
+    "A345165",
+    "A345166",
+    "A345168",
+    "A345169",
+    "A345170",
+    "A345171",
+    "A345172",
+    "A345192"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

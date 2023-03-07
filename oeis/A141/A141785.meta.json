@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form -x^2 + 5*x*y + 5*y^2 (as well as of the form 9*x^2 + 15*x*y + 5*y^2).",
+  "id": "A141785",
+  "mentions": [
+    "A033212",
+    "A038872",
+    "A038873",
+    "A038883",
+    "A038889",
+    "A068228",
+    "A141111",
+    "A141112",
+    "A141123"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

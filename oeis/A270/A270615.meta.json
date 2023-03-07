@@ -1,0 +1,20 @@
+{
+  "description": "Sporadic solutions s to the equations Sum_i (-1)^i * binomial(m,i) * binomial(s-m,t-i) = 0 listed in increasing order.",
+  "id": "A270615",
+  "mentions": [
+    "A269499",
+    "A269563"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

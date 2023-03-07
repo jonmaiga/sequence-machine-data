@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = |A053123(n/2+k/2,k)| for even n+k, T(n,k)= A082985((n+k-1)/2,k) for odd n+k; read by rows, 0<=k<=n.",
+  "id": "A125175",
+  "mentions": [
+    "A053123",
+    "A082985",
+    "A125176"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

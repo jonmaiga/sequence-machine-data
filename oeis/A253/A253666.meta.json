@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) = C(n,k)*n!/(floor(n/2)!)^2, n>=0, 0<=k<=n.",
+  "id": "A253666",
+  "mentions": [
+    "A002894",
+    "A021012",
+    "A056040",
+    "A196347",
+    "A253665"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

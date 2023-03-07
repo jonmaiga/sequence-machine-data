@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the maximum number of common subsequences of k distinct permutations of n items, with n>=1 and 1<=k<=n!.",
+  "id": "A277517",
+  "mentions": [
+    "A001563",
+    "A090529",
+    "A152072",
+    "A277855"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

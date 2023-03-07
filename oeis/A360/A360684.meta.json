@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} (x * (1 + k^2 * x))^k.",
+  "id": "A360684",
+  "mentions": [
+    "A355471",
+    "A360592",
+    "A360647"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

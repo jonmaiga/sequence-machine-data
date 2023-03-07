@@ -1,0 +1,36 @@
+{
+  "description": "Sum of all parts in the n-th region of the set of partitions of j, if 1<=n<=A000041(j).",
+  "id": "A186412",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A046746",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A138879",
+    "A182244",
+    "A186114",
+    "A187219",
+    "A193870",
+    "A194436",
+    "A194437",
+    "A194438",
+    "A194439",
+    "A194446",
+    "A194447",
+    "A206437"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

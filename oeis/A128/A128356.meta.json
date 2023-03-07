@@ -1,0 +1,27 @@
+{
+  "description": "Least number k > 1 (that is not the power of prime p) such that k divides (p+1)^k-1, where p = prime(n).",
+  "id": "A128356",
+  "mentions": [
+    "A014945",
+    "A014946",
+    "A014949",
+    "A014951",
+    "A014956",
+    "A014960",
+    "A067945",
+    "A128357",
+    "A128358",
+    "A128360"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

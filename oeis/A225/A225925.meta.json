@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A002129(n^2)*x^n/n ), where A002129(n) is the excess of sum of odd divisors of n over sum of even divisors of n.",
+  "id": "A225925",
+  "mentions": [
+    "A002129",
+    "A215603",
+    "A224339",
+    "A224340"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

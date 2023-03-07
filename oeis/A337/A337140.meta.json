@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m = a + b with a and b positive integers whose product a*b = k^2 is a square.",
+  "id": "A337140",
+  "mentions": [
+    "A004613",
+    "A004614",
+    "A005843",
+    "A018825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

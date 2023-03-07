@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of integer partitions not containing 1 or any part whose prime indices all belong to the partition.",
+  "id": "A324760",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A007097",
+    "A056239",
+    "A112798",
+    "A289509",
+    "A290822",
+    "A306844",
+    "A324694",
+    "A324695",
+    "A324696",
+    "A324737",
+    "A324739",
+    "A324744",
+    "A324750",
+    "A324755",
+    "A324762"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

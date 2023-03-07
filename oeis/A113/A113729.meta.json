@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the integer between p(n) and p(n+3) which is divisible by (p(n+3)-p(n)), where p(n) is the n-th prime.",
+  "id": "A113729",
+  "mentions": [
+    "A113709",
+    "A113728"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

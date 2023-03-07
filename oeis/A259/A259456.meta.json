@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, giving coefficients in an expansion of absolute values of Stirling numbers of the first kind in terms of binomial coefficients.",
+  "id": "A259456",
+  "mentions": [
+    "A000142",
+    "A000276",
+    "A000483",
+    "A008275",
+    "A111999",
+    "A133932"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

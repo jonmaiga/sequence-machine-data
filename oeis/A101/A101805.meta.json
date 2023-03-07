@@ -1,0 +1,18 @@
+{
+  "description": "Number of Ruth-Aaron numbers (with multiplicity) less than 10^n.",
+  "id": "A101805",
+  "mentions": [
+    "A039752"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

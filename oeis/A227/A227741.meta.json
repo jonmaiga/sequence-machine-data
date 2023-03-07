@@ -1,0 +1,24 @@
+{
+  "description": "Simple self-inverse permutation of natural numbers: List each block of A005811(n) numbers from A173318(n-1)+1 to A173318(n) in reverse order.",
+  "id": "A227741",
+  "mentions": [
+    "A005811",
+    "A101211",
+    "A173318",
+    "A227736",
+    "A227737",
+    "A227740",
+    "A227742"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

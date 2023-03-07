@@ -1,0 +1,20 @@
+{
+  "description": "Write numbers 0, 1, 2, ... in binary under each other, right-adjusted; shift the 2^k's column upwards by prime(k+1) places (for k >= 0); read the resulting array across rows starting at the (old) zero row; convert to decimal.",
+  "id": "A106623",
+  "mentions": [
+    "A102370"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

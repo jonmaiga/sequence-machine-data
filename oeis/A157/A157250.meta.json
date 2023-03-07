@@ -1,0 +1,23 @@
+{
+  "description": "Wilson numbers: n such that the generalized Wilson quotient A157249(n) is divisible by n.",
+  "id": "A157250",
+  "mentions": [
+    "A001783",
+    "A007540",
+    "A007619",
+    "A033948",
+    "A157249"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

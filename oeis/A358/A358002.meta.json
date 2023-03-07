@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that one of k-A001414(k) and k+A001414(k) is a prime and the other is the square of a prime.",
+  "id": "A358002",
+  "mentions": [
+    "A001414",
+    "A050703",
+    "A050704",
+    "A075254"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

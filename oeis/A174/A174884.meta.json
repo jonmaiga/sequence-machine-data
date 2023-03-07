@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes using only (decimal) square digits 0,1,4,9.",
+  "id": "A174884",
+  "mentions": [
+    "A002385",
+    "A007500",
+    "A083185",
+    "A155214"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

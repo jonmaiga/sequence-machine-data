@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 16 under iteration of the map k -> A087712(k).",
+  "id": "A144915",
+  "mentions": [
+    "A087712",
+    "A098282"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:03",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

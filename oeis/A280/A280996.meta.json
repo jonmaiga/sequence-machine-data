@@ -1,0 +1,23 @@
+{
+  "description": "Entries are the prime Matula-Goebel numbers of generalized Bethe trees.",
+  "id": "A280996",
+  "mentions": [
+    "A003238",
+    "A007097",
+    "A214577",
+    "A276625",
+    "A277098",
+    "A280994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

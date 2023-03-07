@@ -1,0 +1,23 @@
+{
+  "description": "Restricted growth sequence transform of A292249; filter combining multiplicative order of 2 mod 2n+1 & prime signature of 2n+1 (A002326 & A278223).",
+  "id": "A291769",
+  "mentions": [
+    "A002326",
+    "A046523",
+    "A278223",
+    "A286573",
+    "A291766",
+    "A292249",
+    "A292267"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

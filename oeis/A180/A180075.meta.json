@@ -1,0 +1,19 @@
+{
+  "description": "If A015910(m) is a power of 2, append log_2(A015910(m)) to the sequence.",
+  "id": "A180075",
+  "mentions": [
+    "A000079",
+    "A015910"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

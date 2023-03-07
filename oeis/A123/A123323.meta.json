@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer-sided triangles with maximum side n, with sides relatively prime.",
+  "id": "A123323",
+  "mentions": [
+    "A002620",
+    "A051493",
+    "A054875",
+    "A070110",
+    "A123324",
+    "A123325",
+    "A239246"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

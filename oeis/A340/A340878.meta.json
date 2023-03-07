@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of K3 = 11*sqrt(3)/(18*Pi) * Product_{primes p == 1 (mod 3)} (1 - 2/(p*(p+1))).",
+  "id": "A340878",
+  "mentions": [
+    "A340857",
+    "A340879"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

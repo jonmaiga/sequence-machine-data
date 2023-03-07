@@ -1,0 +1,20 @@
+{
+  "description": "Mutual solutions to two classification counting problems: binary block codes of wordlength J with N used words; and classifications of N elements by J partitions.",
+  "id": "A171876",
+  "mentions": [
+    "A005646",
+    "A039754",
+    "A171871",
+    "A171872"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

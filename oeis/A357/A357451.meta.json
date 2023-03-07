@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into tribonacci numbers 1,2,4,7,13,24, ... (A000073).",
+  "id": "A357451",
+  "mentions": [
+    "A000073",
+    "A076739",
+    "A117546",
+    "A240844",
+    "A357453",
+    "A357455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

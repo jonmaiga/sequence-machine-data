@@ -1,0 +1,47 @@
+{
+  "description": "Difference between the number of nodes and the node-height of the rooted tree with Matula-Goebel number n.",
+  "id": "A358729",
+  "mentions": [
+    "A000040",
+    "A000081",
+    "A000108",
+    "A000720",
+    "A001222",
+    "A001263",
+    "A007097",
+    "A034781",
+    "A055277",
+    "A056239",
+    "A061775",
+    "A080936",
+    "A109082",
+    "A109129",
+    "A112798",
+    "A196050",
+    "A206487",
+    "A209638",
+    "A316321",
+    "A342507",
+    "A358552",
+    "A358576",
+    "A358577",
+    "A358580",
+    "A358592",
+    "A358724",
+    "A358725",
+    "A358726",
+    "A358730",
+    "A358731"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

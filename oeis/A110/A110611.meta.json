@@ -1,0 +1,20 @@
+{
+  "description": "Minimal value of sum(p(i)p(i+1),i=1..n), where p(n+1)=p(1), as p ranges over all permutations of {1,2,...,n}.",
+  "id": "A110611",
+  "mentions": [
+    "A064842",
+    "A110610"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

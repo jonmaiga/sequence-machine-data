@@ -1,0 +1,19 @@
+{
+  "description": "For 0<=n<=100, a(n) is the number of positive responses x such that x/N rounds to n%, minimized over sample size N.",
+  "id": "A239526",
+  "mentions": [
+    "A239525"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

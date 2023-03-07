@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with 2 or 3 prime divisors (counted with multiplicity).",
+  "id": "A168645",
+  "mentions": [
+    "A001222",
+    "A063989"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

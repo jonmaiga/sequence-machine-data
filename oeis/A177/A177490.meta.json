@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (41*10^n-23)/9.",
+  "id": "A177490",
+  "mentions": [
+    "A102991"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

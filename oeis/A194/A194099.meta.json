@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m>=2, such that, if a prime p divides m^2-1, then every prime q",
+  "id": "A194099",
+  "mentions": [
+    "A005563",
+    "A055932"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

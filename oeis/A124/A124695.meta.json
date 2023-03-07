@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sum of digits of n^2 = sum of digits of (reverse n)^2.",
+  "id": "A124695",
+  "mentions": [
+    "A004086",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

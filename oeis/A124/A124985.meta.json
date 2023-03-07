@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 8*k + 7 generated recursively. Initial prime is 7. General term is a(n) = Min_{p is prime; p divides 8*Q^2 - 1; p == 7 (mod 8)}, where Q is the product of the previous terms.",
+  "id": "A124985",
+  "mentions": [
+    "A000945",
+    "A007522",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A124984",
+    "A124993",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

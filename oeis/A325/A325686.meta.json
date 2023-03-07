@@ -1,0 +1,31 @@
+{
+  "description": "Number of strict length-3 compositions x + y + z = n satisfying x + y != z and x != y + z.",
+  "id": "A325686",
+  "mentions": [
+    "A000079",
+    "A001399",
+    "A005044",
+    "A108917",
+    "A124278",
+    "A143823",
+    "A266223",
+    "A275972",
+    "A325676",
+    "A325677",
+    "A325688",
+    "A325689",
+    "A325690",
+    "A325691"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

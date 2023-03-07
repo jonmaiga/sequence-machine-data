@@ -1,0 +1,25 @@
+{
+  "description": "List of primes p1 such that (p1,p2) are twin primes where both 2*p1+p2 and p1+2*p2 are primes.",
+  "id": "A174920",
+  "mentions": [
+    "A001359",
+    "A132929",
+    "A174913",
+    "A174915",
+    "A174916",
+    "A174917",
+    "A177335",
+    "A177336"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

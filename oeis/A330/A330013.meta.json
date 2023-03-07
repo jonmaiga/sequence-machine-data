@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of solutions with nonnegative (x,y,z) to the cubic Diophantine equation x^3+y^3+z^3 - 3*x*y*z = n.",
+  "id": "A330013",
+  "mentions": [
+    "A016051",
+    "A050787",
+    "A050791",
+    "A074232",
+    "A212420",
+    "A261029"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the first moment of the reciprocal gamma distribution.",
+  "id": "A273017",
+  "mentions": [
+    "A058655"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

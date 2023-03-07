@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that prime(n) divides Sum_{i=1..k} A086169(i), or 0 if no such k exists, where A086169(i) is the sum of the first i twin prime pairs.",
+  "id": "A239309",
+  "mentions": [
+    "A000040",
+    "A054735",
+    "A086169"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

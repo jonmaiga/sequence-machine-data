@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers such that product_{i=1..k} (p_i/(p_i-1)) / sum_{i=1..k} (p_i/(p_i-1)) is an integer, where p_i are the k prime factors of n (with multiplicity).",
+  "id": "A227034",
+  "mentions": [
+    "A224346",
+    "A224912",
+    "A226365",
+    "A227248"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

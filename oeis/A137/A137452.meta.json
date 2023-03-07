@@ -1,0 +1,33 @@
+{
+  "description": "Triangular array of the coefficients of the sequence of Abel polynomials A(n,x) := x*(x-n)^(n-1).",
+  "id": "A137452",
+  "mentions": [
+    "A000272",
+    "A006232",
+    "A046521",
+    "A049444",
+    "A059297",
+    "A061354",
+    "A061355",
+    "A061356",
+    "A095996",
+    "A177885",
+    "A264234",
+    "A264428",
+    "A264429"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

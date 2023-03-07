@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest integer > n that is non-coprime to n and has the same number of 1's in its binary representation as n has.",
+  "id": "A145256",
+  "mentions": [
+    "A145254",
+    "A145255",
+    "A145257"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

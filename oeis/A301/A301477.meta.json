@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = Sum_{j=0..n-k} H(n,j)*2^k with H(n,k) = binomial(n,k)* hypergeom([-k/2, 1/2-k/2], [2-k+n], 4), for 0 <= k <= n, triangle read by rows.",
+  "id": "A301477",
+  "mentions": [
+    "A000079",
+    "A005773",
+    "A126932",
+    "A301475"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

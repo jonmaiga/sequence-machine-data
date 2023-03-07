@@ -1,0 +1,20 @@
+{
+  "description": "The binary expansions of b(n+1) and b(n) are required to have 1's in common at exactly the positions where a(n) has a 1 in its binary expansion, where b() is A305369.",
+  "id": "A305371",
+  "mentions": [
+    "A109812",
+    "A303369",
+    "A305369"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

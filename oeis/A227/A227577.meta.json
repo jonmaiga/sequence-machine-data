@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by antidiagonals, A(n,k) the numerators of the elements of the difference table of the Euler polynomials evaluated at x=1, for n>=0, k>=0.",
+  "id": "A227577",
+  "mentions": [
+    "A006519",
+    "A027641",
+    "A027642",
+    "A060096",
+    "A085737",
+    "A085738",
+    "A160467",
+    "A164555",
+    "A181131",
+    "A181722",
+    "A190339",
+    "A198631",
+    "A209308",
+    "A212196",
+    "A226158"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

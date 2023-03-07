@@ -1,0 +1,21 @@
+{
+  "description": "Nearest-neighbors of odd primes, divided by 2.",
+  "id": "A147820",
+  "mentions": [
+    "A134926",
+    "A134933",
+    "A147819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

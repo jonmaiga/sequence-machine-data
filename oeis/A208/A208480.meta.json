@@ -1,0 +1,18 @@
+{
+  "description": "Number of representations of n as m_1/1 + m_2/2 + ... + m_n/n where m_i are nonnegative integers.",
+  "id": "A208480",
+  "mentions": [
+    "A020473"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

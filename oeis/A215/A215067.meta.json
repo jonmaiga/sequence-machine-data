@@ -1,0 +1,20 @@
+{
+  "description": "Number of Motzkin n-paths avoiding odd-numbered steps that are up steps.",
+  "id": "A215067",
+  "mentions": [
+    "A106228",
+    "A109081",
+    "A114465"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

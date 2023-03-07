@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1; thereafter a(n)=a(n-1)+a([n/Phi]), where Phi=(1+sqrt(5))/2, the golden ratio.",
+  "id": "A131882",
+  "mentions": [
+    "A006336"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

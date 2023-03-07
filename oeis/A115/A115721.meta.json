@@ -1,0 +1,24 @@
+{
+  "description": "Table of Durfee square of partitions in Abramowitz and Stegun order.",
+  "id": "A115721",
+  "mentions": [
+    "A000041",
+    "A036036",
+    "A115720",
+    "A115722",
+    "A115994",
+    "A115995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

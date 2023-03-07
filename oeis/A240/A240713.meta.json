@@ -1,0 +1,20 @@
+{
+  "description": "Number of decompositions of 2n=p1+p2 (prime p1 <= p2), where at least one other such pair 2n=p3+p4 (prime p3 <= p4) exists such that |p1-p3|= 6 or 12.",
+  "id": "A240713",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A240712"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = product of numbers from 1 to sigma(n), where sigma(n) = A000203(n).",
+  "id": "A184388",
+  "mentions": [
+    "A000142",
+    "A000203",
+    "A130674",
+    "A184387",
+    "A184389",
+    "A184390",
+    "A184391"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

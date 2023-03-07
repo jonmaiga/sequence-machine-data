@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..1 arrays with no 1 equal to more than one of its horizontal and vertical neighbors, with the exception of exactly two elements.",
+  "id": "A283099",
+  "mentions": [
+    "A283100"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

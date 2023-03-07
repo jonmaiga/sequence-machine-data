@@ -1,0 +1,24 @@
+{
+  "description": "Restricted growth sequence transform of A304104, a filter sequence related to how the divisors of n are expressed in Fibonacci number system.",
+  "id": "A304105",
+  "mentions": [
+    "A000005",
+    "A005086",
+    "A300837",
+    "A304096",
+    "A304101",
+    "A304103",
+    "A304104"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

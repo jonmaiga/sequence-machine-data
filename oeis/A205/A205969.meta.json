@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Fibonacci(n)*A113973(n) for n>=1, with a(0)=1, where A113973 lists the coefficients in phi(x^3)^3/phi(x) and phi() is a Ramanujan theta function.",
+  "id": "A205969",
+  "mentions": [
+    "A000204",
+    "A113973",
+    "A203847",
+    "A205966",
+    "A205968",
+    "A205970",
+    "A209449"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

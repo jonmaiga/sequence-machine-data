@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = -Zeta(1-n)*n*(2^(n+1) - 4) - Zeta(-n)*(n+1)*(2^(n+2) - 2), for n = 0 the limit is understood.",
+  "id": "A240485",
+  "mentions": [
+    "A001469",
+    "A005439",
+    "A110501",
+    "A226158",
+    "A230324"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 06:02:54",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

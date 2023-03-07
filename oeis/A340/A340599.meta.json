@@ -1,0 +1,39 @@
+{
+  "description": "Number of factorizations of n into factors > 1 with length and greatest factor equal.",
+  "id": "A340599",
+  "mentions": [
+    "A001055",
+    "A006141",
+    "A010054",
+    "A045778",
+    "A047993",
+    "A098124",
+    "A106529",
+    "A117409",
+    "A316439",
+    "A320655",
+    "A320656",
+    "A324518",
+    "A339846",
+    "A339890",
+    "A340596",
+    "A340597",
+    "A340598",
+    "A340600",
+    "A340607",
+    "A340611",
+    "A340653",
+    "A340654",
+    "A340655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

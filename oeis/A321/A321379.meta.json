@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as n = a*b*c*d with 1 < a <= b <= c <= d < n.",
+  "id": "A321379",
+  "mentions": [
+    "A026810",
+    "A101638",
+    "A122179",
+    "A218320"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

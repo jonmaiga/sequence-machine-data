@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, such that diagonal 2n of T equals diagonal n of T^2 and diagonal 2n+1 of T equals diagonal n of T*U: [T^2](n,k) = T(2n-k,k) and [T*U](n,k) = T(2n+1-k,k) for n>=k, k>=0, where U = SHIFT_UP(T).",
+  "id": "A118032",
+  "mentions": [
+    "A118033",
+    "A118034",
+    "A118035",
+    "A118036",
+    "A118037",
+    "A118038",
+    "A118039",
+    "A118040",
+    "A118045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

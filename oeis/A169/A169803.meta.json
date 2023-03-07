@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n+1-k,k) (n >= 0, 0 <= k <= n).",
+  "id": "A169803",
+  "mentions": [
+    "A000045",
+    "A000930",
+    "A007318",
+    "A011973",
+    "A054142",
+    "A092865",
+    "A098925",
+    "A102426",
+    "A172431",
+    "A218272"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:47",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

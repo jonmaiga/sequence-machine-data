@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1-x^(3*k+1))^k.",
+  "id": "A263405",
+  "mentions": [
+    "A262876",
+    "A263031",
+    "A263406",
+    "A263414",
+    "A263415"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

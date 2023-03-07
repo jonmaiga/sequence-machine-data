@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining A001065(n) and A009195(n), the sum of proper divisors of n and gcd(n,phi(n)).",
+  "id": "A300241",
+  "mentions": [
+    "A000027",
+    "A001065",
+    "A009195",
+    "A300231",
+    "A300240",
+    "A300242",
+    "A300243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

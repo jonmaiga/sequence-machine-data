@@ -1,0 +1,21 @@
+{
+  "description": "Smallest i such that i*2^(2)-1, ..., i*2^(n+2)-1 are primes.",
+  "id": "A101236",
+  "mentions": [
+    "A001122",
+    "A002515",
+    "A101790",
+    "A101794"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

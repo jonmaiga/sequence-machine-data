@@ -1,0 +1,21 @@
+{
+  "description": "An inverse Chebyshev transform of (1-x)/(1-2x).",
+  "id": "A100098",
+  "mentions": [
+    "A000108",
+    "A001045",
+    "A127361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

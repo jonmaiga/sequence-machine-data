@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-equivalent regular polygons with n+1 edges, one of which is rooted, which are dissected by non-intersecting diagonals into k regions, such that two such polygons are identified up to reflection along the rooted edge and twisting along the diagonals that does not affect the root edge (for 1 <= k <= n-1 and n >= 2).",
+  "id": "A232206",
+  "mentions": [
+    "A001190",
+    "A024206",
+    "A032132",
+    "A033282",
+    "A295380"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

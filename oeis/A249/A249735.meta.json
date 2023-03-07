@@ -1,0 +1,29 @@
+{
+  "description": "Odd bisection of A003961: Replace in 2n-1 each prime factor p(k) with prime p(k+1).",
+  "id": "A249735",
+  "mentions": [
+    "A003961",
+    "A007310",
+    "A038179",
+    "A048673",
+    "A064216",
+    "A083140",
+    "A083221",
+    "A246277",
+    "A246278",
+    "A249734",
+    "A249745",
+    "A249746"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

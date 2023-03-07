@@ -1,0 +1,31 @@
+{
+  "description": "Combined weight of the n-th FDH set-system. Factor n into distinct Fermi-Dirac primes (A050376), normalize by replacing every instance of the k-th Fermi-Dirac prime with k, then add up their FD-weights (A064547).",
+  "id": "A305830",
+  "mentions": [
+    "A003963",
+    "A050376",
+    "A056239",
+    "A061775",
+    "A064547",
+    "A213925",
+    "A279065",
+    "A279614",
+    "A299755",
+    "A299756",
+    "A299757",
+    "A302242",
+    "A302243",
+    "A305829",
+    "A305832"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

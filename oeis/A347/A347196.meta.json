@@ -1,0 +1,24 @@
+{
+  "description": "Let c(k) be the infinite binary string 010111001... (A030308), the concatenation of reverse order integer binary words ( 0;1;01;11;001;101;... ). a(n) is the bit index k of the first occurrence of the reverse order binary word of n ( n = 2^0*c(a(n)) + 2^1*c(a(n)+1) + ... ).",
+  "id": "A347196",
+  "mentions": [
+    "A030304",
+    "A030308",
+    "A030311",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

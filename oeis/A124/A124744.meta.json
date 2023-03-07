@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1+x*y)/(1-x^2*y^2+x^3*y^2).",
+  "id": "A124744",
+  "mentions": [
+    "A124745",
+    "A124746",
+    "A124747"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

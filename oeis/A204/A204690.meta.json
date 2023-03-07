@@ -1,0 +1,19 @@
+{
+  "description": "n^n (mod 5).",
+  "id": "A204690",
+  "mentions": [
+    "A174824",
+    "A204689"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:03",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers R(k) such that R(k) >= 2k log R(k), where R(k) = A104272(k) is the k-th Ramanujan prime.",
+  "id": "A214934",
+  "mentions": [
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

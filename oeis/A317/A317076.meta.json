@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected antichains of multisets with multiset-join a strongly normal multiset of size n.",
+  "id": "A317076",
+  "mentions": [
+    "A048143",
+    "A255906",
+    "A286520",
+    "A303837",
+    "A303838",
+    "A304716",
+    "A305001",
+    "A305078",
+    "A317074",
+    "A317075",
+    "A317078",
+    "A317080"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

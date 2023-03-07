@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that the greatest prime factor of m^2 + 1 is a Fibonacci number.",
+  "id": "A352290",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A002522",
+    "A005478",
+    "A014442",
+    "A248516",
+    "A281618",
+    "A338762",
+    "A339461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

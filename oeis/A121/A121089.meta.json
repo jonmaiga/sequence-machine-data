@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that f(n), f(n+1) and f(n+2) are prime, f(m)=72*m^2+7.",
+  "id": "A121089",
+  "mentions": [
+    "A007522",
+    "A121068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

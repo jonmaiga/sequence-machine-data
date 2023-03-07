@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) of weakly graded (3+1)-free partially ordered sets (posets) on n labeled vertices with height k.",
+  "id": "A222866",
+  "mentions": [
+    "A001833",
+    "A079145",
+    "A222863",
+    "A222865"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

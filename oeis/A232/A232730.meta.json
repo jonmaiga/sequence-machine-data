@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit numbers that yield an (n+1)-digit number after Reverse and Add.",
+  "id": "A232730",
+  "mentions": [
+    "A232729",
+    "A232731"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

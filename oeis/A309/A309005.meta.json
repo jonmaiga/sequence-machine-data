@@ -1,0 +1,19 @@
+{
+  "description": "Odd squarefree composite numbers m such that m+2 is prime.",
+  "id": "A309005",
+  "mentions": [
+    "A024556",
+    "A136354",
+    "A241809"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

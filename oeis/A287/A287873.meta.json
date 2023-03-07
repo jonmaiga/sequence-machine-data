@@ -1,0 +1,19 @@
+{
+  "description": "The right-hand part of the \"Empire State Building\" array read by rows.",
+  "id": "A287873",
+  "mentions": [
+    "A287871",
+    "A287872"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

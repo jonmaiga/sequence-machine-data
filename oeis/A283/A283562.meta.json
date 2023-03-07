@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form (p^2 - q^2) / 24 with primes p > q > 3.",
+  "id": "A283562",
+  "mentions": [
+    "A006489",
+    "A045468",
+    "A060212",
+    "A092110",
+    "A124865",
+    "A124866",
+    "A125272",
+    "A283532"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

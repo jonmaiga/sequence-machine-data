@@ -1,0 +1,19 @@
+{
+  "description": "Least possible value for the highest denominator in the decomposition of unity as a sum of different unitary fractions the greatest of which is 1/n.",
+  "id": "A294651",
+  "mentions": [
+    "A192881",
+    "A272083"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

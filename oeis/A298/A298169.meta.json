@@ -1,0 +1,19 @@
+{
+  "description": "The first of three consecutive primes the sum of which is equal to the sum of three consecutive triangular numbers.",
+  "id": "A298169",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A298168"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Interpolation one-half polynomials based on Chebyshev T(x.n) polynomial coefficients(A053120 ): even-> 2*T(x,n); odd->T(x,n) + T(x,n+1).",
+  "id": "A139146",
+  "mentions": [
+    "A053120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

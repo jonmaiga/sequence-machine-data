@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 14*k - 1 and 14*k + 1 are twin primes.",
+  "id": "A124520",
+  "mentions": [
+    "A002822",
+    "A040040",
+    "A045753",
+    "A063983",
+    "A124065",
+    "A124518",
+    "A124519",
+    "A124521",
+    "A124522"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

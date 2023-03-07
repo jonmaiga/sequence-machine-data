@@ -1,0 +1,21 @@
+{
+  "description": "Number of triples of permutations on n letters such that for each j, exactly one of the permutations fixes j and the other two have the same image on j.",
+  "id": "A137775",
+  "mentions": [
+    "A000007",
+    "A000166",
+    "A024000",
+    "A087981"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Take n equally spaced points on circle, connect them by a path with n-1 line segments; sequence gives number of distinct multisets of segment lengths.",
+  "id": "A352568",
+  "mentions": [
+    "A030077"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

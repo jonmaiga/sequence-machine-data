@@ -1,0 +1,18 @@
+{
+  "description": "Number of sequences of n pairs of balanced brackets of three types, round, square, and angle, such that no square brackets are allowed inside matching round brackets.",
+  "id": "A165976",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

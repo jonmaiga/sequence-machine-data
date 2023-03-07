@@ -1,0 +1,27 @@
+{
+  "description": "Total number of composite parts in all partitions of n.",
+  "id": "A326981",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A002808",
+    "A006128",
+    "A037032",
+    "A144115",
+    "A144116",
+    "A144119",
+    "A326957",
+    "A326982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

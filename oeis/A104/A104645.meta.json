@@ -1,0 +1,24 @@
+{
+  "description": "Difference between the previous and the next primes to x, where x is the number obtained from concatenation of the first n primes (A019518).",
+  "id": "A104645",
+  "mentions": [
+    "A019518",
+    "A074809",
+    "A104462",
+    "A104463",
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

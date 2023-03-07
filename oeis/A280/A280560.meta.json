@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (-1)^n * 2 if n!=0, with a(0) = 1.",
+  "id": "A280560",
+  "mentions": [
+    "A033999",
+    "A040000",
+    "A084100"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:01",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Table read by antidiagonals: if x(n+1) = A001414(x(n-1)) + A001414(x(n)) with x(0) = i and x(1) = j, then T(i,j) is the first k such that (x(k), x(k+1)) is a fixed point or a member of a cycle. If there is no such k, then T(i,j) = -1.",
+  "id": "A338994",
+  "mentions": [
+    "A001414",
+    "A338937"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest number that when multiplied by 7 produces an n-digit number.",
+  "id": "A241217",
+  "mentions": [
+    "A002277",
+    "A020806"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:47:18",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

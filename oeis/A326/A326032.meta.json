@@ -1,0 +1,31 @@
+{
+  "description": "a(2^x + ... + 2^z) = w(x) + ... + w(z), where x...z are distinct nonnegative integers and w = A000120.",
+  "id": "A326032",
+  "mentions": [
+    "A000120",
+    "A022290",
+    "A029931",
+    "A035327",
+    "A048793",
+    "A059590",
+    "A070939",
+    "A073642",
+    "A089625",
+    "A116549",
+    "A283526",
+    "A305830",
+    "A326031",
+    "A326669",
+    "A326702"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

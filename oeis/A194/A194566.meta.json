@@ -1,0 +1,28 @@
+{
+  "description": "Centered cube numbers: (n+1)^100+n^100.",
+  "id": "A194566",
+  "mentions": [
+    "A036085",
+    "A036102",
+    "A100266",
+    "A100267",
+    "A152913",
+    "A154535",
+    "A194155",
+    "A194185",
+    "A194216",
+    "A194553"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

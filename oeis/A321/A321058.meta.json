@@ -1,0 +1,22 @@
+{
+  "description": "Indices of records in A067849.",
+  "id": "A321058",
+  "mentions": [
+    "A005602",
+    "A057331",
+    "A063378",
+    "A067849",
+    "A067869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

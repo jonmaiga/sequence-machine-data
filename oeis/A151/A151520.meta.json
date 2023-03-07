@@ -1,0 +1,20 @@
+{
+  "description": "Number of 1-sided strip polytans with n cells.",
+  "id": "A151520",
+  "mentions": [
+    "A006074",
+    "A151521"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

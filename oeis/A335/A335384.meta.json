@@ -1,0 +1,29 @@
+{
+  "description": "Order of the finite groups GL(m,q) [or GL_m(q)] in increasing order as q runs through the prime powers.",
+  "id": "A335384",
+  "mentions": [
+    "A002884",
+    "A031963",
+    "A052496",
+    "A052497",
+    "A052498",
+    "A053290",
+    "A053291",
+    "A053292",
+    "A053293",
+    "A059238",
+    "A181062",
+    "A316622"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

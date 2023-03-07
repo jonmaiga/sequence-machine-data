@@ -1,0 +1,21 @@
+{
+  "description": "Up-variation of the base-15 digits of n; see Comments.",
+  "id": "A297244",
+  "mentions": [
+    "A297243",
+    "A297245",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

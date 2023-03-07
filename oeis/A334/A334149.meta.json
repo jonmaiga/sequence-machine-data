@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of terms required beyond the starting value n before a value larger than n first appears when following the same rules as Recamán's sequence A005132 but starting at n instead of 0.",
+  "id": "A334149",
+  "mentions": [
+    "A005132",
+    "A334148",
+    "A334219",
+    "A334225"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

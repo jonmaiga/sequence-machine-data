@@ -1,0 +1,20 @@
+{
+  "description": "Least square m^2 such that for all primes p where p and p-n are quadratic residues (mod 4*n), (m^2)*p can be written as x^2+n*y^2.",
+  "id": "A232530",
+  "mentions": [
+    "A000926",
+    "A232529"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

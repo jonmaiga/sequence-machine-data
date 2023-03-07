@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} Catalan(n-3*k).",
+  "id": "A360274",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A360273"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

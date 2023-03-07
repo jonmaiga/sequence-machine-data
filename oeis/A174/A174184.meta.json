@@ -1,0 +1,20 @@
+{
+  "description": "Prime(n)+even nonprime(n) is prime.",
+  "id": "A174184",
+  "mentions": [
+    "A000040",
+    "A076297",
+    "A163300"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

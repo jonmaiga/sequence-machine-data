@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k)=sum(bigomega(j),j=k..n) (1<=k<=n), where bigomega(j) is the number of prime divisors of j, counted with multiplicities.",
+  "id": "A110664",
+  "mentions": [
+    "A001222",
+    "A022559"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, and if x is a term then 3x-1 and 3x+2 are terms too.",
+  "id": "A191109",
+  "mentions": [
+    "A032924",
+    "A153775",
+    "A190803",
+    "A191106"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

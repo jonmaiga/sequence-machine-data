@@ -1,0 +1,19 @@
+{
+  "description": "A self-describing sequence: when the sequence is read as a string of digits, a(n) says the position of the digits that are prime.",
+  "id": "A203620",
+  "mentions": [
+    "A114315",
+    "A121053"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Iccanobif prime indices: indices of prime numbers in A014258.",
+  "id": "A101760",
+  "mentions": [
+    "A000040",
+    "A001129",
+    "A014258",
+    "A014260",
+    "A101759",
+    "A101762"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

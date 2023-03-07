@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of A179748. Equals A179748 beginning at the second column.",
+  "id": "A179749",
+  "mentions": [
+    "A179748",
+    "A179750"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

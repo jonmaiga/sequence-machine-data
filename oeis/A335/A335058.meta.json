@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of edges in an n-gon formed by the straight line segments connecting vertex k to vertex 2k mod n.",
+  "id": "A335058",
+  "mentions": [
+    "A335057",
+    "A335059",
+    "A335129"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 3,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

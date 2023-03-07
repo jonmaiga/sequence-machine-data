@@ -1,0 +1,23 @@
+{
+  "description": "For m >= 1, the m-digit number k = d_m||...||d_2||d_1 is a term if it is divisible by f_m(k) that is the sum of the m elementary symmetric polynomials in m variables e_i(k): f_m(k) = Sum_{i=1..m} e_i(d_1, ..., d_m).",
+  "id": "A343131",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A038366",
+    "A061486",
+    "A328864",
+    "A343132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

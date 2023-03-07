@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, where row n lists the coefficients of x^k, k=1..2^n, in the n-th iteration of (x + x^2) for n>=0.",
+  "id": "A122888",
+  "mentions": [
+    "A007018",
+    "A092123",
+    "A112317",
+    "A112319",
+    "A122887",
+    "A122889",
+    "A122890"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

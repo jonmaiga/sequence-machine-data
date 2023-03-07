@@ -1,0 +1,23 @@
+{
+  "description": "A divisibility sequence: (1/8)*(Pell(4*n) - 2*Pell(2*n)).",
+  "id": "A273627",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A127595",
+    "A273622",
+    "A273626"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

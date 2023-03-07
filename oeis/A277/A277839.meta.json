@@ -1,0 +1,21 @@
+{
+  "description": "Number of finite automata with n states, n input symbols and one output symbol.",
+  "id": "A277839",
+  "mentions": [
+    "A277840",
+    "A277841",
+    "A277842",
+    "A277843",
+    "A277844"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

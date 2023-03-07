@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that the number of strict integer partitions of k is a power of 2.",
+  "id": "A331022",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000079",
+    "A001055",
+    "A035359",
+    "A036498",
+    "A045778",
+    "A046063",
+    "A318286",
+    "A330977",
+    "A330989",
+    "A330990",
+    "A330994",
+    "A330995",
+    "A330996"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

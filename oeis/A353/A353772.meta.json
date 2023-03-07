@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the gravitational acceleration generated at a vertex by a unit-mass regular tetrahedron with edge length 2 in units where the gravitational constant is G = 1.",
+  "id": "A353772",
+  "mentions": [
+    "A070058",
+    "A353769",
+    "A353770",
+    "A353771",
+    "A353773"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

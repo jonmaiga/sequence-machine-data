@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the torsional rigidity constant for an equilateral triangular shaft.",
+  "id": "A180317",
+  "mentions": [
+    "A180309",
+    "A180310",
+    "A180311",
+    "A180314"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:04:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

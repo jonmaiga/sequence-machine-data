@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/F(k)! where F(k) = A000045(k).",
+  "id": "A327558",
+  "mentions": [
+    "A000045",
+    "A079586",
+    "A084119",
+    "A105393"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "LCM of n and largest integer <= sqrt(n).",
+  "id": "A241083",
+  "mentions": [
+    "A000196",
+    "A006446",
+    "A179204"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

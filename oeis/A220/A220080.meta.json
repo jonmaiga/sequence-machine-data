@@ -1,0 +1,17 @@
+{
+  "description": "Length of longest palindromic suffix of the prefix of length n of the Thue-Morse sequence (A010060).",
+  "id": "A220080",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

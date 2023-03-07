@@ -1,0 +1,17 @@
+{
+  "description": "Number of regular polygons constructable by straightedge and compass up to 10^n.",
+  "id": "A202326",
+  "mentions": [
+    "A003401"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

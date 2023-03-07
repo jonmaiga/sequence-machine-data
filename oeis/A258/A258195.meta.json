@@ -1,0 +1,18 @@
+{
+  "description": "Define a<+>b = odd part(odd part(a) + odd part(b)), where odd part(n) = A000265(n); a(n) is not already appeared prime of the form <+>_{1<=i<=k}i with the smallest k, or a(n)=0 if there is no such k (see comment).",
+  "id": "A258195",
+  "mentions": [
+    "A000265",
+    "A258193"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

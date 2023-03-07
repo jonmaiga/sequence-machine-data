@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the least m such that there exist positive integers x, y and z satisfying x/n + y/k = z/m where all fractions are reduced; 1 <= k <= n.",
+  "id": "A338797",
+  "mentions": [
+    "A051173",
+    "A051537",
+    "A221918"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Factorial splitting: write n! = x*y*z with x <= y <= z and minimal z-x; sequence gives value of y.",
+  "id": "A355190",
+  "mentions": [
+    "A060776",
+    "A060777",
+    "A060795",
+    "A060796",
+    "A061030",
+    "A061031",
+    "A061032",
+    "A061033",
+    "A200743",
+    "A200744",
+    "A355189",
+    "A355191",
+    "A355192"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

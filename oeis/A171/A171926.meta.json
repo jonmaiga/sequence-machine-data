@@ -1,0 +1,20 @@
+{
+  "description": "Position where A171921(n) first occurs in A171922.",
+  "id": "A171926",
+  "mentions": [
+    "A171921",
+    "A171922",
+    "A171927",
+    "A171928"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

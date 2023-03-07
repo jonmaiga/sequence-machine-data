@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A319997(n) / A173557(n).",
+  "id": "A319993",
+  "mentions": [
+    "A003557",
+    "A173557",
+    "A319997",
+    "A319999"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(1) = 7, otherwise, if A240025(n-1) = 1 [when n is in A033638] a(n) = 3, otherwise a(n) = 1.",
+  "id": "A265411",
+  "mentions": [
+    "A033638",
+    "A240025",
+    "A265410",
+    "A265412"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of deficient proper divisors of n.",
+  "id": "A294886",
+  "mentions": [
+    "A001065",
+    "A005100",
+    "A125310",
+    "A187793",
+    "A294887",
+    "A294888",
+    "A294889",
+    "A294926",
+    "A294934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

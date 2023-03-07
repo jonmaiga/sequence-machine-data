@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that the right half of the digits form a prime and the left half do not.",
+  "id": "A125664",
+  "mentions": [
+    "A125524"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

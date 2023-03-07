@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n + (sum of preceding terms) mod n; a(0) = 0.",
+  "id": "A154426",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

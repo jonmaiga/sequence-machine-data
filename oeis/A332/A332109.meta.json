@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not the sum of nine (9) positive cubes.",
+  "id": "A332109",
+  "mentions": [
+    "A003332",
+    "A332107",
+    "A332108",
+    "A332110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

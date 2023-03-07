@@ -1,0 +1,22 @@
+{
+  "description": "Regular triangle read by rows: T(n,k) is the number of (n,k)-Duck words, for n>=1 and 0<=k<=n-1.",
+  "id": "A338403",
+  "mentions": [
+    "A000108",
+    "A005700",
+    "A005789",
+    "A031970"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

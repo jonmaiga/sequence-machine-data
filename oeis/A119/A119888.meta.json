@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (n,R_n)>1, where R_n=(10^n -1)/9=A002275(n).",
+  "id": "A119888",
+  "mentions": [
+    "A002275",
+    "A008585",
+    "A014950",
+    "A063450",
+    "A119905"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "2 log_10 ((e + Pi)/2).",
+  "id": "A177910",
+  "mentions": [
+    "A074916"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:50",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

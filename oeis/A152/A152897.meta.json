@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A152896.",
+  "id": "A152897",
+  "mentions": [
+    "A000217",
+    "A124820",
+    "A152891",
+    "A152895",
+    "A152896"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:56:05",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sign of (the n-th continued fraction convergent to 2*Pi divided by the n-th convergent to Pi minus 2).",
+  "id": "A242647",
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A046955",
+    "A242857",
+    "A242859"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

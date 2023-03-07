@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Wiener index of the odd graph O_n.",
+  "id": "A136328",
+  "mentions": [
+    "A192835",
+    "A301566"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of the partial sums of the cubes of the expansion coefficients of 1/sqrt(1-x).",
+  "id": "A277232",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A091670",
+    "A241756"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

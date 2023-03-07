@@ -1,0 +1,25 @@
+{
+  "description": "Number of the least divisors of n whose LCM is equal to n.",
+  "id": "A222084",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001358",
+    "A003418",
+    "A005179",
+    "A024619",
+    "A034444",
+    "A077610",
+    "A222085"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

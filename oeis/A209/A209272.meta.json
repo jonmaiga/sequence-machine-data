@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1 and, for n >= 2, a(n) is the least integer such that both p(n) and q(n) are squarefree where p(n)/q(n) is the n-th convergent of the continued fraction [a(1),a(2),...,a(n)].",
+  "id": "A209272",
+  "mentions": [
+    "A002210"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

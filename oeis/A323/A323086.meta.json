@@ -1,0 +1,27 @@
+{
+  "description": "Number of factorizations of n into factors > 1 such that no factor is a power of any other (unequal) factor.",
+  "id": "A323086",
+  "mentions": [
+    "A001055",
+    "A001597",
+    "A002865",
+    "A007916",
+    "A052410",
+    "A101417",
+    "A292886",
+    "A303707",
+    "A305149",
+    "A323053",
+    "A323087"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

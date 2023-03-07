@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = product of perfect divisors of n.",
+  "id": "A175068",
+  "mentions": [
+    "A001597",
+    "A175069",
+    "A175084",
+    "A175085",
+    "A175087"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

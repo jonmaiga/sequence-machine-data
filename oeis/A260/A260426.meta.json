@@ -1,0 +1,31 @@
+{
+  "description": "a(1) = 1, a(A206074(n)) = A014580(a(n)), a(A205783(1+n)) = A091242(a(n)), where A014580 [respectively A091242] give binary codes for irreducible [resp. reducible] polynomials over GF(2), while A206074 and A205783 give similar codes for polynomials with coefficients 0 or 1 that are irreducible [resp. reducible] over Q.",
+  "id": "A260426",
+  "mentions": [
+    "A014580",
+    "A091242",
+    "A205783",
+    "A206074",
+    "A245703",
+    "A246202",
+    "A255572",
+    "A255574",
+    "A257000",
+    "A260421",
+    "A260424",
+    "A260425",
+    "A260427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

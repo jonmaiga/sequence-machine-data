@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n^3 into at most three parts.",
+  "id": "A274251",
+  "mentions": [
+    "A001399",
+    "A274250",
+    "A274252",
+    "A274253",
+    "A274254"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:25:23",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

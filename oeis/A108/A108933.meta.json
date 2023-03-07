@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the absolute value of (n - sum of the factorials of its digits) is prime.",
+  "id": "A108933",
+  "mentions": [
+    "A108911"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

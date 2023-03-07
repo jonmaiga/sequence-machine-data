@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations in S_n that avoid the pattern 43251.",
+  "id": "A256203",
+  "mentions": [
+    "A047889",
+    "A099952",
+    "A116485",
+    "A256195",
+    "A256208"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

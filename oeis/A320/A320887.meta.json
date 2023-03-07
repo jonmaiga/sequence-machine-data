@@ -1,0 +1,28 @@
+{
+  "description": "Number of multiset partitions of factorizations of n into factors > 1 such that all the parts have the same product.",
+  "id": "A320887",
+  "mentions": [
+    "A001055",
+    "A001970",
+    "A046523",
+    "A050336",
+    "A052409",
+    "A279375",
+    "A294786",
+    "A295923",
+    "A320886",
+    "A320888",
+    "A320889"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

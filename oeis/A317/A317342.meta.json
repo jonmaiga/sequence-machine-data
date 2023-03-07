@@ -1,0 +1,22 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] 1/(1-x)^(n^2) / exp( n*A(x) ) = 0 for n >= 1.",
+  "id": "A317342",
+  "mentions": [
+    "A317341",
+    "A319832",
+    "A319833",
+    "A319835",
+    "A319836"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

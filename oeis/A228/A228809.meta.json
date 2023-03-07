@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} x^n/n * Sum_{k=0..n} binomial(n*k, k^2) ).",
+  "id": "A228809",
+  "mentions": [
+    "A167006",
+    "A206848",
+    "A207135",
+    "A228808",
+    "A228904"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

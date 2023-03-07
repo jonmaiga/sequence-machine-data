@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of 6 indistinguishable copies of 1..n with exactly 4 adjacent element pairs in decreasing order.",
+  "id": "A151653",
+  "mentions": [
+    "A237252"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

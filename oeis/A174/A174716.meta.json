@@ -1,0 +1,17 @@
+{
+  "description": "Averages of twin prime pairs of the form : sum of two or more consecutive squares.",
+  "id": "A174716",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

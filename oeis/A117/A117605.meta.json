@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the real solution to equation x^3 + 3*x = 2.",
+  "id": "A117605",
+  "mentions": [
+    "A014176",
+    "A332324"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:37",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

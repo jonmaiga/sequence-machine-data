@@ -1,0 +1,31 @@
+{
+  "description": "Primes p such that p does not divide any term of the Apery sequence A005259 .",
+  "id": "A133370",
+  "mentions": [
+    "A000172",
+    "A002893",
+    "A002895",
+    "A005258",
+    "A005259",
+    "A006077",
+    "A081085",
+    "A093388",
+    "A125143",
+    "A229111",
+    "A260793",
+    "A290575",
+    "A290576",
+    "A291275",
+    "A291284"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

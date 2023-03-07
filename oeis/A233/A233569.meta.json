@@ -1,0 +1,19 @@
+{
+  "description": "Canonical parts power representation of n: n = concatenation((1)^k_1,(10)^k_2,...).",
+  "id": "A233569",
+  "mentions": [
+    "A114994",
+    "A124771"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

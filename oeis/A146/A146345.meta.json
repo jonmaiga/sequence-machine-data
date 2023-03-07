@@ -1,0 +1,22 @@
+{
+  "description": "Indices in A146326 where records occur.",
+  "id": "A146345",
+  "mentions": [
+    "A000290",
+    "A078370",
+    "A146326",
+    "A146348",
+    "A146360",
+    "A146363"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

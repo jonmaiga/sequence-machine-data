@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that the p-rank of (Z/kZ)* is 2, where p = prime(n) and (Z/kZ)* is the multiplicative group of integers modulo n.",
+  "id": "A307434",
+  "mentions": [
+    "A035095",
+    "A307436"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

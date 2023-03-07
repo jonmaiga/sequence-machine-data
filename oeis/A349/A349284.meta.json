@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A051378(k) > 2*k and A333926(k) <= 2*k.",
+  "id": "A349284",
+  "mentions": [
+    "A049599",
+    "A049603",
+    "A051378",
+    "A282446",
+    "A333926",
+    "A333928"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

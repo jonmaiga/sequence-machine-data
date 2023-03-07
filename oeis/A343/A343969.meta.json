@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of three positive cubes in exactly 4 ways.",
+  "id": "A343969",
+  "mentions": [
+    "A025324",
+    "A025397",
+    "A343968",
+    "A343970",
+    "A343972",
+    "A344278",
+    "A345865"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

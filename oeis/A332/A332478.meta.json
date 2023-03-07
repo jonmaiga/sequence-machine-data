@@ -1,0 +1,22 @@
+{
+  "description": "Number that are unitary norm-multiply-perfect numbers in Gaussian integers.",
+  "id": "A332478",
+  "mentions": [
+    "A002827",
+    "A327158",
+    "A332318",
+    "A332319",
+    "A332474"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

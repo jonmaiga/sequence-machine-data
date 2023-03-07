@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent solutions to problem in A054961.",
+  "id": "A304041",
+  "mentions": [
+    "A054961",
+    "A054962"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

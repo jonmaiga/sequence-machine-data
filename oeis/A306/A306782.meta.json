@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct minimal polynomials of n X n matrices with elements {-1, 1}.",
+  "id": "A306782",
+  "mentions": [
+    "A272662"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Row lengths of the irregular triangles A258643 and A261242: maximal number of 0-islands (holes) of certain bisymmetric n X n matrices with 0 or 1 entries only.",
+  "id": "A261243",
+  "mentions": [
+    "A000982",
+    "A061925",
+    "A258643",
+    "A261242"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:22:47",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

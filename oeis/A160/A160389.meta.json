@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of 2*cos(Pi/7).",
+  "id": "A160389",
+  "mentions": [
+    "A003558",
+    "A006054",
+    "A039921",
+    "A073052",
+    "A077998",
+    "A085971",
+    "A116425",
+    "A187360",
+    "A231187",
+    "A255240",
+    "A255249"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

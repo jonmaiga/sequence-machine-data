@@ -1,0 +1,23 @@
+{
+  "description": "Number of primitive abundant numbers (A071395) with n prime factors, counted with multiplicity.",
+  "id": "A298157",
+  "mentions": [
+    "A002975",
+    "A071395",
+    "A091191",
+    "A287728",
+    "A295369"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

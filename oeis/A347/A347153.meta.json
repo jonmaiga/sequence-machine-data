@@ -1,0 +1,34 @@
+{
+  "description": "Sum of all divisors, except the largest of every number, of the first n odd numbers.",
+  "id": "A347153",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A001477",
+    "A005408",
+    "A008438",
+    "A048050",
+    "A153485",
+    "A237593",
+    "A244049",
+    "A245092",
+    "A326123",
+    "A346869",
+    "A346877",
+    "A346878",
+    "A346879",
+    "A347154"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

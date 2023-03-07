@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer that is the sum of two nonzero tetrahedral numbers in exactly n ways.",
+  "id": "A334013",
+  "mentions": [
+    "A000292",
+    "A010329",
+    "A011541",
+    "A053587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

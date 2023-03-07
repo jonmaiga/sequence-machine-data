@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4-dimensional partitions of n up to conjugacy.",
+  "id": "A119267",
+  "mentions": [
+    "A000334",
+    "A119266",
+    "A119269",
+    "A119338",
+    "A119340",
+    "A119341",
+    "A119342"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*x^k/(1 - x)^k).",
+  "id": "A307261",
+  "mentions": [
+    "A006906",
+    "A218482",
+    "A307262",
+    "A318127",
+    "A320563"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

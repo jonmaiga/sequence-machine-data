@@ -1,0 +1,23 @@
+{
+  "description": "Number of endless self-avoiding walks of length n for the union jack lattice.",
+  "id": "A334332",
+  "mentions": [
+    "A334322",
+    "A334326",
+    "A334330",
+    "A334331",
+    "A334333",
+    "A334334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

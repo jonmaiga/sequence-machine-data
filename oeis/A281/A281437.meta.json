@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 25*n^2 + 25*n + 47.",
+  "id": "A281437",
+  "mentions": [
+    "A000040",
+    "A005846",
+    "A007635",
+    "A048988",
+    "A292578"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:59",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

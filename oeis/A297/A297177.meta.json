@@ -1,0 +1,19 @@
+{
+  "description": "Rational primes that decompose in the field Q(sqrt(23)).",
+  "id": "A297177",
+  "mentions": [
+    "A038897",
+    "A038898",
+    "A296920"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

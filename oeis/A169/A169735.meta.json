@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 100; for n>1, a(n) = a(n-1) - digitsum(a(n-1)).",
+  "id": "A169735",
+  "mentions": [
+    "A169732",
+    "A169736"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:59",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

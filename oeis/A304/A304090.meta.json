@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of A282291: if A282291(k) = n, a(n) = k, or 0 if n does not occur in A282291.",
+  "id": "A304090",
+  "mentions": [
+    "A282291",
+    "A302854"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

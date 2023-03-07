@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, where row n contains the n smallest available numbers of primality opposite to that of n, subject to the restriction that in the whole triangle each number k can be used only k times.",
+  "id": "A261297",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A261211",
+    "A261298"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

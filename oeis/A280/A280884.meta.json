@@ -1,0 +1,17 @@
+{
+  "description": "Number of set partitions of [n] into exactly six blocks where sizes of distinct blocks are coprime.",
+  "id": "A280884",
+  "mentions": [
+    "A280880"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 6,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

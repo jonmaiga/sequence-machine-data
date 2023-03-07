@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there are precisely 8 groups of orders k and k + 1.",
+  "id": "A295993",
+  "mentions": [
+    "A000001",
+    "A249551"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

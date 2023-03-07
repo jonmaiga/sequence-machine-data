@@ -1,0 +1,18 @@
+{
+  "description": "n+[nr/t]+[ns/t], where r=sqrt(2), s=sqrt(3), t=sqrt(5), and []=floor.",
+  "id": "A184814",
+  "mentions": [
+    "A184812",
+    "A184813"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

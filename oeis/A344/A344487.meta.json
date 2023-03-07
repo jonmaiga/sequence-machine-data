@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that n is divisible by the sum of digits of k and k is divisible by the sum of digits of n; a(n) = -1 if no such k exists.",
+  "id": "A344487",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A344486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

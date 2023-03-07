@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which there exist a base in which n contains more 1's than in binary.",
+  "id": "A217313",
+  "mentions": [
+    "A000120",
+    "A062843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

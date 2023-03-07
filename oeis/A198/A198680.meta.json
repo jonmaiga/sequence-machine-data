@@ -1,0 +1,27 @@
+{
+  "description": "Multiples of 3 whose sum of base-3 digits are also multiples of 3.",
+  "id": "A198680",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A079498",
+    "A157970",
+    "A157971",
+    "A180682",
+    "A198681",
+    "A198682"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

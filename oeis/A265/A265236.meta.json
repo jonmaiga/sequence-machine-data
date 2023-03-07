@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to the equation A x B = C, where A, B and C are nonnegative numbers appearing as (contiguous) substrings of the binary representation of n.",
+  "id": "A265236",
+  "mentions": [
+    "A000225",
+    "A007088",
+    "A043545",
+    "A062289",
+    "A078822",
+    "A119709",
+    "A265008",
+    "A265183"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

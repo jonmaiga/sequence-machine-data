@@ -1,0 +1,26 @@
+{
+  "description": "Integers m whose decimal expansion of 1/m contains the digit 7.",
+  "id": "A353443",
+  "mentions": [
+    "A333237",
+    "A351473",
+    "A352154",
+    "A353437",
+    "A353438",
+    "A353439",
+    "A353440",
+    "A353441",
+    "A353442",
+    "A353444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

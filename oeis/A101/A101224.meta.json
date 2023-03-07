@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where T(n,1) = n^2-n+1 for n>=1 and T(n,k) = (n-k+1)*floor( (T(n,k-1)-1)/(n-k+1) ) for 1",
+  "id": "A101224",
+  "mentions": [
+    "A000960",
+    "A100287",
+    "A100452",
+    "A101105"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

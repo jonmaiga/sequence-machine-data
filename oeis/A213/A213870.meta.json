@@ -1,0 +1,17 @@
+{
+  "description": "Number of words w where each letter of the n-ary alphabet occurs 10 times and for every prefix z of w we have #(z,a_i) = 0 or #(z,a_i) >= #(z,a_j) for all j>i and #(z,a_i) counts the occurrences of the i-th letter in z.",
+  "id": "A213870",
+  "mentions": [
+    "A213275"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

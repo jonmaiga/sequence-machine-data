@@ -1,0 +1,30 @@
+{
+  "description": "Sixth partial sums of fourth powers (A000583).",
+  "id": "A254470",
+  "mentions": [
+    "A000538",
+    "A000583",
+    "A005917",
+    "A101089",
+    "A101090",
+    "A101091",
+    "A254469",
+    "A254471",
+    "A254472",
+    "A254640",
+    "A254647",
+    "A254681"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:05:41",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

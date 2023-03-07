@@ -1,0 +1,33 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees where the branches of any branch of any terminal subtree form a submultiset of the branches of the same subtree.",
+  "id": "A324842",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A112798",
+    "A120383",
+    "A279861",
+    "A290689",
+    "A290760",
+    "A290822",
+    "A318186",
+    "A324704",
+    "A324736",
+    "A324748",
+    "A324753",
+    "A324843",
+    "A324847",
+    "A324848",
+    "A324854"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

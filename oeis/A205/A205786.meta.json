@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer j such that n divides C(k)-C(j), where k, as in A205785, is the least number for which there is such a j, and C=A205825.",
+  "id": "A205786",
+  "mentions": [
+    "A204892",
+    "A205785",
+    "A205825"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:16:22",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of steps to reach 0 when starting from (2^n)-1 and iterating the map x -> x - (number of runs in binary representation of x): a(n) = A255072(A000225(n)).",
+  "id": "A255062",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A005811",
+    "A213710",
+    "A218600",
+    "A219665",
+    "A255061",
+    "A255071",
+    "A255072"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose digits are in nondecreasing order in bases 4 and 5.",
+  "id": "A329294",
+  "mentions": [
+    "A023746",
+    "A023747",
+    "A329295",
+    "A329296",
+    "A329297",
+    "A329298",
+    "A329299",
+    "A329300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

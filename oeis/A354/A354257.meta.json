@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest k such that there exists a degree-k primitive Dirichlet characters modulo n, or -1 no such k exists.",
+  "id": "A354257",
+  "mentions": [
+    "A003657",
+    "A003658",
+    "A008683",
+    "A354058",
+    "A354061",
+    "A354258"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

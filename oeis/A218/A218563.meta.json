@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^2 + 1 is divisible by a 4th power.",
+  "id": "A218563",
+  "mentions": [
+    "A002522",
+    "A034939",
+    "A049532",
+    "A218562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

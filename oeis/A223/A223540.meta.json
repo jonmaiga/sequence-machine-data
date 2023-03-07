@@ -1,0 +1,20 @@
+{
+  "description": "Matrix T(m,n) = nim-product(2^m,2^n) read by rows of lower triangle.",
+  "id": "A223540",
+  "mentions": [
+    "A007318",
+    "A046899",
+    "A223541"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

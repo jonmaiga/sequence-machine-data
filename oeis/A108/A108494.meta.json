@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of f(-q) / f(q) in powers of q where f() is a Ramanujan theta function.",
+  "id": "A108494",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A080054",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:29:31",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

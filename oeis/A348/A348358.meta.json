@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are not the concatenation of smaller primes (in base 10 and allowing leading 0's).",
+  "id": "A348358",
+  "mentions": [
+    "A141033",
+    "A141409",
+    "A238647",
+    "A342244"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

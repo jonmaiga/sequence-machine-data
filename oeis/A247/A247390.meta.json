@@ -1,0 +1,22 @@
+{
+  "description": "Base-n state complexity of partitioned deterministic finite automaton (PDFA) for the periodic sequence (12345678910)*.",
+  "id": "A247390",
+  "mentions": [
+    "A176059",
+    "A217515",
+    "A217518",
+    "A247387"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:07",
+    "offset": 2,
+    "size": 66,
+    "source": "joeis"
+  }
+}

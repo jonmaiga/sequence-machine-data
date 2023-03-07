@@ -1,0 +1,34 @@
+{
+  "description": "Least positive integer with exactly 2^n factorizations into factors > 1, or 0 if no such integer exists.",
+  "id": "A330989",
+  "mentions": [
+    "A001055",
+    "A002033",
+    "A025487",
+    "A033833",
+    "A045778",
+    "A045782",
+    "A045783",
+    "A318284",
+    "A330935",
+    "A330972",
+    "A330973",
+    "A330976",
+    "A330977",
+    "A330990",
+    "A330991",
+    "A330992",
+    "A331022"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

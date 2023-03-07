@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of reducible monic quintic polynomials (x^5 + r*x^4 + s*x^3 + t*x^2 + u*x + v) with integer coefficients bounded by naïve height n (abs(r), abs(s), abs(t), abs(u), abs(v) <= n).",
+  "id": "A358400",
+  "mentions": [
+    "A067274",
+    "A358398",
+    "A358399"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

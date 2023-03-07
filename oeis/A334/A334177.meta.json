@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree part of numerator of the squared area of the Heronian triangle with sequential prime sides whose shortest leg is prime(n).",
+  "id": "A334177",
+  "mentions": [
+    "A000040",
+    "A007913",
+    "A334176"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

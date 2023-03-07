@@ -1,0 +1,17 @@
+{
+  "description": "Characteristic sequence of A277238.",
+  "id": "A280910",
+  "mentions": [
+    "A277238"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

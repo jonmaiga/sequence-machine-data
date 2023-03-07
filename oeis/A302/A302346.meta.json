@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Number of invertible linear operators T on an n-dimensional vector space over GF(2) such that T(U) = U for some given k-dimensional subspace U.",
+  "id": "A302346",
+  "mentions": [
+    "A002884",
+    "A302339"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

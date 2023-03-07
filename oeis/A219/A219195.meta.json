@@ -1,0 +1,18 @@
+{
+  "description": "Least i > 1 such that the sum of the digits in the base-j representation of i is invariant over all j in the first n squarefree numbers.",
+  "id": "A219195",
+  "mentions": [
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

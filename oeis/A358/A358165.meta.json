@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of direct sum decompositions V_1 + V_2 + ... + V_m = GF(2)^n with the dimensions of the V_i corresponding to the kth partition of n in canonical ordering, n>=0, 1<=k<=A000041(n).",
+  "id": "A358165",
+  "mentions": [
+    "A000041",
+    "A002884",
+    "A053601",
+    "A080575",
+    "A270880",
+    "A270881",
+    "A279038"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

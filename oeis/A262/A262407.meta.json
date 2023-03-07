@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} C(n,k+1)*C(n,k)*C(n-1,k).",
+  "id": "A262407",
+  "mentions": [
+    "A000172",
+    "A000279",
+    "A000489",
+    "A000535"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:39:06",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

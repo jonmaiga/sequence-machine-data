@@ -1,0 +1,19 @@
+{
+  "description": "Unique sequence with a(1)=0, a(2)=1, representing an array T(i,j) read by antidiagonals in which T(i,j) = a(i) + a(j).",
+  "id": "A283682",
+  "mentions": [
+    "A283681",
+    "A283683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

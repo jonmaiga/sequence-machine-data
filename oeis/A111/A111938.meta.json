@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n times number of divisors of n of form 4m+1 - n times number of divisors of form 4m+3.",
+  "id": "A111938",
+  "mentions": [
+    "A002654",
+    "A019675"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and 2*max(w,x,y) > 3*min(w,x,y).",
+  "id": "A213393",
+  "mentions": [
+    "A092076",
+    "A190798",
+    "A212959",
+    "A213391",
+    "A213392"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:49",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

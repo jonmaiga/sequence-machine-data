@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of cells in an n X n square grid that can be painted such that no two orthogonally adjacent cells are painted and every unpainted cell can be reached from the edge of the grid by a series of orthogonal steps to unpainted cells.",
+  "id": "A239072",
+  "mentions": [
+    "A239231"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = integers n such that no prime exists of the form abs(k! - 3n - 1), abs(k! - 3n), or abs(k! - 3n + 1).",
+  "id": "A125213",
+  "mentions": [
+    "A125162",
+    "A125163",
+    "A125164",
+    "A125211",
+    "A125212"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

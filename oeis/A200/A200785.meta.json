@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) is the number of arrays of n+2 elements from {0,1,...,k} with no two consecutive ascents.",
+  "id": "A200785",
+  "mentions": [
+    "A000079",
+    "A002413",
+    "A072335",
+    "A076264",
+    "A200781"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

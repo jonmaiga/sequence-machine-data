@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers k such that k^2 - 1 divides 8^k - 1.",
+  "id": "A272062",
+  "mentions": [
+    "A247219",
+    "A271842"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (k+1)(k+2)(n+2)(3n-2k+3)/12 for 0<=k<=n.",
+  "id": "A107972",
+  "mentions": [
+    "A000217",
+    "A002415",
+    "A006414"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:55",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

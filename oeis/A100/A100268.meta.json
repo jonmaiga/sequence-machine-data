@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form x^4 + y^4 with x^2 + y^2 and x+y also prime.",
+  "id": "A100268",
+  "mentions": [
+    "A099332",
+    "A100269",
+    "A100270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

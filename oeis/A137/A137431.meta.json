@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of tribonacci numbers expansion : similar to the Fibonacci number expansion given in Steve Roman's Umbral Calculus.",
+  "id": "A137431",
+  "mentions": [
+    "A000045",
+    "A000073"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

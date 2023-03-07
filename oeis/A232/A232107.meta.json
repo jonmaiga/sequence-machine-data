@@ -1,0 +1,25 @@
+{
+  "description": "Number of groups of order prime(n)^7.",
+  "id": "A232107",
+  "mentions": [
+    "A000001",
+    "A000679",
+    "A090091",
+    "A090130",
+    "A090140",
+    "A092759",
+    "A232105",
+    "A232106"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

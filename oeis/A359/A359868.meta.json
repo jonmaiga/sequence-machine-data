@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime q such that A305411(n) + q is a square.",
+  "id": "A359868",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A305411"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = 2*T(n-1, k-1) + 2*T(n-1, k), read by rows.",
+  "id": "A142595",
+  "mentions": [
+    "A008292",
+    "A047849",
+    "A119258"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

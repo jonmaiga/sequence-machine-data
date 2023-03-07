@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=0} a(n)*x^n satisfies: 0 = [x^n] Sum_{m=0..n+1} A(x)^(m^2) / m!, for n > 1.",
+  "id": "A350411",
+  "mentions": [
+    "A350410",
+    "A350412"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

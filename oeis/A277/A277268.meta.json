@@ -1,0 +1,18 @@
+{
+  "description": "If we call \"T\" this sequence and consider the k-digit term a(n) of T with digits abcd...k, then a(n+1) = [a(n) + the a-th digit of T + the b-th digit of T + the c-th digit of T + ... + the k-th digit of T]. This is the lexicographically first such infinite sequence containing no duplicate term.",
+  "id": "A277268",
+  "mentions": [
+    "A276514"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts relatively prime to 63 and not == 2 (mod 4).",
+  "id": "A119952",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A209198"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

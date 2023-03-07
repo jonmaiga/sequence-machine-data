@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of digits of n which denote a palindromic number.",
+  "id": "A118626",
+  "mentions": [
+    "A039999",
+    "A118553"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts > 1 such that no two adjacent parts are equal (Carlitz compositions).",
+  "id": "A298732",
+  "mentions": [
+    "A000045",
+    "A002865",
+    "A003242",
+    "A011782",
+    "A025147",
+    "A032020",
+    "A114900",
+    "A155822",
+    "A212804",
+    "A218694"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

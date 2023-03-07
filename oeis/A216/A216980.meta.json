@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^7+2 is prime.",
+  "id": "A216980",
+  "mentions": [
+    "A067200",
+    "A067201",
+    "A216974",
+    "A216976",
+    "A216978"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

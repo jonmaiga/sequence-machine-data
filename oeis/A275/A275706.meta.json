@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Re([n]_{1+i}!), where [n]_q! is the q-factorial, i = sqrt(-1).",
+  "id": "A275706",
+  "mentions": [
+    "A005329",
+    "A276688"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

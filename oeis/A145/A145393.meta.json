@@ -1,0 +1,38 @@
+{
+  "description": "Number of inequivalent sublattices of index n in square lattice, where two sublattices are considered equivalent if one can be rotated or reflected to give the other, with that rotation or reflection preserving the parent square lattice.",
+  "id": "A145393",
+  "mentions": [
+    "A000203",
+    "A002324",
+    "A002654",
+    "A003051",
+    "A008621",
+    "A019590",
+    "A025441",
+    "A053866",
+    "A054345",
+    "A054346",
+    "A069734",
+    "A069735",
+    "A145390",
+    "A145391",
+    "A145392",
+    "A145394",
+    "A157226",
+    "A157228",
+    "A157230",
+    "A157231",
+    "A167156"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

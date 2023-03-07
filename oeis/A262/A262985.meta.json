@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways to write n as 2^x + phi(y^2) + z*(z+1)/2 with x, y and z positive integers, where phi(.) is Euler's totient function given by A000010.",
+  "id": "A262985",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A000217",
+    "A000290",
+    "A002618",
+    "A262976",
+    "A262980",
+    "A262982"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

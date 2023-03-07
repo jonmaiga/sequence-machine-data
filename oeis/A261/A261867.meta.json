@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) read by rows (n >= 1, 1 <= k <= n), where row n gives the lexicographically first permutation of n cards that is a winning (or reformed) deck at Cayley's Mousetrap.",
+  "id": "A261867",
+  "mentions": [
+    "A007709",
+    "A028305"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

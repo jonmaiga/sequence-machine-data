@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with an odd arithmetic derivative, cf. A003415.",
+  "id": "A235991",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A006519",
+    "A007814",
+    "A165560",
+    "A235992"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

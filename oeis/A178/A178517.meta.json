@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-derangement permutations of {1,2,...,n} having genus k (see first comment for definition of genus).",
+  "id": "A178517",
+  "mentions": [
+    "A002467",
+    "A106640",
+    "A177267",
+    "A178514",
+    "A178515",
+    "A178516",
+    "A178518",
+    "A185209"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

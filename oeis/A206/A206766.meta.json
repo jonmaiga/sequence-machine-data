@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k) * sigma(n,k) * 3^(n-k).",
+  "id": "A206766",
+  "mentions": [
+    "A205812",
+    "A205815",
+    "A206765"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

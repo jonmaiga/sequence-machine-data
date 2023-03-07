@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary words of length n containing at least one subword 101 and no subword 11.",
+  "id": "A143281",
+  "mentions": [
+    "A000045",
+    "A000930",
+    "A143291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

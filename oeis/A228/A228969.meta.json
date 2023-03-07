@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numerators of the coefficients t(n,k) in the formula B(2n) = -sum_{k=1..n-1} t(n,k)*B(2k)*B(2n-2k), where the B() are the even-indexed Bernoulli numbers.",
+  "id": "A228969",
+  "mentions": [
+    "A228970"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

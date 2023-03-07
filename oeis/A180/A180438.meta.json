@@ -1,0 +1,22 @@
+{
+  "description": "a(n) counts the distinct cubical (on alphabet of 3 symbols) billiard words with length n, acting as prefix to just k = 2 such words of length n+1 (that is, a subset of \"special\").",
+  "id": "A180438",
+  "mentions": [
+    "A005598",
+    "A180238",
+    "A180239",
+    "A180437",
+    "A180439"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

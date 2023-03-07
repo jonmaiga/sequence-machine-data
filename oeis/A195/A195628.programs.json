@@ -1,0 +1,128 @@
+{
+  "oi": 195628,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(4)]",
+      "mt": 50,
+      "px": [
+        "4",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(1/4)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "4",
+        "/",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-03",
+      "ix": "limit[atan(contfrac[sqrt(5)])]",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "contfrac",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[asin(cos(acot(4)))]",
+      "mt": 50,
+      "px": [
+        "4",
+        "acot",
+        "cos",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[acos(sin(acot(4)))]",
+      "mt": 50,
+      "px": [
+        "4",
+        "acot",
+        "sin",
+        "acos",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[acos(0)-acot(4)]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "4",
+        "acot",
+        "sub",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(1)-acot(4)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "4",
+        "acot",
+        "sub",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[abs(acot(tan(acot(4))))]",
+      "mt": 50,
+      "px": [
+        "4",
+        "acot",
+        "tan",
+        "acot",
+        "abs",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[-acot(tan(acot(4)))]",
+      "mt": 50,
+      "px": [
+        "4",
+        "acot",
+        "tan",
+        "acot",
+        "neg",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-05",
+      "ix": "limit[atan(ceil(atan(n))²)]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "ceil",
+        "²",
+        "atan",
+        "limit"
+      ]
+    }
+  ]
+}

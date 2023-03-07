@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{d|n} bigomega(d)*bigomega(n/d).",
+  "id": "A318366",
+  "mentions": [
+    "A000005",
+    "A000292",
+    "A001222",
+    "A008578",
+    "A025487",
+    "A069264",
+    "A070288",
+    "A112967",
+    "A317938",
+    "A322375"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

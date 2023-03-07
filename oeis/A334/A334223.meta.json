@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Y-coordinate of the point at n steps backward from the origine along the space filling curve U defined in A334188; sequence A334222 gives X-coordinates.",
+  "id": "A334223",
+  "mentions": [
+    "A334188",
+    "A334222"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

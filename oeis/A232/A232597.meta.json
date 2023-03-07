@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum of odd k in 1..n for which Kronecker(k,n)=1.",
+  "id": "A232597",
+  "mentions": [
+    "A000040",
+    "A228131",
+    "A232505"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

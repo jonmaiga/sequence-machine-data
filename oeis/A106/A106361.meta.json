@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted ordered trees where no branch is identical to its adjacent neighbor.",
+  "id": "A106361",
+  "mentions": [
+    "A000081",
+    "A106362",
+    "A106363"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

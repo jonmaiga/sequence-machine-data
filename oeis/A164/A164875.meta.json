@@ -1,0 +1,20 @@
+{
+  "description": "Record holders for n^2 - phi(n)*sigma(n)",
+  "id": "A164875",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A069249",
+    "A164876"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 3 * reversal(k) + 1 = k.",
+  "id": "A349677",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

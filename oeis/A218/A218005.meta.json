@@ -1,0 +1,31 @@
+{
+  "description": "Nonsquare semiprimes p*q (10 excluded) giving record large smallest number p^r * q^s such that each decimal digit appears a prime number of times.",
+  "id": "A218005",
+  "mentions": [
+    "A216854",
+    "A217404",
+    "A217407",
+    "A217410",
+    "A217413",
+    "A217416",
+    "A217419",
+    "A217422",
+    "A217425",
+    "A217428",
+    "A217431",
+    "A217433"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

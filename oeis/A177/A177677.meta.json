@@ -1,0 +1,23 @@
+{
+  "description": "The maximum integer dimension in which the volume of the hypersphere of radius n remains larger than 1.",
+  "id": "A177677",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A005146",
+    "A005147",
+    "A005446",
+    "A005447"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "The \"forest fire\": sequence of positive integers where each is chosen to be as small as possible subject to the condition that no three terms a(j), a(j+k), a(j+2k) (for any j and k) form an arithmetic progression.",
+  "id": "A229037",
+  "mentions": [
+    "A003002",
+    "A003003",
+    "A003278",
+    "A004793",
+    "A005047",
+    "A005487",
+    "A033157",
+    "A065825",
+    "A092482",
+    "A093678",
+    "A093679",
+    "A093680",
+    "A093681",
+    "A093682",
+    "A094870",
+    "A101884",
+    "A101886",
+    "A101888",
+    "A140577",
+    "A185256",
+    "A208746",
+    "A235265",
+    "A235383",
+    "A236246",
+    "A236313",
+    "A241673",
+    "A241752",
+    "A309890"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; thereafter a(n) = 2^(number of bits in binary expansion of a(n-1)) + 1 + a(n-1).",
+  "id": "A232228",
+  "mentions": [
+    "A010061"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

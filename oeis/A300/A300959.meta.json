@@ -1,0 +1,26 @@
+{
+  "description": "Number of prime factors of the n-th Lucas-Carmichael number.",
+  "id": "A300959",
+  "mentions": [
+    "A001221",
+    "A006972",
+    "A216925",
+    "A216926",
+    "A216927",
+    "A216928",
+    "A217002",
+    "A217003",
+    "A217091"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

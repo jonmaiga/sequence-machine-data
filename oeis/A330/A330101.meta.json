@@ -1,0 +1,39 @@
+{
+  "description": "BII-number of the brute-force normalization of the set-system with BII-number n.",
+  "id": "A330101",
+  "mentions": [
+    "A000612",
+    "A007716",
+    "A048793",
+    "A055621",
+    "A283877",
+    "A300913",
+    "A321405",
+    "A330060",
+    "A330061",
+    "A330097",
+    "A330099",
+    "A330100",
+    "A330102",
+    "A330104",
+    "A330105",
+    "A330107",
+    "A330108",
+    "A330109",
+    "A330110",
+    "A330120",
+    "A330121",
+    "A330122",
+    "A330123"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

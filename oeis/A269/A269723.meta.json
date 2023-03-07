@@ -1,0 +1,19 @@
+{
+  "description": "Start with A_0 = 0, then extend by setting B_k = complement of A_k and A_{k+1} = A_k A_k B_k B_k; sequence is limit of A_k as k -> infinity.",
+  "id": "A269723",
+  "mentions": [
+    "A010060",
+    "A189718",
+    "A355340"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

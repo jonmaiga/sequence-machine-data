@@ -1,0 +1,20 @@
+{
+  "description": "The number of indecomposable n-permutations that have only cycles of length 3 or less.",
+  "id": "A211371",
+  "mentions": [
+    "A003319",
+    "A057693",
+    "A140456"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

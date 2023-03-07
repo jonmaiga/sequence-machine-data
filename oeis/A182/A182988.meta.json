@@ -1,0 +1,20 @@
+{
+  "description": "The number of dominance pairs of integer partitions of n according to either/or dominance order, where dominance between two partitions x and y means that x is majorized by y or y is majorized by x.",
+  "id": "A182988",
+  "mentions": [
+    "A000041",
+    "A001255",
+    "A248476",
+    "A265506"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

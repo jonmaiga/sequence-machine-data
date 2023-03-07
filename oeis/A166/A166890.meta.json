@@ -1,0 +1,27 @@
+{
+  "description": "Triangle, read by rows, that transforms diagonals in the table of coefficients of successive iterations of x*(1+x)^2 (cf. A166888).",
+  "id": "A166890",
+  "mentions": [
+    "A119820",
+    "A135080",
+    "A154256",
+    "A166884",
+    "A166888",
+    "A166889",
+    "A166891",
+    "A166892",
+    "A166893",
+    "A229113"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

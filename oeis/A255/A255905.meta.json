@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of exp( Sum_{n >= 1} R(n,u)*x^n/n ), where R(n,u) denotes the n-th row polynomial of A086646.",
+  "id": "A255905",
+  "mentions": [
+    "A000364",
+    "A086646"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

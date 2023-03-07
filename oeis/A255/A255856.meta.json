@@ -1,0 +1,23 @@
+{
+  "description": "Least k > 0 such that gcd(k^n+6, (k+1)^n+6) > 1, or 0 if there is no such k.",
+  "id": "A255856",
+  "mentions": [
+    "A118119",
+    "A255832",
+    "A255852",
+    "A255869"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

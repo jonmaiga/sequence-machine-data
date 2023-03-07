@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-Moebius ladder (0 <= k <= n, n > 2)",
+  "id": "A302232",
+  "mentions": [
+    "A020877",
+    "A061702"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

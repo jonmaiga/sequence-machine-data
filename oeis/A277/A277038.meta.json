@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: Series_Reversion( A(x)/(1+x)^2 ) = A(x)/(1-x)^2.",
+  "id": "A277038",
+  "mentions": [
+    "A277177"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

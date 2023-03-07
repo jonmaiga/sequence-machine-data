@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to the congruence (x+1)*x + 4 == 0 (mod A347831(n)).",
+  "id": "A347833",
+  "mentions": [
+    "A347831",
+    "A347832"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

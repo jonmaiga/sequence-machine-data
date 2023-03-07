@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the iterated unitary totient function (A047994).",
+  "id": "A329153",
+  "mentions": [
+    "A000010",
+    "A003271",
+    "A047994",
+    "A049865",
+    "A092693",
+    "A225172",
+    "A225173",
+    "A286067"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

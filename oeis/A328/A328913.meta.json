@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of A328900 = 1.50712659... solution to 2^x + 3^x = 4^x.",
+  "id": "A328913",
+  "mentions": [
+    "A328900",
+    "A328912"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

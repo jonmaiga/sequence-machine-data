@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that s(k) = 3*k, where s(k) is the sum of divisors of k that have a square factor (A162296).",
+  "id": "A357493",
+  "mentions": [
+    "A001248",
+    "A005117",
+    "A005820",
+    "A013929",
+    "A068403",
+    "A162296",
+    "A322609",
+    "A325314",
+    "A357494"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Values of m: where m^2 begins a run of consecutive squares satisfying r=p+4*m^2 with a sequence of primes",
+  "id": "A145896",
+  "mentions": [
+    "A145741",
+    "A145897",
+    "A145898"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

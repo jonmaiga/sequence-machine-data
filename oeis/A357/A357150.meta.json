@@ -1,0 +1,18 @@
+{
+  "description": "Primitive terms in A357148.",
+  "id": "A357150",
+  "mentions": [
+    "A357082",
+    "A357148"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all the middle parts in the partitions of 3n into 3 parts.",
+  "id": "A236364",
+  "mentions": [
+    "A000330",
+    "A019298",
+    "A235988"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:41",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

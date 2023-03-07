@@ -1,0 +1,30 @@
+{
+  "description": "Smallest generalized Fermat prime of the form a^(2^n) + 1, where base a>1 is an integer; or -1 if no such prime exists.",
+  "id": "A123599",
+  "mentions": [
+    "A000068",
+    "A000215",
+    "A005574",
+    "A006093",
+    "A006313",
+    "A006314",
+    "A006315",
+    "A006316",
+    "A019434",
+    "A056993",
+    "A056994",
+    "A056995",
+    "A057002",
+    "A057465"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

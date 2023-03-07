@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = a(1) = 0, a(prime) = 1, and for all other numbers, a(n) = the first noncomposite reached when iterating A327965, or -1 if no noncomposite is ever reached.",
+  "id": "A327968",
+  "mentions": [
+    "A003415",
+    "A189760",
+    "A327938",
+    "A327965",
+    "A327966",
+    "A327967",
+    "A327975",
+    "A327977"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

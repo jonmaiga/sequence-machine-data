@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime which can be formed from digits of n^2, or 0, if no prime.",
+  "id": "A102600",
+  "mentions": [
+    "A101991"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

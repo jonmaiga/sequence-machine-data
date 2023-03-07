@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the product of any two consecutive terms can be computed without carry by long multiplication in base 10.",
+  "id": "A306465",
+  "mentions": [
+    "A007953",
+    "A054055",
+    "A266195",
+    "A306466"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

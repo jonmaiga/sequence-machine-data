@@ -1,0 +1,20 @@
+{
+  "description": "Period of the Lucas 5-step sequence A074048 mod n.",
+  "id": "A106297",
+  "mentions": [
+    "A074048",
+    "A106273",
+    "A106303"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

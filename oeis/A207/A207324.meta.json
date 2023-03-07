@@ -1,0 +1,25 @@
+{
+  "description": "List of permutations of 1,2,3,...,n for n=1,2,3,..., in the order they are output by Steinhaus-Johnson-Trotter algorithm.",
+  "id": "A207324",
+  "mentions": [
+    "A001286",
+    "A001563",
+    "A030298",
+    "A033312",
+    "A055881",
+    "A084555",
+    "A130664"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

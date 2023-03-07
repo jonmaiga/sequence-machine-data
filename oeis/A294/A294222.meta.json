@@ -1,0 +1,21 @@
+{
+  "description": "Exponential transform of the Lucas numbers (A000204).",
+  "id": "A294222",
+  "mentions": [
+    "A000204",
+    "A003633",
+    "A256180",
+    "A279271"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

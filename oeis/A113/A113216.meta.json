@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of polynomials P(n,x) of degree n related to Pi (see comment) and derived from Padé approximation to exp(x).",
+  "id": "A113216",
+  "mentions": [
+    "A048854",
+    "A059344",
+    "A113025",
+    "A119274"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

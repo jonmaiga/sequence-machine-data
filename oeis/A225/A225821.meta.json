@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{p | p is prime and p, p-1 both divide n}.",
+  "id": "A225821",
+  "mentions": [
+    "A027642",
+    "A027760",
+    "A031971",
+    "A033845",
+    "A173557",
+    "A226872"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

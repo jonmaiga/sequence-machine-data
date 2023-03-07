@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = mu(n^2 + 1), mu = A008683.",
+  "id": "A124897",
+  "mentions": [
+    "A002522",
+    "A008683",
+    "A059592",
+    "A124895"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

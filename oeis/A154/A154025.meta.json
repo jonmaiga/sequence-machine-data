@@ -1,0 +1,21 @@
+{
+  "description": "a(n+2) = 64*a(n+1) - a(n), a(1)=0, a(2)=8.",
+  "id": "A154025",
+  "mentions": [
+    "A065100",
+    "A154021",
+    "A154027"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

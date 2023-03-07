@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k such that 2n divides psi(k), psi = A002322.",
+  "id": "A307437",
+  "mentions": [
+    "A002322",
+    "A307436",
+    "A341887",
+    "A341888"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

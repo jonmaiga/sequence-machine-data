@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A245212(n) < n.",
+  "id": "A245213",
+  "mentions": [
+    "A000005",
+    "A100484",
+    "A245211",
+    "A245212",
+    "A245214"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

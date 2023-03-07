@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is k-th smallest divisor of n that is highly composite (A002182).",
+  "id": "A181802",
+  "mentions": [
+    "A002182",
+    "A180803",
+    "A181801",
+    "A181804",
+    "A181805",
+    "A181806",
+    "A181807"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

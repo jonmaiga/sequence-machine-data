@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the x nearest 0 that satisfies x^2+4x+4=e^x.",
+  "id": "A201928",
+  "mentions": [
+    "A201741",
+    "A201927",
+    "A201929"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:34:51",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of free trees of n vertices whose automorphisms are a 2-group.",
+  "id": "A309352",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A000220",
+    "A248869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

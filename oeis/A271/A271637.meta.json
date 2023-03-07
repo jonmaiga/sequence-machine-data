@@ -1,0 +1,17 @@
+{
+  "description": "Squared-squares in base 2: numbers n such that n^2 in base 2 is of the form xx for a string x.",
+  "id": "A271637",
+  "mentions": [
+    "A106497"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

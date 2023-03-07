@@ -1,0 +1,19 @@
+{
+  "description": "Differences between successive numbers that can be written as palindromes in base 60, cf. A262065.",
+  "id": "A262079",
+  "mentions": [
+    "A086862",
+    "A262065"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 5 is the smallest decimal digit of k^3.",
+  "id": "A291644",
+  "mentions": [
+    "A291639",
+    "A291640",
+    "A291641",
+    "A291642",
+    "A291643"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

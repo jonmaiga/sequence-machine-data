@@ -1,0 +1,35 @@
+{
+  "description": "Regular tetrangle where T(n,k,i) = number of integer partitions of n of length k with i distinct parts.",
+  "id": "A360071",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A051731",
+    "A055884",
+    "A058398",
+    "A060016",
+    "A116608",
+    "A318393",
+    "A318816",
+    "A320808",
+    "A327482",
+    "A331195",
+    "A334433",
+    "A345197",
+    "A360010",
+    "A360069",
+    "A360072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

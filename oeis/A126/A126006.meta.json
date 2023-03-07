@@ -1,0 +1,20 @@
+{
+  "description": "Involution of nonnegative integers: Swap the positions of digits q0 <-> q1, q2 <-> q3, q4 <-> q5, etc. in the base-4 expansion of n (where n = ... + q4*256 + q3*64 + q2*16 + q1*4 + q0).",
+  "id": "A126006",
+  "mentions": [
+    "A004442",
+    "A057300",
+    "A126007"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

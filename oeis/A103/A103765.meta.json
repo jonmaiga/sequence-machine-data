@@ -1,0 +1,19 @@
+{
+  "description": "Number of times n can be written as sum of a minimal set of primes.",
+  "id": "A103765",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A051034"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

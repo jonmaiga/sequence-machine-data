@@ -1,0 +1,25 @@
+{
+  "description": "Index position of {2}^n within the list of partitions of 2n in canonical ordering.",
+  "id": "A332706",
+  "mentions": [
+    "A000041",
+    "A058984",
+    "A080577",
+    "A216053",
+    "A238639",
+    "A238640",
+    "A322761",
+    "A330661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

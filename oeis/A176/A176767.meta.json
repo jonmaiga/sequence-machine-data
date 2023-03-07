@@ -1,0 +1,25 @@
+{
+  "description": "Smallest power of 7 whose decimal expansion contains n.",
+  "id": "A176767",
+  "mentions": [
+    "A000420",
+    "A030001",
+    "A062524",
+    "A176763",
+    "A176764",
+    "A176773"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:12:53",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

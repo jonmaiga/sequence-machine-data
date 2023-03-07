@@ -1,0 +1,30 @@
+{
+  "description": "Restricted magnanimous numbers: numbers such that the sum obtained by inserting a \"+\" anywhere between two digits gives a prime, but no \"leading zeros\" may appear.",
+  "id": "A252495",
+  "mentions": [
+    "A028834",
+    "A088134",
+    "A089392",
+    "A089393",
+    "A089394",
+    "A182175",
+    "A221699",
+    "A227823",
+    "A252480",
+    "A252996"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

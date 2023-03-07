@@ -1,0 +1,28 @@
+{
+  "description": "Least number k such that k and n*k share at least one digit.",
+  "id": "A241146",
+  "mentions": [
+    "A011531",
+    "A129845",
+    "A129846",
+    "A129848",
+    "A241141",
+    "A241142",
+    "A241143",
+    "A241144",
+    "A241145"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

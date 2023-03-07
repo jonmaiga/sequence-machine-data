@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2^psi(k) == -1 (mod k) where psi(k) = A001615(k).",
+  "id": "A291164",
+  "mentions": [
+    "A001615",
+    "A276238"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

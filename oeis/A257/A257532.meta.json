@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, T(n,k)=k/n*Sum_{i=0..n-k} C(2*n,n-k-i)*C(2*n+i-1,i).",
+  "id": "A257532",
+  "mentions": [
+    "A027307",
+    "A032349"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

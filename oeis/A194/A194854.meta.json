@@ -1,0 +1,21 @@
+{
+  "description": "Starting from a(1)=1, describe previous terms and then add all the digits.",
+  "id": "A194854",
+  "mentions": [
+    "A045918",
+    "A063850",
+    "A138484",
+    "A138493"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

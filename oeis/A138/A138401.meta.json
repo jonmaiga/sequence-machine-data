@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n)^4 - prime(n).",
+  "id": "A138401",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A030078",
+    "A030514"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:05",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Carmichael numbers c such that c-4, c-2 and c+2 are primes.",
+  "id": "A308086",
+  "mentions": [
+    "A002997",
+    "A007530",
+    "A022004",
+    "A022005",
+    "A230715",
+    "A258801",
+    "A287591"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

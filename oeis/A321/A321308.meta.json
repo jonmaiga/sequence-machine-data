@@ -1,0 +1,18 @@
+{
+  "description": "Practical numbers k such that k^4 + 2 is also practical.",
+  "id": "A321308",
+  "mentions": [
+    "A000583",
+    "A005153"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = 1/(1 + x*A(x)) with A(0) = 1.",
+  "id": "A173895",
+  "mentions": [
+    "A000932",
+    "A144010"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

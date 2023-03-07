@@ -1,0 +1,27 @@
+{
+  "description": "A P_7-stuttered arithmetic progression with a(n+1)=a(n) if n is not a heptagonal number, a(n+1)=a(n)+2 otherwise.",
+  "id": "A122799",
+  "mentions": [
+    "A001614",
+    "A045930",
+    "A122793",
+    "A122794",
+    "A122795",
+    "A122796",
+    "A122797",
+    "A122798",
+    "A122800"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:26:59",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

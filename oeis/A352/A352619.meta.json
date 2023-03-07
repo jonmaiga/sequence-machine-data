@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * zeta(2k+1)/(2k+1).",
+  "id": "A352619",
+  "mentions": [
+    "A001620",
+    "A212880",
+    "A352527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

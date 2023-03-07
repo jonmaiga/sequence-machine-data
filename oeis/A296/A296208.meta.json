@@ -1,0 +1,25 @@
+{
+  "description": "Xor-Moebius transform of A005187.",
+  "id": "A296208",
+  "mentions": [
+    "A003987",
+    "A005187",
+    "A256739",
+    "A294899",
+    "A295901",
+    "A296203",
+    "A297110",
+    "A297111"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

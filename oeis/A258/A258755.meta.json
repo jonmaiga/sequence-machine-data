@@ -1,0 +1,19 @@
+{
+  "description": "The magic constants of most-perfect magic squares of order 6 composed of distinct prime numbers.",
+  "id": "A258755",
+  "mentions": [
+    "A191533",
+    "A258082"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

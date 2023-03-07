@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the greatest positive integer k such that lambda(k) <= n where lambda is the Carmichael lambda function (A002322).",
+  "id": "A258781",
+  "mentions": [
+    "A002322",
+    "A253215"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of those x(p)*y(p) with p <= n, where p is a prime congruent to 1 modulo 4, and p = x(p)^2 + y(p)^2 with 1 <= x(p) <= y(p).",
+  "id": "A330487",
+  "mentions": [
+    "A000796",
+    "A002144",
+    "A002972",
+    "A002973"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

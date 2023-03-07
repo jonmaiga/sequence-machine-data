@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k >= 3 such that the arithmetic mean of the divisors of k AND the arithmetic mean of the nondivisors of k are integers.",
+  "id": "A351398",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000217",
+    "A003601",
+    "A024816",
+    "A049820",
+    "A140826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

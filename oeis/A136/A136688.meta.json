@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of polynomials F(x,n) = x*F(x,n-1) + 2*F(x,n-2).",
+  "id": "A136688",
+  "mentions": [
+    "A001045",
+    "A136689",
+    "A136705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

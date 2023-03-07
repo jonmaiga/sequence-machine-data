@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the GCD of the binary representation of n interpreted in any numeric base.",
+  "id": "A329443",
+  "mentions": [
+    "A329000",
+    "A329126"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

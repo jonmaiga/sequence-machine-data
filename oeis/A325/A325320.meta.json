@@ -1,0 +1,26 @@
+{
+  "description": "Sum of proper divisors of A228058(n) that are not squarefree; a(n) = -A325314(A228058(n)).",
+  "id": "A325320",
+  "mentions": [
+    "A001065",
+    "A016813",
+    "A162296",
+    "A228058",
+    "A325313",
+    "A325314",
+    "A325319",
+    "A325378",
+    "A325379"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

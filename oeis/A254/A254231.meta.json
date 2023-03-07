@@ -1,0 +1,23 @@
+{
+  "description": "Product of tribonacci numbers A000073(2) * ... * A000073(n).",
+  "id": "A254231",
+  "mentions": [
+    "A000073",
+    "A003266",
+    "A058265",
+    "A126772",
+    "A135407",
+    "A254232"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

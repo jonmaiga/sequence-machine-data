@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (13-5*sqrt(5))/2.",
+  "id": "A226765",
+  "mentions": [
+    "A000045",
+    "A187426",
+    "A187798",
+    "A225667"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:03",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

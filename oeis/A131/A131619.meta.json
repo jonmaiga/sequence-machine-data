@@ -1,0 +1,21 @@
+{
+  "description": "A general two modulo Ackermann recursion at 6 and 5.",
+  "id": "A131619",
+  "mentions": [
+    "A001695",
+    "A014221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

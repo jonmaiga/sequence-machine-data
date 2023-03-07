@@ -1,0 +1,21 @@
+{
+  "description": "Orders of simple groups which are non-cyclic and non-alternating.",
+  "id": "A137863",
+  "mentions": [
+    "A001034",
+    "A001228",
+    "A001710",
+    "A005180",
+    "A109379"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

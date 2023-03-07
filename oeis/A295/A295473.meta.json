@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n>0, a(n) = 9*n!.",
+  "id": "A295473",
+  "mentions": [
+    "A000142",
+    "A298881"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

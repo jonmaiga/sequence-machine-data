@@ -1,0 +1,18 @@
+{
+  "description": "Largest number in the orbit of n under iteration of the map A293975: x -> x/2 if even, x + nextprime(x) else.",
+  "id": "A294659",
+  "mentions": [
+    "A293975",
+    "A293982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

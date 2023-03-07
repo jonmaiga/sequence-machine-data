@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of divisors d of n such that phi(n)/phi(lpf(n)) mod phi(n)/phi(d) = 0, where phi is Euler's totient function (A000010), and lpf(n) is the least prime factor of n (A020639).",
+  "id": "A340273",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000027",
+    "A000358",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

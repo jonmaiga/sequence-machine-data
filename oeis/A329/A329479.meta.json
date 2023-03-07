@@ -1,0 +1,21 @@
+{
+  "description": "Number of degree n polynomials f with all nonzero coefficients equal to 1 such that f(k) is divisible by 3 for all integers k.",
+  "id": "A329479",
+  "mentions": [
+    "A008776",
+    "A024493",
+    "A024495",
+    "A329126"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A polynomial of degree 130.",
+  "id": "A123238",
+  "mentions": [
+    "A014612",
+    "A123656",
+    "A123665"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of decimal places before the decimal expansion of 1/n terminates, or the period of the recurring portion of 1/n if it is recurring.",
+  "id": "A307070",
+  "mentions": [
+    "A001913",
+    "A003592",
+    "A007732",
+    "A036275",
+    "A051626",
+    "A051628",
+    "A054710",
+    "A114205",
+    "A121341",
+    "A122060"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

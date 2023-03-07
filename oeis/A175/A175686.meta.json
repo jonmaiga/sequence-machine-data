@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(n-j-1,j) + binomial(n-j,j-1) with j= floor((n-1)/2).",
+  "id": "A175686",
+  "mentions": [
+    "A004526",
+    "A057979",
+    "A152271",
+    "A175685"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:25",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Irregular triangle read by rows, T(n,k), n >= 1, k >= 1, in which row n lists the partitions of n into consecutive parts, with the partitions ordered by increasing number of parts.",
+  "id": "A299765",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A000217",
+    "A001227",
+    "A026792",
+    "A118235",
+    "A204217",
+    "A235791",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A245579",
+    "A285914",
+    "A286000",
+    "A286001",
+    "A286013",
+    "A288529",
+    "A288772",
+    "A288773",
+    "A288774",
+    "A328365",
+    "A352425"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of zeroless strictly pandigital numbers divisible by the n-th prime.",
+  "id": "A339498",
+  "mentions": [
+    "A000040",
+    "A050289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

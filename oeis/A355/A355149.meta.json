@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A351743.",
+  "id": "A355149",
+  "mentions": [
+    "A351743"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: number of complete partitions of n with largest part = k.",
+  "id": "A261036",
+  "mentions": [
+    "A008619",
+    "A122197",
+    "A126796"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

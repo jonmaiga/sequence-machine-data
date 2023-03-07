@@ -1,0 +1,38 @@
+{
+  "description": "Irregular array {a(n,m)} read by rows where (sum{n>=1} sum{m=1 to A001222(n)+1} a(n,m)*y^m/n^x) = 1/(zeta(x)-1+1/y) for all x and y where the double sum converges.",
+  "id": "A124433",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A002033",
+    "A008480",
+    "A008683",
+    "A067824",
+    "A073093",
+    "A074206",
+    "A097805",
+    "A122651",
+    "A124010",
+    "A167865",
+    "A251683",
+    "A253249",
+    "A334996",
+    "A334997",
+    "A337105",
+    "A337107"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

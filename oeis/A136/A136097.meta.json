@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A135951(n) /[(2^(n+1)-1) * 2^(n*(n-1)/2)].",
+  "id": "A136097",
+  "mentions": [
+    "A015030",
+    "A022166",
+    "A135950",
+    "A135951"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with exactly four nonzero decimal digits and not ending with 0.",
+  "id": "A359098",
+  "mentions": [
+    "A358737"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct nonnegative values that can be assumed by the determinant of an n X n matrix whose entries are a permutation of the multiset {1^n,..,n^n}.",
+  "id": "A309799",
+  "mentions": [
+    "A088216",
+    "A088217",
+    "A301371",
+    "A309258",
+    "A322576",
+    "A327281"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

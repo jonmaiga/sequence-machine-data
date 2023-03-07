@@ -1,0 +1,27 @@
+{
+  "description": "Written in base 3, n ends in a(n) consecutive nonzero digits.",
+  "id": "A215879",
+  "mentions": [
+    "A001651",
+    "A007089",
+    "A007814",
+    "A007949",
+    "A008585",
+    "A215883",
+    "A215884",
+    "A215887"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

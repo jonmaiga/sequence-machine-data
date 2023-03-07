@@ -1,0 +1,25 @@
+{
+  "description": "Number of (bidimensional) faces of regular m-polytopes for m >= 3.",
+  "id": "A359202",
+  "mentions": [
+    "A000292",
+    "A001788",
+    "A053016",
+    "A063925",
+    "A130809",
+    "A359201",
+    "A359662"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

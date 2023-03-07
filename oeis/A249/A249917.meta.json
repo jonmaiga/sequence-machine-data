@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals where the n-th row lists the integers x such that gcd(x, sigma(x)) = n.",
+  "id": "A249917",
+  "mentions": [
+    "A009194",
+    "A014567",
+    "A074391"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integers m that belong to at least two distinct Lucas sequences U(P,Q) with P>0 different from m, |Q|=1, and (P,Q) different from (3,1).",
+  "id": "A218994",
+  "mentions": [
+    "A218995"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

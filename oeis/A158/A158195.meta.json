@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers such that sum of digits is even semiprime.",
+  "id": "A158195",
+  "mentions": [
+    "A000040",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

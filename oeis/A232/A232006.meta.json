@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of simple labeled graphs on vertex set {1,2,...,n} with exactly k components (all of which are trees) such that the labels {1,2,...,k} are all in distinct components (trees), n>=0, 0<=k<=n.",
+  "id": "A232006",
+  "mentions": [
+    "A000272",
+    "A058128"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

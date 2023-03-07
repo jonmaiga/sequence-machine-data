@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that omega(k) = 9.",
+  "id": "A348073",
+  "mentions": [
+    "A001221",
+    "A007774",
+    "A033992",
+    "A033993",
+    "A046312",
+    "A051270",
+    "A074969",
+    "A176655",
+    "A246655",
+    "A348072"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Let i be in {1,2,3}, let r >= 0 be an integer and n=2*r+i-1. Then a(n)=a(2*r+i-1) gives the quantity of H_(7,2,0) tiles in a subdivided H_(7,i,r) tile after linear scaling by the factor x^r, where x=sqrt((2*cos(Pi/7))^2-1).",
+  "id": "A187069",
+  "mentions": [
+    "A006054",
+    "A038196",
+    "A052534",
+    "A187068",
+    "A187070"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

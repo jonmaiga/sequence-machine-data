@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number with exactly n odd divisors that are <= sqrt(n).",
+  "id": "A334853",
+  "mentions": [
+    "A005179",
+    "A038547",
+    "A038549",
+    "A069288"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

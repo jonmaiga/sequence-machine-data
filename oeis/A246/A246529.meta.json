@@ -1,0 +1,19 @@
+{
+  "description": "Number of endofunctions on [n] whose cycle lengths are divisors of 9.",
+  "id": "A246529",
+  "mentions": [
+    "A246522",
+    "A246523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row n lists the pairs (p, q) such that p, q are primes, p+q=2*n and p < q.",
+  "id": "A305883",
+  "mentions": [
+    "A002373",
+    "A020481",
+    "A061357",
+    "A078496",
+    "A078587"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 4,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

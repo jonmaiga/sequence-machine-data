@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (-1)^n * n! * Laguerre(n, 5*n).",
+  "id": "A332694",
+  "mentions": [
+    "A277419",
+    "A277423",
+    "A332679",
+    "A332692",
+    "A332693",
+    "A332695"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

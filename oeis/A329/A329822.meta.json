@@ -1,0 +1,19 @@
+{
+  "description": "The minimum weight of a Boolean function of algebraic degree at most n-3 whose support contains n linearly independent elements.",
+  "id": "A329822",
+  "mentions": [
+    "A052928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:17",
+    "offset": 3,
+    "size": 62,
+    "source": "joeis"
+  }
+}

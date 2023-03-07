@@ -1,0 +1,20 @@
+{
+  "description": "Number of self-dual monotonic Boolean functions on n variables (where the result depends on all n variables).",
+  "id": "A107766",
+  "mentions": [
+    "A001206",
+    "A107765"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

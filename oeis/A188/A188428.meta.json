@@ -1,0 +1,20 @@
+{
+  "description": "Number of strings of length n on three symbols containing all permutations of those three symbols as substrings (factors), divided by six.",
+  "id": "A188428",
+  "mentions": [
+    "A000295",
+    "A062714",
+    "A180632",
+    "A224986"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = number of steps required to reach F(n+1)-1 from F(n+2)-1 by repeatedly subtracting from a natural number the number of ones in its Zeckendorf representation. Here F(n) = the n-th Fibonacci number, F(0) = 0, F(1) = 1, F(2) = 1, F(3) = 2, ...",
+  "id": "A261091",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A219641",
+    "A219642",
+    "A261076",
+    "A261081",
+    "A261082",
+    "A261090",
+    "A261102"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

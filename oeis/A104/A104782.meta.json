@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n^e (e>1) containing n in decimal representation.",
+  "id": "A104782",
+  "mentions": [
+    "A045537",
+    "A051248",
+    "A070327"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

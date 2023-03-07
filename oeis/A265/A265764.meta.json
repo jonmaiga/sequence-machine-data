@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of primes-only best approximates (POBAs) to 3; see Comments.",
+  "id": "A265764",
+  "mentions": [
+    "A000040",
+    "A023208",
+    "A088878",
+    "A091180",
+    "A094525",
+    "A265759",
+    "A265763"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

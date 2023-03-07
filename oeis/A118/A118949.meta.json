@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 12345678901098765432*sum(k=1,n,10^(20k-19)) + 1 is prime.",
+  "id": "A118949",
+  "mentions": [
+    "A117390"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

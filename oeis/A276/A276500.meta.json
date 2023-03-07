@@ -1,0 +1,18 @@
+{
+  "description": "Digital expansion of K_ccf, an analog of Khinchin's constant for centered continued fractions.",
+  "id": "A276500",
+  "mentions": [
+    "A002210"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

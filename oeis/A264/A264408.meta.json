@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = 1/(1-x)^(A(x)^3).",
+  "id": "A264408",
+  "mentions": [
+    "A052813",
+    "A264407",
+    "A349505"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

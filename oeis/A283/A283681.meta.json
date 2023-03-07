@@ -1,0 +1,23 @@
+{
+  "description": "Unique sequence with a(1)=1, a(2)=2, representing an array read by antidiagonals in which the i-th row is this sequence itself multiplied by i.",
+  "id": "A283681",
+  "mentions": [
+    "A007501",
+    "A283682",
+    "A283683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

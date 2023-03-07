@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers in base n having exactly three distinct digits such that the number formed by the consecutive subsequence of the initial j digits is divisible by j for all j in {1,2,3}.",
+  "id": "A333405",
+  "mentions": [
+    "A334318"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

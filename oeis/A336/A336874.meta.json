@@ -1,0 +1,18 @@
+{
+  "description": "The self-sandwiches sequence (see Comments lines for definition).",
+  "id": "A336874",
+  "mentions": [
+    "A335600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

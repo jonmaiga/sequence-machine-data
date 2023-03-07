@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = pi(n) * (Sum_{n <= q < 2n, q prime} q) + (pi(2n-1) - pi(n-1)) * (Sum_{p <= n, p prime} p).",
+  "id": "A352775",
+  "mentions": [
+    "A000720",
+    "A073837",
+    "A352749",
+    "A352753",
+    "A352754",
+    "A352777"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

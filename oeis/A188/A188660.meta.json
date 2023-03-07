@@ -1,0 +1,19 @@
+{
+  "description": "Oblong numbers that are the product of two oblong numbers.",
+  "id": "A188660",
+  "mentions": [
+    "A002378",
+    "A188630",
+    "A188663"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the Riordan array (1/(1+x),x(1+2x)/(1+x)^3)^(-1).",
+  "id": "A138175",
+  "mentions": [
+    "A138176"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

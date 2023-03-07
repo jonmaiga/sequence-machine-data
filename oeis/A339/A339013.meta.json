@@ -1,0 +1,23 @@
+{
+  "description": "Class number m containing n in a partitioning of the natural numbers into classes B_m by William J. Keith.",
+  "id": "A339013",
+  "mentions": [
+    "A005408",
+    "A016933",
+    "A161189",
+    "A227157",
+    "A339012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

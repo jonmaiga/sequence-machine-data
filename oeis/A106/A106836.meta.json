@@ -1,0 +1,26 @@
+{
+  "description": "First differences of A060833 and (from a(2) onward) also of A091067 and A255068.",
+  "id": "A106836",
+  "mentions": [
+    "A038189",
+    "A060833",
+    "A088742",
+    "A091067",
+    "A106837",
+    "A236840",
+    "A255058",
+    "A255068",
+    "A255070"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

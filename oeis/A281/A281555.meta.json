@@ -1,0 +1,19 @@
+{
+  "description": "Consider any concatenation of the type n = concat(a,b). Sequence lists numbers whose reverses are the sum of the products of some of such couples a and b.",
+  "id": "A281555",
+  "mentions": [
+    "A265737",
+    "A267939"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

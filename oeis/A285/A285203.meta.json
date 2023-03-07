@@ -1,0 +1,18 @@
+{
+  "description": "Local high points in A285200.",
+  "id": "A285203",
+  "mentions": [
+    "A285200",
+    "A285201"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

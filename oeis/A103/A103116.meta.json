@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (n-i+1)*phi(i).",
+  "id": "A103116",
+  "mentions": [
+    "A000010",
+    "A005598"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

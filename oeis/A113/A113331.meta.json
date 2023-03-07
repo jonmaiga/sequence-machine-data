@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 6^k*A111146(n,k).",
+  "id": "A113331",
+  "mentions": [
+    "A111146",
+    "A113326",
+    "A113327",
+    "A113328",
+    "A113329",
+    "A113330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

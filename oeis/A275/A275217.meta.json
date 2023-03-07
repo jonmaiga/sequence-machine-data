@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers n such that A000005(n) divides A000005(n^n).",
+  "id": "A275217",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A062319",
+    "A275123"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

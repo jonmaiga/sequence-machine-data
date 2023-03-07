@@ -1,0 +1,21 @@
+{
+  "description": "Parse the Kolakoski sequence A000002 into distinct phrases 1, 2, 21, 12, 122, 1221, 121, 12212, 11, ...; a(n) = length of n-th phrase.",
+  "id": "A187199",
+  "mentions": [
+    "A000002",
+    "A109337",
+    "A187180",
+    "A187188",
+    "A187200"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

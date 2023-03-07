@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-avoiding cycles of length 2n on the half-Manhattan lattice.",
+  "id": "A336742",
+  "mentions": [
+    "A002931",
+    "A006781",
+    "A006782",
+    "A336724"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

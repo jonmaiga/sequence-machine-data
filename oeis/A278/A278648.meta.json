@@ -1,0 +1,20 @@
+{
+  "description": "Consider the set S of integers 1 through n. a(n) is the number of unordered ways in which three distinct elements {a, b, c} of S satisfy a*b = c*n.",
+  "id": "A278648",
+  "mentions": [
+    "A211159",
+    "A278348"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

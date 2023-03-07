@@ -1,0 +1,17 @@
+{
+  "description": "sigma(n) + n is a cube.",
+  "id": "A114070",
+  "mentions": [
+    "A155085"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

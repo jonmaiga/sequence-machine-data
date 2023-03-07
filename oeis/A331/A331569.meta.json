@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of binary matrices with k distinct columns and any number of distinct nonzero rows with n ones in every column and columns in decreasing lexicographic order.",
+  "id": "A331569",
+  "mentions": [
+    "A000012",
+    "A094631",
+    "A330942",
+    "A331039",
+    "A331567",
+    "A331570",
+    "A331571",
+    "A331572",
+    "A331649",
+    "A331650",
+    "A331651"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

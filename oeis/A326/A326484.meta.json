@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n*E2_{n}(-1/2) with E2_{n} the polynomials defined in A326480.",
+  "id": "A326484",
+  "mentions": [
+    "A155585",
+    "A326480",
+    "A326481",
+    "A326482",
+    "A326483"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

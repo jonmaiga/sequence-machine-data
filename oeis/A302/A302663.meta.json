@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically first sequence of distinct terms such that the absolute differences |a(n) - a(n+1)| are A002113(n+1), where A002113 is \"the palindromes in base 10\".",
+  "id": "A302663",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

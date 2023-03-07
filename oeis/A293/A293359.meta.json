@@ -1,0 +1,21 @@
+{
+  "description": "Greatest integer k such that k/2^n < e^2.",
+  "id": "A293359",
+  "mentions": [
+    "A072334",
+    "A293360",
+    "A293361"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

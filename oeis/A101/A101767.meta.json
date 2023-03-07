@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n, 2n+1, 3n+2, 4n+3, 5n+4, 6n+5 are primes.",
+  "id": "A101767",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A067256",
+    "A067257",
+    "A067258",
+    "A101768",
+    "A101769",
+    "A101770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

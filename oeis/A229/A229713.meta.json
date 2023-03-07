@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of length n that are sums of 3 consecutive elements of length n+2 permutations of 0..n+1, and no two consecutive rises or falls in the latter permutation.",
+  "id": "A229713",
+  "mentions": [
+    "A229717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

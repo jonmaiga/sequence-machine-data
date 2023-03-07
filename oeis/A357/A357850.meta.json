@@ -1,0 +1,38 @@
+{
+  "description": "Numbers whose prime indices do not have weakly decreasing run-sums. Heinz numbers of the partitions counted by A357865.",
+  "id": "A357850",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A181819",
+    "A300273",
+    "A304405",
+    "A304406",
+    "A304428",
+    "A304430",
+    "A304442",
+    "A353832",
+    "A353864",
+    "A353932",
+    "A354584",
+    "A357861",
+    "A357864",
+    "A357865",
+    "A357875",
+    "A357876",
+    "A357878"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

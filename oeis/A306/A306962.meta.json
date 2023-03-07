@@ -1,0 +1,22 @@
+{
+  "description": "Trajectory of 4 under repeated application of x -> A306958(x).",
+  "id": "A306962",
+  "mentions": [
+    "A306957",
+    "A306958",
+    "A306959",
+    "A306960",
+    "A306961"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

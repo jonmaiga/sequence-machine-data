@@ -1,0 +1,22 @@
+{
+  "description": "Carmichael numbers k such that phi(k) divides p*(k - 1) for some prime factor p of k - 1.",
+  "id": "A339878",
+  "mentions": [
+    "A002997",
+    "A338998",
+    "A339818",
+    "A339869",
+    "A339909"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

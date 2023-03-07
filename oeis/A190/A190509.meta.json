@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = n + [nr/s] + [nt/s] + [nu/s] where r=golden ratio, s=r^2, t=r^3, u=r^4, and [] represents the floor function.",
+  "id": "A190509",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A003623",
+    "A054770",
+    "A190508",
+    "A190511",
+    "A340429",
+    "A356104",
+    "A356107",
+    "A356217",
+    "A356218",
+    "A356220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

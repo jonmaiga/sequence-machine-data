@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways of writing n as a sum of three Fibonacci numbers (only one 1 is considered as a Fibonacci number).",
+  "id": "A121550",
+  "mentions": [
+    "A000045",
+    "A121548",
+    "A121549",
+    "A357688",
+    "A357690",
+    "A357691"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

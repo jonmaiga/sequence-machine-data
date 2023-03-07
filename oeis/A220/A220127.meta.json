@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 10 X n rectangle using integer-sided rectangular tiles of area 10.",
+  "id": "A220127",
+  "mentions": [
+    "A220122"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

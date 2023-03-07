@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30, and no two adjacent values equal",
+  "id": "A233884",
+  "mentions": [
+    "A233892"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

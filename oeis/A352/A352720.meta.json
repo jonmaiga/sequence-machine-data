@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of free polyominoes of width 2 and size n.",
+  "id": "A352720",
+  "mentions": [
+    "A000105",
+    "A335711",
+    "A353067"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

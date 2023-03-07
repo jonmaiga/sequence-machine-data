@@ -1,0 +1,20 @@
+{
+  "description": "Primes obtained from other primes by prefixing a 4.",
+  "id": "A165444",
+  "mentions": [
+    "A000040",
+    "A165243",
+    "A165292"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

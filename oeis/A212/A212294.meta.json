@@ -1,0 +1,18 @@
+{
+  "description": "Sums of (zero or more) distinct twin primes.",
+  "id": "A212294",
+  "mentions": [
+    "A208572"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

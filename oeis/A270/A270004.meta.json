@@ -1,0 +1,19 @@
+{
+  "description": "Run-length encoding of iterated Scrabble function.",
+  "id": "A270004",
+  "mentions": [
+    "A113172",
+    "A290205"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

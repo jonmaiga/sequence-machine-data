@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes <= A214757(n)",
+  "id": "A214925",
+  "mentions": [
+    "A000101",
+    "A000217",
+    "A001223",
+    "A002386",
+    "A104272",
+    "A214756",
+    "A214757",
+    "A214924",
+    "A214926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

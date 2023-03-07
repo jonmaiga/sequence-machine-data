@@ -1,0 +1,18 @@
+{
+  "description": "Primes congruent to 1 or 209 mod 210.",
+  "id": "A140535",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:51",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

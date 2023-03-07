@@ -1,0 +1,20 @@
+{
+  "description": "Largest number that can be written in binary as concatenation of (n - k) and (n + k), 0 <= k <= n.",
+  "id": "A246520",
+  "mentions": [
+    "A007088",
+    "A246701",
+    "A246830"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

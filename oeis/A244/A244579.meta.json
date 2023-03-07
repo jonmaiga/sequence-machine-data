@@ -1,0 +1,42 @@
+{
+  "description": "Numbers n with the property that the number of parts in the symmetric representation of sigma(n) equals the number of divisors of n.",
+  "id": "A244579",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001227",
+    "A005279",
+    "A071561",
+    "A071562",
+    "A090196",
+    "A151991",
+    "A196020",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A238524",
+    "A239657",
+    "A239663",
+    "A239929",
+    "A240062",
+    "A241558",
+    "A241559",
+    "A243982",
+    "A245092",
+    "A249223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

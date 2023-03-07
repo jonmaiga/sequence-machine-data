@@ -1,0 +1,21 @@
+{
+  "description": "Primes such that number of prime digits < number of nonprime digits.",
+  "id": "A154386",
+  "mentions": [
+    "A000040",
+    "A085558"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} (n/d mod d).",
+  "id": "A353776",
+  "mentions": [
+    "A055155",
+    "A057670",
+    "A082909"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

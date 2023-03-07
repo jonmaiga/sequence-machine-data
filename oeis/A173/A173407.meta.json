@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A002106.",
+  "id": "A173407",
+  "mentions": [
+    "A000001",
+    "A000019",
+    "A002106",
+    "A173397"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

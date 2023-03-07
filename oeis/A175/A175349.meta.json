@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer that, when written in binary, contains the binary representations of both the n-th prime and the n-th composite as (possibly overlapping) substrings.",
+  "id": "A175349",
+  "mentions": [
+    "A004676",
+    "A115454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

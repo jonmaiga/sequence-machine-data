@@ -1,0 +1,36 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals, where A(n,k) is the number of permutations of n copies of 1..k introduced in order 1..k with no element equal to another within a distance of 1.",
+  "id": "A322013",
+  "mentions": [
+    "A000012",
+    "A190826",
+    "A190830",
+    "A190833",
+    "A190835",
+    "A190836",
+    "A190837",
+    "A190917",
+    "A190918",
+    "A190920",
+    "A190923",
+    "A190927",
+    "A190932",
+    "A278990",
+    "A321666",
+    "A321669",
+    "A321670",
+    "A321987",
+    "A322061"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

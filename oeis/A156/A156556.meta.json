@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (n^k mod (n+k)).",
+  "id": "A156556",
+  "mentions": [
+    "A156557",
+    "A156558",
+    "A156559"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

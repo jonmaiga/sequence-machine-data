@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k for which 120*k + 169 is a square.",
+  "id": "A316672",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A047283",
+    "A051869",
+    "A085787",
+    "A118277",
+    "A195160",
+    "A195313",
+    "A277082",
+    "A303298",
+    "A303305",
+    "A303813",
+    "A303815"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:23",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

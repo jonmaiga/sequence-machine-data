@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle whose rows are all finite sequences of positive integers that are polydivisible and strictly pandigital.",
+  "id": "A305715",
+  "mentions": [
+    "A000670",
+    "A010784",
+    "A030299",
+    "A050289",
+    "A143671",
+    "A144688",
+    "A156069",
+    "A156071",
+    "A158242",
+    "A163574",
+    "A240763",
+    "A305701",
+    "A305712",
+    "A305714"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

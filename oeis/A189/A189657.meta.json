@@ -1,0 +1,20 @@
+{
+  "description": "Start with n, apply k->2k+1 until a semiprime is reached; sequence gives the semiprimes.",
+  "id": "A189657",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A051919"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

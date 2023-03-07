@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts congruent to 1 mod 4.",
+  "id": "A339059",
+  "mentions": [
+    "A003269",
+    "A016813",
+    "A032020",
+    "A032021",
+    "A035451",
+    "A169975",
+    "A337547",
+    "A337548",
+    "A339060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

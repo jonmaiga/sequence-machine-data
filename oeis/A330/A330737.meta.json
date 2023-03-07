@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the first index k in A002182 (highly composite numbers) from which onward all terms A002182(i), i >= k, are multiples of the n-th prime, a(0) = 1 by convention.",
+  "id": "A330737",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A072846",
+    "A199337",
+    "A328520",
+    "A329571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

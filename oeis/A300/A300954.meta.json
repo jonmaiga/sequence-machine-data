@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths whose sequence of ascent lengths is exactly n+1, n+2, ..., 2n.",
+  "id": "A300954",
+  "mentions": [
+    "A005449",
+    "A049451",
+    "A107876"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

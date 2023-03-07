@@ -1,0 +1,19 @@
+{
+  "description": "Central terms of triangle A114172 found in even-indexed rows.",
+  "id": "A114174",
+  "mentions": [
+    "A114172",
+    "A114173",
+    "A114175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

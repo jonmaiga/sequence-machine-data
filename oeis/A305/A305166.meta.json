@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 164*2^n - 140.",
+  "id": "A305166",
+  "mentions": [
+    "A305163",
+    "A305164",
+    "A305165"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:24:44",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

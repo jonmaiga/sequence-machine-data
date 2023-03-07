@@ -1,0 +1,19 @@
+{
+  "description": "Repeatedly apply 'Reverse and add' to n. a(n) gives the number of steps needed to reach a sum containing each digit from 0 to 9 at least once.",
+  "id": "A249280",
+  "mentions": [
+    "A056964"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

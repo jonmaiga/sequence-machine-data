@@ -1,0 +1,24 @@
+{
+  "description": "Numbers such that the absolute difference of a pair of adjacent decimal digits is not prime.",
+  "id": "A219251",
+  "mentions": [
+    "A182177",
+    "A182178",
+    "A219110",
+    "A219248",
+    "A219249",
+    "A219250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of different hook length multisets of partitions of n.",
+  "id": "A180652",
+  "mentions": [
+    "A000009",
+    "A046682",
+    "A180649",
+    "A301512"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

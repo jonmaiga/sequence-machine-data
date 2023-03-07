@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p^2 + q^2 = r^3 + s^3 with p, q, r, s primes.",
+  "id": "A283359",
+  "mentions": [
+    "A045636",
+    "A086119"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

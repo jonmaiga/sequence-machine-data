@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-step four-sided prudent self-avoiding walks ending at the northwest corner of their box.",
+  "id": "A191758",
+  "mentions": [
+    "A191756",
+    "A191757"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

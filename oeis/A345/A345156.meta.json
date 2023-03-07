@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of four third powers in exactly ten ways.",
+  "id": "A345156",
+  "mentions": [
+    "A025366",
+    "A344929",
+    "A345122",
+    "A345154",
+    "A345155",
+    "A345188"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

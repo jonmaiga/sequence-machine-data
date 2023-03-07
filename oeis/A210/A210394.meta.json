@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least integer m>1 such that m divides none of S_i!+S_j! with 0",
+  "id": "A210394",
+  "mentions": [
+    "A000040",
+    "A207982",
+    "A208494",
+    "A208643",
+    "A210144",
+    "A210186",
+    "A210393"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

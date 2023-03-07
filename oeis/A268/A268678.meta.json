@@ -1,0 +1,25 @@
+{
+  "description": "Distinct values in A268395; partial sums of A268679.",
+  "id": "A268678",
+  "mentions": [
+    "A001969",
+    "A004128",
+    "A006068",
+    "A268395",
+    "A268677",
+    "A268679",
+    "A268680",
+    "A268712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

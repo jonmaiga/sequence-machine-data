@@ -1,0 +1,22 @@
+{
+  "description": "Near-miss circular primes: Primes p where all but one of the numbers obtained by cyclically permuting the digits of p are prime.",
+  "id": "A270083",
+  "mentions": [
+    "A045978",
+    "A055642",
+    "A068652",
+    "A091633",
+    "A262988"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

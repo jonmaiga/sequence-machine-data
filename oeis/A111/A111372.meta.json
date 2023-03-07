@@ -1,0 +1,18 @@
+{
+  "description": "Consider the sequence defined in A083952 as a string of the digits 1 and 2. Then a(n) is the beginning position of the first occurrence of just n consecutive 1's at every other position.",
+  "id": "A111372",
+  "mentions": [
+    "A083952",
+    "A111363"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

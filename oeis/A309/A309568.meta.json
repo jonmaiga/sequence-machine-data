@@ -1,0 +1,19 @@
+{
+  "description": "Bi-unitary k-hyperperfect numbers: numbers m such that m = 1 + k * (bsigma(m) - m - 1) where bsigma(m) is the sum of bi-unitary divisors of m (A188999) and k >= 1 is an integer.",
+  "id": "A309568",
+  "mentions": [
+    "A034897",
+    "A188999",
+    "A225150"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

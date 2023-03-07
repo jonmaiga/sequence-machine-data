@@ -1,0 +1,22 @@
+{
+  "description": "Skew version of correlation triangle for constant sequence 1.",
+  "id": "A115296",
+  "mentions": [
+    "A001399",
+    "A003983",
+    "A025795"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:17",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

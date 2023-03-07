@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the perimeter of a primitive 120-degree integer triangle.",
+  "id": "A350045",
+  "mentions": [
+    "A002476",
+    "A264827",
+    "A350038",
+    "A350047"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

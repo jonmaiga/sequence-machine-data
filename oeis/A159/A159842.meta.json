@@ -1,0 +1,28 @@
+{
+  "description": "Number of symmetrically-distinct supercells (sublattices) of the fcc and bcc lattices (n is the \"volume factor\" of the supercell).",
+  "id": "A159842",
+  "mentions": [
+    "A001001",
+    "A003051",
+    "A045790",
+    "A145391",
+    "A145393",
+    "A145398",
+    "A173824",
+    "A173877",
+    "A173878",
+    "A300782",
+    "A300783",
+    "A300784"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

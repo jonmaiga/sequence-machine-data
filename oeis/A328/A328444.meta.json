@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that a(1) = 1, a(2) = 2, and for n > 2, a(n) divides Sum_{i = n-k..n-1} a(i) with k > 0 as small as possible.",
+  "id": "A328444",
+  "mentions": [
+    "A085947",
+    "A328443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

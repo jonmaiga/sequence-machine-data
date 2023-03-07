@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k) of values of |G_m(2)| for k = A272723(n) and 1 < m < A272724(n), read by rows.",
+  "id": "A272726",
+  "mentions": [
+    "A272722",
+    "A272723",
+    "A272724",
+    "A272725"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

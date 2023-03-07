@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of Catalan numbers A000108 multiplied by powers of -5.",
+  "id": "A113264",
+  "mentions": [
+    "A000108",
+    "A112707",
+    "A112711"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:56:36",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

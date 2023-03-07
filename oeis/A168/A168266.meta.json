@@ -1,0 +1,21 @@
+{
+  "description": "A003557(A168264(n)).",
+  "id": "A168266",
+  "mentions": [
+    "A003557",
+    "A111701",
+    "A168264",
+    "A168267"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

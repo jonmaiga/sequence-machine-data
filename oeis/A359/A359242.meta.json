@@ -1,0 +1,20 @@
+{
+  "description": "Consider the race between primes, squarefree semiprimes, ..., products of k distinct primes; sequence indicates when one overtakes another to give a new race leader.",
+  "id": "A359242",
+  "mentions": [
+    "A276176",
+    "A335293",
+    "A340316"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

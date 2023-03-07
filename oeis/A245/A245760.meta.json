@@ -1,0 +1,21 @@
+{
+  "description": "Maximal multiplicative persistence of n in any base.",
+  "id": "A245760",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A046510",
+    "A064867",
+    "A064868"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

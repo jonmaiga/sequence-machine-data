@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest natural number m such that product of arithmetic mean of the divisors of n and arithmetic mean of the divisors of m is an integer.",
+  "id": "A176801",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A057020",
+    "A057021",
+    "A245656"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

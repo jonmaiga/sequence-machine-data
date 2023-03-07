@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number which is representable as a sum of n but no fewer consecutive nonnegative integers, or 0 for n > 1 if no such number exists.",
+  "id": "A270306",
+  "mentions": [
+    "A111774",
+    "A138591",
+    "A163172",
+    "A174090",
+    "A270296",
+    "A270303"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

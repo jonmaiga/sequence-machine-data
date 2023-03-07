@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(2*x)/(1+LambertW(-x)).",
+  "id": "A277457",
+  "mentions": [
+    "A086331",
+    "A277454",
+    "A277456",
+    "A277485"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

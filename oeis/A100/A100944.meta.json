@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of constant in A100943: positive solution of y^2-y-e=0.",
+  "id": "A100944",
+  "mentions": [
+    "A100943"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

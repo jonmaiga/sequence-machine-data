@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers n such that the largest odd term in Collatz(3x+1) trajectory of n is prime.",
+  "id": "A225105",
+  "mentions": [
+    "A005408",
+    "A010051",
+    "A025586",
+    "A070165",
+    "A087232",
+    "A220237"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

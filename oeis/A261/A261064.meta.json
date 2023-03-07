@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (3^n-1)*(n+1)/4.",
+  "id": "A261064",
+  "mentions": [
+    "A001792",
+    "A027907",
+    "A201730",
+    "A212337"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

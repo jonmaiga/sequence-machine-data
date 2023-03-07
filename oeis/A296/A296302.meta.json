@@ -1,0 +1,28 @@
+{
+  "description": "Number of aperiodic compositions of n with relatively prime parts. Number of compositions of n with relatively prime parts and relatively prime run-lengths.",
+  "id": "A296302",
+  "mentions": [
+    "A000005",
+    "A000740",
+    "A000837",
+    "A007427",
+    "A008683",
+    "A008965",
+    "A059966",
+    "A060223",
+    "A100953",
+    "A228369",
+    "A281013"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

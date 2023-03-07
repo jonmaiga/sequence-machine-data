@@ -1,0 +1,26 @@
+{
+  "description": "Squares that can be expressed as the sum of two powers of two (2^x + 2^y).",
+  "id": "A356880",
+  "mentions": [
+    "A000290",
+    "A000302",
+    "A002063",
+    "A029744",
+    "A048645",
+    "A220221",
+    "A270473",
+    "A272711"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

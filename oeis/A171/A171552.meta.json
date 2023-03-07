@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=2^n*floor((5-2n)/3).",
+  "id": "A171552",
+  "mentions": [
+    "A131428"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:08:39",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that distances from k to three nearest squares are three perfect squares.",
+  "id": "A234335",
+  "mentions": [
+    "A000290",
+    "A234334"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

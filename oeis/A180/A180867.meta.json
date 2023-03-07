@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) is the Wiener index of the Dutch windmill graph D(m,n) (m>=3, n>=1).",
+  "id": "A180867",
+  "mentions": [
+    "A014642",
+    "A033991",
+    "A180578",
+    "A180579"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

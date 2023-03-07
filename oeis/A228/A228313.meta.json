@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(p,q) (1<=q<=p) is the Wiener index of the Cartesian product of the cycles C(p) and C(q) (the torus grid graph).",
+  "id": "A228313",
+  "mentions": [
+    "A034828",
+    "A122657",
+    "A138179",
+    "A228314"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

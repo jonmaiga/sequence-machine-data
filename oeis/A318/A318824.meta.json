@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted trees with n nodes such that nine equals the maximal number of subtrees of the same size extending from the same node.",
+  "id": "A318824",
+  "mentions": [
+    "A318754"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 9,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

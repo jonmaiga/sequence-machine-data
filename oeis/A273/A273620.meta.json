@@ -1,0 +1,24 @@
+{
+  "description": "Table read by ascending antidiagonals: T(n, k) = floor(sqrt(k) * floor(n/sqrt(k) + 1)), for n >= 1, k >= 1.",
+  "id": "A273620",
+  "mentions": [
+    "A001951",
+    "A022838",
+    "A022839",
+    "A022840",
+    "A261865",
+    "A327952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

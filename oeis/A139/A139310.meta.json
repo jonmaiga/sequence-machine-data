@@ -1,0 +1,20 @@
+{
+  "description": "Has two properties: concatenation of its digits is same string as concatenation of digits of its first differences and every number appears exactly one of the sequence or its first differences.",
+  "id": "A139310",
+  "mentions": [
+    "A005228",
+    "A030124",
+    "A139311"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

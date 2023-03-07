@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the greatest divisor of n divisible by the product of its own digits.",
+  "id": "A360073",
+  "mentions": [
+    "A007602",
+    "A335037",
+    "A337941",
+    "A360074"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

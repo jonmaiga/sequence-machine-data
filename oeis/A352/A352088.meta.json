@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose binary and minimal tribonacci representations are both palindromic.",
+  "id": "A352088",
+  "mentions": [
+    "A006995",
+    "A007088",
+    "A095309",
+    "A278038",
+    "A331193",
+    "A331894",
+    "A351713",
+    "A351718",
+    "A352087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

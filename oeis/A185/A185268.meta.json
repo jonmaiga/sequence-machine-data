@@ -1,0 +1,19 @@
+{
+  "description": "Gauss's choice of primitive elements for the first 32 primes or prime powers listed in A185189.",
+  "id": "A185268",
+  "mentions": [
+    "A185189"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

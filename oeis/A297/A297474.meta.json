@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximal matchings in the n-cocktail party graph.",
+  "id": "A297474",
+  "mentions": [
+    "A053871"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

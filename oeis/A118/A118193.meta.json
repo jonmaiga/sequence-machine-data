@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of the matrix inverse of triangle A118190(n,k) = 5^(k*(n-k)).",
+  "id": "A118193",
+  "mentions": [
+    "A118190"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

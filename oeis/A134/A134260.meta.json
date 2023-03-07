@@ -1,0 +1,28 @@
+{
+  "description": "Positions of 10 after decimal point in decimal expansion of 1/Pi.",
+  "id": "A134260",
+  "mentions": [
+    "A014777",
+    "A037000",
+    "A134251",
+    "A134252",
+    "A134253",
+    "A134254",
+    "A134255",
+    "A134256",
+    "A134257",
+    "A134258",
+    "A134259"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

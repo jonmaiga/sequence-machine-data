@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: expansion of (1 - x)/(exp(t)*(1 - x*exp(t*(1 - x))))",
+  "id": "A168423",
+  "mentions": [
+    "A000166",
+    "A046739",
+    "A046802",
+    "A123125"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

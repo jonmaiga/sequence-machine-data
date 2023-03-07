@@ -1,0 +1,19 @@
+{
+  "description": "The size of an optimal binary code of length n and edit distance 3.",
+  "id": "A179183",
+  "mentions": [
+    "A230380",
+    "A230381"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

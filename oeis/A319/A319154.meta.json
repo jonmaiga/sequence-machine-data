@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest nonnegative integer not yet in the sequence that starts with the ending digit of a(n-1); a(1)=0; initial zeros are dropped.",
+  "id": "A319154",
+  "mentions": [
+    "A008592",
+    "A162501",
+    "A173237",
+    "A261370"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

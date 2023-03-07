@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A337490.",
+  "id": "A333980",
+  "mentions": [
+    "A005132",
+    "A064814",
+    "A082299",
+    "A165430",
+    "A336957",
+    "A337490"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

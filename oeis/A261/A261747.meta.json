@@ -1,0 +1,20 @@
+{
+  "description": "Chocolate-2 numbers.",
+  "id": "A261747",
+  "mentions": [
+    "A257281",
+    "A261746",
+    "A261964"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 6*a(n-2) + a(n-4), where a(0) = 5, a(1) = 8, a(2) = 30, a(3) = 49.",
+  "id": "A228472",
+  "mentions": [
+    "A228469",
+    "A228470",
+    "A228471"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

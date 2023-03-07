@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite numbers k all of whose divisors larger than 1 are not binary palindromes (A006995) such that the divisors of the binary reversal of k (A030101) are the binary reversals of the divisors of k.",
+  "id": "A331664",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A329419",
+    "A331662",
+    "A331663"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

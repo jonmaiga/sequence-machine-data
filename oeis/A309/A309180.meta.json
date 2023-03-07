@@ -1,0 +1,18 @@
+{
+  "description": "Unsuspected numbers to check in the Collatz conjecture.",
+  "id": "A309180",
+  "mentions": [
+    "A014682",
+    "A016921"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

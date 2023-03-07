@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that when three real numbers are chosen at random, uniformly and independently in the interval [0,1], they can be the lengths of the sides of a triangle whose altitudes are also the sides of some triangle.",
+  "id": "A352484",
+  "mentions": [
+    "A020837",
+    "A134972",
+    "A352485"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

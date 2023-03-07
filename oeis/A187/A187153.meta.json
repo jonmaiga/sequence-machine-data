@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of q * (psi(q) / psi(q^2)) / (psi(q^3) / psi(q^6))^3 in powers of q where psi() is a Ramanujan theta function.",
+  "id": "A187153",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A115977",
+    "A121373",
+    "A123649",
+    "A187143",
+    "A213265"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:37",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime >= decimal expansion of e truncated to n places (A011543).",
+  "id": "A276196",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001113",
+    "A007512",
+    "A007918",
+    "A011543",
+    "A064118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

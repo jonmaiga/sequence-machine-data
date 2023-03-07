@@ -1,0 +1,21 @@
+{
+  "description": "Write natural numbers in base 2 as a stream of digits. Moving left to right, delete odd occurrences of digit 0 and 1.",
+  "id": "A174205",
+  "mentions": [
+    "A007088",
+    "A174203",
+    "A174210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 133,
+    "source": "oeis-entry"
+  }
+}

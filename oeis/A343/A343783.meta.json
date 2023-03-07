@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest primorial number (A002110) which divides phi(n).",
+  "id": "A343783",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A034386",
+    "A053589",
+    "A066498",
+    "A088232"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

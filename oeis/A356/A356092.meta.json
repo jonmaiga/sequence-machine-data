@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the imaginary part of the first nontrivial zero of zeta'.",
+  "id": "A356092",
+  "mentions": [
+    "A356216"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 127,
+    "source": "oeis-entry"
+  }
+}

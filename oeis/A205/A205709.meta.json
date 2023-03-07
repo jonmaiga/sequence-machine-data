@@ -1,0 +1,21 @@
+{
+  "description": "prime(k)-prime(j), where the pairs (k,j) are given by A205705 and A205706.",
+  "id": "A205709",
+  "mentions": [
+    "A204890",
+    "A205558",
+    "A205705",
+    "A205706",
+    "A205710"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:20:23",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

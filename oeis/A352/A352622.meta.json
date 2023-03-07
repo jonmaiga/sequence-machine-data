@@ -1,0 +1,21 @@
+{
+  "description": "Number of regular convex polytopes that can be formed with n indistinguishable points located at the vertices, coinciding in equal frequency at each vertex, if coinciding at all.",
+  "id": "A352622",
+  "mentions": [
+    "A053016",
+    "A063723",
+    "A063927",
+    "A111336"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

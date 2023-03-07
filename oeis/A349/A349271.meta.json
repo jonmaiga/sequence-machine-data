@@ -1,0 +1,37 @@
+{
+  "description": "Array A(n, k) that generalizes Euler numbers, class numbers, and tangent numbers, read by ascending antidiagonals.",
+  "id": "A349271",
+  "mentions": [
+    "A000003",
+    "A000061",
+    "A000111",
+    "A000176",
+    "A000233",
+    "A000362",
+    "A000488",
+    "A000508",
+    "A000518",
+    "A001586",
+    "A001587",
+    "A007289",
+    "A235605",
+    "A235606",
+    "A349263",
+    "A349264",
+    "A349265",
+    "A349266",
+    "A349267",
+    "A349268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

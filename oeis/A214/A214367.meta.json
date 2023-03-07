@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to ( sqrt(4*sqrt(3)-3) - 1 )/4.",
+  "id": "A214367",
+  "mentions": [
+    "A110312",
+    "A224224"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

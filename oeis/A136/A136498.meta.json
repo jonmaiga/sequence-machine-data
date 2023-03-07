@@ -1,0 +1,17 @@
+{
+  "description": "Solution of the complementary equation b(n)=a(a(n))+a(n); this is the sequence b. Sequence a is A136497.",
+  "id": "A136498",
+  "mentions": [
+    "A136497"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

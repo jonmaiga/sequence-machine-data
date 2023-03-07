@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled P-series with n elements.",
+  "id": "A349276",
+  "mentions": [
+    "A003430",
+    "A255047",
+    "A349488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

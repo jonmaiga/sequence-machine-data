@@ -1,0 +1,21 @@
+{
+  "description": "Magic sums of 4 X 4 magic squares composed of primes.",
+  "id": "A271578",
+  "mentions": [
+    "A000040",
+    "A005843",
+    "A164843",
+    "A268790"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

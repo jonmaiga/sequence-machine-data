@@ -1,0 +1,34 @@
+{
+  "description": "Square array A(n,k) = (k!)^n, n>=0, k>=0, read by antidiagonals.",
+  "id": "A225816",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000142",
+    "A000400",
+    "A000442",
+    "A001044",
+    "A003989",
+    "A008275",
+    "A008277",
+    "A009968",
+    "A036740",
+    "A048993",
+    "A048994",
+    "A109004",
+    "A109974",
+    "A134375"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

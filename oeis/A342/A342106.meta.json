@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are not arithmetic and not balanced.",
+  "id": "A342106",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000027",
+    "A000203",
+    "A003601",
+    "A020492",
+    "A342103",
+    "A342104",
+    "A342105"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

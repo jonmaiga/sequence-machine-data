@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n is a deficient number and there exists a prime number p greater than the largest prime factor of n such that p*n is abundant.",
+  "id": "A232168",
+  "mentions": [
+    "A005100",
+    "A005101",
+    "A071395"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

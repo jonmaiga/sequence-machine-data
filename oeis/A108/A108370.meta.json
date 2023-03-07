@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose primal code characteristic = 0, that is, positive n for which A108352(n) = 0.",
+  "id": "A108370",
+  "mentions": [
+    "A108352",
+    "A108371",
+    "A108372",
+    "A108373",
+    "A108374"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

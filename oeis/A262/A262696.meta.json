@@ -1,0 +1,30 @@
+{
+  "description": "a(n)=0 if n is in A259934, otherwise number of terminal nodes (including n itself if it is a leaf) in that finite subtree whose root is n and whose edge-relation is defined by A049820(child) = parent.",
+  "id": "A262696",
+  "mentions": [
+    "A000005",
+    "A045765",
+    "A049820",
+    "A060990",
+    "A082284",
+    "A213726",
+    "A259934",
+    "A262511",
+    "A262522",
+    "A262686",
+    "A262693",
+    "A262695",
+    "A262697"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

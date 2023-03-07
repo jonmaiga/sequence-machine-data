@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) = k^2 read by rows.",
+  "id": "A143844",
+  "mentions": [
+    "A000290",
+    "A002262",
+    "A002415",
+    "A002674",
+    "A040977",
+    "A053347",
+    "A054334",
+    "A133819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:49",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of s_4, a 4-dimensional Steiner ratio analog.",
+  "id": "A272526",
+  "mentions": [
+    "A010527",
+    "A220351",
+    "A248411"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

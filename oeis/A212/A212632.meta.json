@@ -1,0 +1,20 @@
+{
+  "description": "The domination number of the rooted tree with Matula-Goebel number n.",
+  "id": "A212632",
+  "mentions": [
+    "A212618",
+    "A212630",
+    "A212631"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of length n without modular consecutive triples i,i+2,i+4.",
+  "id": "A174073",
+  "mentions": [
+    "A165960",
+    "A174072",
+    "A174074",
+    "A174075",
+    "A216724"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

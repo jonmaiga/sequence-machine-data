@@ -1,0 +1,18 @@
+{
+  "description": "Starting from a(1)=1, a(n) is the minimum integer greater than a(n-1) such that a(n)+a(n-1) and a(n)*a(n-1)-1 are both primes.",
+  "id": "A228589",
+  "mentions": [
+    "A228588",
+    "A228590"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

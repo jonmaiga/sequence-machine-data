@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n,k) of Arnold numbers with n>=1 and 1<= abs(k) <= n.",
+  "id": "A335335",
+  "mentions": [
+    "A001586",
+    "A185356",
+    "A202690",
+    "A202815",
+    "A202816"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

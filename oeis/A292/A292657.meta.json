@@ -1,0 +1,19 @@
+{
+  "description": "Rank of n when all the numbers h, j*cos(1), k*sin(1), for h>=1, j>=1, k>=1, are jointly ranked.",
+  "id": "A292657",
+  "mentions": [
+    "A292658",
+    "A292659"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

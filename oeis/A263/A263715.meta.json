@@ -1,0 +1,25 @@
+{
+  "description": "Nonnegative integers that are the sum or difference of two squares.",
+  "id": "A263715",
+  "mentions": [
+    "A001481",
+    "A020668",
+    "A042965",
+    "A057653",
+    "A062316",
+    "A079298",
+    "A097269",
+    "A263737"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

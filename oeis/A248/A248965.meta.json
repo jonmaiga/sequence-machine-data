@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of area bounded by x = 1, y = 1/x, and y = sin(1/x).",
+  "id": "A248965",
+  "mentions": [
+    "A248966",
+    "A248967",
+    "A248968"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

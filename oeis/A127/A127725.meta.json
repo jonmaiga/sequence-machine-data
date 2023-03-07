@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are 2-imperfect.",
+  "id": "A127725",
+  "mentions": [
+    "A019434",
+    "A127724",
+    "A127726"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

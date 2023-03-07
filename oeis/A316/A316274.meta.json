@@ -1,0 +1,20 @@
+{
+  "description": "Nonzero terms in row sums of the lower triangular part of a square matrix formed by Dirichlet convolution of adjacent columns in the square matrix A191898.",
+  "id": "A316274",
+  "mentions": [
+    "A001694",
+    "A191898",
+    "A298825"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

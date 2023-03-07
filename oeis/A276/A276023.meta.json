@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of 32*Pi^4/945.",
+  "id": "A276023",
+  "mentions": [
+    "A000796",
+    "A019699",
+    "A021949",
+    "A092425",
+    "A102753",
+    "A164103",
+    "A164105",
+    "A164106",
+    "A164108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

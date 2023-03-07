@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of (n*(n - 3)/6) + 1, arising as the maximum possible number of triple lines for an n-element set.",
+  "id": "A222591",
+  "mentions": [
+    "A169609"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:47",
+    "offset": 3,
+    "size": 51,
+    "source": "joeis"
+  }
+}

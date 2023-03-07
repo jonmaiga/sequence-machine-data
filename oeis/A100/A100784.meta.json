@@ -1,0 +1,21 @@
+{
+  "description": "Row sums in A100781.",
+  "id": "A100784",
+  "mentions": [
+    "A100781",
+    "A100782",
+    "A100783",
+    "A100785"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

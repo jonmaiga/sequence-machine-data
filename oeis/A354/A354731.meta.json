@@ -1,0 +1,21 @@
+{
+  "description": "Absolute values of first differences of A354688.",
+  "id": "A354731",
+  "mentions": [
+    "A093714",
+    "A352588",
+    "A354687",
+    "A354688",
+    "A354721"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

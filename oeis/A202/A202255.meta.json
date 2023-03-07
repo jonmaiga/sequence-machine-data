@@ -1,0 +1,18 @@
+{
+  "description": "Number of zero-sum -n..n arrays of 5 elements with adjacent element differences also in -n..n",
+  "id": "A202255",
+  "mentions": [
+    "A202252"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

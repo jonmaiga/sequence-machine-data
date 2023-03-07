@@ -1,0 +1,22 @@
+{
+  "description": "Unitary barely 3-abundant: numbers m such that 3 < usigma(m)/m < usigma(k)/k for all numbers k < m, where usigma is the sum of unitary divisors function (A034448).",
+  "id": "A336671",
+  "mentions": [
+    "A034448",
+    "A034683",
+    "A259312",
+    "A285615",
+    "A302570",
+    "A336672"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

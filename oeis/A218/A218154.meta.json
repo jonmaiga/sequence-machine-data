@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer k such that k^8 + 1 == 0 mod p, where p is the n-th prime of the form 1 + 16*b (see A094407).",
+  "id": "A218154",
+  "mentions": [
+    "A094407"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

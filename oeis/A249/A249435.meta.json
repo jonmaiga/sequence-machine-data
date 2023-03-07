@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 0, after which one less than prime powers p^m with exponent m >= 2.",
+  "id": "A249435",
+  "mentions": [
+    "A000225",
+    "A024023",
+    "A024049",
+    "A024075",
+    "A024127",
+    "A025475",
+    "A045542",
+    "A181062",
+    "A249433"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer k == n mod 3 not occurring earlier such that the sum of two successive terms is a squarefree number.",
+  "id": "A131485",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A077223"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

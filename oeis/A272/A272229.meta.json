@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and 3n+1 have the same number of distinct prime divisors.",
+  "id": "A272229",
+  "mentions": [
+    "A001221",
+    "A271909"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

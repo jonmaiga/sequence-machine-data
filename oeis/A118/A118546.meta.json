@@ -1,0 +1,19 @@
+{
+  "description": "A symmetrical triangle of coefficient weights: A117662 :f(n)=n*(n - 1)*(n - 2)*(n + 3)/12; t(n,m)=f(n - m + 1)*f(m + 1).",
+  "id": "A118546",
+  "mentions": [
+    "A117662"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

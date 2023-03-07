@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array, by antidiagonals: row n gives the positions of n in the Fibonacci-products fractal sequence, A272900.",
+  "id": "A272904",
+  "mentions": [
+    "A000045",
+    "A002620",
+    "A033638",
+    "A267682",
+    "A272900",
+    "A272908"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

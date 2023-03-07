@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are sums of one or more consecutive positive triangular numbers in more than one way.",
+  "id": "A309783",
+  "mentions": [
+    "A000217",
+    "A034706",
+    "A130052",
+    "A307666"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

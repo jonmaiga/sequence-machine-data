@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n+1)*(14*n-11)/6.",
+  "id": "A172076",
+  "mentions": [
+    "A001106",
+    "A051868",
+    "A237616"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:21",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

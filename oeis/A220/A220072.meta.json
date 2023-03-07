@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that sum_{k=0}^n A005117(k+1)*x^{n-k} is irreducible modulo p.",
+  "id": "A220072",
+  "mentions": [
+    "A005117",
+    "A217785",
+    "A217788",
+    "A218465"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

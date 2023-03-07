@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Sum_{m=0..floor(k/2)} binomial(k-m, m)*binomial(n-k, k-m)^2.",
+  "id": "A306463",
+  "mentions": [
+    "A008459",
+    "A306504"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

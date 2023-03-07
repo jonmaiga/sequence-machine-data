@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least integer k > 1 such that 1 + k^(5^n) + k^(2*5^n) + k^(3*5^n) + k^(4*5^n) is prime.",
+  "id": "A206418",
+  "mentions": [
+    "A085398",
+    "A153438"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

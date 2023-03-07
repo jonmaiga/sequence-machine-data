@@ -1,0 +1,20 @@
+{
+  "description": "Cardinality of the union of the set of sums and the set of products made from pairs of integers from {1..n}.",
+  "id": "A263995",
+  "mentions": [
+    "A027424",
+    "A108954",
+    "A263996"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

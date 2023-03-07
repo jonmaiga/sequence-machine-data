@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n, k), read by antidiagonals downwards: k-th prime p such that cyclic digit shifts produce exactly n different primes.",
+  "id": "A317716",
+  "mentions": [
+    "A004022",
+    "A055642",
+    "A247153",
+    "A262988",
+    "A270083",
+    "A293663"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

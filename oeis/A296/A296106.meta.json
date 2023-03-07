@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(n,k) n >= 1, k >= 1 read by antidiagonals: T(n, k) is the number of distinct Bojagi boards with dimensions n X k that have a unique solution.",
+  "id": "A296106",
+  "mentions": [
+    "A088305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

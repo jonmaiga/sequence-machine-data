@@ -1,0 +1,35 @@
+{
+  "description": "Number of maximal antichains of nonempty, non-singleton subsets of {1..n}.",
+  "id": "A326360",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A006126",
+    "A006602",
+    "A007363",
+    "A014466",
+    "A046165",
+    "A058891",
+    "A261005",
+    "A305000",
+    "A305844",
+    "A307249",
+    "A326358",
+    "A326359",
+    "A326361",
+    "A326362",
+    "A326363"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

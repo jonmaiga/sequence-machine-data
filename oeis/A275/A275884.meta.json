@@ -1,0 +1,21 @@
+{
+  "description": "Indices of Greedy Queens (see A065188) on or above the main diagonal.",
+  "id": "A275884",
+  "mentions": [
+    "A065188",
+    "A199134",
+    "A275885",
+    "A275886",
+    "A275894"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

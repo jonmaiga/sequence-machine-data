@@ -1,0 +1,19 @@
+{
+  "description": "Number of quasitransitive relations on n labeled nodes.",
+  "id": "A347914",
+  "mentions": [
+    "A006905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

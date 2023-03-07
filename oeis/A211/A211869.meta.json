@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{j=1..n-1} j*(n-j)*b^(j-1) with b = floor(n^2/4)+1.",
+  "id": "A211869",
+  "mentions": [
+    "A002113",
+    "A019566",
+    "A033638",
+    "A083449",
+    "A215940"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

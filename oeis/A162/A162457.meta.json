@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose prime factors when sorted and stacked fill an equilateral triangle.",
+  "id": "A162457",
+  "mentions": [
+    "A000217",
+    "A005117",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

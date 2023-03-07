@@ -1,0 +1,17 @@
+{
+  "description": "Second order Recamán's sequence: a(0) = 0; for n > 0, a(n) = a(n-1) - A005132(n) if that number is positive and not already in the sequence, otherwise a(n-1) + A005132(n).",
+  "id": "A123483",
+  "mentions": [
+    "A005132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

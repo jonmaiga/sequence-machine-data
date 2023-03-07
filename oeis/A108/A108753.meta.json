@@ -1,0 +1,21 @@
+{
+  "description": "Difference between the n-th partial sum of the squares (A000330) and the n-th partial sum of the primes (A007504).",
+  "id": "A108753",
+  "mentions": [
+    "A000330",
+    "A007504",
+    "A073497"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

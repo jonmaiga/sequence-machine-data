@@ -1,0 +1,19 @@
+{
+  "description": "Values of z in solutions (x,y,z) to the Diophantine equation x^3-x^2+y^3-y^2=z^3-z^2, with 1",
+  "id": "A138669",
+  "mentions": [
+    "A045991",
+    "A138667",
+    "A138668"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

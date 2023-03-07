@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows of Cantor pairing function value determining primitive Pythagorean triangles or 0 if there is no such triangle.",
+  "id": "A278147",
+  "mentions": [
+    "A249869",
+    "A277557"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

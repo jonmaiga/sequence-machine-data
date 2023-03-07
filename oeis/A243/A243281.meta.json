@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent (mod D_8) ways to place n nonattacking knights on an n X n board.",
+  "id": "A243281",
+  "mentions": [
+    "A201540",
+    "A243716"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

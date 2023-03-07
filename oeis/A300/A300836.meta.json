@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the total number of terms (1-digits) in Zeckendorf representation of all proper divisors of n.",
+  "id": "A300836",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A007895",
+    "A014417",
+    "A072649",
+    "A292257",
+    "A293435",
+    "A300834",
+    "A300837"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, Stirling set numbers of order 3, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+k^3*T(n-1, k), for n>=0 and 0<=k<=n.",
+  "id": "A269948",
+  "mentions": [
+    "A000537",
+    "A007318",
+    "A023001",
+    "A048993",
+    "A098436",
+    "A098437",
+    "A269945"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:45:37",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

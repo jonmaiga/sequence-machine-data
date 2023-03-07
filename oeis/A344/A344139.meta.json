@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{x_1|n, x_2|n, x_3|n, x_4|n, x_5|n} gcd(x_1,x_2,x_3,x_4,x_5).",
+  "id": "A344139",
+  "mentions": [
+    "A000203",
+    "A060724",
+    "A344132",
+    "A344138",
+    "A344140"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

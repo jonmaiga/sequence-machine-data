@@ -1,0 +1,17 @@
+{
+  "description": "Primes 2*p*q-2*q*r+r*s where p,q,r,s are consecutive primes.",
+  "id": "A341937",
+  "mentions": [
+    "A341934"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

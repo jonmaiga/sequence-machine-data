@@ -1,0 +1,30 @@
+{
+  "description": "Primes not expressed in form n<+>4, where operation <+> defined in A206853.",
+  "id": "A210566",
+  "mentions": [
+    "A122565",
+    "A205302",
+    "A205509",
+    "A205510",
+    "A205511",
+    "A205533",
+    "A205649",
+    "A206852",
+    "A206853",
+    "A206960",
+    "A208982",
+    "A209544",
+    "A209554"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

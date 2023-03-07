@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,w) is the number of n-step self avoiding walks on a 3D cubic lattice confined between two infinite horizontal planes a distance 2w apart and an orthogonal plane on the y-z axes, where the walk starts at the middle point between the planes on the y-z plane.",
+  "id": "A338127",
+  "mentions": [
+    "A001412",
+    "A039648",
+    "A116904",
+    "A337023",
+    "A337400",
+    "A338125"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

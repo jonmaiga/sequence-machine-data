@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that prime(n+1)-prime(n) is nonprime, squarefree. Except for the initial term of 1, the terms are k-semiprime for some k>=2.",
+  "id": "A113339",
+  "mentions": [
+    "A000040",
+    "A000469",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

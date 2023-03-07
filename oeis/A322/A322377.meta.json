@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n whose divisors can be partitioned into three disjoint sets whose sums are all sigma(n)/3 but no divisor of n has this property.",
+  "id": "A322377",
+  "mentions": [
+    "A204830"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

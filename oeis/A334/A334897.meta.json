@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of positive integers less than or equal to n that can be written as the geometric mean of two different positive integers less than or equal to n.",
+  "id": "A334897",
+  "mentions": [
+    "A064047",
+    "A333524",
+    "A333525",
+    "A333526",
+    "A333527",
+    "A333528",
+    "A335152"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

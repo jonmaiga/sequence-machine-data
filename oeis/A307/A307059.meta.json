@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(2 - Product_{k>=1} (1 - x^k)).",
+  "id": "A307059",
+  "mentions": [
+    "A010815",
+    "A055887",
+    "A299105",
+    "A341418"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

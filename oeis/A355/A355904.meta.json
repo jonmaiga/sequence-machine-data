@@ -1,0 +1,18 @@
+{
+  "description": "Negasemiternary (or NST) representation of n.",
+  "id": "A355904",
+  "mentions": [
+    "A355905",
+    "A355913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

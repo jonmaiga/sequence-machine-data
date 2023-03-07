@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2*e^2-2 (or 2*(e^2-1)).",
+  "id": "A330479",
+  "mentions": [
+    "A001113",
+    "A072334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:07",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

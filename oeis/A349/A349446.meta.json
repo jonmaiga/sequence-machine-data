@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A349444(n) + A349445(n).",
+  "id": "A349446",
+  "mentions": [
+    "A349433",
+    "A349444",
+    "A349445"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

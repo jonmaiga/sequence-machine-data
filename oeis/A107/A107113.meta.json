@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal sums of A107111, viewed as a number triangle.",
+  "id": "A107113",
+  "mentions": [
+    "A107111"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

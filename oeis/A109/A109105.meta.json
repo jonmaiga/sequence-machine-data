@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (8*sqrt(5)/25)((sqrt(5) + 2)((15 + 5*sqrt(5))/2)^n + (sqrt(5) - 2)((15 - 5*sqrt(5))/2)^n.",
+  "id": "A109105",
+  "mentions": [
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:32:44",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

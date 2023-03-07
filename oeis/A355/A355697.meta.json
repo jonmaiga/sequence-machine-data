@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n) = a(n-1) + g - 1 if a(n-1) is prime, otherwise a(n) = a(n-1) + g + 1, where g = a(n-1) - a(n-2).",
+  "id": "A355697",
+  "mentions": [
+    "A000217",
+    "A104589",
+    "A116533",
+    "A332410",
+    "A356445"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

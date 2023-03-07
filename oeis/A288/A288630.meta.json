@@ -1,0 +1,20 @@
+{
+  "description": "McKay-Thompson series of class 6A for the Monster group with a(0) = 10.",
+  "id": "A288630",
+  "mentions": [
+    "A007254",
+    "A045484",
+    "A058490"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": -1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

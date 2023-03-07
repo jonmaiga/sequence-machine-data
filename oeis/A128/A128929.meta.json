@@ -1,0 +1,19 @@
+{
+  "description": "Diameter of a special type of regular graph of degree 4 whose order maintain an increase in form of an arithmetic progression.",
+  "id": "A128929",
+  "mentions": [
+    "A123642",
+    "A186347"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 4,
+    "size": 81,
+    "source": "joeis"
+  }
+}

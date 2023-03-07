@@ -1,0 +1,29 @@
+{
+  "description": "Partial sums of A003418.",
+  "id": "A173185",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A003422",
+    "A093880",
+    "A102910",
+    "A133233",
+    "A231721",
+    "A236856",
+    "A236857",
+    "A236858",
+    "A238280"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

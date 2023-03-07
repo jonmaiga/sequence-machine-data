@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2, a(n+1) is the smallest prime >= a(n) + sum of digits of a(n).",
+  "id": "A156672",
+  "mentions": [
+    "A156604"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

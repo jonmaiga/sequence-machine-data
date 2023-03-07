@@ -1,0 +1,21 @@
+{
+  "description": "Unlabeled version of A055203: number of different relations between n intervals (of nonzero length) on a line, up to permutation of intervals.",
+  "id": "A121316",
+  "mentions": [
+    "A055203",
+    "A104209",
+    "A121251",
+    "A330942"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that anti-phi(k) = anti-phi(k+1).",
+  "id": "A241003",
+  "mentions": [
+    "A000010",
+    "A001274",
+    "A066418",
+    "A066452"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

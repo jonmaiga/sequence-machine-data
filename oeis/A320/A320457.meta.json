@@ -1,0 +1,20 @@
+{
+  "description": "Lesser number of dihedral amicable pairs: numbers (m, n) such that t(m) = t(n) = m + n, where t(n) = sigma(n) + d(n).",
+  "id": "A320457",
+  "mentions": [
+    "A007503",
+    "A083874",
+    "A222857",
+    "A322254"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as x^3 + 2*y^3 + 3*z^3 + p(k), where x,y,z are nonnegative integers, k is a positive integer, and p(.) is the partition function given by A000041.",
+  "id": "A281826",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000578",
+    "A280455"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

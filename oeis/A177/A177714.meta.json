@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (A123571(n) - 2n - 1)/(2n).",
+  "id": "A177714",
+  "mentions": [
+    "A123571"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

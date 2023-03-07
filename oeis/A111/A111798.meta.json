@@ -1,0 +1,34 @@
+{
+  "description": "Positive integers sorted by rote height (A109301) and omega (A001221).",
+  "id": "A111798",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A007097",
+    "A014221",
+    "A050924",
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177",
+    "A109300",
+    "A109301",
+    "A111791",
+    "A111799",
+    "A111800",
+    "A112095",
+    "A112096"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

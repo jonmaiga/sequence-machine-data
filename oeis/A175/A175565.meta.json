@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest prime > a(n-1) such that in the sum a(n-1) + a(n) there are no carries, with a(1)=2.",
+  "id": "A175565",
+  "mentions": [
+    "A030433"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

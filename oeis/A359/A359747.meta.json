@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k*(k+1) has in its canonical prime factorization mutually distinct exponents.",
+  "id": "A359747",
+  "mentions": [
+    "A001694",
+    "A002378",
+    "A060355",
+    "A130091",
+    "A342028",
+    "A359748"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

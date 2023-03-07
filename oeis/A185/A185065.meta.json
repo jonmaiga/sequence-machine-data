@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n^3 + 2).",
+  "id": "A185065",
+  "mentions": [
+    "A033562",
+    "A058895",
+    "A068601",
+    "A084380"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:27:07",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let A242720(n)-3 = prime(l)*prime(m), l<=m; a(n)=m-l.",
+  "id": "A243200",
+  "mentions": [
+    "A242719",
+    "A242720",
+    "A243154",
+    "A243158"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

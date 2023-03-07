@@ -1,0 +1,18 @@
+{
+  "description": "Stopping time for Recamán-like iteration of each n: a(0) = n, a(k) = a(k-1) - k if positive and not already in the sequence, a(k) = a(k-1) + k if not already in the sequence, otherwise stop.",
+  "id": "A308419",
+  "mentions": [
+    "A005132",
+    "A334219"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

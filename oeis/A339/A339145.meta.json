@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is 1 if A196202(n) is a local maximum, -1 if A196202(n) is a local minimum and 0 otherwise.",
+  "id": "A339145",
+  "mentions": [
+    "A000040",
+    "A001220",
+    "A196202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

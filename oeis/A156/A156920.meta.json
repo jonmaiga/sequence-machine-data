@@ -1,0 +1,35 @@
+{
+  "description": "Triangle of the normalized A142963 and A156919 sequences.",
+  "id": "A156920",
+  "mentions": [
+    "A000340",
+    "A008292",
+    "A014307",
+    "A050488",
+    "A142963",
+    "A142965",
+    "A142966",
+    "A142968",
+    "A156919",
+    "A156921",
+    "A156922",
+    "A156923",
+    "A156924",
+    "A156925",
+    "A156927",
+    "A156933"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

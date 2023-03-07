@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of letters in a(n-1) (in Polish), with a(1) = 1.",
+  "id": "A328263",
+  "mentions": [
+    "A000655",
+    "A008962",
+    "A061504",
+    "A101432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:39",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

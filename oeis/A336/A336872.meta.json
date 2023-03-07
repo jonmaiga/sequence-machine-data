@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(b,n) is the number of n-step self avoiding walks on a 2D square grid confined inside a square box of dimension 2b X 2b where the walk starts at the middle of one of the box's edges.",
+  "id": "A336872",
+  "mentions": [
+    "A001411",
+    "A038373",
+    "A116903",
+    "A336818"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

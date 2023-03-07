@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = first counting number with n distinct positive square exponents in its prime factorization.",
+  "id": "A212170",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A002110",
+    "A006939",
+    "A025487",
+    "A066120",
+    "A166469",
+    "A166475",
+    "A167448"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

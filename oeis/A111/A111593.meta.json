@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of tanh numbers.",
+  "id": "A111593",
+  "mentions": [
+    "A002378",
+    "A003723",
+    "A006229",
+    "A048854",
+    "A059419",
+    "A060081",
+    "A111594",
+    "A155585",
+    "A256893",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

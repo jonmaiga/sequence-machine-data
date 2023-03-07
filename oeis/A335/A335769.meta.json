@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of regions formed by n-secting the angles of an octagon.",
+  "id": "A335769",
+  "mentions": [
+    "A333075",
+    "A335770",
+    "A335771",
+    "A335772"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows. T(n, k) = |Stirling1(k + n, n)|.",
+  "id": "A354979",
+  "mentions": [
+    "A000217",
+    "A132393",
+    "A187646",
+    "A354980"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

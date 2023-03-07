@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(n^2, swinging_factorial(n)).",
+  "id": "A181860",
+  "mentions": [
+    "A000290",
+    "A056040",
+    "A170825",
+    "A181861"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

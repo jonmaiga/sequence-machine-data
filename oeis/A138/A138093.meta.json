@@ -1,0 +1,20 @@
+{
+  "description": "A triangular sequence of six back recursive polynomial that are Hermite H(x,n) like and alternating orthogonal on domain {-Infinity,Infinity} and weight function Exp[ -x^2/2]:k=6 P(x, n) = Sum[If[Mod[m, 2] == 1, (m + 1)*x^m*P(x, n - m), n^(m/2)*P(x, n - m)], {m, 1, k}].",
+  "id": "A138093",
+  "mentions": [
+    "A138094"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

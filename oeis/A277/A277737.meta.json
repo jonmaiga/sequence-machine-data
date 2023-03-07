@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 1's in A277735.",
+  "id": "A277737",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A277735",
+    "A277736",
+    "A277738"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

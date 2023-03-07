@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed points in base n for the sum of the fourth power of its digits.",
+  "id": "A226063",
+  "mentions": [
+    "A023052",
+    "A046074",
+    "A046197",
+    "A052455",
+    "A226064"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

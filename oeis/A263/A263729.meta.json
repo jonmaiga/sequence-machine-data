@@ -1,0 +1,20 @@
+{
+  "description": "Primes p where (p - 1)/k - 1 is not prime for any integer k >= 1.",
+  "id": "A263729",
+  "mentions": [
+    "A027750",
+    "A263730",
+    "A263770"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

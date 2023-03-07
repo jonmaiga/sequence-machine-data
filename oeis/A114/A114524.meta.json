@@ -1,0 +1,17 @@
+{
+  "description": "Run lengths of consecutive Stieltjes constants having the same sign, where the signs are A114523.",
+  "id": "A114524",
+  "mentions": [
+    "A114523"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

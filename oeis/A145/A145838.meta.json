@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A005891 = Centered pentagonal numbers: (5n^2 + 5n + 2)/2.",
+  "id": "A145838",
+  "mentions": [
+    "A005891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:59",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

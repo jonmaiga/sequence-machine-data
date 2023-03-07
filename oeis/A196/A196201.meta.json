@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) counts ordered complete ternary trees with 2*n-1 leaves having k internal vertices colored black, the remaining n-1-k internal vertices colored white, and such that each vertex and its rightmost child have different colors.",
+  "id": "A196201",
+  "mentions": [
+    "A027307",
+    "A175124"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

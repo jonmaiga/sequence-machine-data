@@ -1,0 +1,28 @@
+{
+  "description": "Number of divisors of n with relatively prime prime indices, meaning they belong to A289509.",
+  "id": "A318979",
+  "mentions": [
+    "A000005",
+    "A000837",
+    "A001221",
+    "A018783",
+    "A056239",
+    "A289508",
+    "A289509",
+    "A296150",
+    "A298748",
+    "A318978",
+    "A327657"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

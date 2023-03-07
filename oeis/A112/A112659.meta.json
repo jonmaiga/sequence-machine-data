@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. For n >= 2, a(n) = number of earlier terms of the sequence which are divisible by a different number of distinct primes than n.",
+  "id": "A112659",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

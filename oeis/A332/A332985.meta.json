@@ -1,0 +1,21 @@
+{
+  "description": "Index of triangular numbers that are sum of two pentagonal numbers (A332984).",
+  "id": "A332985",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A332984",
+    "A332987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

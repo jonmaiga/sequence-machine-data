@@ -1,0 +1,22 @@
+{
+  "description": "10^n + a(n) is the least (n+1)-digit prime member of a prime 5-tuple, or a(n) = 0 if no such number exists.",
+  "id": "A343635",
+  "mentions": [
+    "A022006",
+    "A022007",
+    "A343636",
+    "A343637"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

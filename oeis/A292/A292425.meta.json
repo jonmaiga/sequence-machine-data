@@ -1,0 +1,17 @@
+{
+  "description": "The smallest positive number of the form 3^n-2^a-2^b.",
+  "id": "A292425",
+  "mentions": [
+    "A056577"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number of faces of the triangular lattice required to enclose an area consisting of exactly n faces.",
+  "id": "A290648",
+  "mentions": [
+    "A067628",
+    "A235382"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

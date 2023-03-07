@@ -1,0 +1,19 @@
+{
+  "description": "Let n = abc... where a,b,c ... are the digits. Then a(n) = least multiple of n of the form aaa...bbb...ccc..., with each digit having the same frequency f > 1; or 0 if no such number exists.",
+  "id": "A110732",
+  "mentions": [
+    "A110733"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of A011371(x) = x - A000120(x) needed to reach an odd number, when starting from x = 2n.",
+  "id": "A322984",
+  "mentions": [
+    "A000120",
+    "A011371",
+    "A322983",
+    "A322997"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

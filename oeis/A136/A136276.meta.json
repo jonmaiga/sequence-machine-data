@@ -1,0 +1,21 @@
+{
+  "description": "Consider pairs of nonnegative integers (m,k) such that 2^2 + 4^2 + 6^2 + ... + (2m)^2 = k(k+1); sequence gives k values.",
+  "id": "A136276",
+  "mentions": [
+    "A039596",
+    "A053611",
+    "A053612"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

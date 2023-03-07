@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of substrings of n read in binary that are instances of the Zimin word Z_k. 1 <= n <= A342510(n).",
+  "id": "A342511",
+  "mentions": [
+    "A000217",
+    "A070939",
+    "A342510",
+    "A342512"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

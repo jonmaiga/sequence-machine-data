@@ -1,0 +1,24 @@
+{
+  "description": "Number of prime factors (with multiplicity) shared by n and sigma(n): a(n) = bigomega(gcd(n, sigma(n))).",
+  "id": "A341523",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A003961",
+    "A009194",
+    "A014567",
+    "A341519",
+    "A341524"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

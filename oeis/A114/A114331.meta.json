@@ -1,0 +1,18 @@
+{
+  "description": "Observe that A052248(n) = greatest prime divisor q (say) of all composite numbers between p = prime(n) and next prime. There is only one composite number in this range which is divisible by q. Sequence lists these composite numbers.",
+  "id": "A114331",
+  "mentions": [
+    "A052248",
+    "A114349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

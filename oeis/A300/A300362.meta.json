@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n^2 as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that x + 2*y and (z + 2*w)/3 are squares and w is even.",
+  "id": "A300362",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271518",
+    "A281976",
+    "A299924",
+    "A300219",
+    "A300360"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

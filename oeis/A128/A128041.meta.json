@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by columns: number of n-node (unlabeled) graphs with girth k, for n >= 3, k >= 3.",
+  "id": "A128041",
+  "mentions": [
+    "A006787",
+    "A128042",
+    "A128236",
+    "A128243"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

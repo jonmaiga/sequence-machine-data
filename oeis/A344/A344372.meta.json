@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..2n} (-1)^k gcd(k,2n).",
+  "id": "A344372",
+  "mentions": [
+    "A018804",
+    "A106475",
+    "A199084",
+    "A344371",
+    "A344373"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

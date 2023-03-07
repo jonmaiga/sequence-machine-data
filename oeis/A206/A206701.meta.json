@@ -1,0 +1,18 @@
+{
+  "description": "The number of words of length n created with the letters a,b,c with at least as many a's as b's and at least as many b's as c's and no adjacent letters forming the pattern aba and no subwords (any nonadjacent subsequence of letters) of the form cbc.",
+  "id": "A206701",
+  "mentions": [
+    "A176148",
+    "A176354"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

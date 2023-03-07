@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array giving total number of legal Go positions on an n X k board.",
+  "id": "A356134",
+  "mentions": [
+    "A094777",
+    "A102620",
+    "A266278",
+    "A356049"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

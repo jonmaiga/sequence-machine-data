@@ -1,0 +1,28 @@
+{
+  "description": "Total number of ON states after n generations of cellular automaton based on triangles in a 60-degree wedge (see Comments lines for definition).",
+  "id": "A255748",
+  "mentions": [
+    "A001316",
+    "A047999",
+    "A080079",
+    "A139250",
+    "A169779",
+    "A169788",
+    "A170905",
+    "A233970",
+    "A256256",
+    "A256266"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

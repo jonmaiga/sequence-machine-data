@@ -1,0 +1,27 @@
+{
+  "description": "Equatorial structured meta-anti-diamond numbers, the n-th number from an equatorial structured n-gonal anti-diamond number sequence.",
+  "id": "A100189",
+  "mentions": [
+    "A000578",
+    "A005915",
+    "A006484",
+    "A051673",
+    "A096000",
+    "A100145",
+    "A100186",
+    "A100187",
+    "A100188"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

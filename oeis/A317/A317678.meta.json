@@ -1,0 +1,20 @@
+{
+  "description": "Sets of n distinct primes p_i in ascending order, written as triangle, such that S_n = Sum_{k=1..n} p_k is minimized and that there exists a compensation set of n primes q_j with q_j = n*p_j - Sum_{k=1..n,k!=j} p_k, j=1..n such that the set union {p_j} U {q_j} contains 2*n distinct primes and Sum_{k=1..n} q_k = S_n.",
+  "id": "A317678",
+  "mentions": [
+    "A024939",
+    "A317679",
+    "A317680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

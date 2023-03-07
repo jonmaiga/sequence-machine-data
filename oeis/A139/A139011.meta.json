@@ -1,0 +1,26 @@
+{
+  "description": "Real part of (2 + i)^n, where i = sqrt(-1).",
+  "id": "A139011",
+  "mentions": [
+    "A006495",
+    "A006496",
+    "A056594",
+    "A098158",
+    "A099456",
+    "A118444",
+    "A146559",
+    "A201730"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

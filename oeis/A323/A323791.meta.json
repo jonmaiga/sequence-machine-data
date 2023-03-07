@@ -1,0 +1,36 @@
+{
+  "description": "Number of non-isomorphic weight-n sets of multisets of sets.",
+  "id": "A323791",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A050326",
+    "A050343",
+    "A283877",
+    "A306186",
+    "A316980",
+    "A318564",
+    "A318565",
+    "A318566",
+    "A318812",
+    "A323787",
+    "A323788",
+    "A323789",
+    "A323790",
+    "A323792",
+    "A323793",
+    "A323794",
+    "A323795"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer k in the interval [2, sqrt(n)] such that k^n == k (mod n), or 0 if no such integer exists.",
+  "id": "A290542",
+  "mentions": [
+    "A000040",
+    "A001567",
+    "A006935",
+    "A010051",
+    "A290543"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 4,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

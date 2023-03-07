@@ -1,0 +1,32 @@
+{
+  "description": "Smallest prime of a triple of successive primes, where the middle one is the arithmetic mean of the other two.",
+  "id": "A122535",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A006562",
+    "A047948",
+    "A052188",
+    "A052189",
+    "A052190",
+    "A052195",
+    "A052197",
+    "A052198",
+    "A062839",
+    "A064113",
+    "A102552",
+    "A117217",
+    "A181424"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

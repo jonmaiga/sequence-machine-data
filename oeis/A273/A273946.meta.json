@@ -1,0 +1,26 @@
+{
+  "description": "Odd prime factors of generalized Fermat numbers of the form 5^(2^m) + 1 with m >= 0.",
+  "id": "A273946",
+  "mentions": [
+    "A023394",
+    "A072982",
+    "A199591",
+    "A268658",
+    "A268662",
+    "A273945",
+    "A273947",
+    "A273948",
+    "A273949",
+    "A273950"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

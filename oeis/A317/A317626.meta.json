@@ -1,0 +1,23 @@
+{
+  "description": "Intersections with the x-axis of a bouncing ball on a Sophie Germain billiard table.",
+  "id": "A317626",
+  "mentions": [
+    "A005384",
+    "A124485",
+    "A151922",
+    "A176045",
+    "A179882",
+    "A317510"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

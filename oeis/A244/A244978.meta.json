@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Pi/32.",
+  "id": "A244978",
+  "mentions": [
+    "A000796",
+    "A003881",
+    "A019669",
+    "A019670",
+    "A019675",
+    "A019683",
+    "A244976",
+    "A244977"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

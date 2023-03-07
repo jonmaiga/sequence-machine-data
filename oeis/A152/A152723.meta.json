@@ -1,0 +1,23 @@
+{
+  "description": "In binary, count of least frequent bit of n.",
+  "id": "A152723",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A070939",
+    "A092431",
+    "A152724"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

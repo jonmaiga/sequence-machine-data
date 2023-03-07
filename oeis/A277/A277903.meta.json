@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the least k such that A000123(k) >= n.",
+  "id": "A277903",
+  "mentions": [
+    "A000123",
+    "A018819",
+    "A048675",
+    "A277904",
+    "A277905",
+    "A278163"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

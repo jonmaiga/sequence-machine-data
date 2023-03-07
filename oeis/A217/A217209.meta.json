@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n>=1, 1 <= k <= A217208(n)) = number of strings of n 2's and 3's having a tail of length k.",
+  "id": "A217209",
+  "mentions": [
+    "A090822",
+    "A094004",
+    "A122536",
+    "A216730",
+    "A216813",
+    "A217208",
+    "A217210"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

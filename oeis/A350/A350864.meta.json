@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes that are not the sum of 2 nonzero squares.",
+  "id": "A350864",
+  "mentions": [
+    "A001481",
+    "A018252",
+    "A018825"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

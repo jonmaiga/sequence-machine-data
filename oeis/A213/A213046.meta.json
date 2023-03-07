@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of Lucas numbers and positive integers repeated (A000032 and A008619).",
+  "id": "A213046",
+  "mentions": [
+    "A000032",
+    "A008619",
+    "A213500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

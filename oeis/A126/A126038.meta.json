@@ -1,0 +1,17 @@
+{
+  "description": "Index where n first appears in A128333, or -1 if n never appears.",
+  "id": "A126038",
+  "mentions": [
+    "A128333"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

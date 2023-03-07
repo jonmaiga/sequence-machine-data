@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of expansion of e.g.f. 2^(-1/2) * arcsinh(cos(x)), even powers only.",
+  "id": "A101922",
+  "mentions": [
+    "A012495",
+    "A101924",
+    "A263246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

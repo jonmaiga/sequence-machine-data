@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n into floor(j/3) kinds of j's for all j>=1.",
+  "id": "A176848",
+  "mentions": [
+    "A006053",
+    "A052156",
+    "A055841",
+    "A121907",
+    "A143787"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

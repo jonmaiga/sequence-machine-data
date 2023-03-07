@@ -1,0 +1,20 @@
+{
+  "description": "Number of squares added at the n-th generation of a symmetric (with 45-degree angles), non-overlapping Pythagoras tree.",
+  "id": "A276677",
+  "mentions": [
+    "A077866",
+    "A276647"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

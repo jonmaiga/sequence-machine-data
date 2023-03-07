@@ -1,0 +1,20 @@
+{
+  "description": "Gray code of prime(n) (decimal representation).",
+  "id": "A143292",
+  "mentions": [
+    "A000040",
+    "A003188"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

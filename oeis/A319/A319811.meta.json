@@ -1,0 +1,28 @@
+{
+  "description": "Number of totally aperiodic integer partitions of n.",
+  "id": "A319811",
+  "mentions": [
+    "A000837",
+    "A018783",
+    "A047966",
+    "A098859",
+    "A100953",
+    "A305563",
+    "A319149",
+    "A319160",
+    "A319162",
+    "A319163",
+    "A319164",
+    "A319810"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

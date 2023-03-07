@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that sum of digits + 1 is prime.",
+  "id": "A166561",
+  "mentions": [
+    "A243586"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

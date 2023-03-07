@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose omega-sequence does not cover an initial interval of positive integers.",
+  "id": "A325261",
+  "mentions": [
+    "A000430",
+    "A001221",
+    "A001222",
+    "A055932",
+    "A056239",
+    "A071625",
+    "A112798",
+    "A181819",
+    "A182850",
+    "A304465",
+    "A323014",
+    "A323022",
+    "A323023",
+    "A325247",
+    "A325248",
+    "A325249",
+    "A325251",
+    "A325260",
+    "A325262",
+    "A325277"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

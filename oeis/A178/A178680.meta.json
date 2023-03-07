@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the binary expansion of n contains the base 3 expansion of n as a substring.",
+  "id": "A178680",
+  "mentions": [
+    "A005836",
+    "A169828",
+    "A178679"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct prime signatures that occur among the divisors of the n-th prime signature number (A025487(n)).",
+  "id": "A238746",
+  "mentions": [
+    "A025487",
+    "A085082",
+    "A115728",
+    "A115729",
+    "A116473",
+    "A181822",
+    "A238690"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

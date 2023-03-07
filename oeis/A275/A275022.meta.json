@@ -1,0 +1,19 @@
+{
+  "description": "Primes not in A001097 and not in A275021 that occur in pairs of the form {p, p+6}.",
+  "id": "A275022",
+  "mentions": [
+    "A001097",
+    "A275021"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

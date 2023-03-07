@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with every horizontal row nondecreasing and having the same average value",
+  "id": "A214906",
+  "mentions": [
+    "A002620",
+    "A010551"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

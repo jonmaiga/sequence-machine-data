@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. a(n+1) = the largest positive integer that, when written in binary, occurs as a substring both in binary n and in binary A175302(n), where A175302(n) = Sum_{k=1..n} a(k).",
+  "id": "A175301",
+  "mentions": [
+    "A175302"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

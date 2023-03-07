@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence such that the terms' cumulative sum and the sequence itself have the same digit succession (duplicated terms and zeros allowed).",
+  "id": "A332804",
+  "mentions": [
+    "A332803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Let L = A185064(n) be the n-th length for which a Golay sequence exists; a(n) = number of non-constructable Golay sequences of length L.",
+  "id": "A208926",
+  "mentions": [
+    "A185064",
+    "A208924",
+    "A208925",
+    "A208927",
+    "A208928",
+    "A208929"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

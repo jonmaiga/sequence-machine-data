@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose run-sums of prime indices are weakly increasing.",
+  "id": "A357875",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A047966",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A181819",
+    "A239312",
+    "A275870",
+    "A300273",
+    "A304405",
+    "A304442",
+    "A325249",
+    "A353743",
+    "A354584",
+    "A354912",
+    "A357876"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

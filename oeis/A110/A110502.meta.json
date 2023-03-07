@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n in binary representation has a block of exactly a nontrivial square number of zeros.",
+  "id": "A110502",
+  "mentions": [
+    "A000290",
+    "A037011",
+    "A086747",
+    "A110471",
+    "A110472",
+    "A110474"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

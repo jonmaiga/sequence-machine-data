@@ -1,0 +1,22 @@
+{
+  "description": "Number of marked chord diagrams (linear words in which each letter appears twice) with n chords, whose intersection graph is distance-hereditary.",
+  "id": "A357596",
+  "mentions": [
+    "A001147",
+    "A277862",
+    "A277869",
+    "A354588"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of regular D classes in the semigroup of all binary relations on [n].",
+  "id": "A173311",
+  "mentions": [
+    "A000112",
+    "A000798",
+    "A001035",
+    "A001930",
+    "A006057",
+    "A007903",
+    "A079263",
+    "A079265"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

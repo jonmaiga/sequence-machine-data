@@ -1,0 +1,18 @@
+{
+  "description": "Eulerian polynomials at nonpositive integers, A_{n}(-n).",
+  "id": "A180085",
+  "mentions": [
+    "A122778"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

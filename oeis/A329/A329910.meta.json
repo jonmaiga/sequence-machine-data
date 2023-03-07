@@ -1,0 +1,19 @@
+{
+  "description": "Number of harmoniously labeled graphs with n edges and at most n vertices.",
+  "id": "A329910",
+  "mentions": [
+    "A085526"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

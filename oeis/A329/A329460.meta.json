@@ -1,0 +1,21 @@
+{
+  "description": "Carmichael numbers k that have an abundancy index sigma(k)/k that is larger than the abundancy index of all smaller Carmichael numbers.",
+  "id": "A329460",
+  "mentions": [
+    "A000203",
+    "A002997",
+    "A004394",
+    "A328691"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

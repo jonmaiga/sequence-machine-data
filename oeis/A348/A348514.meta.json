@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k for which A003961(k) = 2k+1, where A003961 shifts the prime factorization of n one step towards larger primes.",
+  "id": "A348514",
+  "mentions": [
+    "A000230",
+    "A003961",
+    "A048674",
+    "A064216",
+    "A108228",
+    "A246282",
+    "A252748",
+    "A319630",
+    "A326134",
+    "A348511"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

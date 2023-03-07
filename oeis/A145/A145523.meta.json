@@ -1,0 +1,22 @@
+{
+  "description": "Least integer k > 0 such that A000041(k) is divisible by 2^n.",
+  "id": "A145523",
+  "mentions": [
+    "A000041",
+    "A000123",
+    "A046063",
+    "A046641"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

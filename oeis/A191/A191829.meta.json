@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i+j+k=n, i,j,k >= 1} tau(i)*tau(j)*tau(k), where tau() = A000005().",
+  "id": "A191829",
+  "mentions": [
+    "A000005",
+    "A055507",
+    "A191831"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

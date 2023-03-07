@@ -1,0 +1,26 @@
+{
+  "description": "The first n-fold (at least) intrinsically 2-palindromic number (in base ten)",
+  "id": "A171701",
+  "mentions": [
+    "A171702",
+    "A171703",
+    "A171704",
+    "A171705",
+    "A171706",
+    "A171740",
+    "A171741",
+    "A171742"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

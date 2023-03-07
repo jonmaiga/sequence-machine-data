@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i+j<=m+1} d_i * d_j, where d_1 < ... < d_m are the divisors of n.",
+  "id": "A341038",
+  "mentions": [
+    "A341039"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

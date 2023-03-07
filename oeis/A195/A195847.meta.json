@@ -1,0 +1,23 @@
+{
+  "description": "Leaders in the race of digits of Euler's constant (or Euler-Mascheroni constant) gamma.",
+  "id": "A195847",
+  "mentions": [
+    "A001620",
+    "A195835",
+    "A195844",
+    "A195845",
+    "A195846",
+    "A280811"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

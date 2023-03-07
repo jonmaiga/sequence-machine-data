@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = binomial(n+6, 6)*5^n.",
+  "id": "A140405",
+  "mentions": [
+    "A000579",
+    "A002409",
+    "A036220",
+    "A036226",
+    "A050988",
+    "A054337",
+    "A140406"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:50:24",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

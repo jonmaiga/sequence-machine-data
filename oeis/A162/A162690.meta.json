@@ -1,0 +1,21 @@
+{
+  "description": "Strictly positive numbers n such that 20*n/(20+n) are integers.",
+  "id": "A162690",
+  "mentions": [
+    "A127730",
+    "A162688",
+    "A162689"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

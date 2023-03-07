@@ -1,0 +1,18 @@
+{
+  "description": "Length of the longest common subsequence of the first n terms of the Thue-Morse sequence (A010060) and its bitwise complement.",
+  "id": "A320847",
+  "mentions": [
+    "A010060",
+    "A297618"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

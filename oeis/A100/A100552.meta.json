@@ -1,0 +1,21 @@
+{
+  "description": "Single-digit primes, followed recursively by 2k-digit primes obtained by concatenation of pairs of distinct k-digit primes of the sequence.",
+  "id": "A100552",
+  "mentions": [
+    "A019546"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

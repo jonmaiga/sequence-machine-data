@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n!/2 - (n-1)! - n + 2.",
+  "id": "A213168",
+  "mentions": [
+    "A001286",
+    "A051683",
+    "A142706",
+    "A152883",
+    "A200748"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

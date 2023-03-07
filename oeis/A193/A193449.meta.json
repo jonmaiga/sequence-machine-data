@@ -1,0 +1,22 @@
+{
+  "description": "Products of the Jacobsthal numbers and the integers: a(n) = n * A001045(n+1).",
+  "id": "A193449",
+  "mentions": [
+    "A001045",
+    "A124860",
+    "A193450",
+    "A193451"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

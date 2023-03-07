@@ -1,0 +1,28 @@
+{
+  "description": "Number of aperiodic normal sequences of length n.",
+  "id": "A296975",
+  "mentions": [
+    "A000670",
+    "A000740",
+    "A001037",
+    "A019536",
+    "A027375",
+    "A060223",
+    "A095684",
+    "A185700",
+    "A296976",
+    "A296977",
+    "A296978"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

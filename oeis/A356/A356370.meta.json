@@ -1,0 +1,18 @@
+{
+  "description": "(Least prime > p^p) - (greatest prime < p^p), where p = n-th prime.",
+  "id": "A356370",
+  "mentions": [
+    "A000040",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

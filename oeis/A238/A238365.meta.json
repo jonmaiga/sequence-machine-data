@@ -1,0 +1,25 @@
+{
+  "description": "Number of dots needed to express n as a Roman numeral in Braille.",
+  "id": "A238365",
+  "mentions": [
+    "A002963",
+    "A030166",
+    "A048181",
+    "A072283",
+    "A079399",
+    "A121018",
+    "A220090"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

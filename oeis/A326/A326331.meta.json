@@ -1,0 +1,33 @@
+{
+  "description": "Number of simple graphs covering the vertices {1..n} whose nesting edges are connected.",
+  "id": "A326331",
+  "mentions": [
+    "A006125",
+    "A007297",
+    "A054726",
+    "A099947",
+    "A117662",
+    "A136653",
+    "A324327",
+    "A324328",
+    "A326210",
+    "A326293",
+    "A326330",
+    "A326335",
+    "A326336",
+    "A326337",
+    "A326338",
+    "A326339"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "p-INVERT of (1,0,0,1,0,0,1,0,0,...), where p(S) = (1 - 2 S)^2.",
+  "id": "A291038",
+  "mentions": [
+    "A033453",
+    "A079978",
+    "A290616",
+    "A291039",
+    "A291728"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

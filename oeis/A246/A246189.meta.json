@@ -1,0 +1,18 @@
+{
+  "description": "Number of endofunctions on [n] where the smallest cycle length equals 2.",
+  "id": "A246189",
+  "mentions": [
+    "A246049"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

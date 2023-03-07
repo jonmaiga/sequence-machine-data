@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A064380(k) = k/2.",
+  "id": "A185078",
+  "mentions": [
+    "A007357",
+    "A064380",
+    "A185373",
+    "A185383"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

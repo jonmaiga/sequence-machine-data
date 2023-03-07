@@ -1,0 +1,27 @@
+{
+  "description": "Triangle defined by T(n,k) = binomial(n*k, k^2), for n>=0, k=0..n, as read by rows.",
+  "id": "A228832",
+  "mentions": [
+    "A000984",
+    "A135860",
+    "A201555",
+    "A209330",
+    "A226234",
+    "A228808",
+    "A228833",
+    "A228836",
+    "A228904",
+    "A229052"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

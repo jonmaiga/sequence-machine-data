@@ -1,0 +1,21 @@
+{
+  "description": "1-sequence of reduction of (2n) by x^2 -> x+1.",
+  "id": "A192306",
+  "mentions": [
+    "A122491",
+    "A192232",
+    "A192305"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

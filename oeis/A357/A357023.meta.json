@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes k such that k is congruent to 5 modulo k's index in the sequence of semiprimes.",
+  "id": "A357023",
+  "mentions": [
+    "A001358",
+    "A106130"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

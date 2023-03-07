@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, rows = inverse binomial transforms of sequences generated from the Pell polynomials.",
+  "id": "A118244",
+  "mentions": [
+    "A038137",
+    "A073133",
+    "A118243"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

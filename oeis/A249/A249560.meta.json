@@ -1,0 +1,20 @@
+{
+  "description": "Number of length n permutations avoiding (231,{1},{}) and (132,{},{2}).",
+  "id": "A249560",
+  "mentions": [
+    "A249561",
+    "A249562",
+    "A249563"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

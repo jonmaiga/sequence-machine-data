@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) = Sum_{n>=1} a(n)*x^n/n! is inverse function to exp(x) - x^2 - 1.",
+  "id": "A185151",
+  "mentions": [
+    "A206304"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:45:14",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

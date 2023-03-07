@@ -1,0 +1,19 @@
+{
+  "description": "Variant of Lucas triangle: see Comments for definition.",
+  "id": "A216817",
+  "mentions": [
+    "A029635"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array of primes in the natural number array A000027, by antidiagonals.",
+  "id": "A185510",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A055469",
+    "A055472",
+    "A057060",
+    "A057061",
+    "A159047",
+    "A159048",
+    "A159049",
+    "A185511"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

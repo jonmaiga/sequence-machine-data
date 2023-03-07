@@ -1,0 +1,19 @@
+{
+  "description": "Values of n for which Leech's problem \"Find two rational right-angled triangles on the same base whose heights are in the ratio n:1\" has a solution.",
+  "id": "A117319",
+  "mentions": [
+    "A117320",
+    "A117321",
+    "A228380"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

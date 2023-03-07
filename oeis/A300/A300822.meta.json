@@ -1,0 +1,22 @@
+{
+  "description": "Möbius transform of A300222.",
+  "id": "A300822",
+  "mentions": [
+    "A000010",
+    "A300222",
+    "A300821",
+    "A300824"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

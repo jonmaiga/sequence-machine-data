@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, (n-1) zeros followed by (2n, 1).",
+  "id": "A134082",
+  "mentions": [
+    "A005408",
+    "A084849",
+    "A112295",
+    "A132382",
+    "A134083"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "The least positive integer k for which A336835(k) >= n, where A336835(k) is the number of iterations of x -> A003961(x) needed before the result is deficient (sigma(x) < 2x), when starting from x=k.",
+  "id": "A336389",
+  "mentions": [
+    "A002110",
+    "A003961",
+    "A005100",
+    "A023196",
+    "A025487",
+    "A034386",
+    "A046523",
+    "A047802",
+    "A064989",
+    "A071364",
+    "A108951",
+    "A246277",
+    "A329900",
+    "A336834",
+    "A336835",
+    "A337202",
+    "A337205",
+    "A337386",
+    "A337477",
+    "A337478"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

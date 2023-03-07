@@ -1,0 +1,25 @@
+{
+  "description": "3rd prime-factor of n-th product of 4 distinct primes.",
+  "id": "A176172",
+  "mentions": [
+    "A006881",
+    "A007304",
+    "A070647",
+    "A096916",
+    "A096917",
+    "A096918",
+    "A096919",
+    "A176170",
+    "A176171"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

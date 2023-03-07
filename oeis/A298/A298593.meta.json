@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of times the value k appears on the parking functions of length n.",
+  "id": "A298593",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A089946",
+    "A298592",
+    "A298594",
+    "A298597"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n (n>= 10) gives n-10 successive bases used in computing A121263(n) followed by A121263(n) itself.",
+  "id": "A121266",
+  "mentions": [
+    "A121263"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 10,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

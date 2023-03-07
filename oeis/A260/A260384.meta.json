@@ -1,0 +1,18 @@
+{
+  "description": "Maximal gap between successive elements of Pn with n >= 3. Pn : primes p <= A002110(n) such that q=2*A002110(n)-p is prime. (p, q) is a pair of centered primes at n-th primorial.",
+  "id": "A260384",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Cone C(n,m,k) read by planes and rows, for 1 <= k <= m <= n: Number of inequivalent coverings of a k X m X n board using A110217(n,m,k) knights.",
+  "id": "A110218",
+  "mentions": [
+    "A006076",
+    "A110215",
+    "A110217",
+    "A110219"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

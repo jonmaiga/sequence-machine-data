@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form Sum[ Sum[ Prime[k], {k,1,m} ], {m,1,n} ] = A014148[n].",
+  "id": "A122382",
+  "mentions": [
+    "A014148",
+    "A122381"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

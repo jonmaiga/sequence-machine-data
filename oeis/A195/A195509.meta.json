@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (exp(x*exp(x)) + exp(x/exp(x)))/2.",
+  "id": "A195509",
+  "mentions": [
+    "A218296",
+    "A277464"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

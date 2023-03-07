@@ -1,0 +1,21 @@
+{
+  "description": "Inverse of number triangle binomial(3n-k,n-k).",
+  "id": "A119302",
+  "mentions": [
+    "A119301",
+    "A119303"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:13",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

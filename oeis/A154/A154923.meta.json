@@ -1,0 +1,20 @@
+{
+  "description": "A symmetrical triangle sequence made from A154537:q(x,n)= Sum[(2*m + 1)^n*x^m/m!, {m, 0, Infinity}]/(Exp[x]); p(x,n)=q(x,n)+x^n*q(1/x,n); t(n,m)=coefficients(p(x,n)).",
+  "id": "A154923",
+  "mentions": [
+    "A154537"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

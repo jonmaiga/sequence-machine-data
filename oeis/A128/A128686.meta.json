@@ -1,0 +1,19 @@
+{
+  "description": "Least number of the form semiprime - 1 which is the product of exactly n primes.",
+  "id": "A128686",
+  "mentions": [
+    "A005383",
+    "A070552",
+    "A128665"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

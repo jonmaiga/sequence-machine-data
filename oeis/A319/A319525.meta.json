@@ -1,0 +1,22 @@
+{
+  "description": "Completely multiplicative with a(prime(k)) = prime(2*k - 1) (where prime(k) denotes the k-th prime).",
+  "id": "A319525",
+  "mentions": [
+    "A000079",
+    "A064989",
+    "A066208",
+    "A297002"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

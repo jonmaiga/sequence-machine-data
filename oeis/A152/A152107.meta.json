@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ((6+sqrt(5))^n+(6-sqrt(5))^n)/2.",
+  "id": "A152107",
+  "mentions": [
+    "A027907",
+    "A098158"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

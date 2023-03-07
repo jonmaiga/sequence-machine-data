@@ -1,0 +1,17 @@
+{
+  "description": "When the n-th term of this sequence is added to or subtracted from the square of the n-th prime of the form 4k + 1 (i.e., A002144(n)), the result in both cases is a square.",
+  "id": "A114200",
+  "mentions": [
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

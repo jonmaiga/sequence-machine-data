@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the slope (negative) at the point of tangency of the curves y=1/(1+x^2) and y=c*sin(x), where c is given by A196832.",
+  "id": "A196833",
+  "mentions": [
+    "A196825",
+    "A196831",
+    "A196832"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

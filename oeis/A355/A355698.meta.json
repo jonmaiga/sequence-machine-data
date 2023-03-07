@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of repdigits divisors of n (A010785).",
+  "id": "A355698",
+  "mentions": [
+    "A010785",
+    "A083230",
+    "A087990",
+    "A087991",
+    "A190217",
+    "A332268",
+    "A340548",
+    "A355302",
+    "A355699"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

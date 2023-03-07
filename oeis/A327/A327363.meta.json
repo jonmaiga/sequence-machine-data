@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled simple graphs with n vertices and vertex-connectivity >= k.",
+  "id": "A327363",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A013922",
+    "A259862",
+    "A327114",
+    "A327125",
+    "A327126",
+    "A327127",
+    "A327334",
+    "A327805",
+    "A327806"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

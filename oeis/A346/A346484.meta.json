@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers k for which A346482(k) = 0.",
+  "id": "A346484",
+  "mentions": [
+    "A346482"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

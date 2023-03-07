@@ -1,0 +1,23 @@
+{
+  "description": "Number of set partitions of strict integer partitions of n that have distinct block-sums.",
+  "id": "A279375",
+  "mentions": [
+    "A063834",
+    "A089259",
+    "A258466",
+    "A270995",
+    "A271619",
+    "A275780",
+    "A279374"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

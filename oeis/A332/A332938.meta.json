@@ -1,0 +1,26 @@
+{
+  "description": "Indices of the primitive rows of the Wythoff array (A035513); see Comments.",
+  "id": "A332938",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000285",
+    "A013655",
+    "A022095",
+    "A035513",
+    "A173027",
+    "A173028",
+    "A332937"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

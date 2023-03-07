@@ -1,0 +1,18 @@
+{
+  "description": "Emirps p such that 2*p - reverse(p) is also an emirp.",
+  "id": "A358689",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

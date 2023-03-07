@@ -1,0 +1,34 @@
+{
+  "description": "Number of simple connected graphs g on n nodes with |Aut(g)| = 144",
+  "id": "A241468",
+  "mentions": [
+    "A124059",
+    "A241454",
+    "A241455",
+    "A241456",
+    "A241457",
+    "A241458",
+    "A241459",
+    "A241460",
+    "A241461",
+    "A241462",
+    "A241463",
+    "A241464",
+    "A241465",
+    "A241466",
+    "A241467",
+    "A241469",
+    "A241470",
+    "A241471"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

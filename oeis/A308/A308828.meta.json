@@ -1,0 +1,23 @@
+{
+  "description": "Number of sequences that include all residues modulo n starting with x_0 = 0 and then x_i given recursively by x_{i+1} = a * x_i + c (mod n) where a and c are integers in the interval [0..n-1].",
+  "id": "A308828",
+  "mentions": [
+    "A000010",
+    "A003557",
+    "A026741",
+    "A046790",
+    "A049225",
+    "A135616"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

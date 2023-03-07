@@ -1,0 +1,22 @@
+{
+  "description": "Values of k in A071580.",
+  "id": "A258081",
+  "mentions": [
+    "A061092",
+    "A071580",
+    "A072532",
+    "A113334"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

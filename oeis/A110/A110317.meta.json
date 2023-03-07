@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) (k>=0) is the number of RNA secondary structures of size n (i.e., with n nodes) having k arcs that are covered by other arcs.",
+  "id": "A110317",
+  "mentions": [
+    "A004148",
+    "A005251",
+    "A005252",
+    "A110318"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

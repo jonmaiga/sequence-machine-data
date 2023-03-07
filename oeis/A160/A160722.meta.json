@@ -1,0 +1,22 @@
+{
+  "description": "Number of \"ON\" cells at n-th stage in a certain 2-dimensional cellular automaton based on Sierpinski triangles (see Comments for precise definition).",
+  "id": "A160722",
+  "mentions": [
+    "A000695",
+    "A006046",
+    "A139250",
+    "A160720",
+    "A160723"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

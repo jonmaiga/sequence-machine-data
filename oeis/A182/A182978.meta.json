@@ -1,0 +1,23 @@
+{
+  "description": "Total number of parts that are the smallest part or the largest part in all partitions of n.",
+  "id": "A182978",
+  "mentions": [
+    "A006128",
+    "A046746",
+    "A092269",
+    "A116686",
+    "A182977",
+    "A182984"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

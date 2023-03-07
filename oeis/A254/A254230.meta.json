@@ -1,0 +1,22 @@
+{
+  "description": "Heptagonal numbers (A000566) which are also centered square numbers (A001844).",
+  "id": "A254230",
+  "mentions": [
+    "A000566",
+    "A001844",
+    "A254228",
+    "A254229"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that number of groups of order n exceeds phi(n) (count numbers <= n and prime to n).",
+  "id": "A298703",
+  "mentions": [
+    "A000001",
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

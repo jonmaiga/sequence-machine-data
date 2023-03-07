@@ -1,0 +1,21 @@
+{
+  "description": "Units' digits of the nonzero 9-gonal (nonagonal) numbers.",
+  "id": "A194826",
+  "mentions": [
+    "A001106",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

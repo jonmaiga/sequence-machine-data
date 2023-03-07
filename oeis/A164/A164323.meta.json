@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n=prime(P)+phi(P), where P is the product of the digits of n.",
+  "id": "A164323",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A164322",
+    "A164324"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

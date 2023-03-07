@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with the property that for each single digit d of k, the decimal expansion of 3d is a substring of k.",
+  "id": "A135496",
+  "mentions": [
+    "A134962",
+    "A135463"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

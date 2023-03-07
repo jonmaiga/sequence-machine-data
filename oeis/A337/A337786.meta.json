@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form x^3 + x^2*y + x*y^2 + y^3 where x and y are positive integers, but having no such representation where x and y are coprime.",
+  "id": "A337786",
+  "mentions": [
+    "A046099",
+    "A336607",
+    "A336995"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

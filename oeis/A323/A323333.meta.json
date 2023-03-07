@@ -1,0 +1,23 @@
+{
+  "description": "The Euler phi function values of the powerful numbers, A000010(A001694(n)).",
+  "id": "A323333",
+  "mentions": [
+    "A000010",
+    "A001694",
+    "A002618",
+    "A065485",
+    "A082695",
+    "A112526",
+    "A323332"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

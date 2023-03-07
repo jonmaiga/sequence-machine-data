@@ -1,0 +1,21 @@
+{
+  "description": "Triangle P, read by rows, that satisfies [P^-1](n,k) = P(n+1,k+1) for n >= k >= 0, with P(k,k)=1 and P(k+1,1)=P(k+1,0) for k >= 0, where [P^-1] denotes the matrix inverse of P.",
+  "id": "A111940",
+  "mentions": [
+    "A110503",
+    "A111941",
+    "A111942"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

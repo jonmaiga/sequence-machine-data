@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [2^A006666(n)/3^A006667(n)], where [x] = floor(x).",
+  "id": "A302175",
+  "mentions": [
+    "A000079",
+    "A006666",
+    "A006667",
+    "A211981",
+    "A225089",
+    "A265099"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

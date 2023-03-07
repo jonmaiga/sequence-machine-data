@@ -1,0 +1,25 @@
+{
+  "description": "Restricted growth sequence transform of A278222(A303775(n)).",
+  "id": "A303779",
+  "mentions": [
+    "A005940",
+    "A046523",
+    "A278222",
+    "A286602",
+    "A302795",
+    "A303775",
+    "A303780",
+    "A304088"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

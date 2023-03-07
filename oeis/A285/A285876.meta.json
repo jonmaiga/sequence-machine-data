@@ -1,0 +1,25 @@
+{
+  "description": "Number of possible chess games at the end of the n-th ply starting without bishops.",
+  "id": "A285876",
+  "mentions": [
+    "A048987",
+    "A285873",
+    "A285874",
+    "A285875",
+    "A285877",
+    "A285878"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

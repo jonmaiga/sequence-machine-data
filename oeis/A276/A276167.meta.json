@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the second player's score in a \"Coins in a Row\" game over the n-th row of A066099 using a minimax strategy.",
+  "id": "A276167",
+  "mentions": [
+    "A029837",
+    "A066099",
+    "A276163",
+    "A276164",
+    "A276165",
+    "A276166"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

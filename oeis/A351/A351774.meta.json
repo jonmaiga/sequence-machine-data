@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} Sum_{p|n, p prime} d^p.",
+  "id": "A351774",
+  "mentions": [
+    "A351773"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

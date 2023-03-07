@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct prime numbers whose binary digits appear in order but not necessarily as consecutive digits in the binary representation of n.",
+  "id": "A329873",
+  "mentions": [
+    "A007306",
+    "A036987",
+    "A078826",
+    "A303077"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

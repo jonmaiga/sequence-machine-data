@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are multiples of their digital product, where this digital product also appears as their least significant digits.",
+  "id": "A167620",
+  "mentions": [
+    "A007602"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

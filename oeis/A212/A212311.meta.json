@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that 3^8*2^n - 1 is prime.",
+  "id": "A212311",
+  "mentions": [
+    "A002235",
+    "A002236",
+    "A050539",
+    "A050566",
+    "A050880",
+    "A230527",
+    "A230537"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

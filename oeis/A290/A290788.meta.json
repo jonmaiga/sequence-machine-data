@@ -1,0 +1,26 @@
+{
+  "description": "Values of n such that 6^n ends in n, or expomorphic numbers in \"base\" 6.",
+  "id": "A290788",
+  "mentions": [
+    "A003226",
+    "A033819",
+    "A064541",
+    "A183613",
+    "A288845",
+    "A289138",
+    "A306570",
+    "A306686"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

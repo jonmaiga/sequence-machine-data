@@ -1,0 +1,22 @@
+{
+  "description": "Smallest m such that alternating integer 101...101 = A094028(m) is a multiple of A045572(n), (i.e., integers coprime with 10).",
+  "id": "A343447",
+  "mentions": [
+    "A030141",
+    "A045572",
+    "A052983",
+    "A094028",
+    "A099679"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

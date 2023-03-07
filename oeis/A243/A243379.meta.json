@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/(2*K^2) = Product_(p prime congruent to 3 modulo 4) (1 - 1/p^2), where K is the Landau-Ramanujan constant.",
+  "id": "A243379",
+  "mentions": [
+    "A002145",
+    "A064533",
+    "A088539",
+    "A243381"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

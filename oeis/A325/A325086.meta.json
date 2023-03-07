@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers congruent to 9, 25 or 57 modulo 112 representable by x^2 + 448*y^2.",
+  "id": "A325086",
+  "mentions": [
+    "A325067",
+    "A325085"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

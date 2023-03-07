@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are sums of consecutive heptagonal numbers (A000566).",
+  "id": "A322636",
+  "mentions": [
+    "A000566",
+    "A002413",
+    "A034705",
+    "A034706",
+    "A319184",
+    "A319185",
+    "A322637"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

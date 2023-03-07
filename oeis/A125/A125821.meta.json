@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which 8n+5 and 8n+7 are twin primes.",
+  "id": "A125821",
+  "mentions": [
+    "A001109",
+    "A125822",
+    "A139402",
+    "A139404"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

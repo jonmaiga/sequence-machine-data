@@ -1,0 +1,18 @@
+{
+  "description": "Number of pattern sequences in bases 2 through 30 when the \"sum of squares of digits\" function is applied. In other words, A000216 is applied in other base systems, and the resulting number of closed patterns is counted.",
+  "id": "A161772",
+  "mentions": [
+    "A000216"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

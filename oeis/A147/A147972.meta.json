@@ -1,0 +1,33 @@
+{
+  "description": "Smallest prime p modulo which the first n primes are nonzero quadratic residues.",
+  "id": "A147972",
+  "mentions": [
+    "A000229",
+    "A002189",
+    "A002223",
+    "A002224",
+    "A002225",
+    "A002226",
+    "A002227",
+    "A002228",
+    "A045535",
+    "A053760",
+    "A060363",
+    "A060364",
+    "A133435",
+    "A147969",
+    "A147970",
+    "A147971"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

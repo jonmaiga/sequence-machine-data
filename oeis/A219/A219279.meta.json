@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form ChebyshevT[16,n].",
+  "id": "A219279",
+  "mentions": [
+    "A219278"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

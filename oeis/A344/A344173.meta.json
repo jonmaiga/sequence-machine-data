@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p < prime(n) of the form x^3 + 2*y^3 with x nonnegative and y + 1 prime such that p is a quadratic nonresidue modulo prime(n).",
+  "id": "A344173",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A173587",
+    "A220413",
+    "A344174"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

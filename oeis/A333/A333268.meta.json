@@ -1,0 +1,18 @@
+{
+  "description": "Indices of unique values in A329152.",
+  "id": "A333268",
+  "mentions": [
+    "A008590",
+    "A329152"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

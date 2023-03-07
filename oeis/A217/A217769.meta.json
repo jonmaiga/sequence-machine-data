@@ -1,0 +1,31 @@
+{
+  "description": "Least number k > n such that sigma(k) = 2*(k-n), or 0 if no such k exists.",
+  "id": "A217769",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A082730",
+    "A087998",
+    "A101223",
+    "A125246",
+    "A125247",
+    "A125248",
+    "A141548",
+    "A141549",
+    "A141550",
+    "A191363",
+    "A223606",
+    "A223607",
+    "A223608"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

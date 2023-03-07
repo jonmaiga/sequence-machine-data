@@ -1,0 +1,26 @@
+{
+  "description": "Number of different ways to divide an n X n X n cube into subcubes, considering only the list of parts.",
+  "id": "A129668",
+  "mentions": [
+    "A000041",
+    "A014544",
+    "A034295",
+    "A133042",
+    "A228267",
+    "A259792"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

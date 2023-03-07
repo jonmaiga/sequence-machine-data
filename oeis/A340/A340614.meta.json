@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: Take a Reuleaux triangle with all diagonals drawn, as in A340639. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A340614",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A340613",
+    "A340639",
+    "A340644"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

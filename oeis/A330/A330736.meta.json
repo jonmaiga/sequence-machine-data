@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k is not a multiple of A309639(k), where A309639(k) is the index of the least harmonic number H_i whose denominator (A002805) is divisible by k.",
+  "id": "A330736",
+  "mentions": [
+    "A002805",
+    "A309639",
+    "A330735"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

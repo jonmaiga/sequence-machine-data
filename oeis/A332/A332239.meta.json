@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^(n-2) - Sum_{k=1..n-1} k^(k-2) * a(n-k).",
+  "id": "A332239",
+  "mentions": [
+    "A000272",
+    "A003319",
+    "A277611",
+    "A296715",
+    "A332238"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

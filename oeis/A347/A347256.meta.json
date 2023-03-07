@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle whose n-th row lists the integers m such that the n-th necklace polynomial is divisible by x^m-1.",
+  "id": "A347256",
+  "mentions": [
+    "A054525",
+    "A347224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

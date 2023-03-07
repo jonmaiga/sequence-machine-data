@@ -1,0 +1,21 @@
+{
+  "description": "Positions of those 1's that are followed by a 0, summed over all Fibonacci binary words of length n. A Fibonacci binary word is a binary word having no 00 subword.",
+  "id": "A152881",
+  "mentions": [
+    "A001628",
+    "A119469",
+    "A213777"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:12:35",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

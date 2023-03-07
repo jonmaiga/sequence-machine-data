@@ -1,0 +1,21 @@
+{
+  "description": "Odd pseudoprimes to base 3; composite terms of A271116.",
+  "id": "A351336",
+  "mentions": [
+    "A002808",
+    "A005408",
+    "A005935",
+    "A038509",
+    "A271116"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

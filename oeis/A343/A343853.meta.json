@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the row indices of the matrix of 1..n^2 filled successively back and forth along antidiagonals.",
+  "id": "A343853",
+  "mentions": [
+    "A000290",
+    "A002411",
+    "A060747",
+    "A078475",
+    "A319573",
+    "A343854"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

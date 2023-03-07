@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of linear chord diagrams having n chords and minimal chord length k (or k=0 if n=0); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A293881",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001147",
+    "A054135",
+    "A290688",
+    "A293157",
+    "A293914",
+    "A293915",
+    "A293916",
+    "A293917",
+    "A293918",
+    "A293919",
+    "A293920",
+    "A293921",
+    "A293922",
+    "A293923",
+    "A293961"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of unoriented colorings of the faces of a regular n-dimensional orthoplex (cross polytope) using k or fewer colors.",
+  "id": "A337892",
+  "mentions": [
+    "A000027",
+    "A128766",
+    "A325005",
+    "A331359",
+    "A337412",
+    "A337884",
+    "A337888",
+    "A337891",
+    "A337893",
+    "A337894"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

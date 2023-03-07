@@ -1,0 +1,25 @@
+{
+  "description": "Pair (n,p) where n is the sum of adjacent nonprimes and p is the sum of adjacent primes.",
+  "id": "A211006",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A018252",
+    "A054265",
+    "A109921",
+    "A211005",
+    "A211007"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

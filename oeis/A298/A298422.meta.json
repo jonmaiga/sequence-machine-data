@@ -1,0 +1,38 @@
+{
+  "description": "Number of rooted trees with n nodes in which all positive outdegrees are the same.",
+  "id": "A298422",
+  "mentions": [
+    "A000005",
+    "A000081",
+    "A000598",
+    "A001190",
+    "A001678",
+    "A003238",
+    "A004111",
+    "A008864",
+    "A032305",
+    "A067538",
+    "A111299",
+    "A124343",
+    "A143773",
+    "A289078",
+    "A289079",
+    "A295461",
+    "A298118",
+    "A298204",
+    "A298423",
+    "A298424",
+    "A298426"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array read by ascending antidiagonals, A(m, n) = Sum_{k=1..m}(-1)^(k-n-m)* hypergeom([k, k-n-m], [], 1) for m>=1 and n>=0.",
+  "id": "A292898",
+  "mentions": [
+    "A000166",
+    "A003470",
+    "A193463",
+    "A193464",
+    "A259834",
+    "A292897",
+    "A293295"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

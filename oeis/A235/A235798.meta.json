@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of occurrences of k in all overpartitions of n.",
+  "id": "A235798",
+  "mentions": [
+    "A015128",
+    "A066633",
+    "A235790",
+    "A235792",
+    "A235793",
+    "A235797",
+    "A236000",
+    "A236001"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of sum of reciprocals, row 2 of the natural number array, A185787.",
+  "id": "A228044",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A185787",
+    "A226985",
+    "A228040",
+    "A228045",
+    "A228047",
+    "A228048",
+    "A228049"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

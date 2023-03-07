@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the smallest decimal digit of prime(p) is odd and the largest digit of p is odd.",
+  "id": "A154868",
+  "mentions": [
+    "A054054",
+    "A054055"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

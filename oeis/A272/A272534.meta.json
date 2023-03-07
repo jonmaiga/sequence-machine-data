@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of the edge length of a regular 15-gon with unit circumradius.",
+  "id": "A272534",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A003401",
+    "A019434",
+    "A094214",
+    "A101263",
+    "A101464",
+    "A127672",
+    "A182007",
+    "A228787",
+    "A272535",
+    "A272536",
+    "A302711",
+    "A302716"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:12:29",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A360599.",
+  "id": "A360600",
+  "mentions": [
+    "A360599"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

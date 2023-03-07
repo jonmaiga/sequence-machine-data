@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows which is constructed with the diagram of the isosceles triangle of A279693 and filling the empty cells with zeros.",
+  "id": "A275601",
+  "mentions": [
+    "A001227",
+    "A054844",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239657",
+    "A245092",
+    "A249351",
+    "A261699",
+    "A262611",
+    "A262626",
+    "A279387",
+    "A279693",
+    "A279733",
+    "A281010",
+    "A281011"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

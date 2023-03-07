@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are not the sum of a triangular number, a square and a fourth power.",
+  "id": "A115159",
+  "mentions": [
+    "A014158",
+    "A022552",
+    "A115160",
+    "A115161",
+    "A115162",
+    "A115163",
+    "A262959",
+    "A334086",
+    "A334113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

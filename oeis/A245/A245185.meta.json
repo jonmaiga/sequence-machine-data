@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of pseudo-square parallelogram (psp) polyominoes with semiperimeter n+1 and k columns.",
+  "id": "A245185",
+  "mentions": [
+    "A244521"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

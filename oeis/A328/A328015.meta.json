@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the growth constant for the number of terms of A328014 (numbers whose powerful part is larger than their powerfree part).",
+  "id": "A328015",
+  "mentions": [
+    "A055231",
+    "A057521",
+    "A328014"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

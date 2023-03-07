@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, if prime(k) divides a(n) then k divides a(n+1) (where prime(k) denotes the k-th prime).",
+  "id": "A299440",
+  "mentions": [
+    "A290103",
+    "A299441",
+    "A299442"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

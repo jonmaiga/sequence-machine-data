@@ -1,0 +1,19 @@
+{
+  "description": "List of y coordinates of infinite family of points on the Mordell curve x^3-y^2=d over quadratic field Sqrt[13].",
+  "id": "A233392",
+  "mentions": [
+    "A233379",
+    "A233391"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

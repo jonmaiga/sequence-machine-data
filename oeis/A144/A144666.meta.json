@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of product_{n=2..infinity} (n^7-1)/(n^7+1).",
+  "id": "A144666",
+  "mentions": [
+    "A090986"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

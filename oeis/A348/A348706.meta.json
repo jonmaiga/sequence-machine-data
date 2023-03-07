@@ -1,0 +1,22 @@
+{
+  "description": "Delete all 0's from ternary expansion of n.",
+  "id": "A348706",
+  "mentions": [
+    "A004719",
+    "A032924",
+    "A038573"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

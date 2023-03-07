@@ -1,0 +1,31 @@
+{
+  "description": "Number of distinct subset-products of the integer partition with Heinz number n.",
+  "id": "A301957",
+  "mentions": [
+    "A000712",
+    "A001055",
+    "A001227",
+    "A002865",
+    "A003963",
+    "A108917",
+    "A162247",
+    "A276024",
+    "A292886",
+    "A301854",
+    "A301855",
+    "A301856",
+    "A301970",
+    "A301979",
+    "A304793"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

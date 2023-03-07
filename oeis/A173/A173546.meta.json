@@ -1,0 +1,24 @@
+{
+  "description": "Number of 3x3 semimagic squares with distinct positive values < n. In a semimagic squares the row and column sums must all be equal (the \"magic sum\").",
+  "id": "A173546",
+  "mentions": [
+    "A108576",
+    "A108577",
+    "A108578",
+    "A108579",
+    "A173547",
+    "A173548",
+    "A173549"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:01",
+    "offset": 10,
+    "size": 29,
+    "source": "joeis"
+  }
+}

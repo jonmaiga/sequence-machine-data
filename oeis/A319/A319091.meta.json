@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of D, the coefficient of n in the asymptotic formula of Ramanujan for Sum_{k=1..n} (d(k)^2), where d(k) is the number of distinct divisors of k.",
+  "id": "A319091",
+  "mentions": [
+    "A001620",
+    "A061502",
+    "A073002",
+    "A082633",
+    "A086279",
+    "A092742",
+    "A201994",
+    "A201995",
+    "A245074",
+    "A319090"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

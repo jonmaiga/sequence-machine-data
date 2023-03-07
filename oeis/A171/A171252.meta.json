@@ -1,0 +1,21 @@
+{
+  "description": "Least power of 2 to have at least n consecutive digits 'n' in its decimal expansion",
+  "id": "A171252",
+  "mentions": [
+    "A131535",
+    "A131543"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

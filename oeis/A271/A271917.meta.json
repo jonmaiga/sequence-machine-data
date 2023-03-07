@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) = f(m,n) if m <= n or f(n,m) if n < m, where f(m,n) = m*(m^2-1)*(2*n-m)/12.",
+  "id": "A271917",
+  "mentions": [
+    "A002415",
+    "A227133",
+    "A271916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

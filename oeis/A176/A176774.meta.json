@@ -1,0 +1,19 @@
+{
+  "description": "Smallest polygonality of n = smallest integer m>=3 such that n is m-gonal number.",
+  "id": "A176774",
+  "mentions": [
+    "A090466",
+    "A090467",
+    "A176775"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1 + A014081(n))*a(A053645(n)) for n > 0 with a(0) = 1.",
+  "id": "A346422",
+  "mentions": [
+    "A003714",
+    "A014081",
+    "A036987",
+    "A053645"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

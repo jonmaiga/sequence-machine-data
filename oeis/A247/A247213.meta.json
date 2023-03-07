@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n = Product_(p_i^e_i) such that nn = Product_((p_i + 2)^e_i) is divisible by n.",
+  "id": "A247213",
+  "mentions": [
+    "A000079",
+    "A166590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

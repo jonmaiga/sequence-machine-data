@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the average distance of a point from a line that passes through another 2 points, when the 3 points are randomly selected within a unit-radius disk.",
+  "id": "A307029",
+  "mentions": [
+    "A093070",
+    "A130203",
+    "A130204",
+    "A245684"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:55",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

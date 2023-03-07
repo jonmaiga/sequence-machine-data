@@ -1,0 +1,23 @@
+{
+  "description": "Exponential convolution of primorial numbers (A002110) with themselves.",
+  "id": "A333371",
+  "mentions": [
+    "A002110",
+    "A014345",
+    "A052517",
+    "A062119",
+    "A136104",
+    "A333370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

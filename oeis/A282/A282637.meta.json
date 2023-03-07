@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1. a(n) is the smallest unlisted natural number whose name in (American) English ends with the letter a(n-1) starts with, and makes the sequence extendable.",
+  "id": "A282637",
+  "mentions": [
+    "A277971",
+    "A277972",
+    "A281067",
+    "A281068",
+    "A282636"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

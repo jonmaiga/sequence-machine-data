@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of the higher order exponential integral constants alpha(2,n).",
+  "id": "A163928",
+  "mentions": [
+    "A007406",
+    "A007407",
+    "A090998",
+    "A163927",
+    "A163929"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

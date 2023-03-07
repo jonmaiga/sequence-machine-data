@@ -1,0 +1,20 @@
+{
+  "description": "Exponential Riordan array (1,sin(x)).",
+  "id": "A185690",
+  "mentions": [
+    "A136630",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

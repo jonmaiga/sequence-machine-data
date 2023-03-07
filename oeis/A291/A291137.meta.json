@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of inverse of k-th cyclotomic polynomial.",
+  "id": "A291137",
+  "mentions": [
+    "A000007",
+    "A000010",
+    "A008683",
+    "A010891",
+    "A010892",
+    "A013595",
+    "A013596",
+    "A014016",
+    "A016327",
+    "A033999",
+    "A049347",
+    "A056594",
+    "A057428",
+    "A240328",
+    "A240467"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

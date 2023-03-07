@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime <= numbers congruent (2,4) mod 6 (duplicates removed).",
+  "id": "A105792",
+  "mentions": [
+    "A105399",
+    "A105575"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

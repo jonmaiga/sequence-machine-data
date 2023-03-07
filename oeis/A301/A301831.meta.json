@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = Product_{k>=1} 1/(1 + x^k*A(x)^k)^k.",
+  "id": "A301831",
+  "mentions": [
+    "A109085",
+    "A181315",
+    "A255528",
+    "A281266",
+    "A301455",
+    "A301456",
+    "A301624"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

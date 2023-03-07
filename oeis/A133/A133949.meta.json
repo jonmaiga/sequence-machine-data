@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the number of \"non-isolated divisors\" of n(n+1)/2. A positive divisor k of n is non-isolated if either k-1 or k+1 also divides n.",
+  "id": "A133949",
+  "mentions": [
+    "A000217",
+    "A063440",
+    "A132747",
+    "A133947",
+    "A133950"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

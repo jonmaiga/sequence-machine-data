@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A354102(k) = A354102(sigma(k)).",
+  "id": "A354106",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A006872",
+    "A191217",
+    "A267099",
+    "A354102",
+    "A354189",
+    "A354362"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

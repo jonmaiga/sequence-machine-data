@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(a(n-3)) + a(n-a(n-2)) with a(1) = a(2) = a(3) = a(4) = 1, a(5) = 2, a(6) = 5.",
+  "id": "A302130",
+  "mentions": [
+    "A244477"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:03",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

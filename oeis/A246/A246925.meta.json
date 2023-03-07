@@ -1,0 +1,23 @@
+{
+  "description": "8 X 8 square array read by rows: T(i,j) = number of moves of a knight to reach the square (i,j) when starting from the corner square (1,1).",
+  "id": "A246925",
+  "mentions": [
+    "A018837",
+    "A065775",
+    "A246924"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

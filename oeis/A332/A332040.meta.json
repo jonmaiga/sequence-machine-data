@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers whose exponential divisors sum to n.",
+  "id": "A332040",
+  "mentions": [
+    "A051377",
+    "A054973",
+    "A063974",
+    "A332036",
+    "A332038"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

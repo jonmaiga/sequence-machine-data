@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of the solid formed by the intersection of 6 right circular unit-diameter cylinders whose axes are parallel to the face diagonals of a cube and intersect at a single point.",
+  "id": "A349578",
+  "mentions": [
+    "A101465",
+    "A349577",
+    "A349579",
+    "A349580"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest weak pseudoprime to all natural bases up to prime(n) that is not a Carmichael number.",
+  "id": "A285549",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A002322",
+    "A002997",
+    "A020639",
+    "A083876",
+    "A285512"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes, with at least one prime digit, that remain primes when all of their prime digits are removed.",
+  "id": "A355856",
+  "mentions": [
+    "A000040",
+    "A019546",
+    "A034844"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

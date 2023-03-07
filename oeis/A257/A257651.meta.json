@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of chi(x)^2 * f(-x^6)^3 in powers of x where chi(), f() are Ramanujan theta functions.",
+  "id": "A257651",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A213023",
+    "A213592",
+    "A213607",
+    "A213617"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:17",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

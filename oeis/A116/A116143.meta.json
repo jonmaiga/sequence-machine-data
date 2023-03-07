@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k concatenated with k-2 gives the product of two numbers which differ by 3.",
+  "id": "A116143",
+  "mentions": [
+    "A054214",
+    "A115426",
+    "A116128",
+    "A116149",
+    "A116274"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

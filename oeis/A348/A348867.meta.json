@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose numerator and denominator of the harmonic mean of their divisors are both 3-smooth numbers.",
+  "id": "A348867",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A001599",
+    "A001600",
+    "A003586",
+    "A074266",
+    "A099377",
+    "A099378",
+    "A122254",
+    "A348658",
+    "A348659",
+    "A348868"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

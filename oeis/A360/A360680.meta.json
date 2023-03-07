@@ -1,0 +1,42 @@
+{
+  "description": "Numbers for which the prime signature has the same mean as the first differences of 0-prepended prime indices.",
+  "id": "A360680",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A088529",
+    "A088530",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A326619",
+    "A326620",
+    "A340610",
+    "A348551",
+    "A359903",
+    "A359904",
+    "A359905",
+    "A360008",
+    "A360068",
+    "A360460",
+    "A360555",
+    "A360556",
+    "A360614",
+    "A360615",
+    "A360681"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

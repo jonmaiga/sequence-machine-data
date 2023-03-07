@@ -1,0 +1,23 @@
+{
+  "description": "Maximal value of sum(p(i)p(i+1),i=1..n), where p(n+1)=p(1), as p ranges over all permutations of {1,2,...,n}.",
+  "id": "A110610",
+  "mentions": [
+    "A016825",
+    "A064842",
+    "A087035",
+    "A110611",
+    "A185173"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

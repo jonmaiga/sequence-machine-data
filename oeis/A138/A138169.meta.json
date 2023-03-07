@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle from the expansion of p(x,t) = exp(x*t)/(x - t/2 - t/(exp(t) - 1)).",
+  "id": "A138169",
+  "mentions": [
+    "A000007"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

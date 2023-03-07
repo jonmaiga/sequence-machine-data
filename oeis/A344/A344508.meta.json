@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k * lcm(k,n).",
+  "id": "A344508",
+  "mentions": [
+    "A051193",
+    "A057660",
+    "A344509",
+    "A344510"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

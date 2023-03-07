@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected graphs on n unlabeled nodes with matching number k, (0 <= k <= floor(n/2)).",
+  "id": "A325304",
+  "mentions": [
+    "A001349",
+    "A218463",
+    "A243800",
+    "A243801",
+    "A263341",
+    "A286951",
+    "A294490"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

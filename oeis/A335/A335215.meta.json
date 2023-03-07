@@ -1,0 +1,24 @@
+{
+  "description": "Bi-unitary Zumkeller numbers: numbers whose set of bi-unitary divisors can be partitioned into two disjoint sets of equal sum.",
+  "id": "A335215",
+  "mentions": [
+    "A083207",
+    "A188999",
+    "A222266",
+    "A290466",
+    "A292982",
+    "A323342",
+    "A335142",
+    "A335197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

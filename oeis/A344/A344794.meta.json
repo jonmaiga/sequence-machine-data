@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A344793(k) = n.",
+  "id": "A344794",
+  "mentions": [
+    "A344793"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

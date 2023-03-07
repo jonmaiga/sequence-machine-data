@@ -1,0 +1,22 @@
+{
+  "description": "A variant of primeval numbers A072857 where primes are counted with repetition as in A075053, not as in A039993.",
+  "id": "A239196",
+  "mentions": [
+    "A039993",
+    "A072857",
+    "A075053",
+    "A239197"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

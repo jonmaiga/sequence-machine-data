@@ -1,0 +1,23 @@
+{
+  "description": "Row 0 of square array A136462: a(n) = C(2^(n-1), n) for n>=0.",
+  "id": "A136465",
+  "mentions": [
+    "A014070",
+    "A101346",
+    "A136462",
+    "A136466",
+    "A136467"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

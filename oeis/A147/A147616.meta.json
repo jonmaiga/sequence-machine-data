@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n = concat(a,b) such that sigma(n) = sigma(a) * sigma(b), where sigma = A000203.",
+  "id": "A147616",
+  "mentions": [
+    "A000203",
+    "A098771",
+    "A147619",
+    "A147624",
+    "A147627"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

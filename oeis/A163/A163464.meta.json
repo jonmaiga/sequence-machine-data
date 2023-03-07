@@ -1,0 +1,21 @@
+{
+  "description": "Cumulative sum of a repeated shift-and-add operation on the base-7 representation of prime(n).",
+  "id": "A163464",
+  "mentions": [
+    "A080085",
+    "A080086",
+    "A080087"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

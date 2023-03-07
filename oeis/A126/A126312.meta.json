@@ -1,0 +1,24 @@
+{
+  "description": "Fixed points of permutation A071661/A071662.",
+  "id": "A126312",
+  "mentions": [
+    "A057163",
+    "A057164",
+    "A071661",
+    "A071662",
+    "A080070",
+    "A123050",
+    "A125977",
+    "A125978"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

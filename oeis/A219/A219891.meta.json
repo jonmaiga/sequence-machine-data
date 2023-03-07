@@ -1,0 +1,23 @@
+{
+  "description": "Number of directed 4-regular graphs on n nodes.",
+  "id": "A219891",
+  "mentions": [
+    "A096368",
+    "A219889",
+    "A219890",
+    "A219892",
+    "A219893",
+    "A350910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 5,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

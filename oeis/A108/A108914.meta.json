@@ -1,0 +1,23 @@
+{
+  "description": "Number of regions formed inside square by diagonals and the segments joining the vertices to the points dividing the sides into n equal length segments.",
+  "id": "A108914",
+  "mentions": [
+    "A092098",
+    "A355798",
+    "A355838",
+    "A355948",
+    "A355949",
+    "A355992"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

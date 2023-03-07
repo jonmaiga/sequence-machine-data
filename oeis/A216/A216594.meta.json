@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which are not nilpotent numbers, but every group of that order has nontrivial center.",
+  "id": "A216594",
+  "mentions": [
+    "A056868"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

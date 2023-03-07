@@ -1,0 +1,24 @@
+{
+  "description": "\"Inverted variant\" of A276086: a(n) = A276086(A289234(n)).",
+  "id": "A346101",
+  "mentions": [
+    "A276086",
+    "A289234",
+    "A328624",
+    "A328627",
+    "A344760",
+    "A346102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers m (in increasing order) for which the m-th row polynomial of A027750 in rising powers is irreducible over the integers.",
+  "id": "A292226",
+  "mentions": [
+    "A002808",
+    "A006881",
+    "A027750",
+    "A032741",
+    "A291127"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

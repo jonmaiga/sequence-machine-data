@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Mobius transform of the rabbit sequence, A051731 * A005614",
+  "id": "A159876",
+  "mentions": [
+    "A005614",
+    "A051731"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

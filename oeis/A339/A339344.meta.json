@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of odd primes such that the asymptotic density of the numbers which are divisible by at least one of these primes is 1/2.",
+  "id": "A339344",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A125045",
+    "A262228",
+    "A339345"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!8+2, where k!8 is the octuple factorial number (A114800).",
+  "id": "A288716",
+  "mentions": [
+    "A114800",
+    "A204663"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

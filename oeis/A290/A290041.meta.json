@@ -1,0 +1,19 @@
+{
+  "description": "Set b(n) = A290040(n). Then a(n) is the least divisor d > 1 of b(n) with binomial(b(n)+d, d) == 1 mod b(n).",
+  "id": "A290041",
+  "mentions": [
+    "A290040",
+    "A299115"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

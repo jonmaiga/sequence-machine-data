@@ -1,0 +1,20 @@
+{
+  "description": "Number of proper multisets of nonempty words with a total of n letters over n-ary alphabet such that if a letter occurs in the multiset all predecessors occur at least once.",
+  "id": "A320265",
+  "mentions": [
+    "A257741",
+    "A319518",
+    "A320264"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

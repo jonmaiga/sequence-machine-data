@@ -1,0 +1,25 @@
+{
+  "description": "Recursive 2-parameter sequence allowing the Ramanujan's sum calculation.",
+  "id": "A282634",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A054532",
+    "A054533",
+    "A054534",
+    "A054535",
+    "A231599"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:36:29",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

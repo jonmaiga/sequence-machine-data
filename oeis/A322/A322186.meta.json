@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A322185(n)*x^n/n ), where A322185(n) = sigma(2*n) * binomial(2*n,n)/2.",
+  "id": "A322186",
+  "mentions": [
+    "A000108",
+    "A182818",
+    "A322185",
+    "A322188",
+    "A322204"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

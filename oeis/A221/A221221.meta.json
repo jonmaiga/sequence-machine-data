@@ -1,0 +1,22 @@
+{
+  "description": "Where powerbacks and powertrains coincide.",
+  "id": "A221221",
+  "mentions": [
+    "A002113",
+    "A004086",
+    "A133048",
+    "A133500",
+    "A222493"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions where A000695 is a square.",
+  "id": "A114398",
+  "mentions": [
+    "A000695",
+    "A114399",
+    "A114401"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

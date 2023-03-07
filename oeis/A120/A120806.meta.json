@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that n+d+1 is prime for all divisors d of n.",
+  "id": "A120806",
+  "mentions": [
+    "A000578",
+    "A001358",
+    "A005384",
+    "A007304",
+    "A014612",
+    "A045536",
+    "A054753",
+    "A120776",
+    "A120807",
+    "A120808",
+    "A120809",
+    "A120810"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

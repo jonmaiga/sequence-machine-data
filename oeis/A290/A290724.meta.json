@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of arrangements of k non-attacking rooks on an n X n right triangular board with every square controlled by at least one rook.",
+  "id": "A290724",
+  "mentions": [
+    "A146304",
+    "A259691",
+    "A259697",
+    "A290615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

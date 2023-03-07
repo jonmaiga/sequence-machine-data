@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = phi(A003602(n)), where A003602 is Kimberling's paraphrases, and phi is Euler totient function.",
+  "id": "A349137",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A003602",
+    "A349136",
+    "A349138"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

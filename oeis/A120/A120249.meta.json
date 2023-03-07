@@ -1,0 +1,31 @@
+{
+  "description": "Numerator of cfenc[n] (see definition in comments).",
+  "id": "A120249",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001511",
+    "A003961",
+    "A007305",
+    "A061395",
+    "A075158",
+    "A120250",
+    "A120251",
+    "A273671",
+    "A273672",
+    "A286561",
+    "A323080"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

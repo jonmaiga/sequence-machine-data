@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2+1 = 2p,(k+1)^2+1 = 5q, (k+2)^2+1 = 10r where p, q, and r are primes.",
+  "id": "A181619",
+  "mentions": [
+    "A002144",
+    "A002731",
+    "A005574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of fundamentally different graceful labelings of digraphs with n arcs.",
+  "id": "A341884",
+  "mentions": [
+    "A071118",
+    "A342357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

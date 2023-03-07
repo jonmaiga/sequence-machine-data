@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the limit of the continued fraction 1/(1+2/(2+2/(3+2/(4+... in terms of Bessel functions.",
+  "id": "A222466",
+  "mentions": [
+    "A001040",
+    "A001053",
+    "A052119",
+    "A084950",
+    "A221913"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

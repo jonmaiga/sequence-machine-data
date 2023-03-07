@@ -1,0 +1,19 @@
+{
+  "description": "Number of (undirected) cycles on the n X 3 king graph.",
+  "id": "A339197",
+  "mentions": [
+    "A339098",
+    "A339200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

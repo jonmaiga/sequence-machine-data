@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct prime indices of n that divide n.",
+  "id": "A324852",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A112798",
+    "A120383",
+    "A323440",
+    "A324704",
+    "A324771",
+    "A324846",
+    "A324847",
+    "A324848",
+    "A324849",
+    "A324850",
+    "A324853",
+    "A324856"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

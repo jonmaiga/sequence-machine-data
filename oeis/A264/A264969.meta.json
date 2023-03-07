@@ -1,0 +1,20 @@
+{
+  "description": "Cycle length of n under bijection A264965 / A264966.",
+  "id": "A264969",
+  "mentions": [
+    "A264965",
+    "A264966",
+    "A264972",
+    "A264973"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

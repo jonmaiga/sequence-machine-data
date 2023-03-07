@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the exponent of the least power of 2 that when multiplied by n makes the product abundant, or -1 if n itself is a power of 2.",
+  "id": "A341621",
+  "mentions": [
+    "A005101",
+    "A336915",
+    "A341622"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimum of the largest prime factors of a number and its two neighbors.",
+  "id": "A125604",
+  "mentions": [
+    "A006530",
+    "A093074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

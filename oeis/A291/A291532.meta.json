@@ -1,0 +1,21 @@
+{
+  "description": "Number of trees in all forests of (unlabeled) rooted identity trees with n vertices.",
+  "id": "A291532",
+  "mentions": [
+    "A004111",
+    "A005197",
+    "A227774",
+    "A291529"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

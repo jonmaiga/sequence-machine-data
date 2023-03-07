@@ -1,0 +1,19 @@
+{
+  "description": "Powerful happy numbers; if a prime p divides n then p^2 must also divide n and also n must have trajectory under iteration of sum of squares of digits map includes 1.",
+  "id": "A140172",
+  "mentions": [
+    "A001694",
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

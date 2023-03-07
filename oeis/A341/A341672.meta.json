@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of numbers on the square spiral board such that it takes n steps for them to reach square 1 along the shortest path without stepping on any prime number.",
+  "id": "A341672",
+  "mentions": [
+    "A341541",
+    "A341542"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of maximal subsets of {1..n} containing no products of distinct elements.",
+  "id": "A325710",
+  "mentions": [
+    "A121269",
+    "A151897",
+    "A326024",
+    "A326025",
+    "A326076",
+    "A326116",
+    "A326117",
+    "A326489",
+    "A326492",
+    "A326496",
+    "A326497",
+    "A326498"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

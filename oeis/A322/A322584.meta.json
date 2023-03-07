@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of n that area product of primorial numbers (terms of A025487).",
+  "id": "A322584",
+  "mentions": [
+    "A025487",
+    "A181801",
+    "A322585"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

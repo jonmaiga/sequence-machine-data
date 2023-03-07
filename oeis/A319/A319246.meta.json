@@ -1,0 +1,27 @@
+{
+  "description": "Sum of prime indices of the n-th squarefree number.",
+  "id": "A319246",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A005117",
+    "A056239",
+    "A072047",
+    "A265668",
+    "A299755",
+    "A299757",
+    "A319241",
+    "A319242",
+    "A319247"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

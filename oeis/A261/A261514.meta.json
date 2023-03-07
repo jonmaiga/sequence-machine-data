@@ -1,0 +1,18 @@
+{
+  "description": "Indices of Mersenne numbers (A000225) of the form x^2 + xy + y^2.",
+  "id": "A261514",
+  "mentions": [
+    "A000225",
+    "A003136"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

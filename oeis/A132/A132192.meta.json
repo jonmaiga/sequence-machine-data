@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that 4*(k*(2^p-1))^2 + 1 is prime where 2^p-1 is a Mersenne prime (p in A000043).",
+  "id": "A132192",
+  "mentions": [
+    "A000043",
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

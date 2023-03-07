@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k, k+1, k+2 and k+3 are products of 6 primes (A046306).",
+  "id": "A337463",
+  "mentions": [
+    "A046306",
+    "A067821",
+    "A237201"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

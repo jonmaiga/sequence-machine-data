@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary strings of length 2n that are squares, but are not expressible as the concatenation of two or more squares.",
+  "id": "A262278",
+  "mentions": [
+    "A262068"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows T(n,k) in which row n lists the first digit of every term of the trajectory of n in Collatz problem including the trajectory [1, 4, 2, 1] for n = 1.",
+  "id": "A348136",
+  "mentions": [
+    "A000030",
+    "A006370",
+    "A014682",
+    "A070165",
+    "A235795",
+    "A235800",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

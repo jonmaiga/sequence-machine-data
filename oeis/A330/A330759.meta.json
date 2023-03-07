@@ -1,0 +1,28 @@
+{
+  "description": "Number T(n,k) of set partitions into k blocks of strict integer partitions of n; triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A330759",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A000041",
+    "A000096",
+    "A000217",
+    "A003056",
+    "A072706",
+    "A294617",
+    "A330460",
+    "A330765"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

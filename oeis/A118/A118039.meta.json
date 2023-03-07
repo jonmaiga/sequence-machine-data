@@ -1,0 +1,21 @@
+{
+  "description": "n-th central term of triangle A118032 divided by n+1 for n>=0, where the matrix square of A118032 forms a diagonal bisection of A118032.",
+  "id": "A118039",
+  "mentions": [
+    "A118032",
+    "A118038",
+    "A118040",
+    "A118045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

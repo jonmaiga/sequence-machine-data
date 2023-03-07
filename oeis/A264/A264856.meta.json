@@ -1,0 +1,18 @@
+{
+  "description": "Index of first row of triangle A125605 containing n.",
+  "id": "A264856",
+  "mentions": [
+    "A058084",
+    "A125605"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

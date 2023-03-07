@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = k for the least divisor d > 1 of n such that A048720(d,k) = n for some k.",
+  "id": "A325642",
+  "mentions": [
+    "A048720",
+    "A325641",
+    "A325643"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

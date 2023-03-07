@@ -1,0 +1,23 @@
+{
+  "description": "Inverse Möbius transform of A005187: a(n) = Sum_{d|n} A005187(d).",
+  "id": "A318446",
+  "mentions": [
+    "A005187",
+    "A007429",
+    "A297111",
+    "A300244",
+    "A318445",
+    "A318448"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

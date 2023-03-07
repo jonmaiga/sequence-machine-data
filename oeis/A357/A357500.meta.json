@@ -1,0 +1,20 @@
+{
+  "description": "Largest number of nodes of an induced path in the n X n knight graph.",
+  "id": "A357500",
+  "mentions": [
+    "A165143",
+    "A331968"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

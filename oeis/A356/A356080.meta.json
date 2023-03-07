@@ -1,0 +1,19 @@
+{
+  "description": "Variation on Recamán's sequence (A005132) that is intended to be a permutation of the nonnegative integers, essentially as envisaged by the original comments in A078943. See comments below for details.",
+  "id": "A356080",
+  "mentions": [
+    "A005132",
+    "A078943"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

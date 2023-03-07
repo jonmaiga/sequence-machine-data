@@ -1,0 +1,19 @@
+{
+  "description": "Column 2 of triangle A102051, which is the matrix inverse of triangle A101275 (number of Schroeder paths).",
+  "id": "A102053",
+  "mentions": [
+    "A101275",
+    "A102051"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:19:32",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

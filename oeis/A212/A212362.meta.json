@@ -1,0 +1,24 @@
+{
+  "description": "Triangle by rows, binomial transform of the beheaded Pascal's triangle A074909.",
+  "id": "A212362",
+  "mentions": [
+    "A006589",
+    "A027641",
+    "A027642",
+    "A027649",
+    "A074909",
+    "A106515"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:35",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

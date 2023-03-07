@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct products i*j*k over all triples (i,j,k) with i,j,k >= 0 and i+j+k <= n and gcd(i,j,k) <= 1.",
+  "id": "A213212",
+  "mentions": [
+    "A018805",
+    "A027430",
+    "A100448",
+    "A100449",
+    "A100450",
+    "A213207",
+    "A213208",
+    "A213213"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

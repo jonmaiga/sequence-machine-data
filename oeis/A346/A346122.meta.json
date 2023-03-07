@@ -1,0 +1,28 @@
+{
+  "description": "n times the n-th digit of the decimal expansion of Pi.",
+  "id": "A346122",
+  "mentions": [
+    "A000796",
+    "A014976",
+    "A053745",
+    "A053746",
+    "A053747",
+    "A053748",
+    "A053749",
+    "A053750",
+    "A053751",
+    "A053752",
+    "A053753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

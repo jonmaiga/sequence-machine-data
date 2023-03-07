@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the difference between n^2 and largest prime less than n^2 is not prime.",
+  "id": "A253474",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A053001",
+    "A056927"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

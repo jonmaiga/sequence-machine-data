@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that the smallest digit in the decimal expansion of 1/m is 1, ignoring leading and trailing 0's.",
+  "id": "A352155",
+  "mentions": [
+    "A002282",
+    "A003592",
+    "A333402",
+    "A352153",
+    "A352154",
+    "A352156",
+    "A352157",
+    "A352158",
+    "A352159",
+    "A352160",
+    "A352161"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

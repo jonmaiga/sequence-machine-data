@@ -1,0 +1,29 @@
+{
+  "description": "Partial sums of the 'lower' odd Fibonacci Inverse A130255.",
+  "id": "A130257",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906",
+    "A104161",
+    "A130233",
+    "A130235",
+    "A130236",
+    "A130241",
+    "A130248",
+    "A130255",
+    "A130256",
+    "A130258"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A268642.",
+  "id": "A268530",
+  "mentions": [
+    "A268529",
+    "A268642"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

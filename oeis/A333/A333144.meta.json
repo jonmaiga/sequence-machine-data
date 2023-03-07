@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle where row n lists the product of the factorials of the exponentials of the partitions of n and the partitions are enumerated in canonical order.",
+  "id": "A333144",
+  "mentions": [
+    "A069123",
+    "A161779"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

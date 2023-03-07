@@ -1,0 +1,28 @@
+{
+  "description": "The number of regions in a Farey diagram of order (n,n).",
+  "id": "A358882",
+  "mentions": [
+    "A005728",
+    "A006842",
+    "A006843",
+    "A358298",
+    "A358307",
+    "A358883",
+    "A358884",
+    "A358885",
+    "A358886",
+    "A358889"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

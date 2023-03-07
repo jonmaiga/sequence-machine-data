@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of m_3, the expected number of returns to the origin in a three-dimensional random walk restricted to the region x >= y >= z.",
+  "id": "A259833",
+  "mentions": [
+    "A128088",
+    "A245067"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

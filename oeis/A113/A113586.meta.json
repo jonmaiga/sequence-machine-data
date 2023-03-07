@@ -1,0 +1,20 @@
+{
+  "description": "Indices of terms of A113585 such that n divides A113585(n).",
+  "id": "A113586",
+  "mentions": [
+    "A113585",
+    "A113587"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

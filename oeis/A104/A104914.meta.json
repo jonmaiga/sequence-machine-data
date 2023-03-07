@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the string 987654321k is prime.",
+  "id": "A104914",
+  "mentions": [
+    "A104915"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

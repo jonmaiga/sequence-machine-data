@@ -1,0 +1,22 @@
+{
+  "description": "Partial products of A266265 (Product_{d|n} pod(d)), where pod(n) is the product of the divisors of n (A007955).",
+  "id": "A280117",
+  "mentions": [
+    "A007955",
+    "A175317",
+    "A266265",
+    "A280115",
+    "A280116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

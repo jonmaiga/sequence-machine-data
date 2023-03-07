@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (prime(n)^2 - 1)/2 for n >= 2.",
+  "id": "A216244",
+  "mentions": [
+    "A055523",
+    "A061066",
+    "A084921"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

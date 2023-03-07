@@ -1,0 +1,22 @@
+{
+  "description": "Number of circular permutations of length n without modular 3-sequences",
+  "id": "A165962",
+  "mentions": [
+    "A002628",
+    "A165960",
+    "A165961",
+    "A216722",
+    "A216723"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

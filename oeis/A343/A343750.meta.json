@@ -1,0 +1,19 @@
+{
+  "description": "Let S be the set of all numbers that can be obtained by permuting the digits of n (leading zeros can be omitted). Then a(n) is that element of S with the smallest number of divisors. In case of a tie, choose the smallest.",
+  "id": "A343750",
+  "mentions": [
+    "A000005",
+    "A272215"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular array read by rows: row k (k>=1) contains k^2 numbers, formed by filling in a k X k square by rows so entries in all rows, columns, diagonals, antidiagonals are distinct, and then reading that square across rows.",
+  "id": "A308880",
+  "mentions": [
+    "A004443",
+    "A274528",
+    "A308881"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

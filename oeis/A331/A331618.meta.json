@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: exp(1 / (1 - arctanh(x)) - 1).",
+  "id": "A331618",
+  "mentions": [
+    "A000246",
+    "A080833",
+    "A202139",
+    "A296676",
+    "A331610",
+    "A331615",
+    "A331616",
+    "A331617"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

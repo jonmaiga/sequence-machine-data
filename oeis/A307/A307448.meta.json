@@ -1,0 +1,23 @@
+{
+  "description": "List of pairs of coordinates (x,y) of the visited points for a self-avoiding walk with an incrementing step length confined to one quadrant of a 2D plane where at each step the walk must go to an unvisited point with integer coordinates as close as possible to the origin.",
+  "id": "A307448",
+  "mentions": [
+    "A005132",
+    "A009000",
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "hear",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Define Z(1) = {1}, and Z(n+1) = Z(n) (+) { x+y, with x and y in Z(n) } for any n>0 (where (+) stands for the symmetric difference of two sets). Then a(n) gives the number of elements in Z(n).",
+  "id": "A263402",
+  "mentions": [
+    "A000120",
+    "A067398"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

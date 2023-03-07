@@ -1,0 +1,26 @@
+{
+  "description": "The matrix product A127773 * A001263 of infinite lower triangular matrices.",
+  "id": "A132818",
+  "mentions": [
+    "A000217",
+    "A001263",
+    "A002457",
+    "A002695",
+    "A006472",
+    "A008459",
+    "A127773"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle in which row n lists numbers m such that A330073(m,n) = 1.",
+  "id": "A331272",
+  "mentions": [
+    "A000351",
+    "A127824",
+    "A330073"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

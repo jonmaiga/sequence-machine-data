@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to fill a Young diagram with positive integers summing to n such that all rows and columns are weakly increasing.",
+  "id": "A323450",
+  "mentions": [
+    "A000085",
+    "A000219",
+    "A003293",
+    "A053529",
+    "A114736",
+    "A138178",
+    "A296188",
+    "A299968",
+    "A323436",
+    "A323437",
+    "A323438",
+    "A323439",
+    "A323451"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

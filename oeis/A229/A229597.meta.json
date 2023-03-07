@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of L(e), the limit of iterations of continued fraction transforms of e.",
+  "id": "A229597",
+  "mentions": [
+    "A229350",
+    "A229594",
+    "A229595",
+    "A229596"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of primes separated by [sequence of prime] elements. 2, [find 2nd prime after 2 = ] 5, find 3rd prime after 5 =] 13, [find 5th prime after 13 =] 61, ..., etc.",
+  "id": "A180302",
+  "mentions": [
+    "A006450",
+    "A014284"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

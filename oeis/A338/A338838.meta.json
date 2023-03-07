@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of k elements from [1..n] where adjacent values cannot be consecutive modulo n.",
+  "id": "A338838",
+  "mentions": [
+    "A000166",
+    "A002493",
+    "A011973",
+    "A034807",
+    "A338526",
+    "A338849"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

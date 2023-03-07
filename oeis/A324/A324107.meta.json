@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of A324106, where A324106 is a multiplicative function with A324106(p^e) = A005940(p^e).",
+  "id": "A324107",
+  "mentions": [
+    "A005940",
+    "A029747",
+    "A070776",
+    "A324106",
+    "A324109"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

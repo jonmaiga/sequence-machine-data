@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of unit squares in the first quadrant of a disk of radius sqrt(n) centered at the origin of a square lattice.",
+  "id": "A237526",
+  "mentions": [
+    "A000404",
+    "A001481",
+    "A057961",
+    "A063725",
+    "A232499"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

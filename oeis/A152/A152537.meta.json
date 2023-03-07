@@ -1,0 +1,23 @@
+{
+  "description": "Convolution sequence: convolved with A000041 = powers of 2, (A000079).",
+  "id": "A152537",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A010815",
+    "A048651",
+    "A152538",
+    "A178841"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

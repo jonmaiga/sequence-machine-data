@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime factor of n! + 2n - 1.",
+  "id": "A139467",
+  "mentions": [
+    "A006530",
+    "A127986",
+    "A127987",
+    "A139023",
+    "A139024",
+    "A139464",
+    "A139465",
+    "A139466"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

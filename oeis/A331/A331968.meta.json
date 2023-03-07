@@ -1,0 +1,27 @@
+{
+  "description": "Maximum number of unit squares of a snake-like polyomino in an n X n square box.",
+  "id": "A331968",
+  "mentions": [
+    "A047838",
+    "A099155",
+    "A122224",
+    "A331986",
+    "A332920",
+    "A332921",
+    "A357357",
+    "A357359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n and n+5 are prime powers.",
+  "id": "A164573",
+  "mentions": [
+    "A006549",
+    "A120431",
+    "A164571",
+    "A164572",
+    "A164574"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions p of n such that (number of parts of p) - min(p) is not a part of p.",
+  "id": "A238548",
+  "mentions": [
+    "A000041",
+    "A238547"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

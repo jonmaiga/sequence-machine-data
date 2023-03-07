@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of coefficients of g.f. a*(1+x)^n + b*(1-x)^(n+2)*polylog(-n-1, x)/x + 2^n*c*(1-x)^(n+1)*LerchPhi(x, -n, 1/2), with a = -1, b = 1, c = 1.",
+  "id": "A168523",
+  "mentions": [
+    "A142458",
+    "A142459",
+    "A168524",
+    "A168525"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

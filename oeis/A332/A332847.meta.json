@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest k such that exactly one of k*2^(2^n) - 2*k + 1 and k*2^(2^n) + 2*k - 1 is a prime.",
+  "id": "A332847",
+  "mentions": [
+    "A000051",
+    "A000215",
+    "A000225",
+    "A019434",
+    "A077585",
+    "A331487"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

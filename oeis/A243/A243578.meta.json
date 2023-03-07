@@ -1,0 +1,27 @@
+{
+  "description": "Integers n of the form 8k+7 that are sum of distinct squares of the form m, m+1, m+2, m+4, where m == 1 (mod 4).",
+  "id": "A243578",
+  "mentions": [
+    "A004767",
+    "A008586",
+    "A016813",
+    "A016825",
+    "A243577",
+    "A243579",
+    "A243580",
+    "A243581",
+    "A243582"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

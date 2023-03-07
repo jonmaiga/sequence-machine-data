@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the two members of the n-th pair of unitary amicable numbers.",
+  "id": "A180277",
+  "mentions": [
+    "A002952",
+    "A002953",
+    "A034448",
+    "A161005",
+    "A180163"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of the positive integers: a(n) = A258996(A054429(n)) = A054429(A258996(n)).",
+  "id": "A332769",
+  "mentions": [
+    "A002487",
+    "A054429",
+    "A065190",
+    "A153154",
+    "A154437",
+    "A162911",
+    "A162912",
+    "A231551",
+    "A258996",
+    "A284447",
+    "A284459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

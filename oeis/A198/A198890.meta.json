@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: row n gives expansion of g.f. for descending plane partitions of order n with weight equal to sum of the parts.",
+  "id": "A198890",
+  "mentions": [
+    "A001754",
+    "A008302",
+    "A037223",
+    "A087153"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 146,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime of the form prime(n)*q + prime(n) + q, where q is an odd prime.",
+  "id": "A225587",
+  "mentions": [
+    "A000040",
+    "A225581"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

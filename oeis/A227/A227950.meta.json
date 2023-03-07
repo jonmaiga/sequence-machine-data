@@ -1,0 +1,19 @@
+{
+  "description": "Number of decimal digits in the increasing sequence of primes obtainable by concatenating successive decrements from some power of 10.",
+  "id": "A227950",
+  "mentions": [
+    "A227949",
+    "A227951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

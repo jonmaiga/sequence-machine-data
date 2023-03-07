@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 9^n + 3^(n+1) - 1 is prime.",
+  "id": "A214700",
+  "mentions": [
+    "A214730"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

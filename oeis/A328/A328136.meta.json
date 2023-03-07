@@ -1,0 +1,22 @@
+{
+  "description": "Primitive exponential abundant numbers: the powerful terms of A129575.",
+  "id": "A328136",
+  "mentions": [
+    "A001694",
+    "A051377",
+    "A054979",
+    "A054980",
+    "A126164",
+    "A129575"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integer nearest to F[4n](S(n)), where F[4n](x) are Fibonacci polynomials and S(n) = Sum_{i=0..3} (C(i)*(log(log(A*(B+n^2))))^i) (see coefficients A, B, C(i) in comments).",
+  "id": "A228063",
+  "mentions": [
+    "A006879",
+    "A006880",
+    "A227693",
+    "A228064"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that there exists a factorization of k into factors > 1 whose mean is not an integer but whose geometric mean is an integer.",
+  "id": "A326666",
+  "mentions": [
+    "A001055",
+    "A001597",
+    "A067538",
+    "A067539",
+    "A326027",
+    "A326028",
+    "A326516",
+    "A326622",
+    "A326623",
+    "A326641",
+    "A326643",
+    "A326645",
+    "A326647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

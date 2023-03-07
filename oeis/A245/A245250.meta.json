@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the average value of the Yekutieli-Mandelbrot parameter, that is the average number of maximal subtrees of an ordered binary tree requiring one less register than the whole tree.",
+  "id": "A245250",
+  "mentions": [
+    "A006752"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

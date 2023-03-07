@@ -1,0 +1,23 @@
+{
+  "description": "Number of strip poly-IH64-tiles (holes allowed) with n cells.",
+  "id": "A151526",
+  "mentions": [
+    "A002013",
+    "A151514",
+    "A151523",
+    "A151524",
+    "A151527",
+    "A182644",
+    "A182646"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

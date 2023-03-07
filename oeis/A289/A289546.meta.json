@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n,k) is the number of flags in an n dimensional vector space over GF(2) that have length exactly k, n >= 0, 0 <= k <= n.",
+  "id": "A289546",
+  "mentions": [
+    "A005329",
+    "A289545"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, where even numbered rows contain the nonsquares (cf. A000037) and odd rows contain replicated squares.",
+  "id": "A199332",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A002620",
+    "A199771"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

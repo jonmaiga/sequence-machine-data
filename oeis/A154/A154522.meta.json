@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that number of occurrences of the smallest digit in prime(n) is 2.",
+  "id": "A154522",
+  "mentions": [
+    "A000040",
+    "A060420"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

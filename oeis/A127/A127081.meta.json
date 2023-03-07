@@ -1,0 +1,21 @@
+{
+  "description": "One-sided kissing number for spheres in n-dimensional Euclidean space.",
+  "id": "A127081",
+  "mentions": [
+    "A001116",
+    "A257479"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

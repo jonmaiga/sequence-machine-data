@@ -1,0 +1,19 @@
+{
+  "description": "Indices k such that A011772(k) is even.",
+  "id": "A344000",
+  "mentions": [
+    "A011772",
+    "A343999",
+    "A344001"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of q^(-1/24) * eta(q)^3 / eta(q^2) in powers of q.",
+  "id": "A115110",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002107",
+    "A010054",
+    "A010815",
+    "A107033",
+    "A121373",
+    "A185654",
+    "A282937",
+    "A282942"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:44:25",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

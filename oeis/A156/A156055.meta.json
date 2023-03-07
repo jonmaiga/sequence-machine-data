@@ -1,0 +1,20 @@
+{
+  "description": "Define a map f by f(0) = f(1) = 0, otherwise f(k) = A087712(k); then a(n) is the number of steps for the trajectory of n under repeated iteration of f to \"terminate\".",
+  "id": "A156055",
+  "mentions": [
+    "A087712",
+    "A098282"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

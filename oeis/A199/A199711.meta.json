@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array: T(n,k) gives the number of numerical semigroups of genus n and multiplicity k, (n>=1, k>=2).",
+  "id": "A199711",
+  "mentions": [
+    "A007323"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

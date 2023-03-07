@@ -1,0 +1,20 @@
+{
+  "description": "Self-erasure surviving numbers, second version. See A108652 for the definition.",
+  "id": "A140665",
+  "mentions": [
+    "A108652"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the number of digits in the numerator of the k-th convergent of the continued fraction 1+1/(2+1/(2+1/(2+...))) = sqrt(2) exceeds the number of digits in the denominator.",
+  "id": "A273980",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001333",
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

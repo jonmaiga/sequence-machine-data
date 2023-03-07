@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A307159(n) = Sum_{k=1..n} bsigma(k) is divisible by n, where bsigma(k) is the sum of bi-unitary divisors of k (A188999).",
+  "id": "A307161",
+  "mentions": [
+    "A056550",
+    "A064611",
+    "A188999",
+    "A307043",
+    "A307159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

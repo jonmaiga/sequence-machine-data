@@ -1,0 +1,21 @@
+{
+  "description": "A131818 * A000012 as infinite lower triangular matrices. Triangle read by rows, partial sums starting from the right of A131818.",
+  "id": "A131819",
+  "mentions": [
+    "A000012",
+    "A034856",
+    "A131818",
+    "A131820"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

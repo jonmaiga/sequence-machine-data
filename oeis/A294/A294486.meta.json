@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(2n,n) * (2n+1)^2.",
+  "id": "A294486",
+  "mentions": [
+    "A000984",
+    "A006752",
+    "A016754",
+    "A145436"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

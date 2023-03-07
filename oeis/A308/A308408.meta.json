@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest k that is equal to the sum of the digits of k*(k+1)*...*(k+n-1) in base 10^n, or -1 if such a number does not exist.",
+  "id": "A308408",
+  "mentions": [
+    "A037042",
+    "A037043",
+    "A037044",
+    "A037045",
+    "A274833",
+    "A274834"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of first n terms of sequence A127644.",
+  "id": "A127645",
+  "mentions": [
+    "A127644",
+    "A127646"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

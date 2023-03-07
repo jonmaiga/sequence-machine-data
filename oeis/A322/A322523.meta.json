@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least nonnegative integer k for which there does not exist i < j with i+j=n and a(i)=a(j)=k.",
+  "id": "A322523",
+  "mentions": [
+    "A007814",
+    "A033627",
+    "A215879",
+    "A218579"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

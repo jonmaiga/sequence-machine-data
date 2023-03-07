@@ -1,0 +1,20 @@
+{
+  "description": "Every digit of prime and its index contains a loop (only digits 0,4,6,8,9 in prime and its index).",
+  "id": "A107625",
+  "mentions": [
+    "A001744",
+    "A107624"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

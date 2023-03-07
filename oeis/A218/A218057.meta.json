@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (b(n)+1)^b(n+1) + b(n+2)^(b(n+1)+1)/2, where b(n) = [n/2]*2 = A052928(n) =(0,0,2,2,4,4,...), even numbers repeated.",
+  "id": "A218057",
+  "mentions": [
+    "A052928",
+    "A109613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquare numbers n such that the difference between sqrt(n) and its best rational approximation as x/y with y<=n produces a new minimum of abs(sqrt(n)-x/y). x/y is provided as A306973/A306974.",
+  "id": "A306972",
+  "mentions": [
+    "A306973",
+    "A306974"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

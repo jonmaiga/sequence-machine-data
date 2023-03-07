@@ -1,0 +1,27 @@
+{
+  "description": "Concentric 9-gonal numbers.",
+  "id": "A195042",
+  "mentions": [
+    "A016766",
+    "A056020",
+    "A060544",
+    "A069131",
+    "A077221",
+    "A195040",
+    "A195041",
+    "A195043",
+    "A195142"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

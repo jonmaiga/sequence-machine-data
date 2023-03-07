@@ -1,0 +1,20 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,n) that do not go above the diagonal x=y and consist of steps (h,v) with h, v prime or one.",
+  "id": "A308273",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A308240",
+    "A308274"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Last digit of even Catalan number A152670(n).",
+  "id": "A152753",
+  "mentions": [
+    "A000108",
+    "A038003",
+    "A094389",
+    "A152669",
+    "A152670"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Binary weight of Euler phi: a(n) = A000120(A000010(n)).",
+  "id": "A295660",
+  "mentions": [
+    "A000010",
+    "A000120",
+    "A003401",
+    "A175548",
+    "A293516"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

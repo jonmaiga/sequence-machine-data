@@ -1,0 +1,19 @@
+{
+  "description": "Records in A083876.",
+  "id": "A348258",
+  "mentions": [
+    "A083876",
+    "A271221",
+    "A300629"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

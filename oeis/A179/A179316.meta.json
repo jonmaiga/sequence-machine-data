@@ -1,0 +1,17 @@
+{
+  "description": "The number of equal-sized equilateral triangles in the highest stack of triangles contained in successive Genealodrons formed from 2^n - 1 same size equilateral triangles",
+  "id": "A179316",
+  "mentions": [
+    "A179178"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

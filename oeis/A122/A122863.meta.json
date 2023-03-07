@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer not the sum of nonzero powers of previous terms.",
+  "id": "A122863",
+  "mentions": [
+    "A034875"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

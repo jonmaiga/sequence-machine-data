@@ -1,0 +1,22 @@
+{
+  "description": "Number of circular permutations i_0, i_1, ..., i_n of 0, 1, ..., n such that all the n+1 numbers i_0^2+i_1, i_1^2+i_2, ..., i_{n-1}^2+i_n, i_n^2+i_0 are of the form (p-1)/2 with p an odd prime.",
+  "id": "A229082",
+  "mentions": [
+    "A228917",
+    "A228956",
+    "A229005",
+    "A229038"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

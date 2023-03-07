@@ -1,0 +1,17 @@
+{
+  "description": "Number of halving and tripling steps to reach the last number of the cycle in the Collatz (3x+1) problem for the negative integers (the initial term is not counted).",
+  "id": "A224183",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

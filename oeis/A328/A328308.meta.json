@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = 1 if k-th arithmetic derivative of n is zero for some k, otherwise 0.",
+  "id": "A328308",
+  "mentions": [
+    "A003415",
+    "A099308",
+    "A099309",
+    "A256750",
+    "A276086",
+    "A328306",
+    "A328309",
+    "A341996",
+    "A341999",
+    "A342023",
+    "A351071",
+    "A359541",
+    "A359543",
+    "A359546",
+    "A359550"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

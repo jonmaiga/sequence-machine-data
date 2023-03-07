@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution of A000002 (Kolakoski sequence).",
+  "id": "A108806",
+  "mentions": [
+    "A000002",
+    "A108807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

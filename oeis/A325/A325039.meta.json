@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n with the same product of parts as their conjugate.",
+  "id": "A325039",
+  "mentions": [
+    "A001055",
+    "A064573",
+    "A122111",
+    "A296150",
+    "A318950",
+    "A319000",
+    "A320322",
+    "A321649",
+    "A325040",
+    "A325041",
+    "A325042",
+    "A325045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

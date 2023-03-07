@@ -1,0 +1,22 @@
+{
+  "description": "Square root of n under Nim (or Conway) multiplication.",
+  "id": "A160679",
+  "mentions": [
+    "A006042",
+    "A051917",
+    "A212200",
+    "A335162"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

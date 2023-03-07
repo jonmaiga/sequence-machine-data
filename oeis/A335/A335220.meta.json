@@ -1,0 +1,20 @@
+{
+  "description": "Exponential Zumkeller numbers (A335218) whose set of exponential divisors can be partitioned into two disjoint sets of equal sum in a record number of ways.",
+  "id": "A335220",
+  "mentions": [
+    "A083212",
+    "A335218",
+    "A335219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

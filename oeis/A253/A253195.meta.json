@@ -1,0 +1,20 @@
+{
+  "description": "Numbers congruent to 5 or 8 mod 9.",
+  "id": "A253195",
+  "mentions": [
+    "A014132",
+    "A020757"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:13",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Ludwig van Beethoven, Bagatelle No. 25, \"Für Elise\".",
+  "id": "A144488",
+  "mentions": [
+    "A123456"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

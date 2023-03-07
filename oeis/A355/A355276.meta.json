@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-digit terms in A347475.",
+  "id": "A355276",
+  "mentions": [
+    "A000217",
+    "A014261",
+    "A117960",
+    "A347475",
+    "A349243",
+    "A349247",
+    "A355277"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

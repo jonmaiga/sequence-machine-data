@@ -1,0 +1,24 @@
+{
+  "description": "Smallest of the first four consecutive primes that comprise two sets of primes with difference 2*n.",
+  "id": "A226657",
+  "mentions": [
+    "A000230",
+    "A133429",
+    "A133430",
+    "A229021",
+    "A229028",
+    "A229030",
+    "A229033",
+    "A229034"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

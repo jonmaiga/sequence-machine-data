@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array of A(n,k) for n>=1 and 0<=k<=n^2 equal the number of permutations of the set {1,2,...,n}^2 such that first coordinates of first k elements are nondecreasing and second coordinates of the remaining n^2-k elements are nondecreasing.",
+  "id": "A261602",
+  "mentions": [
+    "A036740",
+    "A261603"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

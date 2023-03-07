@@ -1,0 +1,20 @@
+{
+  "description": "Number of square lattice walks of length 2n starting and ending at (0,0) and avoiding the West quadrant {(i,j): i < -|j|}.",
+  "id": "A260154",
+  "mentions": [
+    "A260153"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

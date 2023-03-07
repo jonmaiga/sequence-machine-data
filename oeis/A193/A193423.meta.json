@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form x^2+y^3 with x, y and y^3 - x^2 >= 0.",
+  "id": "A193423",
+  "mentions": [
+    "A066649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

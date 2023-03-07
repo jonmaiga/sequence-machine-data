@@ -1,0 +1,18 @@
+{
+  "description": "Primes missing from A086527.",
+  "id": "A282700",
+  "mentions": [
+    "A055265",
+    "A086527"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

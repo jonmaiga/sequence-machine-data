@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the number m multiplied by the product of all its digits contains k as a substring, where m = k multiplied by the product of all its digits.",
+  "id": "A307751",
+  "mentions": [
+    "A326806",
+    "A328095",
+    "A328544"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

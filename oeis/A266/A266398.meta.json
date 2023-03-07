@@ -1,0 +1,29 @@
+{
+  "description": "Number of orbits of Aut(Z^7) as function of the infinity norm n of the representative lattice point of the orbit, when the cardinality of the orbit is equal to 13440.",
+  "id": "A266398",
+  "mentions": [
+    "A000217",
+    "A000579",
+    "A001477",
+    "A002112",
+    "A005843",
+    "A008585",
+    "A008586",
+    "A045943",
+    "A102860",
+    "A115067",
+    "A154286"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:03:27",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

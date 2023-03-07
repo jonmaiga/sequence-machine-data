@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) = number of arrays of length n that are sums of k consecutive elements of length n+k-1 permutations of 0..n+k-2.",
+  "id": "A229565",
+  "mentions": [
+    "A000142",
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let q(n) = prime(1) + ... + prime(n); a(n) = smallest divisor of q(n) not already in sequence.",
+  "id": "A111267",
+  "mentions": [
+    "A111084",
+    "A111229",
+    "A111268"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

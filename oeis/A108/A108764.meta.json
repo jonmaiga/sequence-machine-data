@@ -1,0 +1,22 @@
+{
+  "description": "Products of exactly two supersingular primes (A002267).",
+  "id": "A108764",
+  "mentions": [
+    "A001358",
+    "A002267"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

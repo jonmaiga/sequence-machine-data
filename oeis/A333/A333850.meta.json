@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) gives the sums of the members of the primitive period of the unsigned Schick sequences for the odd numbers from A333855.",
+  "id": "A333850",
+  "mentions": [
+    "A003558",
+    "A135303",
+    "A332439",
+    "A333848",
+    "A333851",
+    "A333854",
+    "A333855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

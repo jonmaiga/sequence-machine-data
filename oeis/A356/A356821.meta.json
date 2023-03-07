@@ -1,0 +1,23 @@
+{
+  "description": "Lucas-Carmichael numbers k that have an abundancy index sigma(k)/k that is larger than the abundancy indices of all smaller Lucas-Carmichael numbers.",
+  "id": "A356821",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A006972",
+    "A328691",
+    "A329460"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

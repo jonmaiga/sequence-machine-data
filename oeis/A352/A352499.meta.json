@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of all parts of the partition of n into consecutive parts that contains 2*k-1 parts, and the first element of the column k is in row A000384(k).",
+  "id": "A352499",
+  "mentions": [
+    "A000384",
+    "A082647",
+    "A237048",
+    "A245579",
+    "A285891",
+    "A299765",
+    "A351824",
+    "A351846",
+    "A352257",
+    "A352425"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

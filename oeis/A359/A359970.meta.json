@@ -1,0 +1,27 @@
+{
+  "description": "Number of edges formed inside a right triangle by the straight line segments mutually connecting all vertices and points on the two shorter edges whose positions equal the Farey series of order n.",
+  "id": "A359970",
+  "mentions": [
+    "A005728",
+    "A358888",
+    "A358950",
+    "A359693",
+    "A359968",
+    "A359969",
+    "A359971",
+    "A359976",
+    "A360042"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

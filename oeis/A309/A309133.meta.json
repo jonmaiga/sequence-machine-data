@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers of the form 4*x^2+6*x*y-7*y^2.",
+  "id": "A309133",
+  "mentions": [
+    "A141161",
+    "A243655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

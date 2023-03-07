@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} n^((d+1) mod 2).",
+  "id": "A349213",
+  "mentions": [
+    "A001227",
+    "A007814",
+    "A348915",
+    "A349211",
+    "A349212"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

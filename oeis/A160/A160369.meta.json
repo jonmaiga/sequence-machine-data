@@ -1,0 +1,22 @@
+{
+  "description": "Largest base 10 near-repdigit (all but one digit alike) prime with digit n repeated n times (or 0, if no such prime exists).",
+  "id": "A160369",
+  "mentions": [
+    "A105975",
+    "A105982",
+    "A160342"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

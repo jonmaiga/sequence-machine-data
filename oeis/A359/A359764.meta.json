@@ -1,0 +1,29 @@
+{
+  "description": "Parity of A359763, where A359763 is the Dirichlet inverse of characteristic function of the numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A359764",
+  "mentions": [
+    "A003961",
+    "A030229",
+    "A065043",
+    "A359595",
+    "A359763",
+    "A359765",
+    "A359766",
+    "A359767",
+    "A359774",
+    "A359781",
+    "A359791",
+    "A359824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

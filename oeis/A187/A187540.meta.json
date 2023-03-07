@@ -1,0 +1,31 @@
+{
+  "description": "Binomial partial sums of the central Lah numbers.",
+  "id": "A187540",
+  "mentions": [
+    "A008297",
+    "A111596",
+    "A187536",
+    "A187538",
+    "A187539",
+    "A187542",
+    "A187543",
+    "A187544",
+    "A187545",
+    "A187546",
+    "A187547",
+    "A187548"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

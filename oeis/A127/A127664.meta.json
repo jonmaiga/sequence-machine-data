@@ -1,0 +1,29 @@
+{
+  "description": "Infinitary amicable numbers.",
+  "id": "A127664",
+  "mentions": [
+    "A007357",
+    "A063990",
+    "A126168",
+    "A126169",
+    "A126170",
+    "A126171",
+    "A127661",
+    "A127662",
+    "A127663",
+    "A127665",
+    "A127666",
+    "A127667"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

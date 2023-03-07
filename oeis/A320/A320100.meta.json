@@ -1,0 +1,18 @@
+{
+  "description": "Automata sum similar to A102376 but using mod 5.",
+  "id": "A320100",
+  "mentions": [
+    "A102376",
+    "A320030"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

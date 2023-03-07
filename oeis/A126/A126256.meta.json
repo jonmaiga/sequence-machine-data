@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct terms in rows 0 through n of Pascal's triangle.",
+  "id": "A126256",
+  "mentions": [
+    "A007318",
+    "A027424",
+    "A033638",
+    "A061786",
+    "A126254",
+    "A126257",
+    "A199425",
+    "A258318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

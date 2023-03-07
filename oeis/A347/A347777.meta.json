@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 2 squarefree parts.",
+  "id": "A347777",
+  "mentions": [
+    "A005117",
+    "A098235",
+    "A280194",
+    "A347778",
+    "A347779",
+    "A347780"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

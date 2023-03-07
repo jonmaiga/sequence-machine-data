@@ -1,0 +1,22 @@
+{
+  "description": "Matrix logarithm of A008459 (squared entries of Pascal's triangle), read by rows.",
+  "id": "A101980",
+  "mentions": [
+    "A002190",
+    "A008459",
+    "A101981",
+    "A101982"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

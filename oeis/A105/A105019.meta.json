@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime of just n consecutive primes all of which are irregular.",
+  "id": "A105019",
+  "mentions": [
+    "A000928",
+    "A105018"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

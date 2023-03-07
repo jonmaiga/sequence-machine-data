@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that phi(n)*sigma(n)=phi(n-1)*sigma(n-1) (phi is the Euler totient function A000010 and sigma is the sum-of-divisors function A000203).",
+  "id": "A140790",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

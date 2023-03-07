@@ -1,0 +1,21 @@
+{
+  "description": "Totally multiplicative sequence with a(p) = 3*(p+3) for prime p.",
+  "id": "A167322",
+  "mentions": [
+    "A001222",
+    "A165824",
+    "A166591"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

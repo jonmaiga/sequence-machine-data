@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows: Refined 3-Narayana triangle. Coefficients of partition polynomials of A134264, a refined Narayana triangle enumerating noncrossing partitions, with all h_k other than h_0, h_3, h_6, ..., h_(3n), ... replaced by zero.",
+  "id": "A354622",
+  "mentions": [
+    "A000041",
+    "A001764",
+    "A002293",
+    "A003408",
+    "A004321",
+    "A108767",
+    "A125181",
+    "A127537",
+    "A134264",
+    "A173020",
+    "A179848",
+    "A235534",
+    "A338135"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of set-systems with n vertices and no endpoints.",
+  "id": "A330059",
+  "mentions": [
+    "A000612",
+    "A007716",
+    "A016031",
+    "A055621",
+    "A302545",
+    "A306005",
+    "A317533",
+    "A317794",
+    "A319559",
+    "A320665",
+    "A321405",
+    "A330052",
+    "A330054",
+    "A330056",
+    "A330057",
+    "A330058",
+    "A330124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

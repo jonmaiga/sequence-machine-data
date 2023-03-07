@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as the sum of two coprime squarefree semiprimes.",
+  "id": "A198255",
+  "mentions": [
+    "A197629"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

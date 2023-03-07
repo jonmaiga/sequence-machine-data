@@ -1,0 +1,22 @@
+{
+  "description": "Number of multisets of nonempty words with a total of n letters over n-ary alphabet such that within each word every letter of the alphabet is at least as frequent as the subsequent alphabet letter.",
+  "id": "A292713",
+  "mentions": [
+    "A226873",
+    "A247551",
+    "A292712",
+    "A292796",
+    "A319495"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Consider the sequence of binary words of integers, LSB to MSB S(k) = ( 0; 1; 01; 11; 001; 101; 011; ... ). Start with a(0) = 0, extend this sequence with the minimum number of [0;1] such that it contains S(1) then S(2) and so forth, as sub-strings with LSB at any a(n). We extend the sequence as much as required to include S(k) first, in the next step we extend until it includes S(k+1) too.",
+  "id": "A347198",
+  "mentions": [
+    "A056744",
+    "A076478",
+    "A108737"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

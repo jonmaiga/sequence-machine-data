@@ -1,0 +1,22 @@
+{
+  "description": "Consider numbers m in the range 2^n <= m < 2^(n+1); the smallest A215244(m) in this range is k=A215245(n); a(n) = binary representation of m for the first time this k appears.",
+  "id": "A215254",
+  "mentions": [
+    "A215244",
+    "A215245",
+    "A215246",
+    "A215253",
+    "A215255"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of theta_4(theta_4(x) - 1), where theta_4() is the Jacobi theta function.",
+  "id": "A307186",
+  "mentions": [
+    "A002448",
+    "A307050"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

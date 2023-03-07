@@ -1,0 +1,23 @@
+{
+  "description": "The sequency numbers of the 8 rows of a version of the Hadamard-Walsh matrix of order 8.",
+  "id": "A240908",
+  "mentions": [
+    "A000975",
+    "A153141",
+    "A240909",
+    "A240910"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

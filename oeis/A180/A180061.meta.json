@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (2^(2^n mod n) mod n)=4.",
+  "id": "A180061",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A179976",
+    "A180060"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

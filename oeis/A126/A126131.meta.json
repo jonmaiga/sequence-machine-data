@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of divisors of n which equal any d(k) for 1 <= k <= n, where d(k) is the number of positive divisors of k.",
+  "id": "A126131",
+  "mentions": [
+    "A002182",
+    "A054841",
+    "A126132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

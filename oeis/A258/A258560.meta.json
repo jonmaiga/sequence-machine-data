@@ -1,0 +1,18 @@
+{
+  "description": "Number of (7+1) X (n+1) 0..1 arrays with every 2 X 2 subblock ne-sw antidiagonal difference nondecreasing horizontally and nw+se diagonal sum nondecreasing vertically.",
+  "id": "A258560",
+  "mentions": [
+    "A258554"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

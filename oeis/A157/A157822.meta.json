@@ -1,0 +1,20 @@
+{
+  "description": "1482401250n^2+108900n+1.",
+  "id": "A157822",
+  "mentions": [
+    "A157820",
+    "A157821"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

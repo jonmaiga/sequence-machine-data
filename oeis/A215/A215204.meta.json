@@ -1,0 +1,35 @@
+{
+  "description": "Number A(n,k) of solid standard Young tableaux of cylindrical shape lambda X k, where lambda ranges over all partitions of n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A215204",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000085",
+    "A000108",
+    "A005789",
+    "A005790",
+    "A005791",
+    "A006335",
+    "A114714",
+    "A213932",
+    "A213978",
+    "A214638",
+    "A215220",
+    "A215266",
+    "A290202",
+    "A290214",
+    "A290225",
+    "A290274"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

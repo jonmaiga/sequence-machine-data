@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (c(i) + c(j)); c = A002808 = composite numbers.",
+  "id": "A203530",
+  "mentions": [
+    "A000178",
+    "A002808",
+    "A093883",
+    "A203418",
+    "A203532",
+    "A203533"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:36:51",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

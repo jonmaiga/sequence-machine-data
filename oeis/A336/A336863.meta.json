@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: T(b,n) is the number of n-step self avoiding walks on a 2D square grid confined inside an infinite well of width 2b where the walk starts at the middle of the well bottom.",
+  "id": "A336863",
+  "mentions": [
+    "A001411",
+    "A038373",
+    "A116903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

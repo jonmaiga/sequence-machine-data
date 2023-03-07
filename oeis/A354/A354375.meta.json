@@ -1,0 +1,24 @@
+{
+  "description": "Square spiral on a 2D square lattice, one term per cell, starting at the origin with 0; the digits of the four integers forming any 2 X 2 square add up to a square and those sums themselves form another infinite 2D square lattice with the same property.",
+  "id": "A354375",
+  "mentions": [
+    "A337115",
+    "A337116",
+    "A337117",
+    "A337368",
+    "A354372",
+    "A354373",
+    "A354374"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, (A143538)^2; 1<=k<=n.",
+  "id": "A143540",
+  "mentions": [
+    "A079551",
+    "A143538"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes which divide none of overpseudoprimes to base 2 (A141232).",
+  "id": "A144755",
+  "mentions": [
+    "A002326",
+    "A040017",
+    "A064078",
+    "A112927",
+    "A141232",
+    "A161509"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

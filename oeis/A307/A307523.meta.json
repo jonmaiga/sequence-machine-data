@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + log(1 + x)^k)/(1 - log(1 + x)^k).",
+  "id": "A307523",
+  "mentions": [
+    "A015128",
+    "A298905",
+    "A306042",
+    "A306045",
+    "A307524"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

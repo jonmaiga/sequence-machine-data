@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{primes p} (1-1/p)^(-2)*(1-(2+A102283(p))/p).",
+  "id": "A188596",
+  "mentions": [
+    "A053182",
+    "A065418",
+    "A073010",
+    "A102283",
+    "A175646"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Reluctant sequence of reluctant sequence A002260.",
+  "id": "A220280",
+  "mentions": [
+    "A000027",
+    "A002260",
+    "A002262",
+    "A037126",
+    "A059268",
+    "A215026"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

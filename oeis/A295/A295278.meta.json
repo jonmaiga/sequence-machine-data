@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. log(1 + x*sech(x))*exp(x).",
+  "id": "A295278",
+  "mentions": [
+    "A009353",
+    "A009390",
+    "A009443",
+    "A009843",
+    "A294314",
+    "A296336",
+    "A296437",
+    "A296439",
+    "A297206"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:13",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

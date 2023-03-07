@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer k such that the polynomial x^k + 1 over the integers mod 2 has exactly n distinct irreducible factors.",
+  "id": "A175198",
+  "mentions": [
+    "A000005",
+    "A000374",
+    "A023135",
+    "A023136",
+    "A023142"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The products of consecutive terms in A354753.",
+  "id": "A354754",
+  "mentions": [
+    "A064413",
+    "A088177",
+    "A354749",
+    "A354753",
+    "A354759",
+    "A354803",
+    "A354804"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

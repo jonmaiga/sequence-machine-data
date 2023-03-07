@@ -1,0 +1,22 @@
+{
+  "description": "Number of years after which it is either not possible to have a date falling on same day of the week, or the entire year can have the same calendar, in the Gregorian calendar.",
+  "id": "A231236",
+  "mentions": [
+    "A230995",
+    "A230997",
+    "A231014",
+    "A231237",
+    "A231239"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p with (2m+1)^2 - 2m <= p < (2m+1)^2.",
+  "id": "A159803",
+  "mentions": [
+    "A014085",
+    "A094189",
+    "A145354",
+    "A157884"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

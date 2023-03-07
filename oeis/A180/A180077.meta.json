@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A180076.",
+  "id": "A180077",
+  "mentions": [
+    "A180076",
+    "A180078",
+    "A180079"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

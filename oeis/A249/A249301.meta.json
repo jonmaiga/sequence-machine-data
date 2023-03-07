@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers whose concatenation of their aliquot parts, in descending order, is a palindrome.",
+  "id": "A249301",
+  "mentions": [
+    "A046449"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the graph C_5 X C_n.",
+  "id": "A358868",
+  "mentions": [
+    "A268838",
+    "A339797",
+    "A339798",
+    "A358810",
+    "A358853",
+    "A358855",
+    "A358869",
+    "A358870"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

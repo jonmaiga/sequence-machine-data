@@ -1,0 +1,22 @@
+{
+  "description": "The prime factorization of abs(numerator(B(2k))) for k >= 5, B(k) the k-th Bernoulli number. Factors sorted by size with the smallest factor negated. a(n) = -1 by convention for 1 <= n <= 5.",
+  "id": "A326727",
+  "mentions": [
+    "A000367",
+    "A079294",
+    "A090947",
+    "A326726"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

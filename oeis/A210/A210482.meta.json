@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers of the form (p#)^2 + 1, where p# is a primorial.",
+  "id": "A210482",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A002110",
+    "A061742",
+    "A092061",
+    "A189409"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

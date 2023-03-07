@@ -1,0 +1,29 @@
+{
+  "description": "Carmichael numbers with 11 prime factors.",
+  "id": "A338443",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A069272",
+    "A074379",
+    "A087788",
+    "A112428",
+    "A112429",
+    "A112430",
+    "A112431",
+    "A112432",
+    "A299710",
+    "A338442"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

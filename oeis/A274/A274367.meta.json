@@ -1,0 +1,19 @@
+{
+  "description": "Taxi-cab numbers (A001235) that are of the form x^2 + y^4 in more than one way (x, y > 0).",
+  "id": "A274367",
+  "mentions": [
+    "A001235",
+    "A111925",
+    "A272701"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

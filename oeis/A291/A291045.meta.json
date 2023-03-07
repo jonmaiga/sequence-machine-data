@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with prime factorization such that the cube of a lesser prime in the factorization is greater than the square of a greater prime in the factorization.",
+  "id": "A291045",
+  "mentions": [
+    "A289484"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

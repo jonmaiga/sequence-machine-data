@@ -1,0 +1,22 @@
+{
+  "description": "Integers of the form p^(p-1)+p where p is prime.",
+  "id": "A104129",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A036878",
+    "A085531"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:58:29",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

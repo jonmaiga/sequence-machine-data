@@ -1,0 +1,26 @@
+{
+  "description": "Put the natural numbers together without spaces and read them two at a time advancing one space each time.",
+  "id": "A136414",
+  "mentions": [
+    "A001704",
+    "A007376",
+    "A162711",
+    "A193431",
+    "A193492",
+    "A193493"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

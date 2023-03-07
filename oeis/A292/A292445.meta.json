@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of a q-series used by Ramanujan in his Lost Notebook.",
+  "id": "A292445",
+  "mentions": [
+    "A022567",
+    "A053253",
+    "A256209",
+    "A279715",
+    "A292420"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

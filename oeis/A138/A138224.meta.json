@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the divisor of n that is nearest to tau(n), the number of divisors of n. In case of a tie, take the smaller of those two divisors.",
+  "id": "A138224",
+  "mentions": [
+    "A000005",
+    "A138221",
+    "A138222",
+    "A138223"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

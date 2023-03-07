@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that for all i > n the largest prime factor of i*(i+1) exceeds the largest prime factor of n*(n+1).",
+  "id": "A193943",
+  "mentions": [
+    "A002072",
+    "A145606",
+    "A193944"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

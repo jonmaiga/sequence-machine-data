@@ -1,0 +1,28 @@
+{
+  "description": "Absolute values of the numerators of the third column of ( 0 followed by (mix 0 , A001803(n))/A060818(n) ) and its successive differences.",
+  "id": "A224270",
+  "mentions": [
+    "A001790",
+    "A001803",
+    "A002596",
+    "A046161",
+    "A060818",
+    "A061549",
+    "A098597",
+    "A171977",
+    "A206771"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

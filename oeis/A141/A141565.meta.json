@@ -1,0 +1,18 @@
+{
+  "description": "Add 1 to all bases and exponents which are greater than 1 in the prime number decomposition of n.",
+  "id": "A141565",
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

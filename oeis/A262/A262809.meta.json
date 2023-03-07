@@ -1,0 +1,51 @@
+{
+  "description": "Number A(n,k) of lattice paths from {n}^k to {0}^k using steps that decrement one or more components by one; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A262809",
+  "mentions": [
+    "A000012",
+    "A000670",
+    "A001850",
+    "A055203",
+    "A062204",
+    "A062205",
+    "A062208",
+    "A126086",
+    "A188392",
+    "A210472",
+    "A225094",
+    "A227578",
+    "A227655",
+    "A229142",
+    "A229345",
+    "A262810",
+    "A263061",
+    "A263062",
+    "A263063",
+    "A263064",
+    "A263065",
+    "A263066",
+    "A263067",
+    "A263068",
+    "A263069",
+    "A263070",
+    "A263071",
+    "A263072",
+    "A263159",
+    "A316674",
+    "A330942",
+    "A331461",
+    "A331637"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

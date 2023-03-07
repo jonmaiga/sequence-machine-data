@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} (-1)^(n+1)/(2*n)^n.",
+  "id": "A358204",
+  "mentions": [
+    "A073009",
+    "A098686",
+    "A358191",
+    "A358203"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

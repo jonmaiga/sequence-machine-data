@@ -1,0 +1,20 @@
+{
+  "description": "The set N of numbers such that each positive integer can be written in the form F + n, where F is a Fibonacci number and n in N, in an even number of ways.",
+  "id": "A109180",
+  "mentions": [
+    "A103651",
+    "A108345",
+    "A132229"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

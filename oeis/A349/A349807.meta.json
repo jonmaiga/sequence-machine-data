@@ -1,0 +1,20 @@
+{
+  "description": "Number of cells in regular n-gon after 2 generations of mitosis.",
+  "id": "A349807",
+  "mentions": [
+    "A007678",
+    "A349967",
+    "A349968",
+    "A350000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

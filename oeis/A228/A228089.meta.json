@@ -1,0 +1,22 @@
+{
+  "description": "Integers k for which a sum k + bitcount(k) cannot be obtained as a sum k2 + bitcount(k2) for any other k2<>k.",
+  "id": "A228089",
+  "mentions": [
+    "A000120",
+    "A092391",
+    "A228086",
+    "A228088",
+    "A228090"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

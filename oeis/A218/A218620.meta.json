@@ -1,0 +1,18 @@
+{
+  "description": "Least number m to appear exactly n times in A095972.",
+  "id": "A218620",
+  "mentions": [
+    "A095972"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

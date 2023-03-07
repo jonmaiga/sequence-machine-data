@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of an Egyptian fraction for e^(-1), using only prime numbers.",
+  "id": "A139517",
+  "mentions": [
+    "A139514",
+    "A139516",
+    "A139518",
+    "A139523"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

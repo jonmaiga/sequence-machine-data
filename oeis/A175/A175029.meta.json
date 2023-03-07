@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=2*n if n is prime, otherwise a(n)=3*n.",
+  "id": "A175029",
+  "mentions": [
+    "A068519",
+    "A167480",
+    "A167482",
+    "A175027",
+    "A175028"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

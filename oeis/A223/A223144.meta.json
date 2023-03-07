@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX2 0..2 arrays with no more than floor(nX2/2) elements equal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "id": "A223144",
+  "mentions": [
+    "A223149"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

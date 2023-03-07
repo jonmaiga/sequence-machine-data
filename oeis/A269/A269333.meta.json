@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number such that the sum of the digits of n * a(n) is greater than n.",
+  "id": "A269333",
+  "mentions": [
+    "A269332"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

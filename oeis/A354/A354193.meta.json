@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if A267099(n) is equal to n, otherwise 0. Here A267099 is fully multiplicative involution swapping the positions of 4k+1 and 4k+3 primes.",
+  "id": "A354193",
+  "mentions": [
+    "A267099",
+    "A354192"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

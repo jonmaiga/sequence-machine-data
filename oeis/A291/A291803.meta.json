@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A230625.",
+  "id": "A291803",
+  "mentions": [
+    "A080670",
+    "A230625",
+    "A287874",
+    "A287881",
+    "A287882"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

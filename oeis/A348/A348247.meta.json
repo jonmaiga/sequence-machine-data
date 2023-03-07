@@ -1,0 +1,20 @@
+{
+  "description": "Where prime(n) first appears in A307730.",
+  "id": "A348247",
+  "mentions": [
+    "A307632",
+    "A307720",
+    "A307730",
+    "A348246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

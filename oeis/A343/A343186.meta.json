@@ -1,0 +1,21 @@
+{
+  "description": "Factor balanced numbers (Cf. A343153) when starting from 2.",
+  "id": "A343186",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A027746",
+    "A343153",
+    "A343154"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

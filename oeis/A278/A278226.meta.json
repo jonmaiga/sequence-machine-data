@@ -1,0 +1,27 @@
+{
+  "description": "Filter-sequence for primorial base: least number with the same prime signature as A276086(n).",
+  "id": "A278226",
+  "mentions": [
+    "A046523",
+    "A049345",
+    "A069877",
+    "A267263",
+    "A276086",
+    "A276150",
+    "A278222",
+    "A278236",
+    "A278243"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

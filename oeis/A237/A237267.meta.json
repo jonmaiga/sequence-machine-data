@@ -1,0 +1,17 @@
+{
+  "description": "The positions of records in A236747.",
+  "id": "A237267",
+  "mentions": [
+    "A236747"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

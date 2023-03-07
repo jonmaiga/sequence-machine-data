@@ -1,0 +1,21 @@
+{
+  "description": "Constant of a logarithmic spiral interpolating the centers of regular hexagons: (-6/Pi)*log(-1 + sqrt(3)).",
+  "id": "A302708",
+  "mentions": [
+    "A160390",
+    "A300068"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:14",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4 * squared radius of inscribed circles of triangles with integer sides i <= j <= k, such that the number of triangles with this radius sets a new record. If this radius is not a multiple of (1/4), a(n) = 0.",
+  "id": "A331042",
+  "mentions": [
+    "A120062",
+    "A331012",
+    "A331040",
+    "A331041",
+    "A331043"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

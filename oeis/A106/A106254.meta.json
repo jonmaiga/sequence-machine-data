@@ -1,0 +1,20 @@
+{
+  "description": "Partition table in square format.",
+  "id": "A106254",
+  "mentions": [
+    "A008284",
+    "A026820"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that omega(n) = omega(n + omega(n)) where omega(n) is the number of distinct primes dividing n.",
+  "id": "A207006",
+  "mentions": [
+    "A001221",
+    "A005384",
+    "A175759",
+    "A175760",
+    "A207005"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of constant z = Sum_{n>=1} {(5/2)^n} * (2/5)^n, where {x} is the fractional part of x.",
+  "id": "A264920",
+  "mentions": [
+    "A029757",
+    "A264918",
+    "A264919",
+    "A264921",
+    "A264922"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 162,
+    "source": "oeis-entry"
+  }
+}

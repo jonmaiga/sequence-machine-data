@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) is the number of order-preserving partial isometries of an n-chain of height k (height of alpha = |Im(alpha)|).",
+  "id": "A183153",
+  "mentions": [
+    "A029653",
+    "A054143",
+    "A097813",
+    "A121306",
+    "A125165"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

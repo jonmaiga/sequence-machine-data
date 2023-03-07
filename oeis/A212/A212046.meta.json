@@ -1,0 +1,25 @@
+{
+  "description": "Denominators in the resistance triangle: T(k,n)=b, where b/c is the resistance distance R(k,n) for k resistors in an n-dimensional cube.",
+  "id": "A212046",
+  "mentions": [
+    "A046825",
+    "A046878",
+    "A046879",
+    "A090633",
+    "A090634",
+    "A212045"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

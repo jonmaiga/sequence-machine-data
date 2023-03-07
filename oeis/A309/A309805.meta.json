@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of nonattacking kings placeable on a hexagonal board with edge-length n in Glinski's hexagonal chess.",
+  "id": "A309805",
+  "mentions": [
+    "A003215",
+    "A049450",
+    "A133090"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:25",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

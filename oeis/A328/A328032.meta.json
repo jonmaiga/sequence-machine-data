@@ -1,0 +1,22 @@
+{
+  "description": "If there are m primes between 10^(n-1) and 10^n, a(n) is the middle prime if m is odd, otherwise the larger of the two middle primes.",
+  "id": "A328032",
+  "mentions": [
+    "A006879",
+    "A006880",
+    "A309329",
+    "A309359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

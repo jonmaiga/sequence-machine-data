@@ -1,0 +1,21 @@
+{
+  "description": "Numbers prime(k) such that D(prime(k), k-1) < 0, where D( * , k-1) = (k-1)-st difference.",
+  "id": "A258038",
+  "mentions": [
+    "A258036",
+    "A258037",
+    "A258039"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number such that for all N >= a(n) there are at least n primes between 9*N and 10*N.",
+  "id": "A220274",
+  "mentions": [
+    "A084140",
+    "A220268",
+    "A220269",
+    "A220273"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

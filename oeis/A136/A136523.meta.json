@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = A053120(n,k)+A053120(n-1,k).",
+  "id": "A136523",
+  "mentions": [
+    "A040000",
+    "A053120",
+    "A081277",
+    "A124182"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

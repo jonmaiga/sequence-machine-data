@@ -1,0 +1,25 @@
+{
+  "description": "Sum_{d|n, d = 0, 1, or 11 mod 12} d.",
+  "id": "A284372",
+  "mentions": [
+    "A000203",
+    "A113184",
+    "A195818",
+    "A210964",
+    "A284361",
+    "A284362",
+    "A284363"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

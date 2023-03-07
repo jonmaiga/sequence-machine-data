@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(l,L) is the number of all possible covers of L-length line segment by l-length line segments with allowed gaps < l.",
+  "id": "A228360",
+  "mentions": [
+    "A134816",
+    "A228361",
+    "A228362"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

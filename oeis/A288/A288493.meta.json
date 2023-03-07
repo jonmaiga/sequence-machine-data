@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A006878 (record new trajectory lengths of Collatz function) (Hailstone sequence).",
+  "id": "A288493",
+  "mentions": [
+    "A006877",
+    "A006878"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

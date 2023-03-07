@@ -1,0 +1,20 @@
+{
+  "description": "Number of lattice paths from {2}^n to {0}^n using steps that decrement one component by 1 such that for each point (p_1,p_2,...,p_n) we have abs(p_{i}-p_{i+1}) <= 1 and abs(p_{1}-p_{n}) <= 1.",
+  "id": "A322782",
+  "mentions": [
+    "A227656",
+    "A318191"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

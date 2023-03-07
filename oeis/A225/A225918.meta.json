@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least k such that f(a(n-1)+1) + ... + f(k) > f(a(n-2)+1) + ... + f(a(n-1)) for n > 1, where f(n) = 1/(n+3) and a(1) = 1.",
+  "id": "A225918",
+  "mentions": [
+    "A003462",
+    "A116952",
+    "A134931",
+    "A225919",
+    "A225920",
+    "A225921",
+    "A225922"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

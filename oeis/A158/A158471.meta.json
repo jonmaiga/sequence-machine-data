@@ -1,0 +1,20 @@
+{
+  "description": "Stirling-like triangle by rows generated from (x-1)*(x-1)*(x-2)*(x-3)*(x-4)*...",
+  "id": "A158471",
+  "mentions": [
+    "A098558",
+    "A103718"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

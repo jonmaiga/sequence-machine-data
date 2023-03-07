@@ -1,0 +1,21 @@
+{
+  "description": "Primefree centuries (i.e., no prime exists between 100*n and 100*n+99).",
+  "id": "A181098",
+  "mentions": [
+    "A038822",
+    "A186393",
+    "A186408",
+    "A190639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

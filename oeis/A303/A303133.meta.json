@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of peak density of an A_{3}B binary hard sphere packing discovered by O'Toole and Hudson.",
+  "id": "A303133",
+  "mentions": [
+    "A303134"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

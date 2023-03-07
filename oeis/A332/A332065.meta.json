@@ -1,0 +1,29 @@
+{
+  "description": "Infinite square array where row n lists the integers whose n-th power is the sum of distinct n-th powers of positive integers; read by falling antidiagonals.",
+  "id": "A332065",
+  "mentions": [
+    "A001422",
+    "A001476",
+    "A001661",
+    "A002260",
+    "A004736",
+    "A009003",
+    "A030052",
+    "A046039",
+    "A194768",
+    "A194769",
+    "A332066"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

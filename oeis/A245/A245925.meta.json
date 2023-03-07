@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n*Sum_{k=0..n} (-1)^k * C(n,k)^2 * Sum_{j=0..k} C(k,j)^2 * x^j.",
+  "id": "A245925",
+  "mentions": [
+    "A243945",
+    "A245926",
+    "A245927",
+    "A245929",
+    "A249891"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

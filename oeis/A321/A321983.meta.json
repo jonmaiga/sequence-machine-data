@@ -1,0 +1,22 @@
+{
+  "description": "Let p be A293652(n), a(n) is the smallest composite number whose greatest prime factor is the n-th prime below p and whose prime factors add up to p.",
+  "id": "A321983",
+  "mentions": [
+    "A001414",
+    "A056240",
+    "A151799",
+    "A293652",
+    "A295185"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

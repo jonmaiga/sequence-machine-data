@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form j-(p(j+3)-p(j))/(p(j+2)-p(j+1))), where p(j)=j-th prime.",
+  "id": "A141633",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A031165"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

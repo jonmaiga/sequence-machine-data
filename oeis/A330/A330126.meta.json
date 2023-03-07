@@ -1,0 +1,18 @@
+{
+  "description": "Composite terms in A330070.",
+  "id": "A330126",
+  "mentions": [
+    "A330070",
+    "A330071"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

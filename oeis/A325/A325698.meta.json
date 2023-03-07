@@ -1,0 +1,38 @@
+{
+  "description": "Numbers with as many even as odd prime indices, counted with multiplicity.",
+  "id": "A325698",
+  "mentions": [
+    "A000712",
+    "A001222",
+    "A001405",
+    "A003961",
+    "A003991",
+    "A006094",
+    "A026010",
+    "A028260",
+    "A045931",
+    "A063886",
+    "A097613",
+    "A112798",
+    "A130780",
+    "A171966",
+    "A195017",
+    "A239241",
+    "A241638",
+    "A257991",
+    "A257992",
+    "A297845",
+    "A325700",
+    "A332820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

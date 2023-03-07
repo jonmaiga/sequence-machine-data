@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = a(3) = 1, a(4) = 4, a(5) = 3; a(n) = a(n-a(n-1)) + a(n-a(n-2)) + a(n-a(n-3)) for n > 5.",
+  "id": "A296413",
+  "mentions": [
+    "A278055",
+    "A292351",
+    "A296440"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

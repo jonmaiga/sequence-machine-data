@@ -1,0 +1,18 @@
+{
+  "description": "Number of sum-free sets that can be created by adding n to all sum-free sets [1..n-1].",
+  "id": "A288728",
+  "mentions": [
+    "A007865"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

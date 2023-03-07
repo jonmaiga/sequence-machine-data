@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of L(Pi), the limit of iterations of continued fraction transforms of Pi.",
+  "id": "A228993",
+  "mentions": [
+    "A228492",
+    "A228493",
+    "A228992",
+    "A229350",
+    "A229597"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

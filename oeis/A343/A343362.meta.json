@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(5^(k-1)).",
+  "id": "A343362",
+  "mentions": [
+    "A098407",
+    "A292839",
+    "A343350",
+    "A343360",
+    "A343361",
+    "A343363",
+    "A343364",
+    "A343365",
+    "A343366"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:58:32",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

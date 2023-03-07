@@ -1,0 +1,17 @@
+{
+  "description": "Initial prime numbers encountered by Collatz (3x+1) evaluation at odd, composite, ascending starts.",
+  "id": "A273216",
+  "mentions": [
+    "A014682"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

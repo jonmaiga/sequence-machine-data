@@ -1,0 +1,24 @@
+{
+  "description": "First prime after 4n. Smallest prime >= 4*n. Bisection of A060264.",
+  "id": "A118753",
+  "mentions": [
+    "A000040",
+    "A008586",
+    "A060264",
+    "A060308",
+    "A118747",
+    "A118751"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients of increasing powers of x in characteristic polynomial of the matrix (-1)^n*M_n, where M_n is the tridiagonal matrix defined in the Comments line.",
+  "id": "A124037",
+  "mentions": [
+    "A084938",
+    "A126126"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:56:55",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

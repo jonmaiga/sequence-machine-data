@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the factorial of Golden Ratio.",
+  "id": "A178840",
+  "mentions": [
+    "A001622",
+    "A111293",
+    "A178394",
+    "A178839"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

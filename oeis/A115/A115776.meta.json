@@ -1,0 +1,20 @@
+{
+  "description": "Integers i such that 13*i = A048720bi(21,i), but 15*i <> A048720bi(23,i).",
+  "id": "A115776",
+  "mentions": [
+    "A048720",
+    "A115772",
+    "A115774",
+    "A115781"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

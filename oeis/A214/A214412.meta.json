@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can't be expressed as the sum of a Fibonacci number and a square of a positive integer.",
+  "id": "A214412",
+  "mentions": [
+    "A000045",
+    "A132144",
+    "A214410"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

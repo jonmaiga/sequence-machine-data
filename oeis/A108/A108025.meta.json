@@ -1,0 +1,21 @@
+{
+  "description": "Number of letters in the words formed by the digital recitation of phi in the English language.",
+  "id": "A108025",
+  "mentions": [
+    "A107488",
+    "A107489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

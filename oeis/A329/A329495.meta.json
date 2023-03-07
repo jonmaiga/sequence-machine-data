@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of second moment of the n-th term of Ulam's \"history-dependent random sequence\".",
+  "id": "A329495",
+  "mentions": [
+    "A327498",
+    "A329496",
+    "A329497",
+    "A329498"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

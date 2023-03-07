@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the least r>=3 such that the difference between the nearest r-gonal number >= n and n is an r-gonal number.",
+  "id": "A227321",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A000567",
+    "A001106",
+    "A006512",
+    "A051624",
+    "A051682",
+    "A051865",
+    "A051876"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

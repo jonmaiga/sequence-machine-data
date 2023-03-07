@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of partial sums of a series for the inverse of the arithmetic-geometric mean (agM) of 1/2 and 1.",
+  "id": "A130037",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A130035",
+    "A130036"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

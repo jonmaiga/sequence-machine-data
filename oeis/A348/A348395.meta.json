@@ -1,0 +1,19 @@
+{
+  "description": "Terms in A307730 in order of appearance.",
+  "id": "A348395",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348243"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive multiple of n whose base-7 representation contains only 0's and 1's.",
+  "id": "A244958",
+  "mentions": [
+    "A004287",
+    "A004290",
+    "A244954",
+    "A244960"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

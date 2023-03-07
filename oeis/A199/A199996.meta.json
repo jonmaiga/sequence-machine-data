@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers whose multiplicative persistence is 6.",
+  "id": "A199996",
+  "mentions": [
+    "A046506",
+    "A046515"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

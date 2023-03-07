@@ -1,0 +1,38 @@
+{
+  "description": "Coefficients of first difference of Chebyshev S polynomials.",
+  "id": "A130777",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A006232",
+    "A010892",
+    "A046854",
+    "A049310",
+    "A052750",
+    "A057077",
+    "A061347",
+    "A061554",
+    "A063886",
+    "A065941",
+    "A066170",
+    "A086246",
+    "A108299",
+    "A127672",
+    "A157751",
+    "A180070",
+    "A244419"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:17",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

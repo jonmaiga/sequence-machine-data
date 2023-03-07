@@ -1,0 +1,22 @@
+{
+  "description": "Either two less than a square or two more than a square.",
+  "id": "A230584",
+  "mentions": [
+    "A000290",
+    "A008865",
+    "A059100",
+    "A109613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

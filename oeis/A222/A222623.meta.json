@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of permutations A113966, A222622.",
+  "id": "A222623",
+  "mentions": [
+    "A113966",
+    "A222622"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

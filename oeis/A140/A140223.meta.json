@@ -1,0 +1,20 @@
+{
+  "description": "Triangle: Row n contains (d(1),d(2),...,d(n)) in non-descending order, where d(n) = A000005(n).",
+  "id": "A140223",
+  "mentions": [
+    "A000005",
+    "A140224",
+    "A140225"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

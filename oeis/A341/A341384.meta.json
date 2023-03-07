@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (-1 + Product_{k>=1} (1 + x^k)^k)^2.",
+  "id": "A341384",
+  "mentions": [
+    "A026007",
+    "A026011",
+    "A321947",
+    "A327380",
+    "A341385",
+    "A341386",
+    "A341387",
+    "A341388",
+    "A341390",
+    "A341391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the Moebius ladder M(n) (entries in row n are the coefficients of the corresponding Wiener polynomial). The Moebius ladder M(n) (n>=3) is the graph obtained from the cycle graph C(2n) by adding new edges joining each pair of opposite nodes.",
+  "id": "A180856",
+  "mentions": [
+    "A000384",
+    "A180857"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

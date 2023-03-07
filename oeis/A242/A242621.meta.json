@@ -1,0 +1,26 @@
+{
+  "description": "Start of the least triple of consecutive squarefree numbers each of which has exactly n distinct prime factors.",
+  "id": "A242621",
+  "mentions": [
+    "A005117",
+    "A039833",
+    "A066509",
+    "A093550",
+    "A176167",
+    "A192203",
+    "A242605",
+    "A242608",
+    "A246470",
+    "A246548"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = d(n+1) - d(n), where d(k) is the number of digits in the base-k representation of k!.",
+  "id": "A277674",
+  "mentions": [
+    "A000142",
+    "A060151",
+    "A277675",
+    "A277676"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

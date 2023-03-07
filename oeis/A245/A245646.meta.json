@@ -1,0 +1,23 @@
+{
+  "description": "The smallest member 'a' of the Pythagorean triples (a,b,c) ordered by increasing c, where the triples consist of a triangular number, a square number and a pentagonal number.",
+  "id": "A245646",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A245647",
+    "A245648"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

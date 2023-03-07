@@ -1,0 +1,21 @@
+{
+  "description": "Nonzero values of |J_p(2)|, i.e., cardinality of the set J_p(2) for p = A272723(n). Nonzero values of column n=2 of A272722.",
+  "id": "A272725",
+  "mentions": [
+    "A272722",
+    "A272723",
+    "A272724",
+    "A272726"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

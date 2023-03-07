@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} (n-d)^sigma(n/d).",
+  "id": "A345275",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

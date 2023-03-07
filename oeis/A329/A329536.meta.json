@@ -1,0 +1,18 @@
+{
+  "description": "Integer areas of integer-sided triangles where the lengths of two of the sides are cubes.",
+  "id": "A329536",
+  "mentions": [
+    "A188158",
+    "A232461"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

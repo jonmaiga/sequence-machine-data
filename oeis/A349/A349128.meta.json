@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = phi(A064989(n)), where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p, and phi is Euler totient function.",
+  "id": "A349128",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000265",
+    "A003972",
+    "A006093",
+    "A064989",
+    "A151799",
+    "A285702",
+    "A347115",
+    "A348045",
+    "A349122",
+    "A349127"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

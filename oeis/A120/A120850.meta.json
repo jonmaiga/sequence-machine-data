@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n is prime and is equal to the sum of the first k primes plus the product of the first k primes, for some k.",
+  "id": "A120850",
+  "mentions": [
+    "A013918",
+    "A096342",
+    "A120851"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

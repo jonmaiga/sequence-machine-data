@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = U(n, (n+2)/2) where U(n, x) is a Chebyshev polynomial of the 2nd kind.",
+  "id": "A342167",
+  "mentions": [
+    "A097690",
+    "A097691",
+    "A323118",
+    "A342168"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

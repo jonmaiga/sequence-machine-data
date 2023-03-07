@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers with prime number of characters in their English names, including spaces and hyphens.",
+  "id": "A119960",
+  "mentions": [
+    "A000040",
+    "A005589",
+    "A052360",
+    "A052362",
+    "A052363",
+    "A072685"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

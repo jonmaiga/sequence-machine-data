@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of number-theoretic triangle A109974.",
+  "id": "A109977",
+  "mentions": [
+    "A109974"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

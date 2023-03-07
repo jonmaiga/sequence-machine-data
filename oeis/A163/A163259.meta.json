@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: mod(A007318(n,k+1);A007318(n,k)).",
+  "id": "A163259",
+  "mentions": [
+    "A007318",
+    "A051731",
+    "A163260"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

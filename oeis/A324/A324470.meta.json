@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of ternary tribonacci word A092782.",
+  "id": "A324470",
+  "mentions": [
+    "A080843",
+    "A092782",
+    "A319198"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

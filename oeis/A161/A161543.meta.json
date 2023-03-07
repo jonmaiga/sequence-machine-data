@@ -1,0 +1,17 @@
+{
+  "description": "The m-th composite number composite(m) is a term iff composite(m) + m is composite.",
+  "id": "A161543",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

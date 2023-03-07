@@ -1,0 +1,19 @@
+{
+  "description": "Lower s(n)-Wythoff sequence, where s(n)=floor[(n+1)/2]; complement of A184414.",
+  "id": "A184413",
+  "mentions": [
+    "A004526",
+    "A184117",
+    "A184414"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

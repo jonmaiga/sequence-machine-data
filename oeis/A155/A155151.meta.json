@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n, k) = 4*n*k + 2*n + 2*k + 2, read by rows.",
+  "id": "A155151",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A002515",
+    "A014105",
+    "A016957",
+    "A017029",
+    "A017341",
+    "A054723",
+    "A082286",
+    "A137928",
+    "A144650"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:11:29",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

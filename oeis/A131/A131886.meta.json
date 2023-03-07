@@ -1,0 +1,24 @@
+{
+  "description": "Rearrange the rows of array A077569 by sorting the values on each row by noting the odd part of each signature and sorting as in A131822.",
+  "id": "A131886",
+  "mentions": [
+    "A001055",
+    "A025487",
+    "A077569",
+    "A122819",
+    "A131801",
+    "A131822"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

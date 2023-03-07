@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1/(1 - 2*x*A(x) - x*A(x)/(1 - x*A(x)/(1 - x*A(x)/(1 - ...)))), a continued fraction.",
+  "id": "A307489",
+  "mentions": [
+    "A001700",
+    "A001764",
+    "A078531",
+    "A246432",
+    "A307490"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

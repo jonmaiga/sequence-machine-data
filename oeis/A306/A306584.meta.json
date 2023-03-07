@@ -1,0 +1,20 @@
+{
+  "description": "For any n >= 0, let f_n be the representation of n in the factorial number system: for any i >= 0, 0 <= f_n(i) <= i and n = Sum_{i >= 0} f_n(i) * i!. The representation of a(n) in the factorial number system, say g, satisfies g(i) = f_n(f_n(i)) for any i >= 0.",
+  "id": "A306584",
+  "mentions": [
+    "A007623",
+    "A306605"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

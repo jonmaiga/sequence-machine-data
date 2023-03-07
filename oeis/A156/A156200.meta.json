@@ -1,0 +1,18 @@
+{
+  "description": "Primes that contain all the digits {0,6,8,9} and only these digits.",
+  "id": "A156200",
+  "mentions": [
+    "A053580"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

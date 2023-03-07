@@ -1,0 +1,20 @@
+{
+  "description": "Sums of a triangular number A000217 > 0 and a square A000290 > 0.",
+  "id": "A133254",
+  "mentions": [
+    "A000217",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

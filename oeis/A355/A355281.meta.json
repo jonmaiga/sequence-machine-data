@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of nested Dyck paths from (0,0) to (n,n) such that the upper path only touches the diagonal at its endpoints.",
+  "id": "A355281",
+  "mentions": [
+    "A000108",
+    "A005700"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

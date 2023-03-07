@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that A008472(p-1) = A008472(p+1) and is a prime.",
+  "id": "A190722",
+  "mentions": [
+    "A008472",
+    "A086711",
+    "A190680",
+    "A203182"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

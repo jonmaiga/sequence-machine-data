@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(d(k)-1), where d(k) = number of divisors of k (A000005).",
+  "id": "A318844",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A032741",
+    "A081362",
+    "A107742",
+    "A318783"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:11:23",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

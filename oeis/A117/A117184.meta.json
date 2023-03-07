@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array ((1+x)c(x^2)/sqrt(1-4x^2),xc(x^2)), c(x) the g.f. of A000108.",
+  "id": "A117184",
+  "mentions": [
+    "A000108",
+    "A117185",
+    "A117186",
+    "A117187",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

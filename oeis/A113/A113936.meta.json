@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k-th prime, where k = n-th Mersenne prime = A000668(n).",
+  "id": "A113936",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

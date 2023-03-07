@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 3 + log_2(3) + log_2(3 + log_2(3)).",
+  "id": "A229177",
+  "mentions": [
+    "A020857",
+    "A155921",
+    "A229168",
+    "A229170"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:03",
+    "offset": 1,
+    "size": 107,
+    "source": "joeis"
+  }
+}

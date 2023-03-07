@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] (1 + x)/(1 - x)^(2*n+1).",
+  "id": "A227726",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A025174",
+    "A052227",
+    "A224274"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:18:29",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

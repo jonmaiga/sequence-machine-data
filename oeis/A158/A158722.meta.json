@@ -1,0 +1,26 @@
+{
+  "description": "Primes p which are not in A158720 and A158721.",
+  "id": "A158722",
+  "mentions": [
+    "A158708",
+    "A158709",
+    "A158710",
+    "A158711",
+    "A158712",
+    "A158713",
+    "A158714",
+    "A158719",
+    "A158720",
+    "A158721"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

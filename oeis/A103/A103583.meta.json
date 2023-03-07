@@ -1,0 +1,22 @@
+{
+  "description": "Same as A103582, but read antidiagonals in upward direction.",
+  "id": "A103583",
+  "mentions": [
+    "A103581",
+    "A103582",
+    "A103588",
+    "A103589"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 123,
+    "source": "oeis-entry"
+  }
+}

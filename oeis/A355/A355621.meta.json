@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the number of terms in the first n-1 terms of the sequence that share a 1-bit with a(n-1) in their binary expansions.",
+  "id": "A355621",
+  "mentions": [
+    "A030190",
+    "A129760",
+    "A352763",
+    "A353989",
+    "A354606",
+    "A355625"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

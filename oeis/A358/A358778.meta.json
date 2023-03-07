@@ -1,0 +1,20 @@
+{
+  "description": "Positions of positive terms in A358777, which is the Dirichlet inverse of A353557.",
+  "id": "A358778",
+  "mentions": [
+    "A030514",
+    "A046317",
+    "A353557",
+    "A358777"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

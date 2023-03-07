@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangle read by rows T(n,k) in which row n has length A000041(n-1) and every column k is A024916, n >= 1, k >= 1.",
+  "id": "A340423",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A024916",
+    "A066186",
+    "A187219",
+    "A196020",
+    "A221529",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A336811",
+    "A338156",
+    "A339278",
+    "A340035",
+    "A341149",
+    "A346533",
+    "A350333",
+    "A350637"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

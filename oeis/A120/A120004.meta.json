@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct numbers as substrings of n in decimal representation.",
+  "id": "A120004",
+  "mentions": [
+    "A079790",
+    "A119999",
+    "A120005",
+    "A154771",
+    "A218978"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

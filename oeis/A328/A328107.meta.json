@@ -1,0 +1,26 @@
+{
+  "description": "Binary weight of A327973.",
+  "id": "A328107",
+  "mentions": [
+    "A000120",
+    "A070952",
+    "A110240",
+    "A269160",
+    "A327973",
+    "A328105",
+    "A328106",
+    "A328108",
+    "A328109"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

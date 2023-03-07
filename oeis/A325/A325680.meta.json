@@ -1,0 +1,29 @@
+{
+  "description": "Number of compositions of n such that every distinct circular subsequence has a different sum.",
+  "id": "A325680",
+  "mentions": [
+    "A000079",
+    "A008965",
+    "A108917",
+    "A143823",
+    "A169942",
+    "A276024",
+    "A325545",
+    "A325676",
+    "A325682",
+    "A325685",
+    "A325687",
+    "A325688"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

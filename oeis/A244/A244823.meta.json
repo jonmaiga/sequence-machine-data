@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of c/P in SI units (meters), where c is the speed of light in vacuum and P is the number of periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom in one second.",
+  "id": "A244823",
+  "mentions": [
+    "A003678",
+    "A230436",
+    "A230458",
+    "A230845"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:29",
+    "offset": -1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

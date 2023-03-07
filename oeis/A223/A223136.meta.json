@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(n+1) - sigma(n) = k*n for some integer k, where sigma(n) = A000203 (sum of divisors of n).",
+  "id": "A223136",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A002961",
+    "A067803"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

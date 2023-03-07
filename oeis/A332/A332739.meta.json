@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that usigma(x) = k has a unique solution, where usigma(k) is the sum of unitary divisors of k (A034448).",
+  "id": "A332739",
+  "mentions": [
+    "A007370",
+    "A034448",
+    "A064000"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

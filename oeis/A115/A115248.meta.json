@@ -1,0 +1,22 @@
+{
+  "description": "Values such that A115247(a(n))=1. Values such that A001935(a(n))==2 (mod 4).",
+  "id": "A115248",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001935",
+    "A005123",
+    "A115247",
+    "A115249"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "For each ordered partition of n with k numbers, remove 1 from each part and add the number k to get a new partition, until a partition is repeated. Among all ordered partitions of n, a(n) gives the maximum number of steps needed to reach a period.",
+  "id": "A184996",
+  "mentions": [
+    "A037306",
+    "A092964",
+    "A185700"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

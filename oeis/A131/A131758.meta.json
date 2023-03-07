@@ -1,0 +1,32 @@
+{
+  "description": "Coefficients of numerators of rational functions whose binomial transforms give the normalized polylogarithms Li(-n,t)/n!.",
+  "id": "A131758",
+  "mentions": [
+    "A000182",
+    "A000262",
+    "A000670",
+    "A002425",
+    "A008292",
+    "A009940",
+    "A038548",
+    "A060872",
+    "A084358",
+    "A101921",
+    "A129652",
+    "A131202",
+    "A133289",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

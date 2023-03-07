@@ -1,0 +1,19 @@
+{
+  "description": "Final digit reached by traveling right (with wraparound) through the digits of n. Each move steps right k places, where k is the digit at the beginning of the move. Moves begin at the most significant digit and d moves are made, where d is the number of digits in n.",
+  "id": "A358647",
+  "mentions": [
+    "A357531"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

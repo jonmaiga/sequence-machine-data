@@ -1,0 +1,19 @@
+{
+  "description": "Number of monotonic lattice paths of length n which do not pass above the line y = x/(log_2(3)-1).",
+  "id": "A355850",
+  "mentions": [
+    "A001405",
+    "A020857",
+    "A126042"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

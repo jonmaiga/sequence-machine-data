@@ -1,0 +1,18 @@
+{
+  "description": "Primes (p*(p+2)-2)/3 for p in A339503.",
+  "id": "A339504",
+  "mentions": [
+    "A001359",
+    "A339503"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

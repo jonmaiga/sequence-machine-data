@@ -1,0 +1,23 @@
+{
+  "description": "Position of the first occurrence of n in A337474.",
+  "id": "A337476",
+  "mentions": [
+    "A000040",
+    "A107705",
+    "A108227",
+    "A337474",
+    "A337477",
+    "A337478"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

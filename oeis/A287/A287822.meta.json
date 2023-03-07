@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of Dyck paths of semilength n such that the maximal number of peaks per level equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A287822",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A281874",
+    "A287847",
+    "A287860",
+    "A288743",
+    "A288744",
+    "A288745",
+    "A288746",
+    "A288747",
+    "A288748",
+    "A288749",
+    "A288750",
+    "A288751"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

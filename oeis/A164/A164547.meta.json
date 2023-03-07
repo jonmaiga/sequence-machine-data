@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 10*a(n-1) - 17*a(n-2) for n > 1; a(0) = 1, a(1) = 11.",
+  "id": "A164547",
+  "mentions": [
+    "A164546",
+    "A164640"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

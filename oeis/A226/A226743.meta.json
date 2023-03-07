@@ -1,0 +1,18 @@
+{
+  "description": "Number of alternating sums of consecutive primes with result 2n-1.",
+  "id": "A226743",
+  "mentions": [
+    "A008347",
+    "A084143"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

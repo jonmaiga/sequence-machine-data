@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = -1 + length of the Collatz sequence of -(n-k)/(2k+1) for n >= 1 and k >= 0.",
+  "id": "A224360",
+  "mentions": [
+    "A210516",
+    "A210688",
+    "A224299",
+    "A224300",
+    "A224361"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = numerator of r(n) = 2*(3*n+2)!/((2*n)!*2^n), n>=0.",
+  "id": "A227528",
+  "mentions": [
+    "A001879"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

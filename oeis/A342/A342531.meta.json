@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of strict integer partitions of n with maximal descent k, n >= 0, 0 <= k <= n.",
+  "id": "A342531",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003114",
+    "A003242",
+    "A005117",
+    "A034296",
+    "A049980",
+    "A049988",
+    "A238353",
+    "A238710",
+    "A325325",
+    "A325368",
+    "A325545",
+    "A342098",
+    "A342514"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

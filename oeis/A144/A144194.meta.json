@@ -1,0 +1,23 @@
+{
+  "description": "Square array (6 X 6) read by rows.",
+  "id": "A144194",
+  "mentions": [
+    "A002033",
+    "A143104",
+    "A144193",
+    "A144195"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

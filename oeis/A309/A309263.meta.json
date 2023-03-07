@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A140110 that are not divisible by 6.",
+  "id": "A309263",
+  "mentions": [
+    "A000079",
+    "A005054",
+    "A140110"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

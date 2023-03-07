@@ -1,0 +1,18 @@
+{
+  "description": "Number of figure 8's having 2n edges in one loop and 6 edges in the other and which are weakly embeddable in the square lattice.",
+  "id": "A323853",
+  "mentions": [
+    "A323852"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

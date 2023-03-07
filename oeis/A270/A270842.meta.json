@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic edge colorings of the Petersen graph with at most n colors.",
+  "id": "A270842",
+  "mentions": [
+    "A063843",
+    "A159233",
+    "A270843"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:07:07",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Indices of monotonically increasing primes which centrally enclose the prime sequence in A133781.",
+  "id": "A133782",
+  "mentions": [
+    "A075595",
+    "A133781"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

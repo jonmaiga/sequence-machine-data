@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of (prime(prime(n))+2)/(prime(n)+2).",
+  "id": "A263427",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006450",
+    "A006512",
+    "A263399"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

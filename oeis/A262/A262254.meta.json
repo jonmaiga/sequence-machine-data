@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 11; for n>1, a(n) is the smallest prime that starts with the least significant digit of the previous term and has not occurred earlier.",
+  "id": "A262254",
+  "mentions": [
+    "A076653",
+    "A082238",
+    "A089755",
+    "A107809",
+    "A180022"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

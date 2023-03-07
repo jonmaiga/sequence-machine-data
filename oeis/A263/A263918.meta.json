@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array (f(x)^4, f(x)), where 1 + x*f^4(x)/(1 - x*f(x)) = f(x).",
+  "id": "A263918",
+  "mentions": [
+    "A033184",
+    "A091370",
+    "A091836",
+    "A263917"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

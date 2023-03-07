@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of c(4), a constant appearing in certain Euler double sums not expressible in terms of well-known constants.",
+  "id": "A247450",
+  "mentions": [
+    "A002162",
+    "A072691",
+    "A233091"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

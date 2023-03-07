@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n/7^m mod 7, where 7^m is the greatest power of 7 that divides n.",
+  "id": "A277545",
+  "mentions": [
+    "A010876",
+    "A242603"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

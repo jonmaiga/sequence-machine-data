@@ -1,0 +1,19 @@
+{
+  "description": "Number of bipartite planar graphs with 2n nodes and at least one zero eigenvector.",
+  "id": "A133236",
+  "mentions": [
+    "A000109",
+    "A007083",
+    "A133237"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

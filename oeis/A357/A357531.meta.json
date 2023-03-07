@@ -1,0 +1,21 @@
+{
+  "description": "Final value obtained by traveling clockwise around a circular array with positions numbered clockwise from 1 to n. Each move consists of traveling clockwise k places, where k is the position at the beginning of the move. The first move begins at position 1. a(n) is the position at the end of the n-th move.",
+  "id": "A357531",
+  "mentions": [
+    "A015910",
+    "A082495",
+    "A358647"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

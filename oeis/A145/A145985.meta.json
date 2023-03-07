@@ -1,0 +1,24 @@
+{
+  "description": "Primes resulting from subtracting primes from 10^n in order (see Comments for precise definition).",
+  "id": "A145985",
+  "mentions": [
+    "A006881",
+    "A068811",
+    "A358310",
+    "A359120",
+    "A359121",
+    "A359122",
+    "A359123"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

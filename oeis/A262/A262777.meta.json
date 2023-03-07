@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 10^n - prime(n).",
+  "id": "A262777",
+  "mentions": [
+    "A000040",
+    "A011557",
+    "A193825"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:18:39",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

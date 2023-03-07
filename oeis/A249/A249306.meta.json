@@ -1,0 +1,33 @@
+{
+  "description": "Denominators A027642(n) of Bernoulli numbers except for a(4*k+5)=2 instead of 1.",
+  "id": "A249306",
+  "mentions": [
+    "A000034",
+    "A001477",
+    "A002445",
+    "A016813",
+    "A027642",
+    "A051222",
+    "A051226",
+    "A051228",
+    "A051230",
+    "A090126",
+    "A141056",
+    "A160014",
+    "A164020",
+    "A176591",
+    "A248614",
+    "A249134"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

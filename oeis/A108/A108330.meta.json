@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that 10^k - 29 is a prime number.",
+  "id": "A108330",
+  "mentions": [
+    "A089675",
+    "A092767",
+    "A095714"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

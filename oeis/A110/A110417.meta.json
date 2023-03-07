@@ -1,0 +1,18 @@
+{
+  "description": "For each k from 0 through n-1, take the largest value of C(n,r) that divides k! and sum k! / C(n,r) for all cases where C(n,r)>1.",
+  "id": "A110417",
+  "mentions": [
+    "A110416"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

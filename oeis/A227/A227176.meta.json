@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: LambertW(LambertW(-x)) / LambertW(-x).",
+  "id": "A227176",
+  "mentions": [
+    "A000169",
+    "A195203",
+    "A207833"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

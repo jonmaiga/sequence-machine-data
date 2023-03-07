@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: row n lists the digits of A139258(n), the palindromic number formed from the reflected decimal expansion of Euler's constant (or Euler-Mascheroni constant) gamma.",
+  "id": "A139259",
+  "mentions": [
+    "A001620",
+    "A138068",
+    "A138070",
+    "A138072",
+    "A139258",
+    "A139260",
+    "A139261"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

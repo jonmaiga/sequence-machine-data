@@ -1,0 +1,31 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of integer partitions of n such that the difference between the length of the minimal triangular partition containing and the maximal triangular partition contained in the Young diagram is k.",
+  "id": "A325200",
+  "mentions": [
+    "A000041",
+    "A046660",
+    "A065770",
+    "A071724",
+    "A243055",
+    "A325169",
+    "A325178",
+    "A325188",
+    "A325189",
+    "A325191",
+    "A325195",
+    "A325196",
+    "A325197",
+    "A325199"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

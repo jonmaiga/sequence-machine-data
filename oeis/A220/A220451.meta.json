@@ -1,0 +1,18 @@
+{
+  "description": "A220449(n) mod 7.",
+  "id": "A220451",
+  "mentions": [
+    "A220449",
+    "A220450"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

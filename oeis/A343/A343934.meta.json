@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the sequence of iterations of k - A006519(k), starting with k=n, until 0 is reached.",
+  "id": "A343934",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A006519",
+    "A129760",
+    "A298011"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

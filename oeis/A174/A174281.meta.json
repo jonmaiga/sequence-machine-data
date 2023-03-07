@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 20*p^2+32*p+13 is also prime.",
+  "id": "A174281",
+  "mentions": [
+    "A154414"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

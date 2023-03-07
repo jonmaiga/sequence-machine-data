@@ -1,0 +1,19 @@
+{
+  "description": "Number of directed Hamiltonian cycles on the n X n white bishop graph.",
+  "id": "A282890",
+  "mentions": [
+    "A282889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

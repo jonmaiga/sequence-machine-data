@@ -1,0 +1,24 @@
+{
+  "description": "Odd exponential abundant numbers whose exponential abundancy is closer to 2 than that of any smaller odd exponential abundant number.",
+  "id": "A336679",
+  "mentions": [
+    "A051377",
+    "A188263",
+    "A321147",
+    "A335052",
+    "A335053",
+    "A335055",
+    "A336254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

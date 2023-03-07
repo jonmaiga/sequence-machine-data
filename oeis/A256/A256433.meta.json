@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of dodecahedral numbers.",
+  "id": "A256433",
+  "mentions": [
+    "A006566",
+    "A010057",
+    "A023533",
+    "A256432",
+    "A256434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

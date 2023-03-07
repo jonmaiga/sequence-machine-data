@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of overlaps formed by element 1 in the set of permutations of n elements, where the element n does not occupy the k-th place after 1.",
+  "id": "A259704",
+  "mentions": [
+    "A000108",
+    "A259705"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

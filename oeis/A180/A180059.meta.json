@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that binary weight of k*n is less than binary weight of k, or zero if no such k exists (for n = powers of 2).",
+  "id": "A180059",
+  "mentions": [
+    "A000120",
+    "A180054",
+    "A180055"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

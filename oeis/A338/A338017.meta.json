@@ -1,0 +1,22 @@
+{
+  "description": "Multiplication table of A338012, read by antidiagonals.",
+  "id": "A338017",
+  "mentions": [
+    "A337662",
+    "A337975",
+    "A338012",
+    "A338015",
+    "A338016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

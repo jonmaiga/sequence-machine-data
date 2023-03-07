@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(d^3).",
+  "id": "A308672",
+  "mentions": [
+    "A000005",
+    "A062796",
+    "A308671",
+    "A308674"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

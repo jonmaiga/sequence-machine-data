@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled simple graphs with n vertices that, if the isolated vertices are removed, have cut-connectivity k.",
+  "id": "A327237",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A013922",
+    "A259862",
+    "A287689",
+    "A322389",
+    "A326786",
+    "A327070",
+    "A327114",
+    "A327125",
+    "A327126",
+    "A327127",
+    "A327198",
+    "A327199"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence gives e(n).",
+  "id": "A139351",
+  "mentions": [
+    "A000120",
+    "A030308",
+    "A039004",
+    "A059841",
+    "A139352",
+    "A139355",
+    "A139370",
+    "A139373"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

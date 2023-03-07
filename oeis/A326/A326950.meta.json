@@ -1,0 +1,29 @@
+{
+  "description": "Number of T_0 antichains of nonempty subsets of {1..n}.",
+  "id": "A326950",
+  "mentions": [
+    "A006126",
+    "A014466",
+    "A059052",
+    "A059201",
+    "A245567",
+    "A319559",
+    "A319564",
+    "A326030",
+    "A326940",
+    "A326946",
+    "A326947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

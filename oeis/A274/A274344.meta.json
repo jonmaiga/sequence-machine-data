@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients in the expansion of q^(1/2) in odd powers of k/4, where q is the Jacobi nome and k^2 the parameter of elliptic functions. Also coefficients in the expansion of q in odd powers of (1/4)*(1 - k') / (1 + k') with k'^2 the complementary parameter.",
+  "id": "A274344",
+  "mentions": [
+    "A005797",
+    "A227505",
+    "A274345",
+    "A274346"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

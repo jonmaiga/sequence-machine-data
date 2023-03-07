@@ -1,0 +1,21 @@
+{
+  "description": "Numbers p^2*q, p",
+  "id": "A350115",
+  "mentions": [
+    "A030078",
+    "A054397",
+    "A054753",
+    "A079704",
+    "A143928"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

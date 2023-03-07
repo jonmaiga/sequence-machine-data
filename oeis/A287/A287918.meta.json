@@ -1,0 +1,22 @@
+{
+  "description": "Union of nonprime 1 <= t <= m for m in A036913, with gcd(t,m) = 1.",
+  "id": "A287918",
+  "mentions": [
+    "A001248",
+    "A036913",
+    "A038509",
+    "A067793",
+    "A285784",
+    "A287917"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n concatenated n^2 times.",
+  "id": "A118116",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A000461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

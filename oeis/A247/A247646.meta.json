@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows, arising in enumeration of lattice paths in strips.",
+  "id": "A247646",
+  "mentions": [
+    "A247643"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Restricted growth sequence transform of A304760(n), formed from 1-digits in ternary representation of A254103(n).",
+  "id": "A304740",
+  "mentions": [
+    "A254103",
+    "A289813",
+    "A304746",
+    "A304760"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime number days: prime numbers that can be interpreted as an ISO date.",
+  "id": "A260915",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

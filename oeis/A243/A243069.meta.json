@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest natural number that has not yet occurred among the first n terms of A126917.",
+  "id": "A243069",
+  "mentions": [
+    "A126917",
+    "A126918",
+    "A243488",
+    "A243498"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

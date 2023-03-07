@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = |{0 < k < n: p = phi(k)/2 + phi(n-k)/12 + 1 and A047967(p) are both prime}|.",
+  "id": "A236417",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A047967"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

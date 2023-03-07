@@ -1,0 +1,22 @@
+{
+  "description": "Primes such that neither the left half nor the right half of the prime is prime.",
+  "id": "A337508",
+  "mentions": [
+    "A000040",
+    "A125523",
+    "A125524",
+    "A125525"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

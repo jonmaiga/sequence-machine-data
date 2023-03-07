@@ -1,0 +1,23 @@
+{
+  "description": "Number of decompositions of 4n+2 into unordered sums of two primes of the form 4k+3.",
+  "id": "A156642",
+  "mentions": [
+    "A002145",
+    "A002372",
+    "A002375",
+    "A045917",
+    "A061358",
+    "A214834",
+    "A217696"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which 997*k + 1009 is prime.",
+  "id": "A101086",
+  "mentions": [
+    "A100776",
+    "A101084",
+    "A101123",
+    "A101444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:49",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

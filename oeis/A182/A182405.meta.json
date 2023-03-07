@@ -1,0 +1,20 @@
+{
+  "description": "Records of A164368(n) - A194598(n).",
+  "id": "A182405",
+  "mentions": [
+    "A164368",
+    "A182366",
+    "A182426",
+    "A194598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

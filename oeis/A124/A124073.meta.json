@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of n distinct letters (ABCD...) each of which appears 4 times with one fixed point.",
+  "id": "A124073",
+  "mentions": [
+    "A059060"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

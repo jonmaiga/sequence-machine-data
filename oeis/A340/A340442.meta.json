@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of zeta''(3), the second derivative of the Riemann Zeta Function at 3.",
+  "id": "A340442",
+  "mentions": [
+    "A201994",
+    "A340443"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

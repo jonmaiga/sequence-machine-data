@@ -1,0 +1,31 @@
+{
+  "description": "Irregular table: row i = 1, 2, 3, ... starts with 4*i - 1; then, as long as the number is divisible by 3, the next two terms are the result of dividing it by 3, then multiplying it by 2.",
+  "id": "A322469",
+  "mentions": [
+    "A000027",
+    "A004767",
+    "A007949",
+    "A066443",
+    "A084101",
+    "A160016",
+    "A307048",
+    "A307407",
+    "A308709",
+    "A338186",
+    "A338206",
+    "A338207",
+    "A338208"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

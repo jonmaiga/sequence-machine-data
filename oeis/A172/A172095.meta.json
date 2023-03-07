@@ -1,0 +1,22 @@
+{
+  "description": "Integers n such that n-1,n,n+1 have few distinct primes: n=p^r, p odd prime, and (n^2-1)/8 divisible by at most two distinct prime factors.",
+  "id": "A172095",
+  "mentions": [
+    "A005105",
+    "A062547",
+    "A075081",
+    "A111974"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

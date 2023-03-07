@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (n^2)! / (n^2-n)! = number of ways of placing n labeled balls into n^2 labeled boxes with at most one ball in each box.",
+  "id": "A227052",
+  "mentions": [
+    "A014062"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

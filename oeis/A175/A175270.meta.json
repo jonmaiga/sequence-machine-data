@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the least number of squares that add up to k equals the least number of triangular numbers that add up to k. Equivalently, A002828(k) = A061336(k).",
+  "id": "A175270",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A002828",
+    "A061336"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

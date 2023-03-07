@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered factorizations of A182763(n) as A025487(j)*A025487(k).",
+  "id": "A182764",
+  "mentions": [
+    "A025487",
+    "A182762",
+    "A182763"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

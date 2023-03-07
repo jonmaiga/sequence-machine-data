@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of normal planar lambda terms of size n with k free variables (n >= 1, 1 <= k <= n).",
+  "id": "A246323",
+  "mentions": [
+    "A000108",
+    "A000168",
+    "A000984",
+    "A246322"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

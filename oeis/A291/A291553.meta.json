@@ -1,0 +1,20 @@
+{
+  "description": "Column 3 of A060244.",
+  "id": "A291553",
+  "mentions": [
+    "A000041",
+    "A024786",
+    "A060244"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

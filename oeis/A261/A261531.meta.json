@@ -1,0 +1,22 @@
+{
+  "description": "Number of necklaces with n beads of unlabeled colors such that the numbers of beads per color are distinct.",
+  "id": "A261531",
+  "mentions": [
+    "A000011",
+    "A007837",
+    "A072605",
+    "A261599",
+    "A261600"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

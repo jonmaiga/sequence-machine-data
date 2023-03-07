@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime number that ends a prime gap of at least 2n.",
+  "id": "A100965",
+  "mentions": [
+    "A100964"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

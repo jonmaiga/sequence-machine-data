@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of the even Lucas numbers (A014448).",
+  "id": "A306672",
+  "mentions": [
+    "A000032",
+    "A014448",
+    "A099919"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

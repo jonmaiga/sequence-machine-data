@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of runs of identical terms in A353710.",
+  "id": "A353718",
+  "mentions": [
+    "A353709",
+    "A353710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

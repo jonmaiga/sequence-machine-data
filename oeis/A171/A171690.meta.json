@@ -1,0 +1,18 @@
+{
+  "description": "Number of parameter sequences of length n for which a certain 2-factor contains a Hamiltonian cycle (see reference for precise definition).",
+  "id": "A171690",
+  "mentions": [
+    "A202302"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

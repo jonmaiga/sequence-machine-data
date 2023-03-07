@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 0 if n is 1 or a prime, otherwise, when n = A020639(n) * A032742(n), a(n) = the largest m < n such that A020639(m) = A020639(n), where A020639(n) and A032742(n) are the smallest prime and the largest proper divisor dividing n.",
+  "id": "A249744",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A020639",
+    "A032742",
+    "A078898",
+    "A083140",
+    "A083221",
+    "A249738",
+    "A250469",
+    "A250470"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

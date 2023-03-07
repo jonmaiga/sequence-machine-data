@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for 10-valent vertex in 1-skeleton of disdyakis triacontahedron.",
+  "id": "A331057",
+  "mentions": [
+    "A298808",
+    "A331055",
+    "A331056"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

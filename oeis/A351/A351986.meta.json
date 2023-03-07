@@ -1,0 +1,19 @@
+{
+  "description": "Four-column table read by rows, giving quadruples of integers [w,x,y,z] such that y^2 - y - x*z = 0 and x^2 = w*y with w*y != 0 and y != 1, sorted by the absolute value of y with the negatives first, then by x in ascending order.",
+  "id": "A351986",
+  "mentions": [
+    "A332083",
+    "A351581"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of binary words of length n >= 0 with runs-resistance k, 0 <= k <= n.",
+  "id": "A329767",
+  "mentions": [
+    "A000079",
+    "A001037",
+    "A096365",
+    "A225485",
+    "A245563",
+    "A318921",
+    "A318928",
+    "A319410",
+    "A319411",
+    "A319412",
+    "A325280",
+    "A329744",
+    "A329745",
+    "A329746",
+    "A329747",
+    "A329750"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

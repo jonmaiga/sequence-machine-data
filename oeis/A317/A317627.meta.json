@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A317253 - floor(8*n/3).",
+  "id": "A317627",
+  "mentions": [
+    "A000034",
+    "A014577",
+    "A034947",
+    "A089607",
+    "A317253",
+    "A317414"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

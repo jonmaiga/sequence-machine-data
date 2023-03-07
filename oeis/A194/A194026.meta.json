@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} sinh(2^n*x)^n / 2^(n^2).",
+  "id": "A194026",
+  "mentions": [
+    "A194027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

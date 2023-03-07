@@ -1,0 +1,33 @@
+{
+  "description": "Sum of the norm of divisors of n over Gaussian integers, with associated divisors counted only once.",
+  "id": "A317797",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001157",
+    "A001221",
+    "A001222",
+    "A002322",
+    "A008683",
+    "A062327",
+    "A078458",
+    "A079458",
+    "A086275",
+    "A227334",
+    "A318608"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

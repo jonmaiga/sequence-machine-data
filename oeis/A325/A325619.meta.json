@@ -1,0 +1,32 @@
+{
+  "description": "Heinz numbers of integer partitions whose reciprocal factorial sum is 1.",
+  "id": "A325619",
+  "mentions": [
+    "A000142",
+    "A002966",
+    "A007489",
+    "A022559",
+    "A051908",
+    "A064986",
+    "A108731",
+    "A115944",
+    "A284605",
+    "A316855",
+    "A325508",
+    "A325616",
+    "A325618",
+    "A325624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

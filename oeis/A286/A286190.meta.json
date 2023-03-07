@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that sopf(k) >= sopf(k+1) >= ... >= sopf(k+n), where sopf = A008472.",
+  "id": "A286190",
+  "mentions": [
+    "A008472",
+    "A189882"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n^2 into parts not greater than n.",
+  "id": "A206226",
+  "mentions": [
+    "A107379",
+    "A173519",
+    "A206227",
+    "A206240",
+    "A238016",
+    "A258268",
+    "A258293",
+    "A258294",
+    "A258295",
+    "A258296"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

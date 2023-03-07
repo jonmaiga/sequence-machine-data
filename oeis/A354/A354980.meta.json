@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} |Stirling1(k + n, n)|, row sums of A354979.",
+  "id": "A354980",
+  "mentions": [
+    "A132393",
+    "A354979"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

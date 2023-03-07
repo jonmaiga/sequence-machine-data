@@ -1,0 +1,21 @@
+{
+  "description": "Smallest n-digit number that is divisible by exactly 3 primes (counted with multiplicity).",
+  "id": "A180922",
+  "mentions": [
+    "A003617",
+    "A014612",
+    "A098449"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

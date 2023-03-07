@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n) + (1/n) * Sum_{k=1..n-1} binomial(n,k) * k * a(k) * prime(n-k).",
+  "id": "A336185",
+  "mentions": [
+    "A000040",
+    "A007446",
+    "A007447",
+    "A307770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

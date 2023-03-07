@@ -1,0 +1,20 @@
+{
+  "description": "Least k>0 such that triangular(n) + k*(k+1) is a triangular number.",
+  "id": "A225844",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A082183",
+    "A101157"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

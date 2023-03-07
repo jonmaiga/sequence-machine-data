@@ -1,0 +1,18 @@
+{
+  "description": "Vandermonde sequence using x^2 + y^2 applied to (1,2,6,...,n!).",
+  "id": "A203689",
+  "mentions": [
+    "A093883",
+    "A203690"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

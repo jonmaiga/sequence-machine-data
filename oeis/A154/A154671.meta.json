@@ -1,0 +1,19 @@
+{
+  "description": "Averages of twin prime pairs k such that k*3 and k/3 are squares.",
+  "id": "A154671",
+  "mentions": [
+    "A154331",
+    "A154670"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

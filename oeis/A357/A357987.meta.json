@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that no sum of consecutive terms is a square or higher power of an integer.",
+  "id": "A357987",
+  "mentions": [
+    "A001597",
+    "A007916",
+    "A357579"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

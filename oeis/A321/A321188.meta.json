@@ -1,0 +1,32 @@
+{
+  "description": "Number of set systems with no singletons whose multiset union is row n of A305936 (a multiset whose multiplicities are the prime indices of n).",
+  "id": "A321188",
+  "mentions": [
+    "A000070",
+    "A000296",
+    "A000569",
+    "A050326",
+    "A056239",
+    "A112798",
+    "A283877",
+    "A292444",
+    "A305936",
+    "A306005",
+    "A318285",
+    "A318361",
+    "A320922",
+    "A320923",
+    "A320924"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

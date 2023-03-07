@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that at least 7 of k, k+1, ..., k+9 are divisible by their least prime factor squared.",
+  "id": "A328817",
+  "mentions": [
+    "A283050"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

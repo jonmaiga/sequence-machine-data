@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: the coefficient [t^k] of the Ehrhart polynomial of the 2-hypersimplex in dimension n.",
+  "id": "A275514",
+  "mentions": [
+    "A000096",
+    "A000295",
+    "A000332",
+    "A000579",
+    "A000581",
+    "A001287",
+    "A010054",
+    "A258993"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Row 4 of table A162424.",
+  "id": "A162427",
+  "mentions": [
+    "A162424",
+    "A162425",
+    "A162426",
+    "A162428",
+    "A162429",
+    "A162433"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

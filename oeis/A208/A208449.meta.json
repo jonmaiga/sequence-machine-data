@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of A010786(n+1) / A010786(n).",
+  "id": "A208449",
+  "mentions": [
+    "A010786",
+    "A208448",
+    "A208450"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

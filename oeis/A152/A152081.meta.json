@@ -1,0 +1,22 @@
+{
+  "description": "Least prime divisor of terms of A152080.",
+  "id": "A152081",
+  "mentions": [
+    "A000625",
+    "A152021",
+    "A152022",
+    "A152023",
+    "A152078",
+    "A152080"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

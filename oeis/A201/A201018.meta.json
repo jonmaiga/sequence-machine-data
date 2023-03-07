@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers whose multiplicative digital root is 5.",
+  "id": "A201018",
+  "mentions": [
+    "A034052",
+    "A201017"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

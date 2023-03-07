@@ -1,0 +1,22 @@
+{
+  "description": "Bases b > 1 that set a new record for the size of the smallest base-b Wieferich prime.",
+  "id": "A278611",
+  "mentions": [
+    "A039951",
+    "A244249",
+    "A307220"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled forests of (free) trees such that exactly one tree is a path.",
+  "id": "A275488",
+  "mentions": [
+    "A000272",
+    "A001710",
+    "A001858",
+    "A011800"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

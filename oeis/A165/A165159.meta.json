@@ -1,0 +1,21 @@
+{
+  "description": "Long legs in primitive Pythagorean triangles with three side lengths of composite integers.",
+  "id": "A165159",
+  "mentions": [
+    "A002808",
+    "A020882",
+    "A020883",
+    "A165158",
+    "A165160"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

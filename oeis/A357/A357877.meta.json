@@ -1,0 +1,41 @@
+{
+  "description": "The a(n)-th composition in standard order is the sequence of run-sums of the prime indices of n.",
+  "id": "A357877",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A011782",
+    "A047966",
+    "A056239",
+    "A066099",
+    "A112798",
+    "A118914",
+    "A181819",
+    "A238279",
+    "A239312",
+    "A275870",
+    "A300273",
+    "A304405",
+    "A304442",
+    "A304660",
+    "A329738",
+    "A333755",
+    "A351014",
+    "A353743",
+    "A353832",
+    "A353847",
+    "A354584",
+    "A354912",
+    "A357875"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

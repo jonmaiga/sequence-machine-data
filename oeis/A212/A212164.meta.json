@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the maximal exponent in its prime factorization is greater than the number of positive exponents (A051903(n) > A001221(n)).",
+  "id": "A212164",
+  "mentions": [
+    "A001221",
+    "A050326",
+    "A051903",
+    "A188654",
+    "A212165",
+    "A212166",
+    "A212167",
+    "A212168",
+    "A225230"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

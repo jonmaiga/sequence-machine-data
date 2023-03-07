@@ -1,0 +1,19 @@
+{
+  "description": "Number of columns with top entry equal to bottom entry in all the 2-compositions of n. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181300",
+  "mentions": [
+    "A181299"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:49:29",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

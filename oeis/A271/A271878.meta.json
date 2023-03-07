@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,t) read by rows: number of rooted forests with n 2-colored nodes and t rooted trees.",
+  "id": "A271878",
+  "mentions": [
+    "A000151",
+    "A000217",
+    "A033185",
+    "A038055",
+    "A271879"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

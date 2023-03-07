@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of (Sum_{j>=0} x^(j*(j+1)*(j+2)/6))^k.",
+  "id": "A290429",
+  "mentions": [
+    "A000007",
+    "A000292",
+    "A023533",
+    "A045847",
+    "A104246",
+    "A282172",
+    "A286180",
+    "A290054",
+    "A290430",
+    "A303170"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

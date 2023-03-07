@@ -1,0 +1,35 @@
+{
+  "description": "Number of distinct classes of permutations of length n under reversal and complement to n+1.",
+  "id": "A275527",
+  "mentions": [
+    "A000031",
+    "A000939",
+    "A000940",
+    "A002619",
+    "A006125",
+    "A008965",
+    "A059966",
+    "A060223",
+    "A089066",
+    "A113247",
+    "A113248",
+    "A192332",
+    "A193651",
+    "A262480",
+    "A323858",
+    "A323870",
+    "A324461"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

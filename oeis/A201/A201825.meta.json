@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A119616(n)*x^n/n ) where A119616(n) = (sigma(n)^2 - sigma(n,2))/2.",
+  "id": "A201825",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A119616"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

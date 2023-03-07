@@ -1,0 +1,20 @@
+{
+  "description": "Consider well-formed strings consisting of n operands, n - 1 binary operators +, -, *, /, ^, and n-1 pairs of parentheses, and call two such strings equivalent if they are algebraically identical; a(n) is the number of equivalence classes.",
+  "id": "A351922",
+  "mentions": [
+    "A140606"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

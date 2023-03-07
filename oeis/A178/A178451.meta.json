@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in series expansion of 1/j_inv, where j_inv (A091406) is the reversion of the j-function.",
+  "id": "A178451",
+  "mentions": [
+    "A000521",
+    "A066396",
+    "A091406"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": -1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

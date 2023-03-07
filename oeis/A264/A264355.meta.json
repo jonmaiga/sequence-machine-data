@@ -1,0 +1,19 @@
+{
+  "description": "The values D not a square that admit proper solutions (x, y) to the Pell equation x^2 - D*y^2 = +8, ordered increasingly.",
+  "id": "A264355",
+  "mentions": [
+    "A261246",
+    "A263012",
+    "A264354"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

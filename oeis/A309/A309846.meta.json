@@ -1,0 +1,19 @@
+{
+  "description": "Number of degree n polynomials f with all nonzero coefficients equal to 1 such that f(k) is divisible by 4 for all integers k.",
+  "id": "A309846",
+  "mentions": [
+    "A329126",
+    "A329479"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The highest rugby (union) score that can be made in n or fewer ways.",
+  "id": "A261155",
+  "mentions": [
+    "A008677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

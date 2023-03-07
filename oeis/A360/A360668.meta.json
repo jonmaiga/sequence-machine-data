@@ -1,0 +1,45 @@
+{
+  "description": "Numbers > 1 whose greatest prime index is not divisible by their number of prime factors (bigomega).",
+  "id": "A360668",
+  "mentions": [
+    "A001222",
+    "A008284",
+    "A056239",
+    "A058398",
+    "A067340",
+    "A072978",
+    "A078175",
+    "A112798",
+    "A139710",
+    "A168659",
+    "A200727",
+    "A307683",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A327482",
+    "A334201",
+    "A340610",
+    "A348551",
+    "A359912",
+    "A360551",
+    "A360554",
+    "A360556",
+    "A360557",
+    "A360614",
+    "A360615",
+    "A360669",
+    "A360691"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

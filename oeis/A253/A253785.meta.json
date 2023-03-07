@@ -1,0 +1,23 @@
+{
+  "description": "Composite numbers n = prime(i_1) * ... * prime(i_k), prime(i_1) <= prime(i_2) <= ... <= prime(i_k), with at least one pair of successive prime factors (when sorted into monotonic order) where the latter prime factor is greater than the square of the former: prime(i_x)^2 < prime(i_{x+1}), for some x in 1 .. k-1, where k = A001222(n) and i_k = A061395(n).",
+  "id": "A253785",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A061395",
+    "A138511",
+    "A245729",
+    "A253569",
+    "A253784"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

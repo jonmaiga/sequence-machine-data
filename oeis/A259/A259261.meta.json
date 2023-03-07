@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points in A073673.",
+  "id": "A259261",
+  "mentions": [
+    "A073673"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

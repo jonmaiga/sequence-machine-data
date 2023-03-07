@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of terms required in the Basel Problem, i.e., Sum_{m >= 1} 1/m^2, for the first appearance of n correct digits in the decimal expansion of Pi^2/6 to occur.",
+  "id": "A274982",
+  "mentions": [
+    "A013661",
+    "A126809"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that p+n is product of (n+1) primes (with multiplicity).",
+  "id": "A255092",
+  "mentions": [
+    "A072875",
+    "A112998",
+    "A113000",
+    "A113008"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

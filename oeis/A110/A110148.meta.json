@@ -1,0 +1,26 @@
+{
+  "description": "Number of perfect squared rectangles of order n up to symmetries of the rectangle and of its subrectangles if any.",
+  "id": "A110148",
+  "mentions": [
+    "A002839",
+    "A181735",
+    "A217152",
+    "A217153",
+    "A217154",
+    "A217156",
+    "A217374"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

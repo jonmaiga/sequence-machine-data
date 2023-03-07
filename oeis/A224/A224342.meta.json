@@ -1,0 +1,20 @@
+{
+  "description": "Apparently solves the identity: find sequence B that represents the numbers of ordered compositions of n using the terms of A, and vice versa.",
+  "id": "A224342",
+  "mentions": [
+    "A079958",
+    "A224341"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

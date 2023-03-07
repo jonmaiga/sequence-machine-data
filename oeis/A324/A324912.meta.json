@@ -1,0 +1,23 @@
+{
+  "description": "Binary weight of A324911(n).",
+  "id": "A324912",
+  "mentions": [
+    "A000120",
+    "A051903",
+    "A072411",
+    "A156552",
+    "A318720",
+    "A324911"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

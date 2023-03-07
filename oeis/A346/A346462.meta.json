@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of permutations of length n containing exactly k instances of the 1-box pattern; 0 <= k <= n.",
+  "id": "A346462",
+  "mentions": [
+    "A002464",
+    "A086852",
+    "A229729",
+    "A229730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

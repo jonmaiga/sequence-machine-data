@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] beginning with at least ceiling(n/2) ascents.",
+  "id": "A262034",
+  "mentions": [
+    "A001761",
+    "A102693",
+    "A262033",
+    "A262035"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

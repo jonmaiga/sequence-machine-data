@@ -1,0 +1,22 @@
+{
+  "description": "Binary complement of A213729.",
+  "id": "A213728",
+  "mentions": [
+    "A179016",
+    "A213724",
+    "A213729",
+    "A213730",
+    "A218545"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

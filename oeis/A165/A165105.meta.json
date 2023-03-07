@@ -1,0 +1,29 @@
+{
+  "description": "Number of n-digit fixed points under the base-8 Kaprekar map A165090",
+  "id": "A165105",
+  "mentions": [
+    "A004526",
+    "A008615",
+    "A008617",
+    "A008722",
+    "A164733",
+    "A165027",
+    "A165066",
+    "A165090",
+    "A165094",
+    "A165103",
+    "A165104",
+    "A165125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

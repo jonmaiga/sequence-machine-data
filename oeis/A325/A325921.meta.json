@@ -1,0 +1,23 @@
+{
+  "description": "Number of Motzkin meanders of length n with an even number of humps and an even number of peaks.",
+  "id": "A325921",
+  "mentions": [
+    "A307555",
+    "A307572",
+    "A307575",
+    "A325922",
+    "A325923",
+    "A325925"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

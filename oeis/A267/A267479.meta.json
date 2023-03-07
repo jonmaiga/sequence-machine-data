@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of words on {1,1,2,2,...,n,n} with longest increasing subsequence of length <= k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A267479",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000680",
+    "A214015",
+    "A220097",
+    "A266734",
+    "A266735",
+    "A267480",
+    "A267532"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

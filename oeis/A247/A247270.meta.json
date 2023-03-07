@@ -1,0 +1,17 @@
+{
+  "description": "Let k == 1 or 5 (mod 6) (A007310). a(n) is the greatest number of the initial values of k such that k^2+6*n-4 divided by the maximal possible power of 3 takes only prime values or 1.",
+  "id": "A247270",
+  "mentions": [
+    "A007310"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

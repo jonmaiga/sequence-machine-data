@@ -1,0 +1,23 @@
+{
+  "description": "Floor(n*exp(cot n)).",
+  "id": "A134897",
+  "mentions": [
+    "A134890",
+    "A134891",
+    "A134892",
+    "A134893",
+    "A134894",
+    "A134895",
+    "A134896"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:44:01",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that, when written in all bases from base 2 to base 10, are a substring of k^k when written in the same base.",
+  "id": "A343594",
+  "mentions": [
+    "A045537",
+    "A049329",
+    "A051248"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Hankel transform of Thue-Morse related sequence A106400.",
+  "id": "A186026",
+  "mentions": [
+    "A106400",
+    "A186027",
+    "A186028"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Real part of (3 + 2i)^n.",
+  "id": "A121622",
+  "mentions": [
+    "A066771",
+    "A121621",
+    "A193410"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

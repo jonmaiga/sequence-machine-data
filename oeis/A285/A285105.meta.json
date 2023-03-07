@@ -1,0 +1,23 @@
+{
+  "description": "Number of even terms on row n of A053632.",
+  "id": "A285105",
+  "mentions": [
+    "A000124",
+    "A053632",
+    "A068052",
+    "A080791",
+    "A285103",
+    "A285104"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

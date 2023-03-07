@@ -1,0 +1,25 @@
+{
+  "description": "First term of smallest sequence of n consecutive weak primes.",
+  "id": "A229832",
+  "mentions": [
+    "A051634",
+    "A051635",
+    "A054820",
+    "A054824",
+    "A054829",
+    "A054835",
+    "A158939"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

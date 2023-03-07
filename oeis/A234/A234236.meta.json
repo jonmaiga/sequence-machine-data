@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of maximum possible graph likelihood for a graph on n nodes.",
+  "id": "A234236",
+  "mentions": [
+    "A234234",
+    "A234235",
+    "A234237"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest palindromic prime made up of 0's and p(n) 1's, where p(n) is the n-th prime = A000040(n) (or 0 when no such prime exists).",
+  "id": "A158215",
+  "mentions": [
+    "A000040",
+    "A100580",
+    "A157712",
+    "A158214"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

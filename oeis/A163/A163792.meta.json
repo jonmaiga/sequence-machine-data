@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th J_12-prime (Josephus_12 prime).",
+  "id": "A163792",
+  "mentions": [
+    "A163782",
+    "A163791",
+    "A163793",
+    "A163800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

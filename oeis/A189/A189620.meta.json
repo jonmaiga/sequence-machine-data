@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5 X n binary arrays without the pattern 0 1 0 diagonally, antidiagonally or horizontally.",
+  "id": "A189620",
+  "mentions": [
+    "A189617"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

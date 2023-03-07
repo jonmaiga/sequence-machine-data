@@ -1,0 +1,22 @@
+{
+  "description": "2+2^n+3^n.",
+  "id": "A173657",
+  "mentions": [
+    "A000045",
+    "A001550",
+    "A007689",
+    "A075996"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:47:49",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

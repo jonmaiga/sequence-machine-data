@@ -1,0 +1,21 @@
+{
+  "description": "Additive function with a(p) = p, a(p^e) = p*a(e) for prime p and e > 1, with a(1) = 1.",
+  "id": "A337310",
+  "mentions": [
+    "A000040",
+    "A001414",
+    "A064372",
+    "A279513"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

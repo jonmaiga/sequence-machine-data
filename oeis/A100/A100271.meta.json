@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form a^4 + b^3 with b>0.",
+  "id": "A100271",
+  "mentions": [
+    "A002645",
+    "A028916",
+    "A100291"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: the coefficient of x^n in A(x)^n = 2^(n^2) for n>=1 with A(0)=1.",
+  "id": "A164764",
+  "mentions": [
+    "A155200",
+    "A156214",
+    "A156631"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

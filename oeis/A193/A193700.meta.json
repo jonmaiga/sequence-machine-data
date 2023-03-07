@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of -6..6 integers x(1..n) with every x(i) in a subsequence of length 1, 2 or 3 with sum zero",
+  "id": "A193700",
+  "mentions": [
+    "A193702"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

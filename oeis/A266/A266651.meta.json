@@ -1,0 +1,26 @@
+{
+  "description": "Nonnegative integers x such that x^3 + 6^3 is a sum of two squares.",
+  "id": "A266651",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A001481",
+    "A266152",
+    "A266230",
+    "A266231",
+    "A266277",
+    "A266363",
+    "A266364",
+    "A266548"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

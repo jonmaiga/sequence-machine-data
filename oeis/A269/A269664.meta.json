@@ -1,0 +1,20 @@
+{
+  "description": "Number of tilings of a 12 X n rectangle with 4n trominoes of any shape.",
+  "id": "A269664",
+  "mentions": [
+    "A134438",
+    "A215826",
+    "A233290",
+    "A233320"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..3^(n-1)} gcd(k,3^(n-1)) for n > 0 and a(0) = 1.",
+  "id": "A199923",
+  "mentions": [
+    "A086972",
+    "A199922"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

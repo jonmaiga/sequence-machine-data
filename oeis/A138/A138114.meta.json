@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n lists the first n digits of the decimal expansion of Pi.",
+  "id": "A138114",
+  "mentions": [
+    "A000796",
+    "A138070",
+    "A138071"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

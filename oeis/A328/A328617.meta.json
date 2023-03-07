@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(p^e) = p^e, if e = 0 mod p, otherwise a(p^e) = p^((p*floor(e/p)) + A124223(A000720(p),e mod p).",
+  "id": "A328617",
+  "mentions": [
+    "A000720",
+    "A124223",
+    "A276085",
+    "A276086",
+    "A289234",
+    "A327938",
+    "A328618",
+    "A328619"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

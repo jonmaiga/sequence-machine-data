@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with at least one partition into two parts (s,t), s<=t such that t | s*k.",
+  "id": "A350803",
+  "mentions": [
+    "A082663",
+    "A090196",
+    "A299174",
+    "A338021",
+    "A350804"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

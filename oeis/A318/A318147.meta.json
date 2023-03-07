@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of the Omega polynomials of order 3, triangle T(n,k) read by rows with 0<=k<=n.",
+  "id": "A318147",
+  "mentions": [
+    "A002115",
+    "A023531",
+    "A025035",
+    "A293951",
+    "A318146",
+    "A318148"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

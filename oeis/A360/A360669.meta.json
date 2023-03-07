@@ -1,0 +1,41 @@
+{
+  "description": "Nonprime numbers > 1 for which the prime indices have the same mean as their first differences.",
+  "id": "A360669",
+  "mentions": [
+    "A001222",
+    "A008284",
+    "A056239",
+    "A058398",
+    "A088529",
+    "A088530",
+    "A112798",
+    "A124010",
+    "A301987",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A327482",
+    "A334201",
+    "A340610",
+    "A344415",
+    "A348551",
+    "A359904",
+    "A360008",
+    "A360068",
+    "A360614",
+    "A360615",
+    "A360670",
+    "A360681"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

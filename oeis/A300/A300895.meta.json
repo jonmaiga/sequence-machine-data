@@ -1,0 +1,21 @@
+{
+  "description": "L.g.f.: log(Product_{k>=2} (1 + x^Fibonacci(k))) = Sum_{n>=1} a(n)*x^n/n.",
+  "id": "A300895",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A005092",
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

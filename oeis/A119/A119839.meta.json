@@ -1,0 +1,20 @@
+{
+  "description": "Least increasing sequence of primes equal to determinants of sequence A119838 starting (1,1,1) of continuous blocks of 4 numbers.",
+  "id": "A119839",
+  "mentions": [
+    "A000040",
+    "A119838"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

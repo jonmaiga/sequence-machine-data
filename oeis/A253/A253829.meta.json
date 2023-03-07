@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array with g.f. Product_{n >= 1} 1/(1 - x*z^n/(1 - z)).",
+  "id": "A253829",
+  "mentions": [
+    "A008284",
+    "A227682",
+    "A253830"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

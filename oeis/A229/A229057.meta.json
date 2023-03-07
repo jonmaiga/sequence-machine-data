@@ -1,0 +1,18 @@
+{
+  "description": "First occurrences of n in the continued fraction of zeta(3).",
+  "id": "A229057",
+  "mentions": [
+    "A013631",
+    "A033165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

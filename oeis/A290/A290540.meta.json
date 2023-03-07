@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of circulant matrix of order 10 with entries in the first row that are (-1)^(j-1)*Sum_{k>=0} (-1)^k*binomial(n, 10*k+j-1), for j=1..10.",
+  "id": "A290540",
+  "mentions": [
+    "A290286",
+    "A290535",
+    "A290539"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

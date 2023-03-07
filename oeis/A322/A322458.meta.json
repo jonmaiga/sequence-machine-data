@@ -1,0 +1,19 @@
+{
+  "description": "Sum of n-th powers of the roots of x^3 - 49*x + 49.",
+  "id": "A322458",
+  "mentions": [
+    "A275830"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A sequence related to A000108 (Catalan numbers).",
+  "id": "A115194",
+  "mentions": [
+    "A000108",
+    "A115193",
+    "A115195"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:57:05",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

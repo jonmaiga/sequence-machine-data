@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-tuples of singular vectors of a 3 X 3 X 3 X ... X 3 n-dimensional tensor.",
+  "id": "A274308",
+  "mentions": [
+    "A271905",
+    "A272551",
+    "A283829",
+    "A283830",
+    "A284308",
+    "A321711"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nontrivial prime powers (A025475) which are a sum of a smaller nontrivial prime power and a perfect square in more than 1 way.",
+  "id": "A226231",
+  "mentions": [
+    "A025475",
+    "A226230",
+    "A226232"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

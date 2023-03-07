@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of graphs on n node with edge chromatic number k (n >= 1, k >= 1).",
+  "id": "A123962",
+  "mentions": [
+    "A126728",
+    "A126731"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

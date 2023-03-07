@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the 10^n-th semiprime.",
+  "id": "A114125",
+  "mentions": [
+    "A001358",
+    "A006880",
+    "A006988",
+    "A066265",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

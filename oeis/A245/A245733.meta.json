@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of endofunctions on [n] such that at least one preimage with cardinality k exists and, if j is the largest value with a nonempty preimage, the preimage cardinality of i is >=k for all i<=j and equal to k for at least one i<=j; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A245733",
+  "mentions": [
+    "A000312",
+    "A000984",
+    "A133286",
+    "A245732",
+    "A245854",
+    "A245855",
+    "A245856",
+    "A245857",
+    "A245858",
+    "A245859",
+    "A245860",
+    "A245861",
+    "A245862",
+    "A245863"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number k > n such that uh(k)/uh(n) is an integer, where uh(n) is the harmonic mean of the unitary divisors of n, or -1 if no such k exists.",
+  "id": "A353692",
+  "mentions": [
+    "A069789",
+    "A069797",
+    "A069805",
+    "A103339",
+    "A103340",
+    "A353691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

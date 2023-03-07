@@ -1,0 +1,19 @@
+{
+  "description": "Number of 123 avoiding set partitions of [n].",
+  "id": "A270049",
+  "mentions": [
+    "A220913"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

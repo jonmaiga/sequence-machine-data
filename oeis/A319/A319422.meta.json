@@ -1,0 +1,19 @@
+{
+  "description": "Records in A175046.",
+  "id": "A319422",
+  "mentions": [
+    "A175046",
+    "A319423",
+    "A319424"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

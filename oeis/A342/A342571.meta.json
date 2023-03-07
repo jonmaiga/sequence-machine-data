@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the surface area of a golden ellipsoid with semi-axes lengths 1, 1 and phi (A001622).",
+  "id": "A342571",
+  "mentions": [
+    "A001622",
+    "A195692",
+    "A309282"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

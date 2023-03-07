@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of stable matchings in the stable marriage problem of order n.",
+  "id": "A357269",
+  "mentions": [
+    "A069156",
+    "A351409",
+    "A351430",
+    "A357271"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

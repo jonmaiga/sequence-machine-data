@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct parts where all differences between consecutive parts are even.",
+  "id": "A189357",
+  "mentions": [
+    "A000009",
+    "A000700",
+    "A179049",
+    "A179080"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

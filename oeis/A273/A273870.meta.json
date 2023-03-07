@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that 4^(m-1) == 1 (mod (m-1)^2 + 1).",
+  "id": "A273870",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A273871",
+    "A273999"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

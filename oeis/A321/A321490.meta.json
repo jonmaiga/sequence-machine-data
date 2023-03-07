@@ -1,0 +1,25 @@
+{
+  "description": "Triangular table T[n,k] = (n+k)(n^2+k^2), 1 <= k <= n = 1, 2, 3, ...; read by rows.",
+  "id": "A321490",
+  "mentions": [
+    "A033430",
+    "A053698",
+    "A198063",
+    "A321491",
+    "A321492",
+    "A321500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:43",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

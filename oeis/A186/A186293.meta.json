@@ -1,0 +1,22 @@
+{
+  "description": "(A007519(n)-1)/2.",
+  "id": "A186293",
+  "mentions": [
+    "A005123",
+    "A007519",
+    "A186294",
+    "A186305"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:41",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

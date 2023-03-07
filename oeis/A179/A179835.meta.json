@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k > 0 such that prime(n-k) + prime(n+k) = 2*prime(n), or 0 if there is no such k.",
+  "id": "A179835",
+  "mentions": [
+    "A178609",
+    "A178670"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

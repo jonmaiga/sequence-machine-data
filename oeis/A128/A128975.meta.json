@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = the number of unordered triples of integers (a,b,c) with a+b+c=n, whose bitwise XOR is zero. Equivalently, the number of three-heap nim games with n stones which are in a losing position for the first player.",
+  "id": "A128975",
+  "mentions": [
+    "A000120",
+    "A003071",
+    "A003987",
+    "A029886",
+    "A061297",
+    "A092524",
+    "A093431",
+    "A102393",
+    "A104258",
+    "A122248"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

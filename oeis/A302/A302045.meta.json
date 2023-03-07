@@ -1,0 +1,30 @@
+{
+  "description": "a(1) = 0, for n > 1, a(n) = A001511(A078898(n)); Number of instances of the smallest prime factor A020639(n) in nonstandard factorization of n that is based on the sieve of Eratosthenes (A083221).",
+  "id": "A302045",
+  "mentions": [
+    "A001511",
+    "A020639",
+    "A067029",
+    "A078898",
+    "A083221",
+    "A250245",
+    "A250246",
+    "A268674",
+    "A302035",
+    "A302042",
+    "A302044",
+    "A302050",
+    "A302051"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

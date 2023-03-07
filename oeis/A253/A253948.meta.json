@@ -1,0 +1,22 @@
+{
+  "description": "Number of finite, negative, Archimedean, commutative, totally ordered monoids of size n (semi-groups with a neutral element that is also the top element).",
+  "id": "A253948",
+  "mentions": [
+    "A030453",
+    "A058129",
+    "A253949",
+    "A253950"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

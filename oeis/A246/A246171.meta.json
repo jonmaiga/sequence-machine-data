@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for sqrt(15).",
+  "id": "A246171",
+  "mentions": [
+    "A246170"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:55",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

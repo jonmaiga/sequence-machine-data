@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered factorizations of n into numbers with an odd number of distinct prime divisors.",
+  "id": "A308063",
+  "mentions": [
+    "A008578",
+    "A030230",
+    "A050334",
+    "A074206",
+    "A092248"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

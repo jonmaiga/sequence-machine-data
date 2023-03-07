@@ -1,0 +1,25 @@
+{
+  "description": "Twice partitioned numbers where the first partition is strict.",
+  "id": "A271619",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A063834",
+    "A266964",
+    "A270995",
+    "A279785",
+    "A327552",
+    "A327607"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

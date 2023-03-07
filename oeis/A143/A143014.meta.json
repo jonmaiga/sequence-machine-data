@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1. a(n) = the smallest multiple of a(n-1), a(n) > a(n-1), such that a(n) in binary is a palindrome.",
+  "id": "A143014",
+  "mentions": [
+    "A006995",
+    "A143015",
+    "A143016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

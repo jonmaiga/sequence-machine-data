@@ -1,0 +1,24 @@
+{
+  "description": "Product of the first n 3-almost primes (A014612).",
+  "id": "A114425",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A008585",
+    "A014612",
+    "A086062",
+    "A112141"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

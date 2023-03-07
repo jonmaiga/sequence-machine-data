@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the prime parts in the partitions of n into 10 parts.",
+  "id": "A309471",
+  "mentions": [
+    "A010051",
+    "A309439",
+    "A309465",
+    "A309466",
+    "A309467",
+    "A309468",
+    "A309469",
+    "A309470"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

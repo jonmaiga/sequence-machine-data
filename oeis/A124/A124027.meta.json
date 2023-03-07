@@ -1,0 +1,21 @@
+{
+  "description": "G. J. Chaitin's numbers of s-expressions of size n are given by the coefficients of polynomials p(k, x) satisfying p(k, x) = Sum[p(j, x)*p(k - j, x), {j, 2, k - 1}]. The coefficients of these polynomials give the triangle shown here.",
+  "id": "A124027",
+  "mentions": [
+    "A072851",
+    "A097610"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

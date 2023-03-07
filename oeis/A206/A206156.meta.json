@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^(2*k).",
+  "id": "A206156",
+  "mentions": [
+    "A184731",
+    "A206152",
+    "A206154",
+    "A206155",
+    "A206158",
+    "A220359"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

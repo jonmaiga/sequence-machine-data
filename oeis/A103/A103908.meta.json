@@ -1,0 +1,17 @@
+{
+  "description": "Coordination sequence for octagonal tiling is a(n)*sqrt(2) + A103909(n).",
+  "id": "A103908",
+  "mentions": [
+    "A103909"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

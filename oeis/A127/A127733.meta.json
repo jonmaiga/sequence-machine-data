@@ -1,0 +1,18 @@
+{
+  "description": "Square of A127648 = Triangle read by rows, n^2 preceded by (n-1) zeros.",
+  "id": "A127733",
+  "mentions": [
+    "A127648"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:17:33",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

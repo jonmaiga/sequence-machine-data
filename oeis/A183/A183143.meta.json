@@ -1,0 +1,21 @@
+{
+  "description": "[1/r]+[2/r]+...+[n/r], where r=sqrt(3) and []=floor.",
+  "id": "A183143",
+  "mentions": [
+    "A000217",
+    "A183136",
+    "A183142",
+    "A183144"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k cycles with at least 3 alternating runs (it is assumed that the smallest element of a cycle is in the first position), 0<=k<=floor(n/4).",
+  "id": "A187250",
+  "mentions": [
+    "A187244",
+    "A187247",
+    "A187251",
+    "A187252"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

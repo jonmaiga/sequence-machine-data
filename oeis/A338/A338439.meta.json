@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * [x^n] Product_{k=1..n, gcd(n,k) = 1} (1 + x^k/k).",
+  "id": "A338439",
+  "mentions": [
+    "A007838",
+    "A036998",
+    "A338437"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

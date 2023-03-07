@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to label the cells of a 2 X n grid such that no (orthogonally) adjacent cells have adjacent labels.",
+  "id": "A229430",
+  "mentions": [
+    "A002464",
+    "A229429"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

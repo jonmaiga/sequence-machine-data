@@ -1,0 +1,26 @@
+{
+  "description": "Intersection of A003418 and A116998.",
+  "id": "A168262",
+  "mentions": [
+    "A001221",
+    "A003418",
+    "A034386",
+    "A045948",
+    "A060735",
+    "A116998",
+    "A168263",
+    "A168264"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

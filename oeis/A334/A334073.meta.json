@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} e(k)/2^k, where e(k) = 1 if gpf(k+1) > gpf(k) and 0 otherwise, and gpf(k) is the greatest prime dividing k (A006530).",
+  "id": "A334073",
+  "mentions": [
+    "A006530",
+    "A070089"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

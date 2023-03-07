@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*sqrt(Pi)/3^(1/4).",
+  "id": "A179275",
+  "mentions": [
+    "A000796",
+    "A002161",
+    "A002194",
+    "A011002",
+    "A120011"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that m + (product of digits of m) = n has exactly one solution m.",
+  "id": "A230105",
+  "mentions": [
+    "A230099",
+    "A230103",
+    "A230104"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

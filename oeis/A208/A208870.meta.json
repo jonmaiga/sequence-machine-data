@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "id": "A208870",
+  "mentions": [
+    "A208872"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

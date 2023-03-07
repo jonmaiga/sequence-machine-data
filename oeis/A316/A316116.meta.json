@@ -1,0 +1,18 @@
+{
+  "description": "Least odd primitive abundant number having its prime signature.",
+  "id": "A316116",
+  "mentions": [
+    "A006038",
+    "A091191"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

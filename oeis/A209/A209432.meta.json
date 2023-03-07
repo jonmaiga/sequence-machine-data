@@ -1,0 +1,20 @@
+{
+  "description": "Area A of the triangles such that A and the sides are integers and there exists at least one square inscribed in the triangle whose sides are also integers.",
+  "id": "A209432",
+  "mentions": [
+    "A120062",
+    "A188158",
+    "A208984"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

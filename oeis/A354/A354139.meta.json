@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer m such that (k+1)^n + (k+2)^n + ... + (k+m)^n == 0 (mod n) for every positive integer k.",
+  "id": "A354139",
+  "mentions": [
+    "A007947",
+    "A193267"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

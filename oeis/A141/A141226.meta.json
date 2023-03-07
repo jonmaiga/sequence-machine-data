@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the central point of the square n x n lattice sees the maximal number of points.",
+  "id": "A141226",
+  "mentions": [
+    "A141225",
+    "A141228",
+    "A141246"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

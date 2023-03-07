@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that both concatenation of divisors of n and reverse concatenation of divisors of n are nonprime.",
+  "id": "A176590",
+  "mentions": [
+    "A037278",
+    "A175354",
+    "A176554",
+    "A176558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

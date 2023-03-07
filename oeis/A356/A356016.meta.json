@@ -1,0 +1,23 @@
+{
+  "description": "Consider the exponents in the prime factorization of n, and replace each run of k consecutive e's by a unique k; the resulting list corresponds to the exponents in the prime factorization of a(n).",
+  "id": "A356016",
+  "mentions": [
+    "A002110",
+    "A067255",
+    "A318928",
+    "A319522",
+    "A356008",
+    "A356014"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

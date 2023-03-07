@@ -1,0 +1,22 @@
+{
+  "description": "p-INVERT of (1,2,3,5,8,...) (distinct Fibonacci numbers), where p(S) = (1 - S)^2.",
+  "id": "A292399",
+  "mentions": [
+    "A000045",
+    "A033453",
+    "A155112",
+    "A292400"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

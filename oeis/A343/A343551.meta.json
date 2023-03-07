@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m/k where the number m is formed by inserting a digit 0 between each pair of digits in k, and m is divisible by k.",
+  "id": "A343551",
+  "mentions": [
+    "A051022",
+    "A285176",
+    "A343550",
+    "A343552"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

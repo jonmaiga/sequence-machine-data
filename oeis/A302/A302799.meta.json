@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that adding 10 to each term produces a new sequence that has exactly the same succession of digits as the present one.",
+  "id": "A302799",
+  "mentions": [
+    "A302656"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

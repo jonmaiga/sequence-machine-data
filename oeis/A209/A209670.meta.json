@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = count of monomials, of degrees k=1 to n, in the elementary symmetric polynomials e(mu,k) summed over all partitions mu of n.",
+  "id": "A209670",
+  "mentions": [
+    "A209664",
+    "A209669",
+    "A209673"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that no triple (a(n),a(n+d),a(n+2d)) is in arithmetic progression, for any d>0, n>=0.",
+  "id": "A248625",
+  "mentions": [
+    "A005836",
+    "A005839",
+    "A020664",
+    "A023717",
+    "A229037",
+    "A241752",
+    "A248627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,g) = number of general immersions of a circle with n crossings in a surface of arbitrary genus g, in the case that the circle is oriented and the surface is oriented.",
+  "id": "A260285",
+  "mentions": [
+    "A008986",
+    "A260296",
+    "A260848",
+    "A260914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

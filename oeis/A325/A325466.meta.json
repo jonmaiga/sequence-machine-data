@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of reversed integer partitions of n with k distinct differences of any degree > 0.",
+  "id": "A325466",
+  "mentions": [
+    "A000041",
+    "A088922",
+    "A098859",
+    "A279945",
+    "A325242",
+    "A325324",
+    "A325325",
+    "A325349",
+    "A325404",
+    "A325405",
+    "A325406",
+    "A325468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

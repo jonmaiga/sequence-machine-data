@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which A248663(n) = A277333(n).",
+  "id": "A277417",
+  "mentions": [
+    "A000290",
+    "A073485",
+    "A248663",
+    "A260443",
+    "A277333"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

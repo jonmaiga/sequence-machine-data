@@ -1,0 +1,22 @@
+{
+  "description": "Fifth column (k=4) of triangle A134832 (circular succession numbers).",
+  "id": "A135802",
+  "mentions": [
+    "A000757",
+    "A134832",
+    "A135801",
+    "A135803"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

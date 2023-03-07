@@ -1,0 +1,27 @@
+{
+  "description": "Replace 6^k with (-1)^k in base-6 expansion of n.",
+  "id": "A346690",
+  "mentions": [
+    "A007092",
+    "A053827",
+    "A055017",
+    "A065359",
+    "A065368",
+    "A346688",
+    "A346689",
+    "A346691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

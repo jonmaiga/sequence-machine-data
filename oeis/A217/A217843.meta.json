@@ -1,0 +1,39 @@
+{
+  "description": "Numbers which are the sum of one or more consecutive nonnegative cubes.",
+  "id": "A217843",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A000578",
+    "A002378",
+    "A003154",
+    "A005408",
+    "A005898",
+    "A016825",
+    "A027602",
+    "A027603",
+    "A027604",
+    "A034705",
+    "A046092",
+    "A062682",
+    "A116149",
+    "A131643",
+    "A168566",
+    "A217844",
+    "A217850",
+    "A240137",
+    "A265845",
+    "A300758"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Size of the largest subset S of the points of an n X n square grid such that no three of the points of S form an isosceles triangle.",
+  "id": "A271907",
+  "mentions": [
+    "A227133",
+    "A271906",
+    "A271914"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

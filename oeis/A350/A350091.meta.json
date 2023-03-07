@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(floor(n/4)) for n == 2 (mod 4), otherwise n.",
+  "id": "A350091",
+  "mentions": [
+    "A001511",
+    "A006519",
+    "A065883",
+    "A139391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

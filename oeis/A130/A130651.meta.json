@@ -1,0 +1,19 @@
+{
+  "description": "1/16 the number of permutations of 0..n having exactly 3 maxima.",
+  "id": "A130651",
+  "mentions": [
+    "A000487",
+    "A100575"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

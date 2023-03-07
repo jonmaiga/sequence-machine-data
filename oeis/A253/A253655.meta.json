@@ -1,0 +1,21 @@
+{
+  "description": "Number of monic irreducible polynomials of degree 6 over GF(prime(n)).",
+  "id": "A253655",
+  "mentions": [
+    "A008837",
+    "A127919",
+    "A138420",
+    "A138426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

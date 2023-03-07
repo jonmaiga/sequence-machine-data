@@ -1,0 +1,24 @@
+{
+  "description": "Length of Wythoff representation of n.",
+  "id": "A135817",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A007895",
+    "A135818",
+    "A189921",
+    "A317208"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of set partitions of [n] into blocks with distinct element sums.",
+  "id": "A275780",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A035470",
+    "A038041",
+    "A275781",
+    "A278339",
+    "A321469",
+    "A326512",
+    "A326513",
+    "A326519",
+    "A326535"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

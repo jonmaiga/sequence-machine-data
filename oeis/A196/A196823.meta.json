@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number c for which the curve y=1/(1+x^2) is tangent to the curve y=-c+cos(x), and 0",
+  "id": "A196823",
+  "mentions": [
+    "A196822",
+    "A196824"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

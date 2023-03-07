@@ -1,0 +1,24 @@
+{
+  "description": "Number of polygons formed outside an n X n square when connecting all 4n points on the perimeter of the square by infinite lines.",
+  "id": "A345648",
+  "mentions": [
+    "A007678",
+    "A092098",
+    "A255011",
+    "A344857",
+    "A344993",
+    "A345459"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

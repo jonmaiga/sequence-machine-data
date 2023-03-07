@@ -1,0 +1,25 @@
+{
+  "description": "Number of integers less than the (n+1)-th primorial such that the maximal exponent in their prime factorization is larger than the maximal digit in their primorial base expansion.",
+  "id": "A351068",
+  "mentions": [
+    "A002110",
+    "A051903",
+    "A276086",
+    "A328114",
+    "A350075",
+    "A351067",
+    "A351070"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

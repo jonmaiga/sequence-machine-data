@@ -1,0 +1,25 @@
+{
+  "description": "Number of times when an even number is encountered, when going from 2^(n+1)-1 to (2^n)-1 using the iterative process described in A071542.",
+  "id": "A218542",
+  "mentions": [
+    "A000120",
+    "A004198",
+    "A071542",
+    "A213709",
+    "A213728",
+    "A218543",
+    "A218600",
+    "A219662"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

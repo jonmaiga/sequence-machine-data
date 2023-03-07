@@ -1,0 +1,31 @@
+{
+  "description": "Square array, read by antidiagonals, where row n equals the crystal ball sequence for D_n lattice.",
+  "id": "A108553",
+  "mentions": [
+    "A001844",
+    "A005902",
+    "A007204",
+    "A008356",
+    "A008358",
+    "A008360",
+    "A008362",
+    "A008377",
+    "A008379",
+    "A108554",
+    "A108555",
+    "A108556",
+    "A108558"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

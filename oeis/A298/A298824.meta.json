@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. The transpose of the upper triangular part of the square matrix A298674.",
+  "id": "A298824",
+  "mentions": [
+    "A298674",
+    "A298825"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

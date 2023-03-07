@@ -1,0 +1,23 @@
+{
+  "description": "A modified Engel expansion for 8*sqrt(6) - 19.",
+  "id": "A220338",
+  "mentions": [
+    "A084765",
+    "A085765",
+    "A220335",
+    "A220336",
+    "A220337"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

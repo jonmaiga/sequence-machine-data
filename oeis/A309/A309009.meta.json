@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are both triangular and octahedral.",
+  "id": "A309009",
+  "mentions": [
+    "A000217",
+    "A005900",
+    "A027568",
+    "A307174"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

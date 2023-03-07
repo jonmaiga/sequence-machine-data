@@ -1,0 +1,21 @@
+{
+  "description": "Number of vertices in a \"frame\" of size n X n (see Comments in A331776 for definition).",
+  "id": "A332598",
+  "mentions": [
+    "A115004",
+    "A331761",
+    "A331776",
+    "A332597"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

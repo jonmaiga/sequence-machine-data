@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x^2 * A(x/(1 - 3*x)) / (1 - 3*x).",
+  "id": "A351053",
+  "mentions": [
+    "A000995",
+    "A004212",
+    "A351028",
+    "A351049",
+    "A351128",
+    "A351132",
+    "A351144",
+    "A351161"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

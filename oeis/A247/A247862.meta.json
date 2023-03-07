@@ -1,0 +1,18 @@
+{
+  "description": "Primes p that generate the prime quadruplets p^3-4p+2k (for k = -2, -1, 1, 2).",
+  "id": "A247862",
+  "mentions": [
+    "A247863"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

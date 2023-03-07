@@ -1,0 +1,20 @@
+{
+  "description": "Integral form of A053120 :Triangle of coefficients of Integral form Chebyshev's T(n, x) polynomials (powers of x in increasing order); Much improved version by use of the integro-differential recursive form over a previous attempt.",
+  "id": "A136265",
+  "mentions": [
+    "A053120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

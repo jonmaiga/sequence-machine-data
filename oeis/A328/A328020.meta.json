@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct tilings of an n X n square with free n-polyominoes.",
+  "id": "A328020",
+  "mentions": [
+    "A172477",
+    "A268427",
+    "A291806"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

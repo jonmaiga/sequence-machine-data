@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n,k>=0, read by antidiagonals: A(n,k) is the total element sum of the k-fold f transform applied to the length n sequence of 1's. And f returns a sorted result after multiplying the elements in its input sequence with 1, 2, 3,... in descending size order.",
+  "id": "A166278",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000217",
+    "A000292",
+    "A001477",
+    "A029744",
+    "A070893",
+    "A261490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

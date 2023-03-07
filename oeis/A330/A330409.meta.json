@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes of the form p(6p - 1).",
+  "id": "A330409",
+  "mentions": [
+    "A024898",
+    "A033570",
+    "A049452",
+    "A130800",
+    "A158015",
+    "A245365",
+    "A255584"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

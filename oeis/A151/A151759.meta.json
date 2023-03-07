@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Theta^3, where Theta = Sum_{k>=0} x^(2^k).",
+  "id": "A151759",
+  "mentions": [
+    "A000079",
+    "A073267",
+    "A151758",
+    "A151760",
+    "A151761",
+    "A151762",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of words on {1,1,2,2,3,3,...,n,n} avoiding the pattern 12345.",
+  "id": "A266735",
+  "mentions": [
+    "A000680",
+    "A220097",
+    "A266734",
+    "A267479"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

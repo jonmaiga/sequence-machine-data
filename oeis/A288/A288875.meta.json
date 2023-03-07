@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. The rows give the coefficients of the numerator polynomials for the o.g.f.s of the diagonal sequences of triangle A028338.",
+  "id": "A288875",
+  "mentions": [
+    "A028338",
+    "A112007"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

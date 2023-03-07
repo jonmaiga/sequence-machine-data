@@ -1,0 +1,45 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the subparts of the symmetric representation of sigma(n), ordered by order of appearance in the structure, from left to right.",
+  "id": "A280851",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000384",
+    "A001227",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239657",
+    "A240542",
+    "A244050",
+    "A245092",
+    "A249351",
+    "A250068",
+    "A250070",
+    "A261699",
+    "A262626",
+    "A279387",
+    "A279388",
+    "A279391",
+    "A280850",
+    "A296508",
+    "A335616",
+    "A346875"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

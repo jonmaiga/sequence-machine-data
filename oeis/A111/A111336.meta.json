@@ -1,0 +1,19 @@
+{
+  "description": "Number of convex regular polytopes with n hyperfaces (n>2) or n vertices.",
+  "id": "A111336",
+  "mentions": [
+    "A302139"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

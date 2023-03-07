@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways of choosing a k-dimensional cube from the vertices of an n-dimensional hypercube, where one of the vertices is the origin; 0 <= k <= n.",
+  "id": "A346906",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A097861",
+    "A344559",
+    "A346905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

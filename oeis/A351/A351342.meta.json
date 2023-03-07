@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x + x^2 + x^3 * A(x/(1 - 2*x)) / (1 - 2*x).",
+  "id": "A351342",
+  "mentions": [
+    "A000996",
+    "A000998",
+    "A004211",
+    "A007472",
+    "A210540",
+    "A351343",
+    "A351344",
+    "A351345"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

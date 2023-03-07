@@ -1,0 +1,17 @@
+{
+  "description": "Central terms of triangle A291560: a(n) = A291560(2*n-1,n) for n>=1.",
+  "id": "A291562",
+  "mentions": [
+    "A291560"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers that are not the sum of a square, a nonnegative cube and two positive Fibonacci numbers.",
+  "id": "A115173",
+  "mentions": [
+    "A115171",
+    "A115172",
+    "A115174",
+    "A115175",
+    "A115176",
+    "A115177"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

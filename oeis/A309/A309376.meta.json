@@ -1,0 +1,19 @@
+{
+  "description": "a(n) appears in the congruences modulo 4 or 32 of Markoff numbers m(n) = A002559(n) for odd or even m(n).",
+  "id": "A309376",
+  "mentions": [
+    "A002559"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

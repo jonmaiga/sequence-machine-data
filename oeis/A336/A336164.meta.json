@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; if n>1, and gcd(a(n-1), n) > 1 then a(n) = a(n-1)/gcd(a(n-1), n), otherwise a(n) = a(n-1) + n - 1.",
+  "id": "A336164",
+  "mentions": [
+    "A133058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

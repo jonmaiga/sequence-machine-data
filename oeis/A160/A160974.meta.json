@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n where every part appears at least 4 times.",
+  "id": "A160974",
+  "mentions": [
+    "A007690",
+    "A100405",
+    "A160975",
+    "A160990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

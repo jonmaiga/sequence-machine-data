@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that both the number of non-leading 0's in the binary representation of n and the number of 1's in the binary representation of n divide n.",
+  "id": "A117891",
+  "mentions": [
+    "A001146",
+    "A049445",
+    "A117890"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

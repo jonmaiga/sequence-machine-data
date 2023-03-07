@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of members of A047841 with n digits.",
+  "id": "A104785",
+  "mentions": [
+    "A047841",
+    "A104786",
+    "A104787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

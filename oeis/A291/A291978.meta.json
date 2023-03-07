@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n, k) = (-1)^(n-k)*n!*[t^k]([x^n] exp(x*t)/(1 + log(1+x))) for 0<=k<=n.",
+  "id": "A291978",
+  "mentions": [
+    "A007840",
+    "A045943",
+    "A052860",
+    "A291980"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

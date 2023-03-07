@@ -1,0 +1,37 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is Euler transform of (j->j*k).",
+  "id": "A255961",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000219",
+    "A001477",
+    "A055998",
+    "A101853",
+    "A144064",
+    "A161870",
+    "A193427",
+    "A255610",
+    "A255611",
+    "A255612",
+    "A255613",
+    "A255614",
+    "A255672",
+    "A257673",
+    "A299166",
+    "A316461",
+    "A316462"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

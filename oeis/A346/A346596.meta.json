@@ -1,0 +1,23 @@
+{
+  "description": "Let m = A344005(n) = smallest m such that n divides m*(m+1); a(n) = max(gcd(n,m), gcd(n,m+1)).",
+  "id": "A346596",
+  "mentions": [
+    "A034699",
+    "A324388",
+    "A344005",
+    "A345992",
+    "A345993",
+    "A345994",
+    "A345995"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Transform of n^3 by the Riordan array (1/(1-x^2), x).",
+  "id": "A105636",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A000578",
+    "A002593",
+    "A002620",
+    "A007590",
+    "A011934",
+    "A050534",
+    "A060300",
+    "A074148",
+    "A231303",
+    "A289705",
+    "A289706",
+    "A289707"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

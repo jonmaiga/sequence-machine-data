@@ -1,0 +1,25 @@
+{
+  "description": "Sum times maximum of the integer partition with Heinz number n.",
+  "id": "A326845",
+  "mentions": [
+    "A056239",
+    "A061395",
+    "A106529",
+    "A112798",
+    "A316413",
+    "A326836",
+    "A326844",
+    "A326846"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

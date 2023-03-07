@@ -1,0 +1,19 @@
+{
+  "description": "Analog of A140468, but starting with 5 points, and with the constraint that new points (or lines) are formed only from the intersections of lines (or points) of the same generation.",
+  "id": "A244026",
+  "mentions": [
+    "A140468",
+    "A244020"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

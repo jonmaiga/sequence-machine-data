@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest positive multiple of n such that a(n) is divisible by A001222(a(n)), where A001222(m) is the sum of the exponents in the prime factorization of m.",
+  "id": "A141286",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

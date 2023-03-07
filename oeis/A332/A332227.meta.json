@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k such that sigma(k) is congruent to 2 modulo 8.",
+  "id": "A332227",
+  "mentions": [
+    "A000203",
+    "A191218",
+    "A332226",
+    "A332228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

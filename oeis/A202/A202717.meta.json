@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of numerators of coefficients of the polynomial Q^(3)_m(n) defined by the recursion Q^(3)_0(n)=1; for m>=1, Q^(3)_m(n) = Sum_{i=1...n} i^3*Q^(3)_(m-1)(i).",
+  "id": "A202717",
+  "mentions": [
+    "A053657",
+    "A175669",
+    "A175699",
+    "A202339",
+    "A202367",
+    "A202368",
+    "A202369"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

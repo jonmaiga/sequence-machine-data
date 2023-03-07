@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k, q) = q*[n=2] + Sum_{j=0..5} q^j*binomial(n-2*j, k-j)*[n>2*j] with T(n,0) = T(n,n) = 1 for q = -4, read by rows.",
+  "id": "A173120",
+  "mentions": [
+    "A007318",
+    "A072405",
+    "A173117",
+    "A173118",
+    "A173119",
+    "A173122"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

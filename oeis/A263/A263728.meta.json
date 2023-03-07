@@ -1,0 +1,27 @@
+{
+  "description": "Primitive Pythagorean triples (a, b, c) in lexicographic order, with a < b < c.",
+  "id": "A263728",
+  "mentions": [
+    "A008846",
+    "A016825",
+    "A020882",
+    "A042965",
+    "A046086",
+    "A046087",
+    "A103606",
+    "A139794",
+    "A156678",
+    "A156679"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

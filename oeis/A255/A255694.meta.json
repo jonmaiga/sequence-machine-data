@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that five iterations of the map p->2p+nextprime(p) give primes.",
+  "id": "A255694",
+  "mentions": [
+    "A151800",
+    "A173971"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} mu(d) * binomial(d+n/d-1, d).",
+  "id": "A338657",
+  "mentions": [
+    "A008683",
+    "A338656",
+    "A338658",
+    "A343565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

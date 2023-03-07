@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: t(n,m) = Sum_{i=0..n} (-1)^(m-i)*Eulerian1(n-i+1, m-i) *Stirling2(n+i+1, i+1), where Eulerian1 are the Eulerian numbers of the first kind (A173018).",
+  "id": "A156364",
+  "mentions": [
+    "A048993",
+    "A156139",
+    "A156363",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

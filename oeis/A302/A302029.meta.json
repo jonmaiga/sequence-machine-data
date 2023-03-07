@@ -1,0 +1,21 @@
+{
+  "description": "Inverse permutation of A207901: a(n) = A006068(A052331(n)).",
+  "id": "A302029",
+  "mentions": [
+    "A006068",
+    "A052331",
+    "A207901",
+    "A302030"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Limiting sequence when we start with positive integers (A000027) and at step n >= 1 add to the term at position n + a(n) the value a(n).",
+  "id": "A137417",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

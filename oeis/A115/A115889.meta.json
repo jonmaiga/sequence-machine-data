@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes equal to the difference between a prime number and its index.",
+  "id": "A115889",
+  "mentions": [
+    "A115885"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that phi(n)/phi(phi(n)) > phi(m)/phi(phi(m)) for all m < n.",
+  "id": "A289125",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A002110",
+    "A010554",
+    "A014545",
+    "A018239"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

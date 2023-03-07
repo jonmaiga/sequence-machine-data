@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers in the smallest interval containing both minimal and maximal possible apex values of an addition triangle whose base is a permutation of n+1 consecutive integers.",
+  "id": "A206604",
+  "mentions": [
+    "A189390",
+    "A189391",
+    "A206603"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

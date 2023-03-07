@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers m such that both m and n*m are decimal pandigital numbers (A050278).",
+  "id": "A203987",
+  "mentions": [
+    "A050278"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

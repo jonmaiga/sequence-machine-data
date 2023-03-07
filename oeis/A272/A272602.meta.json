@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp( sum(n>=1, x^(n!) / n ) ).",
+  "id": "A272602",
+  "mentions": [
+    "A272603"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

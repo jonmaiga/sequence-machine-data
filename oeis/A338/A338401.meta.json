@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the resistance R(n) = a(n)/A338402(n) of a triangular network of 3*n*(n+1)/2 one Ohm resistors in a hexagonal lattice arrangement.",
+  "id": "A338401",
+  "mentions": [
+    "A000217",
+    "A045943",
+    "A048211",
+    "A174283",
+    "A338402"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

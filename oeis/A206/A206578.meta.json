@@ -1,0 +1,26 @@
+{
+  "description": "The least number with exactly n ones in the continued fraction of its square root.",
+  "id": "A206578",
+  "mentions": [
+    "A013647",
+    "A013650",
+    "A020440",
+    "A020446",
+    "A031779",
+    "A031868",
+    "A206582",
+    "A206583",
+    "A206584",
+    "A206585"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions y of n such that the k-th differences of y are distinct (independently) for all k >= 0.",
+  "id": "A325468",
+  "mentions": [
+    "A000009",
+    "A325324",
+    "A325325",
+    "A325349",
+    "A325353",
+    "A325354",
+    "A325391",
+    "A325393",
+    "A325404",
+    "A325406",
+    "A325467"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

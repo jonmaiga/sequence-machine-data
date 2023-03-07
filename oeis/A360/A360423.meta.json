@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n (with k digits) such that if a positive integer m with k+1 digits is divisible by n, then all the rotations of m are divisible by n.",
+  "id": "A360423",
+  "mentions": [
+    "A034089",
+    "A066484"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

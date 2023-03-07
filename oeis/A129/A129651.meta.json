@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest position k at which b_n(i)=k, where b_n(m) is the largest order of a permutation of m elements with exactly n cycles.",
+  "id": "A129651",
+  "mentions": [
+    "A000793",
+    "A129647",
+    "A129648",
+    "A129649",
+    "A129650"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

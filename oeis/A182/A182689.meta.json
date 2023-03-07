@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest 2-digit number with exactly n divisors, a(n) = 0 if no such number exists.",
+  "id": "A182689",
+  "mentions": [
+    "A000005",
+    "A182690"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:05:13",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

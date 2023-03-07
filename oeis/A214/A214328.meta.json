@@ -1,0 +1,21 @@
+{
+  "description": "Intersection of A004214 and A018825.",
+  "id": "A214328",
+  "mentions": [
+    "A000404",
+    "A000408",
+    "A004214",
+    "A018825",
+    "A214329"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

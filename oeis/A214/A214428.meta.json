@@ -1,0 +1,20 @@
+{
+  "description": "Carmichael numbers n such that A002322(n) = 2^k * p, where k is an integer and p is a prime.",
+  "id": "A214428",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A019434",
+    "A293291"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

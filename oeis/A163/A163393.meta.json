@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^2 can be represented as sum of (at least two) consecutive cubes and n is not a triangular number.",
+  "id": "A163393",
+  "mentions": [
+    "A126200",
+    "A238099"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

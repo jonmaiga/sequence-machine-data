@@ -1,0 +1,22 @@
+{
+  "description": "Product of primes dividing n with maximum multiplicity.",
+  "id": "A261969",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007947",
+    "A027748",
+    "A051903",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that prime(k-1) + 7 is square and equal to prime(k+1) - 1.",
+  "id": "A158470",
+  "mentions": [
+    "A158460"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

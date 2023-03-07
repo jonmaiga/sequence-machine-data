@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of the n-th partial sum of the reciprocal primes gaps.",
+  "id": "A217538",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

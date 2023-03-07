@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X(n+1) binary array having a sum of two, with rows and columns of the latter in lexicographically nondecreasing order",
+  "id": "A227098",
+  "mentions": [
+    "A227103"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n)#^2 + 1, where prime(n)# is the n-th primorial (A002110).",
+  "id": "A189409",
+  "mentions": [
+    "A002110",
+    "A006862",
+    "A014545",
+    "A210482"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Shallow diagonal sums of the triangle k!*Stirling2(n,k): a(n) = Sum_{k=0..floor(n/2)} T(n-k,k) where T is A019538.",
+  "id": "A105795",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A000670",
+    "A003101",
+    "A008277",
+    "A019538",
+    "A026898",
+    "A229046",
+    "A287215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

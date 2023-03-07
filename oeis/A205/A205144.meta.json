@@ -1,0 +1,18 @@
+{
+  "description": "Ordered differences of distinct binary products of consecutive primes.",
+  "id": "A205144",
+  "mentions": [
+    "A204892",
+    "A205146"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:04:42",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

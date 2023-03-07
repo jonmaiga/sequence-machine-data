@@ -1,0 +1,18 @@
+{
+  "description": "Number of 0..n arrays x(0..5) of 6 elements without any two consecutive increases.",
+  "id": "A200788",
+  "mentions": [
+    "A200785"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:29:09",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

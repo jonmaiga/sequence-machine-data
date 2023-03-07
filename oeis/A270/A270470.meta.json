@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that A001654(n) is divisible by n*(n+1)/2.",
+  "id": "A270470",
+  "mentions": [
+    "A000217",
+    "A001654"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

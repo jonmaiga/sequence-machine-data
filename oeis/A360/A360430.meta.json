@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of Dedekind psi by A038040.",
+  "id": "A360430",
+  "mentions": [
+    "A000005",
+    "A001615",
+    "A008966",
+    "A034718",
+    "A038040",
+    "A060724"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

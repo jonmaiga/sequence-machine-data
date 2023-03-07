@@ -1,0 +1,23 @@
+{
+  "description": "Consider all consecutive integer Pythagorean septuples (X, X+1, X+2, X+3, Z-2, Z-1, Z) ordered by increasing Z; sequence gives X values.",
+  "id": "A157088",
+  "mentions": [
+    "A001652",
+    "A001921",
+    "A157084",
+    "A157089",
+    "A157092",
+    "A157096"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

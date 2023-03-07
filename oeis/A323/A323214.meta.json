@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k such that p^(k-1) == 1 (mod k) for every prime p strongly prime to k.",
+  "id": "A323214",
+  "mentions": [
+    "A002997",
+    "A322937"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

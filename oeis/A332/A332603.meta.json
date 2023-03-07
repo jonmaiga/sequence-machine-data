@@ -1,0 +1,18 @@
+{
+  "description": "Working over the alphabet {1,2,3}, start with a(1) = 1; then a(n+1) is made by inserting a letter into a(n) at the rightmost possible position which makes a squarefree word (and the smallest letter if multiple letters are possible at that place).",
+  "id": "A332603",
+  "mentions": [
+    "A332604",
+    "A351386"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

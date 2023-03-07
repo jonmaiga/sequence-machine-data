@@ -1,0 +1,22 @@
+{
+  "description": "Sum_{k=0..n} C(n,k)^6*C(n+k,k)^6.",
+  "id": "A218689",
+  "mentions": [
+    "A001850",
+    "A005259",
+    "A092813",
+    "A092814",
+    "A092815"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

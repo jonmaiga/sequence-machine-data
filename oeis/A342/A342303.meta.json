@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; for n >= 1, a(n) = the decimal value of the binary number of the total binary digits back from the end of the concatenation of all previous binary terms where the binary value of n last appeared. If the binary value of n has not previously appeared then a(n) = 0.",
+  "id": "A342303",
+  "mentions": [
+    "A030190",
+    "A181391",
+    "A337227",
+    "A341766",
+    "A342130"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

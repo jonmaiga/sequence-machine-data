@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the real cube root of the value of the j-function for the n-th Heegner number A003173(n).",
+  "id": "A357211",
+  "mentions": [
+    "A003173",
+    "A199743",
+    "A267195"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

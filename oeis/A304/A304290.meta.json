@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k-1 is a substring of k^2.",
+  "id": "A304290",
+  "mentions": [
+    "A002283",
+    "A074992",
+    "A282384"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

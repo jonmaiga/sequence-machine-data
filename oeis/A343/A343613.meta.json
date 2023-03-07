@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of P_{3,2}(3) = Sum 1/p^3 over primes == 2 (mod 3).",
+  "id": "A343613",
+  "mentions": [
+    "A003627",
+    "A021031",
+    "A085541",
+    "A085992",
+    "A086033",
+    "A175645",
+    "A343612",
+    "A343619"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

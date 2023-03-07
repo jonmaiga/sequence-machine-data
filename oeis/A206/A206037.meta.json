@@ -1,0 +1,34 @@
+{
+  "description": "Values of the difference d for 3 primes in arithmetic progression with the minimal start sequence {3 + j*d}, j = 0 to 2.",
+  "id": "A206037",
+  "mentions": [
+    "A007921",
+    "A040976",
+    "A115334",
+    "A123556",
+    "A206038",
+    "A206039",
+    "A206040",
+    "A206041",
+    "A206042",
+    "A206043",
+    "A206044",
+    "A206045",
+    "A342309",
+    "A359408",
+    "A359409",
+    "A359410"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

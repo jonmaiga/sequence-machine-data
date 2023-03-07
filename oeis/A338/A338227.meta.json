@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = x(n) mod floor(sqrt(x(n))), where x(n) = floor((n^2)/2).",
+  "id": "A338227",
+  "mentions": [
+    "A000196",
+    "A007590",
+    "A049472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

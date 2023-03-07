@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n with the same length as reverse-alternating sum.",
+  "id": "A357487",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001055",
+    "A004526",
+    "A025047",
+    "A051159",
+    "A097805",
+    "A103919",
+    "A114220",
+    "A131044",
+    "A262046",
+    "A262977",
+    "A301987",
+    "A335405",
+    "A344651",
+    "A357136",
+    "A357182",
+    "A357183",
+    "A357184",
+    "A357189",
+    "A357485",
+    "A357486",
+    "A357488"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

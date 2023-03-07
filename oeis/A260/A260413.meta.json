@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of chi(-x) where chi() is a 3rd order mock theta function.",
+  "id": "A260413",
+  "mentions": [
+    "A053251",
+    "A053252",
+    "A260412"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

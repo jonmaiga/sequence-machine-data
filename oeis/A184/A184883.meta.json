@@ -1,0 +1,22 @@
+{
+  "description": "Number triangle T(n,k) = [k<=n]*Hypergeometric2F1([-k, 2k-2n], [1], 2).",
+  "id": "A184883",
+  "mentions": [
+    "A099463",
+    "A114123",
+    "A184884"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:01",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

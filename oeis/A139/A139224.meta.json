@@ -1,0 +1,29 @@
+{
+  "description": "M(M-1)/2, where M is Mersenne prime A000668(n).",
+  "id": "A139224",
+  "mentions": [
+    "A000217",
+    "A000396",
+    "A000668",
+    "A036689",
+    "A139096",
+    "A139115",
+    "A139116",
+    "A139223",
+    "A139225",
+    "A139226",
+    "A139256",
+    "A139306"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

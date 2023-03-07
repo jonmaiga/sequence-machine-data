@@ -1,0 +1,25 @@
+{
+  "description": "Consider the map f that sends m to m + (sum of even digits of m) - (sum of odd digits of m). Sequence gives numbers m such that f^(k)(m) = m for some k.",
+  "id": "A124177",
+  "mentions": [
+    "A036301",
+    "A071648",
+    "A071649",
+    "A071650",
+    "A124176",
+    "A304439",
+    "A304440"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that only use digits that survived in the movie 9: {3, 4, 7, 9}.",
+  "id": "A281093",
+  "mentions": [
+    "A091633"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

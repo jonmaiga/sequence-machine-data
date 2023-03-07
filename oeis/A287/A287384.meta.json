@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,m) is the number of inequivalent n X m matrices under action of the Klein group, with one-tenth each of 1's, 2's, 3's, 4's, 5's, 6's, 7's, 8's, 9's and 0's (ordered occurrences rounded up/down if n*m != 0 mod 10).",
+  "id": "A287384",
+  "mentions": [
+    "A283435",
+    "A286892",
+    "A287020",
+    "A287021",
+    "A287022",
+    "A287377",
+    "A287378",
+    "A287383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

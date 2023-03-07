@@ -1,0 +1,31 @@
+{
+  "description": "Number of unlabeled spanning intersecting set-systems on n vertices with no singletons.",
+  "id": "A305999",
+  "mentions": [
+    "A001206",
+    "A048143",
+    "A051185",
+    "A058891",
+    "A261005",
+    "A261006",
+    "A304998",
+    "A305854",
+    "A305857",
+    "A305935",
+    "A306000",
+    "A306001",
+    "A306008"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

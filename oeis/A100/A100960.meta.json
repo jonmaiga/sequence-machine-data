@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled 2-connected planar graphs with n nodes and k edges, n >= 3, n <= k <= 3(n-2).",
+  "id": "A100960",
+  "mentions": [
+    "A001710",
+    "A096331",
+    "A267411",
+    "A290326"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 3,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

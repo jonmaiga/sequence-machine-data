@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of smallest nonnegative fraction of form +- 1 +- 1/2 +- 1/3 ... +- 1/n.",
+  "id": "A232112",
+  "mentions": [
+    "A232111"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

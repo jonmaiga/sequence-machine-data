@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of | log_gamma(phi) |, where gamma is the Euler-Mascheroni constant and phi is the golden ratio.",
+  "id": "A182527",
+  "mentions": [
+    "A001620",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Natural numbers placed in table T(n,k) layer by layer. The order of placement - at the beginning 2 layers counterclockwise, next 1 layer clockwise and so on. T(n,k) read by antidiagonals.",
+  "id": "A213928",
+  "mentions": [
+    "A011655",
+    "A042964",
+    "A081344",
+    "A130196",
+    "A194280",
+    "A219159",
+    "A220516"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

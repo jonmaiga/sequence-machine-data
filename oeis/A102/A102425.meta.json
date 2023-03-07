@@ -1,0 +1,19 @@
+{
+  "description": "Let pi be an unrestricted partition of n with the summands written as binary numbers; a(n) is the number of such partitions with an even number of binary ones.",
+  "id": "A102425",
+  "mentions": [
+    "A000041",
+    "A000120",
+    "A102437"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

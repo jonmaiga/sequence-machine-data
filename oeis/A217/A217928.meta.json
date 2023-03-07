@@ -1,0 +1,22 @@
+{
+  "description": "Sum of distinct decimal digits appearing in n.",
+  "id": "A217928",
+  "mentions": [
+    "A007953",
+    "A180410",
+    "A227378"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

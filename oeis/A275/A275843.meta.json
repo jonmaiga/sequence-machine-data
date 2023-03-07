@@ -1,0 +1,24 @@
+{
+  "description": "Fixed points of A275957; numbers n for which A060125(n) = A225901(n).",
+  "id": "A275843",
+  "mentions": [
+    "A007489",
+    "A033312",
+    "A060125",
+    "A225901",
+    "A275844",
+    "A275957",
+    "A275958"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

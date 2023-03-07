@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A215029(A000040(n)), where A000040(n) is the n-th prime.",
+  "id": "A215030",
+  "mentions": [
+    "A000040",
+    "A031215",
+    "A214912",
+    "A215029",
+    "A215031",
+    "A215032",
+    "A215033",
+    "A215034",
+    "A215035"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

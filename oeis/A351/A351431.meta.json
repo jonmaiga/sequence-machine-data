@@ -1,0 +1,24 @@
+{
+  "description": "Primes followed by a gap of 512.",
+  "id": "A351431",
+  "mentions": [
+    "A001359",
+    "A029710",
+    "A031926",
+    "A031934",
+    "A126784",
+    "A204670",
+    "A204812",
+    "A204813"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

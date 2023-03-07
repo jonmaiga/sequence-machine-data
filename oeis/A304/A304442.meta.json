@@ -1,0 +1,39 @@
+{
+  "description": "Number of partitions of n in which the sequence of the sum of the same summands is constant.",
+  "id": "A304442",
+  "mentions": [
+    "A000005",
+    "A018818",
+    "A047966",
+    "A098504",
+    "A098859",
+    "A100346",
+    "A275870",
+    "A304405",
+    "A304406",
+    "A304428",
+    "A304430",
+    "A329738",
+    "A353832",
+    "A353833",
+    "A353837",
+    "A353838",
+    "A353847",
+    "A353848",
+    "A353850",
+    "A353851",
+    "A353864",
+    "A353932"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

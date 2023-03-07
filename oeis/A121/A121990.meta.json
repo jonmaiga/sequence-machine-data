@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x*(1+9*x+2*x^2)/((1-x)*(1-3*x+x^2)).",
+  "id": "A121990",
+  "mentions": [
+    "A000045",
+    "A003215",
+    "A005891"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

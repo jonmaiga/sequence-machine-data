@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers k such that there are exactly phi(phi(k)) residues modulo k of the maximum order.",
+  "id": "A300079",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A002808",
+    "A010554",
+    "A111725",
+    "A246547",
+    "A300064",
+    "A300065",
+    "A300080"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

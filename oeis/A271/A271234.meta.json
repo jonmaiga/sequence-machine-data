@@ -1,0 +1,18 @@
+{
+  "description": "2^(p-1) modulo p^3, where p = prime(n).",
+  "id": "A271234",
+  "mentions": [
+    "A001220",
+    "A196202"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

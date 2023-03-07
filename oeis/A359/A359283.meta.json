@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Integral_{x = 1..oo} 1/x^(x^2) dx.",
+  "id": "A359283",
+  "mentions": [
+    "A245637",
+    "A253299",
+    "A359282",
+    "A359284",
+    "A359285",
+    "A359286"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

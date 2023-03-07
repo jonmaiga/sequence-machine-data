@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,m) = A034386(n)^2/(A034386(m)*A034386(n-m)), 1<=m<=n, read by rows.",
+  "id": "A117692",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

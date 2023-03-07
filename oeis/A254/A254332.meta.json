@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered pentagonal numbers (A005891) which are also squares (A000290).",
+  "id": "A254332",
+  "mentions": [
+    "A000290",
+    "A005891",
+    "A129557",
+    "A254333"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

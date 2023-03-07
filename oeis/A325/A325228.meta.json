@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n such that the lesser of the maximum part and the number of parts is 3.",
+  "id": "A325228",
+  "mentions": [
+    "A051924",
+    "A096771",
+    "A115720",
+    "A265283",
+    "A325224",
+    "A325225",
+    "A325227",
+    "A325229",
+    "A325231",
+    "A325232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

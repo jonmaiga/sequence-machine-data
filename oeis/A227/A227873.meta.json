@@ -1,0 +1,23 @@
+{
+  "description": "Sum of odious divisors of n. See A000069 for odious numbers.",
+  "id": "A227873",
+  "mentions": [
+    "A000069",
+    "A000203",
+    "A001969",
+    "A212302",
+    "A227872",
+    "A260934"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

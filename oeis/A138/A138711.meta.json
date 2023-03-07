@@ -1,0 +1,21 @@
+{
+  "description": "n-th run has length n-th positive triangular number, with digits 0 and 1 only, starting with 1.",
+  "id": "A138711",
+  "mentions": [
+    "A000217",
+    "A057211",
+    "A138149",
+    "A138709"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

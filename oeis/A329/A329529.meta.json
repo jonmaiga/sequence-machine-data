@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum of first k lucky numbers, A046279(k), is divisible by k.",
+  "id": "A329529",
+  "mentions": [
+    "A000959",
+    "A045345",
+    "A046279",
+    "A329528"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

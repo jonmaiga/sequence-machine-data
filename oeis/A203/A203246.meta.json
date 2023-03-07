@@ -1,0 +1,22 @@
+{
+  "description": "Second elementary symmetric function of the first n terms of (1,1,2,2,3,3,4,4,...).",
+  "id": "A203246",
+  "mentions": [
+    "A103220",
+    "A203298",
+    "A203299",
+    "A212523",
+    "A246117"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number k such that k*n is a cubefull number (A036966).",
+  "id": "A360541",
+  "mentions": [
+    "A036966",
+    "A329376",
+    "A356193",
+    "A360539"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

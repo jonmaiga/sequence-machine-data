@@ -1,0 +1,23 @@
+{
+  "description": "Nonunitary superperfect numbers: numbers k such that nusigma(nusigma(k)) = k, where nusigma(k) = sigma(k) - usigma(k) is the sum of nonunitary divisors of k (A048146).",
+  "id": "A329884",
+  "mentions": [
+    "A000396",
+    "A019279",
+    "A034448",
+    "A038843",
+    "A048146",
+    "A064591",
+    "A329881"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

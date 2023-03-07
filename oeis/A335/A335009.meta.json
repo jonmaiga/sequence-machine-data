@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of permutations of two copies of 1..n with the sum of the distances between equal numbers having total value n + 2*k, 0 <= k <= n*(n-1)/2.",
+  "id": "A335009",
+  "mentions": [
+    "A000124",
+    "A000142",
+    "A001044"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

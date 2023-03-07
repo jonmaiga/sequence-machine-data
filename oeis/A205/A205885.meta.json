@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the Fresnel Integral int_{x=0..infinity} x*cos(x^3) dx.",
+  "id": "A205885",
+  "mentions": [
+    "A073006"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

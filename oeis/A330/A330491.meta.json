@@ -1,0 +1,21 @@
+{
+  "description": "Non-palindromic balanced primes in base 3.",
+  "id": "A330491",
+  "mentions": [
+    "A000040",
+    "A029971",
+    "A256076",
+    "A256083"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

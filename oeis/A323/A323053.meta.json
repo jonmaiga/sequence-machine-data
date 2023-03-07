@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n with no 1's such that no part is a power of any other (unequal) part.",
+  "id": "A323053",
+  "mentions": [
+    "A001597",
+    "A002865",
+    "A007916",
+    "A052410",
+    "A101417",
+    "A102430",
+    "A108917",
+    "A305148",
+    "A305630",
+    "A305631",
+    "A321346",
+    "A323093"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

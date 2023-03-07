@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^(n-1) mod n is a prime number.",
+  "id": "A175168",
+  "mentions": [
+    "A000040",
+    "A062173"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

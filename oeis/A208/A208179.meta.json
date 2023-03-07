@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that match polynomials with coefficients in {0,1} that have a factor containing 2 as a coefficient; see Comments.",
+  "id": "A208179",
+  "mentions": [
+    "A206073",
+    "A206284",
+    "A208180",
+    "A208181",
+    "A208182"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

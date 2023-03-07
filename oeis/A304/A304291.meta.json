@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that for all primes p dividing k, p-1 divides k-1 and p+1 divides k+1.",
+  "id": "A304291",
+  "mentions": [
+    "A002808",
+    "A056729",
+    "A056824",
+    "A080062",
+    "A171561"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

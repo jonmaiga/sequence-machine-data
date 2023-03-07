@@ -1,0 +1,24 @@
+{
+  "description": "Eleven times hexagonal numbers: 11*n*(2*n-1).",
+  "id": "A154617",
+  "mentions": [
+    "A000384",
+    "A002939",
+    "A094159",
+    "A152745",
+    "A153781",
+    "A195313"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:15",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

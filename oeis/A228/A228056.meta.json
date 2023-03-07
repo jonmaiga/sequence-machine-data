@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form p * m^2, where p is prime and m > 1.",
+  "id": "A228056",
+  "mentions": [
+    "A124010",
+    "A228057",
+    "A228058"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

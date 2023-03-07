@@ -1,0 +1,24 @@
+{
+  "description": "Total sum T(n,k) of number of lambda-parking functions of partitions lambda of n into distinct parts with smallest part k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A265017",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A005563",
+    "A028310",
+    "A028347",
+    "A028560",
+    "A265016"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

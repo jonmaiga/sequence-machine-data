@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1 + x + x^2)/(1 - 4x^2 + x^4).",
+  "id": "A108412",
+  "mentions": [
+    "A001353",
+    "A001834",
+    "A005013",
+    "A026741",
+    "A084068",
+    "A101263",
+    "A188887",
+    "A203976",
+    "A243469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

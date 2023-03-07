@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n, k), n, k > 0, read by antidiagonals upwards; A(n, k) = A360613(2*n-1) * A360613(2*k).",
+  "id": "A360633",
+  "mentions": [
+    "A249327",
+    "A360613",
+    "A360627",
+    "A360628"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

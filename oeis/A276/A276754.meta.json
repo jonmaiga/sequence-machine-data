@@ -1,0 +1,21 @@
+{
+  "description": "L.g.f.: Sum_{n>=1} [ Sum_{k>=1} k^(2*n) * x^k ]^n / n.",
+  "id": "A276754",
+  "mentions": [
+    "A008292",
+    "A156170",
+    "A276752",
+    "A276753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

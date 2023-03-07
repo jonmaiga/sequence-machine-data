@@ -1,0 +1,38 @@
+{
+  "description": "Total number of positive integers below 10^n requiring 14 positive biquadrates in their representation as sum of biquadrates.",
+  "id": "A186673",
+  "mentions": [
+    "A002283",
+    "A046045",
+    "A114322",
+    "A186649",
+    "A186651",
+    "A186653",
+    "A186655",
+    "A186657",
+    "A186659",
+    "A186661",
+    "A186663",
+    "A186665",
+    "A186667",
+    "A186669",
+    "A186671",
+    "A186674",
+    "A186675",
+    "A186677",
+    "A186680",
+    "A186682",
+    "A186684"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

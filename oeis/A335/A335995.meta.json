@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number u such that the arclength on y = sin(x) from (0,0) to (u, sin u) is Pi.",
+  "id": "A335995",
+  "mentions": [
+    "A335994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

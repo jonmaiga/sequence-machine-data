@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that number of perfect partitions of n-1 divides n.",
+  "id": "A167211",
+  "mentions": [
+    "A002033",
+    "A007694",
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

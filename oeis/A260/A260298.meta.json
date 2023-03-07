@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that hyperfactorial(p-1) == 1 (mod p).",
+  "id": "A260298",
+  "mentions": [
+    "A000040",
+    "A002109",
+    "A129518",
+    "A260178",
+    "A260297",
+    "A260299"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

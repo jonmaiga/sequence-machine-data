@@ -1,0 +1,19 @@
+{
+  "description": "Start with 2*n-1; repeatedly triple and add 2 until reaching a prime. a(n) = number of steps until reaching a prime > 2*n-1, or 0 if no prime is ever reached.",
+  "id": "A354747",
+  "mentions": [
+    "A016789",
+    "A050412",
+    "A354748"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

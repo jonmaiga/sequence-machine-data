@@ -1,0 +1,38 @@
+{
+  "description": "Difference of first and last parts of the n-th composition in standard order.",
+  "id": "A358135",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A048896",
+    "A058891",
+    "A065120",
+    "A066099",
+    "A070939",
+    "A133494",
+    "A242628",
+    "A243055",
+    "A329395",
+    "A333766",
+    "A333768",
+    "A351014",
+    "A357187",
+    "A358133",
+    "A358134",
+    "A358138"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

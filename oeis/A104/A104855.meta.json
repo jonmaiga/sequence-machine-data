@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) is the number of three-dimensional lattice walks consisting of n unit steps, each in one of the six coordinate directions, starting at the origin, never going below the horizontal plane and having k vertical steps.",
+  "id": "A104855",
+  "mentions": [
+    "A000302",
+    "A001405",
+    "A005573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

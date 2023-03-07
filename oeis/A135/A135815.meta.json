@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A135814 (number of coincidence-free m-tuple lists of length n).",
+  "id": "A135815",
+  "mentions": [
+    "A135814",
+    "A135816"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

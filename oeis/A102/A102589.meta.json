@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the forms 4*p or q where both numbers p=(10^n-7)/3 and q=(127*10^(n-1)-7)/3 are primes.",
+  "id": "A102589",
+  "mentions": [
+    "A069514",
+    "A102285"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

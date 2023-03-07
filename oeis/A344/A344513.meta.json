@@ -1,0 +1,37 @@
+{
+  "description": "a(n) is the least number larger than 1 which is a self number in all the even bases b = 2*k for 1 <= k <= n.",
+  "id": "A344513",
+  "mentions": [
+    "A003052",
+    "A005408",
+    "A010061",
+    "A010064",
+    "A010067",
+    "A010070",
+    "A016038",
+    "A217705",
+    "A225427",
+    "A226320",
+    "A228768",
+    "A258107",
+    "A339211",
+    "A339212",
+    "A339213",
+    "A339214",
+    "A339215",
+    "A342729",
+    "A344512"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

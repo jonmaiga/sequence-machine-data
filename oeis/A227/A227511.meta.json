@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: Number of n-step self-avoiding walks on f.c.c. lattice ending at point with x = k.",
+  "id": "A227511",
+  "mentions": [
+    "A000765",
+    "A000766",
+    "A000767",
+    "A000768",
+    "A001336"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

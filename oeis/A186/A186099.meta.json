@@ -1,0 +1,29 @@
+{
+  "description": "Sum of divisors of n congruent to 1 or 5 mod 6.",
+  "id": "A186099",
+  "mentions": [
+    "A000593",
+    "A003105",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A046913",
+    "A113957",
+    "A116073",
+    "A284098",
+    "A284104",
+    "A353908"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

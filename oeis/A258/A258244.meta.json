@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps from n to 0, where allowable steps are x -> [x/e] if x = is in A022843 (the Beatty sequence for e) and x -> [e*x] otherwise, where [ ] = floor.",
+  "id": "A258244",
+  "mentions": [
+    "A022843",
+    "A258212",
+    "A258243"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

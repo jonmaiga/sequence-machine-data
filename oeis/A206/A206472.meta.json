@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock having zero permanent",
+  "id": "A206472",
+  "mentions": [
+    "A139818"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

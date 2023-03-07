@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in expansion of exp(x)/(1 - x - x^2).",
+  "id": "A279335",
+  "mentions": [
+    "A000045",
+    "A279334"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

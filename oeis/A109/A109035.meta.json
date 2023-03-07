@@ -1,0 +1,18 @@
+{
+  "description": "Number of irreducible partitions into squares. A partition is irreducible if no subpartition with 2 or more parts sums to a square.",
+  "id": "A109035",
+  "mentions": [
+    "A001156",
+    "A109036"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

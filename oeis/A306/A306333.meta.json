@@ -1,0 +1,17 @@
+{
+  "description": "Last term in each generation of A306211.",
+  "id": "A306333",
+  "mentions": [
+    "A306211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

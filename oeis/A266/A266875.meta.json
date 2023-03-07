@@ -1,0 +1,21 @@
+{
+  "description": "Number of partially ordered sets (\"posets\") with n labeled elements, modulo n.",
+  "id": "A266875",
+  "mentions": [
+    "A000040",
+    "A001035",
+    "A265847"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

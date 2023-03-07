@@ -1,0 +1,36 @@
+{
+  "description": "Number of ways to split an integer partition of n into contiguous subsequences with weakly increasing sums.",
+  "id": "A336136",
+  "mentions": [
+    "A001970",
+    "A006951",
+    "A063834",
+    "A075900",
+    "A133494",
+    "A279786",
+    "A304961",
+    "A305551",
+    "A316245",
+    "A317715",
+    "A318684",
+    "A323433",
+    "A323583",
+    "A336128",
+    "A336130",
+    "A336131",
+    "A336133",
+    "A336134",
+    "A336135"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

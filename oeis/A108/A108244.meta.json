@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: row n gives list of all compositions of n ordered first by decreasing length, then by reverse colexicographical order.",
+  "id": "A108244",
+  "mentions": [
+    "A036036",
+    "A045623",
+    "A066099",
+    "A080576",
+    "A080577",
+    "A124734",
+    "A124748",
+    "A228369",
+    "A296772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

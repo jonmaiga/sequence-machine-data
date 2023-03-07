@@ -1,0 +1,28 @@
+{
+  "description": "Composite numbers such that the square mean of their prime factors is a prime (where the prime factors are taken with multiplicity and the square mean of c and d is sqrt((c^2+d^2)/2)).",
+  "id": "A134601",
+  "mentions": [
+    "A001597",
+    "A025475",
+    "A134333",
+    "A134344",
+    "A134376",
+    "A134600",
+    "A134605",
+    "A134608",
+    "A134611",
+    "A134617",
+    "A134619",
+    "A134621"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

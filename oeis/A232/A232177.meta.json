@@ -1,0 +1,24 @@
+{
+  "description": "Least positive k such that triangular(n) + triangular(k) is a square.",
+  "id": "A232177",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A082183",
+    "A101157",
+    "A212614",
+    "A232176",
+    "A232178",
+    "A232179"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

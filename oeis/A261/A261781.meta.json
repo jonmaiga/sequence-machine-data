@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of compositions of n where each part i is marked with a word of length i over a k-ary alphabet whose letters appear in alphabetical order and all k letters occur at least once in the composition; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A261781",
+  "mentions": [
+    "A000007",
+    "A000670",
+    "A083385",
+    "A120733",
+    "A131577",
+    "A261719",
+    "A261780",
+    "A261784",
+    "A293579",
+    "A293580",
+    "A293581",
+    "A293582",
+    "A293583",
+    "A293584",
+    "A293585",
+    "A293586",
+    "A293587"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

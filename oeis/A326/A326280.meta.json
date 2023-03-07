@@ -1,0 +1,21 @@
+{
+  "description": "Let f(n) be a sequence of distinct Gaussian integers such that f(1) = 0 and for any n > 1, f(n) = f(floor(n/2)) + k(n)*g((1+i)^(A000120(n)-1) * (1-i)^A023416(n)) where k(n) > 0 is as small as possible and g(z) = z/gcd(Re(z), Im(z)); a(n) is the real part of f(n).",
+  "id": "A326280",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A322574",
+    "A326281"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

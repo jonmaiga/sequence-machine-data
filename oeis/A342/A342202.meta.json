@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) = V(n,k)/k!, where V(n,k) = k^(n*k) - Sum_{t=1..k-1} binomial(k,t)*k^(n*(k-t))*V(n,t) for n, k >= 1; square array T read by upwards antidiagonals.",
+  "id": "A342202",
+  "mentions": [
+    "A000007",
+    "A006689",
+    "A027834",
+    "A027835",
+    "A059153",
+    "A107668",
+    "A107675",
+    "A304394",
+    "A304395",
+    "A342405"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

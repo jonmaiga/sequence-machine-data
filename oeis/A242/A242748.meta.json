@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered ways to write n = k + m with 0 < k <= m such that k is a primitive root modulo prime(k) and m is a primitive root modulo prime(m).",
+  "id": "A242748",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A242750",
+    "A242752"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

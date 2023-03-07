@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, partitions into distinct parts by perimeter.",
+  "id": "A227344",
+  "mentions": [
+    "A000009",
+    "A122129",
+    "A227345",
+    "A227426",
+    "A227538",
+    "A227614"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

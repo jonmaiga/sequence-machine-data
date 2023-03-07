@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n-th Rhonda number to base b = n-th composite number, cf. A002808.",
+  "id": "A255880",
+  "mentions": [
+    "A002808",
+    "A099542",
+    "A100968",
+    "A100969",
+    "A100970",
+    "A100971",
+    "A100972",
+    "A100973",
+    "A100974",
+    "A255872",
+    "A291925"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

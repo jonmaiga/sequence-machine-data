@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest triangular number that is prime(n)-smooth.",
+  "id": "A303339",
+  "mentions": [
+    "A000217",
+    "A002072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

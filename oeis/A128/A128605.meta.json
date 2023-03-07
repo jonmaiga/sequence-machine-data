@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m having exactly n divisors d with sqrt(m/2) <= d < sqrt(2*m).",
+  "id": "A128605",
+  "mentions": [
+    "A067742",
+    "A080197",
+    "A237593",
+    "A240542",
+    "A279286"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

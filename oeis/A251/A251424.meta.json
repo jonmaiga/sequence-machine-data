@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n+2 0..4 arrays with the sum of the maximum minus twice the median plus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero",
+  "id": "A251424",
+  "mentions": [
+    "A251428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

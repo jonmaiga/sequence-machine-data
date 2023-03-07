@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A'(x)/2 = Series_Reversion( x - x^2*A'(x) - 2*x*A(x) ).",
+  "id": "A259609",
+  "mentions": [
+    "A259608"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

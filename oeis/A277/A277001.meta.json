@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of an asymptotic series for the Gamma function (even power series).",
+  "id": "A277001",
+  "mentions": [
+    "A277000",
+    "A277002",
+    "A277003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

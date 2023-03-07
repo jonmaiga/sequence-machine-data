@@ -1,0 +1,17 @@
+{
+  "description": "Numbers a(n) are obtained by the direct application of sieve of Eratosthenes for A000695: retaining A000695(2)=4, we delete all multiples of 4, which are more than 4; retaining A000695(3)=5, we delete all multiples of 5, which are more than 5, etc.",
+  "id": "A152021",
+  "mentions": [
+    "A000695"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

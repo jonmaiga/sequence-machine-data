@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 2*k^5 - 1 is prime.",
+  "id": "A309854",
+  "mentions": [
+    "A182783",
+    "A214289",
+    "A309855"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:55",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

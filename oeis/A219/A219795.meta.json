@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the absolute values of the antidiagonals of the triangle A135929(n) companion. See the comment.",
+  "id": "A219795",
+  "mentions": [
+    "A047749",
+    "A116637",
+    "A135929",
+    "A192011",
+    "A193910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

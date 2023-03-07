@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 2^q + q where q is not a prime.",
+  "id": "A100339",
+  "mentions": [
+    "A057664",
+    "A081296",
+    "A129962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

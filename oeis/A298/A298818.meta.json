@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the binary XOR of all n-bit triangular numbers.",
+  "id": "A298818",
+  "mentions": [
+    "A000217",
+    "A007088",
+    "A070939",
+    "A298816",
+    "A298817"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer-sided triangles with perimeter n and side lengths a, b and c such that a <= b <= c, and b is squarefree.",
+  "id": "A308455",
+  "mentions": [
+    "A008683",
+    "A308454"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

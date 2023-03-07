@@ -1,0 +1,27 @@
+{
+  "description": "Determinant of n X n matrix whose main diagonal consists of the first n 10-gonal numbers and all other elements are 1's.",
+  "id": "A302914",
+  "mentions": [
+    "A000142",
+    "A001107",
+    "A007840",
+    "A010791",
+    "A067550",
+    "A302909",
+    "A302910",
+    "A302911",
+    "A302912",
+    "A302913"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:26:42",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

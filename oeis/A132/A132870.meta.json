@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T, read by rows, where the g.f. of row n of T^n = (n^2 + y)^n for 0 <= n <= 29, where T^n denotes the n-th power of T considered as (lower-left) matrix.",
+  "id": "A132870",
+  "mentions": [
+    "A132871",
+    "A132872",
+    "A132873",
+    "A132874",
+    "A132875",
+    "A177390"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

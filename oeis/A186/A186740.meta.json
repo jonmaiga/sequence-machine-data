@@ -1,0 +1,28 @@
+{
+  "description": "Sequence read from antidiagonals of rectangular array with entry in row n and column q given by T(n,q) = 2^(2*n)*(Sum_{j=1..n+1} (cos(j*Pi/(2*q+1)))^(2*n)), n >= 0, q >= 1.",
+  "id": "A186740",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A005248",
+    "A005408",
+    "A016921",
+    "A114646",
+    "A114698",
+    "A185095",
+    "A198636",
+    "A209235"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

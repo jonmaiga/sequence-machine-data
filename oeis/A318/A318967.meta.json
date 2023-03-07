@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. Product_{i>=1, j>=1, k>=1} (1 + x^(i*j*k))^(1/(i*j*k)).",
+  "id": "A318967",
+  "mentions": [
+    "A000005",
+    "A007425",
+    "A168243",
+    "A280473",
+    "A318414",
+    "A318696",
+    "A318768",
+    "A318966"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

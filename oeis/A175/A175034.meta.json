@@ -1,0 +1,24 @@
+{
+  "description": "Offsets i such that i + n*(n+1)/2 is never a perfect square for any n>0.",
+  "id": "A175034",
+  "mentions": [
+    "A001108",
+    "A006451",
+    "A154138",
+    "A154139",
+    "A154140",
+    "A154141",
+    "A175035"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

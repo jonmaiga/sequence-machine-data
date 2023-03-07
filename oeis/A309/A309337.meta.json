@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n^3 if n odd, 3*n^3/4 if n even.",
+  "id": "A309337",
+  "mentions": [
+    "A000578",
+    "A016755",
+    "A059376",
+    "A078307",
+    "A129194",
+    "A193356",
+    "A309338"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

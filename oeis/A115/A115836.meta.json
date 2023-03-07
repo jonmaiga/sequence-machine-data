@@ -1,0 +1,21 @@
+{
+  "description": "Self-describing sequence. The n-th integer of the sequence indicates how many integers of the sequence are strictly < 2n.",
+  "id": "A115836",
+  "mentions": [
+    "A007378",
+    "A080653"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

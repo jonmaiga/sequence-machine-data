@@ -1,0 +1,25 @@
+{
+  "description": "List of powers of 2 written in base 3 which contain no zero digits.",
+  "id": "A346497",
+  "mentions": [
+    "A004642",
+    "A007089",
+    "A102483",
+    "A104320",
+    "A130693"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

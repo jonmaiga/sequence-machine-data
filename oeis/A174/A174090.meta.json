@@ -1,0 +1,31 @@
+{
+  "description": "Powers of 2 and odd primes; alternatively, numbers that cannot be written as a sum of at least three consecutive positive integers.",
+  "id": "A174090",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000203",
+    "A000396",
+    "A000668",
+    "A006005",
+    "A019434",
+    "A065091",
+    "A067133",
+    "A092506",
+    "A111774",
+    "A138591",
+    "A174069",
+    "A174070",
+    "A174071"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

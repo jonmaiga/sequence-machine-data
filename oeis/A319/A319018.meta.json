@@ -1,0 +1,33 @@
+{
+  "description": "Number of ON cells after n generations of two-dimensional automaton based on knight moves (see Comments for definition).",
+  "id": "A319018",
+  "mentions": [
+    "A139250",
+    "A147562",
+    "A151725",
+    "A160239",
+    "A194270",
+    "A220500",
+    "A245540",
+    "A245542",
+    "A319019",
+    "A320487",
+    "A322048",
+    "A322049",
+    "A322050",
+    "A322051",
+    "A322055",
+    "A322056"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "[r]*[2r]*[3r]*...[nr], where r=(1+sqrt(5))/2 and []=floor.",
+  "id": "A147998",
+  "mentions": [
+    "A000201"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

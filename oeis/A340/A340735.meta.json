@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer that begins a run of exactly 2*n-1 consecutive integers having at least 4 divisors each.",
+  "id": "A340735",
+  "mentions": [
+    "A045881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-step self-avoiding walks on a 3D cubic lattice where the walk consists of three different units and each unit cannot be adjacent to another unit of the same type.",
+  "id": "A337456",
+  "mentions": [
+    "A001412",
+    "A173380",
+    "A174319",
+    "A336492",
+    "A337441"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

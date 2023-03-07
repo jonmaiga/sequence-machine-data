@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci[ (p - 1) ], where p = Prime[n].",
+  "id": "A121567",
+  "mentions": [
+    "A000045",
+    "A045468",
+    "A064739",
+    "A121568"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of P_2(xi), the maximum limiting probability that a random n-permutation has exactly two cycles exceeding a given length.",
+  "id": "A248791",
+  "mentions": [
+    "A143301",
+    "A246849",
+    "A248080"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

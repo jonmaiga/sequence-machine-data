@@ -1,0 +1,29 @@
+{
+  "description": "a(1) = 0, a(2n) = 1 + a(n), a(2n+1) = 1 + a(A332819(2n+1)); also binary width of terms of A332816.",
+  "id": "A332894",
+  "mentions": [
+    "A000079",
+    "A070939",
+    "A108546",
+    "A252464",
+    "A332808",
+    "A332815",
+    "A332816",
+    "A332819",
+    "A332893",
+    "A332897",
+    "A332898",
+    "A332899"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Coreful highly abundant numbers: numbers m such that csigma(m) > csigma(k) for all k < m, where csigma is the sum of the coreful divisors function (A057723).",
+  "id": "A340111",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A007947",
+    "A057723",
+    "A283052",
+    "A285614",
+    "A292983",
+    "A308053",
+    "A327634",
+    "A328134",
+    "A329883"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

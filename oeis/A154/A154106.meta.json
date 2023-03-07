@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 12*n^2 + 22*n + 11.",
+  "id": "A154106",
+  "mentions": [
+    "A001082",
+    "A016969",
+    "A153286",
+    "A185918",
+    "A194454"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:33",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least prime p such that the second forward difference of three consecutive primes p, q and r is n = (p - 2q + r)/2.",
+  "id": "A316791",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A036263",
+    "A137501",
+    "A295746",
+    "A295973",
+    "A316792"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

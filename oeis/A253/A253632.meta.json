@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+d, p+2d, p+4d, p+8d, p+16d, p+32d and p+64d are also primes for d = 30.",
+  "id": "A253632",
+  "mentions": [
+    "A000040",
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

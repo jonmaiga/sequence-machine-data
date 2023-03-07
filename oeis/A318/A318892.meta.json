@@ -1,0 +1,21 @@
+{
+  "description": "Filter sequence combining the prime signature of n (A046523) with A289625.",
+  "id": "A318892",
+  "mentions": [
+    "A046523",
+    "A289625",
+    "A289628",
+    "A318839",
+    "A318893"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

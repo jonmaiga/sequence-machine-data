@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: connected topologies of the effective potential in Goldstone diagrams with n interactions and k external potentials.",
+  "id": "A328924",
+  "mentions": [
+    "A328921",
+    "A328923"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

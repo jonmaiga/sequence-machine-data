@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m that divide sigma(m + k) where k is some divisor of m.",
+  "id": "A283596",
+  "mentions": [
+    "A000203",
+    "A110817"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

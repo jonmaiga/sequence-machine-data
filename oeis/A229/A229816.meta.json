@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that if the length is k then k is not a part.",
+  "id": "A229816",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A116645"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:02:47",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

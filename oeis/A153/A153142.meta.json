@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of nonnegative integers: A059893-conjugate of A153152.",
+  "id": "A153142",
+  "mentions": [
+    "A003188",
+    "A007305",
+    "A047679",
+    "A059893",
+    "A059894",
+    "A069768",
+    "A072376",
+    "A153141",
+    "A153151",
+    "A153152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

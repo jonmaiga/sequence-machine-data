@@ -1,0 +1,19 @@
+{
+  "description": "Pseudoperfect numbers k such that there is a subset of divisors of k whose sum is 2*k and for each d in this subset k/d is also in it.",
+  "id": "A334405",
+  "mentions": [
+    "A000396",
+    "A005835"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

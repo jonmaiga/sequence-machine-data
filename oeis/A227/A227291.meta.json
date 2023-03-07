@@ -1,0 +1,39 @@
+{
+  "description": "Characteristic function of squarefree numbers squared (A062503).",
+  "id": "A227291",
+  "mentions": [
+    "A000005",
+    "A000196",
+    "A007427",
+    "A008683",
+    "A008836",
+    "A008966",
+    "A010052",
+    "A027750",
+    "A028234",
+    "A037213",
+    "A062503",
+    "A063524",
+    "A067029",
+    "A225546",
+    "A225569",
+    "A225817",
+    "A271102",
+    "A307430",
+    "A322327",
+    "A355448"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

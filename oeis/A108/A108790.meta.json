@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of run lengths in A108788.",
+  "id": "A108790",
+  "mentions": [
+    "A108787",
+    "A108788",
+    "A108789"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0; for n > 0, let S = concatenation of a(0)..a(n-1); a(n) is the number of times the digit at a(n-1) digits back from the end of S appears in S.",
+  "id": "A357930",
+  "mentions": [
+    "A000217",
+    "A117707",
+    "A351753",
+    "A356348"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

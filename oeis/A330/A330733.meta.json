@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows in which row n is the \"complete rhythm\" of n (see Comments for precise definition).",
+  "id": "A330733",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002033",
+    "A038566",
+    "A051953",
+    "A121998"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

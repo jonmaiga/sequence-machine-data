@@ -1,0 +1,43 @@
+{
+  "description": "Number of sets of divisors d|n, 1 < d < n, all belonging to A130091 (numbers with distinct prime multiplicities) and forming a divisibility chain.",
+  "id": "A336571",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A001222",
+    "A002033",
+    "A005117",
+    "A007425",
+    "A032741",
+    "A045778",
+    "A071625",
+    "A074206",
+    "A098859",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A253249",
+    "A294068",
+    "A305149",
+    "A327498",
+    "A327523",
+    "A336422",
+    "A336423",
+    "A336424",
+    "A336500",
+    "A336568",
+    "A336569",
+    "A336570"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

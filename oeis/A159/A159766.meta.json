@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of the Feigenbaum constant A006890 = 4.66920160910...",
+  "id": "A159766",
+  "mentions": [
+    "A006890",
+    "A069261",
+    "A069544"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

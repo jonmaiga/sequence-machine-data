@@ -1,0 +1,20 @@
+{
+  "description": "Michael Stifel's 16 X 16 magic square read by rows.",
+  "id": "A203813",
+  "mentions": [
+    "A202880"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of perfect groups of order A060793(n).",
+  "id": "A231867",
+  "mentions": [
+    "A060793",
+    "A131932"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

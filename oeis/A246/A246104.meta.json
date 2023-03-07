@@ -1,0 +1,23 @@
+{
+  "description": "Least m > 0 for which (s(m), ..., s(n+m-1) = (s(0), ..., s(n)), the first n+1 terms of the infinite Fibonacci word A003849.",
+  "id": "A246104",
+  "mentions": [
+    "A000045",
+    "A001911",
+    "A003849",
+    "A241422",
+    "A246105"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

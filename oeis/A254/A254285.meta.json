@@ -1,0 +1,22 @@
+{
+  "description": "Hexagonal numbers (A000384) which are also centered triangular numbers (A005448).",
+  "id": "A254285",
+  "mentions": [
+    "A000384",
+    "A005448",
+    "A254283",
+    "A254284"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

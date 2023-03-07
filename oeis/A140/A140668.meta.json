@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + A140664(n).",
+  "id": "A140668",
+  "mentions": [
+    "A008683",
+    "A014963",
+    "A140664"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

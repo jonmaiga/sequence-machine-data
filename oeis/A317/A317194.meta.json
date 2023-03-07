@@ -1,0 +1,18 @@
+{
+  "description": "Length of smallest cyclic covering word for covering (n-2)-subsets of an n-set.",
+  "id": "A317194",
+  "mentions": [
+    "A317195"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 16n+1 is a prime.",
+  "id": "A155942",
+  "mentions": [
+    "A094407",
+    "A155941",
+    "A155943"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:30:41",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

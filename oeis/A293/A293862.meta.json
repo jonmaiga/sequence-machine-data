@@ -1,0 +1,17 @@
+{
+  "description": "Sequence of signed integers where each is chosen to be as small as possible (in absolute value) subject to the condition that no three terms a(j), a(j+k), a(j+2k) (for any j and k) form an arithmetic progression; in case of a tie, preference is given to the positive value.",
+  "id": "A293862",
+  "mentions": [
+    "A229037"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

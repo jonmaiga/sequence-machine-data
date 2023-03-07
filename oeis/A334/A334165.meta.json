@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals: A(n,k) = exp(-1/k) * Sum_{j>=0} (k*j + 1)^n / (k^j * j!).",
+  "id": "A334165",
+  "mentions": [
+    "A000110",
+    "A003575",
+    "A003576",
+    "A003577",
+    "A003578",
+    "A003579",
+    "A003580",
+    "A003581",
+    "A003582",
+    "A007405",
+    "A241578",
+    "A241579",
+    "A334162"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

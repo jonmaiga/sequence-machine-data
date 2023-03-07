@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of 9^n - 1.",
+  "id": "A274909",
+  "mentions": [
+    "A006530",
+    "A024101",
+    "A074476",
+    "A074477",
+    "A274906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

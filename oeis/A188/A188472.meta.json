@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [6r]-[nr]-[6r-nr], where r=(1+sqrt(5))/2 and []=floor.",
+  "id": "A188472",
+  "mentions": [
+    "A188017",
+    "A188294",
+    "A188473"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:45",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

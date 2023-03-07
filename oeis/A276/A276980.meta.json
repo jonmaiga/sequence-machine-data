@@ -1,0 +1,20 @@
+{
+  "description": "Odd squarefree numbers n > 1 such that lambda(n)^2 = phi(n), where lambda is the Carmichael lambda function and phi is Euler's totient function.",
+  "id": "A276980",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A002997",
+    "A024556"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

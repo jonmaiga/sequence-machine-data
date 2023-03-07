@@ -1,0 +1,20 @@
+{
+  "description": "Digits d in decimal expansion of n replaced with d-th digit of n (keeping the digits 0). If n does not have enough digits to index, the indexing resumes at the first digit of n as many times as necessary to find the substitution digit. Leading zeros are erased unless the result is 0.",
+  "id": "A327886",
+  "mentions": [
+    "A002326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} (1 + n*x^k) / (1 - n*x^k).",
+  "id": "A292419",
+  "mentions": [
+    "A015128",
+    "A124577",
+    "A291698",
+    "A292418"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes that do not divide any term of A275027.",
+  "id": "A349420",
+  "mentions": [
+    "A275027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

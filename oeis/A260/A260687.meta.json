@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array with n-th row giving coefficients of polynomial Product_{k = 2..n} (k + n*t) for n >= 1.",
+  "id": "A260687",
+  "mentions": [
+    "A000142",
+    "A000169",
+    "A001700",
+    "A006675",
+    "A025174",
+    "A056856",
+    "A163456",
+    "A220883",
+    "A224274",
+    "A251592"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

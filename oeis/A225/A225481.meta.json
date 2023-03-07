@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = product{ p primes <= n+1 such that p divides n+1 or p-1 divides n }.",
+  "id": "A225481",
+  "mentions": [
+    "A000040",
+    "A027760",
+    "A160014",
+    "A226040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

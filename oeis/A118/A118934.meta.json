@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: exp(x + x^4/4).",
+  "id": "A118934",
+  "mentions": [
+    "A000079",
+    "A000085",
+    "A001470",
+    "A052501",
+    "A053497",
+    "A118933",
+    "A293588"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number T(m,n) of series-reduced free trees with n nodes of which exactly m >= 3 are leaves, m+1 <= n <= 2m-2.",
+  "id": "A271205",
+  "mentions": [
+    "A000014",
+    "A007827",
+    "A271362"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

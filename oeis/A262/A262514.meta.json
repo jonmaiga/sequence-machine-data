@@ -1,0 +1,22 @@
+{
+  "description": "Squares present in A259934.",
+  "id": "A262514",
+  "mentions": [
+    "A259934",
+    "A262515",
+    "A262516",
+    "A262517",
+    "A263276"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

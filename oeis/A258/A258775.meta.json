@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 1 + sigma(n)+ sigma(n)^2 is prime.",
+  "id": "A258775",
+  "mentions": [
+    "A000203",
+    "A002384",
+    "A258774",
+    "A258776"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

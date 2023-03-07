@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of the partition array for the products of the hook lengths numbers of Ferrers (or Young) diagrams A263003.",
+  "id": "A263004",
+  "mentions": [
+    "A000041",
+    "A066183",
+    "A117506",
+    "A263003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

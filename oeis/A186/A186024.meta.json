@@ -1,0 +1,26 @@
+{
+  "description": "Inverse of eigentriangle of triangle A085478.",
+  "id": "A186024",
+  "mentions": [
+    "A085478",
+    "A109954",
+    "A123970",
+    "A129818",
+    "A165253",
+    "A186025",
+    "A220670"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

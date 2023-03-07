@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{j=0..n} A000293(j).",
+  "id": "A143123",
+  "mentions": [
+    "A000293"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

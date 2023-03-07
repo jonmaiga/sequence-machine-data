@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers and z <= w such that both x and |x-y| are squares.",
+  "id": "A281975",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A270969",
+    "A271775",
+    "A281939",
+    "A281941",
+    "A281976",
+    "A281977"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z*(3z+1)/2, where x, y and z are integers with 0 <= x <= y such that x or y has the form p-1 with p prime.",
+  "id": "A270966",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A001318",
+    "A160326",
+    "A262813",
+    "A262815",
+    "A262816",
+    "A262827",
+    "A270469",
+    "A270488",
+    "A270516",
+    "A270533",
+    "A270559",
+    "A270566",
+    "A270928"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

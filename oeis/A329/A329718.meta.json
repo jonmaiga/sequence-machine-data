@@ -1,0 +1,29 @@
+{
+  "description": "The number of open tours by a biased rook on a specific f(n) X 1 board, where f(n) = A070941(n) and cells are colored white or black according to the binary representation of 2n.",
+  "id": "A329718",
+  "mentions": [
+    "A027649",
+    "A027650",
+    "A027651",
+    "A053645",
+    "A059894",
+    "A070941",
+    "A110501",
+    "A283811",
+    "A284005",
+    "A329369",
+    "A344902",
+    "A344947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

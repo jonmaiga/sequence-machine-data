@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of decompositions of F(n,1) into disjoint unions of F(j,k) and G(q,r) where F(j,k) is the set of numbers { i*k, 0 <= i <= j } and where G(q,r) is the set of numbers { (2*p-1)*r, 1 <= p <= q }.",
+  "id": "A335631",
+  "mentions": [
+    "A336739"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

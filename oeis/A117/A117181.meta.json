@@ -1,0 +1,21 @@
+{
+  "description": "Highest prime-power dividing the n-th nonsquarefree positive integer.",
+  "id": "A117181",
+  "mentions": [
+    "A013929",
+    "A034699",
+    "A117180",
+    "A117182"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

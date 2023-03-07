@@ -1,0 +1,21 @@
+{
+  "description": "Composite \"antimutinous\" numbers. An antimutinous number is an integer m > 1 where m/p^k < p, where p is the largest prime divisor of m and p^k is the largest power of p dividing m.",
+  "id": "A132858",
+  "mentions": [
+    "A001142",
+    "A027854",
+    "A027855",
+    "A056077",
+    "A132982"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

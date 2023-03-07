@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is n-th positive integer among those which do not occure earlier in sequence and which are coprime to n.",
+  "id": "A105054",
+  "mentions": [
+    "A069213"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

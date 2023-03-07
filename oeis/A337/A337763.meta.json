@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of the n-th n-gonal number into distinct n-gonal numbers.",
+  "id": "A337763",
+  "mentions": [
+    "A000009",
+    "A030273",
+    "A060354",
+    "A288126",
+    "A337762",
+    "A337764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The lesser of j,k, the smallest pair such that A023900(j) + A023900(k) = 0 and j,k are coprime.",
+  "id": "A301857",
+  "mentions": [
+    "A023900",
+    "A301374",
+    "A301591"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

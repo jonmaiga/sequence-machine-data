@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose base phi representation is symmetrical, ignoring the radix point and leading and trailing zeros.",
+  "id": "A330722",
+  "mentions": [
+    "A130600",
+    "A178482",
+    "A330672"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

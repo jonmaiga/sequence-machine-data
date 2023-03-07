@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that c(k,0) < c(k,1), where c(k,d) = number of d's in the first k digits of the base-2 expansion of sqrt(2).",
+  "id": "A293727",
+  "mentions": [
+    "A002103",
+    "A004539",
+    "A293725",
+    "A293726",
+    "A293728"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

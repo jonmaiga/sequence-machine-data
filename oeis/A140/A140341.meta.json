@@ -1,0 +1,20 @@
+{
+  "description": "The number of bits needed to write the universal code for an Elias delta coding, the simplest asymptotically optimal code.",
+  "id": "A140341",
+  "mentions": [
+    "A129972",
+    "A130233",
+    "A281150"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

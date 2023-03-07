@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(((i^n * PolyLog(1 - n, -i) + (-i)^n * PolyLog(1 - n, i))) / (4^n - 2^n)) if n > 0 and a(0) = 1. Here i denotes the imaginary unit.",
+  "id": "A342319",
+  "mentions": [
+    "A006953",
+    "A193475",
+    "A342318"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

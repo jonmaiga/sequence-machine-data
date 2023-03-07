@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-1)^(n + floor(n/4) + floor(n/4^2) + ...).",
+  "id": "A112865",
+  "mentions": [
+    "A112539",
+    "A341389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

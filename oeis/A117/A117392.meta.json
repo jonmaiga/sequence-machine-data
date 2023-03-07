@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p=prime(k) such that there exist numbers i and j with prime(k-1) < i < p < j < prime(k+1) and gcd(i,j)=n.",
+  "id": "A117392",
+  "mentions": [
+    "A049084",
+    "A117391"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

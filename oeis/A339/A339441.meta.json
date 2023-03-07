@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into an even number of distinct triangular numbers.",
+  "id": "A339441",
+  "mentions": [
+    "A000217",
+    "A331843",
+    "A332305",
+    "A339375",
+    "A339416",
+    "A339442"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

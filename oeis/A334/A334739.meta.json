@@ -1,0 +1,24 @@
+{
+  "description": "Number of unordered factorizations of n with 2 different parts > 1.",
+  "id": "A334739",
+  "mentions": [
+    "A001055",
+    "A045778",
+    "A072670",
+    "A122179",
+    "A122180",
+    "A211159",
+    "A334740"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

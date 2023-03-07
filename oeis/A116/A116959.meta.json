@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k>0 for which lcm(1,...,k) is greater than k^n.",
+  "id": "A116959",
+  "mentions": [
+    "A179925"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

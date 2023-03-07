@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary strings of length n avoiding substrings 1000, 1011, 1101, or 1111.",
+  "id": "A294049",
+  "mentions": [
+    "A164417",
+    "A164420"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

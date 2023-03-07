@@ -1,0 +1,19 @@
+{
+  "description": "Leap years in Symmetry454 calendar, starting year AD 1.",
+  "id": "A261190",
+  "mentions": [
+    "A057347",
+    "A057349",
+    "A189917"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The smallest n-digit number whose last k digits are divisible by k^2 for k = 1..n, otherwise 0 (for n > 1).",
+  "id": "A228013",
+  "mentions": [
+    "A079238"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

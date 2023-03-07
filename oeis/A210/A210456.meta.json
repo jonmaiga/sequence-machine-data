@@ -1,0 +1,27 @@
+{
+  "description": "Period of the sequence of the digital roots of Fibonacci n-step numbers.",
+  "id": "A210456",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A001175",
+    "A010888",
+    "A029898",
+    "A030132",
+    "A046738",
+    "A187772",
+    "A220555",
+    "A222407"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

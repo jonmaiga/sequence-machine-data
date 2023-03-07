@@ -1,0 +1,25 @@
+{
+  "description": "Signature-permutation of a Catalan automorphism, a self-inverse variant of A127377.",
+  "id": "A127387",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A069770",
+    "A127302",
+    "A127377",
+    "A127378",
+    "A127385",
+    "A127388",
+    "A127389"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the numbers of primes not exceeding p in A268476 and A268477 are equal.",
+  "id": "A268483",
+  "mentions": [
+    "A027697",
+    "A027699",
+    "A130911",
+    "A268476",
+    "A268477"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

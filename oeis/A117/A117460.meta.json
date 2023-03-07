@@ -1,0 +1,28 @@
+{
+  "description": "Primes prime(i) such that their sum-of-index-digits A007953(i) and their sum-of-digits A007605(i) are consecutive primes.",
+  "id": "A117460",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A007953",
+    "A033548",
+    "A033549",
+    "A046704",
+    "A117458",
+    "A117459",
+    "A117461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

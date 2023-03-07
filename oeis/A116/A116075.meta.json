@@ -1,0 +1,19 @@
+{
+  "description": "Smaller pair of the primes described in A116074.",
+  "id": "A116075",
+  "mentions": [
+    "A116074",
+    "A116076"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

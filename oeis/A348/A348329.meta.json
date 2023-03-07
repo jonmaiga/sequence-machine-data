@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k' = k'', where ' is the arithmetic derivative.",
+  "id": "A348329",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A068346",
+    "A100408"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

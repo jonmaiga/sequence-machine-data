@@ -1,0 +1,37 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals upwards, n, k > 0: T(n, k) = A227736(n, k) for k = 1..A005811(n), and T(n, k) = T(n, k - A005811(n)) + ... + T(n, k-1) for k > A005811(n).",
+  "id": "A341694",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000045",
+    "A000213",
+    "A000288",
+    "A005811",
+    "A007395",
+    "A010701",
+    "A043569",
+    "A043570",
+    "A043571",
+    "A104449",
+    "A126646",
+    "A136480",
+    "A227736",
+    "A275778",
+    "A341699",
+    "A341746"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

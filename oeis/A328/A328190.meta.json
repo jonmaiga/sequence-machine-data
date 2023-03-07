@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that the sequence and its first differences have no values in common.",
+  "id": "A328190",
+  "mentions": [
+    "A005228",
+    "A047218",
+    "A080426",
+    "A297469",
+    "A327460",
+    "A328196",
+    "A328979",
+    "A328984",
+    "A328985",
+    "A329190"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{p | A055204(n)} 2^(pi(p) - 1).",
+  "id": "A336510",
+  "mentions": [
+    "A055204",
+    "A067255",
+    "A240504"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

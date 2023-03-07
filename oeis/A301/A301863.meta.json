@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability of intersection of 2 random chords in a circle, where each chord is selected by 2 random points within the circle.",
+  "id": "A301863",
+  "mentions": [
+    "A301862",
+    "A301864",
+    "A301865"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of n X 2 binary arrays with no element equal to a strict majority of its knight-move neighbors.",
+  "id": "A183393",
+  "mentions": [
+    "A183397"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

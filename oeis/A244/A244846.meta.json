@@ -1,0 +1,18 @@
+{
+  "description": "Least triangular number t>p such that q=p+t is also prime, where p=prime(n).",
+  "id": "A244846",
+  "mentions": [
+    "A000040",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

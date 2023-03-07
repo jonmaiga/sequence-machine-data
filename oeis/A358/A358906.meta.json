@@ -1,0 +1,39 @@
+{
+  "description": "Number of finite sequences of distinct integer partitions with total sum n.",
+  "id": "A358906",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000219",
+    "A001970",
+    "A055887",
+    "A063834",
+    "A098407",
+    "A261049",
+    "A271619",
+    "A279787",
+    "A296122",
+    "A304969",
+    "A330463",
+    "A336342",
+    "A358830",
+    "A358836",
+    "A358901",
+    "A358907",
+    "A358908",
+    "A358912",
+    "A358913",
+    "A358914"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

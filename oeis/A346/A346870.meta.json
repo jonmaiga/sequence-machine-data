@@ -1,0 +1,27 @@
+{
+  "description": "Sum of all divisors, except the smallest and the largest of every number, of the first n positive even numbers.",
+  "id": "A346870",
+  "mentions": [
+    "A000203",
+    "A005843",
+    "A048050",
+    "A062731",
+    "A237593",
+    "A244049",
+    "A245092",
+    "A326124",
+    "A346869",
+    "A346880"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

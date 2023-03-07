@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest term of A242720 that is repeated exactly n times, or 0 if there is no such term.",
+  "id": "A246502",
+  "mentions": [
+    "A242719",
+    "A242720",
+    "A246501"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

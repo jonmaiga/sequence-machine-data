@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (7+sqrt(93))/6.",
+  "id": "A177003",
+  "mentions": [
+    "A010544",
+    "A157810"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:21",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

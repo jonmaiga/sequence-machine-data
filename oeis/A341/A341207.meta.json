@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 10 nonzero decimal palindromes.",
+  "id": "A341207",
+  "mentions": [
+    "A002113",
+    "A136522",
+    "A319475",
+    "A341168",
+    "A341184",
+    "A341191",
+    "A341192",
+    "A341193",
+    "A341203",
+    "A341204",
+    "A341205",
+    "A341206"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 10,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

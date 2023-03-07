@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-1)^n * Sum_{k=0..n} (-1)^k*2^(2^k).",
+  "id": "A325912",
+  "mentions": [
+    "A001146",
+    "A060803",
+    "A325910"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

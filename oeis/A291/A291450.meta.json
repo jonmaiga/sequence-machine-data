@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of Integral_{x=0..1} P(n, x)^3 with P(n, x) = Sum_{k=0..n}(-1)^(n-k)* Stirling2(n, k)*k!*x^k.",
+  "id": "A291450",
+  "mentions": [
+    "A027642",
+    "A164555",
+    "A181131",
+    "A212196",
+    "A290694",
+    "A290695",
+    "A291447",
+    "A291448",
+    "A291449"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

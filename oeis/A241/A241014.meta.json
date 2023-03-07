@@ -1,0 +1,22 @@
+{
+  "description": "Let p be the n-th prime, then a(n) = A/p where A is the smallest number (in absolute value) such that F_{p-(p/5)} == A (mod p^2) with F_n = A000045(n) and (p/5) the Legendre symbol.",
+  "id": "A241014",
+  "mentions": [
+    "A000045",
+    "A113650",
+    "A195988",
+    "A244801",
+    "A339855",
+    "A347565"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

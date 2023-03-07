@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1 / AGM(1-9*x, sqrt((1-x)*(1-81*x))).",
+  "id": "A246923",
+  "mentions": [
+    "A084771",
+    "A246467",
+    "A246906",
+    "A248167"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

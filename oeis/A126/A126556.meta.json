@@ -1,0 +1,22 @@
+{
+  "description": "Arithmetic mean of two consecutive prime interprimes of second order: interprimes of third order.",
+  "id": "A126556",
+  "mentions": [
+    "A006562",
+    "A024675",
+    "A126554",
+    "A126555",
+    "A126557"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

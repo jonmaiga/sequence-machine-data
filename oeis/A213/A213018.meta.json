@@ -1,0 +1,21 @@
+{
+  "description": "Largest possible right-truncatable base n semiprime, written in decimal notation.",
+  "id": "A213018",
+  "mentions": [
+    "A001358",
+    "A085733",
+    "A213017"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 5,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

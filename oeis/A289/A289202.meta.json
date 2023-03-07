@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximum matchings in the n X n knight graph.",
+  "id": "A289202",
+  "mentions": [
+    "A287225",
+    "A289200"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers k such that exactly half the numbers in [1..k] are prime(n)-smooth.",
+  "id": "A308905",
+  "mentions": [
+    "A000079",
+    "A003586",
+    "A290154",
+    "A308904"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

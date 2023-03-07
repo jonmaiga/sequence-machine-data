@@ -1,0 +1,18 @@
+{
+  "description": "Skylar (age 7) counts change by stacking all coins of the same type then arranging the stacks in a row. a(n) is the number of distinct Skylar stackings of n cents using any combination of pennies, nickels, dimes or quarters.",
+  "id": "A129263",
+  "mentions": [
+    "A001299"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

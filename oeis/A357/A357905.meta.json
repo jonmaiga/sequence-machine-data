@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = log_3(A060839(n)).",
+  "id": "A357905",
+  "mentions": [
+    "A060839",
+    "A072273",
+    "A357906"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

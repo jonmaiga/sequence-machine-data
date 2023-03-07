@@ -1,0 +1,22 @@
+{
+  "description": "The number of quinary strings of length n containing 00.",
+  "id": "A351530",
+  "mentions": [
+    "A008466",
+    "A086347",
+    "A186244",
+    "A351529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

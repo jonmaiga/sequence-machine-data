@@ -1,0 +1,18 @@
+{
+  "description": "First pentagonal number, 2nd hexagonal number, 3rd heptagonal number, 4th octagonal number and then repeat the same pattern: 5th pentagonal, 6th hexagonal, 7th heptagonal, 8th octagonal, etc.",
+  "id": "A122061",
+  "mentions": [
+    "A060354"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:10:11",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

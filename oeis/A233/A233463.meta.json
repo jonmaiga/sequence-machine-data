@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the three numbers pi(n), pi(n^2), and pi(n^3) are prime.",
+  "id": "A233463",
+  "mentions": [
+    "A000720",
+    "A237658"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

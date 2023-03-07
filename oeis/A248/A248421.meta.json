@@ -1,0 +1,21 @@
+{
+  "description": "Floor( 1/(n*tan(Pi/n) - Pi) ).",
+  "id": "A248421",
+  "mentions": [
+    "A248418",
+    "A248419",
+    "A248420"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:37:57",
+    "offset": 3,
+    "size": 59,
+    "source": "joeis"
+  }
+}

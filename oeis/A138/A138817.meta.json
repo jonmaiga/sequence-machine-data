@@ -1,0 +1,25 @@
+{
+  "description": "Concatenation of final digit of n-th Mersenne prime A000668(n), final digit of n-th even superperfect number A061652(n) and final digit of n-th perfect number A000396(n).",
+  "id": "A138817",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A019279",
+    "A061652",
+    "A080172",
+    "A094540",
+    "A138125"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

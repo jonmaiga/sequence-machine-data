@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number that is a (2n+1)-digit palindrome in three consecutive integer bases, or 0 if no such number exists.",
+  "id": "A323742",
+  "mentions": [
+    "A279093",
+    "A327810"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

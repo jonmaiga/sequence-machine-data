@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n such that the absolute value of the difference between the number of odd parts and the number of even parts is <=1.",
+  "id": "A239835",
+  "mentions": [
+    "A045931",
+    "A239832",
+    "A239833",
+    "A239871",
+    "A240009"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

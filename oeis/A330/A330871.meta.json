@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+1 are both phi-practical numbers (A260653).",
+  "id": "A330871",
+  "mentions": [
+    "A260653",
+    "A287681"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

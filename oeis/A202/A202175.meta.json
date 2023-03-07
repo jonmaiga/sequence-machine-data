@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals of spreading numbers alpha_n(k).",
+  "id": "A202175",
+  "mentions": [
+    "A053307",
+    "A202169",
+    "A202176"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

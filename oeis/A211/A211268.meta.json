@@ -1,0 +1,21 @@
+{
+  "description": "Integral of a Gaussian peak with unit height and unit half-height width.",
+  "id": "A211268",
+  "mentions": [
+    "A019669",
+    "A211269"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

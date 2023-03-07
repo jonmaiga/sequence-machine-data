@@ -1,0 +1,20 @@
+{
+  "description": "Shorter side (l) of bordered rectangle described in A168339.",
+  "id": "A145288",
+  "mentions": [
+    "A143082",
+    "A161358",
+    "A168339"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

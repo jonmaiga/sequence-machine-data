@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that T(n) + T(n+1) + ... + T(n+12) is a square, where T = A000217 (triangular numbers).",
+  "id": "A257293",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001110",
+    "A077415",
+    "A116476",
+    "A165517",
+    "A176541",
+    "A176542",
+    "A202391"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

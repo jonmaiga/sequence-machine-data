@@ -1,0 +1,20 @@
+{
+  "description": "Record term value of A190874",
+  "id": "A202186",
+  "mentions": [
+    "A168425",
+    "A174641",
+    "A190874",
+    "A202187"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

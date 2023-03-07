@@ -1,0 +1,24 @@
+{
+  "description": "The 10-adic integer a = ...1588948901 satisfying a^2 + 1 = b, b^2 + 1 = c, c^2 + 1 = d, d^2 + 1 = e, e^2 + 1 = f, and f^2 + 1 = a.",
+  "id": "A318135",
+  "mentions": [
+    "A003095",
+    "A018247",
+    "A318136",
+    "A318137",
+    "A318138",
+    "A318139",
+    "A318140"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 150,
+    "source": "oeis-bfile"
+  }
+}

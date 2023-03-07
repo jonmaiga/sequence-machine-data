@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + A082183(n) - A082184(n).",
+  "id": "A332553",
+  "mentions": [
+    "A082183",
+    "A082184",
+    "A332552"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

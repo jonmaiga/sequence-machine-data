@@ -1,0 +1,18 @@
+{
+  "description": "Base at which the first composite occurs in the sequence p=prime(n), p1=base(p,9), p2=base(p1,8), p3=base(p2,7),..., where base(N,b) means N written in base b and read in base 10; a(n)=0 if p1,...,p8 are all prime.",
+  "id": "A193889",
+  "mentions": [
+    "A193888"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

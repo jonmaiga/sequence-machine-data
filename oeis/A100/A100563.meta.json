@@ -1,0 +1,33 @@
+{
+  "description": "Number of bases less than sqrt(n) in which n is a palindrome.",
+  "id": "A100563",
+  "mentions": [
+    "A000042",
+    "A033831",
+    "A060873",
+    "A060874",
+    "A060875",
+    "A060876",
+    "A060877",
+    "A060878",
+    "A060879",
+    "A060947",
+    "A060948",
+    "A060949",
+    "A123586",
+    "A135551"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there are no numbers with k primitive roots.",
+  "id": "A231773",
+  "mentions": [
+    "A007617",
+    "A010554",
+    "A046144",
+    "A231772"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

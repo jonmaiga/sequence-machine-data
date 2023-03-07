@@ -1,0 +1,20 @@
+{
+  "description": "Number of triadic partitions of the unit square into (2n+1) subrectangles.",
+  "id": "A322543",
+  "mentions": [
+    "A000108",
+    "A005408",
+    "A236339"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

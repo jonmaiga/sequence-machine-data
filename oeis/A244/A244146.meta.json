@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form x^2 + x*y + y^2 with x, y primes.",
+  "id": "A244146",
+  "mentions": [
+    "A007645",
+    "A045331"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

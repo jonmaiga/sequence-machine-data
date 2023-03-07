@@ -1,0 +1,18 @@
+{
+  "description": "A bisection of A178482.",
+  "id": "A171070",
+  "mentions": [
+    "A171071",
+    "A178482"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

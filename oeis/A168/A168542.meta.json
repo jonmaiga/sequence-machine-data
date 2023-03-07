@@ -1,0 +1,21 @@
+{
+  "description": "Number of trees that have a maximum 'n'.",
+  "id": "A168542",
+  "mentions": [
+    "A003095",
+    "A070939",
+    "A091980",
+    "A309049"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

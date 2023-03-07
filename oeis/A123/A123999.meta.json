@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered ways of writing n as a sum of 4 squares of nonnegative numbers less than 4.",
+  "id": "A123999",
+  "mentions": [
+    "A000118",
+    "A014110",
+    "A123337"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

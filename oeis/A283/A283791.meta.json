@@ -1,0 +1,18 @@
+{
+  "description": "List of prime numbers p such that all prime factors of p+1 and p-1 are smaller than the cube root of p.",
+  "id": "A283791",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

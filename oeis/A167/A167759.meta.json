@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that d(k) is an isolated number (A167706).",
+  "id": "A167759",
+  "mentions": [
+    "A000005",
+    "A002035",
+    "A007510",
+    "A014574",
+    "A167706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator of Product_{k=1..n} k^mu(k), where mu(k) = A008683(k).",
+  "id": "A130086",
+  "mentions": [
+    "A008683",
+    "A130087",
+    "A130088",
+    "A130089"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

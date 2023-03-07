@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows in which each term is the least positive integer satisfying the condition that no row, diagonal, or antidiagonal contains a repeated term.",
+  "id": "A334049",
+  "mentions": [
+    "A269526",
+    "A274821"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

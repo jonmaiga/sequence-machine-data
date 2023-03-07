@@ -1,0 +1,22 @@
+{
+  "description": "Larger of amicable pair m < n defined by t(n) = m and t(m) = n where t(n) = psi(n) - n and psi(n) = A001615(n) is the Dedekind psi function.",
+  "id": "A323330",
+  "mentions": [
+    "A001615",
+    "A002046",
+    "A033845",
+    "A323327",
+    "A323328",
+    "A323329"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

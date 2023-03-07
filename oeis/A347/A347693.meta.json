@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k >= 2*n such that k is a prime or twice a prime.",
+  "id": "A347693",
+  "mentions": [
+    "A016726",
+    "A347694"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The MC polynomials.",
+  "id": "A163972",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A053657",
+    "A075264",
+    "A163402",
+    "A163940",
+    "A163943",
+    "A163944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

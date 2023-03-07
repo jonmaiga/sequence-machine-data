@@ -1,0 +1,23 @@
+{
+  "description": "Array of coefficients of powers of x^2 for S(2*n,x)^3 with Chebyshev's S polynomials A049310.",
+  "id": "A220666",
+  "mentions": [
+    "A016777",
+    "A049310",
+    "A219240",
+    "A220665"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

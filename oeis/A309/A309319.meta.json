@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: 1/Product_{k>0} (1 - x^(2*k)/(2*k)) (even powers only).",
+  "id": "A309319",
+  "mentions": [
+    "A001620",
+    "A007838",
+    "A007841",
+    "A087639",
+    "A088994",
+    "A294506"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

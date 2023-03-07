@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of nine fifth powers in exactly seven ways.",
+  "id": "A346342",
+  "mentions": [
+    "A345624",
+    "A345849",
+    "A346332",
+    "A346341",
+    "A346343",
+    "A346352"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

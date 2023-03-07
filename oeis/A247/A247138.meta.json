@@ -1,0 +1,18 @@
+{
+  "description": "Least k >= 0 such that 2n+1 - 2^k is a prime power, or -1 if no such k exists.",
+  "id": "A247138",
+  "mentions": [
+    "A000079",
+    "A000961"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 131,
+    "source": "oeis-entry"
+  }
+}

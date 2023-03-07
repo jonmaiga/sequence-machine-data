@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of quadruples contained in the divisors of A328149(n).",
+  "id": "A328204",
+  "mentions": [
+    "A027750",
+    "A096545",
+    "A328149",
+    "A330894"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

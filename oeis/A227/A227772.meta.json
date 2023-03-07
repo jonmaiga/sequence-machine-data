@@ -1,0 +1,21 @@
+{
+  "description": "Sequence based on factorial representation converging to 1 in 2-adic numbers, and 0 in p-adic numbers for any other p.",
+  "id": "A227772",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A049606",
+    "A060818"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

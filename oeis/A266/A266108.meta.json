@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + (x + x^2)^k).",
+  "id": "A266108",
+  "mentions": [
+    "A000009",
+    "A001622",
+    "A238441",
+    "A266124"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

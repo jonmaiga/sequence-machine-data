@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into colored blocks of equal parts with colors from a set of size n.",
+  "id": "A321880",
+  "mentions": [
+    "A000142",
+    "A003056",
+    "A321878",
+    "A321884",
+    "A325916"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

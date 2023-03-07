@@ -1,0 +1,23 @@
+{
+  "description": "An eventually quasi-quadratic sequence satisfying a Hofstadter-like recurrence.",
+  "id": "A268368",
+  "mentions": [
+    "A005185",
+    "A188670",
+    "A244477",
+    "A264757",
+    "A267501"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:49",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

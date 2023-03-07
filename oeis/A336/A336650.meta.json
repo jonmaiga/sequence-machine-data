@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p^e, where p is the smallest odd prime factor of n, and e is its exponent, with a(n) = 1 when n is a power of two.",
+  "id": "A336650",
+  "mentions": [
+    "A000265",
+    "A028233",
+    "A078701",
+    "A336362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

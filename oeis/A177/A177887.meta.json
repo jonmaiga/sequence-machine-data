@@ -1,0 +1,19 @@
+{
+  "description": "The areas of Pythagorean triangles divided by 6.",
+  "id": "A177887",
+  "mentions": [
+    "A009112",
+    "A256418"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:50",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

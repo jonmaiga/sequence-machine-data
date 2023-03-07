@@ -1,0 +1,29 @@
+{
+  "description": "Triangular matrix T, read by rows, that satisfies: SHIFT_LEFT(column 0 of T^p) = p*(column p+3 of T), or [T^p](m,0) = p*T(p+m,p+3) for all m>=1 and p>=-3.",
+  "id": "A111544",
+  "mentions": [
+    "A104980",
+    "A111528",
+    "A111530",
+    "A111536",
+    "A111545",
+    "A111546",
+    "A111547",
+    "A111548",
+    "A111549",
+    "A111552",
+    "A111553"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

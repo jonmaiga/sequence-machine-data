@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2^(2^k)+81.",
+  "id": "A160028",
+  "mentions": [
+    "A273547"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

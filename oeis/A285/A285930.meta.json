@@ -1,0 +1,17 @@
+{
+  "description": "Run lengths of 0's in A282317, the lexicographically first cubefree sequence in {0,1} .",
+  "id": "A285930",
+  "mentions": [
+    "A282317"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

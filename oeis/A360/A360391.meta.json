@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct sums of nonempty subsets of the digits of n.",
+  "id": "A360391",
+  "mentions": [
+    "A007953",
+    "A043562",
+    "A054054",
+    "A054055",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

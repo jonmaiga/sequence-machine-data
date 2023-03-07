@@ -1,0 +1,33 @@
+{
+  "description": "Multiples of 17 and odd numbers interleaved.",
+  "id": "A317317",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A008599",
+    "A022998",
+    "A026741",
+    "A080512",
+    "A165998",
+    "A195140",
+    "A195151",
+    "A195159",
+    "A195161",
+    "A195312",
+    "A195817",
+    "A303298"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:31",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

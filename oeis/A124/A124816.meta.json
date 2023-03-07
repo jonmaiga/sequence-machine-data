@@ -1,0 +1,25 @@
+{
+  "description": "Product of Riordan array (1,x(1-x^2))^(-1) and number triangle T(n,k)=C(floor(k/2),n-k).",
+  "id": "A124816",
+  "mentions": [
+    "A001764",
+    "A047749",
+    "A084081",
+    "A124305",
+    "A124788",
+    "A124790",
+    "A124817",
+    "A124818"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

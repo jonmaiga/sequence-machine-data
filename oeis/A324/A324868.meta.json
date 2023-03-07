@@ -1,0 +1,22 @@
+{
+  "description": "Binary weight of A324398(n).",
+  "id": "A324868",
+  "mentions": [
+    "A000120",
+    "A156552",
+    "A323243",
+    "A324398",
+    "A324816"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

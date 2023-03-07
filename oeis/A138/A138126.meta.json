@@ -1,0 +1,22 @@
+{
+  "description": "Indices among the primes of the primes in A020461.",
+  "id": "A138126",
+  "mentions": [
+    "A000040",
+    "A020461",
+    "A054356",
+    "A138132"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

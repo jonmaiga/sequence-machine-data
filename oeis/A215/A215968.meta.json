@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k > 0 such that 240*k*p+1 , 6*k*p*(240*k*p+1)+1 , and 40*(6*k*p*(240*k*p+1)+1)+1 are prime or 0 if no solution, where p = prime(n).",
+  "id": "A215968",
+  "mentions": [
+    "A215697"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

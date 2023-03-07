@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers which are not the semiperimeter of any triangle with integer sides and area.",
+  "id": "A305705",
+  "mentions": [
+    "A051518",
+    "A305703",
+    "A305704"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number m with exactly n such divisors d that sigma(d) divides m.",
+  "id": "A309253",
+  "mentions": [
+    "A173441",
+    "A326696",
+    "A326697",
+    "A326698"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

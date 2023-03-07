@@ -1,0 +1,20 @@
+{
+  "description": "The Fibonacci word in A104324 partitioned into blocks.",
+  "id": "A288576",
+  "mentions": [
+    "A000045",
+    "A104324"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose number of nonzero binary digits is less than their number of nonzero decimal digits.",
+  "id": "A239751",
+  "mentions": [
+    "A000120",
+    "A051596",
+    "A055640"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

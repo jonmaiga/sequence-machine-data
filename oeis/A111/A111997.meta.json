@@ -1,0 +1,20 @@
+{
+  "description": "Ninth convolution of Schroeder's (second problem) numbers A001003(n), n>=0.",
+  "id": "A111997",
+  "mentions": [
+    "A001003",
+    "A011117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

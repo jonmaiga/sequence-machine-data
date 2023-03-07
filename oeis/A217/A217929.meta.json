@@ -1,0 +1,18 @@
+{
+  "description": "Number of sequences of n 2's and 3's with curling number 2, which have the form XY^2 with Y = 2, and which are robust.",
+  "id": "A217929",
+  "mentions": [
+    "A217832",
+    "A217930"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

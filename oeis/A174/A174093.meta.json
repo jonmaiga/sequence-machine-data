@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) = binomial(n-k+1, k) + binomial(k+1, n-k) with T(0,0) = T(1, 0) = T(1, 1) = 1, read by rows.",
+  "id": "A174093",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A071679",
+    "A174095",
+    "A174096",
+    "A174097"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

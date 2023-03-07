@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers m such that lpf(2^m - 1) == 1 (mod m).",
+  "id": "A292559",
+  "mentions": [
+    "A002326",
+    "A049479",
+    "A214305",
+    "A236769",
+    "A291855",
+    "A292834",
+    "A298076"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

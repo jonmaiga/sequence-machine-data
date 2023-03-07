@@ -1,0 +1,19 @@
+{
+  "description": "Greatest common divisor of consecutive terms in A176352.",
+  "id": "A218535",
+  "mentions": [
+    "A176352",
+    "A218533",
+    "A218534"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

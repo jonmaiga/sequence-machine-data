@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer b such that the digit representation of n in base b is equal to the digit representation in base b of the initial terms of the sets of divisors of n in increasing order, or -1 if no such b exists.",
+  "id": "A357481",
+  "mentions": [
+    "A000027",
+    "A056653",
+    "A175252",
+    "A357428",
+    "A357429"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

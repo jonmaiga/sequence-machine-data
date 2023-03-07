@@ -1,0 +1,28 @@
+{
+  "description": "Number of iterations of map x -> (x - (largest divisor d < x)) needed to reach 1 or a prime, when starting at x = n.",
+  "id": "A323077",
+  "mentions": [
+    "A001222",
+    "A006530",
+    "A032742",
+    "A052126",
+    "A060681",
+    "A064097",
+    "A323076",
+    "A334198",
+    "A334201",
+    "A334202",
+    "A334203"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

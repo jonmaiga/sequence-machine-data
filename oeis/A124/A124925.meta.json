@@ -1,0 +1,21 @@
+{
+  "description": "Interlaced triples: a(3n+1)=1, a(3n+2) = 2n+3, a(3n+3)= A028387(n).",
+  "id": "A124925",
+  "mentions": [
+    "A001622",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:45:13",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

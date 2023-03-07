@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k whose abundance is 12: sigma(k) - 2*k = 12.",
+  "id": "A141545",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A076496",
+    "A096818",
+    "A141549"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

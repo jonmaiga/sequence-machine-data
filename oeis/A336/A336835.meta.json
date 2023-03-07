@@ -1,0 +1,37 @@
+{
+  "description": "Number of iterations of x -> A003961(x) needed before the result is deficient (sigma(x) < 2x), when starting from x=n.",
+  "id": "A336835",
+  "mentions": [
+    "A003961",
+    "A005100",
+    "A005940",
+    "A023196",
+    "A025487",
+    "A046523",
+    "A047802",
+    "A071364",
+    "A108951",
+    "A246271",
+    "A252459",
+    "A286385",
+    "A294934",
+    "A294936",
+    "A336389",
+    "A336834",
+    "A336836",
+    "A336915",
+    "A337474",
+    "A337475"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

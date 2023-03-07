@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonnegative integer matrices with 2 columns and any number of distinct nonzero rows with column sums n and columns in nonincreasing lexicographic order.",
+  "id": "A331711",
+  "mentions": [
+    "A032020",
+    "A331572",
+    "A331646",
+    "A331712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

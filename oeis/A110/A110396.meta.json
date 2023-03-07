@@ -1,0 +1,20 @@
+{
+  "description": "10's complement factorial of n: a(n) = (10's complement of n)*(10's complement of n-1)*...*(10's complement of 2)*(10's complement of 1).",
+  "id": "A110396",
+  "mentions": [
+    "A110394",
+    "A110395"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

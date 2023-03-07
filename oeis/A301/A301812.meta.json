@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form p^2 - 1 where p is a prime of the form 3*k-1 (A003627).",
+  "id": "A301812",
+  "mentions": [
+    "A003627",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:01",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

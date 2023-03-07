@@ -1,0 +1,25 @@
+{
+  "description": "Moessner triangle using the Fibonacci terms.",
+  "id": "A125752",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A014132",
+    "A081667",
+    "A125714",
+    "A125750",
+    "A125751"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

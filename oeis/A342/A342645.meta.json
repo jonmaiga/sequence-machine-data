@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives n! times the coefficient of x^k in the polynomial that describes the number of permutations on x letters with major index n.",
+  "id": "A342645",
+  "mentions": [
+    "A008302",
+    "A053657",
+    "A290030"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

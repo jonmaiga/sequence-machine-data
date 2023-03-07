@@ -1,0 +1,21 @@
+{
+  "description": "Number of matchings (independent edge subsets) in the rooted tree with Matula-Goebel number n.",
+  "id": "A193404",
+  "mentions": [
+    "A184165",
+    "A202853",
+    "A347966",
+    "A347967"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

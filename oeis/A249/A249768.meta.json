@@ -1,0 +1,18 @@
+{
+  "description": "Row \"sums\" of triangle A245618, using the operation <+> defined in A245618.",
+  "id": "A249768",
+  "mentions": [
+    "A245618",
+    "A245619"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n-th third-order hypergeometric-harmonic number.",
+  "id": "A222064",
+  "mentions": [
+    "A000142",
+    "A008277",
+    "A222057",
+    "A222063"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

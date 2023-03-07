@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that r - sum{1/F(n), h = 1..k} < 1/2^(n+1), where F(n) = A000045 (Fibonacci numbers) and r = sum{1/F(n), h = 1..infinity}.",
+  "id": "A248178",
+  "mentions": [
+    "A000045",
+    "A079587",
+    "A248148"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

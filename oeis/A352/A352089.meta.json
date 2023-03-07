@@ -1,0 +1,41 @@
+{
+  "description": "Tribonacci-Niven numbers: numbers that are divisible by the number of terms in their minimal (or greedy) representation in terms of the tribonacci numbers (A278038).",
+  "id": "A352089",
+  "mentions": [
+    "A000073",
+    "A005349",
+    "A042964",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A278038",
+    "A278043",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342426",
+    "A342726",
+    "A344341",
+    "A351714",
+    "A351719",
+    "A352090",
+    "A352091",
+    "A352092"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of ways to divide the partitions of n into nonempty consecutive subsequences each of which contains only equal parts and parts from distinct subsequences differ by at least k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A218698",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A006951",
+    "A116931",
+    "A116932",
+    "A218699",
+    "A218700",
+    "A218701",
+    "A218702",
+    "A218703",
+    "A218704",
+    "A218705",
+    "A319776"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

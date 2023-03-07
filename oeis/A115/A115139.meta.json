@@ -1,0 +1,31 @@
+{
+  "description": "Array of coefficients of polynomials related to integer powers of the generating function of Catalan numbers A000108.",
+  "id": "A115139",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A008619",
+    "A010892",
+    "A011973",
+    "A030528",
+    "A049310",
+    "A053122",
+    "A092865",
+    "A098925",
+    "A102426",
+    "A169803"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

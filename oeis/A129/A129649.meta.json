@@ -1,0 +1,23 @@
+{
+  "description": "Largest order of a permutation of n elements with exactly 4 cycles. Also the largest LCM of a 4-partition of n.",
+  "id": "A129649",
+  "mentions": [
+    "A000793",
+    "A129647",
+    "A129648",
+    "A129650",
+    "A129651",
+    "A355367",
+    "A355403"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

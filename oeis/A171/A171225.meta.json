@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers which cannot be represented by inserting plus or minus signs between the digits of 123456789.",
+  "id": "A171225",
+  "mentions": [
+    "A066956"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

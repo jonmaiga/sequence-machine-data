@@ -1,0 +1,23 @@
+{
+  "description": "Modified reduced Collatz map fs acting on positive odd integers.",
+  "id": "A324036",
+  "mentions": [
+    "A000302",
+    "A072197",
+    "A075677",
+    "A324037",
+    "A324038"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

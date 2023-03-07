@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 6k+13 is prime and 12k+13 is also prime.",
+  "id": "A145488",
+  "mentions": [
+    "A063908",
+    "A063913",
+    "A092109",
+    "A145471",
+    "A145474",
+    "A145490"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

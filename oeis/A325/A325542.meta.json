@@ -1,0 +1,21 @@
+{
+  "description": "Difference sequence of A325540.",
+  "id": "A325542",
+  "mentions": [
+    "A325417",
+    "A325539",
+    "A325540",
+    "A325541"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The 10-adic integer a_6 = ...17275390626 satisfying a_6^5 + 1 = a_7, a_7^5 + 1 = a_8, ... , a_4^5 + 1 = a_5 and a_5^5 + 1 = a_6.",
+  "id": "A318333",
+  "mentions": [
+    "A318327",
+    "A318328",
+    "A318329",
+    "A318330",
+    "A318331",
+    "A318332",
+    "A318334",
+    "A318335",
+    "A318336"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

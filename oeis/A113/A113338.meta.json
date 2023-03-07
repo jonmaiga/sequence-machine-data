@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers of the form (18*m^2+1)/11.",
+  "id": "A113338",
+  "mentions": [
+    "A179088",
+    "A179337",
+    "A179338",
+    "A179339",
+    "A179370"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

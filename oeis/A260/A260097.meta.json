@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n = concat(s,t) such that n = sigma(s*t), where sigma(x) is the sum of the divisors of x.",
+  "id": "A260097",
+  "mentions": [
+    "A000203",
+    "A253824",
+    "A253825"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

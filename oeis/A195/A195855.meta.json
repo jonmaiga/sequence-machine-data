@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = T(9,n), array T given by A048505.",
+  "id": "A195855",
+  "mentions": [
+    "A048505",
+    "A048506",
+    "A048507",
+    "A048508",
+    "A048509",
+    "A048510",
+    "A048511",
+    "A048512",
+    "A048513",
+    "A048514",
+    "A048515"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

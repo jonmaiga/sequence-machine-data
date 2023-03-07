@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) is the earliest occurrence k of the next distinct pair {x(k), y(k)}, where x(k) and y(k) denote the count of zero digits in A355318(k) and A355317(k), respectively.",
+  "id": "A355539",
+  "mentions": [
+    "A355317",
+    "A355318"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

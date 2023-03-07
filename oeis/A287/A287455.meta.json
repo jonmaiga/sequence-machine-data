@@ -1,0 +1,21 @@
+{
+  "description": "Start with 0 and repeatedly substitute 0->012, 1->201, 2->210.",
+  "id": "A287455",
+  "mentions": [
+    "A287385",
+    "A287456",
+    "A287457",
+    "A287458"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

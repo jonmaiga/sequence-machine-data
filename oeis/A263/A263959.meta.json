@@ -1,0 +1,23 @@
+{
+  "description": "Number of decimal digits in A069151(n).",
+  "id": "A263959",
+  "mentions": [
+    "A019518",
+    "A046035",
+    "A069151",
+    "A227529",
+    "A227530"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

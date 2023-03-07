@@ -1,0 +1,23 @@
+{
+  "description": "Sprimes: A sparse prime-like set of numbers that are constructed recursively to satisfy a Goldbach-type conjecture.",
+  "id": "A193258",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A008578",
+    "A008932",
+    "A123509",
+    "A126684"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

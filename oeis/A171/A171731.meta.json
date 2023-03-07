@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T : T(n,k)= binomial(n,k)*Fibonacci(n-k)= A007318(n,k)*A000045(n-k).",
+  "id": "A171731",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A007318",
+    "A014445",
+    "A081574",
+    "A081575",
+    "A093131",
+    "A094440",
+    "A099453",
+    "A112576"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using polyominoes of shape I; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A254414",
+  "mentions": [
+    "A000012",
+    "A005683",
+    "A011782",
+    "A052961",
+    "A254124",
+    "A254125",
+    "A254126",
+    "A254127",
+    "A254458",
+    "A254607"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

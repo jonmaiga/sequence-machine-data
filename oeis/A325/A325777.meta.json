@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions whose distinct consecutive subsequences do not have different sums.",
+  "id": "A325777",
+  "mentions": [
+    "A002033",
+    "A056239",
+    "A112798",
+    "A143823",
+    "A169942",
+    "A299702",
+    "A299729",
+    "A301899",
+    "A325676",
+    "A325683",
+    "A325768",
+    "A325769",
+    "A325770",
+    "A325778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "y-values in the solution to 15*x^2 - 14 = y^2.",
+  "id": "A199338",
+  "mentions": [
+    "A103201",
+    "A199336"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:10:20",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

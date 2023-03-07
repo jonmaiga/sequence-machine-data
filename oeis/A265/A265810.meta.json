@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of upper primes-only best approximates (POBAs) to Pi; see Comments.",
+  "id": "A265810",
+  "mentions": [
+    "A000040",
+    "A265759",
+    "A265808",
+    "A265809",
+    "A265811",
+    "A265812",
+    "A265813"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

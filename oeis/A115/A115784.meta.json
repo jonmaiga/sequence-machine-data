@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of b(q) / a(q) in powers of q of cubic AGM theta function.",
+  "id": "A115784",
+  "mentions": [
+    "A004016",
+    "A005928",
+    "A058091",
+    "A215690",
+    "A258942"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the position of the first occurrence of n in A323077.",
+  "id": "A334198",
+  "mentions": [
+    "A070003",
+    "A323077"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

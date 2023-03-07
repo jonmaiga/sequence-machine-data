@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest number such that there are precisely n squares between a(n) and 2*a(n) inclusive.",
+  "id": "A346527",
+  "mentions": [
+    "A000290",
+    "A105224",
+    "A156035",
+    "A346522"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

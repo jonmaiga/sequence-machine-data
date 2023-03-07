@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of number triangle (1,x)+(x,x^2)+(x^2,x^3).",
+  "id": "A117200",
+  "mentions": [
+    "A117198",
+    "A117201"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

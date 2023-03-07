@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that 2*(least part) < number of parts.",
+  "id": "A237758",
+  "mentions": [
+    "A118084",
+    "A237757",
+    "A237799",
+    "A237800"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

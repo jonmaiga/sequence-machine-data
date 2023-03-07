@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = sum_{l=k..n, l|n, k|l} l*phi(k).",
+  "id": "A127481",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A002618",
+    "A054522",
+    "A127093",
+    "A127466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

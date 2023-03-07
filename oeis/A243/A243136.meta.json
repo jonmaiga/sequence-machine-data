@@ -1,0 +1,21 @@
+{
+  "description": "512*n^10 - 1280*n^8 + 1120*n^6 - 400*n^4 + 50*n^2 - 1.",
+  "id": "A243136",
+  "mentions": [
+    "A056220",
+    "A144129",
+    "A144130"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:49",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..9) of 10 elements with zero sum and no two or three adjacent elements summing to zero",
+  "id": "A200437",
+  "mentions": [
+    "A200430"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

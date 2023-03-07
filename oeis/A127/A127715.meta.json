@@ -1,0 +1,20 @@
+{
+  "description": "Rightmost border of triangle A127714: a(n) = A127714(n, (n+1)*(n+2)/2 - 1).",
+  "id": "A127715",
+  "mentions": [
+    "A033184",
+    "A127714",
+    "A127716"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

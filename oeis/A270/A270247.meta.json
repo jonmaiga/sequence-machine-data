@@ -1,0 +1,23 @@
+{
+  "description": "Number of matchings (i.e., Hosoya index) in C_{n} X C_{n}.",
+  "id": "A270247",
+  "mentions": [
+    "A027683",
+    "A028420",
+    "A102080",
+    "A222199",
+    "A228316",
+    "A270228",
+    "A270246"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

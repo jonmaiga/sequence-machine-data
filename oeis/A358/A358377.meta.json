@@ -1,0 +1,35 @@
+{
+  "description": "Numbers k such that the k-th standard ordered rooted tree is a generalized Bethe tree (counted by A003238).",
+  "id": "A358377",
+  "mentions": [
+    "A000081",
+    "A001263",
+    "A003238",
+    "A004111",
+    "A004249",
+    "A005043",
+    "A032027",
+    "A063895",
+    "A066099",
+    "A214577",
+    "A276625",
+    "A331490",
+    "A358371",
+    "A358372",
+    "A358373",
+    "A358374",
+    "A358375",
+    "A358376",
+    "A358378"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x,y) satisfies: A(x,y) = x*y + 1/A(x,x*y), with A(0,y) = 1.",
+  "id": "A275760",
+  "mentions": [
+    "A143951",
+    "A275761",
+    "A275762"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 211,
+    "source": "oeis-bfile"
+  }
+}

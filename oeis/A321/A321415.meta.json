@@ -1,0 +1,21 @@
+{
+  "description": "Number of n element multisets of the 2n-th roots of unity with zero sum.",
+  "id": "A321415",
+  "mentions": [
+    "A262181",
+    "A292355",
+    "A321414"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

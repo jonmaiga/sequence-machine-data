@@ -1,0 +1,20 @@
+{
+  "description": "Number of bipartite Laman graphs on n vertices.",
+  "id": "A328060",
+  "mentions": [
+    "A227117",
+    "A273468",
+    "A328061"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

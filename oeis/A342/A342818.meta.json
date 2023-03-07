@@ -1,0 +1,18 @@
+{
+  "description": "Length of the longest monochromatic arithmetic progressions of difference d in the Thue-Morse sequence (A010060).",
+  "id": "A342818",
+  "mentions": [
+    "A010060",
+    "A342827"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

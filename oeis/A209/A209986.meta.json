@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X 2 matrices having all elements in {-n,...n} and determinant 3.",
+  "id": "A209986",
+  "mentions": [
+    "A209981",
+    "A210000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

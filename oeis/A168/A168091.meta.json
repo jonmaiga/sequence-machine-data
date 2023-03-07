@@ -1,0 +1,18 @@
+{
+  "description": "Slowest increasing sequence of alternatively cubes and squares with common neighbor digits.",
+  "id": "A168091",
+  "mentions": [
+    "A167994"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

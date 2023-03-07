@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients of characteristic polynomials of a special type of Cartan matrix: E_n for E_6,E_7,E_8,E_11 example M(6)/ E_6: {{2, -1, 0, 0, 0, 0}, {-1, 2, -1, 0, 0, 0}, {0, -1, 2, -1, 0, -1}, {0, 0, -1, 2, -1, 0}, {0, 0, 0, -1, 2, 0}, {0, 0, -1, 0, 0, 2}},.",
+  "id": "A136600",
+  "mentions": [
+    "A129844"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

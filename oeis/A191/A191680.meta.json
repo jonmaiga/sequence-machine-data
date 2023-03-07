@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of odd natural numbers into 9 parts <= n.",
+  "id": "A191680",
+  "mentions": [
+    "A191496"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:45",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

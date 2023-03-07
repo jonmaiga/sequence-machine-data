@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle C(n,g) counting the connected 8-regular simple graphs on n vertices with girth at least g.",
+  "id": "A184981",
+  "mentions": [
+    "A014378",
+    "A054760",
+    "A181154",
+    "A184941",
+    "A184951",
+    "A184961",
+    "A184971",
+    "A184980",
+    "A184983",
+    "A184991",
+    "A185131"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 9,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

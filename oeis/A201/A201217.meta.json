@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that (closest square) = (closest cube).",
+  "id": "A201217",
+  "mentions": [
+    "A001014",
+    "A053187",
+    "A061023",
+    "A201053"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

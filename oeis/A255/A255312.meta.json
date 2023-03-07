@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers m for which the m-th row of A088643 in reverse agrees with the first m terms of A132075.",
+  "id": "A255312",
+  "mentions": [
+    "A088643",
+    "A132075"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Mirror of the triangle A094585.",
+  "id": "A193999",
+  "mentions": [
+    "A094585"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

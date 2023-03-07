@@ -1,0 +1,31 @@
+{
+  "description": "Number of integers m such that m + (sum of digits in base-3 representation of m) = n.",
+  "id": "A230642",
+  "mentions": [
+    "A010063",
+    "A053735",
+    "A134451",
+    "A228085",
+    "A230632",
+    "A230639",
+    "A230640",
+    "A230641",
+    "A230643",
+    "A230663",
+    "A230853",
+    "A230854",
+    "A230855",
+    "A230856"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Functional composition table for \"n o m\" = \"n composed with m\", where n and m are the \"primal codes\" of finite partial functions on the positive integers and 1 is the code for the empty function, but omitting the trivial values of 1 at the margins of the table.",
+  "id": "A106178",
+  "mentions": [
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

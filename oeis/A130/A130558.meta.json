@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of partial sums of a series for 6*(5-4*Zeta(3)).",
+  "id": "A130558",
+  "mentions": [
+    "A130557"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

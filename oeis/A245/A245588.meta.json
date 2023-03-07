@@ -1,0 +1,18 @@
+{
+  "description": "The minimal number of coins needed to make change for n units in a currency system with coins of value 1,2,5,13,34,89,...,Fibonacci(2k-1).",
+  "id": "A245588",
+  "mentions": [
+    "A000045",
+    "A089197"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

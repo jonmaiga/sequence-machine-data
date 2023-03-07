@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of a companion to the Bernoulli numbers.",
+  "id": "A191754",
+  "mentions": [
+    "A000012",
+    "A027642",
+    "A164555",
+    "A190339",
+    "A192366"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

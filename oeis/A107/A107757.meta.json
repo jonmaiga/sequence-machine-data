@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k} Catalan(j) == 2 (mod 3).",
+  "id": "A107757",
+  "mentions": [
+    "A000108",
+    "A074939",
+    "A107755",
+    "A107756"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

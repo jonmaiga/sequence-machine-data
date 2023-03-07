@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of a triangle related to the Jacobsthal polynomials.",
+  "id": "A108742",
+  "mentions": [
+    "A108756"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

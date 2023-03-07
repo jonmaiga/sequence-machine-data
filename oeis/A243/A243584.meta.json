@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(eta*P'(eta)), a constant related to the asymptotic evaluation of the number of prime multiplicative compositions, where eta is A243350, the unique solution of P(x)=1, P being the prime zeta P function (P(x) = sum_(p prime) 1/p^x).",
+  "id": "A243584",
+  "mentions": [
+    "A243350"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

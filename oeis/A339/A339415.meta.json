@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows. If p=A098058(n+1), q is the next prime after p, and r=(p+q)/2, row n consists of the areas (in increasing order) of triangles with vertices (p,p), (s,r-s), (q,q), where s and r-s are prime.",
+  "id": "A339415",
+  "mentions": [
+    "A098058",
+    "A339414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

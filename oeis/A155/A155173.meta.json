@@ -1,0 +1,23 @@
+{
+  "description": "Short leg A of primitive Pythagorean triangles such that perimeter s is average of twin prime pairs, q=p+1, A=q^2-p^2, C=q^2+p^2, B=2*p*q, s=A+B+C; s -/+ 1 are primes.",
+  "id": "A155173",
+  "mentions": [
+    "A020882",
+    "A020883",
+    "A020884",
+    "A020886",
+    "A024364",
+    "A024406",
+    "A155171"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

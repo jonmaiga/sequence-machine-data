@@ -1,0 +1,18 @@
+{
+  "description": "Initial prime, greater than 5, of a prime chain of length n under the iteration x->2x-5.",
+  "id": "A134702",
+  "mentions": [
+    "A084954"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

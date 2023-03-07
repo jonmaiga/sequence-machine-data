@@ -1,0 +1,17 @@
+{
+  "description": "Integer part of Lorentz gamma factor = 1/sqrt(1 - (beta)^2) for beta = 0.9999...(with 9 appearing n times) = 1 - 10^(-n).",
+  "id": "A109999",
+  "mentions": [
+    "A010467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

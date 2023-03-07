@@ -1,0 +1,22 @@
+{
+  "description": "n appears A055642(n) times (appearances equal number of decimal digits).",
+  "id": "A100470",
+  "mentions": [
+    "A007376",
+    "A030530",
+    "A055642",
+    "A117804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

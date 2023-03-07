@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is a squarefree semiprime of the form (4t+3)*(4u+3), otherwise 0.",
+  "id": "A353483",
+  "mentions": [
+    "A016105",
+    "A032742",
+    "A064911",
+    "A353481",
+    "A353482",
+    "A353492",
+    "A353808",
+    "A353809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

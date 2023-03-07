@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: R(n,k) = prime(n) mod semiprime(k), 1<=k<=n.",
+  "id": "A174953",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

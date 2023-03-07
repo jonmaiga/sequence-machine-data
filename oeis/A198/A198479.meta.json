@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 10^n * n^10.",
+  "id": "A198479",
+  "mentions": [
+    "A007758",
+    "A008454",
+    "A011557",
+    "A062074",
+    "A062075",
+    "A097206",
+    "A098803",
+    "A098880"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

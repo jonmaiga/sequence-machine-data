@@ -1,0 +1,20 @@
+{
+  "description": "Periodic with period [1, 4, 3, 4, 1, 6] of length 6.",
+  "id": "A284517",
+  "mentions": [
+    "A008307",
+    "A284518"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:14:47",
+    "offset": 1,
+    "size": 108,
+    "source": "joeis"
+  }
+}

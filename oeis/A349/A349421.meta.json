@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that a regular k-gon, when its vertices are connected by infinite lines, creates polygons outside the k-gon with more sides than any polygon inside the k-gon, excluding the central k-sided polygon for odd values of k.",
+  "id": "A349421",
+  "mentions": [
+    "A007678",
+    "A342222",
+    "A344311",
+    "A344857",
+    "A344938"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

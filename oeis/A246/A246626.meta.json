@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(n+1) is the smallest number m such that A244447(a(n)) < A244447(m).",
+  "id": "A246626",
+  "mentions": [
+    "A244447",
+    "A246627"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

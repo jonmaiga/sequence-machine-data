@@ -1,0 +1,29 @@
+{
+  "description": "Terms of A342456 prime-shifted so far towards lower primes that they become even: a(n) = 2*A246277(A342456(n)).",
+  "id": "A342457",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A051903",
+    "A246277",
+    "A276086",
+    "A283980",
+    "A329038",
+    "A329886",
+    "A342456",
+    "A342461",
+    "A342462",
+    "A342464"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

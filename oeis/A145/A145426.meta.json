@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (k!/(k+2)!)^2.",
+  "id": "A145426",
+  "mentions": [
+    "A002378",
+    "A002388",
+    "A035287",
+    "A348670"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:37",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

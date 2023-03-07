@@ -1,0 +1,31 @@
+{
+  "description": "A Catalan triangle by rows.",
+  "id": "A203717",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A005809",
+    "A036765",
+    "A036766",
+    "A036767",
+    "A057427",
+    "A140662",
+    "A288942",
+    "A291662",
+    "A291680",
+    "A303259",
+    "A303271"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

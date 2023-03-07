@@ -1,0 +1,17 @@
+{
+  "description": "Number of set partitions of [n] with alternating parity of elements and exactly five blocks.",
+  "id": "A305779",
+  "mentions": [
+    "A274581"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 5,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

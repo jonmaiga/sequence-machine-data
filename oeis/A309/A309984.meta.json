@@ -1,0 +1,25 @@
+{
+  "description": "Number of n X n Latin squares with determinant 0, divided by 2.",
+  "id": "A309984",
+  "mentions": [
+    "A040082",
+    "A136609",
+    "A221976",
+    "A301371",
+    "A308853",
+    "A309258",
+    "A309985"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

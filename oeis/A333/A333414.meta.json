@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that k divides 17^k + 2.",
+  "id": "A333414",
+  "mentions": [
+    "A015973",
+    "A123062",
+    "A277370",
+    "A333269",
+    "A333413"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

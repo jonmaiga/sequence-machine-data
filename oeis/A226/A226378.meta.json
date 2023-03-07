@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct sums i+j+k with i,j,k >= 0, i*j*k = n.",
+  "id": "A226378",
+  "mentions": [
+    "A008578",
+    "A034836",
+    "A222945",
+    "A222947",
+    "A223133",
+    "A223134",
+    "A223135",
+    "A226357",
+    "A226359"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

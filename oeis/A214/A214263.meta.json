@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of f(x^1, x^7) in powers of x where f() is Ramanujan's general theta function.",
+  "id": "A214263",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A047621",
+    "A074377",
+    "A080995",
+    "A089801",
+    "A115359",
+    "A121373",
+    "A133100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

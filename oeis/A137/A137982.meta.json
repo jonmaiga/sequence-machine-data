@@ -1,0 +1,18 @@
+{
+  "description": "Closest pair of primes p <= q such that p + q = n! Sequence gives the lesser member p of the pair.",
+  "id": "A137982",
+  "mentions": [
+    "A112823"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = permanent M_n where M_n is the n X n matrix m(i,j) = A000009(i+j).",
+  "id": "A278841",
+  "mentions": [
+    "A000009",
+    "A005249",
+    "A204249",
+    "A278839",
+    "A278840"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the number of divisors of n that are each not coprime to the previous or the following divisor of n.",
+  "id": "A136166",
+  "mentions": [
+    "A136164",
+    "A136165",
+    "A136167"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

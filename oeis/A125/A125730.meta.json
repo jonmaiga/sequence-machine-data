@@ -1,0 +1,21 @@
+{
+  "description": "Minimal number of initial pieces needed to reach level n in the Solitaire Army game when diagonal jumps are allowed.",
+  "id": "A125730",
+  "mentions": [
+    "A014225",
+    "A014227"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

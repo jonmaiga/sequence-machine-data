@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the even parts appearing among the third largest parts of the partitions of n into 4 parts.",
+  "id": "A309716",
+  "mentions": [
+    "A309711",
+    "A309715"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:41",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

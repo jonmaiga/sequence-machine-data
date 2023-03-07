@@ -1,0 +1,21 @@
+{
+  "description": "a(n) gives the number of steps needed to reach zero, when we start from x = n and repeatedly subtract x's squarefree kernel (A007947(x)) from it.",
+  "id": "A255326",
+  "mentions": [
+    "A005117",
+    "A007947",
+    "A066503",
+    "A255409"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

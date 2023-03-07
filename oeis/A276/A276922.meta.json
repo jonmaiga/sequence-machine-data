@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of ordered set partitions of [n] where the maximal block size equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A276922",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000670",
+    "A080510",
+    "A276921",
+    "A276923",
+    "A320758",
+    "A320759",
+    "A320760",
+    "A320761",
+    "A320762",
+    "A320763",
+    "A320764",
+    "A320765",
+    "A320766"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

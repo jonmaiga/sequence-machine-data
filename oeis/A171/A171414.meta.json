@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows (n >= 1): T(n,k) = [x^k] p(x,n), where p(x,n) = ((x^n - 1)/(x - 1))^floor(n/2) if n is odd, and p(x,n) = ((x^n - 1)/(x - 1))*p(x,n-1) otherwise.",
+  "id": "A171414",
+  "mentions": [
+    "A008406",
+    "A171412"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

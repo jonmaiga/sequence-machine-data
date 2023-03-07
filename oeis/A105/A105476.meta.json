@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions of n when each even part can be of two kinds.",
+  "id": "A105476",
+  "mentions": [
+    "A000034",
+    "A006130",
+    "A006138",
+    "A105475",
+    "A105963",
+    "A140168",
+    "A175655",
+    "A274977"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

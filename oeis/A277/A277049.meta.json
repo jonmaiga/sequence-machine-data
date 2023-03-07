@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the multiplicative order of 5 modulo p is prime.",
+  "id": "A277049",
+  "mentions": [
+    "A000040",
+    "A277048"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

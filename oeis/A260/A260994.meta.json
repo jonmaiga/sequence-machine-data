@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the modular curve X_0(n) has genus >= 2 and contains infinitely many points of degree 2 over some number field L.",
+  "id": "A260994",
+  "mentions": [
+    "A260990",
+    "A260991",
+    "A260992",
+    "A260993"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

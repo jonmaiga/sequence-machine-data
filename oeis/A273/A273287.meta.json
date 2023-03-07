@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (x,y,z) with x,y,z in the set {0,...,n-1} such that x*y*z is a cube and x^3 + 2*y^3 + 3*z^3 == 7 (mod n).",
+  "id": "A273287",
+  "mentions": [
+    "A000578",
+    "A273488"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

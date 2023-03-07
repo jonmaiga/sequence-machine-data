@@ -1,0 +1,27 @@
+{
+  "description": "Round phi^n to the nearest integer.",
+  "id": "A169985",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000126",
+    "A000204",
+    "A000296",
+    "A001610",
+    "A001622",
+    "A014217",
+    "A169986"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

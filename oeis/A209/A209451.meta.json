@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Pell(n)*A034896(n) for n >= 1, with a(0)=1, where A034896 lists the number of solutions to a^2 + b^2 + 3*c^2 + 3*d^2 = n.",
+  "id": "A209451",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A034896",
+    "A204270",
+    "A205884",
+    "A205971",
+    "A209447",
+    "A209450",
+    "A209452"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

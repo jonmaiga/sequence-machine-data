@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose gaps to both neighbor primes are powers of two.",
+  "id": "A353137",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A353088",
+    "A353135",
+    "A353136"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

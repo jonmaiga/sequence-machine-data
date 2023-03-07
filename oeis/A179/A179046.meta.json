@@ -1,0 +1,26 @@
+{
+  "description": "Partitions into distinct parts with minimal difference 3 and minimal part >= 3.",
+  "id": "A179046",
+  "mentions": [
+    "A000009",
+    "A003106",
+    "A003114",
+    "A025157",
+    "A025158",
+    "A025159",
+    "A025160",
+    "A025161",
+    "A025162"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

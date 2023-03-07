@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k such that the average number of distinct prime divisors of {1..k} is >= n.",
+  "id": "A338943",
+  "mentions": [
+    "A001221",
+    "A013939",
+    "A085829",
+    "A328331",
+    "A338891"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

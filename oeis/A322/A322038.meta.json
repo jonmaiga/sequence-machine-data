@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: for n >= 0, row n gives the coordination sequence for the tiling of a flat torus by a square grid with n points along each circuit.",
+  "id": "A322038",
+  "mentions": [
+    "A008574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

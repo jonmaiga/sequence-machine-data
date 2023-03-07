@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are palindromic in bases 2, 4, and 8.",
+  "id": "A319584",
+  "mentions": [
+    "A000051",
+    "A000225",
+    "A002450",
+    "A006995",
+    "A014192",
+    "A029803",
+    "A052539",
+    "A097856",
+    "A097956",
+    "A259380",
+    "A259382",
+    "A319598"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

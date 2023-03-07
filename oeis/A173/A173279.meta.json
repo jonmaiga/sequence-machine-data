@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: M(n,k) = (n-2*k)!, k=0..floor(n/2).",
+  "id": "A173279",
+  "mentions": [
+    "A000142",
+    "A136580",
+    "A173280"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

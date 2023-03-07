@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that both 2p - 15 and 2p + 15 are primes.",
+  "id": "A103803",
+  "mentions": [
+    "A103802"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

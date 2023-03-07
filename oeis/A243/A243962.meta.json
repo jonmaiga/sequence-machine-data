@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 10p + 1, 100p + 1 and 1000p + 1 are also primes.",
+  "id": "A243962",
+  "mentions": [
+    "A000040",
+    "A023237",
+    "A024912"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

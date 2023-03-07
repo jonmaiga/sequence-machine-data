@@ -1,0 +1,18 @@
+{
+  "description": "T(n, k) = Sum_{j=1..k} (1 + 2*cos(j*Pi/(k + 1)))^n for n > 0, T(0, 0) = 1. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A342911",
+  "mentions": [
+    "A090326",
+    "A124696"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

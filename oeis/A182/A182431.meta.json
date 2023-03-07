@@ -1,0 +1,25 @@
+{
+  "description": "Table, read by antidiagonals, in which the n-th row comprises A214206(n) 0 followed by a second-order recursive series G in which each product G(i)*G(i+1) lies in the same row of A001477 (interpreted as a square array).",
+  "id": "A182431",
+  "mentions": [
+    "A001477",
+    "A143608",
+    "A182102",
+    "A182189",
+    "A182190",
+    "A182435",
+    "A214206"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

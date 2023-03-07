@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 6 nonnegative integer arrays with upper left 0 and lower right its king-move distance away minus 2 and every value within 2 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down.",
+  "id": "A253221",
+  "mentions": [
+    "A253223"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:51:09",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

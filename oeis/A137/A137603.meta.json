@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that product of factorials of digits of n equals sigma(n).",
+  "id": "A137603",
+  "mentions": [
+    "A066457"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "n+floor(ns/r)+floor(nt/r), where r=sqrt(2), s=sqrt(3), t=sqrt(5).",
+  "id": "A184812",
+  "mentions": [
+    "A184813",
+    "A184814",
+    "A184815",
+    "A184816",
+    "A184817"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

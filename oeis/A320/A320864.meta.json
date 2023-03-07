@@ -1,0 +1,27 @@
+{
+  "description": "Powers of 2 with initial digit 8.",
+  "id": "A320864",
+  "mentions": [
+    "A000079",
+    "A008952",
+    "A067480",
+    "A067488",
+    "A217401",
+    "A320859",
+    "A320860",
+    "A320861",
+    "A320862",
+    "A320863"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

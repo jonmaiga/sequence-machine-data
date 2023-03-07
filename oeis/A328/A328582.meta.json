@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of nonzero digits in primorial base expansion of n.",
+  "id": "A328582",
+  "mentions": [
+    "A072411",
+    "A276086",
+    "A276156",
+    "A328581"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

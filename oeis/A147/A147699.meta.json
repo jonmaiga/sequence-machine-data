@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of f(x) * f(x^5) / phi(-x^10)^2 in powers of x where f(), phi() are Ramanujan theta functions.",
+  "id": "A147699",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A138532",
+    "A145722",
+    "A147702",
+    "A261526",
+    "A261866"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:21",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

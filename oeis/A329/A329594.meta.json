@@ -1,0 +1,19 @@
+{
+  "description": "Earliest occurrences of n consecutive primes ending in the same decimal digit, written as triangle T(n,k), 1<=k<=n.",
+  "id": "A329594",
+  "mentions": [
+    "A054681"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

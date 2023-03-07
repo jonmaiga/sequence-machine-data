@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, thrice the Connell numbers (A001614) - 2.",
+  "id": "A143804",
+  "mentions": [
+    "A001614",
+    "A005915",
+    "A056107",
+    "A100536"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:25",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

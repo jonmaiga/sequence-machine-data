@@ -1,0 +1,21 @@
+{
+  "description": "Number of domino tilings of the 11 X n grid with upper left corner removed iff n is odd.",
+  "id": "A210724",
+  "mentions": [
+    "A028473",
+    "A139400",
+    "A189006"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

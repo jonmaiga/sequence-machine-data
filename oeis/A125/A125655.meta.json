@@ -1,0 +1,23 @@
+{
+  "description": "Column 2 of triangle A125653; also equals the eigensequence of the matrix square of A125653.",
+  "id": "A125655",
+  "mentions": [
+    "A125653",
+    "A125654",
+    "A125656",
+    "A125657",
+    "A125658",
+    "A125659"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

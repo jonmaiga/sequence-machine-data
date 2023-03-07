@@ -1,0 +1,22 @@
+{
+  "description": "Product of the sum of the divisors of n and the sum of the divisors of n-th prime.",
+  "id": "A272173",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A008864",
+    "A033286",
+    "A272211"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

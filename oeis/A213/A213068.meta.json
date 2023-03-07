@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. arcsinh(sech(x)^2), even powers only.",
+  "id": "A213068",
+  "mentions": [
+    "A213066",
+    "A213067",
+    "A213069"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

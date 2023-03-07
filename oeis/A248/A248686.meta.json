@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array of multinomial coefficients: T(n,k) = n!/(n(1)!*n(2)!* ...*n(k)!), where n(i) = floor((n + i - 1)/k) for i = 1 .. k.",
+  "id": "A248686",
+  "mentions": [
+    "A000142",
+    "A000680",
+    "A248687",
+    "A333706"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

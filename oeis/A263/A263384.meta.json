@@ -1,0 +1,23 @@
+{
+  "description": "Fourth column of the matrix of polynomial coefficients of the rational approximation to Mill's ratio.",
+  "id": "A263384",
+  "mentions": [
+    "A000165",
+    "A035101",
+    "A129890",
+    "A180048"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Factorial base Niven numbers (A118363) with a record gap to the next factorial base Niven number.",
+  "id": "A347495",
+  "mentions": [
+    "A034968",
+    "A118363",
+    "A328205",
+    "A337076",
+    "A337077",
+    "A347496"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

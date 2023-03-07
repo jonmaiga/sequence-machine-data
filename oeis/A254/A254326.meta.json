@@ -1,0 +1,19 @@
+{
+  "description": "X value for the \"least\" solution (X,Y,Z) to X^3 + Y^3 = A020898(n)*Z^3, X <= Y.",
+  "id": "A254326",
+  "mentions": [
+    "A020898",
+    "A254324"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

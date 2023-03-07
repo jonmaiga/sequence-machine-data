@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle where the n-th row list the positive integers which can be written in two bases smaller than n as mutually-reversed strings of digit(s), for n>=4.",
+  "id": "A336768",
+  "mentions": [
+    "A336733",
+    "A336827"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected groupoids (categories all of whose morphisms are invertible) with n times as many morphisms as objects.",
+  "id": "A140187",
+  "mentions": [
+    "A000001",
+    "A000040",
+    "A140185",
+    "A140186",
+    "A140188"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

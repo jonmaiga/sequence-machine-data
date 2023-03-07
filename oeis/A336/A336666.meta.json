@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n!)^n * [x^n] 1 / (Sum_{k>=0} (-x)^k / (k!)^n)^n.",
+  "id": "A336666",
+  "mentions": [
+    "A212806",
+    "A245398",
+    "A336665"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of triangle A138271; also, column 3 of A138271 shift left; also, column 0 of matrix power A138271^4 shift right.",
+  "id": "A138272",
+  "mentions": [
+    "A138271",
+    "A138273",
+    "A138274",
+    "A138275"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

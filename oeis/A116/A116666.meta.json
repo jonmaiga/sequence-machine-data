@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, row sums = number of edges in n-dimensional hypercubes.",
+  "id": "A116666",
+  "mentions": [
+    "A001787",
+    "A002457",
+    "A005408",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

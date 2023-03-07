@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of divisors associated with the entries of A120585.",
+  "id": "A120586",
+  "mentions": [
+    "A000005",
+    "A120585"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

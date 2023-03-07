@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. Product_{i>k} exp(x^i).",
+  "id": "A293053",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A000262",
+    "A052845",
+    "A293024",
+    "A293049",
+    "A293050",
+    "A293119"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

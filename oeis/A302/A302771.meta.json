@@ -1,0 +1,18 @@
+{
+  "description": "If there is Gaussian integer z such that the norm of z is n, a(n) is the absolute value of Product_{the norm of z is n} z. Otherwise a(n) = 0.",
+  "id": "A302771",
+  "mentions": [
+    "A004018"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

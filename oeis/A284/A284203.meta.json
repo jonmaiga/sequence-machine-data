@@ -1,0 +1,22 @@
+{
+  "description": "Number of twin prime (A001097) divisors of n.",
+  "id": "A284203",
+  "mentions": [
+    "A001097",
+    "A001221",
+    "A005087",
+    "A062729",
+    "A284599"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

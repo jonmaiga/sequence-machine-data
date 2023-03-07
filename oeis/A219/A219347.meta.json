@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct parts with smallest possible largest part.",
+  "id": "A219347",
+  "mentions": [
+    "A000009",
+    "A000124",
+    "A002024",
+    "A219339"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

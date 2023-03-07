@@ -1,0 +1,28 @@
+{
+  "description": "Multiplicative with a(p^e) = ((p-1)*q)^e, where q is the largest prime less than p, and 1 if p = 2.",
+  "id": "A353791",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A003958",
+    "A003961",
+    "A064989",
+    "A151799",
+    "A353749",
+    "A353792",
+    "A353793",
+    "A353794"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

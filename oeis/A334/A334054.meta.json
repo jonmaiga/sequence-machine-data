@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest numbers containing only digits 1,2,3 that appear again in the iterative cycle of their own 'Look and Say' description (Cf. A005150).",
+  "id": "A334054",
+  "mentions": [
+    "A005150",
+    "A007932",
+    "A045918",
+    "A119566",
+    "A334055"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

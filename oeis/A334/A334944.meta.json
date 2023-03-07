@@ -1,0 +1,18 @@
+{
+  "description": "For any n > 0, let w be the least positive number such that the values (a(n+1-w), ..., a(n-1), e) do not appear continuously in (a(1), ..., a(n-1)) for some e in 0..w-1; a(n) is the least such e.",
+  "id": "A334944",
+  "mentions": [
+    "A334941",
+    "A334956"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

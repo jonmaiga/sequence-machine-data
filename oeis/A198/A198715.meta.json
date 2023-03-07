@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k)=Number of nXk 0..3 arrays with values 0..3 introduced in row major order and no element equal to any horizontal or vertical neighbor.",
+  "id": "A198715",
+  "mentions": [
+    "A007051",
+    "A034494",
+    "A198709",
+    "A198710",
+    "A198711",
+    "A198712",
+    "A198713",
+    "A198714",
+    "A198723",
+    "A198906",
+    "A198914",
+    "A198982",
+    "A207868",
+    "A207997",
+    "A222444"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

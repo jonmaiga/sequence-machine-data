@@ -1,0 +1,17 @@
+{
+  "description": "Number of (3+1)X(n+1) 0..1 arrays with each row nonprime and column prime, read as a binary number with top and left being the most significant bits.",
+  "id": "A261945",
+  "mentions": [
+    "A261942"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

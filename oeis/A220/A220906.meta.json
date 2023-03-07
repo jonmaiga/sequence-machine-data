@@ -1,0 +1,17 @@
+{
+  "description": "Thue-Morse sequence (A010060) with 0 replaced by 2 and 1 replaced by 3,1.",
+  "id": "A220906",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

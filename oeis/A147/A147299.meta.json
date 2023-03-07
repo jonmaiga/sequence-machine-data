@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = largest value of the function rad(m*n*(n - m)) n=2,3,4,..., 0 < m < n where the function rad(k) (also called radical(k)) is the product of distinct prime divisors of k.",
+  "id": "A147299",
+  "mentions": [
+    "A085152",
+    "A085153",
+    "A147298",
+    "A147300",
+    "A147301",
+    "A147302",
+    "A147307"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

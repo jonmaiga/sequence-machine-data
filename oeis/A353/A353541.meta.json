@@ -1,0 +1,22 @@
+{
+  "description": "Starts of runs of 5 consecutive numbers whose abundancy index is larger than Pi^2/6.",
+  "id": "A353541",
+  "mentions": [
+    "A000203",
+    "A013661",
+    "A353537",
+    "A353538",
+    "A353539",
+    "A353540"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

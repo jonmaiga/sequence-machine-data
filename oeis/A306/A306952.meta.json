@@ -1,0 +1,20 @@
+{
+  "description": "Lesser member of twin weird numbers: weird numbers n (A006037) such that n+2 is also weird.",
+  "id": "A306952",
+  "mentions": [
+    "A006037",
+    "A125109",
+    "A231086",
+    "A231964"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

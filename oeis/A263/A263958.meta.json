@@ -1,0 +1,18 @@
+{
+  "description": "Prime Riesel numbers p that are not Mersenne primes such that 2*p is a noncototient.",
+  "id": "A263958",
+  "mentions": [
+    "A005278",
+    "A182296"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number that exceeds n and is divisible by at least one prime factor of n and by at least one prime that does not divide n.",
+  "id": "A291989",
+  "mentions": [
+    "A020639",
+    "A053669",
+    "A096014",
+    "A100484",
+    "A243823",
+    "A272619"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least m such that lambda(k) >= n for all k >= m where lambda is A002322, the Carmichael lambda function.",
+  "id": "A304480",
+  "mentions": [
+    "A002174",
+    "A002322",
+    "A002396",
+    "A141162",
+    "A143407",
+    "A335116",
+    "A335117"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

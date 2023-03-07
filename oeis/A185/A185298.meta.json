@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. x*exp(x)*exp(x*exp(x)).",
+  "id": "A185298",
+  "mentions": [
+    "A052512",
+    "A080108",
+    "A207833",
+    "A262671"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

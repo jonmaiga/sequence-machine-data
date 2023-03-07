@@ -1,0 +1,19 @@
+{
+  "description": "Practical numbers z such that z^2 = x^2 + y^2 for some practical numbers x and y with gcd(x,y,z) = 4.",
+  "id": "A294112",
+  "mentions": [
+    "A000290",
+    "A005153",
+    "A156682"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

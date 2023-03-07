@@ -1,0 +1,18 @@
+{
+  "description": "In triangular peg solitaire, number of distinct solvable feasible pairs starting with one peg missing and finishing with one peg.",
+  "id": "A130516",
+  "mentions": [
+    "A130515"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

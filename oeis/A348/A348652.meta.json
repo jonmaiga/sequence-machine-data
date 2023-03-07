@@ -1,0 +1,21 @@
+{
+  "description": "For any nonnegative number n with base-13 expansion Sum_{k >= 0} d_k*13^k, a(n) is the real part of Sum_{k >= 0} g(d_k)*(3+2*i)^k where g(0) = 0, and g(1+u+3*v) = (1+u*i)*i^v for any u = 0..2 and v = 0..3 (where i denotes the imaginary unit); see A348653 for the imaginary part.",
+  "id": "A348652",
+  "mentions": [
+    "A121622",
+    "A316657",
+    "A348653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

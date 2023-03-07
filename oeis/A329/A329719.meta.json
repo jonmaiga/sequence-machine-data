@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose digits can be partitioned into at least 3 segments (not beginning with 0) where each segment is the sum of the previous two segments.",
+  "id": "A329719",
+  "mentions": [
+    "A019523",
+    "A108203",
+    "A214527",
+    "A308104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

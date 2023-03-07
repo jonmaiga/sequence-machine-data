@@ -1,0 +1,21 @@
+{
+  "description": "The primes associated with A239800 (1 if A239800(n) = 0).",
+  "id": "A342365",
+  "mentions": [
+    "A016014",
+    "A070846",
+    "A239800",
+    "A342364"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n for which the sum of the parts larger than the smallest part is k (n>=1, 0<=k<=n-1).",
+  "id": "A268189",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A213359",
+    "A264402"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

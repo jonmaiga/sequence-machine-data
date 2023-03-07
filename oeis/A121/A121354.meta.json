@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (3*n-1)*a(n-1) - a(n-2).",
+  "id": "A121354",
+  "mentions": [
+    "A000153",
+    "A001053",
+    "A053984",
+    "A058798"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

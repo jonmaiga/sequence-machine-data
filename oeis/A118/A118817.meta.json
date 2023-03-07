@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Product_{n >= 1} cos(1/n).",
+  "id": "A118817",
+  "mentions": [
+    "A046990",
+    "A046991",
+    "A051762",
+    "A085365",
+    "A230821",
+    "A246945",
+    "A249673"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

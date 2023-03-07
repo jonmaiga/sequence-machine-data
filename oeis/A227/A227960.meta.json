@@ -1,0 +1,31 @@
+{
+  "description": "Big equivalence classes (A227723) related to subgroups of nimber addition (A190939).",
+  "id": "A227960",
+  "mentions": [
+    "A000079",
+    "A001146",
+    "A001222",
+    "A006017",
+    "A006116",
+    "A023394",
+    "A034343",
+    "A051179",
+    "A076766",
+    "A076831",
+    "A190939",
+    "A227723",
+    "A227963"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

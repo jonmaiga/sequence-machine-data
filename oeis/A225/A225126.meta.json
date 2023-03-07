@@ -1,0 +1,21 @@
+{
+  "description": "Central terms of the triangle in A048152.",
+  "id": "A225126",
+  "mentions": [
+    "A048152",
+    "A060036",
+    "A123684"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:45",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

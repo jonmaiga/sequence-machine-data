@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least r > 1 for which the interval (r*n, r*(n+1)) contains no terms of A050376 or a(n) = 0 if no such r exists.",
+  "id": "A228518",
+  "mentions": [
+    "A050376",
+    "A188672",
+    "A218831",
+    "A228520"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

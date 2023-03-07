@@ -1,0 +1,26 @@
+{
+  "description": "Termination of the aliquot sequence starting at n.",
+  "id": "A115350",
+  "mentions": [
+    "A003023",
+    "A005114",
+    "A007906",
+    "A037020",
+    "A044050",
+    "A063769",
+    "A098007",
+    "A098008",
+    "A098009",
+    "A098010"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

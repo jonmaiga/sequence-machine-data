@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into distinct parts where all differences between consecutive parts are odd.",
+  "id": "A179080",
+  "mentions": [
+    "A000009",
+    "A096441",
+    "A179049",
+    "A189357",
+    "A218355"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

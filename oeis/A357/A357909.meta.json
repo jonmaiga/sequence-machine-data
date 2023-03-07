@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p+6, p+12, p+18, 4*p+37, 4*p+43, 4*p+49 and 4*p+55 are also all primes.",
+  "id": "A357909",
+  "mentions": [
+    "A023271"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

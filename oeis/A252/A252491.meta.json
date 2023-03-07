@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (10^(n^2) - 1)/(10^n - 1).",
+  "id": "A252491",
+  "mentions": [
+    "A019328",
+    "A086766",
+    "A128889",
+    "A138940"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

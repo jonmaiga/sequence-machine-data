@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the positive real root r of 3*x^4 - 1.",
+  "id": "A358186",
+  "mentions": [
+    "A011002",
+    "A011022"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least integer q > 0 such that for some integer r, phi(q) + phi(r) = 2*n; where phi(n) is Euler's totient function (A000010).",
+  "id": "A333819",
+  "mentions": [
+    "A000010",
+    "A005277",
+    "A079695",
+    "A306513",
+    "A333820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

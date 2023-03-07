@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = a(n-1) + 5*n + 4.",
+  "id": "A302906",
+  "mentions": [
+    "A063206",
+    "A063226",
+    "A302717"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:37",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Next smallest n such that digit sum of n >= previous term",
+  "id": "A180084",
+  "mentions": [
+    "A180083"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

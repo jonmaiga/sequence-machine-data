@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 5 integers in -n..n with sum zero and adjacent elements differing in absolute value.",
+  "id": "A202965",
+  "mentions": [
+    "A202962"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

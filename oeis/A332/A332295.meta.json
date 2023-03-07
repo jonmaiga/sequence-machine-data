@@ -1,0 +1,31 @@
+{
+  "description": "Number of widely recursively normal integer partitions of n.",
+  "id": "A332295",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A001462",
+    "A181819",
+    "A182850",
+    "A317081",
+    "A317245",
+    "A317491",
+    "A317492",
+    "A329746",
+    "A329747",
+    "A332272",
+    "A332276",
+    "A332277",
+    "A332576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

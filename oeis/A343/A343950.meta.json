@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as x + y + z with x^2 + 4*y^2 + 5*z^2 a square, where x,y,z are positive integers with y or z a positive power of two.",
+  "id": "A343950",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A230121",
+    "A230747",
+    "A271510",
+    "A271513",
+    "A271518"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

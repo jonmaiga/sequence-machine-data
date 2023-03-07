@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sum of row beginning with n when inventory sequence A342585 is written as an irregular triangle.",
+  "id": "A347315",
+  "mentions": [
+    "A342585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

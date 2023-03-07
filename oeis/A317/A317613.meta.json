@@ -1,0 +1,35 @@
+{
+  "description": "Permutation of the nonnegative integers: lodumo_4 of A047247.",
+  "id": "A317613",
+  "mentions": [
+    "A026185",
+    "A042948",
+    "A042964",
+    "A047225",
+    "A047243",
+    "A047247",
+    "A047257",
+    "A047451",
+    "A047463",
+    "A047522",
+    "A047551",
+    "A047596",
+    "A047621",
+    "A064429",
+    "A080412",
+    "A159959"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

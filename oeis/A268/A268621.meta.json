@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with some element plus some horizontally or vertically adjacent neighbor totaling two no more than once.",
+  "id": "A268621",
+  "mentions": [
+    "A268628"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

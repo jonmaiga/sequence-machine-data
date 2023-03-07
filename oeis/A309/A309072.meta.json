@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the concatenation of the initial digit of A247476(k) for k = A309063(n)..A309063(n+1)-1.",
+  "id": "A309072",
+  "mentions": [
+    "A000030",
+    "A247476",
+    "A309063"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

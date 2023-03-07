@@ -1,0 +1,32 @@
+{
+  "description": "Numbers which are the digital sum of the square of some prime.",
+  "id": "A234429",
+  "mentions": [
+    "A056991",
+    "A062397",
+    "A067180",
+    "A067523",
+    "A123157",
+    "A165459",
+    "A165492",
+    "A165493",
+    "A165502",
+    "A165503",
+    "A165504",
+    "A226802",
+    "A226803",
+    "A229058"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the sum of the cubes of four primes, not necessarily distinct.",
+  "id": "A353249",
+  "mentions": [
+    "A123597",
+    "A346917"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

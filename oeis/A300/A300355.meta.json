@@ -1,0 +1,34 @@
+{
+  "description": "Number of enriched p-trees of weight n with odd leaves.",
+  "id": "A300355",
+  "mentions": [
+    "A000009",
+    "A063834",
+    "A078408",
+    "A089259",
+    "A196545",
+    "A279374",
+    "A279785",
+    "A289501",
+    "A294079",
+    "A299202",
+    "A299203",
+    "A300300",
+    "A300301",
+    "A300351",
+    "A300352",
+    "A300353",
+    "A300354"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

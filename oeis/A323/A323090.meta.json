@@ -1,0 +1,32 @@
+{
+  "description": "Number of strict factorizations of n using elements of A007916 (numbers that are not perfect powers).",
+  "id": "A323090",
+  "mentions": [
+    "A000040",
+    "A001055",
+    "A001597",
+    "A007916",
+    "A025147",
+    "A045778",
+    "A052410",
+    "A084227",
+    "A085986",
+    "A143610",
+    "A246547",
+    "A303707",
+    "A323054",
+    "A323087",
+    "A323088",
+    "A323089"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

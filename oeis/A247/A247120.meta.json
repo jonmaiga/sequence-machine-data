@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of a 10 X n rectangle using 2n pentominoes of shape L.",
+  "id": "A247120",
+  "mentions": [
+    "A174249",
+    "A233427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

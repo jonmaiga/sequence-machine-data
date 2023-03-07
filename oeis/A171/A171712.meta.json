@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows. Coloring of sectors in a circle.",
+  "id": "A171712",
+  "mentions": [
+    "A158478"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

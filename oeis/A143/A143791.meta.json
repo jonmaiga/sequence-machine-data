@@ -1,0 +1,19 @@
+{
+  "description": "A positive integer k is included if no prime divisor p of k, when p is represented in binary, occurs within k represented in binary.",
+  "id": "A143791",
+  "mentions": [
+    "A014076",
+    "A143792"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

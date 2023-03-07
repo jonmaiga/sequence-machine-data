@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit numbers whose base-10 representations can be written as the concatenations of 0 or more prime numbers (also expressed in base 10).",
+  "id": "A246806",
+  "mentions": [
+    "A006879",
+    "A246807"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

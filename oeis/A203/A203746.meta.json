@@ -1,0 +1,19 @@
+{
+  "description": "Vandermonde sequence using x^2 + y^2 applied to the Fibonacci numbers (1,2,3,5,...,F(n+1)), where F=A000045.",
+  "id": "A203746",
+  "mentions": [
+    "A000045",
+    "A093883",
+    "A203747"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

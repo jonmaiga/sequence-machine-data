@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that iterating x -> digsum(x)^2 + 1 from k one or more times results in a number < 10.",
+  "id": "A344208",
+  "mentions": [
+    "A007953",
+    "A344214"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

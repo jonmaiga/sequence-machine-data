@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Bernoulli(n, 1)*Pochhammer(n+1, n).",
+  "id": "A264437",
+  "mentions": [
+    "A000108",
+    "A001813",
+    "A027641",
+    "A173018",
+    "A268432"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

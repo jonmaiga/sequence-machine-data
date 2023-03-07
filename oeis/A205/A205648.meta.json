@@ -1,0 +1,20 @@
+{
+  "description": "Self-locating strings within e: numbers n such that the string n is at position n (after the decimal point) in decimal digits of e.",
+  "id": "A205648",
+  "mentions": [
+    "A001113",
+    "A057680"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Terms of A268101 without repetition.",
+  "id": "A268109",
+  "mentions": [
+    "A014556",
+    "A268101"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

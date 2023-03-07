@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that A256832(k) is not divisible by k*(k+1)/2.",
+  "id": "A270474",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A213891",
+    "A256832"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

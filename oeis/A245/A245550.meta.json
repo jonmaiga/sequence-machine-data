@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0; for n >= 1, a(n) = f(n) - 2*f(floor((n-1)/2)), where f(n) = A006046(n).",
+  "id": "A245550",
+  "mentions": [
+    "A001316",
+    "A006046",
+    "A006943",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

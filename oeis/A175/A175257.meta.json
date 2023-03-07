@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime p such that 2^(p-1) == 1 (mod a(1)*...*a(n-1)*p).",
+  "id": "A175257",
+  "mentions": [
+    "A002200",
+    "A005109",
+    "A007663",
+    "A096060",
+    "A306826"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of vertices among all distinct circles that can be constructed from an n x n square grid of points using only a compass.",
+  "id": "A359932",
+  "mentions": [
+    "A359252",
+    "A359859",
+    "A359931",
+    "A359933",
+    "A359934",
+    "A359935"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

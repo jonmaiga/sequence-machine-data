@@ -1,0 +1,20 @@
+{
+  "description": "Composites k such that gpf(k) - lpf(k) is an odd nonprime.",
+  "id": "A154373",
+  "mentions": [
+    "A002808",
+    "A006530",
+    "A020639",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

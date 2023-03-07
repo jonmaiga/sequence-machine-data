@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = binomial(3*n,n+k) for n>=0 and 0<=k<=n.",
+  "id": "A269956",
+  "mentions": [
+    "A000007",
+    "A005809",
+    "A010054",
+    "A094527"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

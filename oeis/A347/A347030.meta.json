@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + Sum_{k=2..n} (-1)^k * a(floor(n/k)).",
+  "id": "A347030",
+  "mentions": [
+    "A002321",
+    "A025523",
+    "A067856",
+    "A309288",
+    "A347031"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

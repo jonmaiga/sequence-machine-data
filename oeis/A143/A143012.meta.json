@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form (4^p + 2^p + 1)/7, where p > 3 is prime.",
+  "id": "A143012",
+  "mentions": [
+    "A000040",
+    "A001262",
+    "A126614",
+    "A141232"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:56:26",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

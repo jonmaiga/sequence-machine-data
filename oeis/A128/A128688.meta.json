@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. For n>1, a(n) is the smallest even number such that every subset of a(1), ..., a(n) adds to a nonprime.",
+  "id": "A128688",
+  "mentions": [
+    "A052349",
+    "A128687"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n = x + y + z (x, y, z > 0) such that x*y and x*z are triangular numbers, and 6*y-1 and 6*z+1 are both prime.",
+  "id": "A227877",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A132399",
+    "A229166",
+    "A230121",
+    "A230451",
+    "A230596"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

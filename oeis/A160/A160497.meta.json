@@ -1,0 +1,17 @@
+{
+  "description": "Values of pq such that there are only two residue classes (mod pq) of primes r that produce flat cyclotomic polynomial Phi(pqr,x).",
+  "id": "A160497",
+  "mentions": [
+    "A160496"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

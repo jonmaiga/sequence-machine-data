@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Re(1/(1 + i*x/(1 + i*x^2/(1 + i*x^3/(1 + i*x^4/(1 + i*x^5/(1 + ...))))))), a continued fraction, where i is the imaginary unit.",
+  "id": "A293268",
+  "mentions": [
+    "A007325",
+    "A278399",
+    "A292136",
+    "A293269"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

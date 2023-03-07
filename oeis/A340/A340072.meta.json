@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = phi(x) / gcd(x-1, phi(x)), where x = A003961(n), i.e., n with its prime factorization shifted one step towards larger primes.",
+  "id": "A340072",
+  "mentions": [
+    "A000010",
+    "A003961",
+    "A003972",
+    "A160595",
+    "A253885",
+    "A340071",
+    "A340073",
+    "A340075",
+    "A340082"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers having no divisor of the form 8*k + 5.",
+  "id": "A343109",
+  "mentions": [
+    "A141164",
+    "A188171",
+    "A343107",
+    "A343108",
+    "A343110",
+    "A343111",
+    "A343112",
+    "A343113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

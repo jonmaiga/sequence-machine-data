@@ -1,0 +1,24 @@
+{
+  "description": "A128407 * A051731.",
+  "id": "A128408",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A051731",
+    "A054524",
+    "A063441",
+    "A128407"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

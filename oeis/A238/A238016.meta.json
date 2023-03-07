@@ -1,0 +1,45 @@
+{
+  "description": "Number A(n,k) of partitions of n^k into parts that are at most n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A238016",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A057427",
+    "A094373",
+    "A206226",
+    "A236810",
+    "A237998",
+    "A238000",
+    "A238010",
+    "A238608",
+    "A238609",
+    "A238610",
+    "A238611",
+    "A238612",
+    "A238613",
+    "A238614",
+    "A238615",
+    "A238630",
+    "A238631",
+    "A238632",
+    "A238633",
+    "A238634",
+    "A238635",
+    "A238636",
+    "A238637",
+    "A258668",
+    "A258672"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

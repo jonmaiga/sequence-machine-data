@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having area k (n>=2, k>=1).",
+  "id": "A273346",
+  "mentions": [
+    "A002620",
+    "A082582",
+    "A273347",
+    "A273348"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

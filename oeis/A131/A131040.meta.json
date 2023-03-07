@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (1/2+1/2*i*sqrt(11))^n + (1/2-1/2*i*sqrt(11))^n, where i=sqrt(-1).",
+  "id": "A131040",
+  "mentions": [
+    "A002316",
+    "A002531",
+    "A131039",
+    "A131041",
+    "A131042"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:49:19",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

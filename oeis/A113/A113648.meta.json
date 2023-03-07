@@ -1,0 +1,19 @@
+{
+  "description": "A variant of Josephus Problem in which 2 persons are to be eliminated at the same time.",
+  "id": "A113648",
+  "mentions": [
+    "A006257"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

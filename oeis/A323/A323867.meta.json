@@ -1,0 +1,27 @@
+{
+  "description": "Number of aperiodic arrays of positive integers summing to n.",
+  "id": "A323867",
+  "mentions": [
+    "A000670",
+    "A000740",
+    "A027375",
+    "A101509",
+    "A323860",
+    "A323861",
+    "A323862",
+    "A323863",
+    "A323864",
+    "A323866",
+    "A323869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

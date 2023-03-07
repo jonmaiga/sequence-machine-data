@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the proper divisors of n, weighted by divisor multiplicity, equals n.",
+  "id": "A168654",
+  "mentions": [
+    "A168512"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

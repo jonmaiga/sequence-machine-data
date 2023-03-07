@@ -1,0 +1,17 @@
+{
+  "description": "Floor(sum_{i=2..n} 1/(i*log(i))).",
+  "id": "A231560",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

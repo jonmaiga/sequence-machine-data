@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (a(n-1) + a(n-2))^4, for n >= 2; a(0)=0, a(1)=1.",
+  "id": "A308507",
+  "mentions": [
+    "A000045",
+    "A014253",
+    "A134923"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

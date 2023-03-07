@@ -1,0 +1,21 @@
+{
+  "description": "Consider the infinite string S = 12345678910111213141516171819202122232425262728293031...). Sequence gives the first prime that starts at the k-th digit, skipping zero digits.",
+  "id": "A135605",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A073175",
+    "A103575"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let E(n,k) denote the k-th smallest Carmichael number such that there are n distinct Carmichael numbers: {x(1), x(2), ..., x(n)} where x_i < E_(n,k), such that for any integer i: 1 <= i <= n, x(i) is a quadratic residue of E(n,k).",
+  "id": "A317247",
+  "mentions": [
+    "A002997",
+    "A359729"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

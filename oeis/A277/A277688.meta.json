@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers k such that there is no prime p < k/2 with k - 2*p and k + 2*p both prime.",
+  "id": "A277688",
+  "mentions": [
+    "A046927",
+    "A284919"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

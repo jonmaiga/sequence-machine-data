@@ -1,0 +1,21 @@
+{
+  "description": "Sophie Germain primes that are also strong primes and lesser of twin prime pairs.",
+  "id": "A155188",
+  "mentions": [
+    "A005384",
+    "A006562",
+    "A045536",
+    "A051634",
+    "A051635"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

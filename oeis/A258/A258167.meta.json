@@ -1,0 +1,19 @@
+{
+  "description": "Indices of the start of 9 successive distinct digits in the decimal expansion of e (2.718281828...).",
+  "id": "A258167",
+  "mentions": [
+    "A001113",
+    "A258166"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

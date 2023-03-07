@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A332449(n) / gcd(n, A332449(n)), where A332449(n) = A005940(1+(3*A156552(n))).",
+  "id": "A353272",
+  "mentions": [
+    "A005940",
+    "A156552",
+    "A332449",
+    "A353270",
+    "A353271",
+    "A353273",
+    "A353274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

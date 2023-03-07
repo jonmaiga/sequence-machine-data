@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest m, 1<=m<=n, such that binomial(n,m) is evil (A001969); a(n)=0 if there is no such m.",
+  "id": "A249609",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A007318",
+    "A249650"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

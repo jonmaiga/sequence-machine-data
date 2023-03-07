@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest m > 0 such that the decimal concatenation n||n-1||n-2||...||m is prime, or -1 if no such prime exists.",
+  "id": "A341931",
+  "mentions": [
+    "A052088",
+    "A052089",
+    "A341701",
+    "A341702",
+    "A341715",
+    "A341716",
+    "A341717",
+    "A341932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

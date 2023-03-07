@@ -1,0 +1,19 @@
+{
+  "description": "prime(n) -(-1)^(n-th nonprime).",
+  "id": "A163976",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:51",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

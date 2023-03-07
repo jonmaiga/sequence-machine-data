@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} cos(k)/k^2.",
+  "id": "A122143",
+  "mentions": [
+    "A096418",
+    "A121225",
+    "A263192"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:12:07",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

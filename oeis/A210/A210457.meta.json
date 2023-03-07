@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of elements x in {1,2,...,n} such that |(f^-1)(x)| = k over all functions f:{1,2,...,n}->{1,2,...,n}; n>=0, 0<=k<=n.",
+  "id": "A210457",
+  "mentions": [
+    "A209290"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

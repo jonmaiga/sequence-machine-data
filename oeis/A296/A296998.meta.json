@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place 4 points on an n X n point grid so that no point is equally distant from two other points on the same row or the same column.",
+  "id": "A296998",
+  "mentions": [
+    "A296468",
+    "A296997"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:13",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

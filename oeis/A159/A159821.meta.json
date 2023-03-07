@@ -1,0 +1,17 @@
+{
+  "description": "Continued fraction for (e*Pi*phi)^2 A131566, where phi = (1 + sqrt(5))/2.",
+  "id": "A159821",
+  "mentions": [
+    "A131566"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

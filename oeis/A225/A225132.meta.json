@@ -1,0 +1,18 @@
+{
+  "description": "Convolutory inverse of the Thue Morse sequence.",
+  "id": "A225132",
+  "mentions": [
+    "A010060",
+    "A030018"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

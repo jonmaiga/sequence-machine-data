@@ -1,0 +1,29 @@
+{
+  "description": "Fourth-dimensional figurate numbers.",
+  "id": "A261721",
+  "mentions": [
+    "A000332",
+    "A001296",
+    "A002415",
+    "A002417",
+    "A002418",
+    "A002419",
+    "A080852",
+    "A256859",
+    "A257200",
+    "A261720"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "ABC conjecture: values of c in the list of \"abc-hits\".",
+  "id": "A130510",
+  "mentions": [
+    "A007947",
+    "A120498",
+    "A130511",
+    "A130512",
+    "A225425",
+    "A225426"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

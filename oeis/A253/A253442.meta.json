@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of x * (96 - 816*x) / ((1 - x) * (1 - 1442*x + x^2)) in powers of x.",
+  "id": "A253442",
+  "mentions": [
+    "A253410"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

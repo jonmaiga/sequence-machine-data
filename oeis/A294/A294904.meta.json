@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors of n that are in A175526.",
+  "id": "A294904",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A175526",
+    "A292257",
+    "A294894",
+    "A294901",
+    "A294902",
+    "A294903",
+    "A294905"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

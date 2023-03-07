@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient of t^k (k>=1) in the polynomial P[n,t] defined by P[1,t]=P[2,t]=t^2, P[n,t]=tP[n-1,t]+t^2*P^2[n-2,t] (n>=3).",
+  "id": "A103522",
+  "mentions": [
+    "A000278",
+    "A027383"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Sum of all parts of the last section of the set of partitions of n.",
+  "id": "A138879",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A002865",
+    "A066186",
+    "A133041",
+    "A135010",
+    "A138121",
+    "A138135",
+    "A138138",
+    "A138151",
+    "A138880",
+    "A139100",
+    "A237593",
+    "A336811",
+    "A336812",
+    "A338156",
+    "A339278",
+    "A340035",
+    "A340426",
+    "A340583",
+    "A340793"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

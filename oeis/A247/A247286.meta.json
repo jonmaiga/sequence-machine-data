@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k weak peaks.",
+  "id": "A247286",
+  "mentions": [
+    "A001006",
+    "A247287"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

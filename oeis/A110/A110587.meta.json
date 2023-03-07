@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 6q+7=p^2, q prime.",
+  "id": "A110587",
+  "mentions": [
+    "A110014",
+    "A110015",
+    "A110016"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are divisible by the sum of the digits of all their divisors (A034690).",
+  "id": "A333617",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A034690",
+    "A093705",
+    "A337230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

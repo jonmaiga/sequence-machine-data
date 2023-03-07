@@ -1,0 +1,34 @@
+{
+  "description": "Triangle T(n,k) is the number of permutations on n elements with at least one k-cycle for 1 <= k <= n.",
+  "id": "A293211",
+  "mentions": [
+    "A000142",
+    "A002467",
+    "A027616",
+    "A027617",
+    "A029571",
+    "A029572",
+    "A029573",
+    "A029574",
+    "A029575",
+    "A029576",
+    "A029577",
+    "A052145",
+    "A122974",
+    "A126074",
+    "A132961"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Hyperlucas number array T(r,n) = L(n)^(r), read by ascending antidiagonals (r >= 0, n >= 0).",
+  "id": "A137176",
+  "mentions": [
+    "A000204",
+    "A023537",
+    "A027961",
+    "A027963",
+    "A027964",
+    "A038730",
+    "A038792",
+    "A053298",
+    "A123736",
+    "A134511",
+    "A136431",
+    "A324242"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

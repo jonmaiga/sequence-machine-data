@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest such sequence a that for all i, j, a(i) = a(j) => f(i) = f(j), where f(n) = 0 for odd primes, and f(n) = A289625(n) for any other number.",
+  "id": "A322592",
+  "mentions": [
+    "A034380",
+    "A104194",
+    "A289625",
+    "A289626",
+    "A290084",
+    "A322587",
+    "A322588",
+    "A322589",
+    "A322591"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

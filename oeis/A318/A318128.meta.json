@@ -1,0 +1,26 @@
+{
+  "description": "Number of set-systems (finite sets of finite nonempty sets) with union {1,2,...,n} and intersection {}.",
+  "id": "A318128",
+  "mentions": [
+    "A000371",
+    "A001146",
+    "A003465",
+    "A119563",
+    "A131288",
+    "A318129",
+    "A318130",
+    "A318131",
+    "A318132"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

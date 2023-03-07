@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+2 0..3 arrays with the sum of medians of adjacent triples multiplied by some arrangement of +-1 equal to zero",
+  "id": "A253124",
+  "mentions": [
+    "A253129"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

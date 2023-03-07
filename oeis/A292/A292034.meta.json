@@ -1,0 +1,18 @@
+{
+  "description": "Linear divisibility sequence based on Salem number of order 4 (case t=6, see formula).",
+  "id": "A292034",
+  "mentions": [
+    "A292035"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:40:52",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

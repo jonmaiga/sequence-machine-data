@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of bases in 2..n in which the sum of the digits of n is prime.",
+  "id": "A355017",
+  "mentions": [
+    "A007310",
+    "A008588",
+    "A016945",
+    "A028834",
+    "A047235",
+    "A052294"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

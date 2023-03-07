@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*F(k)*F(k+3), where F=A000045 (Fibonacci numbers).",
+  "id": "A214885",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A077916",
+    "A119283",
+    "A214884"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

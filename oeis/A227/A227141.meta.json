@@ -1,0 +1,22 @@
+{
+  "description": "Array A(n,k) where A(1,k)=1 for row 1, and subsequent rows A(n > 1, k) are computed by recurrences related to Bulgarian Solitaire; square array A(n,k), with row n >= 1, column k >= 0, read by antidiagonals.",
+  "id": "A227141",
+  "mentions": [
+    "A000012",
+    "A002262",
+    "A025581",
+    "A227147"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Consider the primes of the form p(m)=m^2+1 such that p(m+2) is also prime for some m. The sequence lists the sums p(m) + p(m+2).",
+  "id": "A351170",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A096012",
+    "A108814",
+    "A206328"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

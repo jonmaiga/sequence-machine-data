@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci(n) divides the n-th primorial.",
+  "id": "A271317",
+  "mentions": [
+    "A000045",
+    "A002110",
+    "A019532",
+    "A271168"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

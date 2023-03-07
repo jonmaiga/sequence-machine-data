@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers of A181733 in the order of appearance.",
+  "id": "A171968",
+  "mentions": [
+    "A000265",
+    "A090129",
+    "A152423",
+    "A181733"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

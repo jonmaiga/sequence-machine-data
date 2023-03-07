@@ -1,0 +1,23 @@
+{
+  "description": "The output of a Sinclair ZX81 random number generator.",
+  "id": "A357907",
+  "mentions": [
+    "A061364",
+    "A096550",
+    "A096561",
+    "A260083",
+    "A276820"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, Stirling cycle numbers of order 2, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+(n-1)^2*T(n-1,k), for n>=0 and 0<=k<=n.",
+  "id": "A269944",
+  "mentions": [
+    "A000330",
+    "A001044",
+    "A007318",
+    "A008955",
+    "A101686",
+    "A132393",
+    "A269941",
+    "A269945",
+    "A269947"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:39:59",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

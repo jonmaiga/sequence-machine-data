@@ -1,0 +1,23 @@
+{
+  "description": "Primes expressible as the sum of (at least two) consecutive primes in at least 7 ways.",
+  "id": "A350335",
+  "mentions": [
+    "A067377",
+    "A067378",
+    "A067379",
+    "A067380",
+    "A067381",
+    "A164556",
+    "A350334"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

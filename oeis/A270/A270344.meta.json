@@ -1,0 +1,18 @@
+{
+  "description": "Least squarefree number that has runs of exactly n nonsquarefree numbers directly preceding and succeeding it.",
+  "id": "A270344",
+  "mentions": [
+    "A268330"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer k such that prime(n+1) = floor(prime(n)/cos(k)).",
+  "id": "A214491",
+  "mentions": [
+    "A000040",
+    "A214490"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

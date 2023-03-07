@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to fold a strip of n stamps taking account of order and direction of folds.",
+  "id": "A110837",
+  "mentions": [
+    "A001011",
+    "A075496"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

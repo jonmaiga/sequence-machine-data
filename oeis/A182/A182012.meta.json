@@ -1,0 +1,22 @@
+{
+  "description": "Number of graphs on 2n unlabeled nodes all having odd degree.",
+  "id": "A182012",
+  "mentions": [
+    "A000088",
+    "A002854",
+    "A210345",
+    "A210346"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:55:37",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

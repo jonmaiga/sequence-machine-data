@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be written as the product of two of its divisors such that the reverse of the binary value of the number equals the concatenation of the binary values of the divisors.",
+  "id": "A355973",
+  "mentions": [
+    "A009944",
+    "A027750",
+    "A030190",
+    "A210959"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

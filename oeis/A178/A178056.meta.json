@@ -1,0 +1,20 @@
+{
+  "description": "Integers equal to ((sqrt(A177926(k)/400)/4)/600)/36 for some k.",
+  "id": "A178056",
+  "mentions": [
+    "A177771",
+    "A177926"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

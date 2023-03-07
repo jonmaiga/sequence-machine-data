@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = (2^a(n)*(6*k - (3 - (-1)^a(n))*(1 - (-1)^n)/2) - 2^n + 4)/6, n,k >= 1, where {a(n)} is the Beatty sequence A117630 defined by a(n) = floor(n*log(3)/log(3/2)).",
+  "id": "A254312",
+  "mentions": [
+    "A004767",
+    "A117630",
+    "A174312",
+    "A254311",
+    "A257480"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

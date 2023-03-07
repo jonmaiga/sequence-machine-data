@@ -1,0 +1,22 @@
+{
+  "description": "The viabin numbers of the self-conjugate integer partitions.",
+  "id": "A290254",
+  "mentions": [
+    "A000523",
+    "A007814",
+    "A025480",
+    "A059894",
+    "A290253"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

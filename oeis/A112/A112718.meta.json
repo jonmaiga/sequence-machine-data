@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that pi(n)=1^d_1+2^d_2+...+k^d_k where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A112718",
+  "mentions": [
+    "A035138",
+    "A112719",
+    "A112720"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

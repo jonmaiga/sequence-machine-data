@@ -1,0 +1,17 @@
+{
+  "description": "Intersection of A046346 and (A046346-2).",
+  "id": "A309310",
+  "mentions": [
+    "A046346"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that match even polynomials among the monic polynomials over {-1,0,1}, ordered as at A206821.",
+  "id": "A207191",
+  "mentions": [
+    "A206821",
+    "A207192"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

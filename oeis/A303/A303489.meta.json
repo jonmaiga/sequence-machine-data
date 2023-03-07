@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals: A(n,k) = n! * [x^n] 1/(1 - k*x)^(n/k).",
+  "id": "A303489",
+  "mentions": [
+    "A000407",
+    "A008279",
+    "A061711",
+    "A113551",
+    "A131182",
+    "A256268",
+    "A265609",
+    "A303486",
+    "A303487",
+    "A303488"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

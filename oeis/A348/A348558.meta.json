@@ -1,0 +1,21 @@
+{
+  "description": "Primes where every other digit is 1 starting with the rightmost digit, and no other digit is 1.",
+  "id": "A348558",
+  "mentions": [
+    "A000040",
+    "A348559",
+    "A348560",
+    "A348561"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

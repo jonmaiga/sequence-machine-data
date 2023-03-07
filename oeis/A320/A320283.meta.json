@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographical ordering of pure imaginary integers in the base (-1+i) numeral system.",
+  "id": "A320283",
+  "mentions": [
+    "A066321",
+    "A073791",
+    "A256441"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ON cells after n generations of \"Odd-Rule\" cellular automaton on hexagonal lattice based on 7-celled neighborhood.",
+  "id": "A247666",
+  "mentions": [
+    "A011782",
+    "A071053",
+    "A102900",
+    "A160239",
+    "A247640",
+    "A253767"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the continued fractions for sqrt(k) and sqrt(k+1) have the same period.",
+  "id": "A288186",
+  "mentions": [
+    "A003285",
+    "A013943",
+    "A031400",
+    "A097853"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

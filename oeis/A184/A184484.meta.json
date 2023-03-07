@@ -1,0 +1,18 @@
+{
+  "description": "Lower s-Wythoff sequence, where s(n)=3n-2. Complement of A184485.",
+  "id": "A184484",
+  "mentions": [
+    "A184117",
+    "A184485"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:47",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

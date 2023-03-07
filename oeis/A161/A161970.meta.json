@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 28C for the Monster group with a(0) = -1.",
+  "id": "A161970",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058608",
+    "A121373",
+    "A123648",
+    "A230446"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:05",
+    "offset": -1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

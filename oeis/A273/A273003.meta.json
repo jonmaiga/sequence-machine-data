@@ -1,0 +1,23 @@
+{
+  "description": "Arrange the base 10 digits of the n-th Fibonacci number in descending order.",
+  "id": "A273003",
+  "mentions": [
+    "A000045",
+    "A004186",
+    "A272918",
+    "A273046"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n) is the smallest positive number that has not yet appeared that has the same number of divisors as the sum a(n-2) + a(n-1) but does not equal the sum.",
+  "id": "A355636",
+  "mentions": [
+    "A000005",
+    "A351001",
+    "A352768",
+    "A352774",
+    "A352867",
+    "A355637"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

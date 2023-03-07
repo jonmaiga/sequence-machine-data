@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k of the earliest occurrence of widths patterns in the symmetric representation of sigma listed in the ordering of patterns in A342595.",
+  "id": "A342596",
+  "mentions": [
+    "A001405",
+    "A237593",
+    "A249223",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

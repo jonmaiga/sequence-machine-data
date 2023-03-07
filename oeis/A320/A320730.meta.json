@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that A086747(k) = 0, where A086747 is the Baum-Sweet sequence.",
+  "id": "A320730",
+  "mentions": [
+    "A060142",
+    "A086747"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

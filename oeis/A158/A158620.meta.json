@@ -1,0 +1,27 @@
+{
+  "description": "Partial products of A068601.",
+  "id": "A158620",
+  "mentions": [
+    "A000217",
+    "A005448",
+    "A010791",
+    "A016921",
+    "A068601",
+    "A158621",
+    "A158622",
+    "A158623",
+    "A158624"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

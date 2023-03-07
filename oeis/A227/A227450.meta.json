@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) = A008277(n,k)*2^k; n >= 1, 1 <= k <= n.",
+  "id": "A227450",
+  "mentions": [
+    "A008277",
+    "A084938",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

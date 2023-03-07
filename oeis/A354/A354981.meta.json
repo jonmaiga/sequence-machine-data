@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n = 2 * p^k, with p an odd prime and k >= 1, otherwise 0.",
+  "id": "A354981",
+  "mentions": [
+    "A069513",
+    "A174275",
+    "A211487",
+    "A278568",
+    "A354108"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

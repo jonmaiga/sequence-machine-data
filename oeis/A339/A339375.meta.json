@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into an even number of distinct triangular numbers.",
+  "id": "A339375",
+  "mentions": [
+    "A000217",
+    "A024940",
+    "A067661",
+    "A292518",
+    "A339366",
+    "A339373",
+    "A339374",
+    "A339376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

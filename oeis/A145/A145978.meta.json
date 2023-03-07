@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of 1/(1-x*(1-8*x)).",
+  "id": "A145978",
+  "mentions": [
+    "A010892",
+    "A106852",
+    "A106853",
+    "A106854",
+    "A107920",
+    "A109466",
+    "A145934",
+    "A145976"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

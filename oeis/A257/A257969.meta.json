@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the sum of the digits (sod) of m, m^2, m^3, ..., m^9 are in arithmetic progression: sod(m^(k+1)) - sod(m^k) = f for k=1..8.",
+  "id": "A257969",
+  "mentions": [
+    "A061209",
+    "A115518",
+    "A257784",
+    "A258722"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

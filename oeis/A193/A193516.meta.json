@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = number of ways to place any number of 4X1 tiles of k distinguishable colors into an nX1 grid.",
+  "id": "A193516",
+  "mentions": [
+    "A003269",
+    "A051866",
+    "A052942",
+    "A082111",
+    "A100536",
+    "A143454"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:11",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

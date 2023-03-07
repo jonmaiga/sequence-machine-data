@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (2^n + 11^n)/13 is prime.",
+  "id": "A125957",
+  "mentions": [
+    "A000978",
+    "A057469",
+    "A082387"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

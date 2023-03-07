@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!2-256, where k!2 is the double factorial number (A006852).",
+  "id": "A289856",
+  "mentions": [
+    "A006852",
+    "A265114"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

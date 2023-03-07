@@ -1,0 +1,30 @@
+{
+  "description": "Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r = (1+sqrt(5))/2 (the golden ratio).",
+  "id": "A194661",
+  "mentions": [
+    "A194662",
+    "A194663",
+    "A194665",
+    "A194666",
+    "A194668",
+    "A194669",
+    "A194671",
+    "A194675",
+    "A194678",
+    "A194679",
+    "A194682",
+    "A194683",
+    "A194686"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

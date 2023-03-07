@@ -1,0 +1,29 @@
+{
+  "description": "Difference of sums of digits of n in decimal and in binary representation.",
+  "id": "A180018",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000225",
+    "A002283",
+    "A007088",
+    "A007953",
+    "A008591",
+    "A011557",
+    "A037308",
+    "A180017",
+    "A180019"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

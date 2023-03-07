@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the hafnian of the 2n X 2n symmetric matrix defined by M[i,j] = i*j - ceiling(i*j/3).",
+  "id": "A358164",
+  "mentions": [
+    "A030511",
+    "A143979",
+    "A358163"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

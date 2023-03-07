@@ -1,0 +1,19 @@
+{
+  "description": "Period 16: repeat [0, 1, 1, 0, 2, 3, 3, 2, 3, 2, 2, 3, 1, 0, 0, 1].",
+  "id": "A270824",
+  "mentions": [
+    "A270823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:05:37",
+    "offset": 0,
+    "size": 96,
+    "source": "joeis"
+  }
+}

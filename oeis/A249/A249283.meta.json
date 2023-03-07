@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of K(3/4), where K is the complete elliptic integral of the first kind.",
+  "id": "A249283",
+  "mentions": [
+    "A093341",
+    "A249282"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

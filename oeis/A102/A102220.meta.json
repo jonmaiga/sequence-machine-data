@@ -1,0 +1,21 @@
+{
+  "description": "Triangular matrix, read by rows, equal to [2*I - A008459]^(-1), i.e., the matrix inverse of the difference of twice the identity matrix and the triangular matrix of squared binomial coefficients.",
+  "id": "A102220",
+  "mentions": [
+    "A008459",
+    "A102221",
+    "A102222"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

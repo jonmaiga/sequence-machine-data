@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p and prime(p) end with the same four digits.",
+  "id": "A271046",
+  "mentions": [
+    "A232189",
+    "A271043",
+    "A271044",
+    "A271045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

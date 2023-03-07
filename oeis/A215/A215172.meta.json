@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1, a(n) = a(n-1)*4^n + 2^n - 1. That is, add n 0's and n 1's to the binary representation of previous term.",
+  "id": "A215172",
+  "mentions": [
+    "A076131"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of converting one set of lists containing n elements to another set of lists containing n elements by removing the last element from one of the lists and either appending it to an existing list or treating it as a new list.",
+  "id": "A300159",
+  "mentions": [
+    "A000041",
+    "A000262",
+    "A006152",
+    "A052852",
+    "A103194"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

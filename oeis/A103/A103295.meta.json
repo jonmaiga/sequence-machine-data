@@ -1,0 +1,30 @@
+{
+  "description": "Number of complete rulers with length n.",
+  "id": "A103295",
+  "mentions": [
+    "A000079",
+    "A103294",
+    "A103298",
+    "A103300",
+    "A126796",
+    "A143823",
+    "A169942",
+    "A325676",
+    "A325677",
+    "A325683",
+    "A325684",
+    "A325685",
+    "A349976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

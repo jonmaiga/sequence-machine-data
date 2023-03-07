@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m needing exactly n distinct digits in decimal representation of m*(m+1)/2.",
+  "id": "A255678",
+  "mentions": [
+    "A118668",
+    "A260214"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

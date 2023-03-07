@@ -1,0 +1,26 @@
+{
+  "description": "Isolated primes: Primes p such that there is no other prime in the interval [2*prevprime(p/2), 2*nextprime(p/2)].",
+  "id": "A166251",
+  "mentions": [
+    "A080359",
+    "A100484",
+    "A104272",
+    "A164288",
+    "A164294",
+    "A164333",
+    "A164368",
+    "A166252",
+    "A166307",
+    "A182426"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

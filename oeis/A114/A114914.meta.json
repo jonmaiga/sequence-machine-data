@@ -1,0 +1,18 @@
+{
+  "description": "Values in A114913 that are not in A111174.",
+  "id": "A114914",
+  "mentions": [
+    "A111174",
+    "A114913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

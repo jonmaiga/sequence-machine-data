@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the smaller parts of the partitions of 2n into two parts with larger part prime.",
+  "id": "A294113",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A034387",
+    "A294114"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

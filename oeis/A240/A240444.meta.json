@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) = Number of ways to arrange k indistinguishable points on an n X n square grid so that no four of them are vertices of a square of any orientation.",
+  "id": "A240444",
+  "mentions": [
+    "A000290",
+    "A006857",
+    "A083374",
+    "A178208",
+    "A240443",
+    "A240445",
+    "A240446"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

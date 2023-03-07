@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose base 10 digits are a subset of {0, 8}.",
+  "id": "A204095",
+  "mentions": [
+    "A007088",
+    "A078247",
+    "A097256",
+    "A169964",
+    "A169965",
+    "A169966",
+    "A169967",
+    "A204093",
+    "A204094"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

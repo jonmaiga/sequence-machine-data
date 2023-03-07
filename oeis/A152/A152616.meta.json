@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that exactly three subsets of proper divisors of k sum to k.",
+  "id": "A152616",
+  "mentions": [
+    "A064771",
+    "A065205",
+    "A065235",
+    "A152615"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

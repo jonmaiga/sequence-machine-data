@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = a(n-1) + 36*a(n-2), a(0)=1, a(1)=6.",
+  "id": "A158797",
+  "mentions": [
+    "A000045",
+    "A026597",
+    "A122994",
+    "A122995",
+    "A158608"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

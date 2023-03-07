@@ -1,0 +1,25 @@
+{
+  "description": "Set partitions reversed interpreted as factorial base numbers.",
+  "id": "A120695",
+  "mentions": [
+    "A000110",
+    "A007489",
+    "A071155",
+    "A120696",
+    "A120697",
+    "A120698"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

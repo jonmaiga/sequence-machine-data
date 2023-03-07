@@ -1,0 +1,25 @@
+{
+  "description": "Number of 3 X n semireduced Latin rectangles, that is, having exactly n fixed points in the first two rows.",
+  "id": "A176901",
+  "mentions": [
+    "A000179",
+    "A000186",
+    "A087981",
+    "A094047",
+    "A174556",
+    "A174560",
+    "A174561",
+    "A174563"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

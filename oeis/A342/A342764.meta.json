@@ -1,0 +1,19 @@
+{
+  "description": "Fold a square sheet of paper alternately vertically to the left and horizontally downwards; after each fold, draw a line along each inward crease; after n folds, the largest region in the resulting graph occupies a(n)/2^n of the whole sheet.",
+  "id": "A342764",
+  "mentions": [
+    "A342759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

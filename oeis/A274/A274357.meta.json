@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n such that n and n+1 both have 8 divisors.",
+  "id": "A274357",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A030626",
+    "A039832",
+    "A049103",
+    "A174456",
+    "A215197",
+    "A274358",
+    "A274359",
+    "A274360",
+    "A274361",
+    "A274362",
+    "A274363",
+    "A274364",
+    "A274365",
+    "A274366"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

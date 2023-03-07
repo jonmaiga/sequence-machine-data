@@ -1,0 +1,21 @@
+{
+  "description": "Inverse binomial transform of A156616.",
+  "id": "A294505",
+  "mentions": [
+    "A156616",
+    "A294501",
+    "A294503",
+    "A294504"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n with at least one pair of consecutive divisible nontrivial divisors (greater than 1 and less than n).",
+  "id": "A328189",
+  "mentions": [
+    "A000005",
+    "A060680",
+    "A060775",
+    "A067513",
+    "A088725",
+    "A163870",
+    "A328028",
+    "A328161",
+    "A328162",
+    "A328171",
+    "A328194",
+    "A328221"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1; a(n) = A064413(1+A064664(n-1)).",
+  "id": "A304753",
+  "mentions": [
+    "A064413",
+    "A064664",
+    "A304754"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

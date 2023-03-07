@@ -1,0 +1,27 @@
+{
+  "description": "INVERT transform (with offset) of quadruple factorials (A008545), where g.f. satisfies: A(x) = 1 + x*[d/dx x*A(x)^4]/A(x)^4.",
+  "id": "A112938",
+  "mentions": [
+    "A008545",
+    "A112934",
+    "A112935",
+    "A112936",
+    "A112937",
+    "A112939",
+    "A112940",
+    "A112941",
+    "A112942",
+    "A112943"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

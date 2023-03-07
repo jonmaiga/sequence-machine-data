@@ -1,0 +1,20 @@
+{
+  "description": "Variation of Van Eck's sequence A181391: a(n+1) = the minimum positive offset m from a(n) such that the decimal concatenation of a(n-m), a(n-m+1), ..., a(n-m+k) = a(n), where k >= 0; a(n+1)=0 if no such m exists. Start with a(1)=0.",
+  "id": "A333359",
+  "mentions": [
+    "A001704",
+    "A007908",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of numbers removed in each step of Eratosthenes's sieve for 6!.",
+  "id": "A145533",
+  "mentions": [
+    "A003604",
+    "A133228",
+    "A145532",
+    "A145540"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

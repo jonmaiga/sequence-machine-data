@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of power series with alternate signs of gamma matrix with determinant 7!.",
+  "id": "A158050",
+  "mentions": [
+    "A111490",
+    "A158040",
+    "A158049"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

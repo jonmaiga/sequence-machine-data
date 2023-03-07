@@ -1,0 +1,21 @@
+{
+  "description": "Matrix log of triangle A030528, where A030528(n,k) = C(k,n-k).",
+  "id": "A179198",
+  "mentions": [
+    "A030528",
+    "A179199",
+    "A179200",
+    "A179201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

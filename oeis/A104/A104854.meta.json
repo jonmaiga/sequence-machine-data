@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit numbers using digits 0 to n-1 each exactly once and containing no 3-digit sequence in increasing or decreasing order.",
+  "id": "A104854",
+  "mentions": [
+    "A000111",
+    "A001250",
+    "A231895"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

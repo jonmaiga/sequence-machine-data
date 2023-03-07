@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct solutions to the congruence x(1)*x(2) == 0 (mod n), with x() only in 1..n-1.",
+  "id": "A180772",
+  "mentions": [
+    "A000188",
+    "A018804",
+    "A174088",
+    "A180782"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

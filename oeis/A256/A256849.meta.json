@@ -1,0 +1,37 @@
+{
+  "description": "Decimal expansion of the generalized Euler constant gamma(4,5) (negated).",
+  "id": "A256849",
+  "mentions": [
+    "A001620",
+    "A228725",
+    "A239097",
+    "A256425",
+    "A256778",
+    "A256779",
+    "A256780",
+    "A256781",
+    "A256782",
+    "A256783",
+    "A256784",
+    "A256843",
+    "A256844",
+    "A256845",
+    "A256846",
+    "A256847",
+    "A256848",
+    "A256850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

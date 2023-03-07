@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the number of scenarios for the gift exchange problem in which each gift can be stolen at most once, when there are n gifts in the pool and k gifts (not yet frozen) in peoples' hands.",
+  "id": "A144502",
+  "mentions": [
+    "A000522",
+    "A001515",
+    "A144301",
+    "A144495",
+    "A144496",
+    "A144497",
+    "A144498",
+    "A144499",
+    "A144500",
+    "A144501",
+    "A144503"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

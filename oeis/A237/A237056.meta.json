@@ -1,0 +1,20 @@
+{
+  "description": "Ludic and non-ludic numbers interleaved.",
+  "id": "A237056",
+  "mentions": [
+    "A003309",
+    "A073846",
+    "A192607",
+    "A237058"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

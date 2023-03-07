@@ -1,0 +1,24 @@
+{
+  "description": "Trajectory of 45 under repeated application of the map k -> A291784(k).",
+  "id": "A291787",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A290447",
+    "A291784",
+    "A291785",
+    "A291786",
+    "A291788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

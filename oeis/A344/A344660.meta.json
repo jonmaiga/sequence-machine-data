@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms on a square spiral such that each term, when written with one digit per square, forms no prime value in the eight sums when each digit is added to each of its eight nearest neighbors.",
+  "id": "A344660",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A063826",
+    "A344659"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Slowest growing sequence of semiprimes having the semiprime-pairwise-sum property: for any i",
+  "id": "A116656",
+  "mentions": [
+    "A001358",
+    "A164979",
+    "A181620"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

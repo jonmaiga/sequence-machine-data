@@ -1,0 +1,21 @@
+{
+  "description": "Triangular matrix, read by rows, where row n is formed from the first differences of row (n-1) of its inverse matrix square, with an appended '1' for the main diagonal.",
+  "id": "A102583",
+  "mentions": [
+    "A102225",
+    "A102585",
+    "A102586"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

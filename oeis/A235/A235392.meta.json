@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (p! + q!)/ p! where p= prime(k) and q= prime(k+1), in order of increasing k.",
+  "id": "A235392",
+  "mentions": [
+    "A000040",
+    "A100858"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Larger of two consecutive prime numbers, p1 and p2 = p1 + d, such that p1*p2*d - d is the average of twin primes.",
+  "id": "A153379",
+  "mentions": [
+    "A099349",
+    "A153374",
+    "A153375",
+    "A153376",
+    "A153377",
+    "A153378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

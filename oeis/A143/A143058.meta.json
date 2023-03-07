@@ -1,0 +1,19 @@
+{
+  "description": "A007318 * [1, 6, 7, 1, 0, 0, 0, ...].",
+  "id": "A143058",
+  "mentions": [
+    "A007318",
+    "A008278"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

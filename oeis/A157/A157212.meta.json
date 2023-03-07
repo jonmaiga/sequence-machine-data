@@ -1,0 +1,39 @@
+{
+  "description": "Triangle T(n, k, m) = (m*(n-k) + 1)*T(n-1, k-1, m) + (m*k + 1)*T(n-1, k, m) - m*f(n,k)*T(n-2, k-1, m) with T(n, 0, m) = T(n, n, m) = 1, f(n, k) = k if k <= floor(n/2) otherwise n-k, and m = 3, read by rows.",
+  "id": "A157212",
+  "mentions": [
+    "A007318",
+    "A157147",
+    "A157148",
+    "A157149",
+    "A157150",
+    "A157151",
+    "A157152",
+    "A157153",
+    "A157154",
+    "A157155",
+    "A157156",
+    "A157207",
+    "A157208",
+    "A157209",
+    "A157210",
+    "A157211",
+    "A157268",
+    "A157272",
+    "A157273",
+    "A157274",
+    "A157275"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:01:51",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of lattice points in a Cartesian grid between an equilateral triangle and an inscribed circle of radius n; one of the side of triangle is perpendicular to the X-axis; the circle's center is at the origin.",
+  "id": "A303706",
+  "mentions": [
+    "A303644",
+    "A303646"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that the triangular number n*(n+1)/2 has 2 different digits in base 10.",
+  "id": "A213518",
+  "mentions": [
+    "A045914",
+    "A062691",
+    "A118668",
+    "A187127",
+    "A213516",
+    "A213517",
+    "A325907"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into at most 3 distinct positive triangular numbers.",
+  "id": "A357071",
+  "mentions": [
+    "A000217",
+    "A002636",
+    "A024940",
+    "A307598",
+    "A347731",
+    "A357070",
+    "A357072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

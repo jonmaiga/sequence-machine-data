@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that there exist three primes q, r and s with p^3=q^3+r^3+s^3.",
+  "id": "A114923",
+  "mentions": [
+    "A023042"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree odd composite numbers n having a prime factor p such that (p-1)|(n-1).",
+  "id": "A300117",
+  "mentions": [
+    "A002997",
+    "A177516"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

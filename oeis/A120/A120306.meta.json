@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the sum of all matrix elements of n X n matrix M[i,j]=CatalanNumber[i]/CatalanNumber[j], where CatalanNumber[k]=(2k)!/k!/(k+1)!=A000108[k].",
+  "id": "A120306",
+  "mentions": [
+    "A000108",
+    "A007645",
+    "A014138"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

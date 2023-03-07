@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest positive number not among the first k terms where k is the number of times a(n-1) has occurred.",
+  "id": "A359728",
+  "mentions": [
+    "A358921"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

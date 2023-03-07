@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 4x^2 + 15y^2.",
+  "id": "A107168",
+  "mentions": [
+    "A106856",
+    "A107132",
+    "A107152",
+    "A139827"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of n that are also divisors of some d(k)*10^k, where n=Sum(d(k)*10^k).",
+  "id": "A138707",
+  "mentions": [
+    "A000005",
+    "A037124",
+    "A061116",
+    "A138708"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

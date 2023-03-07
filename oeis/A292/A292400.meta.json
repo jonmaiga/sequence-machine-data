@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of (1,2,2,2,2,2,2,...) (A040000), where p(S) = (1 - S)^2.",
+  "id": "A292400",
+  "mentions": [
+    "A033453",
+    "A040000",
+    "A292399"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:37:06",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

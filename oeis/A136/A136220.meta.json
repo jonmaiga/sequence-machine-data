@@ -1,0 +1,32 @@
+{
+  "description": "Triangle P, read by rows, where column k of P^3 equals column 0 of P^(3k+3) such that column 0 of P^3 equals column 0 of P shift one row up, with P(0,0)=1.",
+  "id": "A136220",
+  "mentions": [
+    "A091351",
+    "A135880",
+    "A136212",
+    "A136217",
+    "A136218",
+    "A136221",
+    "A136222",
+    "A136223",
+    "A136224",
+    "A136225",
+    "A136228",
+    "A136230",
+    "A136231"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

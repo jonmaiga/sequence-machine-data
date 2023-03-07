@@ -1,0 +1,19 @@
+{
+  "description": "Corresponding values of sigma(n) of numbers in A206036.",
+  "id": "A206421",
+  "mentions": [
+    "A000203",
+    "A159886",
+    "A206036"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

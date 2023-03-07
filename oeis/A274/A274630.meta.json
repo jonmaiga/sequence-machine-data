@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k) (n>=1, k>=1) read by antidiagonals upwards in which the number entered in a square is the smallest positive number that is different from the numbers already filled in that are queens' or knights' moves away from that square.",
+  "id": "A274630",
+  "mentions": [
+    "A000027",
+    "A269526",
+    "A274631",
+    "A274632",
+    "A274633",
+    "A308201",
+    "A308883"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

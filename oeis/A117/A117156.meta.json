@@ -1,0 +1,26 @@
+{
+  "description": "Number of permutations avoiding the consecutive pattern 1342.",
+  "id": "A117156",
+  "mentions": [
+    "A052324",
+    "A113228",
+    "A113229",
+    "A117158",
+    "A117226",
+    "A201692",
+    "A201693",
+    "A231166",
+    "A240885"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

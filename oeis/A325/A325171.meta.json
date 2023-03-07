@@ -1,0 +1,19 @@
+{
+  "description": "Down-integers: integers k such that w_(s+1) = floor(phi*k) for some k-slow Fibonacci walk, with phi=(1+sqrt(5))/2. See comments for further explanation.",
+  "id": "A325171",
+  "mentions": [
+    "A001622",
+    "A088527",
+    "A325172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

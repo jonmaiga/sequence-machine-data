@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n that cannot be decomposed into the sum of up to 4 squares using the following algorithm: If n is not decomposable using the algorithm: [Repeat the following 2 steps 4 times: 1-find the largest square s smaller than n; 2-n=n-s Numbers that can be decomposed yield final values of n=0.] then choose the first square as the second largest square smaller than n and try finding the remaining up to 3 squares using the 2 steps of the algorithm in brackets.",
+  "id": "A173042",
+  "mentions": [
+    "A112687"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

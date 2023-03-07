@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that tau(n) + phi(n) is a perfect square.",
+  "id": "A245202",
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

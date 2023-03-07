@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = -a(1) = a(2) = 1, a(n) = 0 for n>2.",
+  "id": "A263013",
+  "mentions": [
+    "A000124",
+    "A010892",
+    "A130716",
+    "A161680"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:45",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

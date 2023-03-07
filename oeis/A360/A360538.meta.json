@@ -1,0 +1,18 @@
+{
+  "description": "Number of multisets of n nonzero digits such that sum(digits) > product(digits).",
+  "id": "A360538",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

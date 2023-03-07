@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^(n/d+1)*d^(d-1).",
+  "id": "A321386",
+  "mentions": [
+    "A000169",
+    "A262843",
+    "A321388"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

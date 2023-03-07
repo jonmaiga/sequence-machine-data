@@ -1,0 +1,25 @@
+{
+  "description": "Number of 2n-cycles on the graph of the tesseract, 2 <= n <= 8.",
+  "id": "A167981",
+  "mentions": [
+    "A085452",
+    "A144151",
+    "A167982",
+    "A167983",
+    "A167984",
+    "A167985",
+    "A167986"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

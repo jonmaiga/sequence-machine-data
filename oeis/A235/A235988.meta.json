@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the partition parts of 3n into 3 parts.",
+  "id": "A235988",
+  "mentions": [
+    "A001651",
+    "A077043",
+    "A093353"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:21",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

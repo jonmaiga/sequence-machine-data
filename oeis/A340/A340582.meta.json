@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) = 4 * sigma(k+1).",
+  "id": "A340582",
+  "mentions": [
+    "A002961",
+    "A058073",
+    "A080372",
+    "A163193",
+    "A217791",
+    "A340713",
+    "A340720"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

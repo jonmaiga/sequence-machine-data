@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k, k + 1 and k + 2 are 3 consecutive Niven (Harshad) numbers that are also divisible by a square.",
+  "id": "A359839",
+  "mentions": [
+    "A005349",
+    "A013929",
+    "A060159",
+    "A068781",
+    "A070258",
+    "A141769",
+    "A154701",
+    "A235578",
+    "A330927",
+    "A330928",
+    "A330929",
+    "A330930"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

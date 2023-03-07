@@ -1,0 +1,18 @@
+{
+  "description": "Sum of binary digits ( = sum of ternary digits ) of terms in A037301.",
+  "id": "A178620",
+  "mentions": [
+    "A037301"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

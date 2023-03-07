@@ -1,0 +1,24 @@
+{
+  "description": "Composites n with exactly two distinct prime divisors and of the form n=1+(any prime).",
+  "id": "A136151",
+  "mentions": [
+    "A007774",
+    "A008864",
+    "A136152",
+    "A136153",
+    "A136154",
+    "A136155"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

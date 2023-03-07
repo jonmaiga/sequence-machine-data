@@ -1,0 +1,20 @@
+{
+  "description": "The least positive integer that has exactly n different representations as Brazilian number.",
+  "id": "A284758",
+  "mentions": [
+    "A066460",
+    "A125134",
+    "A329383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

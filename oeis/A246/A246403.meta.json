@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of a constant related to series-reduced trees.",
+  "id": "A246403",
+  "mentions": [
+    "A000014",
+    "A001678",
+    "A001679",
+    "A059123",
+    "A198518",
+    "A244456"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

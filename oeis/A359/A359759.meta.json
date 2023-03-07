@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows. T(n, k) = (-1)^(n - k) * Sum_{j=k..n} binomial(n, j) * A354794(j, k) * j^(n - j).",
+  "id": "A359759",
+  "mentions": [
+    "A048993",
+    "A059297",
+    "A354794",
+    "A357247"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

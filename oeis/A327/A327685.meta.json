@@ -1,0 +1,29 @@
+{
+  "description": "Nonprime numbers whose prime indices have a common divisor > 1.",
+  "id": "A327685",
+  "mentions": [
+    "A000040",
+    "A000837",
+    "A007916",
+    "A018783",
+    "A056239",
+    "A108572",
+    "A112798",
+    "A289509",
+    "A318978",
+    "A322336",
+    "A327407",
+    "A327658"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

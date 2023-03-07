@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row is the continued fraction expansion of the sum of the reciprocals of the first n primes.",
+  "id": "A260615",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A024451",
+    "A100398"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cofr",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-bfile"
+  }
+}

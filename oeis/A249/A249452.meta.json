@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that A249441(n) = 3.",
+  "id": "A249452",
+  "mentions": [
+    "A000225",
+    "A007318",
+    "A029744",
+    "A048278",
+    "A052955",
+    "A055010",
+    "A089633",
+    "A249441"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:26:45",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

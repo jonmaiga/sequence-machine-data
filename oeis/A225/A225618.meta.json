@@ -1,0 +1,19 @@
+{
+  "description": "Number of weak inversions in all standard Young tableaux of size n.",
+  "id": "A225618",
+  "mentions": [
+    "A000085",
+    "A161125",
+    "A225617"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

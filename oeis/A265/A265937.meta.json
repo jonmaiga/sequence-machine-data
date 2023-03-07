@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=0} (1 + x)^(n*(n+1)/2) / 2^n.",
+  "id": "A265937",
+  "mentions": [
+    "A173219",
+    "A265936"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

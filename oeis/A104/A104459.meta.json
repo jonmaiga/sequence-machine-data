@@ -1,0 +1,20 @@
+{
+  "description": "Possible differences between adjacent palindromes.",
+  "id": "A104459",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:38:54",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

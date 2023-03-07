@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 - p - 1, p^3 - p - 1 and p^4 - p - 1 are all prime.",
+  "id": "A236173",
+  "mentions": [
+    "A091567",
+    "A236071",
+    "A236168",
+    "A236171"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

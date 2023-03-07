@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that sigma(n) mod n = antisigma(n) mod n, where sigma(n) = A000203(n) = sum of divisors of n, antisigma(n) = A024816(n) = sum of non-divisors of n.",
+  "id": "A229088",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A024816",
+    "A054024",
+    "A229087",
+    "A229089",
+    "A229090",
+    "A229110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First column of A261987.",
+  "id": "A262042",
+  "mentions": [
+    "A002808",
+    "A261987",
+    "A264482",
+    "A264483"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

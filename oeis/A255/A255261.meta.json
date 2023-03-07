@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + sum of the hexagonal numbers which are among the first (n-1) terms of the sequence, with a(1)=1.",
+  "id": "A255261",
+  "mentions": [
+    "A100963",
+    "A101135",
+    "A255260"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

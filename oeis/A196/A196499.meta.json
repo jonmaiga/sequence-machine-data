@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the greatest residue of the congruence x^k (mod k) equals k-1 for x in [0..k-1].",
+  "id": "A196499",
+  "mentions": [
+    "A196082"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes that don't divide the number of 3-line Latin rectangles.",
+  "id": "A275920",
+  "mentions": [
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A276183(n) = 3.",
+  "id": "A276186",
+  "mentions": [
+    "A000003",
+    "A000086",
+    "A000089",
+    "A001615",
+    "A001616",
+    "A001617",
+    "A276183"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

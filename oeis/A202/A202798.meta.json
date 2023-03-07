@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 binary arrays with every one adjacent to another one horizontally or vertically",
+  "id": "A202798",
+  "mentions": [
+    "A202802"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

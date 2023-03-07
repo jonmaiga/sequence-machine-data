@@ -1,0 +1,17 @@
+{
+  "description": "a(k) such that A225281 column k of T(n,k) = n*k*(k-1)/2 - a(k) for large n",
+  "id": "A225288",
+  "mentions": [
+    "A225281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

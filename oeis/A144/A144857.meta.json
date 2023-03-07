@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that divide Sum_{i=1..k} phi(i)^2, where phi(i) = totient function A000010.",
+  "id": "A144857",
+  "mentions": [
+    "A000010",
+    "A048290",
+    "A057434",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

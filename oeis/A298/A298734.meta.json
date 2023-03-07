@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n-th term in periodic sequence repeating the divisors of n in decreasing order.",
+  "id": "A298734",
+  "mentions": [
+    "A033950",
+    "A122377"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

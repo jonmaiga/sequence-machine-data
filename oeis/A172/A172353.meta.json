@@ -1,0 +1,21 @@
+{
+  "description": "Triangle t(n,k) of Padovan factorial ratios c(n)/(c(k)*c(n-k)) where c(n) = A126772(n).",
+  "id": "A172353",
+  "mentions": [
+    "A010048",
+    "A126772",
+    "A134816",
+    "A172355"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

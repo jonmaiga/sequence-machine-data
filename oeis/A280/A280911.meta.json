@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that sum of decimal digits of n equals number of prime divisors of n counted with multiplicity and sum of distinct decimal digits of n equals number of distinct primes dividing n.",
+  "id": "A280911",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007953",
+    "A050689",
+    "A050690",
+    "A057531",
+    "A217928"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

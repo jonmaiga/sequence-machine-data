@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that end in a loop of size > 2 under iterations of A352544 (= half or add largest anagram).",
+  "id": "A352543",
+  "mentions": [
+    "A352540",
+    "A352541",
+    "A352542",
+    "A352544",
+    "A352545"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

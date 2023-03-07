@@ -1,0 +1,20 @@
+{
+  "description": "Prime number p such that the decimal representation of its binary reflected Gray code is also a prime.",
+  "id": "A281316",
+  "mentions": [
+    "A000040",
+    "A003188",
+    "A281227"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

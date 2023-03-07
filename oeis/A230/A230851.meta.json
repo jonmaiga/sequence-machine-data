@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with divisors which are half odious (A000069) and half evil (A001969).",
+  "id": "A230851",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A167171",
+    "A227872"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*a(n-1)+20*a(n-2) for n>=3, a(0)=1, a(1)=4, a(2)=32.",
+  "id": "A133642",
+  "mentions": [
+    "A122950"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:47:29",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

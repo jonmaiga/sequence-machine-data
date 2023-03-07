@@ -1,0 +1,21 @@
+{
+  "description": "Column 3 of triangle A117162; equals the Moebius transform of A117163 (column 2 of A117162) preceded by a zero.",
+  "id": "A117164",
+  "mentions": [
+    "A008683",
+    "A112682",
+    "A117162",
+    "A117163"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

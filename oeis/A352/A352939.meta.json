@@ -1,0 +1,29 @@
+{
+  "description": "First differences of the records in the number of iterations of the 3x+1 sequences required to reach a power of 2.",
+  "id": "A352939",
+  "mentions": [
+    "A006370",
+    "A006877",
+    "A014682",
+    "A056959",
+    "A057716",
+    "A208981",
+    "A288493",
+    "A347270",
+    "A347272",
+    "A347519",
+    "A347532",
+    "A352907",
+    "A353265"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

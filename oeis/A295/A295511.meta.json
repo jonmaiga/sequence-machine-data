@@ -1,0 +1,22 @@
+{
+  "description": "The Schinzel-Sierpiński tree of fractions, read across levels.",
+  "id": "A295511",
+  "mentions": [
+    "A002487",
+    "A294442",
+    "A295510",
+    "A295512",
+    "A295515"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

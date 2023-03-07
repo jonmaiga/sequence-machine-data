@@ -1,0 +1,19 @@
+{
+  "description": "Number of signed permutations of length n that are sortable to the identity permutation by some sequence of cdr (context-directed reversal) and cds (context-directed swap) moves.",
+  "id": "A260506",
+  "mentions": [
+    "A000165",
+    "A249165"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

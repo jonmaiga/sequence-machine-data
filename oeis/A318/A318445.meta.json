@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, d",
+  "id": "A318445",
+  "mentions": [
+    "A005187",
+    "A211779",
+    "A293214",
+    "A293447",
+    "A318446",
+    "A318447"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of a power series characterizing how powers of the cosine function converge to the Gaussian function.",
+  "id": "A350194",
+  "mentions": [
+    "A222411",
+    "A222412",
+    "A241885",
+    "A242225",
+    "A350154"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest n-bit number having the most common prime signature among n-bit numbers. (In case more than one prime signature is tied for most common, choose the smallest n-bit number whose prime signature is one of those tied.)",
+  "id": "A342172",
+  "mentions": [
+    "A046523"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

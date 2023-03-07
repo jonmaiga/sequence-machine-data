@@ -1,0 +1,28 @@
+{
+  "description": "Remultiply n first \"downward\", from N to GF(2)[X], and then remultiply that result back \"upward\", from GF(2)[X] to N: a(n) = A234742(A234741(n)).",
+  "id": "A236852",
+  "mentions": [
+    "A048720",
+    "A091206",
+    "A234741",
+    "A234742",
+    "A236836",
+    "A236837",
+    "A236846",
+    "A236847",
+    "A236851",
+    "A236860"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A175317 (Sum_{d|n} pod(d)).",
+  "id": "A280114",
+  "mentions": [
+    "A007955",
+    "A175317",
+    "A206032",
+    "A280085",
+    "A280115"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

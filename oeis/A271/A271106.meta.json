@@ -1,0 +1,38 @@
+{
+  "description": "Number of ordered ways to write n as x^6 + 3*y^3 + z^3 + w*(w+1)/2, where x and y are nonnegative integers, and z and w are positive integers.",
+  "id": "A271106",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000578",
+    "A000583",
+    "A000584",
+    "A001014",
+    "A005449",
+    "A262813",
+    "A262824",
+    "A262827",
+    "A262857",
+    "A262880",
+    "A266968",
+    "A270469",
+    "A270488",
+    "A270516",
+    "A270533",
+    "A270559",
+    "A270566",
+    "A270920",
+    "A271026"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

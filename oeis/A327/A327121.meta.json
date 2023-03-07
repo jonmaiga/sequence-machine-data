@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/k + exp(k) * Ei(-k), where Ei(x) is the exponential integral of the first kind.",
+  "id": "A327121",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Exponential (or binomial) half-convolution of A000984 (central binomial) with itself.",
+  "id": "A203576",
+  "mentions": [
+    "A000984",
+    "A008277",
+    "A081085",
+    "A201204"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

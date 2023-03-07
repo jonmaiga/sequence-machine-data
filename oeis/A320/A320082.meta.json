@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=0} log(1 + k*x)^k/k!.",
+  "id": "A320082",
+  "mentions": [
+    "A048994",
+    "A108459",
+    "A128943",
+    "A232549"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

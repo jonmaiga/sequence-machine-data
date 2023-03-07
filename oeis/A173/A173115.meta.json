@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = -(sin(2*n*arccos(sqrt(3))))^2.",
+  "id": "A173115",
+  "mentions": [
+    "A001079",
+    "A108741",
+    "A132592",
+    "A132596",
+    "A146311",
+    "A146312",
+    "A146313"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:37:15",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

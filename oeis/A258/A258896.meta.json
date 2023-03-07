@@ -1,0 +1,25 @@
+{
+  "description": "Divisorial primes p of the form p = 1 + k^2 where k^2 = Product_{d|k} d= A007955(k) for some k.",
+  "id": "A258896",
+  "mentions": [
+    "A002496",
+    "A007422",
+    "A007955",
+    "A052291",
+    "A052292",
+    "A258455",
+    "A258897",
+    "A259199"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

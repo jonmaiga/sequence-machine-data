@@ -1,0 +1,20 @@
+{
+  "description": "Number T(n,k,r,u) of dissections of an n X k X r rectangular cuboid on a unit cubic grid into integer-sided cubes containing u nodes that are unconnected to any of their neighbors; irregular triangle T(n,k,r,u), n >= k >= r >= 1, u >= 0 read by rows.",
+  "id": "A187800",
+  "mentions": [
+    "A225777",
+    "A228267",
+    "A228726"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

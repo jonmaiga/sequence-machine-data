@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the k-th triangular number mod the sum (with multiplicity) of prime factors of k, and the k-th triangular number mod the sum of divisors of k, are both prime.",
+  "id": "A353001",
+  "mentions": [
+    "A000217",
+    "A001414",
+    "A232324",
+    "A352908",
+    "A352996",
+    "A352997"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

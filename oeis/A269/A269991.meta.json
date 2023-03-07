@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} 2^(1-n)/Fibonacci(n).",
+  "id": "A269991",
+  "mentions": [
+    "A000045",
+    "A063727",
+    "A085449",
+    "A103435",
+    "A209084",
+    "A269992"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

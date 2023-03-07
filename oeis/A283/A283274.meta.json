@@ -1,0 +1,19 @@
+{
+  "description": "Areas of triples of primitive Pythagorean triangles having the same area.",
+  "id": "A283274",
+  "mentions": [
+    "A009111"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

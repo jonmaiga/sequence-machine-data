@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k | A000129(k-1).",
+  "id": "A270951",
+  "mentions": [
+    "A000129",
+    "A001132",
+    "A246692",
+    "A270834",
+    "A351337"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

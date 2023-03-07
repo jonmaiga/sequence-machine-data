@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of pieces that can be captured during one move on an n X n board according to the international draughts capture rules.",
+  "id": "A329451",
+  "mentions": [
+    "A000290",
+    "A000982",
+    "A059193",
+    "A125202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:21",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

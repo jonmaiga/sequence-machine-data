@@ -1,0 +1,19 @@
+{
+  "description": "Prime powers p (A025475) such that either d1 divides d2, or d2 divides d1, where d1 and d2 are the distances from p to the two nearest prime powers.",
+  "id": "A239524",
+  "mentions": [
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

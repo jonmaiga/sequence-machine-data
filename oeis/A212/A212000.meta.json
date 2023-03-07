@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = total number of parts in the last n-k+1 shells of n.",
+  "id": "A212000",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A181187",
+    "A182703",
+    "A206563",
+    "A207031",
+    "A207032",
+    "A212001",
+    "A212010",
+    "A212011"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

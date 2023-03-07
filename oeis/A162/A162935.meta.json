@@ -1,0 +1,21 @@
+{
+  "description": "Highly composite numbers (A002182) with property that the next highly composite number is more than 3/2 times greater.",
+  "id": "A162935",
+  "mentions": [
+    "A002182",
+    "A072938",
+    "A162936"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

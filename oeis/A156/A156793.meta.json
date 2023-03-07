@@ -1,0 +1,18 @@
+{
+  "description": "Indices of primes whose reversal is a different prime.",
+  "id": "A156793",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

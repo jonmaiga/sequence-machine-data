@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 4 consecutive factorial base Niven numbers (A118363).",
+  "id": "A328207",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A118363"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

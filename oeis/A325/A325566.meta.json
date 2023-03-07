@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest divisor d of n such that A048720(A065621(d),n/d) = n.",
+  "id": "A325566",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A325565",
+    "A325567",
+    "A325570"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

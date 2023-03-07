@@ -1,0 +1,20 @@
+{
+  "description": "Approximation of the 3-adic integer exp(3) up to 3^n.",
+  "id": "A309900",
+  "mentions": [
+    "A309901",
+    "A309902",
+    "A309904",
+    "A317675"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

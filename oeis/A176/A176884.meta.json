@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with 2, the distance between a number and the previous number with same number of prime factors, repetitions included. Powers of 2 are assigned zero. See example.",
+  "id": "A176884",
+  "mentions": [
+    "A176883"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

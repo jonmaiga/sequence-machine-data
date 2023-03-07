@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = difference between the starting positions of the first digit of the binary representation of n, where n starts at its natural position in the string, and the second occurrence of the same string in the binary Champernowne string (starting at 0) 011011100101110111100010011010... (cf. A030190).",
+  "id": "A341766",
+  "mentions": [
+    "A030190",
+    "A296349",
+    "A296354",
+    "A296355",
+    "A337227"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

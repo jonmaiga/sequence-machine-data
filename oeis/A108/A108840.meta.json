@@ -1,0 +1,19 @@
+{
+  "description": "First step in Recamán's sequence A005132 at which there are n consecutive subtraction steps in a row.",
+  "id": "A108840",
+  "mentions": [
+    "A005132",
+    "A064288"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of non-isolated nonprimes.",
+  "id": "A292438",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A014574",
+    "A141468",
+    "A164276"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

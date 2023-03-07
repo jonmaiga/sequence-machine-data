@@ -1,0 +1,26 @@
+{
+  "description": "Triangle for odd legs of primitive Pythagorean triangles.",
+  "id": "A225950",
+  "mentions": [
+    "A005408",
+    "A055034",
+    "A120890",
+    "A222946",
+    "A225949",
+    "A225951",
+    "A225952"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

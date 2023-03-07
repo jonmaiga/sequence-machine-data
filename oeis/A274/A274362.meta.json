@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n and n+1 both have 24 divisors.",
+  "id": "A274362",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A137487",
+    "A189982",
+    "A274357"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

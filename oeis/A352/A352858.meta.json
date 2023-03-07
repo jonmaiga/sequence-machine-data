@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = abs(E_{p-3} (mod p)) for p = prime(n), where E_i is the i-th Euler number (A000364).",
+  "id": "A352858",
+  "mentions": [
+    "A000364",
+    "A007659",
+    "A198245",
+    "A241014",
+    "A244801",
+    "A250406",
+    "A258367",
+    "A260209",
+    "A260210",
+    "A338558"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

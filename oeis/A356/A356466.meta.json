@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers in the sublists defined in A348168 that contain exactly two primes.",
+  "id": "A356466",
+  "mentions": [
+    "A348168"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

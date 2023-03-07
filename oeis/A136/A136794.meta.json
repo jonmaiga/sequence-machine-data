@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled marked rooted trees with n nodes.",
+  "id": "A136794",
+  "mentions": [
+    "A052763",
+    "A136793",
+    "A136795",
+    "A136796"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

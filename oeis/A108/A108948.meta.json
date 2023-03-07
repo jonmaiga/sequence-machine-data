@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n!/n#)^2 + 1 is prime, where n# = primorial numbers (A034386).",
+  "id": "A108948",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

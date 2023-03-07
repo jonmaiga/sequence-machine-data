@@ -1,0 +1,20 @@
+{
+  "description": "Start with 1; repeatedly reverse the digits when the number is written in binary and add 2 to get the next term.",
+  "id": "A118360",
+  "mentions": [
+    "A117831",
+    "A118361",
+    "A118828"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:31",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

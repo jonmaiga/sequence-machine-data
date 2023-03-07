@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of array in A358304, divided by 2.",
+  "id": "A358307",
+  "mentions": [
+    "A358298",
+    "A358304",
+    "A358882",
+    "A358885",
+    "A358886",
+    "A358889"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

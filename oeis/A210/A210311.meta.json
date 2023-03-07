@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be represented exactly in one way as a^2 + b^2 + c^2, 0 < a <= b <= c.",
+  "id": "A210311",
+  "mentions": [
+    "A181786",
+    "A210338"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

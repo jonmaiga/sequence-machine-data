@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: 2*exp(x)/(exp(2*x)+1+2*x).",
+  "id": "A272230",
+  "mentions": [
+    "A000364",
+    "A122045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(2+1) 0..2 arrays with 2X2 subblock sum of squares lexicographically nondecreasing rowwise and columnwise",
+  "id": "A236279",
+  "mentions": [
+    "A236282"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

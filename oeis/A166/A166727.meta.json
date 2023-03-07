@@ -1,0 +1,27 @@
+{
+  "description": "Positive integers with English names ending in \"r\".",
+  "id": "A166727",
+  "mentions": [
+    "A017317",
+    "A059093",
+    "A060228",
+    "A166726",
+    "A166728",
+    "A166729",
+    "A166730",
+    "A166731"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:05",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

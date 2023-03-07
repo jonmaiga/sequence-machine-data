@@ -1,0 +1,18 @@
+{
+  "description": "Pseudoprimes to bases 2, 3, 5 and 7 that are congruent to 5 (modulo 6) but are not Carmichael numbers (A002997).",
+  "id": "A260524",
+  "mentions": [
+    "A002997",
+    "A153581"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

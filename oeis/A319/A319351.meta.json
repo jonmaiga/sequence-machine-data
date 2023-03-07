@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence which records the number of cyclotomic cosets of 2 mod p^k for powers of odd primes p, and for any other number assigns a unique number.",
+  "id": "A319351",
+  "mentions": [
+    "A001917",
+    "A006694",
+    "A286573",
+    "A305801",
+    "A305975",
+    "A305976",
+    "A319350"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

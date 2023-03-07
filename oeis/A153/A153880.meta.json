@@ -1,0 +1,25 @@
+{
+  "description": "Shift factorial base representation left by one digit.",
+  "id": "A153880",
+  "mentions": [
+    "A007623",
+    "A153883",
+    "A225901",
+    "A255411",
+    "A260736",
+    "A266193",
+    "A273670"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

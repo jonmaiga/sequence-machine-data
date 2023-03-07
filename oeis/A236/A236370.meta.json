@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the largest parts in the partitions of 3n into 3 parts.",
+  "id": "A236370",
+  "mentions": [
+    "A019298",
+    "A235988",
+    "A236364",
+    "A236758",
+    "A236762",
+    "A237264"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:27",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

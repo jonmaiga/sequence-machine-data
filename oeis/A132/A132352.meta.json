@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A132351.",
+  "id": "A132352",
+  "mentions": [
+    "A132349",
+    "A132351",
+    "A132384"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

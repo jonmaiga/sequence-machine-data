@@ -1,0 +1,25 @@
+{
+  "description": "Number of labeled partitions of (n,n) into pairs (i,j).",
+  "id": "A108459",
+  "mentions": [
+    "A048993",
+    "A068424",
+    "A108458",
+    "A108461",
+    "A326270",
+    "A326271",
+    "A326288",
+    "A326600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

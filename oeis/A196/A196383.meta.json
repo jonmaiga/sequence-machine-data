@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers a for which there is a (-5)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196383",
+  "mentions": [
+    "A195770",
+    "A196384",
+    "A196385",
+    "A196386",
+    "A196387",
+    "A196388"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

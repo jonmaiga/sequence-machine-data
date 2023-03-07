@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms, such that each value, say v, appears five times at indices k, k + v, k + 2*v, k + 3*v and k + 4*v for some k.",
+  "id": "A307669",
+  "mentions": [
+    "A026242",
+    "A307664"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

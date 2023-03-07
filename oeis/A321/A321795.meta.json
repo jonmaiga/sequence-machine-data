@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m^2+1 is prime with (m-1)^2+1 and (m+1)^2+1 semiprimes.",
+  "id": "A321795",
+  "mentions": [
+    "A005574",
+    "A085722"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

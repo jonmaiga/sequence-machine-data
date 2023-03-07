@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{k=1..n-1} a(n-k) * Sum_{d|k} a(d)*a(k/d).",
+  "id": "A307816",
+  "mentions": [
+    "A038044",
+    "A317875"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

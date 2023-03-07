@@ -1,0 +1,22 @@
+{
+  "description": "n such that the n-th centered 12-gonal number is prime. Indices of prime star numbers.",
+  "id": "A184899",
+  "mentions": [
+    "A000040",
+    "A003154",
+    "A057199",
+    "A083577"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Dirichlet series L_{-7}(2).",
+  "id": "A103133",
+  "mentions": [
+    "A175629",
+    "A326919",
+    "A327135"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

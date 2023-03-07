@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-generated Abelian groups of order A025487(n).",
+  "id": "A322886",
+  "mentions": [
+    "A025487",
+    "A052304",
+    "A249771",
+    "A322885"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

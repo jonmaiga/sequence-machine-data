@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x) = (7 + A(x)^4) / (8 - 8*x).",
+  "id": "A245009",
+  "mentions": [
+    "A120594",
+    "A244594",
+    "A244627",
+    "A244856",
+    "A245043"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:34:30",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

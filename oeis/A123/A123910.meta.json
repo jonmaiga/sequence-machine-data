@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k!!-4 is prime.",
+  "id": "A123910",
+  "mentions": [
+    "A007749",
+    "A094144"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

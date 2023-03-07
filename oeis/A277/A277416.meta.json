@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation to A277415.",
+  "id": "A277416",
+  "mentions": [
+    "A260442",
+    "A260443",
+    "A277415"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

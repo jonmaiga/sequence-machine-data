@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of triangle A118032, where the matrix square of A118032 forms a diagonal bisection of A118032.",
+  "id": "A118036",
+  "mentions": [
+    "A118032",
+    "A118033",
+    "A118034",
+    "A118035",
+    "A118040",
+    "A118045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

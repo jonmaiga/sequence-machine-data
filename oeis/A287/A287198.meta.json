@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with the property that every cyclic permutation of its digits is a composite number with none of its permutations sharing any common prime factors.",
+  "id": "A287198",
+  "mentions": [
+    "A052382",
+    "A067012",
+    "A068652"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

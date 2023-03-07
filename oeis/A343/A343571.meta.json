@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Planck constant in eV/Hz.",
+  "id": "A343571",
+  "mentions": [
+    "A003676",
+    "A081823"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -14,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

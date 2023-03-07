@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(n^2 - 1)/2 where phi is A000010.",
+  "id": "A319210",
+  "mentions": [
+    "A000010",
+    "A005563",
+    "A319213",
+    "A319214"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

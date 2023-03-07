@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array: each row partitions the partitions of n into n parts; of which the k-th part is the number of partitions having stay number k-1; see Comments.",
+  "id": "A308151",
+  "mentions": [
+    "A000041",
+    "A008483",
+    "A238479"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

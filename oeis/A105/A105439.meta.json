@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest prime p such that p+2 and q+2 are prime; q is the n-th prime after p.",
+  "id": "A105439",
+  "mentions": [
+    "A105443",
+    "A105444",
+    "A105445"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of elements merged by bottom-up merge sort.",
+  "id": "A182105",
+  "mentions": [
+    "A000079",
+    "A001511",
+    "A006519",
+    "A038712",
+    "A045412",
+    "A046699",
+    "A082850",
+    "A211009",
+    "A215020",
+    "A228525"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

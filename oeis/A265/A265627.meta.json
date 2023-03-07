@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n \"primitive\" binary matrices.",
+  "id": "A265627",
+  "mentions": [
+    "A027375"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

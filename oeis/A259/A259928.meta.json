@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the infinite double sum S = Sum_{m>=1} (Sum_{n>=1} 1/(m^2*n*(m+n)^3)).",
+  "id": "A259928",
+  "mentions": [
+    "A258987",
+    "A258989",
+    "A259927"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

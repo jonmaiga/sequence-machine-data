@@ -1,0 +1,19 @@
+{
+  "description": "Popular primes: primes prime(n) such that prime(n-k)+prime(n+k) >= 2*prime(n) for all k = 1,2,...n-2.",
+  "id": "A124661",
+  "mentions": [
+    "A006530",
+    "A051635"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

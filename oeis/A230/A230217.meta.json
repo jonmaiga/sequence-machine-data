@@ -1,0 +1,18 @@
+{
+  "description": "List of those primes p with p + 6 and 3*p + 8 also prime.",
+  "id": "A230217",
+  "mentions": [
+    "A023201",
+    "A230219"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

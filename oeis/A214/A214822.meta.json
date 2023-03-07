@@ -1,0 +1,26 @@
+{
+  "description": "Number of genus 1 unsensed hypermaps with n darts.",
+  "id": "A214822",
+  "mentions": [
+    "A057005",
+    "A090371",
+    "A118094",
+    "A214819",
+    "A214820",
+    "A214821",
+    "A214823",
+    "A215017",
+    "A215018"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

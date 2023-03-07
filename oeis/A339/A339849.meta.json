@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 2, k >= 2, read by antidiagonals, where T(n,k) is the number of Hamiltonian circuits within parallelograms of size n X k on the triangular lattice.",
+  "id": "A339849",
+  "mentions": [
+    "A338970",
+    "A339190",
+    "A339622",
+    "A339850",
+    "A339851",
+    "A339852",
+    "A339854",
+    "A339960",
+    "A339961",
+    "A339962"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

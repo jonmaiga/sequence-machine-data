@@ -1,0 +1,30 @@
+{
+  "description": "Least k>0 such that a centered polygonal number nk(k+1)/2+1 is a perfect square; or -1 if no such number exists.",
+  "id": "A120744",
+  "mentions": [
+    "A001542",
+    "A001570",
+    "A001652",
+    "A001921",
+    "A006451",
+    "A053141",
+    "A053606",
+    "A061278",
+    "A105038",
+    "A105040",
+    "A129444",
+    "A129556",
+    "A166259"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

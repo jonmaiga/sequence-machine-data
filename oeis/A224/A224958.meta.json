@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) != p(j-2)",
+  "id": "A224958",
+  "mentions": [
+    "A000726",
+    "A003242",
+    "A241902"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array giving number of (k,2)-noncrossing partitions of [n], read by antidiagonals.",
+  "id": "A125311",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A007317",
+    "A140980",
+    "A141080",
+    "A141081"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

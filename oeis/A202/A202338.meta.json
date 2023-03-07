@@ -1,0 +1,18 @@
+{
+  "description": "Smallest Fibonacci number which when appended to n produces a prime number.",
+  "id": "A202338",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

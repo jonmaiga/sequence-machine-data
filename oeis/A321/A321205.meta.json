@@ -1,0 +1,21 @@
+{
+  "description": "Alternating row sums of Riordan triangle A319203.",
+  "id": "A321205",
+  "mentions": [
+    "A319201",
+    "A319203",
+    "A321204"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

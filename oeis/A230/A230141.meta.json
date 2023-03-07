@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n = x + y + z with y <= z such that 6*x-1, 6*y-1, 6*z-1 are terms of A230138 and 6*(y+z)+1 is prime.",
+  "id": "A230141",
+  "mentions": [
+    "A001359",
+    "A002375",
+    "A006512",
+    "A068307",
+    "A230138",
+    "A230140"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of [n] such that eight is a multiple of each block size.",
+  "id": "A275426",
+  "mentions": [
+    "A275422"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

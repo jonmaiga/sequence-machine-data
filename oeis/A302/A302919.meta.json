@@ -1,0 +1,18 @@
+{
+  "description": "The number of ways of placing 2n-1 white balls and 2n-1 black balls into unlabeled bins such that each bin has both an odd number of white balls and black balls.",
+  "id": "A302919",
+  "mentions": [
+    "A090806",
+    "A108469"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the number of values of m such that the sum of proper unitary divisors of m (A034460) is n.",
+  "id": "A324938",
+  "mentions": [
+    "A034448",
+    "A034460",
+    "A048138",
+    "A063948"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

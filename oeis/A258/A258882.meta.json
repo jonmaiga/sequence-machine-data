@@ -1,0 +1,32 @@
+{
+  "description": "Primitive weird numbers of the form 2^k*p*q with k > 0 and where p < q are odd primes.",
+  "id": "A258882",
+  "mentions": [
+    "A000668",
+    "A002975",
+    "A242025",
+    "A242993",
+    "A242998",
+    "A242999",
+    "A243003",
+    "A258333",
+    "A258374",
+    "A258375",
+    "A258401",
+    "A258883",
+    "A258884",
+    "A258885",
+    "A320875"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

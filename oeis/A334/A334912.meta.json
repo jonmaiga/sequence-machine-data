@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = numerator (2^(4*n-1) * (2^(4*n-2) - 1) * (Bernoulli(4*n-2) / (4*n-2)!) * ((2*n-2)! / Euler(2*n-2))^2).",
+  "id": "A334912",
+  "mentions": [
+    "A000040",
+    "A000364",
+    "A002144",
+    "A002145",
+    "A027641",
+    "A027642",
+    "A065091",
+    "A334835"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

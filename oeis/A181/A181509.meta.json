@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 2, a(n) = (n-th-even n^3) - (sum of previous terms)",
+  "id": "A181509",
+  "mentions": [
+    "A000578",
+    "A003215"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

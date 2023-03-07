@@ -1,0 +1,25 @@
+{
+  "description": "Numbers consisting of either all even digits or just 5's and 0's.",
+  "id": "A169884",
+  "mentions": [
+    "A004520",
+    "A059729",
+    "A168294",
+    "A168541",
+    "A169885",
+    "A169886",
+    "A169887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the local minimum of the Barnes G function in the interval [2,4].",
+  "id": "A245084",
+  "mentions": [
+    "A245081",
+    "A245082",
+    "A245083"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

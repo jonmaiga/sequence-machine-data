@@ -1,0 +1,25 @@
+{
+  "description": "Successive generations of a Kolakoski(3,1) rule starting with 1 (see A066983).",
+  "id": "A111091",
+  "mentions": [
+    "A000032",
+    "A004146",
+    "A027941",
+    "A055588",
+    "A066983",
+    "A095345",
+    "A095346",
+    "A111081"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximum rectangle of partitions in Mathematica order.",
+  "id": "A115727",
+  "mentions": [
+    "A080577",
+    "A115724",
+    "A115726"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

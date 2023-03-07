@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose prime indices are distinct and pairwise indivisible and whose own prime indices span an initial interval of positive integers.",
+  "id": "A318401",
+  "mentions": [
+    "A003963",
+    "A006126",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A285572",
+    "A290103",
+    "A293993",
+    "A302242",
+    "A304713",
+    "A316476",
+    "A319496",
+    "A319721",
+    "A319837",
+    "A320275",
+    "A320456"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

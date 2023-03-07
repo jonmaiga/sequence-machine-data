@@ -1,0 +1,19 @@
+{
+  "description": "Self-describing integers with the rule: if the digit d, part of the integer i, is odd then there are d odd digits in this integer; if the digit d is even there are d even digits.",
+  "id": "A105776",
+  "mentions": [
+    "A108571"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

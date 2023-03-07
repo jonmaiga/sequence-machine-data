@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree composite numbers n such that b^n == b (mod gpf(n)) for every integer b, where gpf(n) = A006530(n).",
+  "id": "A276832",
+  "mentions": [
+    "A002997",
+    "A006530",
+    "A276818"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

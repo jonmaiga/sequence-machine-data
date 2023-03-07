@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x+433)^2 = y^2.",
+  "id": "A207061",
+  "mentions": [
+    "A205644",
+    "A205672",
+    "A207058",
+    "A207059",
+    "A207060"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

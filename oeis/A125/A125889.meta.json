@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of sum of first n ratios of Fibonacci to Lucas numbers.",
+  "id": "A125889",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A125888"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

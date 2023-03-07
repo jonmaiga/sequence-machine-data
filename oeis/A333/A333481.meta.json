@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] S(x)^(2*n), where S(x) = (1 - x - sqrt(1 - 6*x + x^2))/(2*x) is the o.g.f. of the large Schröder numbers A006318.",
+  "id": "A333481",
+  "mentions": [
+    "A006318",
+    "A103885",
+    "A333482"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:13",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

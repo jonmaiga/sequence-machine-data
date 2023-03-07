@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] such that for each block b the smallest integer interval containing b has at most eight elements.",
+  "id": "A276724",
+  "mentions": [
+    "A276719",
+    "A276842",
+    "A276898"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The array L(n,k) of Barcucci et al. (2021) read by antidiagonals.",
+  "id": "A341731",
+  "mentions": [
+    "A341732",
+    "A341733"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

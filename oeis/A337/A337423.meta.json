@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime of the form (3^j*5^k - 1)/2, j > 0, k > 0, j + k = n. a(n) = 0 if no such prime exists.",
+  "id": "A337423",
+  "mentions": [
+    "A076481",
+    "A093625",
+    "A337424",
+    "A337425",
+    "A337426"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

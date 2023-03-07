@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to sequence A132988.",
+  "id": "A132989",
+  "mentions": [
+    "A132988"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

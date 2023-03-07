@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that the difference between the greatest prime divisor of k^2+1 and the sum of the other prime distinct divisors equals n.",
+  "id": "A212710",
+  "mentions": [
+    "A014442",
+    "A182011",
+    "A193462"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

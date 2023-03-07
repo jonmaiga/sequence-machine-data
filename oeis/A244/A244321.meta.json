@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(1)=1; thereafter, if n is k-th number whose greatest prime factor has an odd index [i.e., n = A244991(k)], a(n) = 2*a(k), otherwise, when n is k-th number whose greatest prime factor has an even index [i.e., n = A244990(1+k)], a(n) = 1+(2*a(k)).",
+  "id": "A244321",
+  "mentions": [
+    "A000035",
+    "A135141",
+    "A237427",
+    "A243287",
+    "A243343",
+    "A243345",
+    "A244322",
+    "A244988",
+    "A244989",
+    "A244990",
+    "A244991",
+    "A244992"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

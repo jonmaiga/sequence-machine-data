@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least product of n consecutive primes that is divisible by the sum of those primes, or 0 if there is no such product.",
+  "id": "A340534",
+  "mentions": [
+    "A000210",
+    "A002110",
+    "A051838",
+    "A086487"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

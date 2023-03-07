@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = binomial(n,k) + A176490(n,k) - 1 read along rows 0<=k<=n.",
+  "id": "A176491",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A060187",
+    "A176487",
+    "A176490"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

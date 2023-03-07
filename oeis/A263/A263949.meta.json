@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers n such that (n+84)^3 - n^3 is a square.",
+  "id": "A263949",
+  "mentions": [
+    "A263942",
+    "A263943",
+    "A263944",
+    "A263945",
+    "A263946",
+    "A263947",
+    "A263948"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

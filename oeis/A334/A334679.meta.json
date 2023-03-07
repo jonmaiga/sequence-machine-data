@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k*p is divisible by k+p, where p > 0 and p = A007954(k) = the product of digits of k.",
+  "id": "A334679",
+  "mentions": [
+    "A007954",
+    "A049102",
+    "A052382",
+    "A085124",
+    "A330880",
+    "A334803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

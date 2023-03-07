@@ -1,0 +1,25 @@
+{
+  "description": "Primes p(j) = A000040(j), j>=1, such that p(1)*p(2)*...*p(j) is an integral multiple of p(1)+p(2)+...+p(j).",
+  "id": "A140761",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A007504",
+    "A051838",
+    "A116536",
+    "A140763",
+    "A159578"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

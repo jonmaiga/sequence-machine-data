@@ -1,0 +1,21 @@
+{
+  "description": "Number of foldings of n labeled stamps in which leaf 1 is inwards and leaf n outwards (or leaf 1 outwards and leaf n inwards).",
+  "id": "A223093",
+  "mentions": [
+    "A000136",
+    "A000682",
+    "A077014",
+    "A217310"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

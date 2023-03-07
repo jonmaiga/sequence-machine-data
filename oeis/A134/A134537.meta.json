@@ -1,0 +1,19 @@
+{
+  "description": "Squares appearing in A062064: a(n) = A062064(n) + A062064(n+1).",
+  "id": "A134537",
+  "mentions": [
+    "A062064",
+    "A131696"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

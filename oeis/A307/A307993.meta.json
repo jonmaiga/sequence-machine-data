@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x^2 + x^3 * (1 + A(x) + A(x^2) + A(x^3) + ...).",
+  "id": "A307993",
+  "mentions": [
+    "A003238",
+    "A007439",
+    "A307994",
+    "A307995"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

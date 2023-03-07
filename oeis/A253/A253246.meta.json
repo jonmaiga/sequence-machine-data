@@ -1,0 +1,22 @@
+{
+  "description": "Pisano period of A006190 to mod prime(n).",
+  "id": "A253246",
+  "mentions": [
+    "A000040",
+    "A006190",
+    "A007283",
+    "A060305",
+    "A175182"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

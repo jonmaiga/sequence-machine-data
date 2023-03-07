@@ -1,0 +1,25 @@
+{
+  "description": "Characteristic function of A336359, numbers k for which A001222(A000203(k)) < A001222(k).",
+  "id": "A336356",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A058063",
+    "A336352",
+    "A336355",
+    "A336359",
+    "A336360",
+    "A336386"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

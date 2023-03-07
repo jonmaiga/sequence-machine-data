@@ -1,0 +1,20 @@
+{
+  "description": "A conjectured sequence of bud numbers for eucalyptus flowers.",
+  "id": "A169627",
+  "mentions": [
+    "A002061",
+    "A115298",
+    "A161206",
+    "A169626"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows, giving the numerators of the coefficients of the Eisenstein series G_{2*n} multiplied by 2*n-1, for n >= 2. Also Laurent coefficients of Weierstrass's P function.",
+  "id": "A274342",
+  "mentions": [
+    "A008615",
+    "A274343"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "FDH numbers of strict integer partitions such that not every distinct subset has a different average.",
+  "id": "A316361",
+  "mentions": [
+    "A050376",
+    "A064547",
+    "A108917",
+    "A213925",
+    "A275972",
+    "A299755",
+    "A299757",
+    "A301899",
+    "A301900",
+    "A316271",
+    "A316313",
+    "A316362"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

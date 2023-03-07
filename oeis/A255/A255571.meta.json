@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary representation traces a nonselfcrossing circuit in honeycomb lattice when its bits (from the least to the second most significant bit) are interpreted as directions to proceed at each vertex. (The most significant 1-bit is ignored).",
+  "id": "A255571",
+  "mentions": [
+    "A054429",
+    "A255561",
+    "A255570"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

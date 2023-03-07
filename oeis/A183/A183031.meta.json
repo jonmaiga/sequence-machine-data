@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{j>=1} tau(j)/j^4 = Pi^8/8100.",
+  "id": "A183031",
+  "mentions": [
+    "A000005",
+    "A013662",
+    "A098198",
+    "A175639",
+    "A183030"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:17",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

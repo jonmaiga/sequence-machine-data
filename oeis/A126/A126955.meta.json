@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2n+1, 3n+2 and 4n+3 are primes.",
+  "id": "A126955",
+  "mentions": [
+    "A005097",
+    "A024893",
+    "A095278",
+    "A126956"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers for which the decimal expansion of the reciprocal contains the repeating digits 1,4,2,8,5,7 (corresponding to the decimal expansion of 1/7)",
+  "id": "A178335",
+  "mentions": [
+    "A003592",
+    "A051626",
+    "A085837",
+    "A158204"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

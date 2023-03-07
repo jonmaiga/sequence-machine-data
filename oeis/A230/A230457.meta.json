@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that there exists a Fibonacci-like sequence without multiples of k.",
+  "id": "A230457",
+  "mentions": [
+    "A064414",
+    "A230359"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

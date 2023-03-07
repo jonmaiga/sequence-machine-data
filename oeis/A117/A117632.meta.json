@@ -1,0 +1,35 @@
+{
+  "description": "Number of 1's required to build n using {+,T} and parentheses, where T(i) = i*(i+1)/2.",
+  "id": "A117632",
+  "mentions": [
+    "A000217",
+    "A003037",
+    "A003313",
+    "A005245",
+    "A005421",
+    "A005520",
+    "A007501",
+    "A023361",
+    "A025280",
+    "A050536",
+    "A050542",
+    "A050548",
+    "A050909",
+    "A053614",
+    "A061373",
+    "A064097",
+    "A076091",
+    "A076142",
+    "A099129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

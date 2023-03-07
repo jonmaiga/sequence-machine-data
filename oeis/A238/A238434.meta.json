@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of G(1) where G(k) = 1 + q^k / ( 1 - q^k * G(k+2) ).",
+  "id": "A238434",
+  "mentions": [
+    "A186085"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

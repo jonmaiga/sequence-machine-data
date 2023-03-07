@@ -1,0 +1,17 @@
+{
+  "description": "Number of domino tilings (or dimer coverings) of a 2n X 2n square not counting reflections and rotations.",
+  "id": "A316535",
+  "mentions": [
+    "A004003"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

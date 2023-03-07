@@ -1,0 +1,20 @@
+{
+  "description": "The left-hand half-triangle of A202704.",
+  "id": "A202820",
+  "mentions": [
+    "A202704",
+    "A202819"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

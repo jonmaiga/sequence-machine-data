@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients of the polynomials x^(n - 1)*A(n,x + 1/x), where A(n,x) are the Eulerian polynomials of A008292.",
+  "id": "A143505",
+  "mentions": [
+    "A000670",
+    "A008292",
+    "A141720",
+    "A143506",
+    "A143507"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

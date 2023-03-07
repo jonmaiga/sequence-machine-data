@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with at least three 3s in their prime signature.",
+  "id": "A176359",
+  "mentions": [
+    "A000578",
+    "A001235",
+    "A109399",
+    "A176297",
+    "A176313",
+    "A176350"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

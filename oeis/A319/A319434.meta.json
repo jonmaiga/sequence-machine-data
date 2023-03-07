@@ -1,0 +1,20 @@
+{
+  "description": "Take Golomb's sequence A001462 and shorten all the runs by 1.",
+  "id": "A319434",
+  "mentions": [
+    "A001462",
+    "A318921",
+    "A319951",
+    "A320487"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Square array filled and read by antidiagonals upwards; the first value is 0; if the previous value has already appeared in the table, then the next value is the square of the distance to the nearest earlier position with the same value; otherwise the next value is 0.",
+  "id": "A350281",
+  "mentions": [
+    "A001481",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

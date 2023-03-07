@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (5*2^(n+2) - 3*n*2^n - 2*(-1)^n) / 18.",
+  "id": "A139790",
+  "mentions": [
+    "A001045",
+    "A103196",
+    "A113954",
+    "A136298",
+    "A136299"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

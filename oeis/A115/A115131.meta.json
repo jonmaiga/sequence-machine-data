@@ -1,0 +1,31 @@
+{
+  "description": "Waring numbers for power sums functions in terms of elementary symmetric functions; irregular triangle T(n,k), read by rows, for n >= 1 and 1 <= k <= A000041(n).",
+  "id": "A115131",
+  "mentions": [
+    "A000041",
+    "A000225",
+    "A036038",
+    "A036039",
+    "A036040",
+    "A036043",
+    "A048996",
+    "A111786",
+    "A132460",
+    "A210258",
+    "A324602",
+    "A325477"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

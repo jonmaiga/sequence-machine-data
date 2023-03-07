@@ -1,0 +1,17 @@
+{
+  "description": "Gijswijt's sequence A090822 read mod 2.",
+  "id": "A217206",
+  "mentions": [
+    "A090822"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes where the arithmetic mean of the fractional parts of p/1,p/2,..., p/p is less than 1-gamma=0.422784...",
+  "id": "A109997",
+  "mentions": [
+    "A104885",
+    "A109996"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

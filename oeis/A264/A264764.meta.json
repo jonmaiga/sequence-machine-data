@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest positive k such that k^n is the sum of n-1 positive n-th powers, or 0 if no solution exists.",
+  "id": "A264764",
+  "mentions": [
+    "A003828"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

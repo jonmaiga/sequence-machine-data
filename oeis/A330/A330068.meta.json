@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that Sum_{i=1..k} i^A000010(k) == 2 (mod k).",
+  "id": "A330068",
+  "mentions": [
+    "A000010",
+    "A007850",
+    "A054377",
+    "A330069"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

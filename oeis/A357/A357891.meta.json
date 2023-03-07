@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n+1) is the smallest integer > 0 that cannot be obtained from the integers {a(1), ..., a(n)} using each number exactly once and the operators +, -, *, /.",
+  "id": "A357891",
+  "mentions": [
+    "A071115",
+    "A217043",
+    "A358075"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

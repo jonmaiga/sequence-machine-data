@@ -1,0 +1,26 @@
+{
+  "description": "Natural numbers k such that k is a multiple of its number of \"feasible\" partitions.",
+  "id": "A254438",
+  "mentions": [
+    "A254296",
+    "A254430",
+    "A254431",
+    "A254432",
+    "A254433",
+    "A254435",
+    "A254436",
+    "A254437",
+    "A254439",
+    "A254440"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

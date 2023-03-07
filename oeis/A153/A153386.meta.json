@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} 1/Fibonacci(2*n).",
+  "id": "A153386",
+  "mentions": [
+    "A000045",
+    "A000796",
+    "A001113",
+    "A001622",
+    "A001906",
+    "A002163",
+    "A002390",
+    "A016628",
+    "A065563",
+    "A079586",
+    "A153387",
+    "A256178",
+    "A265288"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

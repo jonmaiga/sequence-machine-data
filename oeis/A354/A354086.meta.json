@@ -1,0 +1,18 @@
+{
+  "description": "11-gonal (or hendecagonal) numbers which are products of four distinct primes.",
+  "id": "A354086",
+  "mentions": [
+    "A046386",
+    "A051682"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

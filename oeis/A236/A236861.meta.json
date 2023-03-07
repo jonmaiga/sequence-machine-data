@@ -1,0 +1,28 @@
+{
+  "description": "Characteristic function of A236841 (A234741): a(n) = 1 if n is a result of downward remultiplication (N -> GF(2)[X]) of some number, 0 otherwise.",
+  "id": "A236861",
+  "mentions": [
+    "A048720",
+    "A091212",
+    "A091214",
+    "A091225",
+    "A091247",
+    "A091255",
+    "A234741",
+    "A236833",
+    "A236834",
+    "A236841",
+    "A236862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

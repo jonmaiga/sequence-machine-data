@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that, for any m and n > 0, if m < n then a(m) != a(n) or a(m+1) != a(n+1), and if n = least k > m such that a(k) = a(m) then m and n have a different parity.",
+  "id": "A291712",
+  "mentions": [
+    "A226005",
+    "A290633"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to 5-color a 3 X n grid ignoring the variations of two colors.",
+  "id": "A355883",
+  "mentions": [
+    "A222139",
+    "A355881",
+    "A355882"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

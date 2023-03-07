@@ -1,0 +1,29 @@
+{
+  "description": "GCD of consecutive terms of the factorial times the alternating harmonic series.",
+  "id": "A334958",
+  "mentions": [
+    "A000142",
+    "A024167",
+    "A024168",
+    "A025527",
+    "A048671",
+    "A056612",
+    "A058312",
+    "A058313",
+    "A075827",
+    "A075828",
+    "A075829",
+    "A075830"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

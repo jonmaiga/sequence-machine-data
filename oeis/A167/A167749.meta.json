@@ -1,0 +1,22 @@
+{
+  "description": "Riordan array (1,xf(x)) where f(x) is the g.f. of A005169 (fountains of coins).",
+  "id": "A167749",
+  "mentions": [
+    "A005169",
+    "A167750",
+    "A167751"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

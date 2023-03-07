@@ -1,0 +1,21 @@
+{
+  "description": "Half-sums (averages) of two primes with indices that are primes with prime indices.",
+  "id": "A175319",
+  "mentions": [
+    "A038580",
+    "A174681",
+    "A175320"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

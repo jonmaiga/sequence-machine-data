@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n into distinct parts such that the difference between any two parts is at least two.",
+  "id": "A327710",
+  "mentions": [
+    "A003114",
+    "A032020",
+    "A268187",
+    "A268188",
+    "A328222"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

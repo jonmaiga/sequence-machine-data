@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n, k), n, k >= 0, read by antidiagonals; T(n, k) = (n * 2^max(0, w(k)-w(n))) OR (k * 2^max(0, w(n)-w(k))) (where OR denotes the bitwise OR operator and w = A070939).",
+  "id": "A344835",
+  "mentions": [
+    "A003986",
+    "A070939",
+    "A344834",
+    "A344836",
+    "A344837",
+    "A344838",
+    "A344839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

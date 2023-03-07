@@ -1,0 +1,17 @@
+{
+  "description": "Number of 1..19 integer arrays v[1..n] of length n with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..n-1",
+  "id": "A171293",
+  "mentions": [
+    "A171275"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

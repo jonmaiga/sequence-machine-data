@@ -1,0 +1,24 @@
+{
+  "description": "Table where row n has k C(n,k-1) times.",
+  "id": "A124736",
+  "mentions": [
+    "A000079",
+    "A001792",
+    "A007318",
+    "A124737",
+    "A124748"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

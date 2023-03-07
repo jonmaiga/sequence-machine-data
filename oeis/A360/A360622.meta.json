@@ -1,0 +1,19 @@
+{
+  "description": "Number of basic log-concave (with no internal zeros) cyclotomic generating functions of degree n.",
+  "id": "A360622",
+  "mentions": [
+    "A360621"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

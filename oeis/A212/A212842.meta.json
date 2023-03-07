@@ -1,0 +1,17 @@
+{
+  "description": "Numbers expressible as sum of squares of two distinct positive triangular numbers exactly in two ways.",
+  "id": "A212842",
+  "mentions": [
+    "A212795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

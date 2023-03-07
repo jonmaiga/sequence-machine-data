@@ -1,0 +1,19 @@
+{
+  "description": "A sequence relating to the rational values zeta(2n)^2/zeta(4n), which are expressible in terms of Bernoulli's numbers (see comments for definition of the sequence).",
+  "id": "A217926",
+  "mentions": [
+    "A114362",
+    "A114363",
+    "A217552"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

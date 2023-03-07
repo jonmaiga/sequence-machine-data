@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = exp(-Sum_{k=1..n} Sum_{d|k, d prime} moebius(d)*log(k/d)).",
+  "id": "A205957",
+  "mentions": [
+    "A003418",
+    "A205959",
+    "A216152",
+    "A216153"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

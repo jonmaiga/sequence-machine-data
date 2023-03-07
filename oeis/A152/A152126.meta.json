@@ -1,0 +1,18 @@
+{
+  "description": "If f(x) = x^3+x^5+x^11+x^17+x^29+x^41+..., where the exponents are the smaller twin of twin prime pairs, consider {f(x)}^2 and write the exponents of that expansion down : x^6+2x^8+x^10+2x^12+.... The proposed sequence is that sequence of exponents",
+  "id": "A152126",
+  "mentions": [
+    "A001359",
+    "A108605"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Union of all n-Fibonacci sequences, that is, all sequences s(0) = s(1) = ... = s(n-2) = 0, s(n-1) = 1 and for k >= n, s(k) = s(k-1) + ... + s(k-n).",
+  "id": "A124168",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A001792",
+    "A124257",
+    "A227880"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

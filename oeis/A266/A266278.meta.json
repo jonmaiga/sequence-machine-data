@@ -1,0 +1,20 @@
+{
+  "description": "Number of legal Go positions on a 2 X n board.",
+  "id": "A266278",
+  "mentions": [
+    "A094777",
+    "A102620"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

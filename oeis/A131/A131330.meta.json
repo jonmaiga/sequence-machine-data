@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of constant C associated with the QRS constant.",
+  "id": "A131330",
+  "mentions": [
+    "A131329"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

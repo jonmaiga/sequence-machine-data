@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (3*2^n - 2) * 2^n.",
+  "id": "A165665",
+  "mentions": [
+    "A000225",
+    "A010036",
+    "A010686",
+    "A058481",
+    "A060867",
+    "A082505",
+    "A124647"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

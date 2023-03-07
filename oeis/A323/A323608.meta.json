@@ -1,0 +1,24 @@
+{
+  "description": "The position function the fractalization of which yields A323607.",
+  "id": "A323608",
+  "mentions": [
+    "A000007",
+    "A000295",
+    "A000325",
+    "A126646",
+    "A194959",
+    "A323607"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

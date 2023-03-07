@@ -1,0 +1,26 @@
+{
+  "description": "Concatenation of n^3 and n.",
+  "id": "A239459",
+  "mentions": [
+    "A053061",
+    "A055436",
+    "A061086",
+    "A061087",
+    "A239460",
+    "A239461",
+    "A239462",
+    "A239463",
+    "A239464"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

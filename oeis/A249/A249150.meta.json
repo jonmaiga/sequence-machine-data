@@ -1,0 +1,24 @@
+{
+  "description": "Number of trailing zeros in the factorial base representation of products of binomial coefficients: a(n) = A230403(A001142(n)).",
+  "id": "A249150",
+  "mentions": [
+    "A001142",
+    "A187059",
+    "A230403",
+    "A249151",
+    "A249423",
+    "A249425",
+    "A249426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

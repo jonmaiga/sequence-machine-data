@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle where row n contains indices k where the product of A002110(k) = A025487(n).",
+  "id": "A304886",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A002110",
+    "A025487",
+    "A051282",
+    "A061394",
+    "A124832",
+    "A181815",
+    "A307056"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

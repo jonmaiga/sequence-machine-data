@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = decimal equivalent of A215254(n).",
+  "id": "A215253",
+  "mentions": [
+    "A215244",
+    "A215246",
+    "A215254"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

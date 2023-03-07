@@ -1,0 +1,23 @@
+{
+  "description": "Primes obtained by merging 4 successive digits in decimal expansion of sqrt(5).",
+  "id": "A241244",
+  "mentions": [
+    "A198161",
+    "A198162",
+    "A198163",
+    "A198164",
+    "A198169",
+    "A241149"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for one of the inner vertices introduced in the first inflation-deflation step in a chair tiling (see Comments for precise definition).",
+  "id": "A304077",
+  "mentions": [
+    "A304050",
+    "A304076",
+    "A304079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

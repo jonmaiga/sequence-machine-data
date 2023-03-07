@@ -1,0 +1,25 @@
+{
+  "description": "Product of all the parts in the partitions of n into exactly 2 parts.",
+  "id": "A211374",
+  "mentions": [
+    "A001318",
+    "A002620",
+    "A002674",
+    "A010050",
+    "A081123",
+    "A081125",
+    "A093353"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

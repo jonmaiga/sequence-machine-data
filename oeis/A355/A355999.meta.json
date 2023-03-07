@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed orthoplex n-ominoes with cell centers determining (n-3)-space.",
+  "id": "A355999",
+  "mentions": [
+    "A191092",
+    "A355048",
+    "A355049",
+    "A355051",
+    "A355997"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 6,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

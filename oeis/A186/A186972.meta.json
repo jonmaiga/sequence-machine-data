@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle T(n,k), n>=1, 1<=k<=A186971(n), read by rows: T(n,k) is the number of k-element subsets of {1, 2, ..., n} containing n and having pairwise coprime elements.",
+  "id": "A186972",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A185348",
+    "A185953",
+    "A186971",
+    "A186973",
+    "A186976",
+    "A186977",
+    "A186978",
+    "A186979",
+    "A186980",
+    "A186981",
+    "A186994"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

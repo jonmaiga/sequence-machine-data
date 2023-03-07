@@ -1,0 +1,30 @@
+{
+  "description": "Decimal representation ends with either 2 or 9.",
+  "id": "A273669",
+  "mentions": [
+    "A000035",
+    "A007310",
+    "A017293",
+    "A017377",
+    "A084967",
+    "A126760",
+    "A249745",
+    "A249746",
+    "A249824",
+    "A273664",
+    "A275716"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that q - p is not squarefree, where q is the next prime immediately following p.",
+  "id": "A152087",
+  "mentions": [
+    "A098059"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

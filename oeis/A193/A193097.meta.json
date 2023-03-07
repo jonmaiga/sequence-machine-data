@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the concatenation of exactly one pair of nonzero squares.",
+  "id": "A193097",
+  "mentions": [
+    "A191933",
+    "A192993",
+    "A193095"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

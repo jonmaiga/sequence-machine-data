@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose digit string can be partitioned into three nonempty parts a <= b <= c such that a*b = c.",
+  "id": "A280732",
+  "mentions": [
+    "A280635",
+    "A280733"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

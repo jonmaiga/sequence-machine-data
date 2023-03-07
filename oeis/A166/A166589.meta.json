@@ -1,0 +1,19 @@
+{
+  "description": "Totally multiplicative sequence with a(p) = p-3 for prime p.",
+  "id": "A166589",
+  "mentions": [
+    "A166586"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

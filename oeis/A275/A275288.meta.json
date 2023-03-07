@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that there exists a sequence b_1 < b_2 < ... < b_t = k that includes n and has a reciprocal sum of 1.",
+  "id": "A275288",
+  "mentions": [
+    "A006255",
+    "A092671",
+    "A272036",
+    "A272083"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

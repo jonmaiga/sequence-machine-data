@@ -1,0 +1,19 @@
+{
+  "description": "Odd values of sigma(n) - phi(n) in the order of appearance and with repetition.",
+  "id": "A226586",
+  "mentions": [
+    "A028982",
+    "A051612"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

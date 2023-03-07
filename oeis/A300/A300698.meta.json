@@ -1,0 +1,18 @@
+{
+  "description": "Half volumes of concertina hypercubes: a(n) = A300697(n)/2.",
+  "id": "A300698",
+  "mentions": [
+    "A300697"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The number of iterations before a repeated value appears when starting from n and performing the iterative cycle as described in the comments, which involves setting the next iterative number to either A053392 or A040115 depending on the current numbers' size relative to n.",
+  "id": "A328680",
+  "mentions": [
+    "A040115",
+    "A053392",
+    "A053393",
+    "A328975",
+    "A329197",
+    "A329200",
+    "A329623",
+    "A329624",
+    "A330159"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

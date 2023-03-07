@@ -1,0 +1,19 @@
+{
+  "description": "The number of distinct products that can be formed by multiplying the parts of a partition of n into 3 positive parts.",
+  "id": "A306403",
+  "mentions": [
+    "A069905",
+    "A317578"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

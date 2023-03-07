@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer x such that the number of integers y sigma(x)/x is exactly n.",
+  "id": "A247034",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A017665",
+    "A017666",
+    "A247015"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

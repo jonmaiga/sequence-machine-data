@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array ( (1/(1-x))^m , x*A000108(x) ), m = 3.",
+  "id": "A185944",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A014151",
+    "A091491",
+    "A185943",
+    "A185945"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

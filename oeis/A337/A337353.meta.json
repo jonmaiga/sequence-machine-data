@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-step self-avoiding walks on a square lattice where no step can be in the same direction as the previous step.",
+  "id": "A337353",
+  "mentions": [
+    "A001411",
+    "A077482",
+    "A173380",
+    "A334877",
+    "A336662"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

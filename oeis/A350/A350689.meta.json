@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(1 - (-1)^n - 2*(3 + (-1)^n)*n^2 + 2*n^4)/384.",
+  "id": "A350689",
+  "mentions": [
+    "A002620",
+    "A010751",
+    "A108674",
+    "A350549"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

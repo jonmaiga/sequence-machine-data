@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Sum_{i=1..n} i^(i') == 0 (mod n), where i' is the arithmetic derivative of i.",
+  "id": "A227502",
+  "mentions": [
+    "A003415",
+    "A227848"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

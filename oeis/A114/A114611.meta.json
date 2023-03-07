@@ -1,0 +1,27 @@
+{
+  "description": "Eventual period of the RATS sequence, where 0 indicates a divergent sequence.",
+  "id": "A114611",
+  "mentions": [
+    "A001651",
+    "A036839",
+    "A114612",
+    "A114613",
+    "A114614",
+    "A114615",
+    "A114616",
+    "A161593",
+    "A288536",
+    "A288537"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

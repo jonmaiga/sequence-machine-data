@@ -1,0 +1,20 @@
+{
+  "description": "Least multiplier k such that k*n is abundant or perfect (A023196).",
+  "id": "A254571",
+  "mentions": [
+    "A023196",
+    "A254572"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

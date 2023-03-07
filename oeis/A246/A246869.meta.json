@@ -1,0 +1,18 @@
+{
+  "description": "Cube root of the smallest of the largest absolute values of parts of the partitions of n into four cubes, or -1 if no such partition exists.",
+  "id": "A246869",
+  "mentions": [
+    "A243113",
+    "A332201"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

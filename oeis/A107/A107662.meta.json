@@ -1,0 +1,29 @@
+{
+  "description": "-n is the discriminant of cubic polynomials irreducible over Zp for primes p represented by only one binary quadratic form.",
+  "id": "A107662",
+  "mentions": [
+    "A006203",
+    "A014602",
+    "A040034",
+    "A040038",
+    "A106282",
+    "A106312",
+    "A106867",
+    "A106872",
+    "A106919",
+    "A106954",
+    "A106967"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least prime number q such that q,q+1,q+2,q+3,...,q+n-1 have 2,4,8,...,2^n divisors respectively.",
+  "id": "A100366",
+  "mentions": [
+    "A000005",
+    "A063446",
+    "A100363",
+    "A100364",
+    "A100365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

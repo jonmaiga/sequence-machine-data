@@ -1,0 +1,22 @@
+{
+  "description": "(p*q - 1)/2 where p and q are consecutive odd primes.",
+  "id": "A102770",
+  "mentions": [
+    "A006094",
+    "A023515",
+    "A086870",
+    "A120876"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:23:23",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

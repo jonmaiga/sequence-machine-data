@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = binomial(n,k)^k for n>=0, k=0..n.",
+  "id": "A219206",
+  "mentions": [
+    "A002262",
+    "A007318",
+    "A167008",
+    "A219207",
+    "A220359"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

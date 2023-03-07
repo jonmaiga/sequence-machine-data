@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n for which the distinct parts have the same median as the multiplicities.",
+  "id": "A360455",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000975",
+    "A027193",
+    "A114638",
+    "A116608",
+    "A240219",
+    "A324570",
+    "A325347",
+    "A326619",
+    "A326620",
+    "A359893",
+    "A359894",
+    "A359895",
+    "A359901",
+    "A359902",
+    "A359907",
+    "A359908",
+    "A360068",
+    "A360243",
+    "A360244",
+    "A360245",
+    "A360248",
+    "A360249",
+    "A360453",
+    "A360454",
+    "A360456"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

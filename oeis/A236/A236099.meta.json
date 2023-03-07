@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the imaginary part of -Pi^(I*Pi).",
+  "id": "A236099",
+  "mentions": [
+    "A000796",
+    "A053510",
+    "A073233",
+    "A231736",
+    "A236098",
+    "A236100",
+    "A236101"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

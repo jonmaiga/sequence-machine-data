@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'mu', an isoperimetric constant associated with the study of a vibrating, homogeneous plate clamped at the boundary of the unit disk.",
+  "id": "A245292",
+  "mentions": [
+    "A242402"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum(2^(A047240(i)-1), i=1..n).",
+  "id": "A113854",
+  "mentions": [
+    "A047240"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

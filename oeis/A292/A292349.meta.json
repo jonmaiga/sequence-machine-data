@@ -1,0 +1,21 @@
+{
+  "description": "Pri-most primes: primes p such that the majority of bits in the binary representation of p satisfy the following: complementing this bit produces a prime number.",
+  "id": "A292349",
+  "mentions": [
+    "A000040",
+    "A137985",
+    "A292348"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

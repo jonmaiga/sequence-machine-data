@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n=s^phi(phi(s)) where s is sum of its digits.",
+  "id": "A135236",
+  "mentions": [
+    "A135234",
+    "A135235",
+    "A135237"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

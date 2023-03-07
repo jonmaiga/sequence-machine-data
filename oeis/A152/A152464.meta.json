@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit bouncy numbers in which every pair of adjacent digits are distinct.",
+  "id": "A152464",
+  "mentions": [
+    "A043096",
+    "A152054"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:03:32",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

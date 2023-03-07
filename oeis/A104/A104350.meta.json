@@ -1,0 +1,38 @@
+{
+  "description": "Partial products of largest prime factors of numbers <= n.",
+  "id": "A104350",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001477",
+    "A001620",
+    "A002110",
+    "A006530",
+    "A007917",
+    "A007947",
+    "A020639",
+    "A034386",
+    "A040000",
+    "A046670",
+    "A072486",
+    "A076928",
+    "A084945",
+    "A104351",
+    "A104355",
+    "A104357",
+    "A104365"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

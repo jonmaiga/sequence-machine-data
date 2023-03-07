@@ -1,0 +1,19 @@
+{
+  "description": "Least exponent k such that p_n*(2^k) - 1 is prime.",
+  "id": "A128979",
+  "mentions": [
+    "A000040",
+    "A101050",
+    "A126715"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

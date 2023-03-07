@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that ((k+2)/(k-2))^k - e^4 < 1/n.",
+  "id": "A248111",
+  "mentions": [
+    "A248103",
+    "A248106"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

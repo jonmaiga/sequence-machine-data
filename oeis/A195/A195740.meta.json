@@ -1,0 +1,17 @@
+{
+  "description": "Smallest possible largest number of a 5 by n average array where repetitions are allowed with diagonals.",
+  "id": "A195740",
+  "mentions": [
+    "A195678"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

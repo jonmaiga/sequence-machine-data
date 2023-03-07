@@ -1,0 +1,24 @@
+{
+  "description": "Number of length three 1..n vectors that contain their geometric mean.",
+  "id": "A337110",
+  "mentions": [
+    "A000188",
+    "A013929",
+    "A057918",
+    "A120486",
+    "A248434",
+    "A337111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

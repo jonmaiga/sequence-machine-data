@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] F(x)^(-(n+1)^2) such that F(x) = F(x^2) + x*F(x^4), where F(x) = Sum_{n>=0} x^A003714(n) and A003714 is the Fibbinary numbers.",
+  "id": "A294359",
+  "mentions": [
+    "A003714",
+    "A085357",
+    "A292877",
+    "A294475"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

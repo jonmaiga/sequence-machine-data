@@ -1,0 +1,28 @@
+{
+  "description": "Sum of all parts of all self-conjugate partitions of n.",
+  "id": "A330373",
+  "mentions": [
+    "A000700",
+    "A066186",
+    "A081362",
+    "A181187",
+    "A208478",
+    "A208479",
+    "A208482",
+    "A208483",
+    "A235324",
+    "A330370",
+    "A330372"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

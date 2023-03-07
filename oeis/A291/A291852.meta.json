@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^4 is the sum of two positive 5th powers.",
+  "id": "A291852",
+  "mentions": [
+    "A000404",
+    "A000583",
+    "A000584",
+    "A009003",
+    "A050801"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

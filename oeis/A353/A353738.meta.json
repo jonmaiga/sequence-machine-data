@@ -1,0 +1,25 @@
+{
+  "description": "Length of longest n-digit optimal prime ladder (base 2).",
+  "id": "A353738",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A014234",
+    "A104080",
+    "A145667",
+    "A353737"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

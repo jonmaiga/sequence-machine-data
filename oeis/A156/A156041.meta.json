@@ -1,0 +1,26 @@
+{
+  "description": "Array A(n,k) (n>=1, k>=1) read by antidiagonals, where A(n,k) is the number of compositions (ordered partitions) of n into exactly k parts, some of which may be zero, with the first part greater than or equal to all the rest.",
+  "id": "A156041",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A008619",
+    "A079500",
+    "A156039",
+    "A156040",
+    "A156042",
+    "A184957"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

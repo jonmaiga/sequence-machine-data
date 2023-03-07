@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n OR k where OR is the bitwise logical OR operator (A003986).",
+  "id": "A350093",
+  "mentions": [
+    "A001196",
+    "A003986",
+    "A080098",
+    "A222423",
+    "A224915",
+    "A265736",
+    "A350094"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

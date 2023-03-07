@@ -1,0 +1,24 @@
+{
+  "description": "Take every third term of the {0,1}-version of the Thue-Morse sequence: a(n) = A010060(3n).",
+  "id": "A293162",
+  "mentions": [
+    "A000035",
+    "A000120",
+    "A005599",
+    "A010060",
+    "A293163",
+    "A293164",
+    "A295890"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

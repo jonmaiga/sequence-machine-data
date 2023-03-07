@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,g) is the number of rooted maps with n edges on an orientable surface of genus g.",
+  "id": "A269919",
+  "mentions": [
+    "A000168",
+    "A006300",
+    "A006301",
+    "A104742",
+    "A215402",
+    "A238355",
+    "A238356",
+    "A238357",
+    "A238358",
+    "A238359",
+    "A238360",
+    "A238396",
+    "A269418",
+    "A269419"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

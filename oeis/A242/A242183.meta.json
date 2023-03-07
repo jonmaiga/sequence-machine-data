@@ -1,0 +1,22 @@
+{
+  "description": "Integers c, listed with multiplicity, such that there is a solution to the equation a^2 + b^3 = c^4, with integers a, b > 0.",
+  "id": "A242183",
+  "mentions": [
+    "A242184",
+    "A242185",
+    "A242186",
+    "A242192",
+    "A300564"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

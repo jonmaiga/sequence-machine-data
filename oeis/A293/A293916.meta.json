@@ -1,0 +1,18 @@
+{
+  "description": "Number of linear chord diagrams having n chords and minimal chord length three.",
+  "id": "A293916",
+  "mentions": [
+    "A293881"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 3,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

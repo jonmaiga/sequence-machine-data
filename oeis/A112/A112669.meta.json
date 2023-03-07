@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of plane partitions of n that can be extended in k ways to a plane partition of n+1 by adding 1 element to it.",
+  "id": "A112669",
+  "mentions": [
+    "A000219",
+    "A090984"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

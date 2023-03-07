@@ -1,0 +1,26 @@
+{
+  "description": "Maximum starting value of X such that repeated replacement of X with X-ceiling(X/9) requires n steps to reach 0.",
+  "id": "A279079",
+  "mentions": [
+    "A000225",
+    "A006999",
+    "A155167",
+    "A278586",
+    "A279075",
+    "A279076",
+    "A279077",
+    "A279078",
+    "A279080"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

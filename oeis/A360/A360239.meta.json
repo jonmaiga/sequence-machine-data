@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) = exp( Sum_{k>=1} A360238(k) * x^k/k ), where A360238(k) = [y^k*x^k/k] log( Sum_{m>=0} (m + y)^(2*m) * x^m ) for k >= 1.",
+  "id": "A360239",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A360238",
+    "A360349"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

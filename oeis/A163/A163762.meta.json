@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of coefficients of polynomials H(n,x)=(U^n+L^n)/2+(U^n-L^n)/(2d), where U=x+d, L=x-d, d=(x+4)^(1/2).",
+  "id": "A163762",
+  "mentions": [
+    "A000217",
+    "A063727",
+    "A162516",
+    "A162517"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array by rows: A(n,m) is the least number which gives a number containing all nonzero digits when multiplied by m-th repunit for base n; each row is truncated when reaches its stationary point.",
+  "id": "A277058",
+  "mentions": [
+    "A002275",
+    "A023811",
+    "A277055",
+    "A277057",
+    "A277059"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

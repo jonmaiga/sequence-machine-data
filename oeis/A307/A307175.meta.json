@@ -1,0 +1,18 @@
+{
+  "description": "Smallest power to which 1+1/n must be raised in order for an interval [k,k+1], with k an integer, to be skipped.",
+  "id": "A307175",
+  "mentions": [
+    "A000040",
+    "A031435"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

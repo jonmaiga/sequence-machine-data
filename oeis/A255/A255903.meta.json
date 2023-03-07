@@ -1,0 +1,49 @@
+{
+  "description": "Number T(n,k) of collections of nonempty multisets with a total of n objects of exactly k colors; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A255903",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000110",
+    "A075196",
+    "A255906",
+    "A255907",
+    "A255942",
+    "A255943",
+    "A255944",
+    "A255945",
+    "A255946",
+    "A255947",
+    "A255948",
+    "A255949",
+    "A255950",
+    "A255951",
+    "A255952",
+    "A255953",
+    "A255954",
+    "A255955",
+    "A255956",
+    "A255957",
+    "A255958",
+    "A255959",
+    "A255960",
+    "A258450",
+    "A317178",
+    "A326914",
+    "A326962",
+    "A327116",
+    "A327117"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

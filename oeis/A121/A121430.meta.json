@@ -1,0 +1,27 @@
+{
+  "description": "Number of subpartitions of partition P=[0,1,1,2,2,2,3,3,3,3,4,...] (A003056).",
+  "id": "A121430",
+  "mentions": [
+    "A003056",
+    "A115728",
+    "A121412",
+    "A121413",
+    "A121416",
+    "A121417",
+    "A121420",
+    "A121421",
+    "A121424",
+    "A121425"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

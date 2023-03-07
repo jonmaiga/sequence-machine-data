@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^7 + 6*n^6 + 26*n^5 + 73*n^4 + 152*n^3 + 222*n^2 + 203*n + 8.",
+  "id": "A270871",
+  "mentions": [
+    "A270867",
+    "A270868",
+    "A270869",
+    "A270870"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:08:37",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f.: exp(exp(x) - x^2 - 1).",
+  "id": "A355338",
+  "mentions": [
+    "A000296",
+    "A277381",
+    "A316778",
+    "A355337"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

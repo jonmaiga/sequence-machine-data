@@ -1,0 +1,25 @@
+{
+  "description": "Triangular numbers that are palindromes in base 7.",
+  "id": "A350992",
+  "mentions": [
+    "A000217",
+    "A003098",
+    "A029954",
+    "A120741",
+    "A350987",
+    "A350990",
+    "A350991",
+    "A350993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

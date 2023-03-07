@@ -1,0 +1,25 @@
+{
+  "description": "T(n,m) counts of border strips in skew tabloids of shape lambda/mu, with lambda and mu partitions of n and m (0<=m<=n).",
+  "id": "A259481",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A006958",
+    "A161492",
+    "A227309",
+    "A259478",
+    "A259479",
+    "A259480"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

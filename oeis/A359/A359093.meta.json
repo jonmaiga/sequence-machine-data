@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the smallest n-gonal number whose sum of digits is n.",
+  "id": "A359093",
+  "mentions": [
+    "A007953",
+    "A359003"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

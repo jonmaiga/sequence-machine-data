@@ -1,0 +1,20 @@
+{
+  "description": "A sequence related to the Stern sequence s(n) (A002487), defined by w(n) = s(3n)/2.",
+  "id": "A240388",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

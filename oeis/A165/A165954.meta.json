@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of sqrt(10 + 2*sqrt(5))/(2*Pi).",
+  "id": "A165954",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A019694",
+    "A019881",
+    "A049541",
+    "A060294",
+    "A063723",
+    "A165922",
+    "A165952",
+    "A165953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:53",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

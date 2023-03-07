@@ -1,0 +1,23 @@
+{
+  "description": "Greatest common divisor of A003415 (arithmetic derivative) and A003961 (prime shift towards larger primes).",
+  "id": "A347964",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A085731",
+    "A322361",
+    "A347965",
+    "A348937"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

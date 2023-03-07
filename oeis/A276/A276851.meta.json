@@ -1,0 +1,17 @@
+{
+  "description": "Reduced A276850",
+  "id": "A276851",
+  "mentions": [
+    "A276850"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

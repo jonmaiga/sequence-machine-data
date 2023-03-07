@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the length of a side of triangle A068619(n) or a(n) = (sqrt(8*A068619(n) + 1) - 1)/2.",
+  "id": "A100243",
+  "mentions": [
+    "A068619"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

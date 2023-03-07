@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 9 X n rectangle using 1 X 1 squares and L-tiles.",
+  "id": "A226543",
+  "mentions": [
+    "A226444"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

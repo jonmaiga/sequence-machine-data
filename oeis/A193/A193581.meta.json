@@ -1,0 +1,22 @@
+{
+  "description": "Sort-and-subtract: a(n) = n - A004185(n).",
+  "id": "A193581",
+  "mentions": [
+    "A004185",
+    "A009994",
+    "A009995",
+    "A065641"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle by rows, number of leading 1's in Fibonacci Maximal notation.",
+  "id": "A181631",
+  "mentions": [
+    "A001911",
+    "A181630"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

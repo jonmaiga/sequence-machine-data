@@ -1,0 +1,19 @@
+{
+  "description": "Prime p2 of the sequence A164077: a^b + c^d = p1 (A164077), where a, b, c, d are primes and a + b + c + d = p2, where p2 is prime and conc(abcd) = p3 (concatenation of a, b, c , d) is also prime (A164079).",
+  "id": "A164078",
+  "mentions": [
+    "A164077",
+    "A164079"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

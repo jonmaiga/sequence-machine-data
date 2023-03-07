@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k)=k^3*2^k*binomial(2n-k,n-k)/(2n-k) (1<=k<=n).",
+  "id": "A112327",
+  "mentions": [
+    "A000108",
+    "A007758",
+    "A112328"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 4^4^4.",
+  "id": "A214024",
+  "mentions": [
+    "A002488",
+    "A054382",
+    "A117853",
+    "A169685",
+    "A193864"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:15",
+    "offset": 155,
+    "size": 105,
+    "source": "joeis"
+  }
+}

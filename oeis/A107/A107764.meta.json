@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form (8^i)*(13^j), with i, j >= 0.",
+  "id": "A107764",
+  "mentions": [
+    "A025633",
+    "A025634",
+    "A107326",
+    "A107364",
+    "A107462",
+    "A107466",
+    "A107710",
+    "A108056",
+    "A108090"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

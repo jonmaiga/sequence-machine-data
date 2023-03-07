@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (sqrt(1-8*x^2)+8*x^2+2*x-1)/(2*x*sqrt(1-8*x^2)).",
+  "id": "A103973",
+  "mentions": [
+    "A000108",
+    "A025225",
+    "A059304"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:10:32",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

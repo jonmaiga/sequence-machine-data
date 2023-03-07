@@ -1,0 +1,20 @@
+{
+  "description": "n times the number of digits in the decimal expansion of n.",
+  "id": "A110803",
+  "mentions": [
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

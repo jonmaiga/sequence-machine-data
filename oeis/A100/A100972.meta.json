@@ -1,0 +1,34 @@
+{
+  "description": "Integers that are Rhonda numbers to base 14.",
+  "id": "A100972",
+  "mentions": [
+    "A001414",
+    "A027746",
+    "A099542",
+    "A100968",
+    "A100969",
+    "A100970",
+    "A100971",
+    "A100973",
+    "A100974",
+    "A100975",
+    "A255731",
+    "A255732",
+    "A255735",
+    "A255736",
+    "A255872",
+    "A291925"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:34",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

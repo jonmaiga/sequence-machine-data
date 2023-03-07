@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers not of the form prime(k) + phi(prime(k)).",
+  "id": "A166257",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A005408",
+    "A076274"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

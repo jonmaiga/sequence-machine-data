@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} phi(k)*x^k/k!), where phi() is the Euler totient function (A000010).",
+  "id": "A300011",
+  "mentions": [
+    "A000010",
+    "A050392",
+    "A159929",
+    "A274804",
+    "A295739"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of permutations of {1,2,...,n} that result in a binary search tree of height k; triangle T(n,k), k>=0, k<=n<=2^k-1, read by columns.",
+  "id": "A244108",
+  "mentions": [
+    "A000142",
+    "A000523",
+    "A011782",
+    "A056972",
+    "A076615",
+    "A076616",
+    "A195581",
+    "A195582",
+    "A195583",
+    "A227822",
+    "A265846",
+    "A316944",
+    "A317012"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

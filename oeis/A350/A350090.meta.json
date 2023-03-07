@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of indices i in the range 0 <= i <= n-1 such that A003215(n) - A003215(i) is an oblong number (A002378), where A003215 are the hex numbers.",
+  "id": "A350090",
+  "mentions": [
+    "A000005",
+    "A001921",
+    "A002378",
+    "A003215",
+    "A111251",
+    "A350120"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

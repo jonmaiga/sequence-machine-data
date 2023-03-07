@@ -1,0 +1,17 @@
+{
+  "description": "List of ordered pairs (x, y) from A279812.",
+  "id": "A279950",
+  "mentions": [
+    "A279812"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

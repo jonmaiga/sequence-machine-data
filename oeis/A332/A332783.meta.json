@@ -1,0 +1,19 @@
+{
+  "description": "The number of permutations of {(n+1) 1's, (n+1) 2's, ..., (n+1) n's} with the property that k's are equally spaced for k=1..n and the interval of k+1 is less than or equal to the interval of k for k=1..n-1.",
+  "id": "A332783",
+  "mentions": [
+    "A332762",
+    "A332784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

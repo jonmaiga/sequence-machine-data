@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n*phi(n)^2, phi = A000010.",
+  "id": "A327570",
+  "mentions": [
+    "A000010",
+    "A000252",
+    "A002322",
+    "A002618",
+    "A011379",
+    "A065464",
+    "A174824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

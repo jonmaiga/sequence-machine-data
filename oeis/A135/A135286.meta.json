@@ -1,0 +1,20 @@
+{
+  "description": "Sum of staircase twin primes according to the rule: top * bottom + next top.",
+  "id": "A135286",
+  "mentions": [
+    "A001359",
+    "A037074",
+    "A135283"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:12:39",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

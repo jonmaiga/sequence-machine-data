@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of phi_{9, 2}(x) where phi_{r, s}(x) = Sum_{n, m>0} m^r * n^s * x^{m*n}.",
+  "id": "A282753",
+  "mentions": [
+    "A008411",
+    "A013955",
+    "A280869",
+    "A282060",
+    "A282097",
+    "A282099",
+    "A282102",
+    "A282751",
+    "A282752"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

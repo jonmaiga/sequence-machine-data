@@ -1,0 +1,26 @@
+{
+  "description": "Number of isomorphism classes of IPR nanocones with 5 pentagons and a symmetric boundary of length n.",
+  "id": "A219905",
+  "mentions": [
+    "A197988",
+    "A198014",
+    "A198015",
+    "A198016",
+    "A198086",
+    "A219901",
+    "A219902",
+    "A219903",
+    "A219904"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

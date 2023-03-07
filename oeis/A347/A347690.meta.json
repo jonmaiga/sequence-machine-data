@@ -1,0 +1,22 @@
+{
+  "description": "Values of k such that (product of first k squarefree numbers) / (sum of first k squarefree numbers) is an integer.",
+  "id": "A347690",
+  "mentions": [
+    "A005117",
+    "A111059",
+    "A173143",
+    "A322607",
+    "A322608",
+    "A322609"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Ordered sums 3f+4g, where f and g are Lucas numbers (A000032 beginning at 1).",
+  "id": "A191976",
+  "mentions": [
+    "A000032",
+    "A191929",
+    "A191977",
+    "A191978",
+    "A191979"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

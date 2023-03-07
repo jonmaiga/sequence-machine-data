@@ -1,0 +1,21 @@
+{
+  "description": "Length of shortest Golomb-like (for sums of triples) ruler with n marks.",
+  "id": "A227358",
+  "mentions": [
+    "A003022",
+    "A227588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the squarefree part of C(n,k).",
+  "id": "A271187",
+  "mentions": [
+    "A007318",
+    "A007913",
+    "A069113"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

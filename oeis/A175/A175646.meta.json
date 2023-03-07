@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the Product_{primes p == 1 (mod 3)} 1/(1 - 1/p^2).",
+  "id": "A175646",
+  "mentions": [
+    "A002476",
+    "A004611",
+    "A007528",
+    "A013661",
+    "A175647",
+    "A301429",
+    "A333240",
+    "A334478",
+    "A334480"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of necklaces with n white beads and k*n black beads; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A261494",
+  "mentions": [
+    "A000010",
+    "A000011",
+    "A000012",
+    "A003239",
+    "A082936",
+    "A261495",
+    "A261496",
+    "A261497",
+    "A261498",
+    "A261499",
+    "A261500",
+    "A261501",
+    "A261502",
+    "A261503",
+    "A261504"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

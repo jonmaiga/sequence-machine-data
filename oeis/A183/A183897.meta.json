@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing arrangements of n+3 numbers in 0..2 with each number being the sum mod 3 of three others.",
+  "id": "A183897",
+  "mentions": [
+    "A183904"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:17",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

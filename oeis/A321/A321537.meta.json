@@ -1,0 +1,20 @@
+{
+  "description": "Write n in base 10, shorten all the runs of successive identical digits by 1.",
+  "id": "A321537",
+  "mentions": [
+    "A050758",
+    "A318921",
+    "A321536"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

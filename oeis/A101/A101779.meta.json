@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = least k such that all of k, 2k+1, 3k+2, ..., nk+n-1 are primes, or 0 if no such k is found.",
+  "id": "A101779",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A067256",
+    "A067257",
+    "A067258",
+    "A088651",
+    "A101767",
+    "A101768",
+    "A101769",
+    "A101770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

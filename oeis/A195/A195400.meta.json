@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of shortest length, (B), of segment from side BC through incenter to side BA in right triangle ABC with sidelengths (a,b,c)=(sqrt(7),3,4).",
+  "id": "A195400",
+  "mentions": [
+    "A195284",
+    "A195399",
+    "A195401",
+    "A195402"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:21",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

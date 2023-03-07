@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Möbius transform of A327936, where A327936 is multiplicative with a(p^e) = p if e >= p, otherwise 1.",
+  "id": "A358216",
+  "mentions": [
+    "A000005",
+    "A276086",
+    "A324655",
+    "A327936"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

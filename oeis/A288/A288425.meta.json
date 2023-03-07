@@ -1,0 +1,23 @@
+{
+  "description": "Minimal number of vertices that must be selected from an n X n square grid so that any square of 4 vertices, regardless of orientation, will include at least one selected vertex.",
+  "id": "A288425",
+  "mentions": [
+    "A002415",
+    "A152125",
+    "A227116",
+    "A240443"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

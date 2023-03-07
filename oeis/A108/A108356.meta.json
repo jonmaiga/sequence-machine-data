@@ -1,0 +1,20 @@
+{
+  "description": "Count, repeating multiples of 3 four times, all other numbers twice.",
+  "id": "A108356",
+  "mentions": [
+    "A108357",
+    "A108358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:41",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Given n, define a(n) as follows: let a sequence b(k) be defined by b(k+1)=b(k)+b(k)mod k; b(1)=2n-1. (Here b(k)mod k denotes the least nonnegative residue of b(k) modulo k). Let a(n) be the common value of b(k+1)-b(k) for all large k if such exists; otherwise let a(n) be 0.",
+  "id": "A117846",
+  "mentions": [
+    "A073117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

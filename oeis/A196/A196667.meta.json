@@ -1,0 +1,18 @@
+{
+  "description": "The Chebyshev primes of index 1.",
+  "id": "A196667",
+  "mentions": [
+    "A196668",
+    "A196675"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

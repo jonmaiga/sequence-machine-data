@@ -1,0 +1,19 @@
+{
+  "description": "Repeated terms in A131771; a(n) = A131770( (n+1)*(n+2)/2 - 1 ) for n>=0.",
+  "id": "A131786",
+  "mentions": [
+    "A131770",
+    "A131771",
+    "A131785"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of a constant related to the [dimensionless] electrical capacitance of the ring torus without hole (with unit circle radius).",
+  "id": "A249220",
+  "mentions": [
+    "A249205",
+    "A249206"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

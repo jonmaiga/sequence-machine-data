@@ -1,0 +1,21 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles in the n X n rook graph K_n X K_n.",
+  "id": "A269561",
+  "mentions": [
+    "A003763",
+    "A096970",
+    "A222199",
+    "A269562"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

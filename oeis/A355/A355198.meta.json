@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the smallest parts of the partitions of n into exactly 3 prime parts.",
+  "id": "A355198",
+  "mentions": [
+    "A010051",
+    "A068307",
+    "A355196",
+    "A355197",
+    "A355199"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

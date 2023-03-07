@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix square of triangle A118400; also equals the matrix inverse of triangle A118407.",
+  "id": "A118401",
+  "mentions": [
+    "A118400",
+    "A118402",
+    "A118403",
+    "A118407"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

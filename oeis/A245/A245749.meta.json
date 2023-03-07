@@ -1,0 +1,20 @@
+{
+  "description": "Number of identity trees with n nodes where the maximal outdegree (branching factor) equals 4.",
+  "id": "A245749",
+  "mentions": [
+    "A116379",
+    "A116380",
+    "A244523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 11,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

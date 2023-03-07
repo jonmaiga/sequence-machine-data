@@ -1,0 +1,20 @@
+{
+  "description": "Amounts (in cents) of coins in denominations 1, 5, 10, 25, and 50 (cents) which, when using the minimal number of coins, have equal numbers of all denominations used.",
+  "id": "A212774",
+  "mentions": [
+    "A001300",
+    "A011542",
+    "A212773"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:31",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

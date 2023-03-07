@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of 2^n terms per row, a Petoukhov sequence generated from (3,2).",
+  "id": "A164279",
+  "mentions": [
+    "A036561",
+    "A036562",
+    "A147995",
+    "A164057",
+    "A164092"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

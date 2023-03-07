@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the greatest m for which A002182(m) <= n; the least monotonic left inverse for highly composite numbers A002182.",
+  "id": "A261100",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A060990",
+    "A070319",
+    "A262501"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

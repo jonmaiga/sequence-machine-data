@@ -1,0 +1,23 @@
+{
+  "description": "Product of first n little Schröder numbers.",
+  "id": "A342170",
+  "mentions": [
+    "A001003",
+    "A003046",
+    "A003266",
+    "A070825",
+    "A294373",
+    "A342166"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:59:19",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

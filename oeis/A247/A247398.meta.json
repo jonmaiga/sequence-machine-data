@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of a constant 'v' such that the asymptotic variance of the distribution of the longest cycle given a random n-permutation evaluates as v*n^2.",
+  "id": "A247398",
+  "mentions": [
+    "A084945"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

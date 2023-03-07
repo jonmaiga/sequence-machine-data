@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows where row n contains the sorted digits of the integers 0 through n.",
+  "id": "A166352",
+  "mentions": [
+    "A037123"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

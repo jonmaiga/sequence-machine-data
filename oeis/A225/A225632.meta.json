@@ -1,0 +1,29 @@
+{
+  "description": "Irregular table read by rows: n-th row gives distinct values of successively iterated Landau-like functions for n, starting with the initial value 1.",
+  "id": "A225632",
+  "mentions": [
+    "A000793",
+    "A003418",
+    "A212721",
+    "A225629",
+    "A225630",
+    "A225631",
+    "A225634",
+    "A225635",
+    "A225638",
+    "A225642",
+    "A226055",
+    "A226056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

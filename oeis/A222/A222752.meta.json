@@ -1,0 +1,21 @@
+{
+  "description": "Irregular array of odd numbers T(n,k) such that the difference between the number of halving and tripling steps in the Collatz (3x+1) iteration is n.",
+  "id": "A222752",
+  "mentions": [
+    "A222599",
+    "A222753",
+    "A222754",
+    "A222755"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

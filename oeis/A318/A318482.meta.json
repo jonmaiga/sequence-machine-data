@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=1, k>=1} (1 + i*j*k*x^(i*j*k)).",
+  "id": "A318482",
+  "mentions": [
+    "A000009",
+    "A022629",
+    "A280541",
+    "A318414",
+    "A318416",
+    "A318481"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

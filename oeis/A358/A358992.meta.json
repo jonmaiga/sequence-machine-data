@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of digits in the product of the first n odd numbers not divisible by 5.",
+  "id": "A358992",
+  "mentions": [
+    "A045572",
+    "A055642",
+    "A356860",
+    "A358990",
+    "A358991",
+    "A358993"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Order of A113709(n) among composite positive integers.",
+  "id": "A133555",
+  "mentions": [
+    "A066246",
+    "A113709",
+    "A133709"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

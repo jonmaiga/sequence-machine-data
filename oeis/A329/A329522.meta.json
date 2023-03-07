@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers whose sum of digits is not composite.",
+  "id": "A329522",
+  "mentions": [
+    "A046704",
+    "A104213",
+    "A141642",
+    "A228019"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

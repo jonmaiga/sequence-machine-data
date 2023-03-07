@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer b such that (b+1)^p - b^p is prime for all primes p <= prime(n).",
+  "id": "A216666",
+  "mentions": [
+    "A216668"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

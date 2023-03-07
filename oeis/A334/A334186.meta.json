@@ -1,0 +1,18 @@
+{
+  "description": "Let m = d*q + r be the Euclidean division of m by d. The terms m of this sequence satisfy that r, q, d are consecutive positive integer terms in a geometric progression with a noninteger common ratio > 1.",
+  "id": "A334186",
+  "mentions": [
+    "A127629",
+    "A334185"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n * exp(-1/2) * Sum_{k>=0} (k + 2)^n / (2^k * k!).",
+  "id": "A337011",
+  "mentions": [
+    "A004211",
+    "A007405",
+    "A045379",
+    "A337010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

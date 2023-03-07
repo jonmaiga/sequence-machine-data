@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to partition the set of vertices of a convex {n+8}-gon into 3 non-intersecting polygons.",
+  "id": "A350116",
+  "mentions": [
+    "A055998",
+    "A114997",
+    "A350248"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

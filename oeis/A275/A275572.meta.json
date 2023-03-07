@@ -1,0 +1,20 @@
+{
+  "description": "Consider the function G(m) that adds to m a fractional part whose digits are the digits of m (informally, G(m) = m.m). Sequence lists integers of the form Sum_{i=1..k} G(i) for some k.",
+  "id": "A275572",
+  "mentions": [
+    "A054464",
+    "A275573"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

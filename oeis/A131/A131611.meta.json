@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: (x^2/2-2*x+3)*tan(x/2+Pi/4)-3*x^3-x-3.",
+  "id": "A131611",
+  "mentions": [
+    "A131656"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Odd non-Brazilian numbers > 1.",
+  "id": "A258165",
+  "mentions": [
+    "A085104",
+    "A125134",
+    "A144396",
+    "A190300",
+    "A220570",
+    "A220571",
+    "A220627",
+    "A242397",
+    "A253260",
+    "A253261",
+    "A257521"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

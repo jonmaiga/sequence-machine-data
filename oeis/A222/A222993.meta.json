@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X 2 0..2 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope",
+  "id": "A222993",
+  "mentions": [
+    "A222996",
+    "A353047"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:08:54",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

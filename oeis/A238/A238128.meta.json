@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of ballot sequences of length n having largest descent k, n>=0, 0<=k<=n.",
+  "id": "A238128",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A238129",
+    "A244197",
+    "A244198",
+    "A244199",
+    "A244200",
+    "A244201",
+    "A244202",
+    "A244203",
+    "A244204",
+    "A244205",
+    "A244206"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

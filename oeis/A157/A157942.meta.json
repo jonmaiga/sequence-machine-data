@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n divisible by the largest prime <= sqrt(n), A007917(A000196(n)).",
+  "id": "A157942",
+  "mentions": [
+    "A000196",
+    "A001248",
+    "A006094",
+    "A007917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

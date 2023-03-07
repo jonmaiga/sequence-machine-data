@@ -1,0 +1,22 @@
+{
+  "description": "The cardinality of the smallest (nontrivial, except for prime n) multiset of positive integers whose product and sum equal n.",
+  "id": "A341866",
+  "mentions": [
+    "A033178",
+    "A033179",
+    "A104173",
+    "A330492",
+    "A341865"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

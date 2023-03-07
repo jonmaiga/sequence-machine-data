@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 7*k^2 + 7*k + 17.",
+  "id": "A256374",
+  "mentions": [
+    "A256375"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

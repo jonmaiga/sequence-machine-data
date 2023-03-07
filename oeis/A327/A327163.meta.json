@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence such that for all i, j, a(i) = a(j) => f(i) = f(j), where f(n) = gcd(n,usigma(n)) * (-1)^[gcd(n,usigma(n))==n], and usigma is the sum of unitary divisors of n (A034448).",
+  "id": "A327163",
+  "mentions": [
+    "A034448",
+    "A305800",
+    "A323166",
+    "A326193",
+    "A327158",
+    "A327164"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n/2) - floor((n+1)/6), n >= 0.",
+  "id": "A285870",
+  "mentions": [
+    "A049310",
+    "A059169",
+    "A285869",
+    "A285872"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:47:45",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

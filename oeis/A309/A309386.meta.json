@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where A(n,k) = Sum_{j=0..n} (-k)^(n-j)*Stirling2(n,j).",
+  "id": "A309386",
+  "mentions": [
+    "A000012",
+    "A000587",
+    "A009235",
+    "A024000",
+    "A241578",
+    "A292861",
+    "A317996",
+    "A318179",
+    "A318180",
+    "A318181",
+    "A318183"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

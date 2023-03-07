@@ -1,0 +1,22 @@
+{
+  "description": "Sum_{k=1..n} floor(k*p/q), where (p,q) are either coprime positive integers or q=1 or p=1, n*p>=q, ordered by (n + p + q) ascending, then n ascending, then p ascending.",
+  "id": "A214734",
+  "mentions": [
+    "A001840",
+    "A001972",
+    "A058937",
+    "A130518",
+    "A130519"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

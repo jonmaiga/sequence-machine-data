@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = 2*binomial(n, k) - 3 with T(n, 0) = T(n, n) = 1, read by rows.",
+  "id": "A132729",
+  "mentions": [
+    "A007318",
+    "A132044",
+    "A132730"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

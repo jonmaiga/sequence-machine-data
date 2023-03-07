@@ -1,0 +1,21 @@
+{
+  "description": "Least number with same prime signature as the n-th divisorial: a(n) = A046523(A007955(n)).",
+  "id": "A283995",
+  "mentions": [
+    "A007955",
+    "A046523",
+    "A069264",
+    "A283990"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

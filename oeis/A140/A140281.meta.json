@@ -1,0 +1,23 @@
+{
+  "description": "A Diophantine equation over digits of n. Numbers n such that x_1/r +x_2/r-1 + ... + x_r/1 = k; x_i digits of n; k integer.",
+  "id": "A140281",
+  "mentions": [
+    "A005349",
+    "A137923",
+    "A138566",
+    "A139749",
+    "A139750"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

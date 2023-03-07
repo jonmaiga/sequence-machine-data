@@ -1,0 +1,19 @@
+{
+  "description": "Marks on 9-mark optimal Golomb ruler.",
+  "id": "A106676",
+  "mentions": [
+    "A106683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

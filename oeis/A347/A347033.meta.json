@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (5*exp(4)-1)/8.",
+  "id": "A347033",
+  "mentions": [
+    "A092426"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:02:11",
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

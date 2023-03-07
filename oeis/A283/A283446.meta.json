@@ -1,0 +1,20 @@
+{
+  "description": "Integer areas of triangles with side lengths A001223(m), A001223(m+1) and A001223(m+2) for some m.",
+  "id": "A283446",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A188158",
+    "A229746"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

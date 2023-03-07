@@ -1,0 +1,23 @@
+{
+  "description": "Difference between short leg and hypotenuse in primitive Pythagorean triangles, sorted on hypotenuse (A020882), then on long leg (A046087).",
+  "id": "A118962",
+  "mentions": [
+    "A020882",
+    "A046086",
+    "A046087",
+    "A096033",
+    "A118961",
+    "A120682"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

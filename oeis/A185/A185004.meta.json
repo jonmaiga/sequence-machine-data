@@ -1,0 +1,23 @@
+{
+  "description": "Ramanujan modulo primes R_(3,1)(n): a(n) is the smallest number such that if x >= a(n), then pi_(3,1)(x) - pi_(3,1)(x/2) >= n, where pi_(3,1)(x) is the number of primes==1 (mod 3) <= x.",
+  "id": "A185004",
+  "mentions": [
+    "A002476",
+    "A104272",
+    "A123365",
+    "A185005",
+    "A185006",
+    "A185007"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

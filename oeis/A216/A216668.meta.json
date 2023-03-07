@@ -1,0 +1,19 @@
+{
+  "description": "Smallest integer b > 1 such that for all primes p <= prime(n), (b+1)^p - b^p is prime if and only if 2^p-1 is prime.",
+  "id": "A216668",
+  "mentions": [
+    "A216666"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

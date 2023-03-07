@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of palindromic compositions of n having exactly k 1's, n>=0, 0<=k<=n.",
+  "id": "A239366",
+  "mentions": [
+    "A006367",
+    "A010049",
+    "A053602",
+    "A079977"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

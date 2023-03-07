@@ -1,0 +1,20 @@
+{
+  "description": "Number of intersection points when every pair of vertices of a row of n adjacent congruent rectangles are joined by an infinite line.",
+  "id": "A347750",
+  "mentions": [
+    "A331755",
+    "A344993",
+    "A347751"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

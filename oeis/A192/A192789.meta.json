@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct solutions of 4/p = 1/a + 1/b + 1/c in positive integers satisfying 1<=a<=b<=c where p is the n-th prime.",
+  "id": "A192789",
+  "mentions": [
+    "A192787",
+    "A292581",
+    "A292624"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct Mersenne primes dividing n.",
+  "id": "A147645",
+  "mentions": [
+    "A000265",
+    "A000668",
+    "A001221",
+    "A054784",
+    "A080225",
+    "A098918",
+    "A154402",
+    "A331410",
+    "A353786"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

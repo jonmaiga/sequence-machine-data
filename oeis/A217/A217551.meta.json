@@ -1,0 +1,20 @@
+{
+  "description": "Smallest numbers n, for a given s, such that s! + n^2 and (s+3)! + n^2 are squares.",
+  "id": "A217551",
+  "mentions": [
+    "A217277",
+    "A217541",
+    "A217550",
+    "A217553"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

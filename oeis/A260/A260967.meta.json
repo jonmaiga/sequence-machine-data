@@ -1,0 +1,20 @@
+{
+  "description": "Number of infinitesimal normal play partisan games born on or before day n.",
+  "id": "A260967",
+  "mentions": [
+    "A065401",
+    "A260968",
+    "A260969"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

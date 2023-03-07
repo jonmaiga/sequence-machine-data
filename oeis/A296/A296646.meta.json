@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..1 arrays with each 1 adjacent to 0, 1 or 3 king-move neighboring 1s.",
+  "id": "A296646",
+  "mentions": [
+    "A296651"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

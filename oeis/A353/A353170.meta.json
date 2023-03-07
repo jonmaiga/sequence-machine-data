@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^k)^prime(k+1).",
+  "id": "A353170",
+  "mentions": [
+    "A007441",
+    "A065091",
+    "A353065",
+    "A353169"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^2 = A(x^2) + 12*x.",
+  "id": "A264413",
+  "mentions": [
+    "A264225",
+    "A264233",
+    "A264412",
+    "A264414",
+    "A264415",
+    "A271935"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

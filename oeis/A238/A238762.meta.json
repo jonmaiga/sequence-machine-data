@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, generalized ballot numbers, 0<=k<=n.",
+  "id": "A238762",
+  "mentions": [
+    "A009766",
+    "A057977",
+    "A189231",
+    "A238452",
+    "A238761",
+    "A238763",
+    "A238879"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

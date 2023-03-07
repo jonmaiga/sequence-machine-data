@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of triangle A117170 of Inverse-Shift-Moebius coefficients and so equals the Inverse-Shift-Moebius transform of [0,1,0,0,...].",
+  "id": "A117172",
+  "mentions": [
+    "A117170",
+    "A117171",
+    "A117173",
+    "A117174"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

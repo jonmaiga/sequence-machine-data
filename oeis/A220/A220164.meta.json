@@ -1,0 +1,22 @@
+{
+  "description": "Number of simple squared squares of order n up to symmetry.",
+  "id": "A220164",
+  "mentions": [
+    "A002962",
+    "A006983",
+    "A089046",
+    "A217156"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Orders of \"Gray\" fields.",
+  "id": "A123399",
+  "mentions": [
+    "A054639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

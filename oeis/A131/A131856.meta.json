@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that z(m)=(0,1) with z as defined in A131851.",
+  "id": "A131856",
+  "mentions": [
+    "A131851",
+    "A131852",
+    "A131853",
+    "A131854",
+    "A131857",
+    "A131858",
+    "A131860"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

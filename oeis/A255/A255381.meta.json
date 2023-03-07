@@ -1,0 +1,29 @@
+{
+  "description": "Number of strings of k+n decimal digits that contain one string of exactly k consecutive \"0\" digits, where k >= n.",
+  "id": "A255381",
+  "mentions": [
+    "A255371",
+    "A255372",
+    "A255373",
+    "A255374",
+    "A255375",
+    "A255376",
+    "A255377",
+    "A255378",
+    "A255379",
+    "A255380"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

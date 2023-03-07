@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..L} hypergeom([-n, -n], [1], k) with L = 4.",
+  "id": "A301393",
+  "mentions": [
+    "A000012",
+    "A000984",
+    "A268555",
+    "A301392"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

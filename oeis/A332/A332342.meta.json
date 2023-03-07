@@ -1,0 +1,21 @@
+{
+  "description": "Table T(n, k) read by antidiagonals upwards: sum of the terms of the continued fraction for the fractional part of n/k (n>=1, k>=1).",
+  "id": "A332342",
+  "mentions": [
+    "A058027",
+    "A058299",
+    "A071316",
+    "A332343"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sums of the cubes of the descent set statistics for permutations on n elements.",
+  "id": "A291902",
+  "mentions": [
+    "A060350",
+    "A060351",
+    "A291903",
+    "A334622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

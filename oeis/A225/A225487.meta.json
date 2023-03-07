@@ -1,0 +1,19 @@
+{
+  "description": "Duplicate primes found by Rowland's recurrence in the order of their reappearance.",
+  "id": "A225487",
+  "mentions": [
+    "A132199",
+    "A137613",
+    "A221869"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

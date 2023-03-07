@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that satisfy the condition digitsum(k) = digitsum(pi(k)) where pi is the prime counting function.",
+  "id": "A343139",
+  "mentions": [
+    "A000720",
+    "A007953",
+    "A010846",
+    "A033548",
+    "A033549"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^k)^(3/k), where (m/n) is the Kronecker symbol.",
+  "id": "A327757",
+  "mentions": [
+    "A007325",
+    "A081362",
+    "A091338",
+    "A092869",
+    "A092876",
+    "A327758"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:15",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

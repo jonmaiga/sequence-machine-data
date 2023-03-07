@@ -1,0 +1,19 @@
+{
+  "description": "Least Y such that X^3 + Y^3 = A020898(n)*Z^3 for some X <= Y and some Z.",
+  "id": "A254324",
+  "mentions": [
+    "A020898",
+    "A254326"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

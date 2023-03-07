@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k, q) = (q*(n-k) +1)*T(n-1, k-1, q) + (q*k+1)*T(n-1, k, q) + q*A157522(n, k)*T(n-2, k-1, q), with T(n, 0, q) = T(n, n, q) = 1 and q = 1, read by rows.",
+  "id": "A157523",
+  "mentions": [
+    "A007318",
+    "A157522"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

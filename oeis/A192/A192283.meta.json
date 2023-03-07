@@ -1,0 +1,20 @@
+{
+  "description": "Sum of prime anti-divisors of n = sum of prime anti-divisors of n+1 with n > 1.",
+  "id": "A192283",
+  "mentions": [
+    "A002961",
+    "A006145",
+    "A066272",
+    "A192282"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

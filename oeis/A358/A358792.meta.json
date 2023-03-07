@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that for some r we have d(1) + ... + d(k - 1) = d(k + 1) + ... + d(k + r), where d(i) = A000005(i).",
+  "id": "A358792",
+  "mentions": [
+    "A000005",
+    "A001109",
+    "A006218",
+    "A358797"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

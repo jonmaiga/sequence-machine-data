@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing arrays of n 1..n integers with the sum of their 3rd powers equal to sum(i^3,i=1..n)",
+  "id": "A216641",
+  "mentions": [
+    "A216645"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

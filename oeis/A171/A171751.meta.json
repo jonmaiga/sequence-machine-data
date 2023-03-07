@@ -1,0 +1,18 @@
+{
+  "description": "Maximum k with 1 <= k <= n such that nk + 1 is prime (or 0 if no such prime exists).",
+  "id": "A171751",
+  "mentions": [
+    "A005574",
+    "A089727"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

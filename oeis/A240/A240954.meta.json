@@ -1,0 +1,21 @@
+{
+  "description": "Number of initially rising meander words, where each letter of the cyclic n-ary alphabet occurs three times.",
+  "id": "A240954",
+  "mentions": [
+    "A169721",
+    "A209349"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

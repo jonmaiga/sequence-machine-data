@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths of semilength n and height exactly 8.",
+  "id": "A289421",
+  "mentions": [
+    "A080936"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 8,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

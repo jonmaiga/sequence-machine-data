@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of five third powers in eight or more ways.",
+  "id": "A345183",
+  "mentions": [
+    "A344801",
+    "A344944",
+    "A345152",
+    "A345180",
+    "A345184",
+    "A345185",
+    "A345517"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

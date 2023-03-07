@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*a(n-1) - a(n-2) + a(n-4) for n>3, a(0)=2, a(1)=3, a(2)=5, a(3)=7, a sequence related to Lucas numbers.",
+  "id": "A291660",
+  "mentions": [
+    "A000032",
+    "A007395",
+    "A097924",
+    "A286350"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:02:00",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

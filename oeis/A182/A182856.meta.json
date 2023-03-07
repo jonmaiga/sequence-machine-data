@@ -1,0 +1,33 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = smallest positive integer whose prime signature contains, for k = 1 to n, exactly one positive number appearing exactly k times.",
+  "id": "A182856",
+  "mentions": [
+    "A000292",
+    "A001222",
+    "A002110",
+    "A006939",
+    "A056239",
+    "A059404",
+    "A062770",
+    "A071625",
+    "A113511",
+    "A118914",
+    "A181819",
+    "A181821",
+    "A182855",
+    "A182857",
+    "A323022"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

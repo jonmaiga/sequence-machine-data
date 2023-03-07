@@ -1,0 +1,31 @@
+{
+  "description": "Number of lone-child-avoiding locally disjoint rooted trees whose leaves form an integer partition of n.",
+  "id": "A316696",
+  "mentions": [
+    "A000669",
+    "A001678",
+    "A141268",
+    "A316473",
+    "A316495",
+    "A316652",
+    "A316697",
+    "A331678",
+    "A331680",
+    "A331686",
+    "A331687",
+    "A331871",
+    "A331872",
+    "A331874"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

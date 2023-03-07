@@ -1,0 +1,19 @@
+{
+  "description": "Largest value of (p*q mod n), for primes p and q, where p + q = n and p <= q (or 0 if no such primes exist).",
+  "id": "A339020",
+  "mentions": [
+    "A014092",
+    "A061358",
+    "A338768"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

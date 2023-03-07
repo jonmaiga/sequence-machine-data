@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that m-2, m-1, m+1, m+2 cannot all be represented in the form x*y + x + y for values x, y with x >= y > 1.",
+  "id": "A256386",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A077800",
+    "A118072",
+    "A158870",
+    "A171667",
+    "A176821",
+    "A181602",
+    "A181669",
+    "A254636",
+    "A255361"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

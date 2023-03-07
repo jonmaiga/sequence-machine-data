@@ -1,0 +1,22 @@
+{
+  "description": "Triangle version of the array w(N,L) of the average number of round trips of length L on Laguerre graphs L_N.",
+  "id": "A201198",
+  "mentions": [
+    "A021009",
+    "A201199"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the index (in Z/nZ) of the first already visited element in the process of moving around Z/nZ, starting at 0 with stride 1 and increasing stride by 1 after each step.",
+  "id": "A345117",
+  "mentions": [
+    "A000217",
+    "A212652"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:39",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

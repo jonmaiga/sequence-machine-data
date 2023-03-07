@@ -1,0 +1,17 @@
+{
+  "description": "2-Carmichael numbers: composite numbers n such that A^{n*(n-1)*(n+1)} = I for every matrix A from the group GL(2,Z/nZ).",
+  "id": "A336663",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

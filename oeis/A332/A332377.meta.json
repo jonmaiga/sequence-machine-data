@@ -1,0 +1,21 @@
+{
+  "description": "One-third of total number of edges in graph formed by the straight line segments connecting the edges of an equilateral triangle with the n-1 points resulting from a subdivision of the sides into n equal pieces.",
+  "id": "A332377",
+  "mentions": [
+    "A091908",
+    "A092098",
+    "A331782",
+    "A332376"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

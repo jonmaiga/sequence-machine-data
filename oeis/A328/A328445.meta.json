@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime p such that n = Omega(p^n - 2) = Omega(p^n + 2) where Omega = A001222.",
+  "id": "A328445",
+  "mentions": [
+    "A001222",
+    "A328359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

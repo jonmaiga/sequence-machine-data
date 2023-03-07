@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor, without move-in move-out straight through or left turns.",
+  "id": "A222015",
+  "mentions": [
+    "A222020"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

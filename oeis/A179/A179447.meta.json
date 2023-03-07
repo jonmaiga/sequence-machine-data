@@ -1,0 +1,28 @@
+{
+  "description": "Smallest values d such that the equation d =x^5-y^2 has exactly n distinct nonnegative integer solutions.",
+  "id": "A179447",
+  "mentions": [
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179386",
+    "A179387",
+    "A179388",
+    "A179406",
+    "A179407",
+    "A179408",
+    "A179439"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

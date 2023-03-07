@@ -1,0 +1,20 @@
+{
+  "description": "Linking prime for the first and second member of maximal chains of primes that have at least three members.",
+  "id": "A145650",
+  "mentions": [
+    "A119487",
+    "A145651",
+    "A152117",
+    "A152658"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

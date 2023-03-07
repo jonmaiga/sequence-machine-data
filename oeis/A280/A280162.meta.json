@@ -1,0 +1,19 @@
+{
+  "description": "Number of subgroups of the group C_n x C_n x C_n x C_n, where C_n is the cyclic group of order n.",
+  "id": "A280162",
+  "mentions": [
+    "A060724",
+    "A064803"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

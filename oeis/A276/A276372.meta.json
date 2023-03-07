@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that, in the prime factorization of n, the list of the exponents is a rotation of the list of the prime factors.",
+  "id": "A276372",
+  "mentions": [
+    "A008475",
+    "A008478",
+    "A048102",
+    "A054411",
+    "A054412",
+    "A056166",
+    "A082949",
+    "A113855",
+    "A122406"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

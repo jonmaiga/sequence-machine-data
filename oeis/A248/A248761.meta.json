@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sum_{n >= 1} 1/sqrt(n!).",
+  "id": "A248761",
+  "mentions": [
+    "A214869",
+    "A248696",
+    "A248759",
+    "A248760"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

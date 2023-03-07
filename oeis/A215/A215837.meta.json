@@ -1,0 +1,20 @@
+{
+  "description": "Seventh derivative of f_n at x=1, where f_n is the n-th of all functions that are representable as x^x^...^x with m>=1 x's and parentheses inserted in all possible ways.",
+  "id": "A215837",
+  "mentions": [
+    "A000081",
+    "A087803",
+    "A215703",
+    "A215796"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

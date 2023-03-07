@@ -1,0 +1,22 @@
+{
+  "description": "Consider the 2^(n+1) polynomials f(x) with coefficients 0 or 1 and degree <= n. Sequence gives triangle read by rows, in which T(n,k) (n>=0) is the number of such polynomials of thickness k (0 <= k <= n+1).",
+  "id": "A169945",
+  "mentions": [
+    "A061909",
+    "A143823",
+    "A169940",
+    "A169954"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

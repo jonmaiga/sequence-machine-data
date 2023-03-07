@@ -1,0 +1,27 @@
+{
+  "description": "Triangle formed by reading triangle A064189 mod 2 .",
+  "id": "A128810",
+  "mentions": [
+    "A039963",
+    "A064189",
+    "A091965",
+    "A097357",
+    "A108149",
+    "A110565",
+    "A110877",
+    "A125906",
+    "A126954"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:45",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

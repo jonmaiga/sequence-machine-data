@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that binomial(2n,n) has the same prime factors as binomial(2k,k) for some k>n.",
+  "id": "A129515",
+  "mentions": [
+    "A067434"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

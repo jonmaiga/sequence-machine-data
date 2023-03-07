@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2^n - Fibonacci(n) - 1.",
+  "id": "A228078",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000225",
+    "A001611",
+    "A099036",
+    "A228074"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

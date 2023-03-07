@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * (1 + 3^k)^k.",
+  "id": "A244004",
+  "mentions": [
+    "A202989",
+    "A243918"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

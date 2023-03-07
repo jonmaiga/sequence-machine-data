@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows of a variation of the Collatz iteration with signature (2,4).",
+  "id": "A245944",
+  "mentions": [
+    "A242030",
+    "A245942",
+    "A245943"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

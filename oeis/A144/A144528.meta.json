@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of trees on n unlabeled nodes with all nodes of degree <= k (n>=1, 0 <= k <= n-1).",
+  "id": "A144528",
+  "mentions": [
+    "A000012",
+    "A000055",
+    "A000602",
+    "A000672",
+    "A036650",
+    "A036653",
+    "A144215",
+    "A144520",
+    "A144527",
+    "A238414",
+    "A299038",
+    "A359392"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

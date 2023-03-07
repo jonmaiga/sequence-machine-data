@@ -1,0 +1,24 @@
+{
+  "description": "Number of balanced orbitals over n sectors.",
+  "id": "A241810",
+  "mentions": [
+    "A029895",
+    "A063074",
+    "A067059",
+    "A204459",
+    "A232500",
+    "A242087"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

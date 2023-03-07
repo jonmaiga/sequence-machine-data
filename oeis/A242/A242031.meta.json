@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that prime factorization n = p_1^k_1*p_2^k_2*...*p_r^k_r satisfies k_1 >= k_2 >= ... >= k_r.",
+  "id": "A242031",
+  "mentions": [
+    "A071365",
+    "A304686"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

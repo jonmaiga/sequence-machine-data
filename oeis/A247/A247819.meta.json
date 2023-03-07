@@ -1,0 +1,18 @@
+{
+  "description": "Integers such that A247552(n) is not a repunit.",
+  "id": "A247819",
+  "mentions": [
+    "A247552"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

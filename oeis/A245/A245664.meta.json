@@ -1,0 +1,18 @@
+{
+  "description": "Prime-partitionable numbers a(n) for which there exists a 2-partition of the set of primes < a(n) that has one subset containing two primes only.",
+  "id": "A245664",
+  "mentions": [
+    "A059756",
+    "A244640"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

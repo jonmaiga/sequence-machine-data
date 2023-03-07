@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of arrangements of k non-attacking bishops on the white squares of an n X n board with every square controlled by at least one bishop (1<=k",
+  "id": "A288182",
+  "mentions": [
+    "A122749",
+    "A146304",
+    "A274106",
+    "A288183",
+    "A290613"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

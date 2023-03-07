@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form p*q+r*s+t*u, where p,q,r,s,t,u are consecutive primes.",
+  "id": "A340464",
+  "mentions": [
+    "A340463"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

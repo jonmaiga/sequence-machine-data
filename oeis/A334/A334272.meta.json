@@ -1,0 +1,43 @@
+{
+  "description": "Number of sequences of length n that cover an initial interval of positive integers and are both a reversed necklace and a co-necklace.",
+  "id": "A334272",
+  "mentions": [
+    "A000031",
+    "A000670",
+    "A008965",
+    "A019536",
+    "A034691",
+    "A059966",
+    "A060223",
+    "A065609",
+    "A066099",
+    "A275692",
+    "A296372",
+    "A296975",
+    "A326774",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A329138",
+    "A333764",
+    "A333943",
+    "A334265",
+    "A334266",
+    "A334269",
+    "A334270",
+    "A334271",
+    "A334273",
+    "A334274"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

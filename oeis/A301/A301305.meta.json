@@ -1,0 +1,21 @@
+{
+  "description": "G.f. L(x,y) satisfies: L(x,y) = x * (1 + y*x*L'(x,y)) / (1 + x*L'(x,y)) where L'(x,y) = d/dx L(x,y), as a triangle read by rows.",
+  "id": "A301305",
+  "mentions": [
+    "A088716",
+    "A301388",
+    "A301389"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

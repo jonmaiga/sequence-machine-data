@@ -1,0 +1,18 @@
+{
+  "description": "Dimensions of certain centralizer algebras associated with Bratelli diagram B(S_6, S_5).",
+  "id": "A284727",
+  "mentions": [
+    "A056273"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Connell sum sequence (partial sums of the Connell sequence).",
+  "id": "A122793",
+  "mentions": [
+    "A001614",
+    "A045928",
+    "A045929",
+    "A045930",
+    "A122794",
+    "A122795",
+    "A122796",
+    "A122797",
+    "A122798",
+    "A122799",
+    "A122800",
+    "A337300"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

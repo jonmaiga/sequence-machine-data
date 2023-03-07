@@ -1,0 +1,24 @@
+{
+  "description": "Triangle built from partial sums of Catalan numbers A000108 multiplied by powers.",
+  "id": "A112705",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A112696",
+    "A112704",
+    "A112706"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

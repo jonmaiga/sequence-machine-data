@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit \"early bird numbers\" A116700.",
+  "id": "A160234",
+  "mentions": [
+    "A116700"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

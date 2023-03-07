@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place n nonattacking composite pieces queen + leaper[4,5] on an n X n chessboard.",
+  "id": "A189872",
+  "mentions": [
+    "A051223",
+    "A189570",
+    "A189866",
+    "A189869",
+    "A189871"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

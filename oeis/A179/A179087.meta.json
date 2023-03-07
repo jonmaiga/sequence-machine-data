@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows: the real part of the coefficient [x^k] of (1-x)^(n+1) * Sum_{s>=0} ((2*s + 1 + 2*i)^n)*x^s, where i is the imaginary unit.",
+  "id": "A179087",
+  "mentions": [
+    "A000165",
+    "A006495"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

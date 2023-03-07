@@ -1,0 +1,29 @@
+{
+  "description": "Partitions with superdiagonal growth: number of partitions (p0, p1, p2, ...) of n with pi - p0 >= i.",
+  "id": "A238860",
+  "mentions": [
+    "A000009",
+    "A001227",
+    "A008930",
+    "A010054",
+    "A025147",
+    "A219282",
+    "A238394",
+    "A238859",
+    "A238861",
+    "A238873",
+    "A238874",
+    "A238875",
+    "A238876"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

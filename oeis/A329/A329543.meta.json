@@ -1,0 +1,23 @@
+{
+  "description": "Number of colored digraphs on n nodes with 1 to n colors assigned in a fixed order according the node count.",
+  "id": "A329543",
+  "mentions": [
+    "A000041",
+    "A000273",
+    "A053763",
+    "A328773",
+    "A329541"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the breadth of the \"caliper\", the broadest worm of unit length.",
+  "id": "A240969",
+  "mentions": [
+    "A227472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

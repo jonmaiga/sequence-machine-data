@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the palindromic primes A002385 (Honaker's constant).",
+  "id": "A118064",
+  "mentions": [
+    "A002385",
+    "A007632",
+    "A050251",
+    "A118031",
+    "A160910",
+    "A181442",
+    "A194097"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

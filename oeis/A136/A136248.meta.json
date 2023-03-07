@@ -1,0 +1,18 @@
+{
+  "description": "Triangle H4 read by rows: see link for definition.",
+  "id": "A136248",
+  "mentions": [
+    "A136206"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lcm(n^2, n!) / lcm(n^2, swinging_factorial(n)).",
+  "id": "A181858",
+  "mentions": [
+    "A000290",
+    "A056040",
+    "A170826",
+    "A181857",
+    "A181860"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

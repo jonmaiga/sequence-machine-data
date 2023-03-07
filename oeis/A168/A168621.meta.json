@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,0) = T(n,n) = 1 for n >= 0, T(n,k) = ((n - 1)! + 1)*binomial(n, k) for 1 <= k <= n - 1, n >= 2.",
+  "id": "A168621",
+  "mentions": [
+    "A007318",
+    "A132047",
+    "A154252",
+    "A155863",
+    "A155864",
+    "A155865",
+    "A168619",
+    "A168620",
+    "A219570"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

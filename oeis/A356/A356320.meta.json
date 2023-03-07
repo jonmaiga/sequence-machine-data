@@ -1,0 +1,25 @@
+{
+  "description": "Length of the common prefix in binary expansions of n and A332221(n) = A156552(sigma(A005940(1+n))).",
+  "id": "A356320",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A070939",
+    "A156552",
+    "A324054",
+    "A332221",
+    "A332222",
+    "A347380",
+    "A356321"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

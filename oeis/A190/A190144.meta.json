@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (1/Product_{j=2..k} j'), where n' is the arithmetic derivative of n.",
+  "id": "A190144",
+  "mentions": [
+    "A003415",
+    "A190145",
+    "A190146",
+    "A190147"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

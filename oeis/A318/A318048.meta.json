@@ -1,0 +1,27 @@
+{
+  "description": "Size of the span of the unlabeled rooted tree with Matula-Goebel number n.",
+  "id": "A318048",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A007853",
+    "A049076",
+    "A061773",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A206491",
+    "A317713",
+    "A318046"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

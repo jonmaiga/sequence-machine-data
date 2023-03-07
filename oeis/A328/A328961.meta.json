@@ -1,0 +1,30 @@
+{
+  "description": "Positive integers n such that sigma_0(n) - 3 = (omega(n) - 1) * nu(n), where sigma_0 = A000005, nu = A001221, omega = A001222.",
+  "id": "A328961",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A113901",
+    "A124010",
+    "A307409",
+    "A320632",
+    "A328956",
+    "A328958",
+    "A328959",
+    "A328960",
+    "A328963",
+    "A328965"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

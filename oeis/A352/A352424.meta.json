@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that can be written as sums of squares of consecutive primes in two ways.",
+  "id": "A352424",
+  "mentions": [
+    "A001248",
+    "A340771"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

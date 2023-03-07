@@ -1,0 +1,17 @@
+{
+  "description": "Result of using the primes as coefficients in an infinite polynomial series in x and then expressing this series as (1+a(1)x)(1+a(2)x^2)(1+a(3)x^3)...",
+  "id": "A147557",
+  "mentions": [
+    "A147541"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

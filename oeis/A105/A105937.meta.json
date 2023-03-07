@@ -1,0 +1,30 @@
+{
+  "description": "Infinite square array read by antidiagonals: T(m, 0) = 1, T(m, 1) = m; T(m, k) = (m - k + 1) T(m+1, k-1) - (k-1) (m+1) T(m+2, k-2).",
+  "id": "A105937",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001477",
+    "A028552",
+    "A126934",
+    "A126935",
+    "A126958",
+    "A126962",
+    "A127067",
+    "A127068",
+    "A127070",
+    "A127080"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

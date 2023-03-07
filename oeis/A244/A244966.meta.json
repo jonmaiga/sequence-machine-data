@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the difference between the largest and the smallest part of the k-th partition in the list of colexicographically ordered partitions of n, with n>=1 and 1<=k<=p(n), where p(n) is the number of partitions of n.",
+  "id": "A244966",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A008805",
+    "A049820",
+    "A097364",
+    "A116686",
+    "A128508",
+    "A135010",
+    "A141285",
+    "A196931",
+    "A218567",
+    "A218573",
+    "A244967"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

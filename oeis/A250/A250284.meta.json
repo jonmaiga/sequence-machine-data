@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of [n] such that p(i) > p(i+1) iff i == 0 (mod 7).",
+  "id": "A250284",
+  "mentions": [
+    "A181937"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

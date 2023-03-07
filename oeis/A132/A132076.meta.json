@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(2)=2. a(n), for every positive integer n, is such that Product_{k=1..n} (Sum_{j=1..k} a(j)) = Sum_{k=1..n} Product_{j=1..k} a(j).",
+  "id": "A132076",
+  "mentions": [
+    "A002378",
+    "A051179"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

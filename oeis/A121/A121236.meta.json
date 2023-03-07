@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form A001228(n) + 1 and A001228(n) - 1 where A001228 = orders of sporadic simple groups.",
+  "id": "A121236",
+  "mentions": [
+    "A000040",
+    "A001228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

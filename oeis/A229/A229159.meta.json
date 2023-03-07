@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer areas of integer-sided triangles where at least one side is of length prime(n).",
+  "id": "A229159",
+  "mentions": [
+    "A226453"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

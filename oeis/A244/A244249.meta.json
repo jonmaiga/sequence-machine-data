@@ -1,0 +1,21 @@
+{
+  "description": "Table A(n,k) in which n-th row lists in increasing order all bases b to which p = prime(n) is a Wieferich prime (i.e., b^(p-1) is congruent to 1 mod p^2), read by antidiagonals.",
+  "id": "A244249",
+  "mentions": [
+    "A001220",
+    "A039678",
+    "A185103",
+    "A280721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

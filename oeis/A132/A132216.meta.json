@@ -1,0 +1,27 @@
+{
+  "description": "Primes that are sums of eighth powers of two distinct primes.",
+  "id": "A132216",
+  "mentions": [
+    "A000040",
+    "A001016",
+    "A050997",
+    "A120398",
+    "A122616",
+    "A130555",
+    "A130873",
+    "A132214",
+    "A132215"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

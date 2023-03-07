@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 1|p, 2|(p+1), 3|(p+2), 4|(p+3),...,(q-p)|(q-1), where q is the prime immediately after p.",
+  "id": "A141830",
+  "mentions": [
+    "A006880",
+    "A141829",
+    "A141831"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

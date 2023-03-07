@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the products n*(sum of the reciprocals of the Collatz (3x+1) sequence beginning at n) are integers.",
+  "id": "A225878",
+  "mentions": [
+    "A225761",
+    "A225784"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

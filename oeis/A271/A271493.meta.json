@@ -1,0 +1,18 @@
+{
+  "description": "Arises in enumeration of locally convex functions.",
+  "id": "A271493",
+  "mentions": [
+    "A271491",
+    "A271492"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

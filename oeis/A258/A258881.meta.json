@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n + the sum of the squared digits of n.",
+  "id": "A258881",
+  "mentions": [
+    "A003132",
+    "A033936",
+    "A062028",
+    "A076161",
+    "A259391",
+    "A259567",
+    "A329179"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^6 + (n-k)^6).",
+  "id": "A323544",
+  "mentions": [
+    "A000540",
+    "A259109",
+    "A323534",
+    "A323540",
+    "A323541",
+    "A323542",
+    "A323543",
+    "A323545",
+    "A323546"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

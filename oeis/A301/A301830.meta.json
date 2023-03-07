@@ -1,0 +1,30 @@
+{
+  "description": "Number of factorizations of n into factors (greater than 1) of two kinds.",
+  "id": "A301830",
+  "mentions": [
+    "A000712",
+    "A001055",
+    "A001222",
+    "A001405",
+    "A122768",
+    "A276024",
+    "A281113",
+    "A284640",
+    "A295632",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301829"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*A006068(n); main diagonal of A268714.",
+  "id": "A268716",
+  "mentions": [
+    "A001969",
+    "A006068",
+    "A268714",
+    "A268724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:23",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of subtrees with at least one edge of the rooted tree with Matula-Goebel number n.",
+  "id": "A257537",
+  "mentions": [
+    "A061775",
+    "A184161"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

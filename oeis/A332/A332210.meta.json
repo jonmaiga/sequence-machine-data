@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of primes, inverse of A332211.",
+  "id": "A332210",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668",
+    "A000720",
+    "A059305",
+    "A332211",
+    "A332213",
+    "A332215",
+    "A332220"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Square array T(n, k) of positive integers, n > 0, k > 0, read by antidiagonals, filled the greedy way, such that for any i >= 0 and j >= 0 with i + j > 0, no three terms T(n, k), T(n+i, k+j), T(n+2*i, k+2*j) form an arithmetic progression.",
+  "id": "A306717",
+  "mentions": [
+    "A229037"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

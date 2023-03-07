@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: T(n,k) (n >= 1, 1 <= k <= 2^n) is the number of cycles of length k which can be produced by a general n-stage feedback shift register.",
+  "id": "A344018",
+  "mentions": [
+    "A000010",
+    "A001037",
+    "A016031",
+    "A306522",
+    "A346018"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

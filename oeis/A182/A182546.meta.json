@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of | log_phi(i) |, where phi is the golden ratio and i is the imaginary unit.",
+  "id": "A182546",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A202543"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

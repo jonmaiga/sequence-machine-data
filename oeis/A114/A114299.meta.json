@@ -1,0 +1,21 @@
+{
+  "description": "First row of Modified Schroeder numbers for q=9 (A114295).",
+  "id": "A114299",
+  "mentions": [
+    "A112833",
+    "A112844",
+    "A114292",
+    "A114295",
+    "A114298"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

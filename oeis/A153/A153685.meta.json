@@ -1,0 +1,27 @@
+{
+  "description": "Minimal exponents m such that the fractional part of (11/10)^m obtains a minimum (when starting with m=1).",
+  "id": "A153685",
+  "mentions": [
+    "A081464",
+    "A137994",
+    "A153669",
+    "A153677",
+    "A153689",
+    "A153693",
+    "A153701",
+    "A153717",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

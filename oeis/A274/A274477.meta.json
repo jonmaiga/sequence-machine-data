@@ -1,0 +1,17 @@
+{
+  "description": "Column 0 of the matrix logarithm of triangular matrix A134049.",
+  "id": "A274477",
+  "mentions": [
+    "A134049"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

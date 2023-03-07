@@ -1,0 +1,33 @@
+{
+  "description": "Interleave the Gray-coded X and Y-coordinates of 2-dimensional Hilbert's curve in alternate bit-positions: a(n) = A000695(A003188(A059253(n))) + 2*A000695(A003188(A059252(n))).",
+  "id": "A302846",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A003188",
+    "A003987",
+    "A052330",
+    "A057300",
+    "A059252",
+    "A059253",
+    "A064706",
+    "A163252",
+    "A163356",
+    "A300838",
+    "A302781",
+    "A302844",
+    "A302845"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

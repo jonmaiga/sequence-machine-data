@@ -1,0 +1,23 @@
+{
+  "description": "EBCDIC codes for lower case letters.",
+  "id": "A298720",
+  "mentions": [
+    "A121378",
+    "A130765",
+    "A298728"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

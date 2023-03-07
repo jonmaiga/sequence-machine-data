@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} uphi(d).",
+  "id": "A333645",
+  "mentions": [
+    "A005117",
+    "A023900",
+    "A047994",
+    "A055653",
+    "A062949",
+    "A065464",
+    "A152649"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

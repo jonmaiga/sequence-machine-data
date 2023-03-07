@@ -1,0 +1,20 @@
+{
+  "description": "80000n^2 - 120800n + 45601.",
+  "id": "A157628",
+  "mentions": [
+    "A157626",
+    "A157627"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

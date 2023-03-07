@@ -1,0 +1,19 @@
+{
+  "description": "Number of correct decimal digits produced by the n-th iteration of the cubic Borwein-Borwein algorithm for computing 1/Pi.",
+  "id": "A276779",
+  "mentions": [
+    "A276778",
+    "A276780"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

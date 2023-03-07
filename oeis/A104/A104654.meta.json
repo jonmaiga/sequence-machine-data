@@ -1,0 +1,20 @@
+{
+  "description": "Leading entry in row n of triangle A101513.",
+  "id": "A104654",
+  "mentions": [
+    "A101513",
+    "A104655",
+    "A104656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Parent nodes of nonzero terms of A262509: a(n) = A049820(A262509(n)).",
+  "id": "A262510",
+  "mentions": [
+    "A049820",
+    "A259934",
+    "A262508",
+    "A262509",
+    "A262511",
+    "A262517"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

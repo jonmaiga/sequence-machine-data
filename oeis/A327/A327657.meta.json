@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors of n that are 1 or whose prime indices have a common divisor > 1.",
+  "id": "A327657",
+  "mentions": [
+    "A000005",
+    "A056239",
+    "A112798",
+    "A281116",
+    "A289509",
+    "A318978",
+    "A318979",
+    "A327406",
+    "A327656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "One half of numbers representable in at least two different ways as sums of four distinct nonvanishing squares. See A259058 for these numbers and their representations.",
+  "id": "A259059",
+  "mentions": [
+    "A259058"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:01",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree composite numbers n such that p^2 - 1 divides n^2 - 1 for every prime p dividing n.",
+  "id": "A287119",
+  "mentions": [
+    "A002997",
+    "A006972",
+    "A120944",
+    "A175530",
+    "A175531"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

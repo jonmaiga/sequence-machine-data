@@ -1,0 +1,28 @@
+{
+  "description": "Self-inverse permutation of natural numbers: replace (with multiplicity) each prime factor A000040(k) with A000040(min+(max-k)) in the prime factorization of n, where min = A055396(n) and max = A061395(n).",
+  "id": "A293448",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006530",
+    "A020639",
+    "A039956",
+    "A055396",
+    "A057889",
+    "A061395",
+    "A069799",
+    "A236510",
+    "A273258"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that n concatenated with k produces a cube.",
+  "id": "A245631",
+  "mentions": [
+    "A071176"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

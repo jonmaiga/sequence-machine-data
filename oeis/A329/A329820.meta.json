@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = [(w*x*y*z)^k] (-1 + (1 + w + 1/w)*(1 + x + 1/x)*(1 + y + 1/y)*(1 + z + 1/z))^n for -n <= k <= n.",
+  "id": "A329820",
+  "mentions": [
+    "A260492",
+    "A328875",
+    "A329816",
+    "A329819"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

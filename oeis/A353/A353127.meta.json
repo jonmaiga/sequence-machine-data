@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi^2/4 - log(2).",
+  "id": "A353127",
+  "mentions": [
+    "A002162",
+    "A091476"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

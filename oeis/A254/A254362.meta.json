@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*2^n + 3^n + 6.",
+  "id": "A254362",
+  "mentions": [
+    "A062709",
+    "A087719",
+    "A254363",
+    "A254364"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For n >= 2, if there exists an m < n such that a(m) = a(n), take the largest such m and set a(n+1) = (n-m+1)*a(n); otherwise a(n+1) = 1. Start with a(1)=1 and a(2)=0.",
+  "id": "A350562",
+  "mentions": [
+    "A181391",
+    "A350228"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

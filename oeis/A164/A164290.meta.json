@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of twin prime p where the middle term p+1 has 6 prime factors (here p+2 is the associated twin prime, not listed).",
+  "id": "A164290",
+  "mentions": [
+    "A060213",
+    "A102168",
+    "A164289",
+    "A164291"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

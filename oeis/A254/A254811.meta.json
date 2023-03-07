@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to put n red, n blue, and n green balls into n indistinguishable boxes.",
+  "id": "A254811",
+  "mentions": [
+    "A254686",
+    "A256384"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

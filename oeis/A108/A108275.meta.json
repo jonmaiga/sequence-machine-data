@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers <= 10^n that are divisible by no prime exceeding 17.",
+  "id": "A108275",
+  "mentions": [
+    "A011557",
+    "A080681",
+    "A253635"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

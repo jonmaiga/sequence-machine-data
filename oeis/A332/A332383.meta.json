@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the X-coordinate of the n-th point of the dragon curve. Sequence A332384 gives Y-coordinates.",
+  "id": "A332383",
+  "mentions": [
+    "A014577",
+    "A332251",
+    "A332384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

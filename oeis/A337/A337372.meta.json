@@ -1,0 +1,30 @@
+{
+  "description": "Primitive terms of A246282: Numbers that are included in that sequence, but none of whose proper divisors are.",
+  "id": "A337372",
+  "mentions": [
+    "A003961",
+    "A005101",
+    "A091191",
+    "A246281",
+    "A246282",
+    "A252742",
+    "A263837",
+    "A326134",
+    "A337345",
+    "A337346",
+    "A341609",
+    "A341610",
+    "A341614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of 9th Stieltjes constant, negated.",
+  "id": "A184853",
+  "mentions": [
+    "A001620",
+    "A082633",
+    "A086279",
+    "A086280",
+    "A086281",
+    "A086282",
+    "A183141",
+    "A183167",
+    "A183206",
+    "A184854"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

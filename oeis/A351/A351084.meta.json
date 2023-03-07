@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(n, A328572(n)), where A328572 converts the primorial base expansion of n into its prime product form, but with 1 subtracted from all nonzero digits.",
+  "id": "A351084",
+  "mentions": [
+    "A003415",
+    "A085731",
+    "A276086",
+    "A324198",
+    "A327860",
+    "A328572",
+    "A351080",
+    "A351083"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

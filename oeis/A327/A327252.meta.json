@@ -1,0 +1,20 @@
+{
+  "description": "Balanced reversed ternary: Write n as ternary, reverse the order of the digits, then replace all 2's with (-1)'s.",
+  "id": "A327252",
+  "mentions": [
+    "A117966",
+    "A134028"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

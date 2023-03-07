@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'lambda', a constant such that exp(lambda*Pi) is the best-known upper bound (as given by Julian Gevirtz) of the John constant for the unit disk.",
+  "id": "A244381",
+  "mentions": [
+    "A244382"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

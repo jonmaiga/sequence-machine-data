@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 2*p-27, 2*p+27, 2*p-33 and 2*p+33 are primes or -1 times primes.",
+  "id": "A103807",
+  "mentions": [
+    "A103805",
+    "A103806"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

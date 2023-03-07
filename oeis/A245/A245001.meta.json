@@ -1,0 +1,18 @@
+{
+  "description": "Number of standard Young tableaux with n cells and 3 as last value in the first row.",
+  "id": "A245001",
+  "mentions": [
+    "A238794"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 3,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

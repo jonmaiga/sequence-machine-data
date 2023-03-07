@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of 2 successive nonprimes A141468.",
+  "id": "A166037",
+  "mentions": [
+    "A001043",
+    "A002808",
+    "A018252",
+    "A141468",
+    "A167915"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

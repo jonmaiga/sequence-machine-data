@@ -1,0 +1,22 @@
+{
+  "description": "Twice the Thue-Morse constant (A014571).",
+  "id": "A321071",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A010060",
+    "A014571"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

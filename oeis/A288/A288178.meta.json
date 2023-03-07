@@ -1,0 +1,18 @@
+{
+  "description": "Sizes of largest chamber in an n X n lattice complex. Diagonal of table given in A288177.",
+  "id": "A288178",
+  "mentions": [
+    "A288177"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

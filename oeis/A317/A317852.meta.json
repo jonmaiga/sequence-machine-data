@@ -1,0 +1,28 @@
+{
+  "description": "Number of plane trees with n nodes where the sequence of branches directly under any given node is aperiodic, meaning its cyclic permutations are all different.",
+  "id": "A317852",
+  "mentions": [
+    "A000108",
+    "A000837",
+    "A007853",
+    "A032171",
+    "A032200",
+    "A254040",
+    "A301700",
+    "A303386",
+    "A303431",
+    "A304173",
+    "A304175",
+    "A317708"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

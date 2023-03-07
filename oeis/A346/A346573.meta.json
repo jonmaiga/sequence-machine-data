@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2 - Pi/3.",
+  "id": "A346573",
+  "mentions": [
+    "A019670",
+    "A346570",
+    "A346571",
+    "A346572"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:53:09",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

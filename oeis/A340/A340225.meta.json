@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2*p+q and 2*p+r are prime, where q and r are the next two primes after p.",
+  "id": "A340225",
+  "mentions": [
+    "A340210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

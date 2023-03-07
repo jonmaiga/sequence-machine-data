@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer such that a(1)+...a(n) divides 123...n (=A007908(n))",
+  "id": "A165771",
+  "mentions": [
+    "A007908",
+    "A151995",
+    "A165770",
+    "A166064"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

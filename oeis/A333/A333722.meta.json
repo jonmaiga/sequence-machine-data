@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest permutation of the positive integers such that a(n), a(n+1) and the product a(n)*a(n+1) have in common at least one identical substring.",
+  "id": "A333722",
+  "mentions": [
+    "A262323",
+    "A333723",
+    "A333724"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

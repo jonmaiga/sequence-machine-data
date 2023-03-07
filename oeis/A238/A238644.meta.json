@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary words on {H,T} that end in THTH but do not contain the contiguous subsequence HTHH.",
+  "id": "A238644",
+  "mentions": [
+    "A171861"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:21:45",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

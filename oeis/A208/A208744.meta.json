@@ -1,0 +1,22 @@
+{
+  "description": "Triangle relating to ordered Bell numbers, A000670.",
+  "id": "A208744",
+  "mentions": [
+    "A000670",
+    "A052882",
+    "A074909",
+    "A154921"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

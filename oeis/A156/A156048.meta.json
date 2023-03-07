@@ -1,0 +1,18 @@
+{
+  "description": "Odd prime numbers p with the property that (2^p + p^2) == 0 (mod (p+2)).",
+  "id": "A156048",
+  "mentions": [
+    "A114977",
+    "A156038"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

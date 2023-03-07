@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest sequence such that for all i, j, a(i) = a(j) => f(i) = f(j), where f(n) = [A322867(n), A323174(n)] for n > 1, and f(1) = 0.",
+  "id": "A323168",
+  "mentions": [
+    "A000203",
+    "A005187",
+    "A064989",
+    "A122111",
+    "A294898",
+    "A318310",
+    "A322867",
+    "A323167",
+    "A323173",
+    "A323174",
+    "A323240"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

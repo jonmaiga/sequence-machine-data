@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k > 10 such that every permutation of the digits of k is congruent to 3 (mod 4).",
+  "id": "A343823",
+  "mentions": [
+    "A143967",
+    "A284632",
+    "A343810"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 11,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Determinant of the circulant matrix whose first column corresponds to the binary digits of n.",
+  "id": "A306595",
+  "mentions": [
+    "A000120",
+    "A065359",
+    "A070939",
+    "A121016",
+    "A177894",
+    "A219325",
+    "A306714"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

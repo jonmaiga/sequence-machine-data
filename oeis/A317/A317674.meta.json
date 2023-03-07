@@ -1,0 +1,32 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of antichains covering n vertices with k connected components.",
+  "id": "A317674",
+  "mentions": [
+    "A000272",
+    "A001187",
+    "A006126",
+    "A013922",
+    "A030019",
+    "A048143",
+    "A134954",
+    "A143543",
+    "A275307",
+    "A293510",
+    "A317634",
+    "A317635",
+    "A317671",
+    "A317672",
+    "A317677"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

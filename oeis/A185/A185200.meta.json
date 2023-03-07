@@ -1,0 +1,22 @@
+{
+  "description": "Square array O(k,g) containing the least nontrivial order of disconnected k-regular simple graphs with girth at least g.",
+  "id": "A185200",
+  "mentions": [
+    "A054760",
+    "A185204",
+    "A185207"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

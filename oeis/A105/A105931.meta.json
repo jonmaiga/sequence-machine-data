@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1 then a(n) = a(n-1) - (-1)^ceiling(n/2)*a(floor(n/2)).",
+  "id": "A105931",
+  "mentions": [
+    "A003159",
+    "A056832"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of spanning trees in the graph P_6 x P_n.",
+  "id": "A139400",
+  "mentions": [
+    "A001353",
+    "A001906",
+    "A004254",
+    "A116469",
+    "A159764",
+    "A161498",
+    "A210724"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "(prime(n)^5 - prime(n))/30.",
+  "id": "A138430",
+  "mentions": [
+    "A138404"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:05",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of monocyclic skeletons with a ring size of n. See the paper by Hendrickson and Parks for details.",
+  "id": "A125064",
+  "mentions": [
+    "A000602",
+    "A036671",
+    "A112408",
+    "A112410",
+    "A112424",
+    "A112425",
+    "A112426",
+    "A112619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 16,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

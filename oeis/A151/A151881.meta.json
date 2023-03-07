@@ -1,0 +1,19 @@
+{
+  "description": "Sum (number of cycles)^2 over all n! permutations of [1..n].",
+  "id": "A151881",
+  "mentions": [
+    "A000254",
+    "A151882"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

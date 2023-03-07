@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of expansion of \"leading root\" xi_0(y) of the partial theta function Sum_{n=0..oo} x^n y^{n(n-1)/2}.",
+  "id": "A195980",
+  "mentions": [
+    "A195981",
+    "A195982",
+    "A205999",
+    "A206000"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

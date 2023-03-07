@@ -1,0 +1,21 @@
+{
+  "description": "Number of Ferrers diagrams with a single Ferrers puncture with the same orientation inscribed strictly inside with half-perimeter = n.",
+  "id": "A133106",
+  "mentions": [
+    "A057406",
+    "A057410",
+    "A133107"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 8,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

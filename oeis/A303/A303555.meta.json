@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2^(n-k)*prime(k)#, 1 <= k <= n, where prime(k)# is the product of first k primes.",
+  "id": "A303555",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A005179",
+    "A038547",
+    "A055079",
+    "A070175",
+    "A189982",
+    "A303557"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Zero-one sequence based on the sequence floor(n*sqrt(2)): a(A001951(k))=a(k); a(A001952(k))=1-a(k); a(1)=0, a(2)=1.",
+  "id": "A189081",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A188967",
+    "A189078",
+    "A189082",
+    "A189083"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:11",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

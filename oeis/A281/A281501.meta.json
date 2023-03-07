@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n^3 into distinct parts.",
+  "id": "A281501",
+  "mentions": [
+    "A000009",
+    "A000578",
+    "A072213",
+    "A072243",
+    "A128854"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

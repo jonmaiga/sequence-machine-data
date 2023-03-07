@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime q such that 9^n + q*3^n - 1 is prime.",
+  "id": "A214730",
+  "mentions": [
+    "A214700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

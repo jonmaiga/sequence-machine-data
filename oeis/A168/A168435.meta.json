@@ -1,0 +1,18 @@
+{
+  "description": "A029743 listed in decreasing order starting from the largest.",
+  "id": "A168435",
+  "mentions": [
+    "A029743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

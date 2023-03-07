@@ -1,0 +1,28 @@
+{
+  "description": "Rectangular array read by antidiagonals, with entry k in row n given by T(n,k) = 2^{k-1}*Sum_{j=1..n} (cos((2*j-1)*Pi/(2*n+1)))^{k-1}.",
+  "id": "A209235",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000984",
+    "A094649",
+    "A108299",
+    "A122765",
+    "A185095",
+    "A186740",
+    "A189234",
+    "A216605"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

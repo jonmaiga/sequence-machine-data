@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A343016.",
+  "id": "A343021",
+  "mentions": [
+    "A343016"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

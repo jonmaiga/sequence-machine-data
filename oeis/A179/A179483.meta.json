@@ -1,0 +1,19 @@
+{
+  "description": "A(k,3) where A(k,n) = Sum_{m=1..k} (-1)^(m+1) *binomial(n,m)*m^k.",
+  "id": "A179483",
+  "mentions": [
+    "A001117"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

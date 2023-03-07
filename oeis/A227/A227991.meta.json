@@ -1,0 +1,20 @@
+{
+  "description": "Highest power of 3 dividing prime(n)+1.",
+  "id": "A227991",
+  "mentions": [
+    "A068503",
+    "A068504",
+    "A227990"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:01",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

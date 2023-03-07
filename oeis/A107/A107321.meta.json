@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=Sum(i+j+k+l+...+r+s=n) A005316(i)*A005316(j)*...*A005316(s) and the ordered partition of n runs over all odd i, all even j,k,.., r, all i,j,...,r,s>=1.",
+  "id": "A107321",
+  "mentions": [
+    "A005316",
+    "A076876"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

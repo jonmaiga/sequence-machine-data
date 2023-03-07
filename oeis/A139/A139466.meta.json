@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime factor of n! + 2n - 1.",
+  "id": "A139466",
+  "mentions": [
+    "A020639",
+    "A127986",
+    "A127987",
+    "A139023",
+    "A139024",
+    "A139464",
+    "A139465",
+    "A139467"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

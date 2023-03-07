@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest d(k) such that sigma(k) = n, where d is the number of divisor function and sigma is the sum of divisors function.",
+  "id": "A341879",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A054973",
+    "A057637",
+    "A085790",
+    "A299762"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

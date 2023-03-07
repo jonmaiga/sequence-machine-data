@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple (not necessarily connected) graphs on n vertices whose fractional chromatic number equals its (integer) chromatic number.",
+  "id": "A287007",
+  "mentions": [
+    "A198634",
+    "A243252",
+    "A287008"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

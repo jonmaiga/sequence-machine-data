@@ -1,0 +1,22 @@
+{
+  "description": "Concatenated digits of pyramidalized numbers: Write the decimal digits of n (a nonnegative integer) and take successive absolute differences (\"pyramidalization\"), then concatenate, from left to right, all the digits in each level of the pyramid, and finally concatenate those results for all levels, from the base up. The result is a(n).",
+  "id": "A240237",
+  "mentions": [
+    "A000217",
+    "A007908",
+    "A227876"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the length of third shortest diagonal in a regular 12-gon with unit edge length.",
+  "id": "A337402",
+  "mentions": [
+    "A019973",
+    "A090388",
+    "A145439",
+    "A188887",
+    "A214726",
+    "A337301"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:40:47",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

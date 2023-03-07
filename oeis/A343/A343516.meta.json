@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) = Sum_{1 <= x_1 <= x_2 <= ... <= x_k <= n} gcd(x_1, x_2, ... , x_k, n).",
+  "id": "A343516",
+  "mentions": [
+    "A018804",
+    "A309322",
+    "A309323",
+    "A343510",
+    "A343517",
+    "A343518",
+    "A343519",
+    "A343520",
+    "A343521",
+    "A343553"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

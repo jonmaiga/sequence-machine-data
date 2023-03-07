@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected functions from {1,2,...,n} into a subset of {1,2,...,n} that have a fixed point summed over all subsets.",
+  "id": "A216857",
+  "mentions": [
+    "A000169",
+    "A000248",
+    "A038049",
+    "A048802",
+    "A072034"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

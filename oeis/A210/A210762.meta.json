@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row n lists the positive integers smaller than the currently largest number in Recamán's sequence A005132 after the n-th stage, but not yet present in Recamán's sequence.",
+  "id": "A210762",
+  "mentions": [
+    "A005132",
+    "A210606",
+    "A210612",
+    "A210613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

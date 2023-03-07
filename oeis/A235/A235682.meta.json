@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 2 such that p = phi(k) + phi(m)/2 + 1, prime(p) - p + 1 and p*(p+1) - prime(p) are all prime, where phi(.) is Euler's totient function.",
+  "id": "A235682",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A232353",
+    "A234694",
+    "A234695",
+    "A235189",
+    "A235330",
+    "A235613",
+    "A235614",
+    "A235661",
+    "A235681"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "First differences of the rows in the triangle of A116853, starting with 0.",
+  "id": "A116854",
+  "mentions": [
+    "A000142",
+    "A000255",
+    "A033815",
+    "A047920",
+    "A055790",
+    "A068106",
+    "A116853",
+    "A277563",
+    "A277609",
+    "A280425"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

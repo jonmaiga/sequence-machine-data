@@ -1,0 +1,24 @@
+{
+  "description": "Let S be the set of numbers defined by these rules: 0 is in S; if x is in S, then x+1 is in S, and if nonzero x is in S, then -1/x are in S. (See Comments.)",
+  "id": "A226247",
+  "mentions": [
+    "A097333",
+    "A226080",
+    "A226130",
+    "A226248",
+    "A226249",
+    "A226250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

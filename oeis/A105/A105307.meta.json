@@ -1,0 +1,17 @@
+{
+  "description": "Base-2 logarithm of the number of divisors of Fibonacci(n) if that number is a power of 2, otherwise -1.",
+  "id": "A105307",
+  "mentions": [
+    "A081979"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

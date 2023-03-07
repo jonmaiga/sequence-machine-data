@@ -1,0 +1,18 @@
+{
+  "description": "Greatest number of edges in a simple polygon on an n X n grid with no two edges parallel or perpendicular.",
+  "id": "A271449",
+  "mentions": [
+    "A255981"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

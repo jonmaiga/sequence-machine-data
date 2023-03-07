@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as a*(a+1)/2 + b*(b+1)/2 + 2^c*5^d, where a,b,c,d are nonnegative integers with a <= b and d <= 1.",
+  "id": "A308597",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A303233",
+    "A308566",
+    "A308584"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

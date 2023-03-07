@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of partial sums of A005329/A006125.",
+  "id": "A114604",
+  "mentions": [
+    "A005329",
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

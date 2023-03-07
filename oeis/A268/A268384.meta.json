@@ -1,0 +1,24 @@
+{
+  "description": "Characteristic function of A001317.",
+  "id": "A268384",
+  "mentions": [
+    "A000215",
+    "A001317",
+    "A006068",
+    "A193231",
+    "A209229",
+    "A268389",
+    "A268391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:49",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

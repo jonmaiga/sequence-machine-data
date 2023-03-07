@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 4u+3 with an even number of prime factors (counted with multiplicity).",
+  "id": "A359163",
+  "mentions": [
+    "A004767",
+    "A028260",
+    "A046337",
+    "A080774",
+    "A359153",
+    "A359161",
+    "A359162"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

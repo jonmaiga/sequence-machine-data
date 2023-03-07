@@ -1,0 +1,30 @@
+{
+  "description": "Heinz number of the partial sums plus one of the reversed first differences of the prime indices of n.",
+  "id": "A358195",
+  "mentions": [
+    "A001222",
+    "A005940",
+    "A019565",
+    "A048793",
+    "A056239",
+    "A112798",
+    "A161511",
+    "A241916",
+    "A246277",
+    "A253565",
+    "A326844",
+    "A358137",
+    "A358170"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = denominator of binomial(n-1, n-k)/k!, 1 <= k <= n.",
+  "id": "A322128",
+  "mentions": [
+    "A007318",
+    "A322093",
+    "A322127"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

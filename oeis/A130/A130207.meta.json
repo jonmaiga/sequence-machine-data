@@ -1,0 +1,22 @@
+{
+  "description": "Diagonalized matrix of A000010.",
+  "id": "A130207",
+  "mentions": [
+    "A000010",
+    "A130208",
+    "A130209"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:03",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is greatest positive integer <= n that have a partition into k consecutive parts, 1 <= k <= A003056(n), n >= 1.",
+  "id": "A329255",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A196020",
+    "A204217",
+    "A211343",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A285891",
+    "A285900",
+    "A285914",
+    "A286000",
+    "A286001",
+    "A286013",
+    "A299765",
+    "A328361",
+    "A328365",
+    "A328371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

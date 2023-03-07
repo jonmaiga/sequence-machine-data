@@ -1,0 +1,19 @@
+{
+  "description": "Alphabetically first list of self-describing statements about the letter-type content of the list itself in the French language.",
+  "id": "A271643",
+  "mentions": [
+    "A271642"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

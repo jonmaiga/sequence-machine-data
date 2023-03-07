@@ -1,0 +1,25 @@
+{
+  "description": "Record indices of A135727(n)/n = max{ A001281^k(n);k=0,1,2,3... }/n (3x-1 problem).",
+  "id": "A135729",
+  "mentions": [
+    "A001281",
+    "A006370",
+    "A006577",
+    "A037084",
+    "A039500",
+    "A039505",
+    "A135727",
+    "A135728",
+    "A135730"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

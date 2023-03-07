@@ -1,0 +1,18 @@
+{
+  "description": "1/12 the number of (n+1) X 2 0..5 arrays with every 2 X 2 subblock strictly increasing clockwise or counterclockwise with one decrease, and at least two adjacent blocks having the same increasing direction.",
+  "id": "A183721",
+  "mentions": [
+    "A183729"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

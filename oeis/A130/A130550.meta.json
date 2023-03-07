@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of partial sums for a series for 2*Zeta(2)/3 = (Pi^2)/9.",
+  "id": "A130550",
+  "mentions": [
+    "A112099",
+    "A112100",
+    "A112102",
+    "A112103",
+    "A130549",
+    "A130551"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

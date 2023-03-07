@@ -1,0 +1,29 @@
+{
+  "description": "Number of times when an odd number is encountered, when going from 2^(n+1)-1 to (2^n)-1 using the iterative process described in A071542.",
+  "id": "A218543",
+  "mentions": [
+    "A000120",
+    "A004198",
+    "A071542",
+    "A179016",
+    "A213709",
+    "A213729",
+    "A213733",
+    "A218542",
+    "A218600",
+    "A218787",
+    "A218789",
+    "A219663"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

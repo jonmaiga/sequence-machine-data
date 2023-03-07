@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers n such that all digits of n occur in its list of primes.",
+  "id": "A192180",
+  "mentions": [
+    "A037276"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

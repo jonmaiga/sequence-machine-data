@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A161671.",
+  "id": "A163116",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A051349",
+    "A141468",
+    "A161671"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:25",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

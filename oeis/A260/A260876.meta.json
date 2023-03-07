@@ -1,0 +1,47 @@
+{
+  "description": "Number of m-shape set partitions, square array read by ascending antidiagonals, A(m, n) for m, n >= 0.",
+  "id": "A260876",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000110",
+    "A000587",
+    "A001147",
+    "A005046",
+    "A008284",
+    "A025035",
+    "A025036",
+    "A036040",
+    "A048993",
+    "A080575",
+    "A081362",
+    "A156289",
+    "A257490",
+    "A260875",
+    "A260878",
+    "A260883",
+    "A260884",
+    "A291451",
+    "A291452",
+    "A291973",
+    "A291974",
+    "A291975",
+    "A291976",
+    "A309725",
+    "A326996",
+    "A327003",
+    "A327004"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

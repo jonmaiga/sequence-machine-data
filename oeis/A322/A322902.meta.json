@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose prime indices are all proper powers of the same number.",
+  "id": "A322902",
+  "mentions": [
+    "A000079",
+    "A001597",
+    "A018819",
+    "A023893",
+    "A023894",
+    "A052410",
+    "A056239",
+    "A072720",
+    "A072721",
+    "A302242",
+    "A302593",
+    "A322900",
+    "A322901",
+    "A322903"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

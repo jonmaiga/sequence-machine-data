@@ -1,0 +1,22 @@
+{
+  "description": "Number of successive odd noncomposite numbers A006005 and number of successive odd composite numbers A071904, interleaved.",
+  "id": "A256252",
+  "mentions": [
+    "A005408",
+    "A006005",
+    "A071904",
+    "A256253",
+    "A256262"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

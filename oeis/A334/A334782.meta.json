@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} lcm(d, tau(d)).",
+  "id": "A334782",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A009230",
+    "A065091",
+    "A322979",
+    "A334783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

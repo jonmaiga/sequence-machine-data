@@ -1,0 +1,28 @@
+{
+  "description": "Number of locally disjoint rooted identity trees with n nodes, meaning no branch overlaps any other branch of the same root.",
+  "id": "A316471",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A276625",
+    "A277098",
+    "A302696",
+    "A303362",
+    "A304713",
+    "A316467",
+    "A316473",
+    "A316474",
+    "A316494"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

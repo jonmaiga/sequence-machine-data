@@ -1,0 +1,24 @@
+{
+  "description": "Concentric 23-gonal numbers.",
+  "id": "A195058",
+  "mentions": [
+    "A032527",
+    "A032528",
+    "A195040",
+    "A195049",
+    "A195149",
+    "A195158"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:21",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

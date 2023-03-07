@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{i=1..n} A082993(n+1).",
+  "id": "A340505",
+  "mentions": [
+    "A082993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

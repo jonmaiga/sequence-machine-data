@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + 21 n + 168 n^2 + 588 n^3 + 1029 n^4.",
+  "id": "A134155",
+  "mentions": [
+    "A119617",
+    "A134153",
+    "A134154",
+    "A134158"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

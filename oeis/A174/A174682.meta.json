@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers which cannot be represented as half-sums (averages) of two primes with prime subscripts.",
+  "id": "A174682",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A174681"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

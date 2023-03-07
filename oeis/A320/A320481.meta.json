@@ -1,0 +1,22 @@
+{
+  "description": "Primes in A301916 but not in A045318.",
+  "id": "A320481",
+  "mentions": [
+    "A006519",
+    "A045317",
+    "A045318",
+    "A062117",
+    "A301916",
+    "A301917"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

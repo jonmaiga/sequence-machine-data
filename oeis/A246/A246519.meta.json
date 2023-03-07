@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 4+p, 4+p^2, 4+p^3 and 4+p^5 are all prime.",
+  "id": "A246519",
+  "mentions": [
+    "A007591",
+    "A073573",
+    "A125260",
+    "A172367",
+    "A246562",
+    "A253937"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

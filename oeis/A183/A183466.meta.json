@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays with every element equal to either the sum mod 2 of its vertical neighbors or the sum mod 2 of its horizontal neighbors",
+  "id": "A183466",
+  "mentions": [
+    "A183474"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

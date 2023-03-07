@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*prime(2n) - prime(n).",
+  "id": "A272042",
+  "mentions": [
+    "A031215",
+    "A072473"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

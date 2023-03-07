@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that a+n and a*n+1 are prime, case a=5.",
+  "id": "A120227",
+  "mentions": [
+    "A085063",
+    "A092945",
+    "A106057",
+    "A120223",
+    "A120224",
+    "A120225",
+    "A120226"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

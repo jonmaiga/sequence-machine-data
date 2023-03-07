@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci-like numbers without positive multiples of 4: a(0) = 0, a(1) = 1, for n>=2, a(n) = a(n-1) + a(n-2) divided by maximal possible power of 4.",
+  "id": "A224382",
+  "mentions": [
+    "A000045",
+    "A078414",
+    "A214094",
+    "A214156",
+    "A216231",
+    "A216275",
+    "A216835"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

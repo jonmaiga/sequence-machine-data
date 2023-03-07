@@ -1,0 +1,21 @@
+{
+  "description": "Number of times the largest prime power factor of n (A034699) is largest prime power factor for numbers <= n; a(1) = 1.",
+  "id": "A303759",
+  "mentions": [
+    "A000961",
+    "A034699",
+    "A078899",
+    "A284600",
+    "A302789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

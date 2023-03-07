@@ -1,0 +1,20 @@
+{
+  "description": "Number of collapsible integer partitions of n.",
+  "id": "A275870",
+  "mentions": [
+    "A002577",
+    "A018818",
+    "A145515"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

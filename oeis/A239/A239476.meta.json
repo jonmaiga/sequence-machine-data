@@ -1,0 +1,18 @@
+{
+  "description": "Number of values of k such that 2^k + (6n+3) and (6n+3)*2^k - 1 are both prime, k < 6n+3.",
+  "id": "A239476",
+  "mentions": [
+    "A016945",
+    "A047263"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

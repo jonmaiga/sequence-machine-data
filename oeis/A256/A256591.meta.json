@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Xi''(1/2) = 0.02297..., the second derivative of the Riemann Xi function at 1/2.",
+  "id": "A256591",
+  "mentions": [
+    "A020777",
+    "A059750",
+    "A068466",
+    "A114720",
+    "A114875",
+    "A252244"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

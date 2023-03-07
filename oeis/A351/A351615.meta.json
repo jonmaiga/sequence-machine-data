@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyominoes with n squares, having 180-degree rotational symmetry about the center of a square, and no other symmetry.",
+  "id": "A351615",
+  "mentions": [
+    "A006747",
+    "A234008",
+    "A351616"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

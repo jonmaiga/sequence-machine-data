@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A252753(A003188(n)).",
+  "id": "A286555",
+  "mentions": [
+    "A003188",
+    "A046523",
+    "A252753",
+    "A286556",
+    "A286557"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

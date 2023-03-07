@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..4 arrays with some element plus some horizontally or vertically adjacent neighbor totalling four exactly once.",
+  "id": "A270051",
+  "mentions": [
+    "A270058"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

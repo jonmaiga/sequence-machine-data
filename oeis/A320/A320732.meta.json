@@ -1,0 +1,25 @@
+{
+  "description": "Number of factorizations of n into primes or semiprimes.",
+  "id": "A320732",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A001358",
+    "A007716",
+    "A007717",
+    "A037143",
+    "A045778",
+    "A320655",
+    "A320663"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

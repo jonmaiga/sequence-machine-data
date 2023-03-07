@@ -1,0 +1,20 @@
+{
+  "description": "The minimum perimeter for exactly n matchstick squares of size >= 1.",
+  "id": "A331208",
+  "mentions": [
+    "A027709",
+    "A078633",
+    "A331207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

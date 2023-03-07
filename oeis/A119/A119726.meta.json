@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows: T(n,1) = T(n,n) = 1, T(n,k) = 4*T(n-1, k-1) + 2*T(n-1, k).",
+  "id": "A119726",
+  "mentions": [
+    "A007318",
+    "A020989",
+    "A048483",
+    "A048487",
+    "A119725",
+    "A119727",
+    "A123208"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

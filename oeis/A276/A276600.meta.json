@@ -1,0 +1,30 @@
+{
+  "description": "Values of m such that m^2 + 6 is a triangular number (A000217).",
+  "id": "A276600",
+  "mentions": [
+    "A000217",
+    "A001109",
+    "A077241",
+    "A106328",
+    "A106525",
+    "A230044",
+    "A275794",
+    "A275796",
+    "A276598",
+    "A276599",
+    "A276601",
+    "A276602"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

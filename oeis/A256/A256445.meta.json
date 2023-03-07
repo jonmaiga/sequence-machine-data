@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n gives a largest partition of n with maximal order (see Comments for precise definition).",
+  "id": "A256445",
+  "mentions": [
+    "A000793",
+    "A074064",
+    "A256443"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

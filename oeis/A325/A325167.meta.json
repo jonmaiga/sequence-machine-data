@@ -1,0 +1,27 @@
+{
+  "description": "Heinz number of the internal portion of the integer partition with Heinz number n.",
+  "id": "A325167",
+  "mentions": [
+    "A052126",
+    "A056239",
+    "A064989",
+    "A065770",
+    "A093641",
+    "A112798",
+    "A257990",
+    "A297113",
+    "A325133",
+    "A325166",
+    "A325169"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

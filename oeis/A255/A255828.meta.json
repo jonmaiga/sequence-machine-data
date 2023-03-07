@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n for n < 8; a(8n) = a(n); if every 8th term (a(8), a(16), a(24),...) is deleted, this gives back the original sequence.",
+  "id": "A255828",
+  "mentions": [
+    "A117943",
+    "A126616",
+    "A255824",
+    "A255829"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:05",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

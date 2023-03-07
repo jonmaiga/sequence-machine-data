@@ -1,0 +1,17 @@
+{
+  "description": "Primes p = prime(n) such that there is k>0 for which prime(n+k) = prime(n) + 4^(k-1).",
+  "id": "A182217",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

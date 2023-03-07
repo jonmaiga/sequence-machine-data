@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of 7^n into powers of 7, also equals the row sums of triangle A111830, which shifts columns left and up under matrix 7th power.",
+  "id": "A111832",
+  "mentions": [
+    "A002577",
+    "A078125",
+    "A078537",
+    "A111822",
+    "A111827",
+    "A111830",
+    "A111837",
+    "A145515"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

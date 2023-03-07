@@ -1,0 +1,19 @@
+{
+  "description": "Records in A096335 (positions).",
+  "id": "A221182",
+  "mentions": [
+    "A064491",
+    "A096335",
+    "A221181"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

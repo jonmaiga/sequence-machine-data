@@ -1,0 +1,24 @@
+{
+  "description": "Exponential harmonic numbers of type 1 (A348961) that are not squarefree.",
+  "id": "A348962",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A049419",
+    "A051377",
+    "A054979",
+    "A054980",
+    "A348961",
+    "A348965"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

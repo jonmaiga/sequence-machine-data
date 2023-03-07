@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} (k^n - n^k).",
+  "id": "A264748",
+  "mentions": [
+    "A031971",
+    "A031972"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

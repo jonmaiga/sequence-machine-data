@@ -1,0 +1,41 @@
+{
+  "description": "Height after n-th step of the infinite Dyck path in which the k-th ascending line segment has A141285(k) steps and the k-th descending line segment has A194446(k) steps, n >= 0, k >= 1.",
+  "id": "A228110",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000041",
+    "A006128",
+    "A007395",
+    "A135010",
+    "A138137",
+    "A139582",
+    "A141285",
+    "A182699",
+    "A182709",
+    "A186412",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A207779",
+    "A211009",
+    "A211978",
+    "A211992",
+    "A220517",
+    "A225600",
+    "A225610",
+    "A229946"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

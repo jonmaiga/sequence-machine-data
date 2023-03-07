@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0, a(n+1) = (a(n) XOR floor(a(n)/4)) + 1, where XOR is the bitwise exclusive-or operator.",
+  "id": "A182417",
+  "mentions": [
+    "A182310"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

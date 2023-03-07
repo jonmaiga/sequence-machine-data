@@ -1,0 +1,19 @@
+{
+  "description": "Maximal possible number of states in a minimal deterministic automaton, equivalent to an n-state nondeterministic automaton over 1-symbol alphabet.",
+  "id": "A157656",
+  "mentions": [
+    "A059100"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

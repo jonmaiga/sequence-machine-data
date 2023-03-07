@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array S(m,n), 1<=n<=m, giving the total number of tossed cards in the card game described in A161135.",
+  "id": "A161136",
+  "mentions": [
+    "A161135"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

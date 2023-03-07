@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of length n sortable by a pop stack followed by a queue and then by a stack.",
+  "id": "A214611",
+  "mentions": [
+    "A033321"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

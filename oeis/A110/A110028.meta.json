@@ -1,0 +1,19 @@
+{
+  "description": "Primes with a prime number of digits, all of them prime, that add up to a prime.",
+  "id": "A110028",
+  "mentions": [
+    "A000040",
+    "A062088"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Greatest inverse of A234742: a(n) = maximal k such that when it is remultiplied \"upwards\", from GF(2)[X] to N, the result is n, and 0 if no such k exists.",
+  "id": "A236847",
+  "mentions": [
+    "A234742",
+    "A236836",
+    "A236837",
+    "A236844",
+    "A236846"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

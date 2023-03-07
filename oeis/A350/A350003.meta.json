@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals, n >= 2, m >= 0: T(n,m) is the smallest lucky number L(k) such that all n-th differences of (L(k), ..., L(k+n+m)) are zero, where L is A000959; T(n,m) = 0 if no such number exists.",
+  "id": "A350003",
+  "mentions": [
+    "A000959",
+    "A330362",
+    "A349644",
+    "A350001",
+    "A350002",
+    "A350007"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

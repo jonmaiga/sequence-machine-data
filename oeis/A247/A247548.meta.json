@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of D^2, a constant associated with the \"Dimer Problem\" on a triangular lattice.",
+  "id": "A247548",
+  "mentions": [
+    "A130834",
+    "A242710"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

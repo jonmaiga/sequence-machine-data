@@ -1,0 +1,20 @@
+{
+  "description": "Number of length n arrays of permutations of 0..n-1 with each element moved by -n to n places and every three consecutive elements having its maximum within 3 of its minimum.",
+  "id": "A263690",
+  "mentions": [
+    "A263693",
+    "A333833"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

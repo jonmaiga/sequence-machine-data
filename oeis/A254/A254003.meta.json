@@ -1,0 +1,20 @@
+{
+  "description": "For n>=1, let B_n(k) be the sequence defined by b(1)=1, b(2)=p_1, ..., b(n+2)=p_(n+1), thereafter (for k>=n+3) the smallest number not occurring earlier having at least one common factor with b(k-(n+1)), but none with b(k-1)*b(k-2)*...*b(k-n); a(n) is m such that B_n(m)=6.",
+  "id": "A254003",
+  "mentions": [
+    "A098550",
+    "A247225",
+    "A247665"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

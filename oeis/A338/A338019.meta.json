@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with 3*x + 10*y + 36*z a positive square, where x, y, z, w are nonnegative integers.",
+  "id": "A338019",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271518",
+    "A335624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

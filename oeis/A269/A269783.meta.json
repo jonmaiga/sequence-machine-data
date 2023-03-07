@@ -1,0 +1,19 @@
+{
+  "description": "Starting with a(0) = 0, the subsequence of immediate successors of the instances of each integer n in the sequence is n, n-1, n+1, n-2, n+2, ... for n > 0 and n, n+1, n-1, n+2, n-2, ... for n <= 0.",
+  "id": "A269783",
+  "mentions": [
+    "A001057",
+    "A269501"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

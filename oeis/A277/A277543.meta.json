@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n/5^m mod 5, where 5^m is the greatest power of 5 that divides n.",
+  "id": "A277543",
+  "mentions": [
+    "A007091",
+    "A010874",
+    "A132739",
+    "A277548",
+    "A277550",
+    "A277551",
+    "A277555"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for (6+sqrt(26))/5.",
+  "id": "A329838",
+  "mentions": [
+    "A329825",
+    "A329837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

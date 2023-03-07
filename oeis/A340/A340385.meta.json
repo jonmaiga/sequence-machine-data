@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n into an odd number of parts, the greatest of which is odd.",
+  "id": "A340385",
+  "mentions": [
+    "A000009",
+    "A000700",
+    "A024429",
+    "A026424",
+    "A026804",
+    "A027187",
+    "A027193",
+    "A058695",
+    "A066208",
+    "A067659",
+    "A072233",
+    "A078408",
+    "A089677",
+    "A101707",
+    "A160786",
+    "A166444",
+    "A174725",
+    "A174726",
+    "A236914",
+    "A244991",
+    "A300063",
+    "A300272",
+    "A332304",
+    "A339890",
+    "A340101",
+    "A340102",
+    "A340386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

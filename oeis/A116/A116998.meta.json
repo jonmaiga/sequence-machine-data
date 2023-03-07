@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having no fewer distinct prime factors than any predecessor; a(1) = 1.",
+  "id": "A116998",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A029744",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: possible numbers of diagonals of an n-edged convex polyhedron.",
+  "id": "A279679",
+  "mentions": [
+    "A279015",
+    "A279019",
+    "A279022",
+    "A279620",
+    "A279647",
+    "A279681"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 6,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

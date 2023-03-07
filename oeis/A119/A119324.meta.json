@@ -1,0 +1,21 @@
+{
+  "description": "Locations of record values in A119323, interleaved with the record values.",
+  "id": "A119324",
+  "mentions": [
+    "A119323",
+    "A119325"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

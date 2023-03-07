@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k with a smaller fraction of powers (mod k) than any smaller positive integers.",
+  "id": "A359195",
+  "mentions": [
+    "A025487",
+    "A085635",
+    "A337868"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

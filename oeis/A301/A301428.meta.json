@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into prime parts such that no two adjacent parts are equal (Carlitz compositions).",
+  "id": "A301428",
+  "mentions": [
+    "A003242",
+    "A023360",
+    "A218694",
+    "A219107"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

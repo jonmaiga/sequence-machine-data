@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of largest real root of e^(x-1) = Gamma(x+1).",
+  "id": "A338460",
+  "mentions": [
+    "A001113",
+    "A078335",
+    "A262275",
+    "A333242",
+    "A333243",
+    "A333244",
+    "A336763"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

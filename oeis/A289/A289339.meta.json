@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of (q*(j(q)-1728))^(7/24) where j(q) is the elliptic modular invariant.",
+  "id": "A289339",
+  "mentions": [
+    "A007242",
+    "A106203",
+    "A289061",
+    "A289063",
+    "A289330",
+    "A289331",
+    "A289332",
+    "A289333",
+    "A289334",
+    "A289340"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

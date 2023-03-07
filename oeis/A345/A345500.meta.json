@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of nine squares in three or more ways.",
+  "id": "A345500",
+  "mentions": [
+    "A345490",
+    "A345499",
+    "A345501",
+    "A345510",
+    "A345542"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

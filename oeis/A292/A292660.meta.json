@@ -1,0 +1,19 @@
+{
+  "description": "Rank of n*sqrt(2) when all the numbers h*sqrt(2), j*sqrt(3), k*sqrt(5), for h>=1, j>=1, k>=1, are jointly ranked.",
+  "id": "A292660",
+  "mentions": [
+    "A292661",
+    "A292662"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

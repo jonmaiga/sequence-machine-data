@@ -1,0 +1,23 @@
+{
+  "description": "Fractional part of the conversion from degrees Centigrade (or Celsius) to Fahrenheit.",
+  "id": "A177154",
+  "mentions": [
+    "A005843",
+    "A010874",
+    "A010879",
+    "A022966",
+    "A029925",
+    "A085259"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of not necessarily connected 3-regular simple graphs on 2n vertices with girth exactly 6.",
+  "id": "A185136",
+  "mentions": [
+    "A006926",
+    "A185036",
+    "A185130",
+    "A185133",
+    "A185134",
+    "A185135"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

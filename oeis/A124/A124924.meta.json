@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 divides A124923((3p-1)/2) = ((3p-1)/2)^(3(p-1)/2) + 1.",
+  "id": "A124924",
+  "mentions": [
+    "A003628",
+    "A124923"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

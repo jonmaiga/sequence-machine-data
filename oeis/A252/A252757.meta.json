@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(1)=1, and for n>1, if n is k-th number whose largest prime factor is less than the square of its smallest prime factor [i.e., n = A251726(k)], a(n) = 2*a(k), otherwise, when n = A251727(k), a(n) = 1 + 2*a(k).",
+  "id": "A252757",
+  "mentions": [
+    "A135141",
+    "A237427",
+    "A243287",
+    "A251726",
+    "A251727",
+    "A252372",
+    "A252373",
+    "A252758"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

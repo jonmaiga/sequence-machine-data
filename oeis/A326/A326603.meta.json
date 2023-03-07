@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (x^(2*n-1) + 1)^n * x^n * exp(-x^(2*n+1)) / n!, an even function.",
+  "id": "A326603",
+  "mentions": [
+    "A326602"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

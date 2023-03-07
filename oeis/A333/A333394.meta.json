@@ -1,0 +1,21 @@
+{
+  "description": "Total length of all longest runs of 0's in solus bitstrings of length n.",
+  "id": "A333394",
+  "mentions": [
+    "A000045",
+    "A119706",
+    "A333395",
+    "A333396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

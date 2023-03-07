@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals: A(m,n) = multiplicative order of m mod n, or 0 if m and n are not coprime.",
+  "id": "A250211",
+  "mentions": [
+    "A001918",
+    "A002322",
+    "A002326",
+    "A007732",
+    "A007733",
+    "A008330",
+    "A051626",
+    "A066799",
+    "A111076",
+    "A111725",
+    "A139366"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

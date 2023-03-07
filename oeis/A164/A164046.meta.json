@@ -1,0 +1,22 @@
+{
+  "description": "A001445 written in base 2.",
+  "id": "A164046",
+  "mentions": [
+    "A001445",
+    "A004526",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(k) * n^(n - k).",
+  "id": "A343425",
+  "mentions": [
+    "A292524",
+    "A344431",
+    "A344432",
+    "A344433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

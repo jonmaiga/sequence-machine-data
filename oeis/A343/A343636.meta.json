@@ -1,0 +1,19 @@
+{
+  "description": "10^n + a(n) is the smallest (n+1)-digit initial member of a prime sextuplet, or a(n) = 0 if no such number exists.",
+  "id": "A343636",
+  "mentions": [
+    "A022008"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

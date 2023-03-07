@@ -1,0 +1,21 @@
+{
+  "description": "Least prime q such that p(q*n) is prime, where p(.) is the partition function given by A000041.",
+  "id": "A257662",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A046063",
+    "A049575",
+    "A259764"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

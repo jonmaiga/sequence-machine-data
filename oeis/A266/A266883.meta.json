@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form m*(4*m+1)+1, where m = 0,-1,1,-2,2,-3,3,...",
+  "id": "A266883",
+  "mentions": [
+    "A001057",
+    "A002061",
+    "A049486",
+    "A054556",
+    "A054567",
+    "A074378",
+    "A127365",
+    "A130472",
+    "A174114"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:10:03",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

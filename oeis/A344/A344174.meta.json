@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p of the form x^4 + y^2 with y + 1 prime such that p is smaller than prime(n) and also a quadratic nonresidue modulo prime(n).",
+  "id": "A344174",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000583",
+    "A028916",
+    "A281792",
+    "A344173"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

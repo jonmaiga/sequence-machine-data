@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least k > n with the same sum of digits as n in some base b > 1.",
+  "id": "A287076",
+  "mentions": [
+    "A057168",
+    "A228915"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

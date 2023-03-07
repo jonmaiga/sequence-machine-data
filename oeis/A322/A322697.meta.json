@@ -1,0 +1,28 @@
+{
+  "description": "Eleven-column table read by rows: Primitive distinct 11-tuples that have the same value of phi, sigma, and tau.",
+  "id": "A322697",
+  "mentions": [
+    "A134922",
+    "A322687",
+    "A322688",
+    "A322689",
+    "A322690",
+    "A322691",
+    "A322692",
+    "A322693",
+    "A322694",
+    "A322695",
+    "A322696"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonpalindromic numbers m such that the difference between the square of m and the square of the reversal of m is itself a perfect square. Numbers ending in 0 are excluded.",
+  "id": "A202386",
+  "mentions": [
+    "A000290",
+    "A004086",
+    "A068536",
+    "A256515"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

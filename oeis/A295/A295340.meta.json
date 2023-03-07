@@ -1,0 +1,20 @@
+{
+  "description": "Numbers congruent to 11 or 13 mod 15.",
+  "id": "A295340",
+  "mentions": [
+    "A132238",
+    "A132241"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:31:23",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

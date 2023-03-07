@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of coefficients in a series for log(2 Pi).",
+  "id": "A332539",
+  "mentions": [
+    "A002206",
+    "A002207",
+    "A061444",
+    "A332538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

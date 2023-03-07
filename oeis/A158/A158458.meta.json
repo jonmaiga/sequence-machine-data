@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k + bigomega(k) is prime.",
+  "id": "A158458",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A067532",
+    "A068080",
+    "A078762"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

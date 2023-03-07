@@ -1,0 +1,21 @@
+{
+  "description": "Indices of primes in A133547, i.e., numbers n such that the sum of the squares of the first n odd primes is prime.",
+  "id": "A160358",
+  "mentions": [
+    "A024450",
+    "A098561",
+    "A133547",
+    "A160359"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

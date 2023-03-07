@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of largest angular separation (in radians) between 13 points on a unit sphere.",
+  "id": "A217695",
+  "mentions": [
+    "A257479"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

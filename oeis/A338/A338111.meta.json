@@ -1,0 +1,27 @@
+{
+  "description": "Times displayed on an hour|minute 12-hour 7-segment digital clock, arranged in order of increasing brightness (see Comments).",
+  "id": "A338111",
+  "mentions": [
+    "A006942",
+    "A038619",
+    "A063720",
+    "A074458",
+    "A123587",
+    "A234691",
+    "A234692",
+    "A277116"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

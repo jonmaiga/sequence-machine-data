@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest even k >= 2 such that the first n multiples of k have the same sum of digits, but (n + 1)*k has a different one. a(n) = 0 if no such k exists.",
+  "id": "A237994",
+  "mentions": [
+    "A007953",
+    "A238088"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

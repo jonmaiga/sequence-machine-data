@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (smallest prime-power among the largest powers dividing n of each prime dividing n) * (smallest prime-power among the largest powers dividing (n+1) of each prime dividing (n+1)).",
+  "id": "A139084",
+  "mentions": [
+    "A034684",
+    "A139082",
+    "A139083"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

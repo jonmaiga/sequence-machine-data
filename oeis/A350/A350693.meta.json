@@ -1,0 +1,21 @@
+{
+  "description": "Number of b > 0 which permit n^3 to be written as a sum of powers of b in n parts. Each exponent c is an integer >= 0, n^3 = b^c_1 + b^c_2 + ... + b^c_n.",
+  "id": "A350693",
+  "mentions": [
+    "A000005",
+    "A046459",
+    "A092517",
+    "A107444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

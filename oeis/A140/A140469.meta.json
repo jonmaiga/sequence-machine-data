@@ -1,0 +1,18 @@
+{
+  "description": "Position of Fibonacci numbers in the EKG sequence.",
+  "id": "A140469",
+  "mentions": [
+    "A000045",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

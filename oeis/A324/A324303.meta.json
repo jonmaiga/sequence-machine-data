@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^(n*(n+2))] Sum_{m>=0} x^m * (x^(m+1) + i)^m / (1 + i*x^(m+1))^(m+1), for n >= 0.",
+  "id": "A324303",
+  "mentions": [
+    "A323687",
+    "A324300",
+    "A324301",
+    "A324302"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Nonsquares coprime to 10.",
+  "id": "A158942",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A002378",
+    "A005843",
+    "A008587",
+    "A014106",
+    "A045572",
+    "A067728",
+    "A082686",
+    "A082868"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

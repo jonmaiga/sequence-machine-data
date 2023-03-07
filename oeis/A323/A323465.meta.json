@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the numbers that can be obtained from the binary expansion of n by either deleting a single 0, or inserting a single 0 after any 1, or doing nothing.",
+  "id": "A323465",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A323286",
+    "A323455",
+    "A323456",
+    "A323460",
+    "A323466",
+    "A323467"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

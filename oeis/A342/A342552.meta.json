@@ -1,0 +1,21 @@
+{
+  "description": "The number of twin primes between prime(i)*prime(i+1) and prime(i+1)*prime(i+2) where prime(i) and prime(i+1) are twin primes.",
+  "id": "A342552",
+  "mentions": [
+    "A001359",
+    "A006094",
+    "A006512",
+    "A037074",
+    "A171727"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

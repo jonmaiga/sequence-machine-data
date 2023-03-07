@@ -1,0 +1,20 @@
+{
+  "description": "Double magic numbers (in physics).",
+  "id": "A219239",
+  "mentions": [
+    "A018226",
+    "A033547"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

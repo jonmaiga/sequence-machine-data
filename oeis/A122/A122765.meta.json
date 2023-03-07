@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: Let p(k, x) = x*p(k-1, x) - p(k-2, x). Then T(k,x) = dp(k,x)/dx.",
+  "id": "A122765",
+  "mentions": [
+    "A000217",
+    "A026741",
+    "A046854",
+    "A066170",
+    "A076118",
+    "A122766",
+    "A130777",
+    "A165202"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

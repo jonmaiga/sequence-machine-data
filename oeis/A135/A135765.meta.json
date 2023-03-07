@@ -1,0 +1,36 @@
+{
+  "description": "Distribute the odd numbers in columns based on the occurrence of \"3\" in each prime factorization; square array A(row, col) = 3^(row-1) * A007310(col), read by antidiagonals A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...",
+  "id": "A135765",
+  "mentions": [
+    "A000244",
+    "A000265",
+    "A002260",
+    "A003961",
+    "A004736",
+    "A005408",
+    "A007310",
+    "A007949",
+    "A126760",
+    "A135764",
+    "A165355",
+    "A249745",
+    "A254051",
+    "A254053",
+    "A254055",
+    "A254101",
+    "A254102"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

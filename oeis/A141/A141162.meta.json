@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that lambda(k) = n, or 0 if there is no such k.",
+  "id": "A141162",
+  "mentions": [
+    "A002174",
+    "A002322",
+    "A002396",
+    "A143407",
+    "A143408"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

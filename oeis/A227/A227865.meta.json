@@ -1,0 +1,19 @@
+{
+  "description": "Ending letter of a(n) equals starting letter of a(n+1), when spelled out in French; always choose the smallest possible number not yet used and not ending the sequence.",
+  "id": "A227865",
+  "mentions": [
+    "A167507",
+    "A230862"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

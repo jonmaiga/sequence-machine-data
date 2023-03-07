@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2's in row n of the Kolakoski fan A143477.",
+  "id": "A143588",
+  "mentions": [
+    "A000002",
+    "A143477",
+    "A143486",
+    "A143487",
+    "A143586",
+    "A143587"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

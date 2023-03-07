@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations p of [n] such that the sequence of ascents and descents of p or of p0 (if n is even) forms a Dyck path.",
+  "id": "A303287",
+  "mentions": [
+    "A177042",
+    "A180056",
+    "A303284",
+    "A303285",
+    "A304001",
+    "A304777",
+    "A304778"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

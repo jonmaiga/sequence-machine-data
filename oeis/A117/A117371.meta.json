@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes between smallest prime divisor of n and largest prime divisor of n that are coprime to n (not factors of n).",
+  "id": "A117371",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A020639",
+    "A117370",
+    "A137795"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

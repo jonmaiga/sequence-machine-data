@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the length of the maximal tribonacci representation of n (A352103).",
+  "id": "A356895",
+  "mentions": [
+    "A058265",
+    "A070939",
+    "A072649",
+    "A095791",
+    "A278044",
+    "A352103",
+    "A352104",
+    "A356894"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

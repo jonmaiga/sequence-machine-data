@@ -1,0 +1,23 @@
+{
+  "description": "Number of hands of n cards containing a straight flush (for n=1 to 52).",
+  "id": "A143314",
+  "mentions": [
+    "A002761",
+    "A002806",
+    "A002834",
+    "A002879"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Column 2 of triangle A152798; first differences of A122889.",
+  "id": "A152799",
+  "mentions": [
+    "A122889",
+    "A152798"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

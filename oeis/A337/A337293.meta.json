@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the squared distance to the origin of the n-th vertex on an acute angled Babylonian spiral.",
+  "id": "A337293",
+  "mentions": [
+    "A001481",
+    "A256111",
+    "A337311",
+    "A337312"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

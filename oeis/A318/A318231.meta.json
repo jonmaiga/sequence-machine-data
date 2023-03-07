@@ -1,0 +1,32 @@
+{
+  "description": "Number of inequivalent leaf-colorings of series-reduced rooted trees with n nodes.",
+  "id": "A318231",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A001678",
+    "A003238",
+    "A004111",
+    "A290689",
+    "A291636",
+    "A304486",
+    "A318226",
+    "A318227",
+    "A318228",
+    "A318229",
+    "A318230",
+    "A318234",
+    "A339645",
+    "A339648"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

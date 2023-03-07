@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = numerator(b(2*n)) with b(n) = n!*Bernoulli(n,1/2)/(n*(n-1)) for n>=2, b(0)=1, b(1)=0.",
+  "id": "A276667",
+  "mentions": [
+    "A276668"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

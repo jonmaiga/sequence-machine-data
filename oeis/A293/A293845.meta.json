@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chains of length k in the partially ordered (by subspace inclusion) set of all subspaces of GF(2)^n, n>=0, 0<=k<=n.",
+  "id": "A293845",
+  "mentions": [
+    "A005329",
+    "A006116",
+    "A289546",
+    "A293844"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

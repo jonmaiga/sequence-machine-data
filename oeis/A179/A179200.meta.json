@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. equals the real part of the i-th iteration of (x + x^2), where i=sqrt(-1).",
+  "id": "A179200",
+  "mentions": [
+    "A030528",
+    "A179201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

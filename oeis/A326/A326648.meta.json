@@ -1,0 +1,18 @@
+{
+  "description": "Number of colored integer partitions of n using all colors of an initial interval of the color palette such that each block of part i with multiplicity j has a pattern of i*j distinct colors in increasing order.",
+  "id": "A326648",
+  "mentions": [
+    "A326616",
+    "A326617"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

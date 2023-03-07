@@ -1,0 +1,20 @@
+{
+  "description": "Emirps p such that both p and its digit reversal can be written as q*r+q+r where q and r are emirps.",
+  "id": "A353031",
+  "mentions": [
+    "A004086",
+    "A006567",
+    "A352249"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

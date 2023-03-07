@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(n/k)^n.",
+  "id": "A332469",
+  "mentions": [
+    "A006218",
+    "A222548",
+    "A318742",
+    "A318743",
+    "A318744",
+    "A319194",
+    "A332468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

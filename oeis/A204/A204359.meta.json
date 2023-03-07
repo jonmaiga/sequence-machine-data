@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X8 0..1 arrays with every 3X3 subblock having three equal elements in a row horizontally, vertically, diagonally or antidiagonally exactly one way, and new values 0..1 introduced in row major order",
+  "id": "A204359",
+  "mentions": [
+    "A204361"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

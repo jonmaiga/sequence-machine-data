@@ -1,0 +1,40 @@
+{
+  "description": "Number of maximal pairwise coprime sets of at least two divisors > 1 of n.",
+  "id": "A343660",
+  "mentions": [
+    "A005361",
+    "A007359",
+    "A007360",
+    "A018892",
+    "A051026",
+    "A066620",
+    "A067824",
+    "A074206",
+    "A089233",
+    "A100565",
+    "A225520",
+    "A276187",
+    "A320426",
+    "A325683",
+    "A326077",
+    "A326359",
+    "A326496",
+    "A337485",
+    "A343652",
+    "A343653",
+    "A343654",
+    "A343655",
+    "A343659"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

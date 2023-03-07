@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest k > 1 that is the sum of the proper divisors (cf. A001065) of at least n different numbers.",
+  "id": "A123930",
+  "mentions": [
+    "A001065",
+    "A048138",
+    "A070015",
+    "A125601"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

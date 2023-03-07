@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place 6 nonattacking semi-queens on an n X n board.",
+  "id": "A202657",
+  "mentions": [
+    "A099152",
+    "A103220",
+    "A176186",
+    "A202654",
+    "A202655",
+    "A202656"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

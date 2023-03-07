@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(A006666(n), A006667(n)) where A006666 and A006667 are respectively the number of halving and tripling steps in the '3x+1' problem.",
+  "id": "A277367",
+  "mentions": [
+    "A006666",
+    "A006667",
+    "A277068"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

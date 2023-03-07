@@ -1,0 +1,23 @@
+{
+  "description": "Interspersion fractally induced by the fractal sequence A002260.",
+  "id": "A195111",
+  "mentions": [
+    "A002260",
+    "A194111",
+    "A194959",
+    "A195110",
+    "A195112",
+    "A195129"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

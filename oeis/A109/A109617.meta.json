@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (10's complement factorial of n) - 1 is prime.",
+  "id": "A109617",
+  "mentions": [
+    "A110396"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

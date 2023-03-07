@@ -1,0 +1,24 @@
+{
+  "description": "Triangle V(l,p) (l>=0, p=0..l) read by rows: see Formula for definition, see Comments for motivation.",
+  "id": "A179898",
+  "mentions": [
+    "A000217",
+    "A005700",
+    "A005701",
+    "A005817",
+    "A053121",
+    "A181571"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

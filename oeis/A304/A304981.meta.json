@@ -1,0 +1,26 @@
+{
+  "description": "Number of unlabeled clutters (connected antichains) spanning up to n vertices without singleton edges.",
+  "id": "A304981",
+  "mentions": [
+    "A048143",
+    "A198085",
+    "A261006",
+    "A304912",
+    "A304982",
+    "A304983",
+    "A304984",
+    "A304985",
+    "A304986"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

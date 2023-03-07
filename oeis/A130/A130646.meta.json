@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+727)^2 = y^2.",
+  "id": "A130646",
+  "mentions": [
+    "A001652",
+    "A028871",
+    "A118337",
+    "A118675",
+    "A118676",
+    "A156035",
+    "A159893",
+    "A159894",
+    "A159895"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:12:53",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1, a(n) = 3*A036987(n), n>1.",
+  "id": "A127802",
+  "mentions": [
+    "A036987",
+    "A043529",
+    "A127801"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

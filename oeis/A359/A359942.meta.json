@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(k^3+1)) in powers of x.",
+  "id": "A359942",
+  "mentions": [
+    "A001093",
+    "A279484",
+    "A359936",
+    "A359943"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

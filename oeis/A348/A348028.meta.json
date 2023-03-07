@@ -1,0 +1,22 @@
+{
+  "description": "Greatest common divisor of A003415 (arithmetic derivative) and sigma, the sum of divisors function.",
+  "id": "A348028",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A342413",
+    "A342458",
+    "A343226"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

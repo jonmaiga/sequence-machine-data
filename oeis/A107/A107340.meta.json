@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to rev(x^3)=rev(x)^3 below 10^n.",
+  "id": "A107340",
+  "mentions": [
+    "A085315"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

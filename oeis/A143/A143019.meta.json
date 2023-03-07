@@ -1,0 +1,22 @@
+{
+  "description": "Infinite square array read by antidiagonals: a(q,n) is the coefficient of z^n in the series expansion of C(z)^q/(1-4z)^(3/2), where C(z) = (1-sqrt(1-4z))/(2z) is the Catalan function (q,n = 0,1,2,...).",
+  "id": "A143019",
+  "mentions": [
+    "A000531",
+    "A002457",
+    "A029760",
+    "A045720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Take the sequence of nonnegative integers whose decimal digits are not in strictly increasing order. Partition the sequence into subsequences whose elements are consecutive integers. Then a(n) is the number of elements in the n-th partition.",
+  "id": "A295638",
+  "mentions": [
+    "A009993"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

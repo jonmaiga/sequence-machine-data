@@ -1,0 +1,22 @@
+{
+  "description": "Sierpinski quotient ((2n-1)^(2n-1) + 1)/(2n) = A014566(2n-1)/(2n).",
+  "id": "A124899",
+  "mentions": [
+    "A014566",
+    "A056826",
+    "A056852",
+    "A081216",
+    "A122000"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the one real root of x^5-x-1.",
+  "id": "A160155",
+  "mentions": [
+    "A001622",
+    "A039922",
+    "A060006",
+    "A060007"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

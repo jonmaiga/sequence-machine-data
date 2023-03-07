@@ -1,0 +1,21 @@
+{
+  "description": "Indices m of \"late birds\", i.e., values a(m) < a(k) for all k > m, in A075771 = quotient + remainder in Euclidean division of n^2 by prime(n).",
+  "id": "A277853",
+  "mentions": [
+    "A075771",
+    "A277851",
+    "A277852",
+    "A277854"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

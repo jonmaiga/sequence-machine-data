@@ -1,0 +1,41 @@
+{
+  "description": "Multiples of 3 containing a 3 in their decimal representation.",
+  "id": "A121023",
+  "mentions": [
+    "A008585",
+    "A011531",
+    "A011533",
+    "A121022",
+    "A121024",
+    "A121025",
+    "A121026",
+    "A121027",
+    "A121028",
+    "A121029",
+    "A121030",
+    "A121031",
+    "A121032",
+    "A121033",
+    "A121034",
+    "A121035",
+    "A121036",
+    "A121037",
+    "A121038",
+    "A121039",
+    "A121040",
+    "A121041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:51:55",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

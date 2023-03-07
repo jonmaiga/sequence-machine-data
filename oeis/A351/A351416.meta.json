@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of n that are either squarefree semiprimes, numbers of the form p^k (p prime, k>1), or numbers with at least one square divisor > 1 and 3 or more distinct prime factors.",
+  "id": "A351416",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A351414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

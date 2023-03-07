@@ -1,0 +1,30 @@
+{
+  "description": "Phi-base self numbers: positive numbers not of the form k + A055778(k).",
+  "id": "A339213",
+  "mentions": [
+    "A003052",
+    "A010061",
+    "A010064",
+    "A010067",
+    "A010070",
+    "A055778",
+    "A130600",
+    "A331083",
+    "A334308",
+    "A339211",
+    "A339212",
+    "A339214",
+    "A339215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

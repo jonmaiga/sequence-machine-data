@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k such that the k-th standard ordered rooted tree has the same number of leaves as internal (non-leaf) nodes.",
+  "id": "A358579",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A000891",
+    "A001263",
+    "A014221",
+    "A055277",
+    "A066099",
+    "A185650",
+    "A206487",
+    "A358371",
+    "A358372",
+    "A358373",
+    "A358379",
+    "A358553",
+    "A358576",
+    "A358577",
+    "A358578",
+    "A358580",
+    "A358587",
+    "A358588",
+    "A358589",
+    "A358590"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

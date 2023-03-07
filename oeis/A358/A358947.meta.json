@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^m(n), where m(n) is the number of distinct primes, neither 2 nor 7, dividing A358946(n).",
+  "id": "A358947",
+  "mentions": [
+    "A358946",
+    "A359476",
+    "A359477"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

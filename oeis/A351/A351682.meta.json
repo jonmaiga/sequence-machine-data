@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers p such that the (p-1)-st Bell number B(p-1) is a primitive root modulo p.",
+  "id": "A351682",
+  "mentions": [
+    "A000110",
+    "A005596",
+    "A350429"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

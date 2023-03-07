@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = cm4(x)^2 + sm4(x)^2 where cm4(x) and sm4(x) are the g.f.s of A153300 and A153301, respectively, that satisfy cm4(x)^4 - sm4(x)^4 = 1.",
+  "id": "A153302",
+  "mentions": [
+    "A153300",
+    "A153301"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

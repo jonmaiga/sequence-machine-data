@@ -1,0 +1,23 @@
+{
+  "description": "Sum of Fibonacci divisors of n^2 + 1.",
+  "id": "A339621",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A002522",
+    "A005092",
+    "A005574",
+    "A339461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

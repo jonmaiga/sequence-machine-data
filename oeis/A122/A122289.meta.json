@@ -1,0 +1,29 @@
+{
+  "description": "Signature permutations of FORK-transformations of Catalan automorphisms in table A122201.",
+  "id": "A122289",
+  "mentions": [
+    "A001477",
+    "A089840",
+    "A122200",
+    "A122201",
+    "A122204",
+    "A122283",
+    "A122284",
+    "A122285",
+    "A122288",
+    "A122290",
+    "A122351",
+    "A122363"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

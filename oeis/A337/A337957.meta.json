@@ -1,0 +1,28 @@
+{
+  "description": "Number of unoriented colorings of the 8 cubic facets of a tesseract or of the 8 vertices of a hyperoctahedron.",
+  "id": "A337957",
+  "mentions": [
+    "A000389",
+    "A128767",
+    "A234249",
+    "A325005",
+    "A331355",
+    "A331359",
+    "A337956",
+    "A337958",
+    "A338949",
+    "A338965"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:11",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

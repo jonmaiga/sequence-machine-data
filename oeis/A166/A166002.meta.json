@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p-6, p-5, p+5, and p+6 are each divisible by a cube greater than 1.",
+  "id": "A166002",
+  "mentions": [
+    "A086708",
+    "A086709",
+    "A089199",
+    "A089200",
+    "A089212",
+    "A166000",
+    "A166001"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

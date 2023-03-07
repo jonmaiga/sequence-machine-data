@@ -1,0 +1,21 @@
+{
+  "description": "Number of sequences in {1,...,n}^n with longest increasing subsequence of length three.",
+  "id": "A268870",
+  "mentions": [
+    "A239295",
+    "A239299",
+    "A245667"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Binary representation of the middle column of the \"Rule 30\" elementary cellular automaton starting with a single ON cell.",
+  "id": "A261299",
+  "mentions": [
+    "A051023",
+    "A070950",
+    "A070952",
+    "A092539",
+    "A110240",
+    "A110267",
+    "A245549"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = 0; for n>0, a(n) = denominator(1/4 - 4/n^2).",
+  "id": "A226008",
+  "mentions": [
+    "A016754",
+    "A016802",
+    "A016826",
+    "A017090",
+    "A017138",
+    "A043547",
+    "A061038",
+    "A154615",
+    "A225948",
+    "A225975"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:29",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

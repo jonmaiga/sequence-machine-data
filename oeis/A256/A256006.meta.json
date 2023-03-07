@@ -1,0 +1,18 @@
+{
+  "description": "Recurrence: a(n) = Sum_{k=0..n-1} a(k)*C(n+1,k), a(0)=1.",
+  "id": "A256006",
+  "mentions": [
+    "A103996"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals of covering numbers rho_n(k).",
+  "id": "A202176",
+  "mentions": [
+    "A202171",
+    "A202175"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci shuffles: a(2n) = A000071(n) and a(2n+1) = A001611(n+2).",
+  "id": "A226649",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001611",
+    "A096748",
+    "A157725"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Signature-permutation of a Catalan automorphism: composition of A069771 and A125976.",
+  "id": "A126315",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057164",
+    "A069771",
+    "A069772",
+    "A125976",
+    "A126290",
+    "A126313",
+    "A126314",
+    "A126316",
+    "A127280",
+    "A127281",
+    "A127282",
+    "A127283"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

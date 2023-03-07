@@ -1,0 +1,29 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of integer partitions of n with maximum origin-to-boundary graph-distance equal to k.",
+  "id": "A325189",
+  "mentions": [
+    "A000041",
+    "A065770",
+    "A071724",
+    "A096771",
+    "A115720",
+    "A115994",
+    "A139582",
+    "A325169",
+    "A325183",
+    "A325188",
+    "A325195",
+    "A325200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

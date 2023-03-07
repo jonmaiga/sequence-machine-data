@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of x-coordinate of the intersection of y = sin(x) and y = arctan(x) in the first quadrant.",
+  "id": "A348293",
+  "mentions": [
+    "A348294"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

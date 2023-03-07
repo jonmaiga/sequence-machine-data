@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: row n lists number of unordered partitions of n into k parts which are partition numbers (members of A000041).",
+  "id": "A119442",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A008284",
+    "A036036",
+    "A048996",
+    "A055887",
+    "A060642",
+    "A061260",
+    "A063834",
+    "A273873",
+    "A281145",
+    "A289501",
+    "A299200",
+    "A299201"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

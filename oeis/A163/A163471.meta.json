@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 10*a(n-1) - 22*a(n-2) for n > 1; a(0) = 3, a(1) = 18.",
+  "id": "A163471",
+  "mentions": [
+    "A163470",
+    "A163472"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

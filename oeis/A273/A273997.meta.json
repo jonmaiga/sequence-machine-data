@@ -1,0 +1,23 @@
+{
+  "description": "Number of endofunctions on [n] whose cycle lengths are squares.",
+  "id": "A273997",
+  "mentions": [
+    "A000290",
+    "A060435",
+    "A116956",
+    "A205801",
+    "A273994",
+    "A273996",
+    "A273998"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

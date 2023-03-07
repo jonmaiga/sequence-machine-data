@@ -1,0 +1,19 @@
+{
+  "description": "Digits of composite n end in n', where n' is the arithmetic derivative of n.",
+  "id": "A263024",
+  "mentions": [
+    "A003415",
+    "A249540"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

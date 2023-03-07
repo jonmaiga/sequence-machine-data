@@ -1,0 +1,32 @@
+{
+  "description": "Sum of the distances between all unordered pairs of vertices of degree 2 in the rooted tree with Matula-Goebel number n.",
+  "id": "A212618",
+  "mentions": [
+    "A206499",
+    "A212619",
+    "A212620",
+    "A212621",
+    "A212622",
+    "A212623",
+    "A212624",
+    "A212625",
+    "A212626",
+    "A212627",
+    "A212628",
+    "A212629",
+    "A212630",
+    "A212631",
+    "A212632"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

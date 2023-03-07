@@ -1,0 +1,28 @@
+{
+  "description": "Number of non-isomorphic weight-n strict antichains of sets with no singletons.",
+  "id": "A321678",
+  "mentions": [
+    "A006126",
+    "A049311",
+    "A096827",
+    "A285572",
+    "A293993",
+    "A293994",
+    "A318099",
+    "A319719",
+    "A319721",
+    "A320799",
+    "A321679"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

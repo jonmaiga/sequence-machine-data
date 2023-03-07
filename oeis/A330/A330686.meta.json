@@ -1,0 +1,24 @@
+{
+  "description": "Primorial deflation of (nonzero) K-champion numbers: a(n) is the unique integer x such that A108951(x) = A307866(1+n).",
+  "id": "A330686",
+  "mentions": [
+    "A074206",
+    "A108951",
+    "A122111",
+    "A181815",
+    "A307866",
+    "A329900",
+    "A353568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

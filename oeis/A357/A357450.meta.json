@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest integer having exactly n odd square divisors (A298735).",
+  "id": "A357450",
+  "mentions": [
+    "A000290",
+    "A016754",
+    "A038547",
+    "A130279",
+    "A147516",
+    "A298735"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

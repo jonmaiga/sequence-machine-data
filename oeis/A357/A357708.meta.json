@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order has sum equal to twice its maximum part.",
+  "id": "A357708",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A003754",
+    "A029931",
+    "A066099",
+    "A066311",
+    "A124767",
+    "A329395",
+    "A333766",
+    "A333768",
+    "A356844"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

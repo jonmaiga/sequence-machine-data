@@ -1,0 +1,24 @@
+{
+  "description": "Number of prime septuplets (i.e.: 7-tuples) with initial member (A022009 or A022010) between 10^(n-1) and 10^n.",
+  "id": "A350827",
+  "mentions": [
+    "A022009",
+    "A022010",
+    "A350825",
+    "A350826",
+    "A350828"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Concatenation of the decimal digits of n^2-1 and n^2.",
+  "id": "A215268",
+  "mentions": [
+    "A000290",
+    "A000533",
+    "A005563",
+    "A135276",
+    "A141518",
+    "A153349"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

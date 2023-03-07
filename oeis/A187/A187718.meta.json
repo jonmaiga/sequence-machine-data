@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into maximum number (=A184956(n)) of pairwise coprime parts that are >= 2.",
+  "id": "A187718",
+  "mentions": [
+    "A000837",
+    "A007359",
+    "A007360",
+    "A051424",
+    "A184956"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

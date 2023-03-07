@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} a(n) * (cos(n^2*x) - sin(n^2*x)) * x^n/n! = 1/(1-x).",
+  "id": "A209316",
+  "mentions": [
+    "A209317",
+    "A219504",
+    "A220282",
+    "A221535"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

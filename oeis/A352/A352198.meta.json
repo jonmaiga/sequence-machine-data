@@ -1,0 +1,18 @@
+{
+  "description": "Where n-th prime appears in A350359, or -1 if n-th prime does not appear.",
+  "id": "A352198",
+  "mentions": [
+    "A350359",
+    "A352197"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

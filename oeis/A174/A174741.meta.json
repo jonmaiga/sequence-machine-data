@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest m > 0 such that there are no primes between p*m and p*(m+1) inclusive where p is the n-th prime.",
+  "id": "A174741",
+  "mentions": [
+    "A110835"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

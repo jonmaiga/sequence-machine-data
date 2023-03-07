@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of A097805.",
+  "id": "A308663",
+  "mentions": [
+    "A016116",
+    "A084858",
+    "A097805",
+    "A098646",
+    "A117142",
+    "A167667"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:33",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

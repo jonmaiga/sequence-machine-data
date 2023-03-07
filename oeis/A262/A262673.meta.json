@@ -1,0 +1,20 @@
+{
+  "description": "Number of pointed trees on normal pointed multisets of weight n.",
+  "id": "A262673",
+  "mentions": [
+    "A052894",
+    "A053492",
+    "A262671"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

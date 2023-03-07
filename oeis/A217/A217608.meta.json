@@ -1,0 +1,19 @@
+{
+  "description": "After the 51-digit 2^168, a(n) is the number setting a record for non-pandigital right segment length of 2^a(n).",
+  "id": "A217608",
+  "mentions": [
+    "A217609"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

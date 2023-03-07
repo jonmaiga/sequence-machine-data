@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that max(p) = 5 + min(p).",
+  "id": "A240873",
+  "mentions": [
+    "A171182",
+    "A240871",
+    "A240872"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

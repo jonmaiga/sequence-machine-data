@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A160802.",
+  "id": "A160803",
+  "mentions": [
+    "A000045",
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160426",
+    "A160427",
+    "A160800",
+    "A160801",
+    "A160802"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

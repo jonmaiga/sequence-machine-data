@@ -1,0 +1,21 @@
+{
+  "description": "Number of paths from (0,0) to (n,n) using only steps North, Northeast and East (i.e., steps E(1,0), D(1,1), and N(0,1)) that do not cross y=x \"vertically\".",
+  "id": "A268208",
+  "mentions": [
+    "A001003",
+    "A001850",
+    "A006318"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:54:41",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

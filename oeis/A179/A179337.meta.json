@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers of the form (6*m^2 + 1)/11.",
+  "id": "A179337",
+  "mentions": [
+    "A113338",
+    "A179088",
+    "A179338",
+    "A179339",
+    "A179370"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "\"Erase or triple\": list of the successive integers that produce the next \"altitude\" record (see the comments section).",
+  "id": "A300150",
+  "mentions": [
+    "A300148",
+    "A300149"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

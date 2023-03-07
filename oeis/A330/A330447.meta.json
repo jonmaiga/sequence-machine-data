@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest index k such that {0,1,2,...,n} is a subset of { A316774(j) : 0 <= j <= k }.",
+  "id": "A330447",
+  "mentions": [
+    "A316774",
+    "A316905",
+    "A330448"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

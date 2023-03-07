@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k > 2^(2^n)+1 such that 2^(k-1) == 1 (mod (2^(2^n)-1)*k).",
+  "id": "A307532",
+  "mentions": [
+    "A001567",
+    "A065091",
+    "A307512",
+    "A307535"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

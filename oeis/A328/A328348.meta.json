@@ -1,0 +1,25 @@
+{
+  "description": "Let S be any integer in the range 3 <= S <= 17. Sequence has the property that a(n)*S is the sum of all positive integers whose decimal expansion has <= n digits and contains at most two distinct nonzero digits p and q such that p+q=S.",
+  "id": "A328348",
+  "mentions": [
+    "A328350",
+    "A328351",
+    "A328352",
+    "A328353",
+    "A328354",
+    "A328355",
+    "A328356"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:47:10",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

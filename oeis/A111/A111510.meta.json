@@ -1,0 +1,18 @@
+{
+  "description": "If n is even then a(n) is the nearest integer to Pi^n/Zeta(n), otherwise a(n) is the nearest integer to (Pi^n - n*e)/Zeta(n).",
+  "id": "A111510",
+  "mentions": [
+    "A100594",
+    "A108925"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

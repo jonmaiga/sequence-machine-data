@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: A000012 * A047812 as infinite lower triangular matrices.",
+  "id": "A137614",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A007042",
+    "A014138",
+    "A047812"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

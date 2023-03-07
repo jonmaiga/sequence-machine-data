@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k for which A003958(sigma(k)) = A003958(k), where A003958 is multiplicative with a(p^e) = (p-1)^e and sigma is the sum of divisors function.",
+  "id": "A351446",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003958",
+    "A064989",
+    "A322582",
+    "A336702",
+    "A351440",
+    "A351442",
+    "A351443",
+    "A351444",
+    "A351445",
+    "A351447"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

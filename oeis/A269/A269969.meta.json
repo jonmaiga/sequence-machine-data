@@ -1,0 +1,20 @@
+{
+  "description": "Index of first occurrence of -n in A269783.",
+  "id": "A269969",
+  "mentions": [
+    "A269783",
+    "A269967",
+    "A269968"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

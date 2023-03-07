@@ -1,0 +1,21 @@
+{
+  "description": "Even multiply-perfect numbers divided by 2.",
+  "id": "A219544",
+  "mentions": [
+    "A007691",
+    "A133028",
+    "A194771",
+    "A326051"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

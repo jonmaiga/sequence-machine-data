@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are congruent to 0 or 6 mod 10.",
+  "id": "A146951",
+  "mentions": [
+    "A001622",
+    "A020714",
+    "A030308",
+    "A061047"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:07",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

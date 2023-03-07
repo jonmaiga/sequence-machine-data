@@ -1,0 +1,22 @@
+{
+  "description": "Number of segments lit to display the number n on a 9-segment display used by the Russian postal service.",
+  "id": "A350131",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A063720",
+    "A074458",
+    "A350177"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

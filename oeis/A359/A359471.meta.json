@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = 1 if the product of exponents in the prime factorization of n is less than 3, otherwise 0.",
+  "id": "A359471",
+  "mentions": [
+    "A005361",
+    "A008966",
+    "A034444",
+    "A046660",
+    "A048105",
+    "A048106",
+    "A048107",
+    "A059956",
+    "A271971",
+    "A325973",
+    "A326043",
+    "A359431",
+    "A359472",
+    "A359474",
+    "A359475"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

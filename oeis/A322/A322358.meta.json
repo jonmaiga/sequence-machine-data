@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct twin prime pairs p, p+2 such that both of them divide n.",
+  "id": "A322358",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001359",
+    "A006512",
+    "A322356"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

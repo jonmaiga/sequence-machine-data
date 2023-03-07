@@ -1,0 +1,18 @@
+{
+  "description": "Absolute difference between n-th stella octangula number (A007588) and the nearest perfect power (A001597).",
+  "id": "A294076",
+  "mentions": [
+    "A001597",
+    "A007588"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

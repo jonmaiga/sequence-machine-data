@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are not congruent to +- mod 9 and are neither a cube nor twice a cube.",
+  "id": "A334521",
+  "mentions": [
+    "A000578",
+    "A060464",
+    "A156638",
+    "A334522"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

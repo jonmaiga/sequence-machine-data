@@ -1,0 +1,24 @@
+{
+  "description": "For p = prime(n), number of iterations of the function f(x) = 5x + 2 that leave p prime.",
+  "id": "A280720",
+  "mentions": [
+    "A016873",
+    "A023217",
+    "A023252",
+    "A023283",
+    "A023313",
+    "A023341",
+    "A084958",
+    "A249573"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

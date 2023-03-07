@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 5*a(n-1) - 8*a(n-2), with a(0)=0, a(1)=1.",
+  "id": "A190969",
+  "mentions": [
+    "A190958"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:06:29",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

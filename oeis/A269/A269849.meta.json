@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of integers k <= n for which prime(k+1)-prime(k) is not a multiple of three.",
+  "id": "A269849",
+  "mentions": [
+    "A269362",
+    "A269364",
+    "A269850",
+    "A270189"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

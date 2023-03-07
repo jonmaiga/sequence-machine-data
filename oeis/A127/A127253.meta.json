@@ -1,0 +1,21 @@
+{
+  "description": "Product of number triangles A127243 and A127248.",
+  "id": "A127253",
+  "mentions": [
+    "A091855",
+    "A127243",
+    "A127248",
+    "A127254"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

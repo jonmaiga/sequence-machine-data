@@ -1,0 +1,20 @@
+{
+  "description": "Column 3 of triangle A104980, omitting leading zeros.",
+  "id": "A104982",
+  "mentions": [
+    "A104980",
+    "A104981",
+    "A104988"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

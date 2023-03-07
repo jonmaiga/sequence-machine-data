@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A054108(n) + 4*(-1)^n.",
+  "id": "A349554",
+  "mentions": [
+    "A000984",
+    "A054108"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

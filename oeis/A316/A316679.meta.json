@@ -1,0 +1,20 @@
+{
+  "description": "The integer 907 and its infinite growing pattern (when iterating the rule explained in A316650 and hereunder, in the Comment section).",
+  "id": "A316679",
+  "mentions": [
+    "A052224",
+    "A316650",
+    "A316680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Terms of A255066 halved.",
+  "id": "A255067",
+  "mentions": [
+    "A255057",
+    "A255066",
+    "A255122",
+    "A255125",
+    "A255126"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

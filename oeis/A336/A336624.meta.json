@@ -1,0 +1,42 @@
+{
+  "description": "Triangular numbers that are one-eighth of other triangular numbers; T(t) such that 8*T(t)=T(u) for some u where T(k) is the k-th triangular number.",
+  "id": "A336624",
+  "mentions": [
+    "A000217",
+    "A001571",
+    "A001652",
+    "A029549",
+    "A053141",
+    "A061278",
+    "A075528",
+    "A076139",
+    "A076140",
+    "A077259",
+    "A077260",
+    "A077261",
+    "A077262",
+    "A077288",
+    "A077289",
+    "A077290",
+    "A077291",
+    "A077398",
+    "A077399",
+    "A077400",
+    "A077401",
+    "A336623",
+    "A336625",
+    "A336626"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

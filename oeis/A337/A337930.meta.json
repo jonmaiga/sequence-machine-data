@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as the sum of two positive integers s,t such that s <= t and phi(s) = phi(t) where phi is the Euler totient function (A000010).",
+  "id": "A337930",
+  "mentions": [
+    "A000010",
+    "A337931"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

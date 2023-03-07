@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Index k where A227183(k) for the first time gets value n; the runlength binary code for minimally runlength-encoded unordered partition of size n.",
+  "id": "A227368",
+  "mentions": [
+    "A000267",
+    "A227183",
+    "A227189",
+    "A227369",
+    "A227370",
+    "A227739",
+    "A227761",
+    "A227762"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

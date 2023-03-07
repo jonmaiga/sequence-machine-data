@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{p primes} log(p) / (p-1)^2.",
+  "id": "A345308",
+  "mentions": [
+    "A138312",
+    "A306016",
+    "A345364"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

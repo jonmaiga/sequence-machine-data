@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: n-sect the angles of a nonagon (enneagon). Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A335784",
+  "mentions": [
+    "A332427",
+    "A335781",
+    "A335782",
+    "A335783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

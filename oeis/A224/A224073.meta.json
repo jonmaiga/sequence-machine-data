@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of words in F_2, modulo all automorphisms of F_2, whose minimal words have length n.",
+  "id": "A224073",
+  "mentions": [
+    "A224074"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

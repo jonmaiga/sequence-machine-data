@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1, a(d(x_1)*..*d(x_k)) = 1+a(x_1)+..+a(x_k) where d(n) = n-th Fermi-Dirac prime.",
+  "id": "A279614",
+  "mentions": [
+    "A004111",
+    "A050376",
+    "A061773",
+    "A061775",
+    "A084400",
+    "A276625",
+    "A279065"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

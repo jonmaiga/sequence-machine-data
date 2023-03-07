@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e written as a sequence of distinct positive integers.",
+  "id": "A175728",
+  "mentions": [
+    "A001113",
+    "A064809"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

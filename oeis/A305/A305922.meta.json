@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. log(1 + 2*x/(exp(x) + 1)).",
+  "id": "A305922",
+  "mentions": [
+    "A036968",
+    "A296837",
+    "A296838",
+    "A305711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

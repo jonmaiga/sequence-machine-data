@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, where t(n,1) = 1, t(n,m) = t(n,m-1) + (largest nonprime {1 or composite} in row {n-1}).",
+  "id": "A120853",
+  "mentions": [
+    "A120852",
+    "A160965"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

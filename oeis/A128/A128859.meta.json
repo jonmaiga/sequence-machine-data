@@ -1,0 +1,18 @@
+{
+  "description": "Let p be the n-th odd prime; a(n) is the number of primitive roots of p which are <= (p-1)/2.",
+  "id": "A128859",
+  "mentions": [
+    "A118818"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

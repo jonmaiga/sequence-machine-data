@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ceiling(A007504(n)/n) - floor(A007504(n)/n); a(n) is 0 if n divides the sum of first n primes, 1 otherwise.",
+  "id": "A267084",
+  "mentions": [
+    "A007504",
+    "A045345",
+    "A060620",
+    "A158682",
+    "A225804"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

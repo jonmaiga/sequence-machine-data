@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: numerators of c_{n,k}, n >= 0, 0 <= k <= n, used in the proof that Zeta(3) is irrational.",
+  "id": "A303988",
+  "mentions": [
+    "A005259",
+    "A007408",
+    "A007409",
+    "A059415",
+    "A059416",
+    "A063007",
+    "A303987",
+    "A303989"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

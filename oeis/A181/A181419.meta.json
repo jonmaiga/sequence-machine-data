@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form Fibonacci(p^{n+1})/Fibonacci(p^n) where p are primes, n>=1.",
+  "id": "A181419",
+  "mentions": [
+    "A001566",
+    "A002814",
+    "A145275",
+    "A145277"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

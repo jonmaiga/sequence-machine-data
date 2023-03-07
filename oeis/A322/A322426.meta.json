@@ -1,0 +1,23 @@
+{
+  "description": "Array read by downwards antidiagonals: A(n, k) is the k-th term of a \"Look to the left\" sequence starting with 1,2,...,n (see A293630).",
+  "id": "A322426",
+  "mentions": [
+    "A293630",
+    "A322423",
+    "A322424",
+    "A322425"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

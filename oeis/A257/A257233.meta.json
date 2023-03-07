@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicity sequence for the alternating row sums of triangle A257232.",
+  "id": "A257233",
+  "mentions": [
+    "A010051",
+    "A067970",
+    "A257232"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

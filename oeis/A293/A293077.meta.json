@@ -1,0 +1,23 @@
+{
+  "description": "Number of letters (0's and 1's) in the n-th iterate of the final-letter-removed mapping defined at A289035.",
+  "id": "A293077",
+  "mentions": [
+    "A289035",
+    "A289036",
+    "A289037",
+    "A293076",
+    "A293078"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

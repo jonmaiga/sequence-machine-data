@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of the series reversion of Sum_{n>=1} x^(n^2).",
+  "id": "A259938",
+  "mentions": [
+    "A049140",
+    "A192540"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

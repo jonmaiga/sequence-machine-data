@@ -1,0 +1,19 @@
+{
+  "description": "Least number whose set of decimal digits coincides with the set of decimal digits of prime(n).",
+  "id": "A357096",
+  "mentions": [
+    "A179239",
+    "A179308"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

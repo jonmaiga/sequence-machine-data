@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose prime indices have weakly decreasing run-sums. Heinz numbers of the partitions counted by A304406.",
+  "id": "A357861",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A047966",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A181819",
+    "A239312",
+    "A300273",
+    "A304405",
+    "A304406",
+    "A304430",
+    "A304442",
+    "A354584",
+    "A357850",
+    "A357864",
+    "A357865",
+    "A357875",
+    "A357876"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions that can be arranged into a matrix with equal row-sums and equal column-sums.",
+  "id": "A323306",
+  "mentions": [
+    "A006052",
+    "A007016",
+    "A056239",
+    "A112798",
+    "A120733",
+    "A137944",
+    "A319056",
+    "A319066",
+    "A321719",
+    "A323300",
+    "A323302",
+    "A323304",
+    "A323347",
+    "A323348",
+    "A323349"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

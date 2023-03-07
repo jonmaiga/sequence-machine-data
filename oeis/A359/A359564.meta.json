@@ -1,0 +1,20 @@
+{
+  "description": "Primitive terms of A359563: terms of A359563 with no proper divisor in A359563.",
+  "id": "A359564",
+  "mentions": [
+    "A326835",
+    "A359563",
+    "A359565",
+    "A359566"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

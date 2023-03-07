@@ -1,0 +1,20 @@
+{
+  "description": "Start at 2n+1, iterate the map x -> A337349(x); sequence gives the number of iterations to resulting cycle or -1 if the trajectory never cycles.",
+  "id": "A122563",
+  "mentions": [
+    "A102421",
+    "A102423",
+    "A337349"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

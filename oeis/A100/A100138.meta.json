@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/6)} C(n-3k,3k) * 2^(n-5k).",
+  "id": "A100138",
+  "mentions": [
+    "A052101",
+    "A100132",
+    "A100134",
+    "A100137",
+    "A100139"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

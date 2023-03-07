@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that Lucas(n)-Fibonacci(n) is squarefree.",
+  "id": "A258575",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005117",
+    "A007494",
+    "A037918",
+    "A118658",
+    "A258574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

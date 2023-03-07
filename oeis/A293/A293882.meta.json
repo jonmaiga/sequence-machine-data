@@ -1,0 +1,27 @@
+{
+  "description": "Continued fraction expansion of the minimum ripple factor for a reflectionless, Chebyshev filter, in the limit where the order approaches infinity.",
+  "id": "A293882",
+  "mentions": [
+    "A020784",
+    "A040021",
+    "A293409",
+    "A293415",
+    "A293416",
+    "A293417",
+    "A293768",
+    "A293769",
+    "A293770"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The least missing nonzero digit in the primorial base expansion of A276086(n).",
+  "id": "A329030",
+  "mentions": [
+    "A134193",
+    "A276086",
+    "A276087",
+    "A329028"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

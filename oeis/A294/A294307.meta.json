@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers m with m^k - 1 (k = 1,...,13) all practical.",
+  "id": "A294307",
+  "mentions": [
+    "A005153",
+    "A294112",
+    "A294200",
+    "A294225"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

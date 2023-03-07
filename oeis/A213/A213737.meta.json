@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers whose set of prime factors (taken with multiplicity) uses each digit from 0 to 9 exactly once.",
+  "id": "A213737",
+  "mentions": [
+    "A058909"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

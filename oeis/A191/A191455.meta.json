@@ -1,0 +1,29 @@
+{
+  "description": "Dispersion of (floor(n*e)), by antidiagonals.",
+  "id": "A191455",
+  "mentions": [
+    "A000040",
+    "A003603",
+    "A007067",
+    "A022343",
+    "A022843",
+    "A035506",
+    "A035513",
+    "A054385",
+    "A114537",
+    "A114538",
+    "A133299",
+    "A191426"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

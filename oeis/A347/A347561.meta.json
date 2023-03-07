@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that Conv(b,m) = b has a unique nontrivial solution (b = 0 and b = 1 are considered trivial solutions). Here, Conv(b,m) denotes the limit of b^^t (mod m) as t goes to infinity.",
+  "id": "A347561",
+  "mentions": [
+    "A000040",
+    "A101793",
+    "A183613",
+    "A343073",
+    "A347560"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

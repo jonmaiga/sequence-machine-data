@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of eta/xi = A086318/A086317, a coefficient associated with the asymptotics of the number of weakly binary trees.",
+  "id": "A245651",
+  "mentions": [
+    "A086317",
+    "A086318"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

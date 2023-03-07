@@ -1,0 +1,24 @@
+{
+  "description": "The number of zeros in the fundamental Pisano period of the sequence A000129 mod n.",
+  "id": "A214027",
+  "mentions": [
+    "A000129",
+    "A001175",
+    "A001176",
+    "A001177",
+    "A175181",
+    "A214028",
+    "A322906"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

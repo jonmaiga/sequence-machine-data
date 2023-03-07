@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the pentagonal number P(n) is equal to the sum of the octagonal numbers N(m), N(m+1) and N(m+2) for some m.",
+  "id": "A252093",
+  "mentions": [
+    "A000326",
+    "A000567",
+    "A252092"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

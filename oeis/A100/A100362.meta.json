@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 2^k - k + 1.",
+  "id": "A100362",
+  "mentions": [
+    "A001580",
+    "A048744",
+    "A052007",
+    "A100357",
+    "A100361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

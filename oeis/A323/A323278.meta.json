@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p^2-1 that have a record-breaking number of divisors, where p is prime.",
+  "id": "A323278",
+  "mentions": [
+    "A000005",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positive k such that there is at least one partition into parts {14, 52, 78, 133, 248} (terms of A113907).",
+  "id": "A162020",
+  "mentions": [
+    "A113907"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

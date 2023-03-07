@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct lines passing through at least three points in a triangular grid of side n.",
+  "id": "A234248",
+  "mentions": [
+    "A000217",
+    "A225606"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 3,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

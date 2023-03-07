@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 10*b_10(n) + 9, where b_10 lists the indices of zeros of the sequence A261310: u(n) = abs(u(n-1) - gcd(u(n-1), 10n-1)), u(1) = 1.",
+  "id": "A186263",
+  "mentions": [
+    "A106108",
+    "A186253",
+    "A186261",
+    "A261301",
+    "A261310"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The number of free polyominoes of width 2 and height n.",
+  "id": "A335711",
+  "mentions": [
+    "A005409",
+    "A078057",
+    "A107769",
+    "A268371",
+    "A352720"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

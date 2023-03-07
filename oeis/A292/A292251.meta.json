@@ -1,0 +1,24 @@
+{
+  "description": "The 3-adic valuation of A048673(n).",
+  "id": "A292251",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A048673",
+    "A292241",
+    "A292250",
+    "A292252",
+    "A292261"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

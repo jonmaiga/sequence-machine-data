@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows. T(1,1)=-1, n>1: If n/k=A020639(n) then 1 else 0.",
+  "id": "A181101",
+  "mentions": [
+    "A008836",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

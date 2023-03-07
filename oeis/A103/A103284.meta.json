@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where row n+1 is formed by sorting, in ascending order, the result of the convolution of row n with {1,1}.",
+  "id": "A103284",
+  "mentions": [
+    "A000079",
+    "A103285",
+    "A107430",
+    "A257641",
+    "A257646"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

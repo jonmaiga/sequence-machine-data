@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct shadow transforms for sequences of length n.",
+  "id": "A226443",
+  "mentions": [
+    "A000522",
+    "A056793"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

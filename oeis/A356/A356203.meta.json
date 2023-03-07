@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the first component x of the distance vector (x,y) in an oblique 120-degree coordinate system, 0 <= y <= x, between two nodes of an infinite triangular lattice of one-ohm resistors, such that the resistance R between the two nodes is as close as possible to n ohms, i.e., abs(R - n) is minimized. y is A356204(n).",
+  "id": "A356203",
+  "mentions": [
+    "A355585",
+    "A355586",
+    "A355587",
+    "A355588",
+    "A355589",
+    "A355954",
+    "A356201",
+    "A356202",
+    "A356204"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

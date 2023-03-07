@@ -1,0 +1,22 @@
+{
+  "description": "n-th digit in the base-2 expansion of 1/n.",
+  "id": "A323547",
+  "mentions": [
+    "A061480",
+    "A322392",
+    "A323591",
+    "A323592"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

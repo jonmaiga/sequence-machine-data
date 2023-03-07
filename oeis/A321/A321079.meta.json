@@ -1,0 +1,21 @@
+{
+  "description": "Digits of one of the two 11-adic integers sqrt(5).",
+  "id": "A321079",
+  "mentions": [
+    "A035449",
+    "A321077",
+    "A321078"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

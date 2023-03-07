@@ -1,0 +1,21 @@
+{
+  "description": "Number of segments needed to display the n-th prime number on a 7-segment LCD display.",
+  "id": "A302552",
+  "mentions": [
+    "A000040",
+    "A006942"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:11",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

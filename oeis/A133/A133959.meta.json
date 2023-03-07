@@ -1,0 +1,30 @@
+{
+  "description": "Home primes whose homeliness is greater than 2.",
+  "id": "A133959",
+  "mentions": [
+    "A037274",
+    "A118756",
+    "A133957",
+    "A133961",
+    "A133963",
+    "A133965",
+    "A133967",
+    "A133969",
+    "A133971",
+    "A133973",
+    "A133975",
+    "A133977",
+    "A133979"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

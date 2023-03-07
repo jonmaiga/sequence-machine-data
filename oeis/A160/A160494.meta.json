@@ -1,0 +1,18 @@
+{
+  "description": "Least prime r > q such that the third-order cyclotomic polynomial Phi(pqr,x) is flat with p,q,r distinct odd primes, ordered by pq.",
+  "id": "A160494",
+  "mentions": [
+    "A046388",
+    "A117223"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

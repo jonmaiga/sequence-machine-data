@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f. 1/ (1-x^1*(1-x^(m+1))/ (1-x^2*(1-x^(m+2))/ (1- ... ))) for m=7.",
+  "id": "A228644",
+  "mentions": [
+    "A143064",
+    "A173173",
+    "A185646",
+    "A227360",
+    "A227374",
+    "A227375",
+    "A228645",
+    "A228646"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

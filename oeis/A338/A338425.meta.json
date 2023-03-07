@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the points [prime(k), prime(k+1)], [prime(k+2), prime(k+3)] and [prime(k+4), prime(k+5)] are collinear.",
+  "id": "A338425",
+  "mentions": [
+    "A031131"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which, when divided by the sum of their prime factors, give a prime number.",
+  "id": "A199013",
+  "mentions": [
+    "A046346"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

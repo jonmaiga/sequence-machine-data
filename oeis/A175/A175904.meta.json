@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m for which the set of prime divisors of m^2-1 is unique.",
+  "id": "A175904",
+  "mentions": [
+    "A175607",
+    "A175901",
+    "A175903",
+    "A181447",
+    "A181471"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

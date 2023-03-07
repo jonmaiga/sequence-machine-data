@@ -1,0 +1,25 @@
+{
+  "description": "Primes for which the weight as defined in A117078 is 11 and the gap as defined in A001223 is 10.",
+  "id": "A119596",
+  "mentions": [
+    "A001223",
+    "A001359",
+    "A074822",
+    "A117078",
+    "A117563",
+    "A118359",
+    "A118922",
+    "A118924",
+    "A119504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

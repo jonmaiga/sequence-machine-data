@@ -1,0 +1,22 @@
+{
+  "description": "Primes congruent to 17 mod 37.",
+  "id": "A142126",
+  "mentions": [
+    "A000040",
+    "A142124",
+    "A142125",
+    "A144562"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:19",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

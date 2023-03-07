@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 2^k + 3^k + 6.",
+  "id": "A353102",
+  "mentions": [
+    "A075996"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

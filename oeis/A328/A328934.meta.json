@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree N such that A328919(N) = 1; nonsquarefree N such that {sigma_t(N) mod N: t >= 1} is purely periodic, while {sigma_t(N) mod N: t >= 0} is not.",
+  "id": "A328934",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A051903",
+    "A328919"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

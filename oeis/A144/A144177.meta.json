@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = b(2n-1)^b(2n) where b(3n+1) = floor(n/9) + 2, b(3n+2) = (n mod 9) + 2, b(3n+3) = b(3n+1)*b(3n+2) for n >= 0.",
+  "id": "A144177",
+  "mentions": [
+    "A144176",
+    "A144178"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

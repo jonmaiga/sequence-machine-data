@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the central binomial coefficient C(2*k,k) is divisible by k^6.",
+  "id": "A282672",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A014847",
+    "A121943",
+    "A282163",
+    "A282346",
+    "A283073",
+    "A283074"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

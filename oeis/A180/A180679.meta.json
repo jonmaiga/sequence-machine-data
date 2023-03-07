@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with three distinct prime factors which when concatenated in any order form prime numbers.",
+  "id": "A180679",
+  "mentions": [
+    "A181559",
+    "A217263",
+    "A217264",
+    "A217265"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

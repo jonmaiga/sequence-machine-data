@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = t(n) - s(n) where s(n) = n*(n-1)/2 is the sum of the first n nonnegative integers and t(n) is the smallest sum of consecutive integers starting from n such that t(n) > s(n).",
+  "id": "A355182",
+  "mentions": [
+    "A000217",
+    "A001477",
+    "A011900",
+    "A046090",
+    "A093001",
+    "A288998"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The numbers k for which Lucas(k) are Niven numbers.",
+  "id": "A337449",
+  "mentions": [
+    "A000032",
+    "A001101",
+    "A005349",
+    "A139374",
+    "A337448"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

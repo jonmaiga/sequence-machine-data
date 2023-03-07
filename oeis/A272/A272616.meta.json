@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array, r(n,k), by antidiagonals: the interspersion associated with the fractal sequence A249727.",
+  "id": "A272616",
+  "mentions": [
+    "A061536",
+    "A249727"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

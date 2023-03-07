@@ -1,0 +1,18 @@
+{
+  "description": "Where records occur in A051169.",
+  "id": "A116111",
+  "mentions": [
+    "A051169",
+    "A051610"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

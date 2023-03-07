@@ -1,0 +1,22 @@
+{
+  "description": "Cubes whose final digit or final two digits are the cube root.",
+  "id": "A215558",
+  "mentions": [
+    "A000578",
+    "A033819"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

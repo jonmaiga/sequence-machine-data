@@ -1,0 +1,17 @@
+{
+  "description": "Lexically least sequence such that a(n) next appears at index n+a(n+1) and such that a(1)=2.",
+  "id": "A309681",
+  "mentions": [
+    "A171922"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

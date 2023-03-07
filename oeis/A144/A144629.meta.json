@@ -1,0 +1,17 @@
+{
+  "description": "Last members of triples listed in A144625.",
+  "id": "A144629",
+  "mentions": [
+    "A144625"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

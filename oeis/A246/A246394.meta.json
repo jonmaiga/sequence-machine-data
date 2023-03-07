@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers k satisfying cos(k) <= 0 and cos(k+1) >= 0.",
+  "id": "A246394",
+  "mentions": [
+    "A062389",
+    "A246046",
+    "A246393",
+    "A246395",
+    "A246396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

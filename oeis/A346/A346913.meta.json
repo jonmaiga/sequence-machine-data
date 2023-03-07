@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows where each row is the level sequence of a rooted tree in Beyer and Hedetniemi's iteration.",
+  "id": "A346913",
+  "mentions": [
+    "A087803",
+    "A346914",
+    "A347539"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

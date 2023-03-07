@@ -1,0 +1,25 @@
+{
+  "description": "Number of concave-convex hexagons in the Y-toothpick structure of A160120 after n rounds.",
+  "id": "A161836",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160120",
+    "A160124",
+    "A161418",
+    "A161419",
+    "A161828",
+    "A161837"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

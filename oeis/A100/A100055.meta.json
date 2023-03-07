@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A100053.",
+  "id": "A100055",
+  "mentions": [
+    "A100053",
+    "A100054"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

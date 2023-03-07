@@ -1,0 +1,35 @@
+{
+  "description": "Dimension of 3-variable non-commutative harmonics (twisted derivative). The dimension of the space of non-commutative polynomials in 3 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( xi w ) = w and d_{xi} ( xj w ) = 0 for i != j).",
+  "id": "A122367",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001519",
+    "A008277",
+    "A048575",
+    "A055105",
+    "A055107",
+    "A074664",
+    "A087903",
+    "A106729",
+    "A112340",
+    "A122368",
+    "A122369",
+    "A122370",
+    "A122371",
+    "A122372",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

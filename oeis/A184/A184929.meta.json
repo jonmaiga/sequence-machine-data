@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + [rn/s] + [tn/s] + [un/s], where []=floor and r=sin(Pi/2), s=sin(Pi/3), t=sin(Pi/4), u=sin(Pi/5).",
+  "id": "A184929",
+  "mentions": [
+    "A184924",
+    "A184928",
+    "A184930",
+    "A184931"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:03",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

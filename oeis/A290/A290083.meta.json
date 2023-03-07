@@ -1,0 +1,20 @@
+{
+  "description": "Odd bisection of A289626.",
+  "id": "A290083",
+  "mentions": [
+    "A037225",
+    "A278223",
+    "A289626"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

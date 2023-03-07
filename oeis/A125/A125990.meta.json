@@ -1,0 +1,27 @@
+{
+  "description": "Number of partisan games for which A106486-encoding of the minimal representation is less than 2^n.",
+  "id": "A125990",
+  "mentions": [
+    "A065401",
+    "A106486",
+    "A114561",
+    "A125999",
+    "A126000",
+    "A126010",
+    "A126011",
+    "A126012",
+    "A320006"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

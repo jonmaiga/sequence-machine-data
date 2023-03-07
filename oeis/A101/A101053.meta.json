@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} Bell(k)/k! (cf. A000110).",
+  "id": "A101053",
+  "mentions": [
+    "A000110",
+    "A186755",
+    "A278677",
+    "A352270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

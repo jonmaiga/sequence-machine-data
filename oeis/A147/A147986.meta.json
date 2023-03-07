@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of denominator polynomials T(n,x) associated with reciprocation.",
+  "id": "A147986",
+  "mentions": [
+    "A147985",
+    "A147987",
+    "A147988",
+    "A147989",
+    "A147990",
+    "A147991",
+    "A147992",
+    "A147993"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

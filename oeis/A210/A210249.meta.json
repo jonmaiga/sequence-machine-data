@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n in which all parts are less than n/2.",
+  "id": "A210249",
+  "mentions": [
+    "A124278",
+    "A233771"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

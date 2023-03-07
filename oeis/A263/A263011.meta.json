@@ -1,0 +1,22 @@
+{
+  "description": "Numbers D == 1 (mod 8), not a square, and if composite without prime factors 3 or 5 (mod 8).",
+  "id": "A263011",
+  "mentions": [
+    "A000217",
+    "A007520",
+    "A007521",
+    "A263012",
+    "A264348"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

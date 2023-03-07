@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of lim_{k->infinity} (A291481(k)^(1/k)).",
+  "id": "A297890",
+  "mentions": [
+    "A291481",
+    "A293630",
+    "A296564"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let m be the n-th hyperoperation applied to n (see A189896). a(n) is the m-th hyperoperation applied to n and m.",
+  "id": "A213619",
+  "mentions": [
+    "A189896"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

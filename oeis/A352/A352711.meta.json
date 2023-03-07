@@ -1,0 +1,23 @@
+{
+  "description": "The left Aurifeuillian factor of p^p - 1 for primes p congruent to 1 (mod 4).",
+  "id": "A352711",
+  "mentions": [
+    "A002144",
+    "A125135",
+    "A230376",
+    "A352400",
+    "A352401",
+    "A352732"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

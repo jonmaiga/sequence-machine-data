@@ -1,0 +1,19 @@
+{
+  "description": "Largest k-digit prime == 1 (mod prime(n)) where k is the number of digits in prime(n), or 0 if no such prime exists.",
+  "id": "A109938",
+  "mentions": [
+    "A055642",
+    "A109939"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

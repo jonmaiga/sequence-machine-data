@@ -1,0 +1,19 @@
+{
+  "description": "Number of 6-cycles in the n-Bruhat graph.",
+  "id": "A317486",
+  "mentions": [
+    "A300851",
+    "A317487"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

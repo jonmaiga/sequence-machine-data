@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of acyclic digraphs on n labeled nodes with k arcs and a global source, n >= 1, k = 0..n*(n-1)/2.",
+  "id": "A350487",
+  "mentions": [
+    "A000169",
+    "A003025",
+    "A081064",
+    "A350488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

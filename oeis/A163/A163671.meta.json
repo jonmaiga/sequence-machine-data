@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Sum_( x^k / (1 - x^(k^2)) ).",
+  "id": "A163671",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A002110",
+    "A003277",
+    "A006881",
+    "A034444",
+    "A050384"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

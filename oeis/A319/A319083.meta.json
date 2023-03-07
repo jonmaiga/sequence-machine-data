@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of polynomials related to the D'Arcais polynomials and Dedekind's eta(q) function, triangle read by rows, T(n,k) for 0 <= k <= n.",
+  "id": "A319083",
+  "mentions": [
+    "A000007",
+    "A000203",
+    "A000385",
+    "A008298",
+    "A078521",
+    "A180305",
+    "A319933",
+    "A340993",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

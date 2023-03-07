@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number whose digits result from the concatenation of the digits of n and the digits of the product of the digits of n.",
+  "id": "A302801",
+  "mentions": [
+    "A007954",
+    "A108773",
+    "A302575"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

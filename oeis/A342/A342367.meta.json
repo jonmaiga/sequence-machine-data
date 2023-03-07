@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the least positive integer not occurring earlier that shares a digit but not a factor > 1 with a(n-1).",
+  "id": "A342367",
+  "mentions": [
+    "A184992",
+    "A239664",
+    "A249591",
+    "A309151",
+    "A342356",
+    "A342366"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

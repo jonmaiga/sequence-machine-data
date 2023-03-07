@@ -1,0 +1,21 @@
+{
+  "description": "Least number including digits 1,2,...,n and divisible by each of 1,2,...,n.",
+  "id": "A120673",
+  "mentions": [
+    "A115569",
+    "A120674"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

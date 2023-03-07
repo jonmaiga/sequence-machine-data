@@ -1,0 +1,31 @@
+{
+  "description": "Table by antidiagonals: a(m,n) is the number of m-dimensional partitions of n up to conjugacy, for m >= 0, n >= 1.",
+  "id": "A119338",
+  "mentions": [
+    "A000012",
+    "A000786",
+    "A046682",
+    "A118364",
+    "A118365",
+    "A119266",
+    "A119267",
+    "A119268",
+    "A119269",
+    "A119270",
+    "A119339",
+    "A119340",
+    "A119341",
+    "A119342"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

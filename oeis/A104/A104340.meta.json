@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (digital reversal of n) - n = 9.",
+  "id": "A104340",
+  "mentions": [
+    "A104341"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

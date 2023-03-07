@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) read by rows, n > 0 and 0 < k <= 3^(n-1): T(n, k) = A321768(n, k) * A321769(n, k) / 2.",
+  "id": "A322170",
+  "mentions": [
+    "A024406",
+    "A029549",
+    "A055112",
+    "A069072",
+    "A321768",
+    "A321769"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

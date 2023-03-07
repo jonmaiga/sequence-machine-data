@@ -1,0 +1,19 @@
+{
+  "description": "Number of black and white n-bead necklaces with at least 3 white beads (turning over is not allowed); also number of clockwise arrangements of reflex and non-reflex angles that can form an n-gon.",
+  "id": "A262232",
+  "mentions": [
+    "A000031",
+    "A227910"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

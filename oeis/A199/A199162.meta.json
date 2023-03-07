@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 6; for n>2, a(n) = least number > a(n-1) which is a unique sum of two distinct earlier terms.",
+  "id": "A199162",
+  "mentions": [
+    "A002858",
+    "A003663"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

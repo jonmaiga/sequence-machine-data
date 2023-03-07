@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = largest LCM of partitions of n divisible by n.",
+  "id": "A225655",
+  "mentions": [
+    "A000793",
+    "A225646",
+    "A225651",
+    "A225652",
+    "A225656",
+    "A225657"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

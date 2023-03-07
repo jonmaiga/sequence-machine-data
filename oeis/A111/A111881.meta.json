@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of row sums of array of ratios A111879(n,k)/A111880(n,k).",
+  "id": "A111881",
+  "mentions": [
+    "A000010",
+    "A069220",
+    "A111879",
+    "A111880"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

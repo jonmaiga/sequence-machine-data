@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that anti-phi(sigma*(n)) = n, where anti-phi is A066452 and sigma* is the sum of anti-divisors of n (A066417).",
+  "id": "A241004",
+  "mentions": [
+    "A001229",
+    "A066417",
+    "A066452"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

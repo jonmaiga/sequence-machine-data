@@ -1,0 +1,22 @@
+{
+  "description": "Mersenne numbers with digits sorted in increasing order and zeros suppressed.",
+  "id": "A135374",
+  "mentions": [
+    "A000215",
+    "A000225",
+    "A004185",
+    "A078726"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

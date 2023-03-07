@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers, which when mapped onto a square spiral, gives a set without three distinct evenly spaced aligned points.",
+  "id": "A333835",
+  "mentions": [
+    "A005836",
+    "A174344",
+    "A229037",
+    "A274923",
+    "A333825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

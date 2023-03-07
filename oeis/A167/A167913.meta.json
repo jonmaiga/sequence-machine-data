@@ -1,0 +1,18 @@
+{
+  "description": "Product of the n-th run of identical consecutive values of A166724.",
+  "id": "A167913",
+  "mentions": [
+    "A166546",
+    "A166724"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(row,col) = Sum_{k=0..row} binomial(row,k)*A002110(col+k), read by descending antidiagonals as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A276586",
+  "mentions": [
+    "A002110",
+    "A002262",
+    "A007318",
+    "A025581",
+    "A066117",
+    "A099884",
+    "A136104",
+    "A255483",
+    "A276085",
+    "A276587",
+    "A276588"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

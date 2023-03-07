@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = denominator(Sum_{k=1..n} (2^(k-1) - 1)/k).",
+  "id": "A330719",
+  "mentions": [
+    "A002805",
+    "A064169",
+    "A279683",
+    "A330718"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of x*(1 - x - x^3)/((1 - x)*(1 - 2*x - 3*x^2 - 2*x^3 - x^4)).",
+  "id": "A274203",
+  "mentions": [
+    "A000045",
+    "A003151",
+    "A014176",
+    "A190179",
+    "A272362"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:38:46",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

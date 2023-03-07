@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1. a(n) is the number of earlier terms of the sequence that are coprime to (n+a(n-1)).",
+  "id": "A129456",
+  "mentions": [
+    "A129457"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Run lengths of ones and zeros in binary expansion of sqrt(2), cf. A004539.",
+  "id": "A233836",
+  "mentions": [
+    "A004539",
+    "A084186",
+    "A084187",
+    "A175911"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

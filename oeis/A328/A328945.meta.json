@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m that are neither arithmetic (A003601) nor harmonic (A001599).",
+  "id": "A328945",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A003601",
+    "A007340",
+    "A328944"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the n-th Ludic number and the n-th noncomposite number: a(n) = A003309(n) - A008578(n).",
+  "id": "A255324",
+  "mentions": [
+    "A003309",
+    "A008578",
+    "A032600",
+    "A255325",
+    "A255421",
+    "A255422"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

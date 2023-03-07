@@ -1,0 +1,22 @@
+{
+  "description": "Given the two curves y = exp(-x) and y = 2/(exp(x) + exp(x/2)), draw a line tangent to both. This sequence is the decimal expansion of the x-coordinate of the point at which the line touches y = exp(-x).",
+  "id": "A319569",
+  "mentions": [
+    "A086277",
+    "A086278",
+    "A245330",
+    "A319568"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

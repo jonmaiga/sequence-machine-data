@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer compositions of n whose parts have weakly decreasing numbers of prime factors (with multiplicity).",
+  "id": "A358335",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A011782",
+    "A056239",
+    "A063834",
+    "A141199",
+    "A218482",
+    "A300335",
+    "A319071",
+    "A319169",
+    "A320324",
+    "A358831",
+    "A358901",
+    "A358902",
+    "A358903",
+    "A358904",
+    "A358908",
+    "A358909",
+    "A358910",
+    "A358911"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

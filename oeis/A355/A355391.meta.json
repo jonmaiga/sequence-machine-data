@@ -1,0 +1,37 @@
+{
+  "description": "Position of first appearance of n in A181591 = binomial(bigomega(n), omega(n)).",
+  "id": "A355391",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A006987",
+    "A022811",
+    "A056239",
+    "A070175",
+    "A071625",
+    "A118914",
+    "A181591",
+    "A181819",
+    "A185024",
+    "A303555",
+    "A323014",
+    "A323023",
+    "A339006",
+    "A355383",
+    "A355384",
+    "A355386",
+    "A355392"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

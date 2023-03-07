@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. = exp (e.g.f. for Ramanujan tau function A000594).",
+  "id": "A302200",
+  "mentions": [
+    "A000594",
+    "A302201"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the difference of two n-gonal numbers in exactly n ways.",
+  "id": "A338105",
+  "mentions": [
+    "A038547",
+    "A068314",
+    "A072502",
+    "A257411",
+    "A334034",
+    "A334035",
+    "A334036",
+    "A334037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 4^n + 7 is prime.",
+  "id": "A217349",
+  "mentions": [
+    "A057195",
+    "A059266",
+    "A089437",
+    "A104066"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of liberties of the group of n stones labeled 1 to n, by analogy to the game of go, in a pi(n)-dimensional board where a stone's coordinates are its label's p-adic valuations.",
+  "id": "A319875",
+  "mentions": [
+    "A000720",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

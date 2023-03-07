@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of Dyck paths of semilength n having k ascents of length 3 (0<=k<=floor(n/3)). Also number of ordered trees with n edges that have k vertices of outdegree 3.",
+  "id": "A114506",
+  "mentions": [
+    "A000108",
+    "A001791",
+    "A102402",
+    "A114507",
+    "A114508"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

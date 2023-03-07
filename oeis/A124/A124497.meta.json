@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1-2-3 trees with n edges and with thinning limbs.",
+  "id": "A124497",
+  "mentions": [
+    "A090344",
+    "A124344"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

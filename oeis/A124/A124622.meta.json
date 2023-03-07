@@ -1,0 +1,27 @@
+{
+  "description": "Smallest odd interprime divisible by n-th odd prime.",
+  "id": "A124622",
+  "mentions": [
+    "A072569",
+    "A072572",
+    "A072573",
+    "A124619",
+    "A124620",
+    "A126228",
+    "A126229",
+    "A126230",
+    "A126231",
+    "A126233"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

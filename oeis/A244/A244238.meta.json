@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of K = exp(8*G/(3*Pi)), a Kneser-Mahler constant related to an asymptotic inequality involving Bombieri's supremum norm, where G is Catalan's constant. K can be evaluated as Mahler's generalized height measure of the bivariate polynomial (1+x+x^2+y)^2.",
+  "id": "A244238",
+  "mentions": [
+    "A006752",
+    "A242908",
+    "A242909",
+    "A242910"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

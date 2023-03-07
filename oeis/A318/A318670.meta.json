@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of divisors of n whose least common multiple is n and the sum does not exceed n. For n > 1, 1 is excluded from the set of divisors.",
+  "id": "A318670",
+  "mentions": [
+    "A000961",
+    "A006881",
+    "A069626",
+    "A317624"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

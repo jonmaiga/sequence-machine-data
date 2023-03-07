@@ -1,0 +1,22 @@
+{
+  "description": "Fifth diagonal sequence of the Sheffer triangle A094816 (special Charlier).",
+  "id": "A290314",
+  "mentions": [
+    "A094816",
+    "A290311",
+    "A290312",
+    "A290313"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:09:53",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

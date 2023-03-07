@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers that are also brilliant (A078972).",
+  "id": "A113940",
+  "mentions": [
+    "A000217",
+    "A068443",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

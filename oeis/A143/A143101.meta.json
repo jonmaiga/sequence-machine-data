@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A143097.",
+  "id": "A143101",
+  "mentions": [
+    "A000217",
+    "A079978",
+    "A143097"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

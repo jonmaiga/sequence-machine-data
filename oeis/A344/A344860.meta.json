@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A306920(k) contains the digit 0 and A306920(k+1) is not A306920(k) with a digit 0 removed.",
+  "id": "A344860",
+  "mentions": [
+    "A306920",
+    "A306926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

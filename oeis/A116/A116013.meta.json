@@ -1,0 +1,19 @@
+{
+  "description": "n+sigma(n)+sigma(sigma(n)) is a cube.",
+  "id": "A116013",
+  "mentions": [
+    "A116012",
+    "A116014",
+    "A116015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

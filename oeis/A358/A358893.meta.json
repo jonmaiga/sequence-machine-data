@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..A193020(n), read by rows: the n-th row lists the numbers obtained by self-shuffling the binary expansion of n.",
+  "id": "A358893",
+  "mentions": [
+    "A193020",
+    "A330940",
+    "A330941",
+    "A358892"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

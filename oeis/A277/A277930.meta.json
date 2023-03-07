@@ -1,0 +1,21 @@
+{
+  "description": "Array of coefficients a(k,n) of the formal power series A(k,x) read by upwards antidiagonals, where A(k,x) = ((2*k+1)*x+sqrt(1+4*k*(k+1)*x^2))/(1-x^2), k>=0.",
+  "id": "A277930",
+  "mentions": [
+    "A000108",
+    "A234950"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

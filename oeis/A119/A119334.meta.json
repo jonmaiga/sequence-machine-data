@@ -1,0 +1,20 @@
+{
+  "description": "Indices of Apery-primes: numbers n such that the concatenation of the first n decimal digits of Apery's constant zeta(3) is prime.",
+  "id": "A119334",
+  "mentions": [
+    "A002117",
+    "A119333"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

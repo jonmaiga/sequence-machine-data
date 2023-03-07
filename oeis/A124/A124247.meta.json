@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n!!-8 and n!!+8 are two consecutive primes.",
+  "id": "A124247",
+  "mentions": [
+    "A076188"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

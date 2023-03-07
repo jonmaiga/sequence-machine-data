@@ -1,0 +1,26 @@
+{
+  "description": "Number of sortable factorizations of n.",
+  "id": "A326334",
+  "mentions": [
+    "A001055",
+    "A058681",
+    "A326211",
+    "A326212",
+    "A326237",
+    "A326258",
+    "A326291",
+    "A326332",
+    "A326333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

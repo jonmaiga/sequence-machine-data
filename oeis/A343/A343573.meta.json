@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n} d^d * binomial(d+n/d-2, d-1).",
+  "id": "A343573",
+  "mentions": [
+    "A023887",
+    "A157019",
+    "A157020",
+    "A324158",
+    "A324159",
+    "A338661",
+    "A339481",
+    "A339482",
+    "A339712",
+    "A343567",
+    "A343574"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

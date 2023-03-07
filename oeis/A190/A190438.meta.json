@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 1 in A190436.",
+  "id": "A190438",
+  "mentions": [
+    "A190436",
+    "A190437",
+    "A190439",
+    "A302253"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

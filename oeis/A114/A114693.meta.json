@@ -1,0 +1,20 @@
+{
+  "description": "Number of returns to the x-axis in all hill-free Schroeder paths of length 2n+4. A Schroeder path of length 2n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis. A hill is a peak at height 1.",
+  "id": "A114693",
+  "mentions": [
+    "A049611",
+    "A104219",
+    "A114692"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The prime ending in 3 is the only prime in a decade.",
+  "id": "A216310",
+  "mentions": [
+    "A007811",
+    "A030431",
+    "A032352",
+    "A078494"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

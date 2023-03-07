@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative numbers such that for any n >= 0, A065359(a(n)) = - A065359(n).",
+  "id": "A302544",
+  "mentions": [
+    "A039004",
+    "A065359",
+    "A298847"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of all trees of weight n, where nodes have positive integer weights and the sum of the weights of the children of a node is equal to the weight of the node.",
+  "id": "A118376",
+  "mentions": [
+    "A000108",
+    "A000311",
+    "A001003",
+    "A005804",
+    "A007317",
+    "A007853",
+    "A032171",
+    "A032200",
+    "A143363",
+    "A289501",
+    "A317852"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

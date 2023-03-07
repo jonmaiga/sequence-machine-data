@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 29*k^2 + 29*k +1 = n^2, n sequence = A104651.",
+  "id": "A104652",
+  "mentions": [
+    "A104651"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:50:15",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

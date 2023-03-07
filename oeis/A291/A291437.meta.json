@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m >= 0 such that (2*n)*3^m + 1 is prime, or -1 if no such value exists.",
+  "id": "A291437",
+  "mentions": [
+    "A005097",
+    "A046067",
+    "A047845",
+    "A123159",
+    "A291438"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

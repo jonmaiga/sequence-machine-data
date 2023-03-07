@@ -1,0 +1,27 @@
+{
+  "description": "Refactorable multiply-perfect numbers.",
+  "id": "A245782",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007691",
+    "A033950",
+    "A047728",
+    "A245776",
+    "A245777",
+    "A245778",
+    "A245779",
+    "A245786"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

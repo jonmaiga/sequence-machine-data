@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)/(1 - x)^n.",
+  "id": "A295183",
+  "mentions": [
+    "A000407",
+    "A000522",
+    "A001622",
+    "A001813",
+    "A081923",
+    "A295182",
+    "A295188"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

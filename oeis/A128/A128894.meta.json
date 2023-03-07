@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, giving dimensions of exceptional groups with extension to E9 as a non-simple Lie algebra.",
+  "id": "A128894",
+  "mentions": [
+    "A133238"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

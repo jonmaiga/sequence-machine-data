@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of partitions of n in which no part is divisible by 3 minus the number of basis partitions of n.",
+  "id": "A350636",
+  "mentions": [
+    "A000726",
+    "A066447"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

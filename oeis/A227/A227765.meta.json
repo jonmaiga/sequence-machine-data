@@ -1,0 +1,22 @@
+{
+  "description": "First n-fold perfect number divided by 6, or 0 if the quotient is not an integer.",
+  "id": "A227765",
+  "mentions": [
+    "A007539",
+    "A227766",
+    "A227767",
+    "A227768",
+    "A227769"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

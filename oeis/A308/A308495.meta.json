@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the position of the first occurrence of prime(n) in A027748.",
+  "id": "A308495",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A013939",
+    "A027748",
+    "A082186"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

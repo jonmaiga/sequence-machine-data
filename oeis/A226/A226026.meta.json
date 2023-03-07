@@ -1,0 +1,21 @@
+{
+  "description": "Maximum fixed points under iteration of sum of cubes of digits in base n.",
+  "id": "A226026",
+  "mentions": [
+    "A046197",
+    "A193583",
+    "A194025",
+    "A209242"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

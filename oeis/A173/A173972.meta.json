@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are not in A173970 or A173971.",
+  "id": "A173972",
+  "mentions": [
+    "A173970",
+    "A173971"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

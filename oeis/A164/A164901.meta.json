@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2) = 2. For n >=3, a(n) = the smallest integer > a(n-1) that is coprime to every sum of any two distinct earlier terms of this sequence.",
+  "id": "A164901",
+  "mentions": [
+    "A164902",
+    "A164903",
+    "A164980"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

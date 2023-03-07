@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1+x+x^2)/(1+x^2).",
+  "id": "A117569",
+  "mentions": [
+    "A073097",
+    "A101455",
+    "A117568",
+    "A163804",
+    "A163805"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

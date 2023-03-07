@@ -1,0 +1,24 @@
+{
+  "description": "The products k of two distinct primes such that 2*k-1, 4*k-3, 8*k-7, 16*k-15, 32*k-31, 64*k-63, 128*k-127 and 256*k-255 are also products of two distinct primes.",
+  "id": "A177217",
+  "mentions": [
+    "A006881",
+    "A177210",
+    "A177211",
+    "A177212",
+    "A177213",
+    "A177214",
+    "A177215",
+    "A177216"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

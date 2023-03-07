@@ -1,0 +1,32 @@
+{
+  "description": "Multinomial coefficient of the prime signature of n!.",
+  "id": "A325617",
+  "mentions": [
+    "A000142",
+    "A008480",
+    "A011371",
+    "A022559",
+    "A076934",
+    "A108731",
+    "A115627",
+    "A181819",
+    "A318762",
+    "A325272",
+    "A325273",
+    "A325508",
+    "A325543",
+    "A325544",
+    "A325609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

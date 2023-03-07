@@ -1,0 +1,21 @@
+{
+  "description": "Alternately odd prime and odd composite numbers.",
+  "id": "A129145",
+  "mentions": [
+    "A065091",
+    "A071904",
+    "A129131",
+    "A129146"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

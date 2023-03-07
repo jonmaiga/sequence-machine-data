@@ -1,0 +1,25 @@
+{
+  "description": "Integers k that are periodic points for some iterations of k->A357143(k).",
+  "id": "A357954",
+  "mentions": [
+    "A010346",
+    "A101337",
+    "A110592",
+    "A151544",
+    "A157714",
+    "A357143"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "oi": 243903,
+  "ps": [
+    {
+      "d": "2022-06-21",
+      "ix": "∑[runs[contfrac[tanh(2)]]²]",
+      "mt": 30,
+      "px": [
+        "2",
+        "tanh",
+        "contfrac",
+        "runs",
+        "²",
+        "∑"
+      ]
+    },
+    {
+      "d": "2022-06-21",
+      "ix": "∑[nonprime(runs[contfrac[tanh(2)]])]",
+      "mt": 30,
+      "px": [
+        "2",
+        "tanh",
+        "contfrac",
+        "runs",
+        "nonprime",
+        "∑"
+      ]
+    },
+    {
+      "d": "2022-06-21",
+      "ix": "∑[runs[de[log2(ϕ)]]²]",
+      "mt": 30,
+      "px": [
+        "ϕ",
+        "log2",
+        "de",
+        "runs",
+        "²",
+        "∑"
+      ]
+    },
+    {
+      "d": "2022-06-21",
+      "ix": "∑[nonprime(runs[de[log2(ϕ)]])]",
+      "mt": 30,
+      "px": [
+        "ϕ",
+        "log2",
+        "de",
+        "runs",
+        "nonprime",
+        "∑"
+      ]
+    },
+    {
+      "d": "2022-06-21",
+      "ix": "∑[L(runs[de[tan(e)]])]",
+      "mt": 30,
+      "px": [
+        "e",
+        "tan",
+        "de",
+        "runs",
+        "L",
+        "∑"
+      ]
+    }
+  ]
+}

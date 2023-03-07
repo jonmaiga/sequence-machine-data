@@ -1,0 +1,20 @@
+{
+  "description": "Number triangle with entry T(n,m) giving the position of the first partition of n with m parts in the Abramowitz-Stegun (A-St) partition ordering.",
+  "id": "A214314",
+  "mentions": [
+    "A008284",
+    "A036036"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

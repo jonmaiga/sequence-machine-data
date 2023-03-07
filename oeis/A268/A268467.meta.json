@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime that is the (sum, k*prime(k),k=m,..n+m-1) for some m, or 0 if no such m exists.",
+  "id": "A268467",
+  "mentions": [
+    "A000040",
+    "A033286",
+    "A105454",
+    "A105455",
+    "A119487",
+    "A152117",
+    "A268465"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

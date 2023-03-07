@@ -1,0 +1,22 @@
+{
+  "description": "Next term is the sum of the last 10 digits in the sequence, beginning with a(10) = 5.",
+  "id": "A112436",
+  "mentions": [
+    "A001370",
+    "A004207",
+    "A065075",
+    "A112395"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

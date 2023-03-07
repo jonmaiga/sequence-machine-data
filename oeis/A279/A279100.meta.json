@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} ceiling(phi^k), where phi is the golden ratio (A001622).",
+  "id": "A279100",
+  "mentions": [
+    "A001622",
+    "A020956",
+    "A169986"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:14:07",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

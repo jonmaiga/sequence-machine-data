@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 10th Stieltjes constant.",
+  "id": "A184854",
+  "mentions": [
+    "A001620",
+    "A082633",
+    "A086279",
+    "A086282",
+    "A183141",
+    "A183167",
+    "A183206",
+    "A184853"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

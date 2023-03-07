@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of triangle A120919 (cascadence of (1+x)^3).",
+  "id": "A120923",
+  "mentions": [
+    "A001764",
+    "A120919",
+    "A120920",
+    "A120921",
+    "A120922"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

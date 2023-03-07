@@ -1,0 +1,29 @@
+{
+  "description": "Indices of primes p in A182514, i.e., a(n) = primepi(p) = A000720(A182514(n)).",
+  "id": "A241540",
+  "mentions": [
+    "A000720",
+    "A002386",
+    "A005669",
+    "A053302",
+    "A053976",
+    "A073861",
+    "A111870",
+    "A111943",
+    "A182514",
+    "A205827",
+    "A214935"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

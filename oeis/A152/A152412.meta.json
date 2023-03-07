@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers of the form s^2-m^5, m>=1.",
+  "id": "A152412",
+  "mentions": [
+    "A087286",
+    "A152411",
+    "A165289"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

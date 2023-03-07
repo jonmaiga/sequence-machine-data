@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k + prime(k) is a brilliant number (A078972).",
+  "id": "A115912",
+  "mentions": [
+    "A078972",
+    "A115913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

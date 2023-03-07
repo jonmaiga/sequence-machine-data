@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number of steps that can occur during the following procedure: start with n piles each containing one stone; any number of stones can be transferred between piles of equal size.",
+  "id": "A292729",
+  "mentions": [
+    "A011371",
+    "A121924",
+    "A292726",
+    "A292728"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

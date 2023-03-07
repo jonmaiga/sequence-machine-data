@@ -1,0 +1,20 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w>=average{x,y,z}.",
+  "id": "A212089",
+  "mentions": [
+    "A211795",
+    "A212069",
+    "A212088"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:44:15",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

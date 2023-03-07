@@ -1,0 +1,32 @@
+{
+  "description": "Tetrahedron T(g, h, w) = number of rotes of weight g, height h, wayage w.",
+  "id": "A112096",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A007097",
+    "A014221",
+    "A050924",
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177",
+    "A109300",
+    "A109301",
+    "A111791",
+    "A111800",
+    "A112095"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

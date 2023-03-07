@@ -1,0 +1,24 @@
+{
+  "description": "Triangle (sans apex) of coefficients of terms of the form (eM_1)^j*(eM_2)^k re construction of triangle A287768.",
+  "id": "A288842",
+  "mentions": [
+    "A000244",
+    "A287768",
+    "A288834",
+    "A288835",
+    "A288836",
+    "A288838"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

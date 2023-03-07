@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 'C' (as designated by D. Shanks), a constant appearing in the second order term of the asymptotic expansion of the number of non-hypotenuse numbers not exceeding a given bound.",
+  "id": "A244662",
+  "mentions": [
+    "A004144",
+    "A009003",
+    "A062539",
+    "A227158",
+    "A244659"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

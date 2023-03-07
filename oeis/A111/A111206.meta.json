@@ -1,0 +1,20 @@
+{
+  "description": "Semi-Sophie Germain semiprimes: semiprimes which are the product of Sophie Germain primes.",
+  "id": "A111206",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A111153",
+    "A111207"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

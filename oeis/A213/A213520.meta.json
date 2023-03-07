@@ -1,0 +1,17 @@
+{
+  "description": "Least number k0 such that (prime(k+1) / prime(k))^n < 2 for all k >= k0.",
+  "id": "A213520",
+  "mentions": [
+    "A213521"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+6 are both balanced primes.",
+  "id": "A173892",
+  "mentions": [
+    "A006562",
+    "A033451",
+    "A054801"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the polynomial 1 + x + x^2 + x^3 + x^4 + ... + x^(n-1) is reducible over GF(2).",
+  "id": "A216845",
+  "mentions": [
+    "A001122",
+    "A002326",
+    "A216838"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that m XOR 32*m = 33*m.",
+  "id": "A114086",
+  "mentions": [
+    "A001477",
+    "A003714",
+    "A048716",
+    "A115845",
+    "A115847",
+    "A116361"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

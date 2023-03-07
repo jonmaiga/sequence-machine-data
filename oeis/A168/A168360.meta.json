@@ -1,0 +1,20 @@
+{
+  "description": "n-b(n), where b(n) = A079777(n) = (b(n-1)+b(n-2) mod n); b(0)=0, b(1)=1.",
+  "id": "A168360",
+  "mentions": [
+    "A001477",
+    "A073853",
+    "A079777"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

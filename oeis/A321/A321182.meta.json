@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that sigma(k)/k' is an integer, where k' is the arithmetic derivative of k.",
+  "id": "A321182",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A230164",
+    "A242152"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

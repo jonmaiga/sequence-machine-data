@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimally 4-connected non-isomorphic n-vertex graphs.",
+  "id": "A324418",
+  "mentions": [
+    "A003317",
+    "A324088",
+    "A324424"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 divides 3^k - 2^k - 1.",
+  "id": "A127074",
+  "mentions": [
+    "A127071",
+    "A127072",
+    "A127073"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

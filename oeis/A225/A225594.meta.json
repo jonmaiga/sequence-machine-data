@@ -1,0 +1,19 @@
+{
+  "description": "Least splitter of s(n) and s(n+1), where s(n) = (1 + n)^(1/n).",
+  "id": "A225594",
+  "mentions": [
+    "A227631"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

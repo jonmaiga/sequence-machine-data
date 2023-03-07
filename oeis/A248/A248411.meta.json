@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the best lower bound for the Steiner ratio rho_3, the least upper bound on the ratio of the length of the Steiner minimal tree to the length of the minimal tree in dimension 3.",
+  "id": "A248411",
+  "mentions": [
+    "A220351"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

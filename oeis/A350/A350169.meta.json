@@ -1,0 +1,18 @@
+{
+  "description": "Write 1st prime and decrement 0 times, then write 2nd prime and decrement once, write 3rd prime and decrement twice, write 4th prime and decrement 3 times, etc ...",
+  "id": "A350169",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

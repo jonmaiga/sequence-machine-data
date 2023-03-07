@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with the property that k and k^2 + 3k+9 are primes.",
+  "id": "A175283",
+  "mentions": [
+    "A005471",
+    "A175281",
+    "A175282"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

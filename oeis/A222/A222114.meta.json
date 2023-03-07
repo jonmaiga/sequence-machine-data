@@ -1,0 +1,19 @@
+{
+  "description": "Least integer m>1 such that 6*p_k*(p_k-1) (k=1,...,n) are pairwise incongruent modulo m, where p_k denotes the k-th prime.",
+  "id": "A222114",
+  "mentions": [
+    "A000040",
+    "A181901",
+    "A208643"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

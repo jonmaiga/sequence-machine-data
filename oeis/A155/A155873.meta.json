@@ -1,0 +1,20 @@
+{
+  "description": "This sequence of prime numbers reproduces itself (without its \"tail\") when the last digit of each term is erased.",
+  "id": "A155873",
+  "mentions": [
+    "A024770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

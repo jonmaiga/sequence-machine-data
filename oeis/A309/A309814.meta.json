@@ -1,0 +1,23 @@
+{
+  "description": "Where records occur in A171898.",
+  "id": "A309814",
+  "mentions": [
+    "A171866",
+    "A171867",
+    "A171898",
+    "A181391",
+    "A309813"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

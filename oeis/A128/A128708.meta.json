@@ -1,0 +1,20 @@
+{
+  "description": "Let j(n) be the Jacobsthal function, A048669. Then a(n) is the number of times that the gap j(n) appears between consecutive numbers <= n+1 and coprime to n.",
+  "id": "A128708",
+  "mentions": [
+    "A007947",
+    "A048669",
+    "A087653",
+    "A128707"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The sequence a of 1's and 2's starting with (1,1,1,1) such that a(n) is the length of the (n+1)st run of a.",
+  "id": "A270641",
+  "mentions": [
+    "A000002",
+    "A006928",
+    "A022300",
+    "A222300",
+    "A270642",
+    "A270643",
+    "A270644",
+    "A270645",
+    "A270646",
+    "A270647",
+    "A270648"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

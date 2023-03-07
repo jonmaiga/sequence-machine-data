@@ -1,0 +1,21 @@
+{
+  "description": "A diagonal of irregular triangle A201949.",
+  "id": "A201953",
+  "mentions": [
+    "A201949",
+    "A201950",
+    "A201951",
+    "A201952"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

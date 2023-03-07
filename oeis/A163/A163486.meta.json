@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A163485.",
+  "id": "A163486",
+  "mentions": [
+    "A163485"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

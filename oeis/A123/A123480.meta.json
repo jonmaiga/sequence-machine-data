@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of the series giving the best rational approximations to sqrt(3).",
+  "id": "A123480",
+  "mentions": [
+    "A001353",
+    "A029549",
+    "A045899",
+    "A076139",
+    "A076140",
+    "A123478",
+    "A123479",
+    "A123482",
+    "A217855"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

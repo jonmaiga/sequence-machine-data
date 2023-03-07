@@ -1,0 +1,21 @@
+{
+  "description": "Let S_n denote the list of decimal numbers 0 to n, written backwards (allowing leading zeros) and arranged in lexicographic order; a(n) = position where backwards-n appears, starting indexing at 0.",
+  "id": "A264600",
+  "mentions": [
+    "A061486",
+    "A264596",
+    "A264668"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

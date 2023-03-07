@@ -1,0 +1,21 @@
+{
+  "description": "Second column (m=2) of triangle S2hat(-2) = A144275.",
+  "id": "A144277",
+  "mentions": [
+    "A008544",
+    "A144275",
+    "A144278"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

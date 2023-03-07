@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = gcd(A113605(n+1), A113605(n)). Also, for n >= 2, a(n) = A113605(n+2) - A113605(n-1).",
+  "id": "A113924",
+  "mentions": [
+    "A113605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

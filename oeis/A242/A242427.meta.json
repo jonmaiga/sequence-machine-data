@@ -1,0 +1,20 @@
+{
+  "description": "n! mod n^3.",
+  "id": "A242427",
+  "mentions": [
+    "A000142",
+    "A000578",
+    "A072230",
+    "A242426"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:11:35",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

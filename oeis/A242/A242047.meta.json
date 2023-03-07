@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic growth rate of the number of odd coefficients in Pascal \"sextinomial\" triangle mod 2, where coefficients are from (1+x+x^2+x^3+x^4+x^5)^n.",
+  "id": "A242047",
+  "mentions": [
+    "A241002",
+    "A242021",
+    "A242022",
+    "A242208"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

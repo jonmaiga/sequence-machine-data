@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A360119(k) > 1, but which have no divisors d > 1 such that d+1 is also a divisor.",
+  "id": "A360129",
+  "mentions": [
+    "A088722",
+    "A088725",
+    "A360119",
+    "A360128"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

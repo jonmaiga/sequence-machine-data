@@ -1,0 +1,23 @@
+{
+  "description": "Maximum length of a perfect Wichmann ruler with n segments.",
+  "id": "A289761",
+  "mentions": [
+    "A004137",
+    "A103294",
+    "A193802",
+    "A193803",
+    "A289873"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of 3-factorizations of n.",
+  "id": "A332207",
+  "mentions": [
+    "A014556"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1+1/(2p))*sqrt(1-1/p), a constant related to the asymptotic average number of squares modulo n.",
+  "id": "A271547",
+  "mentions": [
+    "A046073",
+    "A105612"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are multiple-digit narcissistic numbers in at least one base.",
+  "id": "A265889",
+  "mentions": [
+    "A000040",
+    "A145380",
+    "A180015",
+    "A256359"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Write 1 - t * x/(1-x) as an inverse power product 1/(1+c(1)x) * 1/(1+c(2)x^2) * 1/(1+c(3)x^3) * ... The sequence is a regular triangle where T(n,k) is the coefficient of t^k in c(n), 1 <= k <= n.",
+  "id": "A290320",
+  "mentions": [
+    "A220418",
+    "A273866",
+    "A289501",
+    "A290261",
+    "A290262"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

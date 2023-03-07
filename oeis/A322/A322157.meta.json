@@ -1,0 +1,22 @@
+{
+  "description": "The successive approximations up to 5^n for 5-adic integer 7^(1/5).",
+  "id": "A322157",
+  "mentions": [
+    "A309450",
+    "A309451",
+    "A309452",
+    "A309453",
+    "A309454",
+    "A322169"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

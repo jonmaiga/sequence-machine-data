@@ -1,0 +1,19 @@
+{
+  "description": "The 'Honeycomb' or 'Beehive' sequence: a(n) = ceiling(12^(1/4)*n).",
+  "id": "A228295",
+  "mentions": [
+    "A011009",
+    "A195125"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

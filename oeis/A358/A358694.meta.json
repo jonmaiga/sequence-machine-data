@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Coefficients of the polynomials H(n, x) = Sum_{k=0..n-1} Sum_{i=0..k} abs(Stirling1(n, n - i)) * x^(n - k) in ascending order of powers.",
+  "id": "A358694",
+  "mentions": [
+    "A000254",
+    "A001008"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = mu(n)*Sum_{k=1..n} (n/k) where mu(n) is Möbius (or Moebius) function and (x/y) is Kronecker's symbol.",
+  "id": "A253179",
+  "mentions": [
+    "A008683",
+    "A071961"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

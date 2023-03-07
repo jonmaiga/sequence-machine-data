@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that each part is no more than 4 more than the sum of all smaller parts.",
+  "id": "A286097",
+  "mentions": [
+    "A126796",
+    "A286929"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

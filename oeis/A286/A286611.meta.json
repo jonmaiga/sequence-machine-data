@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n for which A019565(n) <= A087207(n).",
+  "id": "A286611",
+  "mentions": [
+    "A007947",
+    "A019565",
+    "A048675",
+    "A087207",
+    "A285315",
+    "A285316",
+    "A286608",
+    "A286609",
+    "A286612"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

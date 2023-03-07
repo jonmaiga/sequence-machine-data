@@ -1,0 +1,36 @@
+{
+  "description": "A number triangle T(n,k) read by rows for 0<=k<=n, related to the Taylor expansion of f(u, p) = (1/2)*(1+1/(sqrt(1-u^2)))*exp(p*sqrt(1-u^2)).",
+  "id": "A305402",
+  "mentions": [
+    "A001147",
+    "A001193",
+    "A001497",
+    "A003436",
+    "A006011",
+    "A032184",
+    "A040977",
+    "A053347",
+    "A054334",
+    "A084534",
+    "A127674",
+    "A132062",
+    "A162395",
+    "A231622",
+    "A261065",
+    "A266561",
+    "A280560"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

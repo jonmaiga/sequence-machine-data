@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically first sequence of distinct terms such that any set of eight successive digits can be reordered as {d, d+1, d+2, d+3, d+4, d+5, d+6, d+7}, d being the smallest of the eight digits",
+  "id": "A302503",
+  "mentions": [
+    "A228326",
+    "A302173",
+    "A302499",
+    "A302500",
+    "A302501",
+    "A302502"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

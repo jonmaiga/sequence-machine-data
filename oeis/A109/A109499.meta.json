@@ -1,0 +1,28 @@
+{
+  "description": "Number of closed walks of length n on the complete graph on 5 nodes from a given node.",
+  "id": "A109499",
+  "mentions": [
+    "A001045",
+    "A015518",
+    "A015521",
+    "A054878",
+    "A078008",
+    "A097073",
+    "A108020",
+    "A109502",
+    "A115341"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

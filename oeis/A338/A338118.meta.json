@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k = n+1-A336346(n)..n} A336346(n).",
+  "id": "A338118",
+  "mentions": [
+    "A336346"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

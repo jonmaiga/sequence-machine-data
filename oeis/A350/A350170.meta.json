@@ -1,0 +1,17 @@
+{
+  "description": "Start from the sequence of primes, keep the 1st, then delete 2 primes, keep the next, delete 3 primes, keep the next, delete 5 primes, etc ...",
+  "id": "A350170",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

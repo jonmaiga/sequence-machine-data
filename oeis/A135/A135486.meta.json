@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of n having k-fold symmetry, cf. A085436.",
+  "id": "A135486",
+  "mentions": [
+    "A085436"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

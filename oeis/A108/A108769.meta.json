@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that m^2 + (m+1)^2 is a semiprime.",
+  "id": "A108769",
+  "mentions": [
+    "A001358",
+    "A027861",
+    "A099776"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

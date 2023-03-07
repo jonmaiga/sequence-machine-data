@@ -1,0 +1,18 @@
+{
+  "description": "Denominators in Taylor series expansion of Product_{n >= 1} (1+x^n/n!).",
+  "id": "A170909",
+  "mentions": [
+    "A170908"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

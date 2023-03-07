@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of problimes (third definition, A003068).",
+  "id": "A178532",
+  "mentions": [
+    "A003068",
+    "A007504",
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

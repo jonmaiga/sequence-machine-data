@@ -1,0 +1,18 @@
+{
+  "description": "Sequence U(n) arising from analysis of structure of A240830.",
+  "id": "A240831",
+  "mentions": [
+    "A240830",
+    "A240832"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

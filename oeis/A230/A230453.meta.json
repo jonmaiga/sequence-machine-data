@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in the \"comma sum\" sequence (cf. A230288) starting with n, or 0 if it is infinite.",
+  "id": "A230453",
+  "mentions": [
+    "A230288",
+    "A230450",
+    "A230452"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

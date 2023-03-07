@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A001850(n^2), where A001850 forms the central Delannoy numbers.",
+  "id": "A228192",
+  "mentions": [
+    "A001850",
+    "A228193"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

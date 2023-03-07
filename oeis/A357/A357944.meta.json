@@ -1,0 +1,17 @@
+{
+  "description": "If n appears in A357943, a(n) is the smallest k such that A357943(k) = n, otherwise a(n) = -1.",
+  "id": "A357944",
+  "mentions": [
+    "A357943"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

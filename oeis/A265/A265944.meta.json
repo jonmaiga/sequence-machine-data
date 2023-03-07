@@ -1,0 +1,19 @@
+{
+  "description": "Absolute value of the determinant of the matrix whose terms are fibonacci(m+r+s)^(n) with 0 <= r, s <=n, for any m.",
+  "id": "A265944",
+  "mentions": [
+    "A001142",
+    "A152686"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

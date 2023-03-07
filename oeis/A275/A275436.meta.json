@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the asymmetry degrees of all 00-avoiding binary words of length n.",
+  "id": "A275436",
+  "mentions": [
+    "A000045",
+    "A275435"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

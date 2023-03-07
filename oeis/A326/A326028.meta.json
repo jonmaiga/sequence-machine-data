@@ -1,0 +1,34 @@
+{
+  "description": "Number of factorizations of n into factors > 1 with integer geometric mean.",
+  "id": "A326028",
+  "mentions": [
+    "A001055",
+    "A001597",
+    "A067538",
+    "A067539",
+    "A082553",
+    "A294336",
+    "A316782",
+    "A322794",
+    "A326027",
+    "A326514",
+    "A326515",
+    "A326516",
+    "A326622",
+    "A326623",
+    "A326624",
+    "A326625",
+    "A326647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

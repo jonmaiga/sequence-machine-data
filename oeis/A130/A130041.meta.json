@@ -1,0 +1,18 @@
+{
+  "description": "Take the integers >= 2. If n is the m-th positive integer with k positive divisors, then replace it with the m-th positive integer with (k+1) positive divisors.",
+  "id": "A130041",
+  "mentions": [
+    "A119586",
+    "A130042"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

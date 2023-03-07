@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: fourth root of Hamming weight enumerator of [12,6,6]_3 ternary extended Golay code (cf. A105683).",
+  "id": "A109141",
+  "mentions": [
+    "A105683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:48:05",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

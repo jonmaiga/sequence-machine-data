@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^k)^((3*k-1)*binomial(k+2,3)/2).",
+  "id": "A317021",
+  "mentions": [
+    "A000391",
+    "A002419",
+    "A274998",
+    "A279219",
+    "A305653",
+    "A317017",
+    "A317019",
+    "A317020"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:18:12",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

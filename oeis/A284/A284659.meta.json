@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that numbers 30(n+k) + 1 are prime for k=0..5.",
+  "id": "A284659",
+  "mentions": [
+    "A000040",
+    "A111175",
+    "A132230"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

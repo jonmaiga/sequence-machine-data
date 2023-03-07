@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of the inverse binomial transform of (-1 followed by A164555(n+1)/A027642(n+1)).",
+  "id": "A244237",
+  "mentions": [
+    "A006519",
+    "A027642",
+    "A085738",
+    "A143074",
+    "A164555",
+    "A190339",
+    "A198631",
+    "A235774",
+    "A244213"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

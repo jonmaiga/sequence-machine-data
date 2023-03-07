@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; a(1) = 1; a(2*n) = sigma(a(n)), a(2*n+1) = sigma(a(n)+a(n+1)).",
+  "id": "A283764",
+  "mentions": [
+    "A000203",
+    "A002487",
+    "A007497",
+    "A283166"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

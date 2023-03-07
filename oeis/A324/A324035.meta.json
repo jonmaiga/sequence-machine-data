@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows of the entries of the Collatz tree A088975 modulo 6, starting with entry 8 == 2 (mod 6).",
+  "id": "A324035",
+  "mentions": [
+    "A005186",
+    "A088975",
+    "A176866"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

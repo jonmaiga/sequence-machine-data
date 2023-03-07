@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with prime(p) - p + 1 also prime.",
+  "id": "A234695",
+  "mentions": [
+    "A000040",
+    "A014692",
+    "A234694",
+    "A234852"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

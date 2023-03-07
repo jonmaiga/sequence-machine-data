@@ -1,0 +1,32 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of aperiodic multisets of size k that fit within some normal multiset of size n.",
+  "id": "A303974",
+  "mentions": [
+    "A000740",
+    "A000837",
+    "A001597",
+    "A007716",
+    "A007916",
+    "A027941",
+    "A178472",
+    "A210554",
+    "A301700",
+    "A303431",
+    "A303546",
+    "A303551",
+    "A303945",
+    "A303976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

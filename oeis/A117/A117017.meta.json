@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (sine of 1 radian)^(1/2).",
+  "id": "A117017",
+  "mentions": [
+    "A008991",
+    "A008992",
+    "A049469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

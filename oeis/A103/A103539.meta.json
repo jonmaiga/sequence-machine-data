@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that prime(n)*prime(n)#+1 is prime where prime(n) is the n-th prime.",
+  "id": "A103539",
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

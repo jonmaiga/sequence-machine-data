@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5Xn arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..3 5Xn array",
+  "id": "A220765",
+  "mentions": [
+    "A220761"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

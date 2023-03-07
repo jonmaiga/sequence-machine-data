@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose product of prime indices (A003963) is a perfect power and where each prime index has the same number of prime factors, counted with multiplicity.",
+  "id": "A320323",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A064573",
+    "A112798",
+    "A302242",
+    "A305551",
+    "A306017",
+    "A319056",
+    "A319066",
+    "A319071",
+    "A320324",
+    "A320325"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

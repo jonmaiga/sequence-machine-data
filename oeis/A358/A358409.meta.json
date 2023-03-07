@@ -1,0 +1,21 @@
+{
+  "description": "Number of edges formed in a square by straight line segments when connecting the n-1 points between each corner that divide each edge into n equal parts to the n-1 points on each of the two adjacent edges of the square.",
+  "id": "A358409",
+  "mentions": [
+    "A331448",
+    "A355800",
+    "A358407",
+    "A358408"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

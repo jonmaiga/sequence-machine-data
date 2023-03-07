@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 2. a(n) is the smallest number in A349484, which is not an earlier term and for which a(n-1) + a(n) is in A349484.",
+  "id": "A349486",
+  "mentions": [
+    "A003415",
+    "A005349",
+    "A349484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

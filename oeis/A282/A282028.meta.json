@@ -1,0 +1,22 @@
+{
+  "description": "If n is prime then a(n) = 2n, otherwise a(n) is the smallest missing number.",
+  "id": "A282028",
+  "mentions": [
+    "A000720",
+    "A127202",
+    "A143545",
+    "A280985",
+    "A282029"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

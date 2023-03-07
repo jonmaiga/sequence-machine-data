@@ -1,0 +1,24 @@
+{
+  "description": "Number of 6's that appeared by n-th step when constructing A030717.",
+  "id": "A358474",
+  "mentions": [
+    "A030717",
+    "A358466",
+    "A358468",
+    "A358470",
+    "A358472",
+    "A358473",
+    "A358475",
+    "A358479"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

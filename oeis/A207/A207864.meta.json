@@ -1,0 +1,28 @@
+{
+  "description": "Number of n X 2 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal or vertical neighbor (colorings ignoring permutations of colors).",
+  "id": "A207864",
+  "mentions": [
+    "A000110",
+    "A000569",
+    "A109808",
+    "A207868",
+    "A229048",
+    "A240936",
+    "A321750",
+    "A321979",
+    "A321980",
+    "A321982",
+    "A322064"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

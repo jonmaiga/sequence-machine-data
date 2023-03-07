@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A156552(n) is a square, 0 otherwise.",
+  "id": "A324822",
+  "mentions": [
+    "A010052",
+    "A156552",
+    "A324812",
+    "A324823",
+    "A324824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

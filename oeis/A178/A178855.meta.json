@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A033485.",
+  "id": "A178855",
+  "mentions": [
+    "A000123",
+    "A033485",
+    "A178885"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

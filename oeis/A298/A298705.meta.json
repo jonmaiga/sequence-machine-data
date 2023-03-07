@@ -1,0 +1,20 @@
+{
+  "description": "Numbers from the 15-theorem for universal Hermitian lattices.",
+  "id": "A298705",
+  "mentions": [
+    "A030050",
+    "A183071"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

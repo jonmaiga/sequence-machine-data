@@ -1,0 +1,20 @@
+{
+  "description": "Symmetric matrix based on f(i,j)=min(3i-2,3j-2), by antidiagonals.",
+  "id": "A204028",
+  "mentions": [
+    "A202453",
+    "A204016",
+    "A204029"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:04:57",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

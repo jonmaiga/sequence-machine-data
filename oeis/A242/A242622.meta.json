@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of numbers with digit sum n, not greater than the n-th repunit (cf. A052222).",
+  "id": "A242622",
+  "mentions": [
+    "A052222",
+    "A242614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

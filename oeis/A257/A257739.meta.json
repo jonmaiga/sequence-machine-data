@@ -1,0 +1,37 @@
+{
+  "description": "Numbers n for which A256999(n) > n; numbers that can be made larger by rotating (by one or more steps) the non-msb bits of their binary representation (with A080541 or A080542).",
+  "id": "A257739",
+  "mentions": [
+    "A000031",
+    "A000120",
+    "A001037",
+    "A003714",
+    "A008965",
+    "A014081",
+    "A065609",
+    "A080541",
+    "A080542",
+    "A121016",
+    "A164707",
+    "A256999",
+    "A257250",
+    "A275692",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A328607",
+    "A328668",
+    "A329367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

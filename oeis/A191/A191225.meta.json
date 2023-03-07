@@ -1,0 +1,26 @@
+{
+  "description": "Number of Ramanujan primes R_k between triangular numbers T(n-1) < R_k <= T(n).",
+  "id": "A191225",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A014085",
+    "A083382",
+    "A104272",
+    "A190661",
+    "A191226",
+    "A191227",
+    "A191228"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

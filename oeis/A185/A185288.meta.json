@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n for which the terms of the multiplicative sequence {n^2/A049417(n)} are integers.",
+  "id": "A185288",
+  "mentions": [
+    "A007357",
+    "A049417",
+    "A050376",
+    "A064380",
+    "A185079",
+    "A185088",
+    "A185098",
+    "A185373",
+    "A185383"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

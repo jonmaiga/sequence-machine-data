@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (3/8) * sqrt(3).",
+  "id": "A333322",
+  "mentions": [
+    "A002194",
+    "A010527",
+    "A020821",
+    "A104954",
+    "A104956",
+    "A152623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:04:47",
+    "offset": 0,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Smallest k such that p(n)^5 + k is prime where p(n) is the n-th prime.",
+  "id": "A133522",
+  "mentions": [
+    "A001223",
+    "A050997",
+    "A054271",
+    "A091666",
+    "A133517",
+    "A133518",
+    "A133519",
+    "A133520",
+    "A133521"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

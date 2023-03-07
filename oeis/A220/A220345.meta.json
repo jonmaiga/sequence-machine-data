@@ -1,0 +1,21 @@
+{
+  "description": "Ratio of Jordan's totient to Carmichael's lambda function: a(n) = A007434(n) / A002322(n).",
+  "id": "A220345",
+  "mentions": [
+    "A001615",
+    "A002322",
+    "A007434",
+    "A034380"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A006530(k-1) < A006530(k) > A006530(k+1).",
+  "id": "A100392",
+  "mentions": [
+    "A006530",
+    "A082417",
+    "A100390",
+    "A100393"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k for which the cyclic Haar graphs with indices k and n are isomorphic.",
+  "id": "A357004",
+  "mentions": [
+    "A137706",
+    "A163382",
+    "A272919",
+    "A357000",
+    "A357005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

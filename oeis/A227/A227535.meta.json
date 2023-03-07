@@ -1,0 +1,20 @@
+{
+  "description": "Exponents e such that n^e is the least totient for some even n and all even k < n have a totient of the form k^f for some f < e.",
+  "id": "A227535",
+  "mentions": [
+    "A227533",
+    "A227534"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

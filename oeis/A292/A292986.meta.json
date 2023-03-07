@@ -1,0 +1,23 @@
+{
+  "description": "Bi-unitary weird numbers: bi-unitary abundant numbers (A292982) that are not bi-unitary pseudoperfect (A292985).",
+  "id": "A292986",
+  "mentions": [
+    "A000203",
+    "A005835",
+    "A006037",
+    "A064114",
+    "A188999",
+    "A292982",
+    "A292985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

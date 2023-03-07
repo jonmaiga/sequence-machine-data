@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: exp( x*(2 + exp(3*x)) ).",
+  "id": "A245835",
+  "mentions": [
+    "A080108",
+    "A216688",
+    "A216689",
+    "A240165",
+    "A245834"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

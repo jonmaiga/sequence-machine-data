@@ -1,0 +1,17 @@
+{
+  "description": "Let P be the sequence of distinct lattice points defined by the following rules: P(1) = (0,0), P(2) = (1,0), and for any n > 2, P(n) is the closest lattice point at integer distance to P(n-1) such that the angle of the vectors (P(n-2), P(n-1)) and (P(n-1), P(n)), say t, satisfies 0 < t < Pi, and in case of a tie, maximize the angle t; a(n) = Y-coordinate of P(n).",
+  "id": "A293730",
+  "mentions": [
+    "A293729"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

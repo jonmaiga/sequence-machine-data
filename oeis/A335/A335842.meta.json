@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative differences of positive cubes and positive tetrahedral numbers.",
+  "id": "A335842",
+  "mentions": [
+    "A000292",
+    "A000578",
+    "A175034",
+    "A175035",
+    "A335761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

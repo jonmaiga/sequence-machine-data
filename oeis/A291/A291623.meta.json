@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximal irredundant and minimal dominating sets in the n X n rook complement graph.",
+  "id": "A291623",
+  "mentions": [
+    "A291622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:10:17",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

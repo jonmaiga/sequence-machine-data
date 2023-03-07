@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=210; for n > 1, a(n) is the least integer not occurring earlier such that a(n) shares exactly four distinct prime divisors with a(n-1).",
+  "id": "A264664",
+  "mentions": [
+    "A246946",
+    "A246947"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of fleeing trees computed for Catalan bijection A057164.",
+  "id": "A153246",
+  "mentions": [
+    "A000004",
+    "A014486",
+    "A057164",
+    "A072643",
+    "A082858",
+    "A123493",
+    "A123494",
+    "A127302",
+    "A153141",
+    "A153247",
+    "A153248",
+    "A153250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

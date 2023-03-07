@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of f(-x^2)^5 * f(-x^12)^3 / (f(x)^2 * f(-x^8)^6) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A262162",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A262150",
+    "A262151"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:48:23",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

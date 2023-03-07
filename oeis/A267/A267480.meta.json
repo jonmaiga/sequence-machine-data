@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of words on {1,1,2,2,...,n,n} with longest increasing subsequence of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A267480",
+  "mentions": [
+    "A000680",
+    "A006902",
+    "A267479",
+    "A267532"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

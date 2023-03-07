@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of unlabeled simple graphs with n vertices and exactly k endpoints (vertices of degree 1).",
+  "id": "A327371",
+  "mentions": [
+    "A000088",
+    "A004110",
+    "A028242",
+    "A055540",
+    "A059167",
+    "A059841",
+    "A141580",
+    "A245797",
+    "A294217",
+    "A325115",
+    "A325125",
+    "A327227",
+    "A327369",
+    "A327370",
+    "A327372"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

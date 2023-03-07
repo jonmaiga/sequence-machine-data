@@ -1,0 +1,24 @@
+{
+  "description": "Values in A101115 which are records.",
+  "id": "A101116",
+  "mentions": [
+    "A000040",
+    "A024785",
+    "A053583",
+    "A101115",
+    "A101117",
+    "A101118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

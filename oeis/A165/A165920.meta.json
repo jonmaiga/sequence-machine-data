@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2-elements orbits of S3 action on irreducible polynomials of degree 3n, n > 0, over GF(2).",
+  "id": "A165920",
+  "mentions": [
+    "A000048",
+    "A001037",
+    "A050186",
+    "A053727",
+    "A165912"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

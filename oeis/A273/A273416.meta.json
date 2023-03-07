@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that occur 5 or more times in the triangle of denominators in Leibniz's Harmonic Triangle.",
+  "id": "A273416",
+  "mentions": [
+    "A003506"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

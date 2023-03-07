@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = F_n mod M_n, where F_n = 2^(2^n) + 1 and M_n = 2^n - 1.",
+  "id": "A321577",
+  "mentions": [
+    "A000215",
+    "A000225",
+    "A112987"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

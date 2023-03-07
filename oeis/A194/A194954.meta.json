@@ -1,0 +1,19 @@
+{
+  "description": "Slowest increasing sequence of primes such that a(1)=2, a(n)-a(n-1) is multiple of A000120(n-1).",
+  "id": "A194954",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A194955"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

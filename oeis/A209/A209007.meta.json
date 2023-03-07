@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) = number of n-bead necklaces labeled with numbers -k..k not allowing reversal, with sum zero and first and second differences in -k..k.",
+  "id": "A209007",
+  "mentions": [
+    "A002061",
+    "A002265"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

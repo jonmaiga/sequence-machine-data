@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric n X n (+1,-1)-matrices over the reals with zero permanent.",
+  "id": "A119010",
+  "mentions": [
+    "A086906",
+    "A088672",
+    "A118990",
+    "A118993"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

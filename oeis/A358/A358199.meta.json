@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least integer whose sum of the i-th powers of the proper divisors is a prime for 1 <= i <= n, or -1 if no such number exists.",
+  "id": "A358199",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A001157",
+    "A001158",
+    "A037020",
+    "A057709",
+    "A180852",
+    "A357324"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

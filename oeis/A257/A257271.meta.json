@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of the permutation A257470.",
+  "id": "A257271",
+  "mentions": [
+    "A257470"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of reciprocals of the smallest primes > 2^k for k >= 0.",
+  "id": "A338475",
+  "mentions": [
+    "A014210",
+    "A104080",
+    "A203074"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

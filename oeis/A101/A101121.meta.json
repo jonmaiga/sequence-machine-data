@@ -1,0 +1,22 @@
+{
+  "description": "Bitwise XOR of adjacent terms of A101120; also the nonzero terms of A101122.",
+  "id": "A101121",
+  "mentions": [
+    "A003484",
+    "A006519",
+    "A101119",
+    "A101120",
+    "A101122"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

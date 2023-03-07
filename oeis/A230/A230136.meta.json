@@ -1,0 +1,18 @@
+{
+  "description": "Integer areas A of integer-sided cyclic quadrilaterals such that the circumradius is of prime length.",
+  "id": "A230136",
+  "mentions": [
+    "A210250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(6, n)^2.",
+  "id": "A113164",
+  "mentions": [
+    "A008459",
+    "A113162"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

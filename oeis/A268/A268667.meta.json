@@ -1,0 +1,20 @@
+{
+  "description": "Number of sequences with j copies of j for each j in {1,2,...,n} and longest increasing subsequence of length n.",
+  "id": "A268667",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A047909",
+    "A268485"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

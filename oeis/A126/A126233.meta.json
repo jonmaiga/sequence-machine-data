@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number k such that (prime(k+1)+prime(k))/2 is odd and divisible by n-th odd prime.",
+  "id": "A126233",
+  "mentions": [
+    "A072569",
+    "A072572",
+    "A072573",
+    "A124619",
+    "A124620",
+    "A124622",
+    "A126228",
+    "A126229",
+    "A126230",
+    "A126231"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

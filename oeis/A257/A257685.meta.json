@@ -1,0 +1,21 @@
+{
+  "description": "Left inverse for injection A255411: a(0) = 0, after which, if n = A255411(k) for some k, then a(n) = k, otherwise a(n) = 0.",
+  "id": "A257685",
+  "mentions": [
+    "A255411",
+    "A257680",
+    "A257681",
+    "A257684"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

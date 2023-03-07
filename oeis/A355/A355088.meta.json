@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + (exp(x) - 1) * A(3*x).",
+  "id": "A355088",
+  "mentions": [
+    "A000670",
+    "A352860",
+    "A355085",
+    "A355087"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

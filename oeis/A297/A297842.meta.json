@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} max(d, n/d)^3.",
+  "id": "A297842",
+  "mentions": [
+    "A001158",
+    "A117003",
+    "A297793",
+    "A297841",
+    "A297843",
+    "A297844"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

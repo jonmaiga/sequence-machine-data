@@ -1,0 +1,20 @@
+{
+  "description": "Composite palindromes whose divisors > 1 are all nontrivial palindromes (i.e., palindromes with at least two digits).",
+  "id": "A329100",
+  "mentions": [
+    "A008364",
+    "A038511",
+    "A062687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

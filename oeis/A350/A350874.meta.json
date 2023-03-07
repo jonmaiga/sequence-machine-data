@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of nonisomorphic magmas with n elements which satisfy the identity (xx)y = x(xy) for all x and y (so-called left-alternative magmas).",
+  "id": "A350874",
+  "mentions": [
+    "A001329",
+    "A350873",
+    "A350875",
+    "A350876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes in Somos-4 sequence (A006720).",
+  "id": "A129739",
+  "mentions": [
+    "A006720",
+    "A048736",
+    "A129740",
+    "A129741",
+    "A192241"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

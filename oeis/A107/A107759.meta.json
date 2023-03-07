@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (+2)UnitarySigma(n): if n = Product p_i^r_i then a(n) = Product (2 + p_i^r_i).",
+  "id": "A107759",
+  "mentions": [
+    "A007429",
+    "A034448",
+    "A054862",
+    "A072691",
+    "A107758",
+    "A330594"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

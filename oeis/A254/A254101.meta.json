@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(row,col) = A000265(A254051(row,col)).",
+  "id": "A254101",
+  "mentions": [
+    "A000265",
+    "A002260",
+    "A003961",
+    "A004736",
+    "A135764",
+    "A135765",
+    "A139391",
+    "A249745",
+    "A254051",
+    "A254055",
+    "A254102"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) = phi(k+1) and simultaneously Product_{d|k} phi(d) = Product_{d|(k+1)} phi(d) where phi(x) = Euler totient function (A000010).",
+  "id": "A247174",
+  "mentions": [
+    "A000010",
+    "A001274",
+    "A029940",
+    "A248795"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

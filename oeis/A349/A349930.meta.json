@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of groups of order A340511(n) which have no subgroup of order d, for some divisor d of A340511(n).",
+  "id": "A349930",
+  "mentions": [
+    "A000001",
+    "A340511",
+    "A341048"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that the m(number of distinct parts) is a part, where m = multiplicity.",
+  "id": "A240307",
+  "mentions": [
+    "A240486"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with prime factorization p^4*q^4.",
+  "id": "A189991",
+  "mentions": [
+    "A085964",
+    "A085968",
+    "A137488",
+    "A179671",
+    "A189990"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

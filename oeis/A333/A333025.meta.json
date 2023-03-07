@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows: Take an isosceles triangle with its equal length sides divided into n equal parts with all diagonals drawn, as in A332953. Then T(n,k) = number of k-sided polygons in that figure for k>=3.",
+  "id": "A333025",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A331452",
+    "A331911",
+    "A332357",
+    "A332358",
+    "A332953",
+    "A333026",
+    "A333027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

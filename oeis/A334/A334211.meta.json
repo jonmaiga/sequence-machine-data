@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 + a(n-1)*(A007018(n-1) + 1), with a(0) = 1.",
+  "id": "A334211",
+  "mentions": [
+    "A007018"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

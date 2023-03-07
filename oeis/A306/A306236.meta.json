@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer m > n with integer j > m makes n^2, m^2 and j^2 an arithmetic progression.",
+  "id": "A306236",
+  "mentions": [
+    "A003629",
+    "A058529",
+    "A289398"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

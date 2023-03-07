@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 17*k - 1.",
+  "id": "A140541",
+  "mentions": [
+    "A140540",
+    "A140542",
+    "A140545"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

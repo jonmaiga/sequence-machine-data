@@ -1,0 +1,21 @@
+{
+  "description": "For each n >= 2, the number of solutions per geometric iteration of increasingly nearly cube-congruent n-dimension hyper-rectangular solids, where sides and diagonal are all integer length and side lengths vary by <= 1.",
+  "id": "A323845",
+  "mentions": [
+    "A001653",
+    "A033889",
+    "A033891",
+    "A122769",
+    "A189356"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

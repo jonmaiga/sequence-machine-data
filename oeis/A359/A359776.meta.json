@@ -1,0 +1,25 @@
+{
+  "description": "Positions of even terms in A359773, where A359773 is the Dirichlet inverse of A356163.",
+  "id": "A359776",
+  "mentions": [
+    "A001414",
+    "A335657",
+    "A356163",
+    "A359766",
+    "A359773",
+    "A359774",
+    "A359775",
+    "A359777",
+    "A359789"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

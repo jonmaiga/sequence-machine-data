@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: [x^n] A(x)^(2^m) = 2^m, where m = A007814(n+1) is the highest exponent of 2 dividing n+1, for n>=0.",
+  "id": "A262940",
+  "mentions": [
+    "A007814",
+    "A262939"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

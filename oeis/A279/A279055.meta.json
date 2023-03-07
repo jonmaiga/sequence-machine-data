@@ -1,0 +1,23 @@
+{
+  "description": "Self-convolution of squares of factorial numbers (A001044).",
+  "id": "A279055",
+  "mentions": [
+    "A000142",
+    "A001044",
+    "A003149",
+    "A100516",
+    "A100517"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

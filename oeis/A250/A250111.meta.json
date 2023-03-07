@@ -1,0 +1,20 @@
+{
+  "description": "Number of orbits of size 2 in vertices of Fibonacci cube Gamma_n under the action of its automorphism group.",
+  "id": "A250111",
+  "mentions": [
+    "A000045",
+    "A058071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

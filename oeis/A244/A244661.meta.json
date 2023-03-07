@@ -1,0 +1,22 @@
+{
+  "description": "Beastly reciprocals, or numbers n such that digitsum(1/n) = 666.",
+  "id": "A244661",
+  "mentions": [
+    "A001913",
+    "A003592",
+    "A048997",
+    "A051003",
+    "A238104"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

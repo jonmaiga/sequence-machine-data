@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k + phi(k) is a repunit.",
+  "id": "A309835",
+  "mentions": [
+    "A000010",
+    "A002275",
+    "A116018",
+    "A121048",
+    "A244444"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

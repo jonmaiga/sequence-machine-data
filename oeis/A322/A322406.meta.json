@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n + n*n^n.",
+  "id": "A322406",
+  "mentions": [
+    "A055897",
+    "A066068",
+    "A108398"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonunitary pseudoperfect numbers (A327945) that equal to the sum of a subset of their nonunitary divisors in more ways than any smaller nonunitary pseudoperfect number.",
+  "id": "A327947",
+  "mentions": [
+    "A064591",
+    "A064597",
+    "A065218",
+    "A327945",
+    "A327946"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

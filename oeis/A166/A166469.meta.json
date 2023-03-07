@@ -1,0 +1,42 @@
+{
+  "description": "Number of divisors of n which are not multiples of consecutive primes.",
+  "id": "A166469",
+  "mentions": [
+    "A000005",
+    "A000032",
+    "A000040",
+    "A000045",
+    "A000085",
+    "A000142",
+    "A001045",
+    "A001221",
+    "A002110",
+    "A006094",
+    "A006939",
+    "A025487",
+    "A061742",
+    "A066120",
+    "A073485",
+    "A073491",
+    "A081341",
+    "A097250",
+    "A104210",
+    "A166470",
+    "A166473",
+    "A166474",
+    "A167447",
+    "A212170",
+    "A296210"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

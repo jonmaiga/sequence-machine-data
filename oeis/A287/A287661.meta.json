@@ -1,0 +1,25 @@
+{
+  "description": "Smallest odd number with exactly n nonprime divisors.",
+  "id": "A287661",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A003680",
+    "A005179",
+    "A033273",
+    "A038547",
+    "A055079",
+    "A070826"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes p < 10^n such that 4*p+1 is also prime.",
+  "id": "A182265",
+  "mentions": [
+    "A023212",
+    "A092816"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 10^n * (10^n - 1) - 1 is prime.",
+  "id": "A265383",
+  "mentions": [
+    "A098845",
+    "A183187",
+    "A265481",
+    "A266148"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

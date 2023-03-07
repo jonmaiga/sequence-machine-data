@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of carefree couples (a,b) with a,b<=n.",
+  "id": "A118258",
+  "mentions": [
+    "A005117",
+    "A065464",
+    "A118259",
+    "A118260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

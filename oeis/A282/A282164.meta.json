@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the minimal product of a positive integer sequence of length n with no duplicate substrings of length greater than 1.",
+  "id": "A282164",
+  "mentions": [
+    "A259280",
+    "A282165"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

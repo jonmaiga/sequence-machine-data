@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers k such that sigma_e(k) = n for some e > 0.",
+  "id": "A271606",
+  "mentions": [
+    "A054973",
+    "A109974"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

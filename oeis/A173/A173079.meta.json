@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n such that the sum S of 1 and first n^2-1 odd primes is divisible by n and S/n == n (mod 2).",
+  "id": "A173079",
+  "mentions": [
+    "A064013",
+    "A073502",
+    "A073520",
+    "A164843"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

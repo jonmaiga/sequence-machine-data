@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = a(1) = 1, a(n) = n! / a(n-2).",
+  "id": "A214916",
+  "mentions": [
+    "A214914",
+    "A214915",
+    "A214961",
+    "A214963"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

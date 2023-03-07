@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple disconnected weakly perfect graphs on n vertices.",
+  "id": "A287023",
+  "mentions": [
+    "A198634",
+    "A287008",
+    "A287009"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

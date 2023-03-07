@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n base 5, under morphism f(1) = 121, f(2) = 123, f(3) = 141, f(4) = 142, or 0 if n base 5 has a zero.",
+  "id": "A137850",
+  "mentions": [
+    "A007091"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

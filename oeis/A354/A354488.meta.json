@@ -1,0 +1,20 @@
+{
+  "description": "T(w,h) with 3 <= h < w is the number of quadrilaterals as defined in A353532 with diagonals intersecting at the same angle theta as the diagonals of the grid rectangle with side lengths w > h, where T(w,h) is a triangle read by rows.",
+  "id": "A354488",
+  "mentions": [
+    "A353532",
+    "A353533",
+    "A354489"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

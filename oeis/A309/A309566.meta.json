@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least prime that can be written as a sequence of primes separated by n single zeros, and where every 0-splitting is prime.",
+  "id": "A309566",
+  "mentions": [
+    "A000040",
+    "A038618",
+    "A056709",
+    "A309101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

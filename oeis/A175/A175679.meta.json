@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that arithmetic mean Ad(m) of divisors of m and arithmetic mean Ak(m) of numbers 1 <= k <= m are both integer.",
+  "id": "A175679",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000203",
+    "A000217",
+    "A003601",
+    "A040001",
+    "A057020",
+    "A057021",
+    "A145051",
+    "A175678"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

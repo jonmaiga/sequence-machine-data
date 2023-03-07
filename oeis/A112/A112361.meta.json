@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in s(n), where s(n) is defined in A114483.",
+  "id": "A112361",
+  "mentions": [
+    "A062318",
+    "A114482",
+    "A114483"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

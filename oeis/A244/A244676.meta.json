@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of sum_(n>=1) (H(n)^3/(n+1)^6) where H(n) is the n-th harmonic number.",
+  "id": "A244676",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A013663",
+    "A013665",
+    "A013667",
+    "A244667",
+    "A244674",
+    "A244675"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

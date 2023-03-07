@@ -1,0 +1,18 @@
+{
+  "description": "Value of A000001(n) as n runs through the triprimes (A014612).",
+  "id": "A142864",
+  "mentions": [
+    "A000001",
+    "A014612"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

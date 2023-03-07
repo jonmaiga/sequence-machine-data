@@ -1,0 +1,23 @@
+{
+  "description": "Let d be the largest element of A008578 which divides n, then a(n) is the position of d in A008578.",
+  "id": "A159081",
+  "mentions": [
+    "A006530",
+    "A008578",
+    "A049084",
+    "A061395",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

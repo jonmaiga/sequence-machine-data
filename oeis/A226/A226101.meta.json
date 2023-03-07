@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that prime(n) divides the n-th divisor of k.",
+  "id": "A226101",
+  "mentions": [
+    "A000040",
+    "A027750",
+    "A221647"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

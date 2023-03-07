@@ -1,0 +1,21 @@
+{
+  "description": "2^a(n) is the highest power of 2 dividing A214551(n).",
+  "id": "A227836",
+  "mentions": [
+    "A000930",
+    "A007814",
+    "A214551",
+    "A227835",
+    "A227837"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

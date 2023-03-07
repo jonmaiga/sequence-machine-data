@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. = tan(x).",
+  "id": "A350972",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A009006",
+    "A122045",
+    "A155585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

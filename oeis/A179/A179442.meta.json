@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((n-1)! * (n+1)!) / n.",
+  "id": "A179442",
+  "mentions": [
+    "A001044",
+    "A020725",
+    "A175430",
+    "A229020",
+    "A261879"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:12:50",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

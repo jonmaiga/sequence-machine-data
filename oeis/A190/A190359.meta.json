@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime factor of the least number having exactly two odd prime factors that differ by 2^n.",
+  "id": "A190359",
+  "mentions": [
+    "A190358"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

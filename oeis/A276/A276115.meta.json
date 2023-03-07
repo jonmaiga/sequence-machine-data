@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose digits have a permutation that is a palindrome.",
+  "id": "A276115",
+  "mentions": [
+    "A084050"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

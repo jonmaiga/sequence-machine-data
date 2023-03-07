@@ -1,0 +1,20 @@
+{
+  "description": "Maximum length of a codeword in Huffman encoding of n symbols, where the k-th symbol has frequency k.",
+  "id": "A126236",
+  "mentions": [
+    "A126014",
+    "A126235",
+    "A126237"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

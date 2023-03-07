@@ -1,0 +1,26 @@
+{
+  "description": "Number of non-equivalent ways to place 6 non-attacking kings on an n X n board.",
+  "id": "A279115",
+  "mentions": [
+    "A172158",
+    "A236679",
+    "A279111",
+    "A279112",
+    "A279113",
+    "A279114",
+    "A279116",
+    "A279117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:01",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

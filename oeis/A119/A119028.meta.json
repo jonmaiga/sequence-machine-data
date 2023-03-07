@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having at least 3 unique partitions into exactly 3 parts with the same product.",
+  "id": "A119028",
+  "mentions": [
+    "A069905",
+    "A103277",
+    "A317578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

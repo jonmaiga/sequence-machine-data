@@ -1,0 +1,20 @@
+{
+  "description": "Sides (a,c) of cyclic quadrilaterals of integer sides (a,b,c,d), integer areas, and integer circumradius such that a=b and c=d.",
+  "id": "A242778",
+  "mentions": [
+    "A210250",
+    "A297790",
+    "A298860",
+    "A298907"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

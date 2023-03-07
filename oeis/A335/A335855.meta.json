@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(a(n-1)) + a(floor(n/a(n-1))) with a(1) = a(2) = a(3) = a(4) = 2.",
+  "id": "A335855",
+  "mentions": [
+    "A004001",
+    "A283207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Filter-sequence: a(n) = A278223(A064216(n)) = A046523((2*A064216(n))-1).",
+  "id": "A286250",
+  "mentions": [
+    "A046523",
+    "A064216",
+    "A064989",
+    "A245448",
+    "A278223",
+    "A286243"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

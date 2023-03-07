@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence of (10 + sqrt(10))/9; complement of A177102.",
+  "id": "A286355",
+  "mentions": [
+    "A177102",
+    "A286747"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

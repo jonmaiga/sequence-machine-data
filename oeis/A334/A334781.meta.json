@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = Sum_{i=1..n} binomial(1+i,2)^k.",
+  "id": "A334781",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000292",
+    "A001477",
+    "A024166",
+    "A034472",
+    "A074508",
+    "A085438",
+    "A085439",
+    "A085440",
+    "A085441",
+    "A085442",
+    "A154283",
+    "A249564"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

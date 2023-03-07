@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (A002703(n)+2)/2.",
+  "id": "A262569",
+  "mentions": [
+    "A002703",
+    "A053632",
+    "A178666",
+    "A252567",
+    "A262567",
+    "A262568"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:08",
+    "offset": 3,
+    "size": 42,
+    "source": "joeis"
+  }
+}

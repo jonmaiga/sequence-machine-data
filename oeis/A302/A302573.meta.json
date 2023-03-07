@@ -1,0 +1,21 @@
+{
+  "description": "Primitive unitary abundant numbers (definition 1): unitary abundant numbers (A034683) all of whose proper unitary divisors are unitary deficient.",
+  "id": "A302573",
+  "mentions": [
+    "A034448",
+    "A034683",
+    "A071395",
+    "A129487",
+    "A302574"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

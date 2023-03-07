@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number that can be written in exactly n ways as p*q + q*r + p*r where (p,q,r) is an unordered triple of distinct primes.",
+  "id": "A356457",
+  "mentions": [
+    "A003415",
+    "A007304",
+    "A087053"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

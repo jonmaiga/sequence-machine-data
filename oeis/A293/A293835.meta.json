@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number (in absolute value) not yet in the sequence such that the arithmetic mean of the first n terms a(1), a(2), ..., a(n) is an integer; a(1)=1. No two numbers with the same absolute value may appear. Preference is given to positive values of a(n).",
+  "id": "A293835",
+  "mentions": [
+    "A001057",
+    "A002251",
+    "A019444"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} 2^n*(exp(n*x) - 1)^n.",
+  "id": "A195005",
+  "mentions": [
+    "A122399",
+    "A195263",
+    "A301581",
+    "A338040",
+    "A338044"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

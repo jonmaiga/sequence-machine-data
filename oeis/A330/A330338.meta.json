@@ -1,0 +1,18 @@
+{
+  "description": "Indices k such that A330337(k) = 1.",
+  "id": "A330338",
+  "mentions": [
+    "A322510",
+    "A330337"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

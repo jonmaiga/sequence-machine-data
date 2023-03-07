@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the real solution of x^3 - x^2 - 2x - 4 = 0.",
+  "id": "A114431",
+  "mentions": [
+    "A114427"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:57",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

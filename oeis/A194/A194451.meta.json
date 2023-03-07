@@ -1,0 +1,25 @@
+{
+  "description": "Partition numbers of positive integers and positive integers interleaved.",
+  "id": "A194451",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000094",
+    "A066186",
+    "A133041",
+    "A135010",
+    "A138121",
+    "A194450"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:51:21",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

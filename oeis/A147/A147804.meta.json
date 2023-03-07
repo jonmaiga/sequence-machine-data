@@ -1,0 +1,23 @@
+{
+  "description": "Least m coprime to 7 minimizing A007947(m*(7^n-m)).",
+  "id": "A147804",
+  "mentions": [
+    "A007947",
+    "A143700",
+    "A147300",
+    "A147799",
+    "A147802",
+    "A147803"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

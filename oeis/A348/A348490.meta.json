@@ -1,0 +1,25 @@
+{
+  "description": "Positive numbers whose square starts and ends with exactly one 6.",
+  "id": "A348490",
+  "mentions": [
+    "A045789",
+    "A045860",
+    "A273373",
+    "A305719",
+    "A348487",
+    "A348488",
+    "A348489",
+    "A348491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

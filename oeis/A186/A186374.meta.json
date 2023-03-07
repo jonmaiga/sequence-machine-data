@@ -1,0 +1,19 @@
+{
+  "description": "Number of strong fixed blocks in all the permutations of [n] (see first comment for definition).",
+  "id": "A186374",
+  "mentions": [
+    "A003149",
+    "A186373"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

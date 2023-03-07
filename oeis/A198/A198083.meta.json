@@ -1,0 +1,18 @@
+{
+  "description": "Ceiling(n*Sqrt(6)).",
+  "id": "A198083",
+  "mentions": [
+    "A022849"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

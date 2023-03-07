@@ -1,0 +1,20 @@
+{
+  "description": "A007318^(-1) * A133648.",
+  "id": "A133649",
+  "mentions": [
+    "A007318",
+    "A062092",
+    "A133648"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Admirable totient numbers: numbers that are equal to the sum of their iterated phi, with one of them taken with a minus sign.",
+  "id": "A335121",
+  "mentions": [
+    "A000010",
+    "A000396",
+    "A053478",
+    "A082897",
+    "A111592",
+    "A286265",
+    "A288452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

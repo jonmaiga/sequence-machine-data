@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f.: r*cos(r*x) / sqrt(1 + cos(r*x)^2) where r = sqrt(2), even terms only.",
+  "id": "A263247",
+  "mentions": [
+    "A263246",
+    "A263248",
+    "A263249"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

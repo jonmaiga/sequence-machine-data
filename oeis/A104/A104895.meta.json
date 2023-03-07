@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=0; thereafter a(2n) = -2*a(n), a(2n+1) = 2*a(n) - 1.",
+  "id": "A104895",
+  "mentions": [
+    "A048724",
+    "A065620",
+    "A065621",
+    "A104894"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

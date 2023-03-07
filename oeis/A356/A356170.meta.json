@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if A001222(n) == 2*A007814(n), and otherwise 0, where A001222 is bigomega (number of prime factors with multiplicity) and A007814 is the 2-adic valuation of n.",
+  "id": "A356170",
+  "mentions": [
+    "A001222",
+    "A007814",
+    "A072978"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

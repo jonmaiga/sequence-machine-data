@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} (x * (1 + (k * x)^3))^k.",
+  "id": "A360747",
+  "mentions": [
+    "A360479",
+    "A360592",
+    "A360707"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

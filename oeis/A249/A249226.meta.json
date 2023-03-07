@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of constants A(a) related to the asymptotic LCM of arithmetic progressions a*n+b (a and b coprime).",
+  "id": "A249226",
+  "mentions": [
+    "A003418",
+    "A249225"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

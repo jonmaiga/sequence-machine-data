@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers whose number of deficient divisors is equal to their number of nondeficient divisors.",
+  "id": "A357461",
+  "mentions": [
+    "A005101",
+    "A005231",
+    "A335543",
+    "A357460"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

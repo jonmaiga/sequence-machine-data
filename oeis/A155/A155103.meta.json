@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: Matrix inverse of A155102.",
+  "id": "A155103",
+  "mentions": [
+    "A000384",
+    "A028361",
+    "A028362",
+    "A036987",
+    "A100147",
+    "A155102",
+    "A155104",
+    "A155105"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

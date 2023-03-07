@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, Stirling set numbers of order 2, T(n,n) = 1, T(n,k) = 0 if k < 0 or k > n, otherwise T(n,k) = T(n-1,k-1) + k^2*T(n-1, k), for n >= 0 and 0 <= k <= n.",
+  "id": "A269945",
+  "mentions": [
+    "A000330",
+    "A002450",
+    "A007318",
+    "A008957",
+    "A036969",
+    "A048993",
+    "A135920",
+    "A269941",
+    "A269944",
+    "A269948"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:19:52",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

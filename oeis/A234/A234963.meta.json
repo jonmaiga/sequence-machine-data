@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 2 such that C(2*sigma(k) + phi(m), sigma(k) + phi(m)/2) - 1 is prime, where sigma(k) is the sum of all positive divisors of k and phi(.) is Euler's totient function.",
+  "id": "A234963",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A000984",
+    "A066699",
+    "A066726",
+    "A232270",
+    "A233544",
+    "A234451",
+    "A234470",
+    "A234503",
+    "A234514",
+    "A234567",
+    "A234615"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

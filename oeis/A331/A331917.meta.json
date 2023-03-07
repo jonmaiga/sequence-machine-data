@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct nonprime parts.",
+  "id": "A331917",
+  "mentions": [
+    "A002095",
+    "A018252",
+    "A052284",
+    "A096258",
+    "A219107"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

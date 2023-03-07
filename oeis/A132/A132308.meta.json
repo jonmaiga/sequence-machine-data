@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*3^n - n - 1.",
+  "id": "A132308",
+  "mentions": [
+    "A077552",
+    "A132307",
+    "A132309"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

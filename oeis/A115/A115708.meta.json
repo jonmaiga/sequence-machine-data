@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes (A001358) whose digit reversal is a pentagonal number (A000326).",
+  "id": "A115708",
+  "mentions": [
+    "A000326",
+    "A001358",
+    "A115709"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

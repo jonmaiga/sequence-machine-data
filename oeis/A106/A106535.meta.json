@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that the smallest x > 1 for which Fibonacci(x) == 0 mod k is x = k - 1.",
+  "id": "A106535",
+  "mentions": [
+    "A000057",
+    "A001175",
+    "A001177",
+    "A002145",
+    "A003147",
+    "A004767",
+    "A069106",
+    "A219612",
+    "A308795",
+    "A308796",
+    "A308797",
+    "A308798",
+    "A308799",
+    "A308800",
+    "A308801",
+    "A308802"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

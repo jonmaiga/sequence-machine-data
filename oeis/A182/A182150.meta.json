@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes that are also semiprime when their digits are sorted into nondecreasing order.",
+  "id": "A182150",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A097393",
+    "A211654"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

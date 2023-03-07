@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x - y and 3*z + w both squares, where x,y,z are nonnegative integers and w is an integer.",
+  "id": "A281939",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271775",
+    "A281941"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime divisors of (10^(n+3) + 666)*10^(n+1) + 1 (see A232449) counted with multiplicity.",
+  "id": "A232451",
+  "mentions": [
+    "A001913",
+    "A232448",
+    "A232449",
+    "A232450"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

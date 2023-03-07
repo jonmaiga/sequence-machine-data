@@ -1,0 +1,21 @@
+{
+  "description": "Intersection of A024365 and A129912.",
+  "id": "A263573",
+  "mentions": [
+    "A008706",
+    "A020885",
+    "A024365",
+    "A129912"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

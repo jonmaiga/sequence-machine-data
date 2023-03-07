@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: a(k,n) = natural numbers each repeated 2^k times.",
+  "id": "A180969",
+  "mentions": [
+    "A001477",
+    "A002265",
+    "A004526",
+    "A132292"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

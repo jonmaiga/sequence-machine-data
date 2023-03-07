@@ -1,0 +1,23 @@
+{
+  "description": "The Ca3 sums of the Pell-Jacobsthal triangle A013609.",
+  "id": "A180675",
+  "mentions": [
+    "A008998",
+    "A013609",
+    "A077949",
+    "A092467",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:22:26",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least b > p_n^2 such that [p_1^2,p_2^2,...,p_n^2] in base b is prime, where p_j denotes the j-th prime.",
+  "id": "A224197",
+  "mentions": [
+    "A000040",
+    "A217788",
+    "A218465",
+    "A224210"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

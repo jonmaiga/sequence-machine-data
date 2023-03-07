@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured irregular triangle (with some rows blank) of numbers k such that prime(n) is the largest prime factor of k^3 - 1.",
+  "id": "A223703",
+  "mentions": [
+    "A175607",
+    "A223701",
+    "A223707"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

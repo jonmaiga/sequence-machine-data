@@ -1,0 +1,25 @@
+{
+  "description": "Inverse of number triangle A103451.",
+  "id": "A103452",
+  "mentions": [
+    "A000007",
+    "A084938",
+    "A103451",
+    "A103453",
+    "A103454",
+    "A103455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

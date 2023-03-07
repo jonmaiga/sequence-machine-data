@@ -1,0 +1,19 @@
+{
+  "description": "Sum of absolute differences of p(n) defined in A054065.",
+  "id": "A100056",
+  "mentions": [
+    "A054065",
+    "A100057"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

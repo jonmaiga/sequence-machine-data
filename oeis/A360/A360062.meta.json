@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(m,n) is the number of spanning trees in the graph whose nodes are the integer lattice points (x,y) with 0 <= x < m and 0 <= y < n, and with an edge between two nodes if there is no other integer lattice point on the line segment between them; 1 <= n <= m.",
+  "id": "A360062",
+  "mentions": [
+    "A116469",
+    "A247943",
+    "A360063"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

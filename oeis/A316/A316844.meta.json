@@ -1,0 +1,19 @@
+{
+  "description": "Column 2 of table A316841.",
+  "id": "A316844",
+  "mentions": [
+    "A316841",
+    "A316843",
+    "A316845"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

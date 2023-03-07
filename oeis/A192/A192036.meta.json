@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A(x) = Sum_{n>=0} x^n*A(n*x)^n/n!.",
+  "id": "A192036",
+  "mentions": [
+    "A125281",
+    "A155806",
+    "A218682"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

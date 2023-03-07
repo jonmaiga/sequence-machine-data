@@ -1,0 +1,23 @@
+{
+  "description": "Where ones occur in A349084. These correspond to rationals, 0 < p/q < 1, that have a unique solution, p/q = 1/w + 1/x + 1/y + 1/z, 0 < w < x < y < z.",
+  "id": "A349097",
+  "mentions": [
+    "A002260",
+    "A003057",
+    "A349084",
+    "A349090",
+    "A349095",
+    "A349096"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

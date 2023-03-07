@@ -1,0 +1,26 @@
+{
+  "description": "Table of values with shape sequence A000041 related to involutions and multinomials. Also column sums of the Kostka matrices associated with the partitions (in Abramowitz & Stegun ordering).",
+  "id": "A104778",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A001475",
+    "A005651",
+    "A036038",
+    "A097522",
+    "A104707",
+    "A178718"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

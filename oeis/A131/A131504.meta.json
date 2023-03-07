@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: a(m,n) = m-th integer from among those positive integers that are coprime to (m*n).",
+  "id": "A131504",
+  "mentions": [
+    "A069213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Highly composite numbers (A002182) whose number of divisors is not a multiple of 3.",
+  "id": "A354216",
+  "mentions": [
+    "A002182",
+    "A002183"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

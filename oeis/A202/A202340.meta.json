@@ -1,0 +1,19 @@
+{
+  "description": "Number of times n occurs in Hofstadter H-sequence A005374.",
+  "id": "A202340",
+  "mentions": [
+    "A005374",
+    "A202341",
+    "A202342"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

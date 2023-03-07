@@ -1,0 +1,20 @@
+{
+  "description": "Vulgar fractions whose denominators are numbers ending with nine, the case 1/19.",
+  "id": "A254065",
+  "mentions": [
+    "A021023"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:03:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

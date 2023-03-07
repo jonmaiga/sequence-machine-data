@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*q(n)-1 where q(n) is the sequence of records positions of A179686",
+  "id": "A179687",
+  "mentions": [
+    "A179382",
+    "A179383",
+    "A179480",
+    "A179481",
+    "A179686"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

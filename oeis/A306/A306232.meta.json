@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the Reverse and Add! trajectory of k (presumably) does not reach a palindrome and does not join the trajectory or one of the reverse numbers of the trajectory of any term m < k.",
+  "id": "A306232",
+  "mentions": [
+    "A063048"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

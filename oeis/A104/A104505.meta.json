@@ -1,0 +1,28 @@
+{
+  "description": "Triangle, read by rows, equal to the right-hand side of the triangle A084610, with row n listing the coefficients of (1+x-x^2)^n: T(n,k) = [x^(n+k)] (1+x-x^2)^n, for n>=k>=0.",
+  "id": "A104505",
+  "mentions": [
+    "A007318",
+    "A007440",
+    "A084610",
+    "A098331",
+    "A104506",
+    "A104507",
+    "A104508",
+    "A104509",
+    "A108044",
+    "A120616"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

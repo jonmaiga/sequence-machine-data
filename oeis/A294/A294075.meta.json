@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the distance from the n-th isolated prime number to the average of the next twin prime pair.",
+  "id": "A294075",
+  "mentions": [
+    "A007510",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

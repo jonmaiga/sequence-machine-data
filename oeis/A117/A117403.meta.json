@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} 2^((n-2*k)*k) for n>=0.",
+  "id": "A117403",
+  "mentions": [
+    "A117401",
+    "A117402"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

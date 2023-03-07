@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A065043(k) = 1 but A359764(k) = 0, where A359764 is the parity of Dirichlet inverse of the former (which is the characteristic function of the numbers with an even number of prime factors).",
+  "id": "A359767",
+  "mentions": [
+    "A013929",
+    "A026424",
+    "A028260",
+    "A065043",
+    "A359763",
+    "A359764",
+    "A359765",
+    "A359766",
+    "A359784"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

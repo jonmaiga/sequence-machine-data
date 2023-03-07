@@ -1,0 +1,29 @@
+{
+  "description": "Maximum digit in the factorial base expansion of n (A007623).",
+  "id": "A246359",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A051903",
+    "A060130",
+    "A084558",
+    "A099563",
+    "A108731",
+    "A249070",
+    "A257684",
+    "A257687",
+    "A276076"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

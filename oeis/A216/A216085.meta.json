@@ -1,0 +1,17 @@
+{
+  "description": "Number of horizontal and antidiagonal neighbor colorings of the odd squares of a 3Xn array with new integer colors introduced in row major order",
+  "id": "A216085",
+  "mentions": [
+    "A216084"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

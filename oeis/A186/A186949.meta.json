@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2^n - 2*(binomial(1,n) - binomial(0,n)).",
+  "id": "A186949",
+  "mentions": [
+    "A000079",
+    "A151821",
+    "A155559",
+    "A168277",
+    "A171449",
+    "A171559",
+    "A186947",
+    "A186948"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes which are the fourth element of a generalized Wieferich sequence.",
+  "id": "A179400",
+  "mentions": [
+    "A001220",
+    "A174422"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the binomial tree of order n (1 <= k <= 2n-1; entries in row n are the coefficients of the corresponding Wiener polynomial).",
+  "id": "A192020",
+  "mentions": [
+    "A000225",
+    "A005803",
+    "A129760",
+    "A192021"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

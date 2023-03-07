@@ -1,0 +1,20 @@
+{
+  "description": "Number of proper divisors d of n such that 2d+1 is a prime.",
+  "id": "A305818",
+  "mentions": [
+    "A005097",
+    "A086668",
+    "A101264"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX2 binary arrays with all 1s connected, a path of 1s from left column to right column, and no 1 having more than two 1s adjacent",
+  "id": "A163723",
+  "mentions": [
+    "A006355"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

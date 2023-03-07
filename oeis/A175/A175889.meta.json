@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the first term in A175888 ending with n.",
+  "id": "A175889",
+  "mentions": [
+    "A000203",
+    "A175888"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

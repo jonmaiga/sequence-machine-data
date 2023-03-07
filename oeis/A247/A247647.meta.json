@@ -1,0 +1,21 @@
+{
+  "description": "Binary numbers that begin and end with 1 and do not contain two adjacent zeros.",
+  "id": "A247647",
+  "mentions": [
+    "A007088",
+    "A247648",
+    "A247649",
+    "A253085"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

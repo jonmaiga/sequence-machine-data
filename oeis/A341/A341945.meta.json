@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into 2 primes (counting 1 as a prime).",
+  "id": "A341945",
+  "mentions": [
+    "A001031",
+    "A008578",
+    "A034891",
+    "A061358",
+    "A341946",
+    "A341947",
+    "A341948",
+    "A341949",
+    "A341950",
+    "A341951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of Johnson solids of unit edge length with a volume V such that n <= V < n+1.",
+  "id": "A343961",
+  "mentions": [
+    "A242731",
+    "A242732",
+    "A242733",
+    "A296603",
+    "A296604",
+    "A299529",
+    "A306949"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

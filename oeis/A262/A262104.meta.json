@@ -1,0 +1,26 @@
+{
+  "description": "Pseudoprimes to base 7, written in base 7.",
+  "id": "A262104",
+  "mentions": [
+    "A005938",
+    "A007093",
+    "A258189",
+    "A262101",
+    "A262102",
+    "A262103",
+    "A262105",
+    "A262154"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

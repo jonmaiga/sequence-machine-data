@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into 8 sorts of parts.",
+  "id": "A246940",
+  "mentions": [
+    "A246935"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

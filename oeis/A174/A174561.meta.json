@@ -1,0 +1,23 @@
+{
+  "description": "Number of 3 X n Latin rectangles whose second row contains two cycles with the same order of its elements, e.g., the cycle (x_2, x_3, ..., x_k, x_1) with x_1 < x_2 < ... < x_k.",
+  "id": "A174561",
+  "mentions": [
+    "A000179",
+    "A000186",
+    "A094047",
+    "A174556",
+    "A174560"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

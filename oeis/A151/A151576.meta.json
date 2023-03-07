@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of 1..n arranged in a circle with exactly 3 adjacent element pairs in decreasing order.",
+  "id": "A151576",
+  "mentions": [
+    "A000460",
+    "A027540",
+    "A151577",
+    "A151610",
+    "A334218"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

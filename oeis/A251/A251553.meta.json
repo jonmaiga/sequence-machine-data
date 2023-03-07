@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A098550(k) is a multiple of 3.",
+  "id": "A251553",
+  "mentions": [
+    "A098550",
+    "A251716"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

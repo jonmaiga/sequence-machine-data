@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = sin( Sum_{n>=0} 2^((2n+1)^2) * C(2n,n)/4^n * x^(2n+1)/(2n+1) ); alternating zeros omitted.",
+  "id": "A157315",
+  "mentions": [
+    "A000984",
+    "A136558",
+    "A155200"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n*(sum of digits of n) is a perfect square.",
+  "id": "A227224",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

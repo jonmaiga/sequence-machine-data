@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with at least one part divisible by k.",
+  "id": "A354234",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002033",
+    "A006918",
+    "A013929",
+    "A046099",
+    "A047966",
+    "A047967",
+    "A061199",
+    "A064410",
+    "A091602",
+    "A117485",
+    "A238394",
+    "A238395",
+    "A295341",
+    "A295342",
+    "A324929",
+    "A325534",
+    "A354235"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

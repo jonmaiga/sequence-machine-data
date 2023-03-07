@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of odd numbers: a(n) = (2*(A249745(n))) - 1 = A064989(A007310(n)).",
+  "id": "A254050",
+  "mentions": [
+    "A007310",
+    "A064989",
+    "A249745",
+    "A254049",
+    "A254051",
+    "A254053"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of length n permutations that are sorted to the identity by a consecutive-213-avoiding stack followed by a classical-21-avoiding stack.",
+  "id": "A337526",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A002026",
+    "A011782",
+    "A202062",
+    "A294790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

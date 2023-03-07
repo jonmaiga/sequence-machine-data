@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least integer such that the iterated modulus chain m_1=mod(a(n),m),m_2=mod(a(n),m_1),m_3=mod(a(n),m_2),..., m_n= (0 or 1) reaches a length n. The companion value m, associated to a(n), is given in A177968.",
+  "id": "A177967",
+  "mentions": [
+    "A177968"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

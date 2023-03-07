@@ -1,0 +1,19 @@
+{
+  "description": "Number of vertices of a hexagonal tessellation that lie on subsequent circles centered at the center of one hexagon.",
+  "id": "A338992",
+  "mentions": [
+    "A202822",
+    "A217219",
+    "A338947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

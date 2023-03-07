@@ -1,0 +1,24 @@
+{
+  "description": "Intersection of A002479 inter A002481: N = a^2 + 2b^2 = c^2 + 6d^2 for some integers a,b,c,d.",
+  "id": "A155569",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A002479",
+    "A002481",
+    "A003136",
+    "A020668",
+    "A155709"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:55:01",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

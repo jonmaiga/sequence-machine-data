@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of geometric progression constant for Coxeter's Loxodromic Sequence of Tangent Circles.",
+  "id": "A318605",
+  "mentions": [
+    "A001622",
+    "A139339",
+    "A192234",
+    "A192237",
+    "A317973",
+    "A317974",
+    "A317975",
+    "A317976"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:49:07",
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

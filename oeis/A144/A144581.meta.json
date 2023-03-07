@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers k*(k+1)/2 such that (number of prime factors of k) + (number of prime factors of k+1) is composite.",
+  "id": "A144581",
+  "mentions": [
+    "A000217",
+    "A002808",
+    "A144552"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

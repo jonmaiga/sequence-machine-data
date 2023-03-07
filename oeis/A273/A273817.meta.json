@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion the Bessel moment c(3,1) = Integral_{0..inf} x K_0(x)^3 dx, where K_0 is the modified Bessel function of the second kind.",
+  "id": "A273817",
+  "mentions": [
+    "A273816",
+    "A273818",
+    "A273819"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of x(5+215x-1253x^2-23x^3)/((1+34x+x^2)(1-34x+x^2)).",
+  "id": "A144796",
+  "mentions": [
+    "A077242"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:04:24",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

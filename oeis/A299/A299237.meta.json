@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the index m satisfying t(m) = reversal of t(n), where t(n) is the n-th {2,3}-power tower; see Comments.",
+  "id": "A299237",
+  "mentions": [
+    "A299229",
+    "A299239"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A pyramid F(n,p,r) of successive triangular arrays read by rows, relating Dyck path peaks and returns to the x axis (n = semilength of Dyck paths, p = number of peaks, r = returns to the x axis).",
+  "id": "A253938",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A007318",
+    "A033184"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

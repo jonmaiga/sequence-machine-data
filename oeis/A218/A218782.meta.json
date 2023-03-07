@@ -1,0 +1,27 @@
+{
+  "description": "A014486-codes for the compact representation of Beanstalk-tree, growing by two natural numbers at time, starting from the tree of one internal node (1) and two leaves (3 and 2), with the larger numbers coming to the left hand side.",
+  "id": "A218782",
+  "mentions": [
+    "A014486",
+    "A029837",
+    "A179016",
+    "A218548",
+    "A218612",
+    "A218776",
+    "A218778",
+    "A218780",
+    "A218783",
+    "A218788",
+    "A218790"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

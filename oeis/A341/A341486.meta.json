@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 9 nonprime numbers.",
+  "id": "A341486",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A052284",
+    "A076608",
+    "A340965",
+    "A341457",
+    "A341468",
+    "A341480",
+    "A341481",
+    "A341482",
+    "A341483",
+    "A341484",
+    "A341485"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 9,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

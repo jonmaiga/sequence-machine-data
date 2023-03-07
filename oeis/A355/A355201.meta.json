@@ -1,0 +1,29 @@
+{
+  "description": "Normalized Schur self-convolution expansion coefficients K_{n+1}^n / n giving the coefficients of the Laurent series (compositionally) inverse to f(z) = c_0 z + c_1 + c_2 / z + c_3 / z^2 + ... . Irregular triangle for partition polynomials, with row lengths A000041(n) - 1 except for the first two, which are both of length 1.",
+  "id": "A355201",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A001263",
+    "A091187",
+    "A091869",
+    "A111785",
+    "A133147",
+    "A133437",
+    "A134264",
+    "A263633",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

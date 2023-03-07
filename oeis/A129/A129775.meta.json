@@ -1,0 +1,22 @@
+{
+  "description": "Number of maximally clustered permutations in S_n; the maximally clustered permutations are those that avoid 3421, 4312 and 4321.",
+  "id": "A129775",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A088218",
+    "A108600",
+    "A155083"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:47:23",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

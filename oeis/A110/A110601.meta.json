@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = phi(n)*tau(n)^2, where phi is Euler's totient function and tau(n) is the number of divisors of n.",
+  "id": "A110601",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A035116",
+    "A062355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

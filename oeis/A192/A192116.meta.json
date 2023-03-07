@@ -1,0 +1,17 @@
+{
+  "description": "Monotonic ordering of nonnegative differences 2^i-6^j, for 40>=i>=0, j>=0.",
+  "id": "A192116",
+  "mentions": [
+    "A192117"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:47",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

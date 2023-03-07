@@ -1,0 +1,22 @@
+{
+  "description": "Length of representation of n in fractional base 3/2.",
+  "id": "A246435",
+  "mentions": [
+    "A024629",
+    "A055642",
+    "A070989",
+    "A081604",
+    "A081848"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

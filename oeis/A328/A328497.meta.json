@@ -1,0 +1,22 @@
+{
+  "description": "Terms of A082180 that are not squares or cubes of primes.",
+  "id": "A328497",
+  "mentions": [
+    "A082180",
+    "A168363",
+    "A228562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

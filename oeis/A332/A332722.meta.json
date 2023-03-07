@@ -1,0 +1,23 @@
+{
+  "description": "Index position of [2n-1, 2n-3, ..., 3, 1] within the list of partitions of n^2 in canonical ordering.",
+  "id": "A332722",
+  "mentions": [
+    "A000041",
+    "A000290",
+    "A005408",
+    "A080577",
+    "A238639",
+    "A238640",
+    "A322761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = A(x/A(x))^2 - x.",
+  "id": "A241000",
+  "mentions": [
+    "A240996",
+    "A240997",
+    "A240999"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

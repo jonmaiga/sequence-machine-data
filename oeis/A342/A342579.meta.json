@@ -1,0 +1,19 @@
+{
+  "description": "Frobenius number of the odious numbers (A000069) starting with the n-th term.",
+  "id": "A342579",
+  "mentions": [
+    "A000069",
+    "A342581"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

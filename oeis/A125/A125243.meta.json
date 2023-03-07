@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that binomial(5k, k) + 1 is prime.",
+  "id": "A125243",
+  "mentions": [
+    "A066699",
+    "A066726",
+    "A125220",
+    "A125221",
+    "A125240",
+    "A125241",
+    "A125242",
+    "A125244",
+    "A125245"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

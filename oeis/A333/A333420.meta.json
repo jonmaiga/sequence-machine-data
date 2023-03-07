@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k) read by upward antidiagonals. T(n,k) is the maximum value of Product_{i=1..n} Sum_{j=1..k} r[(i-1)*k+j] among all permutations r of {1..kn}.",
+  "id": "A333420",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A085527",
+    "A331889"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

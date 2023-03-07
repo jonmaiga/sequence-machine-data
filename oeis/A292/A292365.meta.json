@@ -1,0 +1,19 @@
+{
+  "description": "Abundant numbers n such that sigma(sigma(n) - 2*n) = sigma(n).",
+  "id": "A292365",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A005820"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways in which a four-player Old Maid match lasts for exactly n games until a player has been trolled exactly three times.",
+  "id": "A216074",
+  "mentions": [
+    "A220017"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p = prime(k) such that the representation of p can be split in two parts whose sum is k.",
+  "id": "A224843",
+  "mentions": [
+    "A112013",
+    "A224827"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

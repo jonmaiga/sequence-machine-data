@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n^9 into powers of 9.",
+  "id": "A196887",
+  "mentions": [
+    "A196879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

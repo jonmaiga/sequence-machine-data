@@ -1,0 +1,21 @@
+{
+  "description": "Smallest magic product for an n X n multiplicative magic square.",
+  "id": "A114060",
+  "mentions": [
+    "A111026",
+    "A111027",
+    "A111029",
+    "A111030",
+    "A111031"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of 1..n avoiding adjacent step pattern up, up, up, up, up, up.",
+  "id": "A177553",
+  "mentions": [
+    "A049774",
+    "A080635",
+    "A117158",
+    "A177523",
+    "A177533",
+    "A242784"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

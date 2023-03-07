@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of {1..n} whose root mean square is an integer.",
+  "id": "A339454",
+  "mentions": [
+    "A051293",
+    "A240089",
+    "A326027",
+    "A339453"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

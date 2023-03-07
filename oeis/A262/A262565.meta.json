@@ -1,0 +1,19 @@
+{
+  "description": "A weaver's answer to the question \"What comes next after 2,3,5?\".",
+  "id": "A262565",
+  "mentions": [
+    "A186809",
+    "A257113",
+    "A262564"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:51:53",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

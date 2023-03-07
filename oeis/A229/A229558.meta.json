@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(x) / (2 - exp(4*x))^(1/4).",
+  "id": "A229558",
+  "mentions": [
+    "A034385",
+    "A124212",
+    "A124214"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

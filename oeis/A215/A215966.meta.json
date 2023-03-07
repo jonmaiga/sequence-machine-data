@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways prime(n) can be expressed as the sum of distinct smaller noncomposites.",
+  "id": "A215966",
+  "mentions": [
+    "A000040",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

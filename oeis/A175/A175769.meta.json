@@ -1,0 +1,19 @@
+{
+  "description": "Maximum cardinality of isosceles sets in E^n.",
+  "id": "A175769",
+  "mentions": [
+    "A027627"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

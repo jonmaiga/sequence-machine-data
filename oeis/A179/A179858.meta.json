@@ -1,0 +1,18 @@
+{
+  "description": "Least positive primitive root of A139035(n).",
+  "id": "A179858",
+  "mentions": [
+    "A001918",
+    "A139035"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

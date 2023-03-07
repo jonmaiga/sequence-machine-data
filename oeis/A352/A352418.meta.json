@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the highly composite numbers.",
+  "id": "A352418",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

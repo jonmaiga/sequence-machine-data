@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: (tan x + sec x)^2*(E.g.f. for A000738).",
+  "id": "A292761",
+  "mentions": [
+    "A000045",
+    "A000738",
+    "A292760"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

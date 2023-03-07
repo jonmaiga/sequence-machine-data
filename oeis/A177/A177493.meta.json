@@ -1,0 +1,22 @@
+{
+  "description": "Products of cubes of 2 or more distinct primes.",
+  "id": "A177493",
+  "mentions": [
+    "A000469",
+    "A085986",
+    "A120944",
+    "A162142",
+    "A177492"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:05",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

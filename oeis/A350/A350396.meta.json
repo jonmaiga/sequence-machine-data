@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that there are two or more terms with the largest coefficient in Product_{k=1..m} (1 + x^k).",
+  "id": "A350396",
+  "mentions": [
+    "A025591",
+    "A042963",
+    "A350393",
+    "A350394",
+    "A350395"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

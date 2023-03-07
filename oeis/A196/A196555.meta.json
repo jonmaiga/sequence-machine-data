@@ -1,0 +1,20 @@
+{
+  "description": "O.g.f.: Sum_{n>=0} 2*(n+2)^(n-1) * x^n / Product_{k=1..n} (1+k*x).",
+  "id": "A196555",
+  "mentions": [
+    "A058864",
+    "A196556",
+    "A196557"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

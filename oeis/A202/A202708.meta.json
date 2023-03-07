@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits of n! divided by 9.",
+  "id": "A202708",
+  "mentions": [
+    "A004152",
+    "A086358"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 6,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

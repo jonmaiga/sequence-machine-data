@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that tau(k^2) + 2*sigma(k^2) and 2*tau(k^2) + sigma(k^2) are both prime.",
+  "id": "A358788",
+  "mentions": [
+    "A000005",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

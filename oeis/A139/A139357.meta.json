@@ -1,0 +1,21 @@
+{
+  "description": "Sequence describing the positions of the consonants when the sequence is written in French (version 2).",
+  "id": "A139357",
+  "mentions": [
+    "A139212",
+    "A139356",
+    "A139358"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] containing exactly four occurrences of the consecutive pattern 132.",
+  "id": "A263888",
+  "mentions": [
+    "A197365"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 9,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

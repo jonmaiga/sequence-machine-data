@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n integer matrices (m_{i,j}) such that m_{1,1}=0, m_{n,n}=2, and all rows, columns, and falling diagonals are (weakly) monotonic without jumps of 2.",
+  "id": "A306322",
+  "mentions": [
+    "A323846",
+    "A323848"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

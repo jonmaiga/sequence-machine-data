@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 2 or 5 king-move neighboring 1s.",
+  "id": "A296128",
+  "mentions": [
+    "A089977",
+    "A183444"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

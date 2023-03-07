@@ -1,0 +1,19 @@
+{
+  "description": "Number of primitive roots g mod prime(n) for which there is no solution to g^x == x (mod p) with 2 <= x <= prime(n)-2.",
+  "id": "A286510",
+  "mentions": [
+    "A008330",
+    "A174407"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

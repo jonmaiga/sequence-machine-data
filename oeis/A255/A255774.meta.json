@@ -1,0 +1,21 @@
+{
+  "description": "Tree of upper Wythoff numbers (A001950) generated as the 2-component of the graph described at A095903.",
+  "id": "A255774",
+  "mentions": [
+    "A001950",
+    "A095903",
+    "A244773",
+    "A255773"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

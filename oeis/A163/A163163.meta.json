@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(n) + tau(n) - n.",
+  "id": "A163163",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000203",
+    "A001065",
+    "A007503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

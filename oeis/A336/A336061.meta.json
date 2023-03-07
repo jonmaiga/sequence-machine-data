@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients associated with the second virial coefficient for rigid spheres with imbedded point dipoles.",
+  "id": "A336061",
+  "mentions": [
+    "A006134",
+    "A336062"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

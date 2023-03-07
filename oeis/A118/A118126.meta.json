@@ -1,0 +1,20 @@
+{
+  "description": "Lucky numbers (A000959) at which records in first differences (A031883) occur.",
+  "id": "A118126",
+  "mentions": [
+    "A000959",
+    "A031883",
+    "A031884"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

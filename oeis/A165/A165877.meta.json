@@ -1,0 +1,32 @@
+{
+  "description": "Number of disconnected 7-regular (septic) graphs on 2n vertices.",
+  "id": "A165877",
+  "mentions": [
+    "A014377",
+    "A033483",
+    "A068932",
+    "A068933",
+    "A165628",
+    "A165652",
+    "A165653",
+    "A165655",
+    "A165656",
+    "A165878",
+    "A185203",
+    "A185213",
+    "A185293"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

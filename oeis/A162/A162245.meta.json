@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,m) = 6*m*n + 3*m + 3*n + 1 read by rows.",
+  "id": "A162245",
+  "mentions": [
+    "A003154",
+    "A017209",
+    "A083487",
+    "A163433"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:11",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

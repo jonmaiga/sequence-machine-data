@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that A001222(k)=n and A001222(k+1)=n+1.",
+  "id": "A322300",
+  "mentions": [
+    "A001222",
+    "A076156",
+    "A079482"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

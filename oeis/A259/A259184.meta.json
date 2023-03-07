@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 - sigma(n) + sigma(n)^2.",
+  "id": "A259184",
+  "mentions": [
+    "A000203",
+    "A002061",
+    "A072861",
+    "A259185",
+    "A259186"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

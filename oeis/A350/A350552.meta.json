@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which A000120(k) = A000120(k'), where k' is arithmetic derivative of k (A003415).",
+  "id": "A350552",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A002144",
+    "A003415",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

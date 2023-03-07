@@ -1,0 +1,20 @@
+{
+  "description": "A positive integer n is included if all runs of 0's in binary n are of the same length, and if all runs of 1's in binary n are of the same length.",
+  "id": "A164713",
+  "mentions": [
+    "A164707",
+    "A164710",
+    "A164714"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:48",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

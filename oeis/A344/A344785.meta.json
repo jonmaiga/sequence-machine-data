@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the elite primes (A102742).",
+  "id": "A344785",
+  "mentions": [
+    "A102742"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

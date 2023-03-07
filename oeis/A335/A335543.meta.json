@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with an equal number of deficient and abundant divisors.",
+  "id": "A335543",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A005101",
+    "A080224",
+    "A080226",
+    "A335544"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

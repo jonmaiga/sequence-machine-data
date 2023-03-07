@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number not yet in the sequence greater than n+1 and relatively prime to n.",
+  "id": "A196189",
+  "mentions": [
+    "A065190",
+    "A169190"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n = x + y + z with 0 < x <= y <= z such that all the six numbers 2*x-1, 2*y-1, 2*z-1, 2*x*y-1, 2*x*z-1, 2*y*z-1 are prime.",
+  "id": "A229969",
+  "mentions": [
+    "A000040",
+    "A068307",
+    "A219842",
+    "A219864",
+    "A227923",
+    "A229974"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

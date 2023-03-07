@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n having depth 3; see Comments.",
+  "id": "A237978",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A237685",
+    "A237750"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers that are a sum of two squares plus 1.",
+  "id": "A286636",
+  "mentions": [
+    "A000952",
+    "A001481",
+    "A001844",
+    "A166687"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

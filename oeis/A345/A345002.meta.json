@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A345001(k)/A342001(k) is a positive natural number and a divisor of k.",
+  "id": "A345002",
+  "mentions": [
+    "A000396",
+    "A003415",
+    "A003557",
+    "A342001",
+    "A344755",
+    "A345001"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

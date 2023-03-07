@@ -1,0 +1,21 @@
+{
+  "description": "A285200 displayed as an irregular triangle read by rows.",
+  "id": "A285202",
+  "mentions": [
+    "A285200",
+    "A285201",
+    "A285203",
+    "A285204"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

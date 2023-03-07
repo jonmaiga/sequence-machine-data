@@ -1,0 +1,22 @@
+{
+  "description": "Infinitary deficient numbers: integers for which A126168(n) < n, or equivalently for which A049417(n) < 2n.",
+  "id": "A129657",
+  "mentions": [
+    "A007357",
+    "A049417",
+    "A126168",
+    "A127666",
+    "A129656"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

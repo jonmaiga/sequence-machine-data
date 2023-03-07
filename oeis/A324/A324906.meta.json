@@ -1,0 +1,23 @@
+{
+  "description": "Number of trailing 1-bits in the binary representation of A318466(n), where A318466(n) = 2*n OR sigma(n).",
+  "id": "A324906",
+  "mentions": [
+    "A000203",
+    "A003986",
+    "A007814",
+    "A318466",
+    "A324904",
+    "A324908"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

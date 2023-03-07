@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers that are both the sum of a twin prime pair and the sum of 1 and a semiprime.",
+  "id": "A350500",
+  "mentions": [
+    "A054735",
+    "A088707",
+    "A349757"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

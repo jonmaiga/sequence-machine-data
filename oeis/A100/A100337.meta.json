@@ -1,0 +1,18 @@
+{
+  "description": "Arshon's sequence with a different start: start from 3 and replace the letters in odd positions using 1 -> 123, 2 -> 231, 3 -> 312 and the letters in even positions using 1 -> 321, 2-> 132, 3 -> 213.",
+  "id": "A100337",
+  "mentions": [
+    "A099054",
+    "A100336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

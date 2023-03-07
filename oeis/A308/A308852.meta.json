@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number k such that the k-th tetrahedral number is not smaller than n!.",
+  "id": "A308852",
+  "mentions": [
+    "A000142",
+    "A000292",
+    "A055228",
+    "A214049",
+    "A214448"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

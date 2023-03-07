@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k such that the sum of decimal digits of (16^k - 1) equals 6*k.",
+  "id": "A165722",
+  "mentions": [
+    "A007953",
+    "A008588",
+    "A294652"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

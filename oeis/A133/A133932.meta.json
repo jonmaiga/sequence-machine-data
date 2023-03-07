@@ -1,0 +1,29 @@
+{
+  "description": "Coefficients of a partition transform for Lagrange inversion of -log(1 - u(.)*t), complementary to A134685 for an e.g.f.",
+  "id": "A133932",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A036039",
+    "A086810",
+    "A094587",
+    "A111999",
+    "A129185",
+    "A133314",
+    "A134685",
+    "A139605",
+    "A145271",
+    "A263633"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

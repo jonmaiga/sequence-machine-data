@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of theta_4(q)^20 in powers of q = exp(Pi i t).",
+  "id": "A319308",
+  "mentions": [
+    "A002448",
+    "A035016",
+    "A096727",
+    "A104794",
+    "A213384",
+    "A286346",
+    "A319307",
+    "A319309",
+    "A319310"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

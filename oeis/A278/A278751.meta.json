@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. C(x) = 1 + Integral S(x)*D(x)^2 dx, where C(x)^2 - S(x)^2 = 1 and 3*C(x)^2 - 2*D(x)^3 = 1.",
+  "id": "A278751",
+  "mentions": [
+    "A278749",
+    "A278750",
+    "A278752"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

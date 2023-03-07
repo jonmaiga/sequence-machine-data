@@ -1,0 +1,29 @@
+{
+  "description": "Partial sums of floor(n^2/8).",
+  "id": "A122046",
+  "mentions": [
+    "A000292",
+    "A001972",
+    "A002623",
+    "A014125",
+    "A052762",
+    "A057077",
+    "A090294",
+    "A122047",
+    "A144678",
+    "A175724",
+    "A190718"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

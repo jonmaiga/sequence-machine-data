@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = Sum_{d|n} A061019(d) * A003961(n/d), where A061019 negates the primes in the prime factorization, while A003961 shifts the factorization one step towards larger primes.",
+  "id": "A347236",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001359",
+    "A003961",
+    "A003973",
+    "A061019",
+    "A108605",
+    "A151800",
+    "A158523",
+    "A347136",
+    "A347237",
+    "A347238",
+    "A347239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

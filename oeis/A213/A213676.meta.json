@@ -1,0 +1,22 @@
+{
+  "description": "Reversed Zeckendorf binary representation of natural numbers.",
+  "id": "A213676",
+  "mentions": [
+    "A000201",
+    "A007895",
+    "A035614",
+    "A072649",
+    "A189920"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ceiling(2*sqrt(A000037(n))), n >= 1.",
+  "id": "A307136",
+  "mentions": [
+    "A000037",
+    "A000194",
+    "A225953",
+    "A336750"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

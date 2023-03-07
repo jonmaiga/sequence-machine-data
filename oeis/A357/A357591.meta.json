@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (exp(x) - 1) * tan((exp(x) - 1)/2).",
+  "id": "A357591",
+  "mentions": [
+    "A001469",
+    "A136128",
+    "A357240"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

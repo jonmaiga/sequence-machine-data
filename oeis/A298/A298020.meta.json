@@ -1,0 +1,20 @@
+{
+  "description": "Maximal overhang that can be attained from a stack of blocks of lengths 1,2,...,n (numerators).",
+  "id": "A298020",
+  "mentions": [
+    "A001108",
+    "A002805",
+    "A065071",
+    "A298021"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

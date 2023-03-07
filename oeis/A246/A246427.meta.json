@@ -1,0 +1,19 @@
+{
+  "description": "Number of facets of the cone defined by the zero-one inclusion matrix of pairs versus triples on an n-set.",
+  "id": "A246427",
+  "mentions": [
+    "A053043",
+    "A235459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 5,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

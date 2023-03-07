@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are sums of consecutive (positive) cubes in more than one way.",
+  "id": "A265845",
+  "mentions": [
+    "A000578",
+    "A005898",
+    "A027602",
+    "A027603",
+    "A062682",
+    "A131643",
+    "A217843"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

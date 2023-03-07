@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..k} binomial(n,j) * j! (0 <= k <= n).",
+  "id": "A347667",
+  "mentions": [
+    "A000522",
+    "A008279",
+    "A008949",
+    "A066211",
+    "A111063",
+    "A121662",
+    "A285268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

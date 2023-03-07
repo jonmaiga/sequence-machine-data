@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=1; a(1)=1; for a>1, a(n)=a(n-1)+((n-1)^3)*a(n-2).",
+  "id": "A167449",
+  "mentions": [
+    "A000045",
+    "A000085",
+    "A000142",
+    "A166469",
+    "A167448"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

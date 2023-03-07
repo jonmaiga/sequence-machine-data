@@ -1,0 +1,27 @@
+{
+  "description": "Table T(n,k) read by antidiagonals. T(n,k) is the maximum value of Product_{i=1..n} Sum_{j=1..k} r_j[i] where each r_j is a permutation of {1..n}.",
+  "id": "A331988",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A000169",
+    "A001504",
+    "A016743",
+    "A016766",
+    "A061711",
+    "A061718",
+    "A260355"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

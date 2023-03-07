@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers represented by the indefinite quadratic form 3x^2+5xy-3y^2, of discriminant 61.",
+  "id": "A243654",
+  "mentions": [
+    "A141215",
+    "A243655"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

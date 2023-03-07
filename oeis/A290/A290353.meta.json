@@ -1,0 +1,39 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the k-th Euler transform of the sequence with g.f. 1+x.",
+  "id": "A290353",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000217",
+    "A000330",
+    "A001477",
+    "A001970",
+    "A007713",
+    "A007714",
+    "A007715",
+    "A144150",
+    "A290354",
+    "A290355",
+    "A290356",
+    "A290357",
+    "A290358",
+    "A290359",
+    "A290360",
+    "A290361",
+    "A290362",
+    "A290363",
+    "A290364"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

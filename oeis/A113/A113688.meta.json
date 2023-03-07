@@ -1,0 +1,34 @@
+{
+  "description": "Isolated semiprimes in the semiprime square spiral.",
+  "id": "A113688",
+  "mentions": [
+    "A001107",
+    "A001358",
+    "A002939",
+    "A002943",
+    "A004526",
+    "A005620",
+    "A007510",
+    "A007742",
+    "A033951",
+    "A033954",
+    "A033988",
+    "A033989",
+    "A033991",
+    "A033996",
+    "A063826",
+    "A113689",
+    "A115258"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

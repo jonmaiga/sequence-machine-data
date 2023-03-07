@@ -1,0 +1,33 @@
+{
+  "description": "Consider the base-7 Kaprekar map n->K(n) defined in A165071. Sequence gives least elements of each cycle, including fixed points.",
+  "id": "A165080",
+  "mentions": [
+    "A163205",
+    "A164718",
+    "A165002",
+    "A165021",
+    "A165041",
+    "A165060",
+    "A165071",
+    "A165075",
+    "A165076",
+    "A165078",
+    "A165081",
+    "A165082",
+    "A165084",
+    "A165088",
+    "A165099",
+    "A165119"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Mixed-radix representation of n where the least significant digit is in base 3 and other digits are in base 2.",
+  "id": "A340051",
+  "mentions": [
+    "A007088",
+    "A096304"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

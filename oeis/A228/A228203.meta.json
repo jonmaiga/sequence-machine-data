@@ -1,0 +1,20 @@
+{
+  "description": "x-values in the solution to x^2 - 13y^2 = 27.",
+  "id": "A228203",
+  "mentions": [
+    "A152741",
+    "A228204"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

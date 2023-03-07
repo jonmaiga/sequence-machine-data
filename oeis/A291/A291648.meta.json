@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of simple graphs of order n having at most one cycle (such graphs are called \"at most unicyclic graphs\").",
+  "id": "A291648",
+  "mentions": [
+    "A005195",
+    "A236570"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

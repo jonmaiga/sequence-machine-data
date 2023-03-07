@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that s(k) = s(k+2), where s(k) is Schemmel's totient function of order 2 (A058026).",
+  "id": "A330902",
+  "mentions": [
+    "A000010",
+    "A001494",
+    "A058026"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

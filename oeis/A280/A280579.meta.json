@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals downwards giving the first differences A261327(n+p) - A261327(n), with p >= 0.",
+  "id": "A280579",
+  "mentions": [
+    "A000290",
+    "A002061",
+    "A005563",
+    "A061037",
+    "A061039",
+    "A064680",
+    "A112087",
+    "A144433",
+    "A195161",
+    "A261327"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

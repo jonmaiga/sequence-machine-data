@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (n+1)^1+(n+2)^2+(n+3)^3+(n+4)^4+(n+5)^5+(n+6)^6+(n+7)^7+(n+8)^8+(n+9)^9.",
+  "id": "A160935",
+  "mentions": [
+    "A027886",
+    "A160932",
+    "A160934"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

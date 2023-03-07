@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is a prime number that cannot be the center term of a length 3 arithmetic progression prime group with a common difference whose number of runs in binary expansion is 2.",
+  "id": "A231387",
+  "mentions": [
+    "A005811",
+    "A043569"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

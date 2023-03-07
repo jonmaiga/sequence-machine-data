@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*binomial(n, k)^2*hypergeom([(k-n)/2, (k-n+1)/2], [k+2], 4).",
+  "id": "A344503",
+  "mentions": [
+    "A005809",
+    "A025174",
+    "A064189",
+    "A344502"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of odd primes between successive numbers of the form n*(n+1)^2/2.",
+  "id": "A182050",
+  "mentions": [
+    "A006002"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers whose largest prime substring is greater than the record of all previous terms.",
+  "id": "A345666",
+  "mentions": [
+    "A002808",
+    "A047814",
+    "A345667"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:54:37",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

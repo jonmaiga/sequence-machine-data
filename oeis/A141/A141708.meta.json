@@ -1,0 +1,23 @@
+{
+  "description": "Least positive multiple of 2n-1 which is palindromic in base 2.",
+  "id": "A141708",
+  "mentions": [
+    "A050782",
+    "A062279",
+    "A141707"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers n such that n-1 is squarefree and all prime divisors of n-1 other than 19 are in the sequence.",
+  "id": "A267507",
+  "mentions": [
+    "A267503",
+    "A267504",
+    "A267505",
+    "A267506"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

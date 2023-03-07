@@ -1,0 +1,22 @@
+{
+  "description": "Product of two primes whose sum is a perfect square.",
+  "id": "A141755",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001358",
+    "A010052",
+    "A020639",
+    "A143416"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

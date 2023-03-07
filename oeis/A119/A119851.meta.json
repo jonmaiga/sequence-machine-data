@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ternary words of length n containing k 012's (n >= 0, 0 <= k <= floor(n/3)).",
+  "id": "A119851",
+  "mentions": [
+    "A000244",
+    "A027741",
+    "A076264",
+    "A119852"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

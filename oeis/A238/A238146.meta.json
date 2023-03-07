@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is coefficient of x^(n-k) in consecutive prime rooted polynomial of degree n, P(x) = Product_{k=1..n} (x-p(k)) = 1*x^n + T(n,1)*x^(n-1)+ ... + T(n,k-1)*x + T(n,k), for 1 <= k <= n.",
+  "id": "A238146",
+  "mentions": [
+    "A002110",
+    "A006939",
+    "A007504",
+    "A007947",
+    "A024447",
+    "A024448",
+    "A024449"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

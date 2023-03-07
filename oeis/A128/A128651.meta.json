@@ -1,0 +1,21 @@
+{
+  "description": "In the sequence of natural numbers, replace the nonsquarefree numbers with their minimal factorization into squarefree numbers.",
+  "id": "A128651",
+  "mentions": [
+    "A003557",
+    "A007947",
+    "A013929",
+    "A129132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

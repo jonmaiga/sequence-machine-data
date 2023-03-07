@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of tilings of a 3k X n rectangle with right trominoes.",
+  "id": "A351322",
+  "mentions": [
+    "A000079",
+    "A046984",
+    "A077957",
+    "A084478",
+    "A351323",
+    "A351324"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

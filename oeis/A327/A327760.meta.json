@@ -1,0 +1,20 @@
+{
+  "description": "Primes in Rob Gahan's arithmetic progression of 27 primes.",
+  "id": "A327760",
+  "mentions": [
+    "A204189"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer k>=1 such that k*prime(n) is the sum of two successive primes.",
+  "id": "A247252",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A203836",
+    "A247245"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

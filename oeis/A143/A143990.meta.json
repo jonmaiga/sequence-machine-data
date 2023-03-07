@@ -1,0 +1,19 @@
+{
+  "description": "n!*A001515(n-1) with a(0) = 1.",
+  "id": "A143990",
+  "mentions": [
+    "A001515",
+    "A105749"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

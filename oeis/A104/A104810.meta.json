@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 8 in partition of decimal expansion of Pi A104807.",
+  "id": "A104810",
+  "mentions": [
+    "A104807",
+    "A104818"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:57",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that k^(n-1) == k (mod n) for every k = 1, 2, ..., n-1.",
+  "id": "A216090",
+  "mentions": [
+    "A002322",
+    "A050990",
+    "A192109",
+    "A197929",
+    "A197930",
+    "A197943"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

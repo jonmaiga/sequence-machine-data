@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the ratio of the height of the triangle corresponding to a circular segment with area r^2 of a circle with radius r to r itself.",
+  "id": "A179377",
+  "mentions": [
+    "A049541",
+    "A179373",
+    "A179374",
+    "A179375",
+    "A179376",
+    "A179378"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

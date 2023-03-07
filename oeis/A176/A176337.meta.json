@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 + (1-2^n)*a(n-1) for n > 0, a(0)=0.",
+  "id": "A176337",
+  "mentions": [
+    "A176338"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

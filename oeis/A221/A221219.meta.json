@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) divides Sum_{d|k} sigma(d).",
+  "id": "A221219",
+  "mentions": [
+    "A000203",
+    "A007429",
+    "A066218",
+    "A224488",
+    "A319296",
+    "A322655",
+    "A322656"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle where the n terms of row n are the smallest positive integers not occurring earlier in the sequence such that, for any given m (1<=m<=n), a(n,m) and n do not have any 1-bits in the same position when they are written in binary.",
+  "id": "A113820",
+  "mentions": [
+    "A115629",
+    "A160968"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

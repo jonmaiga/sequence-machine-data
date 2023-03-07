@@ -1,0 +1,19 @@
+{
+  "description": "Greatest integer x such that x' = 2n and x is not a semiprime, or 0 if there is no such x, where x' is the arithmetic derivative (A003415).",
+  "id": "A189764",
+  "mentions": [
+    "A003415",
+    "A102084",
+    "A189763"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

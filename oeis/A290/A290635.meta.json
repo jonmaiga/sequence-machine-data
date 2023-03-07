@@ -1,0 +1,21 @@
+{
+  "description": "Greatest of 4 consecutive primes with consecutive gaps 6, 4, 2.",
+  "id": "A290635",
+  "mentions": [
+    "A006512",
+    "A022005",
+    "A078855",
+    "A098413"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

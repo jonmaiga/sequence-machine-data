@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which row n lists the number of parts in each of those partitions of n that have every part >=3.",
+  "id": "A177740",
+  "mentions": [
+    "A008483",
+    "A128628",
+    "A176210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 3,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

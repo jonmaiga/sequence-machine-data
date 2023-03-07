@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp( -(x * log(1-x))^3 / 36 ).",
+  "id": "A353892",
+  "mentions": [
+    "A066166",
+    "A347002",
+    "A353881",
+    "A353891",
+    "A353893",
+    "A353895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

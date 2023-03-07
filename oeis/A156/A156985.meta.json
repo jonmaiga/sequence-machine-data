@@ -1,0 +1,23 @@
+{
+  "description": "Triangle formed by coefficients of the expansion of p(x,n) = (1-x)^(2*n + 1)*Sum_{j >= 0} (1 +j +j^2)^n * x^j.",
+  "id": "A156985",
+  "mentions": [
+    "A010050",
+    "A156890",
+    "A156896",
+    "A156901",
+    "A156918"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "If n is a multiple of 3 then a(n) = n/3, otherwise a(n) = n'+n'', where n' (resp. n'') is obtained by sorting the bits of the binary expansion of n into increasing (resp. decreasing) order.",
+  "id": "A271497",
+  "mentions": [
+    "A052008",
+    "A271498",
+    "A271500"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^n + (n-k)^n).",
+  "id": "A323751",
+  "mentions": [
+    "A323540",
+    "A323541",
+    "A323542",
+    "A323543",
+    "A323544",
+    "A323545",
+    "A323546",
+    "A323575",
+    "A323588"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) with the coefficient [x^k] of 1/(1 - x - 2*x^2 + x^3)^(n-k+1) in row n, column k.",
+  "id": "A188107",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001654",
+    "A006053",
+    "A055998",
+    "A187065",
+    "A187066",
+    "A187067"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:29",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

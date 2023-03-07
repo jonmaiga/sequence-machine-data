@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime >= 5*n.",
+  "id": "A118754",
+  "mentions": [
+    "A007918",
+    "A008587",
+    "A060264",
+    "A060308",
+    "A118747",
+    "A118755"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

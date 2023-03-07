@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k such that prime(k*n)-1+(prime(h*n)-1) = prime(i*n)-1 and prime(k*n)-1-(prime(h*n)-1) = prime(j*n)-1 for some positive integers h,i,j.",
+  "id": "A260078",
+  "mentions": [
+    "A000040",
+    "A257926",
+    "A257938"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

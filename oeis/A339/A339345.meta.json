@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of odd numbers such that the asymptotic density of the numbers which are coprime to all the terms of this sequence is 1/2.",
+  "id": "A339345",
+  "mentions": [
+    "A143512",
+    "A174688",
+    "A339344"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

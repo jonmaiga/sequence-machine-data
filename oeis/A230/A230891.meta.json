@@ -1,0 +1,19 @@
+{
+  "description": "Working in base 2: a(0)=0, thereafter a(n+1) is the smallest number not already in the sequence such that the bits of a(n) and a(n+1) together can be rearranged to form a palindrome.",
+  "id": "A230891",
+  "mentions": [
+    "A228407",
+    "A230892"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

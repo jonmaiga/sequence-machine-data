@@ -1,0 +1,23 @@
+{
+  "description": "Length of the longest sequence of consecutive primes in the prime factorization of n. a(1) = 0.",
+  "id": "A300820",
+  "mentions": [
+    "A002110",
+    "A038374",
+    "A087207",
+    "A104210",
+    "A167447",
+    "A296210"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

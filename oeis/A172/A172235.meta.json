@@ -1,0 +1,20 @@
+{
+  "description": "n-th partial sum of primes of the form 3*k+1/2+-1/2 minus n-th partial sum of primes of the form 3*m-1.",
+  "id": "A172235",
+  "mentions": [
+    "A171715",
+    "A172113",
+    "A172188"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

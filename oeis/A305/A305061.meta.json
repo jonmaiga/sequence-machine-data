@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 20*2^n + 14.",
+  "id": "A305061",
+  "mentions": [
+    "A305060",
+    "A305062",
+    "A305063"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

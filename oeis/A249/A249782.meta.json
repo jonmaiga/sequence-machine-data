@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2; thereafter, a(n) is the smallest prime not yet used which is compatible with the condition that a(n) is a quadratic residue modulo a(k) for the next n indices k = n+1, n+2, ..., 2n.",
+  "id": "A249782",
+  "mentions": [
+    "A249692",
+    "A249778"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

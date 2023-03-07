@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p such that the first n primes divide p^2-1.",
+  "id": "A214089",
+  "mentions": [
+    "A002110",
+    "A073917",
+    "A103783",
+    "A215085"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

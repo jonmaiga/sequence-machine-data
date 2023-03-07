@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular array, by antidiagonals; row 1 is the ordered list of all k having at most 2 unitary divisors; for n > 1, row n is the ordered list of all k having 2^n unitary divisors.",
+  "id": "A295644",
+  "mentions": [
+    "A000961",
+    "A007774",
+    "A033992",
+    "A033993",
+    "A034444",
+    "A035555",
+    "A125666",
+    "A231209"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

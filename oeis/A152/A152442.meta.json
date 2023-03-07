@@ -1,0 +1,18 @@
+{
+  "description": "n is included if the largest divisor of n that is coprime to d(n) is a composite, where d(n) is the number of divisors of n.",
+  "id": "A152442",
+  "mentions": [
+    "A137926",
+    "A152444"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

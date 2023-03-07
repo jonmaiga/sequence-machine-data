@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the infinite product of (j/Pi)*sin(Pi/j), for j >= 2, a constant similar to the Kepler-Bouwkamp constant.",
+  "id": "A245781",
+  "mentions": [
+    "A085365"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

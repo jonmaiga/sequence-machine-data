@@ -1,0 +1,20 @@
+{
+  "description": "Tetranacci analog of A055502.",
+  "id": "A113843",
+  "mentions": [
+    "A055502",
+    "A113823"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

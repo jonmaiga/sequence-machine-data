@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (b(m)-1)*b(m) = Sum_{n=b(m)+1,...,c(m)}n, b=A046174, c=A046175, m=n+1.",
+  "id": "A175410",
+  "mentions": [
+    "A046174",
+    "A046175"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

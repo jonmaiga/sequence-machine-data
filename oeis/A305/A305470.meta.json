@@ -1,0 +1,19 @@
+{
+  "description": "Smallest binary palindrome whose product with A305468(n) gives a binary palindrome.",
+  "id": "A305470",
+  "mentions": [
+    "A006995",
+    "A305468"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

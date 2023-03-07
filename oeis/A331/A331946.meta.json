@@ -1,0 +1,22 @@
+{
+  "description": "Factors k > 0 such that k*x^2 + 1 produces a new minimum of its Hardy-Littlewood constant.",
+  "id": "A331946",
+  "mentions": [
+    "A221712",
+    "A331940",
+    "A331945",
+    "A331947",
+    "A331948"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

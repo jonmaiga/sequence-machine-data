@@ -1,0 +1,32 @@
+{
+  "description": "Table version of the array of number of round trips of length L from any of the N vertices of the cycle graph C_N.",
+  "id": "A199571",
+  "mentions": [
+    "A000007",
+    "A047849",
+    "A054877",
+    "A063376",
+    "A078008",
+    "A094233",
+    "A094659",
+    "A095929",
+    "A198633",
+    "A198637",
+    "A199572",
+    "A199573"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

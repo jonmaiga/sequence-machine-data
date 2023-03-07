@@ -1,0 +1,27 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = denominator of Product (1 + 1/p_j^k_j).",
+  "id": "A332883",
+  "mentions": [
+    "A007947",
+    "A017666",
+    "A034448",
+    "A077610",
+    "A319677",
+    "A323166",
+    "A327158",
+    "A332881",
+    "A332882"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

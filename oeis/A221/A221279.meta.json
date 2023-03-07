@@ -1,0 +1,18 @@
+{
+  "description": "Smallest tau-value of a special set (in the sense of Heath-Brown) with n elements.",
+  "id": "A221279",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

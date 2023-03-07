@@ -1,0 +1,20 @@
+{
+  "description": "Number of interior vertices formed by drawing the lines connecting any two of the 2*(n+2) perimeter points of a 3 X (n+1) square grid.",
+  "id": "A331767",
+  "mentions": [
+    "A331452",
+    "A331763",
+    "A331765",
+    "A331766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

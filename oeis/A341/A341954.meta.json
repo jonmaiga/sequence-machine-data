@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1/((1-x*B(x)^2)*(1-x*C(x)^3)) such that B(x) = 1/((1-x*A(x))*(1-x*C(x)^3)) and C(x) = 1/((1-x*A(x))*(1-x*B(x)^2)) are the g.f.s of A341955 and A341956, respectively.",
+  "id": "A341954",
+  "mentions": [
+    "A341955",
+    "A341956"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

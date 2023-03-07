@@ -1,0 +1,19 @@
+{
+  "description": "Sorted terms of A277781.",
+  "id": "A299117",
+  "mentions": [
+    "A013929",
+    "A072905",
+    "A277781"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

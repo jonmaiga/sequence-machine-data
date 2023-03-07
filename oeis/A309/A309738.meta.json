@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form b^2*10^(2*k) + b*10^k + 1 for 1 <= b <= 9, k >= 0.",
+  "id": "A309738",
+  "mentions": [
+    "A297422",
+    "A306751",
+    "A308449",
+    "A309582",
+    "A309719",
+    "A309739",
+    "A309744"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

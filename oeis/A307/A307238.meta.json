@@ -1,0 +1,20 @@
+{
+  "description": "This is claimed to be the minimal cut length required to cut a unit circle into 4 pieces of equal area after making certain assumptions about the cuts (compare A307234).",
+  "id": "A307238",
+  "mentions": [
+    "A207235",
+    "A307234",
+    "A307237"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

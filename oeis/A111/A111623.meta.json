@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (cosine of 1 degree)^5.",
+  "id": "A111623",
+  "mentions": [
+    "A019810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:37",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

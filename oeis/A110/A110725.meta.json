@@ -1,0 +1,23 @@
+{
+  "description": "[{n concatenate R(n)} + {R(n) concatenate n}]/11, where R(n) = digit reversal of n.",
+  "id": "A110725",
+  "mentions": [
+    "A110722",
+    "A110723",
+    "A110724"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

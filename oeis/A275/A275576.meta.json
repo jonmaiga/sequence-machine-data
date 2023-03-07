@@ -1,0 +1,21 @@
+{
+  "description": "Sums of lengths of longest (strictly) increasing subsequences of all n^n length-n lists of integers from {1,2,...,n}.",
+  "id": "A275576",
+  "mentions": [
+    "A003316",
+    "A245667",
+    "A275577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

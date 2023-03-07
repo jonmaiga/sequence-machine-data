@@ -1,0 +1,19 @@
+{
+  "description": "One of the two successive approximations up to 7^n for the 7-adic integer sqrt(-5). These are the numbers congruent to 3 mod 7 (except for the initial 0).",
+  "id": "A290806",
+  "mentions": [
+    "A290798",
+    "A290809"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

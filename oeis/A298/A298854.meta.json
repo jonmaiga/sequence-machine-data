@@ -1,0 +1,26 @@
+{
+  "description": "Characteristic polynomials of Jacobi coordinates. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A298854",
+  "mentions": [
+    "A000142",
+    "A002720",
+    "A080171",
+    "A177145",
+    "A187735",
+    "A223256",
+    "A223257"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

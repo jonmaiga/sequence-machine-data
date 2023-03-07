@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered sextuples of distinct pairwise coprime positive integers with largest element n.",
+  "id": "A186977",
+  "mentions": [
+    "A186972",
+    "A186982"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 11,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

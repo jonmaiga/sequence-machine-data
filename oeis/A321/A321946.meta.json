@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors for the automorphism group size having the largest number of divisors for a binary self-dual code of length 2n.",
+  "id": "A321946",
+  "mentions": [
+    "A003179",
+    "A028362",
+    "A028363",
+    "A106162",
+    "A106163",
+    "A120373",
+    "A269455",
+    "A322299",
+    "A322339"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

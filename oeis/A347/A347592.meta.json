@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^4 into at most n fourth powers.",
+  "id": "A347592",
+  "mentions": [
+    "A000583",
+    "A299195",
+    "A307739",
+    "A346566",
+    "A347590",
+    "A347591"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

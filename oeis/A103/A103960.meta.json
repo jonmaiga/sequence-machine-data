@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p such that prime(n)*p - 2 is prime and p <= prime(n).",
+  "id": "A103960",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A103959",
+    "A137291",
+    "A210481"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

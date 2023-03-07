@@ -1,0 +1,21 @@
+{
+  "description": "A permutation related to minimal Pell representations: append a 0 after each 2 in the ternary expansion of n, and then replace each place value, say 3^k with k >= 0, by A000129(k+1).",
+  "id": "A352416",
+  "mentions": [
+    "A000129",
+    "A048680",
+    "A317204",
+    "A352417"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

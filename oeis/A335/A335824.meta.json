@@ -1,0 +1,19 @@
+{
+  "description": "Persistence of the 1-shifted Sloane's problem: number of iterations of \"multiply together all the digits of a number (in base 10) shifted by +1\" needed to reach a fixed point or a cycle.",
+  "id": "A335824",
+  "mentions": [
+    "A089898"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

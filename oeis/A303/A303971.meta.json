@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2*p + 1 and (5*p^2 + 4*p + 1)/2 are prime.",
+  "id": "A303971",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A005385"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

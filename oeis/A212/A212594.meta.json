@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the difference between multiples of 11 with even and odd decimal digit sum in interval [0,10^n).",
+  "id": "A212594",
+  "mentions": [
+    "A038754",
+    "A091042",
+    "A212500",
+    "A212592",
+    "A212593"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:28:24",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

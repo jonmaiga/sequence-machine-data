@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to pay n dollars using Canadian coins, that is: nickels (5 cents), dimes (10 cents), quarters (25 cents), loonies (100 cents or $1 coins) and toonies ($2 coins).",
+  "id": "A307849",
+  "mentions": [
+    "A085502",
+    "A160551"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:29",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

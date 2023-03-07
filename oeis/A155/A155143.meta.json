@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p-+2, p-+4, p-+6 are squarefree.",
+  "id": "A155143",
+  "mentions": [
+    "A049282",
+    "A153213",
+    "A155139",
+    "A155140",
+    "A155141",
+    "A155142"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

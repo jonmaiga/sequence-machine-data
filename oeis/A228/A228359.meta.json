@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n whose 10's complement is not prime, i.e., 10^k-n, where k is the number of digits of n, is not prime.",
+  "id": "A228359",
+  "mentions": [
+    "A228075"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

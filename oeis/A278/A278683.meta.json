@@ -1,0 +1,26 @@
+{
+  "description": "Number of non-equivalent ways to place 4 non-attacking ferses on an n X n board.",
+  "id": "A278683",
+  "mentions": [
+    "A201245",
+    "A232567",
+    "A278682",
+    "A278684",
+    "A278685",
+    "A278686",
+    "A278687",
+    "A278688"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:53",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

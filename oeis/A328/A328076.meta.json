@@ -1,0 +1,18 @@
+{
+  "description": "A309940 sorted and duplicates removed.",
+  "id": "A328076",
+  "mentions": [
+    "A309940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

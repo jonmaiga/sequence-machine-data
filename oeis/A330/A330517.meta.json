@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} sech(x^k) (even powers only).",
+  "id": "A330517",
+  "mentions": [
+    "A000364",
+    "A203716",
+    "A229263",
+    "A270294",
+    "A270662",
+    "A270663",
+    "A270664",
+    "A270665",
+    "A270666",
+    "A330514",
+    "A330515",
+    "A330516"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

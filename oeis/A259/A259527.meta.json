@@ -1,0 +1,18 @@
+{
+  "description": "a(n) gives the number of sequences n = b_1 < b_2 < ... < b_t = A006255(n) such that b_1*b_2*...*b_t is a perfect square.",
+  "id": "A259527",
+  "mentions": [
+    "A006255",
+    "A260510"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Secondary diagonal of symmetric triangle A126155: a(n) = A126155(n+1,n).",
+  "id": "A126158",
+  "mentions": [
+    "A126155",
+    "A126156",
+    "A126157"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

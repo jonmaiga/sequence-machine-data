@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers n which divide the sum of the Fibonacci numbers F(1) + ... + F(n) but are not a multiple of 24.",
+  "id": "A331870",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A111035",
+    "A124456",
+    "A331976"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

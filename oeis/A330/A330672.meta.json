@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base phi representation is symmetrical with respect to the radix point.",
+  "id": "A330672",
+  "mentions": [
+    "A057148",
+    "A130600",
+    "A178482",
+    "A330722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

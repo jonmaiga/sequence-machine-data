@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the number of prime factors, counted with multiplicity, of 2^k - 1 is greater than the corresponding count for 2^k + 1.",
+  "id": "A337812",
+  "mentions": [
+    "A046051",
+    "A054992",
+    "A309942",
+    "A337810",
+    "A337811",
+    "A337813"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

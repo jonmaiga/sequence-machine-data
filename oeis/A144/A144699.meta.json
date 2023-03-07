@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of 5-Eulerian numbers.",
+  "id": "A144699",
+  "mentions": [
+    "A001725",
+    "A008292",
+    "A143494",
+    "A144696",
+    "A144697",
+    "A144698"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:01:23",
+    "offset": 5,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 4*n^3 - 3.",
+  "id": "A199369",
+  "mentions": [
+    "A199307",
+    "A199368"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:05:27",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

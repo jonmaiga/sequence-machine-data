@@ -1,0 +1,26 @@
+{
+  "description": "Product of largest prime power factors of numbers <= n.",
+  "id": "A330043",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A001221",
+    "A034699",
+    "A048803",
+    "A104350",
+    "A210208",
+    "A246655",
+    "A284521"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:50:35",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

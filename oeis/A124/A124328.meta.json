@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ordered trees with n edges, with thinning limbs and with root of degree k (1<=k<=n). An ordered tree with thinning limbs is such that if a node has k children, all its children have at most k children.",
+  "id": "A124328",
+  "mentions": [
+    "A124329",
+    "A124344",
+    "A124889",
+    "A124890",
+    "A124891"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

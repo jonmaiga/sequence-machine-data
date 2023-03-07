@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of compositions of n with 2k parts and circular differences all equal to 1 or -1, (n >= 3, 1 <= k <= n/3).",
+  "id": "A309937",
+  "mentions": [
+    "A309931",
+    "A309938",
+    "A309939",
+    "A325558",
+    "A325589",
+    "A325590"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Quotients connected with the Banach matchboxes problem: Sum_{i=1..prime(n)-7} 2^(i-1)*binomial(i+2,3)/prime(n) (case 3).",
+  "id": "A238697",
+  "mentions": [
+    "A238693"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:37:00",
+    "offset": 4,
+    "size": 18,
+    "source": "joeis"
+  }
+}

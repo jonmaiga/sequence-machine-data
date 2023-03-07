@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n where each part i is marked with a word of length i over a senary alphabet whose letters appear in alphabetical order and all six letters occur at least once in the partition.",
+  "id": "A293370",
+  "mentions": [
+    "A261719"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 6,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

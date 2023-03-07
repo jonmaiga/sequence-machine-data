@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form, 2^i*3^j, i+j odd.",
+  "id": "A257999",
+  "mentions": [
+    "A003586",
+    "A022328",
+    "A022329",
+    "A026424",
+    "A036667",
+    "A069352"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

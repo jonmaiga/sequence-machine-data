@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(A000201(n)).",
+  "id": "A109652",
+  "mentions": [
+    "A000040",
+    "A000201",
+    "A003849"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

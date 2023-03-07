@@ -1,0 +1,24 @@
+{
+  "description": "Integers that can be expressed as a product d*sigma(d), where sigma is the sum of divisors function, in a single way.",
+  "id": "A338520",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A036690",
+    "A064987",
+    "A327153",
+    "A327165",
+    "A337873",
+    "A338519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

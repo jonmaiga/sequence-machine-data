@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number that is an emirp in all bases from 2 through n.",
+  "id": "A228768",
+  "mentions": [
+    "A006567",
+    "A080790",
+    "A136634"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

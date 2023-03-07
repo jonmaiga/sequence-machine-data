@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the other-side convergents to sqrt(7).",
+  "id": "A259596",
+  "mentions": [
+    "A041008",
+    "A041009",
+    "A259597"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

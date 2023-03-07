@@ -1,0 +1,21 @@
+{
+  "description": "Inventory sequence, second version: record where the 1's, 2's, etc. are located starting with a(1) = 1, a(2) = 1.",
+  "id": "A357443",
+  "mentions": [
+    "A342585",
+    "A356784",
+    "A358066"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

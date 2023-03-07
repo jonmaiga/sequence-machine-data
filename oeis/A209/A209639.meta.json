@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of A209859.",
+  "id": "A209639",
+  "mentions": [
+    "A005408",
+    "A209859"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

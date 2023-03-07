@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n>=2, k>=1) = number of strong tournaments on n nodes with k descents.",
+  "id": "A339590",
+  "mentions": [
+    "A054946",
+    "A057273",
+    "A339807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

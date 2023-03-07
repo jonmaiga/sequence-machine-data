@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of successive polynomials formed by iterating f(x) = -1 + 2x^2. Irregular triangle read by rows.",
+  "id": "A321369",
+  "mentions": [
+    "A000051",
+    "A053120",
+    "A075733",
+    "A127674"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the n-th powers of the descent set statistics for permutations of [n].",
+  "id": "A334623",
+  "mentions": [
+    "A060351",
+    "A334622",
+    "A335546"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

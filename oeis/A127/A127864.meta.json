@@ -1,0 +1,29 @@
+{
+  "description": "Number of tilings of a 2 X n board with 1 X 1 and L-shaped tiles (where the L-shaped tiles cover 3 squares).",
+  "id": "A127864",
+  "mentions": [
+    "A028860",
+    "A077917",
+    "A127865",
+    "A127866",
+    "A127867",
+    "A127868",
+    "A127869",
+    "A127870",
+    "A127871",
+    "A127872",
+    "A220054"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

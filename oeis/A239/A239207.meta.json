@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = |{0 < k <= n: k*p(n)*q(n)*r(n) - 1 is prime}|, where p(.), q(.) and r(.) are given by A000041, A000009 and A047967 respectively.",
+  "id": "A239207",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A047967",
+    "A238393",
+    "A238577",
+    "A239209",
+    "A239214"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "n-th perfect number minus 1, written in base 2.",
+  "id": "A138831",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A002113",
+    "A090748",
+    "A133033",
+    "A134808",
+    "A135627",
+    "A138131",
+    "A138148"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

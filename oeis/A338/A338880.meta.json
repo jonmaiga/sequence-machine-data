@@ -1,0 +1,22 @@
+{
+  "description": "Product of the nonzero digits of (n written in base 7).",
+  "id": "A338880",
+  "mentions": [
+    "A007093",
+    "A051801",
+    "A117592",
+    "A309958"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:53",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Central terms of the triangle in A199333: a(n) = A199333(n,[n/2])",
+  "id": "A199582",
+  "mentions": [
+    "A001405",
+    "A006530",
+    "A007918",
+    "A199333",
+    "A199581",
+    "A199695",
+    "A199696"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

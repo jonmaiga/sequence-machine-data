@@ -1,0 +1,23 @@
+{
+  "description": "Number of unrooted maps with n edges of (orientable) genus 4.",
+  "id": "A215019",
+  "mentions": [
+    "A006386",
+    "A104595",
+    "A104596",
+    "A215402",
+    "A239918",
+    "A239919"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

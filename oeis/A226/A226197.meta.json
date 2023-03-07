@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of vectors with 2*n integers such that each element is either 1 or -1, and their sum > n.",
+  "id": "A226197",
+  "mentions": [
+    "A094527"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

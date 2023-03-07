@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest term m in A173978 for which A020639(2m-3) = prime(n), n > 1.",
+  "id": "A173980",
+  "mentions": [
+    "A020639",
+    "A173977",
+    "A173978",
+    "A173979"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

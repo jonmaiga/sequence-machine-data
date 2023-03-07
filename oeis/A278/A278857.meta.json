@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = permanent M_n where M_n is the n X n matrix m(i,j) = (i-j)^2.",
+  "id": "A278857",
+  "mentions": [
+    "A085750",
+    "A085807",
+    "A204249",
+    "A278845",
+    "A278847",
+    "A278858"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

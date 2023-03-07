@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k+1 is a prime, k+2 is twice a prime, k+3 is three times a prime, and k+4 is four times a prime.",
+  "id": "A278585",
+  "mentions": [
+    "A006093",
+    "A036570",
+    "A074200",
+    "A089965",
+    "A163573",
+    "A278500",
+    "A278583"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

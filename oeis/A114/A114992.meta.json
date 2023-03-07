@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 2^a * 5^b * 7^c + 1 for positive a, b, c.",
+  "id": "A114992",
+  "mentions": [
+    "A000040",
+    "A005109",
+    "A030430"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A175851, the ordinal transform of the nextprime function, A151800.",
+  "id": "A317830",
+  "mentions": [
+    "A046644",
+    "A151800",
+    "A175851",
+    "A305791",
+    "A305805",
+    "A305806",
+    "A317833",
+    "A317834",
+    "A317847"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators in Taylor series for integral of tan(x)/x.",
+  "id": "A226180",
+  "mentions": [
+    "A000367",
+    "A002430",
+    "A002445",
+    "A036279"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

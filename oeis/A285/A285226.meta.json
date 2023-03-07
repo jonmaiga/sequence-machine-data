@@ -1,0 +1,24 @@
+{
+  "description": "Primes with integer arithmetic mean of digits = 5 in base 10.",
+  "id": "A285226",
+  "mentions": [
+    "A061388",
+    "A069709",
+    "A069710",
+    "A285096",
+    "A285225",
+    "A285227",
+    "A285228"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

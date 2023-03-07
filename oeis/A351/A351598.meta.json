@@ -1,0 +1,21 @@
+{
+  "description": "Digitally balanced numbers b (A031443) such that b^b is also digitally balanced.",
+  "id": "A351598",
+  "mentions": [
+    "A031443",
+    "A353139"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Greatest positive integer whose reversed (weakly decreasing) prime indices have weighted sum (A318283) equal to n.",
+  "id": "A359683",
+  "mentions": [
+    "A001222",
+    "A001248",
+    "A029931",
+    "A055932",
+    "A056239",
+    "A089633",
+    "A112798",
+    "A243055",
+    "A304818",
+    "A318283",
+    "A320387",
+    "A358136",
+    "A358137",
+    "A358194",
+    "A359043",
+    "A359361",
+    "A359497",
+    "A359676",
+    "A359678",
+    "A359679",
+    "A359681",
+    "A359682",
+    "A359755"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

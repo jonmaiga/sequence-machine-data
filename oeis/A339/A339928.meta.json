@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the removal of all terminating even digits from k! leaves a prime.",
+  "id": "A339928",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

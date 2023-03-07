@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with exactly 3 distinct odd prime divisors {3,5,7}.",
+  "id": "A147576",
+  "mentions": [
+    "A000244",
+    "A033849",
+    "A060735",
+    "A108347",
+    "A143207",
+    "A147571",
+    "A147575",
+    "A147577",
+    "A147578",
+    "A147579",
+    "A147580",
+    "A147581"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum over the products of factorials of parts in all partitions of n where the sum runs over the number of different parts only.",
+  "id": "A107894",
+  "mentions": [
+    "A077365",
+    "A107895",
+    "A256124"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = cpg(3, n) + cpg(4, n) + ... + cpg(n, n) where cpg(m, n) is the n-th m-th-order centered polygonal number.",
+  "id": "A257052",
+  "mentions": [
+    "A241452",
+    "A245679",
+    "A257051"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:55",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

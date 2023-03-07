@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n - k) * A357340(n, k).",
+  "id": "A357341",
+  "mentions": [
+    "A357340"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

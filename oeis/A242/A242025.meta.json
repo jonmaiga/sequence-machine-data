@@ -1,0 +1,28 @@
+{
+  "description": "Primes of the form R = 2^k-1+(2^k-2)/(2^(p-k)-1), where p are Mersenne prime exponents listed in A000043.",
+  "id": "A242025",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A002975",
+    "A006037",
+    "A242993",
+    "A242998",
+    "A242999",
+    "A243003",
+    "A258882",
+    "A320875"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

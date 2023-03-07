@@ -1,0 +1,26 @@
+{
+  "description": "Chebyshev polynomial of the first kind T(n,x), evaluated at x=n.",
+  "id": "A115066",
+  "mentions": [
+    "A053120",
+    "A107995",
+    "A173129",
+    "A322836",
+    "A323118",
+    "A349070",
+    "A349071",
+    "A349072"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

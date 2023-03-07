@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer that can be represented as the sum of exactly two semiprimes in exactly n ways.",
+  "id": "A100592",
+  "mentions": [
+    "A001358",
+    "A072931",
+    "A072966",
+    "A076768",
+    "A100570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Define F(n) = 2^(2^n)+1 = n-th Fermat number, M(n) = 2^n-1 = the n-th Mersenne number. Then a(n) = F(n)-M(n)-1 = 2^(2^n) - 2^n + 1.",
+  "id": "A119564",
+  "mentions": [
+    "A119550",
+    "A119563"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}
